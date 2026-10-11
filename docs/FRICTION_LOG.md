@@ -107,3 +107,11 @@ Only real entries. "Verified" means checked on 2026-10-11 against the official p
 - **Severity:** 4
 - **Workaround:** the deterministic router keeps the demo working without AWS.
 - **Suggestion:** confirm model access in the onboarding checklist.
+
+### 14. Assume an AWS role from GitHub Actions with OIDC
+- **Steps:** created an IAM role trusting `token.actions.githubusercontent.com` with `sub` StringLike `repo:altaga/Waypoint:*`, the pattern most guides show; ran `aws-actions/configure-aws-credentials`.
+- **Expected:** the role is assumed.
+- **Actual:** `Not authorized to perform sts:AssumeRoleWithWebIdentity`. Printing the token claims showed GitHub sends `sub=repo:altaga@16561990/Waypoint@1414257254:ref:refs/heads/<branch>`, a format with immutable owner and repository IDs, which the usual pattern does not match. (Verified 2026-10-11; the IDs were checked against the GitHub API before use.)
+- **Severity:** 3
+- **Workaround:** trust both patterns: `repo:altaga@16561990/Waypoint@1414257254:*` and `repo:altaga/Waypoint:*`.
+- **Suggestion:** the AWS and GitHub OIDC guides should show the ID-qualified `sub` format, and the action's error could print the received `sub`.
