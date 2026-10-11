@@ -30,6 +30,13 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Show OIDC claims (claims only, never the token)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const token = await core.getIDToken("sts.amazonaws.com");
+            const claims = JSON.parse(Buffer.from(token.split(".")[1], "base64url").toString());
+            for (const k of ["iss", "aud", "sub", "repository", "ref", "repository_owner"]) core.info(`${k}=${claims[k]}`);
       - name: Assume the deploy role through OIDC
         uses: aws-actions/configure-aws-credentials@v4
         with:
