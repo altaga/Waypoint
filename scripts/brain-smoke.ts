@@ -26,8 +26,12 @@ async function main() {
     console.log(`QUESTION: ${question}`);
     console.log(`ANSWER (${ms} ms):\n${answer}`);
     if (!answer.trim()) throw new Error("empty answer");
-    const grounded = /vape|e-cigarette|vaporiser/i.test(answer);
-    console.log(`GROUNDED IN THE SINGAPORE RULE: ${grounded ? "yes" : "no"}`);
+    // Grounded = the answer uses the cited rule and does not fall back to the model's memory.
+    const usesRule = /confiscat|fined|vaporiser/i.test(answer);
+    const fellBack = /general knowledge|didn.t return|did not return|as far as i know/i.test(answer);
+    const grounded = usesRule && !fellBack;
+    console.log(`GROUNDED IN THE CITED SINGAPORE RULE: ${grounded ? "yes" : "no"}`);
+    if (!grounded) throw new Error("answer is not grounded in the cited rule");
   } finally {
     server.closeAllConnections();
     server.close();

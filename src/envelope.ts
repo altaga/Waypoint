@@ -65,7 +65,13 @@ export interface ToolResult {
 
 export function envelopeResult(env: Envelope, meta?: Record<string, unknown>): ToolResult {
   return {
-    content: [{ type: "text", text: env.voice }],
+    // Block 1: the voice summary. Block 2: the structured result serialized, as the
+    // MCP spec recommends for clients that only read text content (for example an
+    // LLM agent). Hosts that render structuredContent use that instead.
+    content: [
+      { type: "text", text: env.voice },
+      { type: "text", text: JSON.stringify(env) },
+    ],
     structuredContent: env as unknown as Record<string, unknown>,
     ...(meta ? { _meta: meta } : {}),
   };
