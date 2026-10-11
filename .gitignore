@@ -147,3 +147,7 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Waypoint local data (never commit)
+data/state.json
+data/raw/
