@@ -116,7 +116,7 @@ Pack status is **tier B, machine-extracted** until a human reviewer signs off. T
 - `web/` simulated Alexa+ host (plain ES modules, no build step)
 - `scripts/` data pipeline and checks
 - `packs/` built country packs · `data/sources-text/` source text for quote checks · `data/vendor/` vendored snapshots
-- `src/brain.ts` Strands brain (optional, untested against Bedrock; see `docs/AWS.md`)
+- `src/brain.ts` Strands brain on Bedrock (optional; verified live by the `aws-smoke` workflow, see `docs/AWS.md`)
 - `skills/waypoint/SKILL.md` Agent Skill with voice and routing rules
 - `oss/travel-entry-packs/` open-source schema, validator and sample packs (separate MIT package)
 - `docs/` SUBMISSION (official checklist), STATUS, TESTING, FEEDBACK, FRICTION_LOG, DEMO_SCRIPT, AWS, OPEN_SOURCE, DATA_REVIEW
