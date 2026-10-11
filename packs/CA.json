@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "CA",
+  "names": {
+    "en": "Canada",
+    "es": "Canadá"
+  },
+  "generatedAt": "2026-10-11",
+  "tier": "B",
+  "review": {
+    "status": "machine_extracted",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "localRules": [
+    {
+      "id": "ca-drugs-1",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through the airport."
+      },
+      "quote": "You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through the airport.",
+      "sources": [
+        "src:fcdo-ca-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ca-drugs-2",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Those who attempt to take cannabis out of Canada without the relevant permit face arrest."
+      },
+      "quote": "Those who attempt to take cannabis out of Canada without the relevant permit face arrest.",
+      "sources": [
+        "src:fcdo-ca-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ca-drugs-3",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Illegal drugs carry severe penalties. You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through the airport."
+      },
+      "quote": "Illegal drugs carry severe penalties. You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through the airport.",
+      "sources": [
+        "src:fcdo-ca-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ca-drugs-4",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Drug smuggling can lead to large fines, a permanent ban from Canada, and jail time."
+      },
+      "quote": "Drug smuggling can lead to large fines, a permanent ban from Canada, and jail time.",
+      "sources": [
+        "src:state-ca-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ca-prohibited-items-5",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "Officials will not return confiscated firearms, ammunition or weapons."
+      },
+      "quote": "Officials will not return confiscated firearms, ammunition or weapons.",
+      "sources": [
+        "src:state-ca-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ca-medications-6",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Take your prescription medication in the original pharmacy labeled packaging."
+      },
+      "quote": "Take your prescription medication in the original pharmacy labeled packaging.",
+      "sources": [
+        "src:state-ca-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ca-medications-7",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Bring a copy of your doctor’s prescription."
+      },
+      "quote": "Bring a copy of your doctor’s prescription.",
+      "sources": [
+        "src:state-ca-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    }
+  ],
+  "essentials": {
+    "currency": "CAD",
+    "plugTypes": [
+      "NEMA 1-15",
+      "NEMA 5-15"
+    ],
+    "emergency": {
+      "number1": "http://www.wikidata.org/entity/Q533806"
+    },
+    "languages": [
+      "en",
+      "fr"
+    ]
+  },
+  "advisory": {
+    "us": {
+      "level": 1,
+      "title": "Canada - Level 1: Exercise Normal Precautions",
+      "date": "2026-06-04"
+    }
+  },
+  "sources": {
+    "src:fcdo-ca-entry-requirements": {
+      "title": "FCDO travel advice: Canada - Entry requirements",
+      "url": "https://www.gov.uk/foreign-travel-advice/canada/entry-requirements",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-ca-safety-and-security": {
+      "title": "FCDO travel advice: Canada - Safety and security",
+      "url": "https://www.gov.uk/foreign-travel-advice/canada/safety-and-security",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-ca-health": {
+      "title": "FCDO travel advice: Canada - Health",
+      "url": "https://www.gov.uk/foreign-travel-advice/canada/health",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-ca-local-laws-and-special-circumstances": {
+      "title": "US State Dept: Canada - local laws and special circumstances",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.can.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-ca-entry-exit-requirements": {
+      "title": "US State Dept: Canada - entry exit requirements",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.can.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-ca-health": {
+      "title": "US State Dept: Canada - health",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.can.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    }
+  },
+  "disclaimer": {
+    "en": "Rules change; verify with the official source before you travel.",
+    "es": "Las reglas cambian; verifica con la fuente oficial antes de viajar."
+  }
+}

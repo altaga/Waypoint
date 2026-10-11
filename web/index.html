@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulated Alexa+ host · Waypoint</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <strong>Waypoint</strong> <span class="muted">· simulated Alexa+ host, not affiliated with Amazon</span>
+  </div>
+  <div class="controls">
+    <select id="lang" aria-label="Language">
+      <option value="en">English</option>
+      <option value="es">Español</option>
+    </select>
+    <select id="device" aria-label="Device">
+      <option value="show">Echo Show</option>
+      <option value="mobile">Mobile</option>
+      <option value="voice">Voice only</option>
+    </select>
+    <label class="toggle"><input type="checkbox" id="voiceOut" checked> <span id="lblVoiceOut">Speak</span></label>
+    <button id="demoGroup" type="button">Demo group</button>
+    <button id="reset" type="button">New session</button>
+  </div>
+</header>
+
+<main class="layout">
+  <section class="frame" id="frame" data-device="show">
+    <div class="screen">
+      <div class="status"><span id="connState">connecting…</span></div>
+      <div class="cards" id="cards"></div>
+      <div class="apps" id="apps"></div>
+      <div class="form" id="form" hidden></div>
+    </div>
+    <div class="transcript" id="transcript" aria-live="polite"></div>
+    <form class="input" id="inputForm">
+      <button type="button" id="mic" aria-label="Speak">🎤</button>
+      <input id="text" type="text" autocomplete="off" placeholder="Type or speak" />
+      <button type="submit" id="send">Send</button>
+    </form>
+    <p class="hint" id="brainMode"></p>
+  </section>
+
+  <aside class="side">
+    <details open>
+      <summary id="lblProtocol">Protocol log</summary>
+      <pre id="log" class="log"></pre>
+    </details>
+    <details>
+      <summary id="lblAbout">About this host</summary>
+      <p class="small" id="aboutText"></p>
+    </details>
+  </aside>
+</main>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "travel-entry-packs",
+  "version": "0.1.0",
+  "description": "Country entry-rule packs with verbatim, source-checked quotes: JSON schema, validator and sample packs.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "validate": "tsx bin/validate.ts examples",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "bin": { "travel-entry-packs": "bin/validate.ts" },
+  "dependencies": { "zod": "^4.6.5" },
+  "devDependencies": { "tsx": "^4.19.0", "typescript": "^5.6.0", "@types/node": "^22.0.0" },
+  "engines": { "node": ">=22" }
+}

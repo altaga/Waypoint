@@ -1,0 +1,281 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "ES",
+  "names": {
+    "en": "Spain",
+    "es": "España"
+  },
+  "generatedAt": "2026-10-11",
+  "tier": "B",
+  "review": {
+    "status": "machine_extracted",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "localRules": [
+    {
+      "id": "es-conduct-1",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Ignoring direct requests of a police officer can be considered as ‘disobedience’, which is a criminal offence."
+      },
+      "quote": "Ignoring direct requests of a police officer can be considered as ‘disobedience’, which is a criminal offence.",
+      "sources": [
+        "src:fcdo-es-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "es-drugs-2",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports."
+      },
+      "quote": "You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports.",
+      "sources": [
+        "src:fcdo-es-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "es-drugs-3",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Possession of even a small quantity of drugs can lead to arrest and detention."
+      },
+      "quote": "Possession of even a small quantity of drugs can lead to arrest and detention.",
+      "sources": [
+        "src:fcdo-es-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "es-conduct-4",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Causing a wildfire is a criminal offence in Spain, even if unintentional."
+      },
+      "quote": "Causing a wildfire is a criminal offence in Spain, even if unintentional.",
+      "sources": [
+        "src:fcdo-es-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "es-drugs-5",
+      "category": "drugs",
+      "severity": "fine",
+      "summary": {
+        "en": "Illegal drugs, including cannabis, carry severe penalties."
+      },
+      "quote": "Illegal drugs, including cannabis, carry severe penalties.",
+      "sources": [
+        "src:fcdo-es-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "es-conduct-6",
+      "category": "conduct",
+      "severity": "fine",
+      "summary": {
+        "en": "The police can give you on-the-spot fines for a variety of driving offences including speeding."
+      },
+      "quote": "The police can give you on-the-spot fines for a variety of driving offences including speeding.",
+      "sources": [
+        "src:fcdo-es-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "es-conduct-7",
+      "category": "conduct",
+      "severity": "fine",
+      "summary": {
+        "en": "Incorrect installation of a child seat or not wearing a seatbelt can be considered a serious offence and met with fines."
+      },
+      "quote": "Incorrect installation of a child seat or not wearing a seatbelt can be considered a serious offence and met with fines.",
+      "sources": [
+        "src:fcdo-es-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "es-drugs-8",
+      "category": "drugs",
+      "severity": "fine",
+      "summary": {
+        "en": "Penalties for possessing, using, or trafficking in illegal drugs in El Salvador are severe."
+      },
+      "quote": "Penalties for possessing, using, or trafficking in illegal drugs in El Salvador are severe.",
+      "sources": [
+        "src:state-es-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "es-alcohol-9",
+      "category": "alcohol",
+      "severity": "info",
+      "summary": {
+        "en": "It’s illegal to drink alcohol in the street in some areas of Spain."
+      },
+      "quote": "It’s illegal to drink alcohol in the street in some areas of Spain.",
+      "sources": [
+        "src:fcdo-es-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "es-alcohol-10",
+      "category": "alcohol",
+      "severity": "info",
+      "summary": {
+        "en": "Alcohol laws in the Balearic Islands"
+      },
+      "quote": "Alcohol laws in the Balearic Islands",
+      "sources": [
+        "src:fcdo-es-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "es-alcohol-11",
+      "category": "alcohol",
+      "severity": "info",
+      "summary": {
+        "en": "Local laws limit the sale and availability of alcohol in areas of some resorts on the Balearic Islands, including:"
+      },
+      "quote": "Local laws limit the sale and availability of alcohol in areas of some resorts on the Balearic Islands, including:",
+      "sources": [
+        "src:fcdo-es-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "es-dress-12",
+      "category": "dress",
+      "severity": "info",
+      "summary": {
+        "en": "Dress code"
+      },
+      "quote": "Dress code",
+      "sources": [
+        "src:fcdo-es-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "es-medications-13",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Antiretroviral medication with a prescription can be imported for personal use and for the duration of stay."
+      },
+      "quote": "Antiretroviral medication with a prescription can be imported for personal use and for the duration of stay.",
+      "sources": [
+        "src:state-es-entry-exit-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "es-medications-14",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Always carry your prescription medication in original packaging, along with your doctor’s prescription."
+      },
+      "quote": "Always carry your prescription medication in original packaging, along with your doctor’s prescription.",
+      "sources": [
+        "src:state-es-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    }
+  ],
+  "essentials": {
+    "currency": "EUR",
+    "plugTypes": [
+      "Schuko",
+      "Europlug"
+    ],
+    "emergency": {
+      "number1": "http://www.wikidata.org/entity/Q1061257",
+      "number2": "http://www.wikidata.org/entity/Q25648909",
+      "number3": "http://www.wikidata.org/entity/Q25648910"
+    },
+    "languages": [
+      "es",
+      "eu",
+      "ca",
+      "gl",
+      "oc"
+    ]
+  },
+  "advisory": {
+    "us": {
+      "level": 1,
+      "title": "El Salvador - Level 1: Exercise Normal Precautions",
+      "date": "2026-06-24"
+    }
+  },
+  "sources": {
+    "src:fcdo-es-entry-requirements": {
+      "title": "FCDO travel advice: Spain - Entry requirements",
+      "url": "https://www.gov.uk/foreign-travel-advice/spain/entry-requirements",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-es-safety-and-security": {
+      "title": "FCDO travel advice: Spain - Safety and security",
+      "url": "https://www.gov.uk/foreign-travel-advice/spain/safety-and-security",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-es-health": {
+      "title": "FCDO travel advice: Spain - Health",
+      "url": "https://www.gov.uk/foreign-travel-advice/spain/health",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-es-local-laws-and-special-circumstances": {
+      "title": "US State Dept: Spain - local laws and special circumstances",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.slv.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-es-entry-exit-requirements": {
+      "title": "US State Dept: Spain - entry exit requirements",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.slv.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-es-health": {
+      "title": "US State Dept: Spain - health",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.slv.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    }
+  },
+  "disclaimer": {
+    "en": "Rules change; verify with the official source before you travel.",
+    "es": "Las reglas cambian; verifica con la fuente oficial antes de viajar."
+  }
+}

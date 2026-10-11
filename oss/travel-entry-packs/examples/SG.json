@@ -1,0 +1,306 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SG",
+  "names": {
+    "en": "Singapore",
+    "es": "Singapur"
+  },
+  "generatedAt": "2026-10-11",
+  "tier": "B",
+  "review": {
+    "status": "machine_extracted",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "localRules": [
+    {
+      "id": "sg-drugs-1",
+      "category": "drugs",
+      "severity": "severe",
+      "summary": {
+        "en": "If you are carrying or transporting drugs, you can be imprisoned, caned or executed ."
+      },
+      "quote": "If you are carrying or transporting drugs, you can be imprisoned, caned or executed .",
+      "sources": [
+        "src:fcdo-sg-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-drugs-2",
+      "category": "drugs",
+      "severity": "severe",
+      "summary": {
+        "en": "Penalties for drug possession, including cannabis, are severe. If you are carrying or transporting drugs, you can be imprisoned, caned or executed ."
+      },
+      "quote": "Penalties for drug possession, including cannabis, are severe. If you are carrying or transporting drugs, you can be imprisoned, caned or executed .",
+      "sources": [
+        "src:fcdo-sg-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-drugs-3",
+      "category": "drugs",
+      "severity": "severe",
+      "summary": {
+        "en": "It’s illegal to import controlled drugs . If convicted, you could be imprisoned, caned or executed ."
+      },
+      "quote": "It’s illegal to import controlled drugs . If convicted, you could be imprisoned, caned or executed .",
+      "sources": [
+        "src:fcdo-sg-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-drugs-4",
+      "category": "drugs",
+      "severity": "severe",
+      "summary": {
+        "en": "A death penalty is a possibility for some offences, including murder and drug trafficking."
+      },
+      "quote": "A death penalty is a possibility for some offences, including murder and drug trafficking.",
+      "sources": [
+        "src:fcdo-sg-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-alcohol-5",
+      "category": "alcohol",
+      "severity": "arrest",
+      "summary": {
+        "en": "Driving under the influence of alcohol carries serious penalties including imprisonment."
+      },
+      "quote": "Driving under the influence of alcohol carries serious penalties including imprisonment.",
+      "sources": [
+        "src:fcdo-sg-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-prohibited-items-6",
+      "category": "prohibited_items",
+      "severity": "fine",
+      "summary": {
+        "en": "Those found in possession of vapes or e-cigarettes will have them confiscated and could be fined."
+      },
+      "quote": "Those found in possession of vapes or e-cigarettes will have them confiscated and could be fined.",
+      "sources": [
+        "src:fcdo-sg-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-prohibited-items-7",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "The following items are also illegal to bring into Singapore:"
+      },
+      "quote": "The following items are also illegal to bring into Singapore:",
+      "sources": [
+        "src:fcdo-sg-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-prohibited-items-8",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "vaporisers and e-cigarettes"
+      },
+      "quote": "vaporisers and e-cigarettes",
+      "sources": [
+        "src:fcdo-sg-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-prohibited-items-9",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "chewing gum to sell"
+      },
+      "quote": "chewing gum to sell",
+      "sources": [
+        "src:fcdo-sg-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-conduct-10",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "The public display of the national flags or emblems of other countries is illegal except where a specific exemption has been granted."
+      },
+      "quote": "The public display of the national flags or emblems of other countries is illegal except where a specific exemption has been granted.",
+      "sources": [
+        "src:fcdo-sg-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-conduct-11",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "It is illegal to use the Singapore flag and national symbols in ways considered disrespectful."
+      },
+      "quote": "It is illegal to use the Singapore flag and national symbols in ways considered disrespectful.",
+      "sources": [
+        "src:fcdo-sg-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-conduct-12",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "Disrespecting or intimidating a public official can be illegal."
+      },
+      "quote": "Disrespecting or intimidating a public official can be illegal.",
+      "sources": [
+        "src:fcdo-sg-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-alcohol-13",
+      "category": "alcohol",
+      "severity": "info",
+      "summary": {
+        "en": "It is illegal to drink alcohol in a public place, besides restaurants, bars and licensed entertainment venues, between 10:30pm and 7am."
+      },
+      "quote": "It is illegal to drink alcohol in a public place, besides restaurants, bars and licensed entertainment venues, between 10:30pm and 7am.",
+      "sources": [
+        "src:fcdo-sg-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-photography-14",
+      "category": "photography",
+      "severity": "info",
+      "summary": {
+        "en": "Filming an illegal gathering is forbidden."
+      },
+      "quote": "Filming an illegal gathering is forbidden.",
+      "sources": [
+        "src:fcdo-sg-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-dress-15",
+      "category": "dress",
+      "severity": "info",
+      "summary": {
+        "en": "The wearing of ‘cause-related’ clothing and displaying ‘cause -related’ banners is prohibited in public."
+      },
+      "quote": "The wearing of ‘cause-related’ clothing and displaying ‘cause -related’ banners is prohibited in public.",
+      "sources": [
+        "src:fcdo-sg-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "sg-dress-16",
+      "category": "dress",
+      "severity": "info",
+      "summary": {
+        "en": "Outrage of modesty"
+      },
+      "quote": "Outrage of modesty",
+      "sources": [
+        "src:fcdo-sg-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    }
+  ],
+  "essentials": {
+    "currency": "SGD",
+    "plugTypes": [
+      "BS 1363"
+    ],
+    "emergency": {
+      "number1": "http://www.wikidata.org/entity/Q3086706",
+      "number2": "http://www.wikidata.org/entity/Q25267554"
+    },
+    "languages": [
+      "en",
+      "ms",
+      "ta",
+      "zh"
+    ]
+  },
+  "advisory": {
+    "us": {
+      "level": 1,
+      "title": "Senegal - Level 1: Exercise Normal Precautions",
+      "date": "2025-11-30"
+    }
+  },
+  "sources": {
+    "src:fcdo-sg-entry-requirements": {
+      "title": "FCDO travel advice: Singapore - Entry requirements",
+      "url": "https://www.gov.uk/foreign-travel-advice/singapore/entry-requirements",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-sg-safety-and-security": {
+      "title": "FCDO travel advice: Singapore - Safety and security",
+      "url": "https://www.gov.uk/foreign-travel-advice/singapore/safety-and-security",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-sg-health": {
+      "title": "FCDO travel advice: Singapore - Health",
+      "url": "https://www.gov.uk/foreign-travel-advice/singapore/health",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-sg-local-laws-and-special-circumstances": {
+      "title": "US State Dept: Singapore - local laws and special circumstances",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sen.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-sg-entry-exit-requirements": {
+      "title": "US State Dept: Singapore - entry exit requirements",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sen.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-sg-health": {
+      "title": "US State Dept: Singapore - health",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sen.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    }
+  },
+  "disclaimer": {
+    "en": "Rules change; verify with the official source before you travel.",
+    "es": "Las reglas cambian; verifica con la fuente oficial antes de viajar."
+  }
+}

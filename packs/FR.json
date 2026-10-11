@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "FR",
+  "names": {
+    "en": "France",
+    "es": "Francia"
+  },
+  "generatedAt": "2026-10-11",
+  "tier": "B",
+  "review": {
+    "status": "machine_extracted",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "localRules": [
+    {
+      "id": "fr-drugs-1",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Illegal drugs, including cannabis, carry severe penalties including imprisonment and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports, ports and Eurostar stations."
+      },
+      "quote": "Illegal drugs, including cannabis, carry severe penalties including imprisonment and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports, ports and Eurostar stations.",
+      "sources": [
+        "src:fcdo-fr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "fr-drugs-2",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Individuals who violate France’s drug laws may face penalties including prison sentences."
+      },
+      "quote": "Individuals who violate France’s drug laws may face penalties including prison sentences.",
+      "sources": [
+        "src:state-fr-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "fr-drugs-3",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "In France and Monaco, driving under the influence of drugs or alcohol could result in your immediate arrest and detention."
+      },
+      "quote": "In France and Monaco, driving under the influence of drugs or alcohol could result in your immediate arrest and detention.",
+      "sources": [
+        "src:state-fr-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "fr-conduct-4",
+      "category": "conduct",
+      "severity": "fine",
+      "summary": {
+        "en": "Police give you on-the-spot fines for driving offences, including speeding."
+      },
+      "quote": "Police give you on-the-spot fines for driving offences, including speeding.",
+      "sources": [
+        "src:fcdo-fr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "fr-drugs-5",
+      "category": "drugs",
+      "severity": "info",
+      "summary": {
+        "en": "Illegal drugs"
+      },
+      "quote": "Illegal drugs",
+      "sources": [
+        "src:fcdo-fr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "fr-medications-6",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Always carry your prescription medication in original packaging with your doctor’s prescription."
+      },
+      "quote": "Always carry your prescription medication in original packaging with your doctor’s prescription.",
+      "sources": [
+        "src:state-fr-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    }
+  ],
+  "essentials": {
+    "currency": "EUR",
+    "plugTypes": [
+      "Europlug",
+      "Type E"
+    ],
+    "emergency": {
+      "number1": "http://www.wikidata.org/entity/Q1061257",
+      "number2": "http://www.wikidata.org/entity/Q2945964",
+      "number3": "http://www.wikidata.org/entity/Q25648842",
+      "number4": "http://www.wikidata.org/entity/Q25648843",
+      "number5": "http://www.wikidata.org/entity/Q25648869"
+    },
+    "languages": [
+      "fr"
+    ]
+  },
+  "advisory": {
+    "us": {
+      "level": 2,
+      "title": "France - Level 2: Exercise Increased Caution",
+      "date": "2025-05-27"
+    }
+  },
+  "sources": {
+    "src:fcdo-fr-entry-requirements": {
+      "title": "FCDO travel advice: France - Entry requirements",
+      "url": "https://www.gov.uk/foreign-travel-advice/france/entry-requirements",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-fr-safety-and-security": {
+      "title": "FCDO travel advice: France - Safety and security",
+      "url": "https://www.gov.uk/foreign-travel-advice/france/safety-and-security",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-fr-health": {
+      "title": "FCDO travel advice: France - Health",
+      "url": "https://www.gov.uk/foreign-travel-advice/france/health",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-fr-local-laws-and-special-circumstances": {
+      "title": "US State Dept: France - local laws and special circumstances",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.fra.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-fr-entry-exit-requirements": {
+      "title": "US State Dept: France - entry exit requirements",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.fra.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-fr-health": {
+      "title": "US State Dept: France - health",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.fra.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    }
+  },
+  "disclaimer": {
+    "en": "Rules change; verify with the official source before you travel.",
+    "es": "Las reglas cambian; verifica con la fuente oficial antes de viajar."
+  }
+}

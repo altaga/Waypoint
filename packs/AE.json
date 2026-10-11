@@ -1,0 +1,307 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "AE",
+  "names": {
+    "en": "United Arab Emirates",
+    "es": "Emiratos Árabes Unidos"
+  },
+  "generatedAt": "2026-10-11",
+  "tier": "B",
+  "review": {
+    "status": "machine_extracted",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "localRules": [
+    {
+      "id": "ae-drugs-1",
+      "category": "drugs",
+      "severity": "severe",
+      "summary": {
+        "en": "Sentences for drug trafficking can include the death penalty."
+      },
+      "quote": "Sentences for drug trafficking can include the death penalty.",
+      "sources": [
+        "src:fcdo-ae-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-conduct-2",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "British nationals have been arrested and charged under this law, often in cases where they have come to the attention of the police for a related offence, such as disorderly or offensive behaviour."
+      },
+      "quote": "British nationals have been arrested and charged under this law, often in cases where they have come to the attention of the police for a related offence, such as disorderly or offensive behaviour.",
+      "sources": [
+        "src:fcdo-ae-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-drugs-3",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Possession of even the smallest amount of illegal drugs, including cannabis, can lead to a minimum 3-month prison term or a fine of between 20,000 UAE dirham and 100,000 UAE dirham."
+      },
+      "quote": "Possession of even the smallest amount of illegal drugs, including cannabis, can lead to a minimum 3-month prison term or a fine of between 20,000 UAE dirham and 100,000 UAE dirham.",
+      "sources": [
+        "src:fcdo-ae-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-drugs-4",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "You can be arrested for carrying drugs, even residual amounts."
+      },
+      "quote": "You can be arrested for carrying drugs, even residual amounts.",
+      "sources": [
+        "src:fcdo-ae-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-photography-5",
+      "category": "photography",
+      "severity": "arrest",
+      "summary": {
+        "en": "Men have been arrested for photographing women on beaches."
+      },
+      "quote": "Men have been arrested for photographing women on beaches.",
+      "sources": [
+        "src:fcdo-ae-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-drugs-6",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Possessing, concealing or making transactions with money from drugs-related offences is illegal. You could get a prison sentence and a fine."
+      },
+      "quote": "Possessing, concealing or making transactions with money from drugs-related offences is illegal. You could get a prison sentence and a fine.",
+      "sources": [
+        "src:fcdo-ae-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-photography-7",
+      "category": "photography",
+      "severity": "arrest",
+      "summary": {
+        "en": "Do not photograph people without their permission. Men have been arrested for photographing women on beaches."
+      },
+      "quote": "Do not photograph people without their permission. Men have been arrested for photographing women on beaches.",
+      "sources": [
+        "src:fcdo-ae-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-alcohol-8",
+      "category": "alcohol",
+      "severity": "arrest",
+      "summary": {
+        "en": "Persons arrested on alcohol-related offenses are regularly detained for many days as they await a court hearing."
+      },
+      "quote": "Persons arrested on alcohol-related offenses are regularly detained for many days as they await a court hearing.",
+      "sources": [
+        "src:state-ae-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-photography-9",
+      "category": "photography",
+      "severity": "arrest",
+      "summary": {
+        "en": "Drone Operation: The flying of drones is prohibited in certain areas and may result in arrest and imprisonment."
+      },
+      "quote": "Drone Operation: The flying of drones is prohibited in certain areas and may result in arrest and imprisonment.",
+      "sources": [
+        "src:state-ae-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-lgbtq-10",
+      "category": "lgbtq",
+      "severity": "arrest",
+      "summary": {
+        "en": "Consulate General are not aware of any recent arrests or prosecutions for consensual, same-sex relations and cross-dressing, they remain illegal in the UAE."
+      },
+      "quote": "Consulate General are not aware of any recent arrests or prosecutions for consensual, same-sex relations and cross-dressing, they remain illegal in the UAE.",
+      "sources": [
+        "src:state-ae-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-dress-11",
+      "category": "dress",
+      "severity": "fine",
+      "summary": {
+        "en": "Penalties for public displays of affection or immodesty may be imposed."
+      },
+      "quote": "Penalties for public displays of affection or immodesty may be imposed.",
+      "sources": [
+        "src:state-ae-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-prohibited-items-12",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "It is illegal to bring pork products or pornography into the UAE ."
+      },
+      "quote": "It is illegal to bring pork products or pornography into the UAE .",
+      "sources": [
+        "src:fcdo-ae-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-prohibited-items-13",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "If you intend to bring restricted items to the UAE , read the UAE customs clearance portal ."
+      },
+      "quote": "If you intend to bring restricted items to the UAE , read the UAE customs clearance portal .",
+      "sources": [
+        "src:fcdo-ae-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-prohibited-items-14",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "It is illegal to bring pork products or pornography into the UAE . Videos, books, and magazines may be subject to scrutiny and may be censored."
+      },
+      "quote": "It is illegal to bring pork products or pornography into the UAE . Videos, books, and magazines may be subject to scrutiny and may be censored.",
+      "sources": [
+        "src:fcdo-ae-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-prohibited-items-15",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "Weapons and related equipment"
+      },
+      "quote": "Weapons and related equipment",
+      "sources": [
+        "src:fcdo-ae-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "ae-medications-16",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Medication"
+      },
+      "quote": "Medication",
+      "sources": [
+        "src:fcdo-ae-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    }
+  ],
+  "essentials": {
+    "currency": "AED",
+    "plugTypes": [
+      "Europlug",
+      "BS 1363",
+      "AC power plugs and sockets: British and related types"
+    ],
+    "emergency": {
+      "number1": "http://www.wikidata.org/entity/Q1061257",
+      "number2": "http://www.wikidata.org/entity/Q3086706",
+      "number3": "http://www.wikidata.org/entity/Q25648827",
+      "number4": "http://www.wikidata.org/entity/Q25648832"
+    },
+    "languages": [
+      "ar"
+    ]
+  },
+  "advisory": {
+    "us": {
+      "level": 3,
+      "title": "United Arab Emirates - Level 3: Reconsider Travel",
+      "date": "2026-08-28"
+    }
+  },
+  "sources": {
+    "src:fcdo-ae-entry-requirements": {
+      "title": "FCDO travel advice: United Arab Emirates - Entry requirements",
+      "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates/entry-requirements",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-ae-safety-and-security": {
+      "title": "FCDO travel advice: United Arab Emirates - Safety and security",
+      "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates/safety-and-security",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-ae-health": {
+      "title": "FCDO travel advice: United Arab Emirates - Health",
+      "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates/health",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-ae-local-laws-and-special-circumstances": {
+      "title": "US State Dept: United Arab Emirates - local laws and special circumstances",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.are.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-ae-entry-exit-requirements": {
+      "title": "US State Dept: United Arab Emirates - entry exit requirements",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.are.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-ae-health": {
+      "title": "US State Dept: United Arab Emirates - health",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.are.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    }
+  },
+  "disclaimer": {
+    "en": "Rules change; verify with the official source before you travel.",
+    "es": "Las reglas cambian; verifica con la fuente oficial antes de viajar."
+  }
+}

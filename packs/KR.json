@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "KR",
+  "names": {
+    "en": "South Korea",
+    "es": "Corea del Sur"
+  },
+  "generatedAt": "2026-10-11",
+  "tier": "B",
+  "review": {
+    "status": "machine_extracted",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "localRules": [
+    {
+      "id": "kr-drugs-1",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "If you’re convicted of possession, use or trafficking of illegal drugs you can face a long jail sentence and heavy fines."
+      },
+      "quote": "If you’re convicted of possession, use or trafficking of illegal drugs you can face a long jail sentence and heavy fines.",
+      "sources": [
+        "src:fcdo-kr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "kr-alcohol-2",
+      "category": "alcohol",
+      "severity": "arrest",
+      "summary": {
+        "en": "The legal limit for alcohol in South Korea is less than half the limit in England, and penalties for drink-driving include prison and fines."
+      },
+      "quote": "The legal limit for alcohol in South Korea is less than half the limit in England, and penalties for drink-driving include prison and fines.",
+      "sources": [
+        "src:fcdo-kr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "kr-lgbtq-3",
+      "category": "lgbtq",
+      "severity": "arrest",
+      "summary": {
+        "en": "LGB Travelers: Consensual same-sex sexual conduct between men and between women is illegal, with a maximum penalty of five to 14 years’ imprisonment, depending on the nature of the offense."
+      },
+      "quote": "LGB Travelers: Consensual same-sex sexual conduct between men and between women is illegal, with a maximum penalty of five to 14 years’ imprisonment, depending on the nature of the offense.",
+      "sources": [
+        "src:state-kr-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "kr-drugs-4",
+      "category": "drugs",
+      "severity": "info",
+      "summary": {
+        "en": "Take an English language prescription from your doctor at home for both your prescription drugs and non-prescription medicines."
+      },
+      "quote": "Take an English language prescription from your doctor at home for both your prescription drugs and non-prescription medicines.",
+      "sources": [
+        "src:fcdo-kr-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "kr-prohibited-items-5",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "Kiribati’s customs authorities strictly prohibit the importation of firearms, ammunition, explosives, counterfeit money and goods, knives, and indecent publications or pornography."
+      },
+      "quote": "Kiribati’s customs authorities strictly prohibit the importation of firearms, ammunition, explosives, counterfeit money and goods, knives, and indecent publications or pornography.",
+      "sources": [
+        "src:state-kr-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "kr-medications-6",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Always carry your prescription medication in original packaging, along with your doctor’s prescription."
+      },
+      "quote": "Always carry your prescription medication in original packaging, along with your doctor’s prescription.",
+      "sources": [
+        "src:state-kr-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    }
+  ],
+  "essentials": {
+    "currency": "KRW",
+    "plugTypes": [
+      "Schuko",
+      "Europlug"
+    ],
+    "emergency": {
+      "number1": "http://www.wikidata.org/entity/Q1061257",
+      "number2": "http://www.wikidata.org/entity/Q2807090",
+      "number3": "http://www.wikidata.org/entity/Q25648804"
+    },
+    "languages": [
+      "ko"
+    ]
+  },
+  "advisory": {
+    "us": {
+      "level": 1,
+      "title": "Kiribati - Level 1: Exercise Normal Precautions",
+      "date": "2024-12-01"
+    }
+  },
+  "sources": {
+    "src:fcdo-kr-entry-requirements": {
+      "title": "FCDO travel advice: South Korea - Entry requirements",
+      "url": "https://www.gov.uk/foreign-travel-advice/south-korea/entry-requirements",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-kr-safety-and-security": {
+      "title": "FCDO travel advice: South Korea - Safety and security",
+      "url": "https://www.gov.uk/foreign-travel-advice/south-korea/safety-and-security",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-kr-health": {
+      "title": "FCDO travel advice: South Korea - Health",
+      "url": "https://www.gov.uk/foreign-travel-advice/south-korea/health",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-kr-local-laws-and-special-circumstances": {
+      "title": "US State Dept: South Korea - local laws and special circumstances",
+      "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kiribati-travel-advisory.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-kr-entry-exit-requirements": {
+      "title": "US State Dept: South Korea - entry exit requirements",
+      "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kiribati-travel-advisory.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-kr-health": {
+      "title": "US State Dept: South Korea - health",
+      "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kiribati-travel-advisory.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    }
+  },
+  "disclaimer": {
+    "en": "Rules change; verify with the official source before you travel.",
+    "es": "Las reglas cambian; verifica con la fuente oficial antes de viajar."
+  }
+}

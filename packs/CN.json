@@ -1,0 +1,264 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "CN",
+  "names": {
+    "en": "China",
+    "es": "China"
+  },
+  "generatedAt": "2026-10-11",
+  "tier": "B",
+  "review": {
+    "status": "machine_extracted",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "localRules": [
+    {
+      "id": "cn-conduct-1",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "if an offence does not meet the threshold for criminal proceedings, the police still have the right to sentence someone for up to 15 days administrative detention without trial"
+      },
+      "quote": "if an offence does not meet the threshold for criminal proceedings, the police still have the right to sentence someone for up to 15 days administrative detention without trial",
+      "sources": [
+        "src:fcdo-cn-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "cn-drugs-2",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Illegal drugs penalties and prison sentences"
+      },
+      "quote": "Illegal drugs penalties and prison sentences",
+      "sources": [
+        "src:fcdo-cn-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "cn-alcohol-3",
+      "category": "alcohol",
+      "severity": "arrest",
+      "summary": {
+        "en": "There are harsh penalties including fines, detention and imprisonment for driving under the influence of alcohol, even at very low levels."
+      },
+      "quote": "There are harsh penalties including fines, detention and imprisonment for driving under the influence of alcohol, even at very low levels.",
+      "sources": [
+        "src:fcdo-cn-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "cn-drugs-4",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Convictions for possessing, using, or trafficking in illegal drugs result in a mandatory minimum five-year prison sentence and heavy fines."
+      },
+      "quote": "Convictions for possessing, using, or trafficking in illegal drugs result in a mandatory minimum five-year prison sentence and heavy fines.",
+      "sources": [
+        "src:state-cn-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "cn-photography-5",
+      "category": "photography",
+      "severity": "arrest",
+      "summary": {
+        "en": "You could be fined, have your photographic equipment confiscated, and risk detention and arrest."
+      },
+      "quote": "You could be fined, have your photographic equipment confiscated, and risk detention and arrest.",
+      "sources": [
+        "src:state-cn-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "cn-lgbtq-6",
+      "category": "lgbtq",
+      "severity": "arrest",
+      "summary": {
+        "en": "LGB Travelers: Same-sex sexual relations are criminalized in the Union of the Comoros and are punishable by up to five years’ imprisonment and a fine of up to 2,300 USD."
+      },
+      "quote": "LGB Travelers: Same-sex sexual relations are criminalized in the Union of the Comoros and are punishable by up to five years’ imprisonment and a fine of up to 2,300 USD.",
+      "sources": [
+        "src:state-cn-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "cn-drugs-7",
+      "category": "drugs",
+      "severity": "fine",
+      "summary": {
+        "en": "Testing positive for drugs, or being found in breach of your visa conditions, can lead to heavy fines, detention and deportation."
+      },
+      "quote": "Testing positive for drugs, or being found in breach of your visa conditions, can lead to heavy fines, detention and deportation.",
+      "sources": [
+        "src:fcdo-cn-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "cn-drugs-8",
+      "category": "drugs",
+      "severity": "info",
+      "summary": {
+        "en": "Possession, trafficking and manufacture of any illegal drugs, including cannabis, are serious offences in China."
+      },
+      "quote": "Possession, trafficking and manufacture of any illegal drugs, including cannabis, are serious offences in China.",
+      "sources": [
+        "src:fcdo-cn-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "cn-medications-9",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "If you’re take prescription medication, make sure you bring enough with you or have access to a supply in China."
+      },
+      "quote": "If you’re take prescription medication, make sure you bring enough with you or have access to a supply in China.",
+      "sources": [
+        "src:fcdo-cn-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "cn-medications-10",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Certain medicines may not be available and you may be not allowed to bring others into the country."
+      },
+      "quote": "Certain medicines may not be available and you may be not allowed to bring others into the country.",
+      "sources": [
+        "src:fcdo-cn-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "cn-medications-11",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Read best practice when travelling with medicines on TravelHealthPro ."
+      },
+      "quote": "Read best practice when travelling with medicines on TravelHealthPro .",
+      "sources": [
+        "src:fcdo-cn-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "cn-photography-12",
+      "category": "photography",
+      "severity": "info",
+      "summary": {
+        "en": "Photography: It is illegal to take pictures of government buildings, military installations, and other key infrastructure such as ports, train stations, and airports."
+      },
+      "quote": "Photography: It is illegal to take pictures of government buildings, military installations, and other key infrastructure such as ports, train stations, and airports.",
+      "sources": [
+        "src:state-cn-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "cn-medications-13",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Carry prescription medication in original packaging, along with your doctor’s prescription."
+      },
+      "quote": "Carry prescription medication in original packaging, along with your doctor’s prescription.",
+      "sources": [
+        "src:state-cn-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    }
+  ],
+  "essentials": {
+    "currency": "CNY",
+    "plugTypes": [
+      "Europlug",
+      "AS/NZS 3112",
+      "NEMA 1-15"
+    ],
+    "emergency": {
+      "number1": "http://www.wikidata.org/entity/Q2807090",
+      "number2": "http://www.wikidata.org/entity/Q25648823",
+      "number3": "http://www.wikidata.org/entity/Q25648851"
+    },
+    "languages": [
+      "zh"
+    ]
+  },
+  "advisory": {
+    "us": {
+      "level": 2,
+      "title": "Comoros - Level 2: Exercise Increased Caution",
+      "date": "2026-01-11"
+    }
+  },
+  "sources": {
+    "src:fcdo-cn-entry-requirements": {
+      "title": "FCDO travel advice: China - Entry requirements",
+      "url": "https://www.gov.uk/foreign-travel-advice/china/entry-requirements",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-cn-safety-and-security": {
+      "title": "FCDO travel advice: China - Safety and security",
+      "url": "https://www.gov.uk/foreign-travel-advice/china/safety-and-security",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-cn-health": {
+      "title": "FCDO travel advice: China - Health",
+      "url": "https://www.gov.uk/foreign-travel-advice/china/health",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-cn-local-laws-and-special-circumstances": {
+      "title": "US State Dept: China - local laws and special circumstances",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.com.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-cn-entry-exit-requirements": {
+      "title": "US State Dept: China - entry exit requirements",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.com.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-cn-health": {
+      "title": "US State Dept: China - health",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.com.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    }
+  },
+  "disclaimer": {
+    "en": "Rules change; verify with the official source before you travel.",
+    "es": "Las reglas cambian; verifica con la fuente oficial antes de viajar."
+  }
+}

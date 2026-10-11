@@ -1,0 +1,303 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "MX",
+  "names": {
+    "en": "Mexico",
+    "es": "México"
+  },
+  "generatedAt": "2026-10-11",
+  "tier": "B",
+  "review": {
+    "status": "machine_extracted",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "localRules": [
+    {
+      "id": "mx-drugs-1",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Illegal drugs and prison sentences"
+      },
+      "quote": "Illegal drugs and prison sentences",
+      "sources": [
+        "src:fcdo-mx-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-medications-2",
+      "category": "medications",
+      "severity": "arrest",
+      "summary": {
+        "en": "You could be arrested if your over the counter or prescription medicine is illegal in Mexico, even with a U.S. doctor’s letter or prescription."
+      },
+      "quote": "You could be arrested if your over the counter or prescription medicine is illegal in Mexico, even with a U.S. doctor’s letter or prescription.",
+      "sources": [
+        "src:state-mx-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-drugs-3",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "The Drug Enforcement Agency reports that counterfeit prescription pills are sold by criminals on both sides of the border."
+      },
+      "quote": "The Drug Enforcement Agency reports that counterfeit prescription pills are sold by criminals on both sides of the border.",
+      "sources": [
+        "src:state-mx-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-prohibited-items-4",
+      "category": "prohibited_items",
+      "severity": "fine",
+      "summary": {
+        "en": "If you smoke or vape in a public place, you can get a fine of up to 3,000 Mexican pesos (about £150)."
+      },
+      "quote": "If you smoke or vape in a public place, you can get a fine of up to 3,000 Mexican pesos (about £150).",
+      "sources": [
+        "src:fcdo-mx-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-drugs-5",
+      "category": "drugs",
+      "severity": "fine",
+      "summary": {
+        "en": "Penalties for drug offences are severe and convictions carry sentences of up to 25 years."
+      },
+      "quote": "Penalties for drug offences are severe and convictions carry sentences of up to 25 years.",
+      "sources": [
+        "src:fcdo-mx-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-drugs-6",
+      "category": "drugs",
+      "severity": "fine",
+      "summary": {
+        "en": "Do not become involved with drugs of any kind. Penalties for drug offences are severe and convictions carry sentences of up to 25 years."
+      },
+      "quote": "Do not become involved with drugs of any kind. Penalties for drug offences are severe and convictions carry sentences of up to 25 years.",
+      "sources": [
+        "src:fcdo-mx-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-conduct-7",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "Some genuine police officers have extorted money from tourists for alleged minor offences or traffic violations."
+      },
+      "quote": "Some genuine police officers have extorted money from tourists for alleged minor offences or traffic violations.",
+      "sources": [
+        "src:fcdo-mx-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-conduct-8",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "Sexual offences have been reported in tourist areas."
+      },
+      "quote": "Sexual offences have been reported in tourist areas.",
+      "sources": [
+        "src:fcdo-mx-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-prohibited-items-9",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "It is illegal to bring e-cigarettes, vaping devices and solutions into Mexico or to buy and sell them."
+      },
+      "quote": "It is illegal to bring e-cigarettes, vaping devices and solutions into Mexico or to buy and sell them.",
+      "sources": [
+        "src:fcdo-mx-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-conduct-10",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "Since July 2025 there have been protests against gentrification in Mexico City, which have taken place in central and tourist areas."
+      },
+      "quote": "Since July 2025 there have been protests against gentrification in Mexico City, which have taken place in central and tourist areas.",
+      "sources": [
+        "src:fcdo-mx-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-conduct-11",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "Monitor local media and avoid all demonstrations. If you come across protests, move away from the area."
+      },
+      "quote": "Monitor local media and avoid all demonstrations. If you come across protests, move away from the area.",
+      "sources": [
+        "src:fcdo-mx-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-lgbtq-12",
+      "category": "lgbtq",
+      "severity": "info",
+      "summary": {
+        "en": "LGBT+ travellers"
+      },
+      "quote": "LGBT+ travellers",
+      "sources": [
+        "src:fcdo-mx-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-medications-13",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "You must get prescriptions issued outside of Mexico translated into Spanish."
+      },
+      "quote": "You must get prescriptions issued outside of Mexico translated into Spanish.",
+      "sources": [
+        "src:fcdo-mx-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-medications-14",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Local pharmacies may still decide to reject a foreign prescription."
+      },
+      "quote": "Local pharmacies may still decide to reject a foreign prescription.",
+      "sources": [
+        "src:fcdo-mx-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-prohibited-items-15",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "However, it is almost always illegal to carry weapons such as:"
+      },
+      "quote": "However, it is almost always illegal to carry weapons such as:",
+      "sources": [
+        "src:state-mx-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "mx-prohibited-items-16",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "Illegal trafficking of firearms from the U.S. to Mexico is a crime."
+      },
+      "quote": "Illegal trafficking of firearms from the U.S. to Mexico is a crime.",
+      "sources": [
+        "src:state-mx-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    }
+  ],
+  "essentials": {
+    "currency": "MXN",
+    "plugTypes": [
+      "NEMA 1-15",
+      "NEMA 5-15"
+    ],
+    "emergency": {
+      "number1": "http://www.wikidata.org/entity/Q533806"
+    },
+    "languages": [
+      "es"
+    ]
+  },
+  "advisory": {
+    "us": {
+      "level": 2,
+      "title": "Mexico Travel Advisory - Level 2: Exercise Increased Caution",
+      "date": "2026-05-28"
+    }
+  },
+  "sources": {
+    "src:fcdo-mx-entry-requirements": {
+      "title": "FCDO travel advice: Mexico - Entry requirements",
+      "url": "https://www.gov.uk/foreign-travel-advice/mexico/entry-requirements",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-mx-safety-and-security": {
+      "title": "FCDO travel advice: Mexico - Safety and security",
+      "url": "https://www.gov.uk/foreign-travel-advice/mexico/safety-and-security",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-mx-health": {
+      "title": "FCDO travel advice: Mexico - Health",
+      "url": "https://www.gov.uk/foreign-travel-advice/mexico/health",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-mx-local-laws-and-special-circumstances": {
+      "title": "US State Dept: Mexico - local laws and special circumstances",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mex.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-mx-entry-exit-requirements": {
+      "title": "US State Dept: Mexico - entry exit requirements",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mex.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-mx-health": {
+      "title": "US State Dept: Mexico - health",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mex.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    }
+  },
+  "disclaimer": {
+    "en": "Rules change; verify with the official source before you travel.",
+    "es": "Las reglas cambian; verifica con la fuente oficial antes de viajar."
+  }
+}

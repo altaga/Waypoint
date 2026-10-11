@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Waypoint readiness</title>
+<style>
+  :root {
+    --bg: #f7f7f5; --fg: #17181a; --muted: #5d6068; --card: #ffffff; --line: #e2e3e0;
+    --ok: #1d7a46; --warn: #a15c00; --blocked: #b3261e; --info: #345;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #101113; --fg: #f1f1ef; --muted: #a2a4ab; --card: #1a1c1f; --line: #2c2f34;
+      --ok: #5ad08a; --warn: #f0b35c; --blocked: #ff8a80; --info: #aab;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #101113; --fg: #f1f1ef; --muted: #a2a4ab; --card: #1a1c1f; --line: #2c2f34;
+    --ok: #5ad08a; --warn: #f0b35c; --blocked: #ff8a80; --info: #aab;
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.4 system-ui, sans-serif; }
+  main { padding: 16px; max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 14px; margin-bottom: 12px; }
+  .grid { display: grid; gap: 10px; }
+  .row { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+  .label { font-weight: 600; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; flex: none; margin-right: 8px; background: var(--muted); }
+  .ok .dot { background: var(--ok); } .warn .dot { background: var(--warn); } .blocked .dot { background: var(--blocked); }
+  .value { color: var(--fg); text-align: right; font-size: 14px; }
+  .section { margin: 18px 0 8px; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+  .disclaimer { margin-top: 16px; font-size: 12px; color: var(--muted); }
+  .empty { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="title">Waypoint readiness</h1>
+  <div class="sub" id="sub">Waiting for the trip…</div>
+  <div class="section">Travelers</div>
+  <div class="grid" id="travelers"></div>
+  <div class="section">Local rules</div>
+  <div class="grid" id="rules"></div>
+  <p class="disclaimer" id="disclaimer"></p>
+</main>
+<script>
+// MCP Apps (extension 2026-01-26) over postMessage with the host. The widget has no
+// access to localStorage or window.parent; it only renders what the host sends.
+(function () {
+  var nextId = 1;
+  function send(msg) { window.parent.postMessage(Object.assign({ jsonrpc: "2.0" }, msg), "*"); }
+
+  function row(container, label, value, tone) {
+    var el = document.createElement("div");
+    el.className = "row " + (tone || "");
+    var left = document.createElement("div");
+    left.innerHTML = '<span class="dot"></span><span class="label"></span>';
+    left.querySelector(".label").textContent = label;
+    var right = document.createElement("div");
+    right.className = "value";
+    right.textContent = value;
+    el.appendChild(left);
+    el.appendChild(right);
+    container.appendChild(el);
+  }
+
+  function render(sc) {
+    if (!sc) return;
+    document.getElementById("title").textContent = (sc.card && sc.card.title) || "Waypoint readiness";
+    document.getElementById("sub").textContent = (sc.card && sc.card.subtitle) || "";
+    var travelers = document.getElementById("travelers");
+    var rules = document.getElementById("rules");
+    travelers.innerHTML = "";
+    rules.innerHTML = "";
+    var data = sc.data || {};
+    (data.travelers || []).forEach(function (t) { row(travelers, t.label, t.value, t.status); });
+    if (!(data.travelers || []).length) travelers.innerHTML = '<div class="empty">No travelers yet.</div>';
+    (data.rules || []).slice(0, 6).forEach(function (r) {
+      row(rules, r.category.replace(/_/g, " ") + " · " + r.severity, r.summary.en, r.severity === "info" ? "" : "warn");
+    });
+    if (!(data.rules || []).length) rules.innerHTML = '<div class="empty">No verified local rules for this destination yet.</div>';
+    document.getElementById("disclaimer").textContent = sc.disclaimer || "";
+  }
+
+  window.addEventListener("message", function (ev) {
+    var msg = ev.data;
+    if (!msg || msg.jsonrpc !== "2.0") return;
+    if (msg.method === "ui/notifications/tool-result") {
+      var p = msg.params || {};
+      render(p.structuredContent);
+    }
+    if (msg.id && msg.result && msg.result.protocolVersion) {
+      send({ method: "ui/notifications/initialized", params: {} });
+    }
+  });
+
+  send({
+    id: nextId++,
+    method: "ui/initialize",
+    params: { protocolVersion: "2026-01-26", appInfo: { name: "waypoint-plan-dashboard", version: "0.1.0" }, appCapabilities: {} },
+  });
+})();
+</script>
+</body>
+</html>

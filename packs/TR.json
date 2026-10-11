@@ -1,0 +1,280 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "TR",
+  "names": {
+    "en": "Türkiye",
+    "es": "Turquía"
+  },
+  "generatedAt": "2026-10-11",
+  "tier": "B",
+  "review": {
+    "status": "machine_extracted",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "localRules": [
+    {
+      "id": "tr-drugs-1",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "You should expect a long prison sentence of 4 to 24 years and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports."
+      },
+      "quote": "You should expect a long prison sentence of 4 to 24 years and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports.",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-conduct-2",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Insulting the President or the founder of the Turkish Republic, Mustafa Kemal Atatürk, is also a criminal offence."
+      },
+      "quote": "Insulting the President or the founder of the Turkish Republic, Mustafa Kemal Atatürk, is also a criminal offence.",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-conduct-3",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Offences under these laws are punishable by a prison sentence of between 6 months and 3 years."
+      },
+      "quote": "Offences under these laws are punishable by a prison sentence of between 6 months and 3 years.",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-drugs-4",
+      "category": "drugs",
+      "severity": "fine",
+      "summary": {
+        "en": "Illegal drugs, including cannabis, carry severe penalties."
+      },
+      "quote": "Illegal drugs, including cannabis, carry severe penalties.",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-drugs-5",
+      "category": "drugs",
+      "severity": "info",
+      "summary": {
+        "en": "controlled drugs"
+      },
+      "quote": "controlled drugs",
+      "sources": [
+        "src:fcdo-tr-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-prohibited-items-6",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "offensive weapons, for example flick knives and self-defence sprays"
+      },
+      "quote": "offensive weapons, for example flick knives and self-defence sprays",
+      "sources": [
+        "src:fcdo-tr-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-alcohol-7",
+      "category": "alcohol",
+      "severity": "info",
+      "summary": {
+        "en": "In Turkey, including Ankara and Istanbul, people have died or suffered serious illness after drinking illegally produced local spirits and counterfeit bottles of branded alcohol."
+      },
+      "quote": "In Turkey, including Ankara and Istanbul, people have died or suffered serious illness after drinking illegally produced local spirits and counterfeit bottles of branded alcohol.",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-conduct-8",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "During this time, it may cause offence if you:"
+      },
+      "quote": "During this time, it may cause offence if you:",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-dress-9",
+      "category": "dress",
+      "severity": "info",
+      "summary": {
+        "en": "follow local dress codes – clothing that does not meet local dress codes may cause more offence at this time"
+      },
+      "quote": "follow local dress codes – clothing that does not meet local dress codes may cause more offence at this time",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-prohibited-items-10",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "It is illegal not to carry some form of photographic ID in Turkey."
+      },
+      "quote": "It is illegal not to carry some form of photographic ID in Turkey.",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-dress-11",
+      "category": "dress",
+      "severity": "info",
+      "summary": {
+        "en": "Dress modestly if you’re visiting a mosque or a religious shrine to avoid causing offence."
+      },
+      "quote": "Dress modestly if you’re visiting a mosque or a religious shrine to avoid causing offence.",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-conduct-12",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "It is illegal to insult the Turkish nation or the national flag."
+      },
+      "quote": "It is illegal to insult the Turkish nation or the national flag.",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-dress-13",
+      "category": "dress",
+      "severity": "info",
+      "summary": {
+        "en": "Dress code"
+      },
+      "quote": "Dress code",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-drugs-14",
+      "category": "drugs",
+      "severity": "info",
+      "summary": {
+        "en": "Illegal drugs"
+      },
+      "quote": "Illegal drugs",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-photography-15",
+      "category": "photography",
+      "severity": "info",
+      "summary": {
+        "en": "Do not take photographs of or near military or official installations. Ask for permission before photographing people."
+      },
+      "quote": "Do not take photographs of or near military or official installations. Ask for permission before photographing people.",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "tr-lgbtq-16",
+      "category": "lgbtq",
+      "severity": "info",
+      "summary": {
+        "en": "LGBT+ travellers"
+      },
+      "quote": "LGBT+ travellers",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    }
+  ],
+  "essentials": {
+    "currency": "TRY",
+    "plugTypes": [
+      "Schuko",
+      "Europlug"
+    ],
+    "emergency": {
+      "number1": "http://www.wikidata.org/entity/Q1061257",
+      "number2": "http://www.wikidata.org/entity/Q25743529"
+    },
+    "languages": [
+      "tr"
+    ]
+  },
+  "advisory": {},
+  "sources": {
+    "src:fcdo-tr-entry-requirements": {
+      "title": "FCDO travel advice: Türkiye - Entry requirements",
+      "url": "https://www.gov.uk/foreign-travel-advice/turkey/entry-requirements",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-tr-safety-and-security": {
+      "title": "FCDO travel advice: Türkiye - Safety and security",
+      "url": "https://www.gov.uk/foreign-travel-advice/turkey/safety-and-security",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-tr-health": {
+      "title": "FCDO travel advice: Türkiye - Health",
+      "url": "https://www.gov.uk/foreign-travel-advice/turkey/health",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    }
+  },
+  "disclaimer": {
+    "en": "Rules change; verify with the official source before you travel.",
+    "es": "Las reglas cambian; verifica con la fuente oficial antes de viajar."
+  }
+}

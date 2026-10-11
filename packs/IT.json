@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "IT",
+  "names": {
+    "en": "Italy",
+    "es": "Italia"
+  },
+  "generatedAt": "2026-10-11",
+  "tier": "B",
+  "review": {
+    "status": "machine_extracted",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "localRules": [
+    {
+      "id": "it-drugs-1",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports."
+      },
+      "quote": "You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports.",
+      "sources": [
+        "src:fcdo-it-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "it-drugs-2",
+      "category": "drugs",
+      "severity": "fine",
+      "summary": {
+        "en": "Illegal drugs, including cannabis, carry severe penalties."
+      },
+      "quote": "Illegal drugs, including cannabis, carry severe penalties.",
+      "sources": [
+        "src:fcdo-it-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "it-dress-3",
+      "category": "dress",
+      "severity": "info",
+      "summary": {
+        "en": "show proof of your accommodation, for example, a hotel booking confirmation or proof of address for your own property"
+      },
+      "quote": "show proof of your accommodation, for example, a hotel booking confirmation or proof of address for your own property",
+      "sources": [
+        "src:fcdo-it-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "it-conduct-4",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "It’s also an offence to enter or bathe in public fountains in many towns and cities, including Florence and Rome or swim in the canals in Venice."
+      },
+      "quote": "It’s also an offence to enter or bathe in public fountains in many towns and cities, including Florence and Rome or swim in the canals in Venice.",
+      "sources": [
+        "src:fcdo-it-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "it-drugs-5",
+      "category": "drugs",
+      "severity": "info",
+      "summary": {
+        "en": "you must not ski under the influence of alcohol or drugs"
+      },
+      "quote": "you must not ski under the influence of alcohol or drugs",
+      "sources": [
+        "src:fcdo-it-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "it-medications-6",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "UK prescriptions are not accepted, though you may be able to buy an equivalent medication from the pharmacy."
+      },
+      "quote": "UK prescriptions are not accepted, though you may be able to buy an equivalent medication from the pharmacy.",
+      "sources": [
+        "src:fcdo-it-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "it-medications-7",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Alternatively, you can visit an Italian GP to obtain a local prescription."
+      },
+      "quote": "Alternatively, you can visit an Italian GP to obtain a local prescription.",
+      "sources": [
+        "src:fcdo-it-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "it-medications-8",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Prescription medicines are not free in Italy, but with an EHIC or GHIC , and an Italian prescription, you will pay a reduced rate."
+      },
+      "quote": "Prescription medicines are not free in Italy, but with an EHIC or GHIC , and an Italian prescription, you will pay a reduced rate.",
+      "sources": [
+        "src:fcdo-it-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "it-medications-9",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "The Italian Ministry of Health sets rules defining who and how prescriptions and medications can be imported into Italy."
+      },
+      "quote": "The Italian Ministry of Health sets rules defining who and how prescriptions and medications can be imported into Italy.",
+      "sources": [
+        "src:state-it-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "it-drugs-10",
+      "category": "drugs",
+      "severity": "info",
+      "summary": {
+        "en": "Travelers should not bring excess supplies of prescription drugs into the country and cannot bring prescription drugs for other people."
+      },
+      "quote": "Travelers should not bring excess supplies of prescription drugs into the country and cannot bring prescription drugs for other people.",
+      "sources": [
+        "src:state-it-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    }
+  ],
+  "essentials": {
+    "currency": "EUR",
+    "plugTypes": [
+      "Schuko",
+      "Europlug",
+      "Type L"
+    ],
+    "emergency": {
+      "number1": "http://www.wikidata.org/entity/Q1061257",
+      "number2": "http://www.wikidata.org/entity/Q11185210",
+      "number3": "http://www.wikidata.org/entity/Q25648804",
+      "number4": "http://www.wikidata.org/entity/Q25648805"
+    },
+    "languages": [
+      "it"
+    ]
+  },
+  "advisory": {
+    "us": {
+      "level": 2,
+      "title": "Italy - Level 2: Exercise Increased Caution",
+      "date": "2026-09-09"
+    }
+  },
+  "sources": {
+    "src:fcdo-it-entry-requirements": {
+      "title": "FCDO travel advice: Italy - Entry requirements ",
+      "url": "https://www.gov.uk/foreign-travel-advice/italy/entry-requirements",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-it-safety-and-security": {
+      "title": "FCDO travel advice: Italy - Safety and security ",
+      "url": "https://www.gov.uk/foreign-travel-advice/italy/safety-and-security",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-it-health": {
+      "title": "FCDO travel advice: Italy - Health",
+      "url": "https://www.gov.uk/foreign-travel-advice/italy/health",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-it-local-laws-and-special-circumstances": {
+      "title": "US State Dept: Italy - local laws and special circumstances",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ita.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-it-entry-exit-requirements": {
+      "title": "US State Dept: Italy - entry exit requirements",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ita.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-it-health": {
+      "title": "US State Dept: Italy - health",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ita.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    }
+  },
+  "disclaimer": {
+    "en": "Rules change; verify with the official source before you travel.",
+    "es": "Las reglas cambian; verifica con la fuente oficial antes de viajar."
+  }
+}

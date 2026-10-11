@@ -1,0 +1,281 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "JP",
+  "names": {
+    "en": "Japan",
+    "es": "Japón"
+  },
+  "generatedAt": "2026-10-11",
+  "tier": "B",
+  "review": {
+    "status": "machine_extracted",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "localRules": [
+    {
+      "id": "jp-prohibited-items-1",
+      "category": "prohibited_items",
+      "severity": "arrest",
+      "summary": {
+        "en": "It is illegal to bring meat products including sausages, bacon and ham to Japan without permission from the Japanese Animal Quarantine Service . Penalties include a heavy fine and prison sentence."
+      },
+      "quote": "It is illegal to bring meat products including sausages, bacon and ham to Japan without permission from the Japanese Animal Quarantine Service . Penalties include a heavy fine and prison sentence.",
+      "sources": [
+        "src:fcdo-jp-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-conduct-2",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "In Japan, you can be arrested and detained without charge for up to 23 days, even for minor offences such as theft or trespassing."
+      },
+      "quote": "In Japan, you can be arrested and detained without charge for up to 23 days, even for minor offences such as theft or trespassing.",
+      "sources": [
+        "src:fcdo-jp-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-alcohol-3",
+      "category": "alcohol",
+      "severity": "arrest",
+      "summary": {
+        "en": "The passenger could face arrest if the police suspect they were aware of the driver’s alcohol consumption."
+      },
+      "quote": "The passenger could face arrest if the police suspect they were aware of the driver’s alcohol consumption.",
+      "sources": [
+        "src:fcdo-jp-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-conduct-4",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Japanese and UK law are very different. In Japan, you can be arrested and detained without charge for up to 23 days, even for minor offences such as theft or trespassing."
+      },
+      "quote": "Japanese and UK law are very different. In Japan, you can be arrested and detained without charge for up to 23 days, even for minor offences such as theft or trespassing.",
+      "sources": [
+        "src:fcdo-jp-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-drugs-5",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Illegal drugs and prison sentences"
+      },
+      "quote": "Illegal drugs and prison sentences",
+      "sources": [
+        "src:fcdo-jp-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-drugs-6",
+      "category": "drugs",
+      "severity": "fine",
+      "summary": {
+        "en": "There is zero tolerance of drug crime and the penalties are severe."
+      },
+      "quote": "There is zero tolerance of drug crime and the penalties are severe.",
+      "sources": [
+        "src:fcdo-jp-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-drugs-7",
+      "category": "drugs",
+      "severity": "fine",
+      "summary": {
+        "en": "British nationals convicted of drug trafficking have received sentences ranging from 6 to 17 years and fines of 3 to 4 million yen."
+      },
+      "quote": "British nationals convicted of drug trafficking have received sentences ranging from 6 to 17 years and fines of 3 to 4 million yen.",
+      "sources": [
+        "src:fcdo-jp-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-prohibited-items-8",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "It is illegal to bring meat products including sausages, bacon and ham to Japan without permission from the Japanese Animal Quarantine Service ."
+      },
+      "quote": "It is illegal to bring meat products including sausages, bacon and ham to Japan without permission from the Japanese Animal Quarantine Service .",
+      "sources": [
+        "src:fcdo-jp-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-prohibited-items-9",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "Whale meat is available in Japan but importing it into the UK and EU is illegal."
+      },
+      "quote": "Whale meat is available in Japan but importing it into the UK and EU is illegal.",
+      "sources": [
+        "src:fcdo-jp-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-drugs-10",
+      "category": "drugs",
+      "severity": "info",
+      "summary": {
+        "en": "If the police find an illegal substance in your bloodstream, you may be charged, regardless of whether you consented or were aware of taking the drugs."
+      },
+      "quote": "If the police find an illegal substance in your bloodstream, you may be charged, regardless of whether you consented or were aware of taking the drugs.",
+      "sources": [
+        "src:fcdo-jp-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-prohibited-items-11",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "If you take blood tests at medical institutions, they are usually obliged to report to the police if they detect any illegal substances."
+      },
+      "quote": "If you take blood tests at medical institutions, they are usually obliged to report to the police if they detect any illegal substances.",
+      "sources": [
+        "src:fcdo-jp-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-alcohol-12",
+      "category": "alcohol",
+      "severity": "info",
+      "summary": {
+        "en": "In general, drinking alcohol in public places is not illegal."
+      },
+      "quote": "In general, drinking alcohol in public places is not illegal.",
+      "sources": [
+        "src:fcdo-jp-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-lgbtq-13",
+      "category": "lgbtq",
+      "severity": "info",
+      "summary": {
+        "en": "Same-sex sexual activity is not illegal, but Japanese law does not protect against discrimination on the grounds of sexual orientation."
+      },
+      "quote": "Same-sex sexual activity is not illegal, but Japanese law does not protect against discrimination on the grounds of sexual orientation.",
+      "sources": [
+        "src:fcdo-jp-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-alcohol-14",
+      "category": "alcohol",
+      "severity": "info",
+      "summary": {
+        "en": "Drink-driving is a serious offence in Japan, and the legal limit of alcohol in your system is about a third of the UK limit."
+      },
+      "quote": "Drink-driving is a serious offence in Japan, and the legal limit of alcohol in your system is about a third of the UK limit.",
+      "sources": [
+        "src:fcdo-jp-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-lgbtq-15",
+      "category": "lgbtq",
+      "severity": "info",
+      "summary": {
+        "en": "LGBT+ travellers"
+      },
+      "quote": "LGBT+ travellers",
+      "sources": [
+        "src:fcdo-jp-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "jp-lgbtq-16",
+      "category": "lgbtq",
+      "severity": "info",
+      "summary": {
+        "en": "Shinjuku Nichome in Tokyo and Doyamacho in Osaka are well-known LGBT+ areas."
+      },
+      "quote": "Shinjuku Nichome in Tokyo and Doyamacho in Osaka are well-known LGBT+ areas.",
+      "sources": [
+        "src:fcdo-jp-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    }
+  ],
+  "essentials": {
+    "currency": "JPY",
+    "plugTypes": [
+      "NEMA 1-15",
+      "NEMA 5-15"
+    ],
+    "emergency": {
+      "number1": "http://www.wikidata.org/entity/Q2807090",
+      "number2": "http://www.wikidata.org/entity/Q11185210",
+      "number3": "http://www.wikidata.org/entity/Q25648823"
+    },
+    "languages": [
+      "ja"
+    ]
+  },
+  "advisory": {},
+  "sources": {
+    "src:fcdo-jp-entry-requirements": {
+      "title": "FCDO travel advice: Japan - Entry requirements",
+      "url": "https://www.gov.uk/foreign-travel-advice/japan/entry-requirements",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-jp-safety-and-security": {
+      "title": "FCDO travel advice: Japan - Safety and security",
+      "url": "https://www.gov.uk/foreign-travel-advice/japan/safety-and-security",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-jp-health": {
+      "title": "FCDO travel advice: Japan - Health",
+      "url": "https://www.gov.uk/foreign-travel-advice/japan/health",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    }
+  },
+  "disclaimer": {
+    "en": "Rules change; verify with the official source before you travel.",
+    "es": "Las reglas cambian; verifica con la fuente oficial antes de viajar."
+  }
+}

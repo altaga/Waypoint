@@ -1,0 +1,307 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "TH",
+  "names": {
+    "en": "Thailand",
+    "es": "Tailandia"
+  },
+  "generatedAt": "2026-10-11",
+  "tier": "B",
+  "review": {
+    "status": "machine_extracted",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "localRules": [
+    {
+      "id": "th-drugs-1",
+      "category": "drugs",
+      "severity": "severe",
+      "summary": {
+        "en": "Possessing Class A drugs can lead to the death penalty."
+      },
+      "quote": "Possessing Class A drugs can lead to the death penalty.",
+      "sources": [
+        "src:fcdo-th-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-photography-2",
+      "category": "photography",
+      "severity": "arrest",
+      "summary": {
+        "en": "The fine for an unregistered drone with the NBTC is 100,000 baht or five years imprisonment or both."
+      },
+      "quote": "The fine for an unregistered drone with the NBTC is 100,000 baht or five years imprisonment or both.",
+      "sources": [
+        "src:fcdo-th-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-alcohol-3",
+      "category": "alcohol",
+      "severity": "arrest",
+      "summary": {
+        "en": "Posting images of people drinking alcohol or wearing clothing considered inappropriate can be illegal. Both the person who uploaded the images and the people in them could be fined or imprisoned."
+      },
+      "quote": "Posting images of people drinking alcohol or wearing clothing considered inappropriate can be illegal. Both the person who uploaded the images and the people in them could be fined or imprisoned.",
+      "sources": [
+        "src:fcdo-th-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-photography-4",
+      "category": "photography",
+      "severity": "arrest",
+      "summary": {
+        "en": "The regulations apply to all drones, including those for recreational use. The fine for an unregistered drone with the NBTC is 100,000 baht or five years imprisonment or both."
+      },
+      "quote": "The regulations apply to all drones, including those for recreational use. The fine for an unregistered drone with the NBTC is 100,000 baht or five years imprisonment or both.",
+      "sources": [
+        "src:fcdo-th-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-drugs-5",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Illegal drugs and prison sentences"
+      },
+      "quote": "Illegal drugs and prison sentences",
+      "sources": [
+        "src:fcdo-th-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-drugs-6",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Cannabis is illegal in many countries. If you carry it when arriving in, or transiting through, another country, you risk arrest and serious penalties, including long prison sentences."
+      },
+      "quote": "Cannabis is illegal in many countries. If you carry it when arriving in, or transiting through, another country, you risk arrest and serious penalties, including long prison sentences.",
+      "sources": [
+        "src:fcdo-th-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-conduct-7",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Lèse majesté (Royal Insult): Making a critical or defamatory comment about the royal family is punishable by a prison sentence of up to 15 years per offense."
+      },
+      "quote": "Lèse majesté (Royal Insult): Making a critical or defamatory comment about the royal family is punishable by a prison sentence of up to 15 years per offense.",
+      "sources": [
+        "src:state-th-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-drugs-8",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Expect long jail sentences under harsh conditions, heavy fines, or even execution for possessing, using, or trafficking in illegal drugs."
+      },
+      "quote": "Expect long jail sentences under harsh conditions, heavy fines, or even execution for possessing, using, or trafficking in illegal drugs.",
+      "sources": [
+        "src:state-th-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-conduct-9",
+      "category": "conduct",
+      "severity": "fine",
+      "summary": {
+        "en": "Offences can lead to confiscation, heavy fines (typically 5,000–30,000 Thai bhat), detention, and court proceedings."
+      },
+      "quote": "Offences can lead to confiscation, heavy fines (typically 5,000–30,000 Thai bhat), detention, and court proceedings.",
+      "sources": [
+        "src:fcdo-th-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-alcohol-10",
+      "category": "alcohol",
+      "severity": "info",
+      "summary": {
+        "en": "Posting images of people drinking alcohol or wearing clothing considered inappropriate can be illegal."
+      },
+      "quote": "Posting images of people drinking alcohol or wearing clothing considered inappropriate can be illegal.",
+      "sources": [
+        "src:fcdo-th-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-photography-11",
+      "category": "photography",
+      "severity": "info",
+      "summary": {
+        "en": "It is illegal to fly a drone in Thailand if it is not registered."
+      },
+      "quote": "It is illegal to fly a drone in Thailand if it is not registered.",
+      "sources": [
+        "src:fcdo-th-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-prohibited-items-12",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "Under the Playing Cards Act (1943) it is illegal to carry over one hundred and twenty playing cards."
+      },
+      "quote": "Under the Playing Cards Act (1943) it is illegal to carry over one hundred and twenty playing cards.",
+      "sources": [
+        "src:fcdo-th-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-prohibited-items-13",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "It is illegal to possess or use any vape, e-cigarette, pod, e-liquid, or heat-not-burn device in Thailand."
+      },
+      "quote": "It is illegal to possess or use any vape, e-cigarette, pod, e-liquid, or heat-not-burn device in Thailand.",
+      "sources": [
+        "src:fcdo-th-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-alcohol-14",
+      "category": "alcohol",
+      "severity": "info",
+      "summary": {
+        "en": "The sale of alcohol is restricted between midnight and 11am."
+      },
+      "quote": "The sale of alcohol is restricted between midnight and 11am.",
+      "sources": [
+        "src:fcdo-th-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-alcohol-15",
+      "category": "alcohol",
+      "severity": "info",
+      "summary": {
+        "en": "Exercise caution when purchasing or consuming alcohol in public places during restricted hours and check with venue owners or shop sellers."
+      },
+      "quote": "Exercise caution when purchasing or consuming alcohol in public places during restricted hours and check with venue owners or shop sellers.",
+      "sources": [
+        "src:fcdo-th-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    },
+    {
+      "id": "th-medications-16",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "You must not buy, possess or use it without a Thai-issued medical prescription, which is limited to a 30-day supply."
+      },
+      "quote": "You must not buy, possess or use it without a Thai-issued medical prescription, which is limited to a 30-day supply.",
+      "sources": [
+        "src:fcdo-th-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "medium"
+    }
+  ],
+  "essentials": {
+    "currency": "THB",
+    "plugTypes": [
+      "Schuko",
+      "Europlug",
+      "NEMA 1-15",
+      "NEMA 5-15"
+    ],
+    "emergency": {
+      "number1": "http://www.wikidata.org/entity/Q25648876",
+      "number2": "http://www.wikidata.org/entity/Q25648881",
+      "number3": "http://www.wikidata.org/entity/Q25743536"
+    },
+    "languages": [
+      "th"
+    ]
+  },
+  "advisory": {
+    "us": {
+      "level": 1,
+      "title": "Thailand - Level 1: Exercise Normal Precautions",
+      "date": "2026-07-06"
+    }
+  },
+  "sources": {
+    "src:fcdo-th-entry-requirements": {
+      "title": "FCDO travel advice: Thailand - Entry requirements",
+      "url": "https://www.gov.uk/foreign-travel-advice/thailand/entry-requirements",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-th-safety-and-security": {
+      "title": "FCDO travel advice: Thailand - Safety and security",
+      "url": "https://www.gov.uk/foreign-travel-advice/thailand/safety-and-security",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:fcdo-th-health": {
+      "title": "FCDO travel advice: Thailand - Health",
+      "url": "https://www.gov.uk/foreign-travel-advice/thailand/health",
+      "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-th-local-laws-and-special-circumstances": {
+      "title": "US State Dept: Thailand - local laws and special circumstances",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tha.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-th-entry-exit-requirements": {
+      "title": "US State Dept: Thailand - entry exit requirements",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tha.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-th-health": {
+      "title": "US State Dept: Thailand - health",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tha.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    }
+  },
+  "disclaimer": {
+    "en": "Rules change; verify with the official source before you travel.",
+    "es": "Las reglas cambian; verifica con la fuente oficial antes de viajar."
+  }
+}
