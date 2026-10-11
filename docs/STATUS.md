@@ -18,7 +18,7 @@ Last updated: 2026-10-11 (UTC+7, D0). Repository: branch `claude/elegant-wozniak
 ## Not done (and why)
 
 - **Human review of packs (tier A):** needs a reviewer, about 3 hours. Checklist in DATA_REVIEW.md.
-- **Bedrock brain and pack extraction:** written/type-checked, not run; no approved spend.
+- **Bedrock pack extraction:** not built yet. The Bedrock brain itself is verified live (aws-smoke workflow).
 - **Hosting and deployment:** needs approval and budget alert (AWS.md).
 - **Video, Devpost submission, GitHub repo settings:** owner actions.
 - **find_events:** no verified event source in the build environment.

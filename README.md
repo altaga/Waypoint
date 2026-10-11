@@ -127,5 +127,5 @@ Pack status is **tier B, machine-extracted** until a human reviewer signs off. T
 - The visa matrix is a dataset snapshot (2026-02-17), not a live feed.
 - Rules are English only for now (source language). Spanish summaries need a translation pass.
 - `find_events` is not implemented (no verified event source in the build environment).
-- The Bedrock brain is written and type-checked but has not been run against Bedrock: no spend has been approved yet.
+- The Bedrock brain is verified live by the `aws-smoke` workflow; the simulator still defaults to the local router.
 - Hosting is not deployed. The official FAQ says a locally runnable public repo plus the demo video is enough for the Alexa+ track, and that the MCP server does not need to stay running after submission. Lambda is the planned option if a hosted endpoint is added.

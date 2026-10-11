@@ -2,8 +2,8 @@
 // over MCP (context doc §5.6). Enabled only with WAYPOINT_BRAIN=bedrock and AWS
 // credentials. The deterministic router in the web host works without it.
 //
-// Status: compiled and type-checked, NOT yet run against Bedrock (no spend approved
-// yet). See docs/AWS.md and docs/TESTING.md.
+// Status: verified live against Bedrock by the aws-smoke workflow (npm run smoke:brain).
+// See docs/AWS.md and docs/TESTING.md.
 import { Agent, BedrockModel, McpClient } from "@strands-agents/sdk";
 
 export function brainConfigured(): boolean {

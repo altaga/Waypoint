@@ -25,14 +25,17 @@ Status is honest as of 2026-10-11: anything not yet run is marked so.
 - **Used for:** the optional "Alexa brain" (`src/brain.ts`): a Strands `Agent` with `BedrockModel` and an `McpClient` pointed at our own server.
 - **Worked well:** `McpClient` accepts `url` and `headers` directly, which is the simplest way to pass the user header through.
 - **Needs work:** a documented way to pass per-request user identity through the MCP client would help multi-user agents.
-- **Onboarding:** typed and compiling in about 30 minutes. **Not yet run against Bedrock** (no spend approved yet).
-- **Build again:** Yes, pending the first live run.
+- **Onboarding:** typed and compiling in about 30 minutes; live against Bedrock the same day.
+- **Build again:** Yes.
 
 ## Amazon Bedrock (AWS Builder)
 
 - **Which service and how:** Bedrock is the model provider for the Strands brain at runtime (`WAYPOINT_BRAIN=bedrock`, `WAYPOINT_BEDROCK_MODEL`). The design also uses Bedrock for structured extraction of country rules (context doc §4.7), not built yet.
-- **Status:** wired and type-checked; **not run**. Following the official FAQ's advice, the app mocks the brain by default (a deterministic router) and the live API is to be hit only to validate the integration.
-- **Worked well / needs work / onboarding / build again:** to be filled after the first approved run. No claims until then.
+- **Status:** verified live on 2026-10-11 through the `aws-smoke` workflow (GitHub OIDC role, no static keys). Following the official FAQ, the app uses a deterministic router by default and calls Bedrock only where it adds value.
+- **Worked well:** the Converse API answered on the first call once the role was right; Strands picked the right MCP tool by itself; about 4 s end to end for a one-tool question.
+- **Needs work:** with only the voice summary as tool text, the model answered from memory instead of the cited rule. Serializing the structured result as a second text block and an explicit "tools only" system rule fixed it. A note on this in the Strands MCP docs would save time.
+- **Onboarding:** the hard part was IAM, not Bedrock: the GitHub OIDC `sub` format (see FRICTION_LOG #14).
+- **Build again:** Yes.
 
 ## Alexa+ MCP Toolkit and `@alexa-ai/cli` (research only)
 

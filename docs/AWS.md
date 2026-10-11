@@ -4,7 +4,7 @@
 
 | Piece | Service | Status |
 |---|---|---|
-| Agent brain at runtime | Amazon Bedrock via Strands Agents TypeScript (`src/brain.ts`) | Written and type-checked. **Not run against Bedrock.** Enable with `WAYPOINT_BRAIN=bedrock` and `WAYPOINT_BEDROCK_MODEL=<model id>`. |
+| Agent brain at runtime | Amazon Bedrock via Strands Agents TypeScript (`src/brain.ts`) | **Verified live on 2026-10-11** by the `aws-smoke` workflow: GitHub OIDC role → Bedrock → Strands agent calling the Waypoint MCP server. Enable with `WAYPOINT_BRAIN=bedrock` and `WAYPOINT_BEDROCK_MODEL`. |
 | Country-pack extraction | Bedrock `Converse` with tool use (design in the context doc §4.7) | **Not built.** The current build uses a deterministic extractor. Tier B packs say so. |
 | Hosting | Lambda with Function URL, DynamoDB for `StateStore` | **Not deployed.** Needs the team's approval and a budget alert first. |
 

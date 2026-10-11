@@ -49,6 +49,6 @@ It connects, loads the demo group, asks a rule question (checks the vape rule ca
 
 ## Not tested
 
-- The Bedrock brain (`src/brain.ts`). It is type-checked but has never been run against Bedrock. It needs `WAYPOINT_BRAIN=bedrock` and `WAYPOINT_BEDROCK_MODEL`.
+- The Bedrock brain is not part of `npm test` (it needs AWS). It is tested live by the `aws-smoke` workflow (`npm run smoke:brain`), which fails unless the answer uses the cited rule instead of the model's memory.
 - Hosting, load, and latency under 500 ms on a real network.
 - Voice input and output. Web Speech is browser-only and was not exercised in the headless run.
