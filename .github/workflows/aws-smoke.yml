@@ -1,0 +1,49 @@
+name: aws-smoke
+# Verifies the AWS chain end to end: GitHub OIDC -> deploy role -> Bedrock -> the
+# Strands brain calling the Waypoint MCP server. Costs a few Bedrock calls per run.
+on:
+  workflow_dispatch:
+  push:
+    branches: ["claude/**"]
+    paths:
+      - .github/workflows/aws-smoke.yml
+      - scripts/brain-smoke.ts
+      - src/brain.ts
+permissions:
+  id-token: write
+  contents: read
+concurrency:
+  group: aws-smoke
+  cancel-in-progress: false
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      AWS_REGION: ${{ secrets.AWS_REGION }}
+      WAYPOINT_BRAIN: bedrock
+      WAYPOINT_BEDROCK_MODEL: ${{ secrets.WAYPOINT_BEDROCK_MODEL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Assume the deploy role through OIDC
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+          role-session-name: waypoint-aws-smoke
+      - name: Who am I
+        run: aws sts get-caller-identity --query Arn --output text
+      - name: Bedrock ping (one short Converse call)
+        run: |
+          aws bedrock-runtime converse \
+            --model-id "$WAYPOINT_BEDROCK_MODEL" \
+            --messages '[{"role":"user","content":[{"text":"Reply with OK"}]}]' \
+            --inference-config '{"maxTokens":10}' \
+            --query 'output.message.content[0].text' --output text
+      - name: Brain end to end (Strands + Bedrock + Waypoint MCP)
+        run: npm run smoke:brain

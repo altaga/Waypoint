@@ -16,7 +16,8 @@
     "smoke:web": "tsx scripts/smoke-web.ts",
     "validate-packs": "tsx scripts/validate-packs.ts",
     "export-schema": "tsx scripts/export-schema.ts",
-    "ci": "npm run typecheck && npm test && npm run validate-packs && npm run eval"
+    "ci": "npm run typecheck && npm test && npm run validate-packs && npm run eval",
+    "smoke:brain": "tsx scripts/brain-smoke.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.1",
