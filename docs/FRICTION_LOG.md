@@ -1,21 +1,109 @@
 # Friction log
 
-Real entries only. Each has a date, area, what was tried, what happened, impact (1 = minor, 5 = blocker), workaround and suggestion. Items marked (forum/doc) come from the hackathon documentation and forums, verified on 2026-10-11 during research, not reproduced in this build.
+Fields follow the official rules: task attempted, steps taken, expected vs. actual, severity, workaround, actionable suggestion. Severity: 1 minor · 2 low · 3 medium · 4 high · 5 blocker.
 
-| # | Date | Area | Impact | What happened | Workaround | Suggestion |
-|---|---|---|---|---|---|---|
-| 1 | 2026-10-11 | Alexa+ tooling | 5 | `@alexa-ai/cli` and `@alexa-ai/addon-local-inspector` return 404 on npm, while the docs present them as available (doc, verified) | Self-hosted MCP server and a real MCP web client | Mark partner-only packages clearly in the docs |
-| 2 | 2026-10-11 | Alexa+ MCP Toolkit | 5 | Toolkit and Category SDK are partner-only and US-only; no way to test on a real Alexa+ device (doc) | Simulated host with a real MCP client, as the FAQ allows | Publish a sandbox for participants |
-| 3 | 2026-10-11 | MCP spec docs | 2 | Client lifecycle example uses `protocolVersion` 2025-03-26 while it claims 2025-11-25 (doc) | Used 2025-11-25 everywhere | Fix the example |
-| 4 | 2026-10-11 | Rules | 4 | FAQ says the endpoint need not stay live after submission; a forum staff reply on 10-oct says it must stay live until judging ends (doc) | Plan to keep the endpoint up; ask at Office Hours | One authoritative answer |
-| 5 | 2026-10-11 | Dates | 2 | Rules and the Dates tab disagree on when judging starts (doc) | Use the stricter date | Align the pages |
-| 6 | 2026-10-07 | AWS credits | 4 | Hackathon credit codes ran out on 7 October (rules) | Budget-capped, no deploy without approval | Announce earlier |
-| 7 | 2026-10-11 | Gallery | 1 | The project gallery is not published, so no official examples to compare against (observed) | Searched Devpost directly | Publish it |
-| 8 | 2026-10-11 | Country data | 4 | REST Countries v3.1 is discontinued; the old skeleton silently fell back to a 7-currency map (doc, observed in the old code) | Replaced with countries-list | Fail loudly on missing data |
-| 9 | 2026-10-11 | FCDO API | 2 | The `entry-requirements` endpoint answers 303 without redirect following; the United States has no page (observed) | Client follows redirects; US uses State Dept | Document the redirect |
-| 10 | 2026-10-11 | State Dept feed | 2 | 5.9 MB JSON with HTML fragments in each field; the United States is not a destination in the feed (observed) | Strip HTML, skip the US as a destination | Ship a slimmer feed |
-| 11 | 2026-10-11 | Rule extraction | 3 | A list item under a prohibition heading ("chewing gum to sell") was dropped by sentence-level extraction (observed) | Added list-item handling with the heading as context | Structured sources would avoid this |
-| 12 | 2026-10-11 | Rule extraction | 3 | Heuristic extraction picks weak sentences ("Dress code", "Medication bans") and misclassifies some severities (observed) | Packs stay tier B until human review | Bedrock structured extraction with a reviewer |
-| 13 | 2026-10-11 | MCP SDK typing | 2 | Tool results need an index signature to satisfy the callback type (observed) | Added `[key: string]: unknown` to the result type | Document the type shape |
-| 14 | 2026-10-11 | Passport data | 1 | The LICENSE says copyright 2019; the dataset is dated 2026 (observed) | Record the snapshot date; keep the MIT notice | Clarify the copyright year |
-| 15 | 2026-10-11 | Bedrock | 4 | Access is unverified. The build environment has AWS credentials, but Bedrock was not called because the plan requires explicit approval before any spend. Forum reports mention zero quotas for new accounts (doc) | Brain is optional; the local router works without AWS | Confirm model access before the build starts |
+Only real entries. "Verified" means checked on 2026-10-11 against the official page or by running it. "From context doc" means taken from the research document and not re-run in this build.
+
+### 1. Install the Alexa+ CLI and Local Inspector
+- **Steps:** followed the MCP Toolkit Quickstart; tried `@alexa-ai/cli` and `@alexa-ai/addon-local-inspector` from npm.
+- **Expected:** packages install, as the setup pages suggest.
+- **Actual:** 404 on npm. The official FAQ confirms these tools are partner-only, and notes the caveat "is sometimes missing from individual setup-guide pages". (From context doc; FAQ verified.)
+- **Severity:** 4
+- **Workaround:** self-hosted MCP server plus a web page that acts as a real MCP client, the path the FAQ allows.
+- **Suggestion:** put the partner-only notice on every setup page, not only the docs home.
+
+### 2. Test on a real Alexa+ device
+- **Steps:** looked for any way to connect a self-hosted MCP server to Alexa+ or the developer console.
+- **Expected:** a sandbox for participants.
+- **Actual:** none exists; the FAQ says no participant can connect a self-hosted server to Alexa+. (Verified.)
+- **Severity:** 3
+- **Workaround:** simulated Echo Show host with voice, cards, elicitation and an MCP App iframe.
+- **Suggestion:** a public sandbox, even rate-limited, would let teams test the real voice surface.
+
+### 3. Use the MCP version from the Client Lifecycle example
+- **Steps:** read the Client Lifecycle page.
+- **Expected:** the example uses 2025-11-25, which the page says is supported.
+- **Actual:** the example uses `protocolVersion` 2025-03-26. (From context doc.)
+- **Severity:** 2
+- **Workaround:** used 2025-11-25 everywhere, matching the SDK and the rules.
+- **Suggestion:** update the example.
+
+### 4. Decide whether the MCP endpoint must stay hosted
+- **Steps:** read the FAQ and the forum.
+- **Expected:** one clear answer.
+- **Actual:** the FAQ says the server does not need to stay running and a locally runnable repo plus video is enough (verified). The context doc cites a forum staff reply on 10 October saying it must stay live until judging ends (not re-checked here). The rules also require the project to be available for testing until judging ends.
+- **Severity:** 3
+- **Workaround:** local run in under five commands, documented in the README; hosting kept optional.
+- **Suggestion:** put one answer in the FAQ and have the forum point to it.
+
+### 5. Find when judging starts
+- **Steps:** compared the Rules page and the Dates tab.
+- **Expected:** the same date.
+- **Actual:** Rules say judging is 9–20 November; the Dates tab says it starts 26 October. (Verified.)
+- **Severity:** 2
+- **Workaround:** plan to the earlier date.
+- **Suggestion:** align the pages.
+
+### 6. Request AWS Promotional Credits
+- **Steps:** read the rules' credit section.
+- **Expected:** credits available until the 21 October form deadline stated in the rules.
+- **Actual:** "October 7th Update: We are out of credit codes." (Verified.)
+- **Severity:** 3
+- **Workaround:** mock Bedrock by default, as the FAQ recommends; no deploy without an approved budget.
+- **Suggestion:** announce stock limits earlier.
+
+### 7. Get country currency data
+- **Steps:** the original skeleton called REST Countries v3.1.
+- **Expected:** currency per country.
+- **Actual:** the API is discontinued and the code silently fell back to a 7-currency map. (From context doc.)
+- **Severity:** 4
+- **Workaround:** `countries-list` (MIT, offline).
+- **Suggestion:** fail loudly when a data source disappears.
+
+### 8. Fetch FCDO entry requirements
+- **Steps:** `curl https://www.gov.uk/api/content/foreign-travel-advice/singapore/entry-requirements`.
+- **Expected:** JSON.
+- **Actual:** HTTP 303 without redirect following; `united-states` returns 404 because FCDO does not cover the US. (Verified.)
+- **Severity:** 2
+- **Workaround:** follow redirects; use the State Dept for US data.
+- **Suggestion:** document the redirect in the Content API guide.
+
+### 9. Extract text from the State Dept feed
+- **Steps:** downloaded `CountryTravelInformation`.
+- **Expected:** plain text per country.
+- **Actual:** 5.9 MB with HTML fragments in every field; the US is not a destination in the feed. (Verified.)
+- **Severity:** 2
+- **Workaround:** HTML-to-text step; US skipped as a destination.
+- **Suggestion:** offer a plain-text field.
+
+### 10. Extract prohibited items from list-style pages
+- **Steps:** sentence-level extraction over the FCDO Singapore page.
+- **Expected:** "chewing gum to sell" extracted as a prohibited item.
+- **Actual:** dropped: it is a short list item whose meaning lives in the heading above it. (Verified.)
+- **Severity:** 3
+- **Workaround:** list items under a prohibition heading are kept, with the heading as context.
+- **Suggestion:** structured fields in government travel feeds.
+
+### 11. Trust heuristic rule extraction
+- **Steps:** reviewed the built packs.
+- **Expected:** clean rules.
+- **Actual:** some entries are headings or fragments ("Dress code", "Medication bans"), and some severities are wrong. (Verified.)
+- **Severity:** 3
+- **Workaround:** packs stay tier B until a human review; the validator refuses tier A without a named reviewer.
+- **Suggestion:** Bedrock structured extraction plus a reviewer, planned.
+
+### 12. Type tool results with the MCP SDK
+- **Steps:** returned a named `ToolResult` interface from tool callbacks.
+- **Expected:** compiles.
+- **Actual:** type errors until the interface had an index signature. (Verified.)
+- **Severity:** 2
+- **Workaround:** `[key: string]: unknown` on the result type.
+- **Suggestion:** document the expected shape, or export a result type.
+
+### 13. Validate Bedrock access
+- **Steps:** prepared the Strands brain; did not call Bedrock.
+- **Expected:** a quick validation call.
+- **Actual:** not run, because spend needs approval. The context doc reports forum cases of zero quotas for new accounts. (Not verified.)
+- **Severity:** 4
+- **Workaround:** the deterministic router keeps the demo working without AWS.
+- **Suggestion:** confirm model access in the onboarding checklist.

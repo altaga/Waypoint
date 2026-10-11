@@ -32,6 +32,6 @@ Last updated: 2026-10-11 (UTC+7, D0). Repository: branch `claude/elegant-wozniak
 
 1. Human review of JP, SG, VN (demo storyline) using DATA_REVIEW.md.
 2. Run the Bedrock brain once with approval; record the result in FRICTION_LOG.md.
-3. Decide hosting; keep the endpoint live until judging ends.
+3. Decide whether to host. Not required: the official FAQ accepts a locally runnable repo plus the video.
 4. Publish the OSS repo; record URLs in OPEN_SOURCE.md.
 5. Record the demo with DEMO_SCRIPT.md.

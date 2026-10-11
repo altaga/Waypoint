@@ -119,7 +119,7 @@ Pack status is **tier B, machine-extracted** until a human reviewer signs off. T
 - `src/brain.ts` Strands brain (optional, untested against Bedrock; see `docs/AWS.md`)
 - `skills/waypoint/SKILL.md` Agent Skill with voice and routing rules
 - `oss/travel-entry-packs/` open-source schema, validator and sample packs (separate MIT package)
-- `docs/` STATUS, TESTING, FEEDBACK, FRICTION_LOG, DEMO_SCRIPT, AWS, OPEN_SOURCE, DATA_REVIEW
+- `docs/` SUBMISSION (official checklist), STATUS, TESTING, FEEDBACK, FRICTION_LOG, DEMO_SCRIPT, AWS, OPEN_SOURCE, DATA_REVIEW
 
 ## Limits
 
@@ -127,5 +127,5 @@ Pack status is **tier B, machine-extracted** until a human reviewer signs off. T
 - The visa matrix is a dataset snapshot (2026-02-17), not a live feed.
 - Rules are English only for now (source language). Spanish summaries need a translation pass.
 - `find_events` is not implemented (no verified event source in the build environment).
-- The Bedrock brain is written and type-checked but has not been run against Bedrock: no AWS access in the build environment.
-- Hosting and deployment are not done. The MCP endpoint must stay reachable until judging ends, per the forum guidance; that is an operational decision for the team.
+- The Bedrock brain is written and type-checked but has not been run against Bedrock: no spend has been approved yet.
+- Hosting is not deployed. The official FAQ says a locally runnable public repo plus the demo video is enough for the Alexa+ track, and that the MCP server does not need to stay running after submission. Lambda is the planned option if a hosted endpoint is added.
