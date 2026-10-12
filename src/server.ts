@@ -8,6 +8,7 @@ import { createContext, type AppContext } from "./context.ts";
 import { createWaypointMcpServer } from "./mcp-server.ts";
 import { runBrain, brainConfigured } from "./brain.ts";
 import { mountAlexa } from "./alexa/endpoint.ts";
+import { setLocalMcpFactory } from "./alexa/mcp-call.ts";
 
 // Streamable HTTP transport for MCP 2025-11-25 at /mcp. Sessions are kept in memory
 // for the local demo; the user is identified by the x-waypoint-user header until
@@ -38,6 +39,8 @@ export function createApp(ctx: AppContext = createContext()) {
   // Root app without body parsers: the Alexa adapter must read the raw body to verify
   // Amazon's signature. The MCP app below parses JSON itself, so it is mounted after /alexa.
   const root = express();
+  // The skill reaches this server in memory, so it needs no public URL of its own.
+  setLocalMcpFactory((userKey) => createWaypointMcpServer(ctx, userKey));
   mountAlexa(root, "/alexa");
   // Local runs bind to localhost and get DNS-rebinding protection. Lambda serves a public
   // Function URL host, so host checks are off there; the origin guard still applies.

@@ -63,6 +63,7 @@ before(async () => {
   server = createApp(ctx).listen(0, "127.0.0.1");
   await new Promise((r) => server.once("listening", r));
   base = `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
+  // Tests use the HTTP path so the real streamable transport is exercised.
   process.env.WAYPOINT_MCP_URL = `${base}/mcp`;
 });
 after(() => new Promise<void>((resolve) => { server.closeAllConnections(); server.close(() => resolve()); }));
@@ -101,10 +102,10 @@ test("TripBriefIntent remembers the trip across skill sessions", async () => {
   assert.match(speech(res), /53 days|Days left|days/i);
 });
 
-test("a missing MCP endpoint gives the friendly unavailable message, not an error", async () => {
+test("with no HTTP URL, the skill reaches the server in memory (Lambda path)", async () => {
   const saved = process.env.WAYPOINT_MCP_URL;
   process.env.WAYPOINT_MCP_URL = "";
-  const res = await buildSkill().invoke(envelope("RulesIntent", { destination: "Japan" }));
+  const res = await buildSkill().invoke(envelope("RulesIntent", { destination: "Singapore" }));
   process.env.WAYPOINT_MCP_URL = saved;
-  assert.match(speech(res), /not reachable|no está disponible|Try again/i);
+  assert.match(speech(res), /vape|e-cigarette|confiscat/i);
 });

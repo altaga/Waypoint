@@ -1,6 +1,6 @@
 import { SkillBuilders, RequestHandler, ErrorHandler, HandlerInput } from "ask-sdk-core";
 import { Response } from "ask-sdk-model";
-import { callWaypointTool, ToolCall } from "./mcp-call.ts";
+import { callWaypointTool, canReachWaypoint, ToolCall } from "./mcp-call.ts";
 
 // Alexa custom skill. Each intent becomes one Waypoint MCP tool call.
 // The MCP endpoint comes from WAYPOINT_MCP_URL (a public HTTPS /mcp URL).
@@ -49,14 +49,12 @@ function speakResult(handlerInput: HandlerInput, r: ToolCall, title: string): Re
     .getResponse();
 }
 
-const mcpUrl = () => process.env.WAYPOINT_MCP_URL ?? "";
-
 async function run(handlerInput: HandlerInput, tool: string, args: Record<string, unknown>, title: string) {
   const locale = localeOf(handlerInput);
   const userId = handlerInput.requestEnvelope.context.System.user.userId;
-  if (!mcpUrl()) return handlerInput.responseBuilder.speak(TEXT[locale].unavailable).getResponse();
+  if (!canReachWaypoint()) return handlerInput.responseBuilder.speak(TEXT[locale].unavailable).getResponse();
   try {
-    const r = await callWaypointTool(mcpUrl(), userId, tool, args);
+    const r = await callWaypointTool(userId, tool, args);
     return speakResult(handlerInput, r, title);
   } catch {
     return handlerInput.responseBuilder.speak(TEXT[locale].unavailable).getResponse();
