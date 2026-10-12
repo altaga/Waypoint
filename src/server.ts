@@ -120,6 +120,18 @@ export function createApp(ctx: AppContext = createContext()) {
   });
 
   app.use(express.static(join(ctx.root, "web")));
+  // Under Lambda, serverless-http puts the raw body on req.body; the JSON parser of the MCP app
+  // would then skip reading the stream. Drop that copy so the parser reads the real body.
+  root.use((req, _res, next) => {
+    if ((req as { body?: unknown }).body !== undefined) delete (req as { body?: unknown }).body;
+    // The MCP SDK converts Node requests with their rawHeaders; serverless-http only sets headers.
+    if (!req.rawHeaders?.length) {
+      req.rawHeaders = Object.entries(req.headers).flatMap(([k, v]) =>
+        Array.isArray(v) ? v.flatMap((x) => [k, x]) : v === undefined ? [] : [k, String(v)],
+      );
+    }
+    next();
+  });
   root.use(app);
   return root;
 }
