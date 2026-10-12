@@ -75,7 +75,11 @@ if (vendors.length === 0) fail("No developer vendor found. Open https://develope
 // 4. Print the values to copy into GitHub secrets.
 console.log("\n==================== COPY THESE INTO GITHUB SECRETS ====================");
 console.log("https://github.com/altaga/Waypoint/settings/secrets/actions\n");
-console.log(`ASK_REFRESH_TOKEN = ${tokens.refresh_token}\n`);
+// The refresh token never goes to the terminal (scrollback, logs, screen shares). It is written
+// to a private file instead; paste it into GitHub, then delete the file.
+const tokenFile = join(homedir(), ".ask", "waypoint-refresh-token.txt");
+writeFileSync(tokenFile, tokens.refresh_token + "\n", { mode: 0o600 });
+console.log(`ASK_REFRESH_TOKEN  saved to: ${tokenFile}  (not printed)\n`);
 if (vendors.length === 1) {
   console.log(`ASK_VENDOR_ID     = ${vendors[0].id}`);
 } else {
@@ -83,4 +87,4 @@ if (vendors.length === 1) {
   for (const v of vendors) console.log(`  ${v.id}   ${v.name}   ${(v.roles || []).join(", ")}`);
 }
 console.log("=========================================================================");
-console.log("The refresh token is a secret: paste it only into GitHub, then clear this terminal.");
+console.log("The refresh token is a secret: copy it from that file into GitHub, then delete the file.");
