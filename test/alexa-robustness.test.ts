@@ -143,6 +143,8 @@ before(() => {
   createApp(createContext({ offline: true, store, clock: () => new Date(NOW) }));
 });
 
+const ENDS_SESSION = new Set(["AMAZON.StopIntent", "AMAZON.CancelIntent", "AMAZON.NoIntent", "SessionEndedRequest"]);
+
 type Case = { label: string; locale: Loc; state: ProfileState; request: (l: Loc) => RequestEnvelope["request"]; attributes?: Record<string, unknown> };
 
 async function sweep(cases: Case[]) {
@@ -157,6 +159,8 @@ async function sweep(cases: Case[]) {
       continue;
     }
     const problems = check(res, c.locale);
+    // A closed session means the next sentence never reaches the skill (found by the live Alexa run).
+    if (!ENDS_SESSION.has(c.label.split(" ")[0]) && !res.response.reprompt) problems.push("closes the session");
     if (problems.length) {
       const said = (res.response.outputSpeech?.ssml ?? "").replace(/<\/?speak>/g, "").slice(0, 160);
       failures.push(`${c.label}: ${problems.join("; ")} | said: ${said}`);
@@ -271,6 +275,7 @@ test("sweep: random conversations in any order keep every invariant", async () =
           break;
         }
         const problems = check(res, locale);
+        if (!launch && !ENDS_SESSION.has(intent.name) && !res.response.reprompt) problems.push("closes the session");
         // The same question right after the user answered it with a valid value is a loop.
         const now = res.response.outputSpeech?.ssml ?? "";
         // A loop is the same question right after the user answered exactly what was asked: a valid

@@ -32,6 +32,7 @@ const TEXT = {
     confirmForget: "Do you want me to delete all your Waypoint data: passport, residence and trips? Say yes or no.",
     keptData: "Okay, I didn't delete anything.",
     yesNoNothing: "Okay. You can say: plan a trip to a country, or what is left for my trip.",
+    anythingElse: "Anything else?",
     datesNoted: "Got the dates. Which country are you going to?",
     unknownPlace: (place: string) => `I don't recognize "${place}" as a destination. Which country are you going to?`,
     datesTooLong: "That trip is longer than a year. Tell me shorter dates, for example: from December 1 to 25.",
@@ -62,6 +63,7 @@ const TEXT = {
     confirmForget: "¿Quieres que borre todos tus datos de Waypoint: pasaporte, residencia y viajes? Di sí o no.",
     keptData: "Está bien, no borré nada.",
     yesNoNothing: "Está bien. Puedes decir: planea un viaje a un país, o qué me falta para mi viaje.",
+    anythingElse: "¿Algo más?",
     datesNoted: "Anoté las fechas. ¿A qué país vas?",
     unknownPlace: (place: string) => `No reconozco "${place}" como destino. ¿A qué país vas?`,
     datesTooLong: "Ese viaje dura más de un año. Dime fechas más cortas, por ejemplo: del 1 al 25 de diciembre.",
@@ -171,8 +173,10 @@ const tidy = (s: string) => s.replace(/\s+([.,;:])/g, "$1").replace(/\s{2,}/g, "
 
 function speakResult(handlerInput: HandlerInput, r: ToolCall, title: string, after?: string, tool = ""): Response {
   if (localeOf(handlerInput) === "es-MX") title = TITLES_ES[title] ?? title;
-  // The next step follows a success only; after an error it would not make sense.
+  // The next step follows a success only; after an error it would not make sense. Either way the
+  // session stays open with a short question, or the user's next sentence would not reach the skill.
   if (r.isError) after = undefined;
+  after ??= TEXT[localeOf(handlerInput)].anythingElse;
   const locale = localeOf(handlerInput);
   // A protocol or schema error is for logs, not for the user's ears.
   const technical = r.isError && /MCP error|Input validation|Invalid arguments|-32\d{3}/i.test(r.voice);
@@ -275,7 +279,7 @@ async function rulesAnswer(h: HandlerInput, destination: string, item?: string) 
         ? `No encontré una regla verificada sobre ${item} para ${place}. Consulta la fuente oficial antes de viajar.`
         : `I found no verified rule about ${item} for ${place}. Check the official source before you travel.`;
     const speech = tidy(matches.length && takeDisclaimer(h, "get_local_rules") ? `${said} ${DISCLAIMER[locale]}` : said);
-    return h.responseBuilder.speak(speech).withSimpleCard(es ? "Reglas locales" : "Local rules", speech).getResponse();
+    return h.responseBuilder.speak(`${speech} ${TEXT[locale].anythingElse}`).reprompt(TEXT[locale].anythingElse).withSimpleCard(es ? "Reglas locales" : "Local rules", speech).getResponse();
   } catch {
     return h.responseBuilder.speak(TEXT[locale].unavailable).getResponse();
   }
@@ -321,11 +325,26 @@ const EntryHandler: RequestHandler = {
   },
 };
 
+// The item slot is free text and cannot share a sample with the country slot, so Alexa may hand
+// over "chicles a singapur" as the item. A trailing "a/en/para/to/in <place>" is split off.
+const PLACE_WORDS = new Set(["a", "al", "en", "para", "hacia", "to", "in", "into", "for"]);
+function splitItemPlace(item: string): { item: string; place: string } | null {
+  const words = item.trim().split(/\s+/);
+  for (let i = words.length - 2; i >= 1; i--) {
+    if (!PLACE_WORDS.has(words[i].toLowerCase())) continue;
+    const place = words.slice(i + 1).join(" ");
+    if (resolveCountry(place)) return { item: words.slice(0, i).join(" "), place };
+  }
+  return null;
+}
+
 const RulesHandler: RequestHandler = {
   canHandle: (h) => h.requestEnvelope.request.type === "IntentRequest" && h.requestEnvelope.request.intent.name === "RulesIntent",
   async handle(h) {
-    const destination = slot(h, "destination");
-    const item = slot(h, "item");
+    let destination = slot(h, "destination");
+    let item = slot(h, "item");
+    const split = !destination && item ? splitItemPlace(item) : null;
+    if (split) ({ item, place: destination } = split);
     const known = destination ?? lastDestination(h);
     if (!known) return ask(h, { kind: "rules", item }, TEXT[localeOf(h)].askDestination);
     return unknownDestination(h, known, { kind: "rules", item }) ?? rulesAnswer(h, known, item);
@@ -426,7 +445,10 @@ const YesNoHandler: RequestHandler = {
   async handle(h) {
     const t = TEXT[localeOf(h)];
     const yes = (h.requestEnvelope.request as { intent: { name: string } }).intent.name === "AMAZON.YesIntent";
-    if (getAwaiting(h)?.kind !== "forget") return h.responseBuilder.speak(t.yesNoNothing).reprompt(t.yesNoNothing).getResponse();
+    if (getAwaiting(h)?.kind !== "forget") {
+      if (!yes) return h.responseBuilder.speak(t.bye).withShouldEndSession(true).getResponse();
+      return h.responseBuilder.speak(t.yesNoNothing).reprompt(t.yesNoNothing).getResponse();
+    }
     if (!yes) {
       setAwaiting(h, null);
       return h.responseBuilder.speak(t.keptData).reprompt(t.yesNoNothing).getResponse();

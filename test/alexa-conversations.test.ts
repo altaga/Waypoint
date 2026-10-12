@@ -651,3 +651,31 @@ test("a yes with nothing asked does not delete anything", async () => {
   assert.match(await turn(user, "AMAZON.YesIntent", {}, "es-MX"), /Puedes decir/);
   assert.ok((await callWaypointTool(user, "get_traveler_profile", {})).data.profile);
 });
+
+// From the live Alexa run: answers closed the session, so the next question never reached the
+// skill; and "puedo llevar chicles a singapur" came as item="chicles a singapur", no country.
+test("every answer keeps the session open with a short question", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  for (const [intent, slots] of [["EntryIntent", { destination: "Japón" }], ["RulesIntent", { destination: "Japón" }], ["RulesIntent", { destination: "Singapur", item: "chicles" }], ["SetResidenceIntent", { country: "Estados Unidos" }]] as const) {
+    const res = (await buildSkill().invoke(envelope(user, intent, slots, "es-MX"))) as { response: { reprompt?: unknown; shouldEndSession?: boolean; outputSpeech: { ssml: string } } };
+    assert.ok(res.response.reprompt, `${intent} keeps the session open`);
+    assert.notEqual(res.response.shouldEndSession, true);
+    assert.match(speechOf(res), /¿Algo más\?$/);
+  }
+});
+
+test("an item phrase with the country at the end is split: 'chicles a singapur'", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const text = await turn(user, "RulesIntent", { item: "chicles a singapur" }, "es-MX");
+  assert.match(text, /Sobre chicles en Singapur/);
+  assert.match(text, /chewing gum/);
+  assert.match(await turn(user, "RulesIntent", { item: "gum to singapore" }, "en-US"), /chewing gum/);
+});
+
+test("'no' with nothing pending ends the session; 'yes' asks what next", async () => {
+  const no = (await buildSkill().invoke(envelope(freshUser(), "AMAZON.NoIntent", {}, "es-MX"))) as { response: { shouldEndSession?: boolean } };
+  assert.equal(no.response.shouldEndSession, true);
+  assert.match(await turn(freshUser(), "AMAZON.YesIntent", {}, "es-MX"), /Puedes decir/);
+});
