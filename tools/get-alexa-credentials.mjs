@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 // Prints ASK_REFRESH_TOKEN and ASK_VENDOR_ID for the Waypoint Alexa skill.
 // Run it on YOUR computer:   node get-alexa-credentials.mjs
 // No global installs: ask-cli is installed into ./.ask-cli-local next to this file.
