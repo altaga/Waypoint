@@ -154,3 +154,4 @@ data/raw/
 !.env.example
 .ask-cli-local/
 tools/secret-box/*.pem
+!tools/secret-box/recipient-public.pem
