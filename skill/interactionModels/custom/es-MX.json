@@ -2040,6 +2040,18 @@
           ]
         },
         {
+          "name": "ForgetMeIntent",
+          "slots": [],
+          "samples": [
+            "borra mis datos",
+            "borra todos mis datos",
+            "olvida mis datos",
+            "elimina mis datos",
+            "borra mi perfil",
+            "olvídame"
+          ]
+        },
+        {
           "name": "AMAZON.HelpIntent",
           "samples": []
         },
@@ -2053,6 +2065,14 @@
         },
         {
           "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
           "samples": []
         }
       ]

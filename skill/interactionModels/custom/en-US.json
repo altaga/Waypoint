@@ -2035,6 +2035,17 @@
           ]
         },
         {
+          "name": "ForgetMeIntent",
+          "slots": [],
+          "samples": [
+            "delete my data",
+            "delete all my data",
+            "forget me",
+            "erase my profile",
+            "forget my data"
+          ]
+        },
+        {
           "name": "AMAZON.HelpIntent",
           "samples": []
         },
@@ -2048,6 +2059,14 @@
         },
         {
           "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
           "samples": []
         }
       ]

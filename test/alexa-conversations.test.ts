@@ -629,3 +629,25 @@ test("cities resolve to their country in visa and rules questions", async () => 
   assert.match(await turn(user, "RulesIntent", { destination: "Singapur", item: "chicles" }, "es-MX"), /chewing gum/);
   assert.match(await turn(user, "PlanTripIntent", { destination: "Cancún", startDate: "2026-12-03", endDate: "2026-12-10" }, "es-MX"), /México/);
 });
+
+// "Borra mis datos": asks first, deletes only on yes, then starts over with the passport.
+test("delete my data: asks, keeps everything on no, deletes on yes and asks for the passport again", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const c = convo(user, "es-MX");
+  assert.match(await c.say("ForgetMeIntent"), /¿Quieres que borre todos tus datos/);
+  assert.match(await c.say("AMAZON.NoIntent"), /no borré nada/);
+  assert.ok((await callWaypointTool(user, "get_traveler_profile", {})).data.profile, "a no keeps the profile");
+  await c.say("ForgetMeIntent");
+  const deleted = await c.say("AMAZON.YesIntent");
+  assert.match(deleted, /pasaporte/);
+  assert.equal((await callWaypointTool(user, "get_traveler_profile", {})).data.profile, undefined);
+  assert.match(await c.say("CountryAnswerIntent", { country: { value: "mexicano", id: "MX" } }), /Tu pasaporte es de México/);
+});
+
+test("a yes with nothing asked does not delete anything", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  assert.match(await turn(user, "AMAZON.YesIntent", {}, "es-MX"), /Puedes decir/);
+  assert.ok((await callWaypointTool(user, "get_traveler_profile", {})).data.profile);
+});

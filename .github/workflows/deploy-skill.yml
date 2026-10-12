@@ -79,3 +79,12 @@ jobs:
           id=$(jq -r '.profiles.__ENVIRONMENT_ASK_PROFILE__.skillId // empty' ask-resources.json)
           echo "Skill id: $id"
           echo "Save it as the repository variable ALEXA_SKILL_ID, then run this workflow again if it was empty."
+      - name: Live conversations against Alexa (Skill Simulation API)
+        run: node scripts/alexa-live.mjs
+      - name: Keep the live transcript
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-transcript
+          path: live-transcript.txt
+          if-no-files-found: ignore

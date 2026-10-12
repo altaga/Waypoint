@@ -1,0 +1,54 @@
+name: alexa-live
+# Talks to the deployed skill through Amazon's Skill Simulation API (the console's Test tab):
+# real Alexa understanding, real Lambda. Runs test/alexa-live/conversations.json and fails when
+# an answer is not as expected. Manual; deploy-skill also runs it after every deploy.
+# Needs: secrets ASK_REFRESH_TOKEN, ASK_VENDOR_ID, AWS_DEPLOY_ROLE_ARN, AWS_REGION
+#        variable ALEXA_SKILL_ID (or the skill_id input)
+on:
+  workflow_dispatch:
+    inputs:
+      skill_id:
+        description: 'Skill id (amzn1.ask.skill...). Empty uses the ALEXA_SKILL_ID variable.'
+        required: false
+        default: ''
+  push:
+    branches: ["claude/**"]
+    paths: [".github/workflows/alexa-live.yml"]
+permissions:
+  id-token: write
+  contents: read
+concurrency:
+  group: alexa-live
+  cancel-in-progress: false
+jobs:
+  live:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ASK_REFRESH_TOKEN: ${{ secrets.ASK_REFRESH_TOKEN }}
+      ASK_VENDOR_ID: ${{ secrets.ASK_VENDOR_ID }}
+      SKILL_ID: ${{ inputs.skill_id || vars.ALEXA_SKILL_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Assume the deploy role through OIDC
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+          role-session-name: waypoint-alexa-live
+          output-env-credentials: true
+      - name: Install ask-cli 2.30.7
+        run: npm install -g ask-cli@2.30.7
+      - name: Live conversations against Alexa
+        run: node scripts/alexa-live.mjs
+      - name: Keep the live transcript
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-transcript
+          path: live-transcript.txt
+          if-no-files-found: ignore

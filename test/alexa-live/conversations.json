@@ -1,0 +1,97 @@
+[
+  {
+    "name": "New user, Spanish: reset, passport by demonym, trip, rules, visa, packing, brief",
+    "locale": "es-MX",
+    "turns": [
+      { "say": "abre waypoint", "intent": "LaunchRequest", "expect": "Bienvenid" },
+      { "say": "borra mis datos", "intent": "ForgetMeIntent", "expect": "borre todos tus datos" },
+      { "say": "sí", "intent": "AMAZON.YesIntent", "expect": "pasaporte" },
+      { "say": "mexicano", "intent": "CountryAnswerIntent", "expect": "Tu pasaporte es de México" },
+      { "say": "quiero ir a japón del tres al diez de diciembre", "intent": "PlanTripIntent", "expect": "Listo: tu viaje a Japón del 3 al 10 de diciembre" },
+      { "say": "qué no puedo llevar", "intent": "RulesIntent", "expect": "Japón", "notExpect": "A qué país" },
+      { "say": "necesito visa", "intent": "EntryIntent", "expect": "No necesitas visa" },
+      { "say": "qué debo empacar", "intent": "PackingIntent", "expect": "lista" },
+      { "say": "qué me falta para mi viaje", "intent": "TripBriefIntent", "expect": "Faltan|Sales" },
+      { "say": "para", "expect": "Buen viaje" }
+    ]
+  },
+  {
+    "name": "A city as destination (console: amsterdam)",
+    "locale": "es-MX",
+    "turns": [
+      { "say": "abre waypoint", "intent": "LaunchRequest" },
+      { "say": "vamos a amsterdam del dos al quince de noviembre", "intent": "PlanTripIntent", "expect": "Países Bajos del 2 al 15 de noviembre" }
+    ]
+  },
+  {
+    "name": "One date, then the return (dates kept across turns)",
+    "locale": "es-MX",
+    "turns": [
+      { "say": "abre waypoint", "intent": "LaunchRequest" },
+      { "say": "quiero ir a italia el diez de diciembre", "intent": "PlanTripIntent", "expect": "cuándo regresas" },
+      { "say": "regreso el veinte de diciembre", "intent": "DatesAnswerIntent", "expect": "Italia del 10 al 20 de diciembre" }
+    ]
+  },
+  {
+    "name": "Dates first, then the country",
+    "locale": "es-MX",
+    "turns": [
+      { "say": "abre waypoint", "intent": "LaunchRequest" },
+      { "say": "del tres al diez de diciembre", "intent": "DatesAnswerIntent", "expect": "Anoté las fechas" },
+      { "say": "japón", "intent": "CountryAnswerIntent", "expect": "Japón del 3 al 10 de diciembre" }
+    ]
+  },
+  {
+    "name": "Trip without dates, then the dates (console: dos al quince)",
+    "locale": "es-MX",
+    "turns": [
+      { "say": "abre waypoint", "intent": "LaunchRequest" },
+      { "say": "quiero ir a japón", "intent": "PlanTripIntent", "expect": "Cuándo sales" },
+      { "say": "del dos al quince de diciembre", "intent": "DatesAnswerIntent", "expect": "Japón del 2 al 15 de diciembre" }
+    ]
+  },
+  {
+    "name": "Item rule (console: chicles)",
+    "locale": "es-MX",
+    "turns": [
+      { "say": "abre waypoint", "intent": "LaunchRequest" },
+      { "say": "puedo llevar chicles a singapur", "intent": "RulesIntent", "expect": "chewing gum" }
+    ]
+  },
+  {
+    "name": "Unknown destination is asked at once",
+    "locale": "es-MX",
+    "turns": [
+      { "say": "abre waypoint", "intent": "LaunchRequest" },
+      { "say": "vamos a narnia del tres al diez de diciembre", "expect": "No reconozco|A qué país" }
+    ]
+  },
+  {
+    "name": "Residence",
+    "locale": "es-MX",
+    "turns": [
+      { "say": "abre waypoint", "intent": "LaunchRequest" },
+      { "say": "vivo en estados unidos", "intent": "SetResidenceIntent", "expect": "Vives en Estados Unidos" }
+    ]
+  },
+  {
+    "name": "One-shot request",
+    "locale": "es-MX",
+    "turns": [
+      { "say": "pide a waypoint que planee un viaje a japón del tres al diez de diciembre", "intent": "PlanTripIntent", "expect": "Japón" }
+    ]
+  },
+  {
+    "name": "New user, English",
+    "locale": "en-US",
+    "turns": [
+      { "say": "open waypoint", "intent": "LaunchRequest", "expect": "Welcome" },
+      { "say": "delete my data", "intent": "ForgetMeIntent", "expect": "delete all your" },
+      { "say": "yes", "intent": "AMAZON.YesIntent", "expect": "passport" },
+      { "say": "mexican", "intent": "CountryAnswerIntent", "expect": "Your passport is from Mexico" },
+      { "say": "plan a trip to japan from december third to december tenth", "intent": "PlanTripIntent", "expect": "Japan from December 3 to 10" },
+      { "say": "what can't I bring", "intent": "RulesIntent", "expect": "Japan", "notExpect": "Which country" },
+      { "say": "stop", "expect": "Safe travels" }
+    ]
+  }
+]

@@ -29,6 +29,9 @@ const TEXT = {
     datesPast: (when: string) => `${when.replace(/^on /, "")} has already passed. Tell me future dates, for example: from December 1 to 25.`,
     askReturn: "And when do you come back?",
     askLeave: "What day do you leave?",
+    confirmForget: "Do you want me to delete all your Waypoint data: passport, residence and trips? Say yes or no.",
+    keptData: "Okay, I didn't delete anything.",
+    yesNoNothing: "Okay. You can say: plan a trip to a country, or what is left for my trip.",
     datesNoted: "Got the dates. Which country are you going to?",
     unknownPlace: (place: string) => `I don't recognize "${place}" as a destination. Which country are you going to?`,
     datesTooLong: "That trip is longer than a year. Tell me shorter dates, for example: from December 1 to 25.",
@@ -56,6 +59,9 @@ const TEXT = {
     datesPast: (when: string) => `${when.charAt(0).toUpperCase()}${when.slice(1)} ya pasó. Dime fechas futuras, por ejemplo: del 1 al 25 de diciembre.`,
     askReturn: "¿Y cuándo regresas?",
     askLeave: "¿Qué día sales?",
+    confirmForget: "¿Quieres que borre todos tus datos de Waypoint: pasaporte, residencia y viajes? Di sí o no.",
+    keptData: "Está bien, no borré nada.",
+    yesNoNothing: "Está bien. Puedes decir: planea un viaje a un país, o qué me falta para mi viaje.",
     datesNoted: "Anoté las fechas. ¿A qué país vas?",
     unknownPlace: (place: string) => `No reconozco "${place}" como destino. ¿A qué país vas?`,
     datesTooLong: "Ese viaje dura más de un año. Dime fechas más cortas, por ejemplo: del 1 al 25 de diciembre.",
@@ -112,7 +118,8 @@ type Awaiting =
   | { kind: "plan"; startDate?: string; endDate?: string }
   | { kind: "dates"; destination: string; startDate?: string; endDate?: string }
   | { kind: "entry" }
-  | { kind: "rules"; item?: string };
+  | { kind: "rules"; item?: string }
+  | { kind: "forget" };
 
 // Sets or clears the pending question; everything else in the session (last destination,
 // whether the disclaimer was said) is kept.
@@ -407,6 +414,29 @@ const DatesAnswerHandler: RequestHandler = {
   },
 };
 
+// "Delete my data": asks first, and deletes only after a yes to that question.
+const ForgetMeHandler: RequestHandler = {
+  canHandle: (h) => h.requestEnvelope.request.type === "IntentRequest" && h.requestEnvelope.request.intent.name === "ForgetMeIntent",
+  handle: (h) => ask(h, { kind: "forget" }, TEXT[localeOf(h)].confirmForget),
+};
+
+const YesNoHandler: RequestHandler = {
+  canHandle: (h) =>
+    h.requestEnvelope.request.type === "IntentRequest" && ["AMAZON.YesIntent", "AMAZON.NoIntent"].includes(h.requestEnvelope.request.intent.name),
+  async handle(h) {
+    const t = TEXT[localeOf(h)];
+    const yes = (h.requestEnvelope.request as { intent: { name: string } }).intent.name === "AMAZON.YesIntent";
+    if (getAwaiting(h)?.kind !== "forget") return h.responseBuilder.speak(t.yesNoNothing).reprompt(t.yesNoNothing).getResponse();
+    if (!yes) {
+      setAwaiting(h, null);
+      return h.responseBuilder.speak(t.keptData).reprompt(t.yesNoNothing).getResponse();
+    }
+    // Nothing from the old session (destination, disclaimer) should outlive the data.
+    h.attributesManager.setSessionAttributes({});
+    return run(h, "forget_me", { confirm: true }, "Traveler profile", t.askPassportFirst, () => setAwaiting(h, { kind: "passport" }));
+  },
+};
+
 const PackingHandler: RequestHandler = {
   canHandle: (h) => h.requestEnvelope.request.type === "IntentRequest" && h.requestEnvelope.request.intent.name === "PackingIntent",
   handle: (h) => run(h, "packing_checklist", {}, "Packing checklist"),
@@ -471,6 +501,8 @@ export function buildSkill() {
       SetPassportHandler,
       CountryAnswerHandler,
       DatesAnswerHandler,
+      ForgetMeHandler,
+      YesNoHandler,
       PlanTripHandler,
       EntryHandler,
       RulesHandler,
