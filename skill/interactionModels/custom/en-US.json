@@ -58,8 +58,9 @@
             "can I bring vapes to {destination}",
             "what is prohibited in {destination}",
             "what are the local rules in {destination}",
-            "can I bring {item} to {destination}",
-            "is {item} allowed in {destination}"
+            "can I bring {item}",
+            "is {item} allowed",
+            "am I allowed to bring {item}"
           ]
         },
         {
@@ -79,7 +80,7 @@
               "type": "AMAZON.Country"
             },
             {
-              "name": "country2",
+              "name": "secondCountry",
               "type": "AMAZON.Country"
             }
           ],
@@ -89,9 +90,9 @@
             "I hold a {country} passport",
             "my nationality is {country}",
             "save my passport as {country}",
-            "my passports are {country} and {country2}",
-            "I hold {country} and {country2} passports",
-            "I am from {country} and {country2}"
+            "my passports are {country} and {secondCountry}",
+            "I hold {country} and {secondCountry} passports",
+            "I am from {country} and {secondCountry}"
           ]
         },
         {

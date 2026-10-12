@@ -147,7 +147,7 @@ const SetPassportHandler: RequestHandler = {
   async handle(h) {
     const locale = localeOf(h);
     // One or two countries: a traveler can hold more than one passport.
-    const passports = [slot(h, "country"), slot(h, "country2")].filter((c): c is string => Boolean(c));
+    const passports = [slot(h, "country"), slot(h, "secondCountry")].filter((c): c is string => Boolean(c));
     if (!passports.length) return h.responseBuilder.speak(TEXT[locale].askPassport).reprompt(TEXT[locale].askPassport).getResponse();
     return run(
       h,

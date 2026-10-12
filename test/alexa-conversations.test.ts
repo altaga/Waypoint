@@ -277,7 +277,7 @@ test("launch in Spanish with no passport asks for el pasaporte", async () => {
 
 test("two passports in one utterance are both saved on the traveler", async () => {
   const user = freshUser();
-  assert.match(await turn(user, "SetPassportIntent", { country: "México", country2: "España" }, "es-MX"), /Guardado/i);
+  assert.match(await turn(user, "SetPassportIntent", { country: "México", secondCountry: "España" }, "es-MX"), /Guardado/i);
   const r = await callWaypointTool(user, "get_traveler_profile", {});
   const profile = r.data.profile as { travelers: { passports: { country: string }[] }[] };
   assert.deepEqual(profile.travelers[0].passports.map((p) => p.country), ["MX", "ES"]);
