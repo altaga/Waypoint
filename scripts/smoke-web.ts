@@ -14,8 +14,8 @@ async function main() {
   });
   const page = await browser.newPage();
   const errors: string[] = [];
-  page.on("pageerror", (e) => errors.push(`pageerror: ${e.message}`));
-  page.on("console", (m) => m.type() === "error" && errors.push(`console: ${m.text()}`));
+  page.on("pageerror", (e: Error) => errors.push(`pageerror: ${e.message}`));
+  page.on("console", (m: { type(): string; text(): string }) => m.type() === "error" && errors.push(`console: ${m.text()}`));
 
   await page.goto(BASE);
   await page.waitForFunction(() => document.getElementById("connState")?.textContent?.includes("MCP 2025-11-25"), null, { timeout: 15000 });

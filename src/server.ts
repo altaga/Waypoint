@@ -39,7 +39,9 @@ export function createApp(ctx: AppContext = createContext()) {
   // Amazon's signature. The MCP app below parses JSON itself, so it is mounted after /alexa.
   const root = express();
   mountAlexa(root, "/alexa");
-  const app = createMcpExpressApp({ host: "127.0.0.1" });
+  // Local runs bind to localhost and get DNS-rebinding protection. Lambda serves a public
+  // Function URL host, so host checks are off there; the origin guard still applies.
+  const app = createMcpExpressApp({ host: process.env.AWS_LAMBDA_FUNCTION_NAME ? "0.0.0.0" : "127.0.0.1" });
   const sessions = new Map<string, Session>();
   const allow = allowedOrigins();
 

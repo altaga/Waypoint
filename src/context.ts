@@ -5,6 +5,7 @@ import { loadPacks, type PackRegistry } from "./services/packs.ts";
 import { createFxService, type FxService } from "./services/fx.ts";
 import { createPppTable, type PppTable } from "./services/ppp.ts";
 import { createFileStore, createMemoryStore, type StateStore } from "./state.ts";
+import { createDynamoStore } from "./state-dynamo.ts";
 
 export interface AppContext {
   root: string;
@@ -27,7 +28,7 @@ export interface ContextOptions {
 
 /** Loads all vendored data. Nothing here performs network I/O unless the app is online. */
 export function createContext(opts: ContextOptions = {}): AppContext {
-  const root = opts.root ?? join(import.meta.dirname, "..");
+  const root = opts.root ?? process.env.WAYPOINT_ROOT ?? join(import.meta.dirname, "..");
   const offline = opts.offline ?? process.env.WAYPOINT_OFFLINE === "1";
   const visaCsv = readFileSync(join(root, "data/vendor/passport-index/passport-index-tidy-iso2.csv"), "utf8");
   const fxSnapshot = JSON.parse(readFileSync(join(root, "data/vendor/fx-fallback.json"), "utf8"));
@@ -37,7 +38,7 @@ export function createContext(opts: ContextOptions = {}): AppContext {
     root,
     offline,
     clock: opts.clock ?? (() => new Date()),
-    store: opts.store ?? createFileStore(join(dataDir, "state.json")),
+    store: opts.store ?? (process.env.WAYPOINT_TABLE_NAME ? createDynamoStore(process.env.WAYPOINT_TABLE_NAME) : createFileStore(join(dataDir, "state.json"))),
     visa: parseVisaCsv(visaCsv),
     packs: loadPacks(root),
     fx: createFxService({ offline, snapshot: fxSnapshot }),

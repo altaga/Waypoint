@@ -155,3 +155,5 @@ data/raw/
 .ask-cli-local/
 tools/secret-box/*.pem
 !tools/secret-box/recipient-public.pem
+lambda-bundle/
+cdk.out/

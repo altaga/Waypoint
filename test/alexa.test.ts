@@ -69,7 +69,7 @@ after(() => new Promise<void>((resolve) => { server.closeAllConnections(); serve
 
 test("an unsigned request to /alexa is rejected before any handler runs", async () => {
   const res = await fetch(`${base}/alexa`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(envelope("PlanTripIntent")) });
-  assert.notEqual(res.status, 200);
+  assert.equal(res.status, 400, "signature verification must fail with 400");
   const body = await res.text();
   assert.doesNotMatch(body, /Japan|speech|outputSpeech/);
 });

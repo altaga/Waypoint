@@ -1,4 +1,4 @@
-import type { Express } from "express";
+import type { Express, Request, Response, NextFunction } from "express";
 import { ExpressAdapter } from "ask-sdk-express-adapter";
 import { buildSkill } from "./skill.ts";
 
@@ -7,5 +7,11 @@ import { buildSkill } from "./skill.ts";
 export function mountAlexa(app: Express, path = "/alexa") {
   const skill = buildSkill();
   const adapter = new ExpressAdapter(skill, true, true);
-  app.post(path, adapter.getRequestHandlers());
+  // Lambda (serverless-http) puts the raw body on req.body before Express runs. The adapter
+  // refuses requests whose body is already set, so drop that copy; the stream is still intact.
+  const dropPreParsedBody = (req: Request, _res: Response, next: NextFunction) => {
+    if ((req as { body?: unknown }).body !== undefined) delete (req as { body?: unknown }).body;
+    next();
+  };
+  app.post(path, dropPreParsedBody, adapter.getRequestHandlers());
 }
