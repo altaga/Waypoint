@@ -289,18 +289,18 @@ const launch = async (user: string, locale: Locale) => {
 
 test("launch with no passport on file asks for it, and says more than one is fine", async () => {
   const text = await launch(freshUser(), "en-US");
-  assert.match(text, /need your passport/i);
+  assert.match(text, /tell me which country issued your passport/i);
   assert.match(text, /more than one/i);
 });
 
 test("launch for a user with a passport on file welcomes them back without asking again", async () => {
   const text = await launch(SEEDED_EN, "en-US");
   assert.match(text, /Welcome back/i);
-  assert.doesNotMatch(text, /need your passport/i);
+  assert.doesNotMatch(text, /tell me which country issued your passport/i);
 });
 
 test("launch in Spanish with no passport asks for el pasaporte", async () => {
-  assert.match(await launch(freshUser(), "es-MX"), /necesito tu pasaporte/i);
+  assert.match(await launch(freshUser(), "es-MX"), /dime de qué país es tu pasaporte/i);
 });
 
 test("two passports in one utterance are both saved on the traveler", async () => {
@@ -359,7 +359,7 @@ test("residence rule: Mexico's waiver note appears in Spanish for a Spanish-spea
 // a bare "mexicano" or "mexico". It must save the passport, not repeat the question.
 test("launch asks for the passport, and a bare 'mexicano' answers it (es-MX)", async () => {
   const c = convo(freshUser(), "es-MX");
-  assert.match(await c.launch(), /necesito tu pasaporte/i);
+  assert.match(await c.launch(), /dime de qué país es tu pasaporte/i);
   assert.match(await c.say("CountryAnswerIntent", { country: { value: "mexicano", id: "MX" } }), /Guardado/i);
 });
 
@@ -374,7 +374,7 @@ test("a bare country answer is saved as the passport, as the right country, when
 
 test("English flow: launch, then 'Mexican' saves the passport and asks where the trip is", async () => {
   const c = convo(freshUser(), "en-US");
-  assert.match(await c.launch(), /need your passport/i);
+  assert.match(await c.launch(), /tell me which country issued your passport/i);
   const saved = await c.say("CountryAnswerIntent", { country: { value: "Mexican", id: "MX" } });
   assert.match(saved, /Saved/i);
   assert.match(saved, /Where are you going and when/i);
@@ -515,4 +515,74 @@ test("a protocol or validation error is never read aloud", async () => {
   const text = await turn(user, "EntryIntent", { destination: "J" }, "es-MX");
   assert.doesNotMatch(text, /MCP error|Input validation|Invalid arguments|-32602/);
   assert.match(text, /Algo no salió bien|no tengo información/i);
+});
+
+// From the console: "a japon del tres al diez quiero comer ramen". The answer said "Este es tu
+// nivel de preparación ... Yo: Sin visa", without the dates it understood. It must read naturally.
+test("a planned trip is said back with its dates, in natural Spanish, with the next step", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const res = (await buildSkill().invoke(envelope(user, "PlanTripIntent", { destination: "japon", startDate: "XXXX-XX-03", endDate: "XXXX-XX-10" }, "es-MX"))) as {
+    response: { outputSpeech: { ssml: string }; reprompt?: unknown; card?: { title?: string } };
+  };
+  const text = speechOf(res);
+  assert.match(text, /^Listo: tu viaje a Japón del 3 al 10 de noviembre\. Faltan \d+ días\. No necesitas visa para estancias de hasta 90 días\./);
+  assert.match(text, /Puedes preguntarme qué no puedes llevar/);
+  assert.doesNotMatch(text, /Yo:|nivel de preparación/);
+  assert.ok(res.response.reprompt, "the session stays open for the next question");
+  assert.equal(res.response.card?.title, "Tu viaje");
+});
+
+test("the same answer in English", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "Mexico" }, "en-US");
+  const text = await turn(user, "PlanTripIntent", { destination: "Japan", startDate: "2026-12-03", endDate: "2026-12-10" }, "en-US");
+  assert.match(text, /^Done: your trip to Japan from December 3 to 10\. \d+ days to go\. You don't need a visa for stays up to 90 days\./);
+});
+
+test("a visa question is answered as a sentence, not a table row", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const text = await turn(user, "EntryIntent", { destination: "Japón" }, "es-MX");
+  assert.match(text, /^No necesitas visa para estancias de hasta 90 días\./);
+  assert.doesNotMatch(text, /Yo:/);
+});
+
+test("after planning, 'what can't I bring' uses the trip's country instead of asking again", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const c = convo(user, "es-MX");
+  await c.say("PlanTripIntent", { destination: "Japón", startDate: "2026-12-03", endDate: "2026-12-10" });
+  const rules = await c.say("RulesIntent");
+  assert.doesNotMatch(rules, /¿A qué país\?/);
+  assert.match(rules, /Japan|Japón|meat|regla/i);
+  assert.doesNotMatch(await c.say("EntryIntent"), /¿A qué país\?/);
+});
+
+test("a group is spoken about by name", async () => {
+  const user = freshUser();
+  await store.save(alexaUserKey(user), {
+    profile: TravelerProfile.parse({
+      profileId: "p", ownerUserId: "alexa", homeCurrency: "MXN", homeTimezone: "America/Mexico_City", locale: "es-MX",
+      travelers: [
+        { travelerId: "a", displayName: "Ana", role: "self", passports: [{ country: "MX" }] },
+        { travelerId: "b", displayName: "Luis", role: "partner", passports: [{ country: "IN" }] },
+      ],
+      consent: { sensitiveData: false, updatedAt: "2026-10-11T00:00:00Z" }, updatedAt: "2026-10-11T00:00:00Z",
+    }),
+    trips: [], expenses: [],
+  });
+  const text = await turn(user, "EntryIntent", { destination: "Japón" }, "es-MX");
+  assert.match(text, /Ana no necesita visa/);
+  assert.match(text, /Luis /);
+});
+
+test("the 'rules change' disclaimer is said once per session, and not on a saved profile", async () => {
+  const user = freshUser();
+  const c = convo(user, "es-MX");
+  await c.launch();
+  assert.doesNotMatch(await c.say("CountryAnswerIntent", { country: { value: "mexicano", id: "MX" } }), /Las reglas cambian/);
+  assert.match(await c.say("PlanTripIntent", { destination: "Japón", startDate: "2026-12-03", endDate: "2026-12-10" }), /Las reglas cambian/);
+  assert.doesNotMatch(await c.say("RulesIntent"), /Las reglas cambian/);
+  assert.doesNotMatch(await c.say("EntryIntent"), /Las reglas cambian/);
 });

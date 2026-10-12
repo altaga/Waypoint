@@ -128,6 +128,8 @@ function check(res: Res, locale: Loc): string[] {
   if (technical) problems.push(`technical text: ${technical[0]}`);
   if (/not reachable right now|no está disponible en este momento/.test(text)) problems.push("crash message (handler threw)");
   if (/(^|[\s(])-\d+ (days|días)/.test(text)) problems.push("negative day count");
+  if (/(^|[.!?] )(Yo|Me|Self): /.test(text)) problems.push("table-style label in speech");
+  if (/\b1 (días|days)\b/.test(text)) problems.push("plural with one");
   const es = locale.startsWith("es");
   for (const m of es ? EN_MARKERS : ES_MARKERS) if (text.includes(m)) problems.push(`wrong language: "${m}"`);
   if (/\?\s*$/.test(text) && (!res.response.reprompt || res.response.shouldEndSession === true)) problems.push("asks a question but closes the session");

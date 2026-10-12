@@ -2,6 +2,7 @@ import { SkillBuilders, RequestHandler, ErrorHandler, HandlerInput, ResponseInte
 import { Response } from "ask-sdk-model";
 import { callWaypointTool, canReachWaypoint, ToolCall } from "./mcp-call.ts";
 import { resolveTripDates, tripDateProblem } from "./dates.ts";
+import { countryName, resolveCountry } from "../countries.ts";
 
 // Alexa custom skill. Each intent becomes one Waypoint MCP tool call.
 // The MCP endpoint comes from WAYPOINT_MCP_URL (a public HTTPS /mcp URL).
@@ -16,6 +17,7 @@ const TEXT = {
     welcome: "Welcome to Waypoint. Tell me where you are going and when, for example: plan a trip to Japan from December 3 to 10.",
     welcomeBack: "Welcome back to Waypoint. Where are you going and when?",
     askPassportFirst: "To check visas I need your passport. Which country issued it? You can say more than one.",
+    welcomeNoPassport: "Welcome to Waypoint. To check visas, first tell me which country issued your passport. You can say more than one.",
     askDestination: "Which country?",
     askPassport: "Which country issued your passport?",
     passportExample: "I didn't catch the country. Say, for example: my passport is from Mexico, or just: Mexican.",
@@ -27,6 +29,7 @@ const TEXT = {
     datesTooLong: "That trip is longer than a year. Tell me shorter dates, for example: from December 1 to 25.",
     somethingWrong: "Something didn't work with that. Try again in other words.",
     askTrip: "Where are you going and when?",
+    afterTrip: "You can ask me what you can't bring, or for your packing list.",
     which: (c: string) => `I heard ${c}. Is that your passport or where you are going? Say: my passport is from ${c}, or: plan a trip to ${c}.`,
     unavailable: "Waypoint is not reachable right now. Try again in a moment.",
     help: "You can say: my passport is a country, plan a trip to a country, can I bring something to a country, do I need a visa for a country, what should I pack, or what is left for my trip.",
@@ -37,6 +40,7 @@ const TEXT = {
     welcome: "Bienvenido a Waypoint. Dime a dónde vas y cuándo, por ejemplo: planea un viaje a Japón del 3 al 10 de diciembre.",
     welcomeBack: "Bienvenido de nuevo a Waypoint. ¿A dónde vas y cuándo?",
     askPassportFirst: "Para revisar visas necesito tu pasaporte. ¿De qué país es? Puedes decir más de uno.",
+    welcomeNoPassport: "Bienvenido a Waypoint. Para revisar visas, primero dime de qué país es tu pasaporte. Puedes decir más de uno.",
     askDestination: "¿A qué país?",
     askPassport: "¿De qué país es tu pasaporte?",
     passportExample: "No alcancé a entender el país. Di, por ejemplo: mi pasaporte es de México, o solo: mexicano.",
@@ -48,6 +52,7 @@ const TEXT = {
     datesTooLong: "Ese viaje dura más de un año. Dime fechas más cortas, por ejemplo: del 1 al 25 de diciembre.",
     somethingWrong: "Algo no salió bien con eso. Inténtalo de nuevo con otras palabras.",
     askTrip: "¿A dónde vas y cuándo?",
+    afterTrip: "Puedes preguntarme qué no puedes llevar, o pedir tu lista de empaque.",
     which: (c: string) => `Entendí ${c}. ¿Es tu pasaporte o a dónde vas? Di: mi pasaporte es de ${c}, o: planea un viaje a ${c}.`,
     unavailable: "Waypoint no está disponible en este momento. Intenta de nuevo en un momento.",
     help: "Puedes decir: mi pasaporte es de un país, planea un viaje a un país, puedo llevar algo a un país, necesito visa para un país, qué debo empacar, o qué me falta para mi viaje.",
@@ -100,8 +105,20 @@ type Awaiting =
   | { kind: "entry" }
   | { kind: "rules"; item?: string };
 
+// Sets or clears the pending question; everything else in the session (last destination,
+// whether the disclaimer was said) is kept.
 function setAwaiting(h: HandlerInput, awaiting: Awaiting | null) {
-  h.attributesManager.setSessionAttributes(awaiting ? { awaiting } : {});
+  const { awaiting: _previous, ...rest } = h.attributesManager.getSessionAttributes() as { awaiting?: Awaiting };
+  h.attributesManager.setSessionAttributes({ ...rest, ...(awaiting ? { awaiting } : {}) });
+}
+
+// The destination of the trip planned in this session, so "what can't I bring" needs no country.
+function lastDestination(h: HandlerInput): string | undefined {
+  return (h.attributesManager.getSessionAttributes() as { lastDestination?: string }).lastDestination;
+}
+
+function rememberDestination(h: HandlerInput, destination: string) {
+  h.attributesManager.setSessionAttributes({ ...h.attributesManager.getSessionAttributes(), lastDestination: destination });
 }
 
 function getAwaiting(h: HandlerInput): Awaiting | undefined {
@@ -113,27 +130,55 @@ function ask(h: HandlerInput, awaiting: Awaiting, text: string, reprompt = text)
   return h.responseBuilder.speak(text).reprompt(reprompt).getResponse();
 }
 
-function speakResult(handlerInput: HandlerInput, r: ToolCall, title: string, after?: string): Response {
+const TITLES_ES: Record<string, string> = {
+  "Your trip": "Tu viaje",
+  "Entry requirements": "Requisitos de entrada",
+  "Local rules": "Reglas locales",
+  "What is left": "Lo que falta",
+  "Traveler profile": "Tu perfil",
+  "Packing checklist": "Lista de empaque",
+};
+
+// The "rules change" disclaimer goes with visa and rule answers, once per session.
+const DISCLAIMED_TOOLS = new Set(["plan_trip", "check_entry_requirements", "get_local_rules"]);
+
+function takeDisclaimer(h: HandlerInput, tool: string): boolean {
+  if (!DISCLAIMED_TOOLS.has(tool)) return false;
+  const attrs = h.attributesManager.getSessionAttributes() as { disclaimed?: boolean };
+  if (attrs.disclaimed) return false;
+  h.attributesManager.setSessionAttributes({ ...attrs, disclaimed: true });
+  return true;
+}
+
+// Text from data sources can carry a space before a period ("Service ."); speech should not.
+const tidy = (s: string) => s.replace(/\s+([.,;:])/g, "$1").replace(/\s{2,}/g, " ").trim();
+
+function speakResult(handlerInput: HandlerInput, r: ToolCall, title: string, after?: string, tool = ""): Response {
+  if (localeOf(handlerInput) === "es-MX") title = TITLES_ES[title] ?? title;
+  // The next step follows a success only; after an error it would not make sense.
+  if (r.isError) after = undefined;
   const locale = localeOf(handlerInput);
   // A protocol or schema error is for logs, not for the user's ears.
   const technical = r.isError && /MCP error|Input validation|Invalid arguments|-32\d{3}/i.test(r.voice);
   if (technical) console.error("waypoint tool error", r.voice.slice(0, 200));
   const parts = [technical ? TEXT[locale].somethingWrong : r.voice];
   if (r.missing.length) parts.push(locale === "es-MX" ? "Dime el país del pasaporte de cada viajero." : "Tell me each traveler's passport country.");
-  const alreadyDisclaimed = /verify with the official source|verifica con la fuente oficial/i.test(r.voice);
-  const base = r.isError || alreadyDisclaimed ? parts.join(" ") : `${parts.join(" ")} ${DISCLAIMER[locale]}`;
+  // The server adds the disclaimer itself; keep it only where it belongs, and once.
+  const stripped = parts.join(" ").replace(/\s*(Rules change; verify with the official source before you travel\.|Las reglas cambian; verifica con la fuente oficial antes de viajar\.)/g, "");
+  const base = tidy(!r.isError && takeDisclaimer(handlerInput, tool) ? `${stripped} ${DISCLAIMER[locale]}` : stripped);
   const builder = handlerInput.responseBuilder.speak(after ? `${base} ${after}` : base).withSimpleCard(title, r.rows.join("\n") || base);
   if (after) builder.reprompt(after);
   return builder.getResponse();
 }
 
-async function run(handlerInput: HandlerInput, tool: string, args: Record<string, unknown>, title: string, after?: string) {
+async function run(handlerInput: HandlerInput, tool: string, args: Record<string, unknown>, title: string, after?: string, onOk?: () => void) {
   const locale = localeOf(handlerInput);
   const userId = handlerInput.requestEnvelope.context.System.user.userId;
   if (!canReachWaypoint()) return handlerInput.responseBuilder.speak(TEXT[locale].unavailable).getResponse();
   try {
     const r = await callWaypointTool(userId, tool, args, requestLocale(handlerInput));
-    return speakResult(handlerInput, r, title, after);
+    if (!r.isError) onOk?.();
+    return speakResult(handlerInput, r, title, after, tool);
   } catch {
     return handlerInput.responseBuilder.speak(TEXT[locale].unavailable).getResponse();
   }
@@ -166,7 +211,7 @@ async function planAnswer(h: HandlerInput, destination: string, startDate?: stri
   const problem = tripDateProblem(dates, now);
   if (problem) return ask(h, { kind: "dates", destination }, problem === "past" ? t.datesPast : t.datesTooLong, t.datesExample);
   setAwaiting(h, null);
-  return run(h, "plan_trip", { destination, ...dates }, "Waypoint trip");
+  return run(h, "plan_trip", { destination, ...dates }, "Your trip", t.afterTrip, () => rememberDestination(h, destination));
 }
 
 async function rulesAnswer(h: HandlerInput, destination: string, item?: string) {
@@ -179,13 +224,18 @@ async function rulesAnswer(h: HandlerInput, destination: string, item?: string) 
     const r = await callWaypointTool(h.requestEnvelope.context.System.user.userId, "get_local_rules", { destination, item }, requestLocale(h));
     const matches = (r.data.matches as { quote: string }[] | undefined) ?? [];
     const es = locale === "es-MX";
-    const speech = matches.length
+    // The country by its proper name, not as typed ("japon" -> "Japón").
+    const iso = resolveCountry(destination);
+    const place = iso ? countryName(iso, es ? "es" : "en") : destination;
+    const quote = matches[0]?.quote.replace(/[\s.]+$/, "");
+    const said = matches.length
       ? es
-        ? `Sobre ${item} en ${destination}: ${matches[0].quote}. Este es el texto oficial en inglés. Las reglas cambian; verifica con la fuente oficial antes de viajar.`
-        : `About ${item} in ${destination}: ${matches[0].quote}. Rules change; verify with the official source before you travel.`
+        ? `Sobre ${item} en ${place}, el texto oficial en inglés dice: ${quote}.`
+        : `About ${item} in ${place}, the official text says: ${quote}.`
       : es
-        ? `No encontré una regla verificada sobre ${item} para ${destination}. Consulta la fuente oficial antes de viajar.`
-        : `I found no verified rule about ${item} for ${destination}. Check the official source before you travel.`;
+        ? `No encontré una regla verificada sobre ${item} para ${place}. Consulta la fuente oficial antes de viajar.`
+        : `I found no verified rule about ${item} for ${place}. Check the official source before you travel.`;
+    const speech = tidy(matches.length && takeDisclaimer(h, "get_local_rules") ? `${said} ${DISCLAIMER[locale]}` : said);
     return h.responseBuilder.speak(speech).withSimpleCard(es ? "Reglas locales" : "Local rules", speech).getResponse();
   } catch {
     return h.responseBuilder.speak(TEXT[locale].unavailable).getResponse();
@@ -203,7 +253,7 @@ const LaunchRequestHandler: RequestHandler = {
       const travelers = (r.data.profile as { travelers?: { passports: { country: string }[] }[] } | undefined)?.travelers ?? [];
       const hasPassport = travelers.some((t) => t.passports.length > 0);
       if (hasPassport) return h.responseBuilder.speak(TEXT[locale].welcomeBack).reprompt(TEXT[locale].askDestination).getResponse();
-      return ask(h, { kind: "passport" }, `${TEXT[locale].welcome} ${TEXT[locale].askPassportFirst}`, TEXT[locale].askPassportFirst);
+      return ask(h, { kind: "passport" }, TEXT[locale].welcomeNoPassport, TEXT[locale].askPassportFirst);
     } catch {
       return h.responseBuilder.speak(TEXT[locale].welcome).reprompt(TEXT[locale].askDestination).getResponse();
     }
@@ -226,7 +276,9 @@ const EntryHandler: RequestHandler = {
   canHandle: (h) => h.requestEnvelope.request.type === "IntentRequest" && h.requestEnvelope.request.intent.name === "EntryIntent",
   async handle(h) {
     const destination = slot(h, "destination");
-    if (!destination) return ask(h, { kind: "entry" }, TEXT[localeOf(h)].askDestination);
+    const known = destination ?? lastDestination(h);
+    if (!known) return ask(h, { kind: "entry" }, TEXT[localeOf(h)].askDestination);
+    if (!destination) return entryAnswer(h, known);
     return entryAnswer(h, destination);
   },
 };
@@ -236,7 +288,9 @@ const RulesHandler: RequestHandler = {
   async handle(h) {
     const destination = slot(h, "destination");
     const item = slot(h, "item");
-    if (!destination) return ask(h, { kind: "rules", item }, TEXT[localeOf(h)].askDestination);
+    const known = destination ?? lastDestination(h);
+    if (!known) return ask(h, { kind: "rules", item }, TEXT[localeOf(h)].askDestination);
+    if (!destination) return rulesAnswer(h, known, item);
     return rulesAnswer(h, destination, item);
   },
 };

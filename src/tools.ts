@@ -5,6 +5,7 @@ import { resolveCountry, countryName, currencyOf } from "./countries.ts";
 import { TravelerProfile, Traveler, redactSensitive } from "./profile.ts";
 import { UnknownDestinationError, ProfileMissingError } from "./errors.ts";
 import { residenceNotes } from "./residence-rules.ts";
+import { daysLeftSentence, daysUntilTripSentence, spokenDates, stayTooLongSentence, visaSentence } from "./voice.ts";
 import { EnvelopeShape, envelopeResult, errorResult, pick, withDisclaimer, type Envelope, type ToolResult } from "./envelope.ts";
 import { bestEntry, lookupVisa, STATUS_LABEL, type VisaEntry, type VisaStatus } from "./services/visa.ts";
 import { pppEquivalent } from "./services/ppp.ts";
@@ -180,6 +181,8 @@ function savedSummary(travelers: Traveler[], locale: Locale): string {
   });
   return parts.filter(Boolean).join(" ") || (en ? "Profile updated." : "Perfil actualizado.");
 }
+
+const lowerFirst = (s: string) => s.charAt(0).toLowerCase() + s.slice(1);
 
 // Nothing is saved yet: say so, instead of listing an empty set of missing passports.
 function nothingYetEnvelope(locale: Locale, kind: "trip" | "profile"): ToolResult {
@@ -469,11 +472,22 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           value: r.summary.en,
           status: (r.severity === "info" ? "info" : "warn") as "info" | "warn",
         }));
-        const topSummary = travelers.length
-          ? pick(locale, `Here is your readiness for ${countryName(dest, "en")}.`, `Este es tu nivel de preparación para ${countryName(dest, "es")}.`)
-          : "";
+        // One traveler who is the user is spoken to directly; a group is spoken about by name.
+        const solo = travelers.length === 1 && travelers[0].role === "self";
+        const visaLines = travelers.map((t) => {
+          const { best } = entryFor(ctx, t, dest);
+          const name = solo ? undefined : t.displayName;
+          const tooLong = best.entry.maxStayDays !== undefined && stay > best.entry.maxStayDays;
+          const line = visaSentence(best.entry.status as VisaStatus, best.entry.maxStayDays, locale, name);
+          return tooLong ? `${line} ${stayTooLongSentence(stay, locale, name)}` : line;
+        });
+        const when = spokenDates(args.startDate, args.endDate, locale);
         const env = baseEnvelope(ctx, dest, locale, {
-          voice: `${topSummary} ${pick(locale, `${left} days to go.`, `Faltan ${left} días.`)} ${rows.map((r) => `${r.label}: ${r.value}`).join(". ")}.`,
+          voice: [
+            pick(locale, `Done: your trip to ${countryName(dest, "en")} ${when}.`, `Listo: tu viaje a ${countryName(dest, "es")} ${when}.`),
+            daysLeftSentence(left, locale),
+            ...visaLines,
+          ].join(" "),
           card: {
             pattern: "card",
             title: pick(locale, `Trip to ${countryName(dest, "en")}`, `Viaje a ${countryName(dest, "es")}`),
@@ -526,7 +540,10 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           return { traveler: t.displayName, status: best.entry.status, maxStayDays: best.entry.maxStayDays ?? null, passport: best.passport, checkedPassports: entries.length };
         });
         const env = baseEnvelope(ctx, dest, locale, {
-          voice: results.map((r) => `${r.traveler}: ${STATUS_LABEL[r.status as VisaStatus][locale].toLowerCase()}`).join(". ") + "." + residenceNote(travelers, dest, locale),
+          voice:
+            travelers
+              .map((t, i) => visaSentence(results[i].status as VisaStatus, results[i].maxStayDays ?? undefined, locale, travelers.length === 1 && t.role === "self" ? undefined : t.displayName))
+              .join(" ") + residenceNote(travelers.filter((_, i) => results[i].status !== "same_country"), dest, locale),
           card: {
             pattern: "list",
             title: pick(locale, `Entry to ${countryName(dest, "en")}`, `Entrada a ${countryName(dest, "es")}`),
@@ -589,7 +606,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         }
         const env = baseEnvelope(ctx, dest, locale, {
           voice: rules.length
-            ? pick(locale, `I found ${rules.length} local rules for ${countryName(dest, "en")}. The most serious: ${rules[0].summary.en}`, `Encontré ${rules.length} reglas locales para ${countryName(dest, "es")}. La más grave: ${rules[0].summary.en}`)
+            ? pick(locale, `I found ${rules.length} local rules for ${countryName(dest, "en")}. The most serious: ${rules[0].summary.en}`, `Encontré ${rules.length} reglas locales para ${countryName(dest, "es")}. La más grave, en el texto oficial en inglés: ${rules[0].summary.en}`)
             : pick(locale, "I don't have verified local rules for that destination yet. Check the official travel advice.", "Aún no tengo reglas locales verificadas para ese destino. Consulta el aviso oficial."),
           card: {
             pattern: "list",
@@ -843,8 +860,8 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const env = baseEnvelope(ctx, trip.destination, locale, {
           voice: pick(
             locale,
-            `${left} days until ${countryName(trip.destination, "en")}. ${pending.length ? `Still open: ${pending.join("; ")}.` : "Nothing pending."}`,
-            `Faltan ${left} días para ${countryName(trip.destination, "es")}. ${pending.length ? `Pendiente: ${pending.join("; ")}.` : "No hay pendientes."}`,
+            `${daysUntilTripSentence(left, countryName(trip.destination, "en"), "en")} ${pending.length ? `Still open: ${pending.map(lowerFirst).join("; ")}.` : "Nothing pending."}`,
+            `${daysUntilTripSentence(left, countryName(trip.destination, "es"), "es")} ${pending.length ? `Pendiente: ${pending.map(lowerFirst).join("; ")}.` : "No hay pendientes."}`,
           ),
           card: {
             pattern: "list",
