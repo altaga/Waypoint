@@ -154,6 +154,33 @@ function baseEnvelope(
   };
 }
 
+// What was saved, said back so a misheard country is caught at once.
+function savedSummary(travelers: Traveler[], locale: Locale): string {
+  const en = locale === "en";
+  const list = (isos: string[]) => isos.map((c) => countryName(c, locale)).join(en ? " and " : " y ");
+  const parts = travelers.map((t) => {
+    const self = t.role === "self" && travelers.length === 1;
+    const passports = t.passports.map((p) => p.country);
+    const bits: string[] = [];
+    if (passports.length) {
+      bits.push(
+        self
+          ? en ? `Your passport is from ${list(passports)}.` : `Tu pasaporte es de ${list(passports)}.`
+          : en ? `${t.displayName}: passport from ${list(passports)}.` : `${t.displayName}: pasaporte de ${list(passports)}.`,
+      );
+    }
+    if (t.residenceCountry) {
+      bits.push(
+        self
+          ? en ? `You live in ${countryName(t.residenceCountry, locale)}.` : `Vives en ${countryName(t.residenceCountry, locale)}.`
+          : en ? `${t.displayName} lives in ${countryName(t.residenceCountry, locale)}.` : `${t.displayName} vive en ${countryName(t.residenceCountry, locale)}.`,
+      );
+    }
+    return bits.join(" ");
+  });
+  return parts.filter(Boolean).join(" ") || (en ? "Profile updated." : "Perfil actualizado.");
+}
+
 // Nothing is saved yet: say so, instead of listing an empty set of missing passports.
 function nothingYetEnvelope(locale: Locale, kind: "trip" | "profile"): ToolResult {
   const voice =
@@ -359,11 +386,10 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         state.profile = parsed;
         await save(state);
 
-        const names = parsed.travelers.map((t) => t.displayName).join(", ");
         const env = baseEnvelope(ctx, "", locale, {
           voice: missing.length
             ? pick(locale, `Saved. I still need the passport for ${missing.join(", ")}.`, `Guardado. Todavía necesito el pasaporte de ${missing.join(", ")}.`)
-            : pick(locale, `Saved. Your group is ${names}.`, `Guardado. Tu grupo es ${names}.`),
+            : pick(locale, `Saved. ${savedSummary(parsed.travelers, "en")}`, `Guardado. ${savedSummary(parsed.travelers, "es")}`),
           card: {
             pattern: "card",
             title: pick(locale, "Profile updated", "Perfil actualizado"),

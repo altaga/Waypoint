@@ -1,26 +1,11 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { countries } from "countries-list";
-import { ALIASES, GENTILICIOS, SPANISH_NAMES } from "../src/countries.ts";
+import { ALIASES, EN_DEMONYMS, ES_DEMONYMS, GENTILICIOS, SPANISH_NAMES } from "../src/countries.ts";
 
 // Builds the WaypointCountry slot type for both interaction models, and the intents that use it.
 // Each value's id is the ISO alpha-2 code, so the skill gets "MX" back even when the user says
 // "mexicano" or "Mexican". Synonyms: English and Spanish names, aliases and demonyms.
 // Run: npx tsx scripts/build-country-slot.ts
-
-const EN_DEMONYMS: Record<string, string[]> = {
-  MX: ["Mexican"], US: ["American", "US citizen"], CA: ["Canadian"], GB: ["British", "English"], ES: ["Spanish"],
-  DE: ["German"], IN: ["Indian"], CN: ["Chinese"], JP: ["Japanese"], BR: ["Brazilian"], FR: ["French"], IT: ["Italian"],
-  CO: ["Colombian"], AR: ["Argentinian", "Argentine"], PE: ["Peruvian"], CL: ["Chilean"], KR: ["Korean", "South Korean"],
-  TH: ["Thai"], ID: ["Indonesian"], VN: ["Vietnamese"], PH: ["Filipino", "Philippine"], KE: ["Kenyan"], ZA: ["South African"],
-  TR: ["Turkish"], AE: ["Emirati"], SG: ["Singaporean"], AU: ["Australian"], NZ: ["New Zealander"], RU: ["Russian"], EG: ["Egyptian"],
-};
-const ES_DEMONYMS: Record<string, string[]> = {
-  PE: ["peruano", "peruana"], CL: ["chileno", "chilena"], ID: ["indonesio", "indonesia"], VN: ["vietnamita"], PH: ["filipino", "filipina"],
-  KE: ["keniano", "keniana"], ZA: ["sudafricano", "sudafricana"], TR: ["turco", "turca"], AE: ["emiratí"], SG: ["singapurense"],
-  AU: ["australiano", "australiana"], NZ: ["neozelandés", "neozelandesa"], RU: ["ruso", "rusa"], EG: ["egipcio", "egipcia"],
-  US: ["americano", "americana", "norteamericano", "norteamericana"], GB: ["inglés", "inglesa"], PT: ["portugués", "portuguesa"],
-  NL: ["holandés", "holandesa", "neerlandés"], CH: ["suizo", "suiza"], SE: ["sueco", "sueca"], PL: ["polaco", "polaca"],
-};
 
 // Slot values: letters, spaces, apostrophes, hyphens and periods only.
 function clean(s: string): string {

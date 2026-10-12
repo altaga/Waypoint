@@ -440,3 +440,36 @@ test("a resolved id wins over the spoken words", async () => {
   const p = (await callWaypointTool(user, "get_traveler_profile", {})).data.profile as { travelers: { passports: { country: string }[] }[] };
   assert.deepEqual(p.travelers[0].passports.map((x) => x.country), ["US"]);
 });
+
+// Typos and variants reach the server as plain text; the answer says back what was understood.
+test("a typo in the passport country is understood, and the answer says which country was saved", async () => {
+  const text = await turn(freshUser(), "SetPassportIntent", { country: "Mexco" }, "es-MX");
+  assert.match(text, /Tu pasaporte es de México/);
+});
+
+test("a typo in a demonym is understood and said back (en-US)", async () => {
+  const text = await turn(freshUser(), "SetPassportIntent", { country: "Mexicanoo" }, "en-US");
+  assert.match(text, /Your passport is from Mexico/);
+});
+
+test("two passports are said back together", async () => {
+  const text = await turn(freshUser(), "SetPassportIntent", { country: "México", secondCountry: "España" }, "es-MX");
+  assert.match(text, /Tu pasaporte es de México y España|pasaporte es de México y España/);
+});
+
+test("residence is said back, too", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  assert.match(await turn(user, "SetResidenceIntent", { country: "Estados Unidos" }, "es-MX"), /Vives en Estados Unidos/);
+});
+
+test("a destination with a typo still gets an answer", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  assert.match(await turn(user, "EntryIntent", { destination: "Japon" }, "es-MX"), /visa|Sin visa|sin visa/i);
+});
+
+test("a country that is not close to anything is not guessed", async () => {
+  const text = await turn(freshUser(), "SetPassportIntent", { country: "Narnia" }, "es-MX");
+  assert.doesNotMatch(text, /Guardado/);
+});
