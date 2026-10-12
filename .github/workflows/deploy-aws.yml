@@ -1,0 +1,40 @@
+name: deploy-aws
+# Deploys the waypoint_ stack (Lambda waypoint_server, DynamoDB waypoint_state, role
+# waypoint_server_role, public Function URL). Manual only.
+# Needs: secrets AWS_DEPLOY_ROLE_ARN, AWS_REGION, WAYPOINT_BEDROCK_MODEL
+#        variable ALEXA_SKILL_ID (optional; empty on the first run)
+on:
+  workflow_dispatch:
+permissions:
+  id-token: write
+  contents: read
+concurrency:
+  group: deploy-aws
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Assume the deploy role through OIDC
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+          role-session-name: waypoint-aws-deploy
+          output-env-credentials: true
+      - name: Build the Lambda bundle
+        run: npm run build:lambda
+      - name: Deploy the stack
+        env:
+          BEDROCK_MODEL: ${{ secrets.WAYPOINT_BEDROCK_MODEL }}
+          SKILL_ID: ${{ vars.ALEXA_SKILL_ID }}
+        run: npx cdk deploy --require-approval never --outputs-file outputs.json -c bedrockModel="$BEDROCK_MODEL" -c alexaSkillId="$SKILL_ID"
+      - name: Show outputs (public URL)
+        run: cat outputs.json
