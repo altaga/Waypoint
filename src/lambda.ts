@@ -6,5 +6,6 @@ import { createContext } from "./context.ts";
 // so the server reads them from there (WAYPOINT_ROOT). The app is built once per container.
 process.env.WAYPOINT_ROOT ??= import.meta.dirname;
 const ctx = createContext();
-const handler = serverless(createApp(ctx));
+// Binary responses (icons) must be base64 for a Function URL, or the bytes get mangled.
+const handler = serverless(createApp(ctx), { binary: ["image/*"] });
 export { handler };
