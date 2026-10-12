@@ -9,8 +9,8 @@ import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 //  - otherwise: an in-memory MCP connection to the server in this process (Lambda).
 // The Alexa userId is long and not header-safe, so it is hashed to a stable id.
 
-let localFactory: ((userKey: string) => McpServer) | null = null;
-export function setLocalMcpFactory(factory: (userKey: string) => McpServer) {
+let localFactory: ((userKey: string, locale?: string) => McpServer) | null = null;
+export function setLocalMcpFactory(factory: (userKey: string, locale?: string) => McpServer) {
   localFactory = factory;
 }
 export function canReachWaypoint(): boolean {
@@ -29,19 +29,19 @@ export interface ToolCall {
   data: Record<string, unknown>;
 }
 
-async function connect(alexaUserId: string): Promise<{ client: Client; close: () => Promise<void> }> {
+async function connect(alexaUserId: string, locale?: string): Promise<{ client: Client; close: () => Promise<void> }> {
   const client = new Client({ name: "waypoint-alexa-skill", version: "0.1.0" });
   const mcpUrl = process.env.WAYPOINT_MCP_URL;
   if (mcpUrl) {
     const transport = new StreamableHTTPClientTransport(new URL(mcpUrl), {
-      requestInit: { headers: { "x-waypoint-user": alexaUserKey(alexaUserId) } },
+      requestInit: { headers: { "x-waypoint-user": alexaUserKey(alexaUserId), ...(locale ? { "x-waypoint-locale": locale } : {}) } },
     });
     await client.connect(transport);
     return { client, close: () => client.close() };
   }
   if (!localFactory) throw new Error("no Waypoint server reachable");
   const [clientSide, serverSide] = InMemoryTransport.createLinkedPair();
-  const server = localFactory(alexaUserKey(alexaUserId));
+  const server = localFactory(alexaUserKey(alexaUserId), locale);
   await server.connect(serverSide);
   await client.connect(clientSide);
   return {
@@ -57,8 +57,9 @@ export async function callWaypointTool(
   alexaUserId: string,
   name: string,
   args: Record<string, unknown>,
+  locale?: string,
 ): Promise<ToolCall> {
-  const conn = await connect(alexaUserId);
+  const conn = await connect(alexaUserId, locale);
   try {
     const res = await conn.client.callTool({ name, arguments: args });
     if (res.isError) {

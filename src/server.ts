@@ -24,6 +24,12 @@ export function originAllowed(origin: string | undefined, allow: string[]): bool
   return allow.some((a) => origin === a || origin.startsWith(`${a}:`));
 }
 
+// Optional language hint from the Alexa skill (e.g. es-MX). Anything that is not a plain tag is ignored.
+function localeFrom(req: Request): string | undefined {
+  const raw = req.header("x-waypoint-locale") ?? "";
+  return /^[a-zA-Z]{2,3}(-[a-zA-Z0-9]{2,8})?$/.test(raw) ? raw : undefined;
+}
+
 function userFrom(req: Request): string {
   const raw = req.header("x-waypoint-user") ?? "anonymous-demo";
   return raw.slice(0, 64).replace(/[^\w.-]/g, "_");
@@ -34,7 +40,7 @@ export function createApp(ctx: AppContext = createContext()) {
   // Amazon's signature. The MCP app below parses JSON itself, so it is mounted after /alexa.
   const root = express();
   // The skill reaches this server in memory, so it needs no public URL of its own.
-  setLocalMcpFactory((userKey) => createWaypointMcpServer(ctx, userKey));
+  setLocalMcpFactory((userKey, locale) => createWaypointMcpServer(ctx, userKey, locale));
   mountAlexa(root, "/alexa");
   // Local runs bind to localhost and get DNS-rebinding protection. Lambda serves a public
   // Function URL host, so host checks are off there; the origin guard still applies.
@@ -55,7 +61,7 @@ export function createApp(ctx: AppContext = createContext()) {
   async function handleMcp(req: Request, res: Response) {
     try {
       const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined });
-      const server = createWaypointMcpServer(ctx, userFrom(req));
+      const server = createWaypointMcpServer(ctx, userFrom(req), localeFrom(req));
       res.on("close", () => {
         void transport.close();
         void server.close();

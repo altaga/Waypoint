@@ -39,6 +39,11 @@ function localeOf(handlerInput: HandlerInput): Locale {
   return handlerInput.requestEnvelope.request.locale?.startsWith("es") ? "es-MX" : "en-US";
 }
 
+// The language Alexa sends with the request, used when the server has no profile yet.
+function requestLocale(handlerInput: HandlerInput): string | undefined {
+  return handlerInput.requestEnvelope.request.locale;
+}
+
 function slot(handlerInput: HandlerInput, name: string): string | undefined {
   const req = handlerInput.requestEnvelope.request as { intent?: { slots?: Record<string, { value?: string }> } };
   return req.intent?.slots?.[name]?.value;
@@ -61,7 +66,7 @@ async function run(handlerInput: HandlerInput, tool: string, args: Record<string
   const userId = handlerInput.requestEnvelope.context.System.user.userId;
   if (!canReachWaypoint()) return handlerInput.responseBuilder.speak(TEXT[locale].unavailable).getResponse();
   try {
-    const r = await callWaypointTool(userId, tool, args);
+    const r = await callWaypointTool(userId, tool, args, requestLocale(handlerInput));
     return speakResult(handlerInput, r, title);
   } catch {
     return handlerInput.responseBuilder.speak(TEXT[locale].unavailable).getResponse();
@@ -75,7 +80,7 @@ const LaunchRequestHandler: RequestHandler = {
     const locale = localeOf(h);
     if (!canReachWaypoint()) return h.responseBuilder.speak(TEXT[locale].welcome).reprompt(TEXT[locale].askDestination).getResponse();
     try {
-      const r = await callWaypointTool(h.requestEnvelope.context.System.user.userId, "get_traveler_profile", {});
+      const r = await callWaypointTool(h.requestEnvelope.context.System.user.userId, "get_traveler_profile", {}, requestLocale(h));
       const travelers = (r.data.profile as { travelers?: { passports: { country: string }[] }[] } | undefined)?.travelers ?? [];
       const hasPassport = travelers.some((t) => t.passports.length > 0);
       if (hasPassport) return h.responseBuilder.speak(TEXT[locale].welcomeBack).reprompt(TEXT[locale].askDestination).getResponse();
@@ -118,7 +123,7 @@ const RulesHandler: RequestHandler = {
     // Item question: speak the matching official rule in the user's language; the quote stays in English.
     if (!canReachWaypoint()) return h.responseBuilder.speak(TEXT[locale].unavailable).getResponse();
     try {
-      const r = await callWaypointTool(h.requestEnvelope.context.System.user.userId, "get_local_rules", { destination, item });
+      const r = await callWaypointTool(h.requestEnvelope.context.System.user.userId, "get_local_rules", { destination, item }, requestLocale(h));
       const matches = (r.data.matches as { quote: string }[] | undefined) ?? [];
       const es = locale === "es-MX";
       const speech = matches.length

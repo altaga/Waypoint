@@ -301,3 +301,28 @@ test("entry answers without a residence on file have no residence caveat", async
 test("residence without a country asks which country", async () => {
   assert.match(await turn(freshUser(), "SetResidenceIntent", {}, "en-US"), /Which country do you live in/i);
 });
+
+// Residence rules from the research report: notes only, the visa status is not changed.
+test("residence rule: Indonesian passport with a US residence gets the UAE visa-on-arrival note", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "Indonesia" }, "en-US");
+  await turn(user, "SetResidenceIntent", { country: "Estados Unidos" }, "en-US");
+  const text = await turn(user, "EntryIntent", { destination: "Emiratos Árabes Unidos" }, "en-US");
+  assert.match(text, /visa on arrival/i);
+});
+
+test("residence rule: the UAE note does not apply to a passport outside the listed nationalities", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "Mexico" }, "en-US");
+  await turn(user, "SetResidenceIntent", { country: "Estados Unidos" }, "en-US");
+  const text = await turn(user, "EntryIntent", { destination: "Emiratos Árabes Unidos" }, "en-US");
+  assert.doesNotMatch(text, /visa on arrival/i);
+});
+
+test("residence rule: Mexico's waiver note appears in Spanish for a Spanish-speaking user with US residence", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "Colombia" }, "es-MX");
+  await turn(user, "SetResidenceIntent", { country: "Estados Unidos" }, "es-MX");
+  const text = await turn(user, "EntryIntent", { destination: "México" }, "es-MX");
+  assert.match(text, /eximir de visa/i);
+});

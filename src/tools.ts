@@ -4,6 +4,7 @@ import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { resolveCountry, countryName, currencyOf } from "./countries.ts";
 import { TravelerProfile, Traveler, redactSensitive } from "./profile.ts";
 import { UnknownDestinationError, ProfileMissingError } from "./errors.ts";
+import { residenceNotes } from "./residence-rules.ts";
 import { EnvelopeShape, envelopeResult, errorResult, pick, withDisclaimer, type Envelope, type ToolResult } from "./envelope.ts";
 import { bestEntry, lookupVisa, STATUS_LABEL, type VisaEntry, type VisaStatus } from "./services/visa.ts";
 import { pppEquivalent } from "./services/ppp.ts";
@@ -28,7 +29,12 @@ const ann = (o: { readOnly?: boolean; destructive?: boolean; idempotent?: boolea
   openWorldHint: o.openWorld ?? false,
 });
 
-const localeOf = (state: UserState): Locale => (state.profile?.locale?.startsWith("es") ? "es" : "en");
+// Voice language: the language of the current request (Alexa's locale) when the client sends one,
+// else the profile's saved locale, else English.
+function localeFromState(state: UserState, hintLocale?: string): Locale {
+  if (hintLocale) return hintLocale.toLowerCase().startsWith("es") ? "es" : "en";
+  return state.profile?.locale?.startsWith("es") ? "es" : "en";
+}
 
 function requireProfile(state: UserState): TravelerProfile {
   if (!state.profile || state.profile.travelers.length === 0) throw new ProfileMissingError();
@@ -169,7 +175,9 @@ function nothingYetEnvelope(locale: Locale, kind: "trip" | "profile"): ToolResul
 
 // Residence is not the passport: it can change where a visa is applied for, and some countries
 // exempt residence-permit holders. The matrix does not model those exemptions, so say so instead.
-function residenceNote(travelers: Traveler[], locale: Locale): string {
+function residenceNote(travelers: Traveler[], dest: string, locale: Locale): string {
+  const specific = residenceNotes(dest, travelers, locale === "es" ? "es" : "en");
+  if (specific.length) return " " + specific.join(" ");
   const where = travelers.filter((tr) => tr.residenceCountry).map((tr) => countryName(tr.residenceCountry as string, locale === "es" ? "es" : "en"));
   if (!where.length) return "";
   return " " + pick(
@@ -202,8 +210,9 @@ function missingEnvelope(locale: Locale, names: string[]): ToolResult {
   return envelopeResult(env);
 }
 
-export function registerWaypointTools(server: McpServer, ctx: AppContext, userId: string): void {
+export function registerWaypointTools(server: McpServer, ctx: AppContext, userId: string, hintLocale?: string): void {
   const load = () => ctx.store.load(userId);
+  const localeOf = (state: UserState) => localeFromState(state, hintLocale);
   const save = (s: UserState) => ctx.store.save(userId, s);
 
   // Errors are spoken in the profile language, so a Spanish user does not hear English.
@@ -491,7 +500,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           return { traveler: t.displayName, status: best.entry.status, maxStayDays: best.entry.maxStayDays ?? null, passport: best.passport, checkedPassports: entries.length };
         });
         const env = baseEnvelope(ctx, dest, locale, {
-          voice: results.map((r) => `${r.traveler}: ${STATUS_LABEL[r.status as VisaStatus][locale].toLowerCase()}`).join(". ") + "." + residenceNote(travelers, locale),
+          voice: results.map((r) => `${r.traveler}: ${STATUS_LABEL[r.status as VisaStatus][locale].toLowerCase()}`).join(". ") + "." + residenceNote(travelers, dest, locale),
           card: {
             pattern: "list",
             title: pick(locale, `Entry to ${countryName(dest, "en")}`, `Entrada a ${countryName(dest, "es")}`),
