@@ -5,6 +5,10 @@ name: deploy-aws
 #        variable ALEXA_SKILL_ID (optional; empty on the first run)
 on:
   workflow_dispatch:
+  # Registers the workflow on this branch. The deploy job runs only for workflow_dispatch.
+  push:
+    branches: ["claude/**"]
+    paths: [".github/workflows/deploy-aws.yml"]
 permissions:
   id-token: write
   contents: read
@@ -13,6 +17,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
