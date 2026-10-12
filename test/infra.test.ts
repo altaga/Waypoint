@@ -26,13 +26,14 @@ test("the table and the function are named with the waypoint_ prefix", () => {
 
 test("every named resource starts with waypoint_", () => {
   const names: string[] = [];
+  // Role names are visible in IAM, so they are checked too.
   for (const r of Object.values(template().toJSON().Resources as Record<string, { Properties?: Record<string, unknown> }>)) {
-    for (const key of ["TableName", "FunctionName"]) {
+    for (const key of ["TableName", "FunctionName", "RoleName"]) {
       const v = r.Properties?.[key];
       if (typeof v === "string") names.push(v);
     }
   }
-  assert.ok(names.length >= 2);
+  assert.ok(names.length >= 3);
   for (const n of names) assert.match(n, /^waypoint_/);
 });
 

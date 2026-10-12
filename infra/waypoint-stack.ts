@@ -20,8 +20,15 @@ export class WaypointStack extends Stack {
     const brainModel = this.node.tryGetContext("bedrockModel") as string | undefined;
     const skillId = this.node.tryGetContext("alexaSkillId") as string | undefined;
 
+    const role = new iam.Role(this, "ServerRole", {
+      roleName: "waypoint_server_role",
+      assumedBy: new iam.ServicePrincipal("lambda.amazonaws.com"),
+      managedPolicies: [iam.ManagedPolicy.fromAwsManagedPolicyName("service-role/AWSLambdaBasicExecutionRole")],
+    });
+
     const fn = new lambda.Function(this, "Server", {
       functionName: "waypoint_server",
+      role,
       runtime: lambda.Runtime.NODEJS_22_X,
       handler: "index.handler",
       code: lambda.Code.fromAsset(join(dirname(fileURLToPath(import.meta.url)), "..", "lambda-bundle")),
@@ -37,9 +44,9 @@ export class WaypointStack extends Stack {
         ALEXA_SKILL_ID: skillId ?? "",
       },
     });
-    table.grantReadWriteData(fn);
+    table.grantReadWriteData(role);
     // Bedrock access for the brain: text models only, invoked by this function's role.
-    fn.addToRolePolicy(new iam.PolicyStatement({
+    role.addToPrincipalPolicy(new iam.PolicyStatement({
       actions: ["bedrock:InvokeModel", "bedrock:InvokeModelWithResponseStream", "bedrock:Converse", "bedrock:ConverseStream"],
       resources: ["arn:aws:bedrock:*::foundation-model/*", `arn:aws:bedrock:*:${this.account}:inference-profile/*`],
     }));
