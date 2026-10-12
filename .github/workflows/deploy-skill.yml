@@ -63,6 +63,10 @@ jobs:
         run: |
           if [ -n "$SKILL_ID" ]; then
             jq --arg id "$SKILL_ID" '.profiles.__ENVIRONMENT_ASK_PROFILE__.skillId = $id' ask-resources.json > r.json && mv r.json ask-resources.json
+            # ASK CLI reads the skill id from .ask/ask-states.json, not from ask-resources.json.
+            # Without this file a fresh runner creates a new skill on every deploy.
+            mkdir -p .ask
+            jq -n --arg id "$SKILL_ID" '{profiles: {"__ENVIRONMENT_ASK_PROFILE__": {skillId: $id}}}' > .ask/ask-states.json
           fi
       - name: Deploy the skill
         run: ask deploy --profile __ENVIRONMENT_ASK_PROFILE__
