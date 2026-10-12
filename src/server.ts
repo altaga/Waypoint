@@ -1,9 +1,7 @@
-import { randomUUID } from "node:crypto";
 import { join } from "node:path";
 import express, { type Request, type Response } from "express";
 import { createMcpExpressApp } from "@modelcontextprotocol/sdk/server/express.js";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
-import { isInitializeRequest } from "@modelcontextprotocol/sdk/types.js";
 import { createContext, type AppContext } from "./context.ts";
 import { createWaypointMcpServer } from "./mcp-server.ts";
 import { runBrain, brainConfigured } from "./brain.ts";
@@ -13,10 +11,6 @@ import { setLocalMcpFactory } from "./alexa/mcp-call.ts";
 // Streamable HTTP transport for MCP 2025-11-25 at /mcp. Sessions are kept in memory
 // for the local demo; the user is identified by the x-waypoint-user header until
 // account linking exists (context doc §1.4, item 13).
-
-interface Session {
-  transport: StreamableHTTPServerTransport;
-}
 
 const DEFAULT_ORIGINS = ["http://localhost", "http://127.0.0.1"];
 
@@ -45,7 +39,6 @@ export function createApp(ctx: AppContext = createContext()) {
   // Local runs bind to localhost and get DNS-rebinding protection. Lambda serves a public
   // Function URL host, so host checks are off there; the origin guard still applies.
   const app = createMcpExpressApp({ host: process.env.AWS_LAMBDA_FUNCTION_NAME ? "0.0.0.0" : "127.0.0.1" });
-  const sessions = new Map<string, Session>();
   const allow = allowedOrigins();
 
   // Origin validation: a browser request from an unknown origin gets 403 (2025-11-25).
@@ -57,32 +50,16 @@ export function createApp(ctx: AppContext = createContext()) {
     next();
   });
 
+  // Stateless MCP: every request gets its own server and transport, so any Lambda container
+  // can answer any call. Memory lives in the state store, not in the MCP session.
   async function handleMcp(req: Request, res: Response) {
-    const sessionId = req.header("mcp-session-id");
     try {
-      if (sessionId) {
-        const session = sessions.get(sessionId);
-        if (!session) {
-          res.status(404).json({ jsonrpc: "2.0", error: { code: -32001, message: "Session not found" }, id: null });
-          return;
-        }
-        await session.transport.handleRequest(req, res, req.body);
-        return;
-      }
-      if (req.method !== "POST" || !isInitializeRequest(req.body)) {
-        res.status(400).json({ jsonrpc: "2.0", error: { code: -32000, message: "Bad Request: no valid session" }, id: null });
-        return;
-      }
-      const transport: StreamableHTTPServerTransport = new StreamableHTTPServerTransport({
-        sessionIdGenerator: () => randomUUID(),
-        onsessioninitialized: (id: string): void => {
-          sessions.set(id, { transport });
-        },
-      });
-      transport.onclose = () => {
-        if (transport.sessionId) sessions.delete(transport.sessionId);
-      };
+      const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined });
       const server = createWaypointMcpServer(ctx, userFrom(req));
+      res.on("close", () => {
+        void transport.close();
+        void server.close();
+      });
       await server.connect(transport);
       await transport.handleRequest(req, res, req.body);
     } catch (err) {

@@ -81,7 +81,15 @@ test("profile, elicitation for a missing passport, trip, then memory across sess
     },
   });
   assert.notEqual(upd.isError, true);
-  const updSc = upd.structuredContent as { card: { rows: { label: string; value: string }[] } };
+  // Stateless MCP: no elicitation round trip, so the missing passport comes back as missingFields.
+  const firstSc = upd.structuredContent as { missingFields?: string[] };
+  assert.deepEqual(firstSc.missingFields, ["passport:Ana"]);
+  const upd2 = await first.callTool({
+    name: "update_traveler_profile",
+    arguments: { travelers: [{ displayName: "Ana", passports: ["MX"] }] },
+  });
+  assert.notEqual(upd2.isError, true);
+  const updSc = upd2.structuredContent as { card: { rows: { label: string; value: string }[] } };
   assert.ok(updSc.card.rows.find((r) => r.label === "Ana")?.value.includes("México"));
 
   const trip = await first.callTool({

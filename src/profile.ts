@@ -8,13 +8,14 @@ export const Traveler = z.object({
   displayName: z.string(),
   role: z.enum(["self", "partner", "child", "parent", "friend"]).default("self"),
   passports: z
+    // May be empty: a traveler can be saved before the passport is known. Trip planning
+    // asks for the missing passports (missingFields), so no trip is built without one.
     .array(
       z.object({
         country: z.string().length(2), // ISO 3166-1 alpha-2, uppercase
         expires: z.iso.date().optional(), // for the 6-month validity check
       }),
-    )
-    .min(1),
+    ),
   residenceCountry: z.string().length(2).optional(),
   validVisas: z
     .array(
