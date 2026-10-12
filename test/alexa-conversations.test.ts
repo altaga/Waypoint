@@ -473,3 +473,46 @@ test("a country that is not close to anything is not guessed", async () => {
   const text = await turn(freshUser(), "SetPassportIntent", { country: "Narnia" }, "es-MX");
   assert.doesNotMatch(text, /Guardado/);
 });
+
+// From the console: "quiero ir a japon del uno al veinticinco de diciembre". Alexa sends the
+// first day without month or year; the trip must still be planned, and no protocol error spoken.
+test("a bare start day takes the month of the end date, and the trip is planned", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const text = await turn(user, "PlanTripIntent", { destination: "japon", startDate: "XXXX-XX-01", endDate: "2026-12-25" }, "es-MX");
+  assert.match(text, /Japón|días/);
+  assert.doesNotMatch(text, /MCP error|Input validation|YYYY/);
+});
+
+test("dates that cannot be read are asked again with an example, and a dates-only answer completes the trip", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const c = convo(user, "es-MX");
+  assert.match(await c.say("PlanTripIntent", { destination: "Japón", startDate: "2026-12" }), /No entendí las fechas.*1 al 25 de diciembre/);
+  assert.match(await c.say("DatesAnswerIntent", { startDate: "2026-12-01", endDate: "2026-12-25" }), /Japón|días/);
+});
+
+test("a trip without dates asks when, and the dates answer completes it (en-US)", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "Mexico" }, "en-US");
+  const c = convo(user, "en-US");
+  assert.match(await c.say("PlanTripIntent", { destination: "Japan" }), /When do you leave/);
+  assert.match(await c.say("DatesAnswerIntent", { startDate: "2026-12-03", endDate: "2026-12-10" }), /Japan|days/);
+});
+
+test("dates said before the destination are kept until the destination comes", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const c = convo(user, "es-MX");
+  assert.match(await c.say("DatesAnswerIntent", { startDate: "2026-12-03", endDate: "2026-12-10" }), /¿A qué país\?/);
+  assert.match(await c.say("CountryAnswerIntent", { country: { value: "Japón", id: "JP" } }), /Japón|días/);
+});
+
+test("a protocol or validation error is never read aloud", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  // A one-letter destination fails the tool's input schema.
+  const text = await turn(user, "EntryIntent", { destination: "J" }, "es-MX");
+  assert.doesNotMatch(text, /MCP error|Input validation|Invalid arguments|-32602/);
+  assert.match(text, /Algo no salió bien|no tengo información/i);
+});

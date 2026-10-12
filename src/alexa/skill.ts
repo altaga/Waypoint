@@ -1,6 +1,7 @@
 import { SkillBuilders, RequestHandler, ErrorHandler, HandlerInput } from "ask-sdk-core";
 import { Response } from "ask-sdk-model";
 import { callWaypointTool, canReachWaypoint, ToolCall } from "./mcp-call.ts";
+import { resolveTripDates } from "./dates.ts";
 
 // Alexa custom skill. Each intent becomes one Waypoint MCP tool call.
 // The MCP endpoint comes from WAYPOINT_MCP_URL (a public HTTPS /mcp URL).
@@ -21,8 +22,9 @@ const TEXT = {
     askResidence: "Which country do you live in?",
     residenceExample: "I didn't catch the country. Say, for example: I live in the United States.",
     askWhen: "When do you leave?",
+    datesExample: "I didn't get the dates. Say the day and month, for example: from December 1 to 25.",
+    somethingWrong: "Something didn't work with that. Try again in other words.",
     askTrip: "Where are you going and when?",
-    needDates: (c: string) => `Tell me the dates too, for example: plan a trip to ${c} from December 3 to 10.`,
     which: (c: string) => `I heard ${c}. Is that your passport or where you are going? Say: my passport is from ${c}, or: plan a trip to ${c}.`,
     unavailable: "Waypoint is not reachable right now. Try again in a moment.",
     help: "You can say: my passport is a country, plan a trip to a country, can I bring something to a country, do I need a visa for a country, what should I pack, or what is left for my trip.",
@@ -39,8 +41,9 @@ const TEXT = {
     askResidence: "¿En qué país vives?",
     residenceExample: "No alcancé a entender el país. Di, por ejemplo: vivo en Estados Unidos.",
     askWhen: "¿Cuándo sales?",
+    datesExample: "No entendí las fechas. Dime el día y el mes, por ejemplo: del 1 al 25 de diciembre.",
+    somethingWrong: "Algo no salió bien con eso. Inténtalo de nuevo con otras palabras.",
     askTrip: "¿A dónde vas y cuándo?",
-    needDates: (c: string) => `Dime también las fechas, por ejemplo: planea un viaje a ${c} del 3 al 10 de diciembre.`,
     which: (c: string) => `Entendí ${c}. ¿Es tu pasaporte o a dónde vas? Di: mi pasaporte es de ${c}, o: planea un viaje a ${c}.`,
     unavailable: "Waypoint no está disponible en este momento. Intenta de nuevo en un momento.",
     help: "Puedes decir: mi pasaporte es de un país, planea un viaje a un país, puedo llevar algo a un país, necesito visa para un país, qué debo empacar, o qué me falta para mi viaje.",
@@ -89,6 +92,7 @@ type Awaiting =
   | { kind: "passport" }
   | { kind: "residence" }
   | { kind: "plan"; startDate?: string; endDate?: string }
+  | { kind: "dates"; destination: string }
   | { kind: "entry" }
   | { kind: "rules"; item?: string };
 
@@ -107,7 +111,10 @@ function ask(h: HandlerInput, awaiting: Awaiting, text: string, reprompt = text)
 
 function speakResult(handlerInput: HandlerInput, r: ToolCall, title: string, after?: string): Response {
   const locale = localeOf(handlerInput);
-  const parts = [r.voice];
+  // A protocol or schema error is for logs, not for the user's ears.
+  const technical = r.isError && /MCP error|Input validation|Invalid arguments|-32\d{3}/i.test(r.voice);
+  if (technical) console.error("waypoint tool error", r.voice.slice(0, 200));
+  const parts = [technical ? TEXT[locale].somethingWrong : r.voice];
   if (r.missing.length) parts.push(locale === "es-MX" ? "Dime el país del pasaporte de cada viajero." : "Tell me each traveler's passport country.");
   const alreadyDisclaimed = /verify with the official source|verifica con la fuente oficial/i.test(r.voice);
   const base = r.isError || alreadyDisclaimed ? parts.join(" ") : `${parts.join(" ")} ${DISCLAIMER[locale]}`;
@@ -146,9 +153,14 @@ async function entryAnswer(h: HandlerInput, destination: string) {
   return run(h, "check_entry_requirements", { destination }, "Entry requirements");
 }
 
-async function planAnswer(h: HandlerInput, destination: string, startDate: string, endDate: string) {
+// Alexa's date values (a bare day, a week, no year) become two calendar dates; if they cannot, ask.
+async function planAnswer(h: HandlerInput, destination: string, startDate?: string, endDate?: string) {
+  const t = TEXT[localeOf(h)];
+  const now = new Date(h.requestEnvelope.request.timestamp ?? Date.now());
+  const dates = resolveTripDates(startDate, endDate, now);
+  if (!dates) return ask(h, { kind: "dates", destination }, startDate ? t.datesExample : t.askWhen, t.datesExample);
   setAwaiting(h, null);
-  return run(h, "plan_trip", { destination, startDate, endDate }, "Waypoint trip");
+  return run(h, "plan_trip", { destination, ...dates }, "Waypoint trip");
 }
 
 async function rulesAnswer(h: HandlerInput, destination: string, item?: string) {
@@ -198,10 +210,9 @@ const PlanTripHandler: RequestHandler = {
     const t = TEXT[localeOf(h)];
     const destination = slot(h, "destination");
     const startDate = slot(h, "startDate");
-    const endDate = slot(h, "endDate") ?? startDate;
+    const endDate = slot(h, "endDate");
     if (!destination) return ask(h, { kind: "plan", startDate, endDate }, t.askDestination);
-    if (!startDate) return h.responseBuilder.speak(t.askWhen).reprompt(t.askWhen).getResponse();
-    return planAnswer(h, destination, startDate, endDate ?? startDate);
+    return planAnswer(h, destination, startDate, endDate);
   },
 };
 
@@ -272,12 +283,23 @@ const CountryAnswerHandler: RequestHandler = {
       case "rules":
         return rulesAnswer(h, country, awaiting.item);
       case "plan":
-        if (awaiting.startDate) return planAnswer(h, country, awaiting.startDate, awaiting.endDate ?? awaiting.startDate);
-        return h.responseBuilder.speak(t.needDates(spoken)).reprompt(t.needDates(spoken)).getResponse();
+        return planAnswer(h, country, awaiting.startDate, awaiting.endDate);
       default:
         // Nothing was asked: do not guess whether it is a passport or a destination.
         return h.responseBuilder.speak(t.which(spoken)).reprompt(t.which(spoken)).getResponse();
     }
+  },
+};
+
+// Dates said on their own ("del 1 al 25 de diciembre"): for the trip being planned, or kept until the destination comes.
+const DatesAnswerHandler: RequestHandler = {
+  canHandle: (h) => h.requestEnvelope.request.type === "IntentRequest" && h.requestEnvelope.request.intent.name === "DatesAnswerIntent",
+  async handle(h) {
+    const startDate = slot(h, "startDate");
+    const endDate = slot(h, "endDate");
+    const awaiting = getAwaiting(h);
+    if (awaiting?.kind === "dates") return planAnswer(h, awaiting.destination, startDate, endDate);
+    return ask(h, { kind: "plan", startDate, endDate }, TEXT[localeOf(h)].askDestination);
   },
 };
 
@@ -329,6 +351,7 @@ export function buildSkill() {
       LaunchRequestHandler,
       SetPassportHandler,
       CountryAnswerHandler,
+      DatesAnswerHandler,
       PlanTripHandler,
       EntryHandler,
       RulesHandler,

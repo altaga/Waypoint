@@ -1885,7 +1885,12 @@
             "plan a trip to {destination}",
             "plan a trip to {destination} from {startDate} to {endDate}",
             "I am going to {destination} from {startDate} to {endDate}",
-            "I want to travel to {destination} on {startDate}"
+            "I want to travel to {destination} on {startDate}",
+            "I want to go to {destination} from {startDate} to {endDate}",
+            "I'm going to {destination} from {startDate} to {endDate}",
+            "trip to {destination} from {startDate} to {endDate}",
+            "I want to go to {destination}",
+            "I'm traveling to {destination} on {startDate}"
           ]
         },
         {
@@ -1990,6 +1995,26 @@
           ],
           "samples": [
             "{country}"
+          ]
+        },
+        {
+          "name": "DatesAnswerIntent",
+          "slots": [
+            {
+              "name": "startDate",
+              "type": "AMAZON.DATE"
+            },
+            {
+              "name": "endDate",
+              "type": "AMAZON.DATE"
+            }
+          ],
+          "samples": [
+            "from {startDate} to {endDate}",
+            "on {startDate}",
+            "I leave on {startDate}",
+            "I leave on {startDate} and come back on {endDate}",
+            "between {startDate} and {endDate}"
           ]
         },
         {
