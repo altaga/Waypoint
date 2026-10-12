@@ -2,7 +2,1733 @@
   "interactionModel": {
     "languageModel": {
       "invocationName": "waypoint",
-      "types": [],
+      "types": [
+        {
+          "name": "WaypointCountry",
+          "values": [
+            {
+              "id": "AC",
+              "name": {
+                "value": "Ascension Island"
+              }
+            },
+            {
+              "id": "AD",
+              "name": {
+                "value": "Andorra"
+              }
+            },
+            {
+              "id": "AE",
+              "name": {
+                "value": "Emiratos Árabes Unidos",
+                "synonyms": [
+                  "United Arab Emirates",
+                  "emiratos",
+                  "uae",
+                  "dubai",
+                  "Emirati",
+                  "emiratí"
+                ]
+              }
+            },
+            {
+              "id": "AF",
+              "name": {
+                "value": "Afghanistan"
+              }
+            },
+            {
+              "id": "AG",
+              "name": {
+                "value": "Antigua and Barbuda"
+              }
+            },
+            {
+              "id": "AI",
+              "name": {
+                "value": "Anguilla"
+              }
+            },
+            {
+              "id": "AL",
+              "name": {
+                "value": "Albania"
+              }
+            },
+            {
+              "id": "AM",
+              "name": {
+                "value": "Armenia"
+              }
+            },
+            {
+              "id": "AO",
+              "name": {
+                "value": "Angola"
+              }
+            },
+            {
+              "id": "AQ",
+              "name": {
+                "value": "Antarctica"
+              }
+            },
+            {
+              "id": "AR",
+              "name": {
+                "value": "Argentina",
+                "synonyms": [
+                  "argentino",
+                  "Argentinian",
+                  "Argentine"
+                ]
+              }
+            },
+            {
+              "id": "AS",
+              "name": {
+                "value": "American Samoa"
+              }
+            },
+            {
+              "id": "AT",
+              "name": {
+                "value": "Austria"
+              }
+            },
+            {
+              "id": "AU",
+              "name": {
+                "value": "Australia",
+                "synonyms": [
+                  "Australian",
+                  "australiano",
+                  "australiana"
+                ]
+              }
+            },
+            {
+              "id": "AW",
+              "name": {
+                "value": "Aruba"
+              }
+            },
+            {
+              "id": "AX",
+              "name": {
+                "value": "Aland"
+              }
+            },
+            {
+              "id": "AZ",
+              "name": {
+                "value": "Azerbaijan"
+              }
+            },
+            {
+              "id": "BA",
+              "name": {
+                "value": "Bosnia and Herzegovina"
+              }
+            },
+            {
+              "id": "BB",
+              "name": {
+                "value": "Barbados"
+              }
+            },
+            {
+              "id": "BD",
+              "name": {
+                "value": "Bangladesh"
+              }
+            },
+            {
+              "id": "BE",
+              "name": {
+                "value": "Belgium"
+              }
+            },
+            {
+              "id": "BF",
+              "name": {
+                "value": "Burkina Faso"
+              }
+            },
+            {
+              "id": "BG",
+              "name": {
+                "value": "Bulgaria"
+              }
+            },
+            {
+              "id": "BH",
+              "name": {
+                "value": "Bahrain"
+              }
+            },
+            {
+              "id": "BI",
+              "name": {
+                "value": "Burundi"
+              }
+            },
+            {
+              "id": "BJ",
+              "name": {
+                "value": "Benin"
+              }
+            },
+            {
+              "id": "BL",
+              "name": {
+                "value": "Saint Barthelemy"
+              }
+            },
+            {
+              "id": "BM",
+              "name": {
+                "value": "Bermuda"
+              }
+            },
+            {
+              "id": "BN",
+              "name": {
+                "value": "Brunei"
+              }
+            },
+            {
+              "id": "BO",
+              "name": {
+                "value": "Bolivia"
+              }
+            },
+            {
+              "id": "BQ",
+              "name": {
+                "value": "Bonaire"
+              }
+            },
+            {
+              "id": "BR",
+              "name": {
+                "value": "Brasil",
+                "synonyms": [
+                  "Brazil",
+                  "brasileño",
+                  "brasileña",
+                  "Brazilian"
+                ]
+              }
+            },
+            {
+              "id": "BS",
+              "name": {
+                "value": "Bahamas"
+              }
+            },
+            {
+              "id": "BT",
+              "name": {
+                "value": "Bhutan"
+              }
+            },
+            {
+              "id": "BV",
+              "name": {
+                "value": "Bouvet Island"
+              }
+            },
+            {
+              "id": "BW",
+              "name": {
+                "value": "Botswana"
+              }
+            },
+            {
+              "id": "BY",
+              "name": {
+                "value": "Belarus"
+              }
+            },
+            {
+              "id": "BZ",
+              "name": {
+                "value": "Belize"
+              }
+            },
+            {
+              "id": "CA",
+              "name": {
+                "value": "Canadá",
+                "synonyms": [
+                  "Canada",
+                  "canadiense",
+                  "Canadian"
+                ]
+              }
+            },
+            {
+              "id": "CC",
+              "name": {
+                "value": "Cocos Islands"
+              }
+            },
+            {
+              "id": "CD",
+              "name": {
+                "value": "Democratic Republic of the Congo"
+              }
+            },
+            {
+              "id": "CF",
+              "name": {
+                "value": "Central African Republic"
+              }
+            },
+            {
+              "id": "CG",
+              "name": {
+                "value": "Republic of the Congo"
+              }
+            },
+            {
+              "id": "CH",
+              "name": {
+                "value": "Switzerland",
+                "synonyms": [
+                  "suizo",
+                  "suiza"
+                ]
+              }
+            },
+            {
+              "id": "CI",
+              "name": {
+                "value": "Ivory Coast"
+              }
+            },
+            {
+              "id": "CK",
+              "name": {
+                "value": "Cook Islands"
+              }
+            },
+            {
+              "id": "CL",
+              "name": {
+                "value": "Chile",
+                "synonyms": [
+                  "Chilean",
+                  "chileno",
+                  "chilena"
+                ]
+              }
+            },
+            {
+              "id": "CM",
+              "name": {
+                "value": "Cameroon"
+              }
+            },
+            {
+              "id": "CN",
+              "name": {
+                "value": "China",
+                "synonyms": [
+                  "chino",
+                  "Chinese"
+                ]
+              }
+            },
+            {
+              "id": "CO",
+              "name": {
+                "value": "Colombia",
+                "synonyms": [
+                  "colombiano",
+                  "colombiana",
+                  "Colombian"
+                ]
+              }
+            },
+            {
+              "id": "CR",
+              "name": {
+                "value": "Costa Rica"
+              }
+            },
+            {
+              "id": "CU",
+              "name": {
+                "value": "Cuba"
+              }
+            },
+            {
+              "id": "CV",
+              "name": {
+                "value": "Cabo Verde"
+              }
+            },
+            {
+              "id": "CW",
+              "name": {
+                "value": "Curacao"
+              }
+            },
+            {
+              "id": "CX",
+              "name": {
+                "value": "Christmas Island"
+              }
+            },
+            {
+              "id": "CY",
+              "name": {
+                "value": "Cyprus"
+              }
+            },
+            {
+              "id": "CZ",
+              "name": {
+                "value": "Czechia"
+              }
+            },
+            {
+              "id": "DE",
+              "name": {
+                "value": "Alemania",
+                "synonyms": [
+                  "Germany",
+                  "alemán",
+                  "alemana",
+                  "German"
+                ]
+              }
+            },
+            {
+              "id": "DJ",
+              "name": {
+                "value": "Djibouti"
+              }
+            },
+            {
+              "id": "DK",
+              "name": {
+                "value": "Denmark"
+              }
+            },
+            {
+              "id": "DM",
+              "name": {
+                "value": "Dominica"
+              }
+            },
+            {
+              "id": "DO",
+              "name": {
+                "value": "Dominican Republic"
+              }
+            },
+            {
+              "id": "DZ",
+              "name": {
+                "value": "Algeria"
+              }
+            },
+            {
+              "id": "EC",
+              "name": {
+                "value": "Ecuador"
+              }
+            },
+            {
+              "id": "EE",
+              "name": {
+                "value": "Estonia"
+              }
+            },
+            {
+              "id": "EG",
+              "name": {
+                "value": "Egypt",
+                "synonyms": [
+                  "Egyptian",
+                  "egipcio",
+                  "egipcia"
+                ]
+              }
+            },
+            {
+              "id": "EH",
+              "name": {
+                "value": "Western Sahara"
+              }
+            },
+            {
+              "id": "ER",
+              "name": {
+                "value": "Eritrea"
+              }
+            },
+            {
+              "id": "ES",
+              "name": {
+                "value": "España",
+                "synonyms": [
+                  "Spain",
+                  "español",
+                  "española",
+                  "espana",
+                  "Spanish"
+                ]
+              }
+            },
+            {
+              "id": "ET",
+              "name": {
+                "value": "Ethiopia"
+              }
+            },
+            {
+              "id": "FI",
+              "name": {
+                "value": "Finland"
+              }
+            },
+            {
+              "id": "FJ",
+              "name": {
+                "value": "Fiji"
+              }
+            },
+            {
+              "id": "FK",
+              "name": {
+                "value": "Falkland Islands"
+              }
+            },
+            {
+              "id": "FM",
+              "name": {
+                "value": "Micronesia"
+              }
+            },
+            {
+              "id": "FO",
+              "name": {
+                "value": "Faroe Islands"
+              }
+            },
+            {
+              "id": "FR",
+              "name": {
+                "value": "Francia",
+                "synonyms": [
+                  "France",
+                  "francés",
+                  "francesa",
+                  "French"
+                ]
+              }
+            },
+            {
+              "id": "GA",
+              "name": {
+                "value": "Gabon"
+              }
+            },
+            {
+              "id": "GB",
+              "name": {
+                "value": "Reino Unido",
+                "synonyms": [
+                  "United Kingdom",
+                  "britanico",
+                  "británico",
+                  "británica",
+                  "britanica",
+                  "uk",
+                  "gran bretaña",
+                  "gran bretana",
+                  "great britain",
+                  "england",
+                  "British",
+                  "English",
+                  "inglés",
+                  "inglesa"
+                ]
+              }
+            },
+            {
+              "id": "GD",
+              "name": {
+                "value": "Grenada"
+              }
+            },
+            {
+              "id": "GE",
+              "name": {
+                "value": "Georgia"
+              }
+            },
+            {
+              "id": "GF",
+              "name": {
+                "value": "French Guiana"
+              }
+            },
+            {
+              "id": "GG",
+              "name": {
+                "value": "Guernsey"
+              }
+            },
+            {
+              "id": "GH",
+              "name": {
+                "value": "Ghana"
+              }
+            },
+            {
+              "id": "GI",
+              "name": {
+                "value": "Gibraltar"
+              }
+            },
+            {
+              "id": "GL",
+              "name": {
+                "value": "Greenland"
+              }
+            },
+            {
+              "id": "GM",
+              "name": {
+                "value": "Gambia"
+              }
+            },
+            {
+              "id": "GN",
+              "name": {
+                "value": "Guinea"
+              }
+            },
+            {
+              "id": "GP",
+              "name": {
+                "value": "Guadeloupe"
+              }
+            },
+            {
+              "id": "GQ",
+              "name": {
+                "value": "Equatorial Guinea"
+              }
+            },
+            {
+              "id": "GR",
+              "name": {
+                "value": "Greece"
+              }
+            },
+            {
+              "id": "GS",
+              "name": {
+                "value": "South Georgia and the South Sandwich Islands"
+              }
+            },
+            {
+              "id": "GT",
+              "name": {
+                "value": "Guatemala"
+              }
+            },
+            {
+              "id": "GU",
+              "name": {
+                "value": "Guam"
+              }
+            },
+            {
+              "id": "GW",
+              "name": {
+                "value": "Guinea-Bissau"
+              }
+            },
+            {
+              "id": "GY",
+              "name": {
+                "value": "Guyana"
+              }
+            },
+            {
+              "id": "HK",
+              "name": {
+                "value": "Hong Kong"
+              }
+            },
+            {
+              "id": "HM",
+              "name": {
+                "value": "Heard Island and McDonald Islands"
+              }
+            },
+            {
+              "id": "HN",
+              "name": {
+                "value": "Honduras"
+              }
+            },
+            {
+              "id": "HR",
+              "name": {
+                "value": "Croatia"
+              }
+            },
+            {
+              "id": "HT",
+              "name": {
+                "value": "Haiti"
+              }
+            },
+            {
+              "id": "HU",
+              "name": {
+                "value": "Hungary"
+              }
+            },
+            {
+              "id": "ID",
+              "name": {
+                "value": "Indonesia",
+                "synonyms": [
+                  "Indonesian",
+                  "indonesio"
+                ]
+              }
+            },
+            {
+              "id": "IE",
+              "name": {
+                "value": "Ireland"
+              }
+            },
+            {
+              "id": "IL",
+              "name": {
+                "value": "Israel"
+              }
+            },
+            {
+              "id": "IM",
+              "name": {
+                "value": "Isle of Man"
+              }
+            },
+            {
+              "id": "IN",
+              "name": {
+                "value": "India",
+                "synonyms": [
+                  "indio",
+                  "Indian"
+                ]
+              }
+            },
+            {
+              "id": "IO",
+              "name": {
+                "value": "British Indian Ocean Territory"
+              }
+            },
+            {
+              "id": "IQ",
+              "name": {
+                "value": "Iraq"
+              }
+            },
+            {
+              "id": "IR",
+              "name": {
+                "value": "Iran"
+              }
+            },
+            {
+              "id": "IS",
+              "name": {
+                "value": "Iceland"
+              }
+            },
+            {
+              "id": "IT",
+              "name": {
+                "value": "Italia",
+                "synonyms": [
+                  "Italy",
+                  "italiano",
+                  "italiana",
+                  "Italian"
+                ]
+              }
+            },
+            {
+              "id": "JE",
+              "name": {
+                "value": "Jersey"
+              }
+            },
+            {
+              "id": "JM",
+              "name": {
+                "value": "Jamaica"
+              }
+            },
+            {
+              "id": "JO",
+              "name": {
+                "value": "Jordan"
+              }
+            },
+            {
+              "id": "JP",
+              "name": {
+                "value": "Japón",
+                "synonyms": [
+                  "Japan",
+                  "japonés",
+                  "japonesa",
+                  "japon",
+                  "Japanese"
+                ]
+              }
+            },
+            {
+              "id": "KE",
+              "name": {
+                "value": "Kenya",
+                "synonyms": [
+                  "Kenyan",
+                  "keniano",
+                  "keniana"
+                ]
+              }
+            },
+            {
+              "id": "KG",
+              "name": {
+                "value": "Kyrgyzstan"
+              }
+            },
+            {
+              "id": "KH",
+              "name": {
+                "value": "Cambodia"
+              }
+            },
+            {
+              "id": "KI",
+              "name": {
+                "value": "Kiribati"
+              }
+            },
+            {
+              "id": "KM",
+              "name": {
+                "value": "Comoros"
+              }
+            },
+            {
+              "id": "KN",
+              "name": {
+                "value": "Saint Kitts and Nevis"
+              }
+            },
+            {
+              "id": "KP",
+              "name": {
+                "value": "North Korea"
+              }
+            },
+            {
+              "id": "KR",
+              "name": {
+                "value": "Corea del Sur",
+                "synonyms": [
+                  "South Korea",
+                  "coreano",
+                  "coreana",
+                  "korea",
+                  "Korean",
+                  "South Korean"
+                ]
+              }
+            },
+            {
+              "id": "KW",
+              "name": {
+                "value": "Kuwait"
+              }
+            },
+            {
+              "id": "KY",
+              "name": {
+                "value": "Cayman Islands"
+              }
+            },
+            {
+              "id": "KZ",
+              "name": {
+                "value": "Kazakhstan"
+              }
+            },
+            {
+              "id": "LA",
+              "name": {
+                "value": "Laos"
+              }
+            },
+            {
+              "id": "LB",
+              "name": {
+                "value": "Lebanon"
+              }
+            },
+            {
+              "id": "LC",
+              "name": {
+                "value": "Saint Lucia"
+              }
+            },
+            {
+              "id": "LI",
+              "name": {
+                "value": "Liechtenstein"
+              }
+            },
+            {
+              "id": "LK",
+              "name": {
+                "value": "Sri Lanka"
+              }
+            },
+            {
+              "id": "LR",
+              "name": {
+                "value": "Liberia"
+              }
+            },
+            {
+              "id": "LS",
+              "name": {
+                "value": "Lesotho"
+              }
+            },
+            {
+              "id": "LT",
+              "name": {
+                "value": "Lithuania"
+              }
+            },
+            {
+              "id": "LU",
+              "name": {
+                "value": "Luxembourg"
+              }
+            },
+            {
+              "id": "LV",
+              "name": {
+                "value": "Latvia"
+              }
+            },
+            {
+              "id": "LY",
+              "name": {
+                "value": "Libya"
+              }
+            },
+            {
+              "id": "MA",
+              "name": {
+                "value": "Morocco"
+              }
+            },
+            {
+              "id": "MC",
+              "name": {
+                "value": "Monaco"
+              }
+            },
+            {
+              "id": "MD",
+              "name": {
+                "value": "Moldova"
+              }
+            },
+            {
+              "id": "ME",
+              "name": {
+                "value": "Montenegro"
+              }
+            },
+            {
+              "id": "MF",
+              "name": {
+                "value": "Saint Martin"
+              }
+            },
+            {
+              "id": "MG",
+              "name": {
+                "value": "Madagascar"
+              }
+            },
+            {
+              "id": "MH",
+              "name": {
+                "value": "Marshall Islands"
+              }
+            },
+            {
+              "id": "MK",
+              "name": {
+                "value": "North Macedonia"
+              }
+            },
+            {
+              "id": "ML",
+              "name": {
+                "value": "Mali"
+              }
+            },
+            {
+              "id": "MM",
+              "name": {
+                "value": "Myanmar"
+              }
+            },
+            {
+              "id": "MN",
+              "name": {
+                "value": "Mongolia"
+              }
+            },
+            {
+              "id": "MO",
+              "name": {
+                "value": "Macao"
+              }
+            },
+            {
+              "id": "MP",
+              "name": {
+                "value": "Northern Mariana Islands"
+              }
+            },
+            {
+              "id": "MQ",
+              "name": {
+                "value": "Martinique"
+              }
+            },
+            {
+              "id": "MR",
+              "name": {
+                "value": "Mauritania"
+              }
+            },
+            {
+              "id": "MS",
+              "name": {
+                "value": "Montserrat"
+              }
+            },
+            {
+              "id": "MT",
+              "name": {
+                "value": "Malta"
+              }
+            },
+            {
+              "id": "MU",
+              "name": {
+                "value": "Mauritius"
+              }
+            },
+            {
+              "id": "MV",
+              "name": {
+                "value": "Maldives"
+              }
+            },
+            {
+              "id": "MW",
+              "name": {
+                "value": "Malawi"
+              }
+            },
+            {
+              "id": "MX",
+              "name": {
+                "value": "México",
+                "synonyms": [
+                  "Mexico",
+                  "mexicano",
+                  "mexicana",
+                  "Mexican"
+                ]
+              }
+            },
+            {
+              "id": "MY",
+              "name": {
+                "value": "Malaysia"
+              }
+            },
+            {
+              "id": "MZ",
+              "name": {
+                "value": "Mozambique"
+              }
+            },
+            {
+              "id": "NA",
+              "name": {
+                "value": "Namibia"
+              }
+            },
+            {
+              "id": "NC",
+              "name": {
+                "value": "New Caledonia"
+              }
+            },
+            {
+              "id": "NE",
+              "name": {
+                "value": "Niger"
+              }
+            },
+            {
+              "id": "NF",
+              "name": {
+                "value": "Norfolk Island"
+              }
+            },
+            {
+              "id": "NG",
+              "name": {
+                "value": "Nigeria"
+              }
+            },
+            {
+              "id": "NI",
+              "name": {
+                "value": "Nicaragua"
+              }
+            },
+            {
+              "id": "NL",
+              "name": {
+                "value": "Netherlands",
+                "synonyms": [
+                  "holandés",
+                  "holandesa",
+                  "neerlandés"
+                ]
+              }
+            },
+            {
+              "id": "NO",
+              "name": {
+                "value": "Norway"
+              }
+            },
+            {
+              "id": "NP",
+              "name": {
+                "value": "Nepal"
+              }
+            },
+            {
+              "id": "NR",
+              "name": {
+                "value": "Nauru"
+              }
+            },
+            {
+              "id": "NU",
+              "name": {
+                "value": "Niue"
+              }
+            },
+            {
+              "id": "NZ",
+              "name": {
+                "value": "New Zealand",
+                "synonyms": [
+                  "New Zealander",
+                  "neozelandés",
+                  "neozelandesa"
+                ]
+              }
+            },
+            {
+              "id": "OM",
+              "name": {
+                "value": "Oman"
+              }
+            },
+            {
+              "id": "PA",
+              "name": {
+                "value": "Panama"
+              }
+            },
+            {
+              "id": "PE",
+              "name": {
+                "value": "Peru",
+                "synonyms": [
+                  "Peruvian",
+                  "peruano",
+                  "peruana"
+                ]
+              }
+            },
+            {
+              "id": "PF",
+              "name": {
+                "value": "French Polynesia"
+              }
+            },
+            {
+              "id": "PG",
+              "name": {
+                "value": "Papua New Guinea"
+              }
+            },
+            {
+              "id": "PH",
+              "name": {
+                "value": "Philippines",
+                "synonyms": [
+                  "Filipino",
+                  "Philippine",
+                  "filipina"
+                ]
+              }
+            },
+            {
+              "id": "PK",
+              "name": {
+                "value": "Pakistan"
+              }
+            },
+            {
+              "id": "PL",
+              "name": {
+                "value": "Poland",
+                "synonyms": [
+                  "polaco",
+                  "polaca"
+                ]
+              }
+            },
+            {
+              "id": "PM",
+              "name": {
+                "value": "Saint Pierre and Miquelon"
+              }
+            },
+            {
+              "id": "PN",
+              "name": {
+                "value": "Pitcairn Islands"
+              }
+            },
+            {
+              "id": "PR",
+              "name": {
+                "value": "Puerto Rico"
+              }
+            },
+            {
+              "id": "PS",
+              "name": {
+                "value": "Palestine"
+              }
+            },
+            {
+              "id": "PT",
+              "name": {
+                "value": "Portugal",
+                "synonyms": [
+                  "portugués",
+                  "portuguesa"
+                ]
+              }
+            },
+            {
+              "id": "PW",
+              "name": {
+                "value": "Palau"
+              }
+            },
+            {
+              "id": "PY",
+              "name": {
+                "value": "Paraguay"
+              }
+            },
+            {
+              "id": "QA",
+              "name": {
+                "value": "Qatar"
+              }
+            },
+            {
+              "id": "RE",
+              "name": {
+                "value": "Reunion"
+              }
+            },
+            {
+              "id": "RO",
+              "name": {
+                "value": "Romania"
+              }
+            },
+            {
+              "id": "RS",
+              "name": {
+                "value": "Serbia"
+              }
+            },
+            {
+              "id": "RU",
+              "name": {
+                "value": "Russia",
+                "synonyms": [
+                  "Russian",
+                  "ruso",
+                  "rusa"
+                ]
+              }
+            },
+            {
+              "id": "RW",
+              "name": {
+                "value": "Rwanda"
+              }
+            },
+            {
+              "id": "SA",
+              "name": {
+                "value": "Saudi Arabia"
+              }
+            },
+            {
+              "id": "SB",
+              "name": {
+                "value": "Solomon Islands"
+              }
+            },
+            {
+              "id": "SC",
+              "name": {
+                "value": "Seychelles"
+              }
+            },
+            {
+              "id": "SD",
+              "name": {
+                "value": "Sudan"
+              }
+            },
+            {
+              "id": "SE",
+              "name": {
+                "value": "Sweden",
+                "synonyms": [
+                  "sueco",
+                  "sueca"
+                ]
+              }
+            },
+            {
+              "id": "SG",
+              "name": {
+                "value": "Singapur",
+                "synonyms": [
+                  "Singapore",
+                  "singapurense",
+                  "Singaporean"
+                ]
+              }
+            },
+            {
+              "id": "SH",
+              "name": {
+                "value": "Saint Helena"
+              }
+            },
+            {
+              "id": "SI",
+              "name": {
+                "value": "Slovenia"
+              }
+            },
+            {
+              "id": "SJ",
+              "name": {
+                "value": "Svalbard and Jan Mayen"
+              }
+            },
+            {
+              "id": "SK",
+              "name": {
+                "value": "Slovakia"
+              }
+            },
+            {
+              "id": "SL",
+              "name": {
+                "value": "Sierra Leone"
+              }
+            },
+            {
+              "id": "SM",
+              "name": {
+                "value": "San Marino"
+              }
+            },
+            {
+              "id": "SN",
+              "name": {
+                "value": "Senegal"
+              }
+            },
+            {
+              "id": "SO",
+              "name": {
+                "value": "Somalia"
+              }
+            },
+            {
+              "id": "SR",
+              "name": {
+                "value": "Suriname"
+              }
+            },
+            {
+              "id": "SS",
+              "name": {
+                "value": "South Sudan"
+              }
+            },
+            {
+              "id": "ST",
+              "name": {
+                "value": "Sao Tome and Principe"
+              }
+            },
+            {
+              "id": "SV",
+              "name": {
+                "value": "El Salvador"
+              }
+            },
+            {
+              "id": "SX",
+              "name": {
+                "value": "Sint Maarten"
+              }
+            },
+            {
+              "id": "SY",
+              "name": {
+                "value": "Syria"
+              }
+            },
+            {
+              "id": "SZ",
+              "name": {
+                "value": "Eswatini"
+              }
+            },
+            {
+              "id": "TA",
+              "name": {
+                "value": "Tristan da Cunha"
+              }
+            },
+            {
+              "id": "TC",
+              "name": {
+                "value": "Turks and Caicos Islands"
+              }
+            },
+            {
+              "id": "TD",
+              "name": {
+                "value": "Chad"
+              }
+            },
+            {
+              "id": "TF",
+              "name": {
+                "value": "French Southern Territories"
+              }
+            },
+            {
+              "id": "TG",
+              "name": {
+                "value": "Togo"
+              }
+            },
+            {
+              "id": "TH",
+              "name": {
+                "value": "Tailandia",
+                "synonyms": [
+                  "Thailand",
+                  "tailandés",
+                  "tailandesa",
+                  "Thai"
+                ]
+              }
+            },
+            {
+              "id": "TJ",
+              "name": {
+                "value": "Tajikistan"
+              }
+            },
+            {
+              "id": "TK",
+              "name": {
+                "value": "Tokelau"
+              }
+            },
+            {
+              "id": "TL",
+              "name": {
+                "value": "East Timor"
+              }
+            },
+            {
+              "id": "TM",
+              "name": {
+                "value": "Turkmenistan"
+              }
+            },
+            {
+              "id": "TN",
+              "name": {
+                "value": "Tunisia"
+              }
+            },
+            {
+              "id": "TO",
+              "name": {
+                "value": "Tonga"
+              }
+            },
+            {
+              "id": "TR",
+              "name": {
+                "value": "Turquía",
+                "synonyms": [
+                  "Türkiye",
+                  "turco",
+                  "turca",
+                  "turquia",
+                  "Turkish"
+                ]
+              }
+            },
+            {
+              "id": "TT",
+              "name": {
+                "value": "Trinidad and Tobago"
+              }
+            },
+            {
+              "id": "TV",
+              "name": {
+                "value": "Tuvalu"
+              }
+            },
+            {
+              "id": "TW",
+              "name": {
+                "value": "Taiwan"
+              }
+            },
+            {
+              "id": "TZ",
+              "name": {
+                "value": "Tanzania"
+              }
+            },
+            {
+              "id": "UA",
+              "name": {
+                "value": "Ukraine"
+              }
+            },
+            {
+              "id": "UG",
+              "name": {
+                "value": "Uganda"
+              }
+            },
+            {
+              "id": "UM",
+              "name": {
+                "value": "U.S. Minor Outlying Islands"
+              }
+            },
+            {
+              "id": "US",
+              "name": {
+                "value": "Estados Unidos",
+                "synonyms": [
+                  "United States",
+                  "estadounidense",
+                  "estadounidenses",
+                  "gringo",
+                  "gringa",
+                  "usa",
+                  "eeuu",
+                  "ee.uu.",
+                  "American",
+                  "US citizen",
+                  "americano",
+                  "americana",
+                  "norteamericano",
+                  "norteamericana"
+                ]
+              }
+            },
+            {
+              "id": "UY",
+              "name": {
+                "value": "Uruguay"
+              }
+            },
+            {
+              "id": "UZ",
+              "name": {
+                "value": "Uzbekistan"
+              }
+            },
+            {
+              "id": "VA",
+              "name": {
+                "value": "Vatican City"
+              }
+            },
+            {
+              "id": "VC",
+              "name": {
+                "value": "Saint Vincent and the Grenadines"
+              }
+            },
+            {
+              "id": "VE",
+              "name": {
+                "value": "Venezuela"
+              }
+            },
+            {
+              "id": "VG",
+              "name": {
+                "value": "British Virgin Islands"
+              }
+            },
+            {
+              "id": "VI",
+              "name": {
+                "value": "U.S. Virgin Islands"
+              }
+            },
+            {
+              "id": "VN",
+              "name": {
+                "value": "Vietnam",
+                "synonyms": [
+                  "vietnamita",
+                  "viet nam",
+                  "Vietnamese"
+                ]
+              }
+            },
+            {
+              "id": "VU",
+              "name": {
+                "value": "Vanuatu"
+              }
+            },
+            {
+              "id": "WF",
+              "name": {
+                "value": "Wallis and Futuna"
+              }
+            },
+            {
+              "id": "WS",
+              "name": {
+                "value": "Samoa"
+              }
+            },
+            {
+              "id": "XK",
+              "name": {
+                "value": "Kosovo"
+              }
+            },
+            {
+              "id": "YE",
+              "name": {
+                "value": "Yemen"
+              }
+            },
+            {
+              "id": "YT",
+              "name": {
+                "value": "Mayotte"
+              }
+            },
+            {
+              "id": "ZA",
+              "name": {
+                "value": "South Africa",
+                "synonyms": [
+                  "South African",
+                  "sudafricano",
+                  "sudafricana"
+                ]
+              }
+            },
+            {
+              "id": "ZM",
+              "name": {
+                "value": "Zambia"
+              }
+            },
+            {
+              "id": "ZW",
+              "name": {
+                "value": "Zimbabwe"
+              }
+            }
+          ]
+        }
+      ],
       "intents": [
         {
           "name": "PlanTripIntent",
@@ -77,11 +1803,11 @@
           "slots": [
             {
               "name": "country",
-              "type": "AMAZON.Country"
+              "type": "WaypointCountry"
             },
             {
               "name": "secondCountry",
-              "type": "AMAZON.Country"
+              "type": "WaypointCountry"
             }
           ],
           "samples": [
@@ -110,13 +1836,25 @@
           "slots": [
             {
               "name": "country",
-              "type": "AMAZON.Country"
+              "type": "WaypointCountry"
             }
           ],
           "samples": [
             "vivo en {country}",
             "tengo residencia en {country}",
             "mi residencia es {country}"
+          ]
+        },
+        {
+          "name": "CountryAnswerIntent",
+          "slots": [
+            {
+              "name": "country",
+              "type": "WaypointCountry"
+            }
+          ],
+          "samples": [
+            "{country}"
           ]
         },
         {
@@ -129,6 +1867,10 @@
         },
         {
           "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
           "samples": []
         }
       ]

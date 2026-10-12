@@ -42,7 +42,7 @@ export const GENTILICIOS: Record<string, string> = {
   argentino: "AR", argentina: "AR",
 };
 
-const ALIASES: Record<string, string> = {
+export const ALIASES: Record<string, string> = {
   usa: "US", eeuu: "US", "ee.uu.": "US", "estados unidos": "US", "united states": "US",
   uk: "GB", "gran bretaña": "GB", "gran bretana": "GB", "reino unido": "GB", "great britain": "GB", england: "GB",
   "viet nam": "VN", vietnam: "VN",

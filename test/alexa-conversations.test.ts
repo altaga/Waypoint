@@ -24,10 +24,11 @@ const freshUser = () => `amzn1.ask.account.FRESH${String(++fresh).padStart(4, "0
 
 let store: StateStore;
 
-function envelope(userId: string, intent: string, slots: Record<string, string> = {}, locale: Locale = "en-US"): RequestEnvelope {
+type SlotIn = string | { value: string; id: string };
+function envelope(userId: string, intent: string, slots: Record<string, SlotIn> = {}, locale: Locale = "en-US", attributes: Record<string, unknown> = {}): RequestEnvelope {
   return {
     version: "1.0",
-    session: { new: true, sessionId: "amzn1.echo-api.session.conv", application: { applicationId: "amzn1.ask.skill.test" }, user: { userId }, attributes: {} },
+    session: { new: true, sessionId: "amzn1.echo-api.session.conv", application: { applicationId: "amzn1.ask.skill.test" }, user: { userId }, attributes },
     context: {
       System: {
         application: { applicationId: "amzn1.ask.skill.test" },
@@ -45,7 +46,16 @@ function envelope(userId: string, intent: string, slots: Record<string, string> 
       intent: {
         name: intent,
         confirmationStatus: "NONE",
-        slots: Object.fromEntries(Object.entries(slots).map(([k, v]) => [k, { name: k, value: v, confirmationStatus: "NONE" as const }])),
+        slots: Object.fromEntries(
+          Object.entries(slots).map(([k, v]) => {
+            const value = typeof v === "string" ? v : v.value;
+            const resolutions =
+              typeof v === "string"
+                ? {}
+                : { resolutions: { resolutionsPerAuthority: [{ authority: "amzn1.er-authority.test", status: { code: "ER_SUCCESS_MATCH" as const }, values: [{ value: { id: v.id, name: v.value } }] }] } };
+            return [k, { name: k, value, confirmationStatus: "NONE" as const, ...resolutions }];
+          }),
+        ),
       },
     },
   };
@@ -56,8 +66,26 @@ function speechOf(res: unknown): string {
 }
 
 // Each turn is a separate skill invocation, as on a device, so state must live in the store.
-async function turn(userId: string, intent: string, slots: Record<string, string> = {}, locale: Locale = "en-US") {
+async function turn(userId: string, intent: string, slots: Record<string, SlotIn> = {}, locale: Locale = "en-US") {
   return speechOf(await buildSkill().invoke(envelope(userId, intent, slots, locale)));
+}
+
+// A spoken conversation: each turn is a request whose session attributes come from the last response.
+function convo(userId: string, locale: Locale) {
+  let attributes: Record<string, unknown> = {};
+  const send = async (envelopeOf: RequestEnvelope) => {
+    const res = (await buildSkill().invoke(envelopeOf)) as { response: { outputSpeech?: { ssml: string } }; sessionAttributes?: Record<string, unknown> };
+    attributes = res.sessionAttributes ?? {};
+    return speechOf(res);
+  };
+  return {
+    launch: () => {
+      const env = envelope(userId, "AMAZON.HelpIntent", {}, locale, attributes);
+      env.request = { type: "LaunchRequest", requestId: "amzn1.echo-api.request.launch", timestamp: "2026-10-11T12:00:00Z", locale } as RequestEnvelope["request"];
+      return send(env);
+    },
+    say: (intent: string, slots: Record<string, SlotIn> = {}) => send(envelope(userId, intent, slots, locale, attributes)),
+  };
 }
 
 function profileWith(passport: string | null, locale: Locale) {
@@ -183,8 +211,8 @@ const SINGLE: Case[] = [
   { say: "my passport is Germany", locale: "en-US", intent: "SetPassportIntent", slots: { country: "Germany" }, expect: /Saved|Germany|Guardado/i },
   { say: "soy de Estados Unidos", locale: "es-MX", intent: "SetPassportIntent", slots: { country: "Estados Unidos" }, expect: /Guardado|Estados Unidos|United States/i },
   { say: "I hold a Mexican passport", locale: "en-US", intent: "SetPassportIntent", slots: { country: "Mexico" }, expect: /Saved|Mexico|México|Guardado/i },
-  { say: "mi pasaporte es", locale: "es-MX", intent: "SetPassportIntent", expect: /¿De qué país es tu pasaporte\?/i },
-  { say: "my passport is", locale: "en-US", intent: "SetPassportIntent", expect: /Which country issued your passport/i },
+  { say: "mi pasaporte es", locale: "es-MX", intent: "SetPassportIntent", expect: /No alcancé a entender el país.*mexicano/i },
+  { say: "my passport is", locale: "en-US", intent: "SetPassportIntent", expect: /didn't catch the country.*Mexican/i },
   // Unknown input is answered honestly, not with a guess
   { say: "puedo llevar algo a Narnia", locale: "es-MX", intent: "EntryIntent", slots: { destination: "Narnia" }, expect: /no tengo información|Narnia/i },
   { say: "necesito visa para Atlantis", locale: "es-MX", intent: "EntryIntent", slots: { destination: "Atlantis" }, expect: /no tengo información|Atlantis/i },
@@ -299,7 +327,7 @@ test("entry answers without a residence on file have no residence caveat", async
 });
 
 test("residence without a country asks which country", async () => {
-  assert.match(await turn(freshUser(), "SetResidenceIntent", {}, "en-US"), /Which country do you live in/i);
+  assert.match(await turn(freshUser(), "SetResidenceIntent", {}, "en-US"), /didn't catch the country.*live in/i);
 });
 
 // Residence rules from the research report: notes only, the visa status is not changed.
@@ -325,4 +353,90 @@ test("residence rule: Mexico's waiver note appears in Spanish for a Spanish-spea
   await turn(user, "SetResidenceIntent", { country: "Estados Unidos" }, "es-MX");
   const text = await turn(user, "EntryIntent", { destination: "México" }, "es-MX");
   assert.match(text, /eximir de visa/i);
+});
+
+// The flow from the console screenshot: the skill asks for the passport, and the user answers with
+// a bare "mexicano" or "mexico". It must save the passport, not repeat the question.
+test("launch asks for the passport, and a bare 'mexicano' answers it (es-MX)", async () => {
+  const c = convo(freshUser(), "es-MX");
+  assert.match(await c.launch(), /necesito tu pasaporte/i);
+  assert.match(await c.say("CountryAnswerIntent", { country: { value: "mexicano", id: "MX" } }), /Guardado/i);
+});
+
+test("a bare country answer is saved as the passport, as the right country, when the slot has no id", async () => {
+  const user = freshUser();
+  const c = convo(user, "es-MX");
+  await c.launch();
+  await c.say("CountryAnswerIntent", { country: "mexico" });
+  const r = await callWaypointTool(user, "get_traveler_profile", {});
+  assert.deepEqual((r.data.profile as { travelers: { passports: { country: string }[] }[] }).travelers[0].passports.map((p) => p.country), ["MX"]);
+});
+
+test("English flow: launch, then 'Mexican' saves the passport and asks where the trip is", async () => {
+  const c = convo(freshUser(), "en-US");
+  assert.match(await c.launch(), /need your passport/i);
+  const saved = await c.say("CountryAnswerIntent", { country: { value: "Mexican", id: "MX" } });
+  assert.match(saved, /Saved/i);
+  assert.match(saved, /Where are you going and when/i);
+});
+
+test("the same question is not repeated when the country is not understood: the second message has an example", async () => {
+  const c = convo(freshUser(), "es-MX");
+  await c.launch();
+  const first = await c.say("SetPassportIntent");
+  assert.match(first, /No alcancé a entender el país/i);
+  assert.match(first, /mexicano/i);
+});
+
+test("a fallback while the passport is awaited gives the example, not a generic error", async () => {
+  const c = convo(freshUser(), "es-MX");
+  await c.launch();
+  assert.match(await c.say("AMAZON.FallbackIntent"), /No alcancé a entender el país/i);
+});
+
+test("a fallback with nothing awaited points to what can be said", async () => {
+  assert.match(await convo(freshUser(), "en-US").say("AMAZON.FallbackIntent"), /didn't understand/i);
+});
+
+test("a bare country with nothing asked is not saved as the passport or the destination", async () => {
+  const user = freshUser();
+  const c = convo(user, "es-MX");
+  const text = await c.say("CountryAnswerIntent", { country: { value: "Japón", id: "JP" } });
+  assert.match(text, /¿Es tu pasaporte o a dónde vas\?/);
+  const r = await callWaypointTool(user, "get_traveler_profile", {});
+  assert.equal(r.data.profile, undefined);
+});
+
+test("a bare country answers 'which country?' after a visa question with no destination", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const c = convo(user, "es-MX");
+  assert.match(await c.say("EntryIntent"), /¿A qué país\?/);
+  assert.match(await c.say("CountryAnswerIntent", { country: { value: "Japón", id: "JP" } }), /visa|Sin visa|sin visa/i);
+});
+
+test("a bare country answers 'which country?' for a trip, using the dates already given", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const c = convo(user, "es-MX");
+  assert.match(await c.say("PlanTripIntent", { startDate: "2026-12-03", endDate: "2026-12-10" }), /¿A qué país\?/);
+  assert.match(await c.say("CountryAnswerIntent", { country: { value: "Japón", id: "JP" } }), /Japón|días/i);
+});
+
+test("a bare country as residence is saved as the residence, not the passport", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const c = convo(user, "es-MX");
+  assert.match(await c.say("SetResidenceIntent"), /No alcancé a entender el país/i);
+  assert.match(await c.say("CountryAnswerIntent", { country: { value: "Estados Unidos", id: "US" } }), /Guardado/i);
+  const p = (await callWaypointTool(user, "get_traveler_profile", {})).data.profile as { travelers: { passports: { country: string }[]; residenceCountry?: string }[] };
+  assert.equal(p.travelers[0].residenceCountry, "US");
+  assert.deepEqual(p.travelers[0].passports.map((x) => x.country), ["MX"]);
+});
+
+test("a resolved id wins over the spoken words", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: { value: "estadounidense", id: "US" } }, "es-MX");
+  const p = (await callWaypointTool(user, "get_traveler_profile", {})).data.profile as { travelers: { passports: { country: string }[] }[] };
+  assert.deepEqual(p.travelers[0].passports.map((x) => x.country), ["US"]);
 });
