@@ -118,18 +118,18 @@ const SINGLE: Case[] = [
   // Trip planning
   { say: "planea un viaje a Japón del 3 al 10 de diciembre", locale: "es-MX", intent: "PlanTripIntent", slots: { destination: "Japón", startDate: "2026-12-03", endDate: "2026-12-10" }, expect: /Japón|Japan|días|days/i },
   { say: "plan a trip to Japan from December 3 to 10", locale: "en-US", intent: "PlanTripIntent", slots: { destination: "Japan", startDate: "2026-12-03", endDate: "2026-12-10" }, expect: /Japan|days/i },
-  { say: "quiero viajar a Singapur el 5 de diciembre", locale: "es-MX", intent: "PlanTripIntent", slots: { destination: "Singapur", startDate: "2026-12-05" }, expect: /Singapur|Singapore|días|days/i },
-  { say: "I want to go to Thailand on December 5", locale: "en-US", intent: "PlanTripIntent", slots: { destination: "Thailand", startDate: "2026-12-05" }, expect: /Thailand|days/i },
+  { say: "quiero viajar a Singapur el 5 de diciembre", locale: "es-MX", intent: "PlanTripIntent", slots: { destination: "Singapur", startDate: "2026-12-05" }, expect: /¿Y cuándo regresas\?/ },
+  { say: "I want to go to Thailand on December 5", locale: "en-US", intent: "PlanTripIntent", slots: { destination: "Thailand", startDate: "2026-12-05" }, expect: /And when do you come back\?/ },
   { say: "planea un viaje a Francia", locale: "es-MX", intent: "PlanTripIntent", slots: { destination: "Francia" }, expect: /¿Cuándo sales\?/i },
   { say: "plan a trip", locale: "en-US", intent: "PlanTripIntent", expect: /Which country\?/i },
   { say: "planea un viaje", locale: "es-MX", intent: "PlanTripIntent", expect: /¿A qué país\?/i },
   { say: "voy a Canadá del 1 al 8 de diciembre", locale: "es-MX", intent: "PlanTripIntent", slots: { destination: "Canadá", startDate: "2026-12-01", endDate: "2026-12-08" }, expect: /Canad|días|days/i },
   { say: "I am going to Peru from December 1 to 8", locale: "en-US", intent: "PlanTripIntent", slots: { destination: "Peru", startDate: "2026-12-01", endDate: "2026-12-08" }, expect: /Peru|days/i },
-  { say: "quiero ir a Corea del Sur el 20 de diciembre", locale: "es-MX", intent: "PlanTripIntent", slots: { destination: "Corea del Sur", startDate: "2026-12-20" }, expect: /Corea|Korea|días|days/i },
-  { say: "quiero viajar a Italia el 10 de diciembre", locale: "es-MX", intent: "PlanTripIntent", slots: { destination: "Italia", startDate: "2026-12-10" }, expect: /Italia|Italy|días|days/i },
+  { say: "quiero ir a Corea del Sur el 20 de diciembre", locale: "es-MX", intent: "PlanTripIntent", slots: { destination: "Corea del Sur", startDate: "2026-12-20" }, expect: /¿Y cuándo regresas\?/ },
+  { say: "quiero viajar a Italia el 10 de diciembre", locale: "es-MX", intent: "PlanTripIntent", slots: { destination: "Italia", startDate: "2026-12-10" }, expect: /¿Y cuándo regresas\?/ },
   { say: "I want to visit Japan", locale: "en-US", intent: "PlanTripIntent", slots: { destination: "Japan" }, expect: /When do you leave/i },
   { say: "planea un viaje a Brasil del 1 al 5 de diciembre", locale: "es-MX", intent: "PlanTripIntent", slots: { destination: "Brasil", startDate: "2026-12-01", endDate: "2026-12-05" }, expect: /Brasil|Brazil|días|days/i },
-  { say: "plan a trip to Peru on December 2", locale: "en-US", intent: "PlanTripIntent", slots: { destination: "Peru", startDate: "2026-12-02" }, expect: /Peru|days/i },
+  { say: "plan a trip to Peru on December 2", locale: "en-US", intent: "PlanTripIntent", slots: { destination: "Peru", startDate: "2026-12-02" }, expect: /And when do you come back\?/ },
   // Entry requirements (visa questions)
   { say: "necesito visa para Japón", locale: "es-MX", intent: "EntryIntent", slots: { destination: "Japón" }, expect: /visa|entrada|Sin visa/i },
   { say: "do I need a visa for Japan", locale: "en-US", intent: "EntryIntent", slots: { destination: "Japan" }, expect: /visa|entry|Sin visa/i },
@@ -504,7 +504,7 @@ test("dates said before the destination are kept until the destination comes", a
   const user = freshUser();
   await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
   const c = convo(user, "es-MX");
-  assert.match(await c.say("DatesAnswerIntent", { startDate: "2026-12-03", endDate: "2026-12-10" }), /¿A qué país\?/);
+  assert.match(await c.say("DatesAnswerIntent", { startDate: "2026-12-03", endDate: "2026-12-10" }), /Anoté las fechas\. ¿A qué país vas\?/);
   assert.match(await c.say("CountryAnswerIntent", { country: { value: "Japón", id: "JP" } }), /Japón|días/);
 });
 
@@ -514,7 +514,7 @@ test("a protocol or validation error is never read aloud", async () => {
   // A one-letter destination fails the tool's input schema.
   const text = await turn(user, "EntryIntent", { destination: "J" }, "es-MX");
   assert.doesNotMatch(text, /MCP error|Input validation|Invalid arguments|-32602/);
-  assert.match(text, /Algo no salió bien|no tengo información/i);
+  assert.match(text, /Algo no salió bien|no tengo información|No reconozco "J" como destino/i);
 });
 
 // From the console: "a japon del tres al diez quiero comer ramen". The answer said "Este es tu
@@ -585,4 +585,47 @@ test("the 'rules change' disclaimer is said once per session, and not on a saved
   assert.match(await c.say("PlanTripIntent", { destination: "Japón", startDate: "2026-12-03", endDate: "2026-12-10" }), /Las reglas cambian/);
   assert.doesNotMatch(await c.say("RulesIntent"), /Las reglas cambian/);
   assert.doesNotMatch(await c.say("EntryIntent"), /Las reglas cambian/);
+});
+
+// From the console: "vamos a amsterdam del dos al quince de octubre", "dos al quince de noviembre",
+// "el dos". A city was taken as a country and failed three turns later; partial dates were lost.
+test("console flow: a city destination, a past date, then new dates complete the trip", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const c = convo(user, "es-MX");
+  assert.match(await c.say("PlanTripIntent", { destination: "amsterdam", startDate: "2026-10-02", endDate: "2026-10-15" }), /^El 2 de octubre ya pasó\./);
+  assert.match(await c.say("DatesAnswerIntent", { startDate: "2026-11-02", endDate: "2026-11-15" }), /^Listo: tu viaje a Países Bajos del 2 al 15 de noviembre\./);
+});
+
+test("console flow: when Alexa fills only the end date, the skill asks for the start and keeps the end", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const c = convo(user, "es-MX");
+  await c.say("PlanTripIntent", { destination: "amsterdam", startDate: "2026-10-02", endDate: "2026-10-15" });
+  assert.match(await c.say("DatesAnswerIntent", { endDate: "2026-11-15" }), /^¿Qué día sales\?$/);
+  assert.match(await c.say("DatesAnswerIntent", { startDate: "XXXX-XX-02" }), /^Listo: tu viaje a Países Bajos del 2 al 15 de noviembre\./);
+});
+
+test("a single date asks for the return, and 'el diez' completes the trip with the month already given", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const c = convo(user, "es-MX");
+  assert.match(await c.say("PlanTripIntent", { destination: "Japón", startDate: "2026-12-03" }), /^¿Y cuándo regresas\?$/);
+  assert.match(await c.say("DatesAnswerIntent", { startDate: "XXXX-XX-10" }), /^Listo: tu viaje a Japón del 3 al 10 de diciembre\./);
+});
+
+test("an unknown destination is asked again at once, and the dates already given are kept", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  const c = convo(user, "es-MX");
+  assert.match(await c.say("PlanTripIntent", { destination: "Narnia", startDate: "2026-12-03", endDate: "2026-12-10" }), /^No reconozco "Narnia" como destino\. ¿A qué país vas\?$/);
+  assert.match(await c.say("CountryAnswerIntent", { country: { value: "Japón", id: "JP" } }), /^Listo: tu viaje a Japón del 3 al 10 de diciembre\./);
+});
+
+test("cities resolve to their country in visa and rules questions", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  assert.match(await turn(user, "EntryIntent", { destination: "Tokio" }, "es-MX"), /No necesitas visa/);
+  assert.match(await turn(user, "RulesIntent", { destination: "Singapur", item: "chicles" }, "es-MX"), /chewing gum/);
+  assert.match(await turn(user, "PlanTripIntent", { destination: "Cancún", startDate: "2026-12-03", endDate: "2026-12-10" }, "es-MX"), /México/);
 });

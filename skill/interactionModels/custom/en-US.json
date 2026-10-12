@@ -1890,7 +1890,11 @@
             "I'm going to {destination} from {startDate} to {endDate}",
             "trip to {destination} from {startDate} to {endDate}",
             "I want to go to {destination}",
-            "I'm traveling to {destination} on {startDate}"
+            "I'm traveling to {destination} on {startDate}",
+            "we are going to {destination} from {startDate} to {endDate}",
+            "we're going to {destination}",
+            "let's go to {destination} from {startDate} to {endDate}",
+            "I'm leaving for {destination} on {startDate}"
           ]
         },
         {
@@ -2021,7 +2025,13 @@
             "on {startDate}",
             "I leave on {startDate}",
             "I leave on {startDate} and come back on {endDate}",
-            "between {startDate} and {endDate}"
+            "between {startDate} and {endDate}",
+            "{startDate} to {endDate}",
+            "from {startDate} until {endDate}",
+            "I come back on {endDate}",
+            "I'm back on {endDate}",
+            "we come back on {endDate}",
+            "we leave on {startDate}"
           ]
         },
         {

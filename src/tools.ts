@@ -607,7 +607,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const env = baseEnvelope(ctx, dest, locale, {
           voice: rules.length
             ? pick(locale, `I found ${rules.length} local rules for ${countryName(dest, "en")}. The most serious: ${rules[0].summary.en}`, `Encontré ${rules.length} reglas locales para ${countryName(dest, "es")}. La más grave, en el texto oficial en inglés: ${rules[0].summary.en}`)
-            : pick(locale, "I don't have verified local rules for that destination yet. Check the official travel advice.", "Aún no tengo reglas locales verificadas para ese destino. Consulta el aviso oficial."),
+            : pick(locale, `I don't have verified local rules for ${countryName(dest, "en")} yet. Check the official travel advice.`, `Aún no tengo reglas locales verificadas para ${countryName(dest, "es")}. Consulta el aviso oficial.`),
           card: {
             pattern: "list",
             title: pick(locale, "Local rules", "Reglas locales"),

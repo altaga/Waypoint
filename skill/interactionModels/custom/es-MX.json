@@ -1891,7 +1891,12 @@
             "viajo a {destination} del {startDate} al {endDate}",
             "quiero ir a {destination}",
             "voy a viajar a {destination} el {startDate}",
-            "quiero ir a {destination} el {startDate}"
+            "quiero ir a {destination} el {startDate}",
+            "vamos a {destination} del {startDate} al {endDate}",
+            "nos vamos a {destination} del {startDate} al {endDate}",
+            "vamos a {destination}",
+            "viajamos a {destination} del {startDate} al {endDate}",
+            "me voy a {destination} el {startDate}"
           ]
         },
         {
@@ -2023,7 +2028,15 @@
             "desde el {startDate} hasta el {endDate}",
             "el {startDate}",
             "salgo el {startDate}",
-            "salgo el {startDate} y regreso el {endDate}"
+            "salgo el {startDate} y regreso el {endDate}",
+            "{startDate} al {endDate}",
+            "de {startDate} a {endDate}",
+            "del {startDate} hasta el {endDate}",
+            "regreso el {endDate}",
+            "vuelvo el {endDate}",
+            "regresamos el {endDate}",
+            "salimos el {startDate}",
+            "nos vamos el {startDate}"
           ]
         },
         {

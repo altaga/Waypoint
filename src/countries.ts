@@ -128,6 +128,37 @@ export const ALIASES: Record<string, string> = {
   holanda: "NL", "paises bajos": "NL", "república checa": "CZ", "czech republic": "CZ",
 };
 
+// Travelers often name a city instead of a country ("vamos a Ámsterdam"). Capitals come from
+// countries-list; these are the other cities people name most, in English and Spanish.
+export const CITIES: Record<string, string> = {
+  amsterdam: "NL", "ámsterdam": "NL", rotterdam: "NL",
+  paris: "FR", "parís": "FR", niza: "FR", nice: "FR", lyon: "FR", marsella: "FR", marseille: "FR",
+  london: "GB", londres: "GB", edinburgh: "GB", edimburgo: "GB", manchester: "GB", liverpool: "GB",
+  tokyo: "JP", "tokio": "JP", kyoto: "JP", "kioto": "JP", osaka: "JP", hiroshima: "JP", sapporo: "JP",
+  barcelona: "ES", madrid: "ES", sevilla: "ES", seville: "ES", valencia: "ES", malaga: "ES", "málaga": "ES", ibiza: "ES", mallorca: "ES", "palma de mallorca": "ES",
+  rome: "IT", roma: "IT", milan: "IT", "milán": "IT", venice: "IT", venecia: "IT", florence: "IT", florencia: "IT", naples: "IT", "nápoles": "IT",
+  "new york": "US", "nueva york": "US", "los angeles": "US", "los ángeles": "US", "las vegas": "US", miami: "US", orlando: "US", chicago: "US", "san francisco": "US", houston: "US", "washington": "US",
+  "cancun": "MX", "cancún": "MX", "ciudad de mexico": "MX", "ciudad de méxico": "MX", cdmx: "MX", guadalajara: "MX", monterrey: "MX", "playa del carmen": "MX", tulum: "MX", oaxaca: "MX", "puerto vallarta": "MX", "los cabos": "MX",
+  toronto: "CA", vancouver: "CA", montreal: "CA", "montréal": "CA", quebec: "CA", "quebec city": "CA",
+  bangkok: "TH", phuket: "TH", "chiang mai": "TH", pattaya: "TH",
+  seoul: "KR", "seúl": "KR", busan: "KR",
+  istanbul: "TR", estambul: "TR", antalya: "TR", capadocia: "TR", cappadocia: "TR",
+  dubai: "AE", "dubái": "AE", "abu dhabi": "AE", "abu dabi": "AE",
+  singapore: "SG",
+  beijing: "CN", "pekín": "CN", pekin: "CN", shanghai: "CN", "shanghái": "CN", "hong kong": "HK",
+  hanoi: "VN", "hanói": "VN", "ho chi minh": "VN", saigon: "VN", "saigón": "VN",
+  bali: "ID", yakarta: "ID", jakarta: "ID",
+  berlin: "DE", "berlín": "DE", munich: "DE", "múnich": "DE", frankfurt: "DE", "fráncfort": "DE",
+  lisbon: "PT", lisboa: "PT", porto: "PT", oporto: "PT",
+  prague: "CZ", praga: "CZ", vienna: "AT", viena: "AT", budapest: "HU", athens: "GR", atenas: "GR", dublin: "IE", "dublín": "IE",
+  brussels: "BE", bruselas: "BE", zurich: "CH", "zúrich": "CH", geneva: "CH", ginebra: "CH", copenhagen: "DK", copenhague: "DK", stockholm: "SE", estocolmo: "SE",
+  cairo: "EG", "el cairo": "EG", marrakech: "MA", "marrakesh": "MA",
+  sydney: "AU", "sídney": "AU", melbourne: "AU",
+  lima: "PE", cusco: "PE", cuzco: "PE", bogota: "CO", "bogotá": "CO", cartagena: "CO", medellin: "CO", "medellín": "CO",
+  "buenos aires": "AR", "rio de janeiro": "BR", "río de janeiro": "BR", "sao paulo": "BR", "são paulo": "BR", "santiago de chile": "CL",
+  havana: "CU", "la habana": "CU", "punta cana": "DO",
+};
+
 /** Lowercase, no accents, letters and digits only, single spaces: "Perú" and "ee.uu." compare plainly. */
 export function normalize(s: string): string {
   return s
@@ -151,6 +182,11 @@ for (const [word, iso] of Object.entries(ALIASES)) addKey(word, iso);
 for (const [word, iso] of Object.entries(GENTILICIOS)) addKey(word, iso);
 for (const [iso, list] of Object.entries(EN_DEMONYMS)) for (const w of list) addKey(w, iso);
 for (const [iso, list] of Object.entries(ES_DEMONYMS)) for (const w of list) addKey(w, iso);
+// Cities last, so a country name always wins over a city of the same name.
+for (const [city, iso] of Object.entries(CITIES)) addKey(city, iso);
+for (const [code, info] of Object.entries(countryData)) {
+  if (info.capital) addKey(info.capital, code);
+}
 const keys = [...index.keys()];
 
 /** Edit distance with swaps of neighbouring letters counted as one edit. */

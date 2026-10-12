@@ -3,6 +3,7 @@ import { Response } from "ask-sdk-model";
 import { callWaypointTool, canReachWaypoint, ToolCall } from "./mcp-call.ts";
 import { resolveTripDates, tripDateProblem } from "./dates.ts";
 import { countryName, resolveCountry } from "../countries.ts";
+import { spokenDates } from "../voice.ts";
 
 // Alexa custom skill. Each intent becomes one Waypoint MCP tool call.
 // The MCP endpoint comes from WAYPOINT_MCP_URL (a public HTTPS /mcp URL).
@@ -25,7 +26,11 @@ const TEXT = {
     residenceExample: "I didn't catch the country. Say, for example: I live in the United States.",
     askWhen: "When do you leave?",
     datesExample: "I didn't get the dates. Say the day and month, for example: from December 1 to 25.",
-    datesPast: "That date has already passed. Tell me future dates, for example: from December 1 to 25.",
+    datesPast: (when: string) => `${when.replace(/^on /, "")} has already passed. Tell me future dates, for example: from December 1 to 25.`,
+    askReturn: "And when do you come back?",
+    askLeave: "What day do you leave?",
+    datesNoted: "Got the dates. Which country are you going to?",
+    unknownPlace: (place: string) => `I don't recognize "${place}" as a destination. Which country are you going to?`,
     datesTooLong: "That trip is longer than a year. Tell me shorter dates, for example: from December 1 to 25.",
     somethingWrong: "Something didn't work with that. Try again in other words.",
     askTrip: "Where are you going and when?",
@@ -48,7 +53,11 @@ const TEXT = {
     residenceExample: "No alcancé a entender el país. Di, por ejemplo: vivo en Estados Unidos.",
     askWhen: "¿Cuándo sales?",
     datesExample: "No entendí las fechas. Dime el día y el mes, por ejemplo: del 1 al 25 de diciembre.",
-    datesPast: "Esa fecha ya pasó. Dime fechas futuras, por ejemplo: del 1 al 25 de diciembre.",
+    datesPast: (when: string) => `${when.charAt(0).toUpperCase()}${when.slice(1)} ya pasó. Dime fechas futuras, por ejemplo: del 1 al 25 de diciembre.`,
+    askReturn: "¿Y cuándo regresas?",
+    askLeave: "¿Qué día sales?",
+    datesNoted: "Anoté las fechas. ¿A qué país vas?",
+    unknownPlace: (place: string) => `No reconozco "${place}" como destino. ¿A qué país vas?`,
     datesTooLong: "Ese viaje dura más de un año. Dime fechas más cortas, por ejemplo: del 1 al 25 de diciembre.",
     somethingWrong: "Algo no salió bien con eso. Inténtalo de nuevo con otras palabras.",
     askTrip: "¿A dónde vas y cuándo?",
@@ -101,7 +110,7 @@ type Awaiting =
   | { kind: "passport" }
   | { kind: "residence" }
   | { kind: "plan"; startDate?: string; endDate?: string }
-  | { kind: "dates"; destination: string }
+  | { kind: "dates"; destination: string; startDate?: string; endDate?: string }
   | { kind: "entry" }
   | { kind: "rules"; item?: string };
 
@@ -202,16 +211,39 @@ async function entryAnswer(h: HandlerInput, destination: string) {
   return run(h, "check_entry_requirements", { destination }, "Entry requirements");
 }
 
-// Alexa's date values (a bare day, a week, no year) become two calendar dates; if they cannot, ask.
+// A trip needs a known destination and both dates. The destination is checked first (a city
+// resolves to its country), then whatever dates are missing are asked for, keeping the ones
+// already given. Alexa's date values (a bare day, a week, no year) become calendar dates.
 async function planAnswer(h: HandlerInput, destination: string, startDate?: string, endDate?: string) {
-  const t = TEXT[localeOf(h)];
+  const locale = localeOf(h);
+  const t = TEXT[locale];
+  const iso = resolveCountry(destination);
+  if (!iso) return ask(h, { kind: "plan", startDate, endDate }, t.unknownPlace(destination), t.askDestination);
+  const isWeek = (d?: string) => Boolean(d && /^\d{4}-W\d{2}/.test(d));
+  if (!startDate && !endDate) return ask(h, { kind: "dates", destination: iso }, t.askWhen);
   const now = new Date(h.requestEnvelope.request.timestamp ?? Date.now());
+  if (startDate && !endDate && !isWeek(startDate)) {
+    if (!resolveTripDates(startDate, undefined, now)) return ask(h, { kind: "dates", destination: iso }, t.datesExample);
+    return ask(h, { kind: "dates", destination: iso, startDate }, t.askReturn);
+  }
+  if (!startDate && endDate) return ask(h, { kind: "dates", destination: iso, endDate }, t.askLeave);
   const dates = resolveTripDates(startDate, endDate, now);
-  if (!dates) return ask(h, { kind: "dates", destination }, startDate ? t.datesExample : t.askWhen, t.datesExample);
+  if (!dates) return ask(h, { kind: "dates", destination: iso }, t.datesExample);
   const problem = tripDateProblem(dates, now);
-  if (problem) return ask(h, { kind: "dates", destination }, problem === "past" ? t.datesPast : t.datesTooLong, t.datesExample);
+  if (problem === "past") {
+    return ask(h, { kind: "dates", destination: iso }, t.datesPast(spokenDates(dates.startDate, dates.startDate, locale === "es-MX" ? "es" : "en")), t.datesExample);
+  }
+  if (problem) return ask(h, { kind: "dates", destination: iso }, t.datesTooLong, t.datesExample);
   setAwaiting(h, null);
-  return run(h, "plan_trip", { destination, ...dates }, "Your trip", t.afterTrip, () => rememberDestination(h, destination));
+  return run(h, "plan_trip", { destination: iso, ...dates }, "Your trip", t.afterTrip, () => rememberDestination(h, iso));
+}
+
+// A destination said in a visa or rules question that is not a known place is asked again here,
+// instead of failing later.
+function unknownDestination(h: HandlerInput, destination: string, awaiting: Awaiting): Response | null {
+  if (resolveCountry(destination)) return null;
+  const t = TEXT[localeOf(h)];
+  return ask(h, awaiting, t.unknownPlace(destination), t.askDestination);
 }
 
 async function rulesAnswer(h: HandlerInput, destination: string, item?: string) {
@@ -278,8 +310,7 @@ const EntryHandler: RequestHandler = {
     const destination = slot(h, "destination");
     const known = destination ?? lastDestination(h);
     if (!known) return ask(h, { kind: "entry" }, TEXT[localeOf(h)].askDestination);
-    if (!destination) return entryAnswer(h, known);
-    return entryAnswer(h, destination);
+    return unknownDestination(h, known, { kind: "entry" }) ?? entryAnswer(h, known);
   },
 };
 
@@ -290,8 +321,7 @@ const RulesHandler: RequestHandler = {
     const item = slot(h, "item");
     const known = destination ?? lastDestination(h);
     if (!known) return ask(h, { kind: "rules", item }, TEXT[localeOf(h)].askDestination);
-    if (!destination) return rulesAnswer(h, known, item);
-    return rulesAnswer(h, destination, item);
+    return unknownDestination(h, known, { kind: "rules", item }) ?? rulesAnswer(h, known, item);
   },
 };
 
@@ -355,11 +385,25 @@ const CountryAnswerHandler: RequestHandler = {
 const DatesAnswerHandler: RequestHandler = {
   canHandle: (h) => h.requestEnvelope.request.type === "IntentRequest" && h.requestEnvelope.request.intent.name === "DatesAnswerIntent",
   async handle(h) {
-    const startDate = slot(h, "startDate");
-    const endDate = slot(h, "endDate");
     const awaiting = getAwaiting(h);
+    // Dates already given in this conversation are kept; one date said now fills the missing one.
+    const kept = awaiting?.kind === "dates" || awaiting?.kind === "plan" ? awaiting : undefined;
+    const said = { start: slot(h, "startDate"), end: slot(h, "endDate") };
+    let startDate = kept?.startDate;
+    let endDate = kept?.endDate;
+    if (said.start && said.end) {
+      startDate = said.start;
+      endDate = said.end;
+    } else if (said.start || said.end) {
+      const one = (said.start ?? said.end) as string;
+      if (startDate && !endDate) endDate = one;
+      else if (endDate && !startDate) startDate = one;
+      else if (said.end) endDate = one;
+      else startDate = one;
+    }
     if (awaiting?.kind === "dates") return planAnswer(h, awaiting.destination, startDate, endDate);
-    return ask(h, { kind: "plan", startDate, endDate }, TEXT[localeOf(h)].askDestination);
+    const t = TEXT[localeOf(h)];
+    return ask(h, { kind: "plan", startDate, endDate }, startDate || endDate ? t.datesNoted : t.askDestination, t.askDestination);
   },
 };
 

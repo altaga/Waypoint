@@ -251,6 +251,7 @@ test("sweep: random conversations in any order keep every invariant", async () =
       const user = await freshUser(pick(PROFILES), locale);
       let attributes: Record<string, unknown> = {};
       const path: string[] = [];
+      let previous = "";
       for (let step = 0; step < STEPS; step++) {
         const launch = rand() < 0.08;
         const intent = pick(INTENTS);
@@ -270,6 +271,16 @@ test("sweep: random conversations in any order keep every invariant", async () =
           break;
         }
         const problems = check(res, locale);
+        // The same question right after the user answered it with a valid value is a loop.
+        const now = res.response.outputSpeech?.ssml ?? "";
+        // A loop is the same question right after the user answered exactly what was asked: a valid
+        // country to a country question, or valid dates to a dates question.
+        const asked = (attributes.awaiting as { kind?: string } | undefined)?.kind;
+        const askedCountry = ["passport", "residence", "plan", "entry", "rules"].includes(asked ?? "");
+        const directAnswer = !launch && ((askedCountry && intent.name === "CountryAnswerIntent") || (asked === "dates" && intent.name === "DatesAnswerIntent"));
+        const answeredValidly = directAnswer && Object.values(filled).some((v) => v !== "empty" && Object.values(VALID).includes(v));
+        if (answeredValidly && now === previous && /\?\s*<\/speak>$/.test(now)) problems.push("repeated the same question after a valid answer");
+        previous = now;
         if (problems.length) {
           const said = (res.response.outputSpeech?.ssml ?? "").replace(/<\/?speak>/g, "").slice(0, 140);
           failures.push(`seed ${seed} ${locale} step ${step}: ${problems.join("; ")} | said: ${said} | path: ${path.join(" > ")}`);
