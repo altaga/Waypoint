@@ -105,6 +105,20 @@
           ]
         },
         {
+          "name": "SetResidenceIntent",
+          "slots": [
+            {
+              "name": "country",
+              "type": "AMAZON.Country"
+            }
+          ],
+          "samples": [
+            "I live in {country}",
+            "I have residence in {country}",
+            "my residence is {country}"
+          ]
+        },
+        {
           "name": "AMAZON.HelpIntent",
           "samples": []
         },

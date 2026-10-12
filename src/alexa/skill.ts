@@ -158,6 +158,18 @@ const SetPassportHandler: RequestHandler = {
   },
 };
 
+// Residence is saved apart from the passport: it affects where a visa is applied for.
+const SetResidenceHandler: RequestHandler = {
+  canHandle: (h) => h.requestEnvelope.request.type === "IntentRequest" && h.requestEnvelope.request.intent.name === "SetResidenceIntent",
+  async handle(h) {
+    const locale = localeOf(h);
+    const country = slot(h, "country");
+    const ask = locale === "es-MX" ? "¿En qué país vives?" : "Which country do you live in?";
+    if (!country) return h.responseBuilder.speak(ask).reprompt(ask).getResponse();
+    return run(h, "update_traveler_profile", { locale, travelers: [{ displayName: "Yo", role: "self", residence: country }] }, "Traveler profile");
+  },
+};
+
 const PackingHandler: RequestHandler = {
   canHandle: (h) => h.requestEnvelope.request.type === "IntentRequest" && h.requestEnvelope.request.intent.name === "PackingIntent",
   handle: (h) => run(h, "packing_checklist", {}, "Packing checklist"),
@@ -198,6 +210,7 @@ export function buildSkill() {
       RulesHandler,
       BriefHandler,
       PackingHandler,
+      SetResidenceHandler,
       HelpHandler,
       StopHandler,
       SessionEndedHandler,

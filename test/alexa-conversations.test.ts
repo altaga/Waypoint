@@ -282,3 +282,22 @@ test("two passports in one utterance are both saved on the traveler", async () =
   const profile = r.data.profile as { travelers: { passports: { country: string }[] }[] };
   assert.deepEqual(profile.travelers[0].passports.map((p) => p.country), ["MX", "ES"]);
 });
+
+// Residence is separate from passport. It is saved, and it adds a caveat to visa answers.
+test("chain: residence is saved, and the entry answer says it can change where to apply", async () => {
+  const user = freshUser();
+  await turn(user, "SetPassportIntent", { country: "México" }, "es-MX");
+  assert.match(await turn(user, "SetResidenceIntent", { country: "Estados Unidos" }, "es-MX"), /Guardado/i);
+  const r = await callWaypointTool(user, "get_traveler_profile", {});
+  assert.equal((r.data.profile as { travelers: { residenceCountry?: string }[] }).travelers[0].residenceCountry, "US");
+  const entry = await turn(user, "EntryIntent", { destination: "Japón" }, "es-MX");
+  assert.match(entry, /residencia en Estados Unidos.*consulado/is);
+});
+
+test("entry answers without a residence on file have no residence caveat", async () => {
+  assert.doesNotMatch(await turn(SEEDED_ES, "EntryIntent", { destination: "Japón" }, "es-MX"), /residencia/i);
+});
+
+test("residence without a country asks which country", async () => {
+  assert.match(await turn(freshUser(), "SetResidenceIntent", {}, "en-US"), /Which country do you live in/i);
+});

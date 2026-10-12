@@ -167,6 +167,18 @@ function nothingYetEnvelope(locale: Locale, kind: "trip" | "profile"): ToolResul
   });
 }
 
+// Residence is not the passport: it can change where a visa is applied for, and some countries
+// exempt residence-permit holders. The matrix does not model those exemptions, so say so instead.
+function residenceNote(travelers: Traveler[], locale: Locale): string {
+  const where = travelers.filter((tr) => tr.residenceCountry).map((tr) => countryName(tr.residenceCountry as string, locale === "es" ? "es" : "en"));
+  if (!where.length) return "";
+  return " " + pick(
+    locale,
+    `Residence in ${where.join(", ")} can change where you apply, and some countries exempt residence-permit holders. Confirm with that consulate.`,
+    `La residencia en ${where.join(", ")} puede cambiar dónde solicitas la visa, y algunos países eximen a quien tiene permiso de residencia. Confirma con ese consulado.`,
+  );
+}
+
 function missingEnvelope(locale: Locale, names: string[]): ToolResult {
   const env: Envelope = {
     voice: pick(
@@ -259,6 +271,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
               ageBand: z.enum(["infant", "child", "teen", "adult", "senior"]).optional(),
               role: z.enum(["self", "partner", "child", "parent", "friend"]).optional(),
               medications: z.array(z.string()).optional(),
+              residence: z.string().optional().describe("Country of legal residence, not nationality. Can change where a visa is applied for."),
             }),
           )
           .optional(),
@@ -312,6 +325,11 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           if (input.ageBand) traveler.ageBand = input.ageBand;
           if (input.role) traveler.role = input.role;
           if (passports.length) traveler.passports = passports;
+          if (input.residence) {
+            const iso = resolveCountry(input.residence);
+            if (!iso) throw new UnknownDestinationError(input.residence);
+            traveler.residenceCountry = iso;
+          }
           if (input.medications?.length) {
             if (profile.consent.sensitiveData) traveler.medications = input.medications;
             else notes.push(pick(locale, `Medications for ${traveler.displayName} were not saved: sensitive data needs consent.`, `Los medicamentos de ${traveler.displayName} no se guardaron: los datos sensibles requieren consentimiento.`));
@@ -473,7 +491,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           return { traveler: t.displayName, status: best.entry.status, maxStayDays: best.entry.maxStayDays ?? null, passport: best.passport, checkedPassports: entries.length };
         });
         const env = baseEnvelope(ctx, dest, locale, {
-          voice: results.map((r) => `${r.traveler}: ${STATUS_LABEL[r.status as VisaStatus][locale].toLowerCase()}`).join(". ") + ".",
+          voice: results.map((r) => `${r.traveler}: ${STATUS_LABEL[r.status as VisaStatus][locale].toLowerCase()}`).join(". ") + "." + residenceNote(travelers, locale),
           card: {
             pattern: "list",
             title: pick(locale, `Entry to ${countryName(dest, "en")}`, `Entrada a ${countryName(dest, "es")}`),
