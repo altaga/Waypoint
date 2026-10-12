@@ -96,7 +96,7 @@ export function createApp(ctx: AppContext = createContext()) {
     }
   });
 
-  app.use(express.static(join(ctx.root, "web")));
+  app.use(express.static(join(ctx.root, "web"), { extensions: ["html"] }));
   // Under Lambda, serverless-http puts the raw body on req.body; the JSON parser of the MCP app
   // would then skip reading the stream. Drop that copy so the parser reads the real body.
   root.use((req, _res, next) => {

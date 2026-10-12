@@ -25,4 +25,7 @@ cpSync(join(ROOT, "packs"), join(OUT, "packs"), { recursive: true });
 cpSync(join(ROOT, "data/vendor"), join(OUT, "data/vendor"), { recursive: true });
 cpSync(join(ROOT, "data/sources-text"), join(OUT, "data/sources-text"), { recursive: true });
 cpSync(join(ROOT, "src/ui"), join(OUT, "ui"), { recursive: true });
+// Public pages Alexa needs (privacy, terms, icons), served by the same server.
+mkdirSync(join(OUT, "web"), { recursive: true });
+for (const f of ["privacy.html", "terms.html", "icon-108.png", "icon-512.png"]) cpSync(join(ROOT, "web", f), join(OUT, "web", f));
 console.log(`built ${OUT}`);

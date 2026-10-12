@@ -5,6 +5,17 @@ name: deploy-skill
 #              ALEXA_SKILL_ID            (empty on the first run; the printed id is saved after)
 on:
   workflow_dispatch:
+    inputs:
+      public_base:
+        description: 'Public https base URL of the server, e.g. https://xxxx.lambda-url.us-east-1.on.aws'
+        required: true
+      skill_id:
+        description: 'Existing skill id (empty on the first run)'
+        required: false
+        default: ''
+  push:
+    branches: ["claude/**"]
+    paths: [".github/workflows/deploy-skill.yml"]
 permissions:
   id-token: write
   contents: read
@@ -13,13 +24,14 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
       ASK_REFRESH_TOKEN: ${{ secrets.ASK_REFRESH_TOKEN }}
       ASK_VENDOR_ID: ${{ secrets.ASK_VENDOR_ID }}
-      PUBLIC_BASE: ${{ vars.WAYPOINT_PUBLIC_BASE_URL }}
-      SKILL_ID: ${{ vars.ALEXA_SKILL_ID }}
+      PUBLIC_BASE: ${{ inputs.public_base || vars.WAYPOINT_PUBLIC_BASE_URL }}
+      SKILL_ID: ${{ inputs.skill_id || vars.ALEXA_SKILL_ID }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
