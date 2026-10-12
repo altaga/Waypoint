@@ -1,0 +1,61 @@
+name: deploy-skill
+# Deploys the Alexa custom skill with the ASK CLI. Manual only. Needs:
+#   secrets:   ASK_REFRESH_TOKEN, ASK_VENDOR_ID, AWS_DEPLOY_ROLE_ARN, AWS_REGION
+#   variables: WAYPOINT_PUBLIC_BASE_URL  (https://your-host; serves /alexa, /privacy, /terms, icons)
+#              ALEXA_SKILL_ID            (empty on the first run; the printed id is saved after)
+on:
+  workflow_dispatch:
+permissions:
+  id-token: write
+  contents: read
+concurrency:
+  group: deploy-skill
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      ASK_REFRESH_TOKEN: ${{ secrets.ASK_REFRESH_TOKEN }}
+      ASK_VENDOR_ID: ${{ secrets.ASK_VENDOR_ID }}
+      PUBLIC_BASE: ${{ vars.WAYPOINT_PUBLIC_BASE_URL }}
+      SKILL_ID: ${{ vars.ALEXA_SKILL_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check inputs
+        run: |
+          test -n "$PUBLIC_BASE" || { echo "Set the WAYPOINT_PUBLIC_BASE_URL variable (https://...)"; exit 1; }
+          case "$PUBLIC_BASE" in https://*) ;; *) echo "WAYPOINT_PUBLIC_BASE_URL must start with https://"; exit 1;; esac
+      - name: Assume the deploy role through OIDC
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+          role-session-name: waypoint-skill-deploy
+          output-env-credentials: true
+      - name: Install ask-cli 2.30.7
+        run: npm install -g ask-cli@2.30.7
+      - name: Point the manifest at the public host
+        run: |
+          base="${PUBLIC_BASE%/}"
+          jq --arg b "$base" '
+            .manifest.apis.custom.endpoint.uri = ($b + "/alexa")
+            | .manifest.privacyAndCompliance.locales |= with_entries(.value.privacyPolicyUrl = ($b + "/privacy") | .value.termsOfUseUrl = ($b + "/terms"))
+            | .manifest.publishingInformation.locales |= with_entries(.value.smallIconUri = ($b + "/icon-108.png") | .value.largeIconUri = ($b + "/icon-512.png"))
+          ' skill/skill.json > skill/skill.resolved.json && mv skill/skill.resolved.json skill/skill.json
+          if grep -q REPLACE skill/skill.json; then echo "unresolved placeholder left in skill.json"; exit 1; fi
+      - name: Set the existing skill id, if any
+        run: |
+          if [ -n "$SKILL_ID" ]; then
+            jq --arg id "$SKILL_ID" '.profiles.__ENVIRONMENT_ASK_PROFILE__.skillId = $id' ask-resources.json > r.json && mv r.json ask-resources.json
+          fi
+      - name: Deploy the skill
+        run: ask deploy --profile __ENVIRONMENT_ASK_PROFILE__
+      - name: Show the skill id (save it as the ALEXA_SKILL_ID variable on first run)
+        run: |
+          id=$(jq -r '.profiles.__ENVIRONMENT_ASK_PROFILE__.skillId // empty' ask-resources.json)
+          echo "Skill id: $id"
+          echo "Save it as the repository variable ALEXA_SKILL_ID, then run this workflow again if it was empty."

@@ -1,0 +1,83 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "waypoint",
+      "types": [],
+      "intents": [
+        {
+          "name": "PlanTripIntent",
+          "slots": [
+            {
+              "name": "destination",
+              "type": "AMAZON.Country"
+            },
+            {
+              "name": "startDate",
+              "type": "AMAZON.DATE"
+            },
+            {
+              "name": "endDate",
+              "type": "AMAZON.DATE"
+            }
+          ],
+          "samples": [
+            "planea un viaje a {destination}",
+            "planea un viaje a {destination} del {startDate} al {endDate}",
+            "voy a {destination} del {startDate} al {endDate}",
+            "quiero viajar a {destination} el {startDate}"
+          ]
+        },
+        {
+          "name": "EntryIntent",
+          "slots": [
+            {
+              "name": "destination",
+              "type": "AMAZON.Country"
+            }
+          ],
+          "samples": [
+            "necesito visa para {destination}",
+            "puedo entrar a {destination}",
+            "cuáles son los requisitos de entrada a {destination}"
+          ]
+        },
+        {
+          "name": "RulesIntent",
+          "slots": [
+            {
+              "name": "destination",
+              "type": "AMAZON.Country"
+            }
+          ],
+          "samples": [
+            "qué no puedo llevar a {destination}",
+            "puedo llevar vapes a {destination}",
+            "qué está prohibido en {destination}",
+            "cuáles son las reglas locales en {destination}"
+          ]
+        },
+        {
+          "name": "TripBriefIntent",
+          "slots": [],
+          "samples": [
+            "qué me falta para mi viaje",
+            "qué me falta por hacer para el viaje",
+            "qué está pendiente de mi viaje"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        }
+      ]
+    }
+  }
+}

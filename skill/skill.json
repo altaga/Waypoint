@@ -1,0 +1,82 @@
+{
+  "manifest": {
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Waypoint",
+          "summary": "Travel readiness: entry rules, local laws and trip status.",
+          "description": "Waypoint tells you whether you can enter a country, what you cannot bring or do there, and what is left for your trip. Facts come from official sources and are dated. Rules change; verify with the official source before you travel.",
+          "examplePhrases": [
+            "Alexa, open Waypoint",
+            "Alexa, ask Waypoint if I need a visa for Japan",
+            "Alexa, ask Waypoint what I cannot bring to Singapore"
+          ],
+          "keywords": [
+            "travel",
+            "visa",
+            "passport",
+            "trip"
+          ],
+          "smallIconUri": "https://REPLACE/icon-108.png",
+          "largeIconUri": "https://REPLACE/icon-512.png"
+        },
+        "es-MX": {
+          "name": "Waypoint",
+          "summary": "Preparación de viaje: requisitos de entrada, leyes locales y estado de tu viaje.",
+          "description": "Waypoint te dice si puedes entrar a un país, qué no puedes llevar o hacer ahí y qué te falta para tu viaje. Los datos vienen de fuentes oficiales y tienen fecha. Las reglas cambian; verifica con la fuente oficial antes de viajar.",
+          "examplePhrases": [
+            "Alexa, abre Waypoint",
+            "Alexa, pregunta a Waypoint si necesito visa para Japón",
+            "Alexa, pregunta a Waypoint qué no puedo llevar a Singapur"
+          ],
+          "keywords": [
+            "travel",
+            "visa",
+            "passport",
+            "trip"
+          ],
+          "smallIconUri": "https://REPLACE/icon-108.png",
+          "largeIconUri": "https://REPLACE/icon-512.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Say: Alexa, open Waypoint. Then: plan a trip to Japan from December 3 to 10. Then: can I bring vapes to Singapore.",
+      "category": "TRAVEL_AND_TRANSPORTATION_AND_LOCAL",
+      "distributionCountries": [
+        "US",
+        "MX"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "https://REPLACE/alexa",
+          "sslCertificateType": "Wildcard"
+        },
+        "countries": [
+          "US",
+          "MX"
+        ]
+      }
+    },
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInformation": true,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "https://REPLACE/privacy",
+          "termsOfUseUrl": "https://REPLACE/terms"
+        },
+        "es-MX": {
+          "privacyPolicyUrl": "https://REPLACE/privacy",
+          "termsOfUseUrl": "https://REPLACE/terms"
+        }
+      }
+    }
+  }
+}

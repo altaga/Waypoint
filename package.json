@@ -22,6 +22,8 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.1",
     "@strands-agents/sdk": "^1.20.0",
+    "ask-sdk-core": "^2.14.0",
+    "ask-sdk-express-adapter": "^2.14.0",
     "countries-list": "^3.4.1",
     "express": "^5.3.0",
     "zod": "^4.6.5"

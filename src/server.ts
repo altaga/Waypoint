@@ -7,6 +7,7 @@ import { isInitializeRequest } from "@modelcontextprotocol/sdk/types.js";
 import { createContext, type AppContext } from "./context.ts";
 import { createWaypointMcpServer } from "./mcp-server.ts";
 import { runBrain, brainConfigured } from "./brain.ts";
+import { mountAlexa } from "./alexa/endpoint.ts";
 
 // Streamable HTTP transport for MCP 2025-11-25 at /mcp. Sessions are kept in memory
 // for the local demo; the user is identified by the x-waypoint-user header until
@@ -34,6 +35,10 @@ function userFrom(req: Request): string {
 }
 
 export function createApp(ctx: AppContext = createContext()) {
+  // Root app without body parsers: the Alexa adapter must read the raw body to verify
+  // Amazon's signature. The MCP app below parses JSON itself, so it is mounted after /alexa.
+  const root = express();
+  mountAlexa(root, "/alexa");
   const app = createMcpExpressApp({ host: "127.0.0.1" });
   const sessions = new Map<string, Session>();
   const allow = allowedOrigins();
@@ -110,7 +115,8 @@ export function createApp(ctx: AppContext = createContext()) {
   });
 
   app.use(express.static(join(ctx.root, "web")));
-  return app;
+  root.use(app);
+  return root;
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
