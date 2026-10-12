@@ -5,7 +5,8 @@
 // Requires Node.js 18+. Port 9090 on localhost must be free during sign-in.
 
 import { spawn, spawnSync } from "node:child_process";
-import { existsSync } from "node:fs";
+import { existsSync, mkdirSync, writeFileSync } from "node:fs";
+import { homedir } from "node:os";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -32,6 +33,13 @@ if (!existsSync(ASK_BIN)) {
     { stdio: "inherit", shell: isWindows },
   );
   if (res.status !== 0 || !existsSync(ASK_BIN)) fail("Could not install ask-cli locally.");
+}
+
+// ask-cli refuses to run without ~/.ask/cli_config; create an empty one if missing.
+const ASK_CONFIG = join(homedir(), ".ask", "cli_config");
+if (!existsSync(ASK_CONFIG)) {
+  mkdirSync(dirname(ASK_CONFIG), { recursive: true });
+  writeFileSync(ASK_CONFIG, JSON.stringify({ profiles: {} }));
 }
 
 // 2. Sign in and get the tokens.
