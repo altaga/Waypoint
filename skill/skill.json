@@ -53,17 +53,12 @@
         "endpoint": {
           "uri": "https://REPLACE/alexa",
           "sslCertificateType": "Wildcard"
-        },
-        "countries": [
-          "US",
-          "MX"
-        ]
+        }
       }
     },
     "permissions": [],
     "privacyAndCompliance": {
       "allowsPurchases": false,
-      "usesPersonalInformation": true,
       "isChildDirected": false,
       "isExportCompliant": true,
       "containsAds": false,
