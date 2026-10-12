@@ -26,6 +26,7 @@ export interface ToolCall {
   rows: string[];
   missing: string[];
   isError: boolean;
+  data: Record<string, unknown>;
 }
 
 async function connect(alexaUserId: string): Promise<{ client: Client; close: () => Promise<void> }> {
@@ -62,18 +63,20 @@ export async function callWaypointTool(
     const res = await conn.client.callTool({ name, arguments: args });
     if (res.isError) {
       const text = (res.content as { text: string }[]).map((c) => c.text).join(" ");
-      return { voice: text, rows: [], missing: [], isError: true };
+      return { voice: text, rows: [], missing: [], isError: true, data: {} };
     }
     const sc = res.structuredContent as {
       voice: string;
       card?: { rows?: { label: string; value: string }[] };
       missingFields?: string[];
+      data?: Record<string, unknown>;
     };
     return {
       voice: sc.voice,
       rows: (sc.card?.rows ?? []).map((r) => `${r.label}: ${r.value}`),
       missing: sc.missingFields ?? [],
       isError: false,
+      data: sc.data ?? {},
     };
   } finally {
     await conn.close();

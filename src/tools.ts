@@ -12,6 +12,7 @@ import { DISCLAIMER } from "./packs/schema.ts";
 import type { AppContext } from "./context.ts";
 import type { Trip, UserState } from "./state.ts";
 import { PLAN_DASHBOARD_URI } from "./resources.ts";
+import { itemTerms } from "./items.ts";
 
 type Locale = "en" | "es";
 
@@ -147,6 +148,25 @@ function baseEnvelope(
   };
 }
 
+// Nothing is saved yet: say so, instead of listing an empty set of missing passports.
+function nothingYetEnvelope(locale: Locale, kind: "trip" | "profile"): ToolResult {
+  const voice =
+    kind === "profile"
+      ? pick(locale, "I don't have your profile yet. Tell me your passport country.", "Aún no tengo tu perfil. Dime el país de tu pasaporte.")
+      : pick(locale, "I don't have a trip yet. Tell me where you are going and when.", "Aún no tengo un viaje. Dime a dónde vas y cuándo.");
+  return envelopeResult({
+    voice,
+    card: { pattern: "list", title: pick(locale, "Nothing saved yet", "Aún no hay nada guardado"), rows: [] },
+    data: {},
+    sources: [],
+    lastVerified: null,
+    confidence: "low",
+    disclaimer: DISCLAIMER[locale],
+    followUps: [voice],
+    missingFields: [],
+  });
+}
+
 function missingEnvelope(locale: Locale, names: string[]): ToolResult {
   const env: Envelope = {
     voice: pick(
@@ -174,8 +194,9 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
   const load = () => ctx.store.load(userId);
   const save = (s: UserState) => ctx.store.save(userId, s);
 
+  // Errors are spoken in the profile language, so a Spanish user does not hear English.
   const run = (fn: () => Promise<ToolResult>) =>
-    fn().catch((err) => errorResult(err));
+    fn().catch(async (err) => errorResult(err, undefined, await load().then(localeOf, () => "en" as const)));
 
   // 1. get_traveler_profile
   server.registerTool(
@@ -193,7 +214,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const state = await load();
         const locale = localeOf(state);
         if (!state.profile) {
-          return missingEnvelope(locale, []);
+          return nothingYetEnvelope(locale, "profile");
         }
         const profile = redactSensitive(state.profile);
         const names = profile.travelers.map((t) => t.displayName).join(", ");
@@ -479,6 +500,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
       inputSchema: {
         destination: z.string().min(2),
         categories: z.array(z.enum(RULE_CATEGORIES)).optional(),
+        item: z.string().optional().describe("Something the traveler wants to bring or do, in Spanish or English"),
       },
       outputSchema: EnvelopeShape,
       annotations: ann({ readOnly: true, idempotent: true, openWorld: true }),
@@ -492,6 +514,26 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const rules = sortRules(
           (pack?.localRules ?? []).filter((r) => !args.categories?.length || args.categories.includes(r.category as RuleCategory)),
         );
+        // Item question: keep only rules that mention the item (in English, after translation).
+        const matches = args.item
+          ? rules.filter((r) => {
+              const text = `${r.summary.en} ${r.quote}`.toLowerCase();
+              return itemTerms(args.item!).some((t) => text.includes(t));
+            })
+          : [];
+        if (args.item) {
+          const top = matches[0];
+          const itemVoice = top
+            ? pick(locale, `For ${args.item} in ${countryName(dest, "en")}: ${top.summary.en}`, `Sobre ${args.item} en ${countryName(dest, "es")}: ${top.quote} (texto oficial en inglés)`)
+            : pick(locale, `I found no verified rule about ${args.item} for ${countryName(dest, "en")}. Check the official source.`, `No encontré una regla verificada sobre ${args.item} para ${countryName(dest, "es")}. Consulta la fuente oficial.`);
+          const env = baseEnvelope(ctx, dest, locale, {
+            voice: itemVoice,
+            card: { pattern: "list", title: pick(locale, "Item check", "Revisión del artículo"), rows: matches.map((r) => ({ label: r.category.replace(/_/g, " "), value: r.quote, status: "warn" as const })) },
+            data: { item: args.item, matches },
+            followUps: [],
+          });
+          return envelopeResult(env);
+        }
         const env = baseEnvelope(ctx, dest, locale, {
           voice: rules.length
             ? pick(locale, `I found ${rules.length} local rules for ${countryName(dest, "en")}. The most serious: ${rules[0].summary.en}`, `Encontré ${rules.length} reglas locales para ${countryName(dest, "es")}. La más grave: ${rules[0].summary.en}`)
@@ -632,7 +674,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const locale = localeOf(state);
         const profile = requireProfile(state);
         const trip = latestTrip(state, args.tripId);
-        if (!trip) return missingEnvelope(locale, []);
+        if (!trip) return nothingYetEnvelope(locale, "trip");
         const pack = ctx.packs.get(trip.destination);
         const travelers = profile.travelers.filter((t) => trip.travelerIds.includes(t.travelerId));
         const stay = daysBetween(trip.startDate, trip.endDate);
@@ -687,7 +729,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const locale = localeOf(state);
         const profile = requireProfile(state);
         const trip = latestTrip(state, args.tripId);
-        if (!trip) return missingEnvelope(locale, []);
+        if (!trip) return nothingYetEnvelope(locale, "trip");
         const stay = daysBetween(trip.startDate, trip.endDate);
         const slotsPerDay = { relaxed: 2, balanced: 3, packed: 4 }[profile.pace];
         const slotNames = [pick(locale, "Morning", "Mañana"), pick(locale, "Afternoon", "Tarde"), pick(locale, "Evening", "Noche"), pick(locale, "Late", "Tarde-noche")];
@@ -732,7 +774,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const locale = localeOf(state);
         const profile = requireProfile(state);
         const trip = latestTrip(state, args.tripId);
-        if (!trip) return missingEnvelope(locale, []);
+        if (!trip) return nothingYetEnvelope(locale, "trip");
         const travelers = profile.travelers.filter((t) => trip.travelerIds.includes(t.travelerId));
         const left = daysUntil(ctx.clock(), trip.startDate);
         const pending: string[] = [];

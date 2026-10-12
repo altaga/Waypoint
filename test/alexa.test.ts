@@ -109,3 +109,22 @@ test("with no HTTP URL, the skill reaches the server in memory (Lambda path)", a
   process.env.WAYPOINT_MCP_URL = saved;
   assert.match(speech(res), /vape|e-cigarette|confiscat/i);
 });
+
+test("an item question in Spanish returns the matching rule, not a different one", async () => {
+  const res = await buildSkill().invoke(envelope("RulesIntent", { destination: "Singapur", item: "chicles" }, "es-MX"));
+  const text = speech(res);
+  assert.match(text, /chewing gum to sell/);
+  assert.match(text, /Sobre chicles en Singapur/);
+  assert.doesNotMatch(text, /vape/i);
+});
+
+test("an item with no verified rule says so, instead of naming an unrelated rule", async () => {
+  const res = await buildSkill().invoke(envelope("RulesIntent", { destination: "Singapore", item: "soccer balls" }, "en-US"));
+  assert.match(speech(res), /no verified rule about soccer balls/i);
+});
+
+test("the verification disclaimer is spoken once, not repeated", async () => {
+  const res = await buildSkill().invoke(envelope("RulesIntent", { destination: "Singapore", item: "vapes" }, "en-US"));
+  const text = speech(res);
+  assert.equal((text.match(/verify with the official source/gi) ?? []).length, 1);
+});

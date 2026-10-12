@@ -77,8 +77,8 @@ export function envelopeResult(env: Envelope, meta?: Record<string, unknown>): T
   };
 }
 
-export function errorResult(err: unknown, fallbackNextStep?: string): ToolResult {
-  const e: FriendlyError = friendlyError(err, fallbackNextStep);
+export function errorResult(err: unknown, fallbackNextStep?: string, locale: "en" | "es" = "en"): ToolResult {
+  const e: FriendlyError = friendlyError(err, fallbackNextStep, locale);
   return {
     isError: true,
     content: [{ type: "text", text: `${e.message} ${e.nextStep}` }],
