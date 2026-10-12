@@ -83,3 +83,11 @@ export function resolveTripDates(start: string | undefined, end: string | undefi
   }
   return { startDate: iso(from), endDate: iso(to) };
 }
+
+/** Why resolved dates cannot be planned: a start already past, or a trip longer than a year. */
+export function tripDateProblem(dates: { startDate: string; endDate: string }, now: Date): "past" | "tooLong" | null {
+  const today = now.toISOString().slice(0, 10);
+  if (dates.startDate < today) return "past";
+  const days = (Date.parse(dates.endDate) - Date.parse(dates.startDate)) / 86400000;
+  return days > 365 ? "tooLong" : null;
+}

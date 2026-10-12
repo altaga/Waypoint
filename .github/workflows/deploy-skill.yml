@@ -37,6 +37,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Gate - typecheck and every test, Alexa robustness sweep included
+        run: npm run typecheck && npm test
       - name: Check inputs
         run: |
           test -n "$PUBLIC_BASE" || { echo "Set the WAYPOINT_PUBLIC_BASE_URL variable (https://...)"; exit 1; }

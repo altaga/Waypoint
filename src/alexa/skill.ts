@@ -1,7 +1,7 @@
-import { SkillBuilders, RequestHandler, ErrorHandler, HandlerInput } from "ask-sdk-core";
+import { SkillBuilders, RequestHandler, ErrorHandler, HandlerInput, ResponseInterceptor } from "ask-sdk-core";
 import { Response } from "ask-sdk-model";
 import { callWaypointTool, canReachWaypoint, ToolCall } from "./mcp-call.ts";
-import { resolveTripDates } from "./dates.ts";
+import { resolveTripDates, tripDateProblem } from "./dates.ts";
 
 // Alexa custom skill. Each intent becomes one Waypoint MCP tool call.
 // The MCP endpoint comes from WAYPOINT_MCP_URL (a public HTTPS /mcp URL).
@@ -23,6 +23,8 @@ const TEXT = {
     residenceExample: "I didn't catch the country. Say, for example: I live in the United States.",
     askWhen: "When do you leave?",
     datesExample: "I didn't get the dates. Say the day and month, for example: from December 1 to 25.",
+    datesPast: "That date has already passed. Tell me future dates, for example: from December 1 to 25.",
+    datesTooLong: "That trip is longer than a year. Tell me shorter dates, for example: from December 1 to 25.",
     somethingWrong: "Something didn't work with that. Try again in other words.",
     askTrip: "Where are you going and when?",
     which: (c: string) => `I heard ${c}. Is that your passport or where you are going? Say: my passport is from ${c}, or: plan a trip to ${c}.`,
@@ -42,6 +44,8 @@ const TEXT = {
     residenceExample: "No alcancé a entender el país. Di, por ejemplo: vivo en Estados Unidos.",
     askWhen: "¿Cuándo sales?",
     datesExample: "No entendí las fechas. Dime el día y el mes, por ejemplo: del 1 al 25 de diciembre.",
+    datesPast: "Esa fecha ya pasó. Dime fechas futuras, por ejemplo: del 1 al 25 de diciembre.",
+    datesTooLong: "Ese viaje dura más de un año. Dime fechas más cortas, por ejemplo: del 1 al 25 de diciembre.",
     somethingWrong: "Algo no salió bien con eso. Inténtalo de nuevo con otras palabras.",
     askTrip: "¿A dónde vas y cuándo?",
     which: (c: string) => `Entendí ${c}. ¿Es tu pasaporte o a dónde vas? Di: mi pasaporte es de ${c}, o: planea un viaje a ${c}.`,
@@ -159,6 +163,8 @@ async function planAnswer(h: HandlerInput, destination: string, startDate?: stri
   const now = new Date(h.requestEnvelope.request.timestamp ?? Date.now());
   const dates = resolveTripDates(startDate, endDate, now);
   if (!dates) return ask(h, { kind: "dates", destination }, startDate ? t.datesExample : t.askWhen, t.datesExample);
+  const problem = tripDateProblem(dates, now);
+  if (problem) return ask(h, { kind: "dates", destination }, problem === "past" ? t.datesPast : t.datesTooLong, t.datesExample);
   setAwaiting(h, null);
   return run(h, "plan_trip", { destination, ...dates }, "Waypoint trip");
 }
@@ -337,6 +343,21 @@ const SessionEndedHandler: RequestHandler = {
   handle: (h) => h.responseBuilder.getResponse(),
 };
 
+// Speech is plain text: escape it so a quote with "&" or "<" never breaks Alexa's SSML.
+function escapeSsml(ssml: string | undefined): string | undefined {
+  if (!ssml) return ssml;
+  const inner = ssml.replace(/^<speak>/, "").replace(/<\/speak>$/, "");
+  return `<speak>${inner.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")}</speak>`;
+}
+
+const EscapeSpeech: ResponseInterceptor = {
+  process(_h, response) {
+    if (response?.outputSpeech?.type === "SSML") response.outputSpeech.ssml = escapeSsml(response.outputSpeech.ssml) as string;
+    const reprompt = response?.reprompt?.outputSpeech;
+    if (reprompt?.type === "SSML") reprompt.ssml = escapeSsml(reprompt.ssml) as string;
+  },
+};
+
 const ErrorHandlerImpl: ErrorHandler = {
   canHandle: () => true,
   handle: (h, error) => {
@@ -363,6 +384,7 @@ export function buildSkill() {
       StopHandler,
       SessionEndedHandler,
     )
+    .addResponseInterceptors(EscapeSpeech)
     .addErrorHandlers(ErrorHandlerImpl)
     .withSkillId(process.env.ALEXA_SKILL_ID ?? "")
     .create();
