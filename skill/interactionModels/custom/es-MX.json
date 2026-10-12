@@ -77,6 +77,10 @@
             {
               "name": "country",
               "type": "AMAZON.Country"
+            },
+            {
+              "name": "country2",
+              "type": "AMAZON.Country"
             }
           ],
           "samples": [
@@ -84,7 +88,10 @@
             "soy de {country}",
             "mi nacionalidad es {country}",
             "tengo pasaporte de {country}",
-            "guarda que mi pasaporte es de {country}"
+            "guarda que mi pasaporte es de {country}",
+            "mi pasaporte es {country} y {country2}",
+            "tengo pasaporte de {country} y de {country2}",
+            "soy de {country} y {country2}"
           ]
         },
         {

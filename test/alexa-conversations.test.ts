@@ -5,7 +5,7 @@ import { createApp } from "../src/server.ts";
 import { createContext, type AppContext } from "../src/context.ts";
 import { createMemoryStore, type StateStore } from "../src/state.ts";
 import { buildSkill } from "../src/alexa/skill.ts";
-import { alexaUserKey } from "../src/alexa/mcp-call.ts";
+import { alexaUserKey, callWaypointTool } from "../src/alexa/mcp-call.ts";
 import { TravelerProfile } from "../src/profile.ts";
 
 // Conversation coverage for the Alexa skill, offline. Each case sends one utterance as the
@@ -250,4 +250,35 @@ test("chain: two users do not see each other's passport or trip", async () => {
   const b = freshUser();
   await turn(a, "SetPassportIntent", { country: "Argentina" }, "es-MX");
   assert.match(await turn(b, "PlanTripIntent", { destination: "Japan", ...TRIP }, "en-US"), /nationality|passport/i, "user B has no passport of their own");
+});
+
+// Launch checks the passport on open, and a passport can be more than one country.
+const launch = async (user: string, locale: Locale) => {
+  const env = envelope(user, "AMAZON.HelpIntent", {}, locale);
+  env.request = { type: "LaunchRequest", requestId: "amzn1.echo-api.request.launch", timestamp: "2026-10-11T12:00:00Z", locale } as RequestEnvelope["request"];
+  return speechOf(await buildSkill().invoke(env));
+};
+
+test("launch with no passport on file asks for it, and says more than one is fine", async () => {
+  const text = await launch(freshUser(), "en-US");
+  assert.match(text, /need your passport/i);
+  assert.match(text, /more than one/i);
+});
+
+test("launch for a user with a passport on file welcomes them back without asking again", async () => {
+  const text = await launch(SEEDED_EN, "en-US");
+  assert.match(text, /Welcome back/i);
+  assert.doesNotMatch(text, /need your passport/i);
+});
+
+test("launch in Spanish with no passport asks for el pasaporte", async () => {
+  assert.match(await launch(freshUser(), "es-MX"), /necesito tu pasaporte/i);
+});
+
+test("two passports in one utterance are both saved on the traveler", async () => {
+  const user = freshUser();
+  assert.match(await turn(user, "SetPassportIntent", { country: "México", country2: "España" }, "es-MX"), /Guardado/i);
+  const r = await callWaypointTool(user, "get_traveler_profile", {});
+  const profile = r.data.profile as { travelers: { passports: { country: string }[] }[] };
+  assert.deepEqual(profile.travelers[0].passports.map((p) => p.country), ["MX", "ES"]);
 });

@@ -13,6 +13,8 @@ const DISCLAIMER = {
 const TEXT = {
   "en-US": {
     welcome: "Welcome to Waypoint. Tell me where you are going and when, for example: plan a trip to Japan from December 3 to 10.",
+    welcomeBack: "Welcome back to Waypoint. Where are you going and when?",
+    askPassportFirst: "To check visas I need your passport. Which country issued it? You can say more than one.",
     askDestination: "Which country?",
     askPassport: "Which country issued your passport?",
     unavailable: "Waypoint is not reachable right now. Try again in a moment.",
@@ -21,6 +23,8 @@ const TEXT = {
   },
   "es-MX": {
     welcome: "Bienvenido a Waypoint. Dime a dónde vas y cuándo, por ejemplo: planea un viaje a Japón del 3 al 10 de diciembre.",
+    welcomeBack: "Bienvenido de nuevo a Waypoint. ¿A dónde vas y cuándo?",
+    askPassportFirst: "Para revisar visas necesito tu pasaporte. ¿De qué país es? Puedes decir más de uno.",
     askDestination: "¿A qué país?",
     askPassport: "¿De qué país es tu pasaporte?",
     unavailable: "Waypoint no está disponible en este momento. Intenta de nuevo en un momento.",
@@ -64,9 +68,22 @@ async function run(handlerInput: HandlerInput, tool: string, args: Record<string
   }
 }
 
+// On open, check whether a passport is on file. Without one, ask for it first, since visa answers depend on it.
 const LaunchRequestHandler: RequestHandler = {
   canHandle: (h) => h.requestEnvelope.request.type === "LaunchRequest",
-  handle: (h) => h.responseBuilder.speak(TEXT[localeOf(h)].welcome).reprompt(TEXT[localeOf(h)].askDestination).getResponse(),
+  async handle(h) {
+    const locale = localeOf(h);
+    if (!canReachWaypoint()) return h.responseBuilder.speak(TEXT[locale].welcome).reprompt(TEXT[locale].askDestination).getResponse();
+    try {
+      const r = await callWaypointTool(h.requestEnvelope.context.System.user.userId, "get_traveler_profile", {});
+      const travelers = (r.data.profile as { travelers?: { passports: { country: string }[] }[] } | undefined)?.travelers ?? [];
+      const hasPassport = travelers.some((t) => t.passports.length > 0);
+      if (hasPassport) return h.responseBuilder.speak(TEXT[locale].welcomeBack).reprompt(TEXT[locale].askDestination).getResponse();
+      return h.responseBuilder.speak(`${TEXT[locale].welcome} ${TEXT[locale].askPassportFirst}`).reprompt(TEXT[locale].askPassportFirst).getResponse();
+    } catch {
+      return h.responseBuilder.speak(TEXT[locale].welcome).reprompt(TEXT[locale].askDestination).getResponse();
+    }
+  },
 };
 
 const PlanTripHandler: RequestHandler = {
@@ -129,12 +146,13 @@ const SetPassportHandler: RequestHandler = {
   canHandle: (h) => h.requestEnvelope.request.type === "IntentRequest" && h.requestEnvelope.request.intent.name === "SetPassportIntent",
   async handle(h) {
     const locale = localeOf(h);
-    const country = slot(h, "country");
-    if (!country) return h.responseBuilder.speak(TEXT[locale].askPassport).reprompt(TEXT[locale].askPassport).getResponse();
+    // One or two countries: a traveler can hold more than one passport.
+    const passports = [slot(h, "country"), slot(h, "country2")].filter((c): c is string => Boolean(c));
+    if (!passports.length) return h.responseBuilder.speak(TEXT[locale].askPassport).reprompt(TEXT[locale].askPassport).getResponse();
     return run(
       h,
       "update_traveler_profile",
-      { locale, travelers: [{ displayName: "Yo", role: "self", passports: [country] }] },
+      { locale, travelers: [{ displayName: "Yo", role: "self", passports }] },
       "Traveler profile",
     );
   },
