@@ -5,6 +5,11 @@ name: deploy-aws
 #        variable ALEXA_SKILL_ID (optional; empty on the first run)
 on:
   workflow_dispatch:
+    inputs:
+      skill_id:
+        description: 'Alexa skill id (amzn1.ask.skill...). Empty keeps the repository variable.'
+        required: false
+        default: ''
   # Registers the workflow on this branch. The deploy job runs only for workflow_dispatch.
   push:
     branches: ["claude/**"]
@@ -39,7 +44,7 @@ jobs:
       - name: Deploy the stack
         env:
           BEDROCK_MODEL: ${{ secrets.WAYPOINT_BEDROCK_MODEL }}
-          SKILL_ID: ${{ vars.ALEXA_SKILL_ID }}
+          SKILL_ID: ${{ inputs.skill_id || vars.ALEXA_SKILL_ID }}
         run: npx cdk deploy --require-approval never --outputs-file outputs.json -c bedrockModel="$BEDROCK_MODEL" -c alexaSkillId="$SKILL_ID"
       - name: Show outputs (public URL)
         run: cat outputs.json
