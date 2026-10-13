@@ -27,6 +27,7 @@ const L = {
     packed: (a, b) => `${a} of ${b} packed`, doNotPack: "Do not pack", plan: "Day plan", free: "Free day",
     morning: "Morning", afternoon: "Afternoon", evening: "Evening", day: "Day", brief: "What's left", ready: "ready",
     daysLeft: (n) => (n === 1 ? "1 day to go" : `${n} days to go`), tapToTick: "Tap to tick off", profile: "Traveler profile",
+    settleBtn: "Group money", settle: "Settle up", fairness: "Fairness", transfers: "Transfers", squared: "Everyone is square.", unassigned: (n) => `${n} expense(s) have no payer and are not counted.`, noLikes: "no likes saved", avoids: "Avoids",
     nothing: "Nothing pending", calendar: "Add to calendar", share: "Share brief", copied: "Copied", panel: "Open dashboard (MCP App)",
   },
   es: {
@@ -36,6 +37,7 @@ const L = {
     packed: (a, b) => `${a} de ${b} empacados`, doNotPack: "No llevar", plan: "Plan de días", free: "Día libre",
     morning: "Mañana", afternoon: "Tarde", evening: "Noche", day: "Día", brief: "Lo que falta", ready: "listo",
     daysLeft: (n) => (n === 1 ? "Falta 1 día" : `Faltan ${n} días`), tapToTick: "Toca para marcar", profile: "Perfil del viajero",
+    settleBtn: "Cuentas del grupo", settle: "Cuentas del grupo", fairness: "Equidad del plan", transfers: "Transferencias", squared: "Todos están a mano.", unassigned: (n) => `${n} gasto(s) no tienen quién pagó y no cuentan.`, noLikes: "sin gustos guardados", avoids: "Evita",
     nothing: "Sin pendientes", calendar: "Agregar al calendario", share: "Compartir resumen", copied: "Copiado", panel: "Abrir panel (MCP App)",
   },
 };
@@ -183,6 +185,45 @@ function profileCard(sc, lang) {
   return genericCard({ ...sc.card, title: sc.card?.title || words(lang).profile }, sc, lang);
 }
 
+// Group money: who is owed and who owes, then the transfers that square everyone up.
+function settleCard(sc, lang) {
+  const w = words(lang);
+  const d = sc.data || {};
+  const balances = Object.entries(d.balances || {});
+  if (!balances.length) return genericCard(sc.card, sc, lang);
+  const max = Math.max(1, ...balances.map(([, v]) => Math.abs(v)));
+  const rows = balances
+    .map(([name, v]) => {
+      const pct = Math.round((Math.abs(v) / max) * 100);
+      return `<div class="bal ${v >= 0 ? "pos" : "neg"}"><div class="bal-top"><span>${esc(name)}</span><b>${v >= 0 ? "+" : "−"}${esc(Math.abs(v).toFixed(2))} ${esc(d.home || "")}</b></div><div class="bar"><span style="width:${pct}%"></span></div></div>`;
+    })
+    .join("");
+  const transfers = (d.transfers || [])
+    .map((t) => `<li>${icon("coin")}<span><b>${esc(t.from)}</b> → <b>${esc(t.to)}</b> · ${esc(Number(t.amount).toFixed(2))} ${esc(d.home || "")}</span></li>`)
+    .join("");
+  const body = `${rows}${transfers ? `<div class="sub-h">${esc(w.transfers)}</div><ul class="pending transfers">${transfers}</ul>` : `<p class="ok-line">${icon("check")}${esc(w.squared)}</p>`}${d.unassigned ? `<p class="muted-s">${esc(w.unassigned(d.unassigned))}</p>` : ""}`;
+  return shell("settle", sc.card?.title || w.settle, body, sc, lang);
+}
+
+// Fairness: how much of the plan each traveler actually likes, and what they avoid.
+function fairnessCard(sc, lang) {
+  const w = words(lang);
+  const rows = sc.data?.rows || [];
+  if (!rows.length) return genericCard(sc.card, sc, lang);
+  const body = rows
+    .map((r) => {
+      const pct = r.score === null || r.score === undefined ? null : Math.round(r.score * 100);
+      const low = pct !== null && pct < 34;
+      return `<div class="fair ${r.clash?.length ? "clash" : low ? "low" : ""}">
+        <div class="bal-top"><span>${esc(r.traveler)}</span><b>${pct === null ? esc(w.noLikes) : `${r.liked}/${r.stops} · ${pct}%`}</b></div>
+        ${pct === null ? "" : `<div class="bar"><span style="width:${pct}%"></span></div>`}
+        ${(r.clash || []).length ? `<div class="avoid-chip">${icon("stop")}${esc(w.avoids)}: ${esc(r.clash.join(", "))}</div>` : ""}
+      </div>`;
+    })
+    .join("");
+  return shell("fairness", sc.card?.title || w.fairness, body, sc, lang);
+}
+
 const RENDER = {
   check_entry_requirements: entryCard,
   get_local_rules: rulesCard,
@@ -192,6 +233,8 @@ const RENDER = {
   build_itinerary: itineraryCards,
   trip_brief: briefCard,
   update_traveler_profile: profileCard,
+  settle_up: settleCard,
+  plan_fairness: fairnessCard,
 };
 
 /** Cards for one tool result. plan_trip is shown as the trip hero instead. */
@@ -213,6 +256,7 @@ export function heroHtml(brief, lang, panel = false) {
       <div class="h-count">${esc(w.daysLeft(brief.daysUntil))}</div>
       <div class="h-actions">
         <button type="button" class="act" data-action="ics">${esc(w.calendar)}</button>
+        <button type="button" class="act" data-action="settle">${esc(w.settleBtn)}</button>
         <button type="button" class="act" data-action="share">${esc(w.share)}</button>
         ${panel ? `<button type="button" class="act" data-action="panel">${esc(w.panel)}</button>` : ""}
       </div>

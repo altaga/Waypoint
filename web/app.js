@@ -246,7 +246,8 @@ function toast(text) {
   setTimeout(() => el.remove(), 1800);
 }
 
-// Real-world actions on the hero: calendar file and a shareable brief.
+// Real-world actions on the hero: the full calendar file (from the server, one event per
+// planned day), group money, and a shareable brief.
 async function heroAction(action) {
   if (!currentBrief) return;
   const w = words(lang);
@@ -254,13 +255,26 @@ async function heroAction(action) {
     await mountApp(lastUi.uri, lastUi.structured);
     return;
   }
+  if (action === "settle") {
+    const r = await client.callTool("settle_up", {});
+    if (!r.isError) {
+      bubble("assistant", r.structuredContent.voice);
+      $("cards").innerHTML = renderTool("settle_up", r.structuredContent, lang);
+    }
+    return;
+  }
   if (action === "ics") {
-    const blob = new Blob([tripIcs(currentBrief, lang)], { type: "text/calendar" });
+    const r = await client.callTool("export_trip", { format: "ics" }).catch(() => null);
+    const content = r && !r.isError ? r.structuredContent?.data?.content : null;
+    const body = content || tripIcs(currentBrief, lang);
+    const blob = new Blob([body], { type: "text/calendar" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
     a.download = `waypoint-${currentBrief.destination.toLowerCase()}-${currentBrief.startDate}.ics`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    toast(lang === "es" ? "Calendario descargado" : "Calendar downloaded");
+    return;
   }
   if (action === "share") {
     const text = `${currentBrief.destinationName}: ${currentBrief.startDate} → ${currentBrief.endDate}. ${w.daysLeft(currentBrief.daysUntil)}. ${currentBrief.readiness}% ${w.ready}.${(currentBrief.pending || []).length ? " " + currentBrief.pending.join("; ") + "." : ""}`;
