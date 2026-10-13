@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "CF",
+  "names": {
+    "en": "Central African Republic",
+    "es": "República Centroafricana"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+  },
+  "sources": {
+    "cf-tourism": {
+      "title": "Central African Republic tourism (ministry)",
+      "url": "https://www.visitcentralafrica.org/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "cf-dzanga-sangha",
+      "name": "Dzanga-Sangha Protected Area",
+      "area": "Sangha-Mbaéré",
+      "city": "Bayanga",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Rainforest reserve for forest elephants and gorillas, with guided treks.",
+        "es": "Reserva de selva para elefantes del bosque y gorilas, con caminatas guiadas."
+      },
+      "sourceId": "cf-tourism",
+      "admission": "Guided access only; check current security advice first."
+    },
+    {
+      "id": "cf-boali-falls",
+      "name": "Boali Falls",
+      "area": "Lobaye",
+      "city": "Boali",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Waterfall on the Mbali River, a short trip from Bangui.",
+        "es": "Cascada sobre el río Mbali, a poca distancia de Bangui."
+      },
+      "sourceId": "cf-tourism",
+      "admission": "Check current security advice first."
+    }
+  ]
+}

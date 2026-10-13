@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SS",
+  "names": {
+    "en": "South Sudan",
+    "es": "Sudán del Sur"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+  },
+  "sources": {
+    "ss-tourism": {
+      "title": "South Sudan Ministry of Tourism",
+      "url": "https://www.southsudan.gov.ss/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ss-juba-museum",
+      "name": "Juba National Museum",
+      "area": "Juba",
+      "city": "Juba",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National collection of the country's cultural heritage.",
+        "es": "Colección nacional del patrimonio cultural del país."
+      },
+      "sourceId": "ss-tourism",
+      "admission": "Very high security risk: check the official advisory before any plan."
+    },
+    {
+      "id": "ss-boma",
+      "name": "Boma National Park",
+      "area": "Boma",
+      "city": "Boma",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Savanna park with migratory wildlife.",
+        "es": "Parque de sabana con fauna migratoria."
+      },
+      "sourceId": "ss-tourism",
+      "admission": "Very high security risk: check the official advisory before any plan."
+    }
+  ]
+}

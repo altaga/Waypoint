@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "TO",
+  "names": {
+    "en": "Tonga",
+    "es": "Tonga"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+  },
+  "sources": {
+    "to-tourism": {
+      "title": "Tonga Visitors Bureau",
+      "url": "https://www.tongatapu.to/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "to-haamonga",
+      "name": "Ha'amonga 'a Maui",
+      "area": "Tongatapu",
+      "city": "Niuatoputapu",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Trilithon of coral stone, built around the 13th century.",
+        "es": "Trilito de piedra coralina, construido alrededor del siglo XIII."
+      },
+      "sourceId": "to-tourism"
+    },
+    {
+      "id": "to-royal-palace",
+      "name": "Royal Palace of Nuku'alofa",
+      "area": "Nuku'alofa",
+      "city": "Nuku'alofa",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Official residence of the King of Tonga; the palace is viewed from outside.",
+        "es": "Residencia oficial del rey de Tonga; el palacio se ve desde fuera."
+      },
+      "sourceId": "to-tourism"
+    },
+    {
+      "id": "to-vava-u",
+      "name": "Vava'u Islands",
+      "area": "Vava'u",
+      "city": "Neiafu",
+      "category": "beach",
+      "interests": [
+        "beaches",
+        "nature"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Island group with whale watching in season.",
+        "es": "Grupo de islas con avistamiento de ballenas en temporada."
+      },
+      "sourceId": "to-tourism"
+    }
+  ]
+}

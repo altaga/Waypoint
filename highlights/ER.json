@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "ER",
+  "names": {
+    "en": "Eritrea",
+    "es": "Eritrea"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+  },
+  "sources": {
+    "er-tourism": {
+      "title": "Eritrea Ministry of Tourism",
+      "url": "https://www.eritrea-tourism.gov.er/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "er-asmara",
+      "name": "Asmara Modernist Architecture",
+      "area": "Asmara",
+      "city": "Asmara",
+      "category": "neighborhood",
+      "interests": [
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Early 20th-century Italian modernist city, a UNESCO site.",
+        "es": "Ciudad modernista italiana de principios del siglo XX, sitio de la UNESCO."
+      },
+      "sourceId": "er-tourism",
+      "admission": "Check current travel advice before planning."
+    },
+    {
+      "id": "er-massawa",
+      "name": "Old Massawa",
+      "area": "Massawa",
+      "city": "Massawa",
+      "category": "neighborhood",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Coral-stone old town on the Red Sea.",
+        "es": "Casco antiguo de piedra coralina junto al mar Rojo."
+      },
+      "sourceId": "er-tourism",
+      "admission": "Check current travel advice before planning."
+    }
+  ]
+}

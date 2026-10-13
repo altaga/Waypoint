@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "TV",
+  "names": {
+    "en": "Tuvalu",
+    "es": "Tuvalu"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+  },
+  "sources": {
+    "tv-tourism": {
+      "title": "Tuvalu Visitors Bureau",
+      "url": "https://www.tuvalutourism.tv/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "tv-funafuti-lagoon",
+      "name": "Funafuti Lagoon",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "category": "beach",
+      "interests": [
+        "beaches",
+        "nature"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Atoll lagoon with clear water for swimming and snorkeling.",
+        "es": "Laguna del atolón con agua clara para nadar y hacer esnórquel."
+      },
+      "sourceId": "tv-tourism"
+    },
+    {
+      "id": "tv-funafuti-conservation",
+      "name": "Funafuti Conservation Area",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Protected area for seabirds and reef life.",
+        "es": "Área protegida para aves marinas y vida de arrecife."
+      },
+      "sourceId": "tv-tourism"
+    }
+  ]
+}

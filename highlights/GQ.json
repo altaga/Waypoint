@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "GQ",
+  "names": {
+    "en": "Equatorial Guinea",
+    "es": "Guinea Ecuatorial"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+  },
+  "sources": {
+    "gq-tourism": {
+      "title": "Equatorial Guinea tourism (ministry)",
+      "url": "https://www.guineaecuatorialturismo.com/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "gq-monte-alen",
+      "name": "Monte Alén National Park",
+      "area": "Río Muni",
+      "city": "Ebebiyín",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Rainforest park with forest wildlife and trails.",
+        "es": "Parque de selva con fauna forestal y senderos."
+      },
+      "sourceId": "gq-tourism",
+      "admission": "Guides and permits required."
+    },
+    {
+      "id": "gq-malabo-old",
+      "name": "Malabo City",
+      "area": "Bioko Norte",
+      "city": "Malabo",
+      "category": "neighborhood",
+      "interests": [
+        "food",
+        "markets",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The capital on Bioko island, with markets and colonial-era streets.",
+        "es": "La capital en la isla de Bioko, con mercados y calles coloniales."
+      },
+      "sourceId": "gq-tourism"
+    },
+    {
+      "id": "gq-pico-basile",
+      "name": "Pico Basilé",
+      "area": "Bioko Sur",
+      "city": "Luba",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 420,
+      "desc": {
+        "en": "Highest peak on Bioko island, a long forest hike.",
+        "es": "La cumbre más alta de la isla de Bioko; caminata larga por la selva."
+      },
+      "sourceId": "gq-tourism",
+      "admission": "Guide required."
+    }
+  ]
+}

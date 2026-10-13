@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "LS",
+  "names": {
+    "en": "Lesotho",
+    "es": "Lesoto"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+  },
+  "sources": {
+    "ls-tourism": {
+      "title": "Lesotho Tourism Development Corporation",
+      "url": "https://www.tourismlesotho.com/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ls-maletsunyane",
+      "name": "Maletsunyane Falls",
+      "area": "Semonkong",
+      "city": "Semonkong",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Waterfall dropping about 190 metres, reached by hiking or abseiling.",
+        "es": "Cascada de unos 190 metros; se llega a pie o en rappel."
+      },
+      "sourceId": "ls-tourism"
+    },
+    {
+      "id": "ls-sehlabathebe",
+      "name": "Sehlabathebe National Park",
+      "area": "Qacha's Nek",
+      "city": "Sehlabathebe",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "High-altitude park of sandstone rock formations and grasslands.",
+        "es": "Parque de gran altitud con formaciones de arenisca y pastizales."
+      },
+      "sourceId": "ls-tourism"
+    },
+    {
+      "id": "ls-thaba-bosiu",
+      "name": "Thaba-Bosiu",
+      "area": "Maseru",
+      "city": "Thaba-Bosiu",
+      "category": "sight",
+      "interests": [
+        "history",
+        "nature"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Flat-topped mountain, the historic stronghold of King Moshoeshoe I.",
+        "es": "Montaña de cima plana, fortaleza histórica del rey Moshoeshoe I."
+      },
+      "sourceId": "ls-tourism"
+    }
+  ]
+}

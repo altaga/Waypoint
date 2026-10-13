@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "NL",
+  "names": {
+    "en": "Netherlands",
+    "es": "Países Bajos"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+  },
+  "sources": {
+    "nl-tourism": {
+      "title": "Holland.com (Netherlands Board of Tourism)",
+      "url": "https://www.holland.com/global/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "nl-rijksmuseum",
+      "name": "Rijksmuseum",
+      "area": "Museumkwartier",
+      "city": "Amsterdam",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Dutch masters, including Rembrandt's The Night Watch.",
+        "es": "Maestros neerlandeses, incluida La ronda de noche de Rembrandt."
+      },
+      "sourceId": "nl-tourism",
+      "admission": "Book a timed ticket."
+    },
+    {
+      "id": "nl-van-gogh",
+      "name": "Van Gogh Museum",
+      "area": "Museumkwartier",
+      "city": "Amsterdam",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The largest collection of Van Gogh's paintings and letters.",
+        "es": "La colección más grande de pinturas y cartas de Van Gogh."
+      },
+      "sourceId": "nl-tourism",
+      "admission": "Book a timed ticket."
+    },
+    {
+      "id": "nl-anne-frank",
+      "name": "Anne Frank House",
+      "area": "Jordaan",
+      "city": "Amsterdam",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The hidden annex where Anne Frank wrote her diary.",
+        "es": "El anexo secreto donde Anne Frank escribió su diario."
+      },
+      "sourceId": "nl-tourism",
+      "admission": "Tickets sell out; book well ahead."
+    },
+    {
+      "id": "nl-canals",
+      "name": "Canal Ring",
+      "area": "Grachtengordel",
+      "city": "Amsterdam",
+      "category": "neighborhood",
+      "interests": [
+        "sights",
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "UNESCO canal ring of gabled houses, best by boat or bike.",
+        "es": "Anillo de canales de la UNESCO, con casas de fachada escalonada."
+      },
+      "sourceId": "nl-tourism"
+    },
+    {
+      "id": "nl-keukenhof",
+      "name": "Keukenhof",
+      "area": "Lisse",
+      "city": "Lisse",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "art"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Famous spring tulip gardens; open only part of the year.",
+        "es": "Famosos jardines de tulipanes en primavera; abiertos solo parte del año."
+      },
+      "sourceId": "nl-tourism"
+    },
+    {
+      "id": "nl-kinderdijk",
+      "name": "Kinderdijk Windmills",
+      "area": "Alblasserdam",
+      "city": "Kinderdijk",
+      "category": "sight",
+      "interests": [
+        "history",
+        "nature",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Nineteen historic windmills along the canals, a UNESCO site.",
+        "es": "Diecinueve molinos históricos junto a los canales, sitio de la UNESCO."
+      },
+      "sourceId": "nl-tourism"
+    },
+    {
+      "id": "nl-mauritshuis",
+      "name": "Mauritshuis",
+      "area": "Centrum",
+      "city": "The Hague",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vermeer's Girl with a Pearl Earring and Dutch Golden Age painting.",
+        "es": "La joven de la perla de Vermeer y pintura del Siglo de Oro neerlandés."
+      },
+      "sourceId": "nl-tourism"
+    }
+  ]
+}

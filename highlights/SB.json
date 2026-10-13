@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SB",
+  "names": {
+    "en": "Solomon Islands",
+    "es": "Islas Salomón"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+  },
+  "sources": {
+    "sb-tourism": {
+      "title": "Solomon Islands Visitors Bureau",
+      "url": "https://www.visitsolomons.com.sb/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "sb-tulagi",
+      "name": "Tulagi and Guadalcanal battle sites",
+      "area": "Central Islands",
+      "city": "Tulagi",
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "World War II sites, wrecks and memorials.",
+        "es": "Sitios, restos y memoriales de la Segunda Guerra Mundial."
+      },
+      "sourceId": "sb-tourism",
+      "admission": "Guides recommended."
+    },
+    {
+      "id": "sb-marovo-lagoon",
+      "name": "Marovo Lagoon",
+      "area": "Western Province",
+      "city": "Seghe",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "beaches"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "One of the largest lagoons in the world, known for diving.",
+        "es": "Una de las lagunas más grandes del mundo, famosa por el buceo."
+      },
+      "sourceId": "sb-tourism"
+    },
+    {
+      "id": "sb-central-market",
+      "name": "Honiara Central Market",
+      "area": "Honiara",
+      "city": "Honiara",
+      "category": "food",
+      "interests": [
+        "markets",
+        "food"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Produce, crafts and fish stalls in the capital.",
+        "es": "Productos, artesanías y puestos de pescado en la capital."
+      },
+      "sourceId": "sb-tourism"
+    }
+  ]
+}

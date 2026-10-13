@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "NI",
+  "names": {
+    "en": "Nicaragua",
+    "es": "Nicaragua"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+  },
+  "sources": {
+    "ni-tourism": {
+      "title": "Instituto Nicaragüense de Turismo (INTUR)",
+      "url": "https://www.visitanicaragua.com/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ni-granada",
+      "name": "Granada",
+      "area": "Granada",
+      "city": "Granada",
+      "category": "neighborhood",
+      "interests": [
+        "history",
+        "architecture",
+        "food"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Colorful colonial city on Lake Nicaragua.",
+        "es": "Ciudad colonial de colores a orillas del lago Cocibolca."
+      },
+      "sourceId": "ni-tourism"
+    },
+    {
+      "id": "ni-leon-cathedral",
+      "name": "León Cathedral",
+      "area": "León",
+      "city": "León",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "temples",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Largest cathedral in Central America, a UNESCO site.",
+        "es": "La catedral más grande de Centroamérica, sitio de la UNESCO."
+      },
+      "sourceId": "ni-tourism"
+    },
+    {
+      "id": "ni-ometepe",
+      "name": "Ometepe Island",
+      "area": "Lake Nicaragua",
+      "city": "Moyogalpa",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Island with two volcanoes in Lake Nicaragua.",
+        "es": "Isla con dos volcanes en el lago Cocibolca."
+      },
+      "sourceId": "ni-tourism"
+    },
+    {
+      "id": "ni-masaya-volcano",
+      "name": "Masaya Volcano National Park",
+      "area": "Masaya",
+      "city": "Masaya",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "sights"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Active volcano with a crater you can see from the rim.",
+        "es": "Volcán activo con un cráter que se ve desde el borde."
+      },
+      "sourceId": "ni-tourism",
+      "admission": "Check current volcanic activity advice."
+    }
+  ]
+}
