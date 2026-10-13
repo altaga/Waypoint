@@ -12,6 +12,12 @@
     "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
   },
   "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
     "fr-tourism": {
       "title": "Atout France (France.fr)",
       "url": "https://www.france.fr/en",
@@ -161,6 +167,192 @@
         "es": "Abadía en una isla, en el borde de las mareas."
       },
       "sourceId": "fr-tourism"
+    },
+    {
+      "id": "fr-q201428",
+      "name": "Palace of Fontainebleau",
+      "area": "Fontainebleau",
+      "city": "Fontainebleau",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "art"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Royal palace south of Paris, known for its Renaissance interiors.",
+        "es": "Palacio real al sur de París, conocido por sus interiores renacentistas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fr-q818517",
+      "name": "Tuileries Garden",
+      "area": "1er arrondissement",
+      "city": "Paris",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Formal garden between the Louvre and the Place de la Concorde.",
+        "es": "Jardín formal entre el Louvre y la plaza de la Concordia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fr-q28924",
+      "name": "Catacombs of Paris",
+      "area": "14e arrondissement",
+      "city": "Paris",
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Underground ossuary holding the remains of millions of Parisians.",
+        "es": "Osario subterráneo que guarda los restos de millones de parisinos."
+      },
+      "sourceId": "wikidata",
+      "admission": "Timed tickets; expect queues and a long walk underground."
+    },
+    {
+      "id": "fr-q1865480",
+      "name": "Bastille",
+      "area": "Bastille",
+      "city": "Paris",
+      "category": "neighborhood",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Site of the former fortress stormed in 1789, now a square with a column.",
+        "es": "Lugar de la antigua fortaleza asaltada en 1789, hoy una plaza con una columna."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fr-q178065",
+      "name": "Centre Georges Pompidou",
+      "area": "Beaubourg",
+      "city": "Paris",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Modern art museum and cultural centre known for its exposed structure.",
+        "es": "Museo de arte moderno y centro cultural conocido por su estructura a la vista."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fr-q677659",
+      "name": "Maison Carrée",
+      "area": "Nîmes",
+      "city": "Nîmes",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Well-preserved Roman temple in Nîmes.",
+        "es": "Templo romano muy bien conservado en Nîmes."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fr-q833850",
+      "name": "Carnac stones",
+      "area": "Carnac",
+      "city": "Carnac",
+      "category": "sight",
+      "interests": [
+        "history",
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Prehistoric standing stones in Brittany.",
+        "es": "Piedras megalíticas prehistóricas en Bretaña."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fr-q663673",
+      "name": "Château de Vincennes",
+      "area": "Vincennes",
+      "city": "Vincennes",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Medieval royal castle east of Paris, with a Gothic chapel.",
+        "es": "Castillo real medieval al este de París, con una capilla gótica."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fr-q835966",
+      "name": "Alesia",
+      "area": "Alise-Sainte-Reine",
+      "city": "Alise-Sainte-Reine",
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Site of the 52 BC siege that ended Gallic resistance to Rome, with an archaeological museum.",
+        "es": "Sitio del asedio del 52 a. C. que terminó con la resistencia gala a Roma, con museo arqueológico."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fr-q578771",
+      "name": "Palace of Tau",
+      "area": "Reims",
+      "city": "Reims",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Former archbishops' palace in Reims, where kings stayed before their coronation.",
+        "es": "Antiguo palacio de los arzobispos en Reims, donde se alojaban los reyes antes de su coronación."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fr-q206521",
+      "name": "Disneyland Paris",
+      "area": "Marne-la-Vallée",
+      "city": "Marne-la-Vallée",
+      "category": "experience",
+      "interests": [
+        "family"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Theme park east of Paris.",
+        "es": "Parque temático al este de París."
+      },
+      "sourceId": "wikidata"
     }
   ]
 }
