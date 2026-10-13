@@ -41,6 +41,12 @@ const t2 = "¿Qué me falta?";
 const r2 = await brain(t2, history, "es-MX");
 if (!r2.calls.some((c) => c.tool === "trip_brief" || c.tool === "packing_checklist")) throw new Error("turn 2 did not check what is pending");
 
+history.push({ role: "user", text: t2 }, { role: "assistant", text: r2.text });
+const t3 = "Ármame los primeros 3 días: me gusta la comida y los templos.";
+const r3 = await brain(t3, history, "es-MX");
+const plan = r3.calls.find((c) => c.tool === "build_itinerary" && !c.isError);
+if (!plan || !(plan.structured?.data?.planned > 0)) throw new Error("turn 3 did not write and save a day plan");
+
 // Clean up the test user.
 await fetch(`${base}/mcp`, {
   method: "POST",
