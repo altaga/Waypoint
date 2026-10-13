@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "MU",
+  "names": {
+    "en": "Mauritius",
+    "es": "Mauricio"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "mu-q495247",
+      "name": "Blue Penny Museum",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in Port Louis named after the Blue Penny, Mauritius's famous rare stamp.",
+        "es": "Museo en Port Louis que lleva el nombre del Blue Penny, el famoso sello raro de Mauricio."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mu-q3329940",
+      "name": "Mauritius Postal Museum",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Postal museum in Port Louis with stamps and the history of Mauritius post.",
+        "es": "Museo postal en Port Louis con sellos y la historia del correo de Mauricio."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mu-q3213460",
+      "name": "La Vanille Nature Park",
+      "area": "Savanne District",
+      "city": "Savanne District",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Nature park with crocodiles, giant tortoises and other wildlife.",
+        "es": "Parque natural con cocodrilos, tortugas gigantes y otra fauna."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

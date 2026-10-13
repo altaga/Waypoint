@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "AU",
+  "names": {
+    "en": "Australia",
+    "es": "Australia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "au-q45178",
+      "name": "Sydney Opera House",
+      "area": "City of Sydney",
+      "city": "City of Sydney",
+      "category": "experience",
+      "interests": [
+        "architecture",
+        "sights"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Performing arts venue on Sydney Harbour, with sail-like roofs.",
+        "es": "Centro de artes escénicas en el puerto de Sídney, con techos en forma de velas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "au-q623578",
+      "name": "National Library of Australia",
+      "area": "Canberra Central",
+      "city": "Canberra Central",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National library in Canberra, with exhibition galleries.",
+        "es": "Biblioteca nacional en Canberra, con salas de exposición."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "au-q1135796",
+      "name": "Naracoorte Caves National Park",
+      "area": "South Australia",
+      "city": "South Australia",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Fossil-rich limestone cave system in South Australia, a World Heritage site.",
+        "es": "Sistema de cuevas de piedra caliza con fósiles en Australia Meridional, patrimonio mundial."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "au-q1464509",
+      "name": "National Gallery of Victoria",
+      "area": "City of Melbourne",
+      "city": "City of Melbourne",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Art museum in Melbourne, with Australian and international art.",
+        "es": "Museo de arte en Melbourne, con arte australiano e internacional."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "au-q795228",
+      "name": "National Gallery of Australia",
+      "area": "Australian Capital Territory",
+      "city": "Australian Capital Territory",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National art museum in Canberra.",
+        "es": "Museo nacional de arte en Canberra."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "au-q1858105",
+      "name": "Parliament House",
+      "area": "Canberra",
+      "city": "Canberra",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Federal Parliament building in Canberra, open to visitors.",
+        "es": "Edificio del Parlamento federal en Canberra, abierto a visitantes."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "au-q769416",
+      "name": "Australian Museum",
+      "area": "New South Wales",
+      "city": "New South Wales",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Natural history and cultural museum in Sydney.",
+        "es": "Museo de historia natural y cultural en Sídney."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "au-q1064813",
+      "name": "Taronga Zoo",
+      "area": "New South Wales",
+      "city": "New South Wales",
+      "category": "nature",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Zoo on Sydney Harbour, with wildlife and harbour views.",
+        "es": "Zoológico junto al puerto de Sídney, con fauna y vistas a la bahía."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "au-q705551",
+      "name": "Art Gallery of New South Wales",
+      "area": "Sydney",
+      "city": "Sydney",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Art museum in Sydney's Domain parkland.",
+        "es": "Museo de arte en el parque The Domain de Sídney."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "au-q705557",
+      "name": "Art Gallery of South Australia",
+      "area": "Adelaide",
+      "city": "Adelaide",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Art museum in Adelaide with Australian and international collections.",
+        "es": "Museo de arte en Adelaida con colecciones australianas e internacionales."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

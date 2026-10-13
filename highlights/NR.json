@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "NR",
+  "names": {
+    "en": "Nauru",
+    "es": "Nauru"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "nr-q106510196",
+      "name": "Nauru Museum",
+      "area": "Boe District",
+      "city": "Boe District",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Small national museum on Nauru covering the island's history and culture.",
+        "es": "Pequeño museo nacional de Nauru sobre la historia y la cultura de la isla."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SD",
+  "names": {
+    "en": "Sudan",
+    "es": "Sudán"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "sd-q643453",
+      "name": "National Museum of Sudan",
+      "area": "Khartoum",
+      "city": "Khartoum",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum with collections on Sudan's archaeology and history, in Khartoum.",
+        "es": "Museo nacional con colecciones sobre la arqueología e historia de Sudán, en Jartum."
+      },
+      "sourceId": "wikidata",
+      "admission": "Serious security risks: check current government travel advice before any visit."
+    },
+    {
+      "id": "sd-q16878222",
+      "name": "Khalifa House Museum",
+      "area": "Omdurman",
+      "city": "Omdurman",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "House museum from the Mahdist era, in Omdurman.",
+        "es": "Casa-museo de la época mahdista, en Omdurmán."
+      },
+      "sourceId": "wikidata",
+      "admission": "Serious security risks: check current government travel advice before any visit."
+    },
+    {
+      "id": "sd-q57980405",
+      "name": "Kerma Museum",
+      "area": "Nubia",
+      "city": "Nubia",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum on the ancient Kerma culture of Nubia.",
+        "es": "Museo sobre la antigua cultura de Kerma en Nubia."
+      },
+      "sourceId": "wikidata",
+      "admission": "Serious security risks: check current government travel advice before any visit."
+    },
+    {
+      "id": "sd-q60786727",
+      "name": "Jebel Barkal Museum",
+      "area": "Northern State",
+      "city": "Northern State",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum on the Kushite sites of Jebel Barkal and Napata.",
+        "es": "Museo sobre los yacimientos kushitas de Jebel Barkal y Napata."
+      },
+      "sourceId": "wikidata",
+      "admission": "Serious security risks: check current government travel advice before any visit."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "FI",
+  "names": {
+    "en": "Finland",
+    "es": "Finlandia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "fi-q1044613",
+      "name": "Helsinki Central Railway Station",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Art Nouveau railway station in central Helsinki.",
+        "es": "Estación de tren de estilo Art Nouveau en el centro de Helsinki."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fi-q136893",
+      "name": "Turku Castle",
+      "area": "Turku",
+      "city": "Turku",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Medieval castle beside the Aura River in Turku.",
+        "es": "Castillo medieval junto al río Aura en Turku."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fi-q754507",
+      "name": "Ateneum",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "category": "museum",
+      "interests": [
+        "art",
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Art museum with Finnish and European paintings and sculpture.",
+        "es": "Museo de arte con pintura y escultura finlandesas y europeas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fi-q251272",
+      "name": "Olavinlinna Castle",
+      "area": "Savonlinna",
+      "city": "Savonlinna",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Medieval island castle in the Saimaa lake region.",
+        "es": "Castillo medieval en una isla de la región de los lagos Saimaa."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fi-q1418136",
+      "name": "National Museum of Finland",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum covering Finnish history and culture.",
+        "es": "Museo nacional sobre la historia y la cultura de Finlandia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fi-q135379",
+      "name": "Santa Claus Village",
+      "area": "Rovaniemi",
+      "city": "Rovaniemi",
+      "category": "experience",
+      "interests": [
+        "family",
+        "sights"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Attraction village on the Arctic Circle near Rovaniemi.",
+        "es": "Pueblo de atracciones en el Círculo Polar Ártico, cerca de Rovaniemi."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fi-q1633361",
+      "name": "Kiasma",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "category": "museum",
+      "interests": [
+        "art",
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of contemporary art in central Helsinki.",
+        "es": "Museo de arte contemporáneo en el centro de Helsinki."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fi-q1012561",
+      "name": "Häme Castle",
+      "area": "Hämeenlinna",
+      "city": "Hämeenlinna",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Medieval castle in the town of Hämeenlinna.",
+        "es": "Castillo medieval en la localidad de Hämeenlinna."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fi-q1635596",
+      "name": "Linnanmäki",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "category": "experience",
+      "interests": [
+        "family"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Amusement park in Helsinki.",
+        "es": "Parque de atracciones en Helsinki."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "fi-q2624126",
+      "name": "Moomin Museum",
+      "area": "Tampere",
+      "city": "Tampere",
+      "category": "museum",
+      "interests": [
+        "family",
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum dedicated to Tove Jansson's Moomin characters.",
+        "es": "Museo dedicado a los personajes Mumin de Tove Jansson."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

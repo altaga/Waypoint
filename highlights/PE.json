@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "PE",
+  "names": {
+    "en": "Peru",
+    "es": "Perú"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "pe-q1632715",
+      "name": "Huacachina",
+      "area": "Ica Region",
+      "city": "Huacachina",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "sights"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Desert oasis lagoon near Ica, surrounded by sand dunes.",
+        "es": "Laguna oasis en el desierto, cerca de Ica, rodeada de dunas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pe-q1954240",
+      "name": "Larco Museum",
+      "area": "Lima",
+      "city": "Lima",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum of pre-Columbian Peruvian art in Lima's Pueblo Libre district.",
+        "es": "Museo de arte precolombino peruano en el distrito de Pueblo Libre, Lima."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pe-q1568821",
+      "name": "National Museum of Archaeology, Anthropology, and History of Peru",
+      "area": "Lima",
+      "city": "Lima",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National museum of Peruvian archaeology, anthropology and history.",
+        "es": "Museo nacional de arqueología, antropología e historia del Perú."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pe-q1001995",
+      "name": "Huanchaco",
+      "area": "La Libertad Region",
+      "city": "Huanchaco",
+      "category": "beach",
+      "interests": [
+        "beaches",
+        "sights"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Beach town near Trujillo known for traditional reed fishing boats.",
+        "es": "Localidad costera cerca de Trujillo, conocida por sus barcas tradicionales de totora."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pe-q776515",
+      "name": "Museum of Italian Art",
+      "area": "Lima",
+      "city": "Lima",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of Italian art in central Lima.",
+        "es": "Museo de arte italiano en el centro de Lima."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pe-q6033913",
+      "name": "Lima Art Museum",
+      "area": "Lima",
+      "city": "Lima",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Art museum in Lima with Peruvian and international collections.",
+        "es": "Museo de arte en Lima con colecciones peruanas e internacionales."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pe-q4306271",
+      "name": "Gold Museum of Peru and Weapons of the World",
+      "area": "Lima",
+      "city": "Lima",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum of pre-Columbian gold and a collection of weapons from many cultures.",
+        "es": "Museo de oro precolombino y colección de armas de diversas culturas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pe-q1684512",
+      "name": "Museum of Natural History, Lima",
+      "area": "Lima",
+      "city": "Lima",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Natural history museum of the National University of San Marcos in Lima.",
+        "es": "Museo de historia natural de la Universidad Nacional Mayor de San Marcos, en Lima."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

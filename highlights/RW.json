@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "RW",
+  "names": {
+    "en": "Rwanda",
+    "es": "Ruanda"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "rw-q6405906",
+      "name": "Kigali Genocide Memorial",
+      "area": "Gasabo District",
+      "city": "Kigali",
+      "category": "museum",
+      "interests": [
+        "history",
+        "museums"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Memorial and museum in Kigali on the 1994 genocide against the Tutsi.",
+        "es": "Memorial y museo en Kigali sobre el genocidio contra los tutsi de 1994."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rw-q24964531",
+      "name": "Bisesero Genocide Memorial",
+      "area": "Western Province",
+      "city": "Bisesero",
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Memorial in the Bisesero hills to victims of the 1994 genocide.",
+        "es": "Memorial en las colinas de Bisesero en recuerdo de las víctimas del genocidio de 1994."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rw-q2110810",
+      "name": "Ethnographic Museum",
+      "area": "Southern Province",
+      "city": "Huye",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ethnographic museum in Huye, formerly Butare, on Rwandan culture.",
+        "es": "Museo etnográfico en Huye, antes Butare, sobre la cultura ruandesa."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rw-q11295489",
+      "name": "Kandt House Museum",
+      "area": "Gitega Sector",
+      "city": "Kigali",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "House museum in Kigali, former home of German physician Richard Kandt.",
+        "es": "Casa museo en Kigali, antigua residencia del médico alemán Richard Kandt."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rw-q2110327",
+      "name": "Rwesero Art Museum",
+      "area": "Nyanza",
+      "city": "Nyanza",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Art museum in Nyanza with works by Rwandan artists.",
+        "es": "Museo de arte en Nyanza con obras de artistas ruandeses."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rw-q16678454",
+      "name": "Kings Palace Museum Rukari",
+      "area": "Nyanza",
+      "city": "Nyanza",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum at a reconstructed royal palace of Rwanda's former kings.",
+        "es": "Museo en un palacio real reconstruido de los antiguos reyes de Ruanda."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rw-q16678464",
+      "name": "Rwanda Art Museum",
+      "area": "Nyarugunga",
+      "city": "Kigali",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Art museum near Kigali showing works by Rwandan artists.",
+        "es": "Museo de arte cerca de Kigali con obras de artistas ruandeses."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

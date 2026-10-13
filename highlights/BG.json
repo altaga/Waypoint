@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "BG",
+  "names": {
+    "en": "Bulgaria",
+    "es": "Bulgaria"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "bg-q193241",
+      "name": "Nesebar",
+      "area": "Nesebar",
+      "city": "Nesebar",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "beaches"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Old town on a Black Sea peninsula, a UNESCO World Heritage site.",
+        "es": "Casco antiguo en una península del mar Negro, patrimonio mundial de la UNESCO."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bg-q271925",
+      "name": "Sozopol",
+      "area": "Sozopol",
+      "city": "Sozopol",
+      "category": "sight",
+      "interests": [
+        "history",
+        "beaches",
+        "architecture"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Historic seaside town on the Black Sea coast, with an old town.",
+        "es": "Localidad costera histórica en la costa del mar Negro, con casco antiguo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bg-q43282",
+      "name": "Alexander Nevsky Cathedral",
+      "area": "Oborishte District",
+      "city": "Oborishte District",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Large Orthodox cathedral in central Sofia.",
+        "es": "Gran catedral ortodoxa en el centro de Sofía."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bg-q276553",
+      "name": "Boyana Church",
+      "area": "Boyana",
+      "city": "Boyana",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "history",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Medieval church near Sofia with well-preserved 13th-century frescoes.",
+        "es": "Iglesia medieval cerca de Sofía con frescos del siglo XIII bien conservados."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bg-q331566",
+      "name": "Sandanski",
+      "area": "Sandanski",
+      "city": "Sandanski",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "sights"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Town in the Struma valley at the foot of the Pirin mountains.",
+        "es": "Localidad del valle del Struma, al pie de las montañas Pirin."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bg-q503387",
+      "name": "Rock-hewn Churches of Ivanovo",
+      "area": "Ivanovo",
+      "city": "Ivanovo",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Medieval churches carved into rock, near Ruse, a UNESCO site.",
+        "es": "Iglesias medievales excavadas en la roca, cerca de Ruse, sitio de la UNESCO."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bg-q301815",
+      "name": "Thracian Tomb of Kazanlak",
+      "area": "Stara Zagora",
+      "city": "Stara Zagora",
+      "category": "sight",
+      "interests": [
+        "history",
+        "art"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Thracian tomb with painted frescoes, a UNESCO site near Kazanlak.",
+        "es": "Tumba tracia con frescos pintados, sitio de la UNESCO cerca de Kazanlak."
+      },
+      "sourceId": "wikidata",
+      "admission": "The original tomb is usually closed to visitors; check on site for the replica."
+    },
+    {
+      "id": "bg-q239989",
+      "name": "Hisarya",
+      "area": "Hisarya",
+      "city": "Hisarya",
+      "category": "sight",
+      "interests": [
+        "history",
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Spa town with Roman-era ruins and mineral springs.",
+        "es": "Localidad balneario con ruinas de la época romana y manantiales minerales."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

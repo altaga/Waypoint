@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "ZW",
+  "names": {
+    "en": "Zimbabwe",
+    "es": "Zimbabue"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "zw-q5101060",
+      "name": "Chinhoyi Caves",
+      "area": "Mashonaland West Province",
+      "city": "Chinhoyi",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Limestone caves with deep pools near Chinhoyi.",
+        "es": "Cuevas de piedra caliza con pozas profundas cerca de Chinhoyi."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "zw-q4113712",
+      "name": "National Gallery of Zimbabwe",
+      "area": "Harare",
+      "city": "Harare",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National art gallery in Harare.",
+        "es": "Galería nacional de arte en Harare."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "zw-q203414",
+      "name": "Bulawayo Railway Museum",
+      "area": "Bulawayo",
+      "city": "Bulawayo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "family"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Railway museum in Bulawayo.",
+        "es": "Museo ferroviario en Bulawayo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "zw-q8071996",
+      "name": "Zimbabwe Museum of Human Sciences",
+      "area": "Harare",
+      "city": "Harare",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of human sciences and history in Harare.",
+        "es": "Museo de ciencias humanas e historia en Harare."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "zw-q507403",
+      "name": "Chapungu Sculpture Park",
+      "area": "Harare",
+      "city": "Harare",
+      "category": "sight",
+      "interests": [
+        "art",
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sculpture park showcasing Shona stone sculpture.",
+        "es": "Parque de esculturas que muestra la escultura en piedra shona."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "zw-q1771023",
+      "name": "Mutare Museum",
+      "area": "Mutare",
+      "city": "Mutare",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Museum in Mutare, in eastern Zimbabwe.",
+        "es": "Museo en Mutare, en el este de Zimbabue."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "zw-q1771439",
+      "name": "Natural History Museum of Zimbabwe",
+      "area": "Bulawayo",
+      "city": "Bulawayo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Natural history museum in Bulawayo.",
+        "es": "Museo de historia natural en Bulawayo."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

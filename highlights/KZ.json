@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "KZ",
+  "names": {
+    "en": "Kazakhstan",
+    "es": "Kazajistán"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "kz-q804210",
+      "name": "Bayterek",
+      "area": "Astana",
+      "city": "Astana",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Monument tower with a golden orb, a symbol of Astana.",
+        "es": "Torre monumental con una esfera dorada, símbolo de Astaná."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "kz-q2119741",
+      "name": "Palace of Peace and Reconciliation",
+      "area": "Astana",
+      "city": "Astana",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "sights"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Pyramid-shaped landmark building in Astana.",
+        "es": "Edificio emblemático con forma de pirámide en Astaná."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "kz-q190456",
+      "name": "Central State Museum of Kazakhstan",
+      "area": "Central State Museum of Kazakhstan",
+      "city": "Central State Museum of Kazakhstan",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "State museum of Kazakh history and culture.",
+        "es": "Museo estatal de la historia y la cultura kazajas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "kz-q1795699",
+      "name": "Kok Tobe",
+      "area": "Medeu district",
+      "city": "Medeu district",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Hill above Almaty with city views and a TV tower.",
+        "es": "Colina sobre Almaty con vistas de la ciudad y una torre de televisión."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "kz-q2324596",
+      "name": "A. Kasteyev State Museum of Arts",
+      "area": "Almaty",
+      "city": "Almaty",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Art museum in Almaty with Kazakh painting and sculpture.",
+        "es": "Museo de arte en Almaty con pintura y escultura kazajas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "kz-q18405670",
+      "name": "National Museum of the Republic of Kazakhstan",
+      "area": "Astana",
+      "city": "Astana",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum in Astana covering the country's history.",
+        "es": "Museo nacional en Astaná sobre la historia del país."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "kz-q2498214",
+      "name": "Kazakhstan National Museum of Instruments",
+      "area": "Almaty",
+      "city": "Almaty",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of musical instruments, including traditional Kazakh ones.",
+        "es": "Museo de instrumentos musicales, incluidos los tradicionales kazajos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "kz-q4062771",
+      "name": "Almaty Zoo",
+      "area": "Almaty",
+      "city": "Almaty",
+      "category": "experience",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Zoo in Almaty.",
+        "es": "Zoológico en Almaty."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "kz-q60853367",
+      "name": "Museum of Almaty",
+      "area": "Almaty",
+      "city": "Almaty",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "City museum about the history of Almaty.",
+        "es": "Museo de la ciudad sobre la historia de Almaty."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

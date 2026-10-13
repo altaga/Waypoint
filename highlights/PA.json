@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "PA",
+  "names": {
+    "en": "Panama",
+    "es": "Panamá"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "pa-q3330421",
+      "name": "Panama Canal Museum",
+      "area": "Panama City",
+      "city": "Panama City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum on the building and history of the Panama Canal.",
+        "es": "Museo sobre la construcción y la historia del Canal de Panamá."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pa-q6034184",
+      "name": "Biomuseo",
+      "area": "Panama City",
+      "city": "Panama City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum of natural history and biodiversity designed by Frank Gehry.",
+        "es": "Museo de historia natural y biodiversidad diseñado por Frank Gehry."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pa-q20024732",
+      "name": "Panama Museum of Contemporary Art",
+      "area": "Panama City",
+      "city": "Panama City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of contemporary art in Panama City.",
+        "es": "Museo de arte contemporáneo en la ciudad de Panamá."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

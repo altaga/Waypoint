@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "MW",
+  "names": {
+    "en": "Malawi",
+    "es": "Malaui"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "mw-q1488889",
+      "name": "Chichiri Museum",
+      "area": "Blantyre",
+      "city": "Blantyre",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in Blantyre with collections on natural history and local culture.",
+        "es": "Museo en Blantyre con colecciones de historia natural y cultura local."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mw-q17560921",
+      "name": "Cultural & Museum Centre Karonga",
+      "area": "Karonga",
+      "city": "Karonga",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Cultural and museum centre in Karonga, northern Malawi, with local history displays.",
+        "es": "Centro cultural y museo en Karonga, norte de Malaui, con exposiciones de historia local."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

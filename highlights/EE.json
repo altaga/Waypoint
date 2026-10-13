@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "EE",
+  "names": {
+    "en": "Estonia",
+    "es": "Estonia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ee-q919611",
+      "name": "Kumu",
+      "area": "Tallinn",
+      "city": "Tallinn",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Art museum in Tallinn focused on Estonian art.",
+        "es": "Museo de arte en Tallin, centrado en el arte estonio."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ee-q625590",
+      "name": "Vabamu Museum of Occupations and Freedom",
+      "area": "Tallinn",
+      "city": "Tallinn",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum in Tallinn on occupation and freedom in Estonia's twentieth-century history.",
+        "es": "Museo en Tallin sobre la ocupación y la libertad en la historia estonia del siglo XX."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ee-q12361299",
+      "name": "Estonian Museum of Natural History",
+      "area": "Tallinn",
+      "city": "Tallinn",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Natural history museum in Tallinn with exhibits on Estonian nature.",
+        "es": "Museo de historia natural en Tallin con exposiciones sobre la naturaleza de Estonia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ee-q946301",
+      "name": "University of Tartu Botanical Gardens",
+      "area": "Tartu City",
+      "city": "Tartu City",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Botanic garden in Tartu with plant collections from around the world.",
+        "es": "Jardín botánico en Tartu con colecciones de plantas de todo el mundo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ee-q2790284",
+      "name": "Ice Age Centre",
+      "area": "Tartu Rural Municipality",
+      "city": "Tartu Rural Municipality",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Visitor centre on Estonia's ice age history and landscapes.",
+        "es": "Centro de visitantes sobre la historia y los paisajes de la era glacial en Estonia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ee-q720876",
+      "name": "Suur Tõll",
+      "area": "Tallinn",
+      "city": "Tallinn",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "history"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Bronze statue in Tallinn of Suur Tõll, a figure from Estonian folklore.",
+        "es": "Estatua de bronce en Tallin de Suur Tõll, figura del folclore estonio."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ee-q12376504",
+      "name": "University of Tartu Museum",
+      "area": "Tartu City",
+      "city": "Tartu City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in Tartu on the university's history and collections.",
+        "es": "Museo en Tartu sobre la historia y las colecciones de la universidad."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ee-q5401903",
+      "name": "Patarei prison",
+      "area": "Tallinn",
+      "city": "Tallinn",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Former sea-fortress prison in Tallinn, with visits on its history.",
+        "es": "Antigua prisión en una fortaleza marítima de Tallin, con visitas sobre su historia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ee-q12376513",
+      "name": "University of Tartu Art Museum",
+      "area": "Tartu City",
+      "city": "Tartu City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Art museum in Tartu with a collection of Estonian and European art.",
+        "es": "Museo de arte en Tartu con una colección de arte estonio y europeo."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

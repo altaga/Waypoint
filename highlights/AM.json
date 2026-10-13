@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "AM",
+  "names": {
+    "en": "Armenia",
+    "es": "Armenia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "am-q1322278",
+      "name": "Matenadaran",
+      "area": "Yerevan",
+      "city": "Yerevan",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Repository and museum of ancient manuscripts in Yerevan.",
+        "es": "Depósito y museo de manuscritos antiguos en Ereván."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "am-q154775",
+      "name": "Tsitsernakaberd",
+      "area": "Kentron District",
+      "city": "Kentron District",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Memorial to the victims of the Armenian Genocide, on a hill in Yerevan.",
+        "es": "Memorial a las víctimas del genocidio armenio, en una colina de Ereván."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "am-q2087788",
+      "name": "National Gallery of Armenia",
+      "area": "Kentron District",
+      "city": "Kentron District",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National art museum in Yerevan.",
+        "es": "Museo nacional de arte en Ereván."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "am-q1138228",
+      "name": "History Museum of Armenia",
+      "area": "Kentron District",
+      "city": "Kentron District",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of Armenian history, in Yerevan.",
+        "es": "Museo de la historia de Armenia, en Ereván."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "am-q3108672",
+      "name": "Yerevan Zoo",
+      "area": "Yerevan",
+      "city": "Yerevan",
+      "category": "nature",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Zoo in Yerevan.",
+        "es": "Zoológico en Ereván."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "am-q7453721",
+      "name": "Sergei Parajanov Museum",
+      "area": "Kentron District",
+      "city": "Kentron District",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum honouring filmmaker Sergei Parajanov, with his artworks and objects.",
+        "es": "Museo dedicado al cineasta Sergei Parajanov, con sus obras y objetos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "am-q8052580",
+      "name": "Yerevan History Museum",
+      "area": "Kentron District",
+      "city": "Kentron District",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of Yerevan's city history.",
+        "es": "Museo de la historia de la ciudad de Ereván."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

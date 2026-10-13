@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SL",
+  "names": {
+    "en": "Sierra Leone",
+    "es": "Sierra Leona"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "sl-q3330698",
+      "name": "Sierra Leone National Museum",
+      "area": "Freetown",
+      "city": "Freetown",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum with collections on Sierra Leone's history and culture, in Freetown.",
+        "es": "Museo nacional con colecciones sobre la historia y cultura de Sierra Leona, en Freetown."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

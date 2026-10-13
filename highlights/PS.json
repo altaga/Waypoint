@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "PS",
+  "names": {
+    "en": "Palestine",
+    "es": "Palestina"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ps-q187702",
+      "name": "Church of the Holy Sepulchre",
+      "area": "Old City of Jerusalem",
+      "city": "Jerusalem",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "temples"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Church in Jerusalem's Old City traditionally identified as the site of Jesus's tomb.",
+        "es": "Iglesia de la Ciudad Vieja de Jerusalén identificada tradicionalmente con la tumba de Jesús."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ps-q1177765",
+      "name": "Tower of David",
+      "area": "Old City of Jerusalem",
+      "city": "Jerusalem",
+      "category": "museum",
+      "interests": [
+        "history",
+        "museums",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Citadel and museum complex beside Jaffa Gate in Jerusalem's Old City.",
+        "es": "Ciudadela y complejo museístico junto a la Puerta de Jaffa, en la Ciudad Vieja de Jerusalén."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ps-q121610806",
+      "name": "Masjid Al-Aqsa",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Mosque complex on the Haram al-Sharif in Jerusalem's Old City.",
+        "es": "Complejo de mezquitas en el Haram al-Sharif, en la Ciudad Vieja de Jerusalén."
+      },
+      "sourceId": "wikidata",
+      "admission": "Access for non-Muslims is restricted and changes; check current rules before visiting."
+    },
+    {
+      "id": "ps-q3407496",
+      "name": "Islamic Museum",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of Islamic art and artefacts on the Al-Aqsa compound.",
+        "es": "Museo de arte y objetos islámicos en el recinto de Al-Aqsa."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ps-q18211128",
+      "name": "The Palestinian Museum",
+      "area": "Ramallah and al-Bireh",
+      "city": "Birzeit",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum of Palestinian history, art and culture near Ramallah.",
+        "es": "Museo de historia, arte y cultura palestinos cerca de Ramala."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ps-q2157390",
+      "name": "Baituna al-Talhami Museum",
+      "area": "Bethlehem",
+      "city": "Bethlehem",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in Bethlehem focused on local Palestinian heritage.",
+        "es": "Museo en Belén centrado en el patrimonio palestino local."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

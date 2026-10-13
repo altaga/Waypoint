@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "IE",
+  "names": {
+    "en": "Ireland",
+    "es": "Irlanda"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ie-q1255597",
+      "name": "Rock of Cashel",
+      "area": "St. Patrick's Rock",
+      "city": "Cashel",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Medieval church ruins on a rock in County Tipperary.",
+        "es": "Ruinas de una iglesia medieval sobre una roca en el condado de Tipperary."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ie-q2018379",
+      "name": "National Gallery of Ireland",
+      "area": "Dublin",
+      "city": "Dublin",
+      "category": "museum",
+      "interests": [
+        "art",
+        "museums"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National gallery with European paintings and Irish art.",
+        "es": "Galería nacional con pintura europea y arte irlandés."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ie-q1672840",
+      "name": "National Museum of Ireland",
+      "area": "Dublin",
+      "city": "Dublin",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National museum of Irish archaeology, history and decorative arts.",
+        "es": "Museo nacional de arqueología, historia y artes decorativas de Irlanda."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ie-q391976",
+      "name": "Chester Beatty Library",
+      "area": "Dublin",
+      "city": "Dublin",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Library and museum of manuscripts, books and art in Dublin Castle grounds.",
+        "es": "Biblioteca y museo de manuscritos, libros y arte en el recinto del Castillo de Dublín."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ie-q1049842",
+      "name": "Kilmainham Gaol",
+      "area": "Dublin",
+      "city": "Dublin",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Former prison with guided tours on Irish history.",
+        "es": "Antigua prisión con visitas guiadas sobre la historia de Irlanda."
+      },
+      "sourceId": "wikidata",
+      "admission": "Guided tours only; booking ahead is advised."
+    },
+    {
+      "id": "ie-q1538285",
+      "name": "Irish Museum of Modern Art",
+      "area": "Dublin",
+      "city": "Dublin",
+      "category": "museum",
+      "interests": [
+        "art",
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of modern and contemporary art in Dublin's Royal Hospital.",
+        "es": "Museo de arte moderno y contemporáneo en el Royal Hospital de Dublín."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ie-q220027",
+      "name": "Dublin Zoo",
+      "area": "Dublin",
+      "city": "Dublin",
+      "category": "nature",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Zoo in Phoenix Park, Dublin.",
+        "es": "Zoológico en el Phoenix Park de Dublín."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ie-q2453267",
+      "name": "Kilkenny Castle",
+      "area": "County Kilkenny",
+      "city": "Kilkenny",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Medieval castle in the city of Kilkenny.",
+        "es": "Castillo medieval en la ciudad de Kilkenny."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ie-q2533198",
+      "name": "King John's Castle",
+      "area": "Limerick",
+      "city": "Limerick",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Medieval castle on the Shannon in Limerick.",
+        "es": "Castillo medieval junto al río Shannon en Limerick."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ie-q261012",
+      "name": "Guinness Storehouse",
+      "area": "Dublin",
+      "city": "Dublin",
+      "category": "experience",
+      "interests": [
+        "food",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Brewery museum and visitor experience in Dublin.",
+        "es": "Museo y experiencia de visita en la cervecería de Dublín."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

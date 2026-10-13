@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "CM",
+  "names": {
+    "en": "Cameroon",
+    "es": "Camerún"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "cm-q1051789",
+      "name": "Doual'art",
+      "area": "Douala",
+      "city": "Douala",
+      "category": "museum",
+      "interests": [
+        "art",
+        "museums"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Contemporary art centre in Douala with exhibitions and artist residencies.",
+        "es": "Centro de arte contemporáneo en Duala con exposiciones y residencias artísticas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cm-q15961646",
+      "name": "Blackitude Museum",
+      "area": "Yaoundé",
+      "city": "Yaoundé",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in Yaoundé dedicated to the Blackitude movement and African art.",
+        "es": "Museo en Yaundé dedicado al movimiento Negritud y al arte africano."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cm-q6356988",
+      "name": "Mvog-Betsi Zoo",
+      "area": "Yaoundé",
+      "city": "Yaoundé",
+      "category": "experience",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Zoo in Yaoundé with a range of African wildlife.",
+        "es": "Zoológico en Yaundé con una variedad de fauna africana."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cm-q108912427",
+      "name": "Royal Museum of Mankon",
+      "area": "Mezam",
+      "city": "Mezam",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Royal palace museum in Mankon, near Bamenda, showing traditional heritage.",
+        "es": "Museo en el palacio real de Mankon, cerca de Bamenda, sobre patrimonio tradicional."
+      },
+      "sourceId": "wikidata",
+      "admission": "Anglophone regions have security concerns; check current travel advice."
+    }
+  ]
+}

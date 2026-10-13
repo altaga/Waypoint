@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "TJ",
+  "names": {
+    "en": "Tajikistan",
+    "es": "Tayikistán"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "tj-q1962119",
+      "name": "Tajikistan National Museum",
+      "area": "Dushanbe",
+      "city": "Dushanbe",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum on Tajik history and culture, in Dushanbe.",
+        "es": "Museo nacional sobre la historia y cultura tayikas, en Dusambé."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tj-q1962237",
+      "name": "Historical Museum of Sughd",
+      "area": "Historical Museum of Sughd",
+      "city": "Historical Museum of Sughd",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Regional history museum of the Sughd region.",
+        "es": "Museo de historia regional de la región de Sughd."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tj-q13201851",
+      "name": "National Museum of Antiquities of Tajikistan",
+      "area": "Dushanbe",
+      "city": "Dushanbe",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of archaeological finds from Tajikistan, in Dushanbe.",
+        "es": "Museo de hallazgos arqueológicos de Tayikistán, en Dusambé."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tj-q5316871",
+      "name": "Dushanbe Zoo",
+      "area": "Dushanbe",
+      "city": "Dushanbe",
+      "category": "nature",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Zoo in Dushanbe with a range of animal species.",
+        "es": "Zoológico en Dusambé con diversas especies animales."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tj-q25582608",
+      "name": "Gurminj Museum of Musical Instruments",
+      "area": "Dushanbe",
+      "city": "Dushanbe",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of traditional musical instruments, in Dushanbe.",
+        "es": "Museo de instrumentos musicales tradicionales, en Dusambé."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tj-q117426036",
+      "name": "Rudaki Republican Museum of Regional History, Panjakent",
+      "area": "Panjakent",
+      "city": "Panjakent",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Regional history museum in Panjakent, an ancient Sogdian city.",
+        "es": "Museo de historia regional en Panjakent, antigua ciudad sogdiana."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

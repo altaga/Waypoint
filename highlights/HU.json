@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "HU",
+  "names": {
+    "en": "Hungary",
+    "es": "Hungría"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "hu-q680743",
+      "name": "Balatonfüred",
+      "area": "Balatonfüred District",
+      "city": "Balatonfüred",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "beaches"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Historic lakeside resort town on Lake Balaton.",
+        "es": "Histórica localidad turística a orillas del lago Balatón."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hu-q840886",
+      "name": "Museum of Fine Arts, Budapest",
+      "area": "Budapest",
+      "city": "Budapest",
+      "category": "museum",
+      "interests": [
+        "art",
+        "museums"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Fine arts museum in Budapest with European and ancient art.",
+        "es": "Museo de bellas artes en Budapest con arte europeo y antiguo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hu-q914141",
+      "name": "Hungarian National Museum",
+      "area": "Budapest",
+      "city": "Budapest",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum of Hungarian history in Budapest.",
+        "es": "Museo nacional de la historia de Hungría en Budapest."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hu-q372376",
+      "name": "House of Terror Museum",
+      "area": "Budapest",
+      "city": "Budapest",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum on the fascist and communist regimes in Hungary.",
+        "es": "Museo sobre los regímenes fascista y comunista en Hungría."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hu-q252071",
+      "name": "Hungarian National Gallery",
+      "area": "Budapest",
+      "city": "Budapest",
+      "category": "museum",
+      "interests": [
+        "art",
+        "museums"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National gallery of Hungarian art in Buda Castle.",
+        "es": "Galería nacional de arte húngaro en el Castillo de Buda."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hu-q1069906",
+      "name": "Memento Park",
+      "area": "Budapest",
+      "city": "Budapest",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Park displaying statues from Hungary's communist era.",
+        "es": "Parque con estatuas de la época comunista de Hungría."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hu-q1088467",
+      "name": "Museum of Applied Arts",
+      "area": "Budapest",
+      "city": "Budapest",
+      "category": "museum",
+      "interests": [
+        "art",
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of decorative and applied arts in Budapest.",
+        "es": "Museo de artes decorativas y aplicadas en Budapest."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hu-q922178",
+      "name": "Budapest Zoo & Botanical Garden",
+      "area": "Budapest",
+      "city": "Budapest",
+      "category": "nature",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Zoo and botanical garden in Budapest.",
+        "es": "Zoológico y jardín botánico en Budapest."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hu-q631356",
+      "name": "Baradla cave",
+      "area": "Aggtelek",
+      "city": "Aggtelek",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Limestone cave system in Aggtelek National Park.",
+        "es": "Sistema de cuevas calizas en el Parque Nacional de Aggtelek."
+      },
+      "sourceId": "wikidata",
+      "admission": "Visits are by guided tour only; check times in advance."
+    }
+  ]
+}

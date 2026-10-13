@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "VE",
+  "names": {
+    "en": "Venezuela",
+    "es": "Venezuela"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ve-q2630111",
+      "name": "Caracas Museum of Fine Arts",
+      "area": "Caracas",
+      "city": "Caracas",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fine arts museum in Caracas.",
+        "es": "Museo de bellas artes en Caracas."
+      },
+      "sourceId": "wikidata",
+      "admission": "Security conditions change quickly; check current official travel advice first."
+    },
+    {
+      "id": "ve-q212281",
+      "name": "National Art Gallery",
+      "area": "Caracas",
+      "city": "Caracas",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National art gallery in Caracas.",
+        "es": "Galería nacional de arte en Caracas."
+      },
+      "sourceId": "wikidata",
+      "admission": "Security conditions change quickly; check current official travel advice first."
+    },
+    {
+      "id": "ve-q2184071",
+      "name": "Contemporary Art Museum of Caracas",
+      "area": "Caracas",
+      "city": "Caracas",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Contemporary art museum in Caracas.",
+        "es": "Museo de arte contemporáneo en Caracas."
+      },
+      "sourceId": "wikidata",
+      "admission": "Security conditions change quickly; check current official travel advice first."
+    },
+    {
+      "id": "ve-q6033185",
+      "name": "Museo Bolivariano",
+      "area": "Caracas",
+      "city": "Caracas",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum dedicated to Simón Bolívar in Caracas.",
+        "es": "Museo dedicado a Simón Bolívar, en Caracas."
+      },
+      "sourceId": "wikidata",
+      "admission": "Security conditions change quickly; check current official travel advice first."
+    },
+    {
+      "id": "ve-q6188666",
+      "name": "Jesús Soto Museum of Modern Art",
+      "area": "Ciudad Bolívar",
+      "city": "Ciudad Bolívar",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Modern art museum in Ciudad Bolívar, dedicated to Jesús Soto.",
+        "es": "Museo de arte moderno en Ciudad Bolívar, dedicado a Jesús Soto."
+      },
+      "sourceId": "wikidata",
+      "admission": "Security conditions change quickly; check current official travel advice first."
+    },
+    {
+      "id": "ve-q2920273",
+      "name": "Coro Synagogue",
+      "area": "Falcón State",
+      "city": "Coro",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Historic synagogue in the colonial city of Coro.",
+        "es": "Antigua sinagoga en la ciudad colonial de Coro."
+      },
+      "sourceId": "wikidata",
+      "admission": "Security conditions change quickly; check current official travel advice first."
+    },
+    {
+      "id": "ve-q7139676",
+      "name": "Parque Zoológico Caricuao",
+      "area": "Caricuao",
+      "city": "Caracas",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Zoo in the Caricuao parish of Caracas.",
+        "es": "Zoológico en la parroquia Caricuao de Caracas."
+      },
+      "sourceId": "wikidata",
+      "admission": "Security conditions change quickly; check current official travel advice first."
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "BY",
+  "names": {
+    "en": "Belarus",
+    "es": "Bielorrusia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "by-q23868",
+      "name": "Brest Fortress",
+      "area": "Brest",
+      "city": "Brest",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Fortress memorial in Brest, known for its defence in 1941.",
+        "es": "Fortaleza memorial en Brest, conocida por su defensa en 1941."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "by-q2584571",
+      "name": "Belarusian National Arts Museum",
+      "area": "Minsk",
+      "city": "Minsk",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National art museum in Minsk with Belarusian painting and applied arts.",
+        "es": "Museo nacional de arte en Minsk con pintura bielorrusa y artes aplicadas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "by-q1710170",
+      "name": "Tower of Kamianiec",
+      "area": "Kamianiec",
+      "city": "Kamianiec",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Medieval brick defensive tower in the Brest region.",
+        "es": "Torre defensiva medieval de ladrillo en la región de Brest."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "by-q2073524",
+      "name": "Belarusian Great Patriotic War Museum",
+      "area": "Minsk",
+      "city": "Minsk",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in Minsk on the Second World War, called the Great Patriotic War locally.",
+        "es": "Museo en Minsk sobre la Segunda Guerra Mundial, llamada allí Gran Guerra Patriótica."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "by-q2034395",
+      "name": "Belarusian National History and Culture Museum",
+      "area": "Minsk",
+      "city": "Minsk",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in Minsk covering the history and culture of Belarus.",
+        "es": "Museo en Minsk sobre la historia y la cultura de Bielorrusia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "by-q2376115",
+      "name": "Minsk Zoo",
+      "area": "Minsk",
+      "city": "Minsk",
+      "category": "experience",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Zoo in Minsk with a wide range of animal species.",
+        "es": "Zoológico en Minsk con una amplia variedad de especies animales."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "by-q2471155",
+      "name": "Narač",
+      "area": "Naracki sieĺsaviet",
+      "city": "Naracki sieĺsaviet",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Lakeside village and resort area around Lake Narach.",
+        "es": "Pueblo y zona turística junto al lago Narach."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "by-q1995542",
+      "name": "Marc Chagall Museum",
+      "area": "Vitebsk",
+      "city": "Vitebsk",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Museum in Vitebsk devoted to the work of painter Marc Chagall.",
+        "es": "Museo en Vitebsk dedicado a la obra del pintor Marc Chagall."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "by-q13133440",
+      "name": "Jesuit College in Polotsk",
+      "area": "Polatsak",
+      "city": "Polatsak",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Historic Jesuit college complex in Polotsk, a baroque landmark.",
+        "es": "Antiguo colegio jesuita en Polotsk, un referente del barroco."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

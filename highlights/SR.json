@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SR",
+  "names": {
+    "en": "Suriname",
+    "es": "Surinam"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "sr-q1960505",
+      "name": "Surinaams Museum",
+      "area": "Paramaribo",
+      "city": "Paramaribo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum on Suriname's history and culture, in Paramaribo.",
+        "es": "Museo nacional sobre la historia y cultura de Surinam, en Paramaribo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sr-q922908",
+      "name": "Paramaribo Zoo",
+      "area": "Paramaribo District",
+      "city": "Paramaribo District",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Zoo in Paramaribo with tropical animals.",
+        "es": "Zoológico en Paramaribo con animales tropicales."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

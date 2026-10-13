@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "AL",
+  "names": {
+    "en": "Albania",
+    "es": "Albania"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "al-q1581154",
+      "name": "National Historical Museum",
+      "area": "Tirana",
+      "city": "Tirana",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of Albanian history on Skanderbeg Square, Tirana.",
+        "es": "Museo de la historia albanesa en la plaza Skanderbeg de Tirana."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "al-q3303191",
+      "name": "Gjergj Kastrioti Skënderbeu National Museum",
+      "area": "Krujë",
+      "city": "Krujë",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum dedicated to national hero Skanderbeg, in Krujë.",
+        "es": "Museo dedicado al héroe nacional Skanderbeg, en Krujë."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "al-q37858697",
+      "name": "House of Leaves",
+      "area": "Tirana municipality",
+      "city": "Tirana municipality",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum on state surveillance in the communist era, in Tirana.",
+        "es": "Museo sobre la vigilancia estatal en la época comunista, en Tirana."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "al-q637170",
+      "name": "National Archaeological Museum",
+      "area": "Tirana",
+      "city": "Tirana",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Archaeological museum with finds from across Albania.",
+        "es": "Museo arqueológico con hallazgos de toda Albania."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "al-q1968108",
+      "name": "National Art Gallery of Albania",
+      "area": "Tirana municipality",
+      "city": "Tirana municipality",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "National art gallery with Albanian painting and sculpture.",
+        "es": "Galería nacional de arte con pintura y escultura albanesas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "al-q5316767",
+      "name": "Durrës Archaeological Museum",
+      "area": "Durrës",
+      "city": "Durrës",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of finds from the ancient port city of Durrës.",
+        "es": "Museo con hallazgos de la antigua ciudad portuaria de Durrës."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "al-q6940744",
+      "name": "Museum of Apollonia",
+      "area": "Pojan",
+      "city": "Pojan",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Museum at the ancient city of Apollonia.",
+        "es": "Museo en la antigua ciudad de Apolonia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "al-q6974484",
+      "name": "National Museum of Medieval Art",
+      "area": "Korçë municipality",
+      "city": "Korçë municipality",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of medieval icons and religious art, in Korçë.",
+        "es": "Museo de iconos y arte religioso medieval, en Korçë."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

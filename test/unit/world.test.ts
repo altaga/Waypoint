@@ -52,6 +52,7 @@ test("curated highlights win over the worldwide ranking for the same country", (
   assert.equal(h.forCountry("JP")?.review.status, "curated_unverified");
   assert.ok(h.place("jp-senso-ji"));
   const ranked = h.countries().filter((iso) => h.forCountry(iso)?.review.status === "wikidata_ranked");
-  assert.ok(ranked.length > 50, `only ${ranked.length} countries ranked worldwide`);
   assert.ok(!ranked.includes("JP"));
+  // Every country that has a place list has exactly one of the two kinds.
+  for (const iso of h.countries()) assert.ok(["curated_unverified", "human_reviewed", "wikidata_ranked"].includes(h.forCountry(iso)!.review.status));
 });

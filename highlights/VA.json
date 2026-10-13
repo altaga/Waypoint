@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "VA",
+  "names": {
+    "en": "Vatican City",
+    "es": "Ciudad del Vaticano"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "va-q12512",
+      "name": "St. Peter's Basilica",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "art",
+        "temples"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Major basilica in Vatican City, with contributions by Michelangelo.",
+        "es": "Gran basílica en la Ciudad del Vaticano, con aportes de Miguel Ángel."
+      },
+      "sourceId": "wikidata",
+      "admission": "Free entry; security checks and dress code apply."
+    },
+    {
+      "id": "va-q182955",
+      "name": "Vatican Museums",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Museum complex with the Sistine Chapel and many collections.",
+        "es": "Complejo de museos con la Capilla Sixtina y numerosas colecciones."
+      },
+      "sourceId": "wikidata",
+      "admission": "Timed tickets; book ahead online."
+    },
+    {
+      "id": "va-q498557",
+      "name": "Borgia Apartment",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Frescoed apartment inside the Vatican Museums.",
+        "es": "Apartamento con frescos dentro de los Museos Vaticanos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "va-q774940",
+      "name": "Pinacoteca Vaticana",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Vatican picture gallery of old master paintings.",
+        "es": "Galería vaticana de pinturas de maestros antiguos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "va-q634691",
+      "name": "Gallery of Maps",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Long gallery with painted maps of Italy, inside the Vatican Museums.",
+        "es": "Galería larga con mapas pintados de Italia, dentro de los Museos Vaticanos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "va-q1439912",
+      "name": "Pio-Clementino museum",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of classical sculpture in the Vatican Museums.",
+        "es": "Museo de escultura clásica dentro de los Museos Vaticanos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "va-q1452731",
+      "name": "Vatican Historical Museum",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of papal history, with carriages and uniforms.",
+        "es": "Museo de la historia papal, con carrozas y uniformes."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "va-q1452723",
+      "name": "Museo Chiaramonti",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Gallery of Roman sculpture in the Vatican Museums.",
+        "es": "Galería de escultura romana dentro de los Museos Vaticanos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "va-q2034945",
+      "name": "Collection of Modern Religious Art, Vatican Museums",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Collection of modern religious art in the Vatican Museums.",
+        "es": "Colección de arte religioso moderno dentro de los Museos Vaticanos."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

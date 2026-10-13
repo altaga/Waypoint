@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "RU",
+  "names": {
+    "en": "Russia",
+    "es": "Rusia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ru-q133274",
+      "name": "Kremlin",
+      "area": "Moscow",
+      "city": "Moscow",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "museums"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Fortified complex in central Moscow with cathedrals, palaces and museums.",
+        "es": "Complejo fortificado en el centro de Moscú, con catedrales, palacios y museos."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current entry rules and your government's travel advice before going."
+    },
+    {
+      "id": "ru-q132783",
+      "name": "Hermitage Museum",
+      "area": "Saint Petersburg",
+      "city": "Saint Petersburg",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "architecture"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Major art museum in Saint Petersburg, housed in the Winter Palace.",
+        "es": "Gran museo de arte en San Petersburgo, instalado en el Palacio de Invierno."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ru-q129846",
+      "name": "St. Basil's Cathedral",
+      "area": "Moscow",
+      "city": "Moscow",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history",
+        "temples"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Colourful 16th-century cathedral on Red Square in Moscow.",
+        "es": "Catedral de colores vivos del siglo XVI en la Plaza Roja de Moscú."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ru-q191414",
+      "name": "Lenin's Mausoleum",
+      "area": "Moscow",
+      "city": "Moscow",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Mausoleum on Red Square housing the embalmed body of Vladimir Lenin.",
+        "es": "Mausoleo en la Plaza Roja que alberga el cuerpo embalsamado de Vladímir Lenin."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ru-q111048",
+      "name": "Veliky Ustyug",
+      "area": "Vologda Oblast",
+      "city": "Veliky Ustyug",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "temples"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Historic northern town in Vologda Oblast with historic churches.",
+        "es": "Antigua ciudad del norte en el óblast de Vologda, con iglesias históricas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ru-q183334",
+      "name": "Tretyakov Gallery",
+      "area": "Moscow",
+      "city": "Moscow",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Russian art museum in Moscow with a large collection of icons and paintings.",
+        "es": "Museo de arte ruso en Moscú, con una gran colección de iconos y pinturas."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

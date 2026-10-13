@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "XK",
+  "names": {
+    "en": "Kosovo",
+    "es": "Kosovo"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "xk-q513756",
+      "name": "King's Mosque in Pristina",
+      "area": "Pristina",
+      "city": "Pristina",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Historic mosque in Pristina.",
+        "es": "Mezquita histórica en Pristina."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "xk-q2097655",
+      "name": "Sinan Pasha Mosque in Prizren",
+      "area": "Prizren Municipality",
+      "city": "Prizren",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Ottoman-era mosque in Prizren.",
+        "es": "Mezquita de la época otomana en Prizren."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "xk-q16854755",
+      "name": "National Museum of Kosovo",
+      "area": "Pristina",
+      "city": "Pristina",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum of Kosovo in Pristina.",
+        "es": "Museo nacional de Kosovo, en Pristina."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "xk-q16334463",
+      "name": "National Gallery of Kosovo",
+      "area": "Pristina",
+      "city": "Pristina",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "National art gallery in Pristina.",
+        "es": "Galería nacional de arte en Pristina."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "xk-q769963",
+      "name": "Terzi Bridge",
+      "area": "Gjakova Municipality",
+      "city": "Gjakova",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 20,
+      "desc": {
+        "en": "Historic bridge in Gjakova.",
+        "es": "Puente histórico en Gjakova."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "xk-q3324861",
+      "name": "Hadum Mosque",
+      "area": "Gjakova Municipality",
+      "city": "Gjakova",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Historic mosque in Gjakova.",
+        "es": "Mezquita histórica en Gjakova."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "xk-q4451245",
+      "name": "Cathedral of Our Lady of Perpetual Succour",
+      "area": "Prizren Municipality",
+      "city": "Prizren",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "architecture"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Catholic cathedral in Prizren.",
+        "es": "Catedral católica en Prizren."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "ME",
+  "names": {
+    "en": "Montenegro",
+    "es": "Montenegro"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "me-q2265459",
+      "name": "National Museum of Montenegro",
+      "area": "Cetinje",
+      "city": "Cetinje",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum in the historic royal capital of Cetinje.",
+        "es": "Museo nacional en la histórica antigua capital real de Cetinje."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "me-q16258342",
+      "name": "Church-Mosque of Ulcinj",
+      "area": "Ulcinj",
+      "city": "Ulcinj",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Historic building in Ulcinj that has served as both a church and a mosque.",
+        "es": "Edificio histórico de Ulcinj que ha funcionado como iglesia y como mezquita."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "me-q23808470",
+      "name": "Lipa Cave",
+      "area": "Cetinje",
+      "city": "Cetinje",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "sights"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Show cave with stalactites and galleries, near Cetinje.",
+        "es": "Cueva turística con estalactitas y galerías, cerca de Cetinje."
+      },
+      "sourceId": "wikidata",
+      "admission": "Visits are by guided tour."
+    }
+  ]
+}

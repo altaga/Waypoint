@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "YE",
+  "names": {
+    "en": "Yemen",
+    "es": "Yemen"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ye-q12204203",
+      "name": "Al-Ashrafiya Madrasa",
+      "area": "Ta'izz Governorate",
+      "city": "Ta'izz",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history",
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Historic madrasah in Ta'izz.",
+        "es": "Madrasa histórica en Taiz."
+      },
+      "sourceId": "wikidata",
+      "admission": "Serious security risks; check current official travel advice before planning."
+    },
+    {
+      "id": "ye-q1837324",
+      "name": "National Museum of Yemen",
+      "area": "Sanaa",
+      "city": "Sanaa",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum of Yemen's history, in Sanaa.",
+        "es": "Museo nacional de la historia de Yemen, en Saná."
+      },
+      "sourceId": "wikidata",
+      "admission": "Serious security risks; check current official travel advice before planning."
+    }
+  ]
+}

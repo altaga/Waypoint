@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "CH",
+  "names": {
+    "en": "Switzerland",
+    "es": "Suiza"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ch-q598646",
+      "name": "Olympic Museum",
+      "area": "Lausanne",
+      "city": "Lausanne",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "family"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Museum in Lausanne on the history of the Olympic Games and sport.",
+        "es": "Museo en Lausana sobre la historia de los Juegos Olímpicos y del deporte."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ch-q25225",
+      "name": "Chapel Bridge",
+      "area": "Lucerne",
+      "city": "Lucerne",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Covered wooden footbridge in Lucerne, with painted panels under its roof.",
+        "es": "Puente peatonal de madera cubierto en Lucerna, con paneles pintados bajo el techo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ch-q194626",
+      "name": "Kunstmuseum Basel",
+      "area": "Basel",
+      "city": "Basel",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Art museum in Basel with European works spanning several centuries.",
+        "es": "Museo de arte en Basilea con obras europeas de varios siglos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ch-q685038",
+      "name": "Kunsthaus Zürich",
+      "area": "District 1",
+      "city": "District 1",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Art museum in Zurich with a large collection of Swiss and European art.",
+        "es": "Museo de arte en Zúrich con una amplia colección de arte suizo y europeo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ch-q691896",
+      "name": "National Museum Zurich",
+      "area": "Zurich",
+      "city": "Zurich",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Swiss national history museum in Zurich, in a castle-style building.",
+        "es": "Museo nacional de historia suiza en Zúrich, en un edificio de estilo castillo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ch-q246105",
+      "name": "Zytglogge",
+      "area": "Bern",
+      "city": "Bern",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Medieval clock tower in Bern's old town.",
+        "es": "Torre del reloj medieval en el casco antiguo de Berna."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ch-q679075",
+      "name": "Museum of Art and History Geneva",
+      "area": "Geneva",
+      "city": "Geneva",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum in Geneva covering art, archaeology and history.",
+        "es": "Museo en Ginebra sobre arte, arqueología e historia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ch-q194622",
+      "name": "Kunstmuseum Bern",
+      "area": "Bern",
+      "city": "Bern",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Art museum in Bern with Swiss and European paintings and drawings.",
+        "es": "Museo de arte en Berna con pinturas y dibujos suizos y europeos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ch-q688315",
+      "name": "Bern Minster",
+      "area": "Bern",
+      "city": "Bern",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "sights",
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Gothic cathedral in Bern's old town.",
+        "es": "Catedral gótica en el casco antiguo de Berna."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ch-q673833",
+      "name": "Beyeler Foundation",
+      "area": "Riehen",
+      "city": "Riehen",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Modern art museum in Riehen, near Basel, in a building by Renzo Piano.",
+        "es": "Museo de arte moderno en Riehen, cerca de Basilea, en un edificio de Renzo Piano."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

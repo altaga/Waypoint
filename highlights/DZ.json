@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "DZ",
+  "names": {
+    "en": "Algeria",
+    "es": "Argelia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "dz-q3846204",
+      "name": "Emir Abdelkader Mosque",
+      "area": "Hamma Bouziane",
+      "city": "Hamma Bouziane",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Large mosque in the Constantine area, named after Emir Abdelkader.",
+        "es": "Gran mezquita en la zona de Constantina, con el nombre del emir Abdelkader."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "dz-q3324913",
+      "name": "Sidi Bel Hasan Mosque",
+      "area": "Tlemcen",
+      "city": "Tlemcen",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Historic mosque in Tlemcen, in western Algeria.",
+        "es": "Mezquita histórica en Tlemecén, en el oeste de Argelia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "dz-q3126504",
+      "name": "Hammam Meskhoutine",
+      "area": "Hammam Meskhoutine",
+      "city": "Hammam Meskhoutine",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Hot springs and travertine formations near Guelma.",
+        "es": "Aguas termales y formaciones de travertino cerca de Guelma."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "dz-q2912600",
+      "name": "National Museum of Fine Arts of Algiers",
+      "area": "Algiers",
+      "city": "Algiers",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National fine arts museum in Algiers, with Algerian and European art.",
+        "es": "Museo nacional de bellas artes en Argel, con arte argelino y europeo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "dz-q663776",
+      "name": "Museum of Modern Art of Algiers",
+      "area": "Algiers",
+      "city": "Algiers",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Modern art museum in Algiers with works by Algerian artists.",
+        "es": "Museo de arte moderno en Argel con obras de artistas argelinos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "dz-q3330723",
+      "name": "Museum of Antiquities",
+      "area": "Algiers",
+      "city": "Algiers",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Archaeology museum in Algiers with objects from Algeria's ancient past.",
+        "es": "Museo de arqueología en Argel con objetos del pasado antiguo de Argelia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "dz-q3330730",
+      "name": "Bardo National Museum",
+      "area": "Algiers Province",
+      "city": "Algiers Province",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in Bardo, Algiers, with archaeology and history collections.",
+        "es": "Museo en Bardo, Argel, con colecciones de arqueología e historia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "dz-q4785393",
+      "name": "Archaeological Museum of Cherchell",
+      "area": "Cherchell",
+      "city": "Cherchell",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Archaeological museum in Cherchell, with Roman sculptures from the ancient city.",
+        "es": "Museo arqueológico en Cherchell, con esculturas romanas de la antigua ciudad."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

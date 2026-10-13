@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "EC",
+  "names": {
+    "en": "Ecuador",
+    "es": "Ecuador"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ec-q5640065",
+      "name": "La Capilla del Hombre",
+      "area": "Quito",
+      "city": "Quito",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Art space in Quito dedicated to the work of painter Oswaldo Guayasamín.",
+        "es": "Espacio de arte en Quito dedicado a la obra del pintor Oswaldo Guayasamín."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ec-q50327423",
+      "name": "Old Cathedral of Cuenca",
+      "area": "Cuenca",
+      "city": "Cuenca",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history",
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Historic colonial-era cathedral in Cuenca.",
+        "es": "Antigua catedral de la época colonial en Cuenca."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ec-q6034022",
+      "name": "Gustavo Orcés V. Natural History Museum",
+      "area": "Gustavo Orcés V. Natural History Museum",
+      "city": "Gustavo Orcés V. Natural History Museum",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Natural history museum in Quito with collections on the country's wildlife.",
+        "es": "Museo de historia natural en Quito con colecciones sobre la fauna del país."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ec-q18416972",
+      "name": "Sucre House",
+      "area": "Sucre House",
+      "city": "Sucre House",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Historic house in Quito linked to Antonio José de Sucre, a figure of independence.",
+        "es": "Casa histórica en Quito vinculada a Antonio José de Sucre, figura de la independencia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ec-q19896440",
+      "name": "City Museum",
+      "area": "Quito",
+      "city": "Quito",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Museum in Quito on the history of the city, from colonial times onward.",
+        "es": "Museo en Quito sobre la historia de la ciudad, desde la época colonial."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

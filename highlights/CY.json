@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "CY",
+  "names": {
+    "en": "Cyprus",
+    "es": "Chipre"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "cy-q1148462",
+      "name": "Cyprus Museum",
+      "area": "Ayios Andreas",
+      "city": "Ayios Andreas",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Archaeological museum in Nicosia with artifacts spanning Cypriot history.",
+        "es": "Museo arqueológico en Nicosia con piezas de la historia de Chipre."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cy-q1365162",
+      "name": "Haydar Pasha Mosque",
+      "area": "North Nicosia",
+      "city": "North Nicosia",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Ottoman-era mosque in North Nicosia.",
+        "es": "Mezquita de la época otomana en el norte de Nicosia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cy-q2247315",
+      "name": "Limassol Castle",
+      "area": "Limassol Municipality",
+      "city": "Limassol Municipality",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Medieval castle in Limassol with a museum on the island's medieval past.",
+        "es": "Castillo medieval en Limasol, con un museo sobre el pasado medieval de la isla."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cy-q12065255",
+      "name": "Paphos Archaeological Park",
+      "area": "Paphos",
+      "city": "Paphos",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Archaeological park in Paphos with Roman villas and mosaic floors.",
+        "es": "Parque arqueológico en Pafos con villas romanas y suelos de mosaico."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cy-q16677642",
+      "name": "St. Barnabas Monastery",
+      "area": "St. Barnabas Monastery",
+      "city": "St. Barnabas Monastery",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Orthodox monastery in the north of Cyprus, linked to Saint Barnabas.",
+        "es": "Monasterio ortodoxo en el norte de Chipre, vinculado a san Bernabé."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cy-q4140950",
+      "name": "Archbishop's Palace",
+      "area": "Nicosia",
+      "city": "Nicosia",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Archbishop's palace in Nicosia, seat of the Cypriot Orthodox Church.",
+        "es": "Palacio del arzobispo en Nicosia, sede de la Iglesia ortodoxa de Chipre."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cy-q6535231",
+      "name": "Leventio Museum",
+      "area": "Ledra Street",
+      "city": "Ledra Street",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum on Ledra Street in the old town of Nicosia.",
+        "es": "Museo en la calle Ledra, en el casco antiguo de Nicosia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cy-q6489690",
+      "name": "Larnaca District Archaeological Museum",
+      "area": "Larnaca",
+      "city": "Larnaca",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Archaeological museum in Larnaca with finds from across the district.",
+        "es": "Museo arqueológico en Larnaca con hallazgos de todo el distrito."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cy-q3329448",
+      "name": "Paphos Archaeological Museum",
+      "area": "Paphos",
+      "city": "Paphos",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Archaeological museum in Paphos displaying finds from the region.",
+        "es": "Museo arqueológico en Pafos con hallazgos de la región."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

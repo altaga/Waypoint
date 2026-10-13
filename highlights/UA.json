@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "UA",
+  "names": {
+    "en": "Ukraine",
+    "es": "Ucrania"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ua-q830054",
+      "name": "Saint Sophia Cathedral",
+      "area": "Kyiv",
+      "city": "Kyiv",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history",
+        "temples"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Historic Orthodox cathedral in Kyiv.",
+        "es": "Catedral ortodoxa histórica en Kyiv."
+      },
+      "sourceId": "wikidata",
+      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first."
+    },
+    {
+      "id": "ua-q1440653",
+      "name": "House with Chimaeras",
+      "area": "Kyiv",
+      "city": "Kyiv",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Mansion with decorative sculpture in Kyiv.",
+        "es": "Mansión con escultura decorativa en Kyiv."
+      },
+      "sourceId": "wikidata",
+      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first."
+    },
+    {
+      "id": "ua-q1427503",
+      "name": "Golden Gate",
+      "area": "Kyiv",
+      "city": "Kyiv",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Historic gate in central Kyiv.",
+        "es": "Puerta histórica en el centro de Kyiv."
+      },
+      "sourceId": "wikidata",
+      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first."
+    },
+    {
+      "id": "ua-q167321",
+      "name": "Saint Andrew's Church",
+      "area": "Kyiv",
+      "city": "Kyiv",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Baroque church in Kyiv.",
+        "es": "Iglesia barroca en Kyiv."
+      },
+      "sourceId": "wikidata",
+      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first."
+    },
+    {
+      "id": "ua-q2297522",
+      "name": "Sofiyivsky Park",
+      "area": "Uman",
+      "city": "Uman",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Historic landscape park in Uman.",
+        "es": "Parque paisajístico histórico en Uman."
+      },
+      "sourceId": "wikidata",
+      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first."
+    },
+    {
+      "id": "ua-q1189277",
+      "name": "National Art Museum of Ukraine",
+      "area": "Kyiv",
+      "city": "Kyiv",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National art museum in Kyiv.",
+        "es": "Museo nacional de arte en Kyiv."
+      },
+      "sourceId": "wikidata",
+      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first."
+    },
+    {
+      "id": "ua-q157440",
+      "name": "Truskavets",
+      "area": "Lviv Oblast",
+      "city": "Truskavets",
+      "category": "experience",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Spa town known for its mineral springs.",
+        "es": "Ciudad balneario conocida por sus manantiales minerales."
+      },
+      "sourceId": "wikidata",
+      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first."
+    }
+  ]
+}

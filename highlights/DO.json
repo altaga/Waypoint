@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "DO",
+  "names": {
+    "en": "Dominican Republic",
+    "es": "República Dominicana"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "do-q668772",
+      "name": "Alcázar de Colón",
+      "area": "Alcázar de Colón",
+      "city": "Alcázar de Colón",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "16th-century palace in Santo Domingo's colonial zone, now a museum.",
+        "es": "Palacio del siglo XVI en la zona colonial de Santo Domingo, hoy museo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "do-q5472510",
+      "name": "Fortaleza San Felipe",
+      "area": "Luperon pto pta",
+      "city": "Luperon pto pta",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Colonial-era fort on the north coast, in Puerto Plata.",
+        "es": "Fortaleza de la época colonial en la costa norte, en Puerto Plata."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "do-q13619956",
+      "name": "Museum Memorial de la Resistencia Dominicana",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in Santo Domingo on the resistance to the Trujillo dictatorship.",
+        "es": "Museo en Santo Domingo sobre la resistencia contra la dictadura de Trujillo."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

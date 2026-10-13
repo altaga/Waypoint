@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SV",
+  "names": {
+    "en": "El Salvador",
+    "es": "El Salvador"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "sv-q1541926",
+      "name": "Museo de la Palabra y la Imagen",
+      "area": "San Salvador",
+      "city": "San Salvador",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum on Salvadoran history and culture, in San Salvador.",
+        "es": "Museo sobre la historia y cultura salvadoreñas, en San Salvador."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sv-q5668865",
+      "name": "Museo de la Fuerza Armada de El Salvador",
+      "area": "San Salvador",
+      "city": "San Salvador",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Military museum on the history of El Salvador's armed forces, in San Salvador.",
+        "es": "Museo militar sobre la historia de las Fuerzas Armadas de El Salvador, en San Salvador."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sv-q6941114",
+      "name": "Museum of the Revolution",
+      "area": "Perquín",
+      "city": "Perquín",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum on the Salvadoran civil war, in Perquín.",
+        "es": "Museo sobre la guerra civil salvadoreña, en Perquín."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sv-q6033911",
+      "name": "Museo de Arte de El Salvador",
+      "area": "San Salvador",
+      "city": "San Salvador",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Art museum with Salvadoran and Latin American works, in San Salvador.",
+        "es": "Museo de arte con obras salvadoreñas y latinoamericanas, en San Salvador."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

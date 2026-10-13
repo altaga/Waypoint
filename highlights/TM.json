@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "TM",
+  "names": {
+    "en": "Turkmenistan",
+    "es": "Turkmenistán"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "tm-q3323339",
+      "name": "Independence Monument, Ashgabat",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "architecture"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Monument in central Ashgabat, the capital of Turkmenistan.",
+        "es": "Monumento en el centro de Asjabad, la capital de Turkmenistán."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tm-q1835821",
+      "name": "Turkmen Carpet Museum",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of Turkmen carpets and textile arts, in Ashgabat.",
+        "es": "Museo de alfombras y artes textiles turcomanas, en Asjabad."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tm-q1835360",
+      "name": "The State Museum of the State Cultural Center of Turkmenistan",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "State museum with collections on Turkmen history and culture, in Ashgabat.",
+        "es": "Museo estatal con colecciones sobre la historia y cultura turcomanas, en Asjabad."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tm-q7855419",
+      "name": "Turkmen Museum of Fine Arts",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fine arts museum in Ashgabat.",
+        "es": "Museo de bellas artes en Asjabad."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tm-q4283341",
+      "name": "Mary Museum",
+      "area": "Mary",
+      "city": "Mary",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Regional museum in Mary, in southern Turkmenistan.",
+        "es": "Museo regional en Mary, en el sur de Turkmenistán."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

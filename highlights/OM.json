@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "OM",
+  "names": {
+    "en": "Oman",
+    "es": "Omán"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "om-q2158194",
+      "name": "The National Museum - Sultanate of Oman",
+      "area": "Muscat",
+      "city": "Muscat",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum in Muscat covering Oman's history and culture.",
+        "es": "Museo nacional en Mascate sobre la historia y la cultura de Omán."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "om-q2157528",
+      "name": "Oman Natural History Museum",
+      "area": "Muscat",
+      "city": "Muscat",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of Oman's natural history and wildlife.",
+        "es": "Museo de la historia natural y la fauna de Omán."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "om-q3329080",
+      "name": "Bait al Zubair Museum",
+      "area": "Muscat",
+      "city": "Muscat",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of traditional Omani life housed in a historic family residence.",
+        "es": "Museo de la vida tradicional omaní en una antigua residencia familiar."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "om-q3330063",
+      "name": "Muscat Gate Museum",
+      "area": "Muscat",
+      "city": "Muscat",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum at Muscat Gate in Old Muscat showing local history.",
+        "es": "Museo en la Puerta de Mascate, en el casco antiguo, sobre la historia local."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "om-q7089526",
+      "name": "Oman Children's Museum",
+      "area": "Muscat",
+      "city": "Muscat",
+      "category": "museum",
+      "interests": [
+        "family",
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Hands-on museum for children in Muscat.",
+        "es": "Museo interactivo para niños en Mascate."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "IS",
+  "names": {
+    "en": "Iceland",
+    "es": "Islandia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "is-q626963",
+      "name": "National Museum of Iceland",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National history museum in Reykjavík.",
+        "es": "Museo nacional de historia en Reikiavik."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "is-q3358410",
+      "name": "Reykjavik Art Museum",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Art museum with several venues across Reykjavík.",
+        "es": "Museo de arte con varias sedes en Reikiavik."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "is-q3480309",
+      "name": "National Gallery of Iceland",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Gallery of Icelandic painting and sculpture in Reykjavík.",
+        "es": "Galería de pintura y escultura islandesas en Reikiavik."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "is-q3481984",
+      "name": "Árbæjarsafn",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Open-air museum of historic buildings in Reykjavík.",
+        "es": "Museo al aire libre de edificios históricos en Reikiavik."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "is-q15049871",
+      "name": "Þjóðveldisbærinn Stöng",
+      "area": "Þjóðveldisbærinn Stöng",
+      "city": "Þjóðveldisbærinn Stöng",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Reconstructed Viking-age farm at the Stöng archaeological site.",
+        "es": "Granja vikinga reconstruida en el yacimiento arqueológico de Stöng."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "is-q4163674",
+      "name": "Viking World museum",
+      "area": "Viking World museum",
+      "city": "Viking World museum",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of Viking-age history near Keflavík.",
+        "es": "Museo de la historia de la era vikinga, cerca de Keflavík."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "is-q356308",
+      "name": "The Living Art Museum",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Contemporary art museum run by artists in Reykjavík.",
+        "es": "Museo de arte contemporáneo gestionado por artistas en Reikiavik."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "is-q10480451",
+      "name": "Eiríksstaðir",
+      "area": "Dalabyggð",
+      "city": "Dalabyggð",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Reconstructed Viking-age longhouse linked to Erik the Red.",
+        "es": "Casa vikinga reconstruida vinculada a Erik el Rojo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "is-q2312229",
+      "name": "Gljúfrasteinn",
+      "area": "Mosfellsbær",
+      "city": "Mosfellsbær",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Former home of Nobel laureate Halldór Laxness, now a museum.",
+        "es": "Antigua casa del premio Nobel Halldór Laxness, hoy museo."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

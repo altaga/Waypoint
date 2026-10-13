@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "MN",
+  "names": {
+    "en": "Mongolia",
+    "es": "Mongolia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "mn-q2093410",
+      "name": "Choijin Lama Temple",
+      "area": "Ulaanbaatar",
+      "city": "Ulaanbaatar",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Buddhist monastery complex in Ulaanbaatar, with temples and a museum.",
+        "es": "Complejo monástico budista en Ulán Bator, con templos y un museo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mn-q2154176",
+      "name": "National Museum of Mongolia",
+      "area": "Ulaanbaatar",
+      "city": "Ulaanbaatar",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum in Ulaanbaatar covering Mongolia's history and culture.",
+        "es": "Museo nacional en Ulán Bator sobre la historia y la cultura de Mongolia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mn-q2154359",
+      "name": "Natural History Museum",
+      "area": "Ulaanbaatar",
+      "city": "Ulaanbaatar",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Museum of Mongolian natural history, with fossils and local wildlife.",
+        "es": "Museo de historia natural de Mongolia, con fósiles y fauna local."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mn-q2370206",
+      "name": "Fine Arts Zanabazar Museum",
+      "area": "Ulaanbaatar",
+      "city": "Ulaanbaatar",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Museum of Mongolian fine arts, named after the sculptor Zanabazar.",
+        "es": "Museo de bellas artes de Mongolia, que lleva el nombre del escultor Zanabazar."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mn-q2154295",
+      "name": "Kharakhorum Museum",
+      "area": "Kharkhorin",
+      "city": "Kharkhorin",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in Kharkhorin, near the site of the medieval capital Karakorum.",
+        "es": "Museo en Kharkhorin, cerca del emplazamiento de la antigua capital Karakorum."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mn-q2368924",
+      "name": "Ulaanbaatar City Museum",
+      "area": "Ulaanbaatar",
+      "city": "Ulaanbaatar",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum on the history and development of Ulaanbaatar.",
+        "es": "Museo sobre la historia y el desarrollo de Ulán Bator."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mn-q25631559",
+      "name": "Memorial Museum of Victims of Political Repression",
+      "area": "Ulaanbaatar",
+      "city": "Ulaanbaatar",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum on the victims of political repression in twentieth-century Mongolia.",
+        "es": "Museo sobre las víctimas de la represión política en Mongolia en el siglo XX."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mn-q31188106",
+      "name": "Göktürk Museum",
+      "area": "Khashaat",
+      "city": "Khashaat",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum on the Göktürk period, an early medieval Turkic state of Central Asia.",
+        "es": "Museo sobre el periodo göktürk, un antiguo estado turco de Asia Central."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

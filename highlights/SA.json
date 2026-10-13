@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SA",
+  "names": {
+    "en": "Saudi Arabia",
+    "es": "Arabia Saudí"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "sa-q428858",
+      "name": "Al-Masjid Al-Haram",
+      "area": "Mecca",
+      "city": "Mecca",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Grand Mosque in Mecca surrounding the Kaaba.",
+        "es": "Gran Mezquita de La Meca que rodea la Kaaba."
+      },
+      "sourceId": "wikidata",
+      "admission": "Non-Muslims are not permitted to enter Mecca."
+    },
+    {
+      "id": "sa-q486080",
+      "name": "Prophet's Mosque",
+      "area": "Medina",
+      "city": "Medina",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mosque in Medina containing the tomb of the Prophet Muhammad.",
+        "es": "Mezquita en Medina que alberga la tumba del profeta Mahoma."
+      },
+      "sourceId": "wikidata",
+      "admission": "Access rules for non-Muslims are strict; check current rules before going."
+    },
+    {
+      "id": "sa-q656743",
+      "name": "Kingdom Centre",
+      "area": "Riyadh",
+      "city": "Riyadh",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Skyscraper in Riyadh known for its skybridge.",
+        "es": "Rascacielos de Riad conocido por su puente mirador."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sa-q751987",
+      "name": "Masmak Fort",
+      "area": "Riyadh",
+      "city": "Riyadh",
+      "category": "museum",
+      "interests": [
+        "history",
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Historic mud-brick fort in Riyadh, now a history museum.",
+        "es": "Antigua fortaleza de adobe en Riad, hoy museo de historia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sa-q5701241",
+      "name": "Hejaz Railway Museum",
+      "area": "Medina",
+      "city": "Medina",
+      "category": "museum",
+      "interests": [
+        "history",
+        "museums"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum at the historic Hejaz Railway station in Medina.",
+        "es": "Museo en la antigua estación del ferrocarril del Hiyaz, en Medina."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sa-q6172700",
+      "name": "Jeddah Regional Museum of Archaeology and Ethnography",
+      "area": "Jeddah",
+      "city": "Jeddah",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Regional museum in Jeddah on archaeology and ethnography.",
+        "es": "Museo regional en Yeda sobre arqueología y etnografía."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

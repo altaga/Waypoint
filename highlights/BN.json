@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "BN",
+  "names": {
+    "en": "Brunei",
+    "es": "Brunéi"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "bn-q2756903",
+      "name": "Brunei Museum",
+      "area": "Kampong Kota Batu",
+      "city": "Kampong Kota Batu",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum covering Brunei's history and culture.",
+        "es": "Museo nacional sobre la historia y la cultura de Brunéi."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bn-q21787576",
+      "name": "Royal Regalia Museum",
+      "area": "Bandar Seri Begawan",
+      "city": "Bandar Seri Begawan",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of royal regalia and state gifts, in Bandar Seri Begawan.",
+        "es": "Museo de insignias reales y regalos de Estado, en Bandar Seri Begawan."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bn-q28446976",
+      "name": "Brunei Darussalam Maritime Museum",
+      "area": "Kampong Kota Batu",
+      "city": "Kampong Kota Batu",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Maritime museum in Kampong Kota Batu.",
+        "es": "Museo marítimo en Kampong Kota Batu."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bn-q2755110",
+      "name": "Malay Technology Museum",
+      "area": "Bandar Seri Begawan",
+      "city": "Bandar Seri Begawan",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of traditional Malay crafts and technology in Bandar Seri Begawan.",
+        "es": "Museo de artesanía y tecnología malayas tradicionales en Bandar Seri Begawan."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bn-q27964110",
+      "name": "Belait District Museum",
+      "area": "Belait District",
+      "city": "Belait District",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum on the history of Belait district.",
+        "es": "Museo sobre la historia del distrito de Belait."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

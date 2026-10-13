@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "CU",
+  "names": {
+    "en": "Cuba",
+    "es": "Cuba"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "cu-q1781364",
+      "name": "Museum of the Revolution",
+      "area": "Old Havana",
+      "city": "Old Havana",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in Old Havana on the history of the Cuban revolution.",
+        "es": "Museo en La Habana Vieja sobre la historia de la revolución cubana."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cu-q1779837",
+      "name": "National Museum of Fine Arts of Cuba",
+      "area": "Havana",
+      "city": "Havana",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National fine arts museum in Havana, with Cuban and international collections.",
+        "es": "Museo nacional de bellas artes en La Habana, con colecciones cubanas e internacionales."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cu-q4703397",
+      "name": "Basilica Menor de San Francisco de Asis",
+      "area": "Havana",
+      "city": "Havana",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Historic Franciscan basilica in Old Havana.",
+        "es": "Antigua basílica franciscana en La Habana Vieja."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cu-q5449801",
+      "name": "Finca Vigía",
+      "area": "Havana",
+      "city": "Havana",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Former home of writer Ernest Hemingway, on the outskirts of Havana.",
+        "es": "Antigua casa del escritor Ernest Hemingway, en las afueras de La Habana."
+      },
+      "sourceId": "wikidata",
+      "admission": "Visits are by guided tour only; book ahead."
+    },
+    {
+      "id": "cu-q66011008",
+      "name": "Museo Municipal Emilio Bacardi Moreau",
+      "area": "Santiago de Cuba",
+      "city": "Santiago de Cuba",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "art"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Municipal museum in Santiago de Cuba with art and history collections.",
+        "es": "Museo municipal en Santiago de Cuba con colecciones de arte e historia."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

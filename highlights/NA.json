@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "NA",
+  "names": {
+    "en": "Namibia",
+    "es": "Namibia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "na-q325241",
+      "name": "Alte Feste",
+      "area": "Windhoek",
+      "city": "Windhoek",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Historic fort in Windhoek that now houses a museum of the city's history.",
+        "es": "Antigua fortaleza en Windhoek que hoy alberga un museo de la historia de la ciudad."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "na-q28196088",
+      "name": "Independence Memorial Museum",
+      "area": "Windhoek",
+      "city": "Windhoek",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in Windhoek commemorating Namibia's independence struggle and nationhood.",
+        "es": "Museo en Windhoek que conmemora la lucha por la independencia y la nación namibia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "na-q28863",
+      "name": "National Marine Aquarium of Namibia",
+      "area": "Swakopmund",
+      "city": "Swakopmund",
+      "category": "experience",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Aquarium in Swakopmund with marine species from the Namibian coast.",
+        "es": "Acuario en Swakopmund con especies marinas de la costa namibia."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

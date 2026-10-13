@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "KE",
+  "names": {
+    "en": "Kenya",
+    "es": "Kenia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ke-q379080",
+      "name": "Fort Jesus Museum",
+      "area": "Mombasa",
+      "city": "Mombasa",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in a 16th-century Portuguese fort in Mombasa.",
+        "es": "Museo en un fuerte portugués del siglo XVI en Mombasa."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ke-q3330879",
+      "name": "National Museums of Kenya",
+      "area": "Nairobi",
+      "city": "Nairobi",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Nairobi museum complex covering Kenyan history and natural history.",
+        "es": "Complejo de museos en Nairobi sobre la historia y la naturaleza de Kenia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ke-q367631",
+      "name": "Karen Blixen Museum",
+      "area": "Nairobi",
+      "city": "Nairobi",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "House museum of writer Karen Blixen, author of Out of Africa.",
+        "es": "Casa-museo de la escritora Karen Blixen, autora de Memorias de África."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ke-q611606",
+      "name": "Nairobi Railway Museum",
+      "area": "Nairobi",
+      "city": "Nairobi",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of Kenya's railway history, with historic locomotives.",
+        "es": "Museo de la historia del ferrocarril de Kenia, con locomotoras antiguas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ke-q225477",
+      "name": "Bomas of Kenya",
+      "area": "Nairobi",
+      "city": "Nairobi",
+      "category": "experience",
+      "interests": [
+        "sights",
+        "history",
+        "family"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Cultural village with traditional homes and dances of Kenyan peoples.",
+        "es": "Pueblo cultural con viviendas y danzas tradicionales de los pueblos de Kenia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ke-q3329722",
+      "name": "Kisumu Museum",
+      "area": "Kisumu",
+      "city": "Kisumu",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Regional museum in Kisumu, on the shore of Lake Victoria.",
+        "es": "Museo regional en Kisumu, a orillas del lago Victoria."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ke-q5564103",
+      "name": "Giraffe Centre",
+      "area": "Giraffe Centre",
+      "city": "Giraffe Centre",
+      "category": "experience",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Conservation centre where visitors can feed Rothschild's giraffes.",
+        "es": "Centro de conservación donde se pueden alimentar jirafas de Rothschild."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ke-q15036534",
+      "name": "Hyrax Hill Prehistoric Site and Museum",
+      "area": "Nakuru County",
+      "city": "Nakuru County",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Prehistoric archaeological site and museum near Nakuru.",
+        "es": "Yacimiento arqueológico prehistórico y museo cerca de Nakuru."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

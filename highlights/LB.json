@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "LB",
+  "names": {
+    "en": "Lebanon",
+    "es": "Líbano"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "lb-q1552568",
+      "name": "Jeita Grotto",
+      "area": "Keserwan District",
+      "city": "Keserwan District",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Limestone cave system with underground lakes north of Beirut.",
+        "es": "Sistema de cuevas de piedra caliza con lagos subterráneos al norte de Beirut."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "lb-q2915627",
+      "name": "National Museum of Beirut",
+      "area": "Beirut Governorate",
+      "city": "Beirut Governorate",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum with Phoenician and Roman artifacts.",
+        "es": "Museo nacional con objetos fenicios y romanos."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "lb-q10661349",
+      "name": "Saint George Greek Orthodox Cathedral",
+      "area": "Beirut Governorate",
+      "city": "Beirut Governorate",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Greek Orthodox cathedral in central Beirut.",
+        "es": "Catedral ortodoxa griega en el centro de Beirut."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "lb-q1619788",
+      "name": "Byblos Castle",
+      "area": "Byblos",
+      "city": "Byblos",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Crusader-era castle overlooking the old port of Byblos.",
+        "es": "Castillo de la época cruzada con vistas al antiguo puerto de Biblos."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "lb-q287360",
+      "name": "Sursock Museum",
+      "area": "Beirut",
+      "city": "Beirut",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Art museum in a historic mansion in Beirut.",
+        "es": "Museo de arte en una mansión histórica de Beirut."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "lb-q15260373",
+      "name": "Museum of Lebanese Prehistory",
+      "area": "Beirut",
+      "city": "Beirut",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of prehistoric finds from Lebanon.",
+        "es": "Museo de hallazgos prehistóricos del Líbano."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "lb-q97403226",
+      "name": "Debbane Palace",
+      "area": "Sidon",
+      "city": "Sidon",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Historic palace in the old town of Sidon.",
+        "es": "Palacio histórico en el casco antiguo de Sidón."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "lb-q7347853",
+      "name": "Robert Mouawad Private Museum",
+      "area": "Beirut",
+      "city": "Beirut",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Private museum of archaeological and cultural objects in Beirut.",
+        "es": "Museo privado de objetos arqueológicos y culturales en Beirut."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    }
+  ]
+}

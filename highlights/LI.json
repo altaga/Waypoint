@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "LI",
+  "names": {
+    "en": "Liechtenstein",
+    "es": "Liechtenstein"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "li-q1792561",
+      "name": "Kunstmuseum Liechtenstein",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Contemporary art museum in Vaduz.",
+        "es": "Museo de arte contemporáneo en Vaduz."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "li-q1557760",
+      "name": "Liechtenstein National Museum",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "National museum on the country's history, in Vaduz.",
+        "es": "Museo nacional sobre la historia del país, en Vaduz."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "li-q972697",
+      "name": "Postal Museum",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Museum of postal history in Vaduz.",
+        "es": "Museo de la historia postal en Vaduz."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

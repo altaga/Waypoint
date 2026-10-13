@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SI",
+  "names": {
+    "en": "Slovenia",
+    "es": "Eslovenia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "si-q15903",
+      "name": "Postojna Cave",
+      "area": "Municipality of Postojna",
+      "city": "Municipality of Postojna",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "sights"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Large karst cave system with guided tours.",
+        "es": "Extenso sistema de cuevas kársticas con visitas guiadas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "si-q500376",
+      "name": "Škocjan Caves",
+      "area": "Municipality of Divača",
+      "city": "Municipality of Divača",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Karst canyon and cave system, a UNESCO World Heritage site.",
+        "es": "Cañón y sistema de cuevas kársticas, sitio del Patrimonio Mundial de la UNESCO."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "si-q1779044",
+      "name": "Cross Cave",
+      "area": "Municipality of Cerknica",
+      "city": "Municipality of Cerknica",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Karst cave near Cerknica, known for its underground halls.",
+        "es": "Cueva kárstica cerca de Cerknica, con grandes salas subterráneas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "si-q1953536",
+      "name": "National Gallery of Slovenia",
+      "area": "Ljubljana",
+      "city": "Ljubljana",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National gallery with Slovenian and European art, in Ljubljana.",
+        "es": "Galería nacional con arte esloveno y europeo, en Liubliana."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "si-q2033282",
+      "name": "National Museum of Slovenia",
+      "area": "Ljubljana",
+      "city": "Ljubljana",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum on the archaeology and history of Slovenia, in Ljubljana.",
+        "es": "Museo nacional sobre la arqueología e historia de Eslovenia, en Liubliana."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "si-q11234584",
+      "name": "Museum of Modern Art",
+      "area": "Ljubljana City Municipality",
+      "city": "Ljubljana City Municipality",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of modern and contemporary art, in Ljubljana.",
+        "es": "Museo de arte moderno y contemporáneo, en Liubliana."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "si-q3436372",
+      "name": "Ljubljana Zoo",
+      "area": "Ljubljana",
+      "city": "Ljubljana",
+      "category": "nature",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Zoo in Ljubljana with a range of animal species.",
+        "es": "Zoológico en Liubliana con una variedad de especies animales."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "si-q3666739",
+      "name": "Slovenian Museum of Natural History",
+      "area": "Ljubljana",
+      "city": "Ljubljana",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Natural history museum in Ljubljana with collections on Slovenian nature.",
+        "es": "Museo de historia natural en Liubliana con colecciones sobre la naturaleza eslovena."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "si-q18533909",
+      "name": "Divje babe",
+      "area": "municipality of Cerkno",
+      "city": "municipality of Cerkno",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Paleolithic archaeological site in the Cerkno area.",
+        "es": "Yacimiento arqueológico paleolítico en la zona de Cerkno."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

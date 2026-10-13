@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "ID",
+  "names": {
+    "en": "Indonesia",
+    "es": "Indonesia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "id-q1467125",
+      "name": "National Museum of Indonesia",
+      "area": "Central Jakarta",
+      "city": "Jakarta",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum in Jakarta with archaeological and cultural collections.",
+        "es": "Museo nacional en Yakarta con colecciones arqueológicas y culturales."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "id-q145151",
+      "name": "National Monument of Indonesia",
+      "area": "Central Jakarta",
+      "city": "Jakarta",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Tall monument in central Jakarta commemorating Indonesian independence.",
+        "es": "Monumento alto en el centro de Yakarta que conmemora la independencia de Indonesia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "id-q2218604",
+      "name": "Aceh Tsunami Museum",
+      "area": "Baiturrahman",
+      "city": "Banda Aceh",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum on the 2004 Indian Ocean tsunami, in Banda Aceh.",
+        "es": "Museo sobre el tsunami del océano Índico de 2004, en Banda Aceh."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "id-q1356004",
+      "name": "Jakarta History Museum",
+      "area": "Old Batavia",
+      "city": "Jakarta",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in the former Dutch town hall of Batavia, in Jakarta.",
+        "es": "Museo en el antiguo ayuntamiento neerlandés de Batavia, en Yakarta."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "id-q685790",
+      "name": "Taman Mini Indonesia Indah",
+      "area": "Cipayung",
+      "city": "Jakarta",
+      "category": "experience",
+      "interests": [
+        "family",
+        "sights"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Cultural theme park showing Indonesia's regions and traditional houses.",
+        "es": "Parque temático cultural que muestra las regiones y casas tradicionales de Indonesia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "id-q2713110",
+      "name": "Ragunan Zoo",
+      "area": "Ragunan",
+      "city": "Jakarta",
+      "category": "nature",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Large zoo in south Jakarta.",
+        "es": "Gran zoológico en el sur de Yakarta."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "id-q2030607",
+      "name": "Maritime Museum",
+      "area": "Jakarta",
+      "city": "Jakarta",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Maritime museum in the old harbor area of Jakarta.",
+        "es": "Museo marítimo en la antigua zona portuaria de Yakarta."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "id-q1992789",
+      "name": "Bali Museum",
+      "area": "Bali",
+      "city": "Denpasar",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of Balinese art, culture and history in Denpasar.",
+        "es": "Museo de arte, cultura e historia balinesas en Denpasar."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "id-q29771",
+      "name": "Fort Rotterdam",
+      "area": "Makassar",
+      "city": "Makassar",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Dutch-era fort in Makassar.",
+        "es": "Fuerte de la época neerlandesa en Makassar."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "id-q2854954",
+      "name": "Wayang Museum",
+      "area": "West Jakarta",
+      "city": "Jakarta",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of wayang puppet theatre traditions in Jakarta.",
+        "es": "Museo de las tradiciones del teatro de títeres wayang en Yakarta."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

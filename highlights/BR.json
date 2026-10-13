@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "BR",
+  "names": {
+    "en": "Brazil",
+    "es": "Brasil"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "br-q82941",
+      "name": "São Paulo Museum of Art",
+      "area": "Bela Vista District",
+      "city": "Bela Vista District",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Art museum on Avenida Paulista with European and Brazilian collections.",
+        "es": "Museo de arte en la Avenida Paulista, con colecciones europeas y brasileñas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "br-q1474721",
+      "name": "Itatiaia National Park",
+      "area": "Itatiaia",
+      "city": "Itatiaia",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Mountain national park with high-altitude forest, peaks and hiking trails.",
+        "es": "Parque nacional de montaña con bosque de altura, picos y senderos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "br-q2266463",
+      "name": "Chapada Diamantina National Park",
+      "area": "Lençóis",
+      "city": "Lençóis",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Mountain region of waterfalls, caves and hiking trails in Bahia.",
+        "es": "Región montañosa de cascadas, cuevas y senderos en Bahía."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

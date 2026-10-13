@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "AO",
+  "names": {
+    "en": "Angola",
+    "es": "Angola"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ao-q868140",
+      "name": "National Museum of Slavery",
+      "area": "Luanda",
+      "city": "Luanda",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum on the history of the slave trade in Angola.",
+        "es": "Museo sobre la historia de la trata de esclavos en Angola."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ao-q10333589",
+      "name": "Museu Nacional de História Natural de Angola",
+      "area": "Luanda",
+      "city": "Luanda",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Natural history museum in Luanda.",
+        "es": "Museo de historia natural en Luanda."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ao-q10333588",
+      "name": "Museu Nacional de Antropologia",
+      "area": "Luanda",
+      "city": "Luanda",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Anthropology museum in Luanda on the peoples and cultures of Angola.",
+        "es": "Museo de antropología en Luanda sobre los pueblos y culturas de Angola."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ao-q868147",
+      "name": "Museum of the Armed Forces",
+      "area": "Luanda",
+      "city": "Luanda",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Military history museum in Luanda.",
+        "es": "Museo de historia militar en Luanda."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

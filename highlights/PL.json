@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "PL",
+  "names": {
+    "en": "Poland",
+    "es": "Polonia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "pl-q7341",
+      "name": "Auschwitz",
+      "area": "Lesser Poland Voivodeship",
+      "city": "Oświęcim",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Former Nazi concentration and extermination camp, now a memorial museum.",
+        "es": "Antiguo campo de concentración y exterminio nazi, hoy museo memorial."
+      },
+      "sourceId": "wikidata",
+      "admission": "Timed-entry booking is usually required; book on the official site before travel."
+    },
+    {
+      "id": "pl-q41599",
+      "name": "Świnoujście",
+      "area": "West Pomeranian Voivodeship",
+      "city": "Świnoujście",
+      "category": "beach",
+      "interests": [
+        "beaches",
+        "sights"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Baltic Sea resort town at the Polish-German border.",
+        "es": "Localidad turística del mar Báltico en la frontera entre Polonia y Alemania."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pl-q110011",
+      "name": "Kołobrzeg",
+      "area": "West Pomeranian Voivodeship",
+      "city": "Kołobrzeg",
+      "category": "beach",
+      "interests": [
+        "beaches",
+        "history"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Baltic Sea resort town with a long sandy beach.",
+        "es": "Localidad turística del mar Báltico con una larga playa de arena."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pl-q152010",
+      "name": "Treblinka extermination camp",
+      "area": "Masovian Voivodeship",
+      "city": "Kosów Lacki",
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Site of a Nazi extermination camp, now a memorial.",
+        "es": "Lugar de un campo de exterminio nazi, hoy memorial."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pl-q71279",
+      "name": "Malbork Castle",
+      "area": "Pomeranian Voivodeship",
+      "city": "Malbork",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Medieval brick castle of the Teutonic Order in Malbork.",
+        "es": "Castillo medieval de ladrillo de la Orden Teutónica en Malbork."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pl-q167566",
+      "name": "Palace of Culture and Science",
+      "area": "Masovian Voivodeship",
+      "city": "Warsaw",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Soviet-era tower in central Warsaw with an observation terrace.",
+        "es": "Torre de la era soviética en el centro de Varsovia, con mirador."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pl-q160135",
+      "name": "Lublin-Majdanek concentration camp",
+      "area": "Lublin Voivodeship",
+      "city": "Lublin",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Former Nazi concentration camp near Lublin, now a memorial museum.",
+        "es": "Antiguo campo de concentración nazi cerca de Lublin, hoy museo memorial."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "pl-q454019",
+      "name": "Wieliczka Salt Mine",
+      "area": "Lesser Poland Voivodeship",
+      "city": "Wieliczka",
+      "category": "experience",
+      "interests": [
+        "sights",
+        "history"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Historic salt mine with underground chambers, a UNESCO World Heritage site.",
+        "es": "Antigua mina de sal con cámaras subterráneas, patrimonio mundial de la UNESCO."
+      },
+      "sourceId": "wikidata",
+      "admission": "Visits are by guided tour; tickets can sell out, so book ahead."
+    }
+  ]
+}

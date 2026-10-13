@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "GR",
+  "names": {
+    "en": "Greece",
+    "es": "Grecia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "gr-q38888",
+      "name": "Olympia",
+      "area": "Ancient Olympia",
+      "city": "Ancient Olympia",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Ancient sanctuary and site of the original Olympic Games.",
+        "es": "Antiguo santuario y sede de los primeros Juegos Olímpicos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gr-q173527",
+      "name": "Knossos",
+      "area": "Heraklion",
+      "city": "Heraklion",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Bronze Age palace complex on the island of Crete.",
+        "es": "Complejo palaciego de la Edad del Bronce en la isla de Creta."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gr-q637187",
+      "name": "National Archaeological Museum of Athens",
+      "area": "Athens",
+      "city": "Athens",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Major archaeological museum with ancient Greek collections.",
+        "es": "Gran museo arqueológico con colecciones de la antigua Grecia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gr-q421084",
+      "name": "Acropolis Museum",
+      "area": "Athens",
+      "city": "Athens",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum at the foot of the Acropolis, displaying finds from the site.",
+        "es": "Museo al pie de la Acrópolis que exhibe los hallazgos del sitio."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gr-q550576",
+      "name": "White Tower of Thessaloniki",
+      "area": "Thessaloniki",
+      "city": "Thessaloniki",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Waterfront tower and museum in Thessaloniki.",
+        "es": "Torre junto al mar y museo en Tesalónica."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gr-q816669",
+      "name": "Benaki Museum",
+      "area": "Athens",
+      "city": "Athens",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of Greek art and history in central Athens.",
+        "es": "Museo de arte e historia griegos en el centro de Atenas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gr-q2302464",
+      "name": "Petralona cave",
+      "area": "Nea Propontida",
+      "city": "Nea Propontida",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Limestone cave in the Chalkidiki peninsula, northern Greece.",
+        "es": "Cueva caliza en la península de Calcídica, en el norte de Grecia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gr-q931371",
+      "name": "Palace of the Grand Master of the Knights of Rhodes",
+      "area": "Rhodes",
+      "city": "Rhodes",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Medieval palace of the Knights Hospitaller in Rhodes Old Town.",
+        "es": "Palacio medieval de los caballeros hospitalarios en el casco antiguo de Rodas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gr-q2658285",
+      "name": "Archaeological Museum of Thessaloniki",
+      "area": "Thessaloniki",
+      "city": "Thessaloniki",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Archaeological museum in Thessaloniki with finds from northern Greece.",
+        "es": "Museo arqueológico en Tesalónica con hallazgos del norte de Grecia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gr-q1643807",
+      "name": "Dikteon Andron",
+      "area": "Lasithi",
+      "city": "Lasithi",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ancient cave sanctuary on Mount Dikti in eastern Crete.",
+        "es": "Antiguo santuario en cueva en el monte Dikti, en el este de Creta."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gr-q56240051",
+      "name": "Achilleion",
+      "area": "Corfu",
+      "city": "Corfu",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Neoclassical palace and gardens on Corfu, built for Empress Elisabeth.",
+        "es": "Palacio neoclásico y jardines en Corfú, construido para la emperatriz Isabel."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

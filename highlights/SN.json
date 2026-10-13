@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SN",
+  "names": {
+    "en": "Senegal",
+    "es": "Senegal"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "sn-q2629758",
+      "name": "IFAN Museum of African Arts",
+      "area": "Dakar",
+      "city": "Dakar",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of African arts and artefacts, in Dakar.",
+        "es": "Museo de artes y objetos africanos, en Dakar."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sn-q59521062",
+      "name": "Museum of Black Civilizations",
+      "area": "Dakar-Plateau",
+      "city": "Dakar-Plateau",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum on the history and cultures of Africa and its diaspora, in Dakar.",
+        "es": "Museo sobre la historia y las culturas de África y su diáspora, en Dakar."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sn-q3364375",
+      "name": "Hann Forest and Zoological Park",
+      "area": "Hann Bel-Air",
+      "city": "Hann Bel-Air",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Forest and zoological park on the edge of Dakar.",
+        "es": "Parque forestal y zoológico en las afueras de Dakar."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sn-q10283605",
+      "name": "Historical Museum of Senegal",
+      "area": "Gorée",
+      "city": "Gorée",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum on Senegalese history, located on Gorée island.",
+        "es": "Museo sobre la historia de Senegal, ubicado en la isla de Gorée."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sn-q110682482",
+      "name": "Museum of Art and History of West African Cultures",
+      "area": "Museum of Art and History of West African Cultures",
+      "city": "Museum of Art and History of West African Cultures",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of art and history of West African cultures.",
+        "es": "Museo de arte e historia de las culturas de África Occidental."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

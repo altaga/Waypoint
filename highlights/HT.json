@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "HT",
+  "names": {
+    "en": "Haiti",
+    "es": "Haití"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ht-q2586373",
+      "name": "National Pantheon Museum of Haiti",
+      "area": "Port-au-Prince",
+      "city": "Port-au-Prince",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "National museum in Port-au-Prince on Haitian history and national heroes.",
+        "es": "Museo nacional en Puerto Príncipe sobre la historia de Haití y sus héroes nacionales."
+      },
+      "sourceId": "wikidata",
+      "admission": "Serious security risks in Haiti; check current official travel advice first."
+    }
+  ]
+}

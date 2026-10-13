@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "BT",
+  "names": {
+    "en": "Bhutan",
+    "es": "Bután"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "bt-q4315025",
+      "name": "National Museum of Bhutan",
+      "area": "Paro",
+      "city": "Paro",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in Paro, housed in an old watchtower, on Bhutanese history and nature.",
+        "es": "Museo en Paro, en una antigua torre de vigilancia, sobre la historia y la naturaleza de Bután."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bt-q28197153",
+      "name": "Folk Heritage Museum",
+      "area": "Thimphu",
+      "city": "Thimphu",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in Thimphu showing traditional rural life and crafts.",
+        "es": "Museo en Timbu con la vida rural tradicional y la artesanía."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

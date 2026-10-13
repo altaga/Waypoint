@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "LK",
+  "names": {
+    "en": "Sri Lanka",
+    "es": "Sri Lanka"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "lk-q2033487",
+      "name": "National Museum of Colombo",
+      "area": "Colombo",
+      "city": "Colombo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum in Colombo with archaeology and ethnography.",
+        "es": "Museo nacional en Colombo con arqueología y etnografía."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lk-q2672104",
+      "name": "Pinnawala Elephant Orphanage",
+      "area": "Pinnawala Elephant Orphanage",
+      "city": "Pinnawala Elephant Orphanage",
+      "category": "experience",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Elephant orphanage where visitors can watch elephants up close.",
+        "es": "Orfanato de elefantes donde se pueden ver elefantes de cerca."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lk-q1144452",
+      "name": "National Zoological Gardens of Sri Lanka",
+      "area": "National Zoological Gardens of Sri Lanka",
+      "city": "National Zoological Gardens of Sri Lanka",
+      "category": "experience",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Zoo near Colombo.",
+        "es": "Zoológico cerca de Colombo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lk-q3533580",
+      "name": "National Museum of Kandy",
+      "area": "Kandy",
+      "city": "Kandy",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Museum in Kandy covering the history of the Kandyan kingdom.",
+        "es": "Museo en Kandy sobre la historia del reino de Kandy."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lk-q11302924",
+      "name": "Colombo National Art Gallery",
+      "area": "Colombo National Art Gallery",
+      "city": "Colombo National Art Gallery",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "National art gallery in Colombo.",
+        "es": "Galería nacional de arte en Colombo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lk-q11310066",
+      "name": "Jaffna Archaeological Museum",
+      "area": "Jaffna",
+      "city": "Jaffna",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Archaeology museum in Jaffna, in northern Sri Lanka.",
+        "es": "Museo de arqueología en Jaffna, en el norte de Sri Lanka."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lk-q20640029",
+      "name": "Anuradhapura Museum",
+      "area": "Anuradhapura",
+      "city": "Anuradhapura",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Museum in Anuradhapura with finds from the ancient capital.",
+        "es": "Museo en Anuradhapura con hallazgos de la antigua capital."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lk-q20987443",
+      "name": "National Museum of Galle",
+      "area": "Galle",
+      "city": "Galle",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in Galle covering the history of the southern coast.",
+        "es": "Museo en Galle sobre la historia de la costa sur."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

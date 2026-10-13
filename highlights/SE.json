@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SE",
+  "names": {
+    "en": "Sweden",
+    "es": "Suecia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "se-q208559",
+      "name": "Drottningholm Palace",
+      "area": "Ekerö Municipality",
+      "city": "Ekerö Municipality",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Royal palace on Lovön island, near Stockholm, with formal gardens.",
+        "es": "Palacio real en la isla de Lovön, cerca de Estocolmo, con jardines formales."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "se-q750444",
+      "name": "Stockholm Palace",
+      "area": "Stockholm Municipality",
+      "city": "Stockholm Municipality",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Royal palace in Gamla Stan, the old town of Stockholm.",
+        "es": "Palacio real en Gamla Stan, el casco antiguo de Estocolmo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "se-q936884",
+      "name": "Engelsberg Ironworks",
+      "area": "Fagersta Municipality",
+      "city": "Fagersta Municipality",
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Preserved historic ironworks, a UNESCO World Heritage site.",
+        "es": "Antigua ferrería conservada, sitio del Patrimonio Mundial de la UNESCO."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "se-q901371",
+      "name": "Vasa Museum",
+      "area": "Stockholm Municipality",
+      "city": "Stockholm Municipality",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum built around the 17th-century warship Vasa.",
+        "es": "Museo construido alrededor del barco de guerra Vasa del siglo XVII."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "se-q725108",
+      "name": "Skansen",
+      "area": "Stockholm Municipality",
+      "city": "Stockholm Municipality",
+      "category": "museum",
+      "interests": [
+        "family",
+        "history",
+        "nature"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Open-air museum with historic buildings, animals and folk traditions.",
+        "es": "Museo al aire libre con edificios históricos, animales y tradiciones populares."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "se-q842858",
+      "name": "Nationalmuseum",
+      "area": "Stockholm Municipality",
+      "city": "Stockholm Municipality",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National art museum with Swedish and European collections.",
+        "es": "Museo nacional de arte con colecciones suecas y europeas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "se-q1968711",
+      "name": "Nobel Prize Museum",
+      "area": "Stockholm Municipality",
+      "city": "Stockholm Municipality",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum about the Nobel Prizes and their laureates, in Stockholm.",
+        "es": "Museo sobre los premios Nobel y sus galardonados, en Estocolmo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "se-q1142142",
+      "name": "Nordic Museum",
+      "area": "Stockholm Municipality",
+      "city": "Stockholm Municipality",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum of Nordic cultural history and everyday life, in Stockholm.",
+        "es": "Museo de la historia cultural y la vida cotidiana nórdicas, en Estocolmo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "se-q1420103",
+      "name": "Swedish Museum of Natural History",
+      "area": "Stockholm Municipality",
+      "city": "Stockholm Municipality",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Natural history museum with collections on Swedish and global nature.",
+        "es": "Museo de historia natural con colecciones sobre la naturaleza sueca y mundial."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

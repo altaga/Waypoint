@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "TG",
+  "names": {
+    "en": "Togo",
+    "es": "Togo"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "tg-q1960688",
+      "name": "Togo National Museum",
+      "area": "Lomé",
+      "city": "Lomé",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum with collections on Togo's history and culture, in Lomé.",
+        "es": "Museo nacional con colecciones sobre la historia y cultura de Togo, en Lomé."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

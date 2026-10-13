@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "US",
+  "names": {
+    "en": "United States",
+    "es": "Estados Unidos"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "us-q9202",
+      "name": "Statue of Liberty",
+      "area": "New York City",
+      "city": "New York City",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Monument on Liberty Island in New York Harbor.",
+        "es": "Monumento en la isla de la Libertad, en el puerto de Nueva York."
+      },
+      "sourceId": "wikidata",
+      "admission": "Ferry tickets to Liberty Island are timed; book ahead."
+    },
+    {
+      "id": "us-q160236",
+      "name": "Metropolitan Museum of Art",
+      "area": "Manhattan",
+      "city": "New York City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Art museum on Fifth Avenue in Manhattan.",
+        "es": "Museo de arte en la Quinta Avenida de Manhattan."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "us-q188740",
+      "name": "Museum of Modern Art",
+      "area": "Manhattan",
+      "city": "New York City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Modern art museum in Midtown Manhattan.",
+        "es": "Museo de arte moderno en Midtown Manhattan."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "us-q201469",
+      "name": "Solomon R. Guggenheim Museum",
+      "area": "Manhattan",
+      "city": "New York City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Modern art museum with a spiral building in Manhattan.",
+        "es": "Museo de arte moderno con un edificio en espiral en Manhattan."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "us-q217717",
+      "name": "American Museum of Natural History",
+      "area": "Manhattan",
+      "city": "New York City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Natural history museum on the Upper West Side of Manhattan.",
+        "es": "Museo de historia natural en el Upper West Side de Manhattan."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "us-q179191",
+      "name": "Rock and Roll Hall of Fame",
+      "area": "Cleveland",
+      "city": "Cleveland",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Museum of rock music history in Cleveland.",
+        "es": "Museo de la historia de la música rock en Cleveland."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "us-q9219",
+      "name": "United States Military Academy",
+      "area": "West Point",
+      "city": "West Point",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "US Army military academy with a historic campus in West Point, New York.",
+        "es": "Academia militar del Ejército de EE. UU. con un campus histórico en West Point, Nueva York."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "us-q463179",
+      "name": "Fallingwater",
+      "area": "Fayette County",
+      "city": "Mill Run",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Frank Lloyd Wright house built over a waterfall in Pennsylvania.",
+        "es": "Casa de Frank Lloyd Wright construida sobre una cascada en Pensilvania."
+      },
+      "sourceId": "wikidata",
+      "admission": "Tours by reservation only; book ahead."
+    },
+    {
+      "id": "us-q181185",
+      "name": "Disneyland",
+      "area": "Anaheim",
+      "city": "Anaheim",
+      "category": "experience",
+      "interests": [
+        "family",
+        "sights"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Theme park in Anaheim, California.",
+        "es": "Parque temático en Anaheim, California."
+      },
+      "sourceId": "wikidata",
+      "admission": "Park tickets are required; check the official site for reservations."
+    },
+    {
+      "id": "us-q206859",
+      "name": "Walt Disney World Resort",
+      "area": "Orange County, Florida",
+      "city": "Lake Buena Vista",
+      "category": "experience",
+      "interests": [
+        "family",
+        "sights"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Theme park resort near Orlando, Florida.",
+        "es": "Complejo de parques temáticos cerca de Orlando, Florida."
+      },
+      "sourceId": "wikidata",
+      "admission": "Park tickets are required; check the official site for reservations."
+    },
+    {
+      "id": "us-q242681",
+      "name": "Mammoth Cave National Park",
+      "area": "Edmonson County",
+      "city": "Mammoth Cave",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Cave system and national park in Kentucky.",
+        "es": "Sistema de cuevas y parque nacional en Kentucky."
+      },
+      "sourceId": "wikidata",
+      "admission": "Cave tours need tickets; some sell out, so book ahead."
+    }
+  ]
+}

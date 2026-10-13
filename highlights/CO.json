@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "CO",
+  "names": {
+    "en": "Colombia",
+    "es": "Colombia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "co-q179506",
+      "name": "Tierradentro",
+      "area": "Inza",
+      "city": "Inza",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Archaeological park with pre-Columbian underground tombs and painted chambers.",
+        "es": "Parque arqueológico con tumbas precolombinas subterráneas y cámaras pintadas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "co-q2887224",
+      "name": "San Agustin archeological park",
+      "area": "San Agustín",
+      "city": "San Agustín",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Archaeological park with monumental stone statues and burial mounds.",
+        "es": "Parque arqueológico con estatuas monumentales de piedra y túmulos funerarios."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "co-q1109031",
+      "name": "Gold Museum",
+      "area": "Santa Fe",
+      "city": "Santa Fe",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum in Bogotá with a large collection of pre-Columbian gold objects.",
+        "es": "Museo en Bogotá con una gran colección de objetos precolombinos de oro."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "co-q2565876",
+      "name": "Salt Cathedral of Zipaquirá",
+      "area": "Zipaquirá",
+      "city": "Zipaquirá",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Underground cathedral carved into a salt mine, north of Bogotá.",
+        "es": "Catedral subterránea excavada en una mina de sal, al norte de Bogotá."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "co-q671264",
+      "name": "Colombian National Museum",
+      "area": "Santa Fe",
+      "city": "Santa Fe",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National museum in Bogotá on Colombian history, in a former prison.",
+        "es": "Museo nacional en Bogotá sobre la historia de Colombia, en un antiguo penal."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "co-q3329100",
+      "name": "Botero Museum",
+      "area": "La Candelaria",
+      "city": "La Candelaria",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in Bogotá with works by Fernando Botero and other artists.",
+        "es": "Museo en Bogotá con obras de Fernando Botero y de otros artistas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "co-q640718",
+      "name": "Bogotá Museum of Modern Art",
+      "area": "Santa Fe",
+      "city": "Santa Fe",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Modern art museum in Bogotá with Colombian and international works.",
+        "es": "Museo de arte moderno en Bogotá con obras colombianas e internacionales."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

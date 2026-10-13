@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "RS",
+  "names": {
+    "en": "Serbia",
+    "es": "Serbia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "rs-q1277393",
+      "name": "National Museum of Serbia",
+      "area": "Belgrade",
+      "city": "Belgrade",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National museum in Belgrade with archaeology, history and art collections.",
+        "es": "Museo nacional en Belgrado con colecciones de arqueología, historia y arte."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rs-q969047",
+      "name": "Patriarchate of Peć",
+      "area": "Peja Municipality",
+      "city": "Peja",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Medieval Serbian Orthodox monastery complex in Peja.",
+        "es": "Complejo monástico medieval ortodoxo serbio en Peja."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rs-q613201",
+      "name": "Nikola Tesla Museum, Belgrade, Serbia",
+      "area": "Belgrade",
+      "city": "Belgrade",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum dedicated to the life and inventions of Nikola Tesla.",
+        "es": "Museo dedicado a la vida y los inventos de Nikola Tesla."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rs-q2338290",
+      "name": "Museum of Yugoslav History",
+      "area": "Belgrade",
+      "city": "Belgrade",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum on Yugoslav history in Belgrade's Dedinje district.",
+        "es": "Museo sobre la historia de Yugoslavia en el distrito de Dedinje, en Belgrado."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rs-q1290510",
+      "name": "Museum of Contemporary Art, Belgrade",
+      "area": "New Belgrade",
+      "city": "New Belgrade",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of contemporary art in New Belgrade.",
+        "es": "Museo de arte contemporáneo en Nuevo Belgrado."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rs-q116343",
+      "name": "Küstendorf",
+      "area": "Zlatibor District",
+      "city": "Užice",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Village built in traditional style by filmmaker Emir Kusturica near Užice.",
+        "es": "Pueblo construido al estilo tradicional por el cineasta Emir Kusturica, cerca de Užice."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rs-q391211",
+      "name": "Šargan Eight",
+      "area": "Zlatibor District",
+      "city": "Mokra Gora",
+      "category": "experience",
+      "interests": [
+        "nature",
+        "sights"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Narrow-gauge heritage railway in western Serbia, popular for scenic rides.",
+        "es": "Ferrocarril histórico de vía estrecha en el oeste de Serbia, popular por sus paisajes."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rs-q1281959",
+      "name": "Belgrade Military Museum",
+      "area": "Belgrade",
+      "city": "Belgrade",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Military history museum in Belgrade.",
+        "es": "Museo de historia militar en Belgrado."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rs-q2539582",
+      "name": "Museum of Aviation",
+      "area": "Surčin",
+      "city": "Surčin",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Aviation museum near Belgrade airport in Surčin.",
+        "es": "Museo de aviación cerca del aeropuerto de Belgrado, en Surčin."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "rs-q698270",
+      "name": "Banjica concentration camp",
+      "area": "Belgrade",
+      "city": "Belgrade",
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Former WWII concentration camp in Belgrade, now a memorial site.",
+        "es": "Antiguo campo de concentración de la Segunda Guerra Mundial en Belgrado, hoy lugar memorial."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

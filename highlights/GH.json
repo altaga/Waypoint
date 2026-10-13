@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "GH",
+  "names": {
+    "en": "Ghana",
+    "es": "Ghana"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "gh-q1967472",
+      "name": "National Museum of Ghana",
+      "area": "Accra",
+      "city": "Accra",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum in Accra with collections on Ghanaian history and culture.",
+        "es": "Museo nacional en Accra con colecciones sobre la historia y la cultura de Ghana."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gh-q1282665",
+      "name": "Volta Regional Museum",
+      "area": "Volta Region",
+      "city": "Ho",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Regional museum in Ho with ethnographic and historical collections.",
+        "es": "Museo regional en Ho con colecciones etnográficas e históricas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gh-q6749385",
+      "name": "Manhyia Palace",
+      "area": "Kumasi",
+      "city": "Kumasi",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Palace of the Asantehene, the traditional ruler of the Ashanti.",
+        "es": "Palacio del Asantehene, el gobernante tradicional de los ashanti."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gh-q2585962",
+      "name": "Yaa Asantewaa Museum",
+      "area": "Ejisu",
+      "city": "Ejisu",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum on Yaa Asantewaa and Ashanti history, near Kumasi.",
+        "es": "Museo sobre Yaa Asantewaa y la historia ashanti, cerca de Kumasi."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gh-q98077924",
+      "name": "Museum of Science and Technology",
+      "area": "Accra",
+      "city": "Accra",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "family"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Science and technology museum in Accra.",
+        "es": "Museo de ciencia y tecnología en Accra."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

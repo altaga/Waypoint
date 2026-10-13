@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "JO",
+  "names": {
+    "en": "Jordan",
+    "es": "Jordania"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "jo-q24521524",
+      "name": "The Jordan Museum",
+      "area": "Amman",
+      "city": "Amman",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Modern national museum in Amman on Jordan's history.",
+        "es": "Museo nacional moderno en Amán sobre la historia de Jordania."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "jo-q1444552",
+      "name": "Jordan Archaeological Museum",
+      "area": "Amman",
+      "city": "Amman",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Archaeology museum in Amman with regional finds.",
+        "es": "Museo de arqueología en Amán con hallazgos de la región."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "jo-q48816519",
+      "name": "Royal Tank Museum",
+      "area": "Amman",
+      "city": "Amman",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Military museum with tanks and armored vehicles in Amman.",
+        "es": "Museo militar con tanques y vehículos blindados en Amán."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "jo-q14753682",
+      "name": "Jordan National Gallery of Fine Arts",
+      "area": "Amman",
+      "city": "Amman",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "National gallery of fine art in Amman.",
+        "es": "Galería nacional de bellas artes en Amán."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "jo-q584088",
+      "name": "Aqaba Archaeological Museum",
+      "area": "Aqaba",
+      "city": "Aqaba",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Archaeology museum in the port city of Aqaba.",
+        "es": "Museo de arqueología en la ciudad portuaria de Aqaba."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "jo-q7250285",
+      "name": "Prophet Mohammad Museum",
+      "area": "Al Hussein Public Parks",
+      "city": "Al Hussein Public Parks",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "temples"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum about the life of the Prophet Muhammad, in an Amman park.",
+        "es": "Museo sobre la vida del profeta Mahoma, en un parque de Amán."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "jo-q25378784",
+      "name": "Museum at the Lowest Place on Earth",
+      "area": "Al-Āghwār al-Janūbī",
+      "city": "Al-Āghwār al-Janūbī",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum about the Dead Sea region and its geography.",
+        "es": "Museo sobre la región del mar Muerto y su geografía."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "jo-q1796169",
+      "name": "Royal Automobile Museum",
+      "area": "Amman Governorate",
+      "city": "Amman Governorate",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of historic royal cars in Amman.",
+        "es": "Museo de automóviles reales históricos en Amán."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

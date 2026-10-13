@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "IN",
+  "names": {
+    "en": "India",
+    "es": "India"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "in-q844427",
+      "name": "Champaner-Pavagadh Archaeological Park",
+      "area": "Halol",
+      "city": "Champaner",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "UNESCO World Heritage archaeological park with medieval ruins in Gujarat.",
+        "es": "Parque arqueológico Patrimonio Mundial de la UNESCO, con ruinas medievales en Guyarat."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "in-q1356352",
+      "name": "Victoria Memorial",
+      "area": "Kolkata",
+      "city": "Kolkata",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Marble memorial and museum on the British Raj in Kolkata.",
+        "es": "Memorial de mármol y museo sobre el Raj británico en Calcuta."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "in-q1410702",
+      "name": "Sabarmati Ashram",
+      "area": "Ahmedabad",
+      "city": "Ahmedabad",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Ashram of Mahatma Gandhi on the Sabarmati River in Ahmedabad.",
+        "es": "Ashram de Mahatma Gandhi junto al río Sabarmati, en Ahmedabad."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "in-q1364900",
+      "name": "Indian Museum",
+      "area": "Kolkata",
+      "city": "Kolkata",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Large museum in Kolkata with natural history, art and archaeology collections.",
+        "es": "Gran museo en Calcuta con colecciones de historia natural, arte y arqueología."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "in-q1356138",
+      "name": "National Museum",
+      "area": "New Delhi",
+      "city": "New Delhi",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National museum in New Delhi with art and archaeological collections.",
+        "es": "Museo nacional en Nueva Delhi con colecciones de arte y arqueología."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "in-q1864572",
+      "name": "Salar Jung Museum",
+      "area": "Hyderabad",
+      "city": "Hyderabad",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum in Hyderabad with a large collection of art objects.",
+        "es": "Museo en Hyderabad con una gran colección de objetos de arte."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "in-q1381516",
+      "name": "Gandhi Smriti",
+      "area": "New Delhi",
+      "city": "New Delhi",
+      "category": "museum",
+      "interests": [
+        "history",
+        "museums"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum at the house where Mahatma Gandhi was assassinated in 1948.",
+        "es": "Museo en la casa donde fue asesinado Mahatma Gandhi en 1948."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "in-q1786944",
+      "name": "Ramoji Film City",
+      "area": "Ranga Reddy district",
+      "city": "Hyderabad",
+      "category": "experience",
+      "interests": [
+        "family",
+        "sights"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Large film studio and theme park near Hyderabad.",
+        "es": "Gran estudio de cine y parque temático cerca de Hyderabad."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

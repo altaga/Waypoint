@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "AG",
+  "names": {
+    "en": "Antigua and Barbuda",
+    "es": "Antigua y Barbuda"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ag-q1435206",
+      "name": "Nelson's Dockyard",
+      "area": "Saint Paul",
+      "city": "Saint Paul",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Historic naval dockyard from the 18th century, in English Harbour.",
+        "es": "Antiguo astillero naval del siglo XVIII, en English Harbour."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ag-q2912720",
+      "name": "Museum of Antigua and Barbuda",
+      "area": "Museum of Antigua and Barbuda",
+      "city": "Museum of Antigua and Barbuda",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "National museum of Antigua and Barbuda's history and culture.",
+        "es": "Museo nacional de la historia y la cultura de Antigua y Barbuda."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

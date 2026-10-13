@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "IL",
+  "names": {
+    "en": "Israel",
+    "es": "Israel"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "il-q46815",
+      "name": "Israel Museum",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Large museum in Jerusalem with archaeology, Judaica and fine arts.",
+        "es": "Gran museo en Jerusalén con arqueología, judaica y bellas artes."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "il-q187702",
+      "name": "Church of the Holy Sepulchre",
+      "area": "Old City of Jerusalem",
+      "city": "Jerusalem",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Church in Jerusalem's Old City, traditionally venerated as the site of Jesus's crucifixion and burial.",
+        "es": "Iglesia de la Ciudad Vieja de Jerusalén, venerada como lugar de la crucifixión y sepultura de Jesús."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "il-q126130",
+      "name": "Bible Lands Museum",
+      "area": "Givat Ram",
+      "city": "Jerusalem",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of archaeology and art of the ancient Near East in Jerusalem.",
+        "es": "Museo de arqueología y arte del antiguo Oriente Próximo en Jerusalén."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "il-q156591",
+      "name": "Yad Vashem",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Holocaust memorial and museum complex in Jerusalem.",
+        "es": "Complejo memorial y museo sobre el Holocausto en Jerusalén."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "il-q456800",
+      "name": "Mini Israel",
+      "area": "Israel",
+      "city": "Israel",
+      "category": "experience",
+      "interests": [
+        "family",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Miniature park with scale models of landmarks from across Israel.",
+        "es": "Parque en miniatura con maquetas de lugares emblemáticos de Israel."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "il-q796764",
+      "name": "Museum of the Jewish People at Beit Hatfutsot",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum on Jewish history and communities around the world, in Tel Aviv.",
+        "es": "Museo sobre la historia judía y sus comunidades en el mundo, en Tel Aviv."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "il-q840618",
+      "name": "Eretz Israel Museum",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum complex of archaeology, ethnography and technology in Tel Aviv.",
+        "es": "Complejo de museos de arqueología, etnografía y tecnología en Tel Aviv."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "il-q174527",
+      "name": "Shrine of the Book",
+      "area": "West Jerusalem",
+      "city": "Jerusalem",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum housing the Dead Sea Scrolls in Jerusalem.",
+        "es": "Museo que alberga los Rollos del Mar Muerto en Jerusalén."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "il-q1267958",
+      "name": "Tel Aviv Museum of Art",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "category": "museum",
+      "interests": [
+        "art",
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Art museum in Tel Aviv with Israeli and international collections.",
+        "es": "Museo de arte en Tel Aviv con colecciones israelíes e internacionales."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "il-q2297982",
+      "name": "Design Museum Holon",
+      "area": "Holon",
+      "city": "Holon",
+      "category": "museum",
+      "interests": [
+        "art",
+        "architecture",
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Design and architecture museum in Holon, south of Tel Aviv.",
+        "es": "Museo de diseño y arquitectura en Holon, al sur de Tel Aviv."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

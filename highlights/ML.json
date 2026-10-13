@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "ML",
+  "names": {
+    "en": "Mali",
+    "es": "Mali"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ml-q1867505",
+      "name": "National Museum of Mali",
+      "area": "Bamako",
+      "city": "Bamako",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum in Bamako with collections on Mali's arts and history.",
+        "es": "Museo nacional en Bamako con colecciones sobre el arte y la historia de Malí."
+      },
+      "sourceId": "wikidata",
+      "admission": "Security conditions are unstable across much of this country; check your government's current travel advice before going."
+    },
+    {
+      "id": "ml-q105706883",
+      "name": "Muso Kunda Museum of Women",
+      "area": "Bamako",
+      "city": "Bamako",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in Bamako dedicated to women's history and culture in Mali.",
+        "es": "Museo en Bamako dedicado a la historia y la cultura de las mujeres en Malí."
+      },
+      "sourceId": "wikidata",
+      "admission": "Security conditions are unstable across much of this country; check your government's current travel advice before going."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "IQ",
+  "names": {
+    "en": "Iraq",
+    "es": "Irak"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "iq-q838359",
+      "name": "Imam Ali Mosque",
+      "area": "Najaf",
+      "city": "Najaf",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "temples"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Shrine mosque with a golden dome in Najaf.",
+        "es": "Mezquita-santuario con cúpula dorada en Nayaf."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "iq-q521251",
+      "name": "National Museum of Iraq",
+      "area": "Baghdad",
+      "city": "Baghdad",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National museum of Mesopotamian artifacts in Baghdad.",
+        "es": "Museo nacional de objetos mesopotámicos en Bagdad."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "iq-q773704",
+      "name": "Imam Husayn Mausoleum",
+      "area": "Karbala",
+      "city": "Karbala",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "temples"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Shrine of Imam Husayn with a golden dome in Karbala.",
+        "es": "Santuario del imán Husein con cúpula dorada en Kerbala."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "iq-q154116",
+      "name": "Al-Kadhimiya Mosque",
+      "area": "Baghdad",
+      "city": "Baghdad",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "temples"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Shrine mosque in northern Baghdad, a Shia pilgrimage site.",
+        "es": "Mezquita-santuario al norte de Bagdad, lugar de peregrinación chií."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "iq-q1486703",
+      "name": "Taq-i Kisra",
+      "area": "Asuristan",
+      "city": "Asuristan",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Ruined Sasanian palace arch at Ctesiphon, near Baghdad.",
+        "es": "Arco en ruinas de un palacio sasánida en Ctesifonte, cerca de Bagdad."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "iq-q3250647",
+      "name": "Al Abbas Mosque",
+      "area": "Karbala",
+      "city": "Karbala",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "temples"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Shrine mosque in Karbala dedicated to Abbas ibn Ali.",
+        "es": "Mezquita-santuario en Kerbala dedicada a Abbas ibn Alí."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "iq-q19414891",
+      "name": "Sulaymaniyah Museum",
+      "area": "Sulaymaniyah",
+      "city": "Sulaymaniyah",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Regional museum of archaeology and ethnography in Sulaymaniyah.",
+        "es": "Museo regional de arqueología y etnografía en Sulaymaniya."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "iq-q3014063",
+      "name": "Ennigaldi-Nanna's museum",
+      "area": "Ur",
+      "city": "Ur",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum at the Ur archaeological site, showing Sumerian finds.",
+        "es": "Museo en el yacimiento arqueológico de Ur, con hallazgos sumerios."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    }
+  ]
+}

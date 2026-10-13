@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "KP",
+  "names": {
+    "en": "North Korea",
+    "es": "Corea del Norte"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "kp-q512139",
+      "name": "Changbai Mountains",
+      "area": "Changbai Mountains",
+      "city": "Changbai Mountains",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Mountain range on the North Korea-China border.",
+        "es": "Cordillera en la frontera entre Corea del Norte y China."
+      },
+      "sourceId": "wikidata",
+      "admission": "Foreign visitors must go on an organised tour."
+    },
+    {
+      "id": "kp-q708588",
+      "name": "International Friendship Exhibition",
+      "area": "North Pyongan Province",
+      "city": "North Pyongan Province",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of gifts given to North Korea's leaders, in North Pyongan Province.",
+        "es": "Museo de regalos ofrecidos a los líderes de Corea del Norte, en la provincia de Pyongan del Norte."
+      },
+      "sourceId": "wikidata",
+      "admission": "Foreign visitors must go on an organised tour."
+    },
+    {
+      "id": "kp-q1326244",
+      "name": "Korean Revolution Museum",
+      "area": "Pyongyang",
+      "city": "Pyongyang",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of the Korean revolutionary movement in Pyongyang.",
+        "es": "Museo del movimiento revolucionario coreano en Pyongyang."
+      },
+      "sourceId": "wikidata",
+      "admission": "Foreign visitors must go on an organised tour."
+    },
+    {
+      "id": "kp-q708915",
+      "name": "Korea Central Zoo",
+      "area": "Pyongyang",
+      "city": "Pyongyang",
+      "category": "experience",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Zoo in Pyongyang.",
+        "es": "Zoológico en Pyongyang."
+      },
+      "sourceId": "wikidata",
+      "admission": "Foreign visitors must go on an organised tour."
+    },
+    {
+      "id": "kp-q5047540",
+      "name": "Korean Central History Museum",
+      "area": "Chung-guyok",
+      "city": "Chung-guyok",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "History museum in Pyongyang covering Korea's past.",
+        "es": "Museo de historia en Pyongyang sobre el pasado de Corea."
+      },
+      "sourceId": "wikidata",
+      "admission": "Foreign visitors must go on an organised tour."
+    },
+    {
+      "id": "kp-q17198628",
+      "name": "Munsu Water Park",
+      "area": "Pyongyang",
+      "city": "Pyongyang",
+      "category": "experience",
+      "interests": [
+        "family"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Large water park in Pyongyang.",
+        "es": "Gran parque acuático en Pyongyang."
+      },
+      "sourceId": "wikidata",
+      "admission": "Foreign visitors must go on an organised tour."
+    },
+    {
+      "id": "kp-q11588512",
+      "name": "Victorious Fatherland Liberation War Museum",
+      "area": "Sosong-guyok",
+      "city": "Sosong-guyok",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum about the Korean War in Pyongyang.",
+        "es": "Museo sobre la guerra de Corea en Pyongyang."
+      },
+      "sourceId": "wikidata",
+      "admission": "Foreign visitors must go on an organised tour."
+    }
+  ]
+}

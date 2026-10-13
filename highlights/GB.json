@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "GB",
+  "names": {
+    "en": "United Kingdom",
+    "es": "Reino Unido"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "gb-q39671",
+      "name": "Stonehenge",
+      "area": "Amesbury",
+      "city": "Amesbury",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Prehistoric stone circle on Salisbury Plain, Wiltshire.",
+        "es": "Círculo de piedras prehistórico en la llanura de Salisbury, Wiltshire."
+      },
+      "sourceId": "wikidata",
+      "admission": "Timed-entry tickets, usually booked in advance; check the official site."
+    },
+    {
+      "id": "gb-q6373",
+      "name": "British Museum",
+      "area": "Bloomsbury",
+      "city": "London",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Large museum of world cultures, with collections from across history.",
+        "es": "Gran museo de culturas del mundo, con colecciones de toda la historia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gb-q42182",
+      "name": "Buckingham Palace",
+      "area": "Westminster",
+      "city": "London",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Official London residence of the British monarch.",
+        "es": "Residencia oficial en Londres del monarca británico."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gb-q62378",
+      "name": "Tower of London",
+      "area": "Tower Hamlets",
+      "city": "London",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Historic castle on the north bank of the Thames, with the Crown Jewels.",
+        "es": "Castillo histórico en la orilla norte del Támesis, con las Joyas de la Corona."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gb-q41225",
+      "name": "Big Ben",
+      "area": "Westminster",
+      "city": "London",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "sights"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Clock tower at the Palace of Westminster.",
+        "es": "Torre del reloj en el Palacio de Westminster."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gb-q42646",
+      "name": "Windsor Castle",
+      "area": "Windsor",
+      "city": "Windsor",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Royal residence and castle in the town of Windsor, Berkshire.",
+        "es": "Castillo y residencia real en la localidad de Windsor, Berkshire."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gb-q160659",
+      "name": "London Eye",
+      "area": "Lambeth",
+      "city": "London",
+      "category": "experience",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Large observation wheel on the South Bank of the Thames.",
+        "es": "Gran noria de observación en la orilla sur del Támesis."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gb-q180788",
+      "name": "National Gallery",
+      "area": "Westminster",
+      "city": "London",
+      "category": "museum",
+      "interests": [
+        "art",
+        "museums"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National art gallery with a large collection of Western European paintings.",
+        "es": "Galería nacional de arte con una gran colección de pintura de Europa occidental."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gb-q192988",
+      "name": "Royal Observatory",
+      "area": "Greenwich",
+      "city": "London",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Historic observatory in Greenwich, on the Prime Meridian.",
+        "es": "Observatorio histórico en Greenwich, sobre el meridiano de cero grados."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "gb-q193375",
+      "name": "Tate Modern",
+      "area": "Southwark",
+      "city": "London",
+      "category": "museum",
+      "interests": [
+        "art",
+        "museums"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Modern and contemporary art museum in a former power station.",
+        "es": "Museo de arte moderno y contemporáneo en una antigua central eléctrica."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "LA",
+  "names": {
+    "en": "Laos",
+    "es": "Laos"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "la-q655853",
+      "name": "Buddha Park",
+      "area": "Buddha Park",
+      "city": "Buddha Park",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "temples"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Sculpture park of Buddhist and Hindu figures near Vientiane.",
+        "es": "Parque de esculturas budistas e hindúes cerca de Vientián."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "la-q2671098",
+      "name": "Pak Ou Caves",
+      "area": "Pak Ou Caves",
+      "city": "Pak Ou Caves",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "temples"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Limestone caves filled with Buddha images, on the Mekong near Luang Prabang.",
+        "es": "Cuevas de piedra caliza llenas de imágenes de Buda, junto al Mekong cerca de Luang Prabang."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "la-q2091650",
+      "name": "Viengxay caves",
+      "area": "Hūaphan",
+      "city": "Hūaphan",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cave complex used as a wartime refuge in northern Laos.",
+        "es": "Complejo de cuevas que sirvió de refugio durante la guerra, en el norte de Laos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "la-q6695002",
+      "name": "Luang Namtha Museum",
+      "area": "Luang Namtha Museum",
+      "city": "Luang Namtha Museum",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Provincial museum in Luang Namtha on local history and ethnic groups.",
+        "es": "Museo provincial en Luang Namtha sobre la historia local y los grupos étnicos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "la-q96385539",
+      "name": "Kaysone Phomvihane Museum",
+      "area": "Vientiane",
+      "city": "Vientiane",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum about Kaysone Phomvihane, Laos's first prime minister.",
+        "es": "Museo sobre Kaysone Phomvihane, primer ministro de Laos."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "MC",
+  "names": {
+    "en": "Monaco",
+    "es": "Mónaco"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "mc-q851527",
+      "name": "Musée océanographique de Monaco",
+      "area": "Monaco-Ville",
+      "city": "Monaco-Ville",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Oceanographic museum with marine exhibits and aquariums, perched on the cliffs of Monaco-Ville.",
+        "es": "Museo oceanográfico con exposiciones marinas y acuarios, situado sobre los acantilados de Monaco-Ville."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mc-q16010845",
+      "name": "Monaco Top Cars Collection",
+      "area": "Monaco",
+      "city": "Monaco",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Collection of luxury and classic cars on display in Monaco.",
+        "es": "Colección de coches de lujo y clásicos expuestos en Mónaco."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mc-q3330282",
+      "name": "Museum of Stamps and Coins",
+      "area": "Fontvieille",
+      "city": "Fontvieille",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of philately and numismatics, with stamps and coins from Monaco.",
+        "es": "Museo de filatelia y numismática con sellos y monedas de Mónaco."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mc-q2264191",
+      "name": "Napoleon Museum",
+      "area": "Monte Carlo",
+      "city": "Monte Carlo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of Napoleonic memorabilia, located in Monte Carlo.",
+        "es": "Museo de objetos napoleónicos, ubicado en Montecarlo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mc-q3329551",
+      "name": "Museum of Prehistoric Anthropology",
+      "area": "Monaco",
+      "city": "Monaco",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of prehistoric anthropology, presenting the study of early human life.",
+        "es": "Museo de antropología prehistórica dedicado al estudio de la vida humana temprana."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "mc-q3345073",
+      "name": "New National Museum of Monaco",
+      "area": "Monaco",
+      "city": "Monaco",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum presenting the national collections of Monaco.",
+        "es": "Museo que presenta las colecciones nacionales de Mónaco."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SK",
+  "names": {
+    "en": "Slovakia",
+    "es": "Eslovaquia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "sk-q27007",
+      "name": "Bardejov",
+      "area": "Bardejov District",
+      "city": "Bardejov District",
+      "category": "neighborhood",
+      "interests": [
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Historic town with a well-preserved medieval center, a UNESCO World Heritage site.",
+        "es": "Ciudad histórica con un centro medieval bien conservado, sitio del Patrimonio Mundial de la UNESCO."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sk-q321074",
+      "name": "Piešťany",
+      "area": "Piešťany District",
+      "city": "Piešťany District",
+      "category": "experience",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Spa town with mineral springs and thermal baths.",
+        "es": "Ciudad balneario con manantiales minerales y baños termales."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sk-q532555",
+      "name": "Trenčianske Teplice",
+      "area": "Trenčín District",
+      "city": "Trenčín District",
+      "category": "experience",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Spa town with thermal springs in the Trenčín region.",
+        "es": "Localidad balneario con aguas termales en la región de Trenčín."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sk-q135655",
+      "name": "Rajecké Teplice",
+      "area": "Žilina District",
+      "city": "Žilina District",
+      "category": "experience",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Spa town with thermal springs in the Žilina region.",
+        "es": "Localidad balneario con aguas termales en la región de Žilina."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sk-q837291",
+      "name": "Bridge of the Slovak National Uprising",
+      "area": "Bratislava",
+      "city": "Bratislava",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bridge over the Danube in Bratislava, topped by a restaurant with city views.",
+        "es": "Puente sobre el Danubio en Bratislava, coronado por un restaurante con vistas a la ciudad."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sk-q1093925",
+      "name": "Slovak National Museum",
+      "area": "Bratislava",
+      "city": "Bratislava",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum with collections on Slovak history and culture, in Bratislava.",
+        "es": "Museo nacional con colecciones sobre la historia y cultura eslovacas, en Bratislava."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sk-q284340",
+      "name": "Dobšinská Ice Cave",
+      "area": "Rožňava District",
+      "city": "Rožňava District",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Ice cave in the Slovak Karst, open to guided visits.",
+        "es": "Cueva de hielo en el Karst Eslovaco, abierta a visitas guiadas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sk-q908287",
+      "name": "Domica",
+      "area": "Rožňava District",
+      "city": "Rožňava District",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Show cave in the Slovak Karst with an underground river.",
+        "es": "Cueva turística en el Karst Eslovaco, con un río subterráneo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sk-q1075804",
+      "name": "Ochtinská Aragonite Cave",
+      "area": "Rožňava District",
+      "city": "Rožňava District",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Show cave in the Slovak Karst known for its aragonite formations.",
+        "es": "Cueva turística en el Karst Eslovaco, conocida por sus formaciones de aragonito."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "sk-q1744024",
+      "name": "Slovak National Gallery",
+      "area": "Bratislava",
+      "city": "Bratislava",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National gallery of Slovak art, in Bratislava.",
+        "es": "Galería nacional de arte eslovaco, en Bratislava."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

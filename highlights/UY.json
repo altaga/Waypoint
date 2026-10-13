@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "UY",
+  "names": {
+    "en": "Uruguay",
+    "es": "Uruguay"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "uy-q1786577",
+      "name": "National Museum of Visual Arts",
+      "area": "Montevideo",
+      "city": "Montevideo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum of visual arts in Montevideo.",
+        "es": "Museo nacional de artes visuales en Montevideo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "uy-q16609962",
+      "name": "Museo de la Memoria",
+      "area": "Montevideo",
+      "city": "Montevideo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum on Uruguay's recent political history, in Montevideo.",
+        "es": "Museo sobre la historia política reciente de Uruguay, en Montevideo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "uy-q1570412",
+      "name": "Museo Torres García",
+      "area": "Montevideo",
+      "city": "Montevideo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Museum of works by Joaquín Torres García in Montevideo.",
+        "es": "Museo con obras de Joaquín Torres García en Montevideo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "uy-q3328392",
+      "name": "National Museum of Natural History",
+      "area": "Montevideo",
+      "city": "Montevideo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Natural history museum in Montevideo.",
+        "es": "Museo de historia natural en Montevideo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "uy-q3816749",
+      "name": "Museum of Pre-Columbian and Indigenous Art",
+      "area": "Montevideo",
+      "city": "Montevideo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Museum of pre-Columbian and Indigenous art in Montevideo.",
+        "es": "Museo de arte precolombino e indígena en Montevideo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "uy-q957021",
+      "name": "Museo del Hombre y la Tecnología",
+      "area": "Salto Department",
+      "city": "Salto Department",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Museum on human history and technology in Salto.",
+        "es": "Museo sobre la historia humana y la tecnología en Salto."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "uy-q3817068",
+      "name": "Museo Aeronáutico de la Fuerza Aérea Uruguaya",
+      "area": "Canelones Department",
+      "city": "Canelones Department",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Aviation museum of the Uruguayan Air Force.",
+        "es": "Museo de aviación de la Fuerza Aérea Uruguaya."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "uy-q1438902",
+      "name": "Fortaleza de Santa Teresa",
+      "area": "Rocha Department",
+      "city": "Rocha Department",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Historic fortress on the coast in Rocha Department.",
+        "es": "Antigua fortaleza junto a la costa, en el departamento de Rocha."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "uy-q1055949",
+      "name": "Cerro San Antonio",
+      "area": "Piriápolis",
+      "city": "Piriápolis",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Hill overlooking the coast of Piriápolis.",
+        "es": "Colina con vistas a la costa de Piriápolis."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "uy-q987058",
+      "name": "El Tesoro",
+      "area": "Maldonado Department",
+      "city": "Maldonado Department",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Historic site in Maldonado Department.",
+        "es": "Sitio histórico en el departamento de Maldonado."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

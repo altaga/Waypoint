@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "AT",
+  "names": {
+    "en": "Austria",
+    "es": "Austria"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "at-q486450",
+      "name": "Baden",
+      "area": "Baden District",
+      "city": "Baden District",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "history"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Spa town south of Vienna, with historic buildings and thermal baths.",
+        "es": "Ciudad balneario al sur de Viena, con edificios históricos y baños termales."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "at-q254835",
+      "name": "Bad Gastein",
+      "area": "St. Johann im Pongau District",
+      "city": "St. Johann im Pongau District",
+      "category": "experience",
+      "interests": [
+        "nature",
+        "sights"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Alpine spa town with thermal waters and nearby waterfalls.",
+        "es": "Localidad alpina balneario con aguas termales y cascadas cercanas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "at-q46242",
+      "name": "Hofburg Palace",
+      "area": "Innere Stadt",
+      "city": "Innere Stadt",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "museums"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Former imperial palace in Vienna, with museums and state apartments.",
+        "es": "Antiguo palacio imperial en Viena, con museos y apartamentos estatales."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "at-q160139",
+      "name": "Mauthausen concentration camp",
+      "area": "Mauthausen",
+      "city": "Mauthausen",
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Former Nazi concentration camp, now a memorial and museum.",
+        "es": "Antiguo campo de concentración nazi, hoy memorial y museo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "at-q95569",
+      "name": "Kunsthistorisches Museum",
+      "area": "Innere Stadt",
+      "city": "Innere Stadt",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Art and antiquities museum in Vienna.",
+        "es": "Museo de arte y antigüedades en Viena."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "at-q371908",
+      "name": "Albertina",
+      "area": "Innere Stadt",
+      "city": "Innere Stadt",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vienna museum known for its prints, drawings and graphic art.",
+        "es": "Museo de Viena conocido por sus grabados, dibujos y arte gráfico."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "at-q304037",
+      "name": "Austrian National Library",
+      "area": "Vienna",
+      "city": "Vienna",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Historic library in the Hofburg complex, Vienna.",
+        "es": "Biblioteca histórica en el complejo de la Hofburg, en Viena."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "at-q508815",
+      "name": "Carnuntum",
+      "area": "Lower Austria",
+      "city": "Lower Austria",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Roman archaeological site and museum near Vienna.",
+        "es": "Yacimiento arqueológico romano y museo cerca de Viena."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "at-q688704",
+      "name": "Natural History Museum, Vienna",
+      "area": "Innere Stadt",
+      "city": "Innere Stadt",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Natural history museum in central Vienna.",
+        "es": "Museo de historia natural en el centro de Viena."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

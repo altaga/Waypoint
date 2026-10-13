@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "BW",
+  "names": {
+    "en": "Botswana",
+    "es": "Botsuana"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "bw-q859613",
+      "name": "Botswana National Museum",
+      "area": "Gaborone",
+      "city": "Gaborone",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum in Gaborone covering the country's history and culture.",
+        "es": "Museo nacional en Gaborone sobre la historia y la cultura del país."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bw-q615930",
+      "name": "Phuthadikobo Museum",
+      "area": "Mochudi",
+      "city": "Mochudi",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in Mochudi showing local heritage, crafts and village history.",
+        "es": "Museo en Mochudi con patrimonio local, artesanía e historia de la aldea."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bw-q3504025",
+      "name": "Supa Ngwao Museum",
+      "area": "Francistown",
+      "city": "Francistown",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in Francistown showing regional history and cultural heritage.",
+        "es": "Museo en Francistown sobre la historia regional y el patrimonio cultural."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "BO",
+  "names": {
+    "en": "Bolivia",
+    "es": "Bolivia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "bo-q847038",
+      "name": "National Mint of Bolivia",
+      "area": "Potosí",
+      "city": "Potosí",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Colonial-era silver mint in Potosí, now a museum.",
+        "es": "Antigua casa de moneda colonial de plata en Potosí, hoy museo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bo-q1420258",
+      "name": "National Museum of Archaeology (Bolivia)",
+      "area": "La Paz",
+      "city": "La Paz",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Archaeology museum in La Paz.",
+        "es": "Museo de arqueología en La Paz."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bo-q10333587",
+      "name": "National Museum of Art, La Paz",
+      "area": "La Paz Department",
+      "city": "La Paz Department",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Art museum in La Paz with colonial-era and later works.",
+        "es": "Museo de arte en La Paz con obras de la época colonial y posteriores."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bo-q6940534",
+      "name": "Museo de Arte Antonio Paredes Candia",
+      "area": "El Alto",
+      "city": "El Alto",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Art museum in El Alto.",
+        "es": "Museo de arte en El Alto."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bo-q5139104",
+      "name": "Coca Museum",
+      "area": "La Paz",
+      "city": "La Paz",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum about the coca plant and its cultural uses.",
+        "es": "Museo sobre la planta de coca y sus usos culturales."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

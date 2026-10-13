@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SZ",
+  "names": {
+    "en": "Eswatini",
+    "es": "Suazilandia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "sz-q1960512",
+      "name": "Indingilizi Gallery",
+      "area": "Indingilizi Gallery",
+      "city": "Indingilizi Gallery",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Art gallery in Eswatini.",
+        "es": "Galería de arte en Eswatini."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

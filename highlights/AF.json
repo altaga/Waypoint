@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "AF",
+  "names": {
+    "en": "Afghanistan",
+    "es": "Afganistán"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "af-q715467",
+      "name": "National Museum of Afghanistan",
+      "area": "Kabul",
+      "city": "Kabul",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Kabul museum with archaeological and historical collections.",
+        "es": "Museo de Kabul con colecciones arqueológicas e históricas."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "af-q833625",
+      "name": "Kabul Zoo",
+      "area": "Kabul",
+      "city": "Kabul",
+      "category": "nature",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Zoo in central Kabul.",
+        "es": "Zoológico en el centro de Kabul."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "af-q5361536",
+      "name": "OMAR Mine Museum",
+      "area": "Kabul",
+      "city": "Kabul",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum about landmines and mine clearance work in Kabul.",
+        "es": "Museo sobre las minas terrestres y el trabajo de desminado en Kabul."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "af-q5732778",
+      "name": "Herat National Museum",
+      "area": "Herat",
+      "city": "Herat",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in Herat with regional archaeological collections.",
+        "es": "Museo en Herat con colecciones arqueológicas regionales."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    },
+    {
+      "id": "af-q6361210",
+      "name": "Kandahar Provincial Museum",
+      "area": "Kandahar Province",
+      "city": "Kandahar Province",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Provincial museum in Kandahar with regional collections.",
+        "es": "Museo provincial en Kandahar con colecciones regionales."
+      },
+      "sourceId": "wikidata",
+      "admission": "Check current security advice first."
+    }
+  ]
+}

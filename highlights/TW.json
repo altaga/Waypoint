@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "TW",
+  "names": {
+    "en": "Taiwan",
+    "es": "Taiwán"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "tw-q540668",
+      "name": "National Palace Museum",
+      "area": "Shilin District",
+      "city": "Taipei",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Museum of Chinese art and artifacts in Taipei.",
+        "es": "Museo de arte y objetos chinos en Taipéi."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tw-q591131",
+      "name": "Taipei Zoo",
+      "area": "Wenshan District",
+      "city": "Taipei",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Zoo in the Wenshan District of Taipei.",
+        "es": "Zoológico en el distrito de Wenshan, en Taipéi."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tw-q714431",
+      "name": "Fort Provintia",
+      "area": "Tainan",
+      "city": "Tainan",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Historic Dutch-era fort in Tainan.",
+        "es": "Antiguo fuerte de la época neerlandesa en Tainan."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tw-q4984158",
+      "name": "Fo Guang Shan Buddha Museum",
+      "area": "Dashu District",
+      "city": "Kaohsiung",
+      "category": "museum",
+      "interests": [
+        "temples",
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Buddhist museum in the Fo Guang Shan monastery complex.",
+        "es": "Museo budista en el complejo monástico de Fo Guang Shan."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tw-q5095087",
+      "name": "Chimei Museum",
+      "area": "Rende District",
+      "city": "Tainan",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum of art, music and natural history in Tainan.",
+        "es": "Museo de arte, música e historia natural en Tainan."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tw-q706692",
+      "name": "National Taiwan Museum",
+      "area": "Zhongzheng District",
+      "city": "Taipei",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of natural history and culture in Taipei.",
+        "es": "Museo de historia natural y cultura en Taipéi."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tw-q6125749",
+      "name": "Kaohsiung Museum of History",
+      "area": "Yancheng District",
+      "city": "Kaohsiung",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "History museum in Kaohsiung.",
+        "es": "Museo de historia en Kaohsiung."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tw-q699040",
+      "name": "MoCA Taipei",
+      "area": "Datong District",
+      "city": "Taipei",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Contemporary art museum in Taipei.",
+        "es": "Museo de arte contemporáneo en Taipéi."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "tw-q10927014",
+      "name": "National Taiwan Museum of Fine Arts",
+      "area": "West District",
+      "city": "Taichung",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fine arts museum in Taichung.",
+        "es": "Museo de bellas artes en Taichung."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

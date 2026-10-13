@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "KH",
+  "names": {
+    "en": "Cambodia",
+    "es": "Camboya"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "kh-q850268",
+      "name": "Tuol Sleng torture center",
+      "area": "Phnom Penh",
+      "city": "Phnom Penh",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Former school turned prison, now a museum of the Khmer Rouge era.",
+        "es": "Antigua escuela convertida en prisión, hoy museo de la era de los jemeres rojos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "kh-q1929750",
+      "name": "National Museum of Cambodia",
+      "area": "Phnom Penh",
+      "city": "Phnom Penh",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "temples"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National museum of Khmer art and archaeology in Phnom Penh.",
+        "es": "Museo nacional de arte y arqueología jemer en Phnom Penh."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "kh-q15961573",
+      "name": "Angkor National Museum",
+      "area": "Angkor National Museum",
+      "city": "Angkor National Museum",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of Angkorian history and art in Siem Reap.",
+        "es": "Museo de la historia y el arte angkorianos en Siem Reap."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "kh-q5025157",
+      "name": "Cambodian Landmine Museum",
+      "area": "Siem Reap Province",
+      "city": "Siem Reap Province",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum about landmines and their impact in Cambodia.",
+        "es": "Museo sobre las minas terrestres y su impacto en Camboya."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

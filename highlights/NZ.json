@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "NZ",
+  "names": {
+    "en": "New Zealand",
+    "es": "Nueva Zelanda"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "nz-q915603",
+      "name": "Museum of New Zealand Te Papa Tongarewa",
+      "area": "Wellington",
+      "city": "Wellington",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "nature"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "National museum in Wellington covering New Zealand's natural history, art and culture.",
+        "es": "Museo nacional en Wellington sobre la historia natural, el arte y la cultura de Nueva Zelanda."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "nz-q758657",
+      "name": "Auckland War Memorial Museum Tāmaki Paenga Hira",
+      "area": "Auckland",
+      "city": "Auckland",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum in Auckland's Domain with Māori, Pacific and natural history collections.",
+        "es": "Museo en The Domain de Auckland con colecciones maoríes, del Pacífico e historia natural."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "nz-q1033769",
+      "name": "Canterbury Museum",
+      "area": "Canterbury",
+      "city": "Christchurch",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in Christchurch covering natural history and the region's past.",
+        "es": "Museo en Christchurch sobre historia natural y el pasado de la región."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "nz-q4819492",
+      "name": "Auckland Art Gallery",
+      "area": "Auckland",
+      "city": "Auckland",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Public art gallery in central Auckland with New Zealand and international works.",
+        "es": "Galería de arte pública en el centro de Auckland con obras neozelandesas e internacionales."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "nz-q528852",
+      "name": "Cardrona Bra Fence",
+      "area": "Otago Region",
+      "city": "Cardrona",
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Roadside fence near Cardrona hung with bras, a popular photo stop.",
+        "es": "Valla junto a la carretera cerca de Cardrona, cubierta de sostenes, parada popular para fotos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "nz-q2665285",
+      "name": "Auckland Zoo",
+      "area": "Auckland",
+      "city": "Auckland",
+      "category": "experience",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Zoo in Auckland's Western Springs park.",
+        "es": "Zoológico en el parque Western Springs de Auckland."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "nz-q5109058",
+      "name": "Christchurch Art Gallery",
+      "area": "Canterbury",
+      "city": "Christchurch",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Public art gallery in Christchurch with New Zealand and international art.",
+        "es": "Galería de arte pública en Christchurch con arte neozelandés e internacional."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "nz-q7981545",
+      "name": "Wellington Zoo",
+      "area": "Wellington",
+      "city": "Wellington",
+      "category": "experience",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Zoo in Wellington's Newtown area.",
+        "es": "Zoológico en el barrio de Newtown, en Wellington."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "nz-q28897",
+      "name": "Kelly Tarlton's Sea Life Aquarium",
+      "area": "Auckland",
+      "city": "Auckland",
+      "category": "experience",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Aquarium in Auckland with marine life displays.",
+        "es": "Acuario en Auckland con exhibiciones de vida marina."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "nz-q7108347",
+      "name": "Otago Museum",
+      "area": "Otago",
+      "city": "Dunedin",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in Dunedin with natural history and anthropology collections.",
+        "es": "Museo en Dunedin con colecciones de historia natural y antropología."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "nz-q913886",
+      "name": "Zealandia",
+      "area": "Wellington",
+      "city": "Wellington",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Predator-fenced ecosanctuary in Wellington with forest walks and native birds.",
+        "es": "Reserva ecológica vallada en Wellington, con senderos en el bosque y aves nativas."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

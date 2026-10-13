@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "CD",
+  "names": {
+    "en": "Democratic Republic of the Congo",
+    "es": "República Democrática del Congo"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "cd-q65600754",
+      "name": "National Museum of the Democratic Republic of Congo",
+      "area": "Kinshasa",
+      "city": "Kinshasa",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum in Kinshasa with collections on the country's culture and history.",
+        "es": "Museo nacional en Kinshasa con colecciones sobre la cultura y la historia del país."
+      },
+      "sourceId": "wikidata",
+      "admission": "Security varies by region; check current travel advice before travelling."
+    },
+    {
+      "id": "cd-q16335725",
+      "name": "National Museum of Lubumbashi",
+      "area": "Lubumbashi",
+      "city": "Lubumbashi",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in Lubumbashi with collections on regional history and cultural objects.",
+        "es": "Museo en Lubumbashi con colecciones sobre la historia regional y objetos culturales."
+      },
+      "sourceId": "wikidata",
+      "admission": "Security varies by region; check current travel advice before travelling."
+    }
+  ]
+}

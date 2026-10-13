@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "CL",
+  "names": {
+    "en": "Chile",
+    "es": "Chile"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "cl-q517430",
+      "name": "Chilean Museum of Pre-Columbian Art",
+      "area": "Santiago",
+      "city": "Santiago",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in Santiago with pre-Columbian art and objects from the Americas.",
+        "es": "Museo en Santiago con arte y piezas precolombinas de América."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cl-q775376",
+      "name": "Chilean National Museum of Fine Arts",
+      "area": "Santiago",
+      "city": "Santiago",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National fine arts museum in Santiago, in the Parque Forestal.",
+        "es": "Museo nacional de bellas artes en Santiago, en el Parque Forestal."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cl-q3064279",
+      "name": "Chilean National Museum of Natural History",
+      "area": "Quinta Normal",
+      "city": "Quinta Normal",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Natural history museum in Quinta Normal, Santiago, with fossils and wildlife displays.",
+        "es": "Museo de historia natural en Quinta Normal, Santiago, con fósiles y fauna."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cl-q1639516",
+      "name": "Huáscar",
+      "area": "Talcahuano",
+      "city": "Talcahuano",
+      "category": "sight",
+      "interests": [
+        "history",
+        "museums"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Historic Chilean navy ship, now a museum moored in Talcahuano.",
+        "es": "Antiguo buque de la armada chilena, hoy museo amarrado en Talcahuano."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cl-q6940940",
+      "name": "Museum of Memory and Human Rights",
+      "area": "Santiago",
+      "city": "Santiago",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in Santiago on human rights abuses during the dictatorship.",
+        "es": "Museo en Santiago sobre las violaciones de derechos humanos durante la dictadura."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cl-q605703",
+      "name": "Santiago Museum of Contemporary Art",
+      "area": "Santiago",
+      "city": "Santiago",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Contemporary art museum in Santiago.",
+        "es": "Museo de arte contemporáneo en Santiago."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cl-q3647931",
+      "name": "Chilean National History Museum",
+      "area": "Santiago",
+      "city": "Santiago",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "History museum in Santiago covering the country's past.",
+        "es": "Museo de historia en Santiago que recorre el pasado del país."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cl-q6034308",
+      "name": "Museo de la Solidaridad Salvador Allende",
+      "area": "Santiago",
+      "city": "Santiago",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Art museum in Santiago with works donated by artists from many countries.",
+        "es": "Museo de arte en Santiago con obras donadas por artistas de muchos países."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "cl-q6683083",
+      "name": "Los Pingüinos Natural Monument",
+      "area": "Punta Arenas",
+      "city": "Punta Arenas",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Protected island near Punta Arenas, home to a large Magellanic penguin colony.",
+        "es": "Isla protegida cerca de Punta Arenas, hogar de una gran colonia de pingüinos de Magallanes."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

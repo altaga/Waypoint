@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "HR",
+  "names": {
+    "en": "Croatia",
+    "es": "Croacia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "hr-q1954595",
+      "name": "Museum of Broken Relationships",
+      "area": "Zagreb",
+      "city": "Zagreb",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of personal objects from ended relationships, in Zagreb.",
+        "es": "Museo de objetos personales de relaciones terminadas, en Zagreb."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hr-q2497590",
+      "name": "Rector's Palace, Dubrovnik",
+      "area": "Dubrovnik",
+      "city": "Dubrovnik",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Gothic-Renaissance palace in Dubrovnik's Old Town.",
+        "es": "Palacio gótico-renacentista en el casco antiguo de Dubrovnik."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hr-q220113",
+      "name": "Zagreb Zoo",
+      "area": "Zagreb",
+      "city": "Zagreb",
+      "category": "nature",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Zoo in Zagreb.",
+        "es": "Zoológico en Zagreb."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hr-q631440",
+      "name": "Blue Grotto",
+      "area": "Biševo island",
+      "city": "Vis",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "beaches"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Sea cave on Biševo island, near Vis, known for its blue light.",
+        "es": "Cueva marina en la isla de Biševo, cerca de Vis, conocida por su luz azul."
+      },
+      "sourceId": "wikidata",
+      "admission": "Reached only by boat tour from Vis or Komiža; tours depend on the weather."
+    },
+    {
+      "id": "hr-q1936046",
+      "name": "Mimara Museum",
+      "area": "Donji grad",
+      "city": "Zagreb",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of art and archaeology collections in Zagreb.",
+        "es": "Museo de colecciones de arte y arqueología en Zagreb."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hr-q5187140",
+      "name": "Croatian Museum of Naïve Art",
+      "area": "Zagreb",
+      "city": "Zagreb",
+      "category": "museum",
+      "interests": [
+        "art",
+        "museums"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Museum of naive art in Zagreb.",
+        "es": "Museo de arte naíf en Zagreb."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hr-q3503103",
+      "name": "Croatian Museum of Contemporary Art",
+      "area": "Novi Zagreb",
+      "city": "Zagreb",
+      "category": "museum",
+      "interests": [
+        "art",
+        "museums"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of contemporary art in Zagreb.",
+        "es": "Museo de arte contemporáneo en Zagreb."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hr-q2986831",
+      "name": "Archaeological Museum of Zagreb",
+      "area": "Zagreb",
+      "city": "Zagreb",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Archaeological museum in Zagreb with collections from prehistory onward.",
+        "es": "Museo arqueológico en Zagreb con colecciones desde la prehistoria."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hr-q8366704",
+      "name": "Croatian Natural History Museum",
+      "area": "Zagreb",
+      "city": "Zagreb",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Natural history museum in Zagreb.",
+        "es": "Museo de historia natural en Zagreb."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hr-q502157",
+      "name": "Ethnographic Museum of Zagreb",
+      "area": "Donji grad",
+      "city": "Zagreb",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of Croatian ethnography in Zagreb.",
+        "es": "Museo de etnografía croata en Zagreb."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "hr-q2618426",
+      "name": "Zagreb City Museum",
+      "area": "Gornji Grad",
+      "city": "Zagreb",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of Zagreb's history and urban life.",
+        "es": "Museo sobre la historia y la vida urbana de Zagreb."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

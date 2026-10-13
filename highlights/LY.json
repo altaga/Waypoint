@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "LY",
+  "names": {
+    "en": "Libya",
+    "es": "Libia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ly-q2498401",
+      "name": "The National Libyan Museum",
+      "area": "Tripoli",
+      "city": "Tripoli",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum in Tripoli with collections on Libya's ancient and Islamic history.",
+        "es": "Museo nacional en Trípoli con colecciones sobre la historia antigua e islámica de Libia."
+      },
+      "sourceId": "wikidata",
+      "admission": "Security conditions in Libya are unstable; check your government's current travel advice before going."
+    },
+    {
+      "id": "ly-q11137266",
+      "name": "Islamic Museum of Tripoli",
+      "area": "Tripoli",
+      "city": "Tripoli",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of Islamic art and history in Tripoli.",
+        "es": "Museo de arte e historia islámicos en Trípoli."
+      },
+      "sourceId": "wikidata",
+      "admission": "Security conditions in Libya are unstable; check your government's current travel advice before going."
+    },
+    {
+      "id": "ly-q5550965",
+      "name": "Germa Museum",
+      "area": "Fezzan",
+      "city": "Germa",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Museum at Germa, the ancient Garamantian capital in the Fezzan region of southern Libya.",
+        "es": "Museo en Germa, antigua capital de los garamantes, en el Fezán, sur de Libia."
+      },
+      "sourceId": "wikidata",
+      "admission": "Security conditions in Libya are unstable; check your government's current travel advice before going."
+    }
+  ]
+}

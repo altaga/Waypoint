@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SY",
+  "names": {
+    "en": "Syria",
+    "es": "Siria"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "sy-q183562",
+      "name": "Umayyad Mosque",
+      "area": "Damascus",
+      "city": "Damascus",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Historic mosque in the old city of Damascus, with a large courtyard.",
+        "es": "Antigua mezquita en la ciudad vieja de Damasco, con un gran patio."
+      },
+      "sourceId": "wikidata",
+      "admission": "Serious security risks: check current government travel advice before any visit."
+    },
+    {
+      "id": "sy-q617254",
+      "name": "National Museum in Damascus",
+      "area": "Damascus",
+      "city": "Damascus",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National museum with collections on Syria's archaeology and history, in Damascus.",
+        "es": "Museo nacional con colecciones sobre la arqueología e historia de Siria, en Damasco."
+      },
+      "sourceId": "wikidata",
+      "admission": "Serious security risks: check current government travel advice before any visit."
+    },
+    {
+      "id": "sy-q1164599",
+      "name": "National Museum of Aleppo",
+      "area": "Aleppo",
+      "city": "Aleppo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum with archaeological collections, in Aleppo.",
+        "es": "Museo nacional con colecciones arqueológicas, en Alepo."
+      },
+      "sourceId": "wikidata",
+      "admission": "Serious security risks: check current government travel advice before any visit."
+    },
+    {
+      "id": "sy-q1749276",
+      "name": "Cathedral of Our Lady of Tortosa",
+      "area": "Tartus",
+      "city": "Tartus",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Historic cathedral in the port city of Tartus.",
+        "es": "Catedral histórica en la ciudad portuaria de Tartús."
+      },
+      "sourceId": "wikidata",
+      "admission": "Serious security risks: check current government travel advice before any visit."
+    },
+    {
+      "id": "sy-q632127",
+      "name": "Nur al-Din Bimaristan",
+      "area": "Damascus",
+      "city": "Damascus",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Medieval hospital complex in the old city of Damascus.",
+        "es": "Antiguo complejo hospitalario medieval en la ciudad vieja de Damasco."
+      },
+      "sourceId": "wikidata",
+      "admission": "Serious security risks: check current government travel advice before any visit."
+    },
+    {
+      "id": "sy-q55627273",
+      "name": "October War Panorama",
+      "area": "Damascus",
+      "city": "Damascus",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Panoramic museum display on the 1973 October War, in Damascus.",
+        "es": "Museo panorámico sobre la guerra de octubre de 1973, en Damasco."
+      },
+      "sourceId": "wikidata",
+      "admission": "Serious security risks: check current government travel advice before any visit."
+    }
+  ]
+}

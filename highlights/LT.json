@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "LT",
+  "names": {
+    "en": "Lithuania",
+    "es": "Lituania"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "lt-q1261509",
+      "name": "Druskininkai",
+      "area": "Grodno County",
+      "city": "Grodno County",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Spa resort town in southern Lithuania, on the Nemunas river.",
+        "es": "Localidad balneario en el sur de Lituania, junto al río Néman."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lt-q1050522",
+      "name": "Grūtas Park",
+      "area": "Druskininkai municipality",
+      "city": "Druskininkai municipality",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Open-air park of Soviet-era statues in southern Lithuania.",
+        "es": "Parque al aire libre con estatuas de la era soviética, en el sur de Lituania."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lt-q1790447",
+      "name": "National Museum of Lithuania",
+      "area": "Vilnius City Municipality",
+      "city": "Vilnius City Municipality",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National history museum in Vilnius.",
+        "es": "Museo nacional de historia en Vilna."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lt-q3266986",
+      "name": "Lithuanian Zoo",
+      "area": "Kaunas County",
+      "city": "Kaunas County",
+      "category": "experience",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Zoo in Kaunas County with a range of animals.",
+        "es": "Zoológico en el condado de Kaunas con variedad de animales."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lt-q323860",
+      "name": "Museum of Occupations and Freedom Fights",
+      "area": "Vilnius City Municipality",
+      "city": "Vilnius City Municipality",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum on the Soviet and Nazi occupations of Lithuania, in Vilnius.",
+        "es": "Museo sobre las ocupaciones soviética y nazi de Lituania, en Vilna."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lt-q2305235",
+      "name": "Žmuidzinavičius Museum",
+      "area": "Kaunas",
+      "city": "Kaunas",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Kaunas museum known for its devil-themed art collection.",
+        "es": "Museo de Kaunas conocido por su colección de arte con diablos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lt-q5915642",
+      "name": "House of the Signatories",
+      "area": "Vilnius City Municipality",
+      "city": "Vilnius City Municipality",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Vilnius house where Lithuania's 1918 independence act was signed.",
+        "es": "Casa de Vilna donde se firmó el acta de independencia de Lituania de 1918."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lt-q4381425",
+      "name": "M. K. Čiurlionis National Art Museum",
+      "area": "Kaunas",
+      "city": "Kaunas",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Art museum in Kaunas named after painter and composer Čiurlionis.",
+        "es": "Museo de arte en Kaunas dedicado al pintor y compositor Čiurlionis."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "LU",
+  "names": {
+    "en": "Luxembourg",
+    "es": "Luxemburgo"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "lu-q2585886",
+      "name": "National Museum of Archeology, History and Art",
+      "area": "Luxembourg",
+      "city": "Luxembourg",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National museum of archaeology and history in Luxembourg City.",
+        "es": "Museo nacional de arqueología e historia en la ciudad de Luxemburgo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lu-q1955758",
+      "name": "Mudam",
+      "area": "Kirchberg",
+      "city": "Kirchberg",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of contemporary art in Kirchberg.",
+        "es": "Museo de arte contemporáneo en Kirchberg."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lu-q2555232",
+      "name": "Luxembourg City History Museum",
+      "area": "Luxembourg",
+      "city": "Luxembourg",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Museum of the history of Luxembourg City.",
+        "es": "Museo de la historia de la ciudad de Luxemburgo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lu-q2223322",
+      "name": "Villa Vauban",
+      "area": "Luxembourg",
+      "city": "Luxembourg",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Art museum in a 19th-century villa in Luxembourg City.",
+        "es": "Museo de arte en una villa del siglo XIX en la ciudad de Luxemburgo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lu-q478061",
+      "name": "National Museum of Military History",
+      "area": "Diekirch",
+      "city": "Diekirch",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Military history museum in Diekirch.",
+        "es": "Museo de historia militar en Diekirch."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lu-q2392584",
+      "name": "Parc Merveilleux",
+      "area": "Bettembourg",
+      "city": "Bettembourg",
+      "category": "experience",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Park with fairy-tale themed scenes, in Bettembourg.",
+        "es": "Parque con escenas de cuentos de hadas, en Bettembourg."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lu-q6974489",
+      "name": "National Museum of Natural History, Luxembourg",
+      "area": "Luxembourg",
+      "city": "Luxembourg",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Natural history museum in Luxembourg City.",
+        "es": "Museo de historia natural en la ciudad de Luxemburgo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lu-q6978080",
+      "name": "National Resistance Museum, Luxembourg",
+      "area": "Esch-sur-Alzette",
+      "city": "Esch-sur-Alzette",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Museum on Luxembourg's resistance in World War II, in Esch-sur-Alzette.",
+        "es": "Museo sobre la resistencia luxemburguesa en la Segunda Guerra Mundial, en Esch-sur-Alzette."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "lu-q2244220",
+      "name": "Wiltz Castle",
+      "area": "Wiltz",
+      "city": "Wiltz",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Historic castle in the town of Wiltz in the Ardennes.",
+        "es": "Castillo histórico en la localidad de Wiltz, en las Ardenas."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

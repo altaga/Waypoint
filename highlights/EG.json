@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "EG",
+  "names": {
+    "en": "Egypt",
+    "es": "Egipto"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "eg-q201219",
+      "name": "Egyptian Museum",
+      "area": "Cairo",
+      "city": "Cairo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum in Cairo holding a large collection of ancient Egyptian antiquities.",
+        "es": "Museo en El Cairo con una gran colección de antigüedades egipcias."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "eg-q2583681",
+      "name": "Grand Egyptian Museum",
+      "area": "Giza",
+      "city": "Giza",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Large museum near the Giza Pyramids, displaying ancient Egyptian artifacts.",
+        "es": "Gran museo cerca de las pirámides de Giza con artefactos del antiguo Egipto."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "eg-q501851",
+      "name": "Bibliotheca Alexandrina",
+      "area": "Alexandria",
+      "city": "Alexandria",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "sights"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Modern library and cultural center on the Alexandria waterfront.",
+        "es": "Biblioteca y centro cultural moderno junto al paseo marítimo de Alejandría."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "eg-q1878362",
+      "name": "Luxor Museum",
+      "area": "Luxor",
+      "city": "Luxor",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in Luxor with statues and objects from the Theban region.",
+        "es": "Museo en Luxor con estatuas y objetos de la región tebana."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "eg-q1784177",
+      "name": "Coptic Museum",
+      "area": "Cairo",
+      "city": "Cairo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of Coptic Christian art and artifacts in Old Cairo.",
+        "es": "Museo de arte y objetos del cristianismo copto en El Cairo antiguo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "eg-q3330629",
+      "name": "Museum of Islamic Art",
+      "area": "Cairo",
+      "city": "Cairo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum with a broad collection of Islamic art from many centuries.",
+        "es": "Museo con una amplia colección de arte islámico de muchos siglos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "eg-q201383",
+      "name": "Alexandria National Museum",
+      "area": "Alexandria",
+      "city": "Alexandria",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum covering the history of Alexandria from antiquity onward.",
+        "es": "Museo sobre la historia de Alejandría desde la antigüedad."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "eg-q1546319",
+      "name": "Graeco-Roman Museum",
+      "area": "Alexandria",
+      "city": "Alexandria",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of Greek and Roman objects found in Alexandria.",
+        "es": "Museo con objetos greco-romanos hallados en Alejandría."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "eg-q29017001",
+      "name": "National Museum of Egyptian Civilization",
+      "area": "Cairo",
+      "city": "Cairo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum dedicated to the history and civilization of Egypt.",
+        "es": "Museo dedicado a la historia y la civilización de Egipto."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "eg-q4164858",
+      "name": "Bab al-Futuh",
+      "area": "Cairo",
+      "city": "Cairo",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Medieval city gate in Islamic Cairo.",
+        "es": "Puerta medieval de la ciudad en el Cairo islámico."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

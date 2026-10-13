@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "DE",
+  "names": {
+    "en": "Germany",
+    "es": "Alemania"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "de-q1017",
+      "name": "Aachen",
+      "area": "Aachen",
+      "city": "Aachen",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Historic city known for its Carolingian cathedral, a UNESCO World Heritage Site.",
+        "es": "Ciudad histórica con una catedral de época carolingia, patrimonio de la UNESCO."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "de-q2833",
+      "name": "Freiburg im Breisgau",
+      "area": "Landeskommissärbezirk Freiburg",
+      "city": "Landeskommissärbezirk Freiburg",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "sights"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Historic city at the edge of the Black Forest, with a Gothic minster and water channels.",
+        "es": "Ciudad histórica al borde de la Selva Negra, con catedral gótica y canales de agua."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "de-q4100",
+      "name": "Baden-Baden",
+      "area": "Karlsruhe Government Region",
+      "city": "Karlsruhe Government Region",
+      "category": "experience",
+      "interests": [
+        "history",
+        "sights",
+        "architecture"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Spa town in the Black Forest with thermal baths and a historic casino.",
+        "es": "Ciudad balneario en la Selva Negra, con baños termales y un casino histórico."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "de-q4152",
+      "name": "Neuschwanstein Castle",
+      "area": "Schwangau",
+      "city": "Schwangau",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "19th-century castle in the Bavarian Alps, built for King Ludwig II.",
+        "es": "Castillo del siglo XIX en los Alpes bávaros, construido para el rey Luis II."
+      },
+      "sourceId": "wikidata",
+      "admission": "Entry is by timed ticket; book ahead, especially in high season."
+    },
+    {
+      "id": "de-q3038",
+      "name": "Heligoland",
+      "area": "Kreis Pinneberg",
+      "city": "Kreis Pinneberg",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "beaches"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "North Sea island known for red cliffs and seabird colonies.",
+        "es": "Isla del mar del Norte conocida por sus acantilados rojos y colonias de aves marinas."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

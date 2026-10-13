@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "BJ",
+  "names": {
+    "en": "Benin",
+    "es": "Benín"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "bj-q2784858",
+      "name": "Royal Palace Museum",
+      "area": "Porto-Novo",
+      "city": "Porto-Novo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Former royal palace in Porto-Novo, now a museum.",
+        "es": "Antiguo palacio real en Porto-Novo, hoy museo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bj-q4720905",
+      "name": "Alexandre Sènou Adandé Ethnographic Museum",
+      "area": "Porto-Novo",
+      "city": "Porto-Novo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Ethnographic museum in Porto-Novo.",
+        "es": "Museo etnográfico en Porto-Novo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bj-q7110333",
+      "name": "Ouidah Museum of History",
+      "area": "Ouidah",
+      "city": "Ouidah",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "History museum in Ouidah, focused on the Atlantic slave trade.",
+        "es": "Museo de historia en Ouidah, centrado en la trata atlántica de esclavos."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bj-q2784689",
+      "name": "Musée en Plein Air de Parakou",
+      "area": "Parakou",
+      "city": "Parakou",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Open-air sculpture museum in Parakou.",
+        "es": "Museo de escultura al aire libre en Parakou."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bj-q20380202",
+      "name": "Villa Karo",
+      "area": "Grand-Popo",
+      "city": "Grand-Popo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Colonial-era villa in Grand-Popo, now a cultural site.",
+        "es": "Villa de la época colonial en Grand-Popo, hoy sitio cultural."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bj-q3075592",
+      "name": "Fondation Zinsou",
+      "area": "Cotonou",
+      "city": "Cotonou",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Contemporary art foundation in Cotonou.",
+        "es": "Fundación de arte contemporáneo en Cotonou."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

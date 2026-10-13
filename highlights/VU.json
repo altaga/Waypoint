@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "VU",
+  "names": {
+    "en": "Vanuatu",
+    "es": "Vanuatu"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "vu-q1835725",
+      "name": "Vanuatu Cultural Centre",
+      "area": "Shefa Province",
+      "city": "Port Vila",
+      "category": "experience",
+      "interests": [
+        "history",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Cultural centre with exhibits on Vanuatu's traditions, in Port Vila.",
+        "es": "Centro cultural con exposiciones sobre las tradiciones de Vanuatu, en Port Vila."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "vu-q1835708",
+      "name": "National Museum of Vanuatu",
+      "area": "Shefa Province",
+      "city": "Port Vila",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum of Vanuatu's history and culture, in Port Vila.",
+        "es": "Museo nacional de la historia y la cultura de Vanuatu, en Port Vila."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

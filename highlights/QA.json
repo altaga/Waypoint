@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "QA",
+  "names": {
+    "en": "Qatar",
+    "es": "Catar"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "qa-q1148353",
+      "name": "Museum of Islamic Art",
+      "area": "Doha",
+      "city": "Doha",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum of Islamic art on the Doha Corniche, designed by I. M. Pei.",
+        "es": "Museo de arte islámico en la Corniche de Doha, diseñado por I. M. Pei."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "qa-q3084218",
+      "name": "National Museum of Qatar",
+      "area": "Doha",
+      "city": "Doha",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National museum in Doha in a building designed by Jean Nouvel.",
+        "es": "Museo nacional en Doha, en un edificio diseñado por Jean Nouvel."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "qa-q1908321",
+      "name": "Mathaf",
+      "area": "Doha",
+      "city": "Doha",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of modern Arab art in Doha.",
+        "es": "Museo de arte árabe moderno en Doha."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

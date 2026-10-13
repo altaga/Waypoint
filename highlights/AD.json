@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "AD",
+  "names": {
+    "en": "Andorra",
+    "es": "Andorra"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ad-q2124368",
+      "name": "Museu Casa Rull",
+      "area": "La Massana",
+      "city": "La Massana",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Historic house museum in La Massana.",
+        "es": "Casa-museo histórica en La Massana."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ad-q2912609",
+      "name": "National Automobile Museum",
+      "area": "Encamp",
+      "city": "Encamp",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum of historic cars in Encamp.",
+        "es": "Museo de automóviles históricos en Encamp."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ad-q2912615",
+      "name": "Farga Rossell",
+      "area": "La Massana",
+      "city": "La Massana",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Former forge in La Massana, now a museum of ironworking.",
+        "es": "Antigua fragua en La Massana, hoy museo de la metalurgia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ad-q2912621",
+      "name": "Casa d'Areny-Plandolit",
+      "area": "Ordino",
+      "city": "Ordino",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Historic mansion in Ordino, now a museum.",
+        "es": "Antigua mansión en Ordino, hoy museo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ad-q5047802",
+      "name": "Casa Cristo",
+      "area": "Encamp",
+      "city": "Encamp",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Historic house in Encamp.",
+        "es": "Casa histórica en Encamp."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ad-q36374033",
+      "name": "Carmen Thyssen Museum of Andorra",
+      "area": "Carmen Thyssen Museum of Andorra",
+      "city": "Carmen Thyssen Museum of Andorra",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Art museum focused on 19th-century Spanish painting.",
+        "es": "Museo de arte centrado en la pintura española del siglo XIX."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

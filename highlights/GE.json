@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "GE",
+  "names": {
+    "en": "Georgia",
+    "es": "Georgia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ge-q155453",
+      "name": "Narikala",
+      "area": "Tbilisi",
+      "city": "Tbilisi",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Ancient fortress overlooking the Old Town of Tbilisi.",
+        "es": "Antigua fortaleza sobre el casco antiguo de Tiflis."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ge-q2563760",
+      "name": "Joseph Stalin Museum",
+      "area": "Gori",
+      "city": "Gori",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum in Gori dedicated to the life of Joseph Stalin.",
+        "es": "Museo en Gori dedicado a la vida de Yósif Stalin."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ge-q2562904",
+      "name": "Museum of Soviet Occupation",
+      "area": "Tbilisi",
+      "city": "Tbilisi",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum on the Soviet period of Georgian history.",
+        "es": "Museo sobre el periodo soviético de la historia de Georgia."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ge-q2586798",
+      "name": "Georgian National Museum",
+      "area": "Tbilisi",
+      "city": "Tbilisi",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "National museum with archaeological and historical collections.",
+        "es": "Museo nacional con colecciones arqueológicas e históricas."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ge-q2028327",
+      "name": "Art Museum of Georgia",
+      "area": "Tbilisi",
+      "city": "Tbilisi",
+      "category": "museum",
+      "interests": [
+        "art",
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of Georgian art in Tbilisi.",
+        "es": "Museo de arte georgiano en Tiflis."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ge-q3610430",
+      "name": "Dadiani Palaces Historical and Architectural Museum",
+      "area": "Zugdidi",
+      "city": "Zugdidi",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Historical museum in a palace of the Dadiani princes.",
+        "es": "Museo histórico en un palacio de los príncipes Dadiani."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ge-q2899707",
+      "name": "Simon Janashia Museum of Georgia",
+      "area": "Tbilisi",
+      "city": "Tbilisi",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of Georgian history and archaeology in Tbilisi.",
+        "es": "Museo de historia y arqueología de Georgia en Tiflis."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ge-q3647379",
+      "name": "Prometheus Cave",
+      "area": "Tsqaltubo",
+      "city": "Tsqaltubo",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Limestone cave near the spa town of Tskaltubo.",
+        "es": "Cueva caliza cerca de la localidad balnearia de Tskaltubo."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ge-q4453139",
+      "name": "Tbilisi Zoo",
+      "area": "Tbilisi",
+      "city": "Tbilisi",
+      "category": "nature",
+      "interests": [
+        "family",
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Zoological garden in Tbilisi.",
+        "es": "Jardín zoológico en Tiflis."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ge-q2920430",
+      "name": "Open Air Museum of Ethnography",
+      "area": "Tbilisi",
+      "city": "Tbilisi",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Open-air museum of traditional Georgian rural architecture.",
+        "es": "Museo al aire libre de la arquitectura rural tradicional de Georgia."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

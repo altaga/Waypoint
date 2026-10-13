@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "LR",
+  "names": {
+    "en": "Liberia",
+    "es": "Liberia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "lr-q1345859",
+      "name": "Liberian National Museum",
+      "area": "Monrovia",
+      "city": "Monrovia",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "National museum in Monrovia on Liberian history and culture.",
+        "es": "Museo nacional en Monrovia sobre la historia y la cultura de Liberia."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

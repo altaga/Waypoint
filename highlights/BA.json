@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "BA",
+  "names": {
+    "en": "Bosnia and Herzegovina",
+    "es": "Bosnia y Herzegovina"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ba-q1277685",
+      "name": "Latin Bridge",
+      "area": "Stari Grad",
+      "city": "Stari Grad",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Stone bridge in Sarajevo, site of the 1914 assassination that began World War I.",
+        "es": "Puente de piedra en Sarajevo, lugar del asesinato de 1914 que inició la Primera Guerra Mundial."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ba-q2880621",
+      "name": "Vjetrenica",
+      "area": "Zavala",
+      "city": "Zavala",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Karst cave with an underground river and rich cave fauna, near Zavala.",
+        "es": "Cueva kárstica con río subterráneo y fauna cavernícola, cerca de Zavala."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ba-q568938",
+      "name": "National Museum of Bosnia and Herzegovina",
+      "area": "Centar Municipality",
+      "city": "Centar Municipality",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National museum in Sarajevo with archaeology and natural history collections.",
+        "es": "Museo nacional en Sarajevo con colecciones de arqueología e historia natural."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ba-q28654544",
+      "name": "War Childhood Museum",
+      "area": "Stari Grad",
+      "city": "Stari Grad",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum about childhood during the 1992–1995 siege of Sarajevo.",
+        "es": "Museo sobre la infancia durante el asedio de Sarajevo (1992–1995)."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ba-q1277723",
+      "name": "Blagaj, Mostar",
+      "area": "City of Mostar",
+      "city": "City of Mostar",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Dervish monastery at the foot of a cliff, by the Buna spring near Mostar.",
+        "es": "Monasterio derviche al pie de un acantilado, junto al manantial del Buna, cerca de Mostar."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ba-q1400323",
+      "name": "Sarajevo Tunnel",
+      "area": "Ilidža Municipality",
+      "city": "Ilidža Municipality",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Wartime tunnel under the airport, now a museum in Ilidža.",
+        "es": "Túnel de la guerra bajo el aeropuerto, hoy museo en Ilidža."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ba-q2784755",
+      "name": "Museum of Modern Art of Republika Srpska",
+      "area": "Banja Luka",
+      "city": "Banja Luka",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Modern art museum in Banja Luka.",
+        "es": "Museo de arte moderno en Banja Luka."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "ba-q391211",
+      "name": "Šargan Eight",
+      "area": "Šargan Eight",
+      "city": "Šargan Eight",
+      "category": "experience",
+      "interests": [
+        "sights",
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Narrow-gauge railway with a figure-eight loop on a mountain route.",
+        "es": "Ferrocarril de trocha angosta con un bucle en forma de ocho en una ruta de montaña."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "BZ",
+  "names": {
+    "en": "Belize",
+    "es": "Belice"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+  },
+  "sources": {
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0)",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "bz-q427979",
+      "name": "Belize Botanic Gardens",
+      "area": "Belize Botanic Gardens",
+      "city": "Belize Botanic Gardens",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Botanic garden in Belize with native and tropical plant collections.",
+        "es": "Jardín botánico en Belice con colecciones de plantas nativas y tropicales."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bz-q260740",
+      "name": "Belize Zoo",
+      "area": "Belize City",
+      "city": "Belize City",
+      "category": "experience",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Zoo focused on native Belizean animals and wildlife rescue.",
+        "es": "Zoológico centrado en animales nativos de Belice y en el rescate de fauna."
+      },
+      "sourceId": "wikidata"
+    },
+    {
+      "id": "bz-q16979616",
+      "name": "Museum of Belize",
+      "area": "Belize City",
+      "city": "Belize City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Museum in Belize City with exhibits on the country's history and archaeology.",
+        "es": "Museo en Belice City con exposiciones sobre la historia y la arqueología del país."
+      },
+      "sourceId": "wikidata"
+    }
+  ]
+}
