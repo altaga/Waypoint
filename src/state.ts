@@ -14,17 +14,25 @@ export interface Trip {
   travelerIds: string[];
   createdAt: string;
   packingDone: string[];
-  /** Day plan written by the concierge agent; suggestions, not verified facts. */
+  /** Day plan. Stops are place ids from the highlights catalog; the verifier checks them. */
   itinerary?: ItineraryDay[];
+  /** Things the traveler told us to respect for every plan and every expense. */
+  constraints?: TripConstraints;
+  bookings?: Booking[];
 }
 
 export interface ItineraryDay {
   day: number;
   date?: string;
   title?: string;
-  morning?: string;
-  afternoon?: string;
-  evening?: string;
+  stops: string[];
+}
+
+export interface TripConstraints {
+  /** Interests to keep out of the plan, e.g. "nightlife". */
+  avoid: string[];
+  /** A spending cap for the whole trip, in one currency. */
+  maxBudget?: { amount: number; currency: string };
 }
 
 export interface Expense {
@@ -34,6 +42,22 @@ export interface Expense {
   currency: string;
   category: string;
   note?: string;
+  createdAt: string;
+  /** Traveler who paid (travelerId). Without it the expense cannot be settled. */
+  payer?: string;
+  /** Travelers who share the cost (travelerIds). Empty or missing means the whole group. */
+  splitAmong?: string[];
+}
+
+export interface Booking {
+  id: string;
+  kind: "flight" | "hotel" | "car" | "activity" | "other";
+  title: string;
+  date?: string; // ISO date of the service
+  /** Last day to cancel without a penalty, as the booking states it. */
+  cancelBy?: string;
+  reference?: string; // confirmation code, as written in the booking
+  status: "to_confirm" | "confirmed";
   createdAt: string;
 }
 

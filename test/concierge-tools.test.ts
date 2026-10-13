@@ -58,28 +58,63 @@ test("packing: banned items are listed apart and never counted as packable", asy
   await s.close();
 });
 
-test("itinerary: the agent's plan is saved with dates and returned later", async () => {
+test("itinerary: a plan made of catalog ids is saved, checked, and returned later", async () => {
   const s1 = await withTrip("plan-user");
   const empty = await s1.call("build_itinerary");
   assert.equal(empty.data.planned, 0);
   assert.equal(empty.data.days[0].date, "2026-12-03");
+
+  // Ids come from get_highlights; an invented name is refused and nothing is saved.
+  const hl = await s1.call("get_highlights", { destination: "JP", interests: ["temples"] });
+  const ids = hl.data.places.map((p: { id: string }) => p.id);
+  assert.ok(ids.includes("jp-senso-ji"), "the curated catalog lists Senso-ji for temples");
+  const refused = await s1.call("build_itinerary", { plan: [{ day: 1, stops: ["jp-tokyo-tower-invented"] }] });
+  assert.equal(refused.data.saved, false);
+  assert.equal(refused.data.violations[0].code, "unknown_place");
+  assert.equal((await s1.call("build_itinerary")).data.planned, 0, "a refused plan leaves nothing behind");
+
   const saved = await s1.call("build_itinerary", {
     plan: [
-      { day: 1, title: "Llegada a Tokio", afternoon: "Paseo por Asakusa y el templo Senso-ji", evening: "Ramen en Shinjuku" },
-      { day: 2, title: "Tokio clásico", morning: "Mercado exterior de Tsukiji", afternoon: "Jardines del Palacio Imperial" },
-      { day: 99, morning: "fuera del viaje" },
+      { day: 1, title: "Asakusa", stops: ["jp-senso-ji", "jp-tsukiji-outer"] },
+      { day: 2, title: "Tokio clásico", stops: ["jp-meiji-jingu"] },
+      { day: 99, stops: ["jp-senso-ji"] },
     ],
   });
-  assert.equal(saved.data.planned, 2, "days outside the trip are ignored");
-  assert.match(saved.voice, /Guardado: plan para 2 de 8 días/);
+  assert.equal(saved.data.saved, false, "day 99 is outside the trip, so the whole plan waits for a fix");
+  const fixed = await s1.call("build_itinerary", {
+    plan: [
+      { day: 1, title: "Asakusa", stops: ["jp-senso-ji", "jp-tsukiji-outer"] },
+      { day: 2, title: "Tokio clásico", stops: ["jp-meiji-jingu"] },
+    ],
+  });
+  assert.equal(fixed.data.saved, true);
+  assert.equal(fixed.data.planned, 2);
+  assert.match(fixed.voice, /Guardé el plan de 2 de 8 días/);
   await s1.close();
 
   const s2 = await session("plan-user");
   const day2 = await s2.call("build_itinerary", { day: 2 });
   assert.equal(day2.data.days.length, 1);
   assert.equal(day2.data.days[0].date, "2026-12-04");
-  assert.match(day2.card.rows[0].value, /Tsukiji/);
+  assert.equal(day2.data.days[0].stops[0].name, "Meiji Jingu");
   await s2.close();
+});
+
+test("constraints: an avoided interest blocks a plan, and the spending limit warns", async () => {
+  const s = await withTrip("rules-plan");
+  await s.call("set_trip_constraints", { avoid: ["nightlife"], maxBudget: { amount: 1000, currency: "MXN" } });
+  const hl = await s.call("get_highlights", { destination: "JP" });
+  assert.ok(hl.data.places.length > 0);
+  const blocked = await s.call("build_itinerary", { plan: [{ day: 1, stops: ["jp-omoide-yokocho"] }] });
+  assert.equal(blocked.data.saved, false);
+  assert.equal(blocked.data.violations[0].code, "avoided_interest");
+
+  const first = await s.call("log_expense", { amount: 600, currency: "MXN", category: "food" });
+  assert.equal(first.data.overBudget, false);
+  const second = await s.call("log_expense", { amount: 600, currency: "MXN", category: "taxi" });
+  assert.equal(second.data.overBudget, true);
+  assert.match(second.voice, /pasaste el tope/);
+  await s.close();
 });
 
 test("budget: amounts are formatted for the locale, not raw floats", async () => {

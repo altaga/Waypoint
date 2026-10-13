@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "SG",
+  "names": {
+    "en": "Singapore",
+    "es": "Singapur"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+  },
+  "sources": {
+    "sg-tourism": {
+      "title": "Singapore Tourism Board",
+      "url": "https://www.visitsingapore.com/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "sg-gardens-by-the-bay",
+      "name": "Gardens by the Bay",
+      "area": "Marina",
+      "city": "Singapore",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "architecture",
+        "family"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Supertree groves and the cloud forest conservatory.",
+        "es": "Bosques de supertrees y el invernadero de bosque nuboso."
+      },
+      "sourceId": "sg-tourism"
+    },
+    {
+      "id": "sg-hawker-maxwell",
+      "name": "Maxwell Food Centre",
+      "area": "Chinatown",
+      "city": "Singapore",
+      "category": "food",
+      "interests": [
+        "food",
+        "markets"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Well-known hawker centre for chicken rice and laksa.",
+        "es": "Centro de comida conocido por el arroz con pollo y el laksa."
+      },
+      "sourceId": "sg-tourism"
+    },
+    {
+      "id": "sg-marina-sands-sky",
+      "name": "Marina Bay Sands SkyPark",
+      "area": "Marina",
+      "city": "Singapore",
+      "category": "experience",
+      "interests": [
+        "sights",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Observation deck on top of the three towers. Book ahead.",
+        "es": "Mirador en lo alto de las tres torres. Reserva con anticipación."
+      },
+      "sourceId": "sg-tourism"
+    },
+    {
+      "id": "sg-chinatown",
+      "name": "Chinatown Heritage",
+      "area": "Chinatown",
+      "city": "Singapore",
+      "category": "neighborhood",
+      "interests": [
+        "history",
+        "temples",
+        "markets"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Shophouses, temples and the street market.",
+        "es": "Casas de comercio, templos y el mercado callejero."
+      },
+      "sourceId": "sg-tourism"
+    },
+    {
+      "id": "sg-sentosa",
+      "name": "Sentosa Island",
+      "area": "Sentosa",
+      "city": "Singapore",
+      "category": "beach",
+      "interests": [
+        "beaches",
+        "family"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Island resort with beaches and attractions.",
+        "es": "Isla con playas y atracciones."
+      },
+      "sourceId": "sg-tourism"
+    },
+    {
+      "id": "sg-national-museum",
+      "name": "National Museum of Singapore",
+      "area": "Civic District",
+      "city": "Singapore",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The city-state's history from colonial times.",
+        "es": "La historia de la ciudad-estado desde la época colonial."
+      },
+      "sourceId": "sg-tourism"
+    }
+  ]
+}

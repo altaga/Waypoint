@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "FR",
+  "names": {
+    "en": "France",
+    "es": "Francia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+  },
+  "sources": {
+    "fr-tourism": {
+      "title": "Atout France (France.fr)",
+      "url": "https://www.france.fr/en",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "fr-louvre",
+      "name": "Louvre Museum",
+      "area": "1er arrondissement",
+      "city": "Paris",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "World's largest art museum; book timed entry.",
+        "es": "El museo de arte más grande del mundo; reserva entrada con horario."
+      },
+      "sourceId": "fr-tourism"
+    },
+    {
+      "id": "fr-eiffel",
+      "name": "Eiffel Tower",
+      "area": "7e arrondissement",
+      "city": "Paris",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Iron tower with views from the top; book lifts ahead.",
+        "es": "Torre de hierro con vistas desde arriba; reserva los elevadores."
+      },
+      "sourceId": "fr-tourism"
+    },
+    {
+      "id": "fr-montmartre",
+      "name": "Montmartre and Sacré-Cœur",
+      "area": "18e arrondissement",
+      "city": "Paris",
+      "category": "neighborhood",
+      "interests": [
+        "architecture",
+        "art",
+        "sights"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Hilltop basilica and the artists' square.",
+        "es": "Basílica en la colina y la plaza de los artistas."
+      },
+      "sourceId": "fr-tourism"
+    },
+    {
+      "id": "fr-marais",
+      "name": "Le Marais",
+      "area": "3e and 4e arrondissement",
+      "city": "Paris",
+      "category": "neighborhood",
+      "interests": [
+        "shopping",
+        "food",
+        "history"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Medieval streets, galleries and falafel shops.",
+        "es": "Calles medievales, galerías y tiendas de falafel."
+      },
+      "sourceId": "fr-tourism"
+    },
+    {
+      "id": "fr-versailles",
+      "name": "Palace of Versailles",
+      "area": "Versailles",
+      "city": "Versailles",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "nature"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Royal palace and gardens outside Paris.",
+        "es": "Palacio real y jardines a las afueras de París."
+      },
+      "sourceId": "fr-tourism"
+    },
+    {
+      "id": "fr-orsay",
+      "name": "Musée d'Orsay",
+      "area": "7e arrondissement",
+      "city": "Paris",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Impressionist painting in a former railway station.",
+        "es": "Pintura impresionista en una antigua estación de tren."
+      },
+      "sourceId": "fr-tourism"
+    },
+    {
+      "id": "fr-vieux-port",
+      "name": "Vieux-Port",
+      "area": "Old Port",
+      "city": "Marseille",
+      "category": "neighborhood",
+      "interests": [
+        "food",
+        "beaches",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Historic harbor with seafood restaurants.",
+        "es": "Puerto histórico con restaurantes de mariscos."
+      },
+      "sourceId": "fr-tourism"
+    },
+    {
+      "id": "fr-mont-saint-michel",
+      "name": "Mont-Saint-Michel",
+      "area": "Normandy",
+      "city": "Mont-Saint-Michel",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "nature"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Island abbey at the edge of the tide flats.",
+        "es": "Abadía en una isla, en el borde de las mareas."
+      },
+      "sourceId": "fr-tourism"
+    }
+  ]
+}

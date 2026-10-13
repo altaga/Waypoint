@@ -151,13 +151,11 @@ function itineraryCards(sc, lang) {
   if (!days.length) return genericCard(sc.card, sc, lang);
   return days
     .map((d) => {
-      const slots = [
-        ["sun", w.morning, d.morning],
-        ["sun", w.afternoon, d.afternoon],
-        ["moon", w.evening, d.evening],
-      ].filter(([, , v]) => v);
-      const body = slots.length
-        ? `<ol class="slots">${slots.map(([i, k, v]) => `<li>${icon(i)}<div><div class="s-k">${esc(k)}</div><div class="s-v">${esc(v)}</div></div></li>`).join("")}</ol>`
+      const stops = d.stops || [];
+      const body = stops.length
+        ? `<ol class="slots">${stops
+            .map((s) => `<li>${icon(s.category === "food" ? "talk" : s.category === "nature" ? "sun" : "sun")}<div><div class="s-k">${esc(s.area)} · ${esc(s.durationMinutes)} min</div><div class="s-v">${esc(s.name)}</div>${s.admission ? `<div class="s-note">${esc(s.admission)}</div>` : ""}</div></li>`)
+            .join("")}</ol>`
         : `<p class="muted-s">${esc(w.free)}</p>`;
       return `<article class="card k-day"><header class="ch"><div class="d-n">${esc(w.day)} ${d.day}${d.date ? ` · ${esc(shortDate(d.date, lang))}` : ""}</div>${d.title ? `<h2>${esc(d.title)}</h2>` : ""}</header>${body}</article>`;
     })

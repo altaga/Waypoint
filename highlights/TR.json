@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "TR",
+  "names": {
+    "en": "Turkey",
+    "es": "Turquía"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+  },
+  "sources": {
+    "tr-tourism": {
+      "title": "Republic of Türkiye Ministry of Culture and Tourism (Go Türkiye)",
+      "url": "https://www.goturkiye.com/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "tr-hagia-sophia",
+      "name": "Hagia Sophia",
+      "area": "Sultanahmet",
+      "city": "Istanbul",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "temples"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Byzantine basilica turned mosque, then museum, now a mosque again.",
+        "es": "Basílica bizantina que fue mezquita, museo y de nuevo mezquita."
+      },
+      "sourceId": "tr-tourism"
+    },
+    {
+      "id": "tr-blue-mosque",
+      "name": "Blue Mosque",
+      "area": "Sultanahmet",
+      "city": "Istanbul",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Mosque with blue Iznik tiles. Modest dress required.",
+        "es": "Mezquita con azulejos de Iznik. Se requiere ropa recatada."
+      },
+      "sourceId": "tr-tourism"
+    },
+    {
+      "id": "tr-topkapi",
+      "name": "Topkapi Palace",
+      "area": "Sultanahmet",
+      "city": "Istanbul",
+      "category": "museum",
+      "interests": [
+        "history",
+        "museums",
+        "architecture"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Ottoman sultans' palace with views of the Bosphorus.",
+        "es": "Palacio de los sultanes otomanos con vista al Bósforo."
+      },
+      "sourceId": "tr-tourism"
+    },
+    {
+      "id": "tr-grand-bazaar",
+      "name": "Grand Bazaar",
+      "area": "Beyazit",
+      "city": "Istanbul",
+      "category": "shopping",
+      "interests": [
+        "markets",
+        "shopping",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Covered bazaar with thousands of shops.",
+        "es": "Bazar techado con miles de tiendas."
+      },
+      "sourceId": "tr-tourism"
+    },
+    {
+      "id": "tr-spice-bazaar",
+      "name": "Spice Bazaar",
+      "area": "Eminönü",
+      "city": "Istanbul",
+      "category": "food",
+      "interests": [
+        "markets",
+        "food"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Spices, sweets and dried fruit near the Golden Horn.",
+        "es": "Especias, dulces y frutas secas junto al Cuerno de Oro."
+      },
+      "sourceId": "tr-tourism"
+    },
+    {
+      "id": "tr-cappadocia",
+      "name": "Göreme Open-Air Museum",
+      "area": "Göreme",
+      "city": "Cappadocia",
+      "category": "sight",
+      "interests": [
+        "history",
+        "nature",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Rock-cut churches with Byzantine frescoes.",
+        "es": "Iglesias excavadas en la roca con frescos bizantinos."
+      },
+      "sourceId": "tr-tourism"
+    },
+    {
+      "id": "tr-ephesus",
+      "name": "Ephesus",
+      "area": "Selçuk",
+      "city": "Izmir",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Roman city with the Library of Celsus.",
+        "es": "Ciudad romana con la Biblioteca de Celso."
+      },
+      "sourceId": "tr-tourism"
+    }
+  ]
+}

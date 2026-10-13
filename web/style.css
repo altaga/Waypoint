@@ -241,3 +241,5 @@ summary { cursor: pointer; font-weight: 600; }
 .apps.open iframe { flex: 1; height: auto; }
 .apps .close { align-self: flex-end; background: rgba(255, 255, 255, .1); color: var(--s-fg); border: 1px solid #2f4360; border-radius: 999px; padding: 4px 12px; font-size: 13px; }
 .apps:not(.open) { display: none; }
+
+.s-note { font-size: 12px; color: var(--s-warn); margin-top: 2px; }

@@ -2,6 +2,8 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { parseVisaCsv, type VisaMatrix } from "./services/visa.ts";
 import { loadPacks, type PackRegistry } from "./services/packs.ts";
+import { loadHighlights, type HighlightRegistry } from "./services/highlights.ts";
+import { loadWorld, type WorldRegistry } from "./services/world.ts";
 import { createFxService, type FxService } from "./services/fx.ts";
 import { createPppTable, type PppTable } from "./services/ppp.ts";
 import { createFileStore, createMemoryStore, type StateStore } from "./state.ts";
@@ -12,6 +14,8 @@ export interface AppContext {
   store: StateStore;
   visa: VisaMatrix;
   packs: PackRegistry;
+  highlights: HighlightRegistry;
+  world: WorldRegistry;
   fx: FxService;
   ppp: PppTable;
   clock: () => Date;
@@ -41,6 +45,8 @@ export function createContext(opts: ContextOptions = {}): AppContext {
     store: opts.store ?? (process.env.WAYPOINT_TABLE_NAME ? createDynamoStore(process.env.WAYPOINT_TABLE_NAME) : createFileStore(join(dataDir, "state.json"))),
     visa: parseVisaCsv(visaCsv),
     packs: loadPacks(root),
+    highlights: loadHighlights(root),
+    world: loadWorld(root),
     fx: createFxService({ offline, snapshot: fxSnapshot }),
     ppp: createPppTable(pppFile.rows),
     visaSource: {

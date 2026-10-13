@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "IT",
+  "names": {
+    "en": "Italy",
+    "es": "Italia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+  },
+  "sources": {
+    "it-tourism": {
+      "title": "ENIT (Italia.it)",
+      "url": "https://www.italia.it/en",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "it-colosseum",
+      "name": "Colosseum and Roman Forum",
+      "area": "Centro Storico",
+      "city": "Rome",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Ancient arena and forum. Book entry with the Forum ticket.",
+        "es": "Antigua arena y foro. Reserva la entrada junto con el Foro."
+      },
+      "sourceId": "it-tourism"
+    },
+    {
+      "id": "it-vatican",
+      "name": "Vatican Museums and Sistine Chapel",
+      "area": "Vatican City",
+      "city": "Rome",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 210,
+      "desc": {
+        "en": "Museums and Michelangelo's ceiling. Book timed entry.",
+        "es": "Museos y el techo de Miguel Ángel. Reserva horario de entrada."
+      },
+      "sourceId": "it-tourism"
+    },
+    {
+      "id": "it-trastevere",
+      "name": "Trastevere",
+      "area": "Trastevere",
+      "city": "Rome",
+      "category": "neighborhood",
+      "interests": [
+        "food",
+        "nightlife",
+        "history"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Cobbled streets, trattorias and evening piazzas.",
+        "es": "Calles empedradas, trattorias y plazas por la noche."
+      },
+      "sourceId": "it-tourism"
+    },
+    {
+      "id": "it-uffizi",
+      "name": "Uffizi Gallery",
+      "area": "Centro",
+      "city": "Florence",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Renaissance painting, including Botticelli and Leonardo.",
+        "es": "Pintura renacentista, con Botticelli y Leonardo."
+      },
+      "sourceId": "it-tourism"
+    },
+    {
+      "id": "it-duomo",
+      "name": "Florence Cathedral (Duomo)",
+      "area": "Centro",
+      "city": "Florence",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Brunelleschi's dome and the Giotto bell tower.",
+        "es": "La cúpula de Brunelleschi y el campanario de Giotto."
+      },
+      "sourceId": "it-tourism"
+    },
+    {
+      "id": "it-rialto",
+      "name": "Rialto Market",
+      "area": "San Polo",
+      "city": "Venice",
+      "category": "food",
+      "interests": [
+        "food",
+        "markets"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Fish and produce market by the Grand Canal.",
+        "es": "Mercado de pescado y productos junto al Gran Canal."
+      },
+      "sourceId": "it-tourism"
+    },
+    {
+      "id": "it-st-marks",
+      "name": "St. Mark's Basilica and Square",
+      "area": "San Marco",
+      "city": "Venice",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Byzantine basilica on the main square.",
+        "es": "Basílica bizantina en la plaza principal."
+      },
+      "sourceId": "it-tourism"
+    },
+    {
+      "id": "it-amalfi",
+      "name": "Amalfi Coast",
+      "area": "Amalfi Coast",
+      "city": "Amalfi",
+      "category": "nature",
+      "interests": [
+        "beaches",
+        "nature",
+        "sights"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Cliffside villages and coastal drives. Plan travel by ferry or bus.",
+        "es": "Pueblos en acantilados y carreteras costeras. Planea con ferry o autobús."
+      },
+      "sourceId": "it-tourism"
+    }
+  ]
+}

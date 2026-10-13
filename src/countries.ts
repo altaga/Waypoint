@@ -1,4 +1,5 @@
 import { countries as countryData } from "countries-list";
+import worldCityFile from "../data/world/cities.json" with { type: "json" };
 
 // Destination and nationality normalizer: ISO 3166-1 alpha-2, English and Spanish
 // names, common aliases, and demonyms ("mexicano", "Mexican" -> MX). Accents and punctuation
@@ -187,6 +188,15 @@ for (const [city, iso] of Object.entries(CITIES)) addKey(city, iso);
 for (const [code, info] of Object.entries(countryData)) {
   if (info.capital) addKey(info.capital, code);
 }
+// Worldwide cities (population 300,000+ or a capital) match exactly only. They stay out of
+// the fuzzy index so that a typo of a country name is never tied with a city name.
+const cityIndex = new Map<string, string>();
+for (const city of worldCityFile.cities) {
+  for (const name of [city.name.en, city.name.es]) {
+    const key = normalize(name);
+    if (key && !cityIndex.has(key) && !index.has(key)) cityIndex.set(key, city.iso);
+  }
+}
 const keys = [...index.keys()];
 
 /** Edit distance with swaps of neighbouring letters counted as one edit. */
@@ -219,7 +229,7 @@ export function matchCountry(input: string): CountryMatch | null {
   }
   const key = normalize(raw);
   if (!key) return null;
-  const exact = index.get(key);
+  const exact = index.get(key) ?? cityIndex.get(key);
   if (exact) return { iso: exact, exact: true };
   if (key.length < 5) return null;
   const max = key.length >= 9 ? 2 : 1;

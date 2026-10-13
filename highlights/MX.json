@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "MX",
+  "names": {
+    "en": "Mexico",
+    "es": "México"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+  },
+  "sources": {
+    "mx-tourism": {
+      "title": "Secretaría de Turismo de México (Visit Mexico)",
+      "url": "https://www.visitmexico.com/en",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "mx-teotihuacan",
+      "name": "Teotihuacan",
+      "area": "San Juan Teotihuacán",
+      "city": "Mexico City",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "nature"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Pre-Hispanic city with the Pyramids of the Sun and the Moon.",
+        "es": "Ciudad prehispánica con las pirámides del Sol y de la Luna."
+      },
+      "sourceId": "mx-tourism"
+    },
+    {
+      "id": "mx-anthropology-museum",
+      "name": "Museo Nacional de Antropología",
+      "area": "Chapultepec",
+      "city": "Mexico City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "art"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "The national museum of Mexico's pre-Hispanic cultures.",
+        "es": "El museo nacional de las culturas prehispánicas de México."
+      },
+      "sourceId": "mx-tourism"
+    },
+    {
+      "id": "mx-bellas-artes",
+      "name": "Palacio de Bellas Artes",
+      "area": "Centro Histórico",
+      "city": "Mexico City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "architecture",
+        "art"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Marble palace with murals by Rivera, Siqueiros and Orozco.",
+        "es": "Palacio de mármol con murales de Rivera, Siqueiros y Orozco."
+      },
+      "sourceId": "mx-tourism"
+    },
+    {
+      "id": "mx-xochimilco",
+      "name": "Xochimilco trajineras",
+      "area": "Xochimilco",
+      "city": "Mexico City",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "family",
+        "food"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Colorful boats on the canals, with food and music on board.",
+        "es": "Trajineras de colores en los canales, con comida y música."
+      },
+      "sourceId": "mx-tourism"
+    },
+    {
+      "id": "mx-coyoacan",
+      "name": "Frida Kahlo Museum (Casa Azul)",
+      "area": "Coyoacán",
+      "city": "Mexico City",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The house where Frida Kahlo lived and worked. Book tickets ahead.",
+        "es": "La casa donde vivió y trabajó Frida Kahlo. Reserva boletos con anticipación."
+      },
+      "sourceId": "mx-tourism"
+    },
+    {
+      "id": "mx-san-juan-market",
+      "name": "Mercado San Juan",
+      "area": "Centro",
+      "city": "Mexico City",
+      "category": "food",
+      "interests": [
+        "food",
+        "markets"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Market with exotic ingredients and prepared food stalls.",
+        "es": "Mercado con ingredientes exóticos y puestos de comida preparada."
+      },
+      "sourceId": "mx-tourism"
+    },
+    {
+      "id": "mx-monte-alban",
+      "name": "Monte Albán",
+      "area": "Oaxaca",
+      "city": "Oaxaca",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "nature"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Zapotec ceremonial center on a mountaintop above Oaxaca city.",
+        "es": "Centro ceremonial zapoteca sobre una montaña, cerca de Oaxaca."
+      },
+      "sourceId": "mx-tourism"
+    },
+    {
+      "id": "mx-tulum-ruins",
+      "name": "Tulum Archaeological Site",
+      "area": "Tulum",
+      "city": "Tulum",
+      "category": "sight",
+      "interests": [
+        "history",
+        "beaches",
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Maya cliff-top ruins above a turquoise beach.",
+        "es": "Ruinas mayas sobre un acantilado frente a una playa turquesa."
+      },
+      "sourceId": "mx-tourism"
+    }
+  ]
+}

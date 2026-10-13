@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "CA",
+  "names": {
+    "en": "Canada",
+    "es": "Canadá"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+  },
+  "sources": {
+    "ca-tourism": {
+      "title": "Destination Canada",
+      "url": "https://www.canada.travel/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ca-banff",
+      "name": "Banff National Park",
+      "area": "Alberta Rockies",
+      "city": "Banff",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "sights"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Mountain park with lakes such as Moraine Lake.",
+        "es": "Parque de montaña con lagos como Moraine Lake."
+      },
+      "sourceId": "ca-tourism"
+    },
+    {
+      "id": "ca-niagara",
+      "name": "Niagara Falls",
+      "area": "Niagara",
+      "city": "Niagara Falls",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Famous waterfalls on the Ontario border.",
+        "es": "Cataratas famosas en la frontera de Ontario."
+      },
+      "sourceId": "ca-tourism"
+    },
+    {
+      "id": "ca-royal-ontario",
+      "name": "Royal Ontario Museum",
+      "area": "Downtown",
+      "city": "Toronto",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "art"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Natural history, world cultures and art.",
+        "es": "Historia natural, culturas del mundo y arte."
+      },
+      "sourceId": "ca-tourism"
+    },
+    {
+      "id": "ca-stanley-park",
+      "name": "Stanley Park",
+      "area": "West End",
+      "city": "Vancouver",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Large seawall park with trails and totem poles.",
+        "es": "Parque grande junto al malecón, con senderos y tótems."
+      },
+      "sourceId": "ca-tourism"
+    },
+    {
+      "id": "ca-old-quebec",
+      "name": "Old Quebec City",
+      "area": "Vieux-Québec",
+      "city": "Quebec City",
+      "category": "neighborhood",
+      "interests": [
+        "history",
+        "architecture",
+        "food"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Walled historic district with French colonial streets.",
+        "es": "Barrio histórico amurallado con calles de la época colonial francesa."
+      },
+      "sourceId": "ca-tourism"
+    },
+    {
+      "id": "ca-lake-louise",
+      "name": "Lake Louise",
+      "area": "Banff National Park",
+      "city": "Lake Louise",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Glacier-fed lake; shuttles and parking fill up in summer.",
+        "es": "Lago alimentado por glaciares; los estacionamientos se llenan en verano."
+      },
+      "sourceId": "ca-tourism"
+    }
+  ]
+}

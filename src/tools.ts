@@ -15,6 +15,8 @@ import type { AppContext } from "./context.ts";
 import type { ItineraryDay, Trip, UserState } from "./state.ts";
 import { PLAN_DASHBOARD_URI } from "./resources.ts";
 import { itemTerms } from "./items.ts";
+import { INTERESTS, type Interest } from "./services/highlights.ts";
+import { verifyPlan, type Violation } from "./itinerary.ts";
 
 type Locale = "en" | "es";
 
@@ -148,6 +150,22 @@ const categoryLabel = (c: string, locale: Locale) => CATEGORY_LABEL[c]?.[locale]
 const severityLabel = (v: string, locale: Locale) => SEVERITY_LABEL[v]?.[locale] ?? v;
 
 /** Locale-aware number formatting for spoken and on-screen money. */
+/** Spoken form of a verifier problem, in the request's language. */
+function violationText(v: Violation, locale: Locale, placeName: (id: string) => string): string {
+  const p = v.placeId ? placeName(v.placeId) : "";
+  const es: Record<Violation["code"], string> = {
+    day_out_of_range: `el día ${v.day} está fuera del viaje`,
+    duplicate_day: `el día ${v.day} aparece dos veces`,
+    unknown_place: `"${v.placeId}" no está en la lista verificada; pide get_highlights`,
+    wrong_country: `${p} no está en el destino`,
+    repeated_place: `${p} aparece en dos días`,
+    too_many_stops: `el día ${v.day} tiene demasiadas paradas para el ritmo del viaje`,
+    avoided_interest: `${p} entra en algo que el viajero quiere evitar`,
+    too_long: `el día ${v.day} es demasiado largo`,
+  };
+  return locale === "es" ? es[v.code] : v.message;
+}
+
 function money(value: number, currency: string, locale: Locale): string {
   const tag = locale === "es" ? "es-MX" : "en-US";
   try {
@@ -387,6 +405,8 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
               ageBand: z.enum(["infant", "child", "teen", "adult", "senior"]).optional(),
               role: z.enum(["self", "partner", "child", "parent", "friend"]).optional(),
               medications: z.array(z.string()).optional(),
+              likes: z.array(z.enum(INTERESTS)).optional().describe("Interests this person enjoys"),
+              avoid: z.array(z.enum(INTERESTS)).optional().describe("Interests this person does not want in the plan"),
               residence: z.string().optional().describe("Country of legal residence, not nationality. Can change where a visa is applied for."),
             }),
           )
@@ -437,8 +457,12 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             validVisas: [],
             dietary: [],
             languages: [],
+            likes: [],
+            avoid: [],
           };
           if (input.ageBand) traveler.ageBand = input.ageBand;
+          if (input.likes) traveler.likes = input.likes;
+          if (input.avoid) traveler.avoid = input.avoid;
           if (input.role) traveler.role = input.role;
           if (passports.length) traveler.passports = passports;
           if (input.residence) {
@@ -894,13 +918,133 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
       }),
   );
 
-  // 9. build_itinerary (written by the concierge agent, saved on the trip)
+  // 9. get_highlights: the catalog of real places. The only source of place ids.
+  server.registerTool(
+    "get_highlights",
+    {
+      title: "Destination highlights",
+      description:
+        "Use to find real places to see, eat or visit in a destination. Call it before planning any day: the day plan may only use the place ids this tool returns. Filter by the traveler's interests. Opening hours and prices are not in this catalog; say so and point to the official source.",
+      inputSchema: {
+        destination: z.string().min(2),
+        interests: z.array(z.enum(INTERESTS)).optional(),
+        limit: z.number().int().min(1).max(30).optional(),
+      },
+      outputSchema: EnvelopeShape,
+      annotations: ann({ readOnly: true, idempotent: true }),
+    },
+    (args) =>
+      run(async () => {
+        const state = await load();
+        const locale = localeOf(state);
+        const dest = resolveDestinationOrThrow(args.destination);
+        const pack = ctx.highlights.forCountry(dest);
+        const name = countryName(dest, locale);
+        if (!pack) {
+          const env = baseEnvelope(ctx, dest, locale, {
+            voice: pick(locale, `I don't have a list of places for ${name} yet. Check the official tourism site.`, `Aún no tengo una lista de lugares para ${name}. Revisa el sitio oficial de turismo.`),
+            card: { pattern: "list", title: name, rows: [] },
+            data: { places: [], curated: false },
+            followUps: [],
+          });
+          return envelopeResult(env);
+        }
+        const want = args.interests ?? [];
+        const ranked = pack.places
+          .map((p, i) => ({ p, i, hit: want.filter((w) => p.interests.includes(w)).length }))
+          .filter((x) => want.length === 0 || x.hit > 0)
+          .sort((a, b) => b.hit - a.hit || a.i - b.i)
+          .slice(0, args.limit ?? 12)
+          .map((x) => x.p);
+        const curated = pack.review.status !== "wikidata_ranked";
+        const names = ranked.slice(0, 3).map((p) => p.name).join(", ");
+        const env = baseEnvelope(ctx, dest, locale, {
+          voice: ranked.length
+            ? pick(
+                locale,
+                `${ranked.length} places in ${name}. The first ones: ${names}.${curated ? "" : " This list is ranked by popularity, not curated, so check each place."}`,
+                `${ranked.length} lugares en ${name}. Los primeros: ${names}.${curated ? "" : " Esta lista va por popularidad, no está curada; revisa cada lugar."}`,
+              )
+            : pick(locale, `No place in ${name} matches those interests in my list.`, `Ningún lugar de ${name} coincide con esos intereses en mi lista.`),
+          card: {
+            pattern: "list",
+            title: pick(locale, `Places in ${name}`, `Lugares en ${name}`),
+            subtitle: curated ? pick(locale, "Curated list, verify hours", "Lista curada, verifica horarios") : pick(locale, "Ranked by popularity, not curated", "Por popularidad, sin curación"),
+            rows: ranked.map((p) => ({ label: p.name, value: `${p.area} · ${p.desc[locale]}`, status: "info" as const })),
+          },
+          data: {
+            country: dest,
+            curated,
+            places: ranked.map((p) => ({ id: p.id, name: p.name, area: p.area, city: p.city, category: p.category, interests: p.interests, durationMinutes: p.durationMinutes, desc: p.desc[locale], admission: p.admission ?? null })),
+          },
+          followUps: [pick(locale, "Build my day plan with these?", "¿Armo mi plan de días con estos?")],
+        });
+        env.sources = Object.entries(pack.sources).map(([key, s]) => ({ id: `src:${key}`, title: s.title, url: s.url, license: s.license, retrieved: s.retrieved }));
+        env.confidence = curated ? "medium" : "low";
+        return envelopeResult(env);
+      }),
+  );
+
+  // 10. set_trip_constraints: what the traveler will not do or will not spend.
+  server.registerTool(
+    "set_trip_constraints",
+    {
+      title: "Trip constraints",
+      description:
+        "Use when the traveler says what to avoid on this trip (use the interest names, for example nightlife) or sets a spending limit. Constraints apply to every day plan and to expense logging. Pass clearAvoid or clearBudget to remove them.",
+      inputSchema: {
+        tripId: z.string().optional(),
+        avoid: z.array(z.enum(INTERESTS)).optional(),
+        maxBudget: z.object({ amount: z.number().positive(), currency: z.string().length(3) }).optional(),
+        clearAvoid: z.boolean().optional(),
+        clearBudget: z.boolean().optional(),
+      },
+      outputSchema: EnvelopeShape,
+      annotations: ann({ idempotent: true }),
+    },
+    (args) =>
+      run(async () => {
+        const state = await load();
+        const locale = localeOf(state);
+        const trip = latestTrip(state, args.tripId);
+        if (!trip) return nothingYetEnvelope(locale, "trip");
+        const c = trip.constraints ?? { avoid: [] };
+        if (args.clearAvoid) c.avoid = [];
+        if (args.avoid) c.avoid = [...new Set([...c.avoid, ...args.avoid])];
+        if (args.clearBudget) delete c.maxBudget;
+        if (args.maxBudget) c.maxBudget = { amount: args.maxBudget.amount, currency: args.maxBudget.currency.toUpperCase() };
+        trip.constraints = c;
+        await save(state);
+        const avoidText = c.avoid.length ? c.avoid.join(", ") : pick(locale, "nothing", "nada");
+        const budgetText = c.maxBudget ? money(c.maxBudget.amount, c.maxBudget.currency, locale) : pick(locale, "no limit", "sin límite");
+        const env = baseEnvelope(ctx, trip.destination, locale, {
+          voice: pick(
+            locale,
+            `Saved. I'll keep out: ${avoidText}. Spending limit: ${budgetText}.`,
+            `Guardado. Evitaré: ${avoidText}. Tope de gasto: ${budgetText}.`,
+          ),
+          card: {
+            pattern: "card",
+            title: pick(locale, "Trip rules", "Reglas del viaje"),
+            rows: [
+              { label: pick(locale, "Avoid", "Evitar"), value: avoidText, status: c.avoid.length ? "warn" : "info" },
+              { label: pick(locale, "Spending limit", "Tope de gasto"), value: budgetText, status: c.maxBudget ? "ok" : "info" },
+            ],
+          },
+          data: { constraints: c },
+          followUps: [pick(locale, "Build my day plan?", "¿Armo mi plan de días?")],
+        });
+        return envelopeResult(env);
+      }),
+  );
+
+  // 11. build_itinerary: the plan is checked before it is saved. Only catalog ids are accepted.
   server.registerTool(
     "build_itinerary",
     {
       title: "Day plan",
       description:
-        "Use when the user asks for a day plan or itinerary. To create or change it, write the plan yourself (neighborhoods, sights, food and experiences that fit the destination, the travelers' interests and pace; one idea per slot, short) and pass it in `plan`; it is saved on the trip. Without `plan` it returns the saved plan, or the empty days with dates if none exists yet. Ideas are suggestions; tell the user to check opening hours.",
+        "Use when the user asks for a day plan. First call get_highlights and choose real places. Then pass `plan`: for each day, up to the pace's stop limit, as place ids from get_highlights (never names you made up). The plan is verified before it is saved: if the verifier reports problems, nothing is saved; fix the listed problems and call again. Without `plan` it returns the saved plan.",
       inputSchema: {
         tripId: z.string().optional(),
         day: z.number().int().positive().optional(),
@@ -909,12 +1053,10 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             z.object({
               day: z.number().int().positive(),
               title: z.string().max(80).optional(),
-              morning: z.string().max(160).optional(),
-              afternoon: z.string().max(160).optional(),
-              evening: z.string().max(160).optional(),
+              stops: z.array(z.string().min(3).max(80)).max(4),
             }),
           )
-          .max(30)
+          .max(31)
           .optional(),
       },
       outputSchema: EnvelopeShape,
@@ -928,48 +1070,79 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const trip = latestTrip(state, args.tripId);
         if (!trip) return nothingYetEnvelope(locale, "trip");
         const stay = daysBetween(trip.startDate, trip.endDate);
+        const dest = trip.destination;
         const dateOf = (day: number) => new Date(Date.parse(trip.startDate) + (day - 1) * 86_400_000).toISOString().slice(0, 10);
+        const avoid = (trip.constraints?.avoid ?? []) as Interest[];
+        let verdict: ReturnType<typeof verifyPlan> | null = null;
+
         if (args.plan?.length) {
-          const byDay = new Map((trip.itinerary ?? []).map((d) => [d.day, d]));
-          for (const d of args.plan) if (d.day <= stay) byDay.set(d.day, { ...d, date: dateOf(d.day) });
-          trip.itinerary = [...byDay.values()].sort((x, y) => x.day - y.day);
-          await save(state);
+          verdict = verifyPlan({ plan: args.plan, stayDays: stay, destinationIso: dest, pace: profile.pace, avoid, highlights: ctx.highlights });
+          if (verdict.ok) {
+            const byDay = new Map((trip.itinerary ?? []).map((d) => [d.day, d]));
+            for (const d of args.plan) byDay.set(d.day, { day: d.day, date: dateOf(d.day), title: d.title, stops: d.stops });
+            trip.itinerary = [...byDay.values()].sort((x, y) => x.day - y.day);
+            await save(state);
+          }
         }
+
         const saved = trip.itinerary ?? [];
-        const days: ItineraryDay[] = Array.from({ length: stay }, (_, i) => saved.find((d) => d.day === i + 1) ?? { day: i + 1, date: dateOf(i + 1) });
-        const selected = args.day ? days.filter((d) => d.day === args.day) : days;
-        const planned = days.filter((d) => d.morning || d.afternoon || d.evening).length;
-        const slot = (d: ItineraryDay) =>
-          [d.morning && `${pick(locale, "Morning", "Mañana")}: ${d.morning}`, d.afternoon && `${pick(locale, "Afternoon", "Tarde")}: ${d.afternoon}`, d.evening && `${pick(locale, "Evening", "Noche")}: ${d.evening}`]
-            .filter(Boolean)
-            .join(" · ");
-        const first = selected.find((d) => d.morning || d.afternoon || d.evening);
-        const voice = planned === 0
-          ? pick(locale, `There is no day plan yet for your ${stay} days. Tell me what you enjoy and I'll put one together.`, `Aún no hay plan para tus ${stay} días. Dime qué te gusta y te armo uno.`)
-          : args.plan?.length
-            ? pick(locale, `Saved: a plan for ${planned} of ${stay} days.${first?.title ? ` Day ${first.day}: ${first.title}.` : ""} Check opening hours before you go.`, `Guardado: plan para ${planned} de ${stay} días.${first?.title ? ` Día ${first.day}: ${first.title}.` : ""} Revisa horarios antes de ir.`)
-            : pick(locale, `Your plan covers ${planned} of ${stay} days.`, `Tu plan cubre ${planned} de ${stay} días.`);
-        const env = baseEnvelope(ctx, trip.destination, locale, {
+        const days = Array.from({ length: stay }, (_, i) => saved.find((d) => d.day === i + 1) ?? { day: i + 1, date: dateOf(i + 1), stops: [] as string[] });
+        const resolvedDays = days.map((d) => ({
+          day: d.day,
+          date: d.date,
+          title: d.title,
+          places: d.stops.map((id) => ctx.highlights.place(id)?.place).filter((p): p is NonNullable<typeof p> => Boolean(p)),
+        }));
+        const selected = args.day ? resolvedDays.filter((d) => d.day === args.day) : resolvedDays;
+        const planned = resolvedDays.filter((d) => d.places.length).length;
+        const warnings = [...new Set(resolvedDays.flatMap((d) => d.places.map((p) => p.admission).filter((a): a is string => Boolean(a))))];
+        const placeName = (id: string) => ctx.highlights.place(id)?.place.name ?? id;
+
+        let voice: string;
+        if (verdict && !verdict.ok) {
+          const first = verdict.violations[0];
+          voice = pick(
+            locale,
+            `I didn't save the plan: ${verdict.violations.length} problem${verdict.violations.length > 1 ? "s" : ""}. First: ${first.message}.`,
+            `No guardé el plan: ${verdict.violations.length} problema${verdict.violations.length > 1 ? "s" : ""}. El primero: ${violationText(first, locale, placeName)}.`,
+          );
+        } else if (planned === 0) {
+          voice = pick(locale, `There is no day plan yet for your ${stay} days. Tell me what you enjoy and I'll put one together from real places.`, `Aún no hay plan para tus ${stay} días. Dime qué te gusta y armo uno con lugares reales.`);
+        } else if (verdict) {
+          voice = pick(locale, `Saved a plan for ${planned} of ${stay} days, checked against the places list.${warnings.length ? " Some places need a reservation." : ""}`, `Guardé el plan de ${planned} de ${stay} días, revisado contra la lista de lugares.${warnings.length ? " Algunos lugares requieren reserva." : ""}`);
+        } else {
+          voice = pick(locale, `Your plan covers ${planned} of ${stay} days.`, `Tu plan cubre ${planned} de ${stay} días.`);
+        }
+
+        const env = baseEnvelope(ctx, dest, locale, {
           voice,
           card: {
             pattern: "carousel",
             title: pick(locale, "Day plan", "Plan de días"),
-            subtitle: pick(locale, `${countryName(trip.destination, "en")} · suggestions, check hours`, `${countryName(trip.destination, "es")} · sugerencias, revisa horarios`),
+            subtitle: pick(locale, "Real places from the list · check hours", "Lugares reales de la lista · revisa horarios"),
             rows: selected.map((d) => ({
               label: `${pick(locale, "Day", "Día")} ${d.day}${d.title ? ` · ${d.title}` : ""}`,
-              value: slot(d) || pick(locale, "Free day", "Día libre"),
+              value: d.places.map((p) => `${p.name} (${p.area})`).join(" · ") || pick(locale, "Free day", "Día libre"),
               status: "info" as const,
             })),
           },
-          data: { days: selected, pace: profile.pace, interests: profile.interests, planned, stay },
+          data: {
+            days: selected.map((d) => ({ day: d.day, date: d.date, title: d.title, stops: d.places.map((p) => ({ id: p.id, name: p.name, area: p.area, category: p.category, desc: p.desc[locale], admission: p.admission ?? null, durationMinutes: p.durationMinutes })) })),
+            pace: profile.pace,
+            planned,
+            stay,
+            saved: !verdict || verdict.ok,
+            violations: verdict && !verdict.ok ? verdict.violations.map((v) => ({ day: v.day, code: v.code, placeId: v.placeId ?? null, message: v.message })) : [],
+            warnings,
+          },
           followUps: [pick(locale, "Anything else for this trip?", "¿Algo más para este viaje?")],
         });
-        env.confidence = "low";
+        env.confidence = "medium";
         return envelopeResult(env);
       }),
   );
 
-  // 10. trip_brief (multi-session memory)
+  // 12. trip_brief (multi-session memory)
   server.registerTool(
     "trip_brief",
     {
@@ -1005,8 +1178,22 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const packed = items.filter((i) => done.has(i.id)).length;
         if (packed === 0) pending.push(pick(locale, "Packing list not started", "Lista de equipaje sin empezar"));
         else if (packed < items.length) pending.push(pick(locale, `${items.length - packed} items left to pack`, `Faltan ${items.length - packed} cosas por empacar`));
-        const planned = (trip.itinerary ?? []).filter((d) => d.morning || d.afternoon || d.evening).length;
+        const planned = (trip.itinerary ?? []).filter((d) => d.stops.length > 0).length;
         if (planned === 0) pending.push(pick(locale, "No day plan yet", "Aún sin plan de días"));
+        // Bookings: pending confirmations, and cancellation deadlines within the next 30 days.
+        const today = ctx.clock().toISOString().slice(0, 10);
+        const bookings = trip.bookings ?? [];
+        const deadlines = bookings
+          .filter((b) => b.cancelBy && b.cancelBy >= today)
+          .map((b) => ({ title: b.title, cancelBy: b.cancelBy as string, days: Math.round((Date.parse(`${b.cancelBy}T00:00:00Z`) - Date.parse(`${today}T00:00:00Z`)) / 86_400_000) }))
+          .filter((d) => d.days <= 30)
+          .sort((a, b) => a.days - b.days);
+        for (const d of deadlines) {
+          pending.push(pick(locale, `Free cancellation for ${d.title} ends ${d.cancelBy} (${d.days} days)`, `La cancelación gratis de ${d.title} termina el ${d.cancelBy} (en ${d.days} días)`));
+        }
+        for (const b of bookings.filter((x) => x.status === "to_confirm")) {
+          pending.push(pick(locale, `Confirm the details of ${b.title}`, `Confirma los datos de ${b.title}`));
+        }
         // Readiness: entry 40%, packing 35%, day plan 25%.
         const entryOk = entries.length ? entries.filter((e) => e.status === "visa_free" || e.status === "same_country").length / entries.length : 0;
         const readiness = Math.round(100 * (0.4 * entryOk + 0.35 * (items.length ? packed / items.length : 0) + 0.25 * Math.min(1, planned / stay)));
@@ -1031,6 +1218,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             ],
           },
           data: {
+            deadlines,
             tripId: trip.tripId,
             destination: trip.destination,
             destinationName: countryName(trip.destination, locale),
@@ -1053,7 +1241,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
       }),
   );
 
-  // 11. log_expense
+  // 13. log_expense
   server.registerTool(
     "log_expense",
     {
@@ -1066,6 +1254,8 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         category: z.string().min(2),
         note: z.string().optional(),
         tripId: z.string().optional(),
+        payer: z.string().optional().describe("Who paid: a traveler's name or id"),
+        splitAmong: z.array(z.string()).optional().describe("Names or ids of the people who share this cost; omit for everyone"),
       },
       outputSchema: EnvelopeShape,
       annotations: ann({}),
@@ -1077,6 +1267,10 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const profile = state.profile;
         const trip = latestTrip(state, args.tripId);
         const currency = (args.currency ?? profile?.homeCurrency ?? "USD").toUpperCase();
+        const findTraveler = (ref: string) =>
+          profile?.travelers.find((t) => t.travelerId === ref || t.displayName.toLowerCase() === ref.trim().toLowerCase());
+        const payer = args.payer ? findTraveler(args.payer)?.travelerId : undefined;
+        const splitAmong = args.splitAmong?.map((r) => findTraveler(r)?.travelerId).filter((x): x is string => Boolean(x));
         const expense = {
           id: randomUUID(),
           tripId: trip?.tripId ?? null,
@@ -1085,12 +1279,30 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           category: args.category,
           note: args.note,
           createdAt: ctx.clock().toISOString(),
+          ...(payer ? { payer } : {}),
+          ...(splitAmong?.length ? { splitAmong } : {}),
         };
         state.expenses.push(expense);
         await save(state);
         const total = state.expenses.filter((e) => e.tripId === expense.tripId && e.currency === currency).reduce((s, e) => s + e.amount, 0);
+        // Spending limit: every expense of the trip, converted to the limit's currency.
+        const cap = trip?.constraints?.maxBudget;
+        let spentInCap: number | null = null;
+        if (cap && trip) {
+          let sum = 0;
+          for (const e of state.expenses.filter((x) => x.tripId === trip.tripId)) {
+            const conv = e.currency === cap.currency ? { value: e.amount } : await ctx.fx.convert(e.amount, e.currency, cap.currency);
+            if (!conv) { sum = NaN; break; }
+            sum += conv.value;
+          }
+          spentInCap = Number.isFinite(sum) ? Math.round(sum * 100) / 100 : null;
+        }
+        const overBudget = cap !== undefined && spentInCap !== null && spentInCap > cap.amount;
+        const budgetLine = cap && spentInCap !== null
+          ? pick(locale, ` Spent ${money(spentInCap, cap.currency, locale)} of the ${money(cap.amount, cap.currency, locale)} limit.${overBudget ? " You are over the limit." : ""}`, ` Llevas ${money(spentInCap, cap.currency, locale)} de tu tope de ${money(cap.amount, cap.currency, locale)}.${overBudget ? " Ya pasaste el tope." : ""}`)
+          : "";
         const env = baseEnvelope(ctx, trip?.destination ?? "", locale, {
-          voice: pick(locale, `Logged ${args.amount} ${currency} for ${args.category}. Trip total in ${currency}: ${total.toFixed(2)}.`, `Registré ${args.amount} ${currency} en ${args.category}. Total del viaje en ${currency}: ${total.toFixed(2)}.`),
+          voice: pick(locale, `Logged ${args.amount} ${currency} for ${args.category}. Trip total in ${currency}: ${total.toFixed(2)}.`, `Registré ${args.amount} ${currency} en ${args.category}. Total del viaje en ${currency}: ${total.toFixed(2)}.`) + budgetLine,
           card: {
             pattern: "card",
             title: pick(locale, "Expense logged", "Gasto registrado"),
@@ -1099,8 +1311,290 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
               { label: pick(locale, "Trip total", "Total del viaje"), value: `${total.toFixed(2)} ${currency}`, status: "info" },
             ],
           },
-          data: { expense, totalSameCurrency: total },
+          data: { expense, totalSameCurrency: total, budget: cap ?? null, spentInBudgetCurrency: spentInCap, overBudget },
           followUps: [pick(locale, "How much is left in my budget?", "¿Cuánto me queda del presupuesto?")],
+        });
+        return envelopeResult(env);
+      }),
+  );
+
+  // Bookings: what the traveler has reserved, with the date a cancellation stops being free.
+  server.registerTool(
+    "add_booking",
+    {
+      title: "Add booking",
+      description:
+        "Use when the traveler gives a booking (flight, hotel, car, activity) or pastes its confirmation text. Extract the fields yourself. Pasted text is saved as to_confirm until the traveler confirms the details with confirm_booking. cancelBy is the last date the booking can be cancelled free of charge, when the text states it.",
+      inputSchema: {
+        tripId: z.string().optional(),
+        kind: z.enum(["flight", "hotel", "car", "activity", "other"]),
+        title: z.string().min(2).max(120),
+        date: ISO_DATE.optional(),
+        cancelBy: ISO_DATE.optional(),
+        reference: z.string().max(40).optional(),
+        status: z.enum(["to_confirm", "confirmed"]).optional(),
+      },
+      outputSchema: EnvelopeShape,
+      annotations: ann({}),
+    },
+    (args) =>
+      run(async () => {
+        const state = await load();
+        const locale = localeOf(state);
+        const trip = latestTrip(state, args.tripId);
+        if (!trip) return nothingYetEnvelope(locale, "trip");
+        const booking = {
+          id: randomUUID(),
+          kind: args.kind,
+          title: args.title,
+          date: args.date,
+          cancelBy: args.cancelBy,
+          reference: args.reference,
+          status: args.status ?? "confirmed",
+          createdAt: ctx.clock().toISOString(),
+        } as const;
+        trip.bookings = [...(trip.bookings ?? []), { ...booking }];
+        await save(state);
+        const cancel = booking.cancelBy ? pick(locale, ` Free cancellation until ${booking.cancelBy}.`, ` Cancelación gratis hasta el ${booking.cancelBy}.`) : "";
+        const env = baseEnvelope(ctx, trip.destination, locale, {
+          voice: pick(
+            locale,
+            `Saved ${booking.title}${booking.status === "to_confirm" ? ", pending your confirmation" : ""}.${cancel}`,
+            `Guardé ${booking.title}${booking.status === "to_confirm" ? ", pendiente de tu confirmación" : ""}.${cancel}`,
+          ),
+          card: {
+            pattern: "card",
+            title: pick(locale, "Booking", "Reserva"),
+            rows: [
+              { label: pick(locale, "Booking", "Reserva"), value: booking.title, status: booking.status === "to_confirm" ? "warn" : "ok" },
+              ...(booking.date ? [{ label: pick(locale, "Date", "Fecha"), value: booking.date, status: "info" as const }] : []),
+              ...(booking.cancelBy ? [{ label: pick(locale, "Free cancellation until", "Cancelación gratis hasta"), value: booking.cancelBy, status: "warn" as const }] : []),
+            ],
+          },
+          data: { booking },
+          followUps: [],
+        });
+        return envelopeResult(env);
+      }),
+  );
+
+  server.registerTool(
+    "confirm_booking",
+    {
+      title: "Confirm booking",
+      description: "Use after the traveler confirms the details of a booking that is pending (to_confirm).",
+      inputSchema: { tripId: z.string().optional(), bookingId: z.string() },
+      outputSchema: EnvelopeShape,
+      annotations: ann({ idempotent: true }),
+    },
+    (args) =>
+      run(async () => {
+        const state = await load();
+        const locale = localeOf(state);
+        const trip = latestTrip(state, args.tripId);
+        const b = trip?.bookings?.find((x) => x.id === args.bookingId);
+        if (!trip || !b) return errorResult(new Error("no booking"), pick(locale, "I can't find that booking.", "No encuentro esa reserva."));
+        b.status = "confirmed";
+        await save(state);
+        const env = baseEnvelope(ctx, trip.destination, locale, {
+          voice: pick(locale, `Confirmed ${b.title}.`, `Confirmé ${b.title}.`),
+          card: { pattern: "card", title: pick(locale, "Booking", "Reserva"), rows: [{ label: b.title, value: pick(locale, "confirmed", "confirmada"), status: "ok" }] },
+          data: { booking: b },
+          followUps: [],
+        });
+        return envelopeResult(env);
+      }),
+  );
+
+  // Group expenses: who paid what, and the transfers that square everyone up.
+  server.registerTool(
+    "settle_up",
+    {
+      title: "Settle up the group",
+      description:
+        "Use when the group asks who owes whom for the trip. Balances every expense that has a payer, split equally among the people it covers, in the traveler's home currency. Expenses without a payer are reported, not guessed.",
+      inputSchema: { tripId: z.string().optional() },
+      outputSchema: EnvelopeShape,
+      annotations: ann({ readOnly: true, idempotent: true }),
+    },
+    (args) =>
+      run(async () => {
+        const state = await load();
+        const locale = localeOf(state);
+        const profile = requireProfile(state);
+        const trip = latestTrip(state, args.tripId);
+        if (!trip) return nothingYetEnvelope(locale, "trip");
+        const home = profile.homeCurrency;
+        const members = profile.travelers.filter((t) => trip.travelerIds.includes(t.travelerId));
+        const balance = new Map<string, number>(members.map((m) => [m.travelerId, 0]));
+        let unassigned = 0;
+        let unconverted = 0;
+        for (const e of state.expenses.filter((x) => x.tripId === trip.tripId)) {
+          if (!e.payer || !balance.has(e.payer)) { unassigned++; continue; }
+          const conv = e.currency === home ? { value: e.amount } : await ctx.fx.convert(e.amount, e.currency, home);
+          if (!conv) { unconverted++; continue; }
+          const among = (e.splitAmong ?? []).filter((id) => balance.has(id));
+          const sharers = among.length ? among : members.map((m) => m.travelerId);
+          balance.set(e.payer, (balance.get(e.payer) ?? 0) + conv.value);
+          const share = conv.value / sharers.length;
+          for (const id of sharers) balance.set(id, (balance.get(id) ?? 0) - share);
+        }
+        const name = (id: string) => members.find((m) => m.travelerId === id)?.displayName ?? id;
+        // Greedy settle-up: the largest debtor pays the largest creditor, until everyone is even.
+        const owes = [...balance].filter(([, v]) => v < -0.005).map(([id, v]) => ({ id, v: -v })).sort((a, b) => b.v - a.v);
+        const gets = [...balance].filter(([, v]) => v > 0.005).map(([id, v]) => ({ id, v })).sort((a, b) => b.v - a.v);
+        const transfers: { from: string; to: string; amount: number }[] = [];
+        let i = 0, j = 0;
+        while (i < owes.length && j < gets.length) {
+          const pay = Math.min(owes[i].v, gets[j].v);
+          if (pay >= 0.01) transfers.push({ from: name(owes[i].id), to: name(gets[j].id), amount: Math.round(pay * 100) / 100 });
+          owes[i].v -= pay;
+          gets[j].v -= pay;
+          if (owes[i].v < 0.005) i++;
+          if (gets[j].v < 0.005) j++;
+        }
+        const lines = transfers.map((t) => `${t.from} ${pick(locale, "pays", "paga a")} ${t.to} ${money(t.amount, home, locale)}`);
+        const caveat = unassigned ? pick(locale, ` ${unassigned} expense(s) have no payer and are not counted.`, ` ${unassigned} gasto(s) no tienen quién pagó y no cuentan.`) : "";
+        const env = baseEnvelope(ctx, trip.destination, locale, {
+          voice: transfers.length
+            ? pick(locale, `To square up: ${lines.join("; ")}.${caveat}`, `Para quedar a mano: ${lines.join("; ")}.${caveat}`)
+            : pick(locale, `Everyone is square.${caveat}`, `Todos están a mano.${caveat}`),
+          card: {
+            pattern: "list",
+            title: pick(locale, "Settle up", "Cuentas del grupo"),
+            subtitle: pick(locale, `In ${home}`, `En ${home}`),
+            rows: [
+              ...members.map((m) => {
+                const v = balance.get(m.travelerId) ?? 0;
+                return { label: m.displayName, value: `${v >= 0 ? "+" : "−"}${money(Math.abs(v), home, locale)}`, status: (v >= 0 ? "ok" : "warn") as "ok" | "warn" };
+              }),
+              ...transfers.map((t) => ({ label: pick(locale, "Transfer", "Transferencia"), value: `${t.from} → ${t.to} · ${money(t.amount, home, locale)}`, status: "info" as const })),
+            ],
+          },
+          data: { transfers, balances: Object.fromEntries([...balance].map(([id, v]) => [name(id), Math.round(v * 100) / 100])), unassigned, unconverted, home },
+          followUps: [],
+        });
+        return envelopeResult(env);
+      }),
+  );
+
+  // Fairness: how many of the planned stops each traveler actually likes, and any they avoid.
+  server.registerTool(
+    "plan_fairness",
+    {
+      title: "Plan fairness",
+      description:
+        "Use when the group plans together and someone may be left out. Scores the saved day plan for each traveler: the share of stops that match their likes, and any stop that matches what they avoid. Travelers without likes are not scored.",
+      inputSchema: { tripId: z.string().optional() },
+      outputSchema: EnvelopeShape,
+      annotations: ann({ readOnly: true, idempotent: true }),
+    },
+    (args) =>
+      run(async () => {
+        const state = await load();
+        const locale = localeOf(state);
+        const profile = requireProfile(state);
+        const trip = latestTrip(state, args.tripId);
+        if (!trip) return nothingYetEnvelope(locale, "trip");
+        const stops = (trip.itinerary ?? []).flatMap((d) => d.stops).map((id) => ctx.highlights.place(id)?.place).filter((p): p is NonNullable<typeof p> => Boolean(p));
+        const members = profile.travelers.filter((t) => trip.travelerIds.includes(t.travelerId));
+        const rows = members.map((m) => {
+          const likes = new Set(m.likes);
+          const avoid = new Set(m.avoid);
+          const liked = stops.filter((p) => p.interests.some((i) => likes.has(i))).length;
+          const clash = stops.filter((p) => p.interests.some((i) => avoid.has(i)));
+          const score = likes.size && stops.length ? liked / stops.length : null;
+          return { traveler: m.displayName, score, liked, stops: stops.length, clash: clash.map((p) => p.name) };
+        });
+        const scored = rows.filter((r) => r.score !== null) as { traveler: string; score: number; liked: number; stops: number; clash: string[] }[];
+        const worst = [...scored].sort((a, b) => a.score - b.score)[0];
+        const clashes = rows.filter((r) => r.clash.length);
+        const voice = !stops.length
+          ? pick(locale, "There is no plan to score yet.", "Aún no hay plan que evaluar.")
+          : !scored.length
+            ? pick(locale, "I don't know what each person likes yet. Ask them and I'll check the plan for everyone.", "No sé qué le gusta a cada quien todavía. Pregúntales y reviso el plan para todos.")
+            : pick(
+                locale,
+                `The plan fits ${worst.traveler} least: ${worst.liked} of ${worst.stops} stops match.${clashes.length ? ` ${clashes[0].traveler} has something they avoid in the plan.` : ""}`,
+                `El plan le queda menos a ${worst.traveler}: ${worst.liked} de ${worst.stops} paradas le gustan.${clashes.length ? ` ${clashes[0].traveler} tiene algo que evita en el plan.` : ""}`,
+              );
+        const env = baseEnvelope(ctx, trip.destination, locale, {
+          voice,
+          card: {
+            pattern: "list",
+            title: pick(locale, "Fairness", "Equidad del plan"),
+            rows: rows.map((r) => ({
+              label: r.traveler,
+              value: r.score === null ? pick(locale, "no likes saved", "sin gustos guardados") : `${r.liked}/${r.stops} · ${Math.round(r.score * 100)}%`,
+              status: (r.clash.length ? "blocked" : r.score !== null && r.score < 0.34 ? "warn" : "ok") as "ok" | "warn" | "blocked",
+            })),
+          },
+          data: { rows, stops: stops.length },
+          followUps: [],
+        });
+        env.confidence = "medium";
+        return envelopeResult(env);
+      }),
+  );
+
+  // Export: the whole trip as a calendar file or as text, for any app the traveler uses.
+  server.registerTool(
+    "export_trip",
+    {
+      title: "Export trip",
+      description:
+        "Use when the traveler wants the trip in another app: format ics (calendar file with the trip and each planned day) or markdown (the plan, bookings and what is pending as text). Returns the content in data.content.",
+      inputSchema: { tripId: z.string().optional(), format: z.enum(["ics", "markdown"]) },
+      outputSchema: EnvelopeShape,
+      annotations: ann({ readOnly: true, idempotent: true }),
+    },
+    (args) =>
+      run(async () => {
+        const state = await load();
+        const locale = localeOf(state);
+        const trip = latestTrip(state, args.tripId);
+        if (!trip) return nothingYetEnvelope(locale, "trip");
+        const name = countryName(trip.destination, locale);
+        const dateOf = (day: number) => new Date(Date.parse(trip.startDate) + (day - 1) * 86_400_000).toISOString().slice(0, 10);
+        const plan = (trip.itinerary ?? []).filter((d) => d.stops.length);
+        const placeOf = (id: string) => ctx.highlights.place(id)?.place;
+        let content: string;
+        if (args.format === "ics") {
+          const stamp = ctx.clock().toISOString().replace(/[-:]/g, "").replace(/\.\d+Z$/, "Z");
+          const day = (iso: string) => iso.replace(/-/g, "");
+          const next = (iso: string) => new Date(Date.parse(`${iso}T00:00:00Z`) + 86_400_000).toISOString().slice(0, 10);
+          const events = [
+            ["BEGIN:VEVENT", `UID:${trip.tripId}@waypoint`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${day(trip.startDate)}`, `DTEND;VALUE=DATE:${day(next(trip.endDate))}`, `SUMMARY:${locale === "es" ? "Viaje a" : "Trip to"} ${name}`, "END:VEVENT"],
+            ...plan.map((d) => [
+              "BEGIN:VEVENT", `UID:${trip.tripId}-d${d.day}@waypoint`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${day(dateOf(d.day))}`, `DTEND;VALUE=DATE:${day(next(dateOf(d.day)))}`,
+              `SUMMARY:${locale === "es" ? "Día" : "Day"} ${d.day}${d.title ? ` · ${d.title}` : ""}`,
+              `DESCRIPTION:${d.stops.map((id) => placeOf(id)?.name ?? id).join(", ")}`, "END:VEVENT",
+            ]),
+          ];
+          content = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Waypoint//Travel concierge//EN", ...events.flat(), "END:VCALENDAR"].join("\r\n");
+        } else {
+          const lines = [`# ${name}`, `${trip.startDate} → ${trip.endDate}`, ""];
+          for (const d of plan) {
+            lines.push(`## ${locale === "es" ? "Día" : "Day"} ${d.day}${d.title ? ` · ${d.title}` : ""} (${dateOf(d.day)})`);
+            for (const id of d.stops) {
+              const p = placeOf(id);
+              if (p) lines.push(`- ${p.name} (${p.area}, ~${p.durationMinutes} min)${p.admission ? ` — ${p.admission}` : ""}`);
+            }
+            lines.push("");
+          }
+          const bookings = trip.bookings ?? [];
+          if (bookings.length) {
+            lines.push(`## ${locale === "es" ? "Reservas" : "Bookings"}`);
+            for (const b of bookings) lines.push(`- ${b.title}${b.date ? ` (${b.date})` : ""}${b.cancelBy ? ` — ${locale === "es" ? "cancelación gratis hasta" : "free cancellation until"} ${b.cancelBy}` : ""}`);
+          }
+          lines.push("", locale === "es" ? "Verifica horarios y reglas en la fuente oficial antes de viajar." : "Check hours and rules on the official source before you travel.");
+          content = lines.join("\n");
+        }
+        const env = baseEnvelope(ctx, trip.destination, locale, {
+          voice: pick(locale, `Your trip is ready as ${args.format === "ics" ? "a calendar file" : "text"}.`, `Tu viaje está listo como ${args.format === "ics" ? "archivo de calendario" : "texto"}.`),
+          card: { pattern: "card", title: pick(locale, "Export", "Exportar"), rows: [{ label: args.format.toUpperCase(), value: `${content.length} ${pick(locale, "characters", "caracteres")}`, status: "ok" }] },
+          data: { format: args.format, content, days: plan.length },
+          followUps: [],
         });
         return envelopeResult(env);
       }),

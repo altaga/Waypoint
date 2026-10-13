@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "KR",
+  "names": {
+    "en": "South Korea",
+    "es": "Corea del Sur"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+  },
+  "sources": {
+    "kr-tourism": {
+      "title": "Korea Tourism Organization",
+      "url": "https://english.visitkorea.or.kr/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "kr-gyeongbokgung",
+      "name": "Gyeongbokgung Palace",
+      "area": "Jongno",
+      "city": "Seoul",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "temples"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Joseon royal palace; the changing-of-the-guard ceremony is daily.",
+        "es": "Palacio real Joseon; el cambio de guardia es diario."
+      },
+      "sourceId": "kr-tourism"
+    },
+    {
+      "id": "kr-bukchon",
+      "name": "Bukchon Hanok Village",
+      "area": "Jongno",
+      "city": "Seoul",
+      "category": "neighborhood",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Traditional wooden houses between two palaces.",
+        "es": "Casas tradicionales de madera entre dos palacios."
+      },
+      "sourceId": "kr-tourism"
+    },
+    {
+      "id": "kr-gwangjang",
+      "name": "Gwangjang Market",
+      "area": "Jongno",
+      "city": "Seoul",
+      "category": "food",
+      "interests": [
+        "food",
+        "markets"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Classic market for bindaetteok and street food.",
+        "es": "Mercado clásico para bindaetteok y comida callejera."
+      },
+      "sourceId": "kr-tourism"
+    },
+    {
+      "id": "kr-myeongdong",
+      "name": "Myeongdong",
+      "area": "Jung-gu",
+      "city": "Seoul",
+      "category": "shopping",
+      "interests": [
+        "shopping",
+        "food",
+        "nightlife"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Shopping and street food district.",
+        "es": "Zona de compras y comida callejera."
+      },
+      "sourceId": "kr-tourism"
+    },
+    {
+      "id": "kr-namsan",
+      "name": "N Seoul Tower",
+      "area": "Yongsan",
+      "city": "Seoul",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Hilltop tower with city views; best at dusk.",
+        "es": "Torre en la colina con vista de la ciudad; mejor al atardecer."
+      },
+      "sourceId": "kr-tourism"
+    },
+    {
+      "id": "kr-haeundae",
+      "name": "Haeundae Beach",
+      "area": "Haeundae",
+      "city": "Busan",
+      "category": "beach",
+      "interests": [
+        "beaches",
+        "nature",
+        "food"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Busan's main beach, with seafood nearby.",
+        "es": "La playa principal de Busan, con mariscos cerca."
+      },
+      "sourceId": "kr-tourism"
+    },
+    {
+      "id": "kr-gamcheon",
+      "name": "Gamcheon Culture Village",
+      "area": "Saha-gu",
+      "city": "Busan",
+      "category": "neighborhood",
+      "interests": [
+        "art",
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Hillside village of colorful houses and murals.",
+        "es": "Pueblo en la ladera, con casas de colores y murales."
+      },
+      "sourceId": "kr-tourism"
+    }
+  ]
+}

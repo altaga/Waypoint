@@ -1,0 +1,248 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "JP",
+  "names": {
+    "en": "Japan",
+    "es": "Japón"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+  },
+  "sources": {
+    "jp-tourism": {
+      "title": "Japan National Tourism Organization",
+      "url": "https://www.japan.travel/en/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "jp-senso-ji",
+      "name": "Senso-ji",
+      "area": "Asakusa",
+      "city": "Tokyo",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "history",
+        "markets"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tokyo's oldest temple, with a lively shopping street leading to it.",
+        "es": "El templo más antiguo de Tokio, con una calle de tiendas hacia la entrada."
+      },
+      "sourceId": "jp-tourism"
+    },
+    {
+      "id": "jp-shibuya-crossing",
+      "name": "Shibuya Crossing",
+      "area": "Shibuya",
+      "city": "Tokyo",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "nightlife"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The famous scramble crossing, best seen from a nearby café or rooftop.",
+        "es": "El famoso cruce peatonal, mejor visto desde un café o azotea cercana."
+      },
+      "sourceId": "jp-tourism"
+    },
+    {
+      "id": "jp-shibuya-sky",
+      "name": "Shibuya Sky",
+      "area": "Shibuya",
+      "city": "Tokyo",
+      "category": "experience",
+      "interests": [
+        "sights",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Open-air observation deck with views over the city, especially at sunset.",
+        "es": "Mirador al aire libre con vista de la ciudad, sobre todo al atardecer."
+      },
+      "sourceId": "jp-tourism"
+    },
+    {
+      "id": "jp-meiji-jingu",
+      "name": "Meiji Jingu",
+      "area": "Yoyogi",
+      "city": "Tokyo",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "nature",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Shinto shrine in a forest of evergreens, dedicated to Emperor Meiji.",
+        "es": "Santuario sintoísta en un bosque de coníferas, dedicado al emperador Meiji."
+      },
+      "sourceId": "jp-tourism"
+    },
+    {
+      "id": "jp-tsukiji-outer",
+      "name": "Tsukiji Outer Market",
+      "area": "Tsukiji",
+      "city": "Tokyo",
+      "category": "food",
+      "interests": [
+        "food",
+        "markets"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Street food stalls, fresh seafood and sushi counters near the old fish market.",
+        "es": "Puestos de comida callejera, mariscos frescos y barras de sushi."
+      },
+      "sourceId": "jp-tourism"
+    },
+    {
+      "id": "jp-omoide-yokocho",
+      "name": "Omoide Yokocho",
+      "area": "Shinjuku",
+      "city": "Tokyo",
+      "category": "food",
+      "interests": [
+        "food",
+        "nightlife"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Narrow alleys of tiny yakitori bars, best in the evening.",
+        "es": "Callejones estrechos con barras pequeñas de yakitori, mejores de noche."
+      },
+      "sourceId": "jp-tourism"
+    },
+    {
+      "id": "jp-tokyo-national-museum",
+      "name": "Tokyo National Museum",
+      "area": "Ueno",
+      "city": "Tokyo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history",
+        "art"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Japan's largest collection of art and archaeology.",
+        "es": "La colección de arte y arqueología más grande de Japón."
+      },
+      "sourceId": "jp-tourism"
+    },
+    {
+      "id": "jp-imperial-east-gardens",
+      "name": "Imperial Palace East Gardens",
+      "area": "Chiyoda",
+      "city": "Tokyo",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Free gardens on the site of the old castle, with moats and stone walls.",
+        "es": "Jardines gratuitos en el antiguo castillo, con fosos y muros de piedra."
+      },
+      "sourceId": "jp-tourism"
+    },
+    {
+      "id": "jp-fushimi-inari",
+      "name": "Fushimi Inari Taisha",
+      "area": "Fushimi",
+      "city": "Kyoto",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "nature"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Thousands of red torii gates climbing a wooded mountain.",
+        "es": "Miles de torii rojos que suben por una montaña boscosa."
+      },
+      "sourceId": "jp-tourism"
+    },
+    {
+      "id": "jp-kiyomizu-dera",
+      "name": "Kiyomizu-dera",
+      "area": "Higashiyama",
+      "city": "Kyoto",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Wooden temple on a hillside with views over Kyoto.",
+        "es": "Templo de madera en una ladera con vista sobre Kioto."
+      },
+      "sourceId": "jp-tourism"
+    },
+    {
+      "id": "jp-arashiyama-bamboo",
+      "name": "Arashiyama Bamboo Grove",
+      "area": "Arashiyama",
+      "city": "Kyoto",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "A quiet path through tall bamboo, best early in the morning.",
+        "es": "Un camino tranquilo entre bambúes altos, mejor temprano por la mañana."
+      },
+      "sourceId": "jp-tourism"
+    },
+    {
+      "id": "jp-nishiki-market",
+      "name": "Nishiki Market",
+      "area": "Nakagyo",
+      "city": "Kyoto",
+      "category": "food",
+      "interests": [
+        "food",
+        "markets"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Narrow covered market known for pickles, tofu and street snacks.",
+        "es": "Mercado techado conocido por sus encurtidos, tofu y botanas callejeras."
+      },
+      "sourceId": "jp-tourism"
+    },
+    {
+      "id": "jp-dotonbori",
+      "name": "Dotonbori",
+      "area": "Namba",
+      "city": "Osaka",
+      "category": "food",
+      "interests": [
+        "food",
+        "nightlife",
+        "sights"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Canal-side street of restaurants and neon signs.",
+        "es": "Calle junto al canal, con restaurantes y luces de neón."
+      },
+      "sourceId": "jp-tourism"
+    }
+  ]
+}

@@ -17,6 +17,9 @@ export const Traveler = z.object({
       }),
     ),
   residenceCountry: z.string().length(2).optional(),
+  // Preferences of this traveler, used to score how fair a plan is to each person.
+  likes: z.array(z.string()).default([]),
+  avoid: z.array(z.string()).default([]),
   validVisas: z
     .array(
       z.object({

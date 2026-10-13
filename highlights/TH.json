@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "TH",
+  "names": {
+    "en": "Thailand",
+    "es": "Tailandia"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+  },
+  "sources": {
+    "th-tourism": {
+      "title": "Tourism Authority of Thailand",
+      "url": "https://www.tourismthailand.org/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "th-grand-palace",
+      "name": "Grand Palace and Wat Phra Kaew",
+      "area": "Phra Nakhon",
+      "city": "Bangkok",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Royal palace complex with the Temple of the Emerald Buddha. Dress modestly.",
+        "es": "Complejo del palacio real con el Templo del Buda Esmeralda. Viste con recato."
+      },
+      "sourceId": "th-tourism"
+    },
+    {
+      "id": "th-wat-arun",
+      "name": "Wat Arun",
+      "area": "Thonburi",
+      "city": "Bangkok",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Temple of Dawn across the river.",
+        "es": "El Templo del Amanecer, al otro lado del río."
+      },
+      "sourceId": "th-tourism"
+    },
+    {
+      "id": "th-chatuchak",
+      "name": "Chatuchak Weekend Market",
+      "area": "Chatuchak",
+      "city": "Bangkok",
+      "category": "shopping",
+      "interests": [
+        "markets",
+        "shopping"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Huge weekend market; go early for shade.",
+        "es": "Enorme mercado de fin de semana; ve temprano por la sombra."
+      },
+      "sourceId": "th-tourism"
+    },
+    {
+      "id": "th-yaowarat",
+      "name": "Yaowarat Road",
+      "area": "Samphanthawong",
+      "city": "Bangkok",
+      "category": "food",
+      "interests": [
+        "food",
+        "nightlife"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Chinatown street food after dark.",
+        "es": "Comida callejera de Chinatown por la noche."
+      },
+      "sourceId": "th-tourism"
+    },
+    {
+      "id": "th-doi-suthep",
+      "name": "Doi Suthep",
+      "area": "Chiang Mai",
+      "city": "Chiang Mai",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "nature"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Mountain temple overlooking Chiang Mai.",
+        "es": "Templo en la montaña con vista a Chiang Mai."
+      },
+      "sourceId": "th-tourism"
+    },
+    {
+      "id": "th-phi-phi",
+      "name": "Phi Phi Islands",
+      "area": "Krabi",
+      "city": "Krabi",
+      "category": "beach",
+      "interests": [
+        "beaches",
+        "nature"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Island day trips by boat; book a licensed operator.",
+        "es": "Excursiones en barco; reserva con un operador con licencia."
+      },
+      "sourceId": "th-tourism"
+    }
+  ]
+}

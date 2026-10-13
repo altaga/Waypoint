@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "CN",
+  "names": {
+    "en": "China",
+    "es": "China"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+  },
+  "sources": {
+    "cn-tourism": {
+      "title": "China National Tourist Office",
+      "url": "https://www.cnto.org/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "cn-forbidden-city",
+      "name": "Forbidden City",
+      "area": "Dongcheng",
+      "city": "Beijing",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture",
+        "museums"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Imperial palace complex in the heart of Beijing.",
+        "es": "Complejo del palacio imperial en el corazón de Pekín."
+      },
+      "sourceId": "cn-tourism"
+    },
+    {
+      "id": "cn-great-wall-mutianyu",
+      "name": "Great Wall at Mutianyu",
+      "area": "Huairou",
+      "city": "Beijing",
+      "category": "sight",
+      "interests": [
+        "history",
+        "nature"
+      ],
+      "durationMinutes": 240,
+      "desc": {
+        "en": "Restored section of the Great Wall, a day trip from Beijing.",
+        "es": "Tramo restaurado de la Gran Muralla, excursión de un día desde Pekín."
+      },
+      "sourceId": "cn-tourism"
+    },
+    {
+      "id": "cn-temple-heaven",
+      "name": "Temple of Heaven",
+      "area": "Dongcheng",
+      "city": "Beijing",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Ming-era ceremonial altar park.",
+        "es": "Parque con altar ceremonial de la dinastía Ming."
+      },
+      "sourceId": "cn-tourism"
+    },
+    {
+      "id": "cn-bund",
+      "name": "The Bund",
+      "area": "Huangpu",
+      "city": "Shanghai",
+      "category": "neighborhood",
+      "interests": [
+        "architecture",
+        "sights",
+        "nightlife"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Waterfront with colonial buildings facing Pudong's skyline.",
+        "es": "Malecón con edificios coloniales frente al skyline de Pudong."
+      },
+      "sourceId": "cn-tourism"
+    },
+    {
+      "id": "cn-yu-garden",
+      "name": "Yu Garden",
+      "area": "Huangpu",
+      "city": "Shanghai",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Classical garden with pavilions and rockeries.",
+        "es": "Jardín clásico con pabellones y rocas decorativas."
+      },
+      "sourceId": "cn-tourism"
+    },
+    {
+      "id": "cn-terracotta",
+      "name": "Terracotta Army",
+      "area": "Lintong",
+      "city": "Xi'an",
+      "category": "museum",
+      "interests": [
+        "history",
+        "museums"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Thousands of life-size clay soldiers from the Qin dynasty.",
+        "es": "Miles de soldados de arcilla de tamaño natural de la dinastía Qin."
+      },
+      "sourceId": "cn-tourism"
+    }
+  ]
+}

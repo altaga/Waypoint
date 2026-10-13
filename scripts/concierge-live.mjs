@@ -46,6 +46,10 @@ const t3 = "Ármame los primeros 3 días: me gusta la comida y los templos.";
 const r3 = await brain(t3, history, "es-MX");
 const plan = r3.calls.find((c) => c.tool === "build_itinerary" && !c.isError);
 if (!plan || !(plan.structured?.data?.planned > 0)) throw new Error("turn 3 did not write and save a day plan");
+// Every stop must be a catalog place: the plan's ids came from get_highlights and were verified.
+const stops = plan.structured.data.days.flatMap((d) => d.stops);
+if (!stops.length || stops.some((st) => !/^[a-z]{2}-[a-z0-9-]+$/.test(st.id))) throw new Error("turn 3 has stops that are not catalog places");
+if (!r3.calls.some((c) => c.tool === "get_highlights")) throw new Error("turn 3 did not look up real places first");
 
 // Clean up the test user.
 await fetch(`${base}/mcp`, {

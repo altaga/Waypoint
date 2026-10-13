@@ -20,7 +20,8 @@
     "smoke:brain": "tsx scripts/brain-smoke.ts",
     "build:lambda": "tsx scripts/build-lambda.ts",
     "cdk:synth": "npm run build:lambda && cdk synth --quiet",
-    "cdk:deploy": "npm run build:lambda && cdk deploy --require-approval broadening"
+    "cdk:deploy": "npm run build:lambda && cdk deploy --require-approval broadening",
+    "build-world": "tsx scripts/build-world.ts"
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.1149.0",

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "VN",
+  "names": {
+    "en": "Vietnam",
+    "es": "Vietnam"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+  },
+  "sources": {
+    "vn-tourism": {
+      "title": "Vietnam National Administration of Tourism",
+      "url": "https://vietnam.travel/",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "vn-hoan-kiem",
+      "name": "Hoan Kiem Lake",
+      "area": "Hoan Kiem",
+      "city": "Hanoi",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Central lake with the Turtle Tower and a temple on an islet.",
+        "es": "Lago central con la Torre de la Tortuga y un templo en un islote."
+      },
+      "sourceId": "vn-tourism"
+    },
+    {
+      "id": "vn-old-quarter",
+      "name": "Hanoi Old Quarter",
+      "area": "Hoan Kiem",
+      "city": "Hanoi",
+      "category": "neighborhood",
+      "interests": [
+        "food",
+        "shopping",
+        "history"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Street-food stalls and craft streets.",
+        "es": "Puestos de comida callejera y calles de artesanía."
+      },
+      "sourceId": "vn-tourism"
+    },
+    {
+      "id": "vn-ho-chi-minh-museum",
+      "name": "Ho Chi Minh Museum",
+      "area": "Ba Dinh",
+      "city": "Hanoi",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National history museum; check opening days.",
+        "es": "Museo nacional de historia; revisa los días de apertura."
+      },
+      "sourceId": "vn-tourism"
+    },
+    {
+      "id": "vn-ha-long-bay",
+      "name": "Ha Long Bay",
+      "area": "Quang Ninh",
+      "city": "Ha Long",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "beaches"
+      ],
+      "durationMinutes": 480,
+      "desc": {
+        "en": "Limestone karsts on cruises; book a reputable boat.",
+        "es": "Karst de piedra caliza en cruceros; elige un barco confiable."
+      },
+      "sourceId": "vn-tourism"
+    },
+    {
+      "id": "vn-ben-thanh",
+      "name": "Ben Thanh Market",
+      "area": "District 1",
+      "city": "Ho Chi Minh City",
+      "category": "shopping",
+      "interests": [
+        "markets",
+        "shopping",
+        "food"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Central covered market.",
+        "es": "Mercado central techado."
+      },
+      "sourceId": "vn-tourism"
+    },
+    {
+      "id": "vn-hoi-an",
+      "name": "Hoi An Ancient Town",
+      "area": "Hoi An",
+      "city": "Hoi An",
+      "category": "neighborhood",
+      "interests": [
+        "history",
+        "architecture",
+        "food"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "Lantern-lit town with preserved trading houses.",
+        "es": "Ciudad de faroles con casas de comercio conservadas."
+      },
+      "sourceId": "vn-tourism"
+    }
+  ]
+}

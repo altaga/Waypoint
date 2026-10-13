@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0.0",
+  "country": "AE",
+  "names": {
+    "en": "United Arab Emirates",
+    "es": "Emiratos Árabes Unidos"
+  },
+  "review": {
+    "status": "curated_unverified",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+  },
+  "sources": {
+    "ae-tourism": {
+      "title": "Visit Dubai",
+      "url": "https://www.visitdubai.com/en",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "ae-abudhabi": {
+      "title": "Visit Abu Dhabi",
+      "url": "https://www.visitabudhabi.ae/en",
+      "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    }
+  },
+  "places": [
+    {
+      "id": "ae-burj-khalifa",
+      "name": "Burj Khalifa",
+      "area": "Downtown Dubai",
+      "city": "Dubai",
+      "category": "experience",
+      "interests": [
+        "sights",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tallest building, with observation decks. Book a time slot.",
+        "es": "El edificio más alto, con miradores. Reserva un horario."
+      },
+      "sourceId": "ae-tourism"
+    },
+    {
+      "id": "ae-dubai-frame",
+      "name": "Dubai Frame",
+      "area": "Zabeel",
+      "city": "Dubai",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "sights"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Frame-shaped landmark with views of old and new Dubai.",
+        "es": "Monumento en forma de marco con vistas al Dubái antiguo y nuevo."
+      },
+      "sourceId": "ae-tourism"
+    },
+    {
+      "id": "ae-old-souks",
+      "name": "Gold and Spice Souks",
+      "area": "Deira",
+      "city": "Dubai",
+      "category": "shopping",
+      "interests": [
+        "markets",
+        "shopping",
+        "food"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Traditional souks along the creek.",
+        "es": "Zocos tradicionales junto al canal."
+      },
+      "sourceId": "ae-tourism"
+    },
+    {
+      "id": "ae-dubai-creek",
+      "name": "Dubai Creek Abra ride",
+      "area": "Deira",
+      "city": "Dubai",
+      "category": "experience",
+      "interests": [
+        "sights",
+        "history"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "Traditional wooden boat across the creek.",
+        "es": "Barco de madera tradicional que cruza el canal."
+      },
+      "sourceId": "ae-tourism"
+    },
+    {
+      "id": "ae-sheikh-zayed",
+      "name": "Sheikh Zayed Grand Mosque",
+      "area": "Abu Dhabi",
+      "city": "Abu Dhabi",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "temples"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "White marble mosque. Modest dress and booking may apply.",
+        "es": "Mezquita de mármol blanco. Puede requerir ropa recatada y reserva."
+      },
+      "sourceId": "ae-abudhabi"
+    },
+    {
+      "id": "ae-louvre-abudhabi",
+      "name": "Louvre Abu Dhabi",
+      "area": "Saadiyat",
+      "city": "Abu Dhabi",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "architecture"
+      ],
+      "durationMinutes": 150,
+      "desc": {
+        "en": "Museum under a dome of light-filtering geometry.",
+        "es": "Museo bajo una cúpula de geometría que filtra la luz."
+      },
+      "sourceId": "ae-abudhabi"
+    },
+    {
+      "id": "ae-desert-safari",
+      "name": "Desert Safari",
+      "area": "Dubai desert",
+      "city": "Dubai",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 300,
+      "desc": {
+        "en": "Dune drives and camp evenings, booked through a licensed operator.",
+        "es": "Recorridos por dunas y noches de campamento, con operador con licencia."
+      },
+      "sourceId": "ae-tourism"
+    }
+  ]
+}
