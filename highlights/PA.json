@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum on the building and history of the Panama Canal.",
-        "es": "Museo sobre la construcción y la historia del Canal de Panamá."
+        "en": "The Panama Canal Museum is a non-profit and public museum located in Panama City, Panama.",
+        "es": "El Museo del Canal Interoceánico de Panamá, popularmente conocido como Museo del Canal, es un museo de carácter público y sin fines de lucro, situado en la ciudad de Panamá."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Panama Canal Museum",
+          "url": "https://en.wikipedia.org/wiki/Panama_Canal_Museum"
+        },
+        "es": {
+          "title": "Museo del Canal Interoceánico de Panamá",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Canal_Interoce%C3%A1nico_de_Panam%C3%A1"
+        }
+      }
     },
     {
       "id": "pa-q6034184",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum of natural history and biodiversity designed by Frank Gehry.",
-        "es": "Museo de historia natural y biodiversidad diseñado por Frank Gehry."
+        "en": "Biomuseo is a museum focused on the natural history of Panama, whose isthmus was formed very recently in geologic time, with major impact on the ecology of the Western Hemisphere.",
+        "es": "El Biomuseo es un museo de historia natural dedicado a Panamá que explora la relación entre su biodiversidad y su cultura."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Biomuseo",
+          "url": "https://en.wikipedia.org/wiki/Biomuseo"
+        },
+        "es": {
+          "title": "Biomuseo",
+          "url": "https://es.wikipedia.org/wiki/Biomuseo"
+        }
+      }
     },
     {
       "id": "pa-q20024732",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of contemporary art in Panama City.",
-        "es": "Museo de arte contemporáneo en la ciudad de Panamá."
+        "en": "The Museum of Contemporary Art of Panama, popularly called MAC Panamá, is the only museum of contemporary art that exists in Panama.",
+        "es": "El Museo de Arte Contemporáneo de Panamá, popularmente llamado MAC Panamá, es el único museo de arte contemporáneo que existe en Panamá."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Panama Museum of Contemporary Art",
+          "url": "https://en.wikipedia.org/wiki/Panama_Museum_of_Contemporary_Art"
+        },
+        "es": {
+          "title": "Museo de Arte Contemporáneo (Panamá)",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Contempor%C3%A1neo_(Panam%C3%A1)"
+        }
+      }
     }
   ]
 }

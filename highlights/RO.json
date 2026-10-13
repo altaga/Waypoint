@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Historic spa town in the Cerna valley with thermal baths.",
-        "es": "Antigua localidad balneario en el valle del Cerna, con baños termales."
+        "en": "Băile Herculane is a spa town in Romanian Banat, in Caraș-Severin County, situated in the valley of the Cerna River, between the Mehedinți Mountains to the east and the Cerna…",
+        "es": "Băile Herculane es una ciudad con estatus de oraș en el distrito de Caraş-Severin, Banat, Rumania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Băile Herculane",
+          "url": "https://en.wikipedia.org/wiki/B%C4%83ile_Herculane"
+        },
+        "es": {
+          "title": "Băile Herculane",
+          "url": "https://es.wikipedia.org/wiki/B%C4%83ile_Herculane"
+        }
+      }
     },
     {
       "id": "ro-q375371",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Spa resort in the Olt valley with mineral springs.",
-        "es": "Balneario en el valle del Olt, con manantiales minerales."
+        "en": "Călimănești, often known as Călimănești-Căciulata, is a town in Vâlcea County, southern Romania.",
+        "es": "Călimănești es una ciudad con estatus de oraș de Rumania en el distrito de Vâlcea."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Călimănești",
+          "url": "https://en.wikipedia.org/wiki/C%C4%83lim%C4%83ne%C8%99ti"
+        },
+        "es": {
+          "title": "Călimănești",
+          "url": "https://es.wikipedia.org/wiki/C%C4%83lim%C4%83ne%C8%99ti"
+        }
+      }
     },
     {
       "id": "ro-q2522104",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Neo-Gothic palace in Iași that houses several museums.",
-        "es": "Palacio neogótico en Iași que alberga varios museos."
+        "en": "The Palace of Culture is an edifice located in Iași, Romania.",
+        "es": "El Palacio de la Cultura está situado en el centro del municipio de Iași, Rumania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Palace of Culture (Iași)",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_Culture_(Ia%C8%99i)"
+        },
+        "es": {
+          "title": "Palacio de la Cultura de Iași",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_la_Cultura_de_Ia%C8%99i"
+        }
+      }
     },
     {
       "id": "ro-q1319192",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National art museum in Bucharest, housed in the former royal palace.",
-        "es": "Museo nacional de arte en Bucarest, instalado en el antiguo palacio real."
+        "en": "The National Museum of Art of Romania is located in the Royal Palace in Revolution Square, central Bucharest.",
+        "es": "El Museo Nacional de Arte de Rumanía es el principal museo de arte de Rumanía, ubicado en el centro de la capital Bucarest, en la plaza de la Revolución El…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Art of Romania",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Art_of_Romania"
+        },
+        "es": {
+          "title": "Museo Nacional de Arte de Rumanía",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_de_Ruman%C3%ADa"
+        }
+      }
     },
     {
       "id": "ro-q623662",
@@ -102,10 +168,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Romanian folk art and traditional peasant life.",
+        "en": "The National Museum of the Romanian Peasant is a museum in Bucharest, Romania, with a collection of textiles, icons, ceramics, and other artifacts of Romanian peasant life.",
         "es": "Museo de arte popular rumano y de la vida campesina tradicional."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of the Romanian Peasant",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_the_Romanian_Peasant"
+        }
+      }
     },
     {
       "id": "ro-q179283",
@@ -119,10 +196,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum of Romanian history in Bucharest.",
-        "es": "Museo nacional de historia de Rumanía, en Bucarest."
+        "en": "The National History Museum of Romania is a museum located at 12 Calea Victoriei in Bucharest, Romania, which contains Romanian historical artifacts from prehistoric times up to modern times.",
+        "es": "Museo de Historia Nacional de Rumanía es un museo situado en la ciudad de Bucarest, la capital de Rumanía."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National History Museum of Romania",
+          "url": "https://en.wikipedia.org/wiki/National_History_Museum_of_Romania"
+        },
+        "es": {
+          "title": "Museo de Historia Nacional de Rumanía",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Nacional_de_Ruman%C3%ADa"
+        }
+      }
     },
     {
       "id": "ro-q1956214",
@@ -137,10 +229,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Open-air museum in Bucharest with traditional village houses from across Romania.",
-        "es": "Museo al aire libre en Bucarest con casas tradicionales de aldeas de toda Rumanía."
+        "en": "The Village Museum or formally National Museum of the Village \"Dimitrie Gusti\" is an open-air ethnographic museum located in the King Michael I Park, Bucharest, Romania.",
+        "es": "El Museo Satului, también conocido como Museo de la Villa, es un Museo etnográfico al aire libre, que se sitúa en el Parque Herăstrău de Bucarest, la capital de Rumanía."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Dimitrie Gusti National Village Museum",
+          "url": "https://en.wikipedia.org/wiki/Dimitrie_Gusti_National_Village_Museum"
+        },
+        "es": {
+          "title": "Museo Satului",
+          "url": "https://es.wikipedia.org/wiki/Museo_Satului"
+        }
+      }
     },
     {
       "id": "ro-q850207",
@@ -155,10 +262,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Art and history museum in a baroque palace in Sibiu.",
+        "en": "The Brukenthal National Museum is a museum in Sibiu, Transylvania, Romania, established in the late 18th century by Samuel von Brukenthal (1721-1803) in his city palace.",
         "es": "Museo de arte e historia en un palacio barroco de Sibiu."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Brukenthal National Museum",
+          "url": "https://en.wikipedia.org/wiki/Brukenthal_National_Museum"
+        }
+      }
     }
   ]
 }

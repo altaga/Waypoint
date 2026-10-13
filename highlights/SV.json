@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum on Salvadoran history and culture, in San Salvador.",
-        "es": "Museo sobre la historia y cultura salvadoreñas, en San Salvador."
+        "en": "The Museo de la Palabra y la Imagen is a museum located in San Salvador, El Salvador.",
+        "es": "El Museo de la Palabra y la Imagen de El Salvador (MUPI) está localizado en la ciudad de San Salvador en El Salvador."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo de la Palabra y la Imagen",
+          "url": "https://en.wikipedia.org/wiki/Museo_de_la_Palabra_y_la_Imagen"
+        },
+        "es": {
+          "title": "Museo de la Palabra y la Imagen",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Palabra_y_la_Imagen"
+        }
+      }
     },
     {
       "id": "sv-q5668865",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Military museum on the history of El Salvador's armed forces, in San Salvador.",
-        "es": "Museo militar sobre la historia de las Fuerzas Armadas de El Salvador, en San Salvador."
+        "en": "The Military Museum of the Armed Forces of El Salvador is located in San Salvador, El Salvador.",
+        "es": "El Museo Militar de la Fuerza Armada de El Salvador está ubicado en la ciudad de San Salvador."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Military Museum of the Armed Forces of El Salvador",
+          "url": "https://en.wikipedia.org/wiki/Military_Museum_of_the_Armed_Forces_of_El_Salvador"
+        },
+        "es": {
+          "title": "Museo Militar de la Fuerza Armada de El Salvador",
+          "url": "https://es.wikipedia.org/wiki/Museo_Militar_de_la_Fuerza_Armada_de_El_Salvador"
+        }
+      }
     },
     {
       "id": "sv-q6941114",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on the Salvadoran civil war, in Perquín.",
-        "es": "Museo sobre la guerra civil salvadoreña, en Perquín."
+        "en": "Museum of the Revolution is a museum commemorating the antecedents and events of the Salvadoran Civil War that took place from 1979 to 1992.",
+        "es": "El Museo de la Revolución Salvadoreña es un museo de historia y guerra en Perquín, El Salvador que conmemora los antecedentes y acontecimientos de la guerra civil salvadoreña, que ocurrió…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of the Revolution (El Salvador)",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_the_Revolution_(El_Salvador)"
+        },
+        "es": {
+          "title": "Museo de la Revolución Salvadoreña",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Revoluci%C3%B3n_Salvadore%C3%B1a"
+        }
+      }
     },
     {
       "id": "sv-q6033911",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Art museum with Salvadoran and Latin American works, in San Salvador.",
-        "es": "Museo de arte con obras salvadoreñas y latinoamericanas, en San Salvador."
+        "en": "The Salvadoran Museum of Art is an art museum in San Salvador, the capital city of El Salvador.",
+        "es": "El Museo de Arte de El Salvador (MARTE), localizado en la ciudad de San Salvador, es una institución privada sin fines de lucro cuyo funcionamiento es responsabilidad de la Asociación…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Salvadoran Museum of Art",
+          "url": "https://en.wikipedia.org/wiki/Salvadoran_Museum_of_Art"
+        },
+        "es": {
+          "title": "Museo de Arte de El Salvador",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_de_El_Salvador"
+        }
+      }
     }
   ]
 }

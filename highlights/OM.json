@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Muscat covering Oman's history and culture.",
-        "es": "Museo nacional en Mascate sobre la historia y la cultura de Omán."
+        "en": "The National Museum of the Sultanate of Oman is located in Old Muscat, Oman.",
+        "es": "El Museo nacional de Omán anteriormente conocido como el Museo de Bait ensayada / Nadir bin Faisal bin Turki, es un museo nacional, ubicado en la calle A'Noor en Ruwi,…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum (Oman)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_(Oman)"
+        },
+        "es": {
+          "title": "Museo nacional de Omán",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Om%C3%A1n"
+        }
+      }
     },
     {
       "id": "om-q2157528",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Oman's natural history and wildlife.",
-        "es": "Museo de la historia natural y la fauna de Omán."
+        "en": "The Natural History Museum of Oman is a natural history museum, located at the Ministry of Heritage and Culture complex, Al Khuwair, opposite the Zawawi Mosque in Muscat, Oman.",
+        "es": "El Museo de Historia Natural de Omán es un museo de historia natural, ubicado en el Ministerio de Patrimonio y complejo Cultural, Al Khuwair, frente a la Mezquita Zawawi en…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Oman Natural History Museum",
+          "url": "https://en.wikipedia.org/wiki/Oman_Natural_History_Museum"
+        },
+        "es": {
+          "title": "Museo de Historia Natural de Omán",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Natural_de_Om%C3%A1n"
+        }
+      }
     },
     {
       "id": "om-q3329080",
@@ -66,10 +102,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of traditional Omani life housed in a historic family residence.",
+        "en": "Bait Al Zubair is a museum located on Al Saidiya Street, Old Muscat, Oman.",
         "es": "Museo de la vida tradicional omaní en una antigua residencia familiar."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bait Al Zubair",
+          "url": "https://en.wikipedia.org/wiki/Bait_Al_Zubair"
+        }
+      }
     },
     {
       "id": "om-q3330063",
@@ -83,10 +130,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum at Muscat Gate in Old Muscat showing local history.",
+        "en": "The Muscat Gate Museum is a history museum located above the Muscat Modern Gate on Al Saidiya Street in Old Muscat, Oman.",
         "es": "Museo en la Puerta de Mascate, en el casco antiguo, sobre la historia local."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Muscat Gate Museum",
+          "url": "https://en.wikipedia.org/wiki/Muscat_Gate_Museum"
+        }
+      }
     },
     {
       "id": "om-q7089526",
@@ -100,10 +158,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Hands-on museum for children in Muscat.",
+        "en": "The Oman Children's Museum, now known as the Children's Culture Center, is a cultural and science center for children in Muscat, Oman.",
         "es": "Museo interactivo para niños en Mascate."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Oman Children's Museum",
+          "url": "https://en.wikipedia.org/wiki/Oman_Children's_Museum"
+        }
+      }
     }
   ]
 }

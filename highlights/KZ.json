@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Monument tower with a golden orb, a symbol of Astana.",
-        "es": "Torre monumental con una esfera dorada, símbolo de Astaná."
+        "en": "Baiterek is a monument and observation tower in Astana, the capital city of Kazakhstan.",
+        "es": "Bayterek, es un monumento y una torre de observación en Astaná, capital de Kazajistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Baiterek (monument)",
+          "url": "https://en.wikipedia.org/wiki/Baiterek_(monument)"
+        },
+        "es": {
+          "title": "Bayterek",
+          "url": "https://es.wikipedia.org/wiki/Bayterek"
+        }
+      }
     },
     {
       "id": "kz-q2119741",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Pyramid-shaped landmark building in Astana.",
-        "es": "Edificio emblemático con forma de pirámide en Astaná."
+        "en": "The Palace of Peace and Reconciliation, also translated as the Pyramid of Peace and Accord, is a 62-metre-high (203 ft) pyramid in Astana, the capital of Kazakhstan, that serves as…",
+        "es": "El palacio de la Paz y la Reconciliación es un edificio de 77 m de altura situado en Astaná, capital de Kazajistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Palace of Peace and Reconciliation",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_Peace_and_Reconciliation"
+        },
+        "es": {
+          "title": "Palacio de la Paz y la Reconciliación",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_la_Paz_y_la_Reconciliaci%C3%B3n"
+        }
+      }
     },
     {
       "id": "kz-q190456",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "State museum of Kazakh history and culture.",
-        "es": "Museo estatal de la historia y la cultura kazajas."
+        "en": "The Central State Museum of Kazakhstan is the largest museum in Almaty, Kazakhstan, and one of the largest museums in Central Asia.",
+        "es": "El Museo Central de la República de Kazajistán (kazajo: Қазақстан Республикасы Мемлекеттік орталық музейі; ruso: Центральный Государственный музей Казахстана, es un museo estatal en la ciudad kazaja de Almaty."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Central State Museum of Kazakhstan",
+          "url": "https://en.wikipedia.org/wiki/Central_State_Museum_of_Kazakhstan"
+        },
+        "es": {
+          "title": "Museo central de la República de Kazajistán",
+          "url": "https://es.wikipedia.org/wiki/Museo_central_de_la_Rep%C3%BAblica_de_Kazajist%C3%A1n"
+        }
+      }
     },
     {
       "id": "kz-q1795699",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Hill above Almaty with city views and a TV tower.",
-        "es": "Colina sobre Almaty con vistas de la ciudad y una torre de televisión."
+        "en": "Köktöbe or Koktyube is a hill in Kazakhstan's largest city and former capital, Almaty.",
+        "es": "Kok Tobe es una montaña en las afueras al sureste de Almaty, la ciudad más grande de Kazajistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Köktöbe (hill)",
+          "url": "https://en.wikipedia.org/wiki/K%C3%B6kt%C3%B6be_(hill)"
+        },
+        "es": {
+          "title": "Kok Tobe",
+          "url": "https://es.wikipedia.org/wiki/Kok_Tobe"
+        }
+      }
     },
     {
       "id": "kz-q2324596",
@@ -100,10 +166,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Art museum in Almaty with Kazakh painting and sculpture.",
+        "en": "The A. Kasteyev State Museum of Arts is the largest art museum in Kazakhstan, located in Almaty.",
         "es": "Museo de arte en Almaty con pintura y escultura kazajas."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "A. Kasteyev State Museum of Arts",
+          "url": "https://en.wikipedia.org/wiki/A._Kasteyev_State_Museum_of_Arts"
+        }
+      }
     },
     {
       "id": "kz-q18405670",
@@ -117,10 +194,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Astana covering the country's history.",
+        "en": "The National Museum of the Republic of Kazakhstan (Kazakh: Қазақстан Республикасының Ұлттық музейі, romanized: Qazaqstan Respublikasynyñ Ūlttyq muzeiı), is located in Astana.",
         "es": "Museo nacional en Astaná sobre la historia del país."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of the Republic of Kazakhstan",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_the_Republic_of_Kazakhstan"
+        }
+      }
     },
     {
       "id": "kz-q2498214",
@@ -134,10 +222,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of musical instruments, including traditional Kazakh ones.",
-        "es": "Museo de instrumentos musicales, incluidos los tradicionales kazajos."
+        "en": "The Ykhlas Museum of Folk Musical Instruments is a musical instrument museum located in Almaty, Kazakhstan.",
+        "es": "El Museo estatal de instrumentos musicales nacionales de Kazajistán o Muzej Narodnych Muzykalnych lnstrumentov Kazachstana) es un museo de instrumentos musicales ubicado en la ciudad de Almatý, la que fuese…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kazakh Museum of Folk Musical Instruments",
+          "url": "https://en.wikipedia.org/wiki/Kazakh_Museum_of_Folk_Musical_Instruments"
+        },
+        "es": {
+          "title": "Museo estatal de instrumentos musicales nacionales de Kazajistán",
+          "url": "https://es.wikipedia.org/wiki/Museo_estatal_de_instrumentos_musicales_nacionales_de_Kazajist%C3%A1n"
+        }
+      }
     },
     {
       "id": "kz-q4062771",
@@ -151,10 +254,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo in Almaty.",
+        "en": "Almaty Zoo is the state zoo of Almaty, the most populous city in Kazakhstan.",
         "es": "Zoológico en Almaty."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Almaty Zoo",
+          "url": "https://en.wikipedia.org/wiki/Almaty_Zoo"
+        }
+      }
     },
     {
       "id": "kz-q60853367",
@@ -168,10 +282,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "City museum about the history of Almaty.",
+        "en": "The Almaty Museum is a history museum in Almaty, Kazakhstan, located in the former building of the Vernensky Children's Orphanage.",
         "es": "Museo de la ciudad sobre la historia de Almaty."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Almaty Museum",
+          "url": "https://en.wikipedia.org/wiki/Almaty_Museum"
+        }
+      }
     }
   ]
 }

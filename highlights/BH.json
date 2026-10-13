@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Qur'anic manuscripts and Islamic calligraphy, in Manama.",
-        "es": "Museo de manuscritos coránicos y caligrafía islámica en Manama."
+        "en": "The Beit Al Qur'an is a multi-purpose complex dedicated to the Islamic arts and is located in Hoora, Bahrain.",
+        "es": "La Beit Al Quran es un complejo de usos múltiples dedicado a las artes islámicas y que se encuentra en Hoora, un sector de Manama la capital de Baréin Establecido…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Beit Al Quran",
+          "url": "https://en.wikipedia.org/wiki/Beit_Al_Quran"
+        },
+        "es": {
+          "title": "Beit Al Quran",
+          "url": "https://es.wikipedia.org/wiki/Beit_Al_Quran"
+        }
+      }
     },
     {
       "id": "bh-q869788",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum covering Bahrain's history from ancient Dilmun onward.",
-        "es": "Museo nacional que cubre la historia de Baréin desde la antigua Dilmun."
+        "en": "The Bahrain National Museum is the largest public museum in Bahrain and is the oldest national museum in the Persian Gulf.",
+        "es": "El Museo nacional de Baréin es el más grande y uno de los más antiguos museos públicos en el país asiático de Baréin."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bahrain National Museum",
+          "url": "https://en.wikipedia.org/wiki/Bahrain_National_Museum"
+        },
+        "es": {
+          "title": "Museo nacional de Baréin",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Bar%C3%A9in"
+        }
+      }
     },
     {
       "id": "bh-q2877666",
@@ -68,10 +104,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historic gateway and souk area at the edge of Manama's old town.",
+        "en": "Bab Al Bahrain is a historical building located in the Customs Square in the central business district of Manama.",
         "es": "Puerta histórica y zona de zoco en el borde del casco antiguo de Manama."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bab Al Bahrain",
+          "url": "https://en.wikipedia.org/wiki/Bab_Al_Bahrain"
+        }
+      }
     }
   ]
 }

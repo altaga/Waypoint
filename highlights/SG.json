@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "sg-tourism": {
       "title": "Singapore Tourism Board",
       "url": "https://www.visitsingapore.com/",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -36,7 +42,11 @@
         "en": "Supertree groves and the cloud forest conservatory.",
         "es": "Bosques de supertrees y el invernadero de bosque nuboso."
       },
-      "sourceId": "sg-tourism"
+      "sourceId": "sg-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "sg-hawker-maxwell",
@@ -53,7 +63,11 @@
         "en": "Well-known hawker centre for chicken rice and laksa.",
         "es": "Centro de comida conocido por el arroz con pollo y el laksa."
       },
-      "sourceId": "sg-tourism"
+      "sourceId": "sg-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "sg-marina-sands-sky",
@@ -70,7 +84,11 @@
         "en": "Observation deck on top of the three towers. Book ahead.",
         "es": "Mirador en lo alto de las tres torres. Reserva con anticipación."
       },
-      "sourceId": "sg-tourism"
+      "sourceId": "sg-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "sg-chinatown",
@@ -88,7 +106,11 @@
         "en": "Shophouses, temples and the street market.",
         "es": "Casas de comercio, templos y el mercado callejero."
       },
-      "sourceId": "sg-tourism"
+      "sourceId": "sg-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "sg-sentosa",
@@ -105,7 +127,11 @@
         "en": "Island resort with beaches and attractions.",
         "es": "Isla con playas y atracciones."
       },
-      "sourceId": "sg-tourism"
+      "sourceId": "sg-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "sg-national-museum",
@@ -122,7 +148,11 @@
         "en": "The city-state's history from colonial times.",
         "es": "La historia de la ciudad-estado desde la época colonial."
       },
-      "sourceId": "sg-tourism"
+      "sourceId": "sg-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

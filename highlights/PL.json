@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,26 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Former Nazi concentration and extermination camp, now a memorial museum.",
-        "es": "Antiguo campo de concentración y exterminio nazi, hoy museo memorial."
+        "en": "Auschwitz, also known as Oświęcim, was a complex of over 40 concentration and extermination camps operated by Nazi Germany in occupied Poland during World War II and the Holocaust.",
+        "es": "El complejo Auschwitz estuvo formado por diversos campos de concentración y exterminio de la Alemania nazi en los territorios polacos ocupados durante la Segunda Guerra Mundial."
       },
       "sourceId": "wikidata",
-      "admission": "Timed-entry booking is usually required; book on the official site before travel."
+      "admission": "Timed-entry booking is usually required; book on the official site before travel.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Auschwitz concentration camp",
+          "url": "https://en.wikipedia.org/wiki/Auschwitz_concentration_camp"
+        },
+        "es": {
+          "title": "Campo de concentración de Auschwitz",
+          "url": "https://es.wikipedia.org/wiki/Campo_de_concentraci%C3%B3n_de_Auschwitz"
+        }
+      }
     },
     {
       "id": "pl-q41599",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Baltic Sea resort town at the Polish-German border.",
-        "es": "Localidad turística del mar Báltico en la frontera entre Polonia y Alemania."
+        "en": "Świnoujście is a city in Western Pomerania and seaport on the Baltic Sea and Szczecin Lagoon, in the extreme north-west of Poland, mainly on the islands of Usedom, Wolin, and…",
+        "es": "Świnoujście es una ciudad polaca situada en la voivodia de Pomerania Occidental, cerca del río Swina, sobre mar Báltico."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Świnoujście",
+          "url": "https://en.wikipedia.org/wiki/%C5%9Awinouj%C5%9Bcie"
+        },
+        "es": {
+          "title": "Świnoujście",
+          "url": "https://es.wikipedia.org/wiki/%C5%9Awinouj%C5%9Bcie"
+        }
+      }
     },
     {
       "id": "pl-q110011",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Baltic Sea resort town with a long sandy beach.",
-        "es": "Localidad turística del mar Báltico con una larga playa de arena."
+        "en": "Kołobrzeg is a port and spa city in the West Pomeranian Voivodeship in north-western Poland, with about 43,000 inhabitants.",
+        "es": "Kołobrzeg es una ciudad de alrededor de cincuenta mil habitantes, ubicada en el voivodato de Pomerania Occidental, en el noroeste de Polonia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kołobrzeg",
+          "url": "https://en.wikipedia.org/wiki/Ko%C5%82obrzeg"
+        },
+        "es": {
+          "title": "Kołobrzeg",
+          "url": "https://es.wikipedia.org/wiki/Ko%C5%82obrzeg"
+        }
+      }
     },
     {
       "id": "pl-q152010",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Site of a Nazi extermination camp, now a memorial.",
-        "es": "Lugar de un campo de exterminio nazi, hoy memorial."
+        "en": "Treblinka was the second-deadliest extermination camp to be built and operated by Nazi Germany in occupied Poland during World War II, second only to Auschwitz.",
+        "es": "Treblinka fue un campo de exterminio construido y operado por la Alemania nazi en la Polonia ocupada durante la Segunda Guerra Mundial."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Treblinka extermination camp",
+          "url": "https://en.wikipedia.org/wiki/Treblinka_extermination_camp"
+        },
+        "es": {
+          "title": "Campo de exterminio de Treblinka",
+          "url": "https://es.wikipedia.org/wiki/Campo_de_exterminio_de_Treblinka"
+        }
+      }
     },
     {
       "id": "pl-q71279",
@@ -100,10 +166,25 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Medieval brick castle of the Teutonic Order in Malbork.",
-        "es": "Castillo medieval de ladrillo de la Orden Teutónica en Malbork."
+        "en": "The Castle of the Teutonic Order in Malbork, commonly known as Malbork Castle, is a Brick Gothic castle complex located in the town of Malbork, Poland, built in the 13th…",
+        "es": "El castillo de Malbork o castillo de Mariemburgo en castellano, ubicado en Polonia, fue construido por la Orden Teutónica como una fortaleza militar al servicio de la Orden y denominado…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Malbork Castle",
+          "url": "https://en.wikipedia.org/wiki/Malbork_Castle"
+        },
+        "es": {
+          "title": "Castillo de Malbork",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Malbork"
+        }
+      }
     },
     {
       "id": "pl-q167566",
@@ -117,10 +198,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Soviet-era tower in central Warsaw with an observation terrace.",
-        "es": "Torre de la era soviética en el centro de Varsovia, con mirador."
+        "en": "The Palace of Culture and Science is a notable high-rise building in central Warsaw, Poland.",
+        "es": "El Palacio de la Cultura y la Ciencia es un edificio situado en Varsovia, es uno de los edificios más alto de la ciudad, de Polonia y el 7.º de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Palace of Culture and Science",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_Culture_and_Science"
+        },
+        "es": {
+          "title": "Palacio de la Cultura y la Ciencia",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_la_Cultura_y_la_Ciencia"
+        }
+      }
     },
     {
       "id": "pl-q160135",
@@ -134,10 +230,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Former Nazi concentration camp near Lublin, now a memorial museum.",
-        "es": "Antiguo campo de concentración nazi cerca de Lublin, hoy museo memorial."
+        "en": "Majdanek was a Nazi concentration and extermination camp built and operated by the SS on the outskirts of the city of Lublin during the German occupation of Poland in World…",
+        "es": "El Campo de concentración de Majdanek fue un campo de exterminio construido por la Alemania nazi, en Polonia ocupada por los alemanes 4 km de la ciudad de Lublin, cerca…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Majdanek concentration camp",
+          "url": "https://en.wikipedia.org/wiki/Majdanek_concentration_camp"
+        },
+        "es": {
+          "title": "Campo de concentración de Majdanek",
+          "url": "https://es.wikipedia.org/wiki/Campo_de_concentraci%C3%B3n_de_Majdanek"
+        }
+      }
     },
     {
       "id": "pl-q454019",
@@ -151,11 +262,26 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Historic salt mine with underground chambers, a UNESCO World Heritage site.",
-        "es": "Antigua mina de sal con cámaras subterráneas, patrimonio mundial de la UNESCO."
+        "en": "The Wieliczka Salt Mine is a salt mine in the town of Wieliczka, near Kraków in southern Poland.",
+        "es": "Las minas de sal de Wieliczka, en la ciudad polaca de Wieliczka, perteneciente al área metropolitana de Cracovia."
       },
       "sourceId": "wikidata",
-      "admission": "Visits are by guided tour; tickets can sell out, so book ahead."
+      "admission": "Visits are by guided tour; tickets can sell out, so book ahead.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Wieliczka Salt Mine",
+          "url": "https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine"
+        },
+        "es": {
+          "title": "Minas de sal de Wieliczka",
+          "url": "https://es.wikipedia.org/wiki/Minas_de_sal_de_Wieliczka"
+        }
+      }
     }
   ]
 }

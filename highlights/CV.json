@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Museum in Assomada showing Cape Verdean traditions and cultural heritage.",
-        "es": "Museo en Assomada sobre las tradiciones y el patrimonio cultural de Cabo Verde."
+        "en": "The Museu da Tabanca is a museum in the town Chã de Tanque in the western part of the island of Santiago in Cape Verde.",
+        "es": "El Museo de la Tabanka es un museo especial en la localidad de Assomada en la parte central de la isla de Santiago del país africano y archipiélago de Cabo…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museu da Tabanca",
+          "url": "https://en.wikipedia.org/wiki/Museu_da_Tabanca"
+        },
+        "es": {
+          "title": "Museo de la Tabanka",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Tabanka"
+        }
+      }
     },
     {
       "id": "cv-q3330560",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Ethnographic museum in Praia showing local traditions and daily life.",
-        "es": "Museo etnográfico en Praia sobre tradiciones locales y la vida cotidiana."
+        "en": "Museu Etnográfico da Praia is an ethnographic museum in the Cape Verdean capital of Praia on the island of Santiago.",
+        "es": "El Museo Etnográfico de Praia es un museo etnográfico ubicado en la capital de Cabo Verde, Praia en la Isla de Santiago."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museu Etnográfico da Praia",
+          "url": "https://en.wikipedia.org/wiki/Museu_Etnogr%C3%A1fico_da_Praia"
+        },
+        "es": {
+          "title": "Museo Etnográfico de Praia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Etnogr%C3%A1fico_de_Praia"
+        }
+      }
     },
     {
       "id": "cv-q3330658",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Municipal museum in São Filipe on the history and heritage of Fogo island.",
-        "es": "Museo municipal en São Filipe sobre la historia y el patrimonio de la isla de Fogo."
+        "en": "Museu Municipal de São Filipe is a museum located in the historic centre of São Filipe, on the island of Fogo, Cape Verde.",
+        "es": "El Museo Municipal de São Filipe es un museo localizado en el centro histórico de São Filipe, en la isla de Fogo, Cabo Verde."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museu Municipal de São Filipe",
+          "url": "https://en.wikipedia.org/wiki/Museu_Municipal_de_S%C3%A3o_Filipe"
+        },
+        "es": {
+          "title": "Museo Municipal de São Filipe",
+          "url": "https://es.wikipedia.org/wiki/Museo_Municipal_de_S%C3%A3o_Filipe"
+        }
+      }
     }
   ]
 }

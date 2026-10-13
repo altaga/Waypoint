@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "National museum in Gitega, the political capital.",
-        "es": "Museo nacional en Gitega, la capital política."
+        "en": "The National Museum of Gitega is the national museum of Burundi.",
+        "es": "El Museo nacional de Burundi o Museo nacional de Guitega se localiza en la localidad de Guitega, un sitio no muy lejano de la capital del país africano de Burundi."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Gitega",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Gitega"
+        },
+        "es": {
+          "title": "Museo nacional de Burundi",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Burundi"
+        }
+      }
     },
     {
       "id": "bi-q5000987",
@@ -50,11 +71,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Burundian culture and traditions in Bujumbura.",
-        "es": "Museo de la cultura y las tradiciones de Burundi en Buyumbura."
+        "en": "The Living Museum of Bujumbura is a zoo and museum in Burundi.",
+        "es": "El Museo Vivo de Bujumbura es un zoológico y museo público de Buyumbura (Burundi) fundado en 1977."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Living Museum of Bujumbura",
+          "url": "https://en.wikipedia.org/wiki/Living_Museum_of_Bujumbura"
+        },
+        "es": {
+          "title": "Museo Vivo de Bujumbura",
+          "url": "https://es.wikipedia.org/wiki/Museo_Vivo_de_Bujumbura"
+        }
+      }
     }
   ]
 }

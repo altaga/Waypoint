@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Historic mausoleum in Bukhara.",
-        "es": "Mausoleo histórico en Bujará."
+        "en": "The Samanid Mausoleum is a mausoleum located in the northwestern part of Bukhara, Uzbekistan, just outside its historic center.",
+        "es": "El Mausoleo de Ismail Samani está situado en el núcleo urbano histórico de la ciudad de Bujará, en Uzbekistán en un parque en donde se ubica un antiguo cementerio."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Samanid Mausoleum",
+          "url": "https://en.wikipedia.org/wiki/Samanid_Mausoleum"
+        },
+        "es": {
+          "title": "Mausoleo de Ismail Samani",
+          "url": "https://es.wikipedia.org/wiki/Mausoleo_de_Ismail_Samani"
+        }
+      }
     },
     {
       "id": "uz-q4294007",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Historic brick minaret in Bukhara.",
-        "es": "Minarete histórico de ladrillo en Bujará."
+        "en": "The Kalyan Minaret is a minaret of the Po-i-Kalyan mosque complex in Bukhara, Uzbekistan and one of the most prominent landmarks in the city.",
+        "es": "El minarete de Kalyán es un minarete del complejo de la mezquita de Po-i-Kalyán en Bujará (Uzbekistán) y uno de los lugares más emblemáticos de la ciudad."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kalyan Minaret",
+          "url": "https://en.wikipedia.org/wiki/Kalyan_Minaret"
+        },
+        "es": {
+          "title": "Minarete de Kalyan",
+          "url": "https://es.wikipedia.org/wiki/Minarete_de_Kalyan"
+        }
+      }
     },
     {
       "id": "uz-q493304",
@@ -67,10 +103,21 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Historic madrasah in Tashkent.",
+        "en": "Kukeldash Madrasah is a medieval madrasa in Tashkent, located close to Chorsu Bazaar and Chorsu Metro station.",
         "es": "Madrasa histórica en Taskent."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kukeldash Madrasah (Tashkent)",
+          "url": "https://en.wikipedia.org/wiki/Kukeldash_Madrasah_(Tashkent)"
+        }
+      }
     },
     {
       "id": "uz-q597055",
@@ -85,10 +132,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Art museum in Nukus known for its Russian avant-garde collection.",
-        "es": "Museo de arte en Nukus, conocido por su colección de vanguardia rusa."
+        "en": "The Nukus Museum of Art, officially the State Museum of Arts of the Republic of Karakalpakstan named after I.V.",
+        "es": "El Museo Igor Savitsky o el Museo de arte de Nukus es un museo de arte con sede en Nukus, una localidad de Uzbekistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nukus Museum of Art",
+          "url": "https://en.wikipedia.org/wiki/Nukus_Museum_of_Art"
+        },
+        "es": {
+          "title": "Museo Igor Savitsky",
+          "url": "https://es.wikipedia.org/wiki/Museo_Igor_Savitsky"
+        }
+      }
     },
     {
       "id": "uz-q4120971",
@@ -102,10 +164,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "History museum about Amir Timur in Tashkent.",
+        "en": "The Amir Timur Museum is located in Tashkent, the capital of Uzbekistan.",
         "es": "Museo de historia dedicado a Amir Timur, en Taskent."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Amir Timur Museum",
+          "url": "https://en.wikipedia.org/wiki/Amir_Timur_Museum"
+        }
+      }
     },
     {
       "id": "uz-q10988029",
@@ -119,10 +192,21 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Historic madrasah in Bukhara.",
+        "en": "Ulugbek madrasah is an architectural monument (1417) in Bukhara, Uzbekistan.",
         "es": "Madrasa histórica en Bujará."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ulugbek Madrasah (Bukhara)",
+          "url": "https://en.wikipedia.org/wiki/Ulugbek_Madrasah_(Bukhara)"
+        }
+      }
     },
     {
       "id": "uz-q4146885",
@@ -136,10 +220,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "State art museum in Tashkent.",
-        "es": "Museo estatal de arte en Taskent."
+        "en": "The Museum of Arts of Uzbekistan is the largest national art museum in Tashkent, Republic of Uzbekistan.",
+        "es": "El Museo de Artes de Uzbekistán es el museo de arte estatal más grande en Uzbekistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Arts of Uzbekistan",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Arts_of_Uzbekistan"
+        },
+        "es": {
+          "title": "Museo de Artes de Uzbekistán",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Artes_de_Uzbekist%C3%A1n"
+        }
+      }
     },
     {
       "id": "uz-q4306302",
@@ -153,10 +252,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of the ancient Afrasiab site in Samarkand.",
-        "es": "Museo del antiguo yacimiento de Afrasiab, en Samarcanda."
+        "en": "The Afrasiab Museum of Samarkand is a museum located at the historical site of Afrasiyab, one of the largest archaeological sites in the world and an ancient city that was…",
+        "es": "El Museo Afrasiab de Samarcanda es un museo situado en el sitio histórico de Afrasiab, uno de los mayores yacimientos arqueológicos del mundo y la antigua ciudad que fue destruida…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Afrasiab Museum of Samarkand",
+          "url": "https://en.wikipedia.org/wiki/Afrasiab_Museum_of_Samarkand"
+        },
+        "es": {
+          "title": "Museo Afrasiab de Samarcanda",
+          "url": "https://es.wikipedia.org/wiki/Museo_Afrasiab_de_Samarcanda"
+        }
+      }
     },
     {
       "id": "uz-q2828887",
@@ -170,10 +284,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Palace ruins from the Timurid era in Shahrisabz.",
-        "es": "Ruinas de un palacio de la época timúrida en Shajrisabz."
+        "en": "Ak-Saray Palace is a ruined palace and historic site in Shahrisabz, Uzbekistan.",
+        "es": "Aq Saray o Ak Saray es un palacio ubicado en el sitio histórico de Shahrisabz, Uzbekistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ak-Saray Palace",
+          "url": "https://en.wikipedia.org/wiki/Ak-Saray_Palace"
+        },
+        "es": {
+          "title": "Aq Saray",
+          "url": "https://es.wikipedia.org/wiki/Aq_Saray"
+        }
+      }
     },
     {
       "id": "uz-q4517198",
@@ -187,10 +316,21 @@
       ],
       "durationMinutes": 20,
       "desc": {
-        "en": "Small monument with four decorated towers in Bukhara.",
+        "en": "Chor Minor, alternatively known as the Madrasah of Khalif Niyaz-kul, is a historic gatehouse for a now-destroyed madrasa in the historic city of Bukhara, Uzbekistan.",
         "es": "Pequeño monumento con cuatro torres decoradas en Bujará."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Chor Minor",
+          "url": "https://en.wikipedia.org/wiki/Chor_Minor"
+        }
+      }
     }
   ]
 }

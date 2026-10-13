@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Historic spa town in the Ardennes, known for its thermal waters.",
-        "es": "Antigua ciudad balneario en las Ardenas, conocida por sus aguas termales."
+        "en": "Spa is a municipality and city of Wallonia in the province of Liège, Belgium, whose name became an eponym for mineral baths with supposed curative properties.",
+        "es": "Spa es una ciudad ubicada en la provincia de Lieja, en Bélgica."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Spa, Belgium",
+          "url": "https://en.wikipedia.org/wiki/Spa%2C_Belgium"
+        },
+        "es": {
+          "title": "Spa (Bélgica)",
+          "url": "https://es.wikipedia.org/wiki/Spa_(B%C3%A9lgica)"
+        }
+      }
     },
     {
       "id": "be-q180901",
@@ -49,11 +70,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Landmark of nine linked spheres in Brussels, with exhibition spaces.",
-        "es": "Monumento de nueve esferas unidas en Bruselas, con espacios de exposición."
+        "en": "The Atomium is a landmark modernist building in Brussels, Belgium, originally constructed as the centrepiece of the 1958 Brussels World's Fair.",
+        "es": "El Atomium es un monumento moderno ubicado en Bruselas (Bélgica), construido originalmente como la pieza central de la Exposición Universal de Bruselas de 1958."
       },
       "sourceId": "wikidata",
-      "admission": "Timed ticket; book a time slot."
+      "admission": "Timed ticket; book a time slot.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Atomium",
+          "url": "https://en.wikipedia.org/wiki/Atomium"
+        },
+        "es": {
+          "title": "Atomium",
+          "url": "https://es.wikipedia.org/wiki/Atomium"
+        }
+      }
     },
     {
       "id": "be-q595802",
@@ -68,10 +104,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Printing museum in a historic house and workshop in Antwerp.",
-        "es": "Museo de la imprenta en una casa y taller históricos de Amberes."
+        "en": "The Plantin–Moretus Museum is a museum in Antwerp, Belgium which showcases the history of printing in Antwerp and the prominent role played in that history by the family of printers…",
+        "es": "Museo Plantin-Moretus es el único museo imprenta sobreviviente del Renacimiento y la época del Barroco que se encuentra en Amberes, Bélgica que rinde honor a los impresores del siglo XVI,…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Plantin–Moretus Museum",
+          "url": "https://en.wikipedia.org/wiki/Plantin%E2%80%93Moretus_Museum"
+        },
+        "es": {
+          "title": "Museo Plantin-Moretus",
+          "url": "https://es.wikipedia.org/wiki/Museo_Plantin-Moretus"
+        }
+      }
     },
     {
       "id": "be-q5901",
@@ -85,10 +136,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Gothic cathedral in Antwerp.",
-        "es": "Catedral gótica en Amberes."
+        "en": "The Cathedral of Our Lady is a Roman Catholic cathedral in Antwerp, Belgium.",
+        "es": "La catedral de Amberes se encuentra en Amberes, Bélgica, está dedicada a la Virgen María y es de estilo gótico."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Cathedral of Our Lady (Antwerp)",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_Our_Lady_(Antwerp)"
+        },
+        "es": {
+          "title": "Catedral de Amberes",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Amberes"
+        }
+      }
     },
     {
       "id": "be-q377500",
@@ -102,10 +168,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Art museums in Brussels covering several centuries of painting.",
-        "es": "Museos de bellas artes en Bruselas que abarcan varios siglos de pintura."
+        "en": "The Royal Museums of Fine Arts of Belgium are a group of art museums in Brussels, Belgium.",
+        "es": "Los Museos reales de Bellas Artes de Bélgica son un conjunto de seis centros de arte que se cuentan entre los más famosos museos de Bélgica."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Royal Museums of Fine Arts of Belgium",
+          "url": "https://en.wikipedia.org/wiki/Royal_Museums_of_Fine_Arts_of_Belgium"
+        },
+        "es": {
+          "title": "Museos Reales de Bellas Artes de Bélgica",
+          "url": "https://es.wikipedia.org/wiki/Museos_Reales_de_Bellas_Artes_de_B%C3%A9lgica"
+        }
+      }
     },
     {
       "id": "be-q947912",
@@ -118,10 +199,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Former WWII fortress, now a museum and visitor site.",
-        "es": "Antigua fortaleza de la Segunda Guerra Mundial, hoy museo y sitio de visita."
+        "en": "Fort Eben-Emael is an inactive Belgian fortress located between Liège and Maastricht, on the Belgian-Dutch border, near the Albert Canal, outside the village of Ében-Émael.",
+        "es": "Eben-Emael fue una fortaleza belga ubicada entre las ciudades de Lieja y Maastricht, construido junto al Canal Alberto, cuya función dentro del Anillo de fortalezas de Lieja era defender el…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Fort Ében-Émael",
+          "url": "https://en.wikipedia.org/wiki/Fort_%C3%89ben-%C3%89mael"
+        },
+        "es": {
+          "title": "Fuerte Eben-Emael",
+          "url": "https://es.wikipedia.org/wiki/Fuerte_Eben-Emael"
+        }
+      }
     },
     {
       "id": "be-q917183",
@@ -136,10 +232,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Brick Gothic church in Bruges, with Michelangelo's Madonna and Child.",
-        "es": "Iglesia gótica de ladrillo en Brujas, con la Virgen con el Niño de Miguel Ángel."
+        "en": "The Church of Our Lady is a Roman Catholic church in Bruges, Belgium, dating mainly from the 13th, 14th and 15th centuries.",
+        "es": "La Iglesia de Nuestra Señora, en Brujas, Bélgica, es una gran iglesia medieval que data principalmente de los siglos XIII, XIV y XV."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Church of Our Lady, Bruges",
+          "url": "https://en.wikipedia.org/wiki/Church_of_Our_Lady%2C_Bruges"
+        },
+        "es": {
+          "title": "Iglesia de Nuestra Señora (Brujas)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Nuestra_Se%C3%B1ora_(Brujas)"
+        }
+      }
     },
     {
       "id": "be-q1948674",
@@ -153,10 +264,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Flemish and early Netherlandish painting in Bruges.",
-        "es": "Museo de pintura flamenca y de primitivos flamencos en Brujas."
+        "en": "The Groeningemuseum is a municipal museum in Bruges, Belgium, built on the site of the medieval Eekhout Abbey.",
+        "es": "El Museo Groeninge (Groeningemuseum) es el museo municipal de Bellas Artes de Brujas, en Bélgica."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Groeningemuseum",
+          "url": "https://en.wikipedia.org/wiki/Groeningemuseum"
+        },
+        "es": {
+          "title": "Museo Groeninge",
+          "url": "https://es.wikipedia.org/wiki/Museo_Groeninge"
+        }
+      }
     },
     {
       "id": "be-q2441211",
@@ -170,10 +296,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Medieval belfry in Bruges, with a climb to the top.",
-        "es": "Campanario medieval en Brujas, con subida a la cima."
+        "en": "The Belfry of Bruges is a medieval bell tower in the centre of Bruges, Belgium.",
+        "es": "El campanario de Brujas es una edificación medieval situada en la Grote Markt del centro histórico de Brujas en Bélgica."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Belfry of Bruges",
+          "url": "https://en.wikipedia.org/wiki/Belfry_of_Bruges"
+        },
+        "es": {
+          "title": "Campanario de Brujas",
+          "url": "https://es.wikipedia.org/wiki/Campanario_de_Brujas"
+        }
+      }
     },
     {
       "id": "be-q1995367",
@@ -187,10 +328,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Former home and studio of architect Victor Horta, in Brussels.",
-        "es": "Antigua casa y estudio del arquitecto Victor Horta, en Bruselas."
+        "en": "The Horta Museum is a museum in Brussels, Belgium, dedicated to the life and work of the architect Victor Horta and his time.",
+        "es": "La casa estudio de Víctor Horta en Bruselas se caracteriza por sus espacios emblemáticos y significativos relacionados con el arquitecto, ya que este la habitaba."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Horta Museum",
+          "url": "https://en.wikipedia.org/wiki/Horta_Museum"
+        },
+        "es": {
+          "title": "Museo Horta",
+          "url": "https://es.wikipedia.org/wiki/Museo_Horta"
+        }
+      }
     },
     {
       "id": "be-q2365880",
@@ -204,10 +360,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Fine arts museum in Ghent.",
-        "es": "Museo de bellas artes en Gante."
+        "en": "The Museum of Fine Arts an art museum in Ghent, Belgium, is situated at the East side of the Citadelpark.",
+        "es": "El museo de Bellas Artes de Gante es un museo situado en Gante (Bélgica)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Fine Arts, Ghent",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Fine_Arts%2C_Ghent"
+        },
+        "es": {
+          "title": "Museo de Bellas Artes de Gante",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Bellas_Artes_de_Gante"
+        }
+      }
     }
   ]
 }

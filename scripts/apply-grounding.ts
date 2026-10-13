@@ -17,11 +17,26 @@ const WIKI_SOURCE = {
   retrieved: new Date().toISOString().slice(0, 10),
 };
 
-// The first sentence, shortened to 30 words at most.
+// Abbreviations and initials that end in a full stop but do not end a sentence.
+const ABBREVIATIONS = new Set(["St", "Ste", "Sts", "Dr", "Mr", "Mrs", "Ms", "Jr", "Sr", "Mt", "Ft", "No", "vs", "etc", "Co", "Inc", "Ltd", "Gen", "Gov", "Prof", "Rev", "Col", "Lt", "Capt", "Ave", "Sta", "Sto", "Mme", "Ca", "approx", "c"]);
+
+// The first sentence, shortened to 30 words at most. A full stop after an abbreviation or after
+// a single-letter initial (e.g. "Solomon R. Guggenheim") does not end the sentence.
 export function firstSentence(extract: string): string {
   const text = extract.replace(/\s+/g, " ").trim();
-  const m = text.match(/^(.+?[.!?])(\s|$)/);
-  const sentence = (m ? m[1] : text).trim();
+  let end = -1;
+  const stops = /[.!?](?=\s|$)/g;
+  let m: RegExpExecArray | null;
+  while ((m = stops.exec(text))) {
+    const before = text.slice(0, m.index);
+    const word = (before.match(/(\S+)$/) ?? [""])[0].replace(/^[(\["']+/, "");
+    const isInitial = /^[A-Z]$/.test(word);
+    const isAbbrev = ABBREVIATIONS.has(word.replace(/\.$/, ""));
+    if (m[0] === "." && (isInitial || isAbbrev)) continue;
+    end = m.index + 1;
+    break;
+  }
+  const sentence = (end > 0 ? text.slice(0, end) : text).trim();
   const words = sentence.split(" ");
   return words.length > 30 ? `${words.slice(0, 30).join(" ")}…` : sentence;
 }

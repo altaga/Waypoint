@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Museum in Lausanne on the history of the Olympic Games and sport.",
-        "es": "Museo en Lausana sobre la historia de los Juegos Olímpicos y del deporte."
+        "en": "The Olympic Museum in Lausanne, Switzerland houses permanent and temporary exhibits relating to sport and the Olympic movement.",
+        "es": "El Museo Olímpico es un museo ubicado en la localidad de Ouchy, en las márgenes del Lago Lemán, al sur de Lausana, Suiza, a cargo de la Fundación Olímpica para…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Olympic Museum",
+          "url": "https://en.wikipedia.org/wiki/Olympic_Museum"
+        },
+        "es": {
+          "title": "Museo Olímpico (Lausana)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Ol%C3%ADmpico_(Lausana)"
+        }
+      }
     },
     {
       "id": "ch-q25225",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Covered wooden footbridge in Lucerne, with painted panels under its roof.",
-        "es": "Puente peatonal de madera cubierto en Lucerna, con paneles pintados bajo el techo."
+        "en": "The Kapellbrücke is a covered wooden footbridge spanning the river Reuss diagonally in the city of Lucerne in central Switzerland.",
+        "es": "Kapellbrücke es un puente que atraviesa el río Reuss en la ciudad de Lucerna (Suiza)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kapellbrücke",
+          "url": "https://en.wikipedia.org/wiki/Kapellbr%C3%BCcke"
+        },
+        "es": {
+          "title": "Kapellbrücke",
+          "url": "https://es.wikipedia.org/wiki/Kapellbr%C3%BCcke"
+        }
+      }
     },
     {
       "id": "ch-q194626",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Art museum in Basel with European works spanning several centuries.",
-        "es": "Museo de arte en Basilea con obras europeas de varios siglos."
+        "en": "The Kunstmuseum Basel houses the oldest public art collection in the world and is generally considered to be the most important museum of art in Switzerland.",
+        "es": "El Museo de Arte de Basilea, también conocido como Colección Pública de Arte de Basilea, es una institución estatal dedicada al arte situada en la ciudad suiza de Basilea que…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kunstmuseum Basel",
+          "url": "https://en.wikipedia.org/wiki/Kunstmuseum_Basel"
+        },
+        "es": {
+          "title": "Museo de Arte de Basilea",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_de_Basilea"
+        }
+      }
     },
     {
       "id": "ch-q685038",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Art museum in Zurich with a large collection of Swiss and European art.",
-        "es": "Museo de arte en Zúrich con una amplia colección de arte suizo y europeo."
+        "en": "The Kunsthaus Zürich is an art museum in Zurich.",
+        "es": "El Kunsthaus Zürich es un museo en la ciudad suiza de Zúrich."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kunsthaus Zürich",
+          "url": "https://en.wikipedia.org/wiki/Kunsthaus_Z%C3%BCrich"
+        },
+        "es": {
+          "title": "Kunsthaus Zürich",
+          "url": "https://es.wikipedia.org/wiki/Kunsthaus_Z%C3%BCrich"
+        }
+      }
     },
     {
       "id": "ch-q691896",
@@ -101,10 +167,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Swiss national history museum in Zurich, in a castle-style building.",
-        "es": "Museo nacional de historia suiza en Zúrich, en un edificio de estilo castillo."
+        "en": "The Swiss National Museum is a museum in Zurich, Switzerland's largest city, adjacent to Zürich Hauptbahnhof and the Platzspitz park.",
+        "es": "El Museo Nacional de Zúrich es un museo en la ciudad suiza de Zúrich."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Swiss National Museum",
+          "url": "https://en.wikipedia.org/wiki/Swiss_National_Museum"
+        },
+        "es": {
+          "title": "Museo Nacional de Zúrich",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Z%C3%BArich"
+        }
+      }
     },
     {
       "id": "ch-q246105",
@@ -119,10 +200,25 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Medieval clock tower in Bern's old town.",
-        "es": "Torre del reloj medieval en el casco antiguo de Berna."
+        "en": "The Zytglogge is a landmark medieval tower in Bern, Switzerland.",
+        "es": "Zytgloggeturm es una torre del reloj en Berna, Suiza."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Zytglogge",
+          "url": "https://en.wikipedia.org/wiki/Zytglogge"
+        },
+        "es": {
+          "title": "Zytgloggeturm",
+          "url": "https://es.wikipedia.org/wiki/Zytgloggeturm"
+        }
+      }
     },
     {
       "id": "ch-q679075",
@@ -137,10 +233,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum in Geneva covering art, archaeology and history.",
-        "es": "Museo en Ginebra sobre arte, arqueología e historia."
+        "en": "The Musée d'art et d'histoire is an encyclopedic art museum located in Geneva, Switzerland.",
+        "es": "El Museo de arte e historia es un museo suizo situado en Ginebra, en el barrio de Tranchées."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Musée d'Art et d'Histoire (Geneva)",
+          "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_d'Art_et_d'Histoire_(Geneva)"
+        },
+        "es": {
+          "title": "Museo de Arte e Historia de Ginebra",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_e_Historia_de_Ginebra"
+        }
+      }
     },
     {
       "id": "ch-q194622",
@@ -154,10 +265,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Art museum in Bern with Swiss and European paintings and drawings.",
-        "es": "Museo de arte en Berna con pinturas y dibujos suizos y europeos."
+        "en": "The Museum of Fine Arts Bern, established in 1879 in Bern, is the museum of fine arts of the de facto capital of Switzerland.",
+        "es": "El Museo de Bellas Artes de Berna, llamado en alemán Kunstmuseum Bern y fundado en 1879."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Fine Arts Bern",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Fine_Arts_Bern"
+        },
+        "es": {
+          "title": "Museo de Bellas Artes de Berna",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Bellas_Artes_de_Berna"
+        }
+      }
     },
     {
       "id": "ch-q688315",
@@ -172,10 +298,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Gothic cathedral in Bern's old town.",
-        "es": "Catedral gótica en el casco antiguo de Berna."
+        "en": "Bern Minster is a Swiss Reformed cathedral in the old city of Bern, Switzerland.",
+        "es": "La Catedral de San Vicente de Berna en la ciudad de Berna es el edificio religioso más alto de Suiza con una torre de 100,6 metros."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bern Minster",
+          "url": "https://en.wikipedia.org/wiki/Bern_Minster"
+        },
+        "es": {
+          "title": "Catedral de Berna",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Berna"
+        }
+      }
     },
     {
       "id": "ch-q673833",
@@ -190,10 +331,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Modern art museum in Riehen, near Basel, in a building by Renzo Piano.",
-        "es": "Museo de arte moderno en Riehen, cerca de Basilea, en un edificio de Renzo Piano."
+        "en": "The Beyeler Foundation or Fondation Beyeler, with its museum in Riehen, near Basel (Switzerland), owns and oversees the art collection of Hildy and Ernst Beyeler, which features modern and traditional…",
+        "es": "La Fundación Beyeler de Riehen, cerca de Basilea, Suiza, es la propietaria de la colección de arte de Hildy y Ernst Beyeler, trasladada a la fundación en el año 1982."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Beyeler Foundation",
+          "url": "https://en.wikipedia.org/wiki/Beyeler_Foundation"
+        },
+        "es": {
+          "title": "Fundación Beyeler",
+          "url": "https://es.wikipedia.org/wiki/Fundaci%C3%B3n_Beyeler"
+        }
+      }
     }
   ]
 }

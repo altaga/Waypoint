@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Historic lakeside resort town on Lake Balaton.",
-        "es": "Histórica localidad turística a orillas del lago Balatón."
+        "en": "Balatonfüred is a resort town in Veszprém county, in Hungary.",
+        "es": "Balatonfüred [ˈbɒlɒtonfyrɛd] es una ciudad situada en la orilla norte del lago Balaton, en el condado de Veszprém, en Hungría."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Balatonfüred",
+          "url": "https://en.wikipedia.org/wiki/Balatonf%C3%BCred"
+        },
+        "es": {
+          "title": "Balatonfüred",
+          "url": "https://es.wikipedia.org/wiki/Balatonf%C3%BCred"
+        }
+      }
     },
     {
       "id": "hu-q840886",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Fine arts museum in Budapest with European and ancient art.",
-        "es": "Museo de bellas artes en Budapest con arte europeo y antiguo."
+        "en": "The Museum of Fine Arts is a museum in Heroes' Square, Budapest, Hungary, facing the Hall of Art.",
+        "es": "El Museo de Bellas Artes es un museo ubicado en la Plaza de los Héroes, Budapest, Hungría, frente al Palacio del Arte."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Fine Arts (Budapest)",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Fine_Arts_(Budapest)"
+        },
+        "es": {
+          "title": "Museo de Bellas Artes de Budapest",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Bellas_Artes_de_Budapest"
+        }
+      }
     },
     {
       "id": "hu-q914141",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum of Hungarian history in Budapest.",
-        "es": "Museo nacional de la historia de Hungría en Budapest."
+        "en": "The Hungarian National Museum was founded in 1802 and is the national museum for the history, art, and archaeology of Hungary, including areas not within Hungary's modern borders, such as…",
+        "es": "El Museo Nacional Húngaro alberga la primera y más grande colección pública de Hungría."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Hungarian National Museum",
+          "url": "https://en.wikipedia.org/wiki/Hungarian_National_Museum"
+        },
+        "es": {
+          "title": "Museo Nacional Húngaro",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_H%C3%BAngaro"
+        }
+      }
     },
     {
       "id": "hu-q372376",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum on the fascist and communist regimes in Hungary.",
-        "es": "Museo sobre los regímenes fascista y comunista en Hungría."
+        "en": "The House of Terror is a museum located at Andrássy Avenue 60 in Budapest, Hungary.",
+        "es": "La Casa del Terror es un museo localizado en el número 60 de la Avenida Andrássy en Budapest, Hungría."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "House of Terror",
+          "url": "https://en.wikipedia.org/wiki/House_of_Terror"
+        },
+        "es": {
+          "title": "Casa del Terror",
+          "url": "https://es.wikipedia.org/wiki/Casa_del_Terror"
+        }
+      }
     },
     {
       "id": "hu-q252071",
@@ -100,10 +166,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National gallery of Hungarian art in Buda Castle.",
-        "es": "Galería nacional de arte húngaro en el Castillo de Buda."
+        "en": "The Hungarian National Gallery was established in 1957 as the national art museum.",
+        "es": "La Galería Nacional Húngara fue instaurada en 1957 como museo nacional de arte."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Hungarian National Gallery",
+          "url": "https://en.wikipedia.org/wiki/Hungarian_National_Gallery"
+        },
+        "es": {
+          "title": "Galería Nacional Húngara",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_H%C3%BAngara"
+        }
+      }
     },
     {
       "id": "hu-q1069906",
@@ -117,10 +198,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Park displaying statues from Hungary's communist era.",
-        "es": "Parque con estatuas de la época comunista de Hungría."
+        "en": "Memento Park is an open-air museum in Budapest, Hungary, dedicated to monumental statues and sculpted plaques from Hungary's Communist period (1949–1989).",
+        "es": "El Memento Park es un museo al aire libre situado en Budapest (Hungría), dedicado a las estatuas monumentales y placas conmemorativas de la época comunista de Hungría (1949–1989)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Memento Park",
+          "url": "https://en.wikipedia.org/wiki/Memento_Park"
+        },
+        "es": {
+          "title": "Memento Park",
+          "url": "https://es.wikipedia.org/wiki/Memento_Park"
+        }
+      }
     },
     {
       "id": "hu-q1088467",
@@ -134,10 +230,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of decorative and applied arts in Budapest.",
-        "es": "Museo de artes decorativas y aplicadas en Budapest."
+        "en": "The Museum of Applied Arts is a museum in Budapest, Hungary.",
+        "es": "El Museo de Artes Aplicadas es un museo húngaro ubicado en Budapest."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Applied Arts (Budapest)",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Applied_Arts_(Budapest)"
+        },
+        "es": {
+          "title": "Museo de Artes Aplicadas (Budapest)",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Artes_Aplicadas_(Budapest)"
+        }
+      }
     },
     {
       "id": "hu-q922178",
@@ -151,10 +262,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Zoo and botanical garden in Budapest.",
-        "es": "Zoológico y jardín botánico en Budapest."
+        "en": "The Budapest Zoo & Botanical Garden is the oldest zoo in Hungary and one of the oldest in the world.",
+        "es": "El Zoológico y Jardín botánico de Budapest es el parque zoológico más antiguo de Hungría y uno de los más antiguos del mundo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Budapest Zoo and Botanical Garden",
+          "url": "https://en.wikipedia.org/wiki/Budapest_Zoo_and_Botanical_Garden"
+        },
+        "es": {
+          "title": "Zoológico y Jardín botánico de Budapest",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_y_Jard%C3%ADn_bot%C3%A1nico_de_Budapest"
+        }
+      }
     },
     {
       "id": "hu-q631356",
@@ -167,11 +293,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Limestone cave system in Aggtelek National Park.",
-        "es": "Sistema de cuevas calizas en el Parque Nacional de Aggtelek."
+        "en": "The Baradla Domica cave system is a large cave system in northern Hungary.",
+        "es": "La cueva de Baradla es una es una cueva kárstica de Hungría, parte del sistema de cuevas de Baradla Domica que es uno de los más investigados y visitado durante…"
       },
       "sourceId": "wikidata",
-      "admission": "Visits are by guided tour only; check times in advance."
+      "admission": "Visits are by guided tour only; check times in advance.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Baradla Cave",
+          "url": "https://en.wikipedia.org/wiki/Baradla_Cave"
+        },
+        "es": {
+          "title": "Cueva de Baradla",
+          "url": "https://es.wikipedia.org/wiki/Cueva_de_Baradla"
+        }
+      }
     }
   ]
 }

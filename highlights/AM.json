@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Repository and museum of ancient manuscripts in Yerevan.",
-        "es": "Depósito y museo de manuscritos antiguos en Ereván."
+        "en": "The Matenadaran, officially the Mesrop Mashtots Institute of Ancient Manuscripts, is the largest center for the storage, study and popularization of Armenian manuscripts, combining the functions of a museum, archive…",
+        "es": "El Matenadarán o Instituto Mashtots de investigaciones sobre los manuscritos antiguos es uno de los más ricos depósitos de manuscritos y de documentos en el mundo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Matenadaran",
+          "url": "https://en.wikipedia.org/wiki/Matenadaran"
+        },
+        "es": {
+          "title": "Matenadarán",
+          "url": "https://es.wikipedia.org/wiki/Matenadar%C3%A1n"
+        }
+      }
     },
     {
       "id": "am-q154775",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Memorial to the victims of the Armenian Genocide, on a hill in Yerevan.",
-        "es": "Memorial a las víctimas del genocidio armenio, en una colina de Ereván."
+        "en": "The Armenian Genocide Memorial complex is Armenia's official memorial dedicated to the victims of the Armenian genocide, built in 1967 on the hill of Tsitsernakaberd in Yerevan.",
+        "es": "Dzitsernagapert o Tzitzernakaberd es un monumento ubicado en la ciudad armenia de Ereván, dedicado a las víctimas del genocidio armenio, hecho que el pueblo sufrió desde 1915 hasta alrededor de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tsitsernakaberd",
+          "url": "https://en.wikipedia.org/wiki/Tsitsernakaberd"
+        },
+        "es": {
+          "title": "Tsitsernakaberd",
+          "url": "https://es.wikipedia.org/wiki/Tsitsernakaberd"
+        }
+      }
     },
     {
       "id": "am-q2087788",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National art museum in Yerevan.",
-        "es": "Museo nacional de arte en Ereván."
+        "en": "The National Gallery of Armenia is the largest fine arts museum in Armenia.",
+        "es": "La Galería nacional de Armenia es el museo principal de Ereván, capital de Armenia, que está situado en la plaza de la República, uno de los centros neurálgicos de la…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Gallery of Armenia",
+          "url": "https://en.wikipedia.org/wiki/National_Gallery_of_Armenia"
+        },
+        "es": {
+          "title": "Galería nacional de Armenia",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_nacional_de_Armenia"
+        }
+      }
     },
     {
       "id": "am-q1138228",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Armenian history, in Yerevan.",
-        "es": "Museo de la historia de Armenia, en Ereván."
+        "en": "The History Museum of Armenia is a museum in Armenia with departments of Archaeology, Numismatics, Ethnography, Modern History and Restoration.",
+        "es": "El Museo de Historia de Armenia es un museo ubicado en Armenia con departamentos de Arqueología, Numismática, Etnografía, Historia Moderna y Restauración."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "History Museum of Armenia",
+          "url": "https://en.wikipedia.org/wiki/History_Museum_of_Armenia"
+        },
+        "es": {
+          "title": "Museo de Historia de Armenia",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_de_Armenia"
+        }
+      }
     },
     {
       "id": "am-q3108672",
@@ -100,10 +166,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Zoo in Yerevan.",
-        "es": "Zoológico en Ereván."
+        "en": "The Yerevan Zoo, also known as the Zoological Park of Yerevan, is a zoological park in Yerevan, the capital of Armenia, that was founded in 1940 and is the only…",
+        "es": "El Parque de Ereván o Jardín Zoológico de Ereván es un jardín zoológico de 35 hectáreas establecido en 1940 en Ereván, la capital de Armenia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Yerevan Zoo",
+          "url": "https://en.wikipedia.org/wiki/Yerevan_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Ereván",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Erev%C3%A1n"
+        }
+      }
     },
     {
       "id": "am-q7453721",
@@ -117,10 +198,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum honouring filmmaker Sergei Parajanov, with his artworks and objects.",
-        "es": "Museo dedicado al cineasta Sergei Parajanov, con sus obras y objetos."
+        "en": "The Sergei Parajanov Museum is a tribute to Soviet Armenian film director and artist Sergei Parajanov and is one of the most popular museums in Yerevan.",
+        "es": "El Museo Sergei Parajanov es un espacio cultural ubicado en Ereván, Armenia, dedicado al cineasta, artista y escritor soviético Serguéi Paradzhánov."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sergei Parajanov Museum",
+          "url": "https://en.wikipedia.org/wiki/Sergei_Parajanov_Museum"
+        },
+        "es": {
+          "title": "Museo Serguéi Paradzhánov",
+          "url": "https://es.wikipedia.org/wiki/Museo_Sergu%C3%A9i_Paradzh%C3%A1nov"
+        }
+      }
     },
     {
       "id": "am-q8052580",
@@ -134,10 +230,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Yerevan's city history.",
-        "es": "Museo de la historia de la ciudad de Ereván."
+        "en": "The Yerevan History Museum is the history museum of Yerevan, the capital city of Armenia.",
+        "es": "El Museo de Historia de Ereván es el museo de historia de Ereván, la capital de Armenia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Yerevan History Museum",
+          "url": "https://en.wikipedia.org/wiki/Yerevan_History_Museum"
+        },
+        "es": {
+          "title": "Museo de Historia de Ereván",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_de_Erev%C3%A1n"
+        }
+      }
     }
   ]
 }

@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Landmark towers on the Gulf coast in Kuwait City.",
-        "es": "Torres emblemáticas en la costa del golfo en la ciudad de Kuwait."
+        "en": "The Kuwait Towers are a group of three thin towers in Kuwait City, standing on a promontory into the Persian Gulf.",
+        "es": "Las Torres de Kuwait son un grupo de tres esbeltas torres en la ciudad de Kuwait, de pie en un promontorio en el golfo Pérsico."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kuwait Towers",
+          "url": "https://en.wikipedia.org/wiki/Kuwait_Towers"
+        },
+        "es": {
+          "title": "Torres de Kuwait",
+          "url": "https://es.wikipedia.org/wiki/Torres_de_Kuwait"
+        }
+      }
     },
     {
       "id": "kw-q2498040",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum covering Kuwait's history and heritage.",
-        "es": "Museo nacional sobre la historia y el patrimonio de Kuwait."
+        "en": "The Kuwait National Museum is the national museum of Kuwait, located in Kuwait City.",
+        "es": "El Museo nacional de Kuwait es el museo nacional del país asiático de Kuwait, que se encuentra en la ciudad de Kuwait."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kuwait National Museum",
+          "url": "https://en.wikipedia.org/wiki/Kuwait_National_Museum"
+        },
+        "es": {
+          "title": "Museo Nacional de Kuwait",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Kuwait"
+        }
+      }
     },
     {
       "id": "kw-q12238655",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum of Islamic art, calligraphy and manuscripts in Jabriya.",
-        "es": "Museo de arte islámico, caligrafía y manuscritos en Jabriya."
+        "en": "The Tareq Rajab Museum is located in Kuwait and houses an extensive collection of artefacts accumulated over a fifty-year period commencing in the 1950s.",
+        "es": "El Museo Tareq Rajab se encuentra en Kuwait y alberga una extensa colección de artefactos acumulados durante un período de cincuenta años que comenzó en la década de 1950."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tareq Rajab Museum",
+          "url": "https://en.wikipedia.org/wiki/Tareq_Rajab_Museum"
+        },
+        "es": {
+          "title": "Museo Tareq Rajab",
+          "url": "https://es.wikipedia.org/wiki/Museo_Tareq_Rajab"
+        }
+      }
     },
     {
       "id": "kw-q11705490",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Zoo with a collection of animals, suited to families.",
-        "es": "Zoológico con una colección de animales, apto para familias."
+        "en": "Kuwait Zoo is a zoo located in Omariya in Kuwait.",
+        "es": "El Zoológico de Kuwait es un jardín zoológico ubicado en Farwaniya, en el país asiático de Kuwait."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kuwait Zoo",
+          "url": "https://en.wikipedia.org/wiki/Kuwait_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Kuwait",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Kuwait"
+        }
+      }
     }
   ]
 }

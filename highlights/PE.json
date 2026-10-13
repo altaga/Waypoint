@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Desert oasis lagoon near Ica, surrounded by sand dunes.",
-        "es": "Laguna oasis en el desierto, cerca de Ica, rodeada de dunas."
+        "en": "Huacachina is a village built in a small oasis about five kilometers from the city of Ica in southwestern Peru.",
+        "es": "La laguna de Huacachina es un gran oasis de aguas sulfurosas ubicado a cinco kilómetros al oeste del departamento de Ica, en medio del desierto costero del océano Pacífico en…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Huacachina",
+          "url": "https://en.wikipedia.org/wiki/Huacachina"
+        },
+        "es": {
+          "title": "Huacachina",
+          "url": "https://es.wikipedia.org/wiki/Huacachina"
+        }
+      }
     },
     {
       "id": "pe-q1954240",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum of pre-Columbian Peruvian art in Lima's Pueblo Libre district.",
-        "es": "Museo de arte precolombino peruano en el distrito de Pueblo Libre, Lima."
+        "en": "The Larco Museum is a privately owned museum of pre-Columbian art, located in the Pueblo Libre district of Lima, Peru.",
+        "es": "El Museo Arqueológico Rafael Larco Herrera, conocido como Museo Larco, es un museo de arte precolombino, ubicado en el distrito de Pueblo Libre, en la ciudad de Lima, capital del…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Larco Museum",
+          "url": "https://en.wikipedia.org/wiki/Larco_Museum"
+        },
+        "es": {
+          "title": "Museo Arqueológico Rafael Larco Herrera",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_Rafael_Larco_Herrera"
+        }
+      }
     },
     {
       "id": "pe-q1568821",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum of Peruvian archaeology, anthropology and history.",
-        "es": "Museo nacional de arqueología, antropología e historia del Perú."
+        "en": "The National Museum of Archaeology, Anthropology, and History of Peru is the largest and oldest museum in Peru, housed at the Palacio de la Magdalena, located in the main square…",
+        "es": "El Museo Nacional de Arqueología, Antropología e Historia del Perú (MNAAHP) es un museo ubicado en el distrito de Pueblo Libre, en la ciudad de Lima, capital del Perú."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Archaeology, Anthropology and History of Peru",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Archaeology%2C_Anthropology_and_History_of_Peru"
+        },
+        "es": {
+          "title": "Museo Nacional de Arqueología, Antropología e Historia del Perú",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arqueolog%C3%ADa%2C_Antropolog%C3%ADa_e_Historia_del_Per%C3%BA"
+        }
+      }
     },
     {
       "id": "pe-q1001995",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Beach town near Trujillo known for traditional reed fishing boats.",
-        "es": "Localidad costera cerca de Trujillo, conocida por sus barcas tradicionales de totora."
+        "en": "Huanchaco is a popular seaside resort city in province of Trujillo, Peru.",
+        "es": "Huanchaco es una ciudad y balneario histórico peruano, capital del distrito homónimo ubicado en la provincia de Trujillo en el departamento de La Libertad."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Huanchaco",
+          "url": "https://en.wikipedia.org/wiki/Huanchaco"
+        },
+        "es": {
+          "title": "Huanchaco",
+          "url": "https://es.wikipedia.org/wiki/Huanchaco"
+        }
+      }
     },
     {
       "id": "pe-q776515",
@@ -100,10 +166,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Italian art in central Lima.",
-        "es": "Museo de arte italiano en el centro de Lima."
+        "en": "The Museum of Italian Art is a public museum in Lima, Peru.",
+        "es": "El Museo de Arte Italiano es un museo público en Lima, Perú, que está bajo la administración del Ministerio de Cultura."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Italian Art",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Italian_Art"
+        },
+        "es": {
+          "title": "Museo de Arte Italiano",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Italiano"
+        }
+      }
     },
     {
       "id": "pe-q6033913",
@@ -117,10 +198,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Art museum in Lima with Peruvian and international collections.",
-        "es": "Museo de arte en Lima con colecciones peruanas e internacionales."
+        "en": "The Lima Art Museum is an art museum in Lima, Peru.",
+        "es": "El Museo de Arte de Lima (MALI) es un museo de arte peruano, ubicado en el Palacio de la Exposición, en el distrito de Lima, frente al Museo de Arte…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Lima Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Lima_Art_Museum"
+        },
+        "es": {
+          "title": "Museo de Arte de Lima",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_de_Lima"
+        }
+      }
     },
     {
       "id": "pe-q4306271",
@@ -134,10 +230,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum of pre-Columbian gold and a collection of weapons from many cultures.",
-        "es": "Museo de oro precolombino y colección de armas de diversas culturas."
+        "en": "The Gold Museum of Peru and Weapons of the World, also known simply as the Gold Museum of Peru is a Peruvian archaeology and war museum located in the neighbourhood…",
+        "es": "El Museo Oro del Perú y Armas del Mundo es un museo arqueológico e histórico (armas) ubicado en el distrito de Santiago de Surco, en la ciudad de Lima, capital…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Gold Museum of Peru and Arms of the World",
+          "url": "https://en.wikipedia.org/wiki/Gold_Museum_of_Peru_and_Arms_of_the_World"
+        },
+        "es": {
+          "title": "Museo Oro del Perú y Armas del Mundo",
+          "url": "https://es.wikipedia.org/wiki/Museo_Oro_del_Per%C3%BA_y_Armas_del_Mundo"
+        }
+      }
     },
     {
       "id": "pe-q1684512",
@@ -151,10 +262,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Natural history museum of the National University of San Marcos in Lima.",
-        "es": "Museo de historia natural de la Universidad Nacional Mayor de San Marcos, en Lima."
+        "en": "The Natural History Museum in Lima, is Peru's most important museum of natural history.",
+        "es": "El Museo de Historia Natural de la Universidad Nacional Mayor de San Marcos (MHN-UNMSM), también llamado Museo de Historia Natural de Lima o Museo de Historia Natural «Javier Prado», es…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Natural History, Lima",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Natural_History%2C_Lima"
+        },
+        "es": {
+          "title": "Museo de Historia Natural (Universidad Nacional Mayor de San Marcos)",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Natural_(Universidad_Nacional_Mayor_de_San_Marcos)"
+        }
+      }
     }
   ]
 }

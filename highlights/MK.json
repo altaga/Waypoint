@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Large triumphal-arch monument on the Vardar river in central Skopje.",
-        "es": "Gran monumento en forma de arco triunfal junto al río Vardar, en el centro de Skopie."
+        "en": "Porta Macedonia is a memorial arch located on Pella Square in Skopje, North Macedonia.",
+        "es": "La Porta Macedonia o Puerta Macedonia es un arco de triunfo situado en la Plaza Pella en Skopie, Macedonia del Norte."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Porta Macedonia",
+          "url": "https://en.wikipedia.org/wiki/Porta_Macedonia"
+        },
+        "es": {
+          "title": "Porta Macedonia",
+          "url": "https://es.wikipedia.org/wiki/Porta_Macedonia"
+        }
+      }
     },
     {
       "id": "mk-q922143",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on the history of the city of Skopje.",
-        "es": "Museo sobre la historia de la ciudad de Skopie."
+        "en": "The Museum of the City of Skopje is a complex city museum focusing on Skopje, capital of North Macedonia, development from its origins to the modern era.",
+        "es": "El Museo de la Ciudad de Skopie es un museo municipal de la ciudad de Skopie, en Macedonia del Norte, que fue fundado en 1949."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of the City of Skopje",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_the_City_of_Skopje"
+        },
+        "es": {
+          "title": "Museo de la Ciudad de Skopie",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Ciudad_de_Skopie"
+        }
+      }
     },
     {
       "id": "mk-q1580610",
@@ -66,10 +102,21 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Ottoman-era mosque in the centre of Bitola.",
+        "en": "The Yeni Mosque situated in Bitola, North Macedonia, was built in 1558 by Kadi Mahmud-efendi.",
         "es": "Mezquita de época otomana en el centro de Bitola."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "New Mosque, Bitola",
+          "url": "https://en.wikipedia.org/wiki/New_Mosque%2C_Bitola"
+        }
+      }
     },
     {
       "id": "mk-q587617",
@@ -83,10 +130,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Memorial house in Skopje dedicated to Mother Teresa, who was born in the city.",
-        "es": "Casa memorial en Skopie dedicada a la Madre Teresa, nacida en la ciudad."
+        "en": "The Mother Teresa Memorial House is a museum dedicated to the Catholic saint and Nobel Peace Prize laureate Mother Teresa.",
+        "es": "La Casa memorial de la Madre Teresa está dedicada a la religiosa de las Misioneras de la Caridad, dedicó su vida a pobres y enfermos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Memorial House of Mother Teresa",
+          "url": "https://en.wikipedia.org/wiki/Memorial_House_of_Mother_Teresa"
+        },
+        "es": {
+          "title": "Casa memorial de la Madre Teresa",
+          "url": "https://es.wikipedia.org/wiki/Casa_memorial_de_la_Madre_Teresa"
+        }
+      }
     },
     {
       "id": "mk-q3329592",
@@ -100,10 +162,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of contemporary art in Skopje, with modern and recent works.",
-        "es": "Museo de arte contemporáneo en Skopie, con obras modernas y recientes."
+        "en": "The Contemporary Art Museum is a contemporary art museum located in Skopje, North Macedonia.",
+        "es": "El Museo de Arte Contemporáneo de Skopie se encuentra en la colina Kale, cerca de la fortaleza del mismo nombre, Macedonia del Norte."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Contemporary Art (Skopje)",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Contemporary_Art_(Skopje)"
+        },
+        "es": {
+          "title": "Museo de Arte Contemporáneo de Skopie",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Contempor%C3%A1neo_de_Skopie"
+        }
+      }
     },
     {
       "id": "mk-q3133681",
@@ -117,10 +194,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo in Skopje with animal collections and park grounds.",
-        "es": "Zoológico en Skopie con colecciones de animales y zonas de parque."
+        "en": "The Skopje Zoo is a 12-hectare (30-acre) zoo near City Park in Skopje, North Macedonia.",
+        "es": "El Jardín zoológico de Skopie es un zoológico de 12 hectáreas en el parque de Gradski, Skopie, la capital de Macedonia del Norte."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Skopje Zoo",
+          "url": "https://en.wikipedia.org/wiki/Skopje_Zoo"
+        },
+        "es": {
+          "title": "Jardín zoológico de Skopie",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_de_Skopie"
+        }
+      }
     },
     {
       "id": "mk-q986531",
@@ -134,10 +226,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on Macedonian history from the late nineteenth and early twentieth centuries.",
+        "en": "The Museum of the Macedonian Struggle is a national museum of North Macedonia located in the capital city of Skopje.",
         "es": "Museo sobre la historia macedonia de finales del siglo XIX y principios del XX."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of the Macedonian Struggle (Skopje)",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_the_Macedonian_Struggle_(Skopje)"
+        }
+      }
     },
     {
       "id": "mk-q3406442",
@@ -152,10 +255,21 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Historic house in Ohrid, preserved as a museum.",
+        "en": "The Robevi House is a famous and historic building in Ohrid, North Macedonia.",
         "es": "Casa histórica en Ohrid, conservada como museo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Robevi family house",
+          "url": "https://en.wikipedia.org/wiki/Robevi_family_house"
+        }
+      }
     },
     {
       "id": "mk-q1343398",
@@ -169,10 +283,21 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Historic clock tower in the centre of Bitola.",
+        "en": "The Clock Tower of Bitola, known as Saat Kula, is a clock tower and one of the landmarks of the Macedonian city of Bitola.",
         "es": "Antigua torre del reloj en el centro de Bitola."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Clock Tower (Bitola)",
+          "url": "https://en.wikipedia.org/wiki/Clock_Tower_(Bitola)"
+        }
+      }
     }
   ]
 }

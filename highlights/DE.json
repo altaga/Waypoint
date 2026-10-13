@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Historic city known for its Carolingian cathedral, a UNESCO World Heritage Site.",
-        "es": "Ciudad histórica con una catedral de época carolingia, patrimonio de la UNESCO."
+        "en": "Aachen is the 13th-largest city in North Rhine-Westphalia and the 27th-largest city of Germany, with around 264,000 inhabitants.",
+        "es": "Aquisgrán, también conocida como Baños de Aquisgrán,[cita requerida] es una ciudad en el distrito gubernamental de Colonia en Renania del Norte-Westfalia (Alemania)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Aachen",
+          "url": "https://en.wikipedia.org/wiki/Aachen"
+        },
+        "es": {
+          "title": "Aquisgrán",
+          "url": "https://es.wikipedia.org/wiki/Aquisgr%C3%A1n"
+        }
+      }
     },
     {
       "id": "de-q2833",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Historic city at the edge of the Black Forest, with a Gothic minster and water channels.",
-        "es": "Ciudad histórica al borde de la Selva Negra, con catedral gótica y canales de agua."
+        "en": "Freiburg im Breisgau, usually shortened to Freiburg, is the fourth-largest city in the German state of Baden-Württemberg after Stuttgart, Mannheim and Karlsruhe.",
+        "es": "Friburgo de Brisgovia es una ciudad alemana del estado de Baden-Wurtemberg."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Freiburg im Breisgau",
+          "url": "https://en.wikipedia.org/wiki/Freiburg_im_Breisgau"
+        },
+        "es": {
+          "title": "Friburgo de Brisgovia",
+          "url": "https://es.wikipedia.org/wiki/Friburgo_de_Brisgovia"
+        }
+      }
     },
     {
       "id": "de-q4100",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Spa town in the Black Forest with thermal baths and a historic casino.",
-        "es": "Ciudad balneario en la Selva Negra, con baños termales y un casino histórico."
+        "en": "Baden-Baden is a spa town in the state of Baden-Württemberg, south-western Germany, at the north-western border of the Black Forest mountain range on the small river Oos, ten kilometres east…",
+        "es": "Baden-Baden es una ciudad de Alemania perteneciente al estado federado de Baden-Wurtemberg, situada en el valle del Oos, sobre las laderas de la Selva Negra, cerca de la frontera francoalemana."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Baden-Baden",
+          "url": "https://en.wikipedia.org/wiki/Baden-Baden"
+        },
+        "es": {
+          "title": "Baden-Baden",
+          "url": "https://es.wikipedia.org/wiki/Baden-Baden"
+        }
+      }
     },
     {
       "id": "de-q4152",
@@ -85,11 +136,26 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "19th-century castle in the Bavarian Alps, built for King Ludwig II.",
-        "es": "Castillo del siglo XIX en los Alpes bávaros, construido para el rey Luis II."
+        "en": "Neuschwanstein Castle is a 19th-century historicist palace on a rugged hill of the foothills of the Alps in the very south of Germany, near the border with Austria.",
+        "es": "El castillo de Neuschwanstein está situado en el estado federado de Baviera, en Hohenschwangau, cerca de Füssen (Alemania)."
       },
       "sourceId": "wikidata",
-      "admission": "Entry is by timed ticket; book ahead, especially in high season."
+      "admission": "Entry is by timed ticket; book ahead, especially in high season.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Neuschwanstein Castle",
+          "url": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle"
+        },
+        "es": {
+          "title": "Neuschwanstein",
+          "url": "https://es.wikipedia.org/wiki/Neuschwanstein"
+        }
+      }
     },
     {
       "id": "de-q3038",
@@ -103,10 +169,25 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "North Sea island known for red cliffs and seabird colonies.",
-        "es": "Isla del mar del Norte conocida por sus acantilados rojos y colonias de aves marinas."
+        "en": "Heligoland is a small archipelago in the North Sea, administratively part of the German state of Schleswig-Holstein.",
+        "es": "Heligoland es una isla y un municipio situado en el archipiélago alemán homónimo del mar del Norte."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Heligoland",
+          "url": "https://en.wikipedia.org/wiki/Heligoland"
+        },
+        "es": {
+          "title": "Heligoland",
+          "url": "https://es.wikipedia.org/wiki/Heligoland"
+        }
+      }
     },
     {
       "id": "de-q157298",
@@ -121,11 +202,26 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Ancient art, including the Pergamon Altar and the Ishtar Gate.",
-        "es": "Arte antiguo, con el Altar de Pérgamo y la Puerta de Ishtar."
+        "en": "The Pergamon Museum is a listed building on the Museum Island in the historic centre of Berlin, Germany.",
+        "es": "El Museo de Pérgamo es un museo y edificio de interés patrimonial situado en la Isla de los Museos, en el centro histórico de Berlín (Alemania)."
       },
       "sourceId": "wikidata",
-      "admission": "Parts may be closed for renovation; check which halls are open."
+      "admission": "Parts may be closed for renovation; check which halls are open.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Pergamon Museum",
+          "url": "https://en.wikipedia.org/wiki/Pergamon_Museum"
+        },
+        "es": {
+          "title": "Museo de Pérgamo",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_P%C3%A9rgamo"
+        }
+      }
     },
     {
       "id": "de-q157316",
@@ -139,10 +235,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum with Egyptian collections, including the bust of Nefertiti.",
-        "es": "Museo con colecciones egipcias, incluido el busto de Nefertiti."
+        "en": "The Neues Museum is a listed building on the Museum Island of Berlin.",
+        "es": "El Neues Museum está situado al norte (detrás) del Altes Museum, en la Isla de los Museos de Berlín."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Neues Museum",
+          "url": "https://en.wikipedia.org/wiki/Neues_Museum"
+        },
+        "es": {
+          "title": "Neues Museum",
+          "url": "https://es.wikipedia.org/wiki/Neues_Museum"
+        }
+      }
     },
     {
       "id": "de-q154996",
@@ -156,10 +267,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Baroque palace in Berlin, with gardens and museums.",
-        "es": "Palacio barroco en Berlín, con jardines y museos."
+        "en": "Schloss Charlottenburg is a Baroque palace in Berlin, located in Charlottenburg, a district of the Charlottenburg-Wilmersdorf borough, and is among the largest palaces in the world.",
+        "es": "El palacio de Charlottenburg es una antigua residencia real prusiana situada en el distrito de Charlottenberg-Wilmersdorf en Berlín."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Schloss Charlottenburg",
+          "url": "https://en.wikipedia.org/wiki/Schloss_Charlottenburg"
+        },
+        "es": {
+          "title": "Palacio de Charlottenburg",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Charlottenburg"
+        }
+      }
     },
     {
       "id": "de-q131631",
@@ -174,10 +300,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Baroque summer palace in Munich, with extensive gardens.",
-        "es": "Palacio barroco de verano en Múnich, con amplios jardines."
+        "en": "The Nymphenburg Palace is a Baroque palace situated in Munich's western district Neuhausen-Nymphenburg, in Bavaria, southern Germany.",
+        "es": "El palacio de Nymphenburg es un palacio de estilo barroco ubicado en la ciudad de Múnich, estado federado de Baviera, Alemania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nymphenburg Palace",
+          "url": "https://en.wikipedia.org/wiki/Nymphenburg_Palace"
+        },
+        "es": {
+          "title": "Palacio de Nymphenburg",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Nymphenburg"
+        }
+      }
     },
     {
       "id": "de-q156316",
@@ -192,10 +333,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Baroque residence palace with ceiling frescoes by Tiepolo.",
-        "es": "Palacio residencial barroco con frescos de techo de Tiépolo."
+        "en": "The Würzburg Residence is a palace in Würzburg, Germany.",
+        "es": "La Residencia de Wurzburgo es una construcción perteneciente al Barroco situada en la parte antigua de la ciudad alemana de Wurzburgo (Würzburg); se inició en 1719 y se concluyó en…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Würzburg Residence",
+          "url": "https://en.wikipedia.org/wiki/W%C3%BCrzburg_Residence"
+        },
+        "es": {
+          "title": "Residencia de Wurzburgo",
+          "url": "https://es.wikipedia.org/wiki/Residencia_de_Wurzburgo"
+        }
+      }
     },
     {
       "id": "de-q151545",
@@ -209,11 +365,26 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Hilltop medieval castle, a UNESCO site, linked to Martin Luther.",
-        "es": "Castillo medieval en lo alto de una colina, sitio de la UNESCO, ligado a Martín Lutero."
+        "en": "The Wartburg is a castle originally built in the Middle Ages.",
+        "es": "El Castillo de Wartburg, o sencillamente Wartburg, es un castillo medieval situado cerca de la ciudad de Eisenach, en el estado federado de Turingia, Alemania, en la cima de un…"
       },
       "sourceId": "wikidata",
-      "admission": "Timed entry in busy periods; book ahead."
+      "admission": "Timed entry in busy periods; book ahead.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Wartburg",
+          "url": "https://en.wikipedia.org/wiki/Wartburg"
+        },
+        "es": {
+          "title": "Castillo de Wartburg",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Wartburg"
+        }
+      }
     },
     {
       "id": "de-q156457",
@@ -227,10 +398,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Castle on a hill, seat of the Hohenzollern family.",
-        "es": "Castillo en una colina, sede de la familia Hohenzollern."
+        "en": "Hohenzollern Castle is the ancestral seat of the formerly imperial House of Hohenzollern.",
+        "es": "El castillo de Hohenzollern es un castillo situado 50 kilómetros al sur de Stuttgart vinculado a los orígenes de la dinastía Hohenzollern, familia que llegó al poder durante la Edad…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Hohenzollern Castle",
+          "url": "https://en.wikipedia.org/wiki/Hohenzollern_Castle"
+        },
+        "es": {
+          "title": "Castillo de Hohenzollern",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Hohenzollern"
+        }
+      }
     },
     {
       "id": "de-q157886",
@@ -244,10 +430,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Well-preserved Cistercian monastery complex, a UNESCO site.",
-        "es": "Complejo monástico cisterciense bien conservado, sitio de la UNESCO."
+        "en": "Maulbronn Monastery is a former Cistercian abbey and ecclesiastical state in the Holy Roman Empire located at Maulbronn, Baden-Württemberg.",
+        "es": "El Monasterio de Maulbronn es uno de los monasterios cistercienses medievales mejor conservados de Europa."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Maulbronn Monastery",
+          "url": "https://en.wikipedia.org/wiki/Maulbronn_Monastery"
+        },
+        "es": {
+          "title": "Monasterio de Maulbronn",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_de_Maulbronn"
+        }
+      }
     },
     {
       "id": "de-q157550",
@@ -261,10 +462,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Carolingian abbey ruins and gatehouse, a UNESCO site.",
-        "es": "Ruinas de una abadía carolingia y su puerta de acceso, sitio de la UNESCO."
+        "en": "Lorsch Abbey, otherwise the Imperial Abbey of Lorsch, is a former Imperial abbey in Lorsch, Germany, about 10 km (6.2 mi) east of Worms.",
+        "es": "La abadía imperial de Lorsch, en Lorsch, a 10 kilómetros al este de Worms, en el distrito de Bergstraße, estado federado de Hesse (Alemania)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Lorsch Abbey",
+          "url": "https://en.wikipedia.org/wiki/Lorsch_Abbey"
+        },
+        "es": {
+          "title": "Abadía de Lorsch",
+          "url": "https://es.wikipedia.org/wiki/Abad%C3%ADa_de_Lorsch"
+        }
+      }
     },
     {
       "id": "de-q152802",
@@ -277,11 +493,26 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Memorial site of a Nazi concentration camp near Weimar.",
-        "es": "Sitio memorial de un campo de concentración nazi cerca de Weimar."
+        "en": "Buchenwald was a German Nazi concentration camp established on Ettersberg hill near Weimar, Germany, in July 1937.",
+        "es": "El campo de concentración de Buchenwald fue uno de los primeros y más grandes campos de concentración en territorio alemán."
       },
       "sourceId": "wikidata",
-      "admission": "Guided visits and advance information are recommended."
+      "admission": "Guided visits and advance information are recommended.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Buchenwald concentration camp",
+          "url": "https://en.wikipedia.org/wiki/Buchenwald_concentration_camp"
+        },
+        "es": {
+          "title": "Campo de concentración de Buchenwald",
+          "url": "https://es.wikipedia.org/wiki/Campo_de_concentraci%C3%B3n_de_Buchenwald"
+        }
+      }
     }
   ]
 }

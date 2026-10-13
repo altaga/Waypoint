@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National fine arts museum in Asunción.",
-        "es": "Museo nacional de bellas artes en Asunción."
+        "en": "The National Museum of Fine Arts of Asunción, located on Mcal.",
+        "es": "El Museo Nacional de Bellas Artes y Antigüedades (MNBAA), ubicado en la calle Eligio Ayala entre Pa'i Pérez y Curupayty en la ciudad de Asunción, exhibe más de 84 piezas…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo Nacional de Bellas Artes de Asunción",
+          "url": "https://en.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_de_Asunci%C3%B3n"
+        },
+        "es": {
+          "title": "Museo Nacional de Bellas Artes de Asunción",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_de_Asunci%C3%B3n"
+        }
+      }
     },
     {
       "id": "py-q3300187",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "House museum in Asunción linked to Paraguay's independence movement.",
-        "es": "Casa museo en Asunción vinculada al movimiento independentista de Paraguay."
+        "en": "The Casa de la Independencia Museum is a history museum and historic house located in Asunción, Paraguay.",
+        "es": "El Museo Casa de la Independencia de Asunción, inaugurado el 14 de mayo de 1965, se encuentra en la intersección de las calles Presidente Franco y 14 de Mayo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Casa de la Independencia Museum",
+          "url": "https://en.wikipedia.org/wiki/Casa_de_la_Independencia_Museum"
+        },
+        "es": {
+          "title": "Museo Casa de la Independencia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Casa_de_la_Independencia"
+        }
+      }
     },
     {
       "id": "py-q2839263",
@@ -67,9 +103,20 @@
       "durationMinutes": 60,
       "desc": {
         "en": "Museum on South American football at the Conmebol headquarters in Luque.",
-        "es": "Museo del fútbol sudamericano en la sede de la Conmebol, en Luque."
+        "es": "El Museo del Fútbol Sudamericano es un museo temático dedicado al fútbol, y centro de convenciones que se localiza en las instalaciones de la Conmebol, en la ciudad de Luque…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "curated",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "es": {
+          "title": "Museo del Fútbol Sudamericano",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_F%C3%BAtbol_Sudamericano"
+        }
+      }
     }
   ]
 }

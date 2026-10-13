@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Ancient sanctuary and site of the original Olympic Games.",
-        "es": "Antiguo santuario y sede de los primeros Juegos Olímpicos."
+        "en": "Olympia, officially Archaia Olympia, is a small town in Elis on the Peloponnese peninsula in Greece, famous for the nearby archaeological site of the same name.",
+        "es": "Olimpia es un sitio arqueológico situado en la unidad periférica de Élide, en Grecia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Olympia, Greece",
+          "url": "https://en.wikipedia.org/wiki/Olympia%2C_Greece"
+        },
+        "es": {
+          "title": "Olimpia",
+          "url": "https://es.wikipedia.org/wiki/Olimpia"
+        }
+      }
     },
     {
       "id": "gr-q173527",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Bronze Age palace complex on the island of Crete.",
-        "es": "Complejo palaciego de la Edad del Bronce en la isla de Creta."
+        "en": "Knossos is an archaeological site and ancient urban centre in Crete, Greece.",
+        "es": "Cnosos o Cnoso fue una de las ciudades más importantes de Creta durante la civilización minoica, que alcanzó su máximo esplendor en el segundo milenio a."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Knossos",
+          "url": "https://en.wikipedia.org/wiki/Knossos"
+        },
+        "es": {
+          "title": "Cnosos",
+          "url": "https://es.wikipedia.org/wiki/Cnosos"
+        }
+      }
     },
     {
       "id": "gr-q637187",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Major archaeological museum with ancient Greek collections.",
-        "es": "Gran museo arqueológico con colecciones de la antigua Grecia."
+        "en": "The National Archaeological Museum in Athens houses some of the most important artifacts from a variety of archaeological locations around Greece from prehistory to late antiquity.",
+        "es": "El Museo Arqueológico Nacional de Atenas alberga muchos de los objetos arqueológicos más importantes encontrados en Grecia desde su prehistoria hasta la antigüedad tardía, siendo el principal museo Arqueológico griego."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Archaeological Museum, Athens",
+          "url": "https://en.wikipedia.org/wiki/National_Archaeological_Museum%2C_Athens"
+        },
+        "es": {
+          "title": "Museo Arqueológico Nacional de Atenas",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_Nacional_de_Atenas"
+        }
+      }
     },
     {
       "id": "gr-q421084",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum at the foot of the Acropolis, displaying finds from the site.",
-        "es": "Museo al pie de la Acrópolis que exhibe los hallazgos del sitio."
+        "en": "The Acropolis Museum is an archaeological museum focused on the findings of the archaeological site of the Acropolis of Athens.",
+        "es": "El Museo de la Acrópolis es un museo arqueológico griego situado en la ciudad de Atenas, en un edificio ubicado a unos 300 m al sur de la acrópolis."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Acropolis Museum",
+          "url": "https://en.wikipedia.org/wiki/Acropolis_Museum"
+        },
+        "es": {
+          "title": "Museo de la Acrópolis",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Acr%C3%B3polis"
+        }
+      }
     },
     {
       "id": "gr-q550576",
@@ -100,10 +166,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Waterfront tower and museum in Thessaloniki.",
-        "es": "Torre junto al mar y museo en Tesalónica."
+        "en": "The White Tower of Thessaloniki is a monument and museum on the waterfront of the city of Thessaloniki, capital of the region of Macedonia in northern Greece.",
+        "es": "La Torre Blanca, situada frente al mar, es uno de los principales monumentos de Tesalónica, además de uno de sus símbolos iconográficos más importantes y conocidos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "White Tower of Thessaloniki",
+          "url": "https://en.wikipedia.org/wiki/White_Tower_of_Thessaloniki"
+        },
+        "es": {
+          "title": "Torre Blanca de Tesalónica",
+          "url": "https://es.wikipedia.org/wiki/Torre_Blanca_de_Tesal%C3%B3nica"
+        }
+      }
     },
     {
       "id": "gr-q816669",
@@ -118,10 +199,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Greek art and history in central Athens.",
-        "es": "Museo de arte e historia griegos en el centro de Atenas."
+        "en": "The Benaki Museum, established and endowed in 1930 by Antonis Benakis in memory of his father Emmanuel Benakis, is housed in the Benakis family mansion in Athens, Greece.",
+        "es": "El Museo Benaki es un museo de Atenas, Grecia, cercano a la Plaza Sintagma, fundado en 1931 por un acaudalado ateniense, Antonios Benakis, nacido en Egipto, en honor a su…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Benaki Museum",
+          "url": "https://en.wikipedia.org/wiki/Benaki_Museum"
+        },
+        "es": {
+          "title": "Museo Benaki",
+          "url": "https://es.wikipedia.org/wiki/Museo_Benaki"
+        }
+      }
     },
     {
       "id": "gr-q2302464",
@@ -134,10 +230,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Limestone cave in the Chalkidiki peninsula, northern Greece.",
+        "en": "The Petralona Cave a karst formation, is located at 300 m (984 ft) above sea-level on the western foot of Mount Katsika, about 1 km (0.62 mi) east of the…",
         "es": "Cueva caliza en la península de Calcídica, en el norte de Grecia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Petralona Cave",
+          "url": "https://en.wikipedia.org/wiki/Petralona_Cave"
+        }
+      }
     },
     {
       "id": "gr-q931371",
@@ -151,10 +258,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Medieval palace of the Knights Hospitaller in Rhodes Old Town.",
-        "es": "Palacio medieval de los caballeros hospitalarios en el casco antiguo de Rodas."
+        "en": "The Palace of the Grand Master of the Knights of Rhodes, also known as the Kastello, is a medieval castle in the city of Rhodes, on the island of Rhodes…",
+        "es": "El Palacio del Gran Maestre de los Caballeros de Rodas es un palacio en la ciudad de Rodas, en la isla del mismo nombre en Grecia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Palace of the Grand Master of the Knights of Rhodes",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_the_Grand_Master_of_the_Knights_of_Rhodes"
+        },
+        "es": {
+          "title": "Palacio del Gran maestre de los caballeros de Rodas",
+          "url": "https://es.wikipedia.org/wiki/Palacio_del_Gran_maestre_de_los_caballeros_de_Rodas"
+        }
+      }
     },
     {
       "id": "gr-q2658285",
@@ -168,10 +290,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Archaeological museum in Thessaloniki with finds from northern Greece.",
-        "es": "Museo arqueológico en Tesalónica con hallazgos del norte de Grecia."
+        "en": "The Archaeological Museum of Thessaloniki is a museum in Thessaloniki, Central Macedonia, Greece.",
+        "es": "El Museo Arqueológico de Tesalónica es uno de los museos de la región de Macedonia Central, en Grecia y uno de los más importantes del país."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Archaeological Museum of Thessaloniki",
+          "url": "https://en.wikipedia.org/wiki/Archaeological_Museum_of_Thessaloniki"
+        },
+        "es": {
+          "title": "Museo Arqueológico de Tesalónica",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Tesal%C3%B3nica"
+        }
+      }
     },
     {
       "id": "gr-q1643807",
@@ -185,10 +322,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Ancient cave sanctuary on Mount Dikti in eastern Crete.",
-        "es": "Antiguo santuario en cueva en el monte Dikti, en el este de Creta."
+        "en": "Psychro Cave is an ancient Minoan sacred cave in the Lasithi plateau in the Lasithi district of eastern Crete.",
+        "es": "La caverna del Dicte o cueva de Psicro es una cueva de Creta (Grecia), donde hay un yacimiento arqueológico."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Psychro Cave",
+          "url": "https://en.wikipedia.org/wiki/Psychro_Cave"
+        },
+        "es": {
+          "title": "Caverna del Dicte",
+          "url": "https://es.wikipedia.org/wiki/Caverna_del_Dicte"
+        }
+      }
     },
     {
       "id": "gr-q56240051",
@@ -202,10 +354,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Neoclassical palace and gardens on Corfu, built for Empress Elisabeth.",
-        "es": "Palacio neoclásico y jardines en Corfú, construido para la emperatriz Isabel."
+        "en": "The Achilleion is a palace built on Corfu for Empress Elisabeth of Austria after a suggestion by the Austrian consul Alexander von Warsberg.",
+        "es": "El Achilleion o Aquileón es un palacio ubicado en Corfú, fue construido por orden de la célebre emperatriz de Austria y reina de Hungría, Isabel de Baviera, más conocida como…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Achilleion (Corfu)",
+          "url": "https://en.wikipedia.org/wiki/Achilleion_(Corfu)"
+        },
+        "es": {
+          "title": "Achilleion",
+          "url": "https://es.wikipedia.org/wiki/Achilleion"
+        }
+      }
     }
   ]
 }

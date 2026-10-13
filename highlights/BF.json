@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,22 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Open-air site with granite sculptures made at a sculpture symposium.",
+        "en": "Founded in 1989, by Burkinabe sculptor Siriky Ky, the symposium takes place on a site located about 35 km from Ouagadougou, in the province of Oubritenga.",
         "es": "Sitio al aire libre con esculturas de granito creadas en un simposio de escultura."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Symposium de sculpture sur granit de Laongo",
+          "url": "https://en.wikipedia.org/wiki/Symposium_de_sculpture_sur_granit_de_Laongo"
+        }
+      }
     },
     {
       "id": "bf-q1955714",
@@ -50,11 +67,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of musical instruments in Ouagadougou.",
-        "es": "Museo de instrumentos musicales en Uagadugú."
+        "en": "The National Museum of Music, officially the Georges Ouédraogo Museum of Music, is in Ouagadougou, in a two-story building on Oubritenga Avenue on the south side of the Phillipe Zinda…",
+        "es": "El Museo de la Música se encuentra en Uagadugú, en el país africano de Burkina Faso, en un edificio de dos pisos en la avenida Oubritenga en el lado sur…"
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Music (Burkina Faso)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Music_(Burkina_Faso)"
+        },
+        "es": {
+          "title": "Museo de la Música (Burkina Faso)",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_M%C3%BAsica_(Burkina_Faso)"
+        }
+      }
     }
   ]
 }

@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Prehistoric cave in Birżebbuġa with fossil and archaeological remains.",
-        "es": "Cueva prehistórica en Birżebbuġa con restos fósiles y arqueológicos."
+        "en": "Għar Dalam [A] is a 144-metre long phreatic tube and cave, located in the outskirts of Birżebbuġa, Malta.",
+        "es": "Għar Dalam es una cueva prehistórica sin salida, situada en las afueras de Birzebbuga, en el país europeo de Malta."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Għar Dalam",
+          "url": "https://en.wikipedia.org/wiki/G%C4%A7ar_Dalam"
+        },
+        "es": {
+          "title": "Għar Dalam",
+          "url": "https://es.wikipedia.org/wiki/G%C4%A7ar_Dalam"
+        }
+      }
     },
     {
       "id": "mt-q1859009",
@@ -48,10 +69,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Village built as a film set for the 1980 Popeye movie, now open to visitors.",
-        "es": "Pueblo construido como plató para la película Popeye de 1980, hoy abierto al público."
+        "en": "Popeye Village, also known as Sweethaven Village, is a purpose-built film set village that has been converted into a small attraction fun park, consisting of a collection of rustic and…",
+        "es": "Popeye Village, también conocido como Sweethaven Village, es un grupo de construcciones de madera rústica localizado en Bahía de Ancla, al noroeste de la isla mediterránea de Malta, a 3km…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Popeye Village",
+          "url": "https://en.wikipedia.org/wiki/Popeye_Village"
+        },
+        "es": {
+          "title": "Popeye Village",
+          "url": "https://es.wikipedia.org/wiki/Popeye_Village"
+        }
+      }
     },
     {
       "id": "mt-q2898298",
@@ -65,10 +101,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum of archaeology in Valletta, with prehistoric finds from Malta.",
-        "es": "Museo nacional de arqueología en La Valeta, con hallazgos prehistóricos de Malta."
+        "en": "The National Museum of Archaeology is a Maltese archaeological museum located in Valletta, with artefacts from Maltese prehistory, Phoenician times and a notable numismatic collection.",
+        "es": "El Museo Arqueológico Nacional de Malta es un museo arqueológico situado en La Valeta, la capital de Malta."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Archaeology, Malta",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Archaeology%2C_Malta"
+        },
+        "es": {
+          "title": "Museo Arqueológico Nacional (Malta)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_Nacional_(Malta)"
+        }
+      }
     },
     {
       "id": "mt-q6974470",
@@ -82,10 +133,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum of fine art in Valletta, with a focus on Maltese artists.",
+        "en": "MUŻA is an art museum located at Auberge d'Italie in Valletta, Malta.",
         "es": "Museo nacional de bellas artes en La Valeta, centrado en artistas malteses."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "MUŻA",
+          "url": "https://en.wikipedia.org/wiki/MU%C5%BBA"
+        }
+      }
     },
     {
       "id": "mt-q3013993",
@@ -99,10 +161,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Maritime museum in Birgu, covering Malta's naval and seafaring history.",
-        "es": "Museo marítimo en Birgu, sobre la historia naval y marítima de Malta."
+        "en": "The Malta Maritime Museum is a maritime museum in Birgu, Malta.",
+        "es": "El Museo marítimo de Malta se encuentra dentro de una antigua instalación Naval en Vittoriosa, en la isla de Malta, desarrolla la historia marítima de la isla, que está estrechamente…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Malta Maritime Museum",
+          "url": "https://en.wikipedia.org/wiki/Malta_Maritime_Museum"
+        },
+        "es": {
+          "title": "Museo marítimo de Malta",
+          "url": "https://es.wikipedia.org/wiki/Museo_mar%C3%ADtimo_de_Malta"
+        }
+      }
     },
     {
       "id": "mt-q5291392",
@@ -116,10 +193,21 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Roman-period house with mosaics, located in Rabat, Malta.",
+        "en": "The Domus Romana, stylized as the Domvs Romana, is a ruined Roman-era house located on the boundary between Mdina and Rabat, Malta.",
         "es": "Casa de época romana con mosaicos, en Rabat, Malta."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Domvs Romana",
+          "url": "https://en.wikipedia.org/wiki/Domvs_Romana"
+        }
+      }
     },
     {
       "id": "mt-q6979344",
@@ -133,10 +221,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Malta's war history, housed in Fort St Elmo in Valletta.",
+        "en": "The National War Museum is a museum in Fort Saint Elmo in the city of Valletta, Malta.",
         "es": "Museo de la historia bélica de Malta, instalado en el Fuerte San Telmo de La Valeta."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National War Museum (Malta)",
+          "url": "https://en.wikipedia.org/wiki/National_War_Museum_(Malta)"
+        }
+      }
     },
     {
       "id": "mt-q3014352",
@@ -150,10 +249,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Malta's natural history, located in Mdina.",
-        "es": "Museo de historia natural de Malta, situado en Mdina."
+        "en": "The National Museum of Natural History is a natural history museum in the mediaeval walled city of Mdina, Malta.",
+        "es": "El Museo nacional de historia natural se encuentra en un edificio lleno de historia, en la ciudad medieval amurallada de Mdina, en Malta."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Natural History, Malta",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Natural_History%2C_Malta"
+        },
+        "es": {
+          "title": "Museo Nacional de Historia Natural de Malta",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Historia_Natural_de_Malta"
+        }
+      }
     },
     {
       "id": "mt-q97126855",
@@ -167,10 +281,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Aquarium in St. Paul's Bay with marine species from the Mediterranean.",
-        "es": "Acuario en San Pablo de la Bahía con especies marinas del Mediterráneo."
+        "en": "The Malta National Aquarium is the largest aquarium in Malta.",
+        "es": "El Acuario Nacional de Malta es un acuario ubicado en Qawra, en la isla de Malta."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Malta National Aquarium",
+          "url": "https://en.wikipedia.org/wiki/Malta_National_Aquarium"
+        },
+        "es": {
+          "title": "Acuario Nacional de Malta",
+          "url": "https://es.wikipedia.org/wiki/Acuario_Nacional_de_Malta"
+        }
+      }
     },
     {
       "id": "mt-q2044132",
@@ -185,10 +314,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historic palazzo in Valletta, still lived in by its noble family, open to visitors.",
+        "en": "Casa Rocca Piccola is a 16th-century palace in Malta, and home of the noble Maltese family de Piro.",
         "es": "Palacio histórico en La Valeta, todavía habitado por su familia noble, abierto a visitantes."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Casa Rocca Piccola",
+          "url": "https://en.wikipedia.org/wiki/Casa_Rocca_Piccola"
+        }
+      }
     }
   ]
 }

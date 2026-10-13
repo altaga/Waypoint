@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "ci-tourism": {
       "title": "Côte d'Ivoire tourism (ministry)",
       "url": "https://www.cotedivoiretourisme.ci/",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -35,7 +41,11 @@
         "en": "A large basilica modeled on St Peter's in Rome.",
         "es": "Gran basílica inspirada en San Pedro de Roma."
       },
-      "sourceId": "ci-tourism"
+      "sourceId": "ci-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ci-grand-bassam",
@@ -52,7 +62,11 @@
         "en": "Colonial-era town, a UNESCO site near Abidjan.",
         "es": "Pueblo de la era colonial, sitio de la UNESCO cerca de Abiyán."
       },
-      "sourceId": "ci-tourism"
+      "sourceId": "ci-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ci-banco-park",
@@ -68,7 +82,11 @@
         "en": "Rainforest park inside the city of Abidjan.",
         "es": "Parque de selva dentro de la ciudad de Abiyán."
       },
-      "sourceId": "ci-tourism"
+      "sourceId": "ci-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

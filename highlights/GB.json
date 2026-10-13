@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,26 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Prehistoric stone circle on Salisbury Plain, Wiltshire.",
-        "es": "Círculo de piedras prehistórico en la llanura de Salisbury, Wiltshire."
+        "en": "Stonehenge is a prehistoric megalithic structure on Salisbury Plain in Wiltshire, England, two miles (3 km) west of Amesbury.",
+        "es": "Stonehenge es un monumento megalítico tipo crómlech, además de otros elementos como hoyos, fosos, montículos, etc., construido entre el final del Neolítico y principios de la Edad del Bronce, situado…"
       },
       "sourceId": "wikidata",
-      "admission": "Timed-entry tickets, usually booked in advance; check the official site."
+      "admission": "Timed-entry tickets, usually booked in advance; check the official site.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Stonehenge",
+          "url": "https://en.wikipedia.org/wiki/Stonehenge"
+        },
+        "es": {
+          "title": "Stonehenge",
+          "url": "https://es.wikipedia.org/wiki/Stonehenge"
+        }
+      }
     },
     {
       "id": "gb-q6373",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Large museum of world cultures, with collections from across history.",
-        "es": "Gran museo de culturas del mundo, con colecciones de toda la historia."
+        "en": "The British Museum is a public museum dedicated to human history, art and culture located in the Bloomsbury area of London.",
+        "es": "El Museo Británico es un museo de la ciudad de Londres, Reino Unido, uno de los museos más importantes y visitados del mundo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "British Museum",
+          "url": "https://en.wikipedia.org/wiki/British_Museum"
+        },
+        "es": {
+          "title": "Museo Británico",
+          "url": "https://es.wikipedia.org/wiki/Museo_Brit%C3%A1nico"
+        }
+      }
     },
     {
       "id": "gb-q42182",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Official London residence of the British monarch.",
-        "es": "Residencia oficial en Londres del monarca británico."
+        "en": "Buckingham Palace is the official residence and administrative headquarters of the monarch of the United Kingdom in London, England.",
+        "es": "El palacio de Buckingham es la residencia oficial del monarca británico en Londres."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Buckingham Palace",
+          "url": "https://en.wikipedia.org/wiki/Buckingham_Palace"
+        },
+        "es": {
+          "title": "Palacio de Buckingham",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Buckingham"
+        }
+      }
     },
     {
       "id": "gb-q62378",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Historic castle on the north bank of the Thames, with the Crown Jewels.",
-        "es": "Castillo histórico en la orilla norte del Támesis, con las Joyas de la Corona."
+        "en": "The Tower of London, officially His Majesty's Royal Palace and Fortress of the Tower of London, is a historic citadel and castle on the north bank of the River Thames…",
+        "es": "La Torre de Londres, oficialmente llamada Palacio Real y Fortaleza de su Majestad, es un castillo histórico situado en la ribera norte del río Támesis en el centro de Londres,…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tower of London",
+          "url": "https://en.wikipedia.org/wiki/Tower_of_London"
+        },
+        "es": {
+          "title": "Torre de Londres",
+          "url": "https://es.wikipedia.org/wiki/Torre_de_Londres"
+        }
+      }
     },
     {
       "id": "gb-q41225",
@@ -101,10 +167,25 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Clock tower at the Palace of Westminster.",
-        "es": "Torre del reloj en el Palacio de Westminster."
+        "en": "Big Ben is the nickname for the Great Bell of the Great Clock of Westminster, and, by extension, for the clock tower that stands at the north end of the…",
+        "es": "Big Ben es el nombre con el que se conoce a la gran campana del reloj situado en el extremo noroeste del Palacio de Westminster, la sede del Parlamento del…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Big Ben",
+          "url": "https://en.wikipedia.org/wiki/Big_Ben"
+        },
+        "es": {
+          "title": "Big Ben",
+          "url": "https://es.wikipedia.org/wiki/Big_Ben"
+        }
+      }
     },
     {
       "id": "gb-q42646",
@@ -118,10 +199,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Royal residence and castle in the town of Windsor, Berkshire.",
-        "es": "Castillo y residencia real en la localidad de Windsor, Berkshire."
+        "en": "Windsor Castle is a royal residence at Windsor in the English county of Berkshire, about 25 miles (40 km) west of central London.",
+        "es": "El castillo de Windsor es un palacio y residencia real situado en Windsor, en el condado de Berkshire, Reino Unido, notable por su antigua relación con la familia real británica…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Windsor Castle",
+          "url": "https://en.wikipedia.org/wiki/Windsor_Castle"
+        },
+        "es": {
+          "title": "Castillo de Windsor",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Windsor"
+        }
+      }
     },
     {
       "id": "gb-q160659",
@@ -134,10 +230,25 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Large observation wheel on the South Bank of the Thames.",
-        "es": "Gran noria de observación en la orilla sur del Támesis."
+        "en": "The London Eye, originally the Millennium Wheel, is a cantilevered observation wheel on the South Bank of the River Thames in London.",
+        "es": "El London Eye es una gran noria situada en el South Bank del río Támesis en Londres, Reino Unido."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "London Eye",
+          "url": "https://en.wikipedia.org/wiki/London_Eye"
+        },
+        "es": {
+          "title": "London Eye",
+          "url": "https://es.wikipedia.org/wiki/London_Eye"
+        }
+      }
     },
     {
       "id": "gb-q180788",
@@ -151,10 +262,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National art gallery with a large collection of Western European paintings.",
-        "es": "Galería nacional de arte con una gran colección de pintura de Europa occidental."
+        "en": "The National Gallery is an art museum in Trafalgar Square in the City of Westminster, in Central London, England.",
+        "es": "La National Gallery o Galería Nacional de Londres es la pinacoteca más importante del Reino Unido así como el principal museo de arte de Londres (Inglaterra)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Gallery",
+          "url": "https://en.wikipedia.org/wiki/National_Gallery"
+        },
+        "es": {
+          "title": "National Gallery",
+          "url": "https://es.wikipedia.org/wiki/National_Gallery"
+        }
+      }
     },
     {
       "id": "gb-q192988",
@@ -168,10 +294,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Historic observatory in Greenwich, on the Prime Meridian.",
-        "es": "Observatorio histórico en Greenwich, sobre el meridiano de cero grados."
+        "en": "The Royal Observatory, Greenwich is an observatory situated on a hill in Greenwich Park in south east London, overlooking the River Thames to the north.",
+        "es": "El Real Observatorio de Greenwich localizado en el distrito londinense de Greenwich, Inglaterra, es un observatorio astronómico, cuya construcción fue comisionada en 1675 por el rey Carlos II de Inglaterra."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Royal Observatory, Greenwich",
+          "url": "https://en.wikipedia.org/wiki/Royal_Observatory%2C_Greenwich"
+        },
+        "es": {
+          "title": "Real Observatorio de Greenwich",
+          "url": "https://es.wikipedia.org/wiki/Real_Observatorio_de_Greenwich"
+        }
+      }
     },
     {
       "id": "gb-q193375",
@@ -185,10 +326,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Modern and contemporary art museum in a former power station.",
-        "es": "Museo de arte moderno y contemporáneo en una antigua central eléctrica."
+        "en": "Tate Modern is an art gallery in London, housing the United Kingdom's national collection of international modern and contemporary art.",
+        "es": "Tate Modern es el nombre por el que se conoce el Museo Nacional Británico de Arte Moderno."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tate Modern",
+          "url": "https://en.wikipedia.org/wiki/Tate_Modern"
+        },
+        "es": {
+          "title": "Tate Modern",
+          "url": "https://es.wikipedia.org/wiki/Tate_Modern"
+        }
+      }
     },
     {
       "id": "gb-q42049",
@@ -203,11 +359,26 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Royal residence in the Scottish Highlands.",
-        "es": "Residencia real en las Tierras Altas de Escocia."
+        "en": "Balmoral Castle is a large estate house in Aberdeenshire, Scotland, and a residence of the British royal family.",
+        "es": "El castillo de Balmoral es un castillo situado en Aberdeenshire propiedad de la Familia real británica."
       },
       "sourceId": "wikidata",
-      "admission": "Open only part of the year; check the dates before you go."
+      "admission": "Open only part of the year; check the dates before you go.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Balmoral Castle",
+          "url": "https://en.wikipedia.org/wiki/Balmoral_Castle"
+        },
+        "es": {
+          "title": "Castillo de Balmoral",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Balmoral"
+        }
+      }
     },
     {
       "id": "gb-q212065",
@@ -221,11 +392,26 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Castle on a volcanic rock that dominates the city of Edinburgh.",
-        "es": "Castillo sobre una roca volcánica que domina la ciudad de Edimburgo."
+        "en": "Edinburgh Castle is a historic castle in Edinburgh, Scotland.",
+        "es": "El castillo de Edimburgo es una antigua fortaleza erigida sobre una roca de origen volcánico ubicada en el centro de la ciudad de Edimburgo, Escocia."
       },
       "sourceId": "wikidata",
-      "admission": "Timed tickets are recommended in peak season."
+      "admission": "Timed tickets are recommended in peak season.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Edinburgh Castle",
+          "url": "https://en.wikipedia.org/wiki/Edinburgh_Castle"
+        },
+        "es": {
+          "title": "Castillo de Edimburgo",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Edimburgo"
+        }
+      }
     },
     {
       "id": "gb-q188617",
@@ -239,10 +425,21 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Botanic gardens in south-west London, a UNESCO site.",
+        "en": "Kew Gardens is a botanic garden in southwest London founded in 1759 that houses the \"largest and most diverse botanical and mycological collections in the world\".",
         "es": "Jardines botánicos al suroeste de Londres, sitio de la UNESCO."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kew Gardens",
+          "url": "https://en.wikipedia.org/wiki/Kew_Gardens"
+        }
+      }
     },
     {
       "id": "gb-q208181",
@@ -257,10 +454,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Baroque palace and park, birthplace of Winston Churchill.",
-        "es": "Palacio barroco y parque, lugar de nacimiento de Winston Churchill."
+        "en": "Blenheim Palace is a country house in Woodstock, Oxfordshire, England.",
+        "es": "El palacio de Blenheim es una monumental residencia campestre situada en Woodstock, en el condado de Oxfordshire, Inglaterra, que es residencia de los duques de Marlborough."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Blenheim Palace",
+          "url": "https://en.wikipedia.org/wiki/Blenheim_Palace"
+        },
+        "es": {
+          "title": "Palacio de Blenheim",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Blenheim"
+        }
+      }
     },
     {
       "id": "gb-q816437",
@@ -273,10 +485,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Neolithic village, one of the best-preserved in Europe.",
-        "es": "Aldea neolítica, una de las mejor conservadas de Europa."
+        "en": "Skara Brae is a stone-built Neolithic settlement located along the Bay of Skaill on the west coast of Mainland, Orkney.",
+        "es": "Skara Brae es un extenso asentamiento neolítico situado en la bahía de Skaill, en Mainland, la más grande de las Islas Órcadas de Escocia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Skara Brae",
+          "url": "https://en.wikipedia.org/wiki/Skara_Brae"
+        },
+        "es": {
+          "title": "Skara Brae",
+          "url": "https://es.wikipedia.org/wiki/Skara_Brae"
+        }
+      }
     },
     {
       "id": "gb-q186309",
@@ -290,10 +517,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Wax museum with figures of famous people.",
-        "es": "Museo de cera con figuras de personas famosas."
+        "en": "Madame Tussauds is a wax museum founded in London in 1835 by the French wax sculptor Marie Tussaud.",
+        "es": "El Museo Madame Tussauds es el museo de cera más conocido en el mundo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Madame Tussauds",
+          "url": "https://en.wikipedia.org/wiki/Madame_Tussauds"
+        },
+        "es": {
+          "title": "Museo Madame Tussauds",
+          "url": "https://es.wikipedia.org/wiki/Museo_Madame_Tussauds"
+        }
+      }
     }
   ]
 }

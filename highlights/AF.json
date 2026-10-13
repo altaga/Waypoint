@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,26 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Kabul museum with archaeological and historical collections.",
-        "es": "Museo de Kabul con colecciones arqueológicas e históricas."
+        "en": "The National Museum of Afghanistan is located across the small street from the Darul Aman Palace in the Darulaman area of Kabul, Afghanistan.",
+        "es": "El Museo Nacional de Kabul, también conocido como Museo de Kabul, es un edificio de dos pisos situado a 9 km al suroeste del centro de la ciudad de Kabul,…"
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Afghanistan",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Afghanistan"
+        },
+        "es": {
+          "title": "Museo Nacional de Kabul",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Kabul"
+        }
+      }
     },
     {
       "id": "af-q833625",
@@ -50,11 +71,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Zoo in central Kabul.",
-        "es": "Zoológico en el centro de Kabul."
+        "en": "The Kabul Zoo is located in Kabul, Afghanistan, on the bank of the Kabul River and adjacent to the Deh Mazang Circle.",
+        "es": "El Zoológico de Kabul se encuentra en la ciudad de Kabul, Afganistán, junto a la orilla del río."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kabul Zoo",
+          "url": "https://en.wikipedia.org/wiki/Kabul_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Kabul",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Kabul"
+        }
+      }
     },
     {
       "id": "af-q5361536",
@@ -68,11 +104,22 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum about landmines and mine clearance work in Kabul.",
+        "en": "The OMAR Mine Museum in Kabul, Afghanistan, contains a collection of 51 types of land mines out of the 53 that have been used in that country.",
         "es": "Museo sobre las minas terrestres y el trabajo de desminado en Kabul."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "OMAR Mine Museum",
+          "url": "https://en.wikipedia.org/wiki/OMAR_Mine_Museum"
+        }
+      }
     },
     {
       "id": "af-q5732778",
@@ -86,11 +133,22 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Herat with regional archaeological collections.",
+        "en": "The Herat National Museum is a museum located in Herat, Afghanistan.",
         "es": "Museo en Herat con colecciones arqueológicas regionales."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Herat National Museum",
+          "url": "https://en.wikipedia.org/wiki/Herat_National_Museum"
+        }
+      }
     },
     {
       "id": "af-q6361210",
@@ -104,11 +162,22 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Provincial museum in Kandahar with regional collections.",
+        "en": "The Kandahar Museum is a museum located in Kandahar, Afghanistan.",
         "es": "Museo provincial en Kandahar con colecciones regionales."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kandahar Museum",
+          "url": "https://en.wikipedia.org/wiki/Kandahar_Museum"
+        }
+      }
     }
   ]
 }

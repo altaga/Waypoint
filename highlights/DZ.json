@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,21 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Large mosque in the Constantine area, named after Emir Abdelkader.",
+        "en": "The Emir Abdelkader Mosque is a Sunni mosque located in the city of Constantine, in the Constantine Province of Algeria.",
         "es": "Gran mezquita en la zona de Constantina, con el nombre del emir Abdelkader."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Emir Abdelkader Mosque",
+          "url": "https://en.wikipedia.org/wiki/Emir_Abdelkader_Mosque"
+        }
+      }
     },
     {
       "id": "dz-q3324913",
@@ -50,10 +67,21 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Historic mosque in Tlemcen, in western Algeria.",
+        "en": "The Sidi Belahcen Mosque, also known as Sidi Bel Hasan Mosque or Sidi Abu al-Hasan Mosque is a former mosque in the city of Tlemcen, Algeria.",
         "es": "Mezquita histórica en Tlemecén, en el oeste de Argelia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sidi Belahcen Mosque",
+          "url": "https://en.wikipedia.org/wiki/Sidi_Belahcen_Mosque"
+        }
+      }
     },
     {
       "id": "dz-q3126504",
@@ -66,10 +94,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Hot springs and travertine formations near Guelma.",
+        "en": "Hammam Maskhoutine (Arabic: حمام المسخوطين, English: \"bath of the damned\") is a thermal complex located in Hammam Debagh, of Guelma Province, Algeria.",
         "es": "Aguas termales y formaciones de travertino cerca de Guelma."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Hammam Maskhoutine",
+          "url": "https://en.wikipedia.org/wiki/Hammam_Maskhoutine"
+        }
+      }
     },
     {
       "id": "dz-q2912600",
@@ -83,10 +122,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National fine arts museum in Algiers, with Algerian and European art.",
-        "es": "Museo nacional de bellas artes en Argel, con arte argelino y europeo."
+        "en": "The National Museum of Fine Arts in Algiers is one of the largest art museums in Africa.",
+        "es": "El Museo Nacional de Bellas Artes de Argel es un museo público localizado en la ciudad de Argel, capital de Argelia, que con sus 8.000 obras, es el museo de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Fine Arts of Algiers",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Fine_Arts_of_Algiers"
+        },
+        "es": {
+          "title": "Museo Nacional de Bellas Artes de Argel",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_de_Argel"
+        }
+      }
     },
     {
       "id": "dz-q663776",
@@ -100,10 +154,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Modern art museum in Algiers with works by Algerian artists.",
-        "es": "Museo de arte moderno en Argel con obras de artistas argelinos."
+        "en": "The Museum of Modern Art of Algiers (MaMa) is an art museum in Algiers.",
+        "es": "El Museo público nacional de arte moderno y contemporáneo de Argel es un museo público de arte contemporáneo de la ciudad de Argel, Argelia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Modern Art of Algiers",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Modern_Art_of_Algiers"
+        },
+        "es": {
+          "title": "Museo público de arte moderno y contemporáneo de Argel",
+          "url": "https://es.wikipedia.org/wiki/Museo_p%C3%BAblico_de_arte_moderno_y_contempor%C3%A1neo_de_Argel"
+        }
+      }
     },
     {
       "id": "dz-q3330723",
@@ -117,10 +186,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Archaeology museum in Algiers with objects from Algeria's ancient past.",
-        "es": "Museo de arqueología en Argel con objetos del pasado antiguo de Argelia."
+        "en": "The National Museum of Antiquities and Islamic Art is an art museum in Algiers, Algeria.",
+        "es": "El Museo Nacional de Antigüedades y Arte Islámico es un museo de arte en Argel, Argelia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Antiquities and Islamic Art",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Antiquities_and_Islamic_Art"
+        },
+        "es": {
+          "title": "Museo Nacional de Antigüedades y Arte Islámico",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Antig%C3%BCedades_y_Arte_Isl%C3%A1mico"
+        }
+      }
     },
     {
       "id": "dz-q3330730",
@@ -134,10 +218,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Bardo, Algiers, with archaeology and history collections.",
-        "es": "Museo en Bardo, Argel, con colecciones de arqueología e historia."
+        "en": "The Bardo National Museum of Prehistory and Ethnography, is a national museum located in Algiers, Algeria.",
+        "es": "El Museo Nacional del Bardo, situado en lo alto del bulevar principal en el centro de Argel, el bulevar Didouche Mourad -antigua calle Michelet- que domina Ghermoul y el hospital…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bardo National Museum (Algiers)",
+          "url": "https://en.wikipedia.org/wiki/Bardo_National_Museum_(Algiers)"
+        },
+        "es": {
+          "title": "Museo Nacional del Bardo (Argelia)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_del_Bardo_(Argelia)"
+        }
+      }
     },
     {
       "id": "dz-q4785393",
@@ -151,10 +250,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Archaeological museum in Cherchell, with Roman sculptures from the ancient city.",
-        "es": "Museo arqueológico en Cherchell, con esculturas romanas de la antigua ciudad."
+        "en": "The Archaeological Museum of Cherchell is an archaeological museum located in the center of the seaport town of Cherchell in Tipaza Province, Algeria.",
+        "es": "El Musée public national de Cherchell o Museo Arqueológico de Cherchell es un museo ubicado en el centro de la ciudad portuaria de Cherchell en la provincia de Tipaza, Argelia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Archaeological Museum of Cherchell",
+          "url": "https://en.wikipedia.org/wiki/Archaeological_Museum_of_Cherchell"
+        },
+        "es": {
+          "title": "Museo Arqueológico de Cherchell",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Cherchell"
+        }
+      }
     }
   ]
 }

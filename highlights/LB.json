@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Limestone cave system with underground lakes north of Beirut.",
-        "es": "Sistema de cuevas de piedra caliza con lagos subterráneos al norte de Beirut."
+        "en": "The Jeita Grotto is a system of two separate, but interconnected, karstic limestone caves spanning an overall length of nearly 9 kilometres (5.6 mi).",
+        "es": "La gruta de Jeita, es un compuesto de dos cavernas de piedra caliza cárstica, separadas, y al mismo tiempo interconectadas, abarcando una longitud total de aproximadamente 9 kilómetros."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Jeita Grotto",
+          "url": "https://en.wikipedia.org/wiki/Jeita_Grotto"
+        },
+        "es": {
+          "title": "Gruta de Jeita",
+          "url": "https://es.wikipedia.org/wiki/Gruta_de_Jeita"
+        }
+      }
     },
     {
       "id": "lb-q2915627",
@@ -50,11 +71,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum with Phoenician and Roman artifacts.",
-        "es": "Museo nacional con objetos fenicios y romanos."
+        "en": "The National Museum of Beirut is the principal museum of archaeology in Lebanon.",
+        "es": "El Museo Nacional de Beirut es el principal museo de arqueología en el Líbano."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Beirut",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Beirut"
+        },
+        "es": {
+          "title": "Museo Nacional de Beirut",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Beirut"
+        }
+      }
     },
     {
       "id": "lb-q10661349",
@@ -68,11 +104,26 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Greek Orthodox cathedral in central Beirut.",
-        "es": "Catedral ortodoxa griega en el centro de Beirut."
+        "en": "Saint George Greek Orthodox Cathedral is the seat of the Greek Orthodox Metropolitan bishop of the Greek Orthodox Archdiocese of Beirut and its dependencies.",
+        "es": "La catedral ortodoxa griega de San Jorge o bien la catedral de San Jorge es la sede del obispo metropolitano ortodoxo griego de la arquidiócesis ortodoxa de Beirut y sus…"
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Saint George Greek Orthodox Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Saint_George_Greek_Orthodox_Cathedral"
+        },
+        "es": {
+          "title": "Catedral ortodoxa griega de San Jorge",
+          "url": "https://es.wikipedia.org/wiki/Catedral_ortodoxa_griega_de_San_Jorge"
+        }
+      }
     },
     {
       "id": "lb-q1619788",
@@ -86,11 +137,26 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Crusader-era castle overlooking the old port of Byblos.",
-        "es": "Castillo de la época cruzada con vistas al antiguo puerto de Biblos."
+        "en": "Byblos Castle is a Crusader castle in Byblos, Lebanon.",
+        "es": "El castillo de Biblos es un castillo en Biblos, Líbano."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Byblos Castle",
+          "url": "https://en.wikipedia.org/wiki/Byblos_Castle"
+        },
+        "es": {
+          "title": "Castillo de Biblos",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Biblos"
+        }
+      }
     },
     {
       "id": "lb-q287360",
@@ -104,11 +170,26 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Art museum in a historic mansion in Beirut.",
-        "es": "Museo de arte en una mansión histórica de Beirut."
+        "en": "The Sursock Museum, officially known as the Nicolas Ibrahim Sursock Museum, is a modern and contemporary art museum in Beirut, Lebanon.",
+        "es": "El Museo Nicolas Sursock, llamado así por su fundador, es un Museo de Arte Moderno en Beirut, Líbano."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sursock Museum",
+          "url": "https://en.wikipedia.org/wiki/Sursock_Museum"
+        },
+        "es": {
+          "title": "Museo Sursock",
+          "url": "https://es.wikipedia.org/wiki/Museo_Sursock"
+        }
+      }
     },
     {
       "id": "lb-q15260373",
@@ -122,11 +203,22 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of prehistoric finds from Lebanon.",
+        "en": "The Museum of Lebanese Prehistory is a museum of prehistory and archaeology in Beirut, Lebanon.",
         "es": "Museo de hallazgos prehistóricos del Líbano."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Lebanese Prehistory",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Lebanese_Prehistory"
+        }
+      }
     },
     {
       "id": "lb-q97403226",
@@ -140,11 +232,22 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Historic palace in the old town of Sidon.",
+        "en": "Debbane Palace, also Qasr Debbane, Dar Ali Agha al-Hammud, and Dar Debbané, is an Arab-Ottoman-style grand mansion in Sidon, Lebanon.",
         "es": "Palacio histórico en el casco antiguo de Sidón."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Debbane Palace",
+          "url": "https://en.wikipedia.org/wiki/Debbane_Palace"
+        }
+      }
     },
     {
       "id": "lb-q7347853",
@@ -159,11 +262,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Private museum of archaeological and cultural objects in Beirut.",
-        "es": "Museo privado de objetos arqueológicos y culturales en Beirut."
+        "en": "The Robert Mouawad Private Museum is a private residence in Beirut’s Zokak el-Blat quarter that was converted into a museum by the Lebanese businessman Robert Mouawad.",
+        "es": "El Museo Privado Robert Mouawad es una residencia privada en el barrio Zokak el-Blat de Beirut que fue convertida en museo por el empresario libanés Robert Mouawad."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Robert Mouawad Private Museum",
+          "url": "https://en.wikipedia.org/wiki/Robert_Mouawad_Private_Museum"
+        },
+        "es": {
+          "title": "Museo Privado Robert Mouawad",
+          "url": "https://es.wikipedia.org/wiki/Museo_Privado_Robert_Mouawad"
+        }
+      }
     }
   ]
 }

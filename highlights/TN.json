@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum with Roman mosaics and Carthaginian collections, in Le Bardo.",
-        "es": "Museo nacional con mosaicos romanos y colecciones cartaginesas, en Le Bardo, cerca de Túnez."
+        "en": "The Bardo National Museum or Bardo Palace is an arts and North African history museum in Le Bardo, Tunis, Tunisia.",
+        "es": "El Museo Nacional del Bardo es un museo de la ciudad de Túnez (Túnez)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bardo National Museum (Tunis)",
+          "url": "https://en.wikipedia.org/wiki/Bardo_National_Museum_(Tunis)"
+        },
+        "es": {
+          "title": "Museo Nacional del Bardo",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_del_Bardo"
+        }
+      }
     },
     {
       "id": "tn-q3329457",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Archaeological museum in Sousse with Roman mosaics.",
-        "es": "Museo arqueológico en Susa, con mosaicos romanos."
+        "en": "The Sousse Archaeological Museum is an archaeological museum located in Sousse, Sousse Governorate, Tunisia.",
+        "es": "El Museo Arqueológico de Susa es un museo tunecino ubicado en la ciudad de Susa, la antigua Hadrumetum."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sousse Archaeological Museum",
+          "url": "https://en.wikipedia.org/wiki/Sousse_Archaeological_Museum"
+        },
+        "es": {
+          "title": "Museo Arqueológico de Susa",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Susa"
+        }
+      }
     },
     {
       "id": "tn-q163299",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on the Roman quarry site of Chemtou.",
-        "es": "Museo sobre la antigua cantera romana de Chemtou."
+        "en": "The Chemtou Museum is an archaeological museum located in Chemtou, Tunisia.",
+        "es": "El Museo de Chemtou es un museo arqueológico tunecino situado en el sitio de Chemtou, a unos veinte kilómetros de Jendouba, una ciudad cercana a la frontera entre Túnez y…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Chemtou Museum",
+          "url": "https://en.wikipedia.org/wiki/Chemtou_Museum"
+        },
+        "es": {
+          "title": "Museo de Chemtou",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Chemtou"
+        }
+      }
     },
     {
       "id": "tn-q1961849",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum on Carthage and its archaeological collections.",
-        "es": "Museo nacional sobre Cartago y sus colecciones arqueológicas."
+        "en": "Carthage National Museum is a national museum in Byrsa, Tunisia.",
+        "es": "El Museo Nacional de Cartago es junto con el Museo Nacional de Bardo uno de los dos principales museos arqueológicos en el país africano de Túnez."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Carthage National Museum",
+          "url": "https://en.wikipedia.org/wiki/Carthage_National_Museum"
+        },
+        "es": {
+          "title": "Museo Nacional de Cartago",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Cartago"
+        }
+      }
     },
     {
       "id": "tn-q3329731",
@@ -100,10 +166,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Archaeological museum in the coastal town of Mahdia.",
-        "es": "Museo arqueológico en la localidad costera de Mahdia."
+        "en": "The Mahdia Museum is a museum in Tunisia specialising in Tunisian archaeology and heritage.",
+        "es": "El Museo de Mahdía es una institución de la ciudad de Mahdía en Túnez, situado en la plaza de acceso a la ciudad vieja justo al lado de la puerta…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mahdia Museum",
+          "url": "https://en.wikipedia.org/wiki/Mahdia_Museum"
+        },
+        "es": {
+          "title": "Museo de Mahdía",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Mahd%C3%ADa"
+        }
+      }
     },
     {
       "id": "tn-q1961879",
@@ -117,10 +198,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of early Christian art and archaeology in Carthage.",
-        "es": "Museo de arte y arqueología paleocristianos en Cartago."
+        "en": "The Carthage Paleo-Christian Museum is an archaeological museum of Paleochristian artifacts, located in Carthage, Tunisia.",
+        "es": "El Museo paleocristiano de Cartago es un pequeño museo instalado tras las excavaciones realizadas en los años 1970 y 1980, como parte de la campaña internacional en la UNESCO para…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Carthage Paleo-Christian Museum",
+          "url": "https://en.wikipedia.org/wiki/Carthage_Paleo-Christian_Museum"
+        },
+        "es": {
+          "title": "Museo paleocristiano de Cartago",
+          "url": "https://es.wikipedia.org/wiki/Museo_paleocristiano_de_Cartago"
+        }
+      }
     },
     {
       "id": "tn-q3329710",
@@ -134,10 +230,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum next to the Roman ruins of Bulla Regia.",
-        "es": "Museo junto a las ruinas romanas de Bulla Regia."
+        "en": "The Bulla Regia Museum is an archaeological museum in Bulla Regia, Tunisia.",
+        "es": "El Museo de Bulla Regia es un pequeño museo del yacimiento tunecino de Bulla Regia, abierto desde 1982."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bulla Regia Museum",
+          "url": "https://en.wikipedia.org/wiki/Bulla_Regia_Museum"
+        },
+        "es": {
+          "title": "Museo de Bulla Regia",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Bulla_Regia"
+        }
+      }
     },
     {
       "id": "tn-q3087852",
@@ -151,10 +262,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Natural park with lakes and wildlife, near Bouficha.",
-        "es": "Parque natural con lagos y fauna, cerca de Bouficha."
+        "en": "Friguia Park is a zoological park in Tunisia, located near the town of Bouficha, approximately 70 km south of Tunis and 25 km north of Sousse.",
+        "es": "El Parque de Friguia es un zoológico privado de Túnez que abrió al público el 11 de noviembre de 2000, cerca de la ciudad de Bouficha."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Friguia Park",
+          "url": "https://en.wikipedia.org/wiki/Friguia_Park"
+        },
+        "es": {
+          "title": "Parque de Friguia",
+          "url": "https://es.wikipedia.org/wiki/Parque_de_Friguia"
+        }
+      }
     },
     {
       "id": "tn-q3364339",
@@ -168,10 +294,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Urban park in Tunis with a zoo.",
-        "es": "Parque urbano en Túnez con zoológico."
+        "en": "Belvedere Park is the largest park in the city of Tunis (Tunisia).",
+        "es": "El parque de Belvédère es el parque más grande de la ciudad de Túnez."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Belvedere Park, Tunis",
+          "url": "https://en.wikipedia.org/wiki/Belvedere_Park%2C_Tunis"
+        },
+        "es": {
+          "title": "Parque de Belvédère",
+          "url": "https://es.wikipedia.org/wiki/Parque_de_Belv%C3%A9d%C3%A8re"
+        }
+      }
     },
     {
       "id": "tn-q3329425",
@@ -185,10 +326,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Archaeological museum in El Djem, next to the Roman amphitheatre.",
-        "es": "Museo arqueológico en El Djem, junto al anfiteatro romano."
+        "en": "El Djem Archaeological Museum is an archaeological museum located in El Djem, Tunisia.",
+        "es": "El Museo Arqueológico de El Djem es un museo tunecino ubicado en la ciudad de El Djem, la antigua Tisdra."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "El Djem Archaeological Museum",
+          "url": "https://en.wikipedia.org/wiki/El_Djem_Archaeological_Museum"
+        },
+        "es": {
+          "title": "Museo Arqueológico de El Djem",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_El_Djem"
+        }
+      }
     }
   ]
 }

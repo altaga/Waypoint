@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Sixteenth-century fortified tower on the Tagus river in Lisbon.",
-        "es": "Torre fortificada del siglo XVI junto al río Tajo, en Lisboa."
+        "en": "Belém Tower, officially the Tower of Saint Vincent, is a 16th-century fortification located in Lisbon, Portugal, which served as a point of embarkation and disembarkation for Portuguese explorers and as…",
+        "es": "La torre de Belém es una antigua construcción militar situada en la ciudad de Lisboa, capital de Portugal."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Belém Tower",
+          "url": "https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower"
+        },
+        "es": {
+          "title": "Torre de Belém",
+          "url": "https://es.wikipedia.org/wiki/Torre_de_Bel%C3%A9m"
+        }
+      }
     },
     {
       "id": "pt-q599223",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Baroque royal palace and monastery north of Lisbon.",
-        "es": "Palacio real barroco y monasterio al norte de Lisboa."
+        "en": "The Palace of Mafra, also known as the Palace-Convent of Mafra and the Royal Building of Mafra, is a monumental Baroque and Neoclassical palace-monastery located in Mafra, Portugal, some 28…",
+        "es": "El Palacio Nacional de Mafra es un edificio barroco localizado en la ciudad portuguesa de Mafra."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Palace of Mafra",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_Mafra"
+        },
+        "es": {
+          "title": "Palacio Nacional de Mafra",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Nacional_de_Mafra"
+        }
+      }
     },
     {
       "id": "pt-q211262",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Art museum in Lisbon with the collection assembled by Calouste Gulbenkian.",
-        "es": "Museo de arte en Lisboa con la colección reunida por Calouste Gulbenkian."
+        "en": "Lisbon's Calouste Gulbenkian Museum houses one of the world's most important private art collections.",
+        "es": "El Museo Calouste Gulbenkian es una colección de arte antiguo y moderno de la ciudad de Lisboa, que abarca obras del Antiguo Egipto, arte del mundo islámico, China y Japón,…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Calouste Gulbenkian Museum",
+          "url": "https://en.wikipedia.org/wiki/Calouste_Gulbenkian_Museum"
+        },
+        "es": {
+          "title": "Museo Calouste Gulbenkian",
+          "url": "https://es.wikipedia.org/wiki/Museo_Calouste_Gulbenkian"
+        }
+      }
     },
     {
       "id": "pt-q212459",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Lisbon museum of European and Asian art from medieval to modern times.",
-        "es": "Museo de Lisboa de arte europeo y asiático, de la Edad Media a la época moderna."
+        "en": "The Museu Nacional de Arte Antiga, also known in English as the National Museum of Ancient Art, is a Portuguese national art museum located in Lisbon.",
+        "es": "El Museu Nacional de Arte Antiga (MNAA) está localizado en Lisboa, capital de Portugal."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Ancient Art",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Ancient_Art"
+        },
+        "es": {
+          "title": "Museo Nacional de Arte Antiguo",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_Antiguo"
+        }
+      }
     },
     {
       "id": "pt-q2630165",
@@ -101,10 +167,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Estate in Sintra with an ornate palace, gardens and underground tunnels.",
-        "es": "Finca en Sintra con un palacio ornamentado, jardines y túneles subterráneos."
+        "en": "Quinta da Regaleira is a quinta constructed from 1904 to '10 and located near the historic centre of Sintra, Portugal.",
+        "es": "El Palacio da Regaleira es el edificio principal y el nombre más común de la Quinta da Regaleira."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Quinta da Regaleira",
+          "url": "https://en.wikipedia.org/wiki/Quinta_da_Regaleira"
+        },
+        "es": {
+          "title": "Palacio da Regaleira",
+          "url": "https://es.wikipedia.org/wiki/Palacio_da_Regaleira"
+        }
+      }
     },
     {
       "id": "pt-q1776168",
@@ -118,10 +199,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Baroque monastery in Lisbon with a church and tiled cloisters.",
-        "es": "Monasterio barroco en Lisboa con iglesia y claustros de azulejos."
+        "en": "The Church and Monastery of São Vicente de Fora, meaning \"Monastery of St. Vincent Outside the Walls\", is a 17th-century church and monastery in the city of Lisbon, Portugal.",
+        "es": "La iglesia o monasterio de San Vicente de Fora es una iglesia de Lisboa dedicada a San Vicente, proclamado patrón de la ciudad en 1173, cuando sus reliquias se transfirieron…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Monastery of São Vicente de Fora",
+          "url": "https://en.wikipedia.org/wiki/Monastery_of_S%C3%A3o_Vicente_de_Fora"
+        },
+        "es": {
+          "title": "Iglesia de San Vicente de Fora",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Vicente_de_Fora"
+        }
+      }
     },
     {
       "id": "pt-q856866",
@@ -135,10 +231,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Sea cliff on Madeira with a glass-floored viewpoint.",
-        "es": "Acantilado en Madeira con un mirador de suelo de cristal."
+        "en": "Cabo Girão is a lofty sea cliff located along the southern coast of the island of Madeira, in the Portuguese archipelago of Madeira, geographically part of Africa.",
+        "es": "El cabo Girão es un elevado acantilado situado en la costa sur de la isla de Madeira, en el archipiélago portugués de Madeira."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Cabo Girão",
+          "url": "https://en.wikipedia.org/wiki/Cabo_Gir%C3%A3o"
+        },
+        "es": {
+          "title": "Cabo Girão",
+          "url": "https://es.wikipedia.org/wiki/Cabo_Gir%C3%A3o"
+        }
+      }
     },
     {
       "id": "pt-q1954384",
@@ -152,10 +263,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National archaeology museum in Lisbon's Belém district.",
-        "es": "Museo nacional de arqueología en el distrito de Belém, Lisboa."
+        "en": "The National Museum of Archaeology, of Doctor Leite de Vasconcelos is the largest archaeological museum in Portugal and one of the most important museums devoted to ancient art found in…",
+        "es": "El Museo Nacional de Arqueología es el museo arqueológico más grande de Portugal y de los más importantes sobre arte antiguo de la península ibérica."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Archaeology, Lisbon",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Archaeology%2C_Lisbon"
+        },
+        "es": {
+          "title": "Museo Nacional de Arqueología (Portugal)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arqueolog%C3%ADa_(Portugal)"
+        }
+      }
     },
     {
       "id": "pt-q652806",
@@ -169,10 +295,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Large aquarium in Lisbon's Parque das Nações with marine habitats.",
-        "es": "Gran acuario en el Parque das Nações de Lisboa, con hábitats marinos."
+        "en": "The Lisbon Oceanarium is an oceanarium in Lisbon, Portugal.",
+        "es": "El Oceanario de Lisboa es un museo de biología marina situado en el Parque de las Naciones de Lisboa, Portugal, construido en el ámbito de la Expo 98."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Lisbon Oceanarium",
+          "url": "https://en.wikipedia.org/wiki/Lisbon_Oceanarium"
+        },
+        "es": {
+          "title": "Oceanario de Lisboa",
+          "url": "https://es.wikipedia.org/wiki/Oceanario_de_Lisboa"
+        }
+      }
     },
     {
       "id": "pt-q2313815",
@@ -187,10 +328,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Portuguese ceramic tiles, housed in a former convent.",
-        "es": "Museo de azulejos portugueses, instalado en un antiguo convento."
+        "en": "The Museu Nacional do Azulejo, occasionally known in English as the National Tile Museum, is an art museum in Lisbon, Portugal dedicated to the azulejo, traditional tilework of Portugal and…",
+        "es": "El Museo Nacional del Azulejo es un museo estatal portugués situado en Lisboa, uno de los mejores museos del mundo en su género."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of the Azulejo",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_the_Azulejo"
+        },
+        "es": {
+          "title": "Museo Nacional del Azulejo (Portugal)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_del_Azulejo_(Portugal)"
+        }
+      }
     },
     {
       "id": "pt-q1540177",
@@ -204,10 +360,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Maritime history museum in Lisbon's Belém district.",
-        "es": "Museo de historia marítima en el distrito de Belém, Lisboa."
+        "en": "The Navy Museum is a maritime museum in Lisbon, dedicated to all aspects of the history of navigation in Portugal.",
+        "es": "El Museo de la Marina de Lisboa es un museo dedicado a la historia de la navegación portuguesa."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Navy Museum (Portugal)",
+          "url": "https://en.wikipedia.org/wiki/Navy_Museum_(Portugal)"
+        },
+        "es": {
+          "title": "Museo de la Marina (Lisboa)",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Marina_(Lisboa)"
+        }
+      }
     },
     {
       "id": "pt-q979100",
@@ -221,10 +392,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Baroque cathedral in Coimbra's historic upper town.",
-        "es": "Catedral barroca en la parte alta histórica de Coímbra."
+        "en": "The New Cathedral of Coimbra, also referred to as Cathedral of the Holy Name of Jesus, is currently bishopric co-seat, along with the Old Cathedral of Coimbra, of the city…",
+        "es": "La Catedral Nueva de Coímbra, de la ciudad de Coímbra en Portugal, está situada en la plaza principal cerca de la Universidad de Coímbra."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "New Cathedral of Coimbra",
+          "url": "https://en.wikipedia.org/wiki/New_Cathedral_of_Coimbra"
+        },
+        "es": {
+          "title": "Catedral nueva de Coímbra",
+          "url": "https://es.wikipedia.org/wiki/Catedral_nueva_de_Co%C3%ADmbra"
+        }
+      }
     }
   ]
 }

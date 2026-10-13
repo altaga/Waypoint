@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum with collections on Sudan's archaeology and history, in Khartoum.",
-        "es": "Museo nacional con colecciones sobre la arqueología e historia de Sudán, en Jartum."
+        "en": "The National Museum of Sudan or Sudan National Museum, abbreviated SNM, is a war-damaged former museum, housed in a two-story building, constructed in 1955 and established as national museum in…",
+        "es": "El Museo nacional de Sudán fundado en 1971, es el museo principal de Sudán, situado en la avenida El Neel en Jartum."
       },
       "sourceId": "wikidata",
-      "admission": "Serious security risks: check current government travel advice before any visit."
+      "admission": "Serious security risks: check current government travel advice before any visit.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Sudan",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Sudan"
+        },
+        "es": {
+          "title": "Museo nacional de Sudán",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Sud%C3%A1n"
+        }
+      }
     },
     {
       "id": "sd-q16878222",
@@ -50,11 +71,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "House museum from the Mahdist era, in Omdurman.",
-        "es": "Casa-museo de la época mahdista, en Omdurmán."
+        "en": "The Khalifa House Museum is an ethnographic museum, located opposite the tomb of Muhammad Ahmad in the city of Omdurman in Sudan.",
+        "es": "La Casa Califa era la residencia del Califa Abdallahi ibn Muhammad, el sucesor del Mahdi Muhammad Ahmad."
       },
       "sourceId": "wikidata",
-      "admission": "Serious security risks: check current government travel advice before any visit."
+      "admission": "Serious security risks: check current government travel advice before any visit.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Khalifa House Museum",
+          "url": "https://en.wikipedia.org/wiki/Khalifa_House_Museum"
+        },
+        "es": {
+          "title": "Casa Califa",
+          "url": "https://es.wikipedia.org/wiki/Casa_Califa"
+        }
+      }
     },
     {
       "id": "sd-q57980405",
@@ -68,11 +104,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on the ancient Kerma culture of Nubia.",
-        "es": "Museo sobre la antigua cultura de Kerma en Nubia."
+        "en": "The Kerma Museum is an archeological site museum located in front of the Western Deffufa on the archaeological site of Kerma, in the Northern State of Sudan.",
+        "es": "El museo de Kerma es un museo arqueológico ubicado frente a la Deffufa Occidental en el sitio arqueológico de Kerma en el Estado Norte de Sudán."
       },
       "sourceId": "wikidata",
-      "admission": "Serious security risks: check current government travel advice before any visit."
+      "admission": "Serious security risks: check current government travel advice before any visit.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kerma Museum",
+          "url": "https://en.wikipedia.org/wiki/Kerma_Museum"
+        },
+        "es": {
+          "title": "Museo de Kerma",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Kerma"
+        }
+      }
     },
     {
       "id": "sd-q60786727",
@@ -86,11 +137,22 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on the Kushite sites of Jebel Barkal and Napata.",
+        "en": "The Jebel Barkal Museum is an archaeological site museum located on the eastern side of the archaeological area of Jebel Barkal at Karima in the Northern State of Sudan.",
         "es": "Museo sobre los yacimientos kushitas de Jebel Barkal y Napata."
       },
       "sourceId": "wikidata",
-      "admission": "Serious security risks: check current government travel advice before any visit."
+      "admission": "Serious security risks: check current government travel advice before any visit.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Jebel Barkal Museum",
+          "url": "https://en.wikipedia.org/wiki/Jebel_Barkal_Museum"
+        }
+      }
     }
   ]
 }

@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Art museum in Baku with Azerbaijani and European works.",
-        "es": "Museo de arte en Bakú con obras azerbaiyanas y europeas."
+        "en": "Azerbaijan National Museum of Art is the biggest art museum of Azerbaijan.",
+        "es": "El Museo Nacional de Arte de Azerbaiyán, es un museo de bellas artes ubicado en la capital de dicho país, Bakú."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Art Museum of Azerbaijan",
+          "url": "https://en.wikipedia.org/wiki/National_Art_Museum_of_Azerbaijan"
+        },
+        "es": {
+          "title": "Museo Nacional de Arte de Azerbaiyán",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_de_Azerbaiy%C3%A1n"
+        }
+      }
     },
     {
       "id": "az-q2664428",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Azerbaijani history in Baku.",
-        "es": "Museo de la historia de Azerbaiyán en Bakú."
+        "en": "The National Museum of History of Azerbaijan is the largest museum in Azerbaijan.",
+        "es": "El Museo Estatal de Historia de Azerbaiyán es el museo más grande en Azerbaiyán, localizado en Bakú, en el Palacio de Zeynalabdin Taghiyev."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of History of Azerbaijan",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_History_of_Azerbaijan"
+        },
+        "es": {
+          "title": "Museo Estatal de Historia de Azerbaiyán",
+          "url": "https://es.wikipedia.org/wiki/Museo_Estatal_de_Historia_de_Azerbaiy%C3%A1n"
+        }
+      }
     },
     {
       "id": "az-q2452280",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo in Baku.",
-        "es": "Zoológico en Bakú."
+        "en": "Baku Zoological Park, more commonly known as Baku Zoo, is a 10.5-acre zoo located in the Narimanov district of the capital city of Azerbaijan, Baku.",
+        "es": "El Parque zoológico de Bakú es un parque zoológico estatal en la ciudad de Bakú."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Baku Zoo",
+          "url": "https://en.wikipedia.org/wiki/Baku_Zoo"
+        },
+        "es": {
+          "title": "Parque zoológico de Bakú",
+          "url": "https://es.wikipedia.org/wiki/Parque_zool%C3%B3gico_de_Bak%C3%BA"
+        }
+      }
     },
     {
       "id": "az-q754560",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historic fire temple complex near Baku.",
-        "es": "Antiguo complejo de templo del fuego cerca de Bakú."
+        "en": "The Ateshgah of Baku, Azerbaijani: Atəşgah), often called the \"Fire Temple of Baku\", is a syncretic temple in Surakhany town.",
+        "es": "El Ateshgah de Bakú, a menudo llamado el Templo del Fuego de Bakú es un templo religioso con forma de castillo en la ciudad de Surakhani, un suburbio de Bakú,…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ateshgah of Baku",
+          "url": "https://en.wikipedia.org/wiki/Ateshgah_of_Baku"
+        },
+        "es": {
+          "title": "Ateshgah de Bakú",
+          "url": "https://es.wikipedia.org/wiki/Ateshgah_de_Bak%C3%BA"
+        }
+      }
     },
     {
       "id": "az-q1136822",
@@ -102,10 +168,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Azerbaijani carpets and textiles in Baku.",
-        "es": "Museo de alfombras y textiles azerbaiyanos en Bakú."
+        "en": "Azerbaijan National Carpet Museum is a museum located in Baku that displays Azerbaijani carpets and rugs with historical and modern weaving techniques and materials.",
+        "es": "El Museo de la Alfombra de Azerbaiyán se encuentra en Bakú, expone alfombras de diversos periodos, técnicas y métodos de tejido."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Azerbaijan Carpet Museum",
+          "url": "https://en.wikipedia.org/wiki/Azerbaijan_Carpet_Museum"
+        },
+        "es": {
+          "title": "Museo de Alfombra de Azerbaiyán",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Alfombra_de_Azerbaiy%C3%A1n"
+        }
+      }
     },
     {
       "id": "az-q123753947",
@@ -119,10 +200,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Railway history museum in Baku.",
-        "es": "Museo de historia ferroviaria en Bakú."
+        "en": "Azerbaijan Railway Museum is a railway museum in Baku, Azerbaijan.",
+        "es": "Museo del Ferrocarril de Azerbaiyán es un museo ferroviario situado en Bakú (Azerbaiyán)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Azerbaijan Railway Museum",
+          "url": "https://en.wikipedia.org/wiki/Azerbaijan_Railway_Museum"
+        },
+        "es": {
+          "title": "Museo del Ferrocarril de Azerbaiyán",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Ferrocarril_de_Azerbaiy%C3%A1n"
+        }
+      }
     },
     {
       "id": "az-q1678321",
@@ -136,10 +232,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Modern art museum in Baku.",
-        "es": "Museo de arte moderno en Bakú."
+        "en": "Baku Museum of Modern Art is a museum of modern art located in Baku, Azerbaijan.",
+        "es": "El museo del arte moderno de Bakú – es un museo, que está situada en la capital de Azerbaiyán, Bakú."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Baku Museum of Modern Art",
+          "url": "https://en.wikipedia.org/wiki/Baku_Museum_of_Modern_Art"
+        },
+        "es": {
+          "title": "Museo de arte moderno (Bakú)",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_arte_moderno_(Bak%C3%BA)"
+        }
+      }
     },
     {
       "id": "az-q2500152",
@@ -153,10 +264,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Azerbaijani literature, named after poet Nizami Ganjavi.",
-        "es": "Museo de la literatura azerbaiyana, dedicado al poeta Nizami Ganyaví."
+        "en": "The National museum of Azerbaijan literature, named after Nizami Ganjavi is a museum in Baku, established in 1939.",
+        "es": "El Museo Nacional de Literatura de Azerbaiyán en nombre de Nezamí Ganyaví fue establecido en 1939, en Bakú."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nizami Museum of Azerbaijani Literature",
+          "url": "https://en.wikipedia.org/wiki/Nizami_Museum_of_Azerbaijani_Literature"
+        },
+        "es": {
+          "title": "Museo Nacional de Literatura de Azerbaiyán",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Literatura_de_Azerbaiy%C3%A1n"
+        }
+      }
     },
     {
       "id": "az-q4058262",
@@ -170,10 +296,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Azerbaijani musical instruments and traditions.",
-        "es": "Museo de instrumentos musicales y tradiciones de Azerbaiyán."
+        "en": "The Azerbaijan State Museum of Musical Culture was opened in 1967, in Baku.",
+        "es": "Museo Estatal de Cultura Musical de Azerbaiyán - es la institución cultural de la República de Azerbaiyán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Azerbaijan State Museum of Musical Culture",
+          "url": "https://en.wikipedia.org/wiki/Azerbaijan_State_Museum_of_Musical_Culture"
+        },
+        "es": {
+          "title": "Museo Estatal de Cultura Musical de Azerbaiyán",
+          "url": "https://es.wikipedia.org/wiki/Museo_Estatal_de_Cultura_Musical_de_Azerbaiy%C3%A1n"
+        }
+      }
     },
     {
       "id": "az-q4306396",
@@ -187,10 +328,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on Azerbaijan's independence history, in Baku.",
-        "es": "Museo sobre la historia de la independencia de Azerbaiyán, en Bakú."
+        "en": "The Independence Museum of Azerbaijan or \"Istiqlal\" Museum – is a museum established on 7 December 1919 in Baku – the capital of the Azerbaijan Democratic Republic.",
+        "es": "El Museo de la Independencia de Azerbaiyán es un museo fundado el 7 de diciembre de 1919 en Bakú, la capital de Azerbaiyán, que refleja las etapas de la lucha…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Independence Museum of Azerbaijan",
+          "url": "https://en.wikipedia.org/wiki/Independence_Museum_of_Azerbaijan"
+        },
+        "es": {
+          "title": "Museo de Independencia de Azerbaiyán",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Independencia_de_Azerbaiy%C3%A1n"
+        }
+      }
     }
   ]
 }

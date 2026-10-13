@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum and art gallery in Port of Spain.",
+        "en": "The National Museum and Art Gallery is the national museum of Trinidad and Tobago, in Port of Spain on Trinidad island.",
         "es": "Museo nacional y galería de arte en Puerto España."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum and Art Gallery, Trinidad",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_and_Art_Gallery%2C_Trinidad"
+        }
+      }
     },
     {
       "id": "tt-q2198266",
@@ -50,10 +67,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo in Port of Spain with local and exotic animals.",
-        "es": "Zoológico en Puerto España con animales locales y exóticos."
+        "en": "The Emperor Valley Zoo is the only public zoo in Trinidad and Tobago.",
+        "es": "El Zoológico Valle del Emperador es el principal zoológico en Trinidad y Tobago."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Emperor Valley Zoo",
+          "url": "https://en.wikipedia.org/wiki/Emperor_Valley_Zoo"
+        },
+        "es": {
+          "title": "Zoológico Valle del Emperador",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_Valle_del_Emperador"
+        }
+      }
     }
   ]
 }

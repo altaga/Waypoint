@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Modern national museum in Amman on Jordan's history.",
-        "es": "Museo nacional moderno en Amán sobre la historia de Jordania."
+        "en": "The Jordan Museum is located in Ras al-Ein district of Amman, Jordan.",
+        "es": "El Museo de Jordania se encuentra en el distrito de Ras Al-Ein en Amán, Jordania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Jordan Museum",
+          "url": "https://en.wikipedia.org/wiki/Jordan_Museum"
+        },
+        "es": {
+          "title": "Museo de Jordania",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Jordania"
+        }
+      }
     },
     {
       "id": "jo-q1444552",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Archaeology museum in Amman with regional finds.",
-        "es": "Museo de arqueología en Amán con hallazgos de la región."
+        "en": "The Amman Citadel on Citadel Hill is an archaeological site on an L-shaped hill towering over Downtown Amman, in the central part of the capital of Jordan.",
+        "es": "El Museo Arqueológico de Jordania está situado en la cima de la Ciudadela en Amán (Jordania) y fue construido en 1951."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Amman Citadel",
+          "url": "https://en.wikipedia.org/wiki/Amman_Citadel"
+        },
+        "es": {
+          "title": "Museo Arqueológico de Jordania",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Jordania"
+        }
+      }
     },
     {
       "id": "jo-q48816519",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Military museum with tanks and armored vehicles in Amman.",
-        "es": "Museo militar con tanques y vehículos blindados en Amán."
+        "en": "The Royal Tank Museum is a military museum in Amman, Jordan, inaugurated on January 29, 2018.",
+        "es": "Museo Real de Tanques, es un museo militar ubicado en Amán, capital de Jordania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Royal Tank Museum",
+          "url": "https://en.wikipedia.org/wiki/Royal_Tank_Museum"
+        },
+        "es": {
+          "title": "Museo Real de Tanques",
+          "url": "https://es.wikipedia.org/wiki/Museo_Real_de_Tanques"
+        }
+      }
     },
     {
       "id": "jo-q14753682",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "National gallery of fine art in Amman.",
-        "es": "Galería nacional de bellas artes en Amán."
+        "en": "The Jordan National Gallery of Fine Arts is a major contemporary art museum located in Jabal al-Luweibdeh, Amman.",
+        "es": "La Galería Nacional de Bellas Artes de Jordania es un importante museo de arte contemporáneo ubicado en Amán, Jordania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Jordan National Gallery of Fine Arts",
+          "url": "https://en.wikipedia.org/wiki/Jordan_National_Gallery_of_Fine_Arts"
+        },
+        "es": {
+          "title": "Galería Nacional de Bellas Artes de Jordania",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Bellas_Artes_de_Jordania"
+        }
+      }
     },
     {
       "id": "jo-q584088",
@@ -100,10 +166,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Archaeology museum in the port city of Aqaba.",
-        "es": "Museo de arqueología en la ciudad portuaria de Aqaba."
+        "en": "Aqaba Archaeological Museum is the official archaeological museum of the city of Aqaba in Jordan.",
+        "es": "El Museo Arqueológico de Áqaba es el museo arqueológico oficial de la ciudad de Áqaba en Jordania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Aqaba Archaeological Museum",
+          "url": "https://en.wikipedia.org/wiki/Aqaba_Archaeological_Museum"
+        },
+        "es": {
+          "title": "Museo Arqueológico de Áqaba",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_%C3%81qaba"
+        }
+      }
     },
     {
       "id": "jo-q7250285",
@@ -118,10 +199,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum about the life of the Prophet Muhammad, in an Amman park.",
+        "en": "The King Hussein Bin Talal Mosque, better known as the King Hussein Mosque, is a mosque and religious museum located in the city of Amman, the capital of Jordan.",
         "es": "Museo sobre la vida del profeta Mahoma, en un parque de Amán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "King Hussein Mosque",
+          "url": "https://en.wikipedia.org/wiki/King_Hussein_Mosque"
+        }
+      }
     },
     {
       "id": "jo-q25378784",
@@ -135,10 +227,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum about the Dead Sea region and its geography.",
+        "en": "The Museum at the Lowest Place on Earth is an archaeological museum located in the Ghor es-Safi, Jordan.",
         "es": "Museo sobre la región del mar Muerto y su geografía."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum at the Lowest Place on Earth",
+          "url": "https://en.wikipedia.org/wiki/Museum_at_the_Lowest_Place_on_Earth"
+        }
+      }
     },
     {
       "id": "jo-q1796169",
@@ -152,10 +255,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of historic royal cars in Amman.",
+        "en": "The Royal Automobile Museum is an automobile museum in Amman, Jordan.",
         "es": "Museo de automóviles reales históricos en Amán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Royal Automobile Museum",
+          "url": "https://en.wikipedia.org/wiki/Royal_Automobile_Museum"
+        }
+      }
     }
   ]
 }

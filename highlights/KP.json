@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -31,11 +37,26 @@
       ],
       "durationMinutes": 480,
       "desc": {
-        "en": "Mountain range on the North Korea-China border.",
-        "es": "Cordillera en la frontera entre Corea del Norte y China."
+        "en": "The Changbai Mountains are a major mountain range in East Asia that extends from the Northeast Chinese provinces of Heilongjiang, Jilin and Liaoning, across the China-North Korea border, to the…",
+        "es": "Las montañas Changbai o Changbaishan ; ; en chino tradicional, 長白山地; en chino simplificado, 长白山地; pinyin, Chángbái Shāndì; Wade-Giles, Ch’ang-pai Shan-ti, también llamadas montañas Ohnan o cordillera de Changbai, de…"
       },
       "sourceId": "wikidata",
-      "admission": "Foreign visitors must go on an organised tour."
+      "admission": "Foreign visitors must go on an organised tour.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Changbai Mountains",
+          "url": "https://en.wikipedia.org/wiki/Changbai_Mountains"
+        },
+        "es": {
+          "title": "Montañas Changbai",
+          "url": "https://es.wikipedia.org/wiki/Monta%C3%B1as_Changbai"
+        }
+      }
     },
     {
       "id": "kp-q708588",
@@ -49,11 +70,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of gifts given to North Korea's leaders, in North Pyongan Province.",
-        "es": "Museo de regalos ofrecidos a los líderes de Corea del Norte, en la provincia de Pyongan del Norte."
+        "en": "The International Friendship Exhibition is a large museum complex located at Myohyangsan, North Pyongan Province, North Korea.",
+        "es": "La Exposición Internacional de la Amistad es un gran museo ubicado al oeste de Pionyang."
       },
       "sourceId": "wikidata",
-      "admission": "Foreign visitors must go on an organised tour."
+      "admission": "Foreign visitors must go on an organised tour.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "International Friendship Exhibition",
+          "url": "https://en.wikipedia.org/wiki/International_Friendship_Exhibition"
+        },
+        "es": {
+          "title": "Exposición Internacional de la Amistad",
+          "url": "https://es.wikipedia.org/wiki/Exposici%C3%B3n_Internacional_de_la_Amistad"
+        }
+      }
     },
     {
       "id": "kp-q1326244",
@@ -67,11 +103,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of the Korean revolutionary movement in Pyongyang.",
-        "es": "Museo del movimiento revolucionario coreano en Pyongyang."
+        "en": "The Korean Revolution Museum (Korean: 조선혁명박물관), located in Pyongyang, North Korea, was founded on August 1, 1948, and holds a large exhibition of items related to Kim Il Sung and…",
+        "es": "El Museo de la Revolución Coreana, ubicada en Pionyang, Corea del Norte, fue fundado el 1 de agosto de 1948 y alberga una gran exhibición de artículos relacionados con Kim…"
       },
       "sourceId": "wikidata",
-      "admission": "Foreign visitors must go on an organised tour."
+      "admission": "Foreign visitors must go on an organised tour.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Korean Revolution Museum",
+          "url": "https://en.wikipedia.org/wiki/Korean_Revolution_Museum"
+        },
+        "es": {
+          "title": "Museo de la Revolución Coreana",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Revoluci%C3%B3n_Coreana"
+        }
+      }
     },
     {
       "id": "kp-q708915",
@@ -85,11 +136,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Zoo in Pyongyang.",
-        "es": "Zoológico en Pyongyang."
+        "en": "The Korea Central Zoo, also referred to as the Pyongyang Central Zoo, is the national zoo of North Korea.",
+        "es": "El Zoológico central de Corea, es el zoológico nacional de Corea del Norte."
       },
       "sourceId": "wikidata",
-      "admission": "Foreign visitors must go on an organised tour."
+      "admission": "Foreign visitors must go on an organised tour.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Korea Central Zoo",
+          "url": "https://en.wikipedia.org/wiki/Korea_Central_Zoo"
+        },
+        "es": {
+          "title": "Zoológico central de Corea",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_central_de_Corea"
+        }
+      }
     },
     {
       "id": "kp-q5047540",
@@ -103,11 +169,22 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "History museum in Pyongyang covering Korea's past.",
+        "en": "The Korean Central History Museum is a museum located in Pyongyang, North Korea.",
         "es": "Museo de historia en Pyongyang sobre el pasado de Corea."
       },
       "sourceId": "wikidata",
-      "admission": "Foreign visitors must go on an organised tour."
+      "admission": "Foreign visitors must go on an organised tour.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Korean Central History Museum",
+          "url": "https://en.wikipedia.org/wiki/Korean_Central_History_Museum"
+        }
+      }
     },
     {
       "id": "kp-q17198628",
@@ -120,11 +197,26 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Large water park in Pyongyang.",
-        "es": "Gran parque acuático en Pyongyang."
+        "en": "Munsu Water Park is a state run water park located in the east of Pyongyang, North Korea, which opened to the public in November 2013.",
+        "es": "El Parque acuático Munsu es un parque acuático estatal ubicado en el este de Pyongyang, Corea del Norte, que se abrió al público en noviembre de 2013."
       },
       "sourceId": "wikidata",
-      "admission": "Foreign visitors must go on an organised tour."
+      "admission": "Foreign visitors must go on an organised tour.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Munsu Water Park",
+          "url": "https://en.wikipedia.org/wiki/Munsu_Water_Park"
+        },
+        "es": {
+          "title": "Parque acuático Munsu",
+          "url": "https://es.wikipedia.org/wiki/Parque_acu%C3%A1tico_Munsu"
+        }
+      }
     },
     {
       "id": "kp-q11588512",
@@ -138,11 +230,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum about the Korean War in Pyongyang.",
-        "es": "Museo sobre la guerra de Corea en Pyongyang."
+        "en": "The Victorious Fatherland Liberation War Museum is a history and military museum dedicated to the Korean War located in North Korea's capital of Pyongyang.",
+        "es": "El Museo de la Guerra Victoriosa, o Museo de la Guerra de Liberación de la Patria Victoriosa, es un museo histórico militar dedicado a la Guerra de Corea ubicado en…"
       },
       "sourceId": "wikidata",
-      "admission": "Foreign visitors must go on an organised tour."
+      "admission": "Foreign visitors must go on an organised tour.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Victorious War Museum",
+          "url": "https://en.wikipedia.org/wiki/Victorious_War_Museum"
+        },
+        "es": {
+          "title": "Museo de la Guerra Victoriosa",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Guerra_Victoriosa"
+        }
+      }
     }
   ]
 }

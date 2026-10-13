@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum on Suriname's history and culture, in Paramaribo.",
-        "es": "Museo nacional sobre la historia y cultura de Surinam, en Paramaribo."
+        "en": "The Surinaams Museum is a museum located at Abraham Crijnssenweg 1 in Fort Zeelandia, Paramaribo, Suriname.",
+        "es": "El Museo de Surinam es un museo situado en Abraham Crijnssenweg 1 en el Fuerte Zeelandia, en el país sudamericano de Surinam."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Surinaams Museum",
+          "url": "https://en.wikipedia.org/wiki/Surinaams_Museum"
+        },
+        "es": {
+          "title": "Museo de Surinam",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Surinam"
+        }
+      }
     },
     {
       "id": "sr-q922908",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo in Paramaribo with tropical animals.",
-        "es": "Zoológico en Paramaribo con animales tropicales."
+        "en": "The Paramaribo Zoo is the only zoo in Paramaribo, Suriname.",
+        "es": "El Zoológico de Paramaribo es el único zoológico en el país sudamericano de Surinam."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Paramaribo Zoo",
+          "url": "https://en.wikipedia.org/wiki/Paramaribo_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Paramaribo",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Paramaribo"
+        }
+      }
     }
   ]
 }

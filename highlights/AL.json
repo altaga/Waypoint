@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Albanian history on Skanderbeg Square, Tirana.",
-        "es": "Museo de la historia albanesa en la plaza Skanderbeg de Tirana."
+        "en": "The National History Museum is a historical museum in Tirana, Albania.",
+        "es": "El Museo Histórico Nacional está ubicado en Tirana, Albania, y se trata del museo más grande del país."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National History Museum (Albania)",
+          "url": "https://en.wikipedia.org/wiki/National_History_Museum_(Albania)"
+        },
+        "es": {
+          "title": "Museo Histórico Nacional (Albania)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Hist%C3%B3rico_Nacional_(Albania)"
+        }
+      }
     },
     {
       "id": "al-q3303191",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum dedicated to national hero Skanderbeg, in Krujë.",
-        "es": "Museo dedicado al héroe nacional Skanderbeg, en Krujë."
+        "en": "The National History Museum \"Gjergj Kastrioti Skënderbeu\", also known as the Skanderbeg Museum or the Kruja Museum, is located in Krujë and is one of the most important and visited…",
+        "es": "El Museo Skanderbeg, también conocido como Museo Krujë o Museo Nacional \"Gjergj Kastrioti Skënderbeu\", se encuentra en Krujë y es uno de los museos más importantes y visitados de Albania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Skanderbeg Museum",
+          "url": "https://en.wikipedia.org/wiki/Skanderbeg_Museum"
+        },
+        "es": {
+          "title": "Museo Skanderbeg",
+          "url": "https://es.wikipedia.org/wiki/Museo_Skanderbeg"
+        }
+      }
     },
     {
       "id": "al-q37858697",
@@ -66,10 +102,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum on state surveillance in the communist era, in Tirana.",
+        "en": "The Museum of Secret Surveillance, also known as House of Leaves is a historical museum in Tirana, Albania.",
         "es": "Museo sobre la vigilancia estatal en la época comunista, en Tirana."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Secret Surveillance",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Secret_Surveillance"
+        }
+      }
     },
     {
       "id": "al-q637170",
@@ -83,10 +130,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Archaeological museum with finds from across Albania.",
-        "es": "Museo arqueológico con hallazgos de toda Albania."
+        "en": "The National Archaeological Museum is the national archaeological museum in Tirana, Albania opened on 1 November 1948.",
+        "es": "El Museo Arqueológico Nacional es un Museo Arqueológico Nacional en la ciudad de Tirana, en Albania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Archaeological Museum (Tirana)",
+          "url": "https://en.wikipedia.org/wiki/National_Archaeological_Museum_(Tirana)"
+        },
+        "es": {
+          "title": "Museo Arqueológico Nacional (Tirana)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_Nacional_(Tirana)"
+        }
+      }
     },
     {
       "id": "al-q1968108",
@@ -100,10 +162,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "National art gallery with Albanian painting and sculpture.",
-        "es": "Galería nacional de arte con pintura y escultura albanesas."
+        "en": "The National Museum of Fine Arts is a national art museum in Tirana, Albania, under the supervision of the Ministry of Economy, Culture and Innovation.",
+        "es": "La Galería Nacional de Arte de Albania es un museo ubicado en Tirana y que está bajo la supervisión del Ministerio de Cultura de Albania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Fine Arts (Albania)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Fine_Arts_(Albania)"
+        },
+        "es": {
+          "title": "Galería Nacional de Arte (Albania)",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Arte_(Albania)"
+        }
+      }
     },
     {
       "id": "al-q5316767",
@@ -117,10 +194,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of finds from the ancient port city of Durrës.",
-        "es": "Museo con hallazgos de la antigua ciudad portuaria de Durrës."
+        "en": "The Archaeological Museum of Durrës in Durrës, Albania, established in 1951, is the largest archaeological museum in the country.",
+        "es": "El Museo Arqueológico de Durrës en Durrës, Albania, inaugurado en 1951, es el museo arqueológico más grande del país."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Archaeological Museum of Durrës",
+          "url": "https://en.wikipedia.org/wiki/Archaeological_Museum_of_Durr%C3%ABs"
+        },
+        "es": {
+          "title": "Museo Arqueológico de Durrës",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Durr%C3%ABs"
+        }
+      }
     },
     {
       "id": "al-q6940744",
@@ -134,10 +226,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum at the ancient city of Apollonia.",
-        "es": "Museo en la antigua ciudad de Apolonia."
+        "en": "The Archaeological Museum of Apolonia is an archaeological museum approximately 8 km (5.0 mi) west of Fier, Albania.",
+        "es": "El Museo de Apollonia o Museo Arqueológico de Fier es un museo arqueológico aproximadamente a 8 km al oeste de Fier, Albania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Archaeological Museum of Apolonia",
+          "url": "https://en.wikipedia.org/wiki/Archaeological_Museum_of_Apolonia"
+        },
+        "es": {
+          "title": "Museo de Apolonia",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Apolonia"
+        }
+      }
     },
     {
       "id": "al-q6974484",
@@ -151,10 +258,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of medieval icons and religious art, in Korçë.",
-        "es": "Museo de iconos y arte religioso medieval, en Korçë."
+        "en": "The National Museum of Medieval Art is a national museum dedicated to medieval art and history in Korçë, Albania.",
+        "es": "El Museo Nacional de Arte Medieval es un museo en Korçë, Albania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Medieval Art (Albania)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Medieval_Art_(Albania)"
+        },
+        "es": {
+          "title": "Museo Nacional de Arte Medieval",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_Medieval"
+        }
+      }
     }
   ]
 }

@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -31,10 +37,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Limestone caves with deep pools near Chinhoyi.",
-        "es": "Cuevas de piedra caliza con pozas profundas cerca de Chinhoyi."
+        "en": "The Chinhoyi Caves are a group of limestone and dolomite caves in north central Zimbabwe.",
+        "es": "Cuevas Chinhoyi son un grupo de cuevas declaradas parque nacional en 1995 cerca de la ciudad de Chinhoyi en el país africano de Zimbabue."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Chinhoyi Caves",
+          "url": "https://en.wikipedia.org/wiki/Chinhoyi_Caves"
+        },
+        "es": {
+          "title": "Cuevas Chinhoyi",
+          "url": "https://es.wikipedia.org/wiki/Cuevas_Chinhoyi"
+        }
+      }
     },
     {
       "id": "zw-q4113712",
@@ -48,10 +69,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National art gallery in Harare.",
-        "es": "Galería nacional de arte en Harare."
+        "en": "The National Gallery of Zimbabwe (NGZ) is a gallery in Harare, Zimbabwe, dedicated to the presentation and conservation of Zimbabwe's contemporary art and visual heritage.",
+        "es": "La Galería Nacional de Zimbabue es una galería en Harare, Zimbabue, dedicada a la presentación y conservación de arte contemporáneo de Zimbabue y patrimonio visual."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Gallery of Zimbabwe",
+          "url": "https://en.wikipedia.org/wiki/National_Gallery_of_Zimbabwe"
+        },
+        "es": {
+          "title": "Galería Nacional de Zimbabue",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Zimbabue"
+        }
+      }
     },
     {
       "id": "zw-q203414",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Railway museum in Bulawayo.",
-        "es": "Museo ferroviario en Bulawayo."
+        "en": "Bulawayo Railway Museum is a railway museum located at Bulawayo railway station in Zimbabwe that houses several exhibitions on the history of the railway system in Zimbabwe, formerly Rhodesia.",
+        "es": "El Museo del Ferrocarril de Bulawayo es un museo del ferrocarril ubicado en la estación de tren de Bulawayo en Zimbabue, que alberga varias exposiciones sobre la historia del sistema…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bulawayo Railway Museum",
+          "url": "https://en.wikipedia.org/wiki/Bulawayo_Railway_Museum"
+        },
+        "es": {
+          "title": "Museo del Ferrocarril de Bulawayo",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Ferrocarril_de_Bulawayo"
+        }
+      }
     },
     {
       "id": "zw-q8071996",
@@ -83,10 +134,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of human sciences and history in Harare.",
+        "en": "The Zimbabwe Museum of Human Sciences is a national museum in Harare, Zimbabwe.",
         "es": "Museo de ciencias humanas e historia en Harare."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Zimbabwe Museum of Human Sciences",
+          "url": "https://en.wikipedia.org/wiki/Zimbabwe_Museum_of_Human_Sciences"
+        }
+      }
     },
     {
       "id": "zw-q507403",
@@ -100,10 +162,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Sculpture park showcasing Shona stone sculpture.",
-        "es": "Parque de esculturas que muestra la escultura en piedra shona."
+        "en": "The Chapungu Sculpture Park is a sculpture garden in Msasa, Harare, Zimbabwe, which displays the work of Zimbabwean stone sculptors.",
+        "es": "El Parque de esculturas Chapungu es un jardín de esculturas en Msasa, Harare, Zimbabue, que muestra los trabajos realizados en piedra de escultores Zimbabue."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Chapungu Sculpture Park",
+          "url": "https://en.wikipedia.org/wiki/Chapungu_Sculpture_Park"
+        },
+        "es": {
+          "title": "Parque de esculturas Chapungu",
+          "url": "https://es.wikipedia.org/wiki/Parque_de_esculturas_Chapungu"
+        }
+      }
     },
     {
       "id": "zw-q1771023",
@@ -117,10 +194,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum in Mutare, in eastern Zimbabwe.",
-        "es": "Museo en Mutare, en el este de Zimbabue."
+        "en": "Mutare Museum is a museum in Mutare, Zimbabwe.",
+        "es": "El Museo de Mutare es un museo en Mutare, en el país africano de Zimbabue."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mutare Museum",
+          "url": "https://en.wikipedia.org/wiki/Mutare_Museum"
+        },
+        "es": {
+          "title": "Museo de Mutare",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Mutare"
+        }
+      }
     },
     {
       "id": "zw-q1771439",
@@ -135,10 +227,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Natural history museum in Bulawayo.",
-        "es": "Museo de historia natural en Bulawayo."
+        "en": "The Natural History Museum of Zimbabwe is located in Bulawayo, Zimbabwe, on Leopold Takawira Avenue.",
+        "es": "El Museo de historia natural de Zimbabue se encuentra en Bulawayo, en el país africano de Zimbabue sobre la avenida Leopold Takawira."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Natural History Museum of Zimbabwe",
+          "url": "https://en.wikipedia.org/wiki/Natural_History_Museum_of_Zimbabwe"
+        },
+        "es": {
+          "title": "Museo de historia natural de Zimbabue",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_historia_natural_de_Zimbabue"
+        }
+      }
     }
   ]
 }

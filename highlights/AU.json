@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Performing arts venue on Sydney Harbour, with sail-like roofs.",
-        "es": "Centro de artes escénicas en el puerto de Sídney, con techos en forma de velas."
+        "en": "The Sydney Opera House is a multi-venue performing arts centre in Sydney, New South Wales, Australia.",
+        "es": "La Ópera de Sídney, situada en la ciudad de Sídney, estado de Nueva Gales del Sur, Australia, es uno de los edificios más famosos y distintivos del siglo XX."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sydney Opera House",
+          "url": "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+        },
+        "es": {
+          "title": "Ópera de Sídney",
+          "url": "https://es.wikipedia.org/wiki/%C3%93pera_de_S%C3%ADdney"
+        }
+      }
     },
     {
       "id": "au-q623578",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National library in Canberra, with exhibition galleries.",
-        "es": "Biblioteca nacional en Canberra, con salas de exposición."
+        "en": "The National Library of Australia (NLA), formerly the Commonwealth National Library and Commonwealth Parliament Library, is the largest reference library in Australia, responsible under the terms of the National Library…",
+        "es": "La Biblioteca Nacional de Australia está localizada en la ciudad de Camberra, capital de Australia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Library of Australia",
+          "url": "https://en.wikipedia.org/wiki/National_Library_of_Australia"
+        },
+        "es": {
+          "title": "Biblioteca Nacional de Australia",
+          "url": "https://es.wikipedia.org/wiki/Biblioteca_Nacional_de_Australia"
+        }
+      }
     },
     {
       "id": "au-q1135796",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Fossil-rich limestone cave system in South Australia, a World Heritage site.",
-        "es": "Sistema de cuevas de piedra caliza con fósiles en Australia Meridional, patrimonio mundial."
+        "en": "Naracoorte Caves National Park is a national park near Naracoorte in the Limestone Coast tourism region in the south-east of South Australia (Australia).",
+        "es": "Cuevas de Naracoorte es un parque nacional australiano situado cerca de la ciudad de Naracoorte, en la costa de caliza; una región turística en el sudeste del estado de Australia…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Naracoorte Caves National Park",
+          "url": "https://en.wikipedia.org/wiki/Naracoorte_Caves_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Cuevas de Naracoorte",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Cuevas_de_Naracoorte"
+        }
+      }
     },
     {
       "id": "au-q1464509",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Art museum in Melbourne, with Australian and international art.",
-        "es": "Museo de arte en Melbourne, con arte australiano e internacional."
+        "en": "The National Gallery of Victoria, popularly known as the NGV, is an art museum in Melbourne, Victoria, Australia.",
+        "es": "La Galería Nacional de Victoria, popularmente conocido como la NGV por sus siglas en inglés, es un museo y galería de arte de Melbourne, Australia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Gallery of Victoria",
+          "url": "https://en.wikipedia.org/wiki/National_Gallery_of_Victoria"
+        },
+        "es": {
+          "title": "Galería Nacional de Victoria",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Victoria"
+        }
+      }
     },
     {
       "id": "au-q795228",
@@ -100,10 +166,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National art museum in Canberra.",
-        "es": "Museo nacional de arte en Canberra."
+        "en": "The National Gallery of Australia (NGA), formerly the Australian National Gallery, is the national art museum of Australia and one of the largest art museums in Australia, holding more than…",
+        "es": "La Galería Nacional de Australia es el museo nacional de arte de Australia, ubicado en Camberra, en el Territorio de la Capital Australiana."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Gallery of Australia",
+          "url": "https://en.wikipedia.org/wiki/National_Gallery_of_Australia"
+        },
+        "es": {
+          "title": "Galería Nacional de Australia",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Australia"
+        }
+      }
     },
     {
       "id": "au-q1858105",
@@ -117,10 +198,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Federal Parliament building in Canberra, open to visitors.",
-        "es": "Edificio del Parlamento federal en Canberra, abierto a visitantes."
+        "en": "Parliament House is the meeting place of the Parliament of Australia, the legislative branch of Australia's federal tier of government.",
+        "es": "Parliament House es el lugar de reunión del Parlamento de Australia, ubicado en Canberra, la capital de Australia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Parliament House, Canberra",
+          "url": "https://en.wikipedia.org/wiki/Parliament_House%2C_Canberra"
+        },
+        "es": {
+          "title": "Parliament House",
+          "url": "https://es.wikipedia.org/wiki/Parliament_House"
+        }
+      }
     },
     {
       "id": "au-q769416",
@@ -135,10 +231,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Natural history and cultural museum in Sydney.",
-        "es": "Museo de historia natural y cultural en Sídney."
+        "en": "The Australian Museum, originally known as the Colonial Museum and Sydney Museum, is a state public museum in Sydney, New South Wales, Australia.",
+        "es": "El Museo Australiano es un museo de Australia localizado en el distrito central de negocios de Sídney, Nueva Gales del Sur."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Australian Museum",
+          "url": "https://en.wikipedia.org/wiki/Australian_Museum"
+        },
+        "es": {
+          "title": "Museo Australiano",
+          "url": "https://es.wikipedia.org/wiki/Museo_Australiano"
+        }
+      }
     },
     {
       "id": "au-q1064813",
@@ -152,10 +263,25 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Zoo on Sydney Harbour, with wildlife and harbour views.",
-        "es": "Zoológico junto al puerto de Sídney, con fauna y vistas a la bahía."
+        "en": "Taronga Zoo Sydney is a government-run public zoo located in Sydney, New South Wales, Australia, in the Lower North Shore suburb of Mosman, on the shores of Sydney Harbour.",
+        "es": "El Zoológico Taronga es el zoológico de la ciudad de Sídney, Nueva Gales del Sur, Australia; el mismo se encuentra ubicado sobre la orilla de la bahía de Sídney en…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Taronga Zoo",
+          "url": "https://en.wikipedia.org/wiki/Taronga_Zoo"
+        },
+        "es": {
+          "title": "Zoológico Taronga",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_Taronga"
+        }
+      }
     },
     {
       "id": "au-q705551",
@@ -169,10 +295,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Art museum in Sydney's Domain parkland.",
-        "es": "Museo de arte en el parque The Domain de Sídney."
+        "en": "The Art Gallery of New South Wales (AGNSW), founded as the New South Wales Academy of Art in 1872 and known as the National Art Gallery of New South Wales…",
+        "es": "La Galería de Arte de Nueva Gales del Sur (AGNSW), ubicada en The Domain en Sídney, Nueva Gales del Sur, Australia, es la galería pública más importante de Sídney y…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Art Gallery of New South Wales",
+          "url": "https://en.wikipedia.org/wiki/Art_Gallery_of_New_South_Wales"
+        },
+        "es": {
+          "title": "Galería de Arte de Nueva Gales del Sur",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_de_Arte_de_Nueva_Gales_del_Sur"
+        }
+      }
     },
     {
       "id": "au-q705557",
@@ -186,10 +327,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Art museum in Adelaide with Australian and international collections.",
-        "es": "Museo de arte en Adelaida con colecciones australianas e internacionales."
+        "en": "The Art Gallery of South Australia (AGSA), established as the National Gallery of South Australia in 1881, is located in Adelaide.",
+        "es": "La Galería de Arte de Australia del Sur, fundada como Galería Nacional de Australia del Sur en 1881, se encuentra en Adelaida."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Art Gallery of South Australia",
+          "url": "https://en.wikipedia.org/wiki/Art_Gallery_of_South_Australia"
+        },
+        "es": {
+          "title": "Galería de Arte de Australia del Sur",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_de_Arte_de_Australia_del_Sur"
+        }
+      }
     }
   ]
 }

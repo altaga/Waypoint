@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Spa town south of Vienna, with historic buildings and thermal baths.",
-        "es": "Ciudad balneario al sur de Viena, con edificios históricos y baños termales."
+        "en": "Baden, unofficially distinguished from other Badens as Baden bei Wien, is a spa town in Austria.",
+        "es": "Baden bei Wien es una localidad-balneario austriaca de la Baja Austria y capital del distrito de Baden localizada a 26 km al sur de Viena, Wiener Neustadt."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Baden bei Wien",
+          "url": "https://en.wikipedia.org/wiki/Baden_bei_Wien"
+        },
+        "es": {
+          "title": "Baden bei Wien",
+          "url": "https://es.wikipedia.org/wiki/Baden_bei_Wien"
+        }
+      }
     },
     {
       "id": "at-q254835",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Alpine spa town with thermal waters and nearby waterfalls.",
-        "es": "Localidad alpina balneario con aguas termales y cascadas cercanas."
+        "en": "Bad Gastein is a spa town in the St. Johann im Pongau District of Austria.",
+        "es": "Bad Gastein es un municipio balneario de Austria situado en el estado de Salzburgo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bad Gastein",
+          "url": "https://en.wikipedia.org/wiki/Bad_Gastein"
+        },
+        "es": {
+          "title": "Bad Gastein",
+          "url": "https://es.wikipedia.org/wiki/Bad_Gastein"
+        }
+      }
     },
     {
       "id": "at-q46242",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Former imperial palace in Vienna, with museums and state apartments.",
-        "es": "Antiguo palacio imperial en Viena, con museos y apartamentos estatales."
+        "en": "The Hofburg is the former principal imperial palace of the Habsburg dynasty in Austria.",
+        "es": "El Palacio Imperial de Hofburg es el antiguo palacio imperial principal de la Casa de Habsburgo en Austria."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Hofburg",
+          "url": "https://en.wikipedia.org/wiki/Hofburg"
+        },
+        "es": {
+          "title": "Palacio Imperial de Hofburg",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Imperial_de_Hofburg"
+        }
+      }
     },
     {
       "id": "at-q160139",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Former Nazi concentration camp, now a memorial and museum.",
-        "es": "Antiguo campo de concentración nazi, hoy memorial y museo."
+        "en": "Mauthausen was a Nazi concentration camp on a hill above the market town of Mauthausen in Upper Austria.",
+        "es": "El campo de concentración de Mauthausen fue un grupo de campos de concentración nazis situados en torno a la pequeña empresa y cantera, de la población de Mauthausen en Austria,…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mauthausen concentration camp",
+          "url": "https://en.wikipedia.org/wiki/Mauthausen_concentration_camp"
+        },
+        "es": {
+          "title": "Campo de concentración de Mauthausen-Gusen",
+          "url": "https://es.wikipedia.org/wiki/Campo_de_concentraci%C3%B3n_de_Mauthausen-Gusen"
+        }
+      }
     },
     {
       "id": "at-q95569",
@@ -101,10 +167,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Art and antiquities museum in Vienna.",
-        "es": "Museo de arte y antigüedades en Viena."
+        "en": "The Kunsthistorisches Museum Wien is an art museum in Vienna, Austria.",
+        "es": "El Museo de Historia del Arte de Viena es uno de los primeros museos de bellas artes y artes decorativas del mundo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kunsthistorisches Museum",
+          "url": "https://en.wikipedia.org/wiki/Kunsthistorisches_Museum"
+        },
+        "es": {
+          "title": "Museo de Historia del Arte de Viena",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_del_Arte_de_Viena"
+        }
+      }
     },
     {
       "id": "at-q371908",
@@ -118,10 +199,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Vienna museum known for its prints, drawings and graphic art.",
-        "es": "Museo de Viena conocido por sus grabados, dibujos y arte gráfico."
+        "en": "The Albertina is a museum in the Innere Stadt of Vienna, Austria.",
+        "es": "La Albertina es un museo del centro de Viena, Austria."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Albertina",
+          "url": "https://en.wikipedia.org/wiki/Albertina"
+        },
+        "es": {
+          "title": "Albertina",
+          "url": "https://es.wikipedia.org/wiki/Albertina"
+        }
+      }
     },
     {
       "id": "at-q304037",
@@ -136,10 +232,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historic library in the Hofburg complex, Vienna.",
-        "es": "Biblioteca histórica en el complejo de la Hofburg, en Viena."
+        "en": "The Austrian National Library is the largest library in Austria, with more than 12 million items in its various collections.",
+        "es": "La Biblioteca Nacional de Austria, heredera de la antigua Biblioteca Imperial de los Habsburgo (Hofbibliothek), posee casi ocho millones de documentos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Austrian National Library",
+          "url": "https://en.wikipedia.org/wiki/Austrian_National_Library"
+        },
+        "es": {
+          "title": "Biblioteca Nacional de Austria",
+          "url": "https://es.wikipedia.org/wiki/Biblioteca_Nacional_de_Austria"
+        }
+      }
     },
     {
       "id": "at-q508815",
@@ -153,10 +264,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Roman archaeological site and museum near Vienna.",
-        "es": "Yacimiento arqueológico romano y museo cerca de Viena."
+        "en": "Carnuntum was a Roman legionary fortress and headquarters of the Pannonian fleet from 50 AD.",
+        "es": "Carnuntum a veces castellanizada como Carnunto, fue la capital de la provincia romana de Panonia, cerca de la frontera con el Noricum (Nórico), en lo que había sido en origen…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Carnuntum",
+          "url": "https://en.wikipedia.org/wiki/Carnuntum"
+        },
+        "es": {
+          "title": "Carnuntum",
+          "url": "https://es.wikipedia.org/wiki/Carnuntum"
+        }
+      }
     },
     {
       "id": "at-q688704",
@@ -170,10 +296,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Natural history museum in central Vienna.",
-        "es": "Museo de historia natural en el centro de Viena."
+        "en": "The Natural History Museum Vienna is a large natural history museum located in Vienna, Austria.",
+        "es": "El Museo de Historia Natural de Viena es un museo de historia natural situado en Viena, Austria."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Natural History Museum, Vienna",
+          "url": "https://en.wikipedia.org/wiki/Natural_History_Museum%2C_Vienna"
+        },
+        "es": {
+          "title": "Museo de Historia Natural de Viena",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Natural_de_Viena"
+        }
+      }
     }
   ]
 }

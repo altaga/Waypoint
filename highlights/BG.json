@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Old town on a Black Sea peninsula, a UNESCO World Heritage site.",
-        "es": "Casco antiguo en una península del mar Negro, patrimonio mundial de la UNESCO."
+        "en": "Nesebar is an ancient city and one of the major seaside resorts on the Bulgarian Black Sea Coast, located in Burgas Province.",
+        "es": "Nesebar, conocida antiguamente como Mesembria, es una ciudad búlgara de singular belleza situada en la costa búlgara del mar Negro, en la provincia de Burgas, y que tiene en la…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nesebar",
+          "url": "https://en.wikipedia.org/wiki/Nesebar"
+        },
+        "es": {
+          "title": "Nesebar",
+          "url": "https://es.wikipedia.org/wiki/Nesebar"
+        }
+      }
     },
     {
       "id": "bg-q271925",
@@ -51,10 +72,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Historic seaside town on the Black Sea coast, with an old town.",
-        "es": "Localidad costera histórica en la costa del mar Negro, con casco antiguo."
+        "en": "Sozopol is an ancient seaside town located 35 km south of Burgas on the southern Bulgarian Black Sea Coast.",
+        "es": "Sozopol es una antigua y pequeña ciudad localizada a 30 km al sur de Burgas, en la parte sur de la costa búlgara del mar Negro."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sozopol",
+          "url": "https://en.wikipedia.org/wiki/Sozopol"
+        },
+        "es": {
+          "title": "Sozopol",
+          "url": "https://es.wikipedia.org/wiki/Sozopol"
+        }
+      }
     },
     {
       "id": "bg-q43282",
@@ -68,10 +104,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Large Orthodox cathedral in central Sofia.",
-        "es": "Gran catedral ortodoxa en el centro de Sofía."
+        "en": "The St. Alexander Nevsky Cathedral is a Bulgarian Orthodox cathedral in Sofia, the capital of Bulgaria.",
+        "es": "La catedral de San Alejandro Nevski en Sofía, capital de Bulgaria, es la sede del Patriarcado de Bulgaria y una de las sesenta catedrales cristianas más grandes del mundo, así…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Saint Alexander Nevsky Cathedral, Sofia",
+          "url": "https://en.wikipedia.org/wiki/Saint_Alexander_Nevsky_Cathedral%2C_Sofia"
+        },
+        "es": {
+          "title": "Catedral de Alejandro Nevski de Sofía",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Alejandro_Nevski_de_Sof%C3%ADa"
+        }
+      }
     },
     {
       "id": "bg-q276553",
@@ -86,10 +137,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Medieval church near Sofia with well-preserved 13th-century frescoes.",
-        "es": "Iglesia medieval cerca de Sofía con frescos del siglo XIII bien conservados."
+        "en": "The Boyana Church is a medieval Bulgarian Orthodox church situated on the outskirts of Sofia, the capital of Bulgaria, in the Boyana quarter.",
+        "es": "La iglesia de Boyana es una iglesia ortodoxa búlgara medieval situada en las afueras de Sofía (Bulgaria), en el barrio de Boyana, al pie del macizo de Vitosha."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Boyana Church",
+          "url": "https://en.wikipedia.org/wiki/Boyana_Church"
+        },
+        "es": {
+          "title": "Iglesia de Boyana",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Boyana"
+        }
+      }
     },
     {
       "id": "bg-q331566",
@@ -103,10 +169,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Town in the Struma valley at the foot of the Pirin mountains.",
-        "es": "Localidad del valle del Struma, al pie de las montañas Pirin."
+        "en": "Sandanski is a town and a recreation center in southwestern Bulgaria, part of Blagoevgrad Province.",
+        "es": "Sandanski es una ciudad y un centro recreativo en el suroeste de Bulgaria."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sandanski",
+          "url": "https://en.wikipedia.org/wiki/Sandanski"
+        },
+        "es": {
+          "title": "Sandanski",
+          "url": "https://es.wikipedia.org/wiki/Sandanski"
+        }
+      }
     },
     {
       "id": "bg-q503387",
@@ -120,10 +201,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Medieval churches carved into rock, near Ruse, a UNESCO site.",
-        "es": "Iglesias medievales excavadas en la roca, cerca de Ruse, sitio de la UNESCO."
+        "en": "The Rock-hewn Churches of Ivanovo are a group of monolithic churches, chapels and monasteries hewn out of solid rock and completely different from other monastery complexes in Bulgaria, located near…",
+        "es": "Las iglesias rupestres de Ivanovo son un grupo de iglesias, capillas y monasterios tallados en la roca, situados cerca de la población de Ivanovo, a 16 km de la ciudad…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Rock-hewn Churches of Ivanovo",
+          "url": "https://en.wikipedia.org/wiki/Rock-hewn_Churches_of_Ivanovo"
+        },
+        "es": {
+          "title": "Iglesias rupestres de Ivanovo",
+          "url": "https://es.wikipedia.org/wiki/Iglesias_rupestres_de_Ivanovo"
+        }
+      }
     },
     {
       "id": "bg-q301815",
@@ -137,11 +233,26 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Thracian tomb with painted frescoes, a UNESCO site near Kazanlak.",
-        "es": "Tumba tracia con frescos pintados, sitio de la UNESCO cerca de Kazanlak."
+        "en": "The Thracian Tomb of Kazanlak is a vaulted-brickwork \"beehive\" (tholos) tomb that is located near the town of Kazanlak in central Bulgaria.",
+        "es": "La tumba tracia de Kazanlak es una construcción funeraria de ladrillo de tipo tholos situada en las cercanías de la ciudad de Kazanlak, en la provincia de Stara Zagora, en…"
       },
       "sourceId": "wikidata",
-      "admission": "The original tomb is usually closed to visitors; check on site for the replica."
+      "admission": "The original tomb is usually closed to visitors; check on site for the replica.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Thracian Tomb of Kazanlak",
+          "url": "https://en.wikipedia.org/wiki/Thracian_Tomb_of_Kazanlak"
+        },
+        "es": {
+          "title": "Tumba tracia de Kazanlak",
+          "url": "https://es.wikipedia.org/wiki/Tumba_tracia_de_Kazanlak"
+        }
+      }
     },
     {
       "id": "bg-q239989",
@@ -155,10 +266,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Spa town with Roman-era ruins and mineral springs.",
-        "es": "Localidad balneario con ruinas de la época romana y manantiales minerales."
+        "en": "Hisarya is a small town and a major spa resort in Plovdiv Province, central Bulgaria.",
+        "es": "Hisarya es una ciudad de Bulgaria en la provincia de Plovdiv."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Hisarya, Bulgaria",
+          "url": "https://en.wikipedia.org/wiki/Hisarya%2C_Bulgaria"
+        },
+        "es": {
+          "title": "Hisarya",
+          "url": "https://es.wikipedia.org/wiki/Hisarya"
+        }
+      }
     }
   ]
 }

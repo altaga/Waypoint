@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "mx-tourism": {
       "title": "Secretaría de Turismo de México (Visit Mexico)",
       "url": "https://www.visitmexico.com/en",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -36,7 +42,11 @@
         "en": "Pre-Hispanic city with the Pyramids of the Sun and the Moon.",
         "es": "Ciudad prehispánica con las pirámides del Sol y de la Luna."
       },
-      "sourceId": "mx-tourism"
+      "sourceId": "mx-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "mx-anthropology-museum",
@@ -54,7 +64,11 @@
         "en": "The national museum of Mexico's pre-Hispanic cultures.",
         "es": "El museo nacional de las culturas prehispánicas de México."
       },
-      "sourceId": "mx-tourism"
+      "sourceId": "mx-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "mx-bellas-artes",
@@ -72,7 +86,11 @@
         "en": "Marble palace with murals by Rivera, Siqueiros and Orozco.",
         "es": "Palacio de mármol con murales de Rivera, Siqueiros y Orozco."
       },
-      "sourceId": "mx-tourism"
+      "sourceId": "mx-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "mx-xochimilco",
@@ -90,7 +108,11 @@
         "en": "Colorful boats on the canals, with food and music on board.",
         "es": "Trajineras de colores en los canales, con comida y música."
       },
-      "sourceId": "mx-tourism"
+      "sourceId": "mx-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "mx-coyoacan",
@@ -108,7 +130,11 @@
         "en": "The house where Frida Kahlo lived and worked. Book tickets ahead.",
         "es": "La casa donde vivió y trabajó Frida Kahlo. Reserva boletos con anticipación."
       },
-      "sourceId": "mx-tourism"
+      "sourceId": "mx-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "mx-san-juan-market",
@@ -125,7 +151,11 @@
         "en": "Market with exotic ingredients and prepared food stalls.",
         "es": "Mercado con ingredientes exóticos y puestos de comida preparada."
       },
-      "sourceId": "mx-tourism"
+      "sourceId": "mx-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "mx-monte-alban",
@@ -143,7 +173,11 @@
         "en": "Zapotec ceremonial center on a mountaintop above Oaxaca city.",
         "es": "Centro ceremonial zapoteca sobre una montaña, cerca de Oaxaca."
       },
-      "sourceId": "mx-tourism"
+      "sourceId": "mx-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "mx-tulum-ruins",
@@ -161,7 +195,11 @@
         "en": "Maya cliff-top ruins above a turquoise beach.",
         "es": "Ruinas mayas sobre un acantilado frente a una playa turquesa."
       },
-      "sourceId": "mx-tourism"
+      "sourceId": "mx-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -31,10 +37,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Botanic garden in Belize with native and tropical plant collections.",
-        "es": "Jardín botánico en Belice con colecciones de plantas nativas y tropicales."
+        "en": "The Belize Botanic Gardens (BBG) is a collection of native and exotic plants growing on 45 acres (18 ha) in the Cayo district of western Belize.",
+        "es": "El Jardín Botánico de Belice es un jardín botánico de unas 18 hectáreas de extensión que se encuentra en Cayo, Belice."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Belize Botanic Gardens",
+          "url": "https://en.wikipedia.org/wiki/Belize_Botanic_Gardens"
+        },
+        "es": {
+          "title": "Jardín Botánico de Belice",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_de_Belice"
+        }
+      }
     },
     {
       "id": "bz-q260740",
@@ -48,10 +69,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo focused on native Belizean animals and wildlife rescue.",
-        "es": "Zoológico centrado en animales nativos de Belice y en el rescate de fauna."
+        "en": "The Belize Zoo and Tropical Education Center is a zoo in Belize, located some 47 kilometres (29 mi) west of Belize City on the Western Highway.",
+        "es": "El Zoológico de Belice es un zoológico de Belice, situada a unos 47 kilómetros al oeste de la ciudad de Belice a través de la carretera occidental."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Belize Zoo",
+          "url": "https://en.wikipedia.org/wiki/Belize_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Belice",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Belice"
+        }
+      }
     },
     {
       "id": "bz-q16979616",
@@ -65,10 +101,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Belize City with exhibits on the country's history and archaeology.",
+        "en": "The Museum of Belize is an art and history museum in Belize City, Belize.",
         "es": "Museo en Belice City con exposiciones sobre la historia y la arqueología del país."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Belize",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Belize"
+        }
+      }
     }
   ]
 }

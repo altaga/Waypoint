@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "History museum in Bishkek on the region's past.",
-        "es": "Museo de historia en Biskek sobre el pasado de la región."
+        "en": "The National History Museum of the Kyrgyz Republic is a museum located in Bishkek, Kyrgyzstan.",
+        "es": "El Museo Histórico de Kirguistán es un museo ubicado en Biskek, Kirguistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kyrgyz State Historical Museum",
+          "url": "https://en.wikipedia.org/wiki/Kyrgyz_State_Historical_Museum"
+        },
+        "es": {
+          "title": "Museo Histórico de Kirguistán",
+          "url": "https://es.wikipedia.org/wiki/Museo_Hist%C3%B3rico_de_Kirguist%C3%A1n"
+        }
+      }
     },
     {
       "id": "kg-q20160261",
@@ -49,10 +70,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Gorge of red rock formations in the Issyk-Kul region.",
+        "en": "Jeti-Ögüz is a balneotherapic resort located at the Jeti-Ögüz Rocks near Issyk Kul in the Jeti-Ögüz District of Issyk-Kul Region of Kyrgyzstan, about 28 km west of Karakol, and near…",
         "es": "Desfiladero de formaciones de roca roja en la región de Issyk-Kul."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Jeti-Ögüz resort",
+          "url": "https://en.wikipedia.org/wiki/Jeti-%C3%96g%C3%BCz_resort"
+        }
+      }
     },
     {
       "id": "kg-q18399439",
@@ -66,10 +98,21 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Open-air park and monument in Cholpon-Ata.",
+        "en": "The Rukh Ordo is a cultural complex and open-air museum in Cholpon-Ata, Kyrgyzstan.",
         "es": "Parque y monumento al aire libre en Cholpón-Ata."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Rukh Ordo",
+          "url": "https://en.wikipedia.org/wiki/Rukh_Ordo"
+        }
+      }
     }
   ]
 }

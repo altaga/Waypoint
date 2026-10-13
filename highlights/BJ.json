@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Former royal palace in Porto-Novo, now a museum.",
-        "es": "Antiguo palacio real en Porto-Novo, hoy museo."
+        "en": "The Royal Palace, also known as King Toffa's Palace and more recently Musée Honmé, is a former royal residence and today museum in Porto-Novo, Benin.",
+        "es": "El Museo del Palacio Real también conocido como el \"Palacio del Rey Toffa\" y más recientemente \"Museo Honme\", es un museo en la ciudad de Porto Novo, la capital del…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Royal Palace, Porto-Novo",
+          "url": "https://en.wikipedia.org/wiki/Royal_Palace%2C_Porto-Novo"
+        },
+        "es": {
+          "title": "Museo del Palacio Real",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Palacio_Real"
+        }
+      }
     },
     {
       "id": "bj-q4720905",
@@ -50,10 +71,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Ethnographic museum in Porto-Novo.",
+        "en": "The Alexandre Sènou Adandé Ethnographic Museum is a museum in Porto-Novo, Benin.",
         "es": "Museo etnográfico en Porto-Novo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Alexandre Sènou Adandé Ethnographic Museum",
+          "url": "https://en.wikipedia.org/wiki/Alexandre_S%C3%A8nou_Adand%C3%A9_Ethnographic_Museum"
+        }
+      }
     },
     {
       "id": "bj-q7110333",
@@ -67,10 +99,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "History museum in Ouidah, focused on the Atlantic slave trade.",
+        "en": "The Ouidah Museum of History is a history museum in Ouidah, Benin.",
         "es": "Museo de historia en Ouidah, centrado en la trata atlántica de esclavos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ouidah Museum of History",
+          "url": "https://en.wikipedia.org/wiki/Ouidah_Museum_of_History"
+        }
+      }
     },
     {
       "id": "bj-q2784689",
@@ -84,10 +127,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Open-air sculpture museum in Parakou.",
-        "es": "Museo de escultura al aire libre en Parakou."
+        "en": "Musée en Plein Air de Parakou is a museum located approximately 1.5 kilometres (0.93 mi) south of the centre of the city Parakou, Benin in the suburbs.",
+        "es": "El Museo al aire libre de Parakou es un museo situado a aproximadamente 1,5 km al sur del centro de la ciudad de Parakou, Benín, justo en los suburbios."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Musée en Plein Air de Parakou",
+          "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_en_Plein_Air_de_Parakou"
+        },
+        "es": {
+          "title": "Museo al aire libre de Parakou",
+          "url": "https://es.wikipedia.org/wiki/Museo_al_aire_libre_de_Parakou"
+        }
+      }
     },
     {
       "id": "bj-q20380202",
@@ -102,10 +160,21 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Colonial-era villa in Grand-Popo, now a cultural site.",
+        "en": "Villa Karo is a Finnish-African culture center and artist residence in the coastal village of Grand-Popo, Benin.",
         "es": "Villa de la época colonial en Grand-Popo, hoy sitio cultural."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Villa Karo",
+          "url": "https://en.wikipedia.org/wiki/Villa_Karo"
+        }
+      }
     },
     {
       "id": "bj-q3075592",
@@ -122,7 +191,14 @@
         "en": "Contemporary art foundation in Cotonou.",
         "es": "Fundación de arte contemporáneo en Cotonou."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13"
+      }
     }
   ]
 }

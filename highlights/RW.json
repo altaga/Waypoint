@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Memorial and museum in Kigali on the 1994 genocide against the Tutsi.",
+        "en": "The Kigali Genocide Memorial commemorates the 1994 Rwandan genocide.",
         "es": "Memorial y museo en Kigali sobre el genocidio contra los tutsi de 1994."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kigali Genocide Memorial",
+          "url": "https://en.wikipedia.org/wiki/Kigali_Genocide_Memorial"
+        }
+      }
     },
     {
       "id": "rw-q24964531",
@@ -48,10 +65,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Memorial in the Bisesero hills to victims of the 1994 genocide.",
-        "es": "Memorial en las colinas de Bisesero en recuerdo de las víctimas del genocidio de 1994."
+        "en": "The Bisesero Genocide Memorial is a national memorial in Rwanda which commemorates the 1994 Genocide against the Tutsi in Rwanda.",
+        "es": "El Memorial del genocidio de Bisesero es una construcción situada cerca de Karongi-Kibuye, en la Ruanda Occidental, que conmemora el genocidio de Ruanda de 1994, donde murieron 40.000 personas."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bisesero Genocide Memorial Centre",
+          "url": "https://en.wikipedia.org/wiki/Bisesero_Genocide_Memorial_Centre"
+        },
+        "es": {
+          "title": "Memorial del genocidio de Bisesero",
+          "url": "https://es.wikipedia.org/wiki/Memorial_del_genocidio_de_Bisesero"
+        }
+      }
     },
     {
       "id": "rw-q2110810",
@@ -65,10 +97,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Ethnographic museum in Huye, formerly Butare, on Rwandan culture.",
-        "es": "Museo etnográfico en Huye, antes Butare, sobre la cultura ruandesa."
+        "en": "The Ethnographic Museum, formerly the National Museum of Rwanda, is a national museum in Rwanda.",
+        "es": "El Museo nacional de Ruanda es el museo nacional del país africano de Ruanda."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ethnographic Museum (Rwanda)",
+          "url": "https://en.wikipedia.org/wiki/Ethnographic_Museum_(Rwanda)"
+        },
+        "es": {
+          "title": "Museo nacional de Ruanda",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Ruanda"
+        }
+      }
     },
     {
       "id": "rw-q11295489",
@@ -82,10 +129,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "House museum in Kigali, former home of German physician Richard Kandt.",
+        "en": "The Kandt House Museum, formerly known as the Natural History Museum, is located in what is now the city of Kigali, Nyarugenge District, westbound.",
         "es": "Casa museo en Kigali, antigua residencia del médico alemán Richard Kandt."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kandt House Museum",
+          "url": "https://en.wikipedia.org/wiki/Kandt_House_Museum"
+        }
+      }
     },
     {
       "id": "rw-q2110327",
@@ -99,10 +157,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Art museum in Nyanza with works by Rwandan artists.",
-        "es": "Museo de arte en Nyanza con obras de artistas ruandeses."
+        "en": "Rwesero Art Museum is a museum in Nyanza, Rwanda.",
+        "es": "El Museo de arte de Rwesero es un museo en Nyanza, Ruanda."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Rwesero Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Rwesero_Art_Museum"
+        },
+        "es": {
+          "title": "Museo de arte de Rwesero",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_arte_de_Rwesero"
+        }
+      }
     },
     {
       "id": "rw-q16678454",
@@ -116,10 +189,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum at a reconstructed royal palace of Rwanda's former kings.",
+        "en": "The King's Palace Museum Rukari is a museum in Rwanda located in the town of Nyanza, established within the former palace complex of King Mutara III Rudahigwa.",
         "es": "Museo en un palacio real reconstruido de los antiguos reyes de Ruanda."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "King's Palace Museum Rukari",
+          "url": "https://en.wikipedia.org/wiki/King's_Palace_Museum_Rukari"
+        }
+      }
     },
     {
       "id": "rw-q16678464",
@@ -133,10 +217,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Art museum near Kigali showing works by Rwandan artists.",
+        "en": "The Rwanda Art Museum is an art museum in Kigali that was founded in 2009.",
         "es": "Museo de arte cerca de Kigali con obras de artistas ruandeses."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Rwanda Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Rwanda_Art_Museum"
+        }
+      }
     }
   ]
 }

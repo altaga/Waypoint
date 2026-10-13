@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,11 +39,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum and art gallery in Port Moresby with Papua New Guinean collections.",
-        "es": "Museo nacional y galería de arte en Port Moresby con colecciones de Papúa Nueva Guinea."
+        "en": "The Papua New Guinea National Museum and Art Gallery (NMAG) is a museum and art gallery in Waigani, Port Moresby, Papua New Guinea.",
+        "es": "El Museo Nacional y Galería de Arte de Papúa Nueva Guinea (NMAG) es un museo y galería de arte ubicado en Waigani, Puerto Moresby, Papúa Nueva Guinea."
       },
       "sourceId": "wikidata",
-      "admission": "High crime rates in Port Moresby; check your government's current travel advice first."
+      "admission": "High crime rates in Port Moresby; check your government's current travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Papua New Guinea National Museum and Art Gallery",
+          "url": "https://en.wikipedia.org/wiki/Papua_New_Guinea_National_Museum_and_Art_Gallery"
+        },
+        "es": {
+          "title": "Museo Nacional de Papúa Nueva Guinea",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Pap%C3%BAa_Nueva_Guinea"
+        }
+      }
     }
   ]
 }

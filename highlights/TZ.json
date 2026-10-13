@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum of Tanzania in Dar es Salaam.",
-        "es": "Museo nacional de Tanzania en Dar es Salaam."
+        "en": "The National Museum of Tanzania (NMT),, is a consortium of several Tanzanian museums whose purpose is to preserve and show objects from the history and natural environment of Tanzania.",
+        "es": "El Museo Nacional de Tanzania es una institución museística nacional de Tanzania dedicada a la conservación, investigación y difusión del patrimonio cultural, histórico y natural del país."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Tanzania",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Tanzania"
+        },
+        "es": {
+          "title": "Museo Nacional de Tanzania",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Tanzania"
+        }
+      }
     },
     {
       "id": "tz-q3868097",
@@ -49,10 +70,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum on early human evolution at Olduvai Gorge.",
+        "en": "The Olduvai Gorge Museum is located in the Ngorongoro Conservation Area in Northern Tanzania on the edge of the Olduvai Gorge.",
         "es": "Museo sobre la evolución humana temprana en la garganta de Olduvai."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Olduvai Gorge Museum",
+          "url": "https://en.wikipedia.org/wiki/Olduvai_Gorge_Museum"
+        }
+      }
     },
     {
       "id": "tz-q1960500",
@@ -67,10 +99,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in the Palace complex of Stone Town, Zanzibar.",
-        "es": "Museo en el complejo del palacio de Stone Town, Zanzíbar."
+        "en": "The Sultan's Palace is one of the main historical buildings of Stone Town, Zanzibar, Tanzania.",
+        "es": "El Museo del Palacio es uno de los principales edificios históricos de Stone Town, Zanzíbar en Tanzania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sultan's Palace, Zanzibar",
+          "url": "https://en.wikipedia.org/wiki/Sultan's_Palace%2C_Zanzibar"
+        },
+        "es": {
+          "title": "Museo del Palacio (Zanzíbar)",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Palacio_(Zanz%C3%ADbar)"
+        }
+      }
     },
     {
       "id": "tz-q4741674",
@@ -84,10 +131,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Limestone caves near Tanga on the coast.",
-        "es": "Cuevas de piedra caliza cerca de Tanga, en la costa."
+        "en": "The Amboni Caves are a limestone cave complex in East Africa.",
+        "es": "Cuevas de Amboni son las cuevas de piedra caliza más extensas de África Oriental."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Amboni Caves",
+          "url": "https://en.wikipedia.org/wiki/Amboni_Caves"
+        },
+        "es": {
+          "title": "Cuevas de Amboni",
+          "url": "https://es.wikipedia.org/wiki/Cuevas_de_Amboni"
+        }
+      }
     }
   ]
 }

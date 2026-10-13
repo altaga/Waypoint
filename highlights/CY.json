@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Archaeological museum in Nicosia with artifacts spanning Cypriot history.",
-        "es": "Museo arqueológico en Nicosia con piezas de la historia de Chipre."
+        "en": "The Cyprus Museum, also known as the Cyprus Archaeological Museum, is the oldest and largest archaeological museum in Cyprus, located on Museum Street in central Nicosia.",
+        "es": "El Museo de Chipre es el museo arqueológico más grande y antiguo en Chipre."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Cyprus Museum",
+          "url": "https://en.wikipedia.org/wiki/Cyprus_Museum"
+        },
+        "es": {
+          "title": "Museo de Chipre",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Chipre"
+        }
+      }
     },
     {
       "id": "cy-q1365162",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Ottoman-era mosque in North Nicosia.",
-        "es": "Mezquita de la época otomana en el norte de Nicosia."
+        "en": "Haydar Pasha Mosque, formerly St. Catherine's Church, is a historic mosque in North Nicosia.",
+        "es": "La Mezquita Haydarpaşa o anteriormente Iglesia de Santa Catalina es una mezquita situada en la parte norte de Nicosia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Haydar Pasha Mosque",
+          "url": "https://en.wikipedia.org/wiki/Haydar_Pasha_Mosque"
+        },
+        "es": {
+          "title": "Mezquita Haydarpaşa",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_Haydarpa%C5%9Fa"
+        }
+      }
     },
     {
       "id": "cy-q2247315",
@@ -67,10 +103,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Medieval castle in Limassol with a museum on the island's medieval past.",
+        "en": "Limassol Castle is situated near the old harbour in the heart of the historical centre of the city of Limassol.",
         "es": "Castillo medieval en Limasol, con un museo sobre el pasado medieval de la isla."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Limassol Castle",
+          "url": "https://en.wikipedia.org/wiki/Limassol_Castle"
+        }
+      }
     },
     {
       "id": "cy-q12065255",
@@ -84,10 +131,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Archaeological park in Paphos with Roman villas and mosaic floors.",
-        "es": "Parque arqueológico en Pafos con villas romanas y suelos de mosaico."
+        "en": "Nea Paphos was an ancient city in Cyprus founded in the late 4th century BC.",
+        "es": "El Parque Arqueológico de Paphos comprende la mayor parte de lo que fuera la importante ciudad antigua griega y romana y está ubicado en Pafos, al suroeste de Chipre."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nea Paphos (ancient city)",
+          "url": "https://en.wikipedia.org/wiki/Nea_Paphos_(ancient_city)"
+        },
+        "es": {
+          "title": "Parque Arqueológico de Pafos",
+          "url": "https://es.wikipedia.org/wiki/Parque_Arqueol%C3%B3gico_de_Pafos"
+        }
+      }
     },
     {
       "id": "cy-q16677642",
@@ -101,10 +163,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Orthodox monastery in the north of Cyprus, linked to Saint Barnabas.",
-        "es": "Monasterio ortodoxo en el norte de Chipre, vinculado a san Bernabé."
+        "en": "The monastery of Saint Barnabas was a church on the island of Cyprus, 2 kilometres (1.2 mi) west of Constantia.",
+        "es": "El monasterio de San Bernabé es un edificio religioso situado cerca de Famagusta, en la República Turca del Norte de Chipre."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Monastery of Saint Barnabas",
+          "url": "https://en.wikipedia.org/wiki/Monastery_of_Saint_Barnabas"
+        },
+        "es": {
+          "title": "Monasterio de San Bernabé",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_de_San_Bernab%C3%A9"
+        }
+      }
     },
     {
       "id": "cy-q4140950",
@@ -118,10 +195,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Archbishop's palace in Nicosia, seat of the Cypriot Orthodox Church.",
-        "es": "Palacio del arzobispo en Nicosia, sede de la Iglesia ortodoxa de Chipre."
+        "en": "Archbishop's Palace is the official residence and office of the archbishop of Cyprus located in Nicosia.",
+        "es": "El Palacio de Arzobispo, también conocido como el Nuevo Palacio del Arzobispo, es la residencia oficial del arzobispo de Chipre, cabeza de la Iglesia Ortodoxa Chipriota."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Archbishop's Palace, Nicosia",
+          "url": "https://en.wikipedia.org/wiki/Archbishop's_Palace%2C_Nicosia"
+        },
+        "es": {
+          "title": "Palacio del Arzobispo (Nicosia)",
+          "url": "https://es.wikipedia.org/wiki/Palacio_del_Arzobispo_(Nicosia)"
+        }
+      }
     },
     {
       "id": "cy-q6535231",
@@ -135,10 +227,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on Ledra Street in the old town of Nicosia.",
+        "en": "The Leventis Municipal Museum of Nicosia in Nicosia, Cyprus, is home to an extensive collection of Cypriot works include archaeological artifacts, costumes, photographs, medieval pottery, maps and engravings, jewels, and…",
         "es": "Museo en la calle Ledra, en el casco antiguo de Nicosia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Leventis Municipal Museum of Nicosia",
+          "url": "https://en.wikipedia.org/wiki/Leventis_Municipal_Museum_of_Nicosia"
+        }
+      }
     },
     {
       "id": "cy-q6489690",
@@ -152,10 +255,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Archaeological museum in Larnaca with finds from across the district.",
-        "es": "Museo arqueológico en Larnaca con hallazgos de todo el distrito."
+        "en": "Larnaca District Museum is a museum in Larnaca, Cyprus that has displays that show the \"historical development of the city of Kition and the District of Larnaka in general.\" It…",
+        "es": "El Museo Arqueológico de Lárnaca es un museo situado en la ciudad chipriota de Lárnaca que expone objetos procedentes de toda el área del distrito homónimo con interés arqueológico."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Larnaca District Archaeological Museum",
+          "url": "https://en.wikipedia.org/wiki/Larnaca_District_Archaeological_Museum"
+        },
+        "es": {
+          "title": "Museo Arqueológico de Lárnaca",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_L%C3%A1rnaca"
+        }
+      }
     },
     {
       "id": "cy-q3329448",
@@ -169,10 +287,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Archaeological museum in Paphos displaying finds from the region.",
-        "es": "Museo arqueológico en Pafos con hallazgos de la región."
+        "en": "The Paphos Archaeological Museum in Cyprus houses artefacts dating from the Epipalaeolithic period through the 4th century AD recovered from archaeological sites across the Paphos District in the southwest of…",
+        "es": "El Museo Arqueológico de Pafos es un museo situado en la ciudad chipriota de Pafos que expone objetos procedentes de toda el área del distrito homónimo con interés arqueológico."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Paphos Archaeological Museum",
+          "url": "https://en.wikipedia.org/wiki/Paphos_Archaeological_Museum"
+        },
+        "es": {
+          "title": "Museo Arqueológico de Pafos",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Pafos"
+        }
+      }
     }
   ]
 }

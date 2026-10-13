@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historic fort in Windhoek that now houses a museum of the city's history.",
-        "es": "Antigua fortaleza en Windhoek que hoy alberga un museo de la historia de la ciudad."
+        "en": "The Alte Feste is a fortress and museum in downtown Windhoek, the capital of Namibia.",
+        "es": "Alte Feste es una fortaleza y un museo en el centro de Windhoek, capital de Namibia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Alte Feste",
+          "url": "https://en.wikipedia.org/wiki/Alte_Feste"
+        },
+        "es": {
+          "title": "Alte Feste",
+          "url": "https://es.wikipedia.org/wiki/Alte_Feste"
+        }
+      }
     },
     {
       "id": "na-q28196088",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Windhoek commemorating Namibia's independence struggle and nationhood.",
-        "es": "Museo en Windhoek que conmemora la lucha por la independencia y la nación namibia."
+        "en": "The Independence Memorial Museum is a history museum in Windhoek, the capital of Namibia.",
+        "es": "El Independence Memorial Museum, en español Museo Conmemorativo de la Independencia, es un museo histórico en Windhoek, Namibia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Independence Memorial Museum (Namibia)",
+          "url": "https://en.wikipedia.org/wiki/Independence_Memorial_Museum_(Namibia)"
+        },
+        "es": {
+          "title": "Museo Memorial de la Independencia de Namibia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Memorial_de_la_Independencia_de_Namibia"
+        }
+      }
     },
     {
       "id": "na-q28863",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Aquarium in Swakopmund with marine species from the Namibian coast.",
-        "es": "Acuario en Swakopmund con especies marinas de la costa namibia."
+        "en": "The National Marine Aquarium of Namibia is an aquarium in Swakopmund, Namibia.",
+        "es": "El Acuario marino nacional de Namibia es el único acuario público en el suroeste del país africano de Namibia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Marine Aquarium of Namibia",
+          "url": "https://en.wikipedia.org/wiki/National_Marine_Aquarium_of_Namibia"
+        },
+        "es": {
+          "title": "Acuario marino nacional de Namibia",
+          "url": "https://es.wikipedia.org/wiki/Acuario_marino_nacional_de_Namibia"
+        }
+      }
     }
   ]
 }

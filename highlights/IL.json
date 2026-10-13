@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Large museum in Jerusalem with archaeology, Judaica and fine arts.",
-        "es": "Gran museo en Jerusalén con arqueología, judaica y bellas artes."
+        "en": "The Israel Museum is an art and archaeology museum in Jerusalem.",
+        "es": "Fundado en Jerusalén, Estado de Israel, en 1965, el Museo de Israel se encuentra ubicado cerca del museo Tierras de la Biblia, la Knéset y el Campus Nacional de Arqueología…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Israel Museum",
+          "url": "https://en.wikipedia.org/wiki/Israel_Museum"
+        },
+        "es": {
+          "title": "Museo de Israel",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Israel"
+        }
+      }
     },
     {
       "id": "il-q187702",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Church in Jerusalem's Old City, traditionally venerated as the site of Jesus's crucifixion and burial.",
-        "es": "Iglesia de la Ciudad Vieja de Jerusalén, venerada como lugar de la crucifixión y sepultura de Jesús."
+        "en": "The Church of the Holy Sepulchre, also known as the Church of the Resurrection, is a fourth-century church in the Christian Quarter of the Old City of Jerusalem.",
+        "es": "La iglesia del Santo Sepulcro, también conocida como basílica del Santo Sepulcro, iglesia de la Resurrección o iglesia de la Anástasis, es un santuario cristiano situado en la Ciudad Vieja…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Church of the Holy Sepulchre",
+          "url": "https://en.wikipedia.org/wiki/Church_of_the_Holy_Sepulchre"
+        },
+        "es": {
+          "title": "Santo Sepulcro",
+          "url": "https://es.wikipedia.org/wiki/Santo_Sepulcro"
+        }
+      }
     },
     {
       "id": "il-q126130",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of archaeology and art of the ancient Near East in Jerusalem.",
-        "es": "Museo de arqueología y arte del antiguo Oriente Próximo en Jerusalén."
+        "en": "The Bible Lands Museum is an archaeological museum in Jerusalem, that explores the culture of the peoples mentioned in the Bible including ancient Egyptians, Canaanites, Philistines, Arameans, Hittites, Elamites, Phoenicians,…",
+        "es": "El museo Tierras de la Biblia está ubicado en Jerusalén, Israel y explora la cultura de los pueblos mencionados en la Biblia, entre ellos los antiguos egipcios, cananeos, filisteos, arameos,…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bible Lands Museum",
+          "url": "https://en.wikipedia.org/wiki/Bible_Lands_Museum"
+        },
+        "es": {
+          "title": "Museo Tierras de la Biblia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Tierras_de_la_Biblia"
+        }
+      }
     },
     {
       "id": "il-q156591",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Holocaust memorial and museum complex in Jerusalem.",
-        "es": "Complejo memorial y museo sobre el Holocausto en Jerusalén."
+        "en": "Yad Vashem is Israel's official memorial institution to the victims of the Holocaust, known in Hebrew as the Shoah (שואה).",
+        "es": "Yad Vashem es la institución oficial israelí constituida en memoria de las víctimas del Holocausto perpetrado por los nazis contra la población judía bajo el Tercer Reich, sobre todo durante…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Yad Vashem",
+          "url": "https://en.wikipedia.org/wiki/Yad_Vashem"
+        },
+        "es": {
+          "title": "Yad Vashem",
+          "url": "https://es.wikipedia.org/wiki/Yad_Vashem"
+        }
+      }
     },
     {
       "id": "il-q456800",
@@ -101,10 +167,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Miniature park with scale models of landmarks from across Israel.",
-        "es": "Parque en miniatura con maquetas de lugares emblemáticos de Israel."
+        "en": "Mini Israel is a miniature park located near Latrun in the Jerusalem District within the Ayalon Valley.",
+        "es": "Mini Israel es un parque en miniatura ubicado cerca de Latrun, Israel en el valle de Ayalon."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mini Israel",
+          "url": "https://en.wikipedia.org/wiki/Mini_Israel"
+        },
+        "es": {
+          "title": "Mini Israel",
+          "url": "https://es.wikipedia.org/wiki/Mini_Israel"
+        }
+      }
     },
     {
       "id": "il-q796764",
@@ -118,10 +199,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum on Jewish history and communities around the world, in Tel Aviv.",
-        "es": "Museo sobre la historia judía y sus comunidades en el mundo, en Tel Aviv."
+        "en": "Anu – Museum of the Jewish People, formerly the Nahum Goldmann Museum of the Jewish Diaspora, is located in Tel Aviv, Israel, at the center of the Tel Aviv University…",
+        "es": "El Museo Nahum Goldmann de la Diáspora Judía o Beit Hatfutsot es un museo de historia y antropología dedicado a las comunidades judías dispersas por el mundo y su continuidad…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Anu – Museum of the Jewish People",
+          "url": "https://en.wikipedia.org/wiki/Anu_%E2%80%93_Museum_of_the_Jewish_People"
+        },
+        "es": {
+          "title": "ANU - Museo del Pueblo Judío",
+          "url": "https://es.wikipedia.org/wiki/ANU_-_Museo_del_Pueblo_Jud%C3%ADo"
+        }
+      }
     },
     {
       "id": "il-q840618",
@@ -135,10 +231,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum complex of archaeology, ethnography and technology in Tel Aviv.",
-        "es": "Complejo de museos de arqueología, etnografía y tecnología en Tel Aviv."
+        "en": "The Eretz Israel Museum is a historical and archaeological museum in the Ramat Aviv neighborhood of Tel Aviv, Israel.",
+        "es": "El Museo Eretz Israel el museo fue fundado en 1953, y cuenta con una gran pantalla de artefactos arqueológicos, antropológicos e históricos organizados en una serie de pabellones de exposición…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Eretz Israel Museum",
+          "url": "https://en.wikipedia.org/wiki/Eretz_Israel_Museum"
+        },
+        "es": {
+          "title": "Museo Eretz Israel",
+          "url": "https://es.wikipedia.org/wiki/Museo_Eretz_Israel"
+        }
+      }
     },
     {
       "id": "il-q174527",
@@ -152,10 +263,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum housing the Dead Sea Scrolls in Jerusalem.",
-        "es": "Museo que alberga los Rollos del Mar Muerto en Jerusalén."
+        "en": "The Shrine of the Book is a wing of the Israel Museum in the Givat Ram neighborhood of Jerusalem that houses the Dead Sea Scrolls and the Aleppo Codex, among…",
+        "es": "El Santuario del Libro es un ala del Museo de Israel cerca de Givat Ram en Jerusalén que alberga los rollos del mar Muerto descubiertos entre 1947 y 1956 en…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Shrine of the Book",
+          "url": "https://en.wikipedia.org/wiki/Shrine_of_the_Book"
+        },
+        "es": {
+          "title": "Santuario del Libro",
+          "url": "https://es.wikipedia.org/wiki/Santuario_del_Libro"
+        }
+      }
     },
     {
       "id": "il-q1267958",
@@ -169,10 +295,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Art museum in Tel Aviv with Israeli and international collections.",
-        "es": "Museo de arte en Tel Aviv con colecciones israelíes e internacionales."
+        "en": "The Tel Aviv Museum of Art is an art museum in Tel Aviv, Israel.",
+        "es": "El Museo de Arte de Tel Aviv es un museo de arte en Tel Aviv, Israel."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tel Aviv Museum of Art",
+          "url": "https://en.wikipedia.org/wiki/Tel_Aviv_Museum_of_Art"
+        },
+        "es": {
+          "title": "Museo de Arte de Tel Aviv",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_de_Tel_Aviv"
+        }
+      }
     },
     {
       "id": "il-q2297982",
@@ -187,10 +328,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Design and architecture museum in Holon, south of Tel Aviv.",
-        "es": "Museo de diseño y arquitectura en Holon, al sur de Tel Aviv."
+        "en": "Design Museum Holon is the first museum in Israel dedicated to design.",
+        "es": "El Museo del Diseño Holon es el primer museo de Israel dedicado al Diseño."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Design Museum Holon",
+          "url": "https://en.wikipedia.org/wiki/Design_Museum_Holon"
+        },
+        "es": {
+          "title": "Museo de Diseño Jolón",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Dise%C3%B1o_Jol%C3%B3n"
+        }
+      }
     }
   ]
 }

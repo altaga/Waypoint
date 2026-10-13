@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Buddhist monastery complex in Ulaanbaatar, with temples and a museum.",
-        "es": "Complejo monástico budista en Ulán Bator, con templos y un museo."
+        "en": "The Choijin Lama Temple is a Buddhist monastery in Sükhbaatar District, Ulaanbaatar, Mongolia.",
+        "es": "El Templo Choijin Lama es un monasterio budista y actual museo ubicado en Ulán Bator, capital de Mongolia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Choijin Lama Temple",
+          "url": "https://en.wikipedia.org/wiki/Choijin_Lama_Temple"
+        },
+        "es": {
+          "title": "Templo Choijin Lama",
+          "url": "https://es.wikipedia.org/wiki/Templo_Choijin_Lama"
+        }
+      }
     },
     {
       "id": "mn-q2154176",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Ulaanbaatar covering Mongolia's history and culture.",
-        "es": "Museo nacional en Ulán Bator sobre la historia y la cultura de Mongolia."
+        "en": "The National Museum of Mongolia formerly known as the National Museum of Mongolian History is a history museum focusing on Mongolian history located in Chingeltei, Ulaanbaatar.",
+        "es": "Museo Nacional de Mongolia es uno de los museos nacionales de Mongolia ubicados en la capital, Ulán Bator."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Mongolia",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Mongolia"
+        },
+        "es": {
+          "title": "Museo Nacional de Mongolia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Mongolia"
+        }
+      }
     },
     {
       "id": "mn-q2154359",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum of Mongolian natural history, with fossils and local wildlife.",
-        "es": "Museo de historia natural de Mongolia, con fósiles y fauna local."
+        "en": "The Natural History Museum is a repository and research institution located in Chingeltei, Ulaanbaatar, Mongolia.",
+        "es": "Museo de historia natural de Mongolia es un museo situado en Ulán Bator, Mongolia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mongolian Natural History Museum",
+          "url": "https://en.wikipedia.org/wiki/Mongolian_Natural_History_Museum"
+        },
+        "es": {
+          "title": "Museo de historia natural de Mongolia",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_historia_natural_de_Mongolia"
+        }
+      }
     },
     {
       "id": "mn-q2370206",
@@ -83,10 +134,21 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum of Mongolian fine arts, named after the sculptor Zanabazar.",
+        "en": "The Fine Arts Zanabazar Museum is an art museum located in Chingeltei District, Ulaanbaatar, Mongolia, and founded in 1966.",
         "es": "Museo de bellas artes de Mongolia, que lleva el nombre del escultor Zanabazar."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Fine Arts Zanabazar Museum",
+          "url": "https://en.wikipedia.org/wiki/Fine_Arts_Zanabazar_Museum"
+        }
+      }
     },
     {
       "id": "mn-q2154295",
@@ -100,10 +162,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Kharkhorin, near the site of the medieval capital Karakorum.",
+        "en": "The Kharakhorum Museum is a museum in Kharkhorin, Övörkhangai Province, Mongolia.",
         "es": "Museo en Kharkhorin, cerca del emplazamiento de la antigua capital Karakorum."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kharakhorum Museum",
+          "url": "https://en.wikipedia.org/wiki/Kharakhorum_Museum"
+        }
+      }
     },
     {
       "id": "mn-q2368924",
@@ -117,10 +190,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on the history and development of Ulaanbaatar.",
+        "en": "The Ulaanbaatar City Museum is a museum dedicated to the history of Ulaanbaatar, the capital of Mongolia.",
         "es": "Museo sobre la historia y el desarrollo de Ulán Bator."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ulaanbaatar City Museum",
+          "url": "https://en.wikipedia.org/wiki/Ulaanbaatar_City_Museum"
+        }
+      }
     },
     {
       "id": "mn-q25631559",
@@ -134,10 +218,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on the victims of political repression in twentieth-century Mongolia.",
+        "en": "The Memorial Museum of Victims of Political Repression was a museum in Ulaanbaatar dedicated to the victims of political repressions in Mongolia from 1922 to 1962.",
         "es": "Museo sobre las víctimas de la represión política en Mongolia en el siglo XX."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Memorial Museum of Victims of Political Repression",
+          "url": "https://en.wikipedia.org/wiki/Memorial_Museum_of_Victims_of_Political_Repression"
+        }
+      }
     },
     {
       "id": "mn-q31188106",
@@ -151,10 +246,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on the Göktürk period, an early medieval Turkic state of Central Asia.",
+        "en": "The Göktürk Museum or Khoshoo Tsaidam Museum is a museum in Khashaat, Arkhangai Province, Mongolia.",
         "es": "Museo sobre el periodo göktürk, un antiguo estado turco de Asia Central."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Göktürk Museum",
+          "url": "https://en.wikipedia.org/wiki/G%C3%B6kt%C3%BCrk_Museum"
+        }
+      }
     }
   ]
 }

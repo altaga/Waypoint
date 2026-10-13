@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "th-tourism": {
       "title": "Tourism Authority of Thailand",
       "url": "https://www.tourismthailand.org/",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -36,7 +42,11 @@
         "en": "Royal palace complex with the Temple of the Emerald Buddha. Dress modestly.",
         "es": "Complejo del palacio real con el Templo del Buda Esmeralda. Viste con recato."
       },
-      "sourceId": "th-tourism"
+      "sourceId": "th-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "th-wat-arun",
@@ -53,7 +63,11 @@
         "en": "Temple of Dawn across the river.",
         "es": "El Templo del Amanecer, al otro lado del río."
       },
-      "sourceId": "th-tourism"
+      "sourceId": "th-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "th-chatuchak",
@@ -70,7 +84,11 @@
         "en": "Huge weekend market; go early for shade.",
         "es": "Enorme mercado de fin de semana; ve temprano por la sombra."
       },
-      "sourceId": "th-tourism"
+      "sourceId": "th-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "th-yaowarat",
@@ -87,7 +105,11 @@
         "en": "Chinatown street food after dark.",
         "es": "Comida callejera de Chinatown por la noche."
       },
-      "sourceId": "th-tourism"
+      "sourceId": "th-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "th-doi-suthep",
@@ -104,7 +126,11 @@
         "en": "Mountain temple overlooking Chiang Mai.",
         "es": "Templo en la montaña con vista a Chiang Mai."
       },
-      "sourceId": "th-tourism"
+      "sourceId": "th-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "th-phi-phi",
@@ -121,7 +147,11 @@
         "en": "Island day trips by boat; book a licensed operator.",
         "es": "Excursiones en barco; reserva con un operador con licencia."
       },
-      "sourceId": "th-tourism"
+      "sourceId": "th-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

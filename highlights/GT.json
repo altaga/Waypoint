@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum of archaeology and ethnology in Guatemala City.",
-        "es": "Museo nacional de arqueología y etnología en la ciudad de Guatemala."
+        "en": "The Museo Nacional de Arqueología y Etnología is a national museum of Guatemala, dedicated to the conservation of archaeological and ethnological artifacts and research into Guatemala's history and cultural heritage.",
+        "es": "El Museo Nacional de Arqueología y Etnología (MUNAE) es una institución pública guatemalteca encargada de la conservación, investigación y difusión de los bienes arqueológicos y etnológicos, pertenecientes al Patrimonio Cultural…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo Nacional de Arqueología y Etnología",
+          "url": "https://en.wikipedia.org/wiki/Museo_Nacional_de_Arqueolog%C3%ADa_y_Etnolog%C3%ADa"
+        },
+        "es": {
+          "title": "Museo Nacional de Arqueología y Etnología de Guatemala",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arqueolog%C3%ADa_y_Etnolog%C3%ADa_de_Guatemala"
+        }
+      }
     },
     {
       "id": "gt-q1403356",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of modern art in Guatemala City.",
-        "es": "Museo de arte moderno en la ciudad de Guatemala."
+        "en": "The Museo Nacional de Arte Moderno \"Carlos Mérida\" is a national museum of modern art in Guatemala City, named after Carlos Mérida.",
+        "es": "El Museo Nacional de Arte Moderno \"Carlos Mérida\" es un museo nacional de arte moderno ubicada en la ciudad de Guatemala, nombrado en honor a Carlos Mérida."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo Nacional de Arte Moderno \"Carlos Mérida\"",
+          "url": "https://en.wikipedia.org/wiki/Museo_Nacional_de_Arte_Moderno_%22Carlos_M%C3%A9rida%22"
+        },
+        "es": {
+          "title": "Museo Nacional de Arte Moderno \"Carlos Mérida\"",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_Moderno_%22Carlos_M%C3%A9rida%22"
+        }
+      }
     },
     {
       "id": "gt-q23017306",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on the Holocaust in Guatemala City.",
-        "es": "Museo sobre el Holocausto en la ciudad de Guatemala."
+        "en": "The Museum of the Holocaust - Museo del Holocausto in Guatemala city is the first museum of the Holocaust in Central America.",
+        "es": "El Museo del Holocausto, Guatemala fue fundado por Yahad-In Unum y abrió sus puertas en enero de 2016."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of the Holocaust (Guatemala)",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_the_Holocaust_(Guatemala)"
+        },
+        "es": {
+          "title": "Museo del Holocausto (Ciudad de Guatemala)",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Holocausto_(Ciudad_de_Guatemala)"
+        }
+      }
     },
     {
       "id": "gt-q3570941",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Theme park in the Retalhuleu area with Maya-themed attractions.",
-        "es": "Parque temático en la zona de Retalhuleu con atracciones de temática maya."
+        "en": "Xetulul is a theme park in Guatemala.",
+        "es": "Xetulul es un parque de atracciones en Guatemala."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Xetulul Theme Park",
+          "url": "https://en.wikipedia.org/wiki/Xetulul_Theme_Park"
+        },
+        "es": {
+          "title": "Gran Parque de Diversiones Xetulul",
+          "url": "https://es.wikipedia.org/wiki/Gran_Parque_de_Diversiones_Xetulul"
+        }
+      }
     },
     {
       "id": "gt-q15241081",
@@ -100,10 +166,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo in Guatemala City.",
-        "es": "Zoológico en la ciudad de Guatemala."
+        "en": "The Parque Zoológico La Aurora is a zoological park in Guatemala City, Guatemala.",
+        "es": "El Zoológico La Aurora es un jardín zoológico en la ciudad de Guatemala, Guatemala."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "La Aurora Zoo",
+          "url": "https://en.wikipedia.org/wiki/La_Aurora_Zoo"
+        },
+        "es": {
+          "title": "Zoológico La Aurora",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_La_Aurora"
+        }
+      }
     }
   ]
 }

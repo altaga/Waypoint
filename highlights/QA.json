@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum of Islamic art on the Doha Corniche, designed by I. M. Pei.",
-        "es": "Museo de arte islámico en la Corniche de Doha, diseñado por I. M. Pei."
+        "en": "The Museum of Islamic Art is a museum at one end of the seven-kilometer-long (4.3 mi) Corniche in Doha, Qatar.",
+        "es": "El Museo de Arte Islámico de Doha es un museo situado en la localidad de Doha, capital de Catar, dedicado al arte islámico desde el siglo VII al XIX en…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Islamic Art, Doha",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Islamic_Art%2C_Doha"
+        },
+        "es": {
+          "title": "Museo de arte islámico de Doha",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_arte_isl%C3%A1mico_de_Doha"
+        }
+      }
     },
     {
       "id": "qa-q3084218",
@@ -51,10 +72,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum in Doha in a building designed by Jean Nouvel.",
-        "es": "Museo nacional en Doha, en un edificio diseñado por Jean Nouvel."
+        "en": "The National Museum of Qatar is a national museum in Doha, Qatar.",
+        "es": "El Museo Nacional de Catar es el museo nacional del Estado de Catar y está situado en la ciudad de Doha."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Qatar",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Qatar"
+        },
+        "es": {
+          "title": "Museo Nacional de Catar",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Catar"
+        }
+      }
     },
     {
       "id": "qa-q1908321",
@@ -68,10 +104,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of modern Arab art in Doha.",
-        "es": "Museo de arte árabe moderno en Doha."
+        "en": "Mathaf: Arab Museum of Modern Art is a museum in Doha, Qatar with over 9,000 objects.",
+        "es": "El Museo árabe de arte moderno (Mathaf) en Doha, Catar ofrece una perspectiva árabe sobre el arte moderno y contemporáneo y \"apoya la creatividad, promueve el diálogo e inspira nuevas…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mathaf: Arab Museum of Modern Art",
+          "url": "https://en.wikipedia.org/wiki/Mathaf%3A_Arab_Museum_of_Modern_Art"
+        },
+        "es": {
+          "title": "Museo árabe de arte moderno",
+          "url": "https://es.wikipedia.org/wiki/Museo_%C3%A1rabe_de_arte_moderno"
+        }
+      }
     }
   ]
 }

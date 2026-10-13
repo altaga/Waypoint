@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "dj-tourism": {
       "title": "Djibouti tourism (ministry)",
       "url": "https://www.djiboutitourisme.dj/",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -35,7 +41,11 @@
         "es": "Lago salado, uno de los puntos más bajos de tierra firme."
       },
       "sourceId": "dj-tourism",
-      "admission": "Desert conditions; go with a licensed operator."
+      "admission": "Desert conditions; go with a licensed operator.",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "dj-day-forest",
@@ -52,7 +62,11 @@
         "es": "Parque poco común de bosque de nubes en las montañas."
       },
       "sourceId": "dj-tourism",
-      "admission": "Check permits and current security advice."
+      "admission": "Check permits and current security advice.",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

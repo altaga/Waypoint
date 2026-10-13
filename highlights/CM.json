@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Contemporary art centre in Douala with exhibitions and artist residencies.",
+        "en": "Doual'art is a non-profit cultural organisation and art centre founded in 1991 in Douala, Cameroon and focused on new urban practices of African cities.",
         "es": "Centro de arte contemporáneo en Duala con exposiciones y residencias artísticas."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Doual'art",
+          "url": "https://en.wikipedia.org/wiki/Doual'art"
+        }
+      }
     },
     {
       "id": "cm-q15961646",
@@ -50,10 +67,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Yaoundé dedicated to the Blackitude movement and African art.",
+        "en": "The Blackitude Museum is a private ethnographic institution.",
         "es": "Museo en Yaundé dedicado al movimiento Negritud y al arte africano."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Blackitude Museum",
+          "url": "https://en.wikipedia.org/wiki/Blackitude_Museum"
+        }
+      }
     },
     {
       "id": "cm-q6356988",
@@ -67,10 +95,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo in Yaoundé with a range of African wildlife.",
-        "es": "Zoológico en Yaundé con una variedad de fauna africana."
+        "en": "The Mvog-Betsi Zoo is a botanical and zoological park located in Yaoundé, Cameroon.",
+        "es": "El Jardín zoológico botánico de Mvog-Betsi está situado en Yaundé, Camerún y es administrado por el Fondo de Ayuda Camerún Vida Silvestre, así como el Ministerio de Medio Ambiente y…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mvog-Betsi Zoo",
+          "url": "https://en.wikipedia.org/wiki/Mvog-Betsi_Zoo"
+        },
+        "es": {
+          "title": "Jardín zoológico botánico de Mvog-Betsi",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_bot%C3%A1nico_de_Mvog-Betsi"
+        }
+      }
     },
     {
       "id": "cm-q108912427",
@@ -84,11 +127,22 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Royal palace museum in Mankon, near Bamenda, showing traditional heritage.",
+        "en": "The Mankon Museum is an art and cultural museum located in Mankon-Bamenda, Cameroon.",
         "es": "Museo en el palacio real de Mankon, cerca de Bamenda, sobre patrimonio tradicional."
       },
       "sourceId": "wikidata",
-      "admission": "Anglophone regions have security concerns; check current travel advice."
+      "admission": "Anglophone regions have security concerns; check current travel advice.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mankon Museum",
+          "url": "https://en.wikipedia.org/wiki/Mankon_Museum"
+        }
+      }
     }
   ]
 }

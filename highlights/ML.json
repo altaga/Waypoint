@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,11 +39,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Bamako with collections on Mali's arts and history.",
-        "es": "Museo nacional en Bamako con colecciones sobre el arte y la historia de Malí."
+        "en": "The National Museum of Malí is an archaeological and anthropological museum located in Bamako, the capital of Mali.",
+        "es": "El Museo Nacional de Mali es un museo arqueológico y antropológico situado en Bamako, la capital de Mali."
       },
       "sourceId": "wikidata",
-      "admission": "Security conditions are unstable across much of this country; check your government's current travel advice before going."
+      "admission": "Security conditions are unstable across much of this country; check your government's current travel advice before going.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Mali",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Mali"
+        },
+        "es": {
+          "title": "Museo Nacional de Mali",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Mali"
+        }
+      }
     },
     {
       "id": "ml-q105706883",
@@ -51,11 +72,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Bamako dedicated to women's history and culture in Mali.",
-        "es": "Museo en Bamako dedicado a la historia y la cultura de las mujeres en Malí."
+        "en": "The Muso Kunda Women's Museum, established in 1995, is an institution dedicated to showcasing and promote the cause of women in Mali.",
+        "es": "El Museo de la Mujer Muso Kunda en Bamako es un museo de Malí fundado en 1995 por la historiadora Adame Ba Konaré siendo primera dama del país (1992-2002) con…"
       },
       "sourceId": "wikidata",
-      "admission": "Security conditions are unstable across much of this country; check your government's current travel advice before going."
+      "admission": "Security conditions are unstable across much of this country; check your government's current travel advice before going.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Muso Kunda Museum of Women",
+          "url": "https://en.wikipedia.org/wiki/Muso_Kunda_Museum_of_Women"
+        },
+        "es": {
+          "title": "Museo de la Mujer Muso Kunda",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Mujer_Muso_Kunda"
+        }
+      }
     }
   ]
 }

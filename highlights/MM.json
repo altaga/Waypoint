@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,11 +39,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Yangon with collections on Myanmar's art and history.",
-        "es": "Museo nacional en Yangón con colecciones sobre el arte y la historia de Birmania."
+        "en": "The National Museum of Myanmar (Yangon), (Burmese: အမျိုးသား ပြတိုက်), located in Dagon, Yangon, is the larger of the two national museums for Burmese art, history and culture in Myanmar.",
+        "es": "El Museo nacional de Birmania o Museo nacional de Myanmar está situado en Dagon, Yangon (Rangún), es el principal museo de arte birmano, de historia y de cultura en Birmania…"
       },
       "sourceId": "wikidata",
-      "admission": "Some regions have conflict or travel restrictions; check your government's current travel advice and local permit rules."
+      "admission": "Some regions have conflict or travel restrictions; check your government's current travel advice and local permit rules.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Myanmar (Yangon)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Myanmar_(Yangon)"
+        },
+        "es": {
+          "title": "Museo nacional de Birmania",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Birmania"
+        }
+      }
     },
     {
       "id": "mm-q1136334",
@@ -51,11 +72,26 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo in Yangon with animal collections and large park grounds.",
-        "es": "Zoológico en Yangón con colecciones de animales y amplios terrenos de parque."
+        "en": "The Yangon Zoo is the oldest and the second largest zoo in Myanmar.",
+        "es": "El Jardín zoológico de Rangún o Jardín Zoológico de Yangón es el más antiguo y el segundo más grande Zoológico en Birmania."
       },
       "sourceId": "wikidata",
-      "admission": "Some regions have conflict or travel restrictions; check your government's current travel advice and local permit rules."
+      "admission": "Some regions have conflict or travel restrictions; check your government's current travel advice and local permit rules.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Yangon Zoological Gardens",
+          "url": "https://en.wikipedia.org/wiki/Yangon_Zoological_Gardens"
+        },
+        "es": {
+          "title": "Jardín zoológico de Rangún",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_de_Rang%C3%BAn"
+        }
+      }
     },
     {
       "id": "mm-q8046515",
@@ -69,11 +105,26 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo in Mandalay with animal collections and park grounds.",
-        "es": "Zoológico en Mandalay con colecciones de animales y zonas de parque."
+        "en": "The Yadanabon Zoological Gardens is a zoo in Mandalay, Myanmar.",
+        "es": "El Jardín zoológico Yadanabon es el nombre que recibe un zoológico en Mandalay, una localidad del país asiático de Birmania."
       },
       "sourceId": "wikidata",
-      "admission": "Some regions have conflict or travel restrictions; check your government's current travel advice and local permit rules."
+      "admission": "Some regions have conflict or travel restrictions; check your government's current travel advice and local permit rules.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Yadanabon Zoological Gardens",
+          "url": "https://en.wikipedia.org/wiki/Yadanabon_Zoological_Gardens"
+        },
+        "es": {
+          "title": "Jardín Zoológico Yadanabon",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Zool%C3%B3gico_Yadanabon"
+        }
+      }
     },
     {
       "id": "mm-q23055279",
@@ -88,11 +139,22 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of archaeological finds from the Bagan temple region.",
+        "en": "Bagan Archaeological Museum is located in Bagan, Myanmar.",
         "es": "Museo de hallazgos arqueológicos de la región de templos de Bagan."
       },
       "sourceId": "wikidata",
-      "admission": "Some regions have conflict or travel restrictions; check your government's current travel advice and local permit rules."
+      "admission": "Some regions have conflict or travel restrictions; check your government's current travel advice and local permit rules.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bagan Archaeological Museum",
+          "url": "https://en.wikipedia.org/wiki/Bagan_Archaeological_Museum"
+        }
+      }
     },
     {
       "id": "mm-q6897583",
@@ -106,11 +168,22 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on the culture and history of Mon State, in Mawlamyine.",
+        "en": "The Mon State Cultural Museum, formerly Mon Ethnic Cultural Museum, is a museum located at No. 50, Htawai Bridge Road & Baho Road, in Mawlamyine, Mon State in Myanmar.",
         "es": "Museo sobre la cultura y la historia del estado Mon, en Mawlamyine."
       },
       "sourceId": "wikidata",
-      "admission": "Some regions have conflict or travel restrictions; check your government's current travel advice and local permit rules."
+      "admission": "Some regions have conflict or travel restrictions; check your government's current travel advice and local permit rules.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mon State Cultural Museum",
+          "url": "https://en.wikipedia.org/wiki/Mon_State_Cultural_Museum"
+        }
+      }
     },
     {
       "id": "mm-q7487839",
@@ -124,11 +197,22 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on the culture and history of Shan State, in Taunggyi.",
+        "en": "The Shan State Cultural Museum, also known as Cultural Museum (Taunggyi), is a museum located on Bogyoke Aung San Road and Eintawshay Road in Taunggyi, Shan State, Myanmar (Burma).",
         "es": "Museo sobre la cultura y la historia del estado Shan, en Taunggyi."
       },
       "sourceId": "wikidata",
-      "admission": "Some regions have conflict or travel restrictions; check your government's current travel advice and local permit rules."
+      "admission": "Some regions have conflict or travel restrictions; check your government's current travel advice and local permit rules.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Shan State Cultural Museum",
+          "url": "https://en.wikipedia.org/wiki/Shan_State_Cultural_Museum"
+        }
+      }
     },
     {
       "id": "mm-q21707107",
@@ -142,11 +226,22 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Nay Pyi Taw, the administrative capital, with national collections.",
+        "en": "The National Museum of Myanmar (Naypyidaw) (Burmese: အမျိုးသားပြတိုက် (နေပြည်တော်)) is a modern museum located near the Kumudra circle, in Ottarathiri Township, Naypyidaw, Myanmar (Burma).",
         "es": "Museo nacional en Naipyidó, la capital administrativa, con colecciones nacionales."
       },
       "sourceId": "wikidata",
-      "admission": "Some regions have conflict or travel restrictions; check your government's current travel advice and local permit rules."
+      "admission": "Some regions have conflict or travel restrictions; check your government's current travel advice and local permit rules.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Myanmar (Naypyidaw)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Myanmar_(Naypyidaw)"
+        }
+      }
     }
   ]
 }

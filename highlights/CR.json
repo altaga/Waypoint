@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in San José, housed in the former Bellavista fortress.",
-        "es": "Museo nacional en San José, instalado en la antigua fortaleza de Bellavista."
+        "en": "The Museo Nacional de Costa Rica is the national museum of Costa Rica, located in the capital of San José.",
+        "es": "El Museo Nacional de Costa Rica se encuentra ubicado en la ciudad de San José."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo Nacional de Costa Rica",
+          "url": "https://en.wikipedia.org/wiki/Museo_Nacional_de_Costa_Rica"
+        },
+        "es": {
+          "title": "Museo Nacional de Costa Rica",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Costa_Rica"
+        }
+      }
     },
     {
       "id": "cr-q10941394",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in San José with pre-Columbian gold objects.",
-        "es": "Museo en San José con objetos precolombinos de oro."
+        "en": "The Pre-Columbian Gold Museum is a museum in San José, Costa Rica.",
+        "es": "El Museo del Oro Precolombino Álvaro Vargas Echeverría, llamado simplemente Museo del Oro Precolombino o Museo del Oro, es un museo histórico, arqueológico y cultural ubicado en San José, capital…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Pre-Columbian Gold Museum",
+          "url": "https://en.wikipedia.org/wiki/Pre-Columbian_Gold_Museum"
+        },
+        "es": {
+          "title": "Museo del Oro Precolombino",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Oro_Precolombino"
+        }
+      }
     },
     {
       "id": "cr-q6063251",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National zoo in San José with native and exotic animal species.",
-        "es": "Zoológico nacional en San José con especies nativas y exóticas."
+        "en": "Parque Nacional Simón Bolívar is an urban park of approximately 14 hectares, located in downtown San José, Costa Rica.",
+        "es": "El Parque zoológico y jardín botánico nacional Simón Bolívar, también llamado alternativamente Zoológico Simón Bolívar o Parque Bolívar, fue un zoológico y jardín botánico ubicado en la ciudad de San…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Parque Zoológico Nacional Simón Bolívar",
+          "url": "https://en.wikipedia.org/wiki/Parque_Zool%C3%B3gico_Nacional_Sim%C3%B3n_Bol%C3%ADvar"
+        },
+        "es": {
+          "title": "Parque zoológico y jardín botánico nacional Simón Bolívar",
+          "url": "https://es.wikipedia.org/wiki/Parque_zool%C3%B3gico_y_jard%C3%ADn_bot%C3%A1nico_nacional_Sim%C3%B3n_Bol%C3%ADvar"
+        }
+      }
     },
     {
       "id": "cr-q20022317",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Art museum in San José focused on Costa Rican art.",
-        "es": "Museo de arte en San José centrado en el arte costarricense."
+        "en": "The Costa Rican Museum of Art is an art museum in San José, Costa Rica.",
+        "es": "El Museo de Arte Costarricense fue fundado en 1978 por el empresario Samuel Alejandro Sosa Rivero en colaboración con el Ministerio de Cultura y Juventud."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Costa Rican Museum of Art",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rican_Museum_of_Art"
+        },
+        "es": {
+          "title": "Museo de Arte Costarricense",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Costarricense"
+        }
+      }
     }
   ]
 }

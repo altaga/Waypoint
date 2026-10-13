@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Royal palace on Lovön island, near Stockholm, with formal gardens.",
-        "es": "Palacio real en la isla de Lovön, cerca de Estocolmo, con jardines formales."
+        "en": "Drottningholm Palace is a royal palace in Drottningholm, on the island of Lovön in Ekerö Municipality, Stockholm County, Sweden.",
+        "es": "El palacio de Drottningholm es uno de los palacios reales de Suecia, residencia de la familia real."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Drottningholm Palace",
+          "url": "https://en.wikipedia.org/wiki/Drottningholm_Palace"
+        },
+        "es": {
+          "title": "Palacio de Drottningholm",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Drottningholm"
+        }
+      }
     },
     {
       "id": "se-q750444",
@@ -51,10 +72,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Royal palace in Gamla Stan, the old town of Stockholm.",
-        "es": "Palacio real en Gamla Stan, el casco antiguo de Estocolmo."
+        "en": "Stockholm Palace, or the Royal Palace, is the official residence and major royal palace of the Swedish monarch.",
+        "es": "El palacio de Estocolmo es la residencia oficial y el mayor de los palacios de la monarquía sueca."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Stockholm Palace",
+          "url": "https://en.wikipedia.org/wiki/Stockholm_Palace"
+        },
+        "es": {
+          "title": "Palacio Real de Estocolmo",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Real_de_Estocolmo"
+        }
+      }
     },
     {
       "id": "se-q936884",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Preserved historic ironworks, a UNESCO World Heritage site.",
-        "es": "Antigua ferrería conservada, sitio del Patrimonio Mundial de la UNESCO."
+        "en": "Engelsberg Ironworks is an ironworks in Ängelsberg, a village in Fagersta Municipality in Västmanland County, Sweden.",
+        "es": "Las forjas o fraguas de Engelsberg son una antigua fundición en Ängelsberg, localidad de la municipalidad de Fagersta en Västmanland, Suecia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Engelsberg Ironworks",
+          "url": "https://en.wikipedia.org/wiki/Engelsberg_Ironworks"
+        },
+        "es": {
+          "title": "Forjas de Engelsberg",
+          "url": "https://es.wikipedia.org/wiki/Forjas_de_Engelsberg"
+        }
+      }
     },
     {
       "id": "se-q901371",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum built around the 17th-century warship Vasa.",
-        "es": "Museo construido alrededor del barco de guerra Vasa del siglo XVII."
+        "en": "The Vasa Museum is a maritime museum in Stockholm, Sweden.",
+        "es": "El Museo Vasa de Estocolmo alberga al buque de guerra de dicho nombre, único navío del siglo XVII que ha sobrevivido casi intacto hasta nuestros días."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Vasa Museum",
+          "url": "https://en.wikipedia.org/wiki/Vasa_Museum"
+        },
+        "es": {
+          "title": "Museo Vasa",
+          "url": "https://es.wikipedia.org/wiki/Museo_Vasa"
+        }
+      }
     },
     {
       "id": "se-q725108",
@@ -102,10 +168,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Open-air museum with historic buildings, animals and folk traditions.",
-        "es": "Museo al aire libre con edificios históricos, animales y tradiciones populares."
+        "en": "Skansen is the oldest open-air museum and zoo in Sweden located on the island Djurgården in Stockholm, Sweden.",
+        "es": "Skansen es un museo al aire libre, así como un parque zoológico, situado en la isla de Djurgården en Estocolmo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Skansen",
+          "url": "https://en.wikipedia.org/wiki/Skansen"
+        },
+        "es": {
+          "title": "Skansen",
+          "url": "https://es.wikipedia.org/wiki/Skansen"
+        }
+      }
     },
     {
       "id": "se-q842858",
@@ -119,10 +200,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National art museum with Swedish and European collections.",
-        "es": "Museo nacional de arte con colecciones suecas y europeas."
+        "en": "Nationalmuseum is the national gallery of fine arts of Sweden, located on the peninsula Blasieholmen in central Stockholm.",
+        "es": "El Museo Nacional de Estocolmo es un museo de arte situado en Estocolmo, Suecia, ubicado en la península de Blasieholmen."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nationalmuseum",
+          "url": "https://en.wikipedia.org/wiki/Nationalmuseum"
+        },
+        "es": {
+          "title": "Museo Nacional de Suecia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Suecia"
+        }
+      }
     },
     {
       "id": "se-q1968711",
@@ -135,10 +231,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum about the Nobel Prizes and their laureates, in Stockholm.",
-        "es": "Museo sobre los premios Nobel y sus galardonados, en Estocolmo."
+        "en": "The Nobel Prize Museum is located in the former Stock Exchange Building on the north side of the square Stortorget in Gamla Stan, the old town in central Stockholm, Sweden.",
+        "es": "El museo Nobel es un museo situado en la ciudad vieja de Estocolmo en Suecia, en la plaza Stortorget en el mismo edificio (Börshuset) que la Academia Sueca y la…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nobel Prize Museum",
+          "url": "https://en.wikipedia.org/wiki/Nobel_Prize_Museum"
+        },
+        "es": {
+          "title": "Museo Nobel",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nobel"
+        }
+      }
     },
     {
       "id": "se-q1142142",
@@ -152,10 +263,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum of Nordic cultural history and everyday life, in Stockholm.",
-        "es": "Museo de la historia cultural y la vida cotidiana nórdicas, en Estocolmo."
+        "en": "The Nordic Museum is a museum located on Djurgården, an island in central Stockholm, Sweden, dedicated to the cultural history and ethnography of Sweden from the early modern period to…",
+        "es": "El Museo Nórdico es un museo de historia situado en la isla de Djurgården, en Estocolmo, Suecia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nordic Museum",
+          "url": "https://en.wikipedia.org/wiki/Nordic_Museum"
+        },
+        "es": {
+          "title": "Museo Nórdico",
+          "url": "https://es.wikipedia.org/wiki/Museo_N%C3%B3rdico"
+        }
+      }
     },
     {
       "id": "se-q1420103",
@@ -169,10 +295,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Natural history museum with collections on Swedish and global nature.",
-        "es": "Museo de historia natural con colecciones sobre la naturaleza sueca y mundial."
+        "en": "The Swedish Museum of Natural History, in Stockholm, is one of two major museums of natural history in Sweden, the other one being located in Gothenburg.",
+        "es": "El Museo Sueco de Historia Natural es el museo de historia natural de rango nacional de Suecia, uno de los más importantes del país."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Swedish Museum of Natural History",
+          "url": "https://en.wikipedia.org/wiki/Swedish_Museum_of_Natural_History"
+        },
+        "es": {
+          "title": "Museo Sueco de Historia Natural",
+          "url": "https://es.wikipedia.org/wiki/Museo_Sueco_de_Historia_Natural"
+        }
+      }
     }
   ]
 }

@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National history museum in Reykjavík.",
-        "es": "Museo nacional de historia en Reikiavik."
+        "en": "The National Museum of Iceland is a museum in Reykjavík, Iceland.",
+        "es": "El Museo Nacional de Islandia es una institución museística que se encuentra en Reikiavik, la capital de Islandia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Iceland",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Iceland"
+        },
+        "es": {
+          "title": "Museo Nacional de Islandia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Islandia"
+        }
+      }
     },
     {
       "id": "is-q3358410",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Art museum with several venues across Reykjavík.",
-        "es": "Museo de arte con varias sedes en Reikiavik."
+        "en": "Reykjavik Art Museum is the largest visual art institution in Iceland.",
+        "es": "El Museo de Arte de Reikiavik es la institución más grande del arte visual en Islandia, Ocupa tres locaciones en Reikiavik; en Hafnarhús por el antiguo puerto (64.1490, -21.9406), en…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Reykjavik Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Reykjavik_Art_Museum"
+        },
+        "es": {
+          "title": "Museo de Arte de Reikiavik",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_de_Reikiavik"
+        }
+      }
     },
     {
       "id": "is-q3480309",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Gallery of Icelandic painting and sculpture in Reykjavík.",
-        "es": "Galería de pintura y escultura islandesas en Reikiavik."
+        "en": "The National Gallery of Iceland is an art museum in Reykjavík which contains a collection of Icelandic art.",
+        "es": "La galería Nacional de Islandia es un sitio histórico y cultural fundado en 1884 y localizado en la ciudad de Reikiavik, Islandia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Gallery of Iceland",
+          "url": "https://en.wikipedia.org/wiki/National_Gallery_of_Iceland"
+        },
+        "es": {
+          "title": "Galería Nacional de Islandia",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Islandia"
+        }
+      }
     },
     {
       "id": "is-q3481984",
@@ -83,10 +134,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Open-air museum of historic buildings in Reykjavík.",
+        "en": "Árbæjarsafn is the historical museum of the city of Reykjavík as well as an open-air museum and a regional museum.",
         "es": "Museo al aire libre de edificios históricos en Reikiavik."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Árbæjarsafn",
+          "url": "https://en.wikipedia.org/wiki/%C3%81rb%C3%A6jarsafn"
+        }
+      }
     },
     {
       "id": "is-q15049871",
@@ -100,10 +162,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Reconstructed Viking-age farm at the Stöng archaeological site.",
+        "en": "Þjóðveldisbærinn Stöng is a reconstructed viking-era farmstead in Iceland, located in the Þjórsárdalur valley near road 32 in Árnessýsla county.",
         "es": "Granja vikinga reconstruida en el yacimiento arqueológico de Stöng."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Þjóðveldisbærinn Stöng",
+          "url": "https://en.wikipedia.org/wiki/%C3%9Ej%C3%B3%C3%B0veldisb%C3%A6rinn_St%C3%B6ng"
+        }
+      }
     },
     {
       "id": "is-q4163674",
@@ -117,10 +190,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Viking-age history near Keflavík.",
-        "es": "Museo de la historia de la era vikinga, cerca de Keflavík."
+        "en": "Viking World is a museum in Njarðvík, Reykjanesbær, Iceland.",
+        "es": "El museo Nacional Vikingo es un museo cultural localizado en Njarðvík, Islandia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Viking World museum",
+          "url": "https://en.wikipedia.org/wiki/Viking_World_museum"
+        },
+        "es": {
+          "title": "Museo Nacional Vikingo",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_Vikingo"
+        }
+      }
     },
     {
       "id": "is-q356308",
@@ -134,10 +222,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Contemporary art museum run by artists in Reykjavík.",
+        "en": "The Living Art Museum (Nýló) is a not-for-profit, artist-run museum and exhibition platform for innovative and experimental contemporary art in Reykjavík, Iceland.",
         "es": "Museo de arte contemporáneo gestionado por artistas en Reikiavik."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "The Living Art Museum",
+          "url": "https://en.wikipedia.org/wiki/The_Living_Art_Museum"
+        }
+      }
     },
     {
       "id": "is-q10480451",
@@ -151,10 +250,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Reconstructed Viking-age longhouse linked to Erik the Red.",
+        "en": "Eiríksstaðir is the former homestead of Eiríkr Þorvaldsson, known as Erik the Red, at Haukadalur Valley in the Dalasýsla region of Iceland.",
         "es": "Casa vikinga reconstruida vinculada a Erik el Rojo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Eiríksstaðir",
+          "url": "https://en.wikipedia.org/wiki/Eir%C3%ADkssta%C3%B0ir"
+        }
+      }
     },
     {
       "id": "is-q2312229",
@@ -168,10 +278,21 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Former home of Nobel laureate Halldór Laxness, now a museum.",
+        "en": "Gljúfrasteinn is a writer's home museum, which was the former home of Halldór Kiljan Laxness, a 1955 Nobel Prize for Literature winner.",
         "es": "Antigua casa del premio Nobel Halldór Laxness, hoy museo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Gljúfrasteinn",
+          "url": "https://en.wikipedia.org/wiki/Glj%C3%BAfrasteinn"
+        }
+      }
     }
   ]
 }

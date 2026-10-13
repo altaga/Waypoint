@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Church in Jerusalem's Old City traditionally identified as the site of Jesus's tomb.",
-        "es": "Iglesia de la Ciudad Vieja de Jerusalén identificada tradicionalmente con la tumba de Jesús."
+        "en": "The Church of the Holy Sepulchre, also known as the Church of the Resurrection, is a fourth-century church in the Christian Quarter of the Old City of Jerusalem.",
+        "es": "La iglesia del Santo Sepulcro, también conocida como basílica del Santo Sepulcro, iglesia de la Resurrección o iglesia de la Anástasis, es un santuario cristiano situado en la Ciudad Vieja…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Church of the Holy Sepulchre",
+          "url": "https://en.wikipedia.org/wiki/Church_of_the_Holy_Sepulchre"
+        },
+        "es": {
+          "title": "Santo Sepulcro",
+          "url": "https://es.wikipedia.org/wiki/Santo_Sepulcro"
+        }
+      }
     },
     {
       "id": "ps-q1177765",
@@ -51,10 +72,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Citadel and museum complex beside Jaffa Gate in Jerusalem's Old City.",
-        "es": "Ciudadela y complejo museístico junto a la Puerta de Jaffa, en la Ciudad Vieja de Jerusalén."
+        "en": "The Tower of David, also known as the Citadel, is an ancient citadel and contemporary museum, located near the Jaffa Gate entrance to the Old City of Jerusalem.",
+        "es": "La Torre de David es una antigua ciudadela en el Barrio Armenio de la Ciudad Vieja de Jerusalén."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tower of David",
+          "url": "https://en.wikipedia.org/wiki/Tower_of_David"
+        },
+        "es": {
+          "title": "Torre de David",
+          "url": "https://es.wikipedia.org/wiki/Torre_de_David"
+        }
+      }
     },
     {
       "id": "ps-q121610806",
@@ -69,11 +105,22 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Mosque complex on the Haram al-Sharif in Jerusalem's Old City.",
+        "en": "Al-Aqsa, also known as the Haram al-Sharif, is the Islamic religious compound that encompasses the plateau of the Temple Mount, in the Old City of Jerusalem.",
         "es": "Complejo de mezquitas en el Haram al-Sharif, en la Ciudad Vieja de Jerusalén."
       },
       "sourceId": "wikidata",
-      "admission": "Access for non-Muslims is restricted and changes; check current rules before visiting."
+      "admission": "Access for non-Muslims is restricted and changes; check current rules before visiting.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Al-Aqsa",
+          "url": "https://en.wikipedia.org/wiki/Al-Aqsa"
+        }
+      }
     },
     {
       "id": "ps-q3407496",
@@ -88,10 +135,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Islamic art and artefacts on the Al-Aqsa compound.",
-        "es": "Museo de arte y objetos islámicos en el recinto de Al-Aqsa."
+        "en": "The Islamic Museum is a museum at Al Aqsa in the Old City section of Jerusalem.",
+        "es": "El Museo Islámico de Jerusalén es un museo en la Explanada de las Mezquitas en la Ciudad Vieja de Jerusalén."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Islamic Museum, Jerusalem",
+          "url": "https://en.wikipedia.org/wiki/Islamic_Museum%2C_Jerusalem"
+        },
+        "es": {
+          "title": "Museo Islámico de Jerusalén",
+          "url": "https://es.wikipedia.org/wiki/Museo_Isl%C3%A1mico_de_Jerusal%C3%A9n"
+        }
+      }
     },
     {
       "id": "ps-q18211128",
@@ -106,10 +168,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum of Palestinian history, art and culture near Ramallah.",
-        "es": "Museo de historia, arte y cultura palestinos cerca de Ramala."
+        "en": "The Palestinian Museum is a museum in Birzeit, in the West Bank, Palestine, that was inaugurated on 18 May 2016.",
+        "es": "El Museo de Palestina es un museo en Birzeit, Estado de Palestina."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "The Palestinian Museum",
+          "url": "https://en.wikipedia.org/wiki/The_Palestinian_Museum"
+        },
+        "es": {
+          "title": "Museo de Palestina",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Palestina"
+        }
+      }
     },
     {
       "id": "ps-q2157390",
@@ -123,10 +200,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Bethlehem focused on local Palestinian heritage.",
-        "es": "Museo en Belén centrado en el patrimonio palestino local."
+        "en": "Baituna al-Talhami Museum, also known as Bethlehem Folklore Museum or The Museum of Traditional and Popular Art, is a museum located in Bethlehem, Palestine, on Star Street, slightly off Pope…",
+        "es": "El Museo folclórico de Belén o el Museo Baituna al-Talhami Es uno de los museos más grandes en los territorios palestinos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Baituna al-Talhami Museum",
+          "url": "https://en.wikipedia.org/wiki/Baituna_al-Talhami_Museum"
+        },
+        "es": {
+          "title": "Museo folclórico de Belén",
+          "url": "https://es.wikipedia.org/wiki/Museo_folcl%C3%B3rico_de_Bel%C3%A9n"
+        }
+      }
     }
   ]
 }

@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Ancient fortress overlooking the Old Town of Tbilisi.",
-        "es": "Antigua fortaleza sobre el casco antiguo de Tiflis."
+        "en": "Narikala is an ancient fortress overlooking Tbilisi, the capital of Georgia, and the Mtkvari (Kura) River.",
+        "es": "Narikala es una antigua fortaleza que se yergue sobre Tiflis, la capital de Georgia, y el río Kura."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Narikala",
+          "url": "https://en.wikipedia.org/wiki/Narikala"
+        },
+        "es": {
+          "title": "Narikala",
+          "url": "https://es.wikipedia.org/wiki/Narikala"
+        }
+      }
     },
     {
       "id": "ge-q2563760",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Gori dedicated to the life of Joseph Stalin.",
-        "es": "Museo en Gori dedicado a la vida de Yósif Stalin."
+        "en": "The Joseph Stalin Museum is a museum in Gori, Georgia dedicated to the life of Joseph Stalin, the leader of the Soviet Union, who was born in Gori.",
+        "es": "El Museo estatal Iósif Stalin es un museo en Gori, Georgia dedicado a la vida de Iósif Stalin, quien fue gobernante de la extinta Unión Soviética y que nació en…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Joseph Stalin Museum",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Stalin_Museum"
+        },
+        "es": {
+          "title": "Museo Estatal Iósif Stalin",
+          "url": "https://es.wikipedia.org/wiki/Museo_Estatal_I%C3%B3sif_Stalin"
+        }
+      }
     },
     {
       "id": "ge-q2562904",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum on the Soviet period of Georgian history.",
-        "es": "Museo sobre el periodo soviético de la historia de Georgia."
+        "en": "The Museum of the Soviet Occupation is a history museum in Tbilisi, Georgia, documenting the seven decades of the Soviet rule in Georgia (1921–1991) and dedicated to the history of…",
+        "es": "El Museo de la Ocupación Soviética es un museo de historia en Tiflis, Georgia, en el que existe la documentación de las siete décadas de dominio soviético en Georgia y…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Soviet Occupation (Tbilisi)",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Soviet_Occupation_(Tbilisi)"
+        },
+        "es": {
+          "title": "Museo de la Ocupación Soviética (Tiflis)",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Ocupaci%C3%B3n_Sovi%C3%A9tica_(Tiflis)"
+        }
+      }
     },
     {
       "id": "ge-q2586798",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum with archaeological and historical collections.",
-        "es": "Museo nacional con colecciones arqueológicas e históricas."
+        "en": "The Georgian National Museum unifies several leading museums in Georgia.",
+        "es": "El Museo Nacional de Georgia es una red de museos en Georgia que reúne a varios importantes museos de diversas partes del país."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Georgian National Museum",
+          "url": "https://en.wikipedia.org/wiki/Georgian_National_Museum"
+        },
+        "es": {
+          "title": "Museo Nacional de Georgia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Georgia"
+        }
+      }
     },
     {
       "id": "ge-q2028327",
@@ -100,10 +166,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Georgian art in Tbilisi.",
-        "es": "Museo de arte georgiano en Tiflis."
+        "en": "The Art Museum of Georgia (AMG) (Georgian: საქართველოს ხელოვნების მუზეუმი, sak'art'velos khelovnebis muzeumi), alternatively known as Shalva Amiranashvili Museum of Fine Arts, is one of the leading museums in the…",
+        "es": "El Museo de Arte de Georgia (AMG) (en georgiano: საქართველოს ხელოვნების მუზეუმი, sak'art'velos khelovnebis muzeumi ), también conocido como Museo de Bellas Artes Shalva Amiranashvili, es uno de los principales…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Art Museum of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Art_Museum_of_Georgia"
+        },
+        "es": {
+          "title": "Museo de Arte de Georgia",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_de_Georgia"
+        }
+      }
     },
     {
       "id": "ge-q3610430",
@@ -118,10 +199,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historical museum in a palace of the Dadiani princes.",
-        "es": "Museo histórico en un palacio de los príncipes Dadiani."
+        "en": "Dadiani Palace is a complex of former princely residences in Georgia.",
+        "es": "El Museo de historia y arquitectura del Palacio de Dadiani es un museo nacional de Georgia situado en Zugdidi, en la región de Samegrelo-Zemo Svaneti."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Dadiani Palace",
+          "url": "https://en.wikipedia.org/wiki/Dadiani_Palace"
+        },
+        "es": {
+          "title": "Museo de historia y arquitectura del Palacio de Dadiani",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_historia_y_arquitectura_del_Palacio_de_Dadiani"
+        }
+      }
     },
     {
       "id": "ge-q2899707",
@@ -135,10 +231,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Georgian history and archaeology in Tbilisi.",
-        "es": "Museo de historia y arqueología de Georgia en Tiflis."
+        "en": "The Simon Janashia Museum of Georgia, formerly known as the State Museum of History of Georgia, is one of the main history museums in Tbilisi, Georgia, which displays the country's…",
+        "es": "El Museo Simon Janashia de Georgia, antes conocido como Museo Estatal de Historia de Georgia, es uno de los principales museos de historia de Tiflis, Georgia, que exhibe los principales…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Simon Janashia Museum of Georgia",
+          "url": "https://en.wikipedia.org/wiki/Simon_Janashia_Museum_of_Georgia"
+        },
+        "es": {
+          "title": "Museo Simon Janashia de Georgia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Simon_Janashia_de_Georgia"
+        }
+      }
     },
     {
       "id": "ge-q3647379",
@@ -151,10 +262,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Limestone cave near the spa town of Tskaltubo.",
-        "es": "Cueva caliza cerca de la localidad balnearia de Tskaltubo."
+        "en": "Prometheus Cave Natural Monument also known as Kumistavi Cave and Tsqaltubo Cave is a karst cave located in Tsqaltubo Municipality in Imereti region of Georgia.",
+        "es": "Monumento natural Cueva de Prometeo también conocida como Cueva Kumistavi o Cueva Tskhaltubo es una cueva kárstica situada en el Municipio de Tsjaltubo, en la región de Imericia, en Georgia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Prometheus Cave Natural Monument",
+          "url": "https://en.wikipedia.org/wiki/Prometheus_Cave_Natural_Monument"
+        },
+        "es": {
+          "title": "Monumento natural Cueva de Prometeo",
+          "url": "https://es.wikipedia.org/wiki/Monumento_natural_Cueva_de_Prometeo"
+        }
+      }
     },
     {
       "id": "ge-q4453139",
@@ -168,10 +294,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoological garden in Tbilisi.",
+        "en": "The Tbilisi Zoological Park is the oldest and largest zoo in Georgia, in the country's capital of Tbilisi.",
         "es": "Jardín zoológico en Tiflis."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tbilisi Zoo",
+          "url": "https://en.wikipedia.org/wiki/Tbilisi_Zoo"
+        }
+      }
     },
     {
       "id": "ge-q2920430",
@@ -185,10 +322,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Open-air museum of traditional Georgian rural architecture.",
-        "es": "Museo al aire libre de la arquitectura rural tradicional de Georgia."
+        "en": "The Giorgi Chitaia Open Air Museum of Ethnography is an open-air museum in Tbilisi, Georgia, displaying the examples of folk architecture and craftwork from various regions of the country.",
+        "es": "El Museo de Etnografía al aire libre de Tiflis es un museo al aire libre de Tiflis, (Georgia) situado en la ladera de la colina al sur de la ciudad…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tbilisi Open Air Museum of Ethnography",
+          "url": "https://en.wikipedia.org/wiki/Tbilisi_Open_Air_Museum_of_Ethnography"
+        },
+        "es": {
+          "title": "Museo de Etnografía al aire libre de Tiflis",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Etnograf%C3%ADa_al_aire_libre_de_Tiflis"
+        }
+      }
     }
   ]
 }

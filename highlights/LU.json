@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum of archaeology and history in Luxembourg City.",
-        "es": "Museo nacional de arqueología e historia en la ciudad de Luxemburgo."
+        "en": "The National Museum of Archaeology, History and Art, abbreviated to MNAHA, is a cultural institution in Luxembourg City, southern Luxembourg.",
+        "es": "El Museo Nacional de Historia y Arte del Gran Ducado de Luxemburgo (MNHA) está ubicado al sur de la Ciudad de Luxemburgo, dentro del centro histórico de la ciudad, con…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Archaeology, History and Art",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Archaeology%2C_History_and_Art"
+        },
+        "es": {
+          "title": "Museo Nacional de Historia y Arte (Luxemburgo)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Historia_y_Arte_(Luxemburgo)"
+        }
+      }
     },
     {
       "id": "lu-q1955758",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of contemporary art in Kirchberg.",
-        "es": "Museo de arte contemporáneo en Kirchberg."
+        "en": "The Grand Duke Jean Museum of Modern Art, abbreviated to Mudam, is a museum of modern art in Luxembourg City, in southern Luxembourg.",
+        "es": "El Museo de Arte Moderno Gran Duque Juan, abreviado Mudam, es un museo de arte moderno situado en la Ciudad de Luxemburgo (Luxemburgo)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "MUDAM",
+          "url": "https://en.wikipedia.org/wiki/MUDAM"
+        },
+        "es": {
+          "title": "Mudam",
+          "url": "https://es.wikipedia.org/wiki/Mudam"
+        }
+      }
     },
     {
       "id": "lu-q2555232",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum of the history of Luxembourg City.",
-        "es": "Museo de la historia de la ciudad de Luxemburgo."
+        "en": "The Lëtzebuerg City Museum, illustrates the thousand-year history of the City of Luxembourg with both permanent and temporary exhibits.",
+        "es": "El Museo Histórico de la Ciudad de Luxemburgo, ilustra la historia de la Ciudad de Luxemburgo con exposiciones permanentes y temporales."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Luxembourg City History Museum",
+          "url": "https://en.wikipedia.org/wiki/Luxembourg_City_History_Museum"
+        },
+        "es": {
+          "title": "Museo Histórico de la Ciudad de Luxemburgo",
+          "url": "https://es.wikipedia.org/wiki/Museo_Hist%C3%B3rico_de_la_Ciudad_de_Luxemburgo"
+        }
+      }
     },
     {
       "id": "lu-q2223322",
@@ -84,10 +135,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Art museum in a 19th-century villa in Luxembourg City.",
+        "en": "The Villa Vauban is an art museum in Luxembourg City.",
         "es": "Museo de arte en una villa del siglo XIX en la ciudad de Luxemburgo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Villa Vauban",
+          "url": "https://en.wikipedia.org/wiki/Villa_Vauban"
+        }
+      }
     },
     {
       "id": "lu-q478061",
@@ -101,10 +163,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Military history museum in Diekirch.",
+        "en": "The National Museum of Military History, abbreviated to MNHM, is a national museum in Diekirch, in north-eastern Luxembourg, that includes amongst its exhibits military vehicles and weaponry, a photographic archive,…",
         "es": "Museo de historia militar en Diekirch."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Military History (Luxembourg)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Military_History_(Luxembourg)"
+        }
+      }
     },
     {
       "id": "lu-q2392584",
@@ -118,10 +191,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Park with fairy-tale themed scenes, in Bettembourg.",
-        "es": "Parque con escenas de cuentos de hadas, en Bettembourg."
+        "en": "The Parc Merveilleux is an amusement park just east of Bettembourg in the south of Luxembourg.",
+        "es": "El Parc Merveilleux es un parque temático y zoológico situado al este de Bettemburgo, en el sur de Luxemburgo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Parc Merveilleux",
+          "url": "https://en.wikipedia.org/wiki/Parc_Merveilleux"
+        },
+        "es": {
+          "title": "Parque Merveilleux",
+          "url": "https://es.wikipedia.org/wiki/Parque_Merveilleux"
+        }
+      }
     },
     {
       "id": "lu-q6974489",
@@ -135,10 +223,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Natural history museum in Luxembourg City.",
+        "en": "The National Museum of Natural History is a natural history museum in Luxembourg City, in southern Luxembourg.",
         "es": "Museo de historia natural en la ciudad de Luxemburgo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Natural History, Luxembourg",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Natural_History%2C_Luxembourg"
+        }
+      }
     },
     {
       "id": "lu-q6978080",
@@ -152,10 +251,21 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum on Luxembourg's resistance in World War II, in Esch-sur-Alzette.",
+        "en": "The National Museum of Resistance and Human Rights is located in the centre of Esch-sur-Alzette in the south-west of Luxembourg.",
         "es": "Museo sobre la resistencia luxemburguesa en la Segunda Guerra Mundial, en Esch-sur-Alzette."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Resistance Museum, Luxembourg",
+          "url": "https://en.wikipedia.org/wiki/National_Resistance_Museum%2C_Luxembourg"
+        }
+      }
     },
     {
       "id": "lu-q2244220",
@@ -169,10 +279,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historic castle in the town of Wiltz in the Ardennes.",
+        "en": "Wiltz Castle, located in Wiltz in the north of Luxembourg, dates back to 1573.",
         "es": "Castillo histórico en la localidad de Wiltz, en las Ardenas."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Wiltz Castle",
+          "url": "https://en.wikipedia.org/wiki/Wiltz_Castle"
+        }
+      }
     }
   ]
 }

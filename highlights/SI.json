@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Large karst cave system with guided tours.",
-        "es": "Extenso sistema de cuevas kársticas con visitas guiadas."
+        "en": "Postojna Cave is a 24.34 km (15.12 mi) long karst cave system near Postojna, southwestern Slovenia.",
+        "es": "La cueva de Postojna está situada muy cerca de la ciudad eslovena de Postojna."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Postojna Cave",
+          "url": "https://en.wikipedia.org/wiki/Postojna_Cave"
+        },
+        "es": {
+          "title": "Cueva de Postojna",
+          "url": "https://es.wikipedia.org/wiki/Cueva_de_Postojna"
+        }
+      }
     },
     {
       "id": "si-q500376",
@@ -48,10 +69,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Karst canyon and cave system, a UNESCO World Heritage site.",
-        "es": "Cañón y sistema de cuevas kársticas, sitio del Patrimonio Mundial de la UNESCO."
+        "en": "Škocjan Caves is a cave system located in Slovenia.",
+        "es": "Las Grutas de Škocjan es un sistema de cuevas calizas en la región del Carso (Karst) en el suroeste de Eslovenia que contienen dolinas colapsadas."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Škocjan Caves",
+          "url": "https://en.wikipedia.org/wiki/%C5%A0kocjan_Caves"
+        },
+        "es": {
+          "title": "Grutas de Škocjan",
+          "url": "https://es.wikipedia.org/wiki/Grutas_de_%C5%A0kocjan"
+        }
+      }
     },
     {
       "id": "si-q1779044",
@@ -64,10 +100,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Karst cave near Cerknica, known for its underground halls.",
+        "en": "Cross Cave, also named Cold Cave under Cross Mountain, is a cave in Slovenia's Lož Valley, in the area between the Lož Karst Field, Cerknica Karst Field, and Bloke Plateau.",
         "es": "Cueva kárstica cerca de Cerknica, con grandes salas subterráneas."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Cross Cave",
+          "url": "https://en.wikipedia.org/wiki/Cross_Cave"
+        }
+      }
     },
     {
       "id": "si-q1953536",
@@ -81,10 +128,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National gallery with Slovenian and European art, in Ljubljana.",
-        "es": "Galería nacional con arte esloveno y europeo, en Liubliana."
+        "en": "The National Gallery of Slovenia is the national art gallery of Slovenia.",
+        "es": "La Galería nacional de Eslovenia es la galería de arte nacional de Eslovenia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Gallery of Slovenia",
+          "url": "https://en.wikipedia.org/wiki/National_Gallery_of_Slovenia"
+        },
+        "es": {
+          "title": "Galería nacional de Eslovenia",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_nacional_de_Eslovenia"
+        }
+      }
     },
     {
       "id": "si-q2033282",
@@ -98,10 +160,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum on the archaeology and history of Slovenia, in Ljubljana.",
-        "es": "Museo nacional sobre la arqueología e historia de Eslovenia, en Liubliana."
+        "en": "The National Museum of Slovenia is located in Ljubljana, the capital of Slovenia.",
+        "es": "El Museo Nacional de Eslovenia se encuentra en Liubliana, capital de Eslovenia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Slovenia",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Slovenia"
+        },
+        "es": {
+          "title": "Museo Nacional de Eslovenia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Eslovenia"
+        }
+      }
     },
     {
       "id": "si-q11234584",
@@ -115,10 +192,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of modern and contemporary art, in Ljubljana.",
-        "es": "Museo de arte moderno y contemporáneo, en Liubliana."
+        "en": "The Museum of Modern Art in Ljubljana, Slovenia, is the central museum and gallery of Slovenian art from the 20th and 21st centuries.",
+        "es": "El Museo de Arte Moderno de Liubliana es el museo nacional de arte moderno de Eslovenia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Modern Art (Ljubljana)",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Modern_Art_(Ljubljana)"
+        },
+        "es": {
+          "title": "Museo de Arte Moderno de Liubliana",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Moderno_de_Liubliana"
+        }
+      }
     },
     {
       "id": "si-q3436372",
@@ -132,10 +224,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Zoo in Ljubljana with a range of animal species.",
-        "es": "Zoológico en Liubliana con una variedad de especies animales."
+        "en": "Ljubljana Zoo is a 19.6-hectare (48-acre) zoo in Ljubljana, Slovenia.",
+        "es": "El Zoológico de Liubliana es un parque zoológico de 19,6 hectáreas localizado en la ciudad de Liubliana, la capital de Eslovenia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ljubljana Zoo",
+          "url": "https://en.wikipedia.org/wiki/Ljubljana_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Liubliana",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Liubliana"
+        }
+      }
     },
     {
       "id": "si-q3666739",
@@ -149,10 +256,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Natural history museum in Ljubljana with collections on Slovenian nature.",
+        "en": "The Slovenian Museum of Natural History is a Slovenian national museum with natural history, scientific, and educational content.",
         "es": "Museo de historia natural en Liubliana con colecciones sobre la naturaleza eslovena."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Slovenian Museum of Natural History",
+          "url": "https://en.wikipedia.org/wiki/Slovenian_Museum_of_Natural_History"
+        }
+      }
     },
     {
       "id": "si-q18533909",
@@ -166,10 +284,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Paleolithic archaeological site in the Cerkno area.",
-        "es": "Yacimiento arqueológico paleolítico en la zona de Cerkno."
+        "en": "Divje Babe is a karst cave and archaeological park overlooking the Idrijca River in northwestern Slovenia.",
+        "es": "Divje Babe es una cueva kárstica y un parque arqueológico con vistas al río Idrijca en Eslovenia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Divje Babe",
+          "url": "https://en.wikipedia.org/wiki/Divje_Babe"
+        },
+        "es": {
+          "title": "Divje Babe",
+          "url": "https://es.wikipedia.org/wiki/Divje_Babe"
+        }
+      }
     }
   ]
 }

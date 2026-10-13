@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum in Belgrade with archaeology, history and art collections.",
-        "es": "Museo nacional en Belgrado con colecciones de arqueología, historia y arte."
+        "en": "The National Museum of Serbia is the largest and oldest museum in Belgrade, Serbia.",
+        "es": "El Museo Nacional de Serbia está localizado en Belgrado, y fue fundado en 1844."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Serbia",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Serbia"
+        },
+        "es": {
+          "title": "Museo Nacional de Serbia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Serbia"
+        }
+      }
     },
     {
       "id": "rs-q969047",
@@ -51,10 +72,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Medieval Serbian Orthodox monastery complex in Peja.",
-        "es": "Complejo monástico medieval ortodoxo serbio en Peja."
+        "en": "The Patriarchate of Peć Monastery is a medieval Serbian Orthodox monastery located near the city of Peja, Kosovo.",
+        "es": "El Monasterio patriarcal de Peć o de Pech es un monasterio patriarcal ortodoxo serbio ubicado cerca de Peć en Kosovo, que fue la sede del patriarcado de Peć."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Patriarchate of Peć (monastery)",
+          "url": "https://en.wikipedia.org/wiki/Patriarchate_of_Pe%C4%87_(monastery)"
+        },
+        "es": {
+          "title": "Monasterio patriarcal de Peć",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_patriarcal_de_Pe%C4%87"
+        }
+      }
     },
     {
       "id": "rs-q613201",
@@ -68,10 +104,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum dedicated to the life and inventions of Nikola Tesla.",
-        "es": "Museo dedicado a la vida y los inventos de Nikola Tesla."
+        "en": "The Nikola Tesla Museum is a science museum located in Belgrade in Serbia.",
+        "es": "El Museo Nikola Tesla está dedicado a homenajear y mostrar la vida y obra del científico serbio Nikola Tesla."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nikola Tesla Museum",
+          "url": "https://en.wikipedia.org/wiki/Nikola_Tesla_Museum"
+        },
+        "es": {
+          "title": "Museo Nikola Tesla",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nikola_Tesla"
+        }
+      }
     },
     {
       "id": "rs-q2338290",
@@ -85,10 +136,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum on Yugoslav history in Belgrade's Dedinje district.",
+        "en": "The Museum of Yugoslavia is a public history museum in Belgrade, Serbia dedicated to the history of Yugoslavia and the life of Josip Broz Tito.",
         "es": "Museo sobre la historia de Yugoslavia en el distrito de Dedinje, en Belgrado."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Yugoslavia",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Yugoslavia"
+        }
+      }
     },
     {
       "id": "rs-q1290510",
@@ -102,10 +164,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of contemporary art in New Belgrade.",
-        "es": "Museo de arte contemporáneo en Nuevo Belgrado."
+        "en": "The Museum of Contemporary Art is an art museum located in Belgrade, Serbia.",
+        "es": "El Museo de Arte Contemporáneo o MoCAB de Belgrado es la institución artística encargada de coleccionar y presentar las obras producidas desde 1900 en Serbia y la ex Yugoslavia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Contemporary Art, Belgrade",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Contemporary_Art%2C_Belgrade"
+        },
+        "es": {
+          "title": "Museo de Arte Contemporáneo de Belgrado",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Contempor%C3%A1neo_de_Belgrado"
+        }
+      }
     },
     {
       "id": "rs-q116343",
@@ -119,10 +196,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Village built in traditional style by filmmaker Emir Kusturica near Užice.",
-        "es": "Pueblo construido al estilo tradicional por el cineasta Emir Kusturica, cerca de Užice."
+        "en": "Küstendorf, also known as Drvengrad and Mećavnik, is a traditional village that the Serbian film director Emir Kusturica built for his film Life Is a Miracle from 2003 to 2004.",
+        "es": "Küstendorf, también conocida como Drvengrad, es una ciudad construida por el director de cine serbio Emir Kusturica cerca de Mokra Gora en el suroeste de Serbia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Küstendorf",
+          "url": "https://en.wikipedia.org/wiki/K%C3%BCstendorf"
+        },
+        "es": {
+          "title": "Küstendorf",
+          "url": "https://es.wikipedia.org/wiki/K%C3%BCstendorf"
+        }
+      }
     },
     {
       "id": "rs-q391211",
@@ -136,10 +228,21 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Narrow-gauge heritage railway in western Serbia, popular for scenic rides.",
+        "en": "The Šargan Eight is a narrow-gauge heritage railway in Serbia, running from the village of Mokra Gora to Šargan Vitasi station.",
         "es": "Ferrocarril histórico de vía estrecha en el oeste de Serbia, popular por sus paisajes."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Šargan Eight",
+          "url": "https://en.wikipedia.org/wiki/%C5%A0argan_Eight"
+        }
+      }
     },
     {
       "id": "rs-q1281959",
@@ -153,10 +256,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Military history museum in Belgrade.",
+        "en": "The Military Museum is a museum located in Belgrade, Serbia.",
         "es": "Museo de historia militar en Belgrado."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Military Museum, Belgrade",
+          "url": "https://en.wikipedia.org/wiki/Military_Museum%2C_Belgrade"
+        }
+      }
     },
     {
       "id": "rs-q2539582",
@@ -170,10 +284,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Aviation museum near Belgrade airport in Surčin.",
-        "es": "Museo de aviación cerca del aeropuerto de Belgrado, en Surčin."
+        "en": "The Aeronautical Museum, formerly known as the Yugoslav Aviation Museum, is a museum located in Surčin, Belgrade, the capital of Serbia.",
+        "es": "El Museo de Aeronáutica yugoslava es uno de los principales museos de este tipo en el mundo, fundado en el año 1957, bajo el Comando de la Fuerza Aérea."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Aeronautical Museum (Belgrade)",
+          "url": "https://en.wikipedia.org/wiki/Aeronautical_Museum_(Belgrade)"
+        },
+        "es": {
+          "title": "Museo de Aeronáutica (Belgrado)",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Aeron%C3%A1utica_(Belgrado)"
+        }
+      }
     },
     {
       "id": "rs-q698270",
@@ -186,10 +315,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Former WWII concentration camp in Belgrade, now a memorial site.",
-        "es": "Antiguo campo de concentración de la Segunda Guerra Mundial en Belgrado, hoy lugar memorial."
+        "en": "The Banjica concentration camp was a Nazi German concentration camp in the Territory of the Military Commander in Serbia, the military administration of the Third Reich established after the Invasion…",
+        "es": "El campo de concentración de Banjica fue un campo de concentración alemán nazi que estuvo en funcionamiento desde junio de 1941 hasta septiembre de 1944 durante la Segunda Guerra Mundial."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Banjica concentration camp",
+          "url": "https://en.wikipedia.org/wiki/Banjica_concentration_camp"
+        },
+        "es": {
+          "title": "Campo de concentración de Banjica",
+          "url": "https://es.wikipedia.org/wiki/Campo_de_concentraci%C3%B3n_de_Banjica"
+        }
+      }
     }
   ]
 }

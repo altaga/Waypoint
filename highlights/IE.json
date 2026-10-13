@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Medieval church ruins on a rock in County Tipperary.",
-        "es": "Ruinas de una iglesia medieval sobre una roca en el condado de Tipperary."
+        "en": "The Rock of Cashel, also known as Cashel of the Kings and St. Patrick's Rock, is a historical site located dramatically above a plain at Cashel, County Tipperary, Ireland.",
+        "es": "La Roca de Cashel, también conocido como Cashel de los Reyes o Roca de San Patricio, es un sitio histórico situado en Cashel, Condado de Tipperary, en Irlanda."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Rock of Cashel",
+          "url": "https://en.wikipedia.org/wiki/Rock_of_Cashel"
+        },
+        "es": {
+          "title": "Roca de Cashel",
+          "url": "https://es.wikipedia.org/wiki/Roca_de_Cashel"
+        }
+      }
     },
     {
       "id": "ie-q2018379",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National gallery with European paintings and Irish art.",
-        "es": "Galería nacional con pintura europea y arte irlandés."
+        "en": "The National Gallery of Ireland houses the national collection of Irish and European art.",
+        "es": "La Galería Nacional de Irlanda alberga la colección nacional irlandesa de arte irlandés y europeo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Gallery of Ireland",
+          "url": "https://en.wikipedia.org/wiki/National_Gallery_of_Ireland"
+        },
+        "es": {
+          "title": "Galería Nacional de Irlanda",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Irlanda"
+        }
+      }
     },
     {
       "id": "ie-q1672840",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum of Irish archaeology, history and decorative arts.",
-        "es": "Museo nacional de arqueología, historia y artes decorativas de Irlanda."
+        "en": "The National Museum of Ireland is Ireland's leading museum institution, with a strong emphasis on national and some international archaeology, Irish history, Irish art, culture, and natural history.",
+        "es": "El Museo Nacional de Irlanda es el principal museo en Irlanda."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Ireland",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Ireland"
+        },
+        "es": {
+          "title": "Museo Nacional de Irlanda",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Irlanda"
+        }
+      }
     },
     {
       "id": "ie-q391976",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Library and museum of manuscripts, books and art in Dublin Castle grounds.",
-        "es": "Biblioteca y museo de manuscritos, libros y arte en el recinto del Castillo de Dublín."
+        "en": "The Chester Beatty Library, now known as the Chester Beatty, is a museum and library in the grounds of Dublin Castle, Ireland.",
+        "es": "La Chester Beatty Library fue fundada en Dublín, Irlanda, en 1950, alberga las notables colecciones del magnate minero, Alfred Chester Beatty."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Chester Beatty Library",
+          "url": "https://en.wikipedia.org/wiki/Chester_Beatty_Library"
+        },
+        "es": {
+          "title": "Biblioteca Chester Beatty",
+          "url": "https://es.wikipedia.org/wiki/Biblioteca_Chester_Beatty"
+        }
+      }
     },
     {
       "id": "ie-q1049842",
@@ -101,11 +167,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Former prison with guided tours on Irish history.",
-        "es": "Antigua prisión con visitas guiadas sobre la historia de Irlanda."
+        "en": "Kilmainham Gaol is a former prison in Kilmainham, Dublin.",
+        "es": "Kilmainham Gaol era una cárcel situada en Inchicore, en Dublín, reconvertida hoy en museo."
       },
       "sourceId": "wikidata",
-      "admission": "Guided tours only; booking ahead is advised."
+      "admission": "Guided tours only; booking ahead is advised.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kilmainham Gaol",
+          "url": "https://en.wikipedia.org/wiki/Kilmainham_Gaol"
+        },
+        "es": {
+          "title": "Kilmainham Gaol",
+          "url": "https://es.wikipedia.org/wiki/Kilmainham_Gaol"
+        }
+      }
     },
     {
       "id": "ie-q1538285",
@@ -119,10 +200,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of modern and contemporary art in Dublin's Royal Hospital.",
-        "es": "Museo de arte moderno y contemporáneo en el Royal Hospital de Dublín."
+        "en": "The Irish Museum of Modern Art, also known as IMMA, is Ireland's leading national institution for the collection and presentation of modern and contemporary art.",
+        "es": "El Irish Museum of Modern Art, abreviado IMMA, abrió en mayo de 1991 y es la institución nacional líder en exhibiciones y colecciones de arte moderno y contemporáneo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Irish Museum of Modern Art",
+          "url": "https://en.wikipedia.org/wiki/Irish_Museum_of_Modern_Art"
+        },
+        "es": {
+          "title": "Museo Irlandés de Arte Moderno",
+          "url": "https://es.wikipedia.org/wiki/Museo_Irland%C3%A9s_de_Arte_Moderno"
+        }
+      }
     },
     {
       "id": "ie-q220027",
@@ -136,10 +232,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Zoo in Phoenix Park, Dublin.",
-        "es": "Zoológico en el Phoenix Park de Dublín."
+        "en": "Dublin Zoo, in Phoenix Park, is a zoo in Dublin, Ireland, and one of Dublin's most popular attractions.",
+        "es": "El Zoológico de Dublín se localiza en el Parque Phoenix, en Dublín, Irlanda."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Dublin Zoo",
+          "url": "https://en.wikipedia.org/wiki/Dublin_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Dublín",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Dubl%C3%ADn"
+        }
+      }
     },
     {
       "id": "ie-q2453267",
@@ -153,10 +264,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Medieval castle in the city of Kilkenny.",
-        "es": "Castillo medieval en la ciudad de Kilkenny."
+        "en": "Kilkenny Castle is a castle in Kilkenny, Ireland, built in 1260 to control a fording-point of the River Nore and the junction of several routeways.",
+        "es": "El Castillo de Kilkenny es un castillo situado en la localidad homónima del Condado de Kilkenny en la República de Irlanda."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kilkenny Castle",
+          "url": "https://en.wikipedia.org/wiki/Kilkenny_Castle"
+        },
+        "es": {
+          "title": "Castillo de Kilkenny",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Kilkenny"
+        }
+      }
     },
     {
       "id": "ie-q2533198",
@@ -170,10 +296,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Medieval castle on the Shannon in Limerick.",
-        "es": "Castillo medieval junto al río Shannon en Limerick."
+        "en": "King John's Castle also known as Limerick Castle is a 13th-century castle located on King's Island in Limerick, Ireland, next to the River Shannon.",
+        "es": "El castillo del Rey Juan es un castillo situado en Limerick, Irlanda, concretamente en la zona de la ciudad conocida como \"Isla del Rey\", junto al río Shannon."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "King John's Castle (Limerick)",
+          "url": "https://en.wikipedia.org/wiki/King_John's_Castle_(Limerick)"
+        },
+        "es": {
+          "title": "Castillo del Rey Juan (Limerick)",
+          "url": "https://es.wikipedia.org/wiki/Castillo_del_Rey_Juan_(Limerick)"
+        }
+      }
     },
     {
       "id": "ie-q261012",
@@ -187,10 +328,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Brewery museum and visitor experience in Dublin.",
+        "en": "Guinness Storehouse is a tourist attraction at St. James's Gate Brewery in Dublin, Ireland.",
         "es": "Museo y experiencia de visita en la cervecería de Dublín."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Guinness Storehouse",
+          "url": "https://en.wikipedia.org/wiki/Guinness_Storehouse"
+        }
+      }
     }
   ]
 }

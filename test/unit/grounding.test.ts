@@ -10,6 +10,9 @@ const root = join(import.meta.dirname, "../..");
 test("first sentence: stops at the first full stop and keeps abbreviations of one sentence", () => {
   assert.equal(firstSentence("The Pergamon Museum is a museum on Museum Island in Berlin. It has more rooms."), "The Pergamon Museum is a museum on Museum Island in Berlin.");
   assert.equal(firstSentence("   Short text without a stop   "), "Short text without a stop");
+  assert.equal(firstSentence("The St. Mark's Basilica is in Venice. It is old."), "The St. Mark's Basilica is in Venice.");
+  assert.equal(firstSentence("Solomon R. Guggenheim Museum is a museum in New York. It opened in 1959."), "Solomon R. Guggenheim Museum is a museum in New York.");
+  assert.equal(firstSentence("Gustavo Orcés V. was a politician. He served."), "Gustavo Orcés V. was a politician.");
   const long = Array.from({ length: 40 }, (_, i) => `w${i}`).join(" ") + ".";
   assert.equal(firstSentence(long).split(" ").length, 30);
 });

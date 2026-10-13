@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Fortress memorial in Brest, known for its defence in 1941.",
-        "es": "Fortaleza memorial en Brest, conocida por su defensa en 1941."
+        "en": "Brest Fortress formerly known as Brest-Litovsk Fortress, is a 19th-century fortress in Brest, Belarus.",
+        "es": "Fortaleza de Brest es un monumento a la arquitectura de defensa, erigida a mediados del siglo XIX está situada al oeste de la ciudad de Brest."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Brest Fortress",
+          "url": "https://en.wikipedia.org/wiki/Brest_Fortress"
+        },
+        "es": {
+          "title": "Fortaleza de Brest",
+          "url": "https://es.wikipedia.org/wiki/Fortaleza_de_Brest"
+        }
+      }
     },
     {
       "id": "by-q2584571",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National art museum in Minsk with Belarusian painting and applied arts.",
-        "es": "Museo nacional de arte en Minsk con pintura bielorrusa y artes aplicadas."
+        "en": "The National Art Museum of the Republic of Belarus is the largest art museum in Belarus and is located in its capital, Minsk.",
+        "es": "El Museo Nacional de Arte de la República de Bielorrusia es el museo de arte más grande de Bielorrusia y se encuentra en Minsk."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "The National Art Museum of the Republic of Belarus",
+          "url": "https://en.wikipedia.org/wiki/The_National_Art_Museum_of_the_Republic_of_Belarus"
+        },
+        "es": {
+          "title": "Museo Nacional de Arte de Bielorrusia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_de_Bielorrusia"
+        }
+      }
     },
     {
       "id": "by-q1710170",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Medieval brick defensive tower in the Brest region.",
-        "es": "Torre defensiva medieval de ladrillo en la región de Brest."
+        "en": "The Tower of Kamyenyets, also called the White Tower, is the main landmark of the town of Kamyenyets in Belarus.",
+        "es": "La torre de Kamianiec, también llamada Torre Blanca es una estructura situada en Kamianiec."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tower of Kamyenyets",
+          "url": "https://en.wikipedia.org/wiki/Tower_of_Kamyenyets"
+        },
+        "es": {
+          "title": "Torre de Kamianiec",
+          "url": "https://es.wikipedia.org/wiki/Torre_de_Kamianiec"
+        }
+      }
     },
     {
       "id": "by-q2073524",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Minsk on the Second World War, called the Great Patriotic War locally.",
-        "es": "Museo en Minsk sobre la Segunda Guerra Mundial, llamada allí Gran Guerra Patriótica."
+        "en": "The Belarusian State Great Patriotic War Museum is a museum in Minsk, Belarus.",
+        "es": "El Museo estatal bielorruso de la Gran Guerra Patriótica es un museo en la ciudad de Minsk, la capital de Bielorrusia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Belarusian Great Patriotic War Museum",
+          "url": "https://en.wikipedia.org/wiki/Belarusian_Great_Patriotic_War_Museum"
+        },
+        "es": {
+          "title": "Museo estatal bielorruso de la Gran Guerra Patriótica",
+          "url": "https://es.wikipedia.org/wiki/Museo_estatal_bielorruso_de_la_Gran_Guerra_Patri%C3%B3tica"
+        }
+      }
     },
     {
       "id": "by-q2034395",
@@ -100,10 +166,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Minsk covering the history and culture of Belarus.",
-        "es": "Museo en Minsk sobre la historia y la cultura de Bielorrusia."
+        "en": "Belarusian National History and Culture Museum is a history museum in Minsk, Belarus.",
+        "es": "El Museo nacional de la historia de Bielorrusia es un museo en Minsk, Bielorrusia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Belarusian National History Museum",
+          "url": "https://en.wikipedia.org/wiki/Belarusian_National_History_Museum"
+        },
+        "es": {
+          "title": "Museo nacional de la cultura e historia de Bielorrusia",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_la_cultura_e_historia_de_Bielorrusia"
+        }
+      }
     },
     {
       "id": "by-q2376115",
@@ -117,10 +198,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Zoo in Minsk with a wide range of animal species.",
-        "es": "Zoológico en Minsk con una amplia variedad de especies animales."
+        "en": "Minsk Zoo is located in a southeast part of Minsk near Svislach River.",
+        "es": "El Zoológico de Minsk está ubicado en una zona al sureste de la ciudad de Minsk cerca del río Svislach, en Bielorrusia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Minsk Zoo",
+          "url": "https://en.wikipedia.org/wiki/Minsk_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Minsk",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Minsk"
+        }
+      }
     },
     {
       "id": "by-q2471155",
@@ -133,10 +229,25 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Lakeside village and resort area around Lake Narach.",
-        "es": "Pueblo y zona turística junto al lago Narach."
+        "en": "Narach or Naroch is an urban-type settlement in Myadzyel District, Minsk Region, Belarus.",
+        "es": "Nárach o Nároch es una localidad de Bielorrusia, perteneciente al distrito de Miádzel de la provincia de Minsk."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Narach (resort settlement)",
+          "url": "https://en.wikipedia.org/wiki/Narach_(resort_settlement)"
+        },
+        "es": {
+          "title": "Nárach",
+          "url": "https://es.wikipedia.org/wiki/N%C3%A1rach"
+        }
+      }
     },
     {
       "id": "by-q1995542",
@@ -150,10 +261,21 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum in Vitebsk devoted to the work of painter Marc Chagall.",
+        "en": "The Marc Chagall Museum is a museum dedicated to the painter Marc Chagall, in his hometown of Vitebsk, Belarus.",
         "es": "Museo en Vitebsk dedicado a la obra del pintor Marc Chagall."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Marc Chagall Museum",
+          "url": "https://en.wikipedia.org/wiki/Marc_Chagall_Museum"
+        }
+      }
     },
     {
       "id": "by-q13133440",
@@ -167,10 +289,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historic Jesuit college complex in Polotsk, a baroque landmark.",
+        "en": "The Jesuit College in Polotsk was a college established by the Jesuit Order in Polotsk, then part of the Grand Duchy of Lithuania and later occupied by the Russian Empire,…",
         "es": "Antiguo colegio jesuita en Polotsk, un referente del barroco."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Jesuit College in Polotsk",
+          "url": "https://en.wikipedia.org/wiki/Jesuit_College_in_Polotsk"
+        }
+      }
     }
   ]
 }

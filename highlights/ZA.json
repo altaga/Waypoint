@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Show caves near Oudtshoorn, in the Western Cape.",
-        "es": "Cuevas turísticas cerca de Oudtshoorn, en el Cabo Occidental."
+        "en": "The Cango Caves are located in Precambrian limestones at the foothills of the Swartberg range near the town of Oudtshoorn, in the Western Cape Province of South Africa.",
+        "es": "Las cuevas de Cango están ubicadas en calizas precámbricas en las estribaciones de la cordillera Swartberg cerca de la ciudad de Oudtshoorn, en la provincia del Cabo Occidental de Sudáfrica."
       },
       "sourceId": "wikidata",
-      "admission": "Guided tours only; book ahead in busy periods."
+      "admission": "Guided tours only; book ahead in busy periods.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Cango Caves",
+          "url": "https://en.wikipedia.org/wiki/Cango_Caves"
+        },
+        "es": {
+          "title": "Cuevas de Cangó",
+          "url": "https://es.wikipedia.org/wiki/Cuevas_de_Cang%C3%B3"
+        }
+      }
     },
     {
       "id": "za-q617810",
@@ -50,10 +71,21 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Museum on apartheid and South African history, in Johannesburg.",
+        "en": "The Apartheid Museum is a museum illustrating apartheid and the 20th-century history of South Africa.",
         "es": "Museo sobre el apartheid y la historia sudafricana, en Johannesburgo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Apartheid Museum",
+          "url": "https://en.wikipedia.org/wiki/Apartheid_Museum"
+        }
+      }
     },
     {
       "id": "za-q2583379",
@@ -68,10 +100,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Natural history museum in Pretoria.",
-        "es": "Museo de historia natural en Pretoria."
+        "en": "The Ditsong National Museum of Natural History, formerly the Transvaal Museum, is a natural history museum situated in Pretoria, South Africa.",
+        "es": "El Museo Nacional Ditsong de Historia Natural, popularmente conocido como Museo del Transvaal, es un museo de historia natural ubicado en la ciudad de Pretoria, en Sudáfrica."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ditsong National Museum of Natural History",
+          "url": "https://en.wikipedia.org/wiki/Ditsong_National_Museum_of_Natural_History"
+        },
+        "es": {
+          "title": "Museo del Transvaal",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Transvaal"
+        }
+      }
     },
     {
       "id": "za-q1139958",
@@ -85,10 +132,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Zoo in Pretoria.",
-        "es": "Zoológico en Pretoria."
+        "en": "The National Zoological Garden of South Africa is an 80-hectare (200-acre) zoo located in Pretoria, South Africa.",
+        "es": "El Jardín zoológico nacional de Sudáfrica es un parque zoológico de 85 hectáreas ubicado en la ciudad de Pretoria, en Sudáfrica."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Pretoria Zoo",
+          "url": "https://en.wikipedia.org/wiki/Pretoria_Zoo"
+        },
+        "es": {
+          "title": "Jardín zoológico nacional de Sudáfrica",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_nacional_de_Sud%C3%A1frica"
+        }
+      }
     },
     {
       "id": "za-q1480756",
@@ -101,10 +163,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Show cave with rock formations.",
-        "es": "Cueva turística con formaciones rocosas."
+        "en": "The Bothongo WonderCave in Kromdraai, Gauteng, South Africa is situated within the Bothongo Rhino & Lion Nature Reserve in the Cradle of Humankind, a UNESCO World Heritage Site.",
+        "es": "25°58′12.69″S 27°46′17.11″E"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Wonder Cave (Kromdraai, Gauteng)",
+          "url": "https://en.wikipedia.org/wiki/Wonder_Cave_(Kromdraai%2C_Gauteng)"
+        },
+        "es": {
+          "title": "Cueva Maravilla de Kromdraai",
+          "url": "https://es.wikipedia.org/wiki/Cueva_Maravilla_de_Kromdraai"
+        }
+      }
     },
     {
       "id": "za-q6102031",
@@ -119,10 +196,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Natural history and cultural museum in Cape Town.",
+        "en": "The Iziko South African Museum, formerly the South African Museum, is a South African national museum located in Cape Town.",
         "es": "Museo de historia natural y cultural en Ciudad del Cabo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Iziko South African Museum",
+          "url": "https://en.wikipedia.org/wiki/Iziko_South_African_Museum"
+        }
+      }
     },
     {
       "id": "za-q1783786",
@@ -136,10 +224,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Aquarium at the V&A Waterfront in Cape Town.",
-        "es": "Acuario en el V&A Waterfront de Ciudad del Cabo."
+        "en": "The Two Oceans Aquarium is an aquarium located at the Victoria & Alfred Waterfront in Cape Town, Western Cape, South Africa.",
+        "es": "El Acuario de los Dos Océanos es un acuario situado en el Victoria & Alfred Waterfront en Ciudad del Cabo, Provincia del Cabo Occidental, en Sudáfrica."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Two Oceans Aquarium",
+          "url": "https://en.wikipedia.org/wiki/Two_Oceans_Aquarium"
+        },
+        "es": {
+          "title": "Acuario de los Dos Océanos",
+          "url": "https://es.wikipedia.org/wiki/Acuario_de_los_Dos_Oc%C3%A9anos"
+        }
+      }
     },
     {
       "id": "za-q10956303",
@@ -153,10 +256,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Memorial park on a hill in Pretoria.",
+        "en": "Freedom Park is a park situated on Salvokop in Pretoria.",
         "es": "Parque conmemorativo en una colina de Pretoria."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Freedom Park (South Africa)",
+          "url": "https://en.wikipedia.org/wiki/Freedom_Park_(South_Africa)"
+        }
+      }
     },
     {
       "id": "za-q28003638",
@@ -170,10 +284,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Contemporary African art museum in Cape Town.",
+        "en": "Zeitz Museum of Contemporary Art Africa is a public non-profit museum in Cape Town, South Africa.",
         "es": "Museo de arte contemporáneo africano en Ciudad del Cabo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Zeitz Museum of Contemporary Art Africa",
+          "url": "https://en.wikipedia.org/wiki/Zeitz_Museum_of_Contemporary_Art_Africa"
+        }
+      }
     },
     {
       "id": "za-q1419469",
@@ -187,10 +312,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National art gallery in Cape Town.",
+        "en": "The Iziko South African National Gallery is the national art gallery of South Africa located in Cape Town.",
         "es": "Galería nacional de arte en Ciudad del Cabo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Iziko South African National Gallery",
+          "url": "https://en.wikipedia.org/wiki/Iziko_South_African_National_Gallery"
+        }
+      }
     },
     {
       "id": "za-q6217142",
@@ -204,10 +340,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Art gallery in Joubert Park, Johannesburg.",
+        "en": "The Johannesburg Art Gallery (JAG) is an art gallery in Joubert Park in the city centre of Johannesburg, South Africa.",
         "es": "Galería de arte en Joubert Park, Johannesburgo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Johannesburg Art Gallery",
+          "url": "https://en.wikipedia.org/wiki/Johannesburg_Art_Gallery"
+        }
+      }
     }
   ]
 }

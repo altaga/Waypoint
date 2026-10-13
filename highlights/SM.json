@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Historic seat of San Marino's government in the old town.",
-        "es": "Antigua sede del gobierno de San Marino en el casco antiguo."
+        "en": "The Palazzo Pubblico is the city hall of the City of San Marino.",
+        "es": "El Palazzo Pubblico es el ayuntamiento de la Ciudad de San Marino a la par que es el edificio oficial del Gobierno."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Palazzo Pubblico (San Marino)",
+          "url": "https://en.wikipedia.org/wiki/Palazzo_Pubblico_(San_Marino)"
+        },
+        "es": {
+          "title": "Palazzo Pubblico (San Marino)",
+          "url": "https://es.wikipedia.org/wiki/Palazzo_Pubblico_(San_Marino)"
+        }
+      }
     },
     {
       "id": "sm-q1424199",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of historic weapons and armour, in San Marino.",
-        "es": "Museo de armas y armaduras históricas, en San Marino."
+        "en": "Sammarinese Museum of Ancient Arms is located in the Cesta, the second tower of San Marino.",
+        "es": "El Museo de armas antiguas de San Marino se encuentra en la llamada \"Cesta\", la segunda torre de San Marino."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sammarinese Museum of Ancient Arms",
+          "url": "https://en.wikipedia.org/wiki/Sammarinese_Museum_of_Ancient_Arms"
+        },
+        "es": {
+          "title": "Museo de armas antiguas de San Marino",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_armas_antiguas_de_San_Marino"
+        }
+      }
     },
     {
       "id": "sm-q37411608",
@@ -66,10 +102,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of historical instruments of torture, in San Marino.",
+        "en": "The Torture Museum is a museum in the City of San Marino, San Marino.",
         "es": "Museo de instrumentos históricos de tortura, en San Marino."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Torture Museum (San Marino)",
+          "url": "https://en.wikipedia.org/wiki/Torture_Museum_(San_Marino)"
+        }
+      }
     }
   ]
 }

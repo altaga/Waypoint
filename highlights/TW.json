@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Museum of Chinese art and artifacts in Taipei.",
-        "es": "Museo de arte y objetos chinos en Taipéi."
+        "en": "The National Palace Museum, also known as Taipei Palace Museum, is a national museum headquartered in Taipei, Taiwan.",
+        "es": "El Museo Nacional del Palacio es un museo en Taipéi, Taiwán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Palace Museum",
+          "url": "https://en.wikipedia.org/wiki/National_Palace_Museum"
+        },
+        "es": {
+          "title": "Museo Nacional del Palacio",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_del_Palacio"
+        }
+      }
     },
     {
       "id": "tw-q591131",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Zoo in the Wenshan District of Taipei.",
-        "es": "Zoológico en el distrito de Wenshan, en Taipéi."
+        "en": "The Taipei Zoo, sometimes referred to as the Muzha Zoo, is a public zoological garden in Wenshan District, Taipei, Taiwan.",
+        "es": "El Zoológico de Taipéi conocido a veces como el \"Zoológico de Muzha\" (木柵動物園), es un jardín zoológico público en la ciudad de Taipéi en Taiwán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Taipei Zoo",
+          "url": "https://en.wikipedia.org/wiki/Taipei_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Taipéi",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Taip%C3%A9i"
+        }
+      }
     },
     {
       "id": "tw-q714431",
@@ -67,10 +103,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historic Dutch-era fort in Tainan.",
+        "en": "Fort Provintia or Providentia, also known as Chihkan Tower, was a Dutch outpost on Formosa at a site now located in West Central District, Tainan, Taiwan.",
         "es": "Antiguo fuerte de la época neerlandesa en Tainan."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Fort Provintia",
+          "url": "https://en.wikipedia.org/wiki/Fort_Provintia"
+        }
+      }
     },
     {
       "id": "tw-q4984158",
@@ -85,10 +132,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Buddhist museum in the Fo Guang Shan monastery complex.",
-        "es": "Museo budista en el complejo monástico de Fo Guang Shan."
+        "en": "The Fo Guang Shan Buddha Museum, formerly known as the Buddha Memorial Center, is a Mahāyāna Buddhist cultural, religious, and educational museum located in Dashu District, Kaohsiung, Taiwan.",
+        "es": "El Museo de Buda de Fo Guang Shan , que antes se llamaba Centro Memorial del Buda, es un museo cultural, religioso, y educativo del budismo Mahayana, está situado en…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Fo Guang Shan Buddha Museum",
+          "url": "https://en.wikipedia.org/wiki/Fo_Guang_Shan_Buddha_Museum"
+        },
+        "es": {
+          "title": "Museo del Buda de Fo Guang Shan",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Buda_de_Fo_Guang_Shan"
+        }
+      }
     },
     {
       "id": "tw-q5095087",
@@ -102,10 +164,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum of art, music and natural history in Tainan.",
+        "en": "The Chimei Museum is a private museum established in 1992 by Shi Wen-long of Chi Mei Corporation in Rende District, Tainan, Taiwan.",
         "es": "Museo de arte, música e historia natural en Tainan."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Chimei Museum",
+          "url": "https://en.wikipedia.org/wiki/Chimei_Museum"
+        }
+      }
     },
     {
       "id": "tw-q706692",
@@ -119,10 +192,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of natural history and culture in Taipei.",
+        "en": "The National Taiwan Museum, established in 1908, is the oldest museum in Taiwan.",
         "es": "Museo de historia natural y cultura en Taipéi."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Taiwan Museum",
+          "url": "https://en.wikipedia.org/wiki/National_Taiwan_Museum"
+        }
+      }
     },
     {
       "id": "tw-q6125749",
@@ -136,10 +220,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "History museum in Kaohsiung.",
+        "en": "The Kaohsiung Museum of History is a museum located in Yancheng District, Kaohsiung, Taiwan.",
         "es": "Museo de historia en Kaohsiung."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kaohsiung Museum of History",
+          "url": "https://en.wikipedia.org/wiki/Kaohsiung_Museum_of_History"
+        }
+      }
     },
     {
       "id": "tw-q699040",
@@ -153,10 +248,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Contemporary art museum in Taipei.",
+        "en": "The Museum of Contemporary Art Taipei is a museum of contemporary art, located in Datong District, Taipei, Taiwan.",
         "es": "Museo de arte contemporáneo en Taipéi."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Contemporary Art Taipei",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Contemporary_Art_Taipei"
+        }
+      }
     },
     {
       "id": "tw-q10927014",
@@ -170,10 +276,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Fine arts museum in Taichung.",
+        "en": "The National Taiwan Museum of Fine Arts is a museum in West District, Taichung, Taiwan.",
         "es": "Museo de bellas artes en Taichung."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Taiwan Museum of Fine Arts",
+          "url": "https://en.wikipedia.org/wiki/National_Taiwan_Museum_of_Fine_Arts"
+        }
+      }
     }
   ]
 }

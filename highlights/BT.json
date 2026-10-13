@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Paro, housed in an old watchtower, on Bhutanese history and nature.",
-        "es": "Museo en Paro, en una antigua torre de vigilancia, sobre la historia y la naturaleza de Bután."
+        "en": "National Museum of Bhutan is a cultural museum in the town of Paro in western Bhutan.",
+        "es": "El Museo nacional de Bután es un museo cultural en la ciudad de Paro en Bután occidental."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Bhutan",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Bhutan"
+        },
+        "es": {
+          "title": "Museo nacional de Bután",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_But%C3%A1n"
+        }
+      }
     },
     {
       "id": "bt-q28197153",
@@ -49,10 +70,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Thimphu showing traditional rural life and crafts.",
+        "en": "The Folk Heritage Museum is a museum in the Kawajangsa district of Thimphu, Thimphu District, in Bhutan.",
         "es": "Museo en Timbu con la vida rural tradicional y la artesanía."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Folk Heritage Museum",
+          "url": "https://en.wikipedia.org/wiki/Folk_Heritage_Museum"
+        }
+      }
     }
   ]
 }

@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Spa resort town in southern Lithuania, on the Nemunas river.",
+        "en": "Druskininkai is a spa city on the Nemunas River in southern Lithuania, close to the borders of Belarus and Poland.",
         "es": "Localidad balneario en el sur de Lituania, junto al río Néman."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Druskininkai",
+          "url": "https://en.wikipedia.org/wiki/Druskininkai"
+        }
+      }
     },
     {
       "id": "lt-q1050522",
@@ -49,10 +66,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Open-air park of Soviet-era statues in southern Lithuania.",
+        "en": "Grūtas Park is a socialist realism museum with a sculpture garden of Soviet-era statues and other Soviet ideological relics from the times of the Soviet occupation.",
         "es": "Parque al aire libre con estatuas de la era soviética, en el sur de Lituania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Grūtas Park",
+          "url": "https://en.wikipedia.org/wiki/Gr%C5%ABtas_Park"
+        }
+      }
     },
     {
       "id": "lt-q1790447",
@@ -66,10 +94,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National history museum in Vilnius.",
-        "es": "Museo nacional de historia en Vilna."
+        "en": "The National Museum of Lithuania, established in 1952, is a state-sponsored historical museum that encompasses several significant structures and a wide collection of written materials and artifacts.",
+        "es": "El Museo Nacional de Lituania, establecido en 1952, es un museo estatal histórico, ubicado en el Nuevo arsenal del complejo de castillos de Vilna, capital de Lituania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Lithuania",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Lithuania"
+        },
+        "es": {
+          "title": "Museo Nacional de Lituania",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Lituania"
+        }
+      }
     },
     {
       "id": "lt-q3266986",
@@ -83,10 +126,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo in Kaunas County with a range of animals.",
-        "es": "Zoológico en el condado de Kaunas con variedad de animales."
+        "en": "Lithuanian Zoological Garden previously known as Kaunas' Zoological Garden is the oldest scientific zoo in Lithuania.",
+        "es": "El Jardín zoológico Lituano es el único zoológico en el país europeo de Lituania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Lithuanian Zoo",
+          "url": "https://en.wikipedia.org/wiki/Lithuanian_Zoo"
+        },
+        "es": {
+          "title": "Jardín zoológico Lituano",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_Lituano"
+        }
+      }
     },
     {
       "id": "lt-q323860",
@@ -100,10 +158,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum on the Soviet and Nazi occupations of Lithuania, in Vilnius.",
-        "es": "Museo sobre las ocupaciones soviética y nazi de Lituania, en Vilna."
+        "en": "The Museum of Occupations and Freedom Fights in Vilnius is dedicated to showing artifacts and records from the 50-year Soviet occupation of Lithuania.",
+        "es": "El Museo de las Ocupaciones y las Luchas por la Libertad, anteriormente conocido como el Museo de las víctimas del genocidio, es un museo localizado en Vilna, Lituania, y establecido…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Occupations and Freedom Fights",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Occupations_and_Freedom_Fights"
+        },
+        "es": {
+          "title": "Museo de las Ocupaciones y las Luchas por la Libertad",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_las_Ocupaciones_y_las_Luchas_por_la_Libertad"
+        }
+      }
     },
     {
       "id": "lt-q2305235",
@@ -117,10 +190,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Kaunas museum known for its devil-themed art collection.",
-        "es": "Museo de Kaunas conocido por su colección de arte con diablos."
+        "en": "Žmuidzinavičius Museum, also known as the Devil Museum, is a museum in Kaunas, Lithuania, dedicated to collecting and exhibiting sculptures and carvings of devils from all over the world.",
+        "es": "Museo Žmuidzinavičius, comúnmente conocido como Museo del demonio, es un museo ubicado en Kaunas (Lituania), dedicado a coleccionar y exhibir esculturas y tallas de demonios procedentes de todo el mundo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Žmuidzinavičius Museum",
+          "url": "https://en.wikipedia.org/wiki/%C5%BDmuidzinavi%C4%8Dius_Museum"
+        },
+        "es": {
+          "title": "Museo Žmuidzinavičius",
+          "url": "https://es.wikipedia.org/wiki/Museo_%C5%BDmuidzinavi%C4%8Dius"
+        }
+      }
     },
     {
       "id": "lt-q5915642",
@@ -134,10 +222,21 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Vilnius house where Lithuania's 1918 independence act was signed.",
+        "en": "The House of the Signatories is a Lithuanian historic landmark on Pilies Street, Vilnius, where on February 16, 1918, the Act of Independence of Lithuania was signed by twenty members…",
         "es": "Casa de Vilna donde se firmó el acta de independencia de Lituania de 1918."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "House of the Signatories",
+          "url": "https://en.wikipedia.org/wiki/House_of_the_Signatories"
+        }
+      }
     },
     {
       "id": "lt-q4381425",
@@ -151,10 +250,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Art museum in Kaunas named after painter and composer Čiurlionis.",
-        "es": "Museo de arte en Kaunas dedicado al pintor y compositor Čiurlionis."
+        "en": "The M. K. Čiurlionis National Art Museum is a group of museums based in Kaunas, Lithuania.",
+        "es": "El Museo Nacional de Arte Mikalojus Konstantinas Čiurlionis es un grupo de museos ubicados en Kaunas, Lituania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "M. K. Čiurlionis National Art Museum",
+          "url": "https://en.wikipedia.org/wiki/M._K._%C4%8Ciurlionis_National_Art_Museum"
+        },
+        "es": {
+          "title": "Museo Nacional de Arte Mikalojus Konstantinas Čiurlionis",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_Mikalojus_Konstantinas_%C4%8Ciurlionis"
+        }
+      }
     }
   ]
 }

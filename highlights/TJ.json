@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum on Tajik history and culture, in Dushanbe.",
-        "es": "Museo nacional sobre la historia y cultura tayikas, en Dusambé."
+        "en": "The National Museum of Tajikistan is a museum in Dushanbe, the capital city of Tajikistan.",
+        "es": "El Museo nacional de Tayikistán se localiza en la ciudad de Dusambé capital del país asiático de Tayikistán fue establecido el 12 de agosto de 1934, sufriendo varios cambios de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tajikistan National Museum",
+          "url": "https://en.wikipedia.org/wiki/Tajikistan_National_Museum"
+        },
+        "es": {
+          "title": "Museo nacional de Tayikistán",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Tayikist%C3%A1n"
+        }
+      }
     },
     {
       "id": "tj-q1962237",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Regional history museum of the Sughd region.",
-        "es": "Museo de historia regional de la región de Sughd."
+        "en": "The Historical Museum of Sughd is a regional history museum in Khujand, the second-largest city in Tajikistan and the capital of the country's northernmost province, Sughd.",
+        "es": "El Museo histórico de Sughd es un museo de historia regional en Khujand, la segunda ciudad más grande en el país centroasiático de Tayikistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Historical Museum of Sughd",
+          "url": "https://en.wikipedia.org/wiki/Historical_Museum_of_Sughd"
+        },
+        "es": {
+          "title": "Museo histórico de Sughd",
+          "url": "https://es.wikipedia.org/wiki/Museo_hist%C3%B3rico_de_Sughd"
+        }
+      }
     },
     {
       "id": "tj-q13201851",
@@ -66,10 +102,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of archaeological finds from Tajikistan, in Dushanbe.",
+        "en": "The Tajikistan National Museum of Antiquities is a museum in Dushanbe, Tajikistan.",
         "es": "Museo de hallazgos arqueológicos de Tayikistán, en Dusambé."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Antiquities of Tajikistan",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Antiquities_of_Tajikistan"
+        }
+      }
     },
     {
       "id": "tj-q5316871",
@@ -83,10 +130,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo in Dushanbe with a range of animal species.",
-        "es": "Zoológico en Dusambé con diversas especies animales."
+        "en": "Dushanbe Zoo or Dushanbe Zoological Park was founded in 1960 in Dushanbe, Tajikistan.",
+        "es": "El Zoológico de Dusambé o Parque zoológico de Dusambé fue fundado en 1960 en Dusambé, la capital del país asiático de Tayikistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Dushanbe Zoo",
+          "url": "https://en.wikipedia.org/wiki/Dushanbe_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Dusambé",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Dusamb%C3%A9"
+        }
+      }
     },
     {
       "id": "tj-q25582608",
@@ -100,10 +162,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of traditional musical instruments, in Dushanbe.",
+        "en": "The Gurminj Museum of Musical Instruments or Gurminj Museum ) is a museum located in the center of Dushanbe, Tajikistan, behind the Office of the Mayor on Bokhtar Street.",
         "es": "Museo de instrumentos musicales tradicionales, en Dusambé."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Gurminj Museum of Musical Instruments",
+          "url": "https://en.wikipedia.org/wiki/Gurminj_Museum_of_Musical_Instruments"
+        }
+      }
     },
     {
       "id": "tj-q117426036",
@@ -117,10 +190,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Regional history museum in Panjakent, an ancient Sogdian city.",
+        "en": "The Rudaki Republican Museum of Regional History, known colloquially as the Rudaki Museum, in Panjakent in western Tajikistan is a museum named after Rudaki, a poet, singer, and musician who…",
         "es": "Museo de historia regional en Panjakent, antigua ciudad sogdiana."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Rudaki Republican Museum of Regional History, Panjakent",
+          "url": "https://en.wikipedia.org/wiki/Rudaki_Republican_Museum_of_Regional_History%2C_Panjakent"
+        }
+      }
     }
   ]
 }

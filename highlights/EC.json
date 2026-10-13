@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Art space in Quito dedicated to the work of painter Oswaldo Guayasamín.",
-        "es": "Espacio de arte en Quito dedicado a la obra del pintor Oswaldo Guayasamín."
+        "en": "The painter Oswaldo Guayasamín's La Capilla del Hombre occupies a site in Bellavista overlooking the city of Quito, Ecuador.",
+        "es": "La Capilla del Hombre es un museo de arte, construido en Quito, Ecuador por iniciativa del pintor ecuatoriano Oswaldo Guayasamín en homenaje al ser humano."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "La Capilla del Hombre",
+          "url": "https://en.wikipedia.org/wiki/La_Capilla_del_Hombre"
+        },
+        "es": {
+          "title": "La Capilla del Hombre",
+          "url": "https://es.wikipedia.org/wiki/La_Capilla_del_Hombre"
+        }
+      }
     },
     {
       "id": "ec-q50327423",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Historic colonial-era cathedral in Cuenca.",
-        "es": "Antigua catedral de la época colonial en Cuenca."
+        "en": "The Sagrario Church - also known as the Old Cathedral of Cuenca is a temple whose construction began in the mid-16th century, and was considered the main Spanish place of…",
+        "es": "La Iglesia del Sagrario - comúnmente conocida como la Catedral Vieja de Cuenca fue un templo cuya construcción empezó a mediados del siglo XVI, y se lo consideraba como el…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Old Cathedral of Cuenca",
+          "url": "https://en.wikipedia.org/wiki/Old_Cathedral_of_Cuenca"
+        },
+        "es": {
+          "title": "Catedral vieja de Cuenca (Ecuador)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_vieja_de_Cuenca_(Ecuador)"
+        }
+      }
     },
     {
       "id": "ec-q6034022",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Natural history museum in Quito with collections on the country's wildlife.",
-        "es": "Museo de historia natural en Quito con colecciones sobre la fauna del país."
+        "en": "Gustavo Orcés V. Natural History Museum is a natural history museum in Quito, Ecuador.",
+        "es": "El Museo de Historia Natural «Gustavo Orcés V.» (MHNGO) es el museo de historia natural de estatus nacional de Ecuador."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Gustavo Orcés V. Natural History Museum",
+          "url": "https://en.wikipedia.org/wiki/Gustavo_Orc%C3%A9s_V._Natural_History_Museum"
+        },
+        "es": {
+          "title": "Museo de Historia Natural Gustavo Orcés",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Natural_Gustavo_Orc%C3%A9s"
+        }
+      }
     },
     {
       "id": "ec-q18416972",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Historic house in Quito linked to Antonio José de Sucre, a figure of independence.",
-        "es": "Casa histórica en Quito vinculada a Antonio José de Sucre, figura de la independencia."
+        "en": "Sucre House is a museum in the historic center of Quito, Ecuador.",
+        "es": "El Museo Casa de Sucre o Museo de la Defensa “Casa de Sucre” es una institución de carácter cultural ubicada en la ciudad de Quito, capital de Ecuador."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum House of Sucre",
+          "url": "https://en.wikipedia.org/wiki/Museum_House_of_Sucre"
+        },
+        "es": {
+          "title": "Museo Casa de Sucre",
+          "url": "https://es.wikipedia.org/wiki/Museo_Casa_de_Sucre"
+        }
+      }
     },
     {
       "id": "ec-q19896440",
@@ -101,10 +167,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum in Quito on the history of the city, from colonial times onward.",
-        "es": "Museo en Quito sobre la historia de la ciudad, desde la época colonial."
+        "en": "The City Museum is a museum in the colonial center of Quito, Ecuador.",
+        "es": "El Museo de la Ciudad es un museo ubicado en el Centro Histórico de Quito, Ecuador, sobre la calle García Moreno E1-47 y Rocafuerte."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "City Museum (Quito, Ecuador)",
+          "url": "https://en.wikipedia.org/wiki/City_Museum_(Quito%2C_Ecuador)"
+        },
+        "es": {
+          "title": "Museo de la Ciudad (Quito)",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Ciudad_(Quito)"
+        }
+      }
     }
   ]
 }

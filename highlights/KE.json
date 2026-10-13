@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in a 16th-century Portuguese fort in Mombasa.",
-        "es": "Museo en un fuerte portugués del siglo XVI en Mombasa."
+        "en": "Fort Jesus, is a fort located on Mombasa Island.",
+        "es": "El Fuerte Jesús es un fuerte hispano-portugués ubicado en la ciudad de Mombasa, Kenia, el cual fue construido desde 1593 al 1596 por orden del rey Felipe II de España,…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Fort Jesus",
+          "url": "https://en.wikipedia.org/wiki/Fort_Jesus"
+        },
+        "es": {
+          "title": "Fuerte Jesús",
+          "url": "https://es.wikipedia.org/wiki/Fuerte_Jes%C3%BAs"
+        }
+      }
     },
     {
       "id": "ke-q3330879",
@@ -50,10 +71,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Nairobi museum complex covering Kenyan history and natural history.",
+        "en": "The National Museums of Kenya is a state corporation that manages museums, sites and monuments in Kenya.",
         "es": "Complejo de museos en Nairobi sobre la historia y la naturaleza de Kenia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museums of Kenya",
+          "url": "https://en.wikipedia.org/wiki/National_Museums_of_Kenya"
+        }
+      }
     },
     {
       "id": "ke-q367631",
@@ -67,10 +99,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "House museum of writer Karen Blixen, author of Out of Africa.",
+        "en": "The Karen Blixen Museum, located 10 km (6.2 mi) outside of Nairobi, Kenya, \"at the foot of the Ngong Hills\", is the former African home of Danish author Karen Blixen,…",
         "es": "Casa-museo de la escritora Karen Blixen, autora de Memorias de África."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Karen Blixen Museum, Kenya",
+          "url": "https://en.wikipedia.org/wiki/Karen_Blixen_Museum%2C_Kenya"
+        }
+      }
     },
     {
       "id": "ke-q611606",
@@ -84,10 +127,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Kenya's railway history, with historic locomotives.",
-        "es": "Museo de la historia del ferrocarril de Kenia, con locomotoras antiguas."
+        "en": "The Nairobi Railway Museum is a railway museum in Nairobi, Kenya, adjacent to Nairobi railway station.",
+        "es": "El Museo del ferrocarril de Nairobi es un museo ferroviario en Nairobi, en el país africano de Kenia, junto a la estación de tren de Nairobi."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nairobi Railway Museum",
+          "url": "https://en.wikipedia.org/wiki/Nairobi_Railway_Museum"
+        },
+        "es": {
+          "title": "Museo del ferrocarril de Nairobi",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_ferrocarril_de_Nairobi"
+        }
+      }
     },
     {
       "id": "ke-q225477",
@@ -102,10 +160,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Cultural village with traditional homes and dances of Kenyan peoples.",
+        "en": "Bomas of Kenya is a tourist village in Langata, Nairobi, in Kenya.",
         "es": "Pueblo cultural con viviendas y danzas tradicionales de los pueblos de Kenia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bomas of Kenya",
+          "url": "https://en.wikipedia.org/wiki/Bomas_of_Kenya"
+        }
+      }
     },
     {
       "id": "ke-q3329722",
@@ -119,10 +188,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Regional museum in Kisumu, on the shore of Lake Victoria.",
+        "en": "The Kisumu Museum is a museum located in Kisumu, Kenya.",
         "es": "Museo regional en Kisumu, a orillas del lago Victoria."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kisumu Museum",
+          "url": "https://en.wikipedia.org/wiki/Kisumu_Museum"
+        }
+      }
     },
     {
       "id": "ke-q5564103",
@@ -136,10 +216,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Conservation centre where visitors can feed Rothschild's giraffes.",
-        "es": "Centro de conservación donde se pueden alimentar jirafas de Rothschild."
+        "en": "The Giraffe Centre is a wildlife conservation facility located in Lang'ata, approximately 20 kilometres (12 mi) from the centre of Nairobi, Kenya.",
+        "es": "El Giraffe Centre se encuentra en Langata, a unos 5 kilómetros del centro de Nairobi, en Kenia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Giraffe Centre",
+          "url": "https://en.wikipedia.org/wiki/Giraffe_Centre"
+        },
+        "es": {
+          "title": "Giraffe Centre",
+          "url": "https://es.wikipedia.org/wiki/Giraffe_Centre"
+        }
+      }
     },
     {
       "id": "ke-q15036534",
@@ -153,10 +248,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Prehistoric archaeological site and museum near Nakuru.",
+        "en": "The Hyrax Hill site was proclaimed a national monument in 1945 and opened to the public in 1965.",
         "es": "Yacimiento arqueológico prehistórico y museo cerca de Nakuru."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Hyrax Hill Prehistoric Site and Museum",
+          "url": "https://en.wikipedia.org/wiki/Hyrax_Hill_Prehistoric_Site_and_Museum"
+        }
+      }
     }
   ]
 }

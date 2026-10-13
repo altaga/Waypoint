@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Old Havana on the history of the Cuban revolution.",
-        "es": "Museo en La Habana Vieja sobre la historia de la revolución cubana."
+        "en": "The Museum of the Revolution is located in the Old Havana section of Havana, Cuba, in what was the presidential palace of all Cuban presidents from Mario García Menocal to…",
+        "es": "El Museo de la Revolución, ubicado en La Habana, reúne material y colecciones relativos a la revolución cubana."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of the Revolution (Cuba)",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_the_Revolution_(Cuba)"
+        },
+        "es": {
+          "title": "Museo de la Revolución",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Revoluci%C3%B3n"
+        }
+      }
     },
     {
       "id": "cu-q1779837",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National fine arts museum in Havana, with Cuban and international collections.",
-        "es": "Museo nacional de bellas artes en La Habana, con colecciones cubanas e internacionales."
+        "en": "The National Museum of Fine Arts of Havana in Havana, Cuba, is a museum of fine arts that exhibits Cuban art collections from the colonial times up to contemporary generations.",
+        "es": "El Museo Nacional de Bellas Artes (MNBA) es un museo público situado en el centro histórico de La Habana (Cuba)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo Nacional de Bellas Artes de La Habana",
+          "url": "https://en.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_de_La_Habana"
+        },
+        "es": {
+          "title": "Museo Nacional de Bellas Artes (Cuba)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_(Cuba)"
+        }
+      }
     },
     {
       "id": "cu-q4703397",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Historic Franciscan basilica in Old Havana.",
-        "es": "Antigua basílica franciscana en La Habana Vieja."
+        "en": "The Basílica Menor of San Francisco de Asís is a Catholic minor basilica and Franciscan convent in the district of Old Havana, Cuba.",
+        "es": "El convento de San Francisco de Asís, también conocido como basílica menor de San Francisco de Asís, es un conjunto religioso de arquitectura barroca situado en la plaza de San…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Basilica of San Francisco de Asís, Havana",
+          "url": "https://en.wikipedia.org/wiki/Basilica_of_San_Francisco_de_As%C3%ADs%2C_Havana"
+        },
+        "es": {
+          "title": "Convento de San Francisco de Asís (La Habana)",
+          "url": "https://es.wikipedia.org/wiki/Convento_de_San_Francisco_de_As%C3%ADs_(La_Habana)"
+        }
+      }
     },
     {
       "id": "cu-q5449801",
@@ -84,11 +135,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Former home of writer Ernest Hemingway, on the outskirts of Havana.",
-        "es": "Antigua casa del escritor Ernest Hemingway, en las afueras de La Habana."
+        "en": "Finca Vigía is a house in San Francisco de Paula ward in Havana, Cuba, which was once the residence of Ernest Hemingway.",
+        "es": "Finca Vigía o La Vigía es la residencia del escritor estadounidense Ernest Hemingway en La Habana, Cuba, ubicada en el barrio de San Francisco de Paula, en el municipio de…"
       },
       "sourceId": "wikidata",
-      "admission": "Visits are by guided tour only; book ahead."
+      "admission": "Visits are by guided tour only; book ahead.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Finca Vigía",
+          "url": "https://en.wikipedia.org/wiki/Finca_Vig%C3%ADa"
+        },
+        "es": {
+          "title": "Finca La Vigía",
+          "url": "https://es.wikipedia.org/wiki/Finca_La_Vig%C3%ADa"
+        }
+      }
     },
     {
       "id": "cu-q66011008",
@@ -103,10 +169,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Municipal museum in Santiago de Cuba with art and history collections.",
-        "es": "Museo municipal en Santiago de Cuba con colecciones de arte e historia."
+        "en": "The Emilio Bacardí Moreau Municipal Museum is a museum in Santiago de Cuba, Cuba.",
+        "es": "El Museo Provincial de Santiago de Cuba «Emilio Bacardí Moreau» es el primer museo-biblioteca de carácter público fundado en Cuba."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo Municipal Emilio Bacardí Moreau",
+          "url": "https://en.wikipedia.org/wiki/Museo_Municipal_Emilio_Bacard%C3%AD_Moreau"
+        },
+        "es": {
+          "title": "Museo Provincial Emilio Bacardí Moreau",
+          "url": "https://es.wikipedia.org/wiki/Museo_Provincial_Emilio_Bacard%C3%AD_Moreau"
+        }
+      }
     }
   ]
 }

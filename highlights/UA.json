@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,11 +39,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Historic Orthodox cathedral in Kyiv.",
-        "es": "Catedral ortodoxa histórica en Kyiv."
+        "en": "The Saint Sophia Cathedral in Kyiv, Ukraine is an architectural monument of Kyivan Rus'.",
+        "es": "La catedral de Santa Sofía en Kiev es un monumento arquitectónico sobresaliente de la Rus de Kiev."
       },
       "sourceId": "wikidata",
-      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first."
+      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Saint Sophia Cathedral, Kyiv",
+          "url": "https://en.wikipedia.org/wiki/Saint_Sophia_Cathedral%2C_Kyiv"
+        },
+        "es": {
+          "title": "Catedral de Santa Sofía (Kiev)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Santa_Sof%C3%ADa_(Kiev)"
+        }
+      }
     },
     {
       "id": "ua-q1440653",
@@ -51,11 +72,26 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Mansion with decorative sculpture in Kyiv.",
-        "es": "Mansión con escultura decorativa en Kyiv."
+        "en": "House with Chimaeras or Horodetsky House is an Art Nouveau building located in the historic Lypky neighborhood of Kyiv, the capital of Ukraine.",
+        "es": "La Casa con Quimeras, o Casa Gorodetsky es un edificio de estilo art nouveau construido en Kiev, la capital de Ucrania."
       },
       "sourceId": "wikidata",
-      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first."
+      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "House with Chimaeras",
+          "url": "https://en.wikipedia.org/wiki/House_with_Chimaeras"
+        },
+        "es": {
+          "title": "Casa con Quimeras",
+          "url": "https://es.wikipedia.org/wiki/Casa_con_Quimeras"
+        }
+      }
     },
     {
       "id": "ua-q1427503",
@@ -69,11 +105,26 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Historic gate in central Kyiv.",
-        "es": "Puerta histórica en el centro de Kyiv."
+        "en": "The Golden Gate of Kyiv was the main gate in the 11th century fortifications of Kyiv, the capital of the Kievan Rus'.",
+        "es": "La puerta dorada de Kiev fue el acceso principal en el siglo XI a la ciudad de Kiev, la capital de la Rus de Kiev."
       },
       "sourceId": "wikidata",
-      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first."
+      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Golden Gate, Kyiv",
+          "url": "https://en.wikipedia.org/wiki/Golden_Gate%2C_Kyiv"
+        },
+        "es": {
+          "title": "Puerta dorada de Kiev",
+          "url": "https://es.wikipedia.org/wiki/Puerta_dorada_de_Kiev"
+        }
+      }
     },
     {
       "id": "ua-q167321",
@@ -87,11 +138,26 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Baroque church in Kyiv.",
-        "es": "Iglesia barroca en Kyiv."
+        "en": "St Andrew's Church is a historic Orthodox church in Kyiv, Ukraine.",
+        "es": "La iglesia de San Andrés, llamada en ocasiones incorrectamente catedral de San Andrés, es un importante templo barroco situado en Kiev, Ucrania, de la Iglesia ortodoxa autocéfala ucraniana."
       },
       "sourceId": "wikidata",
-      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first."
+      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "St Andrew's Church, Kyiv",
+          "url": "https://en.wikipedia.org/wiki/St_Andrew's_Church%2C_Kyiv"
+        },
+        "es": {
+          "title": "Iglesia de San Andrés de Kiev",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Andr%C3%A9s_de_Kiev"
+        }
+      }
     },
     {
       "id": "ua-q2297522",
@@ -106,11 +172,26 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Historic landscape park in Uman.",
-        "es": "Parque paisajístico histórico en Uman."
+        "en": "Sofiyivsky Park or Sofiyivka Park is an arboretum and a scientific-research institute of the National Academy of Sciences of Ukraine.",
+        "es": "Parque Sofiyivski es un arboreto y un instituto de investigación científica de la Academia Nacional de Ciencias de Ucrania."
       },
       "sourceId": "wikidata",
-      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first."
+      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sofiyivka Park",
+          "url": "https://en.wikipedia.org/wiki/Sofiyivka_Park"
+        },
+        "es": {
+          "title": "Parque Sofiyivski",
+          "url": "https://es.wikipedia.org/wiki/Parque_Sofiyivski"
+        }
+      }
     },
     {
       "id": "ua-q1189277",
@@ -124,11 +205,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National art museum in Kyiv.",
-        "es": "Museo nacional de arte en Kyiv."
+        "en": "The National Art Museum of Ukraine is a museum dedicated to Ukrainian art in Kyiv, Ukraine.",
+        "es": "El Museo Nacional de Arte de Ucrania es una antigua institución cultural de la ciudad ucraniana de Kiev."
       },
       "sourceId": "wikidata",
-      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first."
+      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Art Museum of Ukraine",
+          "url": "https://en.wikipedia.org/wiki/National_Art_Museum_of_Ukraine"
+        },
+        "es": {
+          "title": "Museo Nacional de Arte de Ucrania",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_de_Ucrania"
+        }
+      }
     },
     {
       "id": "ua-q157440",
@@ -142,11 +238,26 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Spa town known for its mineral springs.",
-        "es": "Ciudad balneario conocida por sus manantiales minerales."
+        "en": "Truskavets is a city in Drohobych Raion, western Ukraine's Lviv Oblast (region), near the border with Poland.",
+        "es": "Truskavets es una ciudad de Ucrania perteneciente al raión de Drohóbych de la óblast de Leópolis."
       },
       "sourceId": "wikidata",
-      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first."
+      "admission": "Air raid alerts and martial-law rules apply; check current official travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Truskavets",
+          "url": "https://en.wikipedia.org/wiki/Truskavets"
+        },
+        "es": {
+          "title": "Truskavets",
+          "url": "https://es.wikipedia.org/wiki/Truskavets"
+        }
+      }
     }
   ]
 }

@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Nouakchott with collections on Mauritania's history and culture.",
-        "es": "Museo nacional en Nuakchot con colecciones sobre la historia y la cultura de Mauritania."
+        "en": "The National Museum of Mauritania, also known as the National Museum of Nouakchott, is a national museum in Nouakchott, Mauritania.",
+        "es": "El Museo Nacional de Mauritania es un museo nacional en Nuakchot, la capital del país africano de Mauritania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Mauritania",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Mauritania"
+        },
+        "es": {
+          "title": "Museo Nacional de Mauritania",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Mauritania"
+        }
+      }
     },
     {
       "id": "mr-q84440536",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Ouadane, an old desert trading town in northern Mauritania.",
-        "es": "Museo en Ouadane, antigua localidad comercial del desierto del norte de Mauritania."
+        "en": "The Museum of Ouadane is a local museum in Ouadane, Mauritania.",
+        "es": "El Museo de Uadane es un museo localizado en Uadane, Mauritania."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Ouadane",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Ouadane"
+        },
+        "es": {
+          "title": "Museo de Uadane",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Uadane"
+        }
+      }
     }
   ]
 }

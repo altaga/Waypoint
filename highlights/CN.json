@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "cn-tourism": {
       "title": "China National Tourist Office",
       "url": "https://www.cnto.org/",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -36,7 +42,11 @@
         "en": "Imperial palace complex in the heart of Beijing.",
         "es": "Complejo del palacio imperial en el corazón de Pekín."
       },
-      "sourceId": "cn-tourism"
+      "sourceId": "cn-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "cn-great-wall-mutianyu",
@@ -53,7 +63,11 @@
         "en": "Restored section of the Great Wall, a day trip from Beijing.",
         "es": "Tramo restaurado de la Gran Muralla, excursión de un día desde Pekín."
       },
-      "sourceId": "cn-tourism"
+      "sourceId": "cn-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "cn-temple-heaven",
@@ -71,7 +85,11 @@
         "en": "Ming-era ceremonial altar park.",
         "es": "Parque con altar ceremonial de la dinastía Ming."
       },
-      "sourceId": "cn-tourism"
+      "sourceId": "cn-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "cn-bund",
@@ -89,7 +107,11 @@
         "en": "Waterfront with colonial buildings facing Pudong's skyline.",
         "es": "Malecón con edificios coloniales frente al skyline de Pudong."
       },
-      "sourceId": "cn-tourism"
+      "sourceId": "cn-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "cn-yu-garden",
@@ -107,7 +129,11 @@
         "en": "Classical garden with pavilions and rockeries.",
         "es": "Jardín clásico con pabellones y rocas decorativas."
       },
-      "sourceId": "cn-tourism"
+      "sourceId": "cn-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "cn-terracotta",
@@ -124,7 +150,11 @@
         "en": "Thousands of life-size clay soldiers from the Qin dynasty.",
         "es": "Miles de soldados de arcilla de tamaño natural de la dinastía Qin."
       },
-      "sourceId": "cn-tourism"
+      "sourceId": "cn-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Santiago with pre-Columbian art and objects from the Americas.",
-        "es": "Museo en Santiago con arte y piezas precolombinas de América."
+        "en": "The Chilean Museum of Pre-Columbian Art is an art museum dedicated to the study and display of pre-Columbian artworks and artifacts from Central and South America.",
+        "es": "El Museo Chileno de Arte Precolombino, conocido también como Museo Precolombino, es una institución cultural creada por la Municipalidad de Santiago y la Fundación Familia Larraín Echeñique."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo Chileno de Arte Precolombino",
+          "url": "https://en.wikipedia.org/wiki/Museo_Chileno_de_Arte_Precolombino"
+        },
+        "es": {
+          "title": "Museo Chileno de Arte Precolombino",
+          "url": "https://es.wikipedia.org/wiki/Museo_Chileno_de_Arte_Precolombino"
+        }
+      }
     },
     {
       "id": "cl-q775376",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National fine arts museum in Santiago, in the Parque Forestal.",
-        "es": "Museo nacional de bellas artes en Santiago, en el Parque Forestal."
+        "en": "The Chilean National Museum of Fine Arts, located in Santiago, Chile, is one of the major centers for Chilean art and for broader South American art.",
+        "es": "El Museo Nacional de Bellas Artes (MNBA) es uno de los principales centros de difusión de las artes visuales en Chile."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Chilean National Museum of Fine Arts",
+          "url": "https://en.wikipedia.org/wiki/Chilean_National_Museum_of_Fine_Arts"
+        },
+        "es": {
+          "title": "Museo Nacional de Bellas Artes (Chile)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_(Chile)"
+        }
+      }
     },
     {
       "id": "cl-q3064279",
@@ -68,10 +104,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Natural history museum in Quinta Normal, Santiago, with fossils and wildlife displays.",
-        "es": "Museo de historia natural en Quinta Normal, Santiago, con fósiles y fauna."
+        "en": "The Chilean National Museum of Natural History is one of three national museums in Chile, along with the Museum of Fine Arts and the National History Museum.",
+        "es": "El Museo Nacional de Historia Natural de Chile (MNHN) es uno de los tres museos estatales chilenos de rango nacional, junto al de Bellas Artes e Histórico Nacional, y está…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Chilean National Museum of Natural History",
+          "url": "https://en.wikipedia.org/wiki/Chilean_National_Museum_of_Natural_History"
+        },
+        "es": {
+          "title": "Museo Nacional de Historia Natural de Chile",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Historia_Natural_de_Chile"
+        }
+      }
     },
     {
       "id": "cl-q1639516",
@@ -85,10 +136,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historic Chilean navy ship, now a museum moored in Talcahuano.",
-        "es": "Antiguo buque de la armada chilena, hoy museo amarrado en Talcahuano."
+        "en": "Huáscar is an ironclad turret ship owned by the Chilean Navy built in 1865 for the Peruvian government.",
+        "es": "El monitor Huáscar es un buque torreta, construido por orden del gobierno peruano en el Reino Unido en 1864, que tuvo una relevante participación en la Guerra del Pacífico."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Huáscar (ironclad)",
+          "url": "https://en.wikipedia.org/wiki/Hu%C3%A1scar_(ironclad)"
+        },
+        "es": {
+          "title": "Monitor Huáscar",
+          "url": "https://es.wikipedia.org/wiki/Monitor_Hu%C3%A1scar"
+        }
+      }
     },
     {
       "id": "cl-q6940940",
@@ -102,10 +168,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Santiago on human rights abuses during the dictatorship.",
-        "es": "Museo en Santiago sobre las violaciones de derechos humanos durante la dictadura."
+        "en": "The Museum of Memory and Human Rights is a museum in Santiago, Chile, which commemorates the victims of human rights violations during the military dictatorship led by Augusto Pinochet between…",
+        "es": "El Museo de la Memoria y los Derechos Humanos es un museo público chileno, ubicado en la comuna de Santiago, Santiago de Chile, dedicado a conmemorar a las víctimas de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Memory and Human Rights",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Memory_and_Human_Rights"
+        },
+        "es": {
+          "title": "Museo de la Memoria y los Derechos Humanos",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Memoria_y_los_Derechos_Humanos"
+        }
+      }
     },
     {
       "id": "cl-q605703",
@@ -119,10 +200,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Contemporary art museum in Santiago.",
-        "es": "Museo de arte contemporáneo en Santiago."
+        "en": "The Santiago Museum of Contemporary Art is located in Santiago, Chile.",
+        "es": "El Museo de Arte Contemporáneo (MAC) es una institución que depende de la Facultad de Artes de la Universidad de Chile."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Santiago Museum of Contemporary Art",
+          "url": "https://en.wikipedia.org/wiki/Santiago_Museum_of_Contemporary_Art"
+        },
+        "es": {
+          "title": "Museo de Arte Contemporáneo de Santiago",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Contempor%C3%A1neo_de_Santiago"
+        }
+      }
     },
     {
       "id": "cl-q3647931",
@@ -136,10 +232,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "History museum in Santiago covering the country's past.",
-        "es": "Museo de historia en Santiago que recorre el pasado del país."
+        "en": "The Palacio de la Real Audiencia de Santiago is a building located on the Plaza de Armas in Santiago, Chile.",
+        "es": "El Museo Histórico Nacional (MHN) es un museo estatal chileno, dependiente del Servicio Nacional del Patrimonio Cultural (Serpat), ubicado en la ciudad de Santiago de Chile."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Palacio de la Real Audiencia de Santiago",
+          "url": "https://en.wikipedia.org/wiki/Palacio_de_la_Real_Audiencia_de_Santiago"
+        },
+        "es": {
+          "title": "Museo Histórico Nacional (Chile)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Hist%C3%B3rico_Nacional_(Chile)"
+        }
+      }
     },
     {
       "id": "cl-q6034308",
@@ -154,10 +265,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Art museum in Santiago with works donated by artists from many countries.",
-        "es": "Museo de arte en Santiago con obras donadas por artistas de muchos países."
+        "en": "The Museum of Solidarity Salvador Allende is a contemporary art museum located in Santiago, Chile, named after Salvador Allende, president of Chile between 1970 and 1973.",
+        "es": "Museo de la Solidaridad Salvador Allende (MSSA) es un museo de arte contemporáneo ubicado en Santiago de Chile y lleva el nombre de Salvador Allende, Presidente de la República de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo de la Solidaridad Salvador Allende",
+          "url": "https://en.wikipedia.org/wiki/Museo_de_la_Solidaridad_Salvador_Allende"
+        },
+        "es": {
+          "title": "Museo de la Solidaridad Salvador Allende",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Solidaridad_Salvador_Allende"
+        }
+      }
     },
     {
       "id": "cl-q6683083",
@@ -170,10 +296,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Protected island near Punta Arenas, home to a large Magellanic penguin colony.",
-        "es": "Isla protegida cerca de Punta Arenas, hogar de una gran colonia de pingüinos de Magallanes."
+        "en": "Los Pingüinos Natural Monument is located 35 km (22 mi) northeast of Punta Arenas, Chile.",
+        "es": "Monumento Natural Los Pingüinos es una área silvestre protegida de Chile."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Los Pingüinos Natural Monument",
+          "url": "https://en.wikipedia.org/wiki/Los_Ping%C3%BCinos_Natural_Monument"
+        },
+        "es": {
+          "title": "Monumento natural Los Pingüinos",
+          "url": "https://es.wikipedia.org/wiki/Monumento_natural_Los_Ping%C3%BCinos"
+        }
+      }
     }
   ]
 }

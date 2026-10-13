@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Colombo with archaeology and ethnography.",
-        "es": "Museo nacional en Colombo con arqueología y etnografía."
+        "en": "The Colombo National Museum, also known as the Sri Lanka National Museum, is a museum in Colombo and the largest in Sri Lanka.",
+        "es": "El Museo nacional de Colombo también conocido como el Museo Nacional de Sri Lanka es uno de los dos museos en la ciudad de Colombo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Colombo National Museum",
+          "url": "https://en.wikipedia.org/wiki/Colombo_National_Museum"
+        },
+        "es": {
+          "title": "Museo nacional de Colombo",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Colombo"
+        }
+      }
     },
     {
       "id": "lk-q2672104",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Elephant orphanage where visitors can watch elephants up close.",
-        "es": "Orfanato de elefantes donde se pueden ver elefantes de cerca."
+        "en": "Pinnawala Elephant Orphanage, is a captive breeding and conservation institute for wild Asian elephants located at Pinnawala village, 13 km (8.1 mi) northeast of Kegalle town in Sabaragamuwa Province of…",
+        "es": "El Orfanato de elefantes de Pinnawella es un orfanato, centro de cría y lugar de cautiverio para elefantes silvestres asiáticos situado en el pueblo de Pinnawella, a 13 km al…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Pinnawala Elephant Orphanage",
+          "url": "https://en.wikipedia.org/wiki/Pinnawala_Elephant_Orphanage"
+        },
+        "es": {
+          "title": "Orfanato de elefantes de Pinnawala",
+          "url": "https://es.wikipedia.org/wiki/Orfanato_de_elefantes_de_Pinnawala"
+        }
+      }
     },
     {
       "id": "lk-q1144452",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo near Colombo.",
-        "es": "Zoológico cerca de Colombo."
+        "en": "National Zoological Gardens of Sri Lanka is a zoological garden in Dehiwala, Sri Lanka, founded in 1936.",
+        "es": "El Jardín zoológico nacional de Sri Lanka es un jardín zoológico en Dehiwala, Sri Lanka, fundado en 1936."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Zoological Gardens of Sri Lanka",
+          "url": "https://en.wikipedia.org/wiki/National_Zoological_Gardens_of_Sri_Lanka"
+        },
+        "es": {
+          "title": "Jardín zoológico nacional de Sri Lanka",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_nacional_de_Sri_Lanka"
+        }
+      }
     },
     {
       "id": "lk-q3533580",
@@ -83,10 +134,21 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum in Kandy covering the history of the Kandyan kingdom.",
+        "en": "The National Museum of Kandy in Kandy, Sri Lanka is located next to the Temple of the Tooth in part of the former Royal Palace of Kandy.",
         "es": "Museo en Kandy sobre la historia del reino de Kandy."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Kandy",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Kandy"
+        }
+      }
     },
     {
       "id": "lk-q11302924",
@@ -100,10 +162,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "National art gallery in Colombo.",
+        "en": "The National Art Gallery in Colombo, Sri Lanka was the first state-sponsored art gallery built in the country.",
         "es": "Galería nacional de arte en Colombo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Art Gallery, Sri Lanka",
+          "url": "https://en.wikipedia.org/wiki/National_Art_Gallery%2C_Sri_Lanka"
+        }
+      }
     },
     {
       "id": "lk-q11310066",
@@ -117,10 +190,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Archaeology museum in Jaffna, in northern Sri Lanka.",
+        "en": "Jaffna Archaeological Museum is located in Nallur, Jaffna, Sri Lanka.",
         "es": "Museo de arqueología en Jaffna, en el norte de Sri Lanka."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Archaeological Museum, Jaffna",
+          "url": "https://en.wikipedia.org/wiki/Archaeological_Museum%2C_Jaffna"
+        }
+      }
     },
     {
       "id": "lk-q20640029",
@@ -134,10 +218,21 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum in Anuradhapura with finds from the ancient capital.",
+        "en": "Anuradhapura Archaeological Museum is the oldest and the largest museum belonging to the Department of Archaeology of Sri Lanka.",
         "es": "Museo en Anuradhapura con hallazgos de la antigua capital."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Anuradhapura Museum",
+          "url": "https://en.wikipedia.org/wiki/Anuradhapura_Museum"
+        }
+      }
     },
     {
       "id": "lk-q20987443",
@@ -151,10 +246,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Galle covering the history of the southern coast.",
+        "en": "The National Museum of Galle is one of the national museums of Sri Lanka.",
         "es": "Museo en Galle sobre la historia de la costa sur."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Galle",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Galle"
+        }
+      }
     }
   ]
 }

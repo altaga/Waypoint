@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Historic mosque in Pristina.",
-        "es": "Mezquita histórica en Pristina."
+        "en": "The Imperial Mosque, also known as King's Mosque, is an Ottoman mosque located in Pristina, Kosovo.",
+        "es": "La Mezquita Imperial, también conocida como Mezquita del Rey, es una mezquita otomana ubicada en Pristina, Kosovo, y construida en 1461 por el sultán Mehmet II Fatih."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "King Mosque, Pristina",
+          "url": "https://en.wikipedia.org/wiki/King_Mosque%2C_Pristina"
+        },
+        "es": {
+          "title": "Mezquita Imperial",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_Imperial"
+        }
+      }
     },
     {
       "id": "xk-q2097655",
@@ -51,10 +72,21 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Ottoman-era mosque in Prizren.",
+        "en": "The Sinan Pasha Mosque is an Ottoman-era mosque in the city of Prizren, Kosovo built by the Ottoman Albanian pasha Sofi Sinan in 1615.",
         "es": "Mezquita de la época otomana en Prizren."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sinan Pasha Mosque (Prizren)",
+          "url": "https://en.wikipedia.org/wiki/Sinan_Pasha_Mosque_(Prizren)"
+        }
+      }
     },
     {
       "id": "xk-q16854755",
@@ -68,10 +100,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum of Kosovo in Pristina.",
-        "es": "Museo nacional de Kosovo, en Pristina."
+        "en": "The Kosovo Museum is the national museum of Kosovo, located in the city of Pristina.",
+        "es": "El Museo de Kosovo es un complejo de museos de Pristina, Kosovo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kosovo Museum",
+          "url": "https://en.wikipedia.org/wiki/Kosovo_Museum"
+        },
+        "es": {
+          "title": "Museo de Kosovo",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Kosovo"
+        }
+      }
     },
     {
       "id": "xk-q16334463",
@@ -85,10 +132,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "National art gallery in Pristina.",
+        "en": "The National Gallery of Kosovo, formerly known as the Kosova National Art Gallery, is an art gallery situated at the University of Pristina Campus that focuses on 20th-century art.",
         "es": "Galería nacional de arte en Pristina."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Gallery of Kosovo",
+          "url": "https://en.wikipedia.org/wiki/National_Gallery_of_Kosovo"
+        }
+      }
     },
     {
       "id": "xk-q769963",
@@ -102,10 +160,25 @@
       ],
       "durationMinutes": 20,
       "desc": {
-        "en": "Historic bridge in Gjakova.",
-        "es": "Puente histórico en Gjakova."
+        "en": "Terzi Bridge or Terzijski Bridge, also referred to as Tailors' Bridge, is located near the village of Bishtazhin, near Gjakova, Kosovo.",
+        "es": "El Puente Terzijski a veces llamado \"Puente de los sastres\", está situado cerca del pueblo de Bistražin en Đakovica en Kosovo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Terzi Bridge",
+          "url": "https://en.wikipedia.org/wiki/Terzi_Bridge"
+        },
+        "es": {
+          "title": "Puente Terzijski",
+          "url": "https://es.wikipedia.org/wiki/Puente_Terzijski"
+        }
+      }
     },
     {
       "id": "xk-q3324861",
@@ -120,10 +193,21 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Historic mosque in Gjakova.",
+        "en": "The Hadum Mosque in Gjakova, Kosovo was built in the last decade of the 16th century (1594/95) and was financed by Hadum Sylejman Efendia – Hadum Aga, which explains the…",
         "es": "Mezquita histórica en Gjakova."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Hadum Mosque",
+          "url": "https://en.wikipedia.org/wiki/Hadum_Mosque"
+        }
+      }
     },
     {
       "id": "xk-q4451245",
@@ -137,10 +221,25 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Catholic cathedral in Prizren.",
-        "es": "Catedral católica en Prizren."
+        "en": "The Cathedral of Our Lady of Perpetual Succour also known as Precinct of the Lady Helper Church and Con-cathedral of the Lady Helper is a Roman Catholic cathedral in Prizren,…",
+        "es": "La catedral de Nuestra Señora del Perpetuo Socorro es una catedral católica en Prizren, Kosovo, sede de la diócesis de Prizren-Pristina."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Cathedral of Our Lady of Perpetual Succour (Prizren)",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_Our_Lady_of_Perpetual_Succour_(Prizren)"
+        },
+        "es": {
+          "title": "Catedral de Nuestra Señora del Perpetuo Socorro (Prizren)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Nuestra_Se%C3%B1ora_del_Perpetuo_Socorro_(Prizren)"
+        }
+      }
     }
   ]
 }

@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum in Cairo holding a large collection of ancient Egyptian antiquities.",
-        "es": "Museo en El Cairo con una gran colección de antigüedades egipcias."
+        "en": "The Museum of Egyptian Antiquities, commonly known as the Egyptian Museum and also called the Cairo Museum or the Egyptian Museum in Cairo (EMC), is a national history museum in…",
+        "es": "El Museo Egipcio de El Cairo o Museo de Antigüedades Egipcias, realmente denominado Museo Egipcio, se encuentra en El Cairo (Egipto), y custodia la mayor colección de objetos de la…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Egyptian Museum",
+          "url": "https://en.wikipedia.org/wiki/Egyptian_Museum"
+        },
+        "es": {
+          "title": "Museo Egipcio de El Cairo",
+          "url": "https://es.wikipedia.org/wiki/Museo_Egipcio_de_El_Cairo"
+        }
+      }
     },
     {
       "id": "eg-q2583681",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Large museum near the Giza Pyramids, displaying ancient Egyptian artifacts.",
-        "es": "Gran museo cerca de las pirámides de Giza con artefactos del antiguo Egipto."
+        "en": "The Grand Egyptian Museum is a national archaeological museum in Giza, Egypt.",
+        "es": "El Gran Museo Egipcio es un museo arqueológico ubicado en Guiza, Egipto."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Grand Egyptian Museum",
+          "url": "https://en.wikipedia.org/wiki/Grand_Egyptian_Museum"
+        },
+        "es": {
+          "title": "Gran Museo Egipcio",
+          "url": "https://es.wikipedia.org/wiki/Gran_Museo_Egipcio"
+        }
+      }
     },
     {
       "id": "eg-q501851",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Modern library and cultural center on the Alexandria waterfront.",
-        "es": "Biblioteca y centro cultural moderno junto al paseo marítimo de Alejandría."
+        "en": "The Bibliotheca Alexandrina (BA) is a major library and cultural center on the shore of the Mediterranean Sea in Alexandria, Egypt.",
+        "es": "La Biblioteca Alexandrina es una importante biblioteca y centro cultural situado en la ciudad egipcia de Alejandría, en la costa del mar Mediterráneo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bibliotheca Alexandrina",
+          "url": "https://en.wikipedia.org/wiki/Bibliotheca_Alexandrina"
+        },
+        "es": {
+          "title": "Bibliotheca Alexandrina",
+          "url": "https://es.wikipedia.org/wiki/Bibliotheca_Alexandrina"
+        }
+      }
     },
     {
       "id": "eg-q1878362",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Luxor with statues and objects from the Theban region.",
-        "es": "Museo en Luxor con estatuas y objetos de la región tebana."
+        "en": "Luxor Museum is an archaeological museum in Luxor, Egypt.",
+        "es": "El Museo de Luxor está situado en el centro de la ciudad de Luxor, cerca del río Nilo, en Egipto."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Luxor Museum",
+          "url": "https://en.wikipedia.org/wiki/Luxor_Museum"
+        },
+        "es": {
+          "title": "Museo de Luxor",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Luxor"
+        }
+      }
     },
     {
       "id": "eg-q1784177",
@@ -100,10 +166,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Coptic Christian art and artifacts in Old Cairo.",
-        "es": "Museo de arte y objetos del cristianismo copto en El Cairo antiguo."
+        "en": "The Coptic Museum is a museum in Coptic Cairo, Egypt, which contains the largest collection of Coptic Christian artifacts in the world.",
+        "es": "El Museo Copto es un museo con la colección de arte copto más grande del mundo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Coptic Museum",
+          "url": "https://en.wikipedia.org/wiki/Coptic_Museum"
+        },
+        "es": {
+          "title": "Museo Copto",
+          "url": "https://es.wikipedia.org/wiki/Museo_Copto"
+        }
+      }
     },
     {
       "id": "eg-q3330629",
@@ -118,10 +199,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum with a broad collection of Islamic art from many centuries.",
-        "es": "Museo con una amplia colección de arte islámico de muchos siglos."
+        "en": "The Museum of Islamic Art is a museum in Cairo, Egypt.",
+        "es": "El Museo de Arte Islámico de El Cairo alberga una de las colecciones más importantes de arte islámico del mundo con piezas que datan desde el siglo VII hasta fines…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Islamic Art, Cairo",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Islamic_Art%2C_Cairo"
+        },
+        "es": {
+          "title": "Museo de arte islámico de El Cairo",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_arte_isl%C3%A1mico_de_El_Cairo"
+        }
+      }
     },
     {
       "id": "eg-q201383",
@@ -135,10 +231,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum covering the history of Alexandria from antiquity onward.",
-        "es": "Museo sobre la historia de Alejandría desde la antigüedad."
+        "en": "The Alexandria National Museum (ANM) is a museum in Alexandria, Egypt.",
+        "es": "El Museo Nacional de Alejandría es un museo ubicado en la ciudad de Alejandría, Egipto."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Alexandria National Museum",
+          "url": "https://en.wikipedia.org/wiki/Alexandria_National_Museum"
+        },
+        "es": {
+          "title": "Museo Nacional de Alejandría",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Alejandr%C3%ADa"
+        }
+      }
     },
     {
       "id": "eg-q1546319",
@@ -152,10 +263,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Greek and Roman objects found in Alexandria.",
-        "es": "Museo con objetos greco-romanos hallados en Alejandría."
+        "en": "The Graeco-Roman Museum is an archaeological museum located in Alexandria, Egypt.",
+        "es": "El Museo grecorromano de Alejandría es un museo arqueológico ubicado en el centro de la ciudad de Alejandría, Egipto."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Graeco-Roman Museum",
+          "url": "https://en.wikipedia.org/wiki/Graeco-Roman_Museum"
+        },
+        "es": {
+          "title": "Museo Grecorromano de Alejandría",
+          "url": "https://es.wikipedia.org/wiki/Museo_Grecorromano_de_Alejandr%C3%ADa"
+        }
+      }
     },
     {
       "id": "eg-q29017001",
@@ -169,10 +295,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum dedicated to the history and civilization of Egypt.",
-        "es": "Museo dedicado a la historia y la civilización de Egipto."
+        "en": "The National Museum of Egyptian Civilization (NMEC) is a large museum located in Old Cairo, a district of Cairo, Egypt.",
+        "es": "El Museo Nacional de la Civilización Egipcia (NMEC) es un museo ubicado en la antigua ciudad de Fustat, ahora parte de El Cairo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Egyptian Civilization",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Egyptian_Civilization"
+        },
+        "es": {
+          "title": "Museo Nacional de la Civilización Egipcia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_la_Civilizaci%C3%B3n_Egipcia"
+        }
+      }
     },
     {
       "id": "eg-q4164858",
@@ -186,10 +327,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Medieval city gate in Islamic Cairo.",
-        "es": "Puerta medieval de la ciudad en el Cairo islámico."
+        "en": "Bab al-Futuh is one of three remaining gates in the city wall of the old city of Cairo, Egypt.",
+        "es": "La Bab al Futuh es una de tres puertas que sobreviven de la antigua muralla de la ciudad vieja de El Cairo, Egipto."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bab al-Futuh",
+          "url": "https://en.wikipedia.org/wiki/Bab_al-Futuh"
+        },
+        "es": {
+          "title": "Bab al-Futuh",
+          "url": "https://es.wikipedia.org/wiki/Bab_al-Futuh"
+        }
+      }
     }
   ]
 }

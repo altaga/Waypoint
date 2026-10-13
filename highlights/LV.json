@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum documenting the Soviet and Nazi occupations of Latvia in the twentieth century.",
-        "es": "Museo que documenta las ocupaciones soviética y nazi de Letonia en el siglo XX."
+        "en": "The Museum of the Occupation of Latvia is a museum and history education institution in Riga, Latvia.",
+        "es": "El Museo de la Ocupación de Letonia es un museo y una institución educativa histórica ubicada en Riga, Letonia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of the Occupation of Latvia",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_the_Occupation_of_Latvia"
+        },
+        "es": {
+          "title": "Museo de la Ocupación de Letonia",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Ocupaci%C3%B3n_de_Letonia"
+        }
+      }
     },
     {
       "id": "lv-q2152796",
@@ -48,10 +69,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Collection of historic cars, motorcycles and other vehicles in Riga.",
+        "en": "Riga Motor Museum is the biggest antique vehicle museum in the Baltic countries, located in Riga, Latvia.",
         "es": "Colección de coches, motocicletas y otros vehículos históricos en Riga."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Riga Motor Museum",
+          "url": "https://en.wikipedia.org/wiki/Riga_Motor_Museum"
+        }
+      }
     },
     {
       "id": "lv-q2984677",
@@ -65,10 +97,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Zoo in Riga with animal collections and open grounds.",
-        "es": "Zoológico en Riga con colecciones de animales y espacios al aire libre."
+        "en": "Riga Zoo is a city-owned zoo in Riga, Latvia.",
+        "es": "El Jardín zoológico de Riga es un zoológico propiedad de la ciudad de Riga, la capital del país europeo de Letonia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Riga Zoo",
+          "url": "https://en.wikipedia.org/wiki/Riga_Zoo"
+        },
+        "es": {
+          "title": "Jardín zoológico de Riga",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_de_Riga"
+        }
+      }
     },
     {
       "id": "lv-q6497382",
@@ -82,10 +129,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Latvian natural history, with collections on local flora and fauna.",
-        "es": "Museo de historia natural de Letonia, con colecciones sobre flora y fauna locales."
+        "en": "The Latvian National Museum of Natural History is a natural history museum in Riga, Latvia.",
+        "es": "El Museo de Historia Natural de Letonia es un museo de historia natural localizado en Riga, capital de Letonia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Latvian Museum of Natural History",
+          "url": "https://en.wikipedia.org/wiki/Latvian_Museum_of_Natural_History"
+        },
+        "es": {
+          "title": "Museo de Historia Natural de Letonia",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Natural_de_Letonia"
+        }
+      }
     },
     {
       "id": "lv-q6497376",
@@ -99,10 +161,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of decorative arts and design, with collections of applied art and crafts.",
+        "en": "The Latvian Museum of Decorative Arts and Design is an arts museum in Riga, Latvia.",
         "es": "Museo de artes decorativas y diseño, con colecciones de arte aplicado y artesanía."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Latvian Museum of Decorative Arts and Design",
+          "url": "https://en.wikipedia.org/wiki/Latvian_Museum_of_Decorative_Arts_and_Design"
+        }
+      }
     },
     {
       "id": "lv-q2026892",
@@ -119,7 +192,14 @@
         "en": "Museum of local history and art in the city of Daugavpils, eastern Latvia.",
         "es": "Museo de historia local y arte en la ciudad de Daugavpils, en el este de Letonia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13"
+      }
     },
     {
       "id": "lv-q4306181",
@@ -136,7 +216,14 @@
         "en": "Museum on the Riga Ghetto and the persecution of Jews in Latvia in World War II.",
         "es": "Museo sobre el gueto de Riga y la persecución de judíos en Letonia durante la guerra."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13"
+      }
     },
     {
       "id": "lv-q81993",
@@ -149,10 +236,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Aviation museum with historic aircraft, located near Riga.",
-        "es": "Museo de aviación con aeronaves históricas, situado cerca de Riga."
+        "en": "Riga Aviation Museum is an aviation museum in Riga, Latvia.",
+        "es": "El Museo de la Aviación de Riga es un museo de aviación letón inaugurado en 1956 en Riga, capital del país."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Riga Aviation Museum",
+          "url": "https://en.wikipedia.org/wiki/Riga_Aviation_Museum"
+        },
+        "es": {
+          "title": "Museo de la Aviación de Riga",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Aviaci%C3%B3n_de_Riga"
+        }
+      }
     },
     {
       "id": "lv-q20902267",
@@ -166,10 +268,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Memorial and museum honouring Žanis Lipke, who helped save Jews in Riga in World War II.",
+        "en": "The Žanis Lipke Memorial is a memorial museum located on the island of Ķīpsala in Riga, Latvia, at Mazais Balasta dambis, 9.",
         "es": "Memorial y museo en honor a Žanis Lipke, que salvó a judíos en Riga durante la guerra."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Žanis Lipke Memorial",
+          "url": "https://en.wikipedia.org/wiki/%C5%BDanis_Lipke_Memorial"
+        }
+      }
     },
     {
       "id": "lv-q6544210",
@@ -183,10 +296,21 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum of local history and culture in the port city of Liepāja.",
+        "en": "Liepāja Museum is a museum in Liepāja, Latvia.",
         "es": "Museo de historia y cultura locales en la ciudad portuaria de Liepāja."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Liepāja Museum",
+          "url": "https://en.wikipedia.org/wiki/Liep%C4%81ja_Museum"
+        }
+      }
     }
   ]
 }

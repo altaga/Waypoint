@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum in Lahore with Gandhara sculpture and Mughal-era art.",
+        "en": "The Lahore Museum is a museum located in Lahore, Punjab, Pakistan.",
         "es": "Museo en Lahore con escultura gandhara y arte de la época mogol."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Lahore Museum",
+          "url": "https://en.wikipedia.org/wiki/Lahore_Museum"
+        }
+      }
     },
     {
       "id": "pk-q1967486",
@@ -50,10 +67,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Karachi covering the region's history and archaeology.",
-        "es": "Museo nacional en Karachi sobre la historia y la arqueología de la región."
+        "en": "The National Museum of Pakistan is a public museum located in Karachi, Pakistan.",
+        "es": "El Museo nacional de Pakistán se encuentra en la ciudad de Karachi, Sindh, en el país asiático de Pakistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Pakistan",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Pakistan"
+        },
+        "es": {
+          "title": "Museo nacional de Pakistán",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Pakist%C3%A1n"
+        }
+      }
     },
     {
       "id": "pk-q7689656",
@@ -67,10 +99,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Archaeology museum near the ancient city of Taxila.",
+        "en": "Taxila Museum is located at Taxila, Punjab, Pakistan.",
         "es": "Museo de arqueología cerca de la antigua ciudad de Taxila."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Taxila Museum",
+          "url": "https://en.wikipedia.org/wiki/Taxila_Museum"
+        }
+      }
     },
     {
       "id": "pk-q1416493",
@@ -85,10 +128,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Peshawar with Gandhara art and archaeological finds.",
+        "en": "The Peshawar Museum is a museum located in Peshawar, capital of Pakistan's Khyber Pakhtunkhwa province.",
         "es": "Museo en Peshawar con arte gandhara y hallazgos arqueológicos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Peshawar Museum",
+          "url": "https://en.wikipedia.org/wiki/Peshawar_Museum"
+        }
+      }
     },
     {
       "id": "pk-q3694624",
@@ -103,10 +157,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Folk heritage museum in Islamabad showing crafts and traditions.",
+        "en": "Heritage Museum, also known as Lok Virsa Museum, is a museum of history and culture located in the Shakarparian Hills of Islamabad, Pakistan.",
         "es": "Museo del patrimonio popular en Islamabad con artesanías y tradiciones."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Lok Virsa Museum",
+          "url": "https://en.wikipedia.org/wiki/Lok_Virsa_Museum"
+        }
+      }
     },
     {
       "id": "pk-q2027173",
@@ -120,10 +185,21 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Historic gate of Lahore's Walled City.",
+        "en": "Delhi Gate is one of the six remaining historic gates of the Walled City of Lahore in Lahore, Punjab, Pakistan.",
         "es": "Puerta histórica de la Ciudad Amurallada de Lahore."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Delhi Gate, Lahore",
+          "url": "https://en.wikipedia.org/wiki/Delhi_Gate%2C_Lahore"
+        }
+      }
     },
     {
       "id": "pk-q2157417",
@@ -137,10 +213,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Pakistan's maritime history in Karachi.",
-        "es": "Museo de la historia marítima de Pakistán en Karachi."
+        "en": "Pakistan Maritime Museum is a maritime museum and park situated near PNS Karsaz on Habib Ibrahim Rehmatullah Road in Karachi, Sindh, Pakistan.",
+        "es": "El Museo marítimo de Pakistán es un museo naval y un parque situado cerca de PNS Karsaz en la carretera Ebrahim Habib Rehmatoola en la ciudad de Karachi, en el…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Pakistan Maritime Museum",
+          "url": "https://en.wikipedia.org/wiki/Pakistan_Maritime_Museum"
+        },
+        "es": {
+          "title": "Museo marítimo de Pakistán",
+          "url": "https://es.wikipedia.org/wiki/Museo_mar%C3%ADtimo_de_Pakist%C3%A1n"
+        }
+      }
     },
     {
       "id": "pk-q4785375",
@@ -154,10 +245,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum at the Harappa archaeological site of the Indus Valley civilisation.",
+        "en": "Harappa Museum is an archaeology museum based in Harappa, Punjab, Pakistan.",
         "es": "Museo junto al yacimiento arqueológico de Harappa, de la civilización del valle del Indo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Harappa Museum",
+          "url": "https://en.wikipedia.org/wiki/Harappa_Museum"
+        }
+      }
     },
     {
       "id": "pk-q9055975",
@@ -170,10 +272,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Forest park near Rawalpindi, popular for walks and views.",
-        "es": "Parque forestal cerca de Rawalpindi, popular para caminar y disfrutar de vistas."
+        "en": "Ayub National Park, commonly known as Ayub Park or, historically, Topi Rakh Park, is a national park located on the Grand Trunk Road, not far away from the old presidency…",
+        "es": "El Parque nacional de Ayub comúnmente conocido como Parque Ayub o históricamente Parque Topi Rakh es un parque nacional situado en la carretera de Jhelum, no muy lejos de la…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ayub National Park",
+          "url": "https://en.wikipedia.org/wiki/Ayub_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Ayub",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Ayub"
+        }
+      }
     },
     {
       "id": "pk-q2046672",
@@ -187,10 +304,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Natural history museum on Shakarparian hill in Islamabad.",
+        "en": "Pakistan Museum of Natural History (PMNH), (Urdu: عجائب خانہ جاتِ پاکستان برائے طبعی تواریخ) established in 1976, is a public natural history museum situated in Islamabad, the federal capital of…",
         "es": "Museo de historia natural en la colina de Shakarparian, en Islamabad."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Pakistan Museum of Natural History",
+          "url": "https://en.wikipedia.org/wiki/Pakistan_Museum_of_Natural_History"
+        }
+      }
     },
     {
       "id": "pk-q5071705",
@@ -203,10 +331,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Large planted forest near Lahore, used for picnics and walks.",
-        "es": "Gran bosque plantado cerca de Lahore, usado para picnics y paseos."
+        "en": "The Changa Manga is a man-made forest which includes a wildlife preserve, in the Kasur and Lahore districts of Punjab, Pakistan.",
+        "es": "Changa Manga es un bosque plantado y un parque de vida silvestre en el distrito de Kasur, Punjab, al norte de Pakistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Changa Manga",
+          "url": "https://en.wikipedia.org/wiki/Changa_Manga"
+        },
+        "es": {
+          "title": "Changa Manga",
+          "url": "https://es.wikipedia.org/wiki/Changa_Manga"
+        }
+      }
     },
     {
       "id": "pk-q6970474",
@@ -220,10 +363,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "National art gallery in Islamabad with Pakistani paintings and miniatures.",
-        "es": "Galería de arte nacional en Islamabad con pintura y miniatura pakistaníes."
+        "en": "National Art Gallery in Islamabad, Pakistan is the country's first national art gallery.",
+        "es": "La Galería Nacional de Arte de Pakistán es la primera pinacoteca nacional del país, situada en Islamabad."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Art Gallery, Pakistan",
+          "url": "https://en.wikipedia.org/wiki/National_Art_Gallery%2C_Pakistan"
+        },
+        "es": {
+          "title": "Galería Nacional de Arte de Pakistán",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Arte_de_Pakist%C3%A1n"
+        }
+      }
     }
   ]
 }

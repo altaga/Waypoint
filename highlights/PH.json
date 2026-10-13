@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Limestone cave in Peñablanca, in Cagayan province.",
-        "es": "Cueva caliza en Peñablanca, en la provincia de Cagayán."
+        "en": "Callao Cave is one of 300 limestone caves located in the Barangays of Magdalo and Quibal in the municipality of Peñablanca, about 24 km (15 mi) northeast of Tuguegarao City,…",
+        "es": "La cueva del Callao es una cueva con siete cámaras ubicadas en la provincia de Cagayán en el noreste de la isla Luzón en Filipinas."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Callao Cave",
+          "url": "https://en.wikipedia.org/wiki/Callao_Cave"
+        },
+        "es": {
+          "title": "Cueva del Callao",
+          "url": "https://es.wikipedia.org/wiki/Cueva_del_Callao"
+        }
+      }
     },
     {
       "id": "ph-q1472845",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Spanish-era fort in central Cebu City.",
-        "es": "Fuerte de la época española en el centro de Cebú."
+        "en": "Fort San Pedro is a military defense structure in Cebu, Philippines, built by the Spanish under the command of Miguel López de Legazpi, first governor of the Captaincy General of…",
+        "es": "El Fuerte de San Pedro es un presidio de origen novohispano del siglo XVI situado en Cebú, Bisayas Centrales en Filipinas."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Fort San Pedro",
+          "url": "https://en.wikipedia.org/wiki/Fort_San_Pedro"
+        },
+        "es": {
+          "title": "Fuerte de San Pedro",
+          "url": "https://es.wikipedia.org/wiki/Fuerte_de_San_Pedro"
+        }
+      }
     },
     {
       "id": "ph-q28980",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Oceanarium and marine park in Manila.",
-        "es": "Oceanario y parque marino en Manila."
+        "en": "The Manila Ocean Park, is an oceanarium in Manila, Philippines.",
+        "es": "El Parque oceánico de Manila es un oceanario en la ciudad de Manila, la capital del país asiático de Filipinas."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Manila Ocean Park",
+          "url": "https://en.wikipedia.org/wiki/Manila_Ocean_Park"
+        },
+        "es": {
+          "title": "Parque oceánico de Manila",
+          "url": "https://es.wikipedia.org/wiki/Parque_oce%C3%A1nico_de_Manila"
+        }
+      }
     },
     {
       "id": "ph-q2307982",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo and botanical garden in Manila.",
-        "es": "Zoológico y jardín botánico en Manila."
+        "en": "The Manila Zoo, formally known as the Manila Zoological and Botanical Garden, is a 5.5-hectare (14-acre) zoo located in Malate, Manila, Philippines.",
+        "es": "El Jardín botánico y Zoológico de Manila es un zoológico de 5,5 hectáreas ubicado en la ciudad de Manila, capital de las Filipinas, que abrió el 25 de julio de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Manila Zoo",
+          "url": "https://en.wikipedia.org/wiki/Manila_Zoo"
+        },
+        "es": {
+          "title": "Jardín botánico y Zoológico de Manila",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_bot%C3%A1nico_y_Zool%C3%B3gico_de_Manila"
+        }
+      }
     },
     {
       "id": "ph-q2110963",
@@ -101,10 +167,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum in Makati with Philippine art, history and dioramas.",
-        "es": "Museo en Makati con arte, historia y maquetas de Filipinas."
+        "en": "The Ayala Museum is a museum in Makati, Metro Manila, Philippines.",
+        "es": "El Museo Ayala es un museo de arte e historia ubicado en la esquina de la avenida Makati, y la calle de la Rosa, en la ciudad de Makati, en…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ayala Museum",
+          "url": "https://en.wikipedia.org/wiki/Ayala_Museum"
+        },
+        "es": {
+          "title": "Museo Ayala",
+          "url": "https://es.wikipedia.org/wiki/Museo_Ayala"
+        }
+      }
     },
     {
       "id": "ph-q3550173",
@@ -117,10 +198,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historic house and shrine in Kawit linked to Emilio Aguinaldo.",
+        "en": "The Emilio Aguinaldo Shrine is a national shrine located in Kawit, Cavite in the Philippines, where the Philippine Declaration of Independence from Spain was declared on June 12, 1898, or…",
         "es": "Casa histórica y santuario en Kawit vinculados a Emilio Aguinaldo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Aguinaldo Shrine",
+          "url": "https://en.wikipedia.org/wiki/Aguinaldo_Shrine"
+        }
+      }
     },
     {
       "id": "ph-q123815605",
@@ -134,10 +226,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum of Philippine fine arts in Manila.",
-        "es": "Museo nacional de bellas artes de Filipinas en Manila."
+        "en": "The National Museum of Fine Arts, formerly known as the National Art Gallery, is an art museum in Manila, Philippines.",
+        "es": "El Museo Nacional de Bellas Artes anteriormente conocida como Galería Nacional de Arte, es un museo de arte ubicado en Manila, Filipinas."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Fine Arts (Manila)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Fine_Arts_(Manila)"
+        },
+        "es": {
+          "title": "Museo Nacional de Bellas Artes (Manila)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_(Manila)"
+        }
+      }
     },
     {
       "id": "ph-q2110972",
@@ -151,10 +258,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Cebu City on regional history and culture.",
-        "es": "Museo en Cebú sobre la historia y la cultura regional."
+        "en": "Museo Sugbo is a museum in Cebu City, Philippines.",
+        "es": "El Museo Sugbo es el museo provincial de Cebú ubicado en la ciudad de Cebú, en el país asiático de Filipinas."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo Sugbo",
+          "url": "https://en.wikipedia.org/wiki/Museo_Sugbo"
+        },
+        "es": {
+          "title": "Museo Sugbo",
+          "url": "https://es.wikipedia.org/wiki/Museo_Sugbo"
+        }
+      }
     },
     {
       "id": "ph-q17086673",
@@ -168,10 +290,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Shrine and museum at the birthplace of national hero José Rizal.",
-        "es": "Santuario y museo en la casa natal del héroe nacional José Rizal."
+        "en": "The Rizal Shrine is a reproduction of the original two-story, Bahay na bato in Calamba, Laguna where José Rizal was born on June 19, 1861.",
+        "es": "El Santuario Rizal de Calambá, es una reproducción de la casa original de dos pisos de estilo colonial español, en la que nació José Rizal, héroe nacional de Filipinas, el…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Rizal Shrine (Calamba)",
+          "url": "https://en.wikipedia.org/wiki/Rizal_Shrine_(Calamba)"
+        },
+        "es": {
+          "title": "Santuario Rizal (Calambá)",
+          "url": "https://es.wikipedia.org/wiki/Santuario_Rizal_(Calamb%C3%A1)"
+        }
+      }
     },
     {
       "id": "ph-q2110553",
@@ -185,10 +322,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "University art gallery on the Ateneo de Manila campus.",
-        "es": "Galería de arte universitaria en el campus de la Universidad Ateneo de Manila."
+        "en": "The Ateneo Art Gallery is a museum of modern art of the Ateneo de Manila University.",
+        "es": "La Galería de arte Ateneo es un museo de arte moderno de la Universidad Ateneo de Manila en las islas Filipinas."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ateneo Art Gallery",
+          "url": "https://en.wikipedia.org/wiki/Ateneo_Art_Gallery"
+        },
+        "es": {
+          "title": "Galería de arte Ateneo",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_de_arte_Ateneo"
+        }
+      }
     },
     {
       "id": "ph-q28451570",
@@ -202,10 +354,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum of natural history in Manila.",
+        "en": "The National Museum of Natural History is the national natural history museum of the Philippines.",
         "es": "Museo nacional de historia natural en Manila."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Natural History (Manila)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Natural_History_(Manila)"
+        }
+      }
     }
   ]
 }

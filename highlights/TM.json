@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Monument in central Ashgabat, the capital of Turkmenistan.",
-        "es": "Monumento en el centro de Asjabad, la capital de Turkmenistán."
+        "en": "The \"Independence Monument\" is a monument located in Ashgabat, Turkmenistan.",
+        "es": "El Monumento a la Independencia es un monumento situado en Asjabad, Turkmenistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Independence Monument (Turkmenistan)",
+          "url": "https://en.wikipedia.org/wiki/Independence_Monument_(Turkmenistan)"
+        },
+        "es": {
+          "title": "Monumento a la Independencia de Turkmenistán",
+          "url": "https://es.wikipedia.org/wiki/Monumento_a_la_Independencia_de_Turkmenist%C3%A1n"
+        }
+      }
     },
     {
       "id": "tm-q1835821",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Turkmen carpets and textile arts, in Ashgabat.",
-        "es": "Museo de alfombras y artes textiles turcomanas, en Asjabad."
+        "en": "The Turkmen Carpet Museum or the National Carpet Museum is a national museum, situated on 5 Görogly Street, Ashgabat, Turkmenistan.",
+        "es": "El Museo de alfombras de Turkmenistán o el Museo de Alfombras Nacional es un museo nacional, situado en la calle 5 Gorogly en Asjabad, Turkmenistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Turkmen Carpet Museum",
+          "url": "https://en.wikipedia.org/wiki/Turkmen_Carpet_Museum"
+        },
+        "es": {
+          "title": "Museo de alfombras de Turkmenistán",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_alfombras_de_Turkmenist%C3%A1n"
+        }
+      }
     },
     {
       "id": "tm-q1835360",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "State museum with collections on Turkmen history and culture, in Ashgabat.",
-        "es": "Museo estatal con colecciones sobre la historia y cultura turcomanas, en Asjabad."
+        "en": "The State Museum of Turkmenistan, also known as the Saparmurat Turkmenbashi Museum, is a museum in Ashgabat, Turkmenistan.",
+        "es": "El Museo nacional de historia de Asjabad es un museo de historia en Asjabad, capital del país asiático de Turkmenistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "The State Museum of the State Cultural Center of Turkmenistan",
+          "url": "https://en.wikipedia.org/wiki/The_State_Museum_of_the_State_Cultural_Center_of_Turkmenistan"
+        },
+        "es": {
+          "title": "Museo nacional de historia de Asjabad",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_historia_de_Asjabad"
+        }
+      }
     },
     {
       "id": "tm-q7855419",
@@ -83,10 +134,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Fine arts museum in Ashgabat.",
+        "en": "The Museum of Fine Arts is an art museum in Ashgabat, Turkmenistan.",
         "es": "Museo de bellas artes en Asjabad."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Turkmen Museum of Fine Arts",
+          "url": "https://en.wikipedia.org/wiki/Turkmen_Museum_of_Fine_Arts"
+        }
+      }
     },
     {
       "id": "tm-q4283341",
@@ -100,10 +162,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Regional museum in Mary, in southern Turkmenistan.",
+        "en": "Mary History Museum is a history museum of Mary, Turkmenistan, located in the center of the city.",
         "es": "Museo regional en Mary, en el sur de Turkmenistán."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mary Museum",
+          "url": "https://en.wikipedia.org/wiki/Mary_Museum"
+        }
+      }
     }
   ]
 }

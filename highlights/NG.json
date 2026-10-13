@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Lagos with collections on Nigerian history and art.",
-        "es": "Museo nacional en Lagos con colecciones sobre la historia y el arte de Nigeria."
+        "en": "The Nigerian National Museum is a national museum of Nigeria, located in the city of Lagos.",
+        "es": "El Museo Nacional de Nigeria es un museo nacional del país africano de Nigeria, que se encuentra en la ciudad de Lagos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nigerian National Museum",
+          "url": "https://en.wikipedia.org/wiki/Nigerian_National_Museum"
+        },
+        "es": {
+          "title": "Museo Nacional de Nigeria",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Nigeria"
+        }
+      }
     },
     {
       "id": "ng-q5397968",
@@ -51,10 +72,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Esie, Kwara State, known for its soapstone figures.",
+        "en": "Esiẹ Museum is a museum in Esiẹ, Kwara State, Nigeria.",
         "es": "Museo en Esie, estado de Kwara, conocido por sus figuras de esteatita."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Esiẹ Museum",
+          "url": "https://en.wikipedia.org/wiki/Esi%E1%BA%B9_Museum"
+        }
+      }
     },
     {
       "id": "ng-q111008534",
@@ -68,10 +100,21 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum in Badagry on the history of the transatlantic slave trade.",
+        "en": "Badagry Heritage Museum is a museum in Badagry, Nigeria that is housed in the District Officer's Office built in 1863 by the British colonial government.",
         "es": "Museo en Badagry sobre la historia del comercio transatlántico de esclavos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Badagry Heritage Museum",
+          "url": "https://en.wikipedia.org/wiki/Badagry_Heritage_Museum"
+        }
+      }
     },
     {
       "id": "ng-q25044062",
@@ -85,10 +128,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Art gallery in Lagos with a large collection of Nigerian art.",
-        "es": "Galería de arte en Lagos con una gran colección de arte nigeriano."
+        "en": "The Nike Art Gallery is West Africa’s most extensive art collection.",
+        "es": "La Nike Art Gallery es una amplia colección de arte situada en el barrio de Lekki, en el área metropolitana de Lagos (Nigeria)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nike Art Gallery",
+          "url": "https://en.wikipedia.org/wiki/Nike_Art_Gallery"
+        },
+        "es": {
+          "title": "Nike Art Gallery",
+          "url": "https://es.wikipedia.org/wiki/Nike_Art_Gallery"
+        }
+      }
     },
     {
       "id": "ng-q55113752",
@@ -102,10 +160,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Ibadan with exhibits on Nigerian history and culture.",
-        "es": "Museo en Ibadán con exposiciones sobre la historia y la cultura de Nigeria."
+        "en": "The Ibadan National Museum of Unity is an ethnographic museum in Aleshinloye Ibadan, Nigeria.",
+        "es": "El Museo Nacional de la Unidad es un museo etnográfico situado en Ibadan (Nigeria)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Unity, Ibadan",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Unity%2C_Ibadan"
+        },
+        "es": {
+          "title": "Museo Nacional de la Unidad, Ibadan",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_la_Unidad%2C_Ibadan"
+        }
+      }
     },
     {
       "id": "ng-q2157384",
@@ -119,10 +192,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Art gallery in Lagos with modern Nigerian art.",
-        "es": "Galería de arte en Lagos con arte nigeriano moderno."
+        "en": "The National Gallery of Modern Art, Lagos (NGMA) is a major art gallery in Lagos, the largest city of Nigeria.",
+        "es": "La Galería Nacional de Arte Moderno es una galería de arte grande en la ciudad de Lagos, la ciudad más grande del país africano de Nigeria."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Gallery of Modern Art, Lagos",
+          "url": "https://en.wikipedia.org/wiki/National_Gallery_of_Modern_Art%2C_Lagos"
+        },
+        "es": {
+          "title": "Galería Nacional de Arte Moderno (Lagos)",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Arte_Moderno_(Lagos)"
+        }
+      }
     },
     {
       "id": "ng-q4888021",
@@ -137,10 +225,21 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "National museum in Benin City with collections on the art and history of the Benin Kingdom.",
+        "en": "The Benin City National Museum is a national museum in Benin City, Nigeria, located in the city centre on King's Square.",
         "es": "Museo nacional en Benín City con colecciones sobre el arte y la historia del reino de Benín."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Benin City National Museum",
+          "url": "https://en.wikipedia.org/wiki/Benin_City_National_Museum"
+        }
+      }
     },
     {
       "id": "ng-q5559489",
@@ -155,10 +254,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historic palace in Kano, now a museum of local history.",
+        "en": "Gidan Makama Museum Kano or Kano Museum is a museum in Kano, Nigeria.",
         "es": "Antiguo palacio de Kano, hoy museo de la historia local."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Gidan Makama Museum Kano",
+          "url": "https://en.wikipedia.org/wiki/Gidan_Makama_Museum_Kano"
+        }
+      }
     },
     {
       "id": "ng-q6345759",
@@ -172,10 +282,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "National museum in Kaduna with collections on the history of northern Nigeria.",
+        "en": "Kaduna Museum is a museum in Kaduna, Nigeria.",
         "es": "Museo nacional en Kaduna con colecciones sobre la historia del norte de Nigeria."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kaduna Museum",
+          "url": "https://en.wikipedia.org/wiki/Kaduna_Museum"
+        }
+      }
     }
   ]
 }

@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Stone bridge in Sarajevo, site of the 1914 assassination that began World War I.",
-        "es": "Puente de piedra en Sarajevo, lugar del asesinato de 1914 que inició la Primera Guerra Mundial."
+        "en": "Latin Bridge is an Ottoman-era bridge over the river Miljacka in Sarajevo, Bosnia and Herzegovina.",
+        "es": "El Puente Latino, es un histórico puente otomano sobre el Río Miljacka situado en Sarajevo, Bosnia y Herzegovina."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Latin Bridge",
+          "url": "https://en.wikipedia.org/wiki/Latin_Bridge"
+        },
+        "es": {
+          "title": "Puente Latino",
+          "url": "https://es.wikipedia.org/wiki/Puente_Latino"
+        }
+      }
     },
     {
       "id": "ba-q2880621",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Karst cave with an underground river and rich cave fauna, near Zavala.",
-        "es": "Cueva kárstica con río subterráneo y fauna cavernícola, cerca de Zavala."
+        "en": "Vjetrenica is the largest cave in Bosnia and Herzegovina, and the most biodiverse cave in the world.",
+        "es": "Vjetrenica es la cueva más grande e importante en Bosnia y Herzegovina, y una de las cuevas más interesantes de la cordillera conocida como los Alpes Dináricos, que es mundialmente…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Vjetrenica Cave",
+          "url": "https://en.wikipedia.org/wiki/Vjetrenica_Cave"
+        },
+        "es": {
+          "title": "Vjetrenica",
+          "url": "https://es.wikipedia.org/wiki/Vjetrenica"
+        }
+      }
     },
     {
       "id": "ba-q568938",
@@ -66,10 +102,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Sarajevo with archaeology and natural history collections.",
+        "en": "The National Museum of Bosnia and Herzegovina is located in central Sarajevo, the capital of Bosnia and Herzegovina.",
         "es": "Museo nacional en Sarajevo con colecciones de arqueología e historia natural."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Bosnia and Herzegovina",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Bosnia_and_Herzegovina"
+        }
+      }
     },
     {
       "id": "ba-q28654544",
@@ -83,10 +130,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum about childhood during the 1992–1995 siege of Sarajevo.",
-        "es": "Museo sobre la infancia durante el asedio de Sarajevo (1992–1995)."
+        "en": "The War Childhood Museum is a historical museum in Sarajevo, Bosnia-Herzegovina that opened in January 2017.",
+        "es": "El Museo de la Infancia en Guerra es un museo histórico en Sarajevo, capital de Bosnia y Herzegovina, inaugurado en enero del 2017."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "War Childhood Museum",
+          "url": "https://en.wikipedia.org/wiki/War_Childhood_Museum"
+        },
+        "es": {
+          "title": "Museo de la Infancia en Guerra",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Infancia_en_Guerra"
+        }
+      }
     },
     {
       "id": "ba-q1277723",
@@ -101,10 +163,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Dervish monastery at the foot of a cliff, by the Buna spring near Mostar.",
+        "en": "Blagaj is a historic village and protected heritage site in Bosnia and Herzegovina.",
         "es": "Monasterio derviche al pie de un acantilado, junto al manantial del Buna, cerca de Mostar."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Blagaj, Mostar",
+          "url": "https://en.wikipedia.org/wiki/Blagaj%2C_Mostar"
+        }
+      }
     },
     {
       "id": "ba-q1400323",
@@ -118,10 +191,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Wartime tunnel under the airport, now a museum in Ilidža.",
-        "es": "Túnel de la guerra bajo el aeropuerto, hoy museo en Ilidža."
+        "en": "The Sarajevo Tunnel also known as the Tunnel of Salvation, the Tunnel of Hope, or the Tunnel of Life, was a tunnel constructed between March and June 1993 during the…",
+        "es": "El túnel de Sarajevo es el nombre que recibe un túnel que fue construido entre el 1 de marzo y el 1 de julio de 1993, durante el asedio de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sarajevo Tunnel",
+          "url": "https://en.wikipedia.org/wiki/Sarajevo_Tunnel"
+        },
+        "es": {
+          "title": "Túnel de Sarajevo",
+          "url": "https://es.wikipedia.org/wiki/T%C3%BAnel_de_Sarajevo"
+        }
+      }
     },
     {
       "id": "ba-q2784755",
@@ -135,10 +223,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Modern art museum in Banja Luka.",
-        "es": "Museo de arte moderno en Banja Luka."
+        "en": "The Museum of Modern Art of Republika Srpska is an art museum in Banja Luka, Republika Srpska, Bosnia and Herzegovina.",
+        "es": "El Museo de Arte Contemporáneo de República Srpska es un museo que se encuentra en Banja Luka, la capital de República Srpska, una de las divisiones de Bosnia y Herzegovina."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Modern Art of Republika Srpska",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Modern_Art_of_Republika_Srpska"
+        },
+        "es": {
+          "title": "Museo de arte moderno de la República Srpska",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_arte_moderno_de_la_Rep%C3%BAblica_Srpska"
+        }
+      }
     },
     {
       "id": "ba-q391211",
@@ -152,10 +255,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Narrow-gauge railway with a figure-eight loop on a mountain route.",
+        "en": "The Šargan Eight is a narrow-gauge heritage railway in Serbia, running from the village of Mokra Gora to Šargan Vitasi station.",
         "es": "Ferrocarril de trocha angosta con un bucle en forma de ocho en una ruta de montaña."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Šargan Eight",
+          "url": "https://en.wikipedia.org/wiki/%C5%A0argan_Eight"
+        }
+      }
     }
   ]
 }

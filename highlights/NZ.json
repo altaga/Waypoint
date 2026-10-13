@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "National museum in Wellington covering New Zealand's natural history, art and culture.",
-        "es": "Museo nacional en Wellington sobre la historia natural, el arte y la cultura de Nueva Zelanda."
+        "en": "The Museum of New Zealand Te Papa Tongarewa is New Zealand's national museum and is located in Wellington.",
+        "es": "El Museo de Nueva Zelanda Te Papa Tongarewa, más conocido como Te Papa, es un museo nacional de Nueva Zelanda situado en la ciudad de Wellington."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Te Papa",
+          "url": "https://en.wikipedia.org/wiki/Te_Papa"
+        },
+        "es": {
+          "title": "Museo de Nueva Zelanda Te Papa Tongarewa",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Nueva_Zelanda_Te_Papa_Tongarewa"
+        }
+      }
     },
     {
       "id": "nz-q758657",
@@ -50,10 +71,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum in Auckland's Domain with Māori, Pacific and natural history collections.",
+        "en": "The Auckland War Memorial Museum, also known as Auckland Museum, is one of New Zealand's most important museums and war memorials.",
         "es": "Museo en The Domain de Auckland con colecciones maoríes, del Pacífico e historia natural."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Auckland War Memorial Museum",
+          "url": "https://en.wikipedia.org/wiki/Auckland_War_Memorial_Museum"
+        }
+      }
     },
     {
       "id": "nz-q1033769",
@@ -68,10 +100,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Christchurch covering natural history and the region's past.",
+        "en": "The Canterbury Museum is a museum located in the central city of Christchurch, New Zealand, in the city's Cultural Precinct.",
         "es": "Museo en Christchurch sobre historia natural y el pasado de la región."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Canterbury Museum, Christchurch",
+          "url": "https://en.wikipedia.org/wiki/Canterbury_Museum%2C_Christchurch"
+        }
+      }
     },
     {
       "id": "nz-q4819492",
@@ -85,10 +128,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Public art gallery in central Auckland with New Zealand and international works.",
+        "en": "Auckland Art Gallery is the principal public gallery in Auckland, New Zealand.",
         "es": "Galería de arte pública en el centro de Auckland con obras neozelandesas e internacionales."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Auckland Art Gallery",
+          "url": "https://en.wikipedia.org/wiki/Auckland_Art_Gallery"
+        }
+      }
     },
     {
       "id": "nz-q528852",
@@ -101,10 +155,21 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Roadside fence near Cardrona hung with bras, a popular photo stop.",
+        "en": "The Cardrona Bra Fence is a tourist attraction in Central Otago, New Zealand.",
         "es": "Valla junto a la carretera cerca de Cardrona, cubierta de sostenes, parada popular para fotos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Cardrona Bra Fence",
+          "url": "https://en.wikipedia.org/wiki/Cardrona_Bra_Fence"
+        }
+      }
     },
     {
       "id": "nz-q2665285",
@@ -118,10 +183,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Zoo in Auckland's Western Springs park.",
-        "es": "Zoológico en el parque Western Springs de Auckland."
+        "en": "Auckland Zoo is a 16.35-hectare (40-acre) not-for-profit wildlife conservation organisation that focuses on the wellbeing of people, wildlife and nature.",
+        "es": "El Zoológico de Auckland es un jardín zoológico de 16,35 hectáreas localizado en la ciudad de Auckland, en Nueva Zelanda, situado al lado del parque Western Springs no lejos del…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Auckland Zoo",
+          "url": "https://en.wikipedia.org/wiki/Auckland_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Auckland",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Auckland"
+        }
+      }
     },
     {
       "id": "nz-q5109058",
@@ -135,10 +215,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Public art gallery in Christchurch with New Zealand and international art.",
-        "es": "Galería de arte pública en Christchurch con arte neozelandés e internacional."
+        "en": "The Christchurch Art Gallery is the public art gallery of the city of Christchurch, New Zealand.",
+        "es": "La Galería de Arte de Christchurch Te Puna o Waiwhetū, comúnmente conocida como Galería de Arte de Christchurch, es una galería de arte pública de la ciudad de Christchurch, Nueva…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Christchurch Art Gallery",
+          "url": "https://en.wikipedia.org/wiki/Christchurch_Art_Gallery"
+        },
+        "es": {
+          "title": "Galería de Arte de Christchurch",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_de_Arte_de_Christchurch"
+        }
+      }
     },
     {
       "id": "nz-q7981545",
@@ -152,10 +247,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Zoo in Wellington's Newtown area.",
-        "es": "Zoológico en el barrio de Newtown, en Wellington."
+        "en": "Wellington Zoo is a 13-hectare (32-acre) zoo on a hilly site in the green belt of Wellington, New Zealand.",
+        "es": "El Zoológico de Wellington se encuentra en el cinturón verde de Wellington, en Nueva Zelanda."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Wellington Zoo",
+          "url": "https://en.wikipedia.org/wiki/Wellington_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Wellington",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Wellington"
+        }
+      }
     },
     {
       "id": "nz-q28897",
@@ -169,10 +279,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Aquarium in Auckland with marine life displays.",
-        "es": "Acuario en Auckland con exhibiciones de vida marina."
+        "en": "Kelly Tarlton's Sea Life Aquarium is a public aquarium opened on 25 January 1985 in Auckland, New Zealand.",
+        "es": "El Acuario de vida marina de Kelly Tarlton es un acuario público en Auckland, Nueva Zelanda, que fue inaugurado en 1985."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kelly Tarlton's Sea Life Aquarium",
+          "url": "https://en.wikipedia.org/wiki/Kelly_Tarlton's_Sea_Life_Aquarium"
+        },
+        "es": {
+          "title": "Acuario de vida marina de Kelly Tarlton",
+          "url": "https://es.wikipedia.org/wiki/Acuario_de_vida_marina_de_Kelly_Tarlton"
+        }
+      }
     },
     {
       "id": "nz-q7108347",
@@ -187,10 +312,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Dunedin with natural history and anthropology collections.",
+        "en": "Tūhura Otago Museum, located near the city centre of Dunedin, New Zealand, adjacent to the University of Otago campus, is one of the country's largest museums and a prominent attraction…",
         "es": "Museo en Dunedin con colecciones de historia natural y antropología."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tūhura Otago Museum",
+          "url": "https://en.wikipedia.org/wiki/T%C5%ABhura_Otago_Museum"
+        }
+      }
     },
     {
       "id": "nz-q913886",
@@ -204,10 +340,21 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Predator-fenced ecosanctuary in Wellington with forest walks and native birds.",
+        "en": "Zealandia, formerly known as the Karori Wildlife Sanctuary, is a protected natural area in Wellington, New Zealand, the first urban completely fenced ecosanctuary, where the biodiversity of 225 ha of…",
         "es": "Reserva ecológica vallada en Wellington, con senderos en el bosque y aves nativas."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Zealandia (wildlife sanctuary)",
+          "url": "https://en.wikipedia.org/wiki/Zealandia_(wildlife_sanctuary)"
+        }
+      }
     }
   ]
 }

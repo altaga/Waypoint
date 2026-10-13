@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Zoo in Georgetown.",
-        "es": "Zoológico en Georgetown."
+        "en": "Guyana Zoo is a zoo located in Georgetown, the capital of Guyana.",
+        "es": "El Parque zoológico de Guyana o bien simplemente Zoológico de Guyana es un zoológico ubicado en Georgetown, capital de Guyana."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Guyana Zoo",
+          "url": "https://en.wikipedia.org/wiki/Guyana_Zoo"
+        },
+        "es": {
+          "title": "Parque zoológico de Guyana",
+          "url": "https://es.wikipedia.org/wiki/Parque_zool%C3%B3gico_de_Guyana"
+        }
+      }
     },
     {
       "id": "gy-q2586282",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "National museum in Georgetown with collections on Guyanese history.",
-        "es": "Museo nacional en Georgetown con colecciones sobre la historia de Guyana."
+        "en": "Guyana National Museum is a museum in Georgetown, Demerara-Mahaica, Guyana.",
+        "es": "El Museo nacional de Guyana fue constituido el 13 de febrero de 1868."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Guyana National Museum",
+          "url": "https://en.wikipedia.org/wiki/Guyana_National_Museum"
+        },
+        "es": {
+          "title": "Museo nacional de Guyana",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Guyana"
+        }
+      }
     },
     {
       "id": "gy-q5049685",
@@ -66,10 +102,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Art gallery in Georgetown.",
+        "en": "Castellani House is a large nineteenth-century building in Georgetown, Guyana.",
         "es": "Galería de arte en Georgetown."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Castellani House, Guyana",
+          "url": "https://en.wikipedia.org/wiki/Castellani_House%2C_Guyana"
+        }
+      }
     }
   ]
 }

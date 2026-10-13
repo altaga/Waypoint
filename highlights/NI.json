@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "ni-tourism": {
       "title": "Instituto Nicaragüense de Turismo (INTUR)",
       "url": "https://www.visitanicaragua.com/",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -36,7 +42,11 @@
         "en": "Colorful colonial city on Lake Nicaragua.",
         "es": "Ciudad colonial de colores a orillas del lago Cocibolca."
       },
-      "sourceId": "ni-tourism"
+      "sourceId": "ni-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ni-leon-cathedral",
@@ -54,7 +64,11 @@
         "en": "Largest cathedral in Central America, a UNESCO site.",
         "es": "La catedral más grande de Centroamérica, sitio de la UNESCO."
       },
-      "sourceId": "ni-tourism"
+      "sourceId": "ni-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ni-ometepe",
@@ -70,7 +84,11 @@
         "en": "Island with two volcanoes in Lake Nicaragua.",
         "es": "Isla con dos volcanes en el lago Cocibolca."
       },
-      "sourceId": "ni-tourism"
+      "sourceId": "ni-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ni-masaya-volcano",
@@ -88,7 +106,11 @@
         "es": "Volcán activo con un cráter que se ve desde el borde."
       },
       "sourceId": "ni-tourism",
-      "admission": "Check current volcanic activity advice."
+      "admission": "Check current volcanic activity advice.",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

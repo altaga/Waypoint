@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Oceanographic museum with marine exhibits and aquariums, perched on the cliffs of Monaco-Ville.",
-        "es": "Museo oceanográfico con exposiciones marinas y acuarios, situado sobre los acantilados de Monaco-Ville."
+        "en": "The Oceanographic Museum, is a museum of marine sciences in Monaco City, Monaco.",
+        "es": "El Museo Oceanográfico de Mónaco es un museo de ciencias marinas situado en Monaco-Ville, Mónaco."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Oceanographic Museum of Monaco",
+          "url": "https://en.wikipedia.org/wiki/Oceanographic_Museum_of_Monaco"
+        },
+        "es": {
+          "title": "Museo Oceanográfico de Mónaco",
+          "url": "https://es.wikipedia.org/wiki/Museo_Oceanogr%C3%A1fico_de_M%C3%B3naco"
+        }
+      }
     },
     {
       "id": "mc-q16010845",
@@ -48,10 +69,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Collection of luxury and classic cars on display in Monaco.",
-        "es": "Colección de coches de lujo y clásicos expuestos en Mónaco."
+        "en": "The Exhibition of HSH The Prince of Monaco's Car Collection is an automobile museum in the La Condamine district of Monaco.",
+        "es": "El Museo del Automóvil de Mónaco es un museo del automóvil en el barrio de La Condamine en el principado de Mónaco."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Car Collection of Rainier III, Prince of Monaco",
+          "url": "https://en.wikipedia.org/wiki/Car_Collection_of_Rainier_III%2C_Prince_of_Monaco"
+        },
+        "es": {
+          "title": "Museo del Automóvil de Mónaco",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Autom%C3%B3vil_de_M%C3%B3naco"
+        }
+      }
     },
     {
       "id": "mc-q3330282",
@@ -65,10 +101,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of philately and numismatics, with stamps and coins from Monaco.",
-        "es": "Museo de filatelia y numismática con sellos y monedas de Mónaco."
+        "en": "The Museum of Stamps and Coins is located in the Fontvieille section of Monaco.",
+        "es": "El Museo de Sellos y Monedas de Mónaco es un museo que se encuentra en el sector de Fontvieille una de las subdivisiones del principado de Mónaco."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Stamps and Coins",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Stamps_and_Coins"
+        },
+        "es": {
+          "title": "Museo de Sellos y Monedas de Mónaco",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Sellos_y_Monedas_de_M%C3%B3naco"
+        }
+      }
     },
     {
       "id": "mc-q2264191",
@@ -82,10 +133,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Napoleonic memorabilia, located in Monte Carlo.",
-        "es": "Museo de objetos napoleónicos, ubicado en Montecarlo."
+        "en": "The Napoleon Museum in Monte Carlo, Monaco was a museum of artifacts that once belonged to the French Emperor Napoleon I. The museum, first established in 1968, was located in…",
+        "es": "Museo Napoleónico en Monte Carlo, Mónaco es un museo de objetos que pertenecieron al emperador francés Napoleón I."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Napoleon Museum (Monaco)",
+          "url": "https://en.wikipedia.org/wiki/Napoleon_Museum_(Monaco)"
+        },
+        "es": {
+          "title": "Museo Napoleónico (Mónaco)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Napole%C3%B3nico_(M%C3%B3naco)"
+        }
+      }
     },
     {
       "id": "mc-q3329551",
@@ -99,10 +165,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of prehistoric anthropology, presenting the study of early human life.",
-        "es": "Museo de antropología prehistórica dedicado al estudio de la vida humana temprana."
+        "en": "The Museum of Prehistoric Anthropology is located within the Jardin Exotique de Monaco.",
+        "es": "El Museo de Antropología Prehistórica de Mónaco se encuentra en el Jardín Exótico del principado de Mónaco."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Prehistoric Anthropology",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Prehistoric_Anthropology"
+        },
+        "es": {
+          "title": "Museo de Antropología Prehistórica de Mónaco",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Antropolog%C3%ADa_Prehist%C3%B3rica_de_M%C3%B3naco"
+        }
+      }
     },
     {
       "id": "mc-q3345073",
@@ -116,10 +197,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum presenting the national collections of Monaco.",
-        "es": "Museo que presenta las colecciones nacionales de Mónaco."
+        "en": "The New National Museum of Monaco (NMNM), formerly Musée National de Monaco, is a museum of contemporary visual art in Monaco.",
+        "es": "El Nuevo Museo Nacional de Mónaco a menudo abreviado nmnm) es un museo de arte visual contemporáneo en el principado y nación europea de Mónaco."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "New National Museum of Monaco",
+          "url": "https://en.wikipedia.org/wiki/New_National_Museum_of_Monaco"
+        },
+        "es": {
+          "title": "Nuevo Museo Nacional de Mónaco",
+          "url": "https://es.wikipedia.org/wiki/Nuevo_Museo_Nacional_de_M%C3%B3naco"
+        }
+      }
     }
   ]
 }

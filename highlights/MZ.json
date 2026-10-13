@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,9 +39,20 @@
       "durationMinutes": 60,
       "desc": {
         "en": "Museum of Mozambique's natural history in Maputo.",
-        "es": "Museo de historia natural de Mozambique en Maputo."
+        "es": "El Museo de historia natural de Mozambique Se localiza en la ciudad de Maputo, en Mozambique, fue creado en 1913, como \"Museu Provincial\", y ocupó varios locales hasta establecerse, en…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "curated",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "es": {
+          "title": "Museo de historia natural de Mozambique",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_historia_natural_de_Mozambique"
+        }
+      }
     }
   ]
 }

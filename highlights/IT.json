@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "it-tourism": {
       "title": "ENIT (Italia.it)",
       "url": "https://www.italia.it/en",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -35,7 +41,11 @@
         "en": "Ancient arena and forum. Book entry with the Forum ticket.",
         "es": "Antigua arena y foro. Reserva la entrada junto con el Foro."
       },
-      "sourceId": "it-tourism"
+      "sourceId": "it-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "it-vatican",
@@ -53,7 +63,11 @@
         "en": "Museums and Michelangelo's ceiling. Book timed entry.",
         "es": "Museos y el techo de Miguel Ángel. Reserva horario de entrada."
       },
-      "sourceId": "it-tourism"
+      "sourceId": "it-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "it-trastevere",
@@ -71,7 +85,11 @@
         "en": "Cobbled streets, trattorias and evening piazzas.",
         "es": "Calles empedradas, trattorias y plazas por la noche."
       },
-      "sourceId": "it-tourism"
+      "sourceId": "it-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "it-uffizi",
@@ -88,7 +106,11 @@
         "en": "Renaissance painting, including Botticelli and Leonardo.",
         "es": "Pintura renacentista, con Botticelli y Leonardo."
       },
-      "sourceId": "it-tourism"
+      "sourceId": "it-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "it-duomo",
@@ -105,7 +127,11 @@
         "en": "Brunelleschi's dome and the Giotto bell tower.",
         "es": "La cúpula de Brunelleschi y el campanario de Giotto."
       },
-      "sourceId": "it-tourism"
+      "sourceId": "it-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "it-rialto",
@@ -122,7 +148,11 @@
         "en": "Fish and produce market by the Grand Canal.",
         "es": "Mercado de pescado y productos junto al Gran Canal."
       },
-      "sourceId": "it-tourism"
+      "sourceId": "it-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "it-st-marks",
@@ -139,7 +169,11 @@
         "en": "Byzantine basilica on the main square.",
         "es": "Basílica bizantina en la plaza principal."
       },
-      "sourceId": "it-tourism"
+      "sourceId": "it-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "it-amalfi",
@@ -157,7 +191,11 @@
         "en": "Cliffside villages and coastal drives. Plan travel by ferry or bus.",
         "es": "Pueblos en acantilados y carreteras costeras. Planea con ferry o autobús."
       },
-      "sourceId": "it-tourism"
+      "sourceId": "it-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

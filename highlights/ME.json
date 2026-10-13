@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in the historic royal capital of Cetinje.",
-        "es": "Museo nacional en la histórica antigua capital real de Cetinje."
+        "en": "The National Museum of Montenegro is the largest museum in Montenegro.",
+        "es": "Museo Nacional de Montenegro se encuentra en Cetiña, capital histórica del país europeo de Montenegro."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Montenegro",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Montenegro"
+        },
+        "es": {
+          "title": "Museo Nacional de Montenegro",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Montenegro"
+        }
+      }
     },
     {
       "id": "me-q16258342",
@@ -49,10 +70,21 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Historic building in Ulcinj that has served as both a church and a mosque.",
+        "en": "The Church-Mosque of Ulcinj, also called Imperial Mosque, Halil Skura Mosque, Kalaja Mosque or Church of St. Maria is a former church and mosque located in Ulcinj, Montenegro.",
         "es": "Edificio histórico de Ulcinj que ha funcionado como iglesia y como mezquita."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Church-Mosque of Ulcinj",
+          "url": "https://en.wikipedia.org/wiki/Church-Mosque_of_Ulcinj"
+        }
+      }
     },
     {
       "id": "me-q23808470",
@@ -66,11 +98,22 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Show cave with stalactites and galleries, near Cetinje.",
+        "en": "Lipa Cave is a karst cave situated close to Cetinje, Montenegro.",
         "es": "Cueva turística con estalactitas y galerías, cerca de Cetinje."
       },
       "sourceId": "wikidata",
-      "admission": "Visits are by guided tour."
+      "admission": "Visits are by guided tour.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Lipa Cave",
+          "url": "https://en.wikipedia.org/wiki/Lipa_Cave"
+        }
+      }
     }
   ]
 }

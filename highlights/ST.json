@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Água Grande with collections on São Tomé's history.",
-        "es": "Museo en Água Grande con colecciones sobre la historia de Santo Tomé."
+        "en": "São Sebastião Museum is a museum, housed in a 16th-century fortress in the city of São Tomé, São Tomé and Príncipe.",
+        "es": "El Fuerte de San Sebastián o Museo nacional de Santo Tome y Príncipe es un museo y fortaleza en el país africano e insular de Santo Tomé y Príncipe."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "São Sebastião Museum",
+          "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Sebasti%C3%A3o_Museum"
+        },
+        "es": {
+          "title": "Fuerte de São Sebastião",
+          "url": "https://es.wikipedia.org/wiki/Fuerte_de_S%C3%A3o_Sebasti%C3%A3o"
+        }
+      }
     }
   ]
 }

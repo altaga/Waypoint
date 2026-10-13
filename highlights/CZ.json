@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Spa town in western Bohemia with colonnades and historic spa buildings.",
-        "es": "Ciudad balneario en el oeste de Bohemia, con colonnadas y edificios termales históricos."
+        "en": "Mariánské Lázně is a spa town in Cheb District in the Karlovy Vary Region of the Czech Republic.",
+        "es": "Mariánské Lázně es una ciudad situada en el distrito de Cheb, en la región de Karlovy Vary, República Checa."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mariánské Lázně",
+          "url": "https://en.wikipedia.org/wiki/Mari%C3%A1nsk%C3%A9_L%C3%A1zn%C4%9B"
+        },
+        "es": {
+          "title": "Mariánské Lázně",
+          "url": "https://es.wikipedia.org/wiki/Mari%C3%A1nsk%C3%A9_L%C3%A1zn%C4%9B"
+        }
+      }
     },
     {
       "id": "cz-q1419555",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National art gallery in Prague with Czech and European collections.",
-        "es": "Galería nacional de arte en Praga con colecciones checas y europeas."
+        "en": "The National Gallery Prague, formerly the National Gallery in Prague, is a state-owned art gallery in Prague, which manages the largest collection of art in the Czech Republic and presents…",
+        "es": "La Galería Nacional de Praga es un museo nacional ubicado en cinco edificios de Praga, y posee la mayor colección de arte de la República Checa."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Gallery Prague",
+          "url": "https://en.wikipedia.org/wiki/National_Gallery_Prague"
+        },
+        "es": {
+          "title": "Galería Nacional de Praga",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Praga"
+        }
+      }
     },
     {
       "id": "cz-q1413217",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Television tower in Prague's Žižkov district, with an observation deck.",
-        "es": "Torre de televisión en el distrito de Žižkov, en Praga, con mirador."
+        "en": "The Žižkov Television Tower is a transmitter tower built in Prague between 1985 and 1992.",
+        "es": "La Torre de televisión de Žižkov es una singular torre de radiodifusión construida en Praga, República Checa entre 1985 y 1992."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Žižkov Television Tower",
+          "url": "https://en.wikipedia.org/wiki/%C5%BDi%C5%BEkov_Television_Tower"
+        },
+        "es": {
+          "title": "Torre de televisión de Žižkov",
+          "url": "https://es.wikipedia.org/wiki/Torre_de_televisi%C3%B3n_de_%C5%BDi%C5%BEkov"
+        }
+      }
     },
     {
       "id": "cz-q1488700",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Gothic gate tower in Prague's Old Town.",
-        "es": "Torre gótica de puerta urbana en el casco antiguo de Praga."
+        "en": "The Powder Tower or Powder Gate is a Gothic tower in Prague, Czech Republic.",
+        "es": "La torre de la Pólvora o puerta de la Pólvora es una torre gótica situada en Praga, República Checa."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Powder Tower, Prague",
+          "url": "https://en.wikipedia.org/wiki/Powder_Tower%2C_Prague"
+        },
+        "es": {
+          "title": "Torre de la Pólvora (Praga)",
+          "url": "https://es.wikipedia.org/wiki/Torre_de_la_P%C3%B3lvora_(Praga)"
+        }
+      }
     },
     {
       "id": "cz-q220086",
@@ -100,10 +166,25 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Zoo in Troja, Prague, with a large collection of animal species.",
-        "es": "Zoológico en Troja, Praga, con una amplia colección de especies animales."
+        "en": "Prague Zoological Garden is a zoo in Prague, Czech Republic.",
+        "es": "El Jardín zoológico de Praga es un zoológico en Praga, capital de la República Checa."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Prague Zoo",
+          "url": "https://en.wikipedia.org/wiki/Prague_Zoo"
+        },
+        "es": {
+          "title": "Jardín zoológico de Praga",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_de_Praga"
+        }
+      }
     },
     {
       "id": "cz-q2332231",
@@ -118,10 +199,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Gothic town hall on Prague's Old Town Square, with its astronomical clock.",
-        "es": "Ayuntamiento gótico en la plaza de la Ciudad Vieja de Praga, con su reloj astronómico."
+        "en": "The Old Town Hall in Prague, the capital of the Czech Republic, is one of the city's most visited monuments.",
+        "es": "El Ayuntamiento de la Ciudad Vieja era el ayuntamiento de la ciudad vieja de Praga."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Old Town Hall (Prague)",
+          "url": "https://en.wikipedia.org/wiki/Old_Town_Hall_(Prague)"
+        },
+        "es": {
+          "title": "Ayuntamiento de la ciudad vieja (Praga)",
+          "url": "https://es.wikipedia.org/wiki/Ayuntamiento_de_la_ciudad_vieja_(Praga)"
+        }
+      }
     }
   ]
 }

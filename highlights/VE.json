@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Fine arts museum in Caracas.",
-        "es": "Museo de bellas artes en Caracas."
+        "en": "The Museum of Fine Arts is an art museum in Caracas, Venezuela.",
+        "es": "El Museo de Bellas Artes de Caracas es el museo de artes plásticas más antiguo y uno de los más importantes de Venezuela."
       },
       "sourceId": "wikidata",
-      "admission": "Security conditions change quickly; check current official travel advice first."
+      "admission": "Security conditions change quickly; check current official travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo de Bellas Artes (Caracas)",
+          "url": "https://en.wikipedia.org/wiki/Museo_de_Bellas_Artes_(Caracas)"
+        },
+        "es": {
+          "title": "Museo de Bellas Artes de Caracas",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Bellas_Artes_de_Caracas"
+        }
+      }
     },
     {
       "id": "ve-q212281",
@@ -50,11 +71,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National art gallery in Caracas.",
-        "es": "Galería nacional de arte en Caracas."
+        "en": "The National Art Gallery also known as Gallery of National Art is located in the Plaza Morelos area of Caracas, Venezuela.",
+        "es": "La Galería de Arte Nacional (GAN) es un museo de arte dedicado a la exhibición y preservación de obras de Venezuela."
       },
       "sourceId": "wikidata",
-      "admission": "Security conditions change quickly; check current official travel advice first."
+      "admission": "Security conditions change quickly; check current official travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Art Gallery (Caracas)",
+          "url": "https://en.wikipedia.org/wiki/National_Art_Gallery_(Caracas)"
+        },
+        "es": {
+          "title": "Galería de Arte Nacional (Caracas)",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_de_Arte_Nacional_(Caracas)"
+        }
+      }
     },
     {
       "id": "ve-q2184071",
@@ -68,11 +104,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Contemporary art museum in Caracas.",
-        "es": "Museo de arte contemporáneo en Caracas."
+        "en": "Caracas Museum of Contemporary Art Armando Reverón, also known simply as the Caracas Museum of Contemporary Art, is a museum of modern and contemporary art located in the Parque Central…",
+        "es": "El Museo de Arte Contemporáneo de Caracas Armando Reverón, anteriormente conocido como Museo de Arte Contemporáneo de Caracas Sofía Ímber, es un museo de arte moderno situado en el Complejo…"
       },
       "sourceId": "wikidata",
-      "admission": "Security conditions change quickly; check current official travel advice first."
+      "admission": "Security conditions change quickly; check current official travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Caracas Museum of Contemporary Art",
+          "url": "https://en.wikipedia.org/wiki/Caracas_Museum_of_Contemporary_Art"
+        },
+        "es": {
+          "title": "Museo de Arte Contemporáneo de Caracas",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Contempor%C3%A1neo_de_Caracas"
+        }
+      }
     },
     {
       "id": "ve-q6033185",
@@ -86,11 +137,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum dedicated to Simón Bolívar in Caracas.",
-        "es": "Museo dedicado a Simón Bolívar, en Caracas."
+        "en": "The Bolivarian Museum is dedicated to Simón Bolívar, the hero of Latin American independence.",
+        "es": "El Museo Bolivariano es un museo fundado en 1911 dedicado a la exhibición permanente de piezas de la historia de Venezuela."
       },
       "sourceId": "wikidata",
-      "admission": "Security conditions change quickly; check current official travel advice first."
+      "admission": "Security conditions change quickly; check current official travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bolivarian Museum",
+          "url": "https://en.wikipedia.org/wiki/Bolivarian_Museum"
+        },
+        "es": {
+          "title": "Museo Bolivariano",
+          "url": "https://es.wikipedia.org/wiki/Museo_Bolivariano"
+        }
+      }
     },
     {
       "id": "ve-q6188666",
@@ -104,11 +170,26 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Modern art museum in Ciudad Bolívar, dedicated to Jesús Soto.",
-        "es": "Museo de arte moderno en Ciudad Bolívar, dedicado a Jesús Soto."
+        "en": "The Jesús Soto Museum of Modern Art is a museum of modern art in Ciudad Bolívar, Venezuela.",
+        "es": "El Museo de Arte Moderno Jesús Soto de Ciudad Bolívar, Venezuela, se encuentra ubicado en la avenida Germania entre la ciudad histórica y la ciudad nueva."
       },
       "sourceId": "wikidata",
-      "admission": "Security conditions change quickly; check current official travel advice first."
+      "admission": "Security conditions change quickly; check current official travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Jesús Soto Museum of Modern Art",
+          "url": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Soto_Museum_of_Modern_Art"
+        },
+        "es": {
+          "title": "Museo de Arte Moderno Jesús Soto",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Moderno_Jes%C3%BAs_Soto"
+        }
+      }
     },
     {
       "id": "ve-q2920273",
@@ -123,11 +204,26 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Historic synagogue in the colonial city of Coro.",
-        "es": "Antigua sinagoga en la ciudad colonial de Coro."
+        "en": "The Coro Synagogue, is a former Jewish synagogue, now museum, located on Talavera Street, in the city of Santa Ana de Coro, Falcón, Venezuela, a city located near the Caribbean…",
+        "es": "La sinagoga de Coro es una sinagoga ubicada en la ciudad de Coro, Estado Falcón, Venezuela, cercana a la ribera del mar Caribe y de la isla holandesa de Curazao;…"
       },
       "sourceId": "wikidata",
-      "admission": "Security conditions change quickly; check current official travel advice first."
+      "admission": "Security conditions change quickly; check current official travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Coro Synagogue",
+          "url": "https://en.wikipedia.org/wiki/Coro_Synagogue"
+        },
+        "es": {
+          "title": "Sinagoga de Coro",
+          "url": "https://es.wikipedia.org/wiki/Sinagoga_de_Coro"
+        }
+      }
     },
     {
       "id": "ve-q7139676",
@@ -141,11 +237,26 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo in the Caricuao parish of Caracas.",
-        "es": "Zoológico en la parroquia Caricuao de Caracas."
+        "en": "Parque Zoológico Caricuao is a zoo in Caracas, Venezuela in the Parish of Caricuao located in the southwest region of the city.",
+        "es": "Parque Zoológico Caricuao es un zoológico de Caracas, Venezuela ubicado en la Parroquia Caricuao al suroeste de la capital."
       },
       "sourceId": "wikidata",
-      "admission": "Security conditions change quickly; check current official travel advice first."
+      "admission": "Security conditions change quickly; check current official travel advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Caricuao Zoo",
+          "url": "https://en.wikipedia.org/wiki/Caricuao_Zoo"
+        },
+        "es": {
+          "title": "Parque Zoológico Caricuao",
+          "url": "https://es.wikipedia.org/wiki/Parque_Zool%C3%B3gico_Caricuao"
+        }
+      }
     }
   ]
 }

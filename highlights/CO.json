@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Archaeological park with pre-Columbian underground tombs and painted chambers.",
-        "es": "Parque arqueológico con tumbas precolombinas subterráneas y cámaras pintadas."
+        "en": "Tierradentro is one of the ancient Pre-Columbian cultures of Colombia.",
+        "es": "El Parque Arqueológico Nacional de Tierradentro es una reserva arqueológica de Colombia, declarada Patrimonio de la Humanidad por la Unesco en 1995, por ser un importante reservorio de la cultura…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tierradentro",
+          "url": "https://en.wikipedia.org/wiki/Tierradentro"
+        },
+        "es": {
+          "title": "Parque Arqueológico Nacional de Tierradentro",
+          "url": "https://es.wikipedia.org/wiki/Parque_Arqueol%C3%B3gico_Nacional_de_Tierradentro"
+        }
+      }
     },
     {
       "id": "co-q2887224",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Archaeological park with monumental stone statues and burial mounds.",
-        "es": "Parque arqueológico con estatuas monumentales de piedra y túmulos funerarios."
+        "en": "The San Agustín Archaeological Park is a large archaeological area located near the town of San Agustín in Huila Department in Colombia.",
+        "es": "El parque arqueológico de San Agustín es uno de los más importantes espacios arqueológicos de Colombia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "San Agustín Archaeological Park",
+          "url": "https://en.wikipedia.org/wiki/San_Agust%C3%ADn_Archaeological_Park"
+        },
+        "es": {
+          "title": "Parque arqueológico de San Agustín",
+          "url": "https://es.wikipedia.org/wiki/Parque_arqueol%C3%B3gico_de_San_Agust%C3%ADn"
+        }
+      }
     },
     {
       "id": "co-q1109031",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum in Bogotá with a large collection of pre-Columbian gold objects.",
-        "es": "Museo en Bogotá con una gran colección de objetos precolombinos de oro."
+        "en": "The Museum of Gold is an archaeology museum located in Bogotá, Colombia.",
+        "es": "El Museo del Oro del Banco de la República de Colombia es una institución pública la cual tiene como principal objetivo la adquisición, conservación y exposición de piezas de orfebrería…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Gold Museum, Bogotá",
+          "url": "https://en.wikipedia.org/wiki/Gold_Museum%2C_Bogot%C3%A1"
+        },
+        "es": {
+          "title": "Museo del Oro",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Oro"
+        }
+      }
     },
     {
       "id": "co-q2565876",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Underground cathedral carved into a salt mine, north of Bogotá.",
-        "es": "Catedral subterránea excavada en una mina de sal, al norte de Bogotá."
+        "en": "The Salt Cathedral of Zipaquirá is an underground Roman Catholic church built within the tunnels of a salt mine 200 metres (660 ft) underground in a halite mountain near the…",
+        "es": "La Catedral de la Sal es un recinto construido en el interior de las minas de sal de Zipaquirá, en el departamento de Cundinamarca, Colombia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Salt Cathedral of Zipaquirá",
+          "url": "https://en.wikipedia.org/wiki/Salt_Cathedral_of_Zipaquir%C3%A1"
+        },
+        "es": {
+          "title": "Catedral de Sal",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Sal"
+        }
+      }
     },
     {
       "id": "co-q671264",
@@ -101,10 +167,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum in Bogotá on Colombian history, in a former prison.",
-        "es": "Museo nacional en Bogotá sobre la historia de Colombia, en un antiguo penal."
+        "en": "The National Museum of Colombia is the National Museum of Colombia housing collections on its history, art, culture.",
+        "es": "El Museo Nacional de Colombia, comúnmente abreviado como Museo Nacional o MNC, es el primer museo fundado en Colombia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Colombia",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Colombia"
+        },
+        "es": {
+          "title": "Museo Nacional de Colombia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Colombia"
+        }
+      }
     },
     {
       "id": "co-q3329100",
@@ -118,10 +199,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Bogotá with works by Fernando Botero and other artists.",
-        "es": "Museo en Bogotá con obras de Fernando Botero y de otros artistas."
+        "en": "The Museo Botero, also known as the Botero Museum, is an art museum located in La Candelaria neighborhood of Bogotá, Colombia.",
+        "es": "El Museo Botero está situado en La Candelaria, el centro histórico y cultural de Bogotá (Colombia)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo Botero",
+          "url": "https://en.wikipedia.org/wiki/Museo_Botero"
+        },
+        "es": {
+          "title": "Museo Botero",
+          "url": "https://es.wikipedia.org/wiki/Museo_Botero"
+        }
+      }
     },
     {
       "id": "co-q640718",
@@ -135,10 +231,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Modern art museum in Bogotá with Colombian and international works.",
-        "es": "Museo de arte moderno en Bogotá con obras colombianas e internacionales."
+        "en": "The Bogotá Museum of Modern Art is a museum of modern art located in Bogotá, Colombia.",
+        "es": "El Museo de Arte Moderno de Bogotá, también conocido como MAMBO, es una de las principales instituciones culturales y artísticas de Colombia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bogotá Museum of Modern Art",
+          "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1_Museum_of_Modern_Art"
+        },
+        "es": {
+          "title": "Museo de Arte Moderno de Bogotá",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Moderno_de_Bogot%C3%A1"
+        }
+      }
     }
   ]
 }

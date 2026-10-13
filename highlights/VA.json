@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,11 +39,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Major basilica in Vatican City, with contributions by Michelangelo.",
-        "es": "Gran basílica en la Ciudad del Vaticano, con aportes de Miguel Ángel."
+        "en": "The Papal Basilica of Saint Peter in the Vatican, or simply St. Peter's Basilica, is a church of the Italian Renaissance located in Vatican City, an independent microstate enclaved within…",
+        "es": "La basílica papal de San Pedro, conocida comúnmente como basílica de San Pedro, es un templo católico situado en la Ciudad del Vaticano."
       },
       "sourceId": "wikidata",
-      "admission": "Free entry; security checks and dress code apply."
+      "admission": "Free entry; security checks and dress code apply.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "St. Peter's Basilica",
+          "url": "https://en.wikipedia.org/wiki/St._Peter's_Basilica"
+        },
+        "es": {
+          "title": "Basílica de San Pedro",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_San_Pedro"
+        }
+      }
     },
     {
       "id": "va-q182955",
@@ -52,11 +73,26 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Museum complex with the Sistine Chapel and many collections.",
-        "es": "Complejo de museos con la Capilla Sixtina y numerosas colecciones."
+        "en": "The Vatican Museums are the public museums of the Vatican City.",
+        "es": "Los Museos Vaticanos son un conjunto de galerías y estancias de gran valor artístico, propiedad de la Iglesia y abiertas al público en la Ciudad del Vaticano."
       },
       "sourceId": "wikidata",
-      "admission": "Timed tickets; book ahead online."
+      "admission": "Timed tickets; book ahead online.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Vatican Museums",
+          "url": "https://en.wikipedia.org/wiki/Vatican_Museums"
+        },
+        "es": {
+          "title": "Museos Vaticanos",
+          "url": "https://es.wikipedia.org/wiki/Museos_Vaticanos"
+        }
+      }
     },
     {
       "id": "va-q498557",
@@ -71,10 +107,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Frescoed apartment inside the Vatican Museums.",
-        "es": "Apartamento con frescos dentro de los Museos Vaticanos."
+        "en": "The Borgia Apartments are a suite of rooms in the Apostolic Palace in the Vatican, adapted for personal use by Pope Alexander VI.",
+        "es": "Los Apartamentos Borgia o Aposentos Borgia son un conjunto de seis salas en el Palacio Apostólico Vaticano, que a fines del siglo XV fueron destinadas por el papa Alejandro VI…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Borgia Apartments",
+          "url": "https://en.wikipedia.org/wiki/Borgia_Apartments"
+        },
+        "es": {
+          "title": "Apartamentos Borgia",
+          "url": "https://es.wikipedia.org/wiki/Apartamentos_Borgia"
+        }
+      }
     },
     {
       "id": "va-q774940",
@@ -89,9 +140,20 @@
       "durationMinutes": 60,
       "desc": {
         "en": "Vatican picture gallery of old master paintings.",
-        "es": "Galería vaticana de pinturas de maestros antiguos."
+        "es": "La Pinacoteca Vaticana es una galería de pinturas que forma parte de los Museos Vaticanos, situada en la Ciudad del Vaticano."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "curated",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "es": {
+          "title": "Pinacoteca Vaticana",
+          "url": "https://es.wikipedia.org/wiki/Pinacoteca_Vaticana"
+        }
+      }
     },
     {
       "id": "va-q634691",
@@ -106,10 +168,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Long gallery with painted maps of Italy, inside the Vatican Museums.",
-        "es": "Galería larga con mapas pintados de Italia, dentro de los Museos Vaticanos."
+        "en": "The Gallery of Maps is a gallery located on the west side of the Belvedere Courtyard in the Vatican containing a series of painted topographical maps of Italy based on…",
+        "es": "La Galería de los Mapas es una galería situada en el lado oeste del patio del Belvedere en la Ciudad del Vaticano que contiene una serie de mapas topográficos pintados…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Vatican Gallery of Maps",
+          "url": "https://en.wikipedia.org/wiki/Vatican_Gallery_of_Maps"
+        },
+        "es": {
+          "title": "Galería de los Mapas",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_de_los_Mapas"
+        }
+      }
     },
     {
       "id": "va-q1439912",
@@ -127,7 +204,14 @@
         "en": "Museum of classical sculpture in the Vatican Museums.",
         "es": "Museo de escultura clásica dentro de los Museos Vaticanos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13"
+      }
     },
     {
       "id": "va-q1452731",
@@ -141,10 +225,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of papal history, with carriages and uniforms.",
+        "en": "The Vatican Historical Museum is one of the sections of the Vatican Museums.",
         "es": "Museo de la historia papal, con carrozas y uniformes."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Vatican Historical Museum",
+          "url": "https://en.wikipedia.org/wiki/Vatican_Historical_Museum"
+        }
+      }
     },
     {
       "id": "va-q1452723",
@@ -161,7 +256,14 @@
         "en": "Gallery of Roman sculpture in the Vatican Museums.",
         "es": "Galería de escultura romana dentro de los Museos Vaticanos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13"
+      }
     },
     {
       "id": "va-q2034945",
@@ -175,10 +277,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Collection of modern religious art in the Vatican Museums.",
-        "es": "Colección de arte religioso moderno dentro de los Museos Vaticanos."
+        "en": "The Collection of Modern and Contemporary Art is a collection of paintings, graphic art and sculptures in the Vatican Museums.",
+        "es": "La Colección de Arte Religioso Moderno de los Museos Vaticanos es una colección de pintura, gráfica y escultura expuesta en 55 salas."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Collection of Modern and Contemporary Art, Vatican Museums",
+          "url": "https://en.wikipedia.org/wiki/Collection_of_Modern_and_Contemporary_Art%2C_Vatican_Museums"
+        },
+        "es": {
+          "title": "Colección de Arte Religioso Moderno",
+          "url": "https://es.wikipedia.org/wiki/Colecci%C3%B3n_de_Arte_Religioso_Moderno"
+        }
+      }
     }
   ]
 }

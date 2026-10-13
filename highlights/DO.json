@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "16th-century palace in Santo Domingo's colonial zone, now a museum.",
-        "es": "Palacio del siglo XVI en la zona colonial de Santo Domingo, hoy museo."
+        "en": "The Alcázar de Colón is the first fortified European palace built in the Americas.",
+        "es": "El Alcázar de Colón o Palacio Virreinal de Don Diego Colón es un palacio de inicios del siglo XVI, ubicado en la Plaza de España en la Ciudad Colonial de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Alcázar de Colón",
+          "url": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_de_Col%C3%B3n"
+        },
+        "es": {
+          "title": "Alcázar de Colón",
+          "url": "https://es.wikipedia.org/wiki/Alc%C3%A1zar_de_Col%C3%B3n"
+        }
+      }
     },
     {
       "id": "do-q5472510",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Colonial-era fort on the north coast, in Puerto Plata.",
-        "es": "Fortaleza de la época colonial en la costa norte, en Puerto Plata."
+        "en": "The Fortaleza San Felipe is a historic Spanish fort located in the north of the Dominican Republic in the province of Puerto Plata.",
+        "es": "La Fortaleza de San Felipe es una antigua construcción militar del Imperio español, ubicada en el norte de la isla de La Española, en la provincia de Puerto Plata, República…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Fortaleza San Felipe",
+          "url": "https://en.wikipedia.org/wiki/Fortaleza_San_Felipe"
+        },
+        "es": {
+          "title": "Fortaleza de San Felipe",
+          "url": "https://es.wikipedia.org/wiki/Fortaleza_de_San_Felipe"
+        }
+      }
     },
     {
       "id": "do-q13619956",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Santo Domingo on the resistance to the Trujillo dictatorship.",
-        "es": "Museo en Santo Domingo sobre la resistencia contra la dictadura de Trujillo."
+        "en": "The Memorial Museum of Dominican Resistance is a museum dedicated to the preservation of the history regarding the struggles of several generations of Dominicans during the dictatorship of Rafael L.…",
+        "es": "El Museo Memorial de la Resistencia Dominicana es una institución dedicada al rescate de la memoria histórica, correspondiente a las luchas de varias generaciones de dominicanos y dominicanas durante la…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Memorial Museum of Dominican Resistance",
+          "url": "https://en.wikipedia.org/wiki/Memorial_Museum_of_Dominican_Resistance"
+        },
+        "es": {
+          "title": "Museo Memorial de la Resistencia Dominicana",
+          "url": "https://es.wikipedia.org/wiki/Museo_Memorial_de_la_Resistencia_Dominicana"
+        }
+      }
     }
   ]
 }

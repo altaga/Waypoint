@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum covering Brunei's history and culture.",
-        "es": "Museo nacional sobre la historia y la cultura de Brunéi."
+        "en": "Brunei Museum, the country's largest and most significant national museum, is located in Kota Batu, Bandar Seri Begawan.",
+        "es": "El Museo de Brunéi es el museo nacional del país asiático de Brunéi."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Brunei Museum",
+          "url": "https://en.wikipedia.org/wiki/Brunei_Museum"
+        },
+        "es": {
+          "title": "Museo de Brunéi",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Brun%C3%A9i"
+        }
+      }
     },
     {
       "id": "bn-q21787576",
@@ -49,10 +70,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of royal regalia and state gifts, in Bandar Seri Begawan.",
+        "en": "The Royal Regalia Museum is a museum located in the heart of Bandar Seri Begawan, the capital of Brunei.",
         "es": "Museo de insignias reales y regalos de Estado, en Bandar Seri Begawan."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Royal Regalia Museum",
+          "url": "https://en.wikipedia.org/wiki/Royal_Regalia_Museum"
+        }
+      }
     },
     {
       "id": "bn-q28446976",
@@ -66,10 +98,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Maritime museum in Kampong Kota Batu.",
+        "en": "The Brunei Darussalam Maritime Museum is a museum located at Kota Batu, Brunei.",
         "es": "Museo marítimo en Kampong Kota Batu."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Brunei Darussalam Maritime Museum",
+          "url": "https://en.wikipedia.org/wiki/Brunei_Darussalam_Maritime_Museum"
+        }
+      }
     },
     {
       "id": "bn-q2755110",
@@ -83,10 +126,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of traditional Malay crafts and technology in Bandar Seri Begawan.",
-        "es": "Museo de artesanía y tecnología malayas tradicionales en Bandar Seri Begawan."
+        "en": "The Malay Technology Museum is a museum in Kota Batu of Bandar Seri Begawan, Brunei.",
+        "es": "El Museo de tecnología Malaya se encuentra en Kota Batu, en la ciudad capital de Bandar Seri Begawan, Distrito de Brunéi-Muara, en el país asiático de Brunéi."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Malay Technology Museum",
+          "url": "https://en.wikipedia.org/wiki/Malay_Technology_Museum"
+        },
+        "es": {
+          "title": "Museo de tecnología Malaya",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_tecnolog%C3%ADa_Malaya"
+        }
+      }
     },
     {
       "id": "bn-q27964110",
@@ -100,10 +158,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on the history of Belait district.",
+        "en": "Belait District Museum is a cultural and history museum located at Jalan Maulana, Kuala Belait, Belait District of Brunei.",
         "es": "Museo sobre la historia del distrito de Belait."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Belait District Museum",
+          "url": "https://en.wikipedia.org/wiki/Belait_District_Museum"
+        }
+      }
     }
   ]
 }

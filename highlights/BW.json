@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Gaborone covering the country's history and culture.",
-        "es": "Museo nacional en Gaborone sobre la historia y la cultura del país."
+        "en": "The Botswana National Museum, also known as the National Museum and Art Gallery, is located in the Botswana capital of Gaborone and is a multi-disciplinary institution that includes the National…",
+        "es": "El Museo nacional de Botsuana es un museo que está ubicado en la capital del país africano de Botsuana, la ciudad de Gaborone."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Botswana National Museum",
+          "url": "https://en.wikipedia.org/wiki/Botswana_National_Museum"
+        },
+        "es": {
+          "title": "Museo nacional de Botsuana",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Botsuana"
+        }
+      }
     },
     {
       "id": "bw-q615930",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Mochudi showing local heritage, crafts and village history.",
-        "es": "Museo en Mochudi con patrimonio local, artesanía e historia de la aldea."
+        "en": "The Phuthadikobo Museum is a historic building of architectural interest and the museum has a range of displays, a craft shop and a silkscreen printing workshop which are unique to…",
+        "es": "El museo de Phuthadikobo es un museo en la ciudad de Mochudi, Botsuana."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Phuthadikobo Museum",
+          "url": "https://en.wikipedia.org/wiki/Phuthadikobo_Museum"
+        },
+        "es": {
+          "title": "Museo de Phuthadikobo",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Phuthadikobo"
+        }
+      }
     },
     {
       "id": "bw-q3504025",
@@ -66,10 +102,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Francistown showing regional history and cultural heritage.",
+        "en": "The Supa Ngwao Museum is located in the Francistown city in Botswana.",
         "es": "Museo en Francistown sobre la historia regional y el patrimonio cultural."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Supa Ngwao Museum",
+          "url": "https://en.wikipedia.org/wiki/Supa_Ngwao_Museum"
+        }
+      }
     }
   ]
 }

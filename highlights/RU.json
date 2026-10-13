@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,11 +39,26 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Fortified complex in central Moscow with cathedrals, palaces and museums.",
-        "es": "Complejo fortificado en el centro de Moscú, con catedrales, palacios y museos."
+        "en": "The Moscow Kremlin, commonly known as the Kremlin, is a fortified complex (kremlin) in Moscow, Russia.",
+        "es": "El Kremlin de Moscú, también designado por antonomasia como el Kremlin, es un complejo fortificado de Moscú (Rusia)."
       },
       "sourceId": "wikidata",
-      "admission": "Check current entry rules and your government's travel advice before going."
+      "admission": "Check current entry rules and your government's travel advice before going.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kremlin",
+          "url": "https://en.wikipedia.org/wiki/Kremlin"
+        },
+        "es": {
+          "title": "Kremlin de Moscú",
+          "url": "https://es.wikipedia.org/wiki/Kremlin_de_Mosc%C3%BA"
+        }
+      }
     },
     {
       "id": "ru-q132783",
@@ -52,10 +73,25 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Major art museum in Saint Petersburg, housed in the Winter Palace.",
-        "es": "Gran museo de arte en San Petersburgo, instalado en el Palacio de Invierno."
+        "en": "The State Hermitage Museum is a museum of art and culture in Saint Petersburg, Russia, and holds the largest collection of paintings in the world.",
+        "es": "El Museo del Hermitage de San Petersburgo, Rusia, es una de las mayores pinacotecas y museos de antigüedades del mundo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Hermitage Museum",
+          "url": "https://en.wikipedia.org/wiki/Hermitage_Museum"
+        },
+        "es": {
+          "title": "Museo del Hermitage",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Hermitage"
+        }
+      }
     },
     {
       "id": "ru-q129846",
@@ -70,10 +106,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Colourful 16th-century cathedral on Red Square in Moscow.",
-        "es": "Catedral de colores vivos del siglo XVI en la Plaza Roja de Moscú."
+        "en": "The Cathedral of Vasily the Blessed, commonly known as Saint Basil's Cathedral, is a Russian Orthodox church on Red Square in the historic centre of Moscow.",
+        "es": "El Templo de la Intercesión de la Santísima Virgen sobre el foso, más conocida como Templo de San Basilio, es un templo ortodoxo localizado en la Plaza Roja de la…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Saint Basil's Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Saint_Basil's_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de San Basilio",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Basilio"
+        }
+      }
     },
     {
       "id": "ru-q191414",
@@ -87,10 +138,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Mausoleum on Red Square housing the embalmed body of Vladimir Lenin.",
-        "es": "Mausoleo en la Plaza Roja que alberga el cuerpo embalsamado de Vladímir Lenin."
+        "en": "Lenin's Mausoleum, also known as Lenin's Tomb, is a mausoleum located at Red Square in Moscow, Russia.",
+        "es": "El Mausoleo de Lenin, conocido también como Tumba de Lenin, es el mausoleo de Vladímir Ilich Uliánov, más conocido como Lenin."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Lenin's Mausoleum",
+          "url": "https://en.wikipedia.org/wiki/Lenin's_Mausoleum"
+        },
+        "es": {
+          "title": "Mausoleo de Lenin",
+          "url": "https://es.wikipedia.org/wiki/Mausoleo_de_Lenin"
+        }
+      }
     },
     {
       "id": "ru-q111048",
@@ -105,10 +171,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Historic northern town in Vologda Oblast with historic churches.",
-        "es": "Antigua ciudad del norte en el óblast de Vologda, con iglesias históricas."
+        "en": "Veliky Ustyug is a town in Vologda Oblast, Russia, located in the northeast of the oblast at the confluence of the Sukhona and Yug Rivers.",
+        "es": "Veliki Ústiug es una ciudad rusa ubicada en la esquina nororiental de la óblast de Vólogda, en el norte de la Rusia europea."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Veliky Ustyug",
+          "url": "https://en.wikipedia.org/wiki/Veliky_Ustyug"
+        },
+        "es": {
+          "title": "Veliki Ústiug",
+          "url": "https://es.wikipedia.org/wiki/Veliki_%C3%9Astiug"
+        }
+      }
     },
     {
       "id": "ru-q183334",
@@ -122,10 +203,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Russian art museum in Moscow with a large collection of icons and paintings.",
-        "es": "Museo de arte ruso en Moscú, con una gran colección de iconos y pinturas."
+        "en": "The State Tretyakov Gallery is an art gallery in Moscow, Russia, which is considered the foremost depository of Russian fine art in the world.",
+        "es": "La Galería Estatal Tretiakov es una galería de arte ubicada en Moscú, Rusia, considerada el principal depositario de bellas artes rusas en el mundo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tretyakov Gallery",
+          "url": "https://en.wikipedia.org/wiki/Tretyakov_Gallery"
+        },
+        "es": {
+          "title": "Galería Tretiakov",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Tretiakov"
+        }
+      }
     }
   ]
 }

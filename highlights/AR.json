@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Fine arts museum in Buenos Aires, with European and Argentine works.",
-        "es": "Museo de bellas artes en Buenos Aires, con obras europeas y argentinas."
+        "en": "The National Museum of Fine Arts is an Argentine art museum in Buenos Aires, located in the Recoleta section of the city.",
+        "es": "El Museo Nacional de Bellas Artes (MNBA), ubicado en la ciudad de Buenos Aires, Argentina, es una de las instituciones públicas de arte más importantes de Argentina."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo Nacional de Bellas Artes (Buenos Aires)",
+          "url": "https://en.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_(Buenos_Aires)"
+        },
+        "es": {
+          "title": "Museo Nacional de Bellas Artes (Argentina)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_(Argentina)"
+        }
+      }
     },
     {
       "id": "ar-q1024829",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Colonial-era town hall on Plaza de Mayo, now a museum.",
-        "es": "Antiguo cabildo colonial en la Plaza de Mayo, hoy museo."
+        "en": "The Cabildo of Buenos Aires is the public building in the city of Buenos Aires, Argentina, that was used as a seat of the town council during the colonial era…",
+        "es": "En el edificio llamado Cabildo de Buenos Aires funcionó el Cabildo de la Ciudad de la Santísima Trinidad y Puerto de Nuestra Señora del Buen Ayre, una institución que inicialmente…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Cabildo of Buenos Aires",
+          "url": "https://en.wikipedia.org/wiki/Cabildo_of_Buenos_Aires"
+        },
+        "es": {
+          "title": "Cabildo de Buenos Aires",
+          "url": "https://es.wikipedia.org/wiki/Cabildo_de_Buenos_Aires"
+        }
+      }
     },
     {
       "id": "ar-q570385",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Clock tower on the Retiro waterfront in Buenos Aires.",
-        "es": "Torre con reloj en la costanera de Retiro, en Buenos Aires."
+        "en": "Torre Monumental, formerly known as Torre de los Ingleses, is a clock tower located in the barrio (district) of Retiro in Buenos Aires, Argentina.",
+        "es": "La Torre Monumental es un monumento situado en el barrio de Retiro, en Buenos Aires."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Torre Monumental",
+          "url": "https://en.wikipedia.org/wiki/Torre_Monumental"
+        },
+        "es": {
+          "title": "Torre Monumental",
+          "url": "https://es.wikipedia.org/wiki/Torre_Monumental"
+        }
+      }
     },
     {
       "id": "ar-q1136338",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Decorative arts museum in a historic mansion in Buenos Aires.",
-        "es": "Museo de artes decorativas en una antigua mansión de Buenos Aires."
+        "en": "The National Museum of Decorative Arts is an art museum in Recoleta, Buenos Aires, Argentina.",
+        "es": "El Museo Nacional de Arte Decorativo ubicado en la avenida del Libertador 1902 de la Ciudad de Buenos Aires fue creado en 1937 luego de la adquisición, por parte del…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Decorative Arts, Buenos Aires",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Decorative_Arts%2C_Buenos_Aires"
+        },
+        "es": {
+          "title": "Museo Nacional de Arte Decorativo",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_Decorativo"
+        }
+      }
     },
     {
       "id": "ar-q57785",
@@ -100,10 +166,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Argentine history museum in Buenos Aires.",
-        "es": "Museo de la historia argentina en Buenos Aires."
+        "en": "The National Historical Museum is a museum located in Buenos Aires, Argentina, and is a museum dedicated to the history of Argentina, exhibiting objects relating to the May Revolution and…",
+        "es": "El Museo Histórico Nacional es un museo estatal especializado en historia argentina, que depende de la Secretaría de Cultura."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Historical Museum (Argentina)",
+          "url": "https://en.wikipedia.org/wiki/National_Historical_Museum_(Argentina)"
+        },
+        "es": {
+          "title": "Museo Histórico Nacional (Argentina)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Hist%C3%B3rico_Nacional_(Argentina)"
+        }
+      }
     },
     {
       "id": "ar-q1808336",
@@ -117,10 +198,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of modern art from Latin America, in Buenos Aires.",
-        "es": "Museo de arte moderno latinoamericano en Buenos Aires."
+        "en": "The Latin American Art Museum of Buenos Aires is an art museum located on Figueroa Alcorta Avenue, in the Palermo section of Buenos Aires.",
+        "es": "El Museo de Arte Latinoamericano de Buenos Aires (Malba) – Fundación Costantini, más conocido simplemente como MALBA, es un museo argentino fundado en septiembre de 2001."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "MALBA",
+          "url": "https://en.wikipedia.org/wiki/MALBA"
+        },
+        "es": {
+          "title": "Museo de Arte Latinoamericano de Buenos Aires",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Latinoamericano_de_Buenos_Aires"
+        }
+      }
     },
     {
       "id": "ar-q115044",
@@ -134,10 +230,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Narrow-gauge tourist railway near Ushuaia, in Tierra del Fuego.",
-        "es": "Ferrocarril turístico de trocha angosta cerca de Ushuaia, en Tierra del Fuego."
+        "en": "The Southern Fuegian Railway or the Train of the End of the World is a 500 mm gauge steam railway in Tierra del Fuego Province, Argentina.",
+        "es": "El Ferrocarril Austral Fueguino (FCAF) o Tren del Fin del Mundo es una línea férrea de la Provincia de Tierra del Fuego, Antártida e Islas del Atlántico Sur en Argentina,…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Southern Fuegian Railway",
+          "url": "https://en.wikipedia.org/wiki/Southern_Fuegian_Railway"
+        },
+        "es": {
+          "title": "Tren del Fin del Mundo",
+          "url": "https://es.wikipedia.org/wiki/Tren_del_Fin_del_Mundo"
+        }
+      }
     },
     {
       "id": "ar-q1633517",
@@ -151,10 +262,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Natural sciences museum in Buenos Aires.",
-        "es": "Museo de ciencias naturales en Buenos Aires."
+        "en": "The Bernardino Rivadavia Natural Sciences Argentine Museum is a public museum located in the Caballito neighborhood of Buenos Aires, Argentina.",
+        "es": "El Museo Argentino de Ciencias Naturales Bernardino Rivadavia (MACN) es uno de los principales museos de ciencias naturales de la República Argentina."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bernardino Rivadavia Natural Sciences Argentine Museum",
+          "url": "https://en.wikipedia.org/wiki/Bernardino_Rivadavia_Natural_Sciences_Argentine_Museum"
+        },
+        "es": {
+          "title": "Museo Argentino de Ciencias Naturales",
+          "url": "https://es.wikipedia.org/wiki/Museo_Argentino_de_Ciencias_Naturales"
+        }
+      }
     },
     {
       "id": "ar-q1798541",
@@ -169,10 +295,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Natural sciences and anthropology museum in La Plata.",
-        "es": "Museo de ciencias naturales y antropología en La Plata."
+        "en": "The La Plata Museum is a natural history museum in La Plata, Argentina.",
+        "es": "El Museo de La Plata es un museo de ciencias naturales y antropológicas ubicado en el Paseo del Bosque de la ciudad de La Plata, capital de la provincia de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "La Plata Museum",
+          "url": "https://en.wikipedia.org/wiki/La_Plata_Museum"
+        },
+        "es": {
+          "title": "Museo de La Plata",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_La_Plata"
+        }
+      }
     },
     {
       "id": "ar-q2737219",
@@ -186,10 +327,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Historic narrow-gauge steam railway in Patagonia.",
-        "es": "Histórico ferrocarril a vapor de trocha angosta en la Patagonia."
+        "en": "La Trochita, in English known as the Old Patagonian Express, is a 750 mm narrow gauge railway in Patagonia, Argentina using steam locomotives.",
+        "es": "La Trochita, conocida oficialmente como Viejo Expreso Patagónico, es el nombre coloquial dado a una línea de ferrocarril que une las provincias de Río Negro y Chubut de la Patagonia…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "La Trochita",
+          "url": "https://en.wikipedia.org/wiki/La_Trochita"
+        },
+        "es": {
+          "title": "La Trochita",
+          "url": "https://es.wikipedia.org/wiki/La_Trochita"
+        }
+      }
     },
     {
       "id": "ar-q1134582",
@@ -203,10 +359,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Modern art museum in Buenos Aires.",
-        "es": "Museo de arte moderno en Buenos Aires."
+        "en": "The Buenos Aires Museum of Modern Art, known locally as the Museo de Arte Moderno de Buenos Aires (MAMBA), is a modern art museum located in the San Telmo district…",
+        "es": "El Museo de Arte Moderno de Buenos Aires fue creado en 1956 por iniciativa del crítico de arte Rafael Squirru, fundador y primer director de la institución."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Buenos Aires Museum of Modern Art",
+          "url": "https://en.wikipedia.org/wiki/Buenos_Aires_Museum_of_Modern_Art"
+        },
+        "es": {
+          "title": "Museo de Arte Moderno de Buenos Aires",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Moderno_de_Buenos_Aires"
+        }
+      }
     }
   ]
 }

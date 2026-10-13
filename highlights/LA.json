@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Sculpture park of Buddhist and Hindu figures near Vientiane.",
-        "es": "Parque de esculturas budistas e hindúes cerca de Vientián."
+        "en": "Buddha Park, also known as Xieng Khuan, is a sculpture park 25 km southeast from Vientiane, Laos, in a meadow by the Mekong River.",
+        "es": "El Parque Buda es un parque religioso Budista, se encuentra a unos 25 km de la capital de Laos, Vientiane, en él se encuentran más de 200 estatuas de Buda…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Buddha Park",
+          "url": "https://en.wikipedia.org/wiki/Buddha_Park"
+        },
+        "es": {
+          "title": "Parque Buda",
+          "url": "https://es.wikipedia.org/wiki/Parque_Buda"
+        }
+      }
     },
     {
       "id": "la-q2671098",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Limestone caves filled with Buddha images, on the Mekong near Luang Prabang.",
-        "es": "Cuevas de piedra caliza llenas de imágenes de Buda, junto al Mekong cerca de Luang Prabang."
+        "en": "Near Pak Ou the Tham Ting and the Tham Theung are two caves overlooking the Mekong River from the west side, 25 km to the north of Luang Prabang, Laos.",
+        "es": "Cuevas de Pak Ou es el nombre de unas cuevas con vistas al río Mekong, a 25 km de Luang Prabang, Laos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Pak Ou Caves",
+          "url": "https://en.wikipedia.org/wiki/Pak_Ou_Caves"
+        },
+        "es": {
+          "title": "Cuevas de Pak Ou",
+          "url": "https://es.wikipedia.org/wiki/Cuevas_de_Pak_Ou"
+        }
+      }
     },
     {
       "id": "la-q2091650",
@@ -66,10 +102,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Cave complex used as a wartime refuge in northern Laos.",
+        "en": "The Viengxay Caves in Houaphanh Province of north-eastern Laos are an extensive network of caves in limestone mountains.",
         "es": "Complejo de cuevas que sirvió de refugio durante la guerra, en el norte de Laos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Viengxay Caves",
+          "url": "https://en.wikipedia.org/wiki/Viengxay_Caves"
+        }
+      }
     },
     {
       "id": "la-q6695002",
@@ -83,10 +130,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Provincial museum in Luang Namtha on local history and ethnic groups.",
+        "en": "Luang Namtha Museum, also Louang Namtha Provincial Museum, is a museum in Luang Namtha, Laos.",
         "es": "Museo provincial en Luang Namtha sobre la historia local y los grupos étnicos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Luang Namtha Museum",
+          "url": "https://en.wikipedia.org/wiki/Luang_Namtha_Museum"
+        }
+      }
     },
     {
       "id": "la-q96385539",
@@ -100,10 +158,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum about Kaysone Phomvihane, Laos's first prime minister.",
+        "en": "Kaysone Phomvihane Museum is a memorial named after the first leader of the Lao People's Revolutionary Party.",
         "es": "Museo sobre Kaysone Phomvihane, primer ministro de Laos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kaysone Phomvihane Museum",
+          "url": "https://en.wikipedia.org/wiki/Kaysone_Phomvihane_Museum"
+        }
+      }
     }
   ]
 }

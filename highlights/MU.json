@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Port Louis named after the Blue Penny, Mauritius's famous rare stamp.",
+        "en": "The Blue Penny Museum, a museum dedicated to history and art of Mauritius, is situated at Caudan Waterfront in Port Louis, the capital of Mauritius.",
         "es": "Museo en Port Louis que lleva el nombre del Blue Penny, el famoso sello raro de Mauricio."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Blue Penny Museum",
+          "url": "https://en.wikipedia.org/wiki/Blue_Penny_Museum"
+        }
+      }
     },
     {
       "id": "mu-q3329940",
@@ -49,10 +66,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Postal museum in Port Louis with stamps and the history of Mauritius post.",
+        "en": "The Mauritius Postal Museum is the Postal museum in Port Louis, the capital city of Mauritius.",
         "es": "Museo postal en Port Louis con sellos y la historia del correo de Mauricio."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mauritius Postal Museum",
+          "url": "https://en.wikipedia.org/wiki/Mauritius_Postal_Museum"
+        }
+      }
     },
     {
       "id": "mu-q3213460",
@@ -69,7 +97,14 @@
         "en": "Nature park with crocodiles, giant tortoises and other wildlife.",
         "es": "Parque natural con cocodrilos, tortugas gigantes y otra fauna."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13"
+      }
     }
   ]
 }

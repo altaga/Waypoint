@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on the history of the slave trade in Angola.",
-        "es": "Museo sobre la historia de la trata de esclavos en Angola."
+        "en": "The National Museum of Slavery is located in Morro da Cruz, Luanda, Angola.",
+        "es": "El Museo Nacional de la Esclavitud, en portugués: Museu Nacional da Escravatura, se localiza en el Morro da Cruz, en la ciudad de Luanda, en Angola."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Slavery",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Slavery"
+        },
+        "es": {
+          "title": "Museo Nacional de la Esclavitud",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_la_Esclavitud"
+        }
+      }
     },
     {
       "id": "ao-q10333589",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Natural history museum in Luanda.",
-        "es": "Museo de historia natural en Luanda."
+        "en": "The Museu Nacional de História Natural de Angola is located in the Ingombota District of the city of Luanda, Angola.",
+        "es": "El Museo Nacional de Historia Natural de Angola es un museo estatal de historia natural en el centro de Luanda, en el que se conserva y exhibe la flora y…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museu Nacional de História Natural de Angola",
+          "url": "https://en.wikipedia.org/wiki/Museu_Nacional_de_Hist%C3%B3ria_Natural_de_Angola"
+        },
+        "es": {
+          "title": "Museo Nacional de Historia Natural de Angola",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Historia_Natural_de_Angola"
+        }
+      }
     },
     {
       "id": "ao-q10333588",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Anthropology museum in Luanda on the peoples and cultures of Angola.",
-        "es": "Museo de antropología en Luanda sobre los pueblos y culturas de Angola."
+        "en": "The Museu Nacional de Antropologia is an anthropological museum in the Ingombota District of the city of Luanda, Angola.",
+        "es": "El Museo Nacional de Antropología es un museo antropológico en el barrio de Coqueiros de la ciudad de Luanda, Angola."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museu Nacional de Antropologia (Angola)",
+          "url": "https://en.wikipedia.org/wiki/Museu_Nacional_de_Antropologia_(Angola)"
+        },
+        "es": {
+          "title": "Museo Nacional de Antropologia (Angola)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Antropologia_(Angola)"
+        }
+      }
     },
     {
       "id": "ao-q868147",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Military history museum in Luanda.",
-        "es": "Museo de historia militar en Luanda."
+        "en": "The Museum of the Armed Forces is located in Fortaleza de São Miguel de Luanda, in the Ingombota District of Luanda, Angola.",
+        "es": "El Museo de las Fuerzas Armadas es un museo militar instalado en la Fortaleza de San Miguel, en Luanda, Angola."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of the Armed Forces (Angola)",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_the_Armed_Forces_(Angola)"
+        },
+        "es": {
+          "title": "Museo de las Fuerzas Armadas (Angola)",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_las_Fuerzas_Armadas_(Angola)"
+        }
+      }
     }
   ]
 }

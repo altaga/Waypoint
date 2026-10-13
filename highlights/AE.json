@@ -9,7 +9,7 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "ae-tourism": {
@@ -22,6 +22,12 @@
       "title": "Visit Abu Dhabi",
       "url": "https://www.visitabudhabi.ae/en",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -41,7 +47,11 @@
         "en": "Tallest building, with observation decks. Book a time slot.",
         "es": "El edificio más alto, con miradores. Reserva un horario."
       },
-      "sourceId": "ae-tourism"
+      "sourceId": "ae-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ae-dubai-frame",
@@ -58,7 +68,11 @@
         "en": "Frame-shaped landmark with views of old and new Dubai.",
         "es": "Monumento en forma de marco con vistas al Dubái antiguo y nuevo."
       },
-      "sourceId": "ae-tourism"
+      "sourceId": "ae-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ae-old-souks",
@@ -76,7 +90,11 @@
         "en": "Traditional souks along the creek.",
         "es": "Zocos tradicionales junto al canal."
       },
-      "sourceId": "ae-tourism"
+      "sourceId": "ae-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ae-dubai-creek",
@@ -93,7 +111,11 @@
         "en": "Traditional wooden boat across the creek.",
         "es": "Barco de madera tradicional que cruza el canal."
       },
-      "sourceId": "ae-tourism"
+      "sourceId": "ae-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ae-sheikh-zayed",
@@ -110,7 +132,11 @@
         "en": "White marble mosque. Modest dress and booking may apply.",
         "es": "Mezquita de mármol blanco. Puede requerir ropa recatada y reserva."
       },
-      "sourceId": "ae-abudhabi"
+      "sourceId": "ae-abudhabi",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ae-louvre-abudhabi",
@@ -128,7 +154,11 @@
         "en": "Museum under a dome of light-filtering geometry.",
         "es": "Museo bajo una cúpula de geometría que filtra la luz."
       },
-      "sourceId": "ae-abudhabi"
+      "sourceId": "ae-abudhabi",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ae-desert-safari",
@@ -145,7 +175,11 @@
         "en": "Dune drives and camp evenings, booked through a licensed operator.",
         "es": "Recorridos por dunas y noches de campamento, con operador con licencia."
       },
-      "sourceId": "ae-tourism"
+      "sourceId": "ae-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

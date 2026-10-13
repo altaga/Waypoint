@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum in Dhaka with art, history and ethnography collections.",
-        "es": "Museo nacional en Daca con colecciones de arte, historia y etnografía."
+        "en": "The Bangladesh National Museum is the national repository of Bangladesh's cultural and historical artifacts, located in the Shahbag area of Dhaka.",
+        "es": "El Museo nacional de Bangladés originalmente establecido el 20 de marzo de 1913, aunque bajo otro nombre, y formalmente inaugurado el 7 de agosto de 1913, se le concedió el…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bangladesh National Museum",
+          "url": "https://en.wikipedia.org/wiki/Bangladesh_National_Museum"
+        },
+        "es": {
+          "title": "Museo nacional de Bangladés",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Banglad%C3%A9s"
+        }
+      }
     },
     {
       "id": "bd-q3350326",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "National zoo near Dhaka, in Mirpur.",
-        "es": "Zoológico nacional cerca de Daca, en Mirpur."
+        "en": "Bangladesh National Zoo, is a zoo located in the Mirpur section of Dhaka, the capital city of Bangladesh.",
+        "es": "El Zoológico de Daca es un parque zoológico situado en la sección de Mirpur en la ciudad de Daca, la capital de Bangladés."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bangladesh National Zoo",
+          "url": "https://en.wikipedia.org/wiki/Bangladesh_National_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Daca",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Daca"
+        }
+      }
     },
     {
       "id": "bd-q13058770",
@@ -67,10 +103,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum about Sheikh Mujibur Rahman, Bangladesh's founding leader, in Dhaka.",
+        "en": "Bangabandhu Memorial Museum, also known as Bangabandhu Bhaban or Dhanmondi 32, was a museum located in Dhanmondi, Dhaka, Bangladesh, which was once the personal residence of Sheikh Mujibur Rahman, the…",
         "es": "Museo sobre Sheij Mujibur Rahman, líder fundador de Bangladés, en Daca."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bangabandhu Memorial Museum",
+          "url": "https://en.wikipedia.org/wiki/Bangabandhu_Memorial_Museum"
+        }
+      }
     },
     {
       "id": "bd-q2912841",
@@ -84,10 +131,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum on Bangladesh's 1971 war of independence, in Dhaka.",
-        "es": "Museo sobre la guerra de independencia de Bangladés de 1971, en Daca."
+        "en": "The Liberation War Museum is a museum at Agargaon in Dhaka, the capital of Bangladesh, which commemorates the Bangladesh Liberation War that led to the independence of Bangladesh from Pakistan.",
+        "es": "El Museo de la Guerra de Liberación es un museo en Segunbagicha, en Daca, capital del país asiático de Bangladés, que conmemora la Guerra de Liberación nacional, lo que condujo…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Liberation War Museum",
+          "url": "https://en.wikipedia.org/wiki/Liberation_War_Museum"
+        },
+        "es": {
+          "title": "Museo de la Guerra de Liberación",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Guerra_de_Liberaci%C3%B3n"
+        }
+      }
     },
     {
       "id": "bd-q5313401",
@@ -101,10 +163,21 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Safari park near Cox's Bazar, with wildlife.",
+        "en": "Dulahazara Safari Park Cox's Bazar was developed on an undulating landscape of around 2,224 acres (9.00 km2) of area at Chakaria Upazila in Cox's Bazar District, Bangladesh, some 107 km…",
         "es": "Parque safari cerca de Cox's Bazar, con fauna."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Dulhazra Safari Park",
+          "url": "https://en.wikipedia.org/wiki/Dulhazra_Safari_Park"
+        }
+      }
     },
     {
       "id": "bd-q18987429",
@@ -118,10 +191,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoo in Chittagong.",
+        "en": "Chittagong Zoo is a zoo in Chittagong, Bangladesh.",
         "es": "Zoológico en Chittagong."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Chittagong Zoo",
+          "url": "https://en.wikipedia.org/wiki/Chittagong_Zoo"
+        }
+      }
     },
     {
       "id": "bd-q7915600",
@@ -135,10 +219,21 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Archaeology and history museum in Rajshahi.",
+        "en": "Varendra Museum is a museum, research centre, and popular visitor attraction at the heart of Rajshahi and maintained by Rajshahi University in Bangladesh.",
         "es": "Museo de arqueología e historia en Rajshahi."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Varendra Research Museum",
+          "url": "https://en.wikipedia.org/wiki/Varendra_Research_Museum"
+        }
+      }
     },
     {
       "id": "bd-q13059829",
@@ -152,10 +247,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum dedicated to painter Zainul Abedin, in Mymensingh.",
+        "en": "Zainul Abedin Sangrahashala is an art museum in Mymensingh, Bangladesh.",
         "es": "Museo dedicado al pintor Zainul Abedin, en Mymensingh."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Zainul Abedin Museum",
+          "url": "https://en.wikipedia.org/wiki/Zainul_Abedin_Museum"
+        }
+      }
     },
     {
       "id": "bd-q23044804",
@@ -169,10 +275,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Science and technology museum in Dhaka.",
+        "en": "The National Museum of Science and Technology (NMST) in Dhaka, Bangladesh was founded on April 26, 1965, by the Pakistani government and became a part of Bangladesh's Ministry of Science…",
         "es": "Museo de ciencia y tecnología en Daca."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Science and Technology (Bangladesh)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Science_and_Technology_(Bangladesh)"
+        }
+      }
     }
   ]
 }

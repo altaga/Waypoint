@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "National museum in Monrovia on Liberian history and culture.",
-        "es": "Museo nacional en Monrovia sobre la historia y la cultura de Liberia."
+        "en": "The National Museum of Liberia is a national museum in Monrovia, Liberia.",
+        "es": "El Museo nacional de Liberia es un museo nacional en Monrovia, la capital del país africano de Liberia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Liberian National Museum",
+          "url": "https://en.wikipedia.org/wiki/Liberian_National_Museum"
+        },
+        "es": {
+          "title": "Museo nacional de Liberia",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Liberia"
+        }
+      }
     }
   ]
 }

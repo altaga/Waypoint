@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "tr-tourism": {
       "title": "Republic of Türkiye Ministry of Culture and Tourism (Go Türkiye)",
       "url": "https://www.goturkiye.com/",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -36,7 +42,11 @@
         "en": "Byzantine basilica turned mosque, then museum, now a mosque again.",
         "es": "Basílica bizantina que fue mezquita, museo y de nuevo mezquita."
       },
-      "sourceId": "tr-tourism"
+      "sourceId": "tr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "tr-blue-mosque",
@@ -53,7 +63,11 @@
         "en": "Mosque with blue Iznik tiles. Modest dress required.",
         "es": "Mezquita con azulejos de Iznik. Se requiere ropa recatada."
       },
-      "sourceId": "tr-tourism"
+      "sourceId": "tr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "tr-topkapi",
@@ -71,7 +85,11 @@
         "en": "Ottoman sultans' palace with views of the Bosphorus.",
         "es": "Palacio de los sultanes otomanos con vista al Bósforo."
       },
-      "sourceId": "tr-tourism"
+      "sourceId": "tr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "tr-grand-bazaar",
@@ -89,7 +107,11 @@
         "en": "Covered bazaar with thousands of shops.",
         "es": "Bazar techado con miles de tiendas."
       },
-      "sourceId": "tr-tourism"
+      "sourceId": "tr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "tr-spice-bazaar",
@@ -106,7 +128,11 @@
         "en": "Spices, sweets and dried fruit near the Golden Horn.",
         "es": "Especias, dulces y frutas secas junto al Cuerno de Oro."
       },
-      "sourceId": "tr-tourism"
+      "sourceId": "tr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "tr-cappadocia",
@@ -124,7 +150,11 @@
         "en": "Rock-cut churches with Byzantine frescoes.",
         "es": "Iglesias excavadas en la roca con frescos bizantinos."
       },
-      "sourceId": "tr-tourism"
+      "sourceId": "tr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "tr-ephesus",
@@ -141,7 +171,11 @@
         "en": "Roman city with the Library of Celsus.",
         "es": "Ciudad romana con la Biblioteca de Celso."
       },
-      "sourceId": "tr-tourism"
+      "sourceId": "tr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

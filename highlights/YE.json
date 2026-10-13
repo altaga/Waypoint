@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,11 +39,22 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Historic madrasah in Ta'izz.",
+        "en": "Madrasa and Mosque of Al-Ashrafiya or Al-Ashrafiya Mosque is a historical madrasa-mosque located in the old city of Taiz, Yemen at the foot of Mount Sabr in the southwestern part…",
         "es": "Madrasa histórica en Taiz."
       },
       "sourceId": "wikidata",
-      "admission": "Serious security risks; check current official travel advice before planning."
+      "admission": "Serious security risks; check current official travel advice before planning.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ashrafiya Mosque",
+          "url": "https://en.wikipedia.org/wiki/Ashrafiya_Mosque"
+        }
+      }
     },
     {
       "id": "ye-q1837324",
@@ -51,11 +68,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum of Yemen's history, in Sanaa.",
-        "es": "Museo nacional de la historia de Yemen, en Saná."
+        "en": "The National Museum of Yemen in Sanaa, Yemen, is an archaeological and cultural museum.",
+        "es": "El Museo nacional de Yemen o Museo nacional de Saná se localiza en la ciudad de Saná, en el país asiático de Yemen, fue fundado en el año 1971 en…"
       },
       "sourceId": "wikidata",
-      "admission": "Serious security risks; check current official travel advice before planning."
+      "admission": "Serious security risks; check current official travel advice before planning.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Yemen",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Yemen"
+        },
+        "es": {
+          "title": "Museo nacional de Yemen",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Yemen"
+        }
+      }
     }
   ]
 }

@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "cf-tourism": {
       "title": "Central African Republic tourism (ministry)",
       "url": "https://www.visitcentralafrica.org/",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -35,7 +41,11 @@
         "es": "Reserva de selva para elefantes del bosque y gorilas, con caminatas guiadas."
       },
       "sourceId": "cf-tourism",
-      "admission": "Guided access only; check current security advice first."
+      "admission": "Guided access only; check current security advice first.",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "cf-boali-falls",
@@ -52,7 +62,11 @@
         "es": "Cascada sobre el río Mbali, a poca distancia de Bangui."
       },
       "sourceId": "cf-tourism",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

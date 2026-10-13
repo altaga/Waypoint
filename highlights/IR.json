@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,26 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Ruins of the ancient Achaemenid capital of Persia.",
-        "es": "Ruinas de la antigua capital aqueménida de Persia."
+        "en": "Persepolis or Parseh, also known in modern Persian as Takht-e Jamshid, was the ceremonial capital of the Achaemenid Empire.",
+        "es": "Persépolis fue la capital del Imperio persa durante la época aqueménida."
       },
       "sourceId": "wikidata",
-      "admission": "Check current travel advice before travelling."
+      "admission": "Check current travel advice before travelling.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Persepolis",
+          "url": "https://en.wikipedia.org/wiki/Persepolis"
+        },
+        "es": {
+          "title": "Persépolis",
+          "url": "https://es.wikipedia.org/wiki/Pers%C3%A9polis"
+        }
+      }
     },
     {
       "id": "ir-q40758",
@@ -49,11 +70,26 @@
       ],
       "durationMinutes": 480,
       "desc": {
-        "en": "Volcanic mountain, the highest peak in Iran.",
-        "es": "Montaña volcánica, el pico más alto de Irán."
+        "en": "Mount Damavand is a dormant stratovolcano in Iran.",
+        "es": "El monte Damāvand es un estratovolcán durmiente de 5671 metros de altitud, que marca el punto más alto de la cordillera de los montes Elburz."
       },
       "sourceId": "wikidata",
-      "admission": "Check current travel advice before travelling."
+      "admission": "Check current travel advice before travelling.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mount Damavand",
+          "url": "https://en.wikipedia.org/wiki/Mount_Damavand"
+        },
+        "es": {
+          "title": "Damavand",
+          "url": "https://es.wikipedia.org/wiki/Damavand"
+        }
+      }
     },
     {
       "id": "ir-q180773",
@@ -67,11 +103,26 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Ancient city ruins with archaeological remains in Khuzestan.",
-        "es": "Ruinas de una antigua ciudad con restos arqueológicos en Juzestán."
+        "en": "Susa was an ancient city in the lower Zagros Mountains about 250 km (160 mi) east of the Tigris, between the Karkheh and Dez Rivers in Iran.",
+        "es": "Susa era una antigua ciudad de los imperios iraníes protoelamita, elamita, primer imperio persa, seleúcida y parto, y una de las ciudades más importantes del Antiguo Oriente Próximo."
       },
       "sourceId": "wikidata",
-      "admission": "Check current travel advice before travelling."
+      "admission": "Check current travel advice before travelling.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Susa",
+          "url": "https://en.wikipedia.org/wiki/Susa"
+        },
+        "es": {
+          "title": "Susa",
+          "url": "https://es.wikipedia.org/wiki/Susa"
+        }
+      }
     },
     {
       "id": "ir-q4519",
@@ -85,11 +136,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Large historic square in Isfahan lined with mosques and palaces.",
-        "es": "Gran plaza histórica de Isfahán, rodeada de mezquitas y palacios."
+        "en": "The Naqsh-e Jahan Square, also known as the Shah Square prior to 1979, and sometimes known as the Imam Square, is a square situated at the center of Isfahan, Iran.",
+        "es": "La plaza de Naghsh-i Jahan, también conocida como Plaza Real y plaza del imán Jomeini, es una plaza situada en el centro de la ciudad de Isfahán, es uno de…"
       },
       "sourceId": "wikidata",
-      "admission": "Check current travel advice before travelling."
+      "admission": "Check current travel advice before travelling.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Naqsh-e Jahan Square",
+          "url": "https://en.wikipedia.org/wiki/Naqsh-e_Jahan_Square"
+        },
+        "es": {
+          "title": "Plaza de Naqsh-e Yahán",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_Naqsh-e_Yah%C3%A1n"
+        }
+      }
     },
     {
       "id": "ir-q622796",
@@ -102,11 +168,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Tall telecommunications tower with an observation deck in Tehran.",
-        "es": "Torre de telecomunicaciones con mirador en Teherán."
+        "en": "The Milad Tower is a multi-purpose tower in Tehran, Iran.",
+        "es": "La Torre Milad es la torre más alta de Irán."
       },
       "sourceId": "wikidata",
-      "admission": "Check current travel advice before travelling."
+      "admission": "Check current travel advice before travelling.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Milad Tower",
+          "url": "https://en.wikipedia.org/wiki/Milad_Tower"
+        },
+        "es": {
+          "title": "Torre Milad",
+          "url": "https://es.wikipedia.org/wiki/Torre_Milad"
+        }
+      }
     },
     {
       "id": "ir-q643098",
@@ -120,11 +201,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Safavid-era mosque with blue tilework in Isfahan.",
-        "es": "Mezquita de la época safávida con azulejería azul en Isfahán."
+        "en": "The Shah Mosque, also officially known as the Imam Mosque or Imam Khomeini Mosque, is a mosque located on the south side of Naqsh-e Jahan Square in Isfahan, in the…",
+        "es": "La Mezquita del Imam Jomeini, es una mezquita también conocida como la Mezquita del Imán, situada en Isfahán, fue construida safaví Shah Abbas I, entre los años 1612 y 1630."
       },
       "sourceId": "wikidata",
-      "admission": "Check current travel advice before travelling."
+      "admission": "Check current travel advice before travelling.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Shah Mosque (Isfahan)",
+          "url": "https://en.wikipedia.org/wiki/Shah_Mosque_(Isfahan)"
+        },
+        "es": {
+          "title": "Mezquita del Imam Jomeini",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_del_Imam_Jomeini"
+        }
+      }
     },
     {
       "id": "ir-q1140026",
@@ -138,11 +234,26 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Monument marking Iran's history, in Tehran.",
-        "es": "Monumento a la historia de Irán, en Teherán."
+        "en": "The Azadi Tower, also known by its former name, the Shahyad Tower, is a monument at Azadi Square in Tehran, Iran.",
+        "es": "La Torre Azadi es el monumento más representativo de la ciudad de Teherán (Irán)."
       },
       "sourceId": "wikidata",
-      "admission": "Check current travel advice before travelling."
+      "admission": "Check current travel advice before travelling.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Azadi Tower",
+          "url": "https://en.wikipedia.org/wiki/Azadi_Tower"
+        },
+        "es": {
+          "title": "Torre Azadi",
+          "url": "https://es.wikipedia.org/wiki/Torre_Azadi"
+        }
+      }
     },
     {
       "id": "ir-q4399",
@@ -156,11 +267,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Historic covered bazaar in Tabriz.",
-        "es": "Antiguo bazar cubierto en Tabriz."
+        "en": "The Bazaar of Tabriz is a historic market in central Tabriz, Iran.",
+        "es": "El Bazar de Tabriz es uno de los bazares más antiguos de Oriente Medio y el bazar cubierto más grande del mundo."
       },
       "sourceId": "wikidata",
-      "admission": "Check current travel advice before travelling."
+      "admission": "Check current travel advice before travelling.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bazaar of Tabriz",
+          "url": "https://en.wikipedia.org/wiki/Bazaar_of_Tabriz"
+        },
+        "es": {
+          "title": "Bazar de Tabriz",
+          "url": "https://es.wikipedia.org/wiki/Bazar_de_Tabriz"
+        }
+      }
     }
   ]
 }

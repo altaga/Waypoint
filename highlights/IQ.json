@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Shrine mosque with a golden dome in Najaf.",
-        "es": "Mezquita-santuario con cúpula dorada en Nayaf."
+        "en": "The Imam Ali Shrine, also known as the Mosque of Ali, is the mausoleum of Ali, the cousin and son-in-law of the Islamic prophet Muhammad, the first Shia Imam, and…",
+        "es": "La mezquita del Imán Alí o santuario del Imán Alí también conocida como Ali Masjid o la mezquita de Alí, está ubicada en Nayaf, Irak."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Imam Ali Shrine",
+          "url": "https://en.wikipedia.org/wiki/Imam_Ali_Shrine"
+        },
+        "es": {
+          "title": "Mezquita del Imán Alí",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_del_Im%C3%A1n_Al%C3%AD"
+        }
+      }
     },
     {
       "id": "iq-q521251",
@@ -50,11 +71,26 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum of Mesopotamian artifacts in Baghdad.",
-        "es": "Museo nacional de objetos mesopotámicos en Bagdad."
+        "en": "The Iraq Museum is the national museum of Iraq, located in Baghdad.",
+        "es": "El Museo Nacional de Irak es un museo situado en Bagdad, Irak que alberga preciosas reliquias de la civilización mesopotámica, algunas de las cuales fueron saqueadas durante la invasión de…"
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Iraq Museum",
+          "url": "https://en.wikipedia.org/wiki/Iraq_Museum"
+        },
+        "es": {
+          "title": "Museo Nacional de Irak",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Irak"
+        }
+      }
     },
     {
       "id": "iq-q773704",
@@ -68,11 +104,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Shrine of Imam Husayn with a golden dome in Karbala.",
-        "es": "Santuario del imán Husein con cúpula dorada en Kerbala."
+        "en": "The Imam Husayn Shrine is the mausoleum of Husayn ibn Ali, located in Karbala, in the Karbala Governorate of Iraq.",
+        "es": "La mezquita (del) Imam Husayn también llamada santuario de Husayn ibn ‘Alī es una importante mezquita de Irak, una de las mezquitas más antiguas del mundo y lugar de peregrinación…"
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Imam Husayn Shrine",
+          "url": "https://en.wikipedia.org/wiki/Imam_Husayn_Shrine"
+        },
+        "es": {
+          "title": "Mezquita Imam Husayn",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_Imam_Husayn"
+        }
+      }
     },
     {
       "id": "iq-q154116",
@@ -86,11 +137,26 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Shrine mosque in northern Baghdad, a Shia pilgrimage site.",
-        "es": "Mezquita-santuario al norte de Bagdad, lugar de peregrinación chií."
+        "en": "The Kadhimiya Mosque, also known as the Jawadayn Shrine , is the mausoleums of the seventh and ninth Shia Imams, respectively Musa al-Kazim and his grandson Muhammad al-Jawad, located in…",
+        "es": "Masjid al-Kāẓimiyyah es un santuario situado en el barrio de Kādhimayn en Bagdad, Irak."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Al-Kazimiyya Mosque",
+          "url": "https://en.wikipedia.org/wiki/Al-Kazimiyya_Mosque"
+        },
+        "es": {
+          "title": "Mezquita Al-Kadhimiya",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_Al-Kadhimiya"
+        }
+      }
     },
     {
       "id": "iq-q1486703",
@@ -104,11 +170,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Ruined Sasanian palace arch at Ctesiphon, near Baghdad.",
-        "es": "Arco en ruinas de un palacio sasánida en Ctesifonte, cerca de Bagdad."
+        "en": "Tāq Kasrā, also transcribed as Taq-i Kisra or Taq-e Kesra or Ayvān-e Kesrā are the remains of a Sasanian-era Persian monument, dated to c. the 3rd to 6th centuries, which…",
+        "es": "El Taq-i Kisra es un monumento persa en Al-Mada'in, único resto visible de la antigua ciudad de Ctesifonte."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Taq Kasra",
+          "url": "https://en.wikipedia.org/wiki/Taq_Kasra"
+        },
+        "es": {
+          "title": "Taq-i Kisra",
+          "url": "https://es.wikipedia.org/wiki/Taq-i_Kisra"
+        }
+      }
     },
     {
       "id": "iq-q3250647",
@@ -122,11 +203,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Shrine mosque in Karbala dedicated to Abbas ibn Ali.",
-        "es": "Mezquita-santuario en Kerbala dedicada a Abbas ibn Alí."
+        "en": "The Al-Abbas Shrine is the mausoleum of Abbas ibn Ali, situated near the Imam Husayn Shrine, located in Karbala, in the Karbala Governorate of Iraq.",
+        "es": "El Santuario de Al-Abbas es el mausoleo de Abbas ibn Ali y una mezquita, situado cerca de la Mezquita Imam Husayn en Karbala, Irak."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Al-Abbas Shrine",
+          "url": "https://en.wikipedia.org/wiki/Al-Abbas_Shrine"
+        },
+        "es": {
+          "title": "Mezquita de Abbás",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_de_Abb%C3%A1s"
+        }
+      }
     },
     {
       "id": "iq-q19414891",
@@ -140,11 +236,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Regional museum of archaeology and ethnography in Sulaymaniyah.",
-        "es": "Museo regional de arqueología y etnografía en Sulaymaniya."
+        "en": "The Sulaymaniyah Museum, or Slemani Museum, is an archeological museum located in Sulaymaniyah in the Kurdistan Region of Iraq.",
+        "es": "El Museo de Sulaimaniya, el segundo museo más grande de Irak, fue fundado el 14 de julio de 1961."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sulaymaniyah Museum",
+          "url": "https://en.wikipedia.org/wiki/Sulaymaniyah_Museum"
+        },
+        "es": {
+          "title": "Museo de Sulaimaniya",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Sulaimaniya"
+        }
+      }
     },
     {
       "id": "iq-q3014063",
@@ -158,11 +269,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum at the Ur archaeological site, showing Sumerian finds.",
-        "es": "Museo en el yacimiento arqueológico de Ur, con hallazgos sumerios."
+        "en": "Ennigaldi-Nanna's museum is the earliest known public museum.",
+        "es": "El museo de Ennigaldi-Nanna es el más antiguo museo del cual se tengan evidencias, los historiadores estiman que el mismo se remonta al año 530 a."
       },
       "sourceId": "wikidata",
-      "admission": "Check current security advice first."
+      "admission": "Check current security advice first.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ennigaldi-Nanna's museum",
+          "url": "https://en.wikipedia.org/wiki/Ennigaldi-Nanna's_museum"
+        },
+        "es": {
+          "title": "Museo de Ennigaldi-Nanna",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Ennigaldi-Nanna"
+        }
+      }
     }
   ]
 }

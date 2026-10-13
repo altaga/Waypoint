@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Contemporary art museum in Vaduz.",
-        "es": "Museo de arte contemporáneo en Vaduz."
+        "en": "The Kunstmuseum Liechtenstein is a state art museum in Vaduz, Liechtenstein.",
+        "es": "El Kunstmuseum Liechtenstein es un museo estatal de arte moderno y contemporáneo situado en Vaduz."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kunstmuseum Liechtenstein",
+          "url": "https://en.wikipedia.org/wiki/Kunstmuseum_Liechtenstein"
+        },
+        "es": {
+          "title": "Kunstmuseum Liechtenstein",
+          "url": "https://es.wikipedia.org/wiki/Kunstmuseum_Liechtenstein"
+        }
+      }
     },
     {
       "id": "li-q1557760",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "National museum on the country's history, in Vaduz.",
-        "es": "Museo nacional sobre la historia del país, en Vaduz."
+        "en": "The Liechtenstein National Museum is a museum in Vaduz, the capital city of Liechtenstein.",
+        "es": "El Museo nacional de Liechtenstein es un centro de exhibiciones en la ciudad de Vaduz, la capital del principado y nación europea de Liechtenstein."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Liechtenstein National Museum",
+          "url": "https://en.wikipedia.org/wiki/Liechtenstein_National_Museum"
+        },
+        "es": {
+          "title": "Museo nacional de Liechtenstein",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Liechtenstein"
+        }
+      }
     },
     {
       "id": "li-q972697",
@@ -66,10 +102,21 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Museum of postal history in Vaduz.",
+        "en": "The Postal Museum is a postal museum in Vaduz, Liechtenstein.",
         "es": "Museo de la historia postal en Vaduz."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Postal Museum (Liechtenstein)",
+          "url": "https://en.wikipedia.org/wiki/Postal_Museum_(Liechtenstein)"
+        }
+      }
     }
   ]
 }

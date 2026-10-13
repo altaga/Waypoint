@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Blantyre with collections on natural history and local culture.",
-        "es": "Museo en Blantyre con colecciones de historia natural y cultura local."
+        "en": "The Chichiri Museum, also known as the Museum of Malawi, is a historical and cultural museum located in Blantyre, Malawi.",
+        "es": "El Museo Chichiri, también conocido como Museo de Malaui, se encuentra emplazado en el centro cívico de Blantyre en la colina Chichiri, y es el mayor centro de exposiciones tanto…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Chichiri Museum",
+          "url": "https://en.wikipedia.org/wiki/Chichiri_Museum"
+        },
+        "es": {
+          "title": "Museo Chichiri",
+          "url": "https://es.wikipedia.org/wiki/Museo_Chichiri"
+        }
+      }
     },
     {
       "id": "mw-q17560921",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Cultural and museum centre in Karonga, northern Malawi, with local history displays.",
-        "es": "Centro cultural y museo en Karonga, norte de Malaui, con exposiciones de historia local."
+        "en": "The Cultural & Museum Centre Karonga (CMCK), commonly called Karonga Museum, is a cultural centre and museum in Karonga District, northern Malawi.",
+        "es": "El Museo Karonga es un centro cultural y museo del distrito de Karonga, al norte de Malawi."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Karonga Museum",
+          "url": "https://en.wikipedia.org/wiki/Karonga_Museum"
+        },
+        "es": {
+          "title": "Museo Karonga",
+          "url": "https://es.wikipedia.org/wiki/Museo_Karonga"
+        }
+      }
     }
   ]
 }

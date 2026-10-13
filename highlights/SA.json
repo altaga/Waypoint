@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,26 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Grand Mosque in Mecca surrounding the Kaaba.",
-        "es": "Gran Mezquita de La Meca que rodea la Kaaba."
+        "en": "Masjid al-Haram, also known as the Great Mosque of Mecca, is a mosque in Mecca, Saudi Arabia, serving as the holiest and most important mosque in Islam.",
+        "es": "La Gran Mezquita de La Meca, conocida en árabe como al-Másyid al-Haram, es la mezquita más grande del mundo."
       },
       "sourceId": "wikidata",
-      "admission": "Non-Muslims are not permitted to enter Mecca."
+      "admission": "Non-Muslims are not permitted to enter Mecca.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Masjid al-Haram",
+          "url": "https://en.wikipedia.org/wiki/Masjid_al-Haram"
+        },
+        "es": {
+          "title": "Gran Mezquita de La Meca",
+          "url": "https://es.wikipedia.org/wiki/Gran_Mezquita_de_La_Meca"
+        }
+      }
     },
     {
       "id": "sa-q486080",
@@ -50,11 +71,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Mosque in Medina containing the tomb of the Prophet Muhammad.",
-        "es": "Mezquita en Medina que alberga la tumba del profeta Mahoma."
+        "en": "The Prophet's Mosque is the second mosque built by the Islamic prophet Muhammad in Medina, after the Quba Mosque, as well as the second largest mosque and holiest site in…",
+        "es": "La Mezquita del Profeta es una mezquita establecida y construida originalmente por el profeta islámico Mahoma, ubicada en Medina, en la región de Hiyaz en Arabia Saudita."
       },
       "sourceId": "wikidata",
-      "admission": "Access rules for non-Muslims are strict; check current rules before going."
+      "admission": "Access rules for non-Muslims are strict; check current rules before going.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Prophet's Mosque",
+          "url": "https://en.wikipedia.org/wiki/Prophet's_Mosque"
+        },
+        "es": {
+          "title": "Mezquita del Profeta",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_del_Profeta"
+        }
+      }
     },
     {
       "id": "sa-q656743",
@@ -68,10 +104,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Skyscraper in Riyadh known for its skybridge.",
-        "es": "Rascacielos de Riad conocido por su puente mirador."
+        "en": "Kingdom Centre, formerly Kingdom Tower, is a 99-story, 302.3 m (992 ft) skyscraper in the al-Olaya district of Riyadh, Saudi Arabia.",
+        "es": "El Centro del Reino es un rascacielos situado en la ciudad de Riad, en Arabia Saudita."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kingdom Centre",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_Centre"
+        },
+        "es": {
+          "title": "Kingdom Centre",
+          "url": "https://es.wikipedia.org/wiki/Kingdom_Centre"
+        }
+      }
     },
     {
       "id": "sa-q751987",
@@ -85,10 +136,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Historic mud-brick fort in Riyadh, now a history museum.",
+        "en": "Al Masmak Palace, also called the Masmak Fortress or Masmak Fort, is a historic clay and mudbrick fort in the ad-Dirah neighborhood of Riyadh, Saudi Arabia, located in close proximity…",
         "es": "Antigua fortaleza de adobe en Riad, hoy museo de historia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Al Masmak Palace",
+          "url": "https://en.wikipedia.org/wiki/Al_Masmak_Palace"
+        }
+      }
     },
     {
       "id": "sa-q5701241",
@@ -102,10 +164,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum at the historic Hejaz Railway station in Medina.",
+        "en": "The Hejaz Railway Museum is a railway museum in Medina, Saudi Arabia.",
         "es": "Museo en la antigua estación del ferrocarril del Hiyaz, en Medina."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Hejaz Railway Museum",
+          "url": "https://en.wikipedia.org/wiki/Hejaz_Railway_Museum"
+        }
+      }
     },
     {
       "id": "sa-q6172700",
@@ -119,10 +192,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Regional museum in Jeddah on archaeology and ethnography.",
+        "en": "The Khuzam Palace is a major palace and museum in Jeddah, Saudi Arabia.",
         "es": "Museo regional en Yeda sobre arqueología y etnografía."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Khuzam Palace",
+          "url": "https://en.wikipedia.org/wiki/Khuzam_Palace"
+        }
+      }
     }
   ]
 }

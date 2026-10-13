@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum of visual arts in Montevideo.",
-        "es": "Museo nacional de artes visuales en Montevideo."
+        "en": "National Museum of Visual Arts (Uruguay) (Spanish: Museo Nacional de Artes Visuales) a museum in Parque Rodó, Montevideo, Uruguay.",
+        "es": "El Museo Nacional de Artes Visuales es la institución que alberga la mayor colección pública de pintura y escultura de Uruguay, así como una destacada selección de arte extranjero."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Visual Arts (Uruguay)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Visual_Arts_(Uruguay)"
+        },
+        "es": {
+          "title": "Museo Nacional de Artes Visuales",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Artes_Visuales"
+        }
+      }
     },
     {
       "id": "uy-q16609962",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum on Uruguay's recent political history, in Montevideo.",
-        "es": "Museo sobre la historia política reciente de Uruguay, en Montevideo."
+        "en": "Museo de la Memoria (MUME) is a museum in Montevideo, Uruguay dedicated to the memory of those or died or were \"disappeared\" during the Uruguayan dictatorship of 1973 to 1985.",
+        "es": "El Museo de la Memoria, es un museo dedicado a la recuperación de la memoria sobre el terrorismo de Estado y la lucha contra la dictadura cívico-militar uruguaya del periodo…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo de la Memoria (Uruguay)",
+          "url": "https://en.wikipedia.org/wiki/Museo_de_la_Memoria_(Uruguay)"
+        },
+        "es": {
+          "title": "Museo de la Memoria (Montevideo)",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Memoria_(Montevideo)"
+        }
+      }
     },
     {
       "id": "uy-q1570412",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum of works by Joaquín Torres García in Montevideo.",
-        "es": "Museo con obras de Joaquín Torres García en Montevideo."
+        "en": "The Museo Torres García is located in the historic Ciudad Vieja of Montevideo where unusual portraits of historical icons and cubist paintings akin to Picasso's paintings, painted by Joaquín Torres…",
+        "es": "El Museo Torres García, se encuentra ubicado en la peatonal Sarandí 683, Ciudad Vieja en Montevideo, Uruguay."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo Torres García",
+          "url": "https://en.wikipedia.org/wiki/Museo_Torres_Garc%C3%ADa"
+        },
+        "es": {
+          "title": "Museo Torres García",
+          "url": "https://es.wikipedia.org/wiki/Museo_Torres_Garc%C3%ADa"
+        }
+      }
     },
     {
       "id": "uy-q3328392",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Natural history museum in Montevideo.",
-        "es": "Museo de historia natural en Montevideo."
+        "en": "The National Museum of Natural History in Montevideo is a natural history museum in Uruguay.",
+        "es": "El Museo Nacional de Historia Natural, es la primera institución científica y museológica del Uruguay, una de las más antiguas del continente."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Natural History, Uruguay",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Natural_History%2C_Uruguay"
+        },
+        "es": {
+          "title": "Museo Nacional de Historia Natural de Uruguay",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Historia_Natural_de_Uruguay"
+        }
+      }
     },
     {
       "id": "uy-q3816749",
@@ -102,10 +168,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum of pre-Columbian and Indigenous art in Montevideo.",
-        "es": "Museo de arte precolombino e indígena en Montevideo."
+        "en": "The Museum of Pre-Columbian and Indigenous Art is an ethnographic museum located in Ciudad Vieja, Montevideo, Uruguay, dedicated to the indigenous cultures of different parts of Latin America.",
+        "es": "El Museo de Arte Precolombino e Indígena (MAPI) es un organismo uruguayo, dependiente del Departamento de Cultura de la Intendencia de Montevideo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Pre-Columbian and Indigenous Art",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Pre-Columbian_and_Indigenous_Art"
+        },
+        "es": {
+          "title": "Museo de Arte Precolombino e Indígena",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Precolombino_e_Ind%C3%ADgena"
+        }
+      }
     },
     {
       "id": "uy-q957021",
@@ -119,10 +200,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum on human history and technology in Salto.",
-        "es": "Museo sobre la historia humana y la tecnología en Salto."
+        "en": "Museo del Hombre y la Tecnología is located in Salto Department, Uruguay.",
+        "es": "El Museo del Hombre y la Tecnología - Néstor Minutti es un museo de la ciudad de Salto, capital del departamento homónimo, dedicado a documentar la historia y el desarrollo…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo del Hombre y la Tecnología",
+          "url": "https://en.wikipedia.org/wiki/Museo_del_Hombre_y_la_Tecnolog%C3%ADa"
+        },
+        "es": {
+          "title": "Museo del Hombre y la Tecnología",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Hombre_y_la_Tecnolog%C3%ADa"
+        }
+      }
     },
     {
       "id": "uy-q3817068",
@@ -136,10 +232,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Aviation museum of the Uruguayan Air Force.",
-        "es": "Museo de aviación de la Fuerza Aérea Uruguaya."
+        "en": "The Colonel Jaime Meregalli Aeronautical Museum in an aviation museum located in Ciudad de la Costa, Canelones.",
+        "es": "El Museo Aeronáutico Coronel (Aviador) Jaime Meregalli es un museo militar y aeronáutico de Uruguay dedicado a la historia de la aviación nacional y mundial."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Colonel Jaime Meregalli Aeronautical Museum",
+          "url": "https://en.wikipedia.org/wiki/Colonel_Jaime_Meregalli_Aeronautical_Museum"
+        },
+        "es": {
+          "title": "Museo Aeronáutico Coronel (Aviador) Jaime Meregalli",
+          "url": "https://es.wikipedia.org/wiki/Museo_Aeron%C3%A1utico_Coronel_(Aviador)_Jaime_Meregalli"
+        }
+      }
     },
     {
       "id": "uy-q1438902",
@@ -153,10 +264,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Historic fortress on the coast in Rocha Department.",
-        "es": "Antigua fortaleza junto a la costa, en el departamento de Rocha."
+        "en": "The Fortaleza de Santa Teresa, or Fortaleza Santa Tereza is a military fortification located 36 km (22 mi) south of Chuy and 305 km (190 mi) northeast of Montevideo on…",
+        "es": "La fortaleza de Santa Teresa es una antigua fortificación de Uruguay ubicada en el departamento de Rocha, a 305 kilómetros de Montevideo y a 36 kilómetros de la localidad internacional…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Fortaleza de Santa Teresa",
+          "url": "https://en.wikipedia.org/wiki/Fortaleza_de_Santa_Teresa"
+        },
+        "es": {
+          "title": "Fortaleza de Santa Teresa",
+          "url": "https://es.wikipedia.org/wiki/Fortaleza_de_Santa_Teresa"
+        }
+      }
     },
     {
       "id": "uy-q1055949",
@@ -170,10 +296,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Hill overlooking the coast of Piriápolis.",
-        "es": "Colina con vistas a la costa de Piriápolis."
+        "en": "Cerro San Antonio is a hill in Maldonado Department, Uruguay.",
+        "es": "El Cerro San Antonio, también llamado Cerro del Inglés, es un cerro que se encuentra en Piriápolis."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Cerro San Antonio, Piriápolis",
+          "url": "https://en.wikipedia.org/wiki/Cerro_San_Antonio%2C_Piri%C3%A1polis"
+        },
+        "es": {
+          "title": "Cerro San Antonio",
+          "url": "https://es.wikipedia.org/wiki/Cerro_San_Antonio"
+        }
+      }
     },
     {
       "id": "uy-q987058",
@@ -187,10 +328,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Historic site in Maldonado Department.",
-        "es": "Sitio histórico en el departamento de Maldonado."
+        "en": "El Tesoro is a resort in the Maldonado Department of southeastern Uruguay.",
+        "es": "El Tesoro es una localidad uruguaya del departamento de Maldonado que forma parte del municipio de San Carlos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "El Tesoro, Maldonado",
+          "url": "https://en.wikipedia.org/wiki/El_Tesoro%2C_Maldonado"
+        },
+        "es": {
+          "title": "El Tesoro (Uruguay)",
+          "url": "https://es.wikipedia.org/wiki/El_Tesoro_(Uruguay)"
+        }
+      }
     }
   ]
 }

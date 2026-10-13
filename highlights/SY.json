@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,11 +39,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Historic mosque in the old city of Damascus, with a large courtyard.",
-        "es": "Antigua mezquita en la ciudad vieja de Damasco, con un gran patio."
+        "en": "The Umayyad Mosque, also known as the Great Mosque of Damascus, located in the old city of Damascus, the capital of Syria, is one of the largest and oldest mosques…",
+        "es": "La Mezquita de los Omeyas o Gran Mezquita de Damasco es la mezquita más importante en Damasco, la capital de Siria, y una de las más antiguas y grandes del…"
       },
       "sourceId": "wikidata",
-      "admission": "Serious security risks: check current government travel advice before any visit."
+      "admission": "Serious security risks: check current government travel advice before any visit.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Umayyad Mosque",
+          "url": "https://en.wikipedia.org/wiki/Umayyad_Mosque"
+        },
+        "es": {
+          "title": "Mezquita de los Omeyas",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_de_los_Omeyas"
+        }
+      }
     },
     {
       "id": "sy-q617254",
@@ -51,11 +72,26 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum with collections on Syria's archaeology and history, in Damascus.",
-        "es": "Museo nacional con colecciones sobre la arqueología e historia de Siria, en Damasco."
+        "en": "The National Museum of Damascus is a museum in the heart of Damascus, Syria.",
+        "es": "El Museo Nacional de Damasco es el museo más importante de Siria."
       },
       "sourceId": "wikidata",
-      "admission": "Serious security risks: check current government travel advice before any visit."
+      "admission": "Serious security risks: check current government travel advice before any visit.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Damascus",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Damascus"
+        },
+        "es": {
+          "title": "Museo Nacional de Damasco",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Damasco"
+        }
+      }
     },
     {
       "id": "sy-q1164599",
@@ -69,11 +105,22 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum with archaeological collections, in Aleppo.",
+        "en": "The National Museum of Aleppo is the largest museum in the city of Aleppo, Syria, and was founded in 1931.",
         "es": "Museo nacional con colecciones arqueológicas, en Alepo."
       },
       "sourceId": "wikidata",
-      "admission": "Serious security risks: check current government travel advice before any visit."
+      "admission": "Serious security risks: check current government travel advice before any visit.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Aleppo",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Aleppo"
+        }
+      }
     },
     {
       "id": "sy-q1749276",
@@ -87,11 +134,26 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Historic cathedral in the port city of Tartus.",
-        "es": "Catedral histórica en la ciudad portuaria de Tartús."
+        "en": "The Cathedral of Our Lady of Tortosa was a Catholic cathedral in the city of Tartus, Syria.",
+        "es": "La Catedral de Nuestra Señora de Tortosa fue una catedral de la era de las cruzadas en la ciudad de Tartus, hoy parte de Siria."
       },
       "sourceId": "wikidata",
-      "admission": "Serious security risks: check current government travel advice before any visit."
+      "admission": "Serious security risks: check current government travel advice before any visit.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Cathedral of Our Lady of Tortosa",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_Our_Lady_of_Tortosa"
+        },
+        "es": {
+          "title": "Catedral de Nuestra Señora de Tartús",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Nuestra_Se%C3%B1ora_de_Tart%C3%BAs"
+        }
+      }
     },
     {
       "id": "sy-q632127",
@@ -105,11 +167,26 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Medieval hospital complex in the old city of Damascus.",
-        "es": "Antiguo complejo hospitalario medieval en la ciudad vieja de Damasco."
+        "en": "Nur al-Din Bimaristan is a large Muslim medieval bimaristan (\"hospital\") in Damascus, Syria.",
+        "es": "Bimaristán de Nur ad-Din es un gran bimaristán localizado en Damasco, Siria."
       },
       "sourceId": "wikidata",
-      "admission": "Serious security risks: check current government travel advice before any visit."
+      "admission": "Serious security risks: check current government travel advice before any visit.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nur al-Din Bimaristan",
+          "url": "https://en.wikipedia.org/wiki/Nur_al-Din_Bimaristan"
+        },
+        "es": {
+          "title": "Bimaristán de Nur ad-Din",
+          "url": "https://es.wikipedia.org/wiki/Bimarist%C3%A1n_de_Nur_ad-Din"
+        }
+      }
     },
     {
       "id": "sy-q55627273",
@@ -123,11 +200,22 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Panoramic museum display on the 1973 October War, in Damascus.",
+        "en": "The October War Panorama is a National museum located in Damascus, Syria which commemorates the memory of the 1973 October War between Egypt and Syria against Israel from a Syrian…",
         "es": "Museo panorámico sobre la guerra de octubre de 1973, en Damasco."
       },
       "sourceId": "wikidata",
-      "admission": "Serious security risks: check current government travel advice before any visit."
+      "admission": "Serious security risks: check current government travel advice before any visit.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "October War Panorama",
+          "url": "https://en.wikipedia.org/wiki/October_War_Panorama"
+        }
+      }
     }
   ]
 }

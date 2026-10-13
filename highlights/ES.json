@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "es-tourism": {
       "title": "Turespaña (Spain.info)",
       "url": "https://www.spain.info/en/",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -35,7 +41,11 @@
         "en": "Gaudí's basilica, still under construction. Book entry times ahead.",
         "es": "La basílica de Gaudí, aún en construcción. Reserva horario de entrada."
       },
-      "sourceId": "es-tourism"
+      "sourceId": "es-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "es-park-guell",
@@ -53,7 +63,11 @@
         "en": "Gaudí's park with mosaic benches and city views.",
         "es": "El parque de Gaudí, con bancos de mosaico y vistas de la ciudad."
       },
-      "sourceId": "es-tourism"
+      "sourceId": "es-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "es-boqueria",
@@ -70,7 +84,11 @@
         "en": "Historic covered market with fruit, jamón and tapas bars.",
         "es": "Mercado histórico con frutas, jamón y barras de tapas."
       },
-      "sourceId": "es-tourism"
+      "sourceId": "es-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "es-prado",
@@ -88,7 +106,11 @@
         "en": "One of the world's great painting collections.",
         "es": "Una de las grandes colecciones de pintura del mundo."
       },
-      "sourceId": "es-tourism"
+      "sourceId": "es-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "es-retiro",
@@ -105,7 +127,11 @@
         "en": "Large park with a lake and the Crystal Palace.",
         "es": "Gran parque con un lago y el Palacio de Cristal."
       },
-      "sourceId": "es-tourism"
+      "sourceId": "es-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "es-mercado-san-miguel",
@@ -122,7 +148,11 @@
         "en": "Iron-and-glass market hall with tapas stalls.",
         "es": "Mercado de hierro y cristal con puestos de tapas."
       },
-      "sourceId": "es-tourism"
+      "sourceId": "es-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "es-alhambra",
@@ -139,7 +169,11 @@
         "en": "Nasrid palace complex. Tickets sell out, book early.",
         "es": "Complejo palaciego nazarí. Los boletos se agotan, reserva con tiempo."
       },
-      "sourceId": "es-tourism"
+      "sourceId": "es-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "es-sevilla-cathedral",
@@ -156,7 +190,11 @@
         "en": "Gothic cathedral with the Giralda bell tower.",
         "es": "Catedral gótica con la torre de la Giralda."
       },
-      "sourceId": "es-tourism"
+      "sourceId": "es-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

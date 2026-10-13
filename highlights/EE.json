@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Art museum in Tallinn focused on Estonian art.",
-        "es": "Museo de arte en Tallin, centrado en el arte estonio."
+        "en": "The Kumu Art Museum is an art museum in Tallinn, Estonia.",
+        "es": "Kumu es un museo de arte en Tallin, Estonia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kumu (museum)",
+          "url": "https://en.wikipedia.org/wiki/Kumu_(museum)"
+        },
+        "es": {
+          "title": "Kumu (museo)",
+          "url": "https://es.wikipedia.org/wiki/Kumu_(museo)"
+        }
+      }
     },
     {
       "id": "ee-q625590",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum in Tallinn on occupation and freedom in Estonia's twentieth-century history.",
-        "es": "Museo en Tallin sobre la ocupación y la libertad en la historia estonia del siglo XX."
+        "en": "The Vabamu or Vabamu Museum of Occupations and Freedom tells the history of Estonia during and after the Soviet and Nazi occupations, arriving at the era of restoration of independence.",
+        "es": "El Museo de las Ocupaciones de Tallin, Estonia, permanece ubicado en la esquina de la calle de Toompea y el Bulevar de Kaarli."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Vabamu Museum of Occupations and Freedom",
+          "url": "https://en.wikipedia.org/wiki/Vabamu_Museum_of_Occupations_and_Freedom"
+        },
+        "es": {
+          "title": "Museo de las Ocupaciones",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_las_Ocupaciones"
+        }
+      }
     },
     {
       "id": "ee-q12361299",
@@ -67,10 +103,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Natural history museum in Tallinn with exhibits on Estonian nature.",
+        "en": "The Estonian Museum of Natural History is the Estonian national museum for natural history.",
         "es": "Museo de historia natural en Tallin con exposiciones sobre la naturaleza de Estonia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Estonian Museum of Natural History",
+          "url": "https://en.wikipedia.org/wiki/Estonian_Museum_of_Natural_History"
+        }
+      }
     },
     {
       "id": "ee-q946301",
@@ -83,10 +130,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Botanic garden in Tartu with plant collections from around the world.",
-        "es": "Jardín botánico en Tartu con colecciones de plantas de todo el mundo."
+        "en": "University of Tartu Botanical Garden, is a botanical garden in Tartu, Estonia.",
+        "es": "El Jardín Botánico de la Universidad de Tartu es un jardín botánico de unas 3 hectáreas de extensión que se encuentra en Tartu, Estonia, siendo administrado por la Universidad de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "University of Tartu Botanical Garden",
+          "url": "https://en.wikipedia.org/wiki/University_of_Tartu_Botanical_Garden"
+        },
+        "es": {
+          "title": "Jardín Botánico de la Universidad de Tartu",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_de_la_Universidad_de_Tartu"
+        }
+      }
     },
     {
       "id": "ee-q2790284",
@@ -101,10 +163,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Visitor centre on Estonia's ice age history and landscapes.",
+        "en": "The Ice Age Centre is a museum dedicated to the understanding of ice ages, located in Äksi village, Tartu County, Estonia.",
         "es": "Centro de visitantes sobre la historia y los paisajes de la era glacial en Estonia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ice Age Centre",
+          "url": "https://en.wikipedia.org/wiki/Ice_Age_Centre"
+        }
+      }
     },
     {
       "id": "ee-q720876",
@@ -118,10 +191,21 @@
       ],
       "durationMinutes": 30,
       "desc": {
-        "en": "Bronze statue in Tallinn of Suur Tõll, a figure from Estonian folklore.",
+        "en": "Suur Tõll is an Estonian steam-powered icebreaker preserved in the Estonian Maritime Museum in Tallinn.",
         "es": "Estatua de bronce en Tallin de Suur Tõll, figura del folclore estonio."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Suur Tõll (icebreaker)",
+          "url": "https://en.wikipedia.org/wiki/Suur_T%C3%B5ll_(icebreaker)"
+        }
+      }
     },
     {
       "id": "ee-q12376504",
@@ -135,10 +219,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Tartu on the university's history and collections.",
+        "en": "University of Tartu Museum is the museum for the University of Tartu.",
         "es": "Museo en Tartu sobre la historia y las colecciones de la universidad."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "University of Tartu Museum",
+          "url": "https://en.wikipedia.org/wiki/University_of_Tartu_Museum"
+        }
+      }
     },
     {
       "id": "ee-q5401903",
@@ -152,10 +247,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Former sea-fortress prison in Tallinn, with visits on its history.",
+        "en": "Patarei Prison, also known as Patarei Sea Fortress and Tallinn Central Prison, commonly known as The Battery (Patarei), is a building complex in Kalamaja district of Tallinn, Estonia.",
         "es": "Antigua prisión en una fortaleza marítima de Tallin, con visitas sobre su historia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Patarei Prison",
+          "url": "https://en.wikipedia.org/wiki/Patarei_Prison"
+        }
+      }
     },
     {
       "id": "ee-q12376513",
@@ -169,10 +275,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Art museum in Tartu with a collection of Estonian and European art.",
+        "en": "University of Tartu Art Museum is an art museum in Tartu, Estonia.",
         "es": "Museo de arte en Tartu con una colección de arte estonio y europeo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "University of Tartu Art Museum",
+          "url": "https://en.wikipedia.org/wiki/University_of_Tartu_Art_Museum"
+        }
+      }
     }
   ]
 }

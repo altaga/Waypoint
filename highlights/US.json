@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,26 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Monument on Liberty Island in New York Harbor.",
-        "es": "Monumento en la isla de la Libertad, en el puerto de Nueva York."
+        "en": "The Statue of Liberty is a colossal neoclassical sculpture of a robed and crowned woman on Liberty Island, part of New York City, in New York Harbor.",
+        "es": "La Libertad iluminando el mundo, más conocida como la Estatua de la Libertad, es uno de los monumentos más famosos de Nueva York, de los Estados Unidos y de todo…"
       },
       "sourceId": "wikidata",
-      "admission": "Ferry tickets to Liberty Island are timed; book ahead."
+      "admission": "Ferry tickets to Liberty Island are timed; book ahead.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Statue of Liberty",
+          "url": "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+        },
+        "es": {
+          "title": "Estatua de la Libertad",
+          "url": "https://es.wikipedia.org/wiki/Estatua_de_la_Libertad"
+        }
+      }
     },
     {
       "id": "us-q160236",
@@ -51,10 +72,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Art museum on Fifth Avenue in Manhattan.",
-        "es": "Museo de arte en la Quinta Avenida de Manhattan."
+        "en": "The Metropolitan Museum of Art, colloquially referred to as the Met, is an encyclopedic art museum in New York City.",
+        "es": "El Museo Metropolitano de Arte es uno de los museos de arte más destacados del mundo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Metropolitan Museum of Art",
+          "url": "https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art"
+        },
+        "es": {
+          "title": "Museo Metropolitano de Arte",
+          "url": "https://es.wikipedia.org/wiki/Museo_Metropolitano_de_Arte"
+        }
+      }
     },
     {
       "id": "us-q188740",
@@ -68,10 +104,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Modern art museum in Midtown Manhattan.",
-        "es": "Museo de arte moderno en Midtown Manhattan."
+        "en": "The Museum of Modern Art (MoMA) is an art museum located in Midtown Manhattan, New York City, on 53rd Street between Fifth and Sixth Avenues.",
+        "es": "El Museum of Modern Art, más conocido por su acrónimo MoMA, es un museo de arte situado en el Midtown de Manhattan Estados Unidos), en la intersección de las calles…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Modern Art",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Modern_Art"
+        },
+        "es": {
+          "title": "MoMA",
+          "url": "https://es.wikipedia.org/wiki/MoMA"
+        }
+      }
     },
     {
       "id": "us-q201469",
@@ -86,10 +137,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Modern art museum with a spiral building in Manhattan.",
-        "es": "Museo de arte moderno con un edificio en espiral en Manhattan."
+        "en": "The Solomon R. Guggenheim Museum, often referred to as The Guggenheim, is an art museum at 1071 Fifth Avenue between 88th and 89th Streets on the Upper East Side of…",
+        "es": "El Museo Solomon R. Guggenheim, comúnmente conocido como El Guggenheim, es un museo de arte localizado en el número 1071 de la Quinta Avenida y la esquina de la calle…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Solomon R. Guggenheim Museum",
+          "url": "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum"
+        },
+        "es": {
+          "title": "Museo Solomon R. Guggenheim",
+          "url": "https://es.wikipedia.org/wiki/Museo_Solomon_R._Guggenheim"
+        }
+      }
     },
     {
       "id": "us-q217717",
@@ -104,10 +170,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Natural history museum on the Upper West Side of Manhattan.",
-        "es": "Museo de historia natural en el Upper West Side de Manhattan."
+        "en": "The American Museum of Natural History (AMNH) is a natural history museum on the Upper West Side of Manhattan in New York City.",
+        "es": "El Museo Americano de Historia Natural, ubicado en el Upper West Side de Manhattan en Nueva York, Estados Unidos, es uno de los mayores y más famosos museos de historia…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "American Museum of Natural History",
+          "url": "https://en.wikipedia.org/wiki/American_Museum_of_Natural_History"
+        },
+        "es": {
+          "title": "Museo Americano de Historia Natural",
+          "url": "https://es.wikipedia.org/wiki/Museo_Americano_de_Historia_Natural"
+        }
+      }
     },
     {
       "id": "us-q179191",
@@ -121,10 +202,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Museum of rock music history in Cleveland.",
-        "es": "Museo de la historia de la música rock en Cleveland."
+        "en": "The Rock and Roll Hall of Fame (RRHOF), also simply referred to as the Rock Hall, is a museum and hall of fame located in downtown Cleveland, Ohio, United States,…",
+        "es": "El Salón de la Fama del Rock and Roll es un museo situado en Cleveland dedicado al recuerdo y memoria de los artistas más famosos e influyentes en la industria…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Rock and Roll Hall of Fame",
+          "url": "https://en.wikipedia.org/wiki/Rock_and_Roll_Hall_of_Fame"
+        },
+        "es": {
+          "title": "Salón de la Fama del Rock and Roll",
+          "url": "https://es.wikipedia.org/wiki/Sal%C3%B3n_de_la_Fama_del_Rock_and_Roll"
+        }
+      }
     },
     {
       "id": "us-q9219",
@@ -138,10 +234,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "US Army military academy with a historic campus in West Point, New York.",
-        "es": "Academia militar del Ejército de EE. UU. con un campus histórico en West Point, Nueva York."
+        "en": "The United States Military Academy (USMA), commonly known as West Point, is a United States service academy in West Point, New York, that educates cadets for service as commissioned officers…",
+        "es": "La Academia Militar de los Estados Unidos (USMA), también conocida como West Point, es una escuela militar creada en 1802, por lo que es el instituto de formación militar más…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "United States Military Academy",
+          "url": "https://en.wikipedia.org/wiki/United_States_Military_Academy"
+        },
+        "es": {
+          "title": "Academia Militar de los Estados Unidos",
+          "url": "https://es.wikipedia.org/wiki/Academia_Militar_de_los_Estados_Unidos"
+        }
+      }
     },
     {
       "id": "us-q463179",
@@ -155,11 +266,26 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Frank Lloyd Wright house built over a waterfall in Pennsylvania.",
-        "es": "Casa de Frank Lloyd Wright construida sobre una cascada en Pensilvania."
+        "en": "Fallingwater is a house museum in Stewart Township in the Laurel Highlands of southwestern Pennsylvania, United States.",
+        "es": "La residencia Kaufmann, más conocida como la casa de la cascada, es una vivienda diseñada por el arquitecto estadounidense Frank Lloyd Wright, y construida entre 1936 y 1939 sobre una…"
       },
       "sourceId": "wikidata",
-      "admission": "Tours by reservation only; book ahead."
+      "admission": "Tours by reservation only; book ahead.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Fallingwater",
+          "url": "https://en.wikipedia.org/wiki/Fallingwater"
+        },
+        "es": {
+          "title": "Casa de la cascada",
+          "url": "https://es.wikipedia.org/wiki/Casa_de_la_cascada"
+        }
+      }
     },
     {
       "id": "us-q181185",
@@ -173,11 +299,26 @@
       ],
       "durationMinutes": 480,
       "desc": {
-        "en": "Theme park in Anaheim, California.",
-        "es": "Parque temático en Anaheim, California."
+        "en": "Disneyland is a theme park at the Disneyland Resort in Anaheim, California, United States.",
+        "es": "Disneyland, oficialmente Disneyland Park desde los años 1950, y también conocido como Disneylandia en español, es un parque temático situado en Anaheim."
       },
       "sourceId": "wikidata",
-      "admission": "Park tickets are required; check the official site for reservations."
+      "admission": "Park tickets are required; check the official site for reservations.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Disneyland",
+          "url": "https://en.wikipedia.org/wiki/Disneyland"
+        },
+        "es": {
+          "title": "Disneyland",
+          "url": "https://es.wikipedia.org/wiki/Disneyland"
+        }
+      }
     },
     {
       "id": "us-q206859",
@@ -191,11 +332,26 @@
       ],
       "durationMinutes": 480,
       "desc": {
-        "en": "Theme park resort near Orlando, Florida.",
-        "es": "Complejo de parques temáticos cerca de Orlando, Florida."
+        "en": "Walt Disney World Resort is an entertainment and vacation resort complex located about 20 miles (32 km) southwest of Orlando, Florida, United States.",
+        "es": "El Walt Disney World Resort, también conocido como Disney World, es un complejo turístico famoso por sus parques temáticos y numerosos hoteles."
       },
       "sourceId": "wikidata",
-      "admission": "Park tickets are required; check the official site for reservations."
+      "admission": "Park tickets are required; check the official site for reservations.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Walt Disney World",
+          "url": "https://en.wikipedia.org/wiki/Walt_Disney_World"
+        },
+        "es": {
+          "title": "Walt Disney World Resort",
+          "url": "https://es.wikipedia.org/wiki/Walt_Disney_World_Resort"
+        }
+      }
     },
     {
       "id": "us-q242681",
@@ -208,11 +364,26 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Cave system and national park in Kentucky.",
-        "es": "Sistema de cuevas y parque nacional en Kentucky."
+        "en": "Mammoth Cave National Park is a national park of the United States in south-central Kentucky.",
+        "es": "El Parque Nacional Cueva Colosal es un parque nacional de los Estados Unidos en el centro de Kentucky, que comprende partes de la Cueva Colosal, el sistema de cuevas más…"
       },
       "sourceId": "wikidata",
-      "admission": "Cave tours need tickets; some sell out, so book ahead."
+      "admission": "Cave tours need tickets; some sell out, so book ahead.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mammoth Cave National Park",
+          "url": "https://en.wikipedia.org/wiki/Mammoth_Cave_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Mammoth Cave",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Mammoth_Cave"
+        }
+      }
     },
     {
       "id": "us-q131626",
@@ -227,10 +398,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Group of museums, many free of charge, on the National Mall.",
-        "es": "Conjunto de museos, muchos gratuitos, en el National Mall."
+        "en": "The Smithsonian Institution is a group of museums, education and research centers, created by the United States federal government \"for the increase and diffusion of knowledge\".",
+        "es": "La Institución Smithsonian es una organización estadounidense dedicada a la investigación científica."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Smithsonian Institution",
+          "url": "https://en.wikipedia.org/wiki/Smithsonian_Institution"
+        },
+        "es": {
+          "title": "Institución Smithsonian",
+          "url": "https://es.wikipedia.org/wiki/Instituci%C3%B3n_Smithsonian"
+        }
+      }
     },
     {
       "id": "us-q180376",
@@ -243,11 +429,26 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Landmark sign on Mount Lee, best seen from official viewpoints.",
-        "es": "Letrero emblemático en el monte Lee, mejor visto desde miradores oficiales."
+        "en": "The Hollywood Sign is an American landmark and cultural icon overlooking Hollywood, Los Angeles.",
+        "es": "Hollywood Sign es el nombre con el que se conoce al famoso letrero gigantesco situado en una colina conocida como Monte Lee, que forma parte del Parque Griffith, en el…"
       },
       "sourceId": "wikidata",
-      "admission": "Access to the sign area is restricted; use the official viewpoints."
+      "admission": "Access to the sign area is restricted; use the official viewpoints.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Hollywood Sign",
+          "url": "https://en.wikipedia.org/wiki/Hollywood_Sign"
+        },
+        "es": {
+          "title": "Hollywood Sign",
+          "url": "https://es.wikipedia.org/wiki/Hollywood_Sign"
+        }
+      }
     },
     {
       "id": "us-q71719",
@@ -261,10 +462,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Star-studded sidewalk on Hollywood Boulevard.",
-        "es": "Acera con estrellas en el Hollywood Boulevard."
+        "en": "The Hollywood Walk of Fame is a landmark with more than 2,800 five-pointed terrazzo-and-brass stars embedded in the sidewalks along fifteen blocks of Hollywood Boulevard and three blocks of Vine…",
+        "es": "El paseo de la fama de Hollywood es una acera a lo largo de Hollywood Boulevard y Vine Street, en Hollywood, California, Estados Unidos, en cuyo suelo están colocadas más…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Hollywood Walk of Fame",
+          "url": "https://en.wikipedia.org/wiki/Hollywood_Walk_of_Fame"
+        },
+        "es": {
+          "title": "Paseo de la fama de Hollywood",
+          "url": "https://es.wikipedia.org/wiki/Paseo_de_la_fama_de_Hollywood"
+        }
+      }
     },
     {
       "id": "us-q237128",
@@ -278,11 +494,26 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Cliff dwellings of the ancestral Puebloan people, a UNESCO site.",
-        "es": "Viviendas en acantilados de los antiguos pueblos ancestrales, sitio de la UNESCO."
+        "en": "Mesa Verde National Park is a national park of the United States and UNESCO World Heritage Site located in Montezuma County, Colorado, and the only World Heritage Site in Colorado.",
+        "es": "El parque nacional de Mesa Verde es un parque nacional de los Estados Unidos, declarado también Patrimonio de la Humanidad por la Unesco en 1978."
       },
       "sourceId": "wikidata",
-      "admission": "Some cliff dwellings need a ranger-guided tour booked in advance."
+      "admission": "Some cliff dwellings need a ranger-guided tour booked in advance.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mesa Verde National Park",
+          "url": "https://en.wikipedia.org/wiki/Mesa_Verde_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Mesa Verde",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Mesa_Verde"
+        }
+      }
     },
     {
       "id": "us-q333661",
@@ -296,10 +527,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Pre-Columbian city with earthen mounds, a UNESCO site.",
-        "es": "Ciudad precolombina con montículos de tierra, sitio de la UNESCO."
+        "en": "The Cahokia Mounds is the site of a Native American city which existed c. 1050 – c. 1350 AD, directly across the Mississippi River from present-day St. Louis.",
+        "es": "Cahokia o Cachokia es un yacimiento arqueológico amerindio situado cerca de Collinsville (Illinois), en la llanura del río Misisipi en el suroeste de dicho estado, cerca de la ciudad de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Cahokia",
+          "url": "https://en.wikipedia.org/wiki/Cahokia"
+        },
+        "es": {
+          "title": "Cahokia",
+          "url": "https://es.wikipedia.org/wiki/Cahokia"
+        }
+      }
     },
     {
       "id": "us-q390028",
@@ -313,11 +559,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Where the Declaration of Independence and the Constitution were debated.",
-        "es": "Donde se debatieron la Declaración de Independencia y la Constitución."
+        "en": "Independence Hall is a historic civic building in Philadelphia, Pennsylvania, where both the Declaration of Independence and the Constitution of the United States were debated and adopted by the Founding…",
+        "es": "Independence Hall es un monumento nacional de los Estados Unidos de América situado en Filadelfia (Pensilvania), en Chestnut Street, entre las calles Quinta y Sexta."
       },
       "sourceId": "wikidata",
-      "admission": "Timed entry tickets are recommended."
+      "admission": "Timed entry tickets are recommended.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Independence Hall",
+          "url": "https://en.wikipedia.org/wiki/Independence_Hall"
+        },
+        "es": {
+          "title": "Independence Hall",
+          "url": "https://es.wikipedia.org/wiki/Independence_Hall"
+        }
+      }
     },
     {
       "id": "us-q29247",
@@ -332,10 +593,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Art museum on a hilltop in Los Angeles, designed by Richard Meier.",
-        "es": "Museo de arte en una colina de Los Ángeles, diseñado por Richard Meier."
+        "en": "The Getty Center, in Los Angeles, California, US, is a campus of the Getty Museum and other programs of the Getty Trust.",
+        "es": "El Getty Center o Centro Getty se encuentra en el 1200 de la calle Getty Center Drive del barrio de Brentwood de Los Ángeles, California."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Getty Center",
+          "url": "https://en.wikipedia.org/wiki/Getty_Center"
+        },
+        "es": {
+          "title": "Getty Center",
+          "url": "https://es.wikipedia.org/wiki/Getty_Center"
+        }
+      }
     },
     {
       "id": "us-q632682",
@@ -350,10 +626,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Art and cultural museum in Brooklyn, New York.",
-        "es": "Museo de arte y cultura en Brooklyn, Nueva York."
+        "en": "The Brooklyn Museum is an art museum in the New York City borough of Brooklyn.",
+        "es": "El Museo Brooklyn, situado en el barrio de Brooklyn de la ciudad de Nueva York, es un museo de arte que contiene una colección de 1,5 millones de obras aproximadamente."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Brooklyn Museum",
+          "url": "https://en.wikipedia.org/wiki/Brooklyn_Museum"
+        },
+        "es": {
+          "title": "Museo Brooklyn",
+          "url": "https://es.wikipedia.org/wiki/Museo_Brooklyn"
+        }
+      }
     },
     {
       "id": "us-q49133",
@@ -367,10 +658,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Large art museum in Boston with collections from many cultures.",
-        "es": "Gran museo de arte en Boston con colecciones de muchas culturas."
+        "en": "The Museum of Fine Arts is an art museum in Boston, Massachusetts.",
+        "es": "El Museo de Bellas Artes de Boston, en Boston, Massachusetts, es uno de los museos más importantes de los Estados Unidos y contiene la segunda colección permanente más grande en…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Fine Arts, Boston",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Fine_Arts%2C_Boston"
+        },
+        "es": {
+          "title": "Museo de Bellas Artes (Boston)",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Bellas_Artes_(Boston)"
+        }
+      }
     }
   ]
 }

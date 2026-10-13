@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Accra with collections on Ghanaian history and culture.",
-        "es": "Museo nacional en Accra con colecciones sobre la historia y la cultura de Ghana."
+        "en": "The National Museum, also known as the National Museum of Ghana, is a museum located in Accra, Ghana.",
+        "es": "El Museo Nacional de Ghana se encuentra en la capital de Ghana, la ciudad de Acra."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Ghana",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Ghana"
+        },
+        "es": {
+          "title": "Museo Nacional de Ghana",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Ghana"
+        }
+      }
     },
     {
       "id": "gh-q1282665",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Regional museum in Ho with ethnographic and historical collections.",
-        "es": "Museo regional en Ho con colecciones etnográficas e históricas."
+        "en": "The Volta Regional Museum is a museum in Ho, Ghana.",
+        "es": "El Museo Regional del Volta es un museo situado en Ho (Ghana)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Volta Regional Museum",
+          "url": "https://en.wikipedia.org/wiki/Volta_Regional_Museum"
+        },
+        "es": {
+          "title": "Museo Regional de Volta",
+          "url": "https://es.wikipedia.org/wiki/Museo_Regional_de_Volta"
+        }
+      }
     },
     {
       "id": "gh-q6749385",
@@ -66,10 +102,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Palace of the Asantehene, the traditional ruler of the Ashanti.",
+        "en": "The Manhyia Palace is the seat of the Asantehene, as well as his official residence.",
         "es": "Palacio del Asantehene, el gobernante tradicional de los ashanti."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Manhyia Palace",
+          "url": "https://en.wikipedia.org/wiki/Manhyia_Palace"
+        }
+      }
     },
     {
       "id": "gh-q2585962",
@@ -83,10 +130,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on Yaa Asantewaa and Ashanti history, near Kumasi.",
-        "es": "Museo sobre Yaa Asantewaa y la historia ashanti, cerca de Kumasi."
+        "en": "The Yaa Asantewaa Museum is a museum in Ejisu Municipal District in the Ashanti Region of Ghana.",
+        "es": "El Museo Yaa Asantewaa es un museo en el Distrito Municipal de Ejisu, parte del país africano de Ghana."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Yaa Asantewaa Museum",
+          "url": "https://en.wikipedia.org/wiki/Yaa_Asantewaa_Museum"
+        },
+        "es": {
+          "title": "Museo Yaa Asantewaa",
+          "url": "https://es.wikipedia.org/wiki/Museo_Yaa_Asantewaa"
+        }
+      }
     },
     {
       "id": "gh-q98077924",
@@ -100,10 +162,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Science and technology museum in Accra.",
+        "en": "The Museum of Science and Technology in Accra, Ghana was established in 1963 and first opened its doors in 1965.",
         "es": "Museo de ciencia y tecnología en Accra."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Science and Technology (Accra)",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Science_and_Technology_(Accra)"
+        }
+      }
     }
   ]
 }

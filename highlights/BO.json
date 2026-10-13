@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Colonial-era silver mint in Potosí, now a museum.",
-        "es": "Antigua casa de moneda colonial de plata en Potosí, hoy museo."
+        "en": "The National Mint of Bolivia or the Mint of Potosí is a former mint located in the city of Potosí in Bolivia.",
+        "es": "La Casa Nacional de Moneda de Bolivia, conocida simplemente como la Casa Nacional de Moneda, es un museo y archivo histórico de Bolivia, ubicado en la ciudad de Potosí."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Mint of Bolivia",
+          "url": "https://en.wikipedia.org/wiki/National_Mint_of_Bolivia"
+        },
+        "es": {
+          "title": "Casa de la Moneda de Bolivia",
+          "url": "https://es.wikipedia.org/wiki/Casa_de_la_Moneda_de_Bolivia"
+        }
+      }
     },
     {
       "id": "bo-q1420258",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Archaeology museum in La Paz.",
-        "es": "Museo de arqueología en La Paz."
+        "en": "The National Museum of Archaeology of Bolivia is the national archaeology museum of Bolivia.",
+        "es": "El Museo Nacional de Arqueología (MUNARQ) es un museo público boliviano que forma parte de la Unidad de Arqueología y Museos dependiente de la Dirección General de Patrimonio Cultural del…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Archaeology, Bolivia",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Archaeology%2C_Bolivia"
+        },
+        "es": {
+          "title": "Museo Nacional de Arqueología (Bolivia)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arqueolog%C3%ADa_(Bolivia)"
+        }
+      }
     },
     {
       "id": "bo-q10333587",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Art museum in La Paz with colonial-era and later works.",
-        "es": "Museo de arte en La Paz con obras de la época colonial y posteriores."
+        "en": "The National Museum of Art, Palacio Diez de Medina is a museum in the city of La Paz, Bolivia.",
+        "es": "El Museo Nacional de Arte (MNA), es una de la instituciones museísticas y culturales más importantes de Bolivia, dependiente de la Fundación Cultural del Banco Central de Bolivia (FC-BCB)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Art, La Paz",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Art%2C_La_Paz"
+        },
+        "es": {
+          "title": "Museo Nacional de Arte (Palacio Diez de Medina)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_(Palacio_Diez_de_Medina)"
+        }
+      }
     },
     {
       "id": "bo-q6940534",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Art museum in El Alto.",
-        "es": "Museo de arte en El Alto."
+        "en": "The Museo de Arte Antonio Paredes Candia is an art museum in El Alto, Bolivia.",
+        "es": "El museo de arte Antonio Paredes Candia es una institución cultural en la ciudad de El Alto (Bolivia)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museo de Arte Antonio Paredes Candia",
+          "url": "https://en.wikipedia.org/wiki/Museo_de_Arte_Antonio_Paredes_Candia"
+        },
+        "es": {
+          "title": "Museo de Arte Antonio Paredes Candia",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Antonio_Paredes_Candia"
+        }
+      }
     },
     {
       "id": "bo-q5139104",
@@ -101,10 +167,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum about the coca plant and its cultural uses.",
-        "es": "Museo sobre la planta de coca y sus usos culturales."
+        "en": "The Coca Museum is a museum located on Calle Linares in La Paz, Bolivia.",
+        "es": "El Museo de la Coca es un pequeño museo privado en el centro histórico de la ciudad de La Paz, Bolivia sobre la historia de la coca, autóctona de la…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Coca Museum",
+          "url": "https://en.wikipedia.org/wiki/Coca_Museum"
+        },
+        "es": {
+          "title": "Museo de la Coca",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Coca"
+        }
+      }
     }
   ]
 }

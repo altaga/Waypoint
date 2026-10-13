@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Picked by Waypoint from general knowledge of well-known places, not checked against each source. Hours, permits and security situations change: verify on the official source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "cg-tourism": {
       "title": "Republic of the Congo tourism (ministry)",
       "url": "https://www.visitcongo.com/",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -35,7 +41,11 @@
         "es": "Gran parque de selva para gorilas y fauna forestal; acceso en avión."
       },
       "sourceId": "cg-tourism",
-      "admission": "Permits and guides required."
+      "admission": "Permits and guides required.",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "cg-pointe-noire-beach",
@@ -52,7 +62,11 @@
         "en": "Atlantic beaches and seafood along the coast.",
         "es": "Playas del Atlántico y mariscos a lo largo de la costa."
       },
-      "sourceId": "cg-tourism"
+      "sourceId": "cg-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

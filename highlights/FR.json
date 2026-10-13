@@ -9,7 +9,7 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
@@ -22,6 +22,12 @@
       "title": "Atout France (France.fr)",
       "url": "https://www.france.fr/en",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -42,7 +48,11 @@
         "en": "World's largest art museum; book timed entry.",
         "es": "El museo de arte más grande del mundo; reserva entrada con horario."
       },
-      "sourceId": "fr-tourism"
+      "sourceId": "fr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "fr-eiffel",
@@ -59,7 +69,11 @@
         "en": "Iron tower with views from the top; book lifts ahead.",
         "es": "Torre de hierro con vistas desde arriba; reserva los elevadores."
       },
-      "sourceId": "fr-tourism"
+      "sourceId": "fr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "fr-montmartre",
@@ -77,7 +91,11 @@
         "en": "Hilltop basilica and the artists' square.",
         "es": "Basílica en la colina y la plaza de los artistas."
       },
-      "sourceId": "fr-tourism"
+      "sourceId": "fr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "fr-marais",
@@ -95,7 +113,11 @@
         "en": "Medieval streets, galleries and falafel shops.",
         "es": "Calles medievales, galerías y tiendas de falafel."
       },
-      "sourceId": "fr-tourism"
+      "sourceId": "fr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "fr-versailles",
@@ -113,7 +135,11 @@
         "en": "Royal palace and gardens outside Paris.",
         "es": "Palacio real y jardines a las afueras de París."
       },
-      "sourceId": "fr-tourism"
+      "sourceId": "fr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "fr-orsay",
@@ -130,7 +156,11 @@
         "en": "Impressionist painting in a former railway station.",
         "es": "Pintura impresionista en una antigua estación de tren."
       },
-      "sourceId": "fr-tourism"
+      "sourceId": "fr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "fr-vieux-port",
@@ -148,7 +178,11 @@
         "en": "Historic harbor with seafood restaurants.",
         "es": "Puerto histórico con restaurantes de mariscos."
       },
-      "sourceId": "fr-tourism"
+      "sourceId": "fr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "fr-mont-saint-michel",
@@ -166,7 +200,11 @@
         "en": "Island abbey at the edge of the tide flats.",
         "es": "Abadía en una isla, en el borde de las mareas."
       },
-      "sourceId": "fr-tourism"
+      "sourceId": "fr-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "fr-q201428",
@@ -181,10 +219,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Royal palace south of Paris, known for its Renaissance interiors.",
-        "es": "Palacio real al sur de París, conocido por sus interiores renacentistas."
+        "en": "Palace of Fontainebleau, located 55 kilometers southeast of the center of Paris, in the commune of Fontainebleau, is one of the largest French royal châteaux.",
+        "es": "El palacio de Fontainebleau, en francés Château de Fontainebleau, es uno de los mayores palacios reales franceses."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Palace of Fontainebleau",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_Fontainebleau"
+        },
+        "es": {
+          "title": "Palacio de Fontainebleau",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Fontainebleau"
+        }
+      }
     },
     {
       "id": "fr-q818517",
@@ -198,10 +251,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Formal garden between the Louvre and the Place de la Concorde.",
-        "es": "Jardín formal entre el Louvre y la plaza de la Concordia."
+        "en": "The Tuileries Garden is a public garden between the Louvre and the Place de la Concorde in the 1st arrondissement of Paris, France.",
+        "es": "El jardín de las Tullerías, a veces llamado jardines de las Tullerías, en plural, es un parque público parisino localizado en el I Distrito, entre el Louvre y la plaza…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tuileries Garden",
+          "url": "https://en.wikipedia.org/wiki/Tuileries_Garden"
+        },
+        "es": {
+          "title": "Jardín de las Tullerías",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_de_las_Tuller%C3%ADas"
+        }
+      }
     },
     {
       "id": "fr-q28924",
@@ -214,11 +282,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Underground ossuary holding the remains of millions of Parisians.",
-        "es": "Osario subterráneo que guarda los restos de millones de parisinos."
+        "en": "The Catacombs of Paris are underground ossuaries in Paris, France, which hold the remains of more than six million people.",
+        "es": "Las Catacumbas de París constituyen uno de los cementerios más famosos de París, capital de Francia."
       },
       "sourceId": "wikidata",
-      "admission": "Timed tickets; expect queues and a long walk underground."
+      "admission": "Timed tickets; expect queues and a long walk underground.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Catacombs of Paris",
+          "url": "https://en.wikipedia.org/wiki/Catacombs_of_Paris"
+        },
+        "es": {
+          "title": "Catacumbas de París",
+          "url": "https://es.wikipedia.org/wiki/Catacumbas_de_Par%C3%ADs"
+        }
+      }
     },
     {
       "id": "fr-q1865480",
@@ -231,10 +314,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Site of the former fortress stormed in 1789, now a square with a column.",
-        "es": "Lugar de la antigua fortaleza asaltada en 1789, hoy una plaza con una columna."
+        "en": "The Bastille was a medieval fortress in Paris, known as the Bastille Saint-Antoine.",
+        "es": "La Bastilla era una fortaleza que protegía el costado oriental de la ciudad de París, conocida formalmente como la Bastille Saint-Antoine."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bastille",
+          "url": "https://en.wikipedia.org/wiki/Bastille"
+        },
+        "es": {
+          "title": "Bastilla",
+          "url": "https://es.wikipedia.org/wiki/Bastilla"
+        }
+      }
     },
     {
       "id": "fr-q178065",
@@ -249,10 +347,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Modern art museum and cultural centre known for its exposed structure.",
-        "es": "Museo de arte moderno y centro cultural conocido por su estructura a la vista."
+        "en": "The Centre Pompidou, more fully the Centre national d'art et de culture Georges-Pompidou, also known as the Pompidou Centre in English and colloquially as Beaubourg, is a building complex in…",
+        "es": "El Centro Pompidou es el nombre más comúnmente empleado para designar al Centro Nacional de Arte y Cultura Georges Pompidou de París (Francia), diseñado por los arquitectos Renzo Piano y…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Centre Pompidou",
+          "url": "https://en.wikipedia.org/wiki/Centre_Pompidou"
+        },
+        "es": {
+          "title": "Centro Pompidou",
+          "url": "https://es.wikipedia.org/wiki/Centro_Pompidou"
+        }
+      }
     },
     {
       "id": "fr-q677659",
@@ -266,10 +379,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Well-preserved Roman temple in Nîmes.",
-        "es": "Templo romano muy bien conservado en Nîmes."
+        "en": "The Maison carrée is an ancient Roman temple in Nîmes, southern France; it is one of the best-preserved Roman temples to survive in the territory of the former Roman Empire.",
+        "es": "La Maison Carrée es un templo romano consagrado al culto imperial en la ciudad francesa de Nimes."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Maison carrée",
+          "url": "https://en.wikipedia.org/wiki/Maison_carr%C3%A9e"
+        },
+        "es": {
+          "title": "Maison Carrée",
+          "url": "https://es.wikipedia.org/wiki/Maison_Carr%C3%A9e"
+        }
+      }
     },
     {
       "id": "fr-q833850",
@@ -283,10 +411,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Prehistoric standing stones in Brittany.",
-        "es": "Piedras megalíticas prehistóricas en Bretaña."
+        "en": "The Carnac stones are an exceptionally dense collection of megalithic sites near the south coast of Brittany in northwestern France, consisting of stone alignments (rows), dolmens, tumuli, and single menhirs.",
+        "es": "Los alineamientos de Carnac son un conjunto de alineamientos megalíticos situados al norte del pueblo del mismo nombre, junto al golfo de Morbihan, en Bretaña (Francia)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Carnac stones",
+          "url": "https://en.wikipedia.org/wiki/Carnac_stones"
+        },
+        "es": {
+          "title": "Alineamientos de Carnac",
+          "url": "https://es.wikipedia.org/wiki/Alineamientos_de_Carnac"
+        }
+      }
     },
     {
       "id": "fr-q663673",
@@ -300,10 +443,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Medieval royal castle east of Paris, with a Gothic chapel.",
-        "es": "Castillo real medieval al este de París, con una capilla gótica."
+        "en": "The Château de Vincennes is a former fortress and royal residence next to the town of Vincennes, on the eastern edge of Paris, alongside the Bois de Vincennes.",
+        "es": "El castillo de Vincennes es un castillo real francés de los siglos XIV y XVII, ubicado en el pueblo de Vincennes, a menos de 10 km al este de París,…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Château de Vincennes",
+          "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Vincennes"
+        },
+        "es": {
+          "title": "Castillo de Vincennes",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Vincennes"
+        }
+      }
     },
     {
       "id": "fr-q835966",
@@ -316,10 +474,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Site of the 52 BC siege that ended Gallic resistance to Rome, with an archaeological museum.",
-        "es": "Sitio del asedio del 52 a. C. que terminó con la resistencia gala a Roma, con museo arqueológico."
+        "en": "Alesia was the capital of the Mandubii, one of the Gallic tribes allied with the Aedui.",
+        "es": "Alesia fue la capital de los mandubios, una de las tribus galas aliadas con los poderosos heduos, y después de la conquista de Julio César una ciudad romana (oppidum) en…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Alesia (city)",
+          "url": "https://en.wikipedia.org/wiki/Alesia_(city)"
+        },
+        "es": {
+          "title": "Alesia (ciudad)",
+          "url": "https://es.wikipedia.org/wiki/Alesia_(ciudad)"
+        }
+      }
     },
     {
       "id": "fr-q578771",
@@ -333,10 +506,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Former archbishops' palace in Reims, where kings stayed before their coronation.",
-        "es": "Antiguo palacio de los arzobispos en Reims, donde se alojaban los reyes antes de su coronación."
+        "en": "Palace of Tau in Reims, France, was the palace of the Archbishop of Reims.",
+        "es": "El palacio de Tau es un palacio arzobispal en Reims, Francia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Palace of Tau",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_Tau"
+        },
+        "es": {
+          "title": "Palacio de Tau",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Tau"
+        }
+      }
     },
     {
       "id": "fr-q206521",
@@ -349,10 +537,25 @@
       ],
       "durationMinutes": 480,
       "desc": {
-        "en": "Theme park east of Paris.",
-        "es": "Parque temático al este de París."
+        "en": "Disneyland Paris is an entertainment resort in Marne-la-Vallée, France, located about 32 kilometres east of the city centre of Paris.",
+        "es": "Disneyland Paris, conocido también como Eurodisney, es un complejo turístico recreativo y de vacaciones de 22,3 km² (2230 ha) situado en Marne-la-Vallée, una aglomeración de comuna del departamento de Sena…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Disneyland Paris",
+          "url": "https://en.wikipedia.org/wiki/Disneyland_Paris"
+        },
+        "es": {
+          "title": "Disneyland Paris",
+          "url": "https://es.wikipedia.org/wiki/Disneyland_Paris"
+        }
+      }
     }
   ]
 }

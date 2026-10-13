@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,26 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Tripoli with collections on Libya's ancient and Islamic history.",
-        "es": "Museo nacional en Trípoli con colecciones sobre la historia antigua e islámica de Libia."
+        "en": "The Red Castle Museum, also known as As-saraya Al-hamra Museum, the Archaeological Museum of Tripoli or Jamahiriya Museum, is a national museum in Libya.",
+        "es": "El Museo del Castillo Rojo o bien el Museo Assaraya Alhamra es el museo nacional de Libia."
       },
       "sourceId": "wikidata",
-      "admission": "Security conditions in Libya are unstable; check your government's current travel advice before going."
+      "admission": "Security conditions in Libya are unstable; check your government's current travel advice before going.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Red Castle Museum",
+          "url": "https://en.wikipedia.org/wiki/Red_Castle_Museum"
+        },
+        "es": {
+          "title": "Museo del Castillo Rojo",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Castillo_Rojo"
+        }
+      }
     },
     {
       "id": "ly-q11137266",
@@ -50,11 +71,22 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Islamic art and history in Tripoli.",
+        "en": "The Islamic Museum of Tripoli is a proposed museum of Islamic culture that was built under the support and patronage of Saif al-Islam Gaddafi in Tripoli, Libya.",
         "es": "Museo de arte e historia islámicos en Trípoli."
       },
       "sourceId": "wikidata",
-      "admission": "Security conditions in Libya are unstable; check your government's current travel advice before going."
+      "admission": "Security conditions in Libya are unstable; check your government's current travel advice before going.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Islamic Museum of Tripoli",
+          "url": "https://en.wikipedia.org/wiki/Islamic_Museum_of_Tripoli"
+        }
+      }
     },
     {
       "id": "ly-q5550965",
@@ -68,11 +100,22 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum at Germa, the ancient Garamantian capital in the Fezzan region of southern Libya.",
+        "en": "The Germa Museum is an archaeological museum located in Fezzan, Libya.",
         "es": "Museo en Germa, antigua capital de los garamantes, en el Fezán, sur de Libia."
       },
       "sourceId": "wikidata",
-      "admission": "Security conditions in Libya are unstable; check your government's current travel advice before going."
+      "admission": "Security conditions in Libya are unstable; check your government's current travel advice before going.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Germa Museum",
+          "url": "https://en.wikipedia.org/wiki/Germa_Museum"
+        }
+      }
     }
   ]
 }

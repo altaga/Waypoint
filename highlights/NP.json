@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Former royal palace in Kathmandu, now a public museum.",
-        "es": "Antiguo palacio real en Katmandú, hoy museo abierto al público."
+        "en": "The Narayanhiti Palace Museum is a public museum in Kathmandu, Nepal located east of the Kaiser Mahal and next to Thamel.",
+        "es": "El Museo del palacio de Narayanhity antes también Palacio real de Narayanhiti es un palacio en la ciudad de Katmandú, en el país asiático de Nepal que durante mucho tiempo…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Narayanhiti Palace Museum",
+          "url": "https://en.wikipedia.org/wiki/Narayanhiti_Palace_Museum"
+        },
+        "es": {
+          "title": "Museo del palacio de Narayanhity",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_palacio_de_Narayanhity"
+        }
+      }
     },
     {
       "id": "np-q220043",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Zoo in Lalitpur, in the Kathmandu Valley.",
-        "es": "Zoológico en Lalitpur, en el valle de Katmandú."
+        "en": "The Central Zoo is a 6-hectare (15-acre) zoo in Jawalakhel, Nepal.",
+        "es": "El Zoológico Central es un parque zoológico de 6 hectáreas en Jawalakhel, en el país asiático de Nepal."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Central Zoo",
+          "url": "https://en.wikipedia.org/wiki/Central_Zoo"
+        },
+        "es": {
+          "title": "Zoológico Central",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_Central"
+        }
+      }
     },
     {
       "id": "np-q16977242",
@@ -67,10 +103,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Limestone cave with stalactite formations near Pokhara.",
-        "es": "Cueva caliza con formaciones de estalactitas cerca de Pokhara."
+        "en": "Mahendra Gupha is a cave located in Pokhara-16, Batulechaur, Kaski district, close to the Kali khola, is a large limestone cave.",
+        "es": "La Cueva Mahendra es una cueva situada cerca de Pokhara, distrito de Kaski, cerca del río Seti."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mahendra Cave",
+          "url": "https://en.wikipedia.org/wiki/Mahendra_Cave"
+        },
+        "es": {
+          "title": "Cueva Mahendra",
+          "url": "https://es.wikipedia.org/wiki/Cueva_Mahendra"
+        }
+      }
     },
     {
       "id": "np-q6980524",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Nepal's natural history and wildlife collections.",
-        "es": "Museo de la historia natural y la fauna de Nepal."
+        "en": "The Natural History Museum of Nepal is located near the World Heritage Site of Swayambhunath.",
+        "es": "El Museo de Historia Natural de Nepal es un edificio que está situado cerca del sitio del patrimonio mundial de Swayambhunath."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Natural History Museum of Nepal",
+          "url": "https://en.wikipedia.org/wiki/Natural_History_Museum_of_Nepal"
+        },
+        "es": {
+          "title": "Museo de Historia Natural de Nepal",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Natural_de_Nepal"
+        }
+      }
     },
     {
       "id": "np-q17013603",
@@ -102,10 +168,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum in Patan's Durbar Square with traditional Newar art.",
+        "en": "The Patan Museum is a museum located in Patan, Lalitpur, Nepal.",
         "es": "Museo en la plaza Durbar de Patan con arte newar tradicional."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Patan Museum",
+          "url": "https://en.wikipedia.org/wiki/Patan_Museum"
+        }
+      }
     },
     {
       "id": "np-q19678683",
@@ -119,10 +196,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Former royal palace in the hill town of Tansen.",
+        "en": "Tansen Durbar, also known as Palpa Durbar & Museum, is a historical palace and a museum.",
         "es": "Antiguo palacio real en la ciudad de montaña de Tansen."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tansen Durbar",
+          "url": "https://en.wikipedia.org/wiki/Tansen_Durbar"
+        }
+      }
     },
     {
       "id": "np-q28183979",
@@ -136,10 +224,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum about mountains and mountaineering in Pokhara.",
+        "en": "The International Mountain Museum (INM) is a museum located in Pokhara, Nepal.",
         "es": "Museo sobre montañas y alpinismo en Pokhara."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "International Mountain Museum",
+          "url": "https://en.wikipedia.org/wiki/International_Mountain_Museum"
+        }
+      }
     },
     {
       "id": "np-q16917852",
@@ -154,10 +253,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Bhaktapur's Pujarimath, a historic religious complex.",
+        "en": "The Pujarimath Museum is a museum located in Bhaktapur, Nepal.",
         "es": "Museo en el Pujarimath de Bhaktapur, un antiguo complejo religioso."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Pujarimath Museum",
+          "url": "https://en.wikipedia.org/wiki/Pujarimath_Museum"
+        }
+      }
     }
   ]
 }

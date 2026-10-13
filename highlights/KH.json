@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Former school turned prison, now a museum of the Khmer Rouge era.",
-        "es": "Antigua escuela convertida en prisión, hoy museo de la era de los jemeres rojos."
+        "en": "The Tuol Sleng Genocide Museum is a museum for the Cambodian genocide.",
+        "es": "El Museo de los Crímenes Genocidas Tuol Sleng es el museo fundado en 1980 en la célebre prisión de alta seguridad S-21 del régimen de la Kampuchea Democrática con el…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tuol Sleng Genocide Museum",
+          "url": "https://en.wikipedia.org/wiki/Tuol_Sleng_Genocide_Museum"
+        },
+        "es": {
+          "title": "Tuol Sleng",
+          "url": "https://es.wikipedia.org/wiki/Tuol_Sleng"
+        }
+      }
     },
     {
       "id": "kh-q1929750",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum of Khmer art and archaeology in Phnom Penh.",
-        "es": "Museo nacional de arte y arqueología jemer en Phnom Penh."
+        "en": "The National Museum of Cambodia is Cambodia's largest museum of cultural history and is the country's leading historical and archaeological museum.",
+        "es": "El Museo nacional de Camboya se localiza en Nom Pen en el país asiático de Camboya."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Cambodia",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Cambodia"
+        },
+        "es": {
+          "title": "Museo nacional de Camboya",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Camboya"
+        }
+      }
     },
     {
       "id": "kh-q15961573",
@@ -67,10 +103,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Angkorian history and art in Siem Reap.",
+        "en": "Angkor National Museum is an archaeological museum in Siem Reap, Cambodia.",
         "es": "Museo de la historia y el arte angkorianos en Siem Reap."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Angkor National Museum",
+          "url": "https://en.wikipedia.org/wiki/Angkor_National_Museum"
+        }
+      }
     },
     {
       "id": "kh-q5025157",
@@ -84,10 +131,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum about landmines and their impact in Cambodia.",
+        "en": "The Cambodia Landmine Museum is a museum in Siem Reap in Cambodia.",
         "es": "Museo sobre las minas terrestres y su impacto en Camboya."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Cambodian Landmine Museum",
+          "url": "https://en.wikipedia.org/wiki/Cambodian_Landmine_Museum"
+        }
+      }
     }
   ]
 }

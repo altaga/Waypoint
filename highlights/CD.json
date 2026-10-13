@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,11 +38,22 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Kinshasa with collections on the country's culture and history.",
+        "en": "The National Museum of the Democratic Republic of the Congo is a museum for the cultural history of the numerous ethnic groups and historical epochs of the Democratic Republic of…",
         "es": "Museo nacional en Kinshasa con colecciones sobre la cultura y la historia del país."
       },
       "sourceId": "wikidata",
-      "admission": "Security varies by region; check current travel advice before travelling."
+      "admission": "Security varies by region; check current travel advice before travelling.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of the Democratic Republic of the Congo",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_the_Democratic_Republic_of_the_Congo"
+        }
+      }
     },
     {
       "id": "cd-q16335725",
@@ -50,11 +67,22 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in Lubumbashi with collections on regional history and cultural objects.",
+        "en": "The National Museum of Lubumbashi is a museum with core collections in archaeology and ethnography in Lubumbashi, Haut-Katanga Province in the Democratic Republic of the Congo.",
         "es": "Museo en Lubumbashi con colecciones sobre la historia regional y objetos culturales."
       },
       "sourceId": "wikidata",
-      "admission": "Security varies by region; check current travel advice before travelling."
+      "admission": "Security varies by region; check current travel advice before travelling.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Lubumbashi",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Lubumbashi"
+        }
+      }
     }
   ]
 }

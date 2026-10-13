@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Barbadian history and culture.",
-        "es": "Museo de la historia y la cultura de Barbados."
+        "en": "The Barbados Museum & Historical Society is a private organization with public collections.",
+        "es": "El Museo y sociedad histórica de Barbados es el nombre que recibe un museo en el país antillano de Barbados."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Barbados Museum & Historical Society",
+          "url": "https://en.wikipedia.org/wiki/Barbados_Museum_%26_Historical_Society"
+        },
+        "es": {
+          "title": "Museo y sociedad histórica de Barbardos",
+          "url": "https://es.wikipedia.org/wiki/Museo_y_sociedad_hist%C3%B3rica_de_Barbardos"
+        }
+      }
     }
   ]
 }

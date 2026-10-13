@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historic house museum in La Massana.",
-        "es": "Casa-museo histórica en La Massana."
+        "en": "The Casa Rull Museum is a historic house in La Massana, Andorra.",
+        "es": "El Museo Casa Rull es un museo de etnología del Principado de Andorra, que se encuentra en la calle Mayor de Sispony."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Casa Rull Museum",
+          "url": "https://en.wikipedia.org/wiki/Casa_Rull_Museum"
+        },
+        "es": {
+          "title": "Museo Casa Rull",
+          "url": "https://es.wikipedia.org/wiki/Museo_Casa_Rull"
+        }
+      }
     },
     {
       "id": "ad-q2912609",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of historic cars in Encamp.",
-        "es": "Museo de automóviles históricos en Encamp."
+        "en": "The National Automobile Museum is an automobile museum in Encamp, Andorra.",
+        "es": "El museo nacional del Automóvil es un museo del Principado de Andorra dedicado al automovilismo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Automobile Museum (Andorra)",
+          "url": "https://en.wikipedia.org/wiki/National_Automobile_Museum_(Andorra)"
+        },
+        "es": {
+          "title": "Museo nacional del Automóvil (Andorra)",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_del_Autom%C3%B3vil_(Andorra)"
+        }
+      }
     },
     {
       "id": "ad-q2912615",
@@ -67,9 +103,20 @@
       "durationMinutes": 60,
       "desc": {
         "en": "Former forge in La Massana, now a museum of ironworking.",
-        "es": "Antigua fragua en La Massana, hoy museo de la metalurgia."
+        "es": "La Farga Rossell es un museo del Principado de Andorra dedicado a la etnología, concretamente al trabajo del hierro."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "curated",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "es": {
+          "title": "Farga Rossell",
+          "url": "https://es.wikipedia.org/wiki/Farga_Rossell"
+        }
+      }
     },
     {
       "id": "ad-q2912621",
@@ -84,10 +131,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historic mansion in Ordino, now a museum.",
-        "es": "Antigua mansión en Ordino, hoy museo."
+        "en": "Casa d'Areny-Plandolit is a historical mansion located in Ordino, Andorra.",
+        "es": "La Casa de Areny-Plandolit es una antigua casa solariega situada en el valle de Ordino, Andorra."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Casa d'Areny-Plandolit",
+          "url": "https://en.wikipedia.org/wiki/Casa_d'Areny-Plandolit"
+        },
+        "es": {
+          "title": "Casa de Areny-Plandolit",
+          "url": "https://es.wikipedia.org/wiki/Casa_de_Areny-Plandolit"
+        }
+      }
     },
     {
       "id": "ad-q5047802",
@@ -101,10 +163,21 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Historic house in Encamp.",
+        "en": "Casa Cristo is a house located in Encamp, Andorra.",
         "es": "Casa histórica en Encamp."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Casa Cristo",
+          "url": "https://en.wikipedia.org/wiki/Casa_Cristo"
+        }
+      }
     },
     {
       "id": "ad-q36374033",
@@ -119,9 +192,20 @@
       "durationMinutes": 90,
       "desc": {
         "en": "Art museum focused on 19th-century Spanish painting.",
-        "es": "Museo de arte centrado en la pintura española del siglo XIX."
+        "es": "El Museo Carmen Thyssen Andorra es un museo situado en la localidad andorrana de Las Escaldas, en la parroquia de Las Escaldas-Engordany."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "curated",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "es": {
+          "title": "Museo Carmen Thyssen Andorra",
+          "url": "https://es.wikipedia.org/wiki/Museo_Carmen_Thyssen_Andorra"
+        }
+      }
     }
   ]
 }

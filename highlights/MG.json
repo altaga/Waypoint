@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Botanical and zoological garden with native wildlife and plant collections.",
-        "es": "Jardín botánico y zoológico con fauna y colecciones de plantas autóctonas."
+        "en": "The Botanical and Zoological Garden of Tsimbazaza is a zoological and botanical garden in the neighbourhood of Tsimbazaza in Antananarivo, Madagascar, located just north of the National Assembly of Madagascar…",
+        "es": "El Jardín Botánico y Zoológico de Tsimbazaza (en francés: Parc botanique et zoologique de Tsimbazaza (PBZT)) es un museo, zoológico y jardín botánico que se encuentra al sur de Antananarivo,…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Botanical and Zoological Garden of Tsimbazaza",
+          "url": "https://en.wikipedia.org/wiki/Botanical_and_Zoological_Garden_of_Tsimbazaza"
+        },
+        "es": {
+          "title": "Jardín Botánico y Zoológico de Tsimbazaza",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_y_Zool%C3%B3gico_de_Tsimbazaza"
+        }
+      }
     },
     {
       "id": "mg-q2370232",
@@ -51,10 +72,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "University museum of art and archaeology, with collections on Malagasy art and archaeology.",
-        "es": "Museo universitario de arte y arqueología, con colecciones sobre arte y arqueología malgaches."
+        "en": "University of Madagascar's Museum of Art and Archaeology is a museum located in Isoraka in Antananarivo, Madagascar.",
+        "es": "El Museo de arte y arqueología de la Universidad de Madagascar es un museo en Antananarivo, Madagascar."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "University of Madagascar's Museum of Art and Archaeology",
+          "url": "https://en.wikipedia.org/wiki/University_of_Madagascar's_Museum_of_Art_and_Archaeology"
+        },
+        "es": {
+          "title": "Museo de arte y arqueología de la Universidad de Madagascar",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_arte_y_arqueolog%C3%ADa_de_la_Universidad_de_Madagascar"
+        }
+      }
     },
     {
       "id": "mg-q27576370",
@@ -67,11 +103,22 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Protected park in the Diana Region of northern Madagascar, with coastal landscapes.",
+        "en": "The Nosy Tanikely National Park in a national park on the island of Nosy Tanikely and covers an area of 341 ha.",
         "es": "Parque protegido en la región de Diana, en el norte de Madagascar, con paisajes costeros."
       },
       "sourceId": "wikidata",
-      "admission": "Entry requires a park fee and a local guide."
+      "admission": "Entry requires a park fee and a local guide.",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nosy Tanikely National Park",
+          "url": "https://en.wikipedia.org/wiki/Nosy_Tanikely_National_Park"
+        }
+      }
     }
   ]
 }

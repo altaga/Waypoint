@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum devoted to the works of painter Edvard Munch in Oslo.",
-        "es": "Museo dedicado a las obras del pintor Edvard Munch en Oslo."
+        "en": "Munch Museum, marketed as MUNCH since 2020, is an art museum in Bjørvika, Oslo, Norway, dedicated to the life and works of the Norwegian artist Edvard Munch.",
+        "es": "El Museo Munch, o Munchmuseet, es un museo de arte situado en Oslo, Noruega, que alberga obras de Edvard Munch, dejadas en su testamento a la ciudad de Oslo en…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Munch Museum",
+          "url": "https://en.wikipedia.org/wiki/Munch_Museum"
+        },
+        "es": {
+          "title": "Museo Munch",
+          "url": "https://es.wikipedia.org/wiki/Museo_Munch"
+        }
+      }
     },
     {
       "id": "no-q644464",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Medieval fortress overlooking Oslo's harbour.",
-        "es": "Fortaleza medieval con vistas al puerto de Oslo."
+        "en": "Akershus Fortress or Akershus Castle is a medieval castle in the Norwegian capital Oslo that was built to protect and provide a royal residence for the city.",
+        "es": "La fortaleza de Akershus es un complejo de edificaciones militares ubicado en Oslo, Noruega, y situado estratégicamente junto al fiordo de Oslo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Akershus Fortress",
+          "url": "https://en.wikipedia.org/wiki/Akershus_Fortress"
+        },
+        "es": {
+          "title": "Fortaleza de Akershus",
+          "url": "https://es.wikipedia.org/wiki/Fortaleza_de_Akershus"
+        }
+      }
     },
     {
       "id": "no-q7460945",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Sculpture park by Gustav Vigeland in Frogner Park.",
-        "es": "Parque de esculturas de Gustav Vigeland en el parque Frogner."
+        "en": "Frogner Park is a public park in the central West End borough of Frogner in Oslo, Norway.",
+        "es": "El parque de Vigeland, o Parque de las esculturas, probablemente el parque más famoso de Noruega, es un área en el interior del Frognerparken, situado al oeste del centro de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Frogner Park",
+          "url": "https://en.wikipedia.org/wiki/Frogner_Park"
+        },
+        "es": {
+          "title": "Parque de Vigeland",
+          "url": "https://es.wikipedia.org/wiki/Parque_de_Vigeland"
+        }
+      }
     },
     {
       "id": "no-q941250",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum built around the polar exploration ship Fram.",
-        "es": "Museo construido en torno al barco de exploración polar Fram."
+        "en": "The Fram Museum is a museum telling the story of Norwegian polar exploration.",
+        "es": "El Museo del Fram o Frammuseet es un museo situado en la isla de Bygdøy, en Oslo, Noruega, que tiene como atracción principal el navío polar Fram, construido en 1892."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Fram Museum",
+          "url": "https://en.wikipedia.org/wiki/Fram_Museum"
+        },
+        "es": {
+          "title": "Museo del Fram",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Fram"
+        }
+      }
     },
     {
       "id": "no-q1132918",
@@ -101,10 +167,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum of art, architecture and design in Oslo.",
-        "es": "Museo nacional de arte, arquitectura y diseño en Oslo."
+        "en": "The National Museum is a museum in Oslo, Norway which holds the Norwegian state's public collection of art, architecture, and design objects.",
+        "es": "El Museo Nacional de Arte, Arquitectura y Diseño de Oslo es el Museo Nacional de Arte de Noruega."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Norway",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Norway"
+        },
+        "es": {
+          "title": "Museo Nacional de Arte, Arquitectura y Diseño",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte%2C_Arquitectura_y_Dise%C3%B1o"
+        }
+      }
     },
     {
       "id": "no-q941120",
@@ -118,10 +199,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Exhibition centre about the Nobel Peace Prize and its laureates.",
-        "es": "Centro de exposiciones sobre el Premio Nobel de la Paz y sus laureados."
+        "en": "The Nobel Peace Center in Oslo, Norway, is a showcase for the Nobel Peace Prize and the ideals it represents.",
+        "es": "El Centro Nobel abierto en junio de 2005, en el paso viejo del ferrocarril con rumbo al oeste de Oslo, Noruega."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nobel Peace Center",
+          "url": "https://en.wikipedia.org/wiki/Nobel_Peace_Center"
+        },
+        "es": {
+          "title": "Centro Nobel",
+          "url": "https://es.wikipedia.org/wiki/Centro_Nobel"
+        }
+      }
     },
     {
       "id": "no-q961220",
@@ -135,10 +231,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum displaying Viking-age ships and burial finds from Norway.",
-        "es": "Museo con barcos y hallazgos funerarios de la era vikinga en Noruega."
+        "en": "The Viking Ship Museum is located on the Bygdøy peninsula in Oslo, Norway.",
+        "es": "El Museo de Barcos Vikingos está localizado en el barrio de Bygdøy en Oslo, Noruega."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Viking Ship Museum (Oslo)",
+          "url": "https://en.wikipedia.org/wiki/Viking_Ship_Museum_(Oslo)"
+        },
+        "es": {
+          "title": "Museo de Barcos Vikingos (Oslo)",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Barcos_Vikingos_(Oslo)"
+        }
+      }
     },
     {
       "id": "no-q1415972",
@@ -152,10 +263,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum about Thor Heyerdahl's Kon-Tiki raft and his voyages.",
-        "es": "Museo sobre la balsa Kon-Tiki de Thor Heyerdahl y sus viajes."
+        "en": "The Kon-Tiki Museum is a museum in the Bygdøy peninsula in Oslo, Norway.",
+        "es": "El Museo Kon-Tiki es un museo en Oslo, Noruega, que conserva una serie de embarcaciones y objetos culturales colectados durante las expediciones de Thor Heyerdahl."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kon-Tiki Museum",
+          "url": "https://en.wikipedia.org/wiki/Kon-Tiki_Museum"
+        },
+        "es": {
+          "title": "Museo Kon-Tiki",
+          "url": "https://es.wikipedia.org/wiki/Museo_Kon-Tiki"
+        }
+      }
     },
     {
       "id": "no-q937521",
@@ -169,10 +295,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Open-air and indoor museum of Norwegian folk culture and historic buildings.",
-        "es": "Museo al aire libre y bajo techo de la cultura popular y los edificios históricos noruegos."
+        "en": "Norsk Folkemuseum, at Bygdøy, Oslo, Norway, is a museum of cultural history with extensive collections of artifacts from all social groups and all regions of the country.",
+        "es": "El Museo del Pueblo Noruego es un museo al aire libre ubicado en Bygdø, Oslo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Norwegian Museum of Cultural History",
+          "url": "https://en.wikipedia.org/wiki/Norwegian_Museum_of_Cultural_History"
+        },
+        "es": {
+          "title": "Museo del Pueblo Noruego",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Pueblo_Noruego"
+        }
+      }
     },
     {
       "id": "no-q1291307",
@@ -186,10 +327,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Former home and composing hut of composer Edvard Grieg near Bergen.",
-        "es": "Antigua casa y cabaña de composición del compositor Edvard Grieg, cerca de Bergen."
+        "en": "Troldhaugen is the former home of Norwegian composer Edvard Grieg and his wife Nina Grieg.",
+        "es": "Troldhaugen es el nombre del hogar del compositor noruego Edvard Grieg y su esposa Nina Grieg."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Troldhaugen",
+          "url": "https://en.wikipedia.org/wiki/Troldhaugen"
+        },
+        "es": {
+          "title": "Troldhaugen",
+          "url": "https://es.wikipedia.org/wiki/Troldhaugen"
+        }
+      }
     },
     {
       "id": "no-q301787",
@@ -203,10 +359,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "University museum with natural history and cultural history collections.",
-        "es": "Museo universitario con colecciones de historia natural e historia cultural."
+        "en": "The University Museum of Bergen is a university museum in Bergen, Norway.",
+        "es": "El Museo de la Universidad de Bergen es el museo de la Universidad de Bergen, Noruega."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "University Museum of Bergen",
+          "url": "https://en.wikipedia.org/wiki/University_Museum_of_Bergen"
+        },
+        "es": {
+          "title": "Museo de Bergen",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Bergen"
+        }
+      }
     }
   ]
 }

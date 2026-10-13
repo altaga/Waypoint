@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Addis Ababa with archaeological and historical collections.",
-        "es": "Museo nacional en Adís Abeba con colecciones arqueológicas e históricas."
+        "en": "The National Museum of Ethiopia (NME), also referred to as the Ethiopian National Museum, is a national museum in Ethiopia.",
+        "es": "El Museo nacional de Etiopía es el museo principal en Etiopía."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Ethiopia",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Ethiopia"
+        },
+        "es": {
+          "title": "Museo nacional de Etiopía",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Etiop%C3%ADa"
+        }
+      }
     },
     {
       "id": "et-q3444339",
@@ -48,10 +69,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Large limestone cave system in southeastern Ethiopia.",
-        "es": "Gran sistema de cuevas calizas en el sureste de Etiopía."
+        "en": "Sof Omar Caves is the longest cave in Ethiopia at 15.1 kilometres (9.4 mi) long.",
+        "es": "Cuevas de Sof Omar es un sistema de Cuevas que contiene la cueva más larga en Etiopía, con 15,1 kilómetros de largo, algunas fuentes afirman que es el mayor sistema…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sof Omar Caves",
+          "url": "https://en.wikipedia.org/wiki/Sof_Omar_Caves"
+        },
+        "es": {
+          "title": "Cuevas de Sof Omar",
+          "url": "https://es.wikipedia.org/wiki/Cuevas_de_Sof_Omar"
+        }
+      }
     },
     {
       "id": "et-q15856263",
@@ -65,10 +101,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum on the Red Terror period under the Derg regime.",
+        "en": "The Red Terror Martyrs' Memorial Museum in Addis Ababa was established in 2010 as a memorial to those who died during the Red Terror under the Derg government.",
         "es": "Museo sobre el periodo del Terror Rojo bajo el régimen del Derg."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Red Terror Martyrs' Memorial Museum",
+          "url": "https://en.wikipedia.org/wiki/Red_Terror_Martyrs'_Memorial_Museum"
+        }
+      }
     },
     {
       "id": "et-q6585314",
@@ -82,10 +129,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Ethiopian ethnography at Addis Ababa University.",
+        "en": "The Ethnological Museum, Addis Ababa, in Ethiopia, is a public institution dedicated to ethnology and culture.",
         "es": "Museo de etnografía etíope en la Universidad de Adís Abeba."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ethnological Museum, Addis Ababa",
+          "url": "https://en.wikipedia.org/wiki/Ethnological_Museum%2C_Addis_Ababa"
+        }
+      }
     },
     {
       "id": "et-q55603199",
@@ -99,10 +157,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Zoological garden in the Ethiopian capital.",
+        "en": "Addis Ababa Zoo is a zoological park in Addis Ababa, Ethiopia.",
         "es": "Jardín zoológico en la capital etíope."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Addis Ababa Zoo",
+          "url": "https://en.wikipedia.org/wiki/Addis_Ababa_Zoo"
+        }
+      }
     }
   ]
 }

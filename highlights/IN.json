@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "UNESCO World Heritage archaeological park with medieval ruins in Gujarat.",
-        "es": "Parque arqueológico Patrimonio Mundial de la UNESCO, con ruinas medievales en Guyarat."
+        "en": "Champaner-Pavagadh Archaeological Park, a UNESCO World Heritage Site, is located in Panchmahal district in Gujarat, India.",
+        "es": "El Parque Arqueológico de Champaner-Pavagadh es un lugar declarado por la Unesco como Patrimonio de la Humanidad, situado en el distrito de Panchmahals, estado de Guyarat, India."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Champaner-Pavagadh Archaeological Park",
+          "url": "https://en.wikipedia.org/wiki/Champaner-Pavagadh_Archaeological_Park"
+        },
+        "es": {
+          "title": "Parque Arqueológico de Champaner-Pavagadh",
+          "url": "https://es.wikipedia.org/wiki/Parque_Arqueol%C3%B3gico_de_Champaner-Pavagadh"
+        }
+      }
     },
     {
       "id": "in-q1356352",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Marble memorial and museum on the British Raj in Kolkata.",
-        "es": "Memorial de mármol y museo sobre el Raj británico en Calcuta."
+        "en": "The Victoria Memorial is a large marble monument in the Maidan in Central Kolkata (Calcutta), having its entrance on the Queen's Way.",
+        "es": "El Victoria Memorial o monumento en memoria de la Reina Victoria, es un monumento conmemorativo situado en la ciudad india de Calcuta."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Victoria Memorial, Kolkata",
+          "url": "https://en.wikipedia.org/wiki/Victoria_Memorial%2C_Kolkata"
+        },
+        "es": {
+          "title": "Victoria Memorial (Calcuta)",
+          "url": "https://es.wikipedia.org/wiki/Victoria_Memorial_(Calcuta)"
+        }
+      }
     },
     {
       "id": "in-q1410702",
@@ -67,10 +103,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Ashram of Mahatma Gandhi on the Sabarmati River in Ahmedabad.",
+        "en": "Sabarmati Ashram is located in the Sabarmati suburb of Ahmedabad, Gujarat, adjoining Ashram Road, on the banks of the Sabarmati River, 4 miles (6.4 km) from the town hall.",
         "es": "Ashram de Mahatma Gandhi junto al río Sabarmati, en Ahmedabad."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sabarmati Ashram",
+          "url": "https://en.wikipedia.org/wiki/Sabarmati_Ashram"
+        }
+      }
     },
     {
       "id": "in-q1364900",
@@ -85,10 +132,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Large museum in Kolkata with natural history, art and archaeology collections.",
-        "es": "Gran museo en Calcuta con colecciones de historia natural, arte y arqueología."
+        "en": "The Indian Museum is a grand museum in Central Kolkata, West Bengal, India.",
+        "es": "El Museo de la India en el centro de Calcuta, Bengala Occidental, India, también conocido como Museo Imperial de Calcuta en textos de la época colonial, es el noveno museo…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Indian Museum",
+          "url": "https://en.wikipedia.org/wiki/Indian_Museum"
+        },
+        "es": {
+          "title": "Museo de la India (Calcuta)",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_India_(Calcuta)"
+        }
+      }
     },
     {
       "id": "in-q1356138",
@@ -103,10 +165,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "National museum in New Delhi with art and archaeological collections.",
+        "en": "The National Museum, New Delhi, also known as the National Museum of India, is one of the largest museums in India.",
         "es": "Museo nacional en Nueva Delhi con colecciones de arte y arqueología."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of India",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_India"
+        }
+      }
     },
     {
       "id": "in-q1864572",
@@ -120,10 +193,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum in Hyderabad with a large collection of art objects.",
-        "es": "Museo en Hyderabad con una gran colección de objetos de arte."
+        "en": "The Salar Jung Museum is an art museum located at Dar-ul-Shifa, on the southern bank of the Musi River in the city of Hyderabad, Telangana, India.",
+        "es": "El Museo Salar Jung es un museo de arte situado en Dar-ul-Shifa, en la orilla sur del río Musi, en el centro histórico de la ciudad de Haiderabad, Telangana, India."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Salar Jung Museum",
+          "url": "https://en.wikipedia.org/wiki/Salar_Jung_Museum"
+        },
+        "es": {
+          "title": "Museo Salar Jung",
+          "url": "https://es.wikipedia.org/wiki/Museo_Salar_Jung"
+        }
+      }
     },
     {
       "id": "in-q1381516",
@@ -137,10 +225,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum at the house where Mahatma Gandhi was assassinated in 1948.",
-        "es": "Museo en la casa donde fue asesinado Mahatma Gandhi en 1948."
+        "en": "Gandhi Smriti, formerly known as Birla House or Birla Bhavan, is a museum dedicated to Mahatma Gandhi, situated on Tees January Road, formerly Albuquerque Road, in New Delhi, India.",
+        "es": "Birla House o Birla Bhavan, en Nueva Delhi, India, es la casa donde Mahatma Gandhi vivió los últimos 144 días de su vida y en la que fue asesinado el…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Gandhi Smriti",
+          "url": "https://en.wikipedia.org/wiki/Gandhi_Smriti"
+        },
+        "es": {
+          "title": "Casa Birla",
+          "url": "https://es.wikipedia.org/wiki/Casa_Birla"
+        }
+      }
     },
     {
       "id": "in-q1786944",
@@ -154,10 +257,21 @@
       ],
       "durationMinutes": 480,
       "desc": {
-        "en": "Large film studio and theme park near Hyderabad.",
+        "en": "Ramoji Film City is an integrated film studio facility located right outside of Hyderabad, India.",
         "es": "Gran estudio de cine y parque temático cerca de Hyderabad."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ramoji Film City",
+          "url": "https://en.wikipedia.org/wiki/Ramoji_Film_City"
+        }
+      }
     }
   ]
 }

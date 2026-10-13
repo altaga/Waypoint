@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of African arts and artefacts, in Dakar.",
-        "es": "Museo de artes y objetos africanos, en Dakar."
+        "en": "The Théodore Monod African Art Museum in Dakar, Senegal is one of the oldest art museums in West Africa.",
+        "es": "El Museo de Arte Africano, conocido como Museo de Dakar IFAN o Museo Theodore Monod de Arte Africano últimamente, es un museo situado en Dakar y parte del Instituto Fundamental…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Théodore Monod African Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Th%C3%A9odore_Monod_African_Art_Museum"
+        },
+        "es": {
+          "title": "Museo de Artes de África IFAN",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Artes_de_%C3%81frica_IFAN"
+        }
+      }
     },
     {
       "id": "sn-q59521062",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Museum on the history and cultures of Africa and its diaspora, in Dakar.",
-        "es": "Museo sobre la historia y las culturas de África y su diáspora, en Dakar."
+        "en": "The Museum of Black Civilisations is a national museum in Dakar, Senegal, that opened on 6 December 2018.",
+        "es": "El Museo de Civilizaciones Negras es un museo estatal ubicado en Dakar, Senegal, e inaugurado el 6 de diciembre de 2018."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Black Civilisations",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Black_Civilisations"
+        },
+        "es": {
+          "title": "Museo de Civilizaciones Negras",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Civilizaciones_Negras"
+        }
+      }
     },
     {
       "id": "sn-q3364375",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 150,
       "desc": {
-        "en": "Forest and zoological park on the edge of Dakar.",
-        "es": "Parque forestal y zoológico en las afueras de Dakar."
+        "en": "The Hann Forest and Zoological Park is a nature reserve located in Dakar, the capital of the African country of Senegal, in the Hann Bel-Air commune.",
+        "es": "El Parque forestal y Zoológico de Hann' es una reserva natural ubicada en Dakar, la capital del país africano de Senegal, en el distrito municipal de Hann Bel-Air."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Hann Forest and Zoological Park",
+          "url": "https://en.wikipedia.org/wiki/Hann_Forest_and_Zoological_Park"
+        },
+        "es": {
+          "title": "Parque forestal y Zoológico de Hann",
+          "url": "https://es.wikipedia.org/wiki/Parque_forestal_y_Zool%C3%B3gico_de_Hann"
+        }
+      }
     },
     {
       "id": "sn-q10283605",
@@ -83,10 +134,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on Senegalese history, located on Gorée island.",
-        "es": "Museo sobre la historia de Senegal, ubicado en la isla de Gorée."
+        "en": "The Historical Museum of Senegal in Gorée is a museum attached to the Institut fondamental d'Afrique noire (IFAN) and located on the island of Gorée, in the bay of Dakar,…",
+        "es": "El Museo Histórico de Gorea es un museo administrado por el Institut fondamental d'Afrique noire (IFAN) y ubicado en la isla de Gorea, en la bahía de Dakar (Senegal)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Historical Museum of Senegal in Gorée",
+          "url": "https://en.wikipedia.org/wiki/Historical_Museum_of_Senegal_in_Gor%C3%A9e"
+        },
+        "es": {
+          "title": "Museo Histórico de Gorea",
+          "url": "https://es.wikipedia.org/wiki/Museo_Hist%C3%B3rico_de_Gorea"
+        }
+      }
     },
     {
       "id": "sn-q110682482",
@@ -101,10 +167,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of art and history of West African cultures.",
-        "es": "Museo de arte e historia de las culturas de África Occidental."
+        "en": "The Museum of Art and History of West African Cultures, abbreviated as Mahicao, is a museum located in Djilor, Senegal.",
+        "es": "El Museo de Arte e Historia de las Culturas de África Occidental, abreviado como Mahicao, es un museo ubicado en Djilor (Senegal)."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Art and History of West African Cultures",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Art_and_History_of_West_African_Cultures"
+        },
+        "es": {
+          "title": "Museo de Arte e Historia de las Culturas Africanas Occidentales",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_e_Historia_de_las_Culturas_Africanas_Occidentales"
+        }
+      }
     }
   ]
 }

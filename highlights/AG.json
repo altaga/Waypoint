@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Historic naval dockyard from the 18th century, in English Harbour.",
-        "es": "Antiguo astillero naval del siglo XVIII, en English Harbour."
+        "en": "Nelson's Dockyard is a cultural heritage site and marina in English Harbour, located in Saint Paul on the Caribbean island of Antigua, in Antigua and Barbuda.",
+        "es": "Nelson's Dockyard es un sitio de patrimonio cultural y puerto deportivo en English Harbour, ubicado en la parroquia de Saint Paul en la isla de Antigua, en Antigua y Barbuda."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Nelson's Dockyard",
+          "url": "https://en.wikipedia.org/wiki/Nelson's_Dockyard"
+        },
+        "es": {
+          "title": "Nelson's Dockyard (Antigua y Barbuda)",
+          "url": "https://es.wikipedia.org/wiki/Nelson's_Dockyard_(Antigua_y_Barbuda)"
+        }
+      }
     },
     {
       "id": "ag-q2912720",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "National museum of Antigua and Barbuda's history and culture.",
-        "es": "Museo nacional de la historia y la cultura de Antigua y Barbuda."
+        "en": "The Museum of Antigua and Barbuda is a museum in St. John's, Antigua and Barbuda.",
+        "es": "El Museo de Antigua y Barbuda es un museo en, Saint John, Antigua y Barbuda."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Antigua and Barbuda",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Antigua_and_Barbuda"
+        },
+        "es": {
+          "title": "Museo de Antigua y Barbuda",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Antigua_y_Barbuda"
+        }
+      }
     }
   ]
 }

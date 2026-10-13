@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "vn-tourism": {
       "title": "Vietnam National Administration of Tourism",
       "url": "https://vietnam.travel/",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -35,7 +41,11 @@
         "en": "Central lake with the Turtle Tower and a temple on an islet.",
         "es": "Lago central con la Torre de la Tortuga y un templo en un islote."
       },
-      "sourceId": "vn-tourism"
+      "sourceId": "vn-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "vn-old-quarter",
@@ -53,7 +63,11 @@
         "en": "Street-food stalls and craft streets.",
         "es": "Puestos de comida callejera y calles de artesanía."
       },
-      "sourceId": "vn-tourism"
+      "sourceId": "vn-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "vn-ho-chi-minh-museum",
@@ -70,7 +84,11 @@
         "en": "National history museum; check opening days.",
         "es": "Museo nacional de historia; revisa los días de apertura."
       },
-      "sourceId": "vn-tourism"
+      "sourceId": "vn-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "vn-ha-long-bay",
@@ -87,7 +105,11 @@
         "en": "Limestone karsts on cruises; book a reputable boat.",
         "es": "Karst de piedra caliza en cruceros; elige un barco confiable."
       },
-      "sourceId": "vn-tourism"
+      "sourceId": "vn-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "vn-ben-thanh",
@@ -105,7 +127,11 @@
         "en": "Central covered market.",
         "es": "Mercado central techado."
       },
-      "sourceId": "vn-tourism"
+      "sourceId": "vn-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "vn-hoi-an",
@@ -123,7 +149,11 @@
         "en": "Lantern-lit town with preserved trading houses.",
         "es": "Ciudad de faroles con casas de comercio conservadas."
       },
-      "sourceId": "vn-tourism"
+      "sourceId": "vn-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

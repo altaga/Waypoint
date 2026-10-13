@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Places were selected by Waypoint from official tourism boards' published destinations. Each entry has not yet been checked against its page by a person. Opening hours, prices and closures change: check the source before you go."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "ca-tourism": {
       "title": "Destination Canada",
       "url": "https://www.canada.travel/",
       "license": "Official tourism board site; listing not fetched by Waypoint",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -35,7 +41,11 @@
         "en": "Mountain park with lakes such as Moraine Lake.",
         "es": "Parque de montaña con lagos como Moraine Lake."
       },
-      "sourceId": "ca-tourism"
+      "sourceId": "ca-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ca-niagara",
@@ -52,7 +62,11 @@
         "en": "Famous waterfalls on the Ontario border.",
         "es": "Cataratas famosas en la frontera de Ontario."
       },
-      "sourceId": "ca-tourism"
+      "sourceId": "ca-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ca-royal-ontario",
@@ -70,7 +84,11 @@
         "en": "Natural history, world cultures and art.",
         "es": "Historia natural, culturas del mundo y arte."
       },
-      "sourceId": "ca-tourism"
+      "sourceId": "ca-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ca-stanley-park",
@@ -87,7 +105,11 @@
         "en": "Large seawall park with trails and totem poles.",
         "es": "Parque grande junto al malecón, con senderos y tótems."
       },
-      "sourceId": "ca-tourism"
+      "sourceId": "ca-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ca-old-quebec",
@@ -105,7 +127,11 @@
         "en": "Walled historic district with French colonial streets.",
         "es": "Barrio histórico amurallado con calles de la época colonial francesa."
       },
-      "sourceId": "ca-tourism"
+      "sourceId": "ca-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     },
     {
       "id": "ca-lake-louise",
@@ -121,7 +147,11 @@
         "en": "Glacier-fed lake; shuttles and parking fill up in summer.",
         "es": "Lago alimentado por glaciares; los estacionamientos se llenan en verano."
       },
-      "sourceId": "ca-tourism"
+      "sourceId": "ca-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      }
     }
   ]
 }

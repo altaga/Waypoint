@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Palace in Marrakech known for its courtyards, gardens and painted ceilings.",
-        "es": "Palacio de Marrakech conocido por sus patios, jardines y techos pintados."
+        "en": "The Bahia Palace is a mid to late 19th-century palace in Marrakesh, Morocco.",
+        "es": "El Palacio de Bahía es un palacio y un conjunto de jardines situados en Marrakech, Marruecos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bahia Palace",
+          "url": "https://en.wikipedia.org/wiki/Bahia_Palace"
+        },
+        "es": {
+          "title": "Palacio de la Bahía",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_la_Bah%C3%ADa"
+        }
+      }
     },
     {
       "id": "ma-q3090631",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum in a historic palace in Marrakech showing Moroccan art and crafts.",
-        "es": "Museo en un palacio histórico de Marrakech con arte y artesanía marroquíes."
+        "en": "The Museum of Marrakech is a historic palace and museum located in the old center of Marrakesh, Morocco.",
+        "es": "El museo de Marrakech, situado junto a la madrasa de Ben Youssef, es un palacio construido en una parcela de 2.108 m², dotado de un patio grande y confortable de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Marrakech Museum",
+          "url": "https://en.wikipedia.org/wiki/Marrakech_Museum"
+        },
+        "es": {
+          "title": "Museo de Marrakech",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Marrakech"
+        }
+      }
     },
     {
       "id": "ma-q593909",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum on the history and heritage of Jewish communities in Morocco, in Casablanca.",
-        "es": "Museo sobre la historia y el patrimonio de las comunidades judías de Marruecos, en Casablanca."
+        "en": "The Museum of Moroccan Judaism is a museum of Jewish life in Morocco in Casablanca, Morocco.",
+        "es": "El Museo Judío de Casablanca es un museo de historia judía dedicado a preservar la memoria de las diversas comunidades judías que han existido en Marruecos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of Moroccan Judaism",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Moroccan_Judaism"
+        },
+        "es": {
+          "title": "Museo Judío de Casablanca",
+          "url": "https://es.wikipedia.org/wiki/Museo_Jud%C3%ADo_de_Casablanca"
+        }
+      }
     },
     {
       "id": "ma-q3330322",
@@ -84,10 +135,25 @@
       ],
       "durationMinutes": 75,
       "desc": {
-        "en": "Museum of Moroccan arts in a palace in Fez, with traditional crafts and ceramics.",
-        "es": "Museo de artes marroquíes en un palacio de Fez, con artesanía tradicional y cerámica."
+        "en": "Dar Batḥa, or Qasr al-Batḥa, is a former royal palace and present-day museum in Fez, Morocco.",
+        "es": "El Museo de Batha es un museo etnográfico de Fez, Marruecos, que se encuentra en un antiguo palacio real del siglo XIX del mismo nombre, situado en la medina de…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Dar Batha",
+          "url": "https://en.wikipedia.org/wiki/Dar_Batha"
+        },
+        "es": {
+          "title": "Museo de Batha",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Batha"
+        }
+      }
     },
     {
       "id": "ma-q3329122",
@@ -101,10 +167,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of Moroccan crafts housed in a palace in Marrakech.",
-        "es": "Museo de artesanía marroquí instalado en un palacio de Marrakech."
+        "en": "Dar Si Said is a historic late 19th-century palace and present-day museum in Marrakesh, Morocco.",
+        "es": "El Museo Dar Si Said, oficialmente denominado Museo de las Artes Marroquíes, se encuentra en Marrakech y está consagrado a objetos y artesanías de la región, como prendas típicas, elementos…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Dar Si Said",
+          "url": "https://en.wikipedia.org/wiki/Dar_Si_Said"
+        },
+        "es": {
+          "title": "Museo Dar Si Said",
+          "url": "https://es.wikipedia.org/wiki/Museo_Dar_Si_Said"
+        }
+      }
     },
     {
       "id": "ma-q3360852",
@@ -118,10 +199,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Historic palace in Meknes, now a museum of Moroccan arts.",
-        "es": "Palacio histórico en Mequinez, hoy museo de artes marroquíes."
+        "en": "The Dar Jamai Museum is a museum in Meknes, Morocco.",
+        "es": "El Museo Dar Jamaï es un museo situado en Mequinez, Marruecos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Dar Jamai Museum",
+          "url": "https://en.wikipedia.org/wiki/Dar_Jamai_Museum"
+        },
+        "es": {
+          "title": "Museo Dar Jamaï",
+          "url": "https://es.wikipedia.org/wiki/Museo_Dar_Jama%C3%AF"
+        }
+      }
     },
     {
       "id": "ma-q12238602",
@@ -135,10 +231,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum on the history and civilizations of Morocco, located in Rabat.",
-        "es": "Museo sobre la historia y las civilizaciones de Marruecos, situado en Rabat."
+        "en": "The Museum of History and Civilizations is a national archaeological museum in Rabat, capital of Morocco.",
+        "es": "El Museo Arqueológico de Rabat es un museo arqueológico en Rabat, Marruecos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Museum of History and Civilizations",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_History_and_Civilizations"
+        },
+        "es": {
+          "title": "Museo Arqueológico de Rabat",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Rabat"
+        }
+      }
     },
     {
       "id": "ma-q609167",
@@ -152,10 +263,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Restored historic fondouk in Fez's medina, with a museum of traditional woodwork.",
-        "es": "Antiguo funduq restaurado en la medina de Fez, con un museo de carpintería tradicional."
+        "en": "Funduq al-Najjarin is a historic funduq in Fes el Bali, the old medina quarter in the city of Fez, Morocco.",
+        "es": "Funduq al-Najjariyyin es un funduq en Fes el Bali, en el antiguo barrio de la medina en la ciudad de Fez, Marruecos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Funduq al-Najjarin",
+          "url": "https://en.wikipedia.org/wiki/Funduq_al-Najjarin"
+        },
+        "es": {
+          "title": "Funduq al-Najjariyyin",
+          "url": "https://es.wikipedia.org/wiki/Funduq_al-Najjariyyin"
+        }
+      }
     },
     {
       "id": "ma-q16335733",
@@ -169,10 +295,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Archaeological museum in Tétouan, northern Morocco.",
-        "es": "Museo arqueológico de Tetuán, en el norte de Marruecos."
+        "en": "The Tetouan Archaeological Museum in Tétouan is considered one of the most prominent cultural and historical museums in Morocco, as its historical legacy extends back more than a century.",
+        "es": "El Museo Arqueológico de Tetuán es un museo arqueológico situado en la ciudad de Tetuán, en el norte de Marruecos."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Tetouan Archaeological Museum",
+          "url": "https://en.wikipedia.org/wiki/Tetouan_Archaeological_Museum"
+        },
+        "es": {
+          "title": "Museo Arqueológico de Tetuán",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Tetu%C3%A1n"
+        }
+      }
     },
     {
       "id": "ma-q20726223",
@@ -186,10 +327,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of modern and contemporary art in Rabat, with a focus on Moroccan artists.",
-        "es": "Museo de arte moderno y contemporáneo en Rabat, centrado en artistas marroquíes."
+        "en": "The Mohammed VI Museum of Modern and Contemporary Art, abbreviated MMVI, is a contemporary and modern art museum in Rabat, Morocco which opened in 2014.",
+        "es": "El Museo Mohamed VI de Arte Moderno y Contemporáneo (MMVI), es un museo de arte contemporáneo y moderno en la ciudad de Rabat, Marruecos, inaugurado en 2014."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Mohammed VI Museum of Modern and Contemporary Art",
+          "url": "https://en.wikipedia.org/wiki/Mohammed_VI_Museum_of_Modern_and_Contemporary_Art"
+        },
+        "es": {
+          "title": "Museo Mohamed VI de Arte Moderno y Contemporáneo",
+          "url": "https://es.wikipedia.org/wiki/Museo_Mohamed_VI_de_Arte_Moderno_y_Contempor%C3%A1neo"
+        }
+      }
     }
   ]
 }

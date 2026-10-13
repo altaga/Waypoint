@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Historic town with a well-preserved medieval center, a UNESCO World Heritage site.",
-        "es": "Ciudad histórica con un centro medieval bien conservado, sitio del Patrimonio Mundial de la UNESCO."
+        "en": "Bardejov is a town in northeastern Slovakia.",
+        "es": "Bardejov es una ciudad del noreste de Eslovaquia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bardejov",
+          "url": "https://en.wikipedia.org/wiki/Bardejov"
+        },
+        "es": {
+          "title": "Bardejov",
+          "url": "https://es.wikipedia.org/wiki/Bardejov"
+        }
+      }
     },
     {
       "id": "sk-q321074",
@@ -48,10 +69,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Spa town with mineral springs and thermal baths.",
-        "es": "Ciudad balneario con manantiales minerales y baños termales."
+        "en": "Piešťany is a town in Slovakia.",
+        "es": "Piešťany es una ciudad de Eslovaquia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Piešťany",
+          "url": "https://en.wikipedia.org/wiki/Pie%C5%A1%C5%A5any"
+        },
+        "es": {
+          "title": "Piešťany",
+          "url": "https://es.wikipedia.org/wiki/Pie%C5%A1%C5%A5any"
+        }
+      }
     },
     {
       "id": "sk-q532555",
@@ -64,10 +100,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Spa town with thermal springs in the Trenčín region.",
-        "es": "Localidad balneario con aguas termales en la región de Trenčín."
+        "en": "Trenčianske Teplice is a health resort and small spa town in western Slovakia, in the valley of the river Teplička, at the foothills of the Strážovské vrchy mountains, a few…",
+        "es": "Trenčianske Teplice es un municipio del distrito de Trenčín en la región de Trenčín, Eslovaquia, con una población estimada a final del año 2025 de 3925 habitantes."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Trenčianske Teplice",
+          "url": "https://en.wikipedia.org/wiki/Tren%C4%8Dianske_Teplice"
+        },
+        "es": {
+          "title": "Trenčianske Teplice",
+          "url": "https://es.wikipedia.org/wiki/Tren%C4%8Dianske_Teplice"
+        }
+      }
     },
     {
       "id": "sk-q135655",
@@ -80,10 +131,25 @@
       ],
       "durationMinutes": 180,
       "desc": {
-        "en": "Spa town with thermal springs in the Žilina region.",
-        "es": "Localidad balneario con aguas termales en la región de Žilina."
+        "en": "Rajecké Teplice is a spa town in the Žilina District, Žilina Region in northern Slovakia.",
+        "es": "Rajecké Teplice es un municipio del distrito de Žilina en la región de Žilina, Eslovaquia, con una población estimada a final del año 2025 de 2843 habitantes."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Rajecké Teplice",
+          "url": "https://en.wikipedia.org/wiki/Rajeck%C3%A9_Teplice"
+        },
+        "es": {
+          "title": "Rajecké Teplice",
+          "url": "https://es.wikipedia.org/wiki/Rajeck%C3%A9_Teplice"
+        }
+      }
     },
     {
       "id": "sk-q837291",
@@ -97,10 +163,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Bridge over the Danube in Bratislava, topped by a restaurant with city views.",
-        "es": "Puente sobre el Danubio en Bratislava, coronado por un restaurante con vistas a la ciudad."
+        "en": "Most SNP, commonly referred to as Most Slovenského národného povstania or the UFO Bridge, and named Nový most from 1993 to 2012, is a road bridge over the Danube in…",
+        "es": "El Most Slovenského národného povstania, llamado habitualmente Most SNP o Puente OVNI, y llamado Nový most entre 1993 y 2012, es un puente de carretera sobre el Danubio en Bratislava,…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Most SNP",
+          "url": "https://en.wikipedia.org/wiki/Most_SNP"
+        },
+        "es": {
+          "title": "Most SNP",
+          "url": "https://es.wikipedia.org/wiki/Most_SNP"
+        }
+      }
     },
     {
       "id": "sk-q1093925",
@@ -114,10 +195,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum with collections on Slovak history and culture, in Bratislava.",
-        "es": "Museo nacional con colecciones sobre la historia y cultura eslovacas, en Bratislava."
+        "en": "The Slovak National Museum is the most important institution focusing on scientific research and cultural education in the field of museology in Slovakia.",
+        "es": "El Museo nacional Eslovaco es la institución más importante centrada en la investigación científica y la educación cultural en el ámbito de la actividad museológica en Eslovaquia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Slovak National Museum",
+          "url": "https://en.wikipedia.org/wiki/Slovak_National_Museum"
+        },
+        "es": {
+          "title": "Museo nacional Eslovaco",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_Eslovaco"
+        }
+      }
     },
     {
       "id": "sk-q284340",
@@ -130,10 +226,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Ice cave in the Slovak Karst, open to guided visits.",
-        "es": "Cueva de hielo en el Karst Eslovaco, abierta a visitas guiadas."
+        "en": "Dobšiná Ice Cave is an ice cave in Slovakia, near the mining town of Dobšiná in the Slovak Paradise.",
+        "es": "La cueva helada de Dobšinská está ubicada en el área sur del Parque nacional del Paraíso Eslovaco, en el Spiš-Gemer Karst al norte de la villa de Dobšiná en Eslovaquia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Dobšiná Ice Cave",
+          "url": "https://en.wikipedia.org/wiki/Dob%C5%A1in%C3%A1_Ice_Cave"
+        },
+        "es": {
+          "title": "Cueva de hielo de Dobšinská",
+          "url": "https://es.wikipedia.org/wiki/Cueva_de_hielo_de_Dob%C5%A1insk%C3%A1"
+        }
+      }
     },
     {
       "id": "sk-q908287",
@@ -146,10 +257,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Show cave in the Slovak Karst with an underground river.",
-        "es": "Cueva turística en el Karst Eslovaco, con un río subterráneo."
+        "en": "The Domica cave is a karst cave situated on the south-western border of the Silicka planina Plateau 10 km (6.2 mi) south-east of Plesivec in the Rožňava District of the…",
+        "es": "La cueva de Domica es una cueva kárstica de Eslovaquia situada en el límite sudoeste de la meseta de Silicka planina, a 10 km al sureste de Plešivec, en el…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Domica Cave",
+          "url": "https://en.wikipedia.org/wiki/Domica_Cave"
+        },
+        "es": {
+          "title": "Cueva de Domica",
+          "url": "https://es.wikipedia.org/wiki/Cueva_de_Domica"
+        }
+      }
     },
     {
       "id": "sk-q1075804",
@@ -162,10 +288,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Show cave in the Slovak Karst known for its aragonite formations.",
-        "es": "Cueva turística en el Karst Eslovaco, conocida por sus formaciones de aragonito."
+        "en": "Ochtinská Aragonite Cave is a unique aragonite cave situated in southern Slovakia, near Rožňava.",
+        "es": "La cueva de aragonito Ochtinská se encuentra en Eslovaquia en el karst de Ochtina en la ladera noroeste de Hrádok en las montañas de Revuca entre Jelsava y Stítnik."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ochtinská Aragonite Cave",
+          "url": "https://en.wikipedia.org/wiki/Ochtinsk%C3%A1_Aragonite_Cave"
+        },
+        "es": {
+          "title": "Cueva de aragonito Ochtinská",
+          "url": "https://es.wikipedia.org/wiki/Cueva_de_aragonito_Ochtinsk%C3%A1"
+        }
+      }
     },
     {
       "id": "sk-q1744024",
@@ -179,10 +320,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National gallery of Slovak art, in Bratislava.",
+        "en": "The Slovak National Gallery is a network of galleries in Slovakia.",
         "es": "Galería nacional de arte eslovaco, en Bratislava."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Slovak National Gallery",
+          "url": "https://en.wikipedia.org/wiki/Slovak_National_Gallery"
+        }
+      }
     }
   ]
 }

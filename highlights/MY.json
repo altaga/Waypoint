@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -33,10 +39,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Limestone caves with Hindu shrines and temples, north of Kuala Lumpur.",
-        "es": "Cuevas de piedra caliza con santuarios y templos hindúes, al norte de Kuala Lumpur."
+        "en": "Batu Caves are a series of limestone caves in Gombak, Selangor, Malaysia.",
+        "es": "Cuevas de Batu es una colina de piedra caliza, que tiene una serie de cuevas y templos cuevas, situadas en el distrito de Gombak (Selangor), a 13 kilómetros al norte…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Batu Caves",
+          "url": "https://en.wikipedia.org/wiki/Batu_Caves"
+        },
+        "es": {
+          "title": "Cuevas de Batu",
+          "url": "https://es.wikipedia.org/wiki/Cuevas_de_Batu"
+        }
+      }
     },
     {
       "id": "my-q917630",
@@ -50,10 +71,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Kuala Lumpur covering the history and culture of Malaysia.",
-        "es": "Museo nacional en Kuala Lumpur que cubre la historia y la cultura de Malasia."
+        "en": "The National Museum is a public museum in Kuala Lumpur, Malaysia dedicated to Malaysian art, culture, and history.",
+        "es": "El Museo nacional de Malasia o Museo nacional es un museo situado en Jalan Damansara en la ciudad de Kuala Lumpur, en Malasia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum (Malaysia)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_(Malaysia)"
+        },
+        "es": {
+          "title": "Museo nacional de Malasia",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Malasia"
+        }
+      }
     },
     {
       "id": "my-q3330187",
@@ -68,10 +104,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Islamic art and crafts in Kuala Lumpur.",
+        "en": "The Islamic Arts Museum Malaysia is a museum in Kuala Lumpur, Malaysia.",
         "es": "Museo de arte y artesanía islámicos en Kuala Lumpur."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Islamic Arts Museum Malaysia",
+          "url": "https://en.wikipedia.org/wiki/Islamic_Arts_Museum_Malaysia"
+        }
+      }
     },
     {
       "id": "my-q2660049",
@@ -85,10 +132,21 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Large walk-in aviary in Kuala Lumpur, home to many bird species.",
+        "en": "Kuala Lumpur Bird Park is a 20.9-acre (8.5 ha) public aviary in the Malaysian capital of Kuala Lumpur.",
         "es": "Gran aviario para recorrer a pie en Kuala Lumpur, con muchas especies de aves."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kuala Lumpur Bird Park",
+          "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_Bird_Park"
+        }
+      }
     },
     {
       "id": "my-q29168",
@@ -102,10 +160,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Aquarium at the KLCC complex in Kuala Lumpur, with marine and freshwater life.",
-        "es": "Acuario en el complejo KLCC de Kuala Lumpur, con fauna marina y de agua dulce."
+        "en": "The Aquaria KLCC is an oceanarium located beneath Kuala Lumpur Convention Centre within Kuala Lumpur City Centre in Kuala Lumpur, Malaysia.",
+        "es": "El Aquaria KLCC es un parque submarino situado debajo del centro de convenciones de Kuala Lumpur en la ciudad capital del país asiático de Malasia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Aquaria KLCC",
+          "url": "https://en.wikipedia.org/wiki/Aquaria_KLCC"
+        },
+        "es": {
+          "title": "Aquaria KLCC",
+          "url": "https://es.wikipedia.org/wiki/Aquaria_KLCC"
+        }
+      }
     },
     {
       "id": "my-q3329752",
@@ -119,10 +192,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "State museum in Kuching with collections on the natural and cultural history of Sarawak.",
-        "es": "Museo estatal en Kuching con colecciones sobre la historia natural y cultural de Sarawak."
+        "en": "The Sarawak State Museum is the oldest museum in Borneo.",
+        "es": "El Museo del Estado de Sarawak es la institución museística más antigua de Borneo."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sarawak State Museum",
+          "url": "https://en.wikipedia.org/wiki/Sarawak_State_Museum"
+        },
+        "es": {
+          "title": "Museo del Estado de Sarawak",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_Estado_de_Sarawak"
+        }
+      }
     },
     {
       "id": "my-q3229105",
@@ -135,10 +223,21 @@
       ],
       "durationMinutes": 300,
       "desc": {
-        "en": "Theme park in Johor with rides and attractions based on Lego models.",
+        "en": "Legoland Malaysia Resort is a theme park in Iskandar Puteri, Johor, Malaysia.",
         "es": "Parque temático en Johor con atracciones y recorridos basados en modelos de Lego."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Legoland Malaysia Resort",
+          "url": "https://en.wikipedia.org/wiki/Legoland_Malaysia_Resort"
+        }
+      }
     },
     {
       "id": "my-q2209383",
@@ -153,10 +252,21 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "State museum in Kota Kinabalu with exhibits on Sabah's cultures and natural history.",
+        "en": "The Sabah Museum is the state museum of Sabah, Malaysia.",
         "es": "Museo estatal en Kota Kinabalu con exposiciones sobre las culturas y la historia natural de Sabah."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Sabah Museum",
+          "url": "https://en.wikipedia.org/wiki/Sabah_Museum"
+        }
+      }
     },
     {
       "id": "my-q6441508",
@@ -169,10 +279,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Small museum in Kuching dedicated to cats, with exhibits and collections.",
-        "es": "Pequeño museo de Kuching dedicado a los gatos, con exposiciones y colecciones."
+        "en": "The Kuching Cat Museum is a cat museum in Kuching, Sarawak, Malaysia.",
+        "es": "El Museo del gato de Kuching es un museo ubicado en Kuching, Sarawak, Malasia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Kuching Cat Museum",
+          "url": "https://en.wikipedia.org/wiki/Kuching_Cat_Museum"
+        },
+        "es": {
+          "title": "Museo del gato de Kuching",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_gato_de_Kuching"
+        }
+      }
     },
     {
       "id": "my-q7353928",
@@ -187,10 +312,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Replica of a palace of the Malacca Sultanate, with exhibits on Malay history.",
+        "en": "Malacca Sultanate Palace Museum also known as the Melaka Sultanate Palace Museum is a museum located at the foot of St. Paul's Hill in Malacca City, Malacca, Malaysia.",
         "es": "Réplica de un palacio del sultanato de Malaca, con exposiciones sobre la historia malaya."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Malacca Sultanate Palace Museum",
+          "url": "https://en.wikipedia.org/wiki/Malacca_Sultanate_Palace_Museum"
+        }
+      }
     }
   ]
 }

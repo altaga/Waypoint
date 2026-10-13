@@ -9,13 +9,19 @@
     "status": "curated_unverified",
     "reviewedBy": null,
     "reviewedAt": null,
-    "note": "Selected from the Wikidata list by Waypoint; descriptions written by Waypoint and not checked against each source. Hours, prices and closures change: verify on the official source."
+    "note": "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go."
   },
   "sources": {
     "wikidata": {
       "title": "Wikidata (CC0 1.0)",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
+      "retrieved": "2026-10-13"
+    },
+    "wikipedia": {
+      "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
+      "url": "https://www.wikipedia.org/",
+      "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
     }
   },
@@ -32,10 +38,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "National museum in Jakarta with archaeological and cultural collections.",
-        "es": "Museo nacional en Yakarta con colecciones arqueológicas y culturales."
+        "en": "The National Museum of Indonesia is an archeological, historical, ethnological, and geographical museum located in Jalan Medan Merdeka Barat, Central Jakarta, right on the west side of Merdeka Square.",
+        "es": "El Museo nacional de Indonesia es un museo arqueológico, histórico, etnológico y geográfico situado en Jalan Medan Merdeka Barat, en Yakarta Central, justo en el lado oeste de la Plaza…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Museum of Indonesia",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Indonesia"
+        },
+        "es": {
+          "title": "Museo nacional de Indonesia",
+          "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Indonesia"
+        }
+      }
     },
     {
       "id": "id-q145151",
@@ -49,10 +70,25 @@
       ],
       "durationMinutes": 45,
       "desc": {
-        "en": "Tall monument in central Jakarta commemorating Indonesian independence.",
-        "es": "Monumento alto en el centro de Yakarta que conmemora la independencia de Indonesia."
+        "en": "The National Monument is a 132 m (433 ft) obelisk in the centre of Merdeka Square, Central Jakarta.",
+        "es": "El Monumento Nacional o simplemente Monas es una torre tipo obelisco de 132 metros en el centro de la plaza Merdeka, a su vez en el centro de la ciudad…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "National Monument (Indonesia)",
+          "url": "https://en.wikipedia.org/wiki/National_Monument_(Indonesia)"
+        },
+        "es": {
+          "title": "Monumento nacional (Indonesia)",
+          "url": "https://es.wikipedia.org/wiki/Monumento_nacional_(Indonesia)"
+        }
+      }
     },
     {
       "id": "id-q2218604",
@@ -66,10 +102,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum on the 2004 Indian Ocean tsunami, in Banda Aceh.",
-        "es": "Museo sobre el tsunami del océano Índico de 2004, en Banda Aceh."
+        "en": "The Aceh Tsunami Museum is located in Banda Aceh, in Aceh province, Indonesia.",
+        "es": "El Museo del tsunami de Aceh está ubicado en Banda Aceh, Indonesia, es un museo concebido como un recordatorio simbólico del terremoto y tsunami de 2004 en el Océano Índico,…"
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Aceh Tsunami Museum",
+          "url": "https://en.wikipedia.org/wiki/Aceh_Tsunami_Museum"
+        },
+        "es": {
+          "title": "Museo del tsunami de Aceh",
+          "url": "https://es.wikipedia.org/wiki/Museo_del_tsunami_de_Aceh"
+        }
+      }
     },
     {
       "id": "id-q1356004",
@@ -83,10 +134,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum in the former Dutch town hall of Batavia, in Jakarta.",
+        "en": "The Jakarta History Museum, also known as Fatahillah Museum or Batavia Museum, is located in the Old Town of Jakarta, Indonesia.",
         "es": "Museo en el antiguo ayuntamiento neerlandés de Batavia, en Yakarta."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Jakarta History Museum",
+          "url": "https://en.wikipedia.org/wiki/Jakarta_History_Museum"
+        }
+      }
     },
     {
       "id": "id-q685790",
@@ -100,10 +162,25 @@
       ],
       "durationMinutes": 240,
       "desc": {
-        "en": "Cultural theme park showing Indonesia's regions and traditional houses.",
-        "es": "Parque temático cultural que muestra las regiones y casas tradicionales de Indonesia."
+        "en": "Taman Mini Indonesia Indah is a culture-based recreational area located in East Jakarta, Indonesia.",
+        "es": "Taman Mini Indonesia Indah es un parque de atracciones ubicado en la ciudad de Yakarta, en Indonesia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Taman Mini Indonesia Indah",
+          "url": "https://en.wikipedia.org/wiki/Taman_Mini_Indonesia_Indah"
+        },
+        "es": {
+          "title": "Taman Mini Indonesia Indah",
+          "url": "https://es.wikipedia.org/wiki/Taman_Mini_Indonesia_Indah"
+        }
+      }
     },
     {
       "id": "id-q2713110",
@@ -117,10 +194,25 @@
       ],
       "durationMinutes": 120,
       "desc": {
-        "en": "Large zoo in south Jakarta.",
-        "es": "Gran zoológico en el sur de Yakarta."
+        "en": "Ragunan Zoological Park, formerly and still commonly known as Ragunan Zoo, is a zoo located in the eponymous kelurahan (subdistrict) in Pasar Minggu, South Jakarta, Jakarta, Indonesia.",
+        "es": "El Zoológico de Ragunan es un zoológico de 140 hectáreas situado en Pasar Minggu, al sur de Yakarta, en el país asiático de Indonesia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Ragunan Zoo",
+          "url": "https://en.wikipedia.org/wiki/Ragunan_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Ragunan",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Ragunan"
+        }
+      }
     },
     {
       "id": "id-q2030607",
@@ -134,10 +226,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Maritime museum in the old harbor area of Jakarta.",
-        "es": "Museo marítimo en la antigua zona portuaria de Yakarta."
+        "en": "The Maritime Museum is located in the old Sunda Kelapa harbor area in Penjaringan Administrative Village, Penjaringan Subdistrict, Jakarta, Indonesia.",
+        "es": "El Museo Marítimo está situado en la antigua zona del puerto de Sunda Kelapa en el pueblo administrativo Penjaringan, subdistristo de Penjaringan, en Yakarta, Indonesia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Maritime Museum (Indonesia)",
+          "url": "https://en.wikipedia.org/wiki/Maritime_Museum_(Indonesia)"
+        },
+        "es": {
+          "title": "Museo Marítimo (Indonesia)",
+          "url": "https://es.wikipedia.org/wiki/Museo_Mar%C3%ADtimo_(Indonesia)"
+        }
+      }
     },
     {
       "id": "id-q1992789",
@@ -151,10 +258,25 @@
       ],
       "durationMinutes": 90,
       "desc": {
-        "en": "Museum of Balinese art, culture and history in Denpasar.",
-        "es": "Museo de arte, cultura e historia balinesas en Denpasar."
+        "en": "The Bali Museum is an art and history museum in Denpasar, Bali, Indonesia.",
+        "es": "El Museo de Bali, también conocido como Museum Unit Pelaksana Teknis Dinas Kebudayaan Bali es un museo estatal de arte e historia ubicado en la ciudad de Denpasar, Bali, Indonesia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Bali Museum",
+          "url": "https://en.wikipedia.org/wiki/Bali_Museum"
+        },
+        "es": {
+          "title": "Museo de Bali",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Bali"
+        }
+      }
     },
     {
       "id": "id-q29771",
@@ -168,10 +290,25 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Dutch-era fort in Makassar.",
-        "es": "Fuerte de la época neerlandesa en Makassar."
+        "en": "Fort Rotterdam is a 17th-century fort in Makassar on the island of Sulawesi in Indonesia.",
+        "es": "Fuerte Róterdam es un fuerte del siglo XVII situado en Macasar, en la isla de Sulawesi en Indonesia."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Fort Rotterdam",
+          "url": "https://en.wikipedia.org/wiki/Fort_Rotterdam"
+        },
+        "es": {
+          "title": "Fuerte Róterdam",
+          "url": "https://es.wikipedia.org/wiki/Fuerte_R%C3%B3terdam"
+        }
+      }
     },
     {
       "id": "id-q2854954",
@@ -185,10 +322,21 @@
       ],
       "durationMinutes": 60,
       "desc": {
-        "en": "Museum of wayang puppet theatre traditions in Jakarta.",
+        "en": "The Wayang Museum is a museum dedicated to Javan wayang puppetry.",
         "es": "Museo de las tradiciones del teatro de títeres wayang en Yakarta."
       },
-      "sourceId": "wikidata"
+      "sourceId": "wikidata",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "curated"
+      },
+      "ground": {
+        "retrieved": "2026-10-13",
+        "en": {
+          "title": "Wayang Museum",
+          "url": "https://en.wikipedia.org/wiki/Wayang_Museum"
+        }
+      }
     }
   ]
 }
