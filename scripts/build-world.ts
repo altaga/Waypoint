@@ -158,19 +158,27 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 async function main() {
   mkdirSync(join(OUT, "highlights"), { recursive: true });
-  console.log("countries...");
-  const cs = await countries();
-  writeFileSync(join(OUT, "countries.json"), JSON.stringify({ generatedAt: DATE, source: "Wikidata (CC0)", countries: cs }, null, 1) + "\n");
-  console.log(`  ${cs.length} countries`);
+  // ONLY=DE,FR retries just those countries (the full run skips those that time out).
+  const only = process.env.ONLY?.split(",").map((x) => x.trim().toUpperCase()).filter(Boolean);
+  let cs: Awaited<ReturnType<typeof countries>>;
+  if (only) {
+    cs = (await countries()).filter((c) => only.includes(c.iso));
+    console.log(`retrying ${cs.map((c) => c.iso).join(", ")}`);
+  } else {
+    console.log("countries...");
+    cs = await countries();
+    writeFileSync(join(OUT, "countries.json"), JSON.stringify({ generatedAt: DATE, source: "Wikidata (CC0)", countries: cs }, null, 1) + "\n");
+    console.log(`  ${cs.length} countries`);
 
-  console.log("cities...");
-  const cts = await cities();
-  writeFileSync(join(OUT, "cities.json"), JSON.stringify({
-    generatedAt: DATE,
-    source: "Wikidata (CC0): cities with population >= 300,000, plus every capital",
-    cities: cts,
-  }, null, 1) + "\n");
-  console.log(`  ${cts.length} cities`);
+    console.log("cities...");
+    const cts = await cities();
+    writeFileSync(join(OUT, "cities.json"), JSON.stringify({
+      generatedAt: DATE,
+      source: "Wikidata (CC0): cities with population >= 300,000, plus every capital",
+      cities: cts,
+    }, null, 1) + "\n");
+    console.log(`  ${cts.length} cities`);
+  }
 
   const source = { wikidata: { title: "Wikidata (CC0 1.0)", url: "https://www.wikidata.org/", license: "CC0 1.0", retrieved: DATE } };
   let done = 0;
