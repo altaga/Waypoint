@@ -13,7 +13,7 @@ Last updated: 2026-10-13. Repository: branch `claude/elegant-wozniak-qch21g`.
 - **Group money:** expenses with a payer and the people who share them, settle-up with the fewest transfers (exact to the cent), a spending limit with conversion, fairness per traveler, bookings with free-cancellation deadlines, and export to calendar (ICS) or Markdown.
 - **Packs:** 13 country packs, 13 of 13 valid. Curated overlays for CN, JP, KR, SG, TH and VN.
 - **Alexa skill:** deployed; live conversations run against the Alexa Skill Simulation API after each skill deploy.
-- **Tests:** 302 passing offline. Typecheck clean. Accuracy eval 33 of 33 (`npm run ci`).
+- **Tests:** 303 passing offline. Typecheck clean. Accuracy eval 33 of 33 (`npm run ci`).
 - **Review of 2026-10-13:** the defects found were fixed and each one has a regression test (`test/concierge-review.test.ts`). The grounding script had erased the original provenance notes of all 194 packs; they are restored, and the script now adds to them.
 
 ## Not done, and why

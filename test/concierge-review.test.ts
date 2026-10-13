@@ -147,6 +147,21 @@ test("countdown and deadlines use the traveler's day, not the UTC day", async ()
   await s2.close();
 });
 
+test("highlights: each place says whether its text is from Wikipedia and links to that article", async () => {
+  const ctx = context("2026-10-13T12:00:00Z");
+  const s = await session(ctx, "highlights-user");
+  const andorra = await s.call("get_highlights", { destination: "AD" });
+  const grounded = andorra.data.places.find((p: { id: string }) => p.id === "ad-q2124368");
+  assert.ok(grounded, "the grounded place is in the list");
+  assert.equal(grounded.descSource, "wikipedia");
+  assert.equal(grounded.article.url, "https://en.wikipedia.org/wiki/Casa_Rull_Museum");
+  const japan = await s.call("get_highlights", { destination: "JP" });
+  const curated = japan.data.places.find((p: { id: string }) => p.id === "jp-senso-ji");
+  assert.equal(curated.descSource, "curated");
+  assert.equal(curated.article, null);
+  await s.close();
+});
+
 test("grounding: the note keeps the pack's own text and gets the description sentence once", () => {
   const original = "Selected from the Wikidata list by Waypoint. Hours change: verify on the official source.";
   const once = withGroundingNote(original);

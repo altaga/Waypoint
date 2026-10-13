@@ -997,7 +997,8 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           data: {
             country: dest,
             curated,
-            places: ranked.map((p) => ({ id: p.id, name: p.name, area: p.area, city: p.city, category: p.category, interests: p.interests, durationMinutes: p.durationMinutes, desc: p.desc[locale], admission: p.admission ?? null })),
+            // descSource says where the description came from; article links to the Wikipedia article it was taken from (CC BY-SA 4.0).
+            places: ranked.map((p) => ({ id: p.id, name: p.name, area: p.area, city: p.city, category: p.category, interests: p.interests, durationMinutes: p.durationMinutes, desc: p.desc[locale], descSource: p.descBy?.[locale] ?? "curated", article: p.ground?.[locale] ?? null, admission: p.admission ?? null })),
           },
           followUps: [pick(locale, "Build my day plan with these?", "¿Armo mi plan de días con estos?")],
         });
