@@ -494,7 +494,11 @@ async function renderBrainReply(reply) {
     .filter((c) => !TRACE_SKIP.has(c.tool))
     .map((c) => `<span class="step ${c.isError ? "err" : ""}">${esc(t("tools")[c.tool] || c.tool)}</span>`)
     .join("");
-  if (device === "voice") return;
+  if (device === "voice") {
+    // Voice-only still reads the trip from the server, so the hero is right when the device changes back.
+    await refreshHero();
+    return;
+  }
   // One card per tool (the latest), in the order the agent called them.
   const latest = new Map();
   for (const c of reply.calls) if (!c.isError && c.structured?.card && !TRACE_SKIP.has(c.tool)) latest.set(c.tool, c);
@@ -599,6 +603,8 @@ function bindUi() {
     await client?.close();
     history = [];
     $("stage").classList.remove("active");
+    // The MCP App's message listener belongs to the old session: remove it with the panel.
+    unmountApp?.();
     lastUi = null;
     $("cards").innerHTML = "";
     $("apps").innerHTML = "";

@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { InMemoryTransport } from "@modelcontextprotocol/sdk/inMemory.js";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { createContext, type AppContext } from "../src/context.ts";
-import { createMemoryStore } from "../src/state.ts";
+import { createMemoryStore, StateConflictError } from "../src/state.ts";
 import { createWaypointMcpServer } from "../src/mcp-server.ts";
 import { withGroundingNote } from "../scripts/apply-grounding.ts";
 
@@ -218,6 +218,36 @@ test("markdown export: a booking pending confirmation is marked, and formatting 
   await s.call("add_booking", { kind: "activity", title: "Tour *guiado* [2h]", status: "to_confirm" });
   const md = await s.call("export_trip", { format: "markdown" });
   assert.match(md.data.content, /Tour \\\*guiado\\\* \\\[2h\\\] \(pending confirmation\)/);
+  await s.close();
+});
+
+test("state: a save from a stale version is refused", async () => {
+  const store = createMemoryStore();
+  const first = await store.load("stale-user");
+  const second = await store.load("stale-user");
+  await store.save("stale-user", first);
+  await assert.rejects(store.save("stale-user", second), StateConflictError);
+});
+
+test("state: two requests that overlap both keep their change", async () => {
+  // The memory store is slowed down on load, so the two bookings are read before either is saved.
+  const base = createMemoryStore();
+  const slow = {
+    ...base,
+    async load(userId: string) {
+      const state = await base.load(userId);
+      await new Promise((resolve) => setTimeout(resolve, 15));
+      return state;
+    },
+  };
+  const ctx = createContext({ offline: true, store: slow, clock: () => new Date("2026-10-13T12:00:00Z") });
+  const s = await group(ctx, "race-user");
+  await Promise.all([
+    s.call("add_booking", { kind: "hotel", title: "Hotel A", date: "2026-12-03" }),
+    s.call("add_booking", { kind: "hotel", title: "Hotel B", date: "2026-12-04" }),
+  ]);
+  const saved = await base.load("race-user");
+  assert.deepEqual(saved.trips[0].bookings?.map((b) => b.title).sort(), ["Hotel A", "Hotel B"]);
   await s.close();
 });
 

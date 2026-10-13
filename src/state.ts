@@ -65,9 +65,22 @@ export interface UserState {
   profile: TravelerProfile | null;
   trips: Trip[];
   expenses: Expense[];
+  /**
+   * Set by the store on load and on save. A save only succeeds when the version it was
+   * loaded with is still the stored one, so two requests cannot overwrite each other.
+   */
+  version?: number;
 }
 
 export const emptyState = (): UserState => ({ profile: null, trips: [], expenses: [] });
+
+/** A save lost a race: the state changed after it was loaded. The caller loads and tries again. */
+export class StateConflictError extends Error {
+  constructor() {
+    super("the state changed while this request ran");
+    this.name = "StateConflictError";
+  }
+}
 
 export interface StateStore {
   load(userId: string): Promise<UserState>;
@@ -82,7 +95,10 @@ export function createMemoryStore(): StateStore {
       return structuredClone(data.get(userId) ?? emptyState());
     },
     async save(userId, state) {
-      data.set(userId, structuredClone(state));
+      const current = data.get(userId)?.version ?? 0;
+      if ((state.version ?? 0) !== current) throw new StateConflictError();
+      data.set(userId, { ...structuredClone(state), version: current + 1 });
+      state.version = current + 1;
     },
     async remove(userId) {
       data.delete(userId);
@@ -109,9 +125,13 @@ export function createFileStore(path: string): StateStore {
       return (await readAll())[userId] ?? emptyState();
     },
     async save(userId, state) {
+      // Local runs only: the check and the write are not atomic across processes.
       const all = await readAll();
-      all[userId] = state;
+      const current = all[userId]?.version ?? 0;
+      if ((state.version ?? 0) !== current) throw new StateConflictError();
+      all[userId] = { ...state, version: current + 1 };
       await writeAll(all);
+      state.version = current + 1;
     },
     async remove(userId) {
       const all = await readAll();

@@ -12,7 +12,7 @@ import { pppEquivalent } from "./services/ppp.ts";
 import type { Pack, Rule, RuleCategory } from "./packs/schema.ts";
 import { DISCLAIMER } from "./packs/schema.ts";
 import type { AppContext } from "./context.ts";
-import type { ItineraryDay, Trip, UserState } from "./state.ts";
+import { StateConflictError, type ItineraryDay, type Trip, type UserState } from "./state.ts";
 import { PLAN_DASHBOARD_URI } from "./resources.ts";
 import { itemTerms } from "./items.ts";
 import { INTERESTS, type Interest } from "./services/highlights.ts";
@@ -64,6 +64,17 @@ function resolveDestinationOrThrow(input: string): string {
 function latestTrip(state: UserState, tripId?: string): Trip | null {
   if (tripId) return state.trips.find((t) => t.tripId === tripId) ?? null;
   return [...state.trips].sort((a, b) => b.createdAt.localeCompare(a.createdAt))[0] ?? null;
+}
+
+/** Runs a tool again when its save lost a race (each run loads the state afresh); other errors are not retried. */
+async function retryOnConflict<T>(fn: () => Promise<T>, attempts = 4): Promise<T> {
+  for (let i = 1; ; i++) {
+    try {
+      return await fn();
+    } catch (err) {
+      if (!(err instanceof StateConflictError) || i >= attempts) throw err;
+    }
+  }
 }
 
 const daysBetween = (a: string, b: string) => Math.round((Date.parse(b) - Date.parse(a)) / 86_400_000) + 1;
@@ -382,8 +393,9 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
   const save = (s: UserState) => ctx.store.save(userId, s);
 
   // Errors are spoken in the profile language, so a Spanish user does not hear English.
+  // A save that lost a race with another request runs the tool again, on the state as it is now.
   const run = (fn: () => Promise<ToolResult>) =>
-    fn().catch(async (err) => errorResult(err, undefined, await load().then(localeOf, () => "en" as const)));
+    retryOnConflict(fn).catch(async (err) => errorResult(err, undefined, await load().then(localeOf, () => "en" as const)));
 
   // 1. get_traveler_profile
   server.registerTool(
