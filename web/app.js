@@ -3,6 +3,7 @@
 // Waypoint MCP server through a real MCP client (mcp-client.js).
 import { McpClient, PROTOCOL_VERSION } from "./mcp-client.js";
 import { routeUtterance } from "./router.js";
+import { esc, genericCard, heroHtml, renderTool, tripIcs, words } from "./cards.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -24,6 +25,14 @@ const UI = {
       "What's left for my trip?",
       "Can I bring vapes to Singapore?",
       "How much is 1000 dollars in yen?",
+    ],
+    chipsTrip: [
+      "What's left for my trip?",
+      "Plan my days: food and temples",
+      "What should I pack?",
+      "I packed the adapter",
+      "What can't I bring?",
+      "How much is 20,000 pesos there?",
     ],
     tools: {
       get_traveler_profile: "Profile", update_traveler_profile: "Saved profile", plan_trip: "Trip plan",
@@ -61,6 +70,14 @@ const UI = {
       "¿Qué me falta para mi viaje?",
       "¿Puedo llevar vapes a Singapur?",
       "¿Cuánto son 1000 dólares en yenes?",
+    ],
+    chipsTrip: [
+      "¿Qué me falta para mi viaje?",
+      "Arma mis días: comida y templos",
+      "¿Qué empaco?",
+      "Ya empaqué el adaptador",
+      "¿Qué no puedo llevar?",
+      "¿Cuánto rinden 20 mil pesos allá?",
     ],
     tools: {
       get_traveler_profile: "Perfil", update_traveler_profile: "Perfil guardado", plan_trip: "Plan del viaje",
@@ -104,6 +121,8 @@ try { localStorage.setItem("waypoint-user", mcpUser); } catch {}
 let brainUnavailable = false;
 let unmountApp = null;
 let lastStructured = null;
+let currentBrief = null;
+let lastUi = null;
 
 const t = (k) => UI[lang][k];
 
@@ -126,7 +145,7 @@ function applyLang() {
 function renderChips() {
   const box = $("chips");
   box.innerHTML = "";
-  for (const text of t("chips")) {
+  for (const text of t(currentBrief ? "chipsTrip" : "chips")) {
     const b = document.createElement("button");
     b.type = "button";
     b.className = "chip";
@@ -141,7 +160,12 @@ function tickClock() {
   $("clock").textContent = now.toLocaleString(t("lang"), { weekday: "long", hour: "2-digit", minute: "2-digit" });
 }
 
+function setLight(state) {
+  $("lightbar").dataset.state = state;
+}
+
 function setThinking(on) {
+  setLight(on ? "thinking" : "idle");
   $("thinking").hidden = !on;
   $("thinkingText").textContent = t("thinking");
   $("send").disabled = on;
@@ -169,6 +193,8 @@ function speak(text) {
   if (!$("voiceOut").checked || !("speechSynthesis" in window)) return;
   const u = new SpeechSynthesisUtterance(text);
   u.lang = t("lang");
+  u.onstart = () => setLight("speaking");
+  u.onend = () => setLight("idle");
   speechSynthesis.cancel();
   speechSynthesis.speak(u);
 }
@@ -189,28 +215,73 @@ async function connect() {
 async function greet() {
   $("headline").textContent = t("hello");
   const profile = await client.callTool("get_traveler_profile", {}).catch(() => null);
-  const travelers = profile?.structuredContent?.data?.travelers || profile?.structuredContent?.data?.profile?.travelers || [];
+  const travelers = profile?.structuredContent?.data?.profile?.travelers || [];
   if (!profile || profile.isError || !travelers.length) return;
   const me = travelers.find((x) => x.role === "self") || travelers[0];
   const name = me?.displayName && !/^(me|yo|self)$/i.test(me.displayName) ? me.displayName : "";
-  const brief = await client.callTool("trip_brief", {}).catch(() => null);
-  const sc = brief && !brief.isError ? brief.structuredContent : null;
-  const hasTrip = sc && sc.card && (sc.card.rows || []).length;
+  const sc = await refreshHero();
   // The disclaimer belongs on the cards, not in the greeting.
-  const voice = hasTrip ? String(sc.voice).replace(/\s*(Rules change|Las reglas cambian)[^.]*\.\s*$/i, "") : "";
+  const voice = sc ? String(sc.voice).replace(/\s*(Rules change|Las reglas cambian)[^.]*\.\s*$/i, "") : "";
   $("headline").textContent = `${t("welcomeBack")(name)} ${voice}`.trim();
-  if (hasTrip && device !== "voice") $("cards").innerHTML = cardHtml(sc.card);
+  if (sc && device !== "voice") $("cards").innerHTML = renderTool("trip_brief", sc, lang);
+  renderChips();
 }
 
-function cardHtml(card) {
-  if (!card) return "";
-  const rows = (card.rows || [])
-    .map((r) => `<div class="row ${r.status || ""}"><span class="label"><span class="dot"></span>${esc(r.label)}</span><span class="value">${esc(r.value)}</span></div>`)
-    .join("");
-  return `<article class="card"><h2>${esc(card.title)}</h2>${card.subtitle ? `<div class="sub">${esc(card.subtitle)}</div>` : ""}${rows}${card.footer ? `<div class="foot">${esc(card.footer)}</div>` : ""}</article>`;
+// The trip hero (destination, countdown, readiness) is read straight from the server.
+async function refreshHero() {
+  const brief = await client.callTool("trip_brief", {}).catch(() => null);
+  const sc = brief && !brief.isError && brief.structuredContent?.data?.readiness !== undefined ? brief.structuredContent : null;
+  currentBrief = sc ? sc.data : null;
+  $("hero").innerHTML = currentBrief && device !== "voice" ? heroHtml(currentBrief, lang, Boolean(lastUi)) : "";
+  return sc;
 }
 
-const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const cardHtml = (card) => genericCard(card, {}, lang);
+
+function toast(text) {
+  const el = document.createElement("div");
+  el.className = "toast";
+  el.textContent = text;
+  document.body.appendChild(el);
+  setTimeout(() => el.remove(), 1800);
+}
+
+// Real-world actions on the hero: calendar file and a shareable brief.
+async function heroAction(action) {
+  if (!currentBrief) return;
+  const w = words(lang);
+  if (action === "panel" && lastUi) {
+    await mountApp(lastUi.uri, lastUi.structured);
+    return;
+  }
+  if (action === "ics") {
+    const blob = new Blob([tripIcs(currentBrief, lang)], { type: "text/calendar" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `waypoint-${currentBrief.destination.toLowerCase()}-${currentBrief.startDate}.ics`;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  }
+  if (action === "share") {
+    const text = `${currentBrief.destinationName}: ${currentBrief.startDate} → ${currentBrief.endDate}. ${w.daysLeft(currentBrief.daysUntil)}. ${currentBrief.readiness}% ${w.ready}.${(currentBrief.pending || []).length ? " " + currentBrief.pending.join("; ") + "." : ""}`;
+    try {
+      if (navigator.share) await navigator.share({ title: "Waypoint", text });
+      else {
+        await navigator.clipboard.writeText(text);
+        toast(w.copied);
+      }
+    } catch {}
+  }
+}
+
+// Tapping an item on the packing card ticks it off on the server (state across sessions).
+async function togglePacked(id, on) {
+  const result = await client.callTool("packing_checklist", on ? { markPacked: [id] } : { unmarkPacked: [id] });
+  if (result.isError) return;
+  const card = document.querySelector("#cards .k-packing");
+  if (card) card.outerHTML = renderTool("packing_checklist", result.structuredContent, lang);
+  await refreshHero();
+}
 
 async function renderResult(result) {
   const sc = result.structuredContent;
@@ -238,6 +309,17 @@ async function mountApp(uri, structured) {
   const html = read.contents?.[0]?.text || "";
   const holder = $("apps");
   holder.innerHTML = "";
+  const close = document.createElement("button");
+  close.type = "button";
+  close.className = "close";
+  close.textContent = lang === "es" ? "Cerrar panel" : "Close panel";
+  close.onclick = () => {
+    unmountApp?.();
+    holder.classList.remove("open");
+    holder.innerHTML = "";
+  };
+  holder.appendChild(close);
+  holder.classList.add("open");
   const frame = document.createElement("iframe");
   frame.setAttribute("sandbox", "allow-scripts");
   frame.setAttribute("title", "Waypoint readiness dashboard");
@@ -272,7 +354,6 @@ async function mountApp(uri, structured) {
 }
 
 function hostContext() {
-  const dark = matchMedia("(prefers-color-scheme: dark)").matches;
   const show = device === "show";
   return {
     deviceClass: show ? "echo-show" : device === "mobile" ? "phone" : "voice-only",
@@ -280,10 +361,11 @@ function hostContext() {
     maxHeight: show ? 600 : 620,
     isMobile: device === "mobile",
     platform: "web-simulator",
-    displayMode: "inline",
+    displayMode: "fullscreen",
     safeAreaInsets: { top: 0, right: 0, bottom: 0, left: 0 },
     deviceCapabilities: { touch: device !== "show" },
-    theme: dark ? "dark" : "light",
+    theme: "dark",
+    locale: t("lang"),
   };
 }
 
@@ -383,15 +465,22 @@ async function renderBrainReply(reply) {
   const latest = new Map();
   for (const c of reply.calls) if (!c.isError && c.structured?.card && !TRACE_SKIP.has(c.tool)) latest.set(c.tool, c);
   const shown = [...latest.values()];
-  if (shown.length) $("cards").innerHTML = shown.map((c) => cardHtml(c.structured.card)).join("");
+  const cards = shown.filter((c) => c.tool !== "plan_trip").map((c) => renderTool(c.tool, c.structured, lang)).join("");
+  if (cards) $("cards").innerHTML = cards;
+  else if (shown.some((c) => c.tool === "plan_trip")) $("cards").innerHTML = "";
+  await refreshHero();
+  renderChips();
   const withUi = [...reply.calls].reverse().find((c) => !c.isError && c.uiResourceUri);
-  if (withUi) await mountApp(withUi.uiResourceUri, withUi.structured);
+  if (withUi) {
+    lastUi = { uri: withUi.uiResourceUri, structured: withUi.structured };
+    $("hero").innerHTML = currentBrief && device !== "voice" ? heroHtml(currentBrief, lang, true) : "";
+  }
 }
 
 async function handleUtterance(text) {
   if (!text.trim()) return;
   bubble("user", text);
-  $("chips").innerHTML = "";
+  $("stage").classList.add("active");
   setThinking(true);
   try {
     const remote = await callBrainServer(text).catch(() => null);
@@ -440,12 +529,14 @@ async function loadDemoGroup() {
 function bindUi() {
   $("lang").addEventListener("change", (e) => {
     lang = e.target.value;
-    localStorage.setItem("waypoint-lang", lang);
+    try { localStorage.setItem("waypoint-lang", lang); } catch {}
     applyLang();
+    if (client) greet().catch(() => {});
   });
   $("device").addEventListener("change", (e) => {
     device = e.target.value;
     $("frame").dataset.device = device;
+    $("hero").innerHTML = currentBrief && device !== "voice" ? heroHtml(currentBrief, lang) : "";
   });
   $("inputForm").addEventListener("submit", (e) => {
     e.preventDefault();
@@ -458,11 +549,21 @@ function bindUi() {
     // Same viewer, new MCP session: remembered trips must still be there.
     await client?.close();
     history = [];
+    $("stage").classList.remove("active");
+    lastUi = null;
     $("cards").innerHTML = "";
     $("apps").innerHTML = "";
     $("trace").innerHTML = "";
     renderChips();
     await connect();
+  });
+  $("cards").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-pack-id]");
+    if (btn) togglePacked(btn.dataset.packId, btn.getAttribute("aria-pressed") !== "true").catch(() => {});
+  });
+  $("hero").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-action]");
+    if (btn) heroAction(btn.dataset.action);
   });
   setupVoice();
 }
@@ -479,10 +580,14 @@ function setupVoice() {
   rec.continuous = false;
   rec.interimResults = false;
   rec.onresult = (e) => handleUtterance(e.results[0][0].transcript);
-  rec.onend = () => mic.classList.remove("listening");
+  rec.onend = () => {
+    mic.classList.remove("listening");
+    if ($("lightbar").dataset.state === "listening") setLight("idle");
+  };
   mic.addEventListener("click", () => {
     rec.lang = t("lang");
     mic.classList.add("listening");
+    setLight("listening");
     $("connState").textContent = t("listening");
     rec.start();
   });

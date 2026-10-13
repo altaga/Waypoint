@@ -3,94 +3,149 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Waypoint readiness</title>
+<title>Waypoint trip dashboard</title>
 <style>
   :root {
-    --bg: #f7f7f5; --fg: #17181a; --muted: #5d6068; --card: #ffffff; --line: #e2e3e0;
-    --ok: #1d7a46; --warn: #a15c00; --blocked: #b3261e; --info: #345;
+    --bg: #f6f7f9; --fg: #14161a; --muted: #5b6270; --card: #ffffff; --line: #e1e5eb;
+    --ok: #1d7a46; --warn: #a15c00; --bad: #b3261e; --accent: #1f5fbf; --tint: rgba(31, 95, 191, .08);
+  }
+  :root[data-theme="dark"] {
+    --bg: #0d131c; --fg: #eef2f7; --muted: #9aa6b8; --card: #151e2b; --line: #263347;
+    --ok: #4fd18b; --warn: #f3b562; --bad: #ff8577; --accent: #3fb6ff; --tint: rgba(63, 182, 255, .1);
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg: #101113; --fg: #f1f1ef; --muted: #a2a4ab; --card: #1a1c1f; --line: #2c2f34;
-      --ok: #5ad08a; --warn: #f0b35c; --blocked: #ff8a80; --info: #aab;
+      --bg: #0d131c; --fg: #eef2f7; --muted: #9aa6b8; --card: #151e2b; --line: #263347;
+      --ok: #4fd18b; --warn: #f3b562; --bad: #ff8577; --accent: #3fb6ff; --tint: rgba(63, 182, 255, .1);
     }
   }
-  :root[data-theme="dark"] {
-    --bg: #101113; --fg: #f1f1ef; --muted: #a2a4ab; --card: #1a1c1f; --line: #2c2f34;
-    --ok: #5ad08a; --warn: #f0b35c; --blocked: #ff8a80; --info: #aab;
-  }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.4 system-ui, sans-serif; }
-  main { padding: 16px; max-width: 720px; margin: 0 auto; }
-  h1 { font-size: 20px; margin: 0 0 4px; }
-  .sub { color: var(--muted); font-size: 14px; margin-bottom: 12px; }
-  .grid { display: grid; gap: 10px; }
-  .row { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; display: flex; justify-content: space-between; gap: 12px; align-items: center; }
-  .label { font-weight: 600; }
-  .dot { width: 12px; height: 12px; border-radius: 50%; flex: none; margin-right: 8px; background: var(--muted); }
-  .ok .dot { background: var(--ok); } .warn .dot { background: var(--warn); } .blocked .dot { background: var(--blocked); }
-  .value { color: var(--fg); text-align: right; font-size: 14px; }
-  .section { margin: 18px 0 8px; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
-  .disclaimer { margin-top: 16px; font-size: 12px; color: var(--muted); }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { padding: 20px; max-width: 980px; margin: 0 auto; }
+  header { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; padding: 18px 20px; border-radius: 18px; background: var(--tint); border: 1px solid var(--line); }
+  .kicker { color: var(--muted); font-size: 14px; }
+  h1 { font-size: 34px; line-height: 1.1; margin: 4px 0 0; letter-spacing: -.02em; }
+  .count { text-align: right; }
+  .count b { display: block; font-size: 40px; line-height: 1; }
+  .count span { color: var(--muted); font-size: 13px; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 14px; }
+  @media (max-width: 640px) { .cols { grid-template-columns: 1fr; } h1 { font-size: 28px; } }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 14px 16px; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 0 0 10px; }
+  .who { display: flex; justify-content: space-between; gap: 10px; padding: 9px 0; border-top: 1px solid var(--line); }
+  .who:first-of-type { border-top: 0; }
+  .who b { font-weight: 600; }
+  .badge { font-size: 13px; padding: 3px 10px; border-radius: 999px; white-space: nowrap; align-self: center; }
+  .badge.ok { color: var(--ok); background: color-mix(in srgb, var(--ok) 14%, transparent); }
+  .badge.warn { color: var(--warn); background: color-mix(in srgb, var(--warn) 14%, transparent); }
+  .badge.blocked { color: var(--bad); background: color-mix(in srgb, var(--bad) 14%, transparent); }
+  .facts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .fact { border: 1px solid var(--line); border-radius: 12px; padding: 8px 10px; }
+  .fact small { display: block; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; }
+  .rules { display: grid; gap: 8px; margin-top: 14px; }
+  .rule { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--warn); border-radius: 12px; padding: 10px 14px; }
+  .rule.sev { border-left-color: var(--bad); }
+  .rule .top { display: flex; justify-content: space-between; gap: 8px; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 2px; }
+  .rule p { margin: 0; }
+  .disclaimer { margin-top: 14px; font-size: 12px; color: var(--muted); }
   .empty { color: var(--muted); }
 </style>
 </head>
 <body>
 <main>
-  <h1 id="title">Waypoint readiness</h1>
-  <div class="sub" id="sub">Waiting for the trip…</div>
-  <div class="section">Travelers</div>
-  <div class="grid" id="travelers"></div>
-  <div class="section">Local rules</div>
-  <div class="grid" id="rules"></div>
+  <header>
+    <div><div class="kicker" id="kicker"></div><h1 id="title">Waypoint</h1></div>
+    <div class="count" id="count"></div>
+  </header>
+  <div class="cols">
+    <section><h2 id="hTravelers"></h2><div id="travelers"></div></section>
+    <section><h2 id="hEssentials"></h2><div class="facts" id="facts"></div></section>
+  </div>
+  <div class="rules" id="rules"></div>
   <p class="disclaimer" id="disclaimer"></p>
 </main>
 <script>
-// MCP Apps (extension 2026-01-26) over postMessage with the host. The widget has no
-// access to localStorage or window.parent; it only renders what the host sends.
+// MCP Apps (extension 2026-01-26) over postMessage with the host. The widget renders only
+// what the host sends: no network, no storage, no access to the parent page.
 (function () {
+  var T = {
+    en: { travelers: "Entry by traveler", essentials: "Essentials", rules: "Local rules", days: "days to go", currency: "Currency", plugs: "Plugs", emergency: "Emergency", language: "Language", none: "No verified local rules for this destination yet." },
+    es: { travelers: "Entrada por viajero", essentials: "Básicos", rules: "Reglas locales", days: "días para el viaje", currency: "Moneda", plugs: "Enchufes", emergency: "Emergencias", language: "Idioma", none: "Aún no hay reglas locales verificadas para este destino." },
+  };
+  var CAT = {
+    en: { prohibited_items: "Prohibited items", medications: "Medications", conduct: "Conduct", dress: "Dress code", photography: "Photography", drugs: "Drugs", alcohol: "Alcohol", lgbtq: "LGBTQ+", driving: "Driving" },
+    es: { prohibited_items: "Artículos prohibidos", medications: "Medicamentos", conduct: "Conducta", dress: "Vestimenta", photography: "Fotografía", drugs: "Drogas", alcohol: "Alcohol", lgbtq: "LGBTQ+", driving: "Manejo" },
+  };
+  var SEV = { en: { severe: "severe penalty", arrest: "arrest", fine: "fine", info: "good to know" }, es: { severe: "pena grave", arrest: "arresto", fine: "multa", info: "a tener en cuenta" } };
   var nextId = 1;
+  var lang = "en";
   function send(msg) { window.parent.postMessage(Object.assign({ jsonrpc: "2.0" }, msg), "*"); }
-
-  function row(container, label, value, tone) {
-    var el = document.createElement("div");
-    el.className = "row " + (tone || "");
-    var left = document.createElement("div");
-    left.innerHTML = '<span class="dot"></span><span class="label"></span>';
-    left.querySelector(".label").textContent = label;
-    var right = document.createElement("div");
-    right.className = "value";
-    right.textContent = value;
-    el.appendChild(left);
-    el.appendChild(right);
-    container.appendChild(el);
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
+  function applyContext(ctx) {
+    if (!ctx) return;
+    if (ctx.theme) document.documentElement.setAttribute("data-theme", ctx.theme);
+    if (ctx.locale) lang = String(ctx.locale).toLowerCase().indexOf("es") === 0 ? "es" : "en";
   }
 
   function render(sc) {
     if (!sc) return;
-    document.getElementById("title").textContent = (sc.card && sc.card.title) || "Waypoint readiness";
-    document.getElementById("sub").textContent = (sc.card && sc.card.subtitle) || "";
+    var d = sc.data || {};
+    if (d.locale) lang = d.locale === "es" ? "es" : "en";
+    var t = T[lang];
+    document.documentElement.lang = lang;
+    document.getElementById("title").textContent = d.destinationName || (sc.card && sc.card.title) || "Waypoint";
+    document.getElementById("kicker").textContent = (sc.card && sc.card.subtitle) || "";
+    var count = document.getElementById("count");
+    count.innerHTML = "";
+    if (typeof d.daysUntil === "number") { count.appendChild(el("b", "", String(d.daysUntil))); count.appendChild(el("span", "", t.days)); }
+    document.getElementById("hTravelers").textContent = t.travelers;
+    document.getElementById("hEssentials").textContent = t.essentials;
+
     var travelers = document.getElementById("travelers");
-    var rules = document.getElementById("rules");
     travelers.innerHTML = "";
-    rules.innerHTML = "";
-    var data = sc.data || {};
-    (data.travelers || []).forEach(function (t) { row(travelers, t.label, t.value, t.status); });
-    if (!(data.travelers || []).length) travelers.innerHTML = '<div class="empty">No travelers yet.</div>';
-    (data.rules || []).slice(0, 6).forEach(function (r) {
-      row(rules, r.category.replace(/_/g, " ") + " · " + r.severity, r.summary.en, r.severity === "info" ? "" : "warn");
+    (d.travelers || []).forEach(function (r) {
+      var row = el("div", "who");
+      row.appendChild(el("b", "", r.label));
+      row.appendChild(el("span", "badge " + (r.status || ""), r.value));
+      travelers.appendChild(row);
     });
-    if (!(data.rules || []).length) rules.innerHTML = '<div class="empty">No verified local rules for this destination yet.</div>';
+
+    var facts = document.getElementById("facts");
+    facts.innerHTML = "";
+    var e = d.essentials || {};
+    var nums = Object.keys(e.emergency || {}).map(function (k) { return e.emergency[k]; }).filter(function (v, i, a) { return /^\+?[\d\s-]{2,}$/.test(String(v)) && a.indexOf(v) === i; });
+    var langs = (e.languageNames && e.languageNames[lang]) || e.languages || [];
+    [[t.currency, e.currency], [t.plugs, (e.plugTypes || []).join(" / ")], [t.emergency, nums.join(" · ")], [t.language, langs.join(", ")]].forEach(function (f) {
+      if (!f[1]) return;
+      var box = el("div", "fact");
+      box.appendChild(el("small", "", f[0]));
+      box.appendChild(el("div", "", f[1]));
+      facts.appendChild(box);
+    });
+
+    var rules = document.getElementById("rules");
+    rules.innerHTML = "";
+    var list = (d.rules || []).slice(0, 6);
+    if (!list.length) rules.appendChild(el("p", "empty", t.none));
+    list.forEach(function (r) {
+      var box = el("div", "rule" + (r.severity === "severe" || r.severity === "arrest" ? " sev" : ""));
+      var top = el("div", "top");
+      top.appendChild(el("span", "", CAT[lang][r.category] || r.category));
+      top.appendChild(el("span", "", SEV[lang][r.severity] || r.severity));
+      box.appendChild(top);
+      box.appendChild(el("p", "", (r.summary && (r.summary[lang] || r.summary.en)) || r.quote));
+      rules.appendChild(box);
+    });
     document.getElementById("disclaimer").textContent = sc.disclaimer || "";
   }
 
   window.addEventListener("message", function (ev) {
     var msg = ev.data;
     if (!msg || msg.jsonrpc !== "2.0") return;
-    if (msg.method === "ui/notifications/tool-result") {
-      var p = msg.params || {};
-      render(p.structuredContent);
-    }
+    if (msg.method === "ui/notifications/tool-result") render((msg.params || {}).structuredContent);
+    if (msg.method === "ui/notifications/host-context-changed") applyContext(msg.params);
     if (msg.id && msg.result && msg.result.protocolVersion) {
+      applyContext(msg.result.hostContext);
       send({ method: "ui/notifications/initialized", params: {} });
     }
   });
@@ -98,7 +153,7 @@
   send({
     id: nextId++,
     method: "ui/initialize",
-    params: { protocolVersion: "2026-01-26", appInfo: { name: "waypoint-plan-dashboard", version: "0.1.0" }, appCapabilities: {} },
+    params: { protocolVersion: "2026-01-26", appInfo: { name: "waypoint-plan-dashboard", version: "0.2.0" }, appCapabilities: {} },
   });
 })();
 </script>
