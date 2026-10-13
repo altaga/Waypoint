@@ -181,6 +181,8 @@ function appendLog(dir, msg) {
   const body = JSON.stringify(msg).slice(0, 600);
   const line = `${time} ${dir} ${summary}${msg.id !== undefined ? ` #${msg.id}` : ""}\n    ${body}\n`;
   const log = $("log");
+  // Keep the protocol log short: a long session must not grow it without limit.
+  if (log.textContent.length > 60_000) log.textContent = log.textContent.slice(-40_000);
   log.textContent += line;
   log.scrollTop = log.scrollHeight;
 }
@@ -293,14 +295,20 @@ async function heroAction(action) {
         await navigator.clipboard.writeText(text);
         toast(w.copied);
       }
-    } catch {}
+    } catch (err) {
+      // Cancelling the share sheet is not a failure.
+      if (err?.name !== "AbortError") toast(lang === "es" ? "No pude compartir ni copiar." : "Could not share or copy.");
+    }
   }
 }
 
 // Tapping an item on the packing card ticks it off on the server (state across sessions).
 async function togglePacked(id, on) {
   const result = await client.callTool("packing_checklist", on ? { markPacked: [id] } : { unmarkPacked: [id] });
-  if (result.isError) return;
+  if (result.isError) {
+    bubble("assistant", result.content?.[0]?.text || "");
+    return;
+  }
   const card = document.querySelector("#cards .k-packing");
   if (card) card.outerHTML = renderTool("packing_checklist", result.structuredContent, lang);
   await refreshHero();
@@ -559,6 +567,14 @@ async function loadDemoGroup() {
   if (!result.isError) await renderResult(result, "update_traveler_profile");
 }
 
+// Startup and New session both connect; a failure is shown in the status line, not left as "connecting".
+function connectReporting() {
+  return connect().catch((err) => {
+    $("connState").textContent = "offline";
+    appendLog("!", { error: { code: 0, message: String(err && err.message) } });
+  });
+}
+
 function bindUi() {
   $("lang").addEventListener("change", (e) => {
     lang = e.target.value;
@@ -569,7 +585,7 @@ function bindUi() {
   $("device").addEventListener("change", (e) => {
     device = e.target.value;
     $("frame").dataset.device = device;
-    $("hero").innerHTML = currentBrief && device !== "voice" ? heroHtml(currentBrief, lang) : "";
+    $("hero").innerHTML = currentBrief && device !== "voice" ? heroHtml(currentBrief, lang, Boolean(lastUi)) : "";
   });
   $("inputForm").addEventListener("submit", (e) => {
     e.preventDefault();
@@ -588,7 +604,7 @@ function bindUi() {
     $("apps").innerHTML = "";
     $("trace").innerHTML = "";
     renderChips();
-    await connect();
+    await connectReporting();
   });
   $("cards").addEventListener("click", (e) => {
     const btn = e.target.closest("[data-pack-id]");
@@ -630,7 +646,4 @@ applyLang();
 tickClock();
 setInterval(tickClock, 30000);
 bindUi();
-connect().catch((err) => {
-  $("connState").textContent = "offline";
-  appendLog("!", { error: { code: 0, message: String(err && err.message) } });
-});
+connectReporting();
