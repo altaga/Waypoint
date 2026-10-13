@@ -101,21 +101,27 @@ async function cities() {
 // times out on the public endpoint. Museums and attractions are the first build's types;
 // monuments, archaeological sites, castles, parks and gardens are added here.
 const TOURIST_TYPES = ["wd:Q570116", "wd:Q33506", "wd:Q4989906", "wd:Q839954", "wd:Q23413", "wd:Q1107656", "wd:Q15284"];
-const MUSEUM = "wd:Q33506";
+const MUSEUM_URI = "http://www.wikidata.org/entity/Q33506";
 
 // Three light queries instead of one heavy one: candidates by popularity, then names, then cities.
 async function attractions(iso: string) {
-  const candidates = await sparql(`SELECT ?p ?sl ?type WHERE {
-    VALUES ?type { ${TOURIST_TYPES.join(" ")} }
-    ?p wdt:P31 ?type; wdt:P17 ?c. ?c wdt:P297 "${iso}".
-    ?p wikibase:sitelinks ?sl.
-    FILTER(?sl >= 5)
-  } ORDER BY DESC(?sl) LIMIT 80`);
+  // One query per type, with no ORDER BY: large countries (Germany, the US) time out when the
+  // endpoint has to sort every monument first. Popularity is sorted here instead.
+  const candidates: Row[] = [];
+  for (const type of TOURIST_TYPES) {
+    const rows = await sparql(`SELECT ?p ?sl WHERE {
+      ?p wdt:P31 ${type}; wdt:P17 ?c. ?c wdt:P297 "${iso}".
+      ?p wikibase:sitelinks ?sl.
+      FILTER(?sl >= 5)
+    } LIMIT 400`);
+    for (const r of rows) candidates.push({ ...r, type: { value: type.replace("wd:", "http://www.wikidata.org/entity/") } });
+  }
+  candidates.sort((a, b) => Number(val(b, "sl")) - Number(val(a, "sl")));
   const bestById = new Map<string, { sl: number; museum: boolean }>();
   for (const r of candidates) {
     const id = qid(val(r, "p"));
     const cur = bestById.get(id) ?? { sl: Number(val(r, "sl")), museum: false };
-    cur.museum ||= val(r, "type") === MUSEUM;
+    cur.museum ||= val(r, "type") === MUSEUM_URI;
     bestById.set(id, cur);
   }
   const ids = [...bestById.keys()];
