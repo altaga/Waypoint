@@ -5,7 +5,7 @@
 //   npm run build-world
 // Ranking is by Wikipedia sitelinks (how many language editions describe the item). It is
 // a popularity signal, not a quality review, and the output says so.
-import { mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ROOT = join(import.meta.dirname, "..");
@@ -97,34 +97,58 @@ async function cities() {
   return [...seen.values()].sort((a, b) => a.iso.localeCompare(b.iso) || b.population - a.population);
 }
 
+// Types that make a place worth visiting. Direct instance-of only: the subclass path (P279*)
+// times out on the public endpoint. Museums and attractions are the first build's types;
+// monuments, archaeological sites, castles, parks and gardens are added here.
+const TOURIST_TYPES = ["wd:Q570116", "wd:Q33506", "wd:Q4989906", "wd:Q839954", "wd:Q23413", "wd:Q1107656", "wd:Q15284"];
+const MUSEUM = "wd:Q33506";
+
+// Three light queries instead of one heavy one: candidates by popularity, then names, then cities.
 async function attractions(iso: string) {
-  // Tourist attractions and museums located in the country, with their city, most referenced first.
-  const rows = await sparql(`SELECT ?p ?en ?es ?sl ?cityEn WHERE {
-    VALUES ?type { wd:Q570116 wd:Q33506 }
-    ?p wdt:P31/wdt:P279* ?type; wdt:P17/wdt:P297 "${iso}"; wdt:P625 ?coord; wikibase:sitelinks ?sl.
+  const candidates = await sparql(`SELECT ?p ?sl ?type WHERE {
+    VALUES ?type { ${TOURIST_TYPES.join(" ")} }
+    ?p wdt:P31 ?type; wdt:P17 ?c. ?c wdt:P297 "${iso}".
+    ?p wikibase:sitelinks ?sl.
     FILTER(?sl >= 5)
-    OPTIONAL { ?p rdfs:label ?en FILTER(lang(?en)="en") }
-    OPTIONAL { ?p rdfs:label ?es FILTER(lang(?es)="es") }
-    OPTIONAL { ?p wdt:P131 ?city. ?city rdfs:label ?cityEn FILTER(lang(?cityEn)="en") }
-    OPTIONAL { ?p wdt:P31 ?t. FILTER(?t = wd:Q33506) BIND(true AS ?isMuseum) }
-  } ORDER BY DESC(?sl) LIMIT 60`);
-  const out: { id: string; name: { en: string; es: string }; city: string; sitelinks: number; museum: boolean }[] = [];
-  // One row per item: an item can match both "attraction" and "museum", and carry a city in one row only.
-  const seenIds = new Set<string>();
-  const seenNames = new Set<string>();
-  for (const r of rows) {
-    const en = val(r, "en");
-    if (!en) continue;
+  } ORDER BY DESC(?sl) LIMIT 80`);
+  const bestById = new Map<string, { sl: number; museum: boolean }>();
+  for (const r of candidates) {
     const id = qid(val(r, "p"));
-    if (seenIds.has(id)) continue;
-    seenIds.add(id);
-    const key = `${en.toLowerCase()}|${val(r, "cityEn").toLowerCase()}`;
-    if (seenNames.has(key)) continue; // the same landmark under two items (e.g. CN Tower)
+    const cur = bestById.get(id) ?? { sl: Number(val(r, "sl")), museum: false };
+    cur.museum ||= val(r, "type") === MUSEUM;
+    bestById.set(id, cur);
+  }
+  const ids = [...bestById.keys()];
+  if (!ids.length) return [];
+  const values = ids.map((i) => `wd:${i}`).join(" ");
+  const names = await sparql(`SELECT ?p ?en ?es WHERE { VALUES ?p { ${values} }
+    OPTIONAL { ?p rdfs:label ?en FILTER(lang(?en)="en") }
+    OPTIONAL { ?p rdfs:label ?es FILTER(lang(?es)="es") } }`);
+  const cities = await sparql(`SELECT ?p ?cityEn WHERE { VALUES ?p { ${values} }
+    ?p wdt:P131 ?city. ?city rdfs:label ?cityEn FILTER(lang(?cityEn)="en") }`);
+  const nameOf = new Map<string, { en: string; es: string }>();
+  for (const r of names) {
+    const id = qid(val(r, "p"));
+    const en = val(r, "en");
+    if (en && !nameOf.has(id)) nameOf.set(id, { en, es: val(r, "es") || en });
+  }
+  const cityOf = new Map<string, string>();
+  for (const r of cities) {
+    const id = qid(val(r, "p"));
+    if (!cityOf.has(id)) cityOf.set(id, val(r, "cityEn"));
+  }
+  const ranked = ids
+    .map((id) => ({ id, ...bestById.get(id)!, name: nameOf.get(id) }))
+    .filter((x): x is typeof x & { name: { en: string; es: string } } => Boolean(x.name))
+    .sort((a, b) => b.sl - a.sl);
+  const out: { id: string; name: { en: string; es: string }; city: string; sitelinks: number; museum: boolean }[] = [];
+  // Same landmark under two items (e.g. CN Tower): keep the more referenced one.
+  const seenNames = new Set<string>();
+  for (const x of ranked) {
+    const key = `${x.name.en.toLowerCase()}|${(cityOf.get(x.id) ?? "").toLowerCase()}`;
+    if (seenNames.has(key)) continue;
     seenNames.add(key);
-    out.push({
-      id: qid(val(r, "p")), name: { en, es: val(r, "es") || en },
-      city: val(r, "cityEn") || en, sitelinks: Number(val(r, "sl")), museum: Boolean(r["isMuseum"]),
-    });
+    out.push({ id: x.id, name: x.name, city: cityOf.get(x.id) || x.name.en, sitelinks: x.sl, museum: x.museum });
     if (out.length >= TOP_PER_COUNTRY) break;
   }
   return out;
@@ -167,8 +191,13 @@ async function main() {
         },
         sourceId: "wikidata",
       }));
-      if (places.length) {
-        writeFileSync(join(OUT, "highlights", `${c.iso}.json`), JSON.stringify({
+      // Merge: keep every place already in the file (curated ids must stay valid), then add new ones.
+      const file = join(OUT, "highlights", `${c.iso}.json`);
+      const existing = existsSync(file) ? (JSON.parse(readFileSync(file, "utf8")).places as typeof places) : [];
+      const have = new Set(existing.map((p) => p.id));
+      const merged = [...existing, ...places.filter((p) => !have.has(p.id))];
+      if (merged.length) {
+        writeFileSync(file, JSON.stringify({
           schemaVersion: "1.0.0",
           country: c.iso,
           names: c.name,
@@ -179,7 +208,7 @@ async function main() {
             note: "Ranked by Wikipedia popularity, not curated. Names may repeat or be non-touristic (routes, sites under restoration). Check every place and its hours on the official source.",
           },
           sources: source,
-          places,
+          places: merged,
         }, null, 1) + "\n");
       }
       done++;
