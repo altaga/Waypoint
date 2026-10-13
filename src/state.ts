@@ -14,6 +14,17 @@ export interface Trip {
   travelerIds: string[];
   createdAt: string;
   packingDone: string[];
+  /** Day plan written by the concierge agent; suggestions, not verified facts. */
+  itinerary?: ItineraryDay[];
+}
+
+export interface ItineraryDay {
+  day: number;
+  date?: string;
+  title?: string;
+  morning?: string;
+  afternoon?: string;
+  evening?: string;
 }
 
 export interface Expense {

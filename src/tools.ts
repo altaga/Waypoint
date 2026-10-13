@@ -12,7 +12,7 @@ import { pppEquivalent } from "./services/ppp.ts";
 import type { Pack, Rule, RuleCategory } from "./packs/schema.ts";
 import { DISCLAIMER } from "./packs/schema.ts";
 import type { AppContext } from "./context.ts";
-import type { Trip, UserState } from "./state.ts";
+import type { ItineraryDay, Trip, UserState } from "./state.ts";
 import { PLAN_DASHBOARD_URI } from "./resources.ts";
 import { itemTerms } from "./items.ts";
 
@@ -120,6 +120,43 @@ function statusText(entry: VisaEntry, locale: Locale): string {
   return entry.maxStayDays ? `${label} (${pick(locale, "up to", "hasta")} ${entry.maxStayDays} ${pick(locale, "days", "días")})` : label;
 }
 
+// Curated packs carry a Spanish summary; older packs only have the English one.
+function ruleText(r: Rule, locale: Locale): string {
+  const es = (r.summary as { es?: string }).es;
+  return locale === "es" && es ? es : r.summary.en;
+}
+const hasSpanish = (r: Rule) => Boolean((r.summary as { es?: string }).es);
+
+const CATEGORY_LABEL: Record<string, { en: string; es: string }> = {
+  prohibited_items: { en: "Prohibited items", es: "Artículos prohibidos" },
+  medications: { en: "Medications", es: "Medicamentos" },
+  conduct: { en: "Conduct", es: "Conducta" },
+  dress: { en: "Dress code", es: "Vestimenta" },
+  photography: { en: "Photography", es: "Fotografía" },
+  drugs: { en: "Drugs", es: "Drogas" },
+  alcohol: { en: "Alcohol", es: "Alcohol" },
+  lgbtq: { en: "LGBTQ+", es: "LGBTQ+" },
+  driving: { en: "Driving", es: "Manejo" },
+};
+const SEVERITY_LABEL: Record<string, { en: string; es: string }> = {
+  severe: { en: "severe penalty", es: "pena grave" },
+  arrest: { en: "arrest", es: "arresto" },
+  fine: { en: "fine", es: "multa" },
+  info: { en: "good to know", es: "a tener en cuenta" },
+};
+const categoryLabel = (c: string, locale: Locale) => CATEGORY_LABEL[c]?.[locale] ?? c.replace(/_/g, " ");
+const severityLabel = (v: string, locale: Locale) => SEVERITY_LABEL[v]?.[locale] ?? v;
+
+/** Locale-aware number formatting for spoken and on-screen money. */
+function money(value: number, currency: string, locale: Locale): string {
+  const tag = locale === "es" ? "es-MX" : "en-US";
+  try {
+    return new Intl.NumberFormat(tag, { style: "currency", currency, currencyDisplay: "code", maximumFractionDigits: value >= 1000 ? 0 : 2 }).format(value);
+  } catch {
+    return `${Math.round(value).toLocaleString(tag)} ${currency}`;
+  }
+}
+
 function sortRules(rules: Rule[]): Rule[] {
   const rank = { severe: 0, arrest: 1, fine: 2, info: 3 } as const;
   return [...rules].sort((a, b) => rank[a.severity] - rank[b.severity]);
@@ -182,6 +219,10 @@ function savedSummary(travelers: Traveler[], locale: Locale): string {
   return parts.filter(Boolean).join(" ") || (en ? "Profile updated." : "Perfil actualizado.");
 }
 
+const firstSentence = (s: string) => {
+  const m = s.match(/^.*?[.!?](\s|$)/);
+  return (m ? m[0] : s).trim().replace(/[^.!?]$/, (c) => `${c}.`);
+};
 const lowerFirst = (s: string) => s.charAt(0).toLowerCase() + s.slice(1);
 
 // Nothing is saved yet: say so, instead of listing an empty set of missing passports.
@@ -468,8 +509,8 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           };
         });
         const ruleRows = sortRules(pack?.localRules ?? []).slice(0, 5).map((r) => ({
-          label: pick(locale, "Local rule", "Regla local"),
-          value: r.summary.en,
+          label: categoryLabel(r.category, locale),
+          value: ruleText(r, locale),
           status: (r.severity === "info" ? "info" : "warn") as "info" | "warn",
         }));
         // One traveler who is the user is spoken to directly; a group is spoken about by name.
@@ -587,18 +628,18 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         // Item question: keep only rules that mention the item (in English, after translation).
         const matches = args.item
           ? rules.filter((r) => {
-              const text = `${r.summary.en} ${r.quote}`.toLowerCase();
+              const text = `${r.summary.en} ${ruleText(r, "es")} ${r.quote}`.toLowerCase();
               return itemTerms(args.item!).some((t) => text.includes(t));
             })
           : [];
         if (args.item) {
           const top = matches[0];
           const itemVoice = top
-            ? pick(locale, `For ${args.item} in ${countryName(dest, "en")}: ${top.summary.en}`, `Sobre ${args.item} en ${countryName(dest, "es")}: ${top.quote} (texto oficial en inglés)`)
+            ? pick(locale, `For ${args.item} in ${countryName(dest, "en")}: ${top.summary.en}`, hasSpanish(top) ? `Sobre ${args.item} en ${countryName(dest, "es")}: ${ruleText(top, "es")}` : `Sobre ${args.item} en ${countryName(dest, "es")}: ${top.quote} (texto oficial en inglés)`)
             : pick(locale, `I found no verified rule about ${args.item} for ${countryName(dest, "en")}. Check the official source.`, `No encontré una regla verificada sobre ${args.item} para ${countryName(dest, "es")}. Consulta la fuente oficial.`);
           const env = baseEnvelope(ctx, dest, locale, {
             voice: itemVoice,
-            card: { pattern: "list", title: pick(locale, "Item check", "Revisión del artículo"), rows: matches.map((r) => ({ label: r.category.replace(/_/g, " "), value: r.quote, status: "warn" as const })) },
+            card: { pattern: "list", title: pick(locale, "Item check", "Revisión del artículo"), rows: matches.map((r) => ({ label: `${categoryLabel(r.category, locale)} · ${severityLabel(r.severity, locale)}`, value: ruleText(r, locale), status: "warn" as const })) },
             data: { item: args.item, matches },
             followUps: [],
           });
@@ -606,14 +647,14 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         }
         const env = baseEnvelope(ctx, dest, locale, {
           voice: rules.length
-            ? pick(locale, `I found ${rules.length} local rules for ${countryName(dest, "en")}. The most serious: ${rules[0].summary.en}`, `Encontré ${rules.length} reglas locales para ${countryName(dest, "es")}. La más grave, en el texto oficial en inglés: ${rules[0].summary.en}`)
+            ? pick(locale, `I found ${rules.length} local rules for ${countryName(dest, "en")}. The most serious: ${rules[0].summary.en}`, hasSpanish(rules[0]) ? `Encontré ${rules.length} reglas locales para ${countryName(dest, "es")}. La más importante: ${ruleText(rules[0], "es")}` : `Encontré ${rules.length} reglas locales para ${countryName(dest, "es")}. La más grave, en el texto oficial en inglés: ${rules[0].summary.en}`)
             : pick(locale, `I don't have verified local rules for ${countryName(dest, "en")} yet. Check the official travel advice.`, `Aún no tengo reglas locales verificadas para ${countryName(dest, "es")}. Consulta el aviso oficial.`),
           card: {
             pattern: "list",
             title: pick(locale, "Local rules", "Reglas locales"),
             rows: rules.map((r) => ({
-              label: `${r.category.replace(/_/g, " ")} · ${r.severity}`,
-              value: r.summary.en,
+              label: `${categoryLabel(r.category, locale)} · ${severityLabel(r.severity, locale)}`,
+              value: ruleText(r, locale),
               status: r.severity === "info" ? ("info" as const) : ("warn" as const),
             })),
           },
@@ -703,18 +744,19 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           if (home && dest) ppp = pppEquivalent(args.amount, home, dest);
         }
         const value = Math.round(conv.value * 100) / 100;
+        const fmt = (n: number, c: string) => money(n, c, locale);
         const env = baseEnvelope(ctx, destIso ?? "", locale, {
           voice: pick(
             locale,
-            `${args.amount} ${from} is about ${value} ${to}${ppp ? `. Based on local prices, it buys roughly what ${Math.round(ppp)} ${to} would buy at home` : ""}.`,
-            `${args.amount} ${from} son unos ${value} ${to}${ppp ? `. Según precios locales, compra algo parecido a lo que ${Math.round(ppp)} ${to} comprarían en tu país` : ""}.`,
+            `${fmt(args.amount, from)} is about ${fmt(value, to)}${ppp ? `. Adjusted for local prices, it goes as far as ${fmt(ppp, to)} would at home` : ""}.`,
+            `${fmt(args.amount, from)} son unos ${fmt(value, to)}${ppp ? `. Ajustado a precios locales, rinde como ${fmt(ppp, to)} en tu país` : ""}.`,
           ),
           card: {
             pattern: "card",
             title: pick(locale, "Budget", "Presupuesto"),
             rows: [
-              { label: pick(locale, "Exchange", "Cambio"), value: `${args.amount} ${from} = ${value} ${to}`, status: "info" },
-              ...(ppp ? [{ label: pick(locale, "Purchasing power (PPP)", "Poder de compra (PPA)"), value: `≈ ${Math.round(ppp)} ${to}`, status: "info" as const }] : []),
+              { label: pick(locale, "Exchange", "Cambio"), value: `${fmt(args.amount, from)} = ${fmt(value, to)}`, status: "info" },
+              ...(ppp ? [{ label: pick(locale, "Purchasing power (PPP)", "Poder de compra (PPA)"), value: `≈ ${fmt(ppp, to)}`, status: "info" as const }] : []),
               { label: pick(locale, "Rate source", "Fuente del tipo de cambio"), value: conv.source === "live" ? `open.er-api.com · ${conv.asOf}` : `${pick(locale, "snapshot", "snapshot")} · ${conv.asOf}`, status: conv.source === "live" ? "ok" : "warn" },
             ],
           },
@@ -733,10 +775,14 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
     {
       title: "Packing checklist",
       description:
-        "Use when the user asks what to pack. Builds a checklist from the trip length, plug types, travelers (children, medications) and the local rules that restrict items.",
-      inputSchema: { tripId: z.string().optional() },
+        "Use when the user asks what to pack, or says they packed something. Builds a checklist from the trip length, plugs, travelers (children, medications), entry needs and the local rules that restrict items. To tick items off, pass their ids (or a few words of the label) in markPacked; to undo, in unmarkPacked.",
+      inputSchema: {
+        tripId: z.string().optional(),
+        markPacked: z.array(z.string()).optional().describe("Item ids or label words the user has packed"),
+        unmarkPacked: z.array(z.string()).optional(),
+      },
       outputSchema: EnvelopeShape,
-      annotations: ann({ readOnly: true, idempotent: true }),
+      annotations: ann({ idempotent: true }),
     },
     (args) =>
       run(async () => {
@@ -748,50 +794,109 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const pack = ctx.packs.get(trip.destination);
         const travelers = profile.travelers.filter((t) => trip.travelerIds.includes(t.travelerId));
         const stay = daysBetween(trip.startDate, trip.endDate);
-        const items: { id: string; group: string; label: string; status: "ok" | "warn" | "info" }[] = [];
-        const add = (group: string, label: string, status: "ok" | "warn" | "info" = "info") =>
-          items.push({ id: `${group}-${items.length + 1}`, group, label, status });
+        const items: { id: string; group: string; label: string; status: "ok" | "warn" | "info" | "blocked" }[] = [];
+        const add = (id: string, group: string, label: string, status: "ok" | "warn" | "info" | "blocked" = "info") =>
+          items.push({ id, group, label, status });
 
-        add("documents", pick(locale, `Passports (${travelers.length})`, `Pasaportes (${travelers.length})`), "ok");
-        if (travelers.some((t) => t.passports.some((p) => lookupVisa(ctx.visa, p.country, trip.destination).status !== "visa_free"))) {
-          add("documents", pick(locale, "Visa, eTA or e-visa confirmation", "Confirmación de visa, eTA o e-visa"), "warn");
+        add("passports", "documents", pick(locale, `Passports (${travelers.length}), valid for the whole trip`, `Pasaportes (${travelers.length}), vigentes todo el viaje`), "ok");
+        if (travelers.some((t) => t.passports.some((p) => !["visa_free", "same_country"].includes(lookupVisa(ctx.visa, p.country, trip.destination).status)))) {
+          add("visa", "documents", pick(locale, "Visa, eTA or e-visa confirmation (printed and on your phone)", "Confirmación de visa, eTA o e-visa (impresa y en el celular)"), "warn");
         }
-        if (pack?.essentials.plugTypes.length) add("electronics", pick(locale, `Plug adapter (type ${pack.essentials.plugTypes.join("/")})`, `Adaptador (tipo ${pack.essentials.plugTypes.join("/")})`));
-        add("clothing", pick(locale, `Clothes for ${stay} days${stay > 7 ? " (laundry helps)" : ""}`, `Ropa para ${stay} días${stay > 7 ? " (lavandería ayuda)" : ""}`));
+        add("insurance", "documents", pick(locale, "Travel insurance details", "Datos del seguro de viaje"));
+        add("copies", "documents", pick(locale, "Digital copy of passports and bookings", "Copia digital de pasaportes y reservas"));
+        if (pack?.essentials.plugTypes.length) {
+          add("adapter", "electronics", pick(locale, `Plug adapter (type ${pack.essentials.plugTypes.join("/")})`, `Adaptador de enchufe (tipo ${pack.essentials.plugTypes.join("/")})`));
+        }
+        add("power", "electronics", pick(locale, "Phone charger and power bank (carry-on)", "Cargador y batería externa (en equipaje de mano)"));
+        add("data", "electronics", pick(locale, "eSIM or roaming plan", "eSIM o plan de roaming"));
+        add("clothes", "clothing", pick(locale, `Clothes for ${stay} days${stay > 7 ? " (or plan a laundry stop)" : ""}`, `Ropa para ${stay} días${stay > 7 ? " (o planea lavandería)" : ""}`));
+        add("shoes", "clothing", pick(locale, "Comfortable walking shoes", "Zapatos cómodos para caminar"));
+        if (pack?.essentials.currency) add("cash", "money", pick(locale, `Some cash in ${pack.essentials.currency} and a card without foreign fees`, `Algo de efectivo en ${pack.essentials.currency} y una tarjeta sin comisión en el extranjero`));
         if (travelers.some((t) => t.medications?.length)) {
-          add("health", pick(locale, "Medications in original packaging with prescriptions", "Medicamentos en su empaque original con receta"), "warn");
+          add("meds", "health", pick(locale, "Medications in original packaging with prescriptions", "Medicamentos en su empaque original con receta"), "warn");
         }
         for (const t of travelers.filter((x) => x.ageBand === "child" || x.ageBand === "infant")) {
-          add("family", pick(locale, `${t.displayName}: extra clothes, snacks and documents`, `${t.displayName}: ropa extra, snacks y documentos`));
+          add(`kid-${t.travelerId.slice(0, 6)}`, "family", pick(locale, `${t.displayName}: extra clothes, snacks and documents`, `${t.displayName}: ropa extra, snacks y documentos`));
         }
-        for (const r of (pack?.localRules ?? []).filter((x) => x.category === "prohibited_items").slice(0, 5)) {
-          add("do-not-pack", r.summary.en, "warn");
+        for (const r of sortRules((pack?.localRules ?? []).filter((x) => x.category === "prohibited_items" || x.category === "medications" || x.category === "drugs")).slice(0, 3)) {
+          add(`no-${r.id}`, "do-not-pack", ruleText(r, locale), "blocked");
         }
+
+        // Tick items off by id or by a few words of the label.
+        const matchItem = (q: string) => {
+          const n = q.toLowerCase().trim();
+          return items.find((i) => i.id === n) ?? items.find((i) => i.group !== "do-not-pack" && i.label.toLowerCase().includes(n));
+        };
         const done = new Set(trip.packingDone);
+        let changed = false;
+        for (const q of args.markPacked ?? []) {
+          const it = matchItem(q);
+          if (it && !done.has(it.id)) { done.add(it.id); changed = true; }
+        }
+        for (const q of args.unmarkPacked ?? []) {
+          const it = matchItem(q);
+          if (it && done.delete(it.id)) changed = true;
+        }
+        if (changed) {
+          trip.packingDone = [...done];
+          await save(state);
+        }
+        const toPack = items.filter((i) => i.group !== "do-not-pack");
+        const packed = toPack.filter((i) => done.has(i.id)).length;
+        const left = toPack.filter((i) => !done.has(i.id));
+        const avoid = items.filter((i) => i.group === "do-not-pack");
+        const nextUp = left.slice(0, 3).map((i) => lowerFirst(i.label.split(" (")[0]));
+        const voice = left.length === 0
+          ? pick(locale, "Everything on your list is packed. Have a great trip!", "Ya empacaste todo lo de tu lista. ¡Buen viaje!")
+          : pick(
+              locale,
+              `Your list has ${toPack.length} items and you've packed ${packed}. Next: ${nextUp.join(", ")}.${avoid.length ? ` Watch out: ${firstSentence(avoid[0].label)}` : ""}`,
+              `Tu lista tiene ${toPack.length} cosas y llevas ${packed}. Sigue: ${nextUp.join(", ")}.${avoid.length ? ` Ojo: ${lowerFirst(firstSentence(avoid[0].label))}` : ""}`,
+            );
         const env = baseEnvelope(ctx, trip.destination, locale, {
-          voice: pick(locale, `Your packing list has ${items.length} items. ${items.filter((i) => i.status === "warn").length} need attention.`, `Tu lista tiene ${items.length} artículos. ${items.filter((i) => i.status === "warn").length} requieren atención.`),
+          voice,
           card: {
             pattern: "list",
             title: pick(locale, "Packing list", "Lista de equipaje"),
-            rows: items.map((i) => ({ label: `${done.has(i.id) ? "☑" : "☐"} ${i.group}`, value: i.label, status: i.status })),
+            subtitle: pick(locale, `${packed} of ${toPack.length} packed`, `${packed} de ${toPack.length} empacados`),
+            rows: items.map((i) => ({
+              label: i.group === "do-not-pack" ? pick(locale, "Do not pack", "No llevar") : `${done.has(i.id) ? "☑" : "☐"}`,
+              value: i.label,
+              status: i.group === "do-not-pack" ? "blocked" : done.has(i.id) ? "ok" : i.status === "warn" ? "warn" : "info",
+            })),
           },
-          data: { tripId: trip.tripId, items: items.map((i) => ({ ...i, done: done.has(i.id) })) },
+          data: { tripId: trip.tripId, packed, total: toPack.length, items: items.map((i) => ({ ...i, done: done.has(i.id) })) },
           followUps: [pick(locale, "Build my day plan?", "¿Armo mi plan de días?")],
         });
         return envelopeResult(env);
       }),
   );
 
-  // 9. build_itinerary
+  // 9. build_itinerary (written by the concierge agent, saved on the trip)
   server.registerTool(
     "build_itinerary",
     {
-      title: "Build day plan",
+      title: "Day plan",
       description:
-        "Use when the user asks for a day plan. Lays out slots per day by pace and interests. Suggestions are not verified facts; check opening hours and entry rules.",
-      inputSchema: { tripId: z.string().optional(), day: z.number().int().positive().optional() },
+        "Use when the user asks for a day plan or itinerary. To create or change it, write the plan yourself (neighborhoods, sights, food and experiences that fit the destination, the travelers' interests and pace; one idea per slot, short) and pass it in `plan`; it is saved on the trip. Without `plan` it returns the saved plan, or the empty days with dates if none exists yet. Ideas are suggestions; tell the user to check opening hours.",
+      inputSchema: {
+        tripId: z.string().optional(),
+        day: z.number().int().positive().optional(),
+        plan: z
+          .array(
+            z.object({
+              day: z.number().int().positive(),
+              title: z.string().max(80).optional(),
+              morning: z.string().max(160).optional(),
+              afternoon: z.string().max(160).optional(),
+              evening: z.string().max(160).optional(),
+            }),
+          )
+          .max(30)
+          .optional(),
+      },
       outputSchema: EnvelopeShape,
-      annotations: ann({ readOnly: true, idempotent: true }),
+      annotations: ann({ idempotent: true }),
     },
     (args) =>
       run(async () => {
@@ -801,25 +906,40 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const trip = latestTrip(state, args.tripId);
         if (!trip) return nothingYetEnvelope(locale, "trip");
         const stay = daysBetween(trip.startDate, trip.endDate);
-        const slotsPerDay = { relaxed: 2, balanced: 3, packed: 4 }[profile.pace];
-        const slotNames = [pick(locale, "Morning", "Mañana"), pick(locale, "Afternoon", "Tarde"), pick(locale, "Evening", "Noche"), pick(locale, "Late", "Tarde-noche")];
-        const interests = profile.interests.length ? profile.interests : [pick(locale, "sightseeing", "turismo")];
-        const days = Array.from({ length: stay }, (_, i) => ({
-          day: i + 1,
-          slots: Array.from({ length: slotsPerDay }, (_, s) => ({
-            time: slotNames[s],
-            suggestion: pick(locale, `${interests[(i + s) % interests.length]} (suggestion, verify hours)`, `${interests[(i + s) % interests.length]} (sugerencia, verifica horarios)`),
-          })),
-        }));
+        const dateOf = (day: number) => new Date(Date.parse(trip.startDate) + (day - 1) * 86_400_000).toISOString().slice(0, 10);
+        if (args.plan?.length) {
+          const byDay = new Map((trip.itinerary ?? []).map((d) => [d.day, d]));
+          for (const d of args.plan) if (d.day <= stay) byDay.set(d.day, { ...d, date: dateOf(d.day) });
+          trip.itinerary = [...byDay.values()].sort((x, y) => x.day - y.day);
+          await save(state);
+        }
+        const saved = trip.itinerary ?? [];
+        const days: ItineraryDay[] = Array.from({ length: stay }, (_, i) => saved.find((d) => d.day === i + 1) ?? { day: i + 1, date: dateOf(i + 1) });
         const selected = args.day ? days.filter((d) => d.day === args.day) : days;
+        const planned = days.filter((d) => d.morning || d.afternoon || d.evening).length;
+        const slot = (d: ItineraryDay) =>
+          [d.morning && `${pick(locale, "Morning", "Mañana")}: ${d.morning}`, d.afternoon && `${pick(locale, "Afternoon", "Tarde")}: ${d.afternoon}`, d.evening && `${pick(locale, "Evening", "Noche")}: ${d.evening}`]
+            .filter(Boolean)
+            .join(" · ");
+        const first = selected.find((d) => d.morning || d.afternoon || d.evening);
+        const voice = planned === 0
+          ? pick(locale, `There is no day plan yet for your ${stay} days. Tell me what you enjoy and I'll put one together.`, `Aún no hay plan para tus ${stay} días. Dime qué te gusta y te armo uno.`)
+          : args.plan?.length
+            ? pick(locale, `Saved: a plan for ${planned} of ${stay} days.${first?.title ? ` Day ${first.day}: ${first.title}.` : ""} Check opening hours before you go.`, `Guardado: plan para ${planned} de ${stay} días.${first?.title ? ` Día ${first.day}: ${first.title}.` : ""} Revisa horarios antes de ir.`)
+            : pick(locale, `Your plan covers ${planned} of ${stay} days.`, `Tu plan cubre ${planned} de ${stay} días.`);
         const env = baseEnvelope(ctx, trip.destination, locale, {
-          voice: pick(locale, `Here is a ${profile.pace} plan for ${stay} days.`, `Este es un plan ${profile.pace === "relaxed" ? "relajado" : profile.pace === "packed" ? "intenso" : "equilibrado"} para ${stay} días.`),
+          voice,
           card: {
             pattern: "carousel",
             title: pick(locale, "Day plan", "Plan de días"),
-            rows: selected.map((d) => ({ label: `${pick(locale, "Day", "Día")} ${d.day}`, value: d.slots.map((s) => `${s.time}: ${s.suggestion}`).join(" · "), status: "info" as const })),
+            subtitle: pick(locale, `${countryName(trip.destination, "en")} · suggestions, check hours`, `${countryName(trip.destination, "es")} · sugerencias, revisa horarios`),
+            rows: selected.map((d) => ({
+              label: `${pick(locale, "Day", "Día")} ${d.day}${d.title ? ` · ${d.title}` : ""}`,
+              value: slot(d) || pick(locale, "Free day", "Día libre"),
+              status: "info" as const,
+            })),
           },
-          data: { days: selected, pace: profile.pace },
+          data: { days: selected, pace: profile.pace, interests: profile.interests, planned, stay },
           followUps: [pick(locale, "Anything else for this trip?", "¿Algo más para este viaje?")],
         });
         env.confidence = "low";
