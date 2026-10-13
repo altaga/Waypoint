@@ -4,28 +4,36 @@ Run from a clean clone with Node 22:
 
 ```bash
 npm ci
-npm run ci        # typecheck, unit + offline e2e, pack validation, accuracy eval
+npm run ci        # typecheck, every test, pack validation, accuracy eval
 ```
 
-Expected: typecheck clean, 28 tests passing, 13/13 packs valid, eval 33/33.
+Expected on `claude/elegant-wozniak-qch21g` (checked 2026-10-13):
+
+- typecheck clean
+- 302 tests passing, 0 failing
+- 13/13 country packs valid
+- eval 33/33 (100%, threshold 95%)
+
+The deployed server is checked after every deploy by `.github/workflows/deploy-aws.yml`: the typecheck and every test run first (the deploy stops on any failure), then the live concierge check (`scripts/concierge-live.mjs`, a multi-tool trip turn through Bedrock) and the live group-tools check (`scripts/tools-live.mjs`). The Alexa skill is checked on the Alexa Skill Simulation API by `alexa-live.yml` and after each skill deploy.
 
 ## What is tested
 
 | Layer | File | What it proves |
 |---|---|---|
-| Profile model | `test/profile.test.ts` | Passports store country only; medications redacted without consent |
-| Errors | `test/errors.test.ts`, `test/unit/services.test.ts` | Friendly messages, no stack, URL or HTTP code leaks |
-| Visa matrix | `test/unit/services.test.ts` | Parsing, statuses, dual passports take the most permissive |
-| Country resolver | same | English, Spanish, aliases, ISO codes, gentilicios |
-| FX | same | Snapshot when offline; snapshot when the live call fails |
-| Packs | same | Shipped packs load; invalid quotes and unreviewed tier A are rejected |
-| MCP contract | `test/e2e.test.ts` | 12 tools with outputSchema, annotations and MCP App link; resource served |
-| Workflow | `test/e2e.test.ts` | profile → elicitation for a missing passport → plan_trip → new session → trip_brief → other user sees nothing |
-| Rules | `test/e2e.test.ts` | Local rule answers carry verbatim quotes and sources |
-| Security | `test/e2e.test.ts` | Unknown origin gets 403; localhost allowed |
-| Health | `test/e2e.test.ts` | `/healthz` reports protocol version and loaded packs |
+| Itinerary verifier | `test/itinerary.test.ts` | Plans are checked by rule: day range, duplicates, unknown or wrong-country places, pace, avoided interests, daily time |
+| Concierge tools | `test/concierge-tools.test.ts` | Packing remembers ticks across sessions; a plan of catalog ids is saved, refused when invented; avoided interests block a plan; the spending limit warns; money is formatted for the locale |
+| Group money | `test/concierge-group.test.ts` | Settle-up transfers, expenses without a payer, fairness scores, booking deadlines, ICS and Markdown export |
+| Review regressions | `test/concierge-review.test.ts` | Each defect from the code review stays fixed: a place cannot repeat across days; unknown names are refused; duplicate names count once; currencies are ISO codes; dates must exist; trips are at most 365 days; settle-up is exact to the cent; unconvertible expenses are said; countdowns use the traveler's timezone; the grounding note is kept and not duplicated |
+| Catalog | `test/unit/curation.test.ts`, `test/unit/world.test.ts` | Every curated place id exists in the Wikidata list it came from; every highlight file validates and cites a known source; worldwide countries and cities resolve in English and Spanish |
+| Grounding | `test/unit/grounding.test.ts` | First sentences of Wikipedia articles: abbreviations and initials do not end them; grounded places link to their article; the attribution source is present |
+| MCP contract | `test/e2e.test.ts` | 19 tools with outputSchema, annotations and the MCP App link over Streamable HTTP; memory across sessions; other users see nothing; origin checks; `/api/brain` errors |
+| Alexa skill | `test/alexa*.test.ts`, `test/interaction-model.test.ts`, `test/unit/alexa-dates.test.ts` | Intents and slots for en-US, es-MX, es-US and en-GB; random and scripted conversations; dates as Alexa sends them; SSML escaping; the interaction model rules |
+| Profile and errors | `test/profile.test.ts`, `test/errors.test.ts` | Passports store the country only; medications are redacted without consent; friendly messages with no stack, URL or code |
+| Countries | `test/unit/countries.test.ts` | English and Spanish names, aliases, demonyms, ISO codes; typos only when one country is clearly nearest |
+| Services | `test/unit/services.test.ts`, `test/unit/voice.test.ts` | Visa matrix parsing and statuses; FX snapshot when offline; spoken sentences |
+| Infrastructure | `test/infra.test.ts` | Resources use the `waypoint_` prefix; the function URL has no IAM auth so Alexa can reach it; Bedrock permissions are limited to model invocation |
 
-The e2e suite uses a real MCP client over Streamable HTTP. It runs offline: `WAYPOINT_OFFLINE=1` is set and the memory store is used.
+The offline tests set `WAYPOINT_OFFLINE=1` and use the memory store, so they need no network and no AWS.
 
 ## Accuracy eval
 
@@ -34,7 +42,7 @@ The e2e suite uses a real MCP client over Streamable HTTP. It runs offline: `WAY
 - 30 visa facts (`passport → destination`, status and stay length), taken directly from the vendored passport matrix CSV.
 - 3 rule facts (a verbatim quote and category in a built pack), from the FCDO pages.
 
-**Read this honestly:** the visa facts are checked against the same dataset the server reads. The eval proves the lookup and pack pipeline are consistent with their sources. It is not an independent measure of real-world accuracy. Independent accuracy needs human review of tier A packs (see `docs/DATA_REVIEW.md`), which has not happened yet.
+**Read this honestly:** the visa facts are checked against the same dataset the server reads. The eval proves the lookup and pack pipeline are consistent with their sources. It is not an independent measure of real-world accuracy. Independent accuracy needs human review of the packs and the highlights (see `docs/DATA_REVIEW.md`), which has not happened yet.
 
 ## Browser smoke test (optional)
 
@@ -49,6 +57,8 @@ It connects, loads the demo group, asks a rule question (checks the vape rule ca
 
 ## Not tested
 
-- The Bedrock brain is not part of `npm test` (it needs AWS). It is tested live by the `aws-smoke` workflow (`npm run smoke:brain`), which fails unless the answer uses the cited rule instead of the model's memory.
+- The Bedrock brain is not part of `npm test` (it needs AWS). It is checked live after each deploy by `scripts/concierge-live.mjs`.
+- Descriptions of places: the first sentence of each Wikipedia article is shown with its link, and Waypoint's own text is marked `curated`. No person has checked either against the official site.
+- Opening hours, prices and closures: not in any source the app reads. The app says so and points to the official source.
 - Hosting, load, and latency under 500 ms on a real network.
 - Voice input and output. Web Speech is browser-only and was not exercised in the headless run.
