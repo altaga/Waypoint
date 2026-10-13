@@ -27,6 +27,7 @@ const L = {
     packed: (a, b) => `${a} of ${b} packed`, doNotPack: "Do not pack", plan: "Day plan", free: "Free day",
     morning: "Morning", afternoon: "Afternoon", evening: "Evening", day: "Day", brief: "What's left", ready: "ready",
     daysLeft: (n) => (n === 1 ? "1 day to go" : `${n} days to go`), tapToTick: "Tap to tick off", profile: "Traveler profile",
+    planEmpty: "No day plan yet", planEmptyHint: "Tell me what you enjoy and I'll put one together from real places.", freeDays: "Free days",
     settleBtn: "Group money", settle: "Settle up", fairness: "Fairness", transfers: "Transfers", squared: "Everyone is square.", unassigned: (n) => `${n} expense(s) have no payer and are not counted.`, noLikes: "no likes saved", avoids: "Avoids",
     nothing: "Nothing pending", calendar: "Add to calendar", share: "Share brief", copied: "Copied", panel: "Open dashboard (MCP App)",
   },
@@ -37,6 +38,7 @@ const L = {
     packed: (a, b) => `${a} de ${b} empacados`, doNotPack: "No llevar", plan: "Plan de días", free: "Día libre",
     morning: "Mañana", afternoon: "Tarde", evening: "Noche", day: "Día", brief: "Lo que falta", ready: "listo",
     daysLeft: (n) => (n === 1 ? "Falta 1 día" : `Faltan ${n} días`), tapToTick: "Toca para marcar", profile: "Perfil del viajero",
+    planEmpty: "Aún no hay plan de días", planEmptyHint: "Dime qué te gusta y armo uno con lugares reales.", freeDays: "Días libres",
     settleBtn: "Cuentas del grupo", settle: "Cuentas del grupo", fairness: "Equidad del plan", transfers: "Transferencias", squared: "Todos están a mano.", unassigned: (n) => `${n} gasto(s) no tienen quién pagó y no cuentan.`, noLikes: "sin gustos guardados", avoids: "Evita",
     nothing: "Sin pendientes", calendar: "Agregar al calendario", share: "Compartir resumen", copied: "Copiado", panel: "Abrir panel (MCP App)",
   },
@@ -149,8 +151,13 @@ function packingCard(sc, lang) {
 
 function itineraryCards(sc, lang) {
   const w = words(lang);
-  const days = sc.data?.days || [];
-  if (!days.length) return genericCard(sc.card, sc, lang);
+  // Only the days that have a plan; free days are listed in one line instead of a card each.
+  const all = sc.data?.days || [];
+  const days = all.filter((d) => (d.stops || []).length);
+  if (!days.length) {
+    return `<article class="card k-day"><header class="ch"><h2>${esc(w.planEmpty)}</h2></header><p class="muted-s">${esc(w.planEmptyHint)}</p></article>`;
+  }
+  const freeLine = all.length > days.length ? `<article class="card k-day free"><p class="muted-s">${esc(w.freeDays)}: ${esc(all.filter((d) => !(d.stops || []).length).map((d) => d.day).join(", "))}</p></article>` : "";
   return days
     .map((d) => {
       const stops = d.stops || [];
@@ -161,7 +168,7 @@ function itineraryCards(sc, lang) {
         : `<p class="muted-s">${esc(w.free)}</p>`;
       return `<article class="card k-day"><header class="ch"><div class="d-n">${esc(w.day)} ${d.day}${d.date ? ` · ${esc(shortDate(d.date, lang))}` : ""}</div>${d.title ? `<h2>${esc(d.title)}</h2>` : ""}</header>${body}</article>`;
     })
-    .join("");
+    .join("") + freeLine;
 }
 
 function briefCard(sc, lang) {

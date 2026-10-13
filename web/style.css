@@ -107,8 +107,8 @@ button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px s
 .chip:hover { background: rgba(255, 255, 255, .12); }
 
 /* ---------- Cards rail ---------- */
-.cards { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(280px, 340px); gap: 12px; overflow-x: auto; padding-bottom: 6px; scroll-snap-type: x proximity; align-items: start; scrollbar-width: thin; scrollbar-color: #2a3850 transparent; }
-.frame[data-device="mobile"] .cards { grid-auto-flow: row; grid-auto-columns: auto; overflow: visible; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; align-items: start; padding-bottom: 6px; }
+.frame[data-device="mobile"] .cards { grid-template-columns: 1fr; }
 .card { scroll-snap-align: start; background: linear-gradient(180deg, var(--s-card2), var(--s-card)); border: 1px solid var(--s-line); border-radius: 18px; padding: 14px 16px; animation: pop .3s ease both; }
 .card .ch h2 { font-size: 17px; margin: 0; font-weight: 600; }
 .card .ch { margin-bottom: 10px; }

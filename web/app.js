@@ -38,7 +38,8 @@ const UI = {
       get_traveler_profile: "Profile", update_traveler_profile: "Saved profile", plan_trip: "Trip plan",
       check_entry_requirements: "Entry rules", get_local_rules: "Local rules", get_destination_essentials: "Essentials",
       convert_budget: "Budget", packing_checklist: "Packing", build_itinerary: "Itinerary", trip_brief: "Trip brief",
-      log_expense: "Expense", forget_me: "Forget me",
+      log_expense: "Expense", forget_me: "Forget me", get_highlights: "Places", set_trip_constraints: "Trip rules",
+      add_booking: "Booking", confirm_booking: "Confirmed", settle_up: "Group money", plan_fairness: "Fairness", export_trip: "Export",
     },
     demoDone: "Demo group saved: Ana (Mexico), Sam (United States), Priya (India).",
     notUnderstood: "I didn't catch that. Try: “Can I bring vapes to Singapore?” or “Trip to Japan from December 3 to 10”.",
@@ -83,7 +84,8 @@ const UI = {
       get_traveler_profile: "Perfil", update_traveler_profile: "Perfil guardado", plan_trip: "Plan del viaje",
       check_entry_requirements: "Requisitos de entrada", get_local_rules: "Reglas locales", get_destination_essentials: "Básicos",
       convert_budget: "Presupuesto", packing_checklist: "Maleta", build_itinerary: "Itinerario", trip_brief: "Resumen del viaje",
-      log_expense: "Gasto", forget_me: "Olvidar datos",
+      log_expense: "Gasto", forget_me: "Olvidar datos", get_highlights: "Lugares", set_trip_constraints: "Reglas del viaje",
+      add_booking: "Reserva", confirm_booking: "Confirmada", settle_up: "Cuentas", plan_fairness: "Equidad", export_trip: "Exportar",
     },
     demoDone: "Grupo de ejemplo guardado: Ana (México), Sam (Estados Unidos), Priya (India).",
     notUnderstood: "No entendí. Prueba: “¿Puedo llevar vapes a Singapur?” o “Viajo a Japón del 3 al 10 de diciembre”.",
@@ -478,7 +480,10 @@ async function renderBrainReply(reply) {
   // One card per tool (the latest), in the order the agent called them.
   const latest = new Map();
   for (const c of reply.calls) if (!c.isError && c.structured?.card && !TRACE_SKIP.has(c.tool)) latest.set(c.tool, c);
-  const shown = [...latest.values()];
+  // What was just asked comes first; the profile card only when there is nothing else to show.
+  const rank = { settle_up: 0, plan_fairness: 1, add_booking: 2, confirm_booking: 2, export_trip: 3, trip_brief: 4, packing_checklist: 5, build_itinerary: 6, get_highlights: 7, convert_budget: 8, check_entry_requirements: 9, get_local_rules: 10, update_traveler_profile: 12 };
+  let shown = [...latest.values()].sort((a, b) => (rank[a.tool] ?? 11) - (rank[b.tool] ?? 11));
+  if (shown.some((c) => c.tool !== "update_traveler_profile")) shown = shown.filter((c) => c.tool !== "update_traveler_profile");
   const cards = shown.filter((c) => c.tool !== "plan_trip").map((c) => renderTool(c.tool, c.structured, lang)).join("");
   if (cards) $("cards").innerHTML = cards;
   else if (shown.some((c) => c.tool === "plan_trip")) $("cards").innerHTML = "";
