@@ -8,252 +8,246 @@
   "generatedAt": "2026-10-11",
   "tier": "B",
   "review": {
-    "status": "machine_extracted",
-    "reviewedBy": null,
-    "reviewedAt": null
+    "status": "curated",
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
   },
   "localRules": [
+    {
+      "id": "jp-medications-stimulants",
+      "category": "medications",
+      "severity": "arrest",
+      "summary": {
+        "en": "Some common medicines are illegal in Japan, including Vicks inhalers, pseudoephedrine cold medicine and some codeine painkillers. Visitors have been detained and deported.",
+        "es": "Algunos medicamentos comunes son ilegales en Japón, como inhaladores Vicks, antigripales con pseudoefedrina y analgésicos con codeína. Ha habido viajeros detenidos y deportados."
+      },
+      "items": [
+        "medicine",
+        "Vicks",
+        "pseudoephedrine",
+        "codeine",
+        "medicamentos",
+        "pseudoefedrina",
+        "codeína"
+      ],
+      "quote": "It is illegal to carry some common prescription and over-the-counter medicines under Japan’s strictly enforced law on anti-stimulant drugs. This includes: Vicks inhalers medicines for allergies and sinus problems cold and flu medication containing pseudoephedrine some over-the-counter painkillers containing codeine Foreign nationals have been detained and deported for these offences.",
+      "sources": [
+        "src:fcdo-jp-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "jp-medications-us-prescriptions",
+      "category": "medications",
+      "severity": "arrest",
+      "summary": {
+        "en": "Some medicines routinely prescribed in the US, including Adderall, are illegal in Japan. CBD may also be illegal depending on its THC content.",
+        "es": "Algunos medicamentos que se recetan comúnmente en EE. UU., como Adderall, son ilegales en Japón. El CBD también puede serlo según su contenido de THC."
+      },
+      "items": [
+        "Adderall",
+        "CBD",
+        "prescription",
+        "receta"
+      ],
+      "quote": "Medications routinely prescribed in the United States, including Adderall, are illegal in Japan. CBD may also be illegal depending on the amount of THC.",
+      "sources": [
+        "src:state-jp-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "jp-drugs-6",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Even a small amount of marijuana, including medical marijuana with a prescription, can mean a long jail sentence and a fine.",
+        "es": "Incluso una pequeña cantidad de marihuana, aunque sea medicinal y con receta, puede significar una larga condena de cárcel y una multa."
+      },
+      "items": [
+        "marijuana",
+        "cannabis",
+        "drugs",
+        "marihuana",
+        "drogas"
+      ],
+      "quote": "Possession of even a small amount of marijuana for personal, medical, or recreational use can result in a long jail sentence and fine, even if it was prescribed.",
+      "sources": [
+        "src:state-jp-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
     {
       "id": "jp-prohibited-items-1",
       "category": "prohibited_items",
       "severity": "arrest",
       "summary": {
-        "en": "It is illegal to bring meat products including sausages, bacon and ham to Japan without permission from the Japanese Animal Quarantine Service . Penalties include a heavy fine and prison sentence."
+        "en": "Do not bring meat products such as sausages, bacon or ham without animal-quarantine permission. Penalties include a heavy fine and prison.",
+        "es": "No lleves productos cárnicos como salchichas, tocino o jamón sin permiso de cuarentena animal. Las sanciones incluyen multas altas y cárcel."
       },
+      "items": [
+        "meat",
+        "sausages",
+        "bacon",
+        "ham",
+        "carne",
+        "salchichas",
+        "tocino",
+        "jamón"
+      ],
       "quote": "It is illegal to bring meat products including sausages, bacon and ham to Japan without permission from the Japanese Animal Quarantine Service . Penalties include a heavy fine and prison sentence.",
       "sources": [
         "src:fcdo-jp-entry-requirements"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "id": "jp-prohibited-items-knives",
+      "category": "prohibited_items",
+      "severity": "arrest",
+      "summary": {
+        "en": "Knives with a locking blade, or a folding blade longer than 5.5 cm, are illegal. Visitors have been detained over 10 days for carrying pocketknives.",
+        "es": "Las navajas con seguro o con hoja plegable de más de 5.5 cm son ilegales. Ha habido viajeros detenidos más de 10 días por llevarlas."
+      },
+      "items": [
+        "knife",
+        "pocketknife",
+        "navaja",
+        "cuchillo"
+      ],
+      "quote": "Carrying a knife with a locking blade, or a folding blade that is longer than 5.5 cm (a little more than two inches), is illegal in Japan. U.S. citizens and U.S. military personnel have been arrested and detained for more than 10 days for carrying pocketknives that are legal in the United States but illegal in Japan.",
+      "sources": [
+        "src:state-jp-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "jp-conduct-passport",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Always carry your passport. Police can arrest you if you cannot show proof of your visa or residence status.",
+        "es": "Lleva siempre tu pasaporte. La policía puede arrestarte si no puedes demostrar tu visa o tu estatus migratorio."
+      },
+      "items": [
+        "passport",
+        "pasaporte"
+      ],
+      "quote": "You must always carry your passport or Japanese residence card with you. The police can arrest you if you cannot show proof of your visa or residence status.",
+      "sources": [
+        "src:fcdo-jp-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
     },
     {
       "id": "jp-conduct-2",
       "category": "conduct",
       "severity": "arrest",
       "summary": {
-        "en": "In Japan, you can be arrested and detained without charge for up to 23 days, even for minor offences such as theft or trespassing."
+        "en": "Even for minor offences such as theft or trespassing, you can be detained without charge for up to 23 days.",
+        "es": "Incluso por faltas menores, como robo o entrar sin permiso, te pueden detener sin cargos hasta 23 días."
       },
       "quote": "In Japan, you can be arrested and detained without charge for up to 23 days, even for minor offences such as theft or trespassing.",
       "sources": [
         "src:fcdo-jp-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "jp-alcohol-3",
-      "category": "alcohol",
+      "id": "jp-driving-alcohol",
+      "category": "driving",
       "severity": "arrest",
       "summary": {
-        "en": "The passenger could face arrest if the police suspect they were aware of the driver’s alcohol consumption."
+        "en": "Do not drink and drive: the blood-alcohol limit is 0.03%, and offenders face up to 5 years in prison and large fines.",
+        "es": "No manejes si bebiste: el límite de alcohol en sangre es 0.03% y las sanciones llegan a 5 años de cárcel y multas altas."
       },
-      "quote": "The passenger could face arrest if the police suspect they were aware of the driver’s alcohol consumption.",
+      "items": [
+        "alcohol",
+        "driving",
+        "manejar"
+      ],
+      "quote": "Driving under the influence of alcohol could land you immediately in jail. The blood-alcohol limit in Japan is 0.03%. Punishments can be up to $10,000 in fines and up to 5 years in prison.",
       "sources": [
-        "src:fcdo-jp-safety-and-security"
+        "src:state-jp-local-laws-and-special-circumstances"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "jp-conduct-4",
+      "id": "jp-conduct-work",
       "category": "conduct",
-      "severity": "arrest",
-      "summary": {
-        "en": "Japanese and UK law are very different. In Japan, you can be arrested and detained without charge for up to 23 days, even for minor offences such as theft or trespassing."
-      },
-      "quote": "Japanese and UK law are very different. In Japan, you can be arrested and detained without charge for up to 23 days, even for minor offences such as theft or trespassing.",
-      "sources": [
-        "src:fcdo-jp-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "jp-drugs-5",
-      "category": "drugs",
-      "severity": "arrest",
-      "summary": {
-        "en": "Illegal drugs and prison sentences"
-      },
-      "quote": "Illegal drugs and prison sentences",
-      "sources": [
-        "src:fcdo-jp-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "jp-drugs-6",
-      "category": "drugs",
       "severity": "fine",
       "summary": {
-        "en": "There is zero tolerance of drug crime and the penalties are severe."
+        "en": "You cannot work on a tourist visa. Overstaying or working illegally can bring severe fines and re-entry bans of up to 10 years.",
+        "es": "No puedes trabajar con visa de turista. Quedarte de más o trabajar ilegalmente puede traer multas severas y prohibición de reingreso de hasta 10 años."
       },
-      "quote": "There is zero tolerance of drug crime and the penalties are severe.",
+      "quote": "It is illegal to work in Japan with a tourist visa. Overstaying your visa or working illegally may lead to penalties and severe fines. This includes re-entry bans for as long as 10 years, or indefinitely for drug offenders.",
+      "sources": [
+        "src:state-jp-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "jp-conduct-smoking",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "Smoking on the street is illegal in Tokyo and some other cities; use designated smoking areas.",
+        "es": "Fumar en la calle es ilegal en Tokio y otras ciudades; usa las zonas designadas para fumar."
+      },
+      "items": [
+        "cigarettes",
+        "smoking",
+        "cigarros",
+        "fumar"
+      ],
+      "quote": "Smoking is illegal on the streets of Tokyo and some other cities.",
       "sources": [
         "src:fcdo-jp-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "jp-drugs-7",
-      "category": "drugs",
-      "severity": "fine",
-      "summary": {
-        "en": "British nationals convicted of drug trafficking have received sentences ranging from 6 to 17 years and fines of 3 to 4 million yen."
-      },
-      "quote": "British nationals convicted of drug trafficking have received sentences ranging from 6 to 17 years and fines of 3 to 4 million yen.",
-      "sources": [
-        "src:fcdo-jp-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "jp-prohibited-items-8",
-      "category": "prohibited_items",
-      "severity": "info",
-      "summary": {
-        "en": "It is illegal to bring meat products including sausages, bacon and ham to Japan without permission from the Japanese Animal Quarantine Service ."
-      },
-      "quote": "It is illegal to bring meat products including sausages, bacon and ham to Japan without permission from the Japanese Animal Quarantine Service .",
-      "sources": [
-        "src:fcdo-jp-entry-requirements"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "jp-prohibited-items-9",
-      "category": "prohibited_items",
-      "severity": "info",
-      "summary": {
-        "en": "Whale meat is available in Japan but importing it into the UK and EU is illegal."
-      },
-      "quote": "Whale meat is available in Japan but importing it into the UK and EU is illegal.",
-      "sources": [
-        "src:fcdo-jp-entry-requirements"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "jp-drugs-10",
-      "category": "drugs",
-      "severity": "info",
-      "summary": {
-        "en": "If the police find an illegal substance in your bloodstream, you may be charged, regardless of whether you consented or were aware of taking the drugs."
-      },
-      "quote": "If the police find an illegal substance in your bloodstream, you may be charged, regardless of whether you consented or were aware of taking the drugs.",
-      "sources": [
-        "src:fcdo-jp-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "jp-prohibited-items-11",
-      "category": "prohibited_items",
-      "severity": "info",
-      "summary": {
-        "en": "If you take blood tests at medical institutions, they are usually obliged to report to the police if they detect any illegal substances."
-      },
-      "quote": "If you take blood tests at medical institutions, they are usually obliged to report to the police if they detect any illegal substances.",
-      "sources": [
-        "src:fcdo-jp-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "jp-alcohol-12",
-      "category": "alcohol",
-      "severity": "info",
-      "summary": {
-        "en": "In general, drinking alcohol in public places is not illegal."
-      },
-      "quote": "In general, drinking alcohol in public places is not illegal.",
-      "sources": [
-        "src:fcdo-jp-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "jp-lgbtq-13",
-      "category": "lgbtq",
-      "severity": "info",
-      "summary": {
-        "en": "Same-sex sexual activity is not illegal, but Japanese law does not protect against discrimination on the grounds of sexual orientation."
-      },
-      "quote": "Same-sex sexual activity is not illegal, but Japanese law does not protect against discrimination on the grounds of sexual orientation.",
-      "sources": [
-        "src:fcdo-jp-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "jp-alcohol-14",
-      "category": "alcohol",
-      "severity": "info",
-      "summary": {
-        "en": "Drink-driving is a serious offence in Japan, and the legal limit of alcohol in your system is about a third of the UK limit."
-      },
-      "quote": "Drink-driving is a serious offence in Japan, and the legal limit of alcohol in your system is about a third of the UK limit.",
-      "sources": [
-        "src:fcdo-jp-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "jp-lgbtq-15",
-      "category": "lgbtq",
-      "severity": "info",
-      "summary": {
-        "en": "LGBT+ travellers"
-      },
-      "quote": "LGBT+ travellers",
-      "sources": [
-        "src:fcdo-jp-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "jp-lgbtq-16",
-      "category": "lgbtq",
-      "severity": "info",
-      "summary": {
-        "en": "Shinjuku Nichome in Tokyo and Doyamacho in Osaka are well-known LGBT+ areas."
-      },
-      "quote": "Shinjuku Nichome in Tokyo and Doyamacho in Osaka are well-known LGBT+ areas.",
-      "sources": [
-        "src:fcdo-jp-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     }
   ],
   "essentials": {
     "currency": "JPY",
     "plugTypes": [
-      "NEMA 1-15",
-      "NEMA 5-15"
+      "A",
+      "B"
     ],
     "emergency": {
-      "number1": "http://www.wikidata.org/entity/Q2807090",
-      "number2": "http://www.wikidata.org/entity/Q11185210",
-      "number3": "http://www.wikidata.org/entity/Q25648823"
+      "police": "110",
+      "ambulance": "119",
+      "fire": "119"
     },
     "languages": [
       "ja"
-    ]
+    ],
+    "languageNames": {
+      "en": [
+        "Japanese"
+      ],
+      "es": [
+        "japonés"
+      ]
+    }
   },
-  "advisory": {},
+  "advisory": {
+    "us": {
+      "level": 1,
+      "title": "Japan - Level 1: Exercise Normal Precautions",
+      "date": "2025-05-14"
+    }
+  },
   "sources": {
     "src:fcdo-jp-entry-requirements": {
       "title": "FCDO travel advice: Japan - Entry requirements",
@@ -271,6 +265,24 @@
       "title": "FCDO travel advice: Japan - Health",
       "url": "https://www.gov.uk/foreign-travel-advice/japan/health",
       "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-jp-local-laws-and-special-circumstances": {
+      "title": "US State Dept: Japan - local laws and special circumstances",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.jpn.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-jp-entry-exit-requirements": {
+      "title": "US State Dept: Japan - entry exit requirements",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.jpn.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-jp-health": {
+      "title": "US State Dept: Japan - health",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.jpn.html",
+      "license": "US Government work (public domain)",
       "retrieved": "2026-10-11"
     }
   },

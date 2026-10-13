@@ -1,0 +1,133 @@
+{
+  "country": "AE",
+  "review": {
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
+  },
+  "essentials": {
+    "plugTypes": ["C", "D", "G"],
+    "emergency": { "police": "999", "ambulance": "998", "fire": "997" },
+    "languages": ["ar"],
+    "languageNames": { "en": ["Arabic"], "es": ["árabe"] }
+  },
+  "rules": [
+    {
+      "id": "ae-drugs-trafficking",
+      "category": "drugs",
+      "severity": "severe",
+      "summary": {
+        "en": "Drug trafficking can carry the death penalty. Even tiny amounts, including cannabis or traces in your blood, can mean prison or a heavy fine.",
+        "es": "El tráfico de drogas puede castigarse con pena de muerte. Incluso cantidades mínimas, o rastros en la sangre, pueden significar cárcel o multas altas."
+      },
+      "items": ["drugs", "cannabis", "marijuana", "drogas", "marihuana"],
+      "quote": "The penalties for trafficking, smuggling, using and possessing illegal drugs (including residual amounts) are severe. Sentences for drug trafficking can include the death penalty. Possession of even the smallest amount of illegal drugs, including cannabis, can lead to a minimum 3-month prison term or a fine of between 20,000 UAE dirham and 100,000 UAE dirham. The Emirati authorities count the presence of drugs in the blood stream as possession.",
+      "sources": ["src:fcdo-ae-safety-and-security"]
+    },
+    {
+      "id": "ae-drugs-cbd-poppy-seeds",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "CBD products, even in medicines sold legally elsewhere, are prosecuted like marijuana. Poppy seeds in any form, including dried decorative plants, are also strictly prohibited.",
+        "es": "Los productos con CBD, incluso medicamentos legales en otros países, se persiguen como marihuana. Las semillas de amapola están prohibidas en cualquier forma."
+      },
+      "items": ["CBD", "cannabidiol", "poppy seeds", "semillas de amapola", "amapola"],
+      "quote": "Products containing cannabidiol (CBD) are illegal in the UAE. Possession or importation of CBD products, including those found in prescription and over the counter medications in the United States and other countries, are prosecuted in the same manner as marijuana possession. The UAE's anti-narcotics program also includes poppy seeds on its list of controlled substances. The importation and possession of poppy seeds in any and all forms, including as dried decorative plants, are strictly prohibited.",
+      "sources": ["src:state-ae-local-laws-and-special-circumstances"]
+    },
+    {
+      "id": "ae-medications-approval",
+      "category": "medications",
+      "severity": "arrest",
+      "summary": {
+        "en": "Many prescription and over-the-counter medicines are prohibited. Get approval online before carrying medication, even in transit; without it, possession is treated like illegal drugs.",
+        "es": "Muchos medicamentos con y sin receta están prohibidos. Pide aprobación en línea antes de llevarlos, incluso en tránsito; sin ella, se tratan como drogas ilegales."
+      },
+      "items": ["medicine", "medication", "prescription", "medicamentos", "receta"],
+      "quote": "Many prescription and over-the-counter medications are prohibited in the UAE, and possession of such substances without the appropriate approval is generally treated the same as possession of illegal narcotics. All tourists and residents of the UAE should seek prior approval, via an online form, before carrying certain types of medications, narcotics, or chemical substances to or through the UAE.",
+      "sources": ["src:state-ae-health"]
+    },
+    {
+      "id": "ae-prohibited-items-imports",
+      "category": "prohibited_items",
+      "severity": "arrest",
+      "summary": {
+        "en": "Do not bring pornography, e-cigarettes, fireworks, laser pointers, ivory, CBD products or missionary religious material. Possession can lead to detention and long jail sentences.",
+        "es": "No lleves pornografía, cigarros electrónicos, fuegos artificiales, apuntadores láser, marfil, productos con CBD ni material religioso misionero. Puede significar detención y largas condenas."
+      },
+      "items": ["e-cigarette", "vape", "fireworks", "laser pointer", "ivory", "pornography", "cigarro electrónico", "vapeador", "fuegos artificiales", "apuntador láser", "marfil", "pornografía"],
+      "quote": "Importation of the following items is also prohibited under UAE law: pornographic material, non-Islamic religious pamphlets for missionary activities, e-cigarettes, fireworks, ivory, chemical and organic fertilizers, laser pointers, radar jammers/other unauthorized communication devices, products and medications containing cannabidiol (CBD), endangered animal species, and any objects, sculptures, paintings, books or magazines which do not adhere to the religious and moral values of the UAE. Possession of any of these items can lead to detention and lengthy jail sentences.",
+      "sources": ["src:state-ae-entry-exit-requirements"]
+    },
+    {
+      "id": "ae-alcohol-public",
+      "category": "alcohol",
+      "severity": "arrest",
+      "summary": {
+        "en": "Alcohol is sold only in limited places, such as some hotels. Public drunkenness and drink-driving at any level are serious offences, often meaning days in detention.",
+        "es": "El alcohol solo se vende en lugares limitados, como algunos hoteles. Estar ebrio en público o manejar tras beber es delito grave; suelen detenerte días."
+      },
+      "items": ["alcohol", "drinking", "driving", "beber", "manejar"],
+      "quote": "Alcohol is sold only in very limited areas including certain restaurants and hotels. Public drunkenness and driving under the influence, regardless of one’s blood alcohol content level, are considered very serious offenses. Persons arrested on alcohol-related offenses are regularly detained for many days as they await a court hearing.",
+      "sources": ["src:state-ae-local-laws-and-special-circumstances"]
+    },
+    {
+      "id": "ae-conduct-insults-gestures",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Rude gestures, swearing, touching someone without permission, or insulting the UAE, its royal families, governments or other people can bring arrest, fines or deportation.",
+        "es": "Gestos groseros, groserías, tocar a alguien sin permiso o insultar al país, sus familias reales, gobiernos u otras personas puede causar arresto, multa o deportación."
+      },
+      "quote": "Individuals may be arrested, fined, and/or deported for committing any of the following acts: making rude gestures, swearing, touching another person without his/her permission, and making derogatory statements about the UAE, the royal families, the local governments or other people.",
+      "sources": ["src:state-ae-local-laws-and-special-circumstances"]
+    },
+    {
+      "id": "ae-conduct-affection",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Public displays of affection are frowned upon; you can be arrested for kissing in public.",
+        "es": "Las muestras de afecto en público están mal vistas; te pueden arrestar por besarte en público."
+      },
+      "quote": "Showing affection in public is frowned upon. You can be arrested for kissing in public.",
+      "sources": ["src:fcdo-ae-safety-and-security"]
+    },
+    {
+      "id": "ae-photography-sites-people",
+      "category": "photography",
+      "severity": "arrest",
+      "summary": {
+        "en": "Photographing military sites, airports, some beaches or embassies can lead to arrest. Watch for no-photo signs, and never photograph people without their consent.",
+        "es": "Fotografiar instalaciones militares, aeropuertos, algunas playas o embajadas puede llevar al arresto. Fíjate en los letreros y nunca fotografíes a personas sin su permiso."
+      },
+      "items": ["camera", "photos", "cámara", "fotos"],
+      "quote": "Taking photographs of UAE military facilities, sensitive civilian sites, airports, some beaches, or foreign diplomatic missions – including the U.S. Embassy or Consulate General – may result in arrest, detention, and/or prosecution by local authorities. Travelers should be aware of signs which indicate where photography is prohibited. Note that it is illegal to take photographs of other people without their consent.",
+      "sources": ["src:state-ae-local-laws-and-special-circumstances"]
+    },
+    {
+      "id": "ae-lgbtq-1",
+      "category": "lgbtq",
+      "severity": "arrest",
+      "summary": {
+        "en": "Same-sex sexual activity is illegal and same-sex marriage is not recognised. People, including tourists, have been punished, especially when there was a public element.",
+        "es": "Las relaciones entre personas del mismo sexo son ilegales y su matrimonio no se reconoce. Ha habido castigos, también a turistas, sobre todo en público."
+      },
+      "quote": "Same-sex sexual activity is illegal in the UAE , and same-sex marriages are not recognised. The UAE is in many respects a tolerant society and private life is respected. However, there have been reports of individuals being punished for same-sex sexual activity, particularly where there is any public element, or where the behaviour has caused offence. This applies both to foreign national residents and tourists.",
+      "sources": ["src:fcdo-ae-safety-and-security"]
+    },
+    {
+      "id": "ae-prohibited-items-pork",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "It is illegal to bring pork products or pornography into the country. Videos, books and magazines may be checked and censored.",
+        "es": "Es ilegal entrar al país con productos de cerdo o pornografía. Los videos, libros y revistas pueden ser revisados y censurados."
+      },
+      "items": ["pork", "ham", "bacon", "sausages", "cerdo", "puerco", "jamón", "tocino", "salchichas"],
+      "quote": "It is illegal to bring pork products or pornography into the UAE . Videos, books, and magazines may be subject to scrutiny and may be censored.",
+      "sources": ["src:fcdo-ae-entry-requirements"]
+    }
+  ]
+}

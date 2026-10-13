@@ -1,0 +1,134 @@
+{
+  "country": "TH",
+  "review": {
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
+  },
+  "essentials": {
+    "plugTypes": ["A", "B", "C", "F", "O"],
+    "emergency": { "police": "191", "ambulance": "1669", "fire": "199", "touristPolice": "1155" },
+    "languages": ["th"],
+    "languageNames": { "en": ["Thai"], "es": ["tailandés"] }
+  },
+  "rules": [
+    {
+      "id": "th-drugs-8",
+      "category": "drugs",
+      "severity": "severe",
+      "summary": {
+        "en": "Drug penalties are severe: possessing, using or trafficking illegal drugs can mean long jail sentences, heavy fines or even execution.",
+        "es": "Las penas por drogas son severas: poseer, consumir o traficar drogas ilegales puede significar largas condenas, multas altas e incluso la pena de muerte."
+      },
+      "items": ["drugs", "drogas"],
+      "quote": "Expect long jail sentences under harsh conditions, heavy fines, or even execution for possessing, using, or trafficking in illegal drugs.",
+      "sources": ["src:state-th-local-laws-and-special-circumstances"]
+    },
+    {
+      "id": "th-drugs-cannabis",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Cannabis is allowed only with a Thai medical prescription; recreational use is illegal. Taking cannabis out of Thailand without an export permit is illegal.",
+        "es": "La marihuana solo se permite con receta médica tailandesa; el uso recreativo es ilegal. Sacarla de Tailandia sin permiso de exportación es ilegal."
+      },
+      "items": ["cannabis", "marijuana", "marihuana"],
+      "quote": "Cannabis use in Thailand is restricted to medical purposes only. You must not buy, possess or use it without a Thai-issued medical prescription, which is limited to a 30-day supply. Recreational use remains illegal. It is illegal to take cannabis out of Thailand without the appropriate export permission from the authorities.",
+      "sources": ["src:fcdo-th-safety-and-security"]
+    },
+    {
+      "id": "th-conduct-7",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Never criticize the royal family: it can mean up to 15 years in prison per offense. Even deliberately tearing banknotes can count.",
+        "es": "Nunca critiques a la familia real: puede costar hasta 15 años de cárcel por delito. Incluso romper billetes a propósito puede contar."
+      },
+      "quote": "Lèse majesté (Royal Insult): Making a critical or defamatory comment about the royal family is punishable by a prison sentence of up to 15 years per offense. As an example, purposely tearing Thai bank notes, which carry an image of the King, may be considered a lèse majesté offense.",
+      "sources": ["src:state-th-local-laws-and-special-circumstances"]
+    },
+    {
+      "id": "th-prohibited-items-13",
+      "category": "prohibited_items",
+      "severity": "arrest",
+      "summary": {
+        "en": "Vapes, e-cigarettes, pods, e-liquids and heat-not-burn devices are illegal, with no exception for tourists. Expect confiscation, heavy fines or detention.",
+        "es": "Los vapeadores, cigarros electrónicos, pods, líquidos y dispositivos de tabaco calentado son ilegales, sin excepción para turistas. Hay confiscación, multas altas o detención."
+      },
+      "items": ["vapes", "e-cigarettes", "vapeadores", "cigarros electrónicos"],
+      "quote": "It is illegal to possess or use any vape, e-cigarette, pod, e-liquid, or heat-not-burn device in Thailand. Offences can lead to confiscation, heavy fines (typically 5,000–30,000 Thai bhat), detention, and court proceedings. You may be required to remain in Thailand until the case has been finalised. There are no exceptions for tourists or for personal use.",
+      "sources": ["src:fcdo-th-safety-and-security"]
+    },
+    {
+      "id": "th-photography-4",
+      "category": "photography",
+      "severity": "arrest",
+      "summary": {
+        "en": "Register any drone with the NBTC within 30 days of arrival, even if you will not fly it. Unregistered drones risk a 100,000 baht fine or prison.",
+        "es": "Registra cualquier dron ante la NBTC dentro de 30 días de tu llegada, aunque no lo uses. Sin registro arriesgas multa de 100,000 baht o cárcel."
+      },
+      "items": ["drone", "dron"],
+      "quote": "You must register your drone with Thailand’s National Broadcasting and Telecommunications Commission (NBTC) within 30 days of entering Thailand or purchasing a drone in Thailand even if you do not intend to fly it. The regulations apply to all drones, including those for recreational use. The fine for an unregistered drone with the NBTC is 100,000 baht or five years imprisonment or both.",
+      "sources": ["src:fcdo-th-safety-and-security"]
+    },
+    {
+      "id": "th-conduct-overstay",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Do not overstay your permitted stay: you could be fined, detained, deported or banned from returning.",
+        "es": "No te quedes más tiempo del permitido: te pueden multar, detener, deportar o prohibir el regreso."
+      },
+      "quote": "If you overstay your permission to stay in Thailand, you could be fined, detained, deported or banned from re-entering the country.",
+      "sources": ["src:fcdo-th-entry-requirements"]
+    },
+    {
+      "id": "th-prohibited-items-cigarettes",
+      "category": "prohibited_items",
+      "severity": "fine",
+      "summary": {
+        "en": "Bring no more than 200 cigarettes per person. Over the limit, they will likely be confiscated and you could be fined 10 times their value.",
+        "es": "Lleva máximo 200 cigarros por persona. Si te pasas, probablemente te los confiscan y te pueden multar con 10 veces su valor."
+      },
+      "items": ["cigarettes", "tobacco", "cigarros", "tabaco"],
+      "quote": "It is illegal to take more than 200 cigarettes per person into Thailand. This is enforced at customs on arrival. If you go over the limit, you could be fined 10 times the value. Your cigarettes will likely be confiscated.",
+      "sources": ["src:fcdo-th-entry-requirements"]
+    },
+    {
+      "id": "th-conduct-smoking",
+      "category": "conduct",
+      "severity": "fine",
+      "summary": {
+        "en": "Smoking in public is illegal, with fines of up to 5,000 baht.",
+        "es": "Fumar en lugares públicos es ilegal, con multas de hasta 5,000 baht."
+      },
+      "items": ["smoking", "fumar"],
+      "quote": "It’s illegal to smoke in public with a fine of up to 5,000 Thai baht.",
+      "sources": ["src:fcdo-th-safety-and-security"]
+    },
+    {
+      "id": "th-medications-supply",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "You may bring up to a 30-day supply of medicine for personal use.",
+        "es": "Puedes llevar medicamentos de uso personal para un máximo de 30 días."
+      },
+      "items": ["medicine", "medicamentos"],
+      "quote": "Medicine for personal use: Up to a 30-day supply may be brought into the country with you.",
+      "sources": ["src:state-th-health"]
+    },
+    {
+      "id": "th-medications-us-prescriptions",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Some prescription medicines from the US are illegal to possess in Thailand; check yours before you travel.",
+        "es": "Algunos medicamentos con receta de EE. UU. son ilegales en Tailandia; revisa los tuyos antes de viajar."
+      },
+      "items": ["prescription", "receta"],
+      "quote": "Also please note that some prescription medication from the United States is not legal to possess under Thai law.",
+      "sources": ["src:state-th-local-laws-and-special-circumstances"]
+    }
+  ]
+}

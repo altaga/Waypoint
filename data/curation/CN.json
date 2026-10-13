@@ -1,0 +1,132 @@
+{
+  "country": "CN",
+  "review": {
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
+  },
+  "essentials": {
+    "plugTypes": ["A", "C", "I"],
+    "emergency": { "police": "110", "ambulance": "120", "fire": "119" },
+    "languages": ["zh"],
+    "languageNames": { "en": ["Chinese (Mandarin)"], "es": ["chino (mandarín)"] }
+  },
+  "rules": [
+    {
+      "id": "cn-drugs-8",
+      "category": "drugs",
+      "severity": "severe",
+      "summary": {
+        "en": "China has zero tolerance for drugs, including cannabis. Offenders face heavy fines, long prison sentences or the death penalty.",
+        "es": "China tiene tolerancia cero con las drogas, incluida la marihuana. Hay multas altas, largas condenas o pena de muerte."
+      },
+      "items": ["drugs", "cannabis", "marijuana", "drogas", "marihuana"],
+      "quote": "Possession, trafficking and manufacture of any illegal drugs, including cannabis, are serious offences in China. The Chinese authorities have a zero-tolerance policy and those caught face heavy fines, lengthy prison sentences, or the death penalty.",
+      "sources": ["src:fcdo-cn-safety-and-security"]
+    },
+    {
+      "id": "cn-drugs-7",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Police run surprise drug tests, including in bars. A positive result can mean detention and deportation, even for drugs taken legally elsewhere.",
+        "es": "La policía hace pruebas de drogas sorpresa, incluso en bares. Un positivo puede significar detención y deportación, aunque las hayas consumido legalmente en otro país."
+      },
+      "quote": "Police regularly conduct unannounced drug tests on people suspected of drug use and have been known to enter a bar or nightclub and subject all patrons to immediate drug testing. Police may force you to provide a urine, blood, or hair follicle sample on short notice. A positive finding, even if the drug was legal elsewhere or consumed prior to arriving in the PRC, can lead to immediate detention, fines, deportation, and/or a ban from re-entering the PRC.",
+      "sources": ["src:state-cn-local-laws-and-special-circumstances"]
+    },
+    {
+      "id": "cn-alcohol-3",
+      "category": "driving",
+      "severity": "arrest",
+      "summary": {
+        "en": "Do not drink and drive, even a little: penalties include fines, detention and prison.",
+        "es": "No manejes si bebiste, aunque sea poco: las sanciones incluyen multas, detención y cárcel."
+      },
+      "items": ["alcohol", "driving", "manejar"],
+      "quote": "There are harsh penalties including fines, detention and imprisonment for driving under the influence of alcohol, even at very low levels.",
+      "sources": ["src:fcdo-cn-safety-and-security"]
+    },
+    {
+      "id": "cn-driving-licence",
+      "category": "driving",
+      "severity": "arrest",
+      "summary": {
+        "en": "You need a Chinese driving licence and valid insurance to drive. Driving without them can bring fines and detention.",
+        "es": "Necesitas licencia de manejo china y seguro vigente para manejar. Hacerlo sin ellos puede traer multas y detención."
+      },
+      "items": ["driving", "car rental", "manejar", "renta de auto"],
+      "quote": "You must have a Chinese driving licence and valid insurance to drive in China. There are harsh penalties for driving without these, including fines and detention.",
+      "sources": ["src:fcdo-cn-safety-and-security"]
+    },
+    {
+      "id": "cn-conduct-passport",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Always carry your original passport; police do random checks and do not accept copies. Not showing ID can mean a fine or detention.",
+        "es": "Lleva siempre tu pasaporte original; la policía hace revisiones al azar y no acepta copias. No mostrar identificación puede costar multa o detención."
+      },
+      "items": ["passport", "pasaporte"],
+      "quote": "Always carry your passport with you. Police carry out random checks, especially during periods of heightened security and major sporting or political events. They do not accept printed copies. Failure to produce your ID can lead to a fine or detention.",
+      "sources": ["src:fcdo-cn-safety-and-security"]
+    },
+    {
+      "id": "cn-conduct-overstay",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Do not overstay your visa: hotels, airports and train stations may refuse you service, and you can face fines and arrest.",
+        "es": "No excedas tu visa: hoteles, aeropuertos y estaciones de tren pueden negarte el servicio, y puedes enfrentar multas y arresto."
+      },
+      "quote": "If you overstay your visa’s duration of stay, you may be denied service by hotels, airports, and train stations, as well as face fines and arrest.",
+      "sources": ["src:state-cn-entry-exit-requirements"]
+    },
+    {
+      "id": "cn-conduct-work",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Do not work without the proper visa: it can lead to detention, deportation, criminal charges or prison.",
+        "es": "No trabajes sin la visa adecuada: puede llevar a detención, deportación, cargos penales o cárcel."
+      },
+      "quote": "Working without the proper visa may result in detention, deportation, criminal charges, or imprisonment.",
+      "sources": ["src:state-cn-entry-exit-requirements"]
+    },
+    {
+      "id": "cn-conduct-political",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "Posting or supporting political statements critical of China or its authorities, including online, could be treated as illegal.",
+        "es": "Publicar o apoyar declaraciones políticas críticas de China o sus autoridades, incluso en redes, podría considerarse ilegal."
+      },
+      "quote": "Posting, publishing or supporting political statements critical of China or the Chinese authorities could be viewed as illegal.",
+      "sources": ["src:fcdo-cn-safety-and-security"]
+    },
+    {
+      "id": "cn-photography-drones",
+      "category": "photography",
+      "severity": "info",
+      "summary": {
+        "en": "Drones and drone parts are strictly regulated. Check the Civil Aviation Administration of China rules before bringing one.",
+        "es": "Los drones y sus piezas están estrictamente regulados. Revisa las reglas de la Administración de Aviación Civil de China antes de llevar uno."
+      },
+      "items": ["drone", "dron"],
+      "quote": "The import, possession and use of drones and drone components are strictly regulated. Contact the Civil Aviation Administration of China before travel for the latest rules regarding registration and use.",
+      "sources": ["src:fcdo-cn-safety-and-security"]
+    },
+    {
+      "id": "cn-medications-13",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Check that your prescription medicine is legal in China, and carry it in its original packaging with the prescription.",
+        "es": "Verifica que tu medicamento con receta sea legal en China y llévalo en su empaque original con la receta."
+      },
+      "items": ["medicine", "prescription", "medicamentos", "receta"],
+      "quote": "Medication: If traveling with prescription medication, make sure the medication is legal in the PRC by checking with the Embassy of the People’s Republic of China in the United States of America . Carry prescription medication in original packaging, along with the prescription.",
+      "sources": ["src:state-cn-health"]
+    }
+  ]
+}

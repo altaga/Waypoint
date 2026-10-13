@@ -8,9 +8,10 @@
   "generatedAt": "2026-10-11",
   "tier": "B",
   "review": {
-    "status": "machine_extracted",
-    "reviewedBy": null,
-    "reviewedAt": null
+    "status": "curated",
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
   },
   "localRules": [
     {
@@ -18,113 +19,175 @@
       "category": "drugs",
       "severity": "arrest",
       "summary": {
-        "en": "You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through the airport."
+        "en": "Illegal drugs mean a long jail sentence and heavy fines for possession, use or smuggling, even when transiting through the airport.",
+        "es": "Las drogas ilegales implican una larga condena y multas altas por posesión, consumo o contrabando, incluso en tránsito por el aeropuerto."
       },
-      "quote": "You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through the airport.",
-      "sources": [
-        "src:fcdo-ca-safety-and-security"
+      "items": [
+        "drugs",
+        "drogas"
       ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "ca-drugs-2",
-      "category": "drugs",
-      "severity": "arrest",
-      "summary": {
-        "en": "Those who attempt to take cannabis out of Canada without the relevant permit face arrest."
-      },
-      "quote": "Those who attempt to take cannabis out of Canada without the relevant permit face arrest.",
-      "sources": [
-        "src:fcdo-ca-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "ca-drugs-3",
-      "category": "drugs",
-      "severity": "arrest",
-      "summary": {
-        "en": "Illegal drugs carry severe penalties. You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through the airport."
-      },
       "quote": "Illegal drugs carry severe penalties. You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through the airport.",
       "sources": [
         "src:fcdo-ca-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "ca-drugs-4",
+      "id": "ca-drugs-cannabis-border",
       "category": "drugs",
       "severity": "arrest",
       "summary": {
-        "en": "Drug smuggling can lead to large fines, a permanent ban from Canada, and jail time."
+        "en": "Recreational cannabis is legal, with rules varying by province, but taking it across the border without a Health Canada permit is illegal and can mean arrest.",
+        "es": "La marihuana recreativa es legal, con reglas por provincia, pero cruzar la frontera con ella sin permiso de Health Canada es ilegal y puede causar arresto."
       },
-      "quote": "Drug smuggling can lead to large fines, a permanent ban from Canada, and jail time.",
+      "items": [
+        "cannabis",
+        "marijuana",
+        "weed",
+        "marihuana"
+      ],
+      "quote": "Recreational cannabis is legally available in Canada. Laws vary depending on the province or territory you are visiting . It is illegal to take cannabis across the Canadian border without a permit or exemption authorised by Health Canada. Those who attempt to take cannabis out of Canada without the relevant permit face arrest.",
+      "sources": [
+        "src:fcdo-ca-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "ca-prohibited-items-firearms",
+      "category": "prohibited_items",
+      "severity": "arrest",
+      "summary": {
+        "en": "Breaking gun laws can mean jail. Declare firearms and ammunition in writing; undeclared firearms, ammunition and weapons are confiscated and not returned.",
+        "es": "Violar las leyes de armas puede significar cárcel. Declara por escrito armas y municiones; las no declaradas se confiscan y no se devuelven."
+      },
+      "items": [
+        "firearms",
+        "gun",
+        "ammunition",
+        "weapons",
+        "armas",
+        "pistola",
+        "municiones"
+      ],
+      "quote": "You must follow Canadian gun laws while in Canada. Breaking these laws can lead to jail time. When traveling with firearms or ammunition, you must declare them in writing. Canadian officials have authority to take away undeclared firearms, ammunition and other weapons. Officials will not return confiscated firearms, ammunition or weapons.",
       "sources": [
         "src:state-ca-local-laws-and-special-circumstances"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "ca-prohibited-items-5",
+      "id": "ca-prohibited-items-device-search",
+      "category": "prohibited_items",
+      "severity": "arrest",
+      "summary": {
+        "en": "Border officers may search your electronic devices without a warrant. Illegal content, such as child pornography, can lead to seizure, arrest and prosecution.",
+        "es": "Los agentes fronterizos pueden revisar tus dispositivos electrónicos sin orden judicial. El contenido ilegal, como pornografía infantil, puede causar decomiso, arresto y proceso penal."
+      },
+      "items": [
+        "laptop",
+        "phone",
+        "electronic devices",
+        "computadora",
+        "celular",
+        "dispositivos"
+      ],
+      "quote": "Canada has strict laws against child pornography. Canadian border officials may search your electronic devices without a warrant. Illegal content can result in the seizure of the device. You can be detained, arrested and prosecuted.",
+      "sources": [
+        "src:state-ca-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "ca-prohibited-items-food",
+      "category": "prohibited_items",
+      "severity": "fine",
+      "summary": {
+        "en": "Declare anything that may be prohibited or taxable. Banned food products are confiscated at the border and you could be fined.",
+        "es": "Declara todo lo que pueda estar prohibido o pagar impuestos. Los alimentos prohibidos se confiscan en la frontera y te pueden multar."
+      },
+      "items": [
+        "food",
+        "meat",
+        "fruit",
+        "plants",
+        "comida",
+        "carne",
+        "fruta",
+        "plantas"
+      ],
+      "quote": "There are strict rules about goods you can take into or out of Canada . You must declare anything that may be prohibited or subject to tax or duty. The Canadian authorities will confiscate banned food products and you could get a fine.",
+      "sources": [
+        "src:fcdo-ca-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "ca-conduct-farm-declaration",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "If you visited a farm or touched wild animals before arriving and plan to visit a farm in Canada, declare it on your customs declaration.",
+        "es": "Si visitaste una granja o tocaste animales silvestres antes de llegar y piensas visitar una granja en Canadá, decláralo en tu declaración de aduana."
+      },
+      "quote": "If you visit a farm or have contact with wild animals before entering Canada, and plan to visit a farm during your stay, you must declare this on your Customs Declaration Card.",
+      "sources": [
+        "src:fcdo-ca-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "ca-prohibited-items-counterfeit",
       "category": "prohibited_items",
       "severity": "info",
       "summary": {
-        "en": "Officials will not return confiscated firearms, ammunition or weapons."
+        "en": "Counterfeit and pirated goods are illegal in Canada.",
+        "es": "Los productos falsificados y piratas son ilegales en Canadá."
       },
-      "quote": "Officials will not return confiscated firearms, ammunition or weapons.",
+      "items": [
+        "counterfeit",
+        "fake",
+        "pirated",
+        "falsificados",
+        "piratas",
+        "clones"
+      ],
+      "quote": "Counterfeit and pirated goods are illegal in Canada.",
       "sources": [
         "src:state-ca-local-laws-and-special-circumstances"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "ca-medications-6",
-      "category": "medications",
-      "severity": "info",
-      "summary": {
-        "en": "Take your prescription medication in the original pharmacy labeled packaging."
-      },
-      "quote": "Take your prescription medication in the original pharmacy labeled packaging.",
-      "sources": [
-        "src:state-ca-health"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "ca-medications-7",
-      "category": "medications",
-      "severity": "info",
-      "summary": {
-        "en": "Bring a copy of your doctor’s prescription."
-      },
-      "quote": "Bring a copy of your doctor’s prescription.",
-      "sources": [
-        "src:state-ca-health"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     }
   ],
   "essentials": {
     "currency": "CAD",
     "plugTypes": [
-      "NEMA 1-15",
-      "NEMA 5-15"
+      "A",
+      "B"
     ],
     "emergency": {
-      "number1": "http://www.wikidata.org/entity/Q533806"
+      "general": "911"
     },
     "languages": [
       "en",
       "fr"
-    ]
+    ],
+    "languageNames": {
+      "en": [
+        "English",
+        "French"
+      ],
+      "es": [
+        "inglés",
+        "francés"
+      ]
+    }
   },
   "advisory": {
     "us": {

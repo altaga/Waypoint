@@ -1,0 +1,135 @@
+{
+  "country": "TR",
+  "review": {
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
+  },
+  "essentials": {
+    "plugTypes": ["C", "F"],
+    "emergency": { "general": "112" },
+    "languages": ["tr"],
+    "languageNames": { "en": ["Turkish"], "es": ["turco"] }
+  },
+  "rules": [
+    {
+      "id": "tr-drugs-1",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Drugs, including cannabis, carry 4 to 24 years in prison and heavy fines for possession, use or smuggling, even when only transiting through an airport.",
+        "es": "Las drogas, incluida la marihuana, se castigan con 4 a 24 años de cárcel y multas altas, incluso estando en tránsito por un aeropuerto."
+      },
+      "items": ["drugs", "cannabis", "marijuana", "drogas", "marihuana"],
+      "quote": "Illegal drugs, including cannabis, carry severe penalties. You should expect a long prison sentence of 4 to 24 years and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports.",
+      "sources": ["src:fcdo-tr-safety-and-security"]
+    },
+    {
+      "id": "tr-conduct-insulting-the-state",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Insulting the Turkish nation, flag, President or Atatürk, or defacing banknotes, can mean 6 months to 3 years in prison, including for past online posts.",
+        "es": "Insultar a la nación, la bandera, al presidente o a Atatürk, o dañar billetes, implica de 6 meses a 3 años de cárcel, incluso en internet."
+      },
+      "quote": "It is illegal to insult the Turkish nation or the national flag. Insulting the President or the founder of the Turkish Republic, Mustafa Kemal Atatürk, is also a criminal offence. These laws can apply to comments or images online no matter where you were or when you posted them. Defacing Turkish banknotes is also illegal. Offences under these laws are punishable by a prison sentence of between 6 months and 3 years.",
+      "sources": ["src:fcdo-tr-safety-and-security"]
+    },
+    {
+      "id": "tr-prohibited-items-antiquities",
+      "category": "prohibited_items",
+      "severity": "arrest",
+      "summary": {
+        "en": "Buying or exporting antiquities is illegal: fines and 5 to 12 years in prison. Some antiques sold legally in shops cannot be exported; check first.",
+        "es": "Comprar o sacar antigüedades es ilegal: multas y de 5 a 12 años de cárcel. Algunas se venden legalmente pero no pueden exportarse; verifica antes."
+      },
+      "items": ["antiques", "antiquities", "souvenirs", "antigüedades", "recuerdos"],
+      "quote": "Buying or exporting antiquities is illegal. You could be fined and receive a prison sentence of 5 to 12 years. Some historical items found at local markets and in antique shops can be sold within Turkey but are illegal to export. Confirm the status of antique items before you buy them.",
+      "sources": ["src:fcdo-tr-safety-and-security"]
+    },
+    {
+      "id": "tr-conduct-wildfires",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Lighting any fire or dropping cigarettes in risk areas such as woodland can bring a fine or prison. Watch for signs banning fires and smoking.",
+        "es": "Encender fuego o tirar colillas en zonas de riesgo, como bosques, puede traer multa o cárcel. Respeta los letreros que prohíben fuego y fumar."
+      },
+      "items": ["barbecue", "cigarettes", "asador", "cigarros"],
+      "quote": "You could get a fine or prison sentence for lighting a fire of any kind or discarding cigarettes in risk areas such as woodland. Look out for signs that tell you fires, barbeques, and smoking are prohibited.",
+      "sources": ["src:fcdo-tr-safety-and-security"]
+    },
+    {
+      "id": "tr-driving-alcohol",
+      "category": "driving",
+      "severity": "fine",
+      "summary": {
+        "en": "Do not drink and drive: police fine drunk drivers and can take away your licence for 6 months.",
+        "es": "No manejes si bebiste: la policía multa a los conductores ebrios y puede quitarte la licencia por 6 meses."
+      },
+      "items": ["alcohol", "driving", "manejar"],
+      "quote": "Do not drink and drive. The police fine drunk drivers and they could confiscate your licence for 6 months.",
+      "sources": ["src:fcdo-tr-safety-and-security"]
+    },
+    {
+      "id": "tr-driving-helmets",
+      "category": "driving",
+      "severity": "fine",
+      "summary": {
+        "en": "Riding a motorcycle or moped without a helmet is illegal and can bring a severe fine.",
+        "es": "Andar en moto o motoneta sin casco es ilegal y puede traer una multa severa."
+      },
+      "items": ["motorcycle", "moped", "helmet", "moto", "motoneta", "casco"],
+      "quote": "It is illegal to ride without a helmet on motorcycles and mopeds. You may get a severe fine if you are not wearing a helmet.",
+      "sources": ["src:fcdo-tr-safety-and-security"]
+    },
+    {
+      "id": "tr-prohibited-items-customs",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "You cannot take controlled drugs, firearms, flick knives, self-defence sprays, endangered species or obscene material into or out of Turkey.",
+        "es": "No puedes entrar ni salir de Turquía con drogas controladas, armas de fuego, navajas automáticas, aerosoles de defensa personal, especies protegidas ni material obsceno."
+      },
+      "items": ["knife", "flick knife", "pepper spray", "self-defence spray", "firearms", "navaja", "gas pimienta", "armas"],
+      "quote": "Some goods are prohibited – you cannot take them into or out of Turkey. These include: controlled drugs firearms offensive weapons, for example flick knives and self-defence sprays endangered animal and plant species indecent and obscene material",
+      "sources": ["src:fcdo-tr-entry-requirements"]
+    },
+    {
+      "id": "tr-prohibited-items-currency",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "Do not take Turkish lira worth more than 5,000 US dollars out of the country. Declare other currency above that amount to customs.",
+        "es": "No saques del país liras turcas por más de 5,000 dólares estadounidenses. Declara en aduana otras divisas por encima de ese monto."
+      },
+      "items": ["cash", "money", "currency", "efectivo", "dinero", "divisas"],
+      "quote": "You must not take Turkish lira worth more than 5000 US dollars out of the country. If you have other currency worth more than 5000 US dollars to take out of Turkey, you must declare it to Turkish Customs.",
+      "sources": ["src:fcdo-tr-entry-requirements"]
+    },
+    {
+      "id": "tr-conduct-photo-id",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "It is illegal not to carry photo ID. Always carry your passport; police may stop you for ID checks, especially in Istanbul.",
+        "es": "Es ilegal no llevar identificación con foto. Lleva siempre tu pasaporte; la policía puede pedírtelo, sobre todo en Estambul."
+      },
+      "items": ["passport", "pasaporte"],
+      "quote": "It is illegal not to carry some form of photographic ID in Turkey. Always carry your passport or residence permit. In some busy areas, especially Istanbul, the authorities may stop people for ID checks.",
+      "sources": ["src:fcdo-tr-safety-and-security"]
+    },
+    {
+      "id": "tr-photography-1",
+      "category": "photography",
+      "severity": "info",
+      "summary": {
+        "en": "Do not take photos of or near military or official sites, and ask permission before photographing people.",
+        "es": "No tomes fotos de instalaciones militares u oficiales ni cerca de ellas, y pide permiso antes de fotografiar a personas."
+      },
+      "items": ["camera", "photos", "cámara", "fotos"],
+      "quote": "Do not take photographs of or near military or official installations. Ask for permission before photographing people.",
+      "sources": ["src:fcdo-tr-safety-and-security"]
+    }
+  ]
+}

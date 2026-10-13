@@ -1,0 +1,134 @@
+{
+  "country": "VN",
+  "review": {
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
+  },
+  "essentials": {
+    "plugTypes": ["A", "C", "F"],
+    "emergency": { "police": "113", "fire": "114", "ambulance": "115" },
+    "languages": ["vi"],
+    "languageNames": { "en": ["Vietnamese"], "es": ["vietnamita"] }
+  },
+  "rules": [
+    {
+      "id": "vn-drugs-1",
+      "category": "drugs",
+      "severity": "severe",
+      "summary": {
+        "en": "Drug penalties are severe: possessing, using or trafficking drugs can mean long jail sentences, heavy fines or even the death penalty.",
+        "es": "Las penas por drogas son severas: poseer, consumir o traficar drogas puede significar largas condenas, multas altas o incluso pena de muerte."
+      },
+      "items": ["drugs", "cannabis", "drogas", "marihuana"],
+      "quote": "Penalties for possessing, using, or trafficking in illegal drugs in Vietnam are severe, and convicted offenders can expect long jail sentences and heavy fines, or even the death penalty.",
+      "sources": ["src:state-vn-local-laws-and-special-circumstances"]
+    },
+    {
+      "id": "vn-drugs-testing",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Police raid nightlife venues and drug-test everyone present. A positive test can bring criminal charges, even for drugs taken before arrival.",
+        "es": "La policía hace redadas en bares y antros y aplica pruebas de drogas a todos. Un positivo puede traer cargos, aunque las hayas consumido antes de llegar."
+      },
+      "quote": "Police periodically raid nightlife establishments suspected of engaging in the drug trade and during these raids will subject all patrons present to drug testing at the police station. A positive result, regardless of whether drugs were consumed in Vietnam or before entry, may result in criminal charges.",
+      "sources": ["src:state-vn-local-laws-and-special-circumstances"]
+    },
+    {
+      "id": "vn-driving-14",
+      "category": "driving",
+      "severity": "arrest",
+      "summary": {
+        "en": "Do not drink and drive: any alcohol in your system can bring a fine and possible prison.",
+        "es": "No manejes si bebiste: cualquier cantidad de alcohol en tu organismo puede traer multa y posible cárcel."
+      },
+      "items": ["alcohol", "driving", "manejar"],
+      "quote": "Drink-driving is a serious offence in Vietnam. If you are tested and found to have any alcohol in your system, you may get a fine and possible imprisonment.",
+      "sources": ["src:fcdo-vn-safety-and-security"]
+    },
+    {
+      "id": "vn-prohibited-items-6",
+      "category": "prohibited_items",
+      "severity": "arrest",
+      "summary": {
+        "en": "Do not buy, sell, kill or collect protected wild animals or plants. Offenders face a fine or a long prison sentence.",
+        "es": "No compres, vendas, mates ni recolectes animales o plantas silvestres protegidos. Hay multas o largas condenas de cárcel."
+      },
+      "items": ["wildlife", "animals", "plants", "animales", "plantas"],
+      "quote": "It’s illegal to buy, sell, kill or collect protected wild animal or plants. If you’re caught buying or trafficking these items, you could get a fine or long prison sentence.",
+      "sources": ["src:fcdo-vn-safety-and-security"]
+    },
+    {
+      "id": "vn-conduct-overstay",
+      "category": "conduct",
+      "severity": "fine",
+      "summary": {
+        "en": "Do not overstay your visa: fines are substantial and getting the required exit visa can take one to two weeks or longer.",
+        "es": "No excedas tu visa: las multas son altas y obtener la visa de salida requerida puede tardar una o dos semanas o más."
+      },
+      "quote": "The Government of Vietnam has recently increased penalties and enforcement of visa overstays, including substantial fines and significant processing times for required exit visas – one to two weeks, and longer for more complex cases).",
+      "sources": ["src:state-vn-entry-exit-requirements"]
+    },
+    {
+      "id": "vn-photography-military",
+      "category": "photography",
+      "severity": "fine",
+      "summary": {
+        "en": "Do not photograph anything that could look military or security-related; it can lead to questioning, fines or travel delays.",
+        "es": "No fotografíes nada que parezca militar o de seguridad; puede llevar a interrogatorios, multas o retrasos en tu viaje."
+      },
+      "items": ["camera", "drone", "cámara", "dron"],
+      "quote": "Photography: Taking photographs of anything that could be perceived as being of military or security interest may result in questioning by authorities, fines, or delayed travel.",
+      "sources": ["src:state-vn-local-laws-and-special-circumstances"]
+    },
+    {
+      "id": "vn-medications-psychotropic",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Medicines for anxiety, depression, insomnia or addiction are restricted: carry at most 7 days' supply, with the prescription and a doctor's letter.",
+        "es": "Los medicamentos para ansiedad, depresión, insomnio o adicciones están restringidos: lleva máximo 7 días, con la receta y una carta de tu médico."
+      },
+      "items": ["medicine", "prescription", "medicamentos", "receta"],
+      "quote": "Vietnam has restrictions on medicines it classifies as ‘addictive’ or ‘psychotropic’. These include medicine used to treat of addiction, anxiety, depression, insomnia and other conditions. It is illegal to have more than 7 days of prescribed medicine by a doctor (addictive and psychotropic medicine). You should carry the prescription with your medication and a letter from your doctor stating how much of the medication you need during your trip.",
+      "sources": ["src:fcdo-vn-health"]
+    },
+    {
+      "id": "vn-prohibited-items-vapes",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "Vapes are banned: you cannot buy them in Vietnam or bring them into the country.",
+        "es": "Los vapeadores están prohibidos: no puedes comprarlos en Vietnam ni llevarlos al país."
+      },
+      "items": ["vapes", "e-cigarettes", "vapeadores", "cigarros electrónicos"],
+      "quote": "Vapes and related products are banned. You cannot buy vapes in Vietnam or bring them into the country.",
+      "sources": ["src:fcdo-vn-safety-and-security"]
+    },
+    {
+      "id": "vn-conduct-id",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "Always carry photo ID; a printed copy of your passport photo page and visa is accepted.",
+        "es": "Lleva siempre una identificación con foto; se acepta una copia impresa de la página de datos de tu pasaporte y tu visa."
+      },
+      "items": ["passport", "pasaporte"],
+      "quote": "You must always carry photographic ID. The authorities will accept a printed copy of the photo page of your passport and visa.",
+      "sources": ["src:fcdo-vn-safety-and-security"]
+    },
+    {
+      "id": "vn-driving-helmet",
+      "category": "driving",
+      "severity": "info",
+      "summary": {
+        "en": "Wear a helmet on any motorbike: riding without one is illegal for drivers and passengers.",
+        "es": "Usa casco en cualquier moto: es ilegal circular sin él, tanto para quien maneja como para el pasajero."
+      },
+      "items": ["helmet", "motorbike", "casco", "moto"],
+      "quote": "use a good helmet – it is illegal for drivers and passengers to ride without a helmet",
+      "sources": ["src:fcdo-vn-safety-and-security"]
+    }
+  ]
+}

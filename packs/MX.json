@@ -8,9 +8,10 @@
   "generatedAt": "2026-10-11",
   "tier": "B",
   "review": {
-    "status": "machine_extracted",
-    "reviewedBy": null,
-    "reviewedAt": null
+    "status": "curated",
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
   },
   "localRules": [
     {
@@ -18,238 +19,245 @@
       "category": "drugs",
       "severity": "arrest",
       "summary": {
-        "en": "Illegal drugs and prison sentences"
+        "en": "Stay away from drugs of any kind. Penalties are severe, and convictions carry sentences of up to 25 years.",
+        "es": "No te involucres con drogas de ningún tipo. Las penas son severas y las condenas pueden llegar a 25 años."
       },
-      "quote": "Illegal drugs and prison sentences",
-      "sources": [
-        "src:fcdo-mx-safety-and-security"
+      "items": [
+        "drugs",
+        "drogas"
       ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "mx-medications-2",
-      "category": "medications",
-      "severity": "arrest",
-      "summary": {
-        "en": "You could be arrested if your over the counter or prescription medicine is illegal in Mexico, even with a U.S. doctor’s letter or prescription."
-      },
-      "quote": "You could be arrested if your over the counter or prescription medicine is illegal in Mexico, even with a U.S. doctor’s letter or prescription.",
-      "sources": [
-        "src:state-mx-health"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "mx-drugs-3",
-      "category": "drugs",
-      "severity": "arrest",
-      "summary": {
-        "en": "The Drug Enforcement Agency reports that counterfeit prescription pills are sold by criminals on both sides of the border."
-      },
-      "quote": "The Drug Enforcement Agency reports that counterfeit prescription pills are sold by criminals on both sides of the border.",
-      "sources": [
-        "src:state-mx-health"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "mx-prohibited-items-4",
-      "category": "prohibited_items",
-      "severity": "fine",
-      "summary": {
-        "en": "If you smoke or vape in a public place, you can get a fine of up to 3,000 Mexican pesos (about £150)."
-      },
-      "quote": "If you smoke or vape in a public place, you can get a fine of up to 3,000 Mexican pesos (about £150).",
-      "sources": [
-        "src:fcdo-mx-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "mx-drugs-5",
-      "category": "drugs",
-      "severity": "fine",
-      "summary": {
-        "en": "Penalties for drug offences are severe and convictions carry sentences of up to 25 years."
-      },
-      "quote": "Penalties for drug offences are severe and convictions carry sentences of up to 25 years.",
-      "sources": [
-        "src:fcdo-mx-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "mx-drugs-6",
-      "category": "drugs",
-      "severity": "fine",
-      "summary": {
-        "en": "Do not become involved with drugs of any kind. Penalties for drug offences are severe and convictions carry sentences of up to 25 years."
-      },
       "quote": "Do not become involved with drugs of any kind. Penalties for drug offences are severe and convictions carry sentences of up to 25 years.",
       "sources": [
         "src:fcdo-mx-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "mx-conduct-7",
-      "category": "conduct",
-      "severity": "info",
+      "id": "mx-drugs-marijuana",
+      "category": "drugs",
+      "severity": "arrest",
       "summary": {
-        "en": "Some genuine police officers have extorted money from tourists for alleged minor offences or traffic violations."
+        "en": "Drug possession and use are illegal and can mean long jail sentences or fines. This includes marijuana, even if it is legal where you live.",
+        "es": "Poseer o consumir drogas es ilegal y puede significar largas condenas o multas. Incluye la marihuana, aunque sea legal donde vives."
       },
-      "quote": "Some genuine police officers have extorted money from tourists for alleged minor offences or traffic violations.",
-      "sources": [
-        "src:fcdo-mx-safety-and-security"
+      "items": [
+        "marijuana",
+        "cannabis",
+        "weed",
+        "marihuana",
+        "mota"
       ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "mx-conduct-8",
-      "category": "conduct",
-      "severity": "info",
-      "summary": {
-        "en": "Sexual offences have been reported in tourist areas."
-      },
-      "quote": "Sexual offences have been reported in tourist areas.",
-      "sources": [
-        "src:fcdo-mx-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "mx-prohibited-items-9",
-      "category": "prohibited_items",
-      "severity": "info",
-      "summary": {
-        "en": "It is illegal to bring e-cigarettes, vaping devices and solutions into Mexico or to buy and sell them."
-      },
-      "quote": "It is illegal to bring e-cigarettes, vaping devices and solutions into Mexico or to buy and sell them.",
-      "sources": [
-        "src:fcdo-mx-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "mx-conduct-10",
-      "category": "conduct",
-      "severity": "info",
-      "summary": {
-        "en": "Since July 2025 there have been protests against gentrification in Mexico City, which have taken place in central and tourist areas."
-      },
-      "quote": "Since July 2025 there have been protests against gentrification in Mexico City, which have taken place in central and tourist areas.",
-      "sources": [
-        "src:fcdo-mx-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "mx-conduct-11",
-      "category": "conduct",
-      "severity": "info",
-      "summary": {
-        "en": "Monitor local media and avoid all demonstrations. If you come across protests, move away from the area."
-      },
-      "quote": "Monitor local media and avoid all demonstrations. If you come across protests, move away from the area.",
-      "sources": [
-        "src:fcdo-mx-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "mx-lgbtq-12",
-      "category": "lgbtq",
-      "severity": "info",
-      "summary": {
-        "en": "LGBT+ travellers"
-      },
-      "quote": "LGBT+ travellers",
-      "sources": [
-        "src:fcdo-mx-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "mx-medications-13",
-      "category": "medications",
-      "severity": "info",
-      "summary": {
-        "en": "You must get prescriptions issued outside of Mexico translated into Spanish."
-      },
-      "quote": "You must get prescriptions issued outside of Mexico translated into Spanish.",
-      "sources": [
-        "src:fcdo-mx-health"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "mx-medications-14",
-      "category": "medications",
-      "severity": "info",
-      "summary": {
-        "en": "Local pharmacies may still decide to reject a foreign prescription."
-      },
-      "quote": "Local pharmacies may still decide to reject a foreign prescription.",
-      "sources": [
-        "src:fcdo-mx-health"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "mx-prohibited-items-15",
-      "category": "prohibited_items",
-      "severity": "info",
-      "summary": {
-        "en": "However, it is almost always illegal to carry weapons such as:"
-      },
-      "quote": "However, it is almost always illegal to carry weapons such as:",
+      "quote": "Drug possession and use is illegal in Mexico. It can lead to long jail sentences or fines. This includes marijuana, even if its use is allowed where you live in the United States.",
       "sources": [
         "src:state-mx-local-laws-and-special-circumstances"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "mx-prohibited-items-16",
-      "category": "prohibited_items",
-      "severity": "info",
+      "id": "mx-medications-controlled",
+      "category": "medications",
+      "severity": "arrest",
       "summary": {
-        "en": "Illegal trafficking of firearms from the U.S. to Mexico is a crime."
+        "en": "Some over-the-counter medicines are controlled in Mexico; pseudoephedrine (Sudafed) is illegal. You can be arrested even with a U.S. doctor's letter or prescription.",
+        "es": "Algunos medicamentos de venta libre están controlados en México; la pseudoefedrina (Sudafed) es ilegal. Te pueden arrestar aunque tengas receta de un médico estadounidense."
       },
-      "quote": "Illegal trafficking of firearms from the U.S. to Mexico is a crime.",
+      "items": [
+        "medicine",
+        "pseudoephedrine",
+        "Sudafed",
+        "prescription",
+        "medicamentos",
+        "pseudoefedrina",
+        "receta"
+      ],
+      "quote": "Some medicines that are sold over-the-counter in some U.S. states are controlled substances in Mexico. For example, pseudoephedrine (found in Sudafed) is illegal in Mexico. You could be arrested if your over the counter or prescription medicine is illegal in Mexico, even with a U.S. doctor’s letter or prescription.",
+      "sources": [
+        "src:state-mx-health"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "mx-prohibited-items-weapons",
+      "category": "prohibited_items",
+      "severity": "arrest",
+      "summary": {
+        "en": "Carrying firearms, knives, daggers, brass knuckles or ammunition, even spent shells, is almost always illegal. Bringing guns or ammunition without Mexican permits can mean prison.",
+        "es": "Portar armas de fuego, cuchillos, dagas, manoplas o municiones, incluso casquillos usados, casi siempre es ilegal. Entrar con armas o municiones sin permiso mexicano implica cárcel."
+      },
+      "items": [
+        "firearms",
+        "gun",
+        "knife",
+        "ammunition",
+        "armas",
+        "pistola",
+        "cuchillo",
+        "navaja",
+        "municiones"
+      ],
+      "quote": "Mexican federal law regulates firearms, and other weapons. Laws vary by state. However, it is almost always illegal to carry weapons such as: Firearms Knives Daggers Brass knuckles Ammunition (including cartridges and used shells) The Department of State warns all U.S. citizens against bringing firearms into Mexico. Refer to Traveling Abroad with Firearms for more information. Bringing firearms or ammunition into Mexico without proper Mexican Government permits and permission is a serious crime. This includes when arriving by air or land and entering Mexican waters by boat. You could face severe penalties, including prison time and expensive fines.",
       "sources": [
         "src:state-mx-local-laws-and-special-circumstances"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "id": "mx-prohibited-items-vapes",
+      "category": "prohibited_items",
+      "severity": "arrest",
+      "summary": {
+        "en": "Bringing, buying or selling e-cigarettes, vapes or vaping liquids is illegal. Customs will confiscate them and could fine or detain you.",
+        "es": "Entrar con cigarros electrónicos, vapeadores o líquidos para vapear, o comprarlos y venderlos, es ilegal. La aduana los decomisa y puede multarte o detenerte."
+      },
+      "items": [
+        "vape",
+        "e-cigarette",
+        "vaping liquid",
+        "vapeador",
+        "cigarro electrónico",
+        "líquido para vapear"
+      ],
+      "quote": "It is illegal to bring e-cigarettes, vaping devices and solutions into Mexico or to buy and sell them. Customs officials will confiscate these items; and they could fine or detain you.",
+      "sources": [
+        "src:fcdo-mx-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "mx-conduct-politics",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Foreigners may not take part in political activities. If you join demonstrations, authorities may detain and deport you.",
+        "es": "Los extranjeros no pueden participar en actividades políticas. Si te unes a manifestaciones, las autoridades pueden detenerte y deportarte."
+      },
+      "items": [
+        "protest",
+        "demonstration",
+        "protesta",
+        "manifestación",
+        "marcha"
+      ],
+      "quote": "It is illegal for foreign nationals to participate in political activities in Mexico. If you join demonstrations, the Mexican authorities may detain and deport you.",
+      "sources": [
+        "src:fcdo-mx-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "mx-conduct-passport-entry-stamp",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Authorities can ask for your passport and entry stamp; copies or photos are not accepted. Without the right documents you may be detained and deported.",
+        "es": "Las autoridades pueden pedirte el pasaporte y el sello de entrada; no aceptan copias ni fotos. Sin los documentos correctos te pueden detener y deportar."
+      },
+      "items": [
+        "passport",
+        "entry stamp",
+        "pasaporte",
+        "sello de entrada"
+      ],
+      "quote": "The Mexican authorities can ask to see your passport and entry stamp to prove your entrance and stay. They do not accept copies or photos. To prove your visa status, you can get a digital registry of your entry documents from the Portal de Servicios INM (in Spanish). If you cannot show the correct documents, immigration officers may question and detain you while they check your immigration status. Depending on the outcome, they can deport you.",
+      "sources": [
+        "src:fcdo-mx-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "mx-prohibited-items-customs-declaration",
+      "category": "prohibited_items",
+      "severity": "fine",
+      "summary": {
+        "en": "Declare goods worth over 300 US dollars arriving by land or 500 by air, including used goods and donations, to avoid fines or confiscation.",
+        "es": "Declara bienes de más de 300 dólares si llegas por tierra o 500 por avión, incluidos usados y donaciones, para evitar multas o decomisos."
+      },
+      "items": [
+        "customs",
+        "gifts",
+        "aduana",
+        "regalos"
+      ],
+      "quote": "Declare goods worth over $300 USD (arriving by land) or $500 USD (arriving by air) with Mexican customs to avoid fines or confiscation. This includes used goods and donations.",
+      "sources": [
+        "src:state-mx-entry-exit-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "mx-conduct-smoking-vaping",
+      "category": "conduct",
+      "severity": "fine",
+      "summary": {
+        "en": "Smoking or vaping in a public place can bring a fine of up to 3,000 Mexican pesos.",
+        "es": "Fumar o vapear en un lugar público puede costar una multa de hasta 3,000 pesos mexicanos."
+      },
+      "items": [
+        "cigarettes",
+        "smoking",
+        "vape",
+        "cigarros",
+        "fumar",
+        "vapear"
+      ],
+      "quote": "If you smoke or vape in a public place, you can get a fine of up to 3,000 Mexican pesos (about £150).",
+      "sources": [
+        "src:fcdo-mx-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "mx-conduct-quintana-roo-tax",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "Visiting Quintana Roo, where Cancun is, requires an entry tax paid online before or during your stay. Show proof of payment at the airport when leaving.",
+        "es": "Para visitar Quintana Roo, como Cancún, debes pagar un impuesto de entrada en línea, antes o durante tu estancia, y mostrar el comprobante al salir."
+      },
+      "items": [
+        "Cancun",
+        "Quintana Roo",
+        "tourist tax",
+        "Cancún",
+        "impuesto"
+      ],
+      "quote": "You must pay an entry tax to visit the state of Quintana Roo – you can pay the entry tax online before or during your stay. You can get help paying online at Cancun Airport. You must show proof of payment at the airport before leaving.",
+      "sources": [
+        "src:fcdo-mx-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
     }
   ],
   "essentials": {
     "currency": "MXN",
     "plugTypes": [
-      "NEMA 1-15",
-      "NEMA 5-15"
+      "A",
+      "B"
     ],
     "emergency": {
-      "number1": "http://www.wikidata.org/entity/Q533806"
+      "general": "911"
     },
     "languages": [
       "es"
-    ]
+    ],
+    "languageNames": {
+      "en": [
+        "Spanish"
+      ],
+      "es": [
+        "español"
+      ]
+    }
   },
   "advisory": {
     "us": {

@@ -1,0 +1,134 @@
+{
+  "country": "IT",
+  "review": {
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
+  },
+  "essentials": {
+    "plugTypes": ["C", "F", "L"],
+    "emergency": { "general": "112", "police": "113", "ambulance": "118", "fire": "115" },
+    "languages": ["it"],
+    "languageNames": { "en": ["Italian"], "es": ["italiano"] }
+  },
+  "rules": [
+    {
+      "id": "it-drugs-1",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Drugs, including cannabis, mean a long jail sentence and heavy fines for possession, use or smuggling, even when transiting through airports.",
+        "es": "Las drogas, incluida la marihuana, implican una larga condena y multas altas por posesión, consumo o contrabando, incluso en tránsito por aeropuertos."
+      },
+      "items": ["drugs", "cannabis", "marijuana", "drogas", "marihuana"],
+      "quote": "Illegal drugs, including cannabis, carry severe penalties. You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports.",
+      "sources": ["src:fcdo-it-safety-and-security"]
+    },
+    {
+      "id": "it-conduct-fountains",
+      "category": "conduct",
+      "severity": "fine",
+      "summary": {
+        "en": "Do not enter or bathe in public fountains, as in Florence and Rome, or swim in Venice's canals. Urinating in public costs up to 10,000 euros.",
+        "es": "No entres ni te bañes en fuentes públicas, como en Florencia y Roma, ni nades en canales de Venecia. Orinar en público cuesta hasta 10,000 euros."
+      },
+      "items": ["fountain", "swimming", "fuente", "nadar"],
+      "quote": "It’s also an offence to enter or bathe in public fountains in many towns and cities, including Florence and Rome or swim in the canals in Venice. You could face a fine of up to 10,000 euros for urinating in a public place.",
+      "sources": ["src:fcdo-it-safety-and-security"]
+    },
+    {
+      "id": "it-conduct-local-bylaws",
+      "category": "conduct",
+      "severity": "fine",
+      "summary": {
+        "en": "Some towns fine people for littering, sitting on monument steps, eating or drinking next to main churches and monuments, or defacing monuments.",
+        "es": "Algunas ciudades multan por tirar basura, sentarse en escalinatas de monumentos, comer o beber junto a iglesias y monumentos principales, o dañar monumentos."
+      },
+      "quote": "Some Italian towns and cities have specific laws, and you could be fined for breaking them. For example, there may be laws against: dropping litter sitting on monument steps eating and drinking next to main churches, historic monuments and public buildings defacing historic monuments",
+      "sources": ["src:fcdo-it-safety-and-security"]
+    },
+    {
+      "id": "it-conduct-street-traders",
+      "category": "conduct",
+      "severity": "fine",
+      "summary": {
+        "en": "Buying from unlicensed street traders is illegal; local police can stop and fine you.",
+        "es": "Comprar a vendedores ambulantes sin licencia es ilegal; la policía local puede detenerte y multarte."
+      },
+      "items": ["street vendors", "souvenirs", "vendedores ambulantes", "recuerdos"],
+      "quote": "Illegal traders operate on the streets of all major Italian cities. It is illegal to buy items from unlicensed street traders. If you do, you could be stopped by the local police and fined.",
+      "sources": ["src:fcdo-it-safety-and-security"]
+    },
+    {
+      "id": "it-prohibited-items-sand-shells",
+      "category": "prohibited_items",
+      "severity": "fine",
+      "summary": {
+        "en": "Taking sand, shells or pebbles from the coast can bring a large fine. Picking some wild flowers, plants and herbs in mountains and woods is illegal too.",
+        "es": "Llevarte arena, conchas o piedras de la costa puede costar una multa alta. También es ilegal recoger ciertas flores, plantas y hierbas de montaña y bosque."
+      },
+      "items": ["sand", "shells", "pebbles", "arena", "conchas", "piedras"],
+      "quote": "It’s illegal to remove sand, shells or pebbles from coastal areas in Italy. You could face a large fine for doing so. It’s also illegal to collect various species of flowers, plants and herbs from mountain and wooded areas.",
+      "sources": ["src:fcdo-it-safety-and-security"]
+    },
+    {
+      "id": "it-conduct-ticket-validation",
+      "category": "conduct",
+      "severity": "fine",
+      "summary": {
+        "en": "Validate tickets bought at a kiosk or machine before you start your journey. Inspectors give on-the-spot fines for unvalidated tickets.",
+        "es": "Valida los boletos comprados en quiosco o máquina antes de iniciar el viaje. Los inspectores multan en el momento si no están validados."
+      },
+      "items": ["train ticket", "bus ticket", "boleto", "tren", "autobús"],
+      "quote": "If you buy a ticket from a kiosk or machine, you must validate it on public transport before you start your journey. Officials patrol public transport and will issue an on-the-spot fine if you do not have a validated ticket.",
+      "sources": ["src:fcdo-it-safety-and-security"]
+    },
+    {
+      "id": "it-driving-ztl",
+      "category": "driving",
+      "severity": "fine",
+      "summary": {
+        "en": "Many historic city centres need a pass to drive in, marked ZTL. Cameras record cars entering without one and send a fine.",
+        "es": "Muchos centros históricos exigen un permiso para entrar en auto, marcados como ZTL. Las cámaras registran a quien entra sin él y lo multan."
+      },
+      "items": ["car rental", "driving", "renta de auto", "manejar"],
+      "quote": "You need a pass to drive into the historic centre of many Italian cities in a private or hire car. You can buy a pass from most car hire companies. The boundaries are usually marked with the letters ZTL in black on a yellow background. If you pass this sign, your registration number is likely to be caught on camera and you will be fined if you do not have a pass.",
+      "sources": ["src:fcdo-it-safety-and-security"]
+    },
+    {
+      "id": "it-conduct-ski-helmets",
+      "category": "conduct",
+      "severity": "fine",
+      "summary": {
+        "en": "Since 1 November 2025, skiers, snowboarders and sledders must wear CE-certified helmets at ski resorts, or risk fines up to 200 euros and pass suspension.",
+        "es": "Desde el 1 de noviembre de 2025, en pistas de esquí todos deben usar casco certificado CE, o arriesgan multas de hasta 200 euros y suspensión del pase."
+      },
+      "items": ["ski", "snowboard", "helmet", "esquí", "casco"],
+      "quote": "from 1 November 2025, all skiers, snowboarders, sledders, and tobogganers will be required to wear CE-certified helmets at all ski resorts. This law applies regardless of age or activity. Failing to do so risks a fine of up to €200 and ski pass suspension for up to 3 days",
+      "sources": ["src:fcdo-it-safety-and-security"]
+    },
+    {
+      "id": "it-prohibited-items-capri-plastics",
+      "category": "prohibited_items",
+      "severity": "fine",
+      "summary": {
+        "en": "On Capri, do not use or bring disposable plastic items such as bags, cutlery, cups or straws. Fines reach 500 euros.",
+        "es": "En Capri no uses ni lleves plásticos desechables, como bolsas, cubiertos, vasos o popotes. Las multas llegan a 500 euros."
+      },
+      "items": ["plastic bags", "straws", "bolsas de plástico", "popotes"],
+      "quote": "On the island of Capri, you must not use or bring on to the island any disposable plastic objects such as bags, cutlery, plates, cups, food packaging, trays and straws. If you do, you could be fined up to 500 euros.",
+      "sources": ["src:fcdo-it-safety-and-security"]
+    },
+    {
+      "id": "it-conduct-schengen-overstay",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "If you overstay the 90-day visa-free limit, you may be banned from entering Schengen countries for up to 3 years.",
+        "es": "Si excedes el límite de 90 días sin visa, te pueden prohibir la entrada a los países Schengen hasta por 3 años."
+      },
+      "quote": "If you overstay the 90-day visa-free limit, you may be banned from entering Schengen countries for up to 3 years.",
+      "sources": ["src:fcdo-it-entry-requirements"]
+    }
+  ]
+}

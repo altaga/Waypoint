@@ -1,0 +1,131 @@
+{
+  "country": "KR",
+  "review": {
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
+  },
+  "essentials": {
+    "plugTypes": ["C", "F"],
+    "emergency": { "police": "112", "ambulance": "119", "fire": "119" },
+    "languages": ["ko"],
+    "languageNames": { "en": ["Korean"], "es": ["coreano"] }
+  },
+  "rules": [
+    {
+      "id": "kr-medications-amphetamines",
+      "category": "medications",
+      "severity": "arrest",
+      "summary": {
+        "en": "Amphetamines are illegal. Do not bring amphetamines or other prescription narcotics without written permission from the Ministry of Food and Drug Safety.",
+        "es": "Las anfetaminas son ilegales. No lleves anfetaminas ni otros narcóticos con receta sin permiso escrito del Ministerio de Seguridad de Alimentos y Medicamentos."
+      },
+      "items": ["Adderall", "amphetamines", "anfetaminas", "medicine", "medicamentos"],
+      "quote": "Amphetamines are illegal in Korea. Do not bring amphetamines or other prescription narcotics into the country without obtaining advance permission in writing from the Ministry of Food and Drug Safety.",
+      "sources": ["src:state-kr-local-laws-and-special-circumstances"]
+    },
+    {
+      "id": "kr-drugs-1",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "Possessing, using or trafficking illegal drugs can mean a long jail sentence and heavy fines.",
+        "es": "Poseer, consumir o traficar drogas ilegales puede significar una larga condena de cárcel y multas altas."
+      },
+      "items": ["drugs", "cannabis", "drogas", "marihuana"],
+      "quote": "If you’re convicted of possession, use or trafficking of illegal drugs you can face a long jail sentence and heavy fines.",
+      "sources": ["src:fcdo-kr-safety-and-security"]
+    },
+    {
+      "id": "kr-drugs-mail",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "There is little tolerance for drugs: mailing illegal drugs to or from Korea leads to prosecution.",
+        "es": "Hay poca tolerancia a las drogas: enviar drogas ilegales por correo hacia o desde Corea lleva a un proceso penal."
+      },
+      "quote": "There is little tolerance for illegal drugs. If you mail illegal drugs to/ from Korea, you will be prosecuted.",
+      "sources": ["src:state-kr-local-laws-and-special-circumstances"]
+    },
+    {
+      "id": "kr-alcohol-2",
+      "category": "driving",
+      "severity": "arrest",
+      "summary": {
+        "en": "The drink-driving limit is very low, and penalties include prison and fines. Do not drink and drive.",
+        "es": "El límite de alcohol para manejar es muy bajo y las sanciones incluyen cárcel y multas. No manejes si bebiste."
+      },
+      "items": ["alcohol", "driving", "manejar"],
+      "quote": "The legal limit for alcohol in South Korea is less than half the limit in England, and penalties for drink-driving include prison and fines.",
+      "sources": ["src:fcdo-kr-safety-and-security"]
+    },
+    {
+      "id": "kr-driving-accident",
+      "category": "driving",
+      "severity": "arrest",
+      "summary": {
+        "en": "If you injure someone in a traffic accident, expect criminal charges and heavy penalties, even before guilt is proven.",
+        "es": "Si lesionas a alguien en un accidente de tránsito, puedes enfrentar cargos penales y sanciones fuertes, aun sin probarse tu culpa."
+      },
+      "quote": "If you injure someone in an accident, you are likely to face criminal charges and heavy penalties, even if guilt is not proved.",
+      "sources": ["src:fcdo-kr-safety-and-security"]
+    },
+    {
+      "id": "kr-conduct-work",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Do not work without the right visa: you may be arrested, fined or deported.",
+        "es": "No trabajes sin la visa adecuada: te pueden arrestar, multar o deportar."
+      },
+      "quote": "If you begin work without the appropriate visa, you may be arrested, fined, and/or deported.",
+      "sources": ["src:state-kr-local-laws-and-special-circumstances"]
+    },
+    {
+      "id": "kr-conduct-overstay",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Overstaying your permitted stay or lacking a valid visa can lead to detention and fines.",
+        "es": "Quedarte más tiempo del permitido o no tener una visa válida puede llevar a detención y multas."
+      },
+      "quote": "Exceeding your authorized stay or not possessing a valid visa may result in detention and fines.",
+      "sources": ["src:state-kr-entry-exit-requirements"]
+    },
+    {
+      "id": "kr-conduct-political",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "Foreign nationals may not take part in political activities in South Korea.",
+        "es": "Los extranjeros no pueden participar en actividades políticas en Corea del Sur."
+      },
+      "quote": "Be aware that under Korean law, it is illegal for foreign nationals to take part in political activities when in the country.",
+      "sources": ["src:fcdo-kr-safety-and-security"]
+    },
+    {
+      "id": "kr-prohibited-items-customs",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "Customs strictly controls firearms, narcotics, prescription drugs, health supplements, radio equipment and gold. Declare them on arrival.",
+        "es": "La aduana controla estrictamente armas, narcóticos, medicamentos con receta, suplementos, equipos de radio y oro. Decláralos al llegar."
+      },
+      "items": ["supplements", "firearms", "gold", "suplementos", "armas", "oro"],
+      "quote": "Customs Regulations: There is strict enforcement of regulations on importing and exporting items such as firearms, narcotics and prescription drugs, non-prescription health supplements, radio equipment, and gold.",
+      "sources": ["src:state-kr-local-laws-and-special-circumstances"]
+    },
+    {
+      "id": "kr-medications-4",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Small amounts of personal medicine are allowed in carry-on bags. Bring an English prescription for both prescription and over-the-counter medicines.",
+        "es": "Se permiten pequeñas cantidades de medicamentos personales en el equipaje de mano. Lleva receta en inglés, también para los de venta libre."
+      },
+      "items": ["medicine", "prescription", "medicamentos", "receta"],
+      "quote": "South Korean customs authorities allow you to bring small amounts of medication for your personal use, if it is kept in carry-on baggage. Take an English language prescription from your doctor at home for both your prescription drugs and non-prescription medicines.",
+      "sources": ["src:fcdo-kr-health"]
+    }
+  ]
+}

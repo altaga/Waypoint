@@ -20,6 +20,8 @@ export const Rule = z.object({
   category: RuleCategory,
   severity: z.enum(["info", "fine", "arrest", "severe"]),
   summary: z.object({ en: z.string(), es: z.string().optional() }),
+  // Optional item keywords (English and Spanish) for "can I bring X" matching.
+  items: z.array(z.string()).optional(),
   quote: z.string().min(10), // verbatim text from the source, checked by the validator
   sources: z.array(z.string()).min(1),
   lastVerified: z.iso.date(),
@@ -41,16 +43,23 @@ export const Pack = z.object({
   // A = human reviewed (reviewedBy required), B = auto-extracted, C = live fallback
   tier: z.enum(["A", "B", "C"]),
   review: z.object({
-    status: z.enum(["machine_extracted", "human_reviewed"]),
+    // curated = rules selected and paraphrased (en + es) from the cited quotes by the
+    // curation overlay in data/curation/; still tier B until a human signs off.
+    status: z.enum(["machine_extracted", "curated", "human_reviewed"]),
     reviewedBy: z.string().nullable(),
     reviewedAt: z.iso.date().nullable(),
+    note: z.string().optional(),
   }),
   localRules: z.array(Rule),
   essentials: z.object({
     currency: z.string().length(3).nullable(),
+    // IEC plug letters, e.g. ["A", "B"].
     plugTypes: z.array(z.string()),
+    // Service -> dialable number, e.g. { police: "110", ambulance: "119", fire: "119" } or { general: "112" }.
     emergency: z.record(z.string(), z.string()),
+    // ISO 639-1 codes, e.g. ["ja"]; display names live in languageNames.
     languages: z.array(z.string()),
+    languageNames: z.object({ en: z.array(z.string()), es: z.array(z.string()) }).optional(),
   }),
   advisory: z
     .object({

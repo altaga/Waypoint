@@ -8,9 +8,10 @@
   "generatedAt": "2026-10-11",
   "tier": "B",
   "review": {
-    "status": "machine_extracted",
-    "reviewedBy": null,
-    "reviewedAt": null
+    "status": "curated",
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
   },
   "localRules": [
     {
@@ -18,241 +19,241 @@
       "category": "drugs",
       "severity": "arrest",
       "summary": {
-        "en": "You should expect a long prison sentence of 4 to 24 years and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports."
+        "en": "Drugs, including cannabis, carry 4 to 24 years in prison and heavy fines for possession, use or smuggling, even when only transiting through an airport.",
+        "es": "Las drogas, incluida la marihuana, se castigan con 4 a 24 años de cárcel y multas altas, incluso estando en tránsito por un aeropuerto."
       },
-      "quote": "You should expect a long prison sentence of 4 to 24 years and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports.",
+      "items": [
+        "drugs",
+        "cannabis",
+        "marijuana",
+        "drogas",
+        "marihuana"
+      ],
+      "quote": "Illegal drugs, including cannabis, carry severe penalties. You should expect a long prison sentence of 4 to 24 years and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports.",
       "sources": [
         "src:fcdo-tr-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "tr-conduct-2",
+      "id": "tr-conduct-insulting-the-state",
       "category": "conduct",
       "severity": "arrest",
       "summary": {
-        "en": "Insulting the President or the founder of the Turkish Republic, Mustafa Kemal Atatürk, is also a criminal offence."
+        "en": "Insulting the Turkish nation, flag, President or Atatürk, or defacing banknotes, can mean 6 months to 3 years in prison, including for past online posts.",
+        "es": "Insultar a la nación, la bandera, al presidente o a Atatürk, o dañar billetes, implica de 6 meses a 3 años de cárcel, incluso en internet."
       },
-      "quote": "Insulting the President or the founder of the Turkish Republic, Mustafa Kemal Atatürk, is also a criminal offence.",
+      "quote": "It is illegal to insult the Turkish nation or the national flag. Insulting the President or the founder of the Turkish Republic, Mustafa Kemal Atatürk, is also a criminal offence. These laws can apply to comments or images online no matter where you were or when you posted them. Defacing Turkish banknotes is also illegal. Offences under these laws are punishable by a prison sentence of between 6 months and 3 years.",
       "sources": [
         "src:fcdo-tr-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "tr-conduct-3",
+      "id": "tr-prohibited-items-antiquities",
+      "category": "prohibited_items",
+      "severity": "arrest",
+      "summary": {
+        "en": "Buying or exporting antiquities is illegal: fines and 5 to 12 years in prison. Some antiques sold legally in shops cannot be exported; check first.",
+        "es": "Comprar o sacar antigüedades es ilegal: multas y de 5 a 12 años de cárcel. Algunas se venden legalmente pero no pueden exportarse; verifica antes."
+      },
+      "items": [
+        "antiques",
+        "antiquities",
+        "souvenirs",
+        "antigüedades",
+        "recuerdos"
+      ],
+      "quote": "Buying or exporting antiquities is illegal. You could be fined and receive a prison sentence of 5 to 12 years. Some historical items found at local markets and in antique shops can be sold within Turkey but are illegal to export. Confirm the status of antique items before you buy them.",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "tr-conduct-wildfires",
       "category": "conduct",
       "severity": "arrest",
       "summary": {
-        "en": "Offences under these laws are punishable by a prison sentence of between 6 months and 3 years."
+        "en": "Lighting any fire or dropping cigarettes in risk areas such as woodland can bring a fine or prison. Watch for signs banning fires and smoking.",
+        "es": "Encender fuego o tirar colillas en zonas de riesgo, como bosques, puede traer multa o cárcel. Respeta los letreros que prohíben fuego y fumar."
       },
-      "quote": "Offences under these laws are punishable by a prison sentence of between 6 months and 3 years.",
+      "items": [
+        "barbecue",
+        "cigarettes",
+        "asador",
+        "cigarros"
+      ],
+      "quote": "You could get a fine or prison sentence for lighting a fire of any kind or discarding cigarettes in risk areas such as woodland. Look out for signs that tell you fires, barbeques, and smoking are prohibited.",
       "sources": [
         "src:fcdo-tr-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "tr-drugs-4",
-      "category": "drugs",
+      "id": "tr-driving-alcohol",
+      "category": "driving",
       "severity": "fine",
       "summary": {
-        "en": "Illegal drugs, including cannabis, carry severe penalties."
+        "en": "Do not drink and drive: police fine drunk drivers and can take away your licence for 6 months.",
+        "es": "No manejes si bebiste: la policía multa a los conductores ebrios y puede quitarte la licencia por 6 meses."
       },
-      "quote": "Illegal drugs, including cannabis, carry severe penalties.",
+      "items": [
+        "alcohol",
+        "driving",
+        "manejar"
+      ],
+      "quote": "Do not drink and drive. The police fine drunk drivers and they could confiscate your licence for 6 months.",
       "sources": [
         "src:fcdo-tr-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "tr-drugs-5",
-      "category": "drugs",
+      "id": "tr-driving-helmets",
+      "category": "driving",
+      "severity": "fine",
+      "summary": {
+        "en": "Riding a motorcycle or moped without a helmet is illegal and can bring a severe fine.",
+        "es": "Andar en moto o motoneta sin casco es ilegal y puede traer una multa severa."
+      },
+      "items": [
+        "motorcycle",
+        "moped",
+        "helmet",
+        "moto",
+        "motoneta",
+        "casco"
+      ],
+      "quote": "It is illegal to ride without a helmet on motorcycles and mopeds. You may get a severe fine if you are not wearing a helmet.",
+      "sources": [
+        "src:fcdo-tr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "tr-prohibited-items-customs",
+      "category": "prohibited_items",
       "severity": "info",
       "summary": {
-        "en": "controlled drugs"
+        "en": "You cannot take controlled drugs, firearms, flick knives, self-defence sprays, endangered species or obscene material into or out of Turkey.",
+        "es": "No puedes entrar ni salir de Turquía con drogas controladas, armas de fuego, navajas automáticas, aerosoles de defensa personal, especies protegidas ni material obsceno."
       },
-      "quote": "controlled drugs",
+      "items": [
+        "knife",
+        "flick knife",
+        "pepper spray",
+        "self-defence spray",
+        "firearms",
+        "navaja",
+        "gas pimienta",
+        "armas"
+      ],
+      "quote": "Some goods are prohibited – you cannot take them into or out of Turkey. These include: controlled drugs firearms offensive weapons, for example flick knives and self-defence sprays endangered animal and plant species indecent and obscene material",
       "sources": [
         "src:fcdo-tr-entry-requirements"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "tr-prohibited-items-6",
+      "id": "tr-prohibited-items-currency",
       "category": "prohibited_items",
       "severity": "info",
       "summary": {
-        "en": "offensive weapons, for example flick knives and self-defence sprays"
+        "en": "Do not take Turkish lira worth more than 5,000 US dollars out of the country. Declare other currency above that amount to customs.",
+        "es": "No saques del país liras turcas por más de 5,000 dólares estadounidenses. Declara en aduana otras divisas por encima de ese monto."
       },
-      "quote": "offensive weapons, for example flick knives and self-defence sprays",
+      "items": [
+        "cash",
+        "money",
+        "currency",
+        "efectivo",
+        "dinero",
+        "divisas"
+      ],
+      "quote": "You must not take Turkish lira worth more than 5000 US dollars out of the country. If you have other currency worth more than 5000 US dollars to take out of Turkey, you must declare it to Turkish Customs.",
       "sources": [
         "src:fcdo-tr-entry-requirements"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "tr-alcohol-7",
-      "category": "alcohol",
-      "severity": "info",
-      "summary": {
-        "en": "In Turkey, including Ankara and Istanbul, people have died or suffered serious illness after drinking illegally produced local spirits and counterfeit bottles of branded alcohol."
-      },
-      "quote": "In Turkey, including Ankara and Istanbul, people have died or suffered serious illness after drinking illegally produced local spirits and counterfeit bottles of branded alcohol.",
-      "sources": [
-        "src:fcdo-tr-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "tr-conduct-8",
+      "id": "tr-conduct-photo-id",
       "category": "conduct",
       "severity": "info",
       "summary": {
-        "en": "During this time, it may cause offence if you:"
+        "en": "It is illegal not to carry photo ID. Always carry your passport; police may stop you for ID checks, especially in Istanbul.",
+        "es": "Es ilegal no llevar identificación con foto. Lleva siempre tu pasaporte; la policía puede pedírtelo, sobre todo en Estambul."
       },
-      "quote": "During this time, it may cause offence if you:",
+      "items": [
+        "passport",
+        "pasaporte"
+      ],
+      "quote": "It is illegal not to carry some form of photographic ID in Turkey. Always carry your passport or residence permit. In some busy areas, especially Istanbul, the authorities may stop people for ID checks.",
       "sources": [
         "src:fcdo-tr-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "tr-dress-9",
-      "category": "dress",
-      "severity": "info",
-      "summary": {
-        "en": "follow local dress codes – clothing that does not meet local dress codes may cause more offence at this time"
-      },
-      "quote": "follow local dress codes – clothing that does not meet local dress codes may cause more offence at this time",
-      "sources": [
-        "src:fcdo-tr-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "tr-prohibited-items-10",
-      "category": "prohibited_items",
-      "severity": "info",
-      "summary": {
-        "en": "It is illegal not to carry some form of photographic ID in Turkey."
-      },
-      "quote": "It is illegal not to carry some form of photographic ID in Turkey.",
-      "sources": [
-        "src:fcdo-tr-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "tr-dress-11",
-      "category": "dress",
-      "severity": "info",
-      "summary": {
-        "en": "Dress modestly if you’re visiting a mosque or a religious shrine to avoid causing offence."
-      },
-      "quote": "Dress modestly if you’re visiting a mosque or a religious shrine to avoid causing offence.",
-      "sources": [
-        "src:fcdo-tr-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "tr-conduct-12",
-      "category": "conduct",
-      "severity": "info",
-      "summary": {
-        "en": "It is illegal to insult the Turkish nation or the national flag."
-      },
-      "quote": "It is illegal to insult the Turkish nation or the national flag.",
-      "sources": [
-        "src:fcdo-tr-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "tr-dress-13",
-      "category": "dress",
-      "severity": "info",
-      "summary": {
-        "en": "Dress code"
-      },
-      "quote": "Dress code",
-      "sources": [
-        "src:fcdo-tr-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "tr-drugs-14",
-      "category": "drugs",
-      "severity": "info",
-      "summary": {
-        "en": "Illegal drugs"
-      },
-      "quote": "Illegal drugs",
-      "sources": [
-        "src:fcdo-tr-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "tr-photography-15",
+      "id": "tr-photography-1",
       "category": "photography",
       "severity": "info",
       "summary": {
-        "en": "Do not take photographs of or near military or official installations. Ask for permission before photographing people."
+        "en": "Do not take photos of or near military or official sites, and ask permission before photographing people.",
+        "es": "No tomes fotos de instalaciones militares u oficiales ni cerca de ellas, y pide permiso antes de fotografiar a personas."
       },
+      "items": [
+        "camera",
+        "photos",
+        "cámara",
+        "fotos"
+      ],
       "quote": "Do not take photographs of or near military or official installations. Ask for permission before photographing people.",
       "sources": [
         "src:fcdo-tr-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "tr-lgbtq-16",
-      "category": "lgbtq",
-      "severity": "info",
-      "summary": {
-        "en": "LGBT+ travellers"
-      },
-      "quote": "LGBT+ travellers",
-      "sources": [
-        "src:fcdo-tr-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     }
   ],
   "essentials": {
     "currency": "TRY",
     "plugTypes": [
-      "Schuko",
-      "Europlug"
+      "C",
+      "F"
     ],
     "emergency": {
-      "number1": "http://www.wikidata.org/entity/Q1061257",
-      "number2": "http://www.wikidata.org/entity/Q25743529"
+      "general": "112"
     },
     "languages": [
       "tr"
-    ]
+    ],
+    "languageNames": {
+      "en": [
+        "Turkish"
+      ],
+      "es": [
+        "turco"
+      ]
+    }
   },
-  "advisory": {},
+  "advisory": {
+    "us": {
+      "level": 2,
+      "title": "Turkey - Level 2: Exercise Increased Caution",
+      "date": "2026-06-08"
+    }
+  },
   "sources": {
     "src:fcdo-tr-entry-requirements": {
       "title": "FCDO travel advice: Türkiye - Entry requirements",
@@ -270,6 +271,24 @@
       "title": "FCDO travel advice: Türkiye - Health",
       "url": "https://www.gov.uk/foreign-travel-advice/turkey/health",
       "license": "OGL v3.0",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-tr-local-laws-and-special-circumstances": {
+      "title": "US State Dept: Türkiye - local laws and special circumstances",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tur.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-tr-entry-exit-requirements": {
+      "title": "US State Dept: Türkiye - entry exit requirements",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tur.html",
+      "license": "US Government work (public domain)",
+      "retrieved": "2026-10-11"
+    },
+    "src:state-tr-health": {
+      "title": "US State Dept: Türkiye - health",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tur.html",
+      "license": "US Government work (public domain)",
       "retrieved": "2026-10-11"
     }
   },

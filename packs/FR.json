@@ -8,9 +8,10 @@
   "generatedAt": "2026-10-11",
   "tier": "B",
   "review": {
-    "status": "machine_extracted",
-    "reviewedBy": null,
-    "reviewedAt": null
+    "status": "curated",
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
   },
   "localRules": [
     {
@@ -18,102 +19,228 @@
       "category": "drugs",
       "severity": "arrest",
       "summary": {
-        "en": "Illegal drugs, including cannabis, carry severe penalties including imprisonment and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports, ports and Eurostar stations."
+        "en": "Drugs, including cannabis, carry prison and heavy fines for possession, use or smuggling, even when transiting through airports, ports or Eurostar stations.",
+        "es": "Las drogas, incluida la marihuana, se castigan con cárcel y multas altas por posesión, consumo o contrabando, incluso en tránsito por aeropuertos, puertos o estaciones."
       },
+      "items": [
+        "drugs",
+        "cannabis",
+        "marijuana",
+        "drogas",
+        "marihuana"
+      ],
       "quote": "Illegal drugs, including cannabis, carry severe penalties including imprisonment and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports, ports and Eurostar stations.",
       "sources": [
         "src:fcdo-fr-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "fr-drugs-2",
-      "category": "drugs",
+      "id": "fr-driving-influence",
+      "category": "driving",
       "severity": "arrest",
       "summary": {
-        "en": "Individuals who violate France’s drug laws may face penalties including prison sentences."
+        "en": "Driving under the influence of drugs or alcohol can lead to immediate arrest and detention.",
+        "es": "Manejar bajo los efectos de drogas o alcohol puede llevar a arresto y detención inmediatos."
       },
-      "quote": "Individuals who violate France’s drug laws may face penalties including prison sentences.",
-      "sources": [
-        "src:state-fr-local-laws-and-special-circumstances"
+      "items": [
+        "alcohol",
+        "driving",
+        "manejar"
       ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "fr-drugs-3",
-      "category": "drugs",
-      "severity": "arrest",
-      "summary": {
-        "en": "In France and Monaco, driving under the influence of drugs or alcohol could result in your immediate arrest and detention."
-      },
       "quote": "In France and Monaco, driving under the influence of drugs or alcohol could result in your immediate arrest and detention.",
       "sources": [
         "src:state-fr-local-laws-and-special-circumstances"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "fr-conduct-4",
+      "id": "fr-photography-drones",
+      "category": "photography",
+      "severity": "arrest",
+      "summary": {
+        "en": "Do not fly drones over public spaces, urban areas, airports, military sites or large events. Violators face arrest, fines up to 75,000 euros or a year in jail.",
+        "es": "No vueles drones sobre espacios públicos, zonas urbanas, aeropuertos, sitios militares o eventos masivos. Hay arresto, multas de hasta 75,000 euros o un año de cárcel."
+      },
+      "items": [
+        "drone",
+        "dron"
+      ],
+      "quote": "It is against the law in France to operate drones over public spaces (including museums, parks, and streets); in urban areas and near airports, military bases, prisons, and nuclear plants; and at large gatherings such as outdoor concerts and parades. France has strict laws to protect an individual’s privacy, thus drone footage is heavily regulated. Violators can be arrested and subject to fines of up to 75,000 euros and/or one-year imprisonment.",
+      "sources": [
+        "src:state-fr-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "fr-conduct-wildfires",
       "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Causing a wildfire is illegal even if it starts by accident, and can bring a fine or prison.",
+        "es": "Provocar un incendio forestal es ilegal aunque sea por accidente, y puede traer multa o cárcel."
+      },
+      "items": [
+        "barbecue",
+        "cigarettes",
+        "asador",
+        "cigarros"
+      ],
+      "quote": "Causing a wildfire is illegal in France , even if it is started by accident. You could get a fine or a prison sentence.",
+      "sources": [
+        "src:fcdo-fr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "fr-dress-face-covering",
+      "category": "dress",
       "severity": "fine",
       "summary": {
-        "en": "Police give you on-the-spot fines for driving offences, including speeding."
+        "en": "Covering your face in public, with a balaclava, full veil or mask, is illegal and can bring a fine of up to 150 euros.",
+        "es": "Cubrirte la cara en público, con pasamontañas, velo integral o máscara, es ilegal y puede costar una multa de hasta 150 euros."
       },
+      "items": [
+        "veil",
+        "mask",
+        "balaclava",
+        "velo",
+        "máscara",
+        "pasamontañas"
+      ],
+      "quote": "Covering your face in public places in France is illegal. This includes balaclavas, full veils or any other garment or mask that is used to hide the face. You could get a fine of up to 150 euros if you do not comply.",
+      "sources": [
+        "src:fcdo-fr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "fr-driving-on-the-spot-fines",
+      "category": "driving",
+      "severity": "fine",
+      "summary": {
+        "en": "Police give on-the-spot fines for driving offences, including speeding.",
+        "es": "La policía pone multas en el momento por infracciones de tránsito, incluido el exceso de velocidad."
+      },
+      "items": [
+        "driving",
+        "speeding",
+        "manejar",
+        "velocidad"
+      ],
       "quote": "Police give you on-the-spot fines for driving offences, including speeding.",
       "sources": [
         "src:fcdo-fr-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "fr-drugs-5",
-      "category": "drugs",
-      "severity": "info",
+      "id": "fr-driving-winter-tyres",
+      "category": "driving",
+      "severity": "fine",
       "summary": {
-        "en": "Illegal drugs"
+        "en": "From 1 November to 31 March, vehicles in certain mountain regions must have winter tyres or chains, or you could be fined.",
+        "es": "Del 1 de noviembre al 31 de marzo, en ciertas zonas de montaña los vehículos deben llevar llantas de invierno o cadenas; si no, hay multa."
       },
-      "quote": "Illegal drugs",
+      "items": [
+        "car rental",
+        "winter tyres",
+        "snow chains",
+        "renta de auto",
+        "cadenas"
+      ],
+      "quote": "Vehicles driven in certain mountain regions during the winter period (1 November to 31 March) must be fitted with winter tyres or chains. You could receive a fine if you do not comply.",
       "sources": [
         "src:fcdo-fr-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "fr-medications-6",
-      "category": "medications",
+      "id": "fr-conduct-identity",
+      "category": "conduct",
       "severity": "info",
       "summary": {
-        "en": "Always carry your prescription medication in original packaging with your doctor’s prescription."
+        "en": "You must prove your identity when asked, or within 4 hours at a police station, with a passport, photocard driving licence or other government document.",
+        "es": "Debes demostrar tu identidad cuando te la pidan, o en 4 horas en una comisaría, con pasaporte, licencia con foto u otro documento oficial."
       },
-      "quote": "Always carry your prescription medication in original packaging with your doctor’s prescription.",
+      "items": [
+        "passport",
+        "ID",
+        "pasaporte",
+        "identificación"
+      ],
+      "quote": "You must be able to prove your identity by providing documents when asked or within 4 hours at a police station. Accepted IDs are: passport photocard driving licence other documentation provided by a government body",
       "sources": [
-        "src:state-fr-health"
+        "src:fcdo-fr-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "id": "fr-driving-pollution-sticker",
+      "category": "driving",
+      "severity": "info",
+      "summary": {
+        "en": "Vehicles in central Paris, Lyon and Grenoble must display a pollution sticker from 8am to 8pm, Monday to Friday.",
+        "es": "Los vehículos en el centro de París, Lyon y Grenoble deben llevar un distintivo de contaminación de 8 a 20 h, de lunes a viernes."
+      },
+      "items": [
+        "car rental",
+        "renta de auto"
+      ],
+      "quote": "All vehicles driving in central Paris, Lyon and Grenoble must display a pollution sticker from 8am to 8pm, Monday to Friday.",
+      "sources": [
+        "src:fcdo-fr-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "fr-conduct-schengen-overstay",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "If you overstay the 90-day visa-free limit, you may be banned from entering Schengen countries for up to 3 years.",
+        "es": "Si excedes el límite de 90 días sin visa, te pueden prohibir la entrada a los países Schengen hasta por 3 años."
+      },
+      "quote": "If you overstay the 90-day visa-free limit, you may be banned from entering Schengen countries for up to 3 years.",
+      "sources": [
+        "src:fcdo-fr-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
     }
   ],
   "essentials": {
     "currency": "EUR",
     "plugTypes": [
-      "Europlug",
-      "Type E"
+      "C",
+      "E"
     ],
     "emergency": {
-      "number1": "http://www.wikidata.org/entity/Q1061257",
-      "number2": "http://www.wikidata.org/entity/Q2945964",
-      "number3": "http://www.wikidata.org/entity/Q25648842",
-      "number4": "http://www.wikidata.org/entity/Q25648843",
-      "number5": "http://www.wikidata.org/entity/Q25648869"
+      "general": "112",
+      "police": "17",
+      "ambulance": "15",
+      "fire": "18"
     },
     "languages": [
       "fr"
-    ]
+    ],
+    "languageNames": {
+      "en": [
+        "French"
+      ],
+      "es": [
+        "francés"
+      ]
+    }
   },
   "advisory": {
     "us": {

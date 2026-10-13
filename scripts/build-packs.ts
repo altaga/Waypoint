@@ -2,6 +2,12 @@
 // deterministic path). Each local rule carries a verbatim quote from a cited
 // source; packs that fail validation are not written.
 //
+// Curation overlay: when data/curation/XX.json exists, its rules (bilingual
+// summaries paraphrased from verbatim quotes), essentials and review block replace
+// the machine-extracted ones, so a rebuild keeps the curation. Curated quotes are
+// still checked verbatim against the freshly built source text; if a source page
+// changed and a quote is gone, the pack fails validation and must be re-curated.
+//
 // Bedrock extraction (Strands + Converse) is documented in docs/AWS.md and is not
 // run here because the build environment has no AWS access. Packs produced by this
 // script are tier B and stay machine_extracted until a human reviewer signs off.
@@ -18,6 +24,39 @@ import { countries as countryData } from "countries-list";
 
 const ROOT = join(import.meta.dirname, "..");
 const MAX_RULES = 16;
+
+// The State Dept feeds key countries by FIPS 10-4 codes, not ISO 3166 ("KR" there is
+// Kiribati, "CN" Comoros, "ES" El Salvador, "SG" Senegal). Codes not listed match ISO.
+const STATE_CODE: Record<string, string> = { JP: "JA", SG: "SN", VN: "VM", KR: "KS", CN: "CH", TR: "TU", ES: "SP" };
+const stateCode = (iso: string) => STATE_CODE[iso] ?? iso;
+
+// Wikidata plug standard names to IEC 60083 letters.
+const PLUG_LETTER: Record<string, string> = {
+  "NEMA 1-15": "A", "NEMA 5-15": "B", Europlug: "C", "Type D": "D", "Type E": "E", Schuko: "F",
+  "BS 1363": "G", "Type H": "H", "AS/NZS 3112": "I", "Type J": "J", "Type K": "K", "Type L": "L",
+  "Type M": "M", "Type N": "N",
+};
+
+interface CurationRule {
+  id: string;
+  category: RuleCategory;
+  severity: Rule["severity"];
+  summary: { en: string; es: string };
+  items?: string[];
+  quote: string;
+  sources: string[];
+}
+interface Curation {
+  country: string;
+  review: { reviewedBy: string; reviewedAt: string; note: string };
+  essentials: {
+    plugTypes: string[];
+    emergency: Record<string, string>;
+    languages: string[];
+    languageNames: { en: string[]; es: string[] };
+  };
+  rules: CurationRule[];
+}
 
 const CATEGORY_PATTERNS: [RuleCategory, RegExp][] = [
   ["drugs", /narcotic|cannabis|marijuana|\bdrugs?\b|controlled substance/i],
@@ -115,14 +154,14 @@ async function main() {
     }
 
     // US State Dept country information
-    const stateEntry = stateCountries.find((c: any) => c.tag === iso);
+    const stateEntry = stateCountries.find((c: any) => c.tag === stateCode(iso));
+    const adv = advisories.find((a: any) => (a.Category as string[]).includes(stateCode(iso)));
     if (stateEntry) {
       for (const field of ["local_laws_and_special_circumstances", "entry_exit_requirements", "health"]) {
         const id = `src:state-${iso.toLowerCase()}-${field.replace(/_/g, "-")}`;
         const text = htmlToText(stateEntry[field] ?? "");
         if (!text) continue;
         sourceTexts[id] = text;
-        const adv = advisories.find((a: any) => String(a.Category).includes(iso));
         sources[id] = {
           title: `US State Dept: ${countryName(iso)} - ${field.replace(/_/g, " ")}`,
           url: adv?.Link ?? "https://travel.state.gov/",
@@ -151,7 +190,7 @@ async function main() {
       perCategory.set(p.category, n + 1);
       return n < 4;
     });
-    const rules: Rule[] = diverse.slice(0, MAX_RULES).map((p, i) => ({
+    let rules: Rule[] = diverse.slice(0, MAX_RULES).map((p, i) => ({
       id: `${iso.toLowerCase()}-${p.category.replace(/_/g, "-")}-${i + 1}`,
       category: p.category,
       severity: severityOf(p.sentence),
@@ -163,12 +202,47 @@ async function main() {
     }));
 
     const c = countryData[iso as keyof typeof countryData];
-    const plugs = plugsFile?.plugs.filter((x: any) => x.iso2 === iso).map((x: any) => x.plug) ?? [];
+    const plugs = [
+      ...new Set<string>(plugsFile?.plugs.filter((x: any) => x.iso2 === iso).map((x: any) => PLUG_LETTER[x.plug]).filter(Boolean) ?? []),
+    ].sort();
+    // Wikidata often gives an entity URL instead of a number; keep only dialable numbers.
     const emergency: Record<string, string> = {};
     for (const e of plugsFile?.emergency.filter((x: any) => x.iso2 === iso) ?? []) {
-      emergency[`number${Object.keys(emergency).length + 1}`] = e.number;
+      if (/^\d{2,4}$/.test(String(e.number))) emergency[`number${Object.keys(emergency).length + 1}`] = e.number;
     }
-    const adv = advisories.find((a: any) => String(a.Category).includes(iso));
+    let essentials: Record<string, unknown> = {
+      currency: currencyOf(iso),
+      plugTypes: plugs,
+      emergency,
+      languages: (c?.languages ?? []) as string[],
+    };
+    let review: Record<string, unknown> = { status: "machine_extracted", reviewedBy: null, reviewedAt: null };
+
+    const curation = await readJson<Curation>(`data/curation/${iso}.json`).catch((e) => {
+      if (e?.code === "ENOENT") return null;
+      throw e;
+    });
+    if (curation) {
+      const missing = curation.rules.flatMap((r) => r.sources.filter((id) => !sources[id]).map((id) => `${r.id} -> ${id}`));
+      if (missing.length) {
+        failures.push(`${iso}: curation cites sources not in this build: ${missing.join(", ")}`);
+        continue;
+      }
+      rules = curation.rules.map((r) => ({
+        id: r.id,
+        category: r.category,
+        severity: r.severity,
+        summary: { en: r.summary.en, es: r.summary.es },
+        ...(r.items?.length ? { items: r.items } : {}),
+        quote: r.quote,
+        sources: r.sources,
+        lastVerified: r.sources.map((id) => sources[id].retrieved).sort()[0],
+        confidence: "high" as const,
+      }));
+      rules.sort((a, b) => SEVERITY_RANK[a.severity] - SEVERITY_RANK[b.severity]);
+      essentials = { currency: currencyOf(iso), ...curation.essentials };
+      review = { status: "curated", ...curation.review };
+    }
     const levelMatch = adv ? /Level (\d)/.exec(adv.Title) : null;
 
     const pack = {
@@ -177,14 +251,9 @@ async function main() {
       names: { en: countryName(iso), es: countryName(iso, "es") },
       generatedAt: PACK_REFERENCE_DATE,
       tier: "B" as const,
-      review: { status: "machine_extracted" as const, reviewedBy: null, reviewedAt: null },
+      review,
       localRules: rules,
-      essentials: {
-        currency: currencyOf(iso),
-        plugTypes: plugs,
-        emergency,
-        languages: (c?.languages ?? []) as string[],
-      },
+      essentials,
       advisory: levelMatch && adv
         ? { us: { level: Number(levelMatch[1]), title: adv.Title, date: String(adv.Updated).slice(0, 10) } }
         : {},
@@ -202,7 +271,7 @@ async function main() {
     }
     await writeFile(join(ROOT, `packs/${iso}.json`), JSON.stringify(pack, null, 2) + "\n");
     await writeFile(join(ROOT, `data/sources-text/${iso}.json`), JSON.stringify(sourceTexts, null, 2) + "\n");
-    built.push(`${iso} (${rules.length} rules)`);
+    built.push(`${iso} (${rules.length} rules${curation ? ", curated" : ""})`);
   }
 
   await writeFile(

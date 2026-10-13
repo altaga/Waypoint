@@ -1,0 +1,131 @@
+{
+  "country": "SG",
+  "review": {
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
+  },
+  "essentials": {
+    "plugTypes": ["G"],
+    "emergency": { "police": "999", "ambulance": "995", "fire": "995" },
+    "languages": ["en", "ms", "ta", "zh"],
+    "languageNames": { "en": ["English", "Malay", "Tamil", "Chinese (Mandarin)"], "es": ["inglés", "malayo", "tamil", "chino (mandarín)"] }
+  },
+  "rules": [
+    {
+      "id": "sg-drugs-2",
+      "category": "drugs",
+      "severity": "severe",
+      "summary": {
+        "en": "Drug penalties are severe, including for cannabis. Carrying or transporting drugs can mean prison, caning or the death penalty.",
+        "es": "Las penas por drogas son severas, incluida la marihuana. Llevar o transportar drogas puede significar cárcel, azotes o pena de muerte."
+      },
+      "items": ["drugs", "cannabis", "marijuana", "drogas", "marihuana"],
+      "quote": "Penalties for drug possession, including cannabis, are severe. If you are carrying or transporting drugs, you can be imprisoned, caned or executed .",
+      "sources": ["src:fcdo-sg-entry-requirements"]
+    },
+    {
+      "id": "sg-drugs-screening",
+      "category": "drugs",
+      "severity": "arrest",
+      "summary": {
+        "en": "You can be drug-tested on arrival, even in transit, and charged for drugs taken in another country, even where they are legal.",
+        "es": "Te pueden hacer pruebas de drogas al llegar, incluso en tránsito, y acusarte por drogas consumidas en otro país, aunque allí sean legales."
+      },
+      "quote": "You can be screened for drugs in your system on arrival in Singapore, including if you’re in transit. You can be charged with drug consumption or detained without trial even if the drugs were taken in another country, including countries where the use of that particular drug is legal.",
+      "sources": ["src:fcdo-sg-entry-requirements"]
+    },
+    {
+      "id": "sg-conduct-overstay",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Do not overstay your permitted time: penalties include fines, prison, caning and deportation.",
+        "es": "No te quedes más tiempo del permitido: las sanciones incluyen multas, cárcel, azotes y deportación."
+      },
+      "quote": "Penalties for overstaying the time allowed include fines, imprisonment, caning and deportation depending on how long you have overstayed.",
+      "sources": ["src:fcdo-sg-entry-requirements"]
+    },
+    {
+      "id": "sg-conduct-vandalism",
+      "category": "conduct",
+      "severity": "arrest",
+      "summary": {
+        "en": "Vandalism, including graffiti, is punished with fines, prison and caning.",
+        "es": "El vandalismo, incluido el grafiti, se castiga con multas, cárcel y azotes."
+      },
+      "quote": "Acts of vandalism including graffiti carry harsh penalties such as fines, imprisonment and caning.",
+      "sources": ["src:fcdo-sg-safety-and-security"]
+    },
+    {
+      "id": "sg-prohibited-items-6",
+      "category": "prohibited_items",
+      "severity": "fine",
+      "summary": {
+        "en": "Vapes and e-cigarettes are banned, even for personal use. Do not bring them: they will be confiscated and you could be fined.",
+        "es": "Los vapeadores y cigarros electrónicos están prohibidos, incluso para uso personal. No los lleves: te los confiscan y te pueden multar."
+      },
+      "items": ["vapes", "e-cigarettes", "vapeadores", "cigarros electrónicos"],
+      "quote": "Vapes and e-cigarettes are banned in Singapore. It is illegal to bring them into the country, including for personal use. Those found in possession of vapes or e-cigarettes will have them confiscated and could be fined.",
+      "sources": ["src:fcdo-sg-safety-and-security"]
+    },
+    {
+      "id": "sg-conduct-littering",
+      "category": "conduct",
+      "severity": "fine",
+      "summary": {
+        "en": "Do not litter: police can give you an on-the-spot fine.",
+        "es": "No tires basura: la policía puede multarte en el acto."
+      },
+      "quote": "Police may give you an on-the-spot fine for littering.",
+      "sources": ["src:fcdo-sg-safety-and-security"]
+    },
+    {
+      "id": "sg-prohibited-items-9",
+      "category": "prohibited_items",
+      "severity": "info",
+      "summary": {
+        "en": "Chewing gum to sell is on the list of items you cannot bring into Singapore.",
+        "es": "El chicle para vender está en la lista de artículos que no puedes llevar a Singapur."
+      },
+      "items": ["chewing gum", "gum", "chicle"],
+      "quote": "chewing gum to sell",
+      "sources": ["src:fcdo-sg-entry-requirements"]
+    },
+    {
+      "id": "sg-alcohol-13",
+      "category": "alcohol",
+      "severity": "info",
+      "summary": {
+        "en": "Drinking alcohol in public is illegal from 10:30pm to 7am, except in restaurants, bars and licensed venues.",
+        "es": "Beber alcohol en la vía pública es ilegal de 10:30 p. m. a 7 a. m., salvo en restaurantes, bares y locales con licencia."
+      },
+      "items": ["alcohol"],
+      "quote": "It is illegal to drink alcohol in a public place, besides restaurants, bars and licensed entertainment venues, between 10:30pm and 7am.",
+      "sources": ["src:fcdo-sg-safety-and-security"]
+    },
+    {
+      "id": "sg-conduct-demonstrations",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "Foreign visitors may not attend outdoor demonstrations, even ones with police permission.",
+        "es": "Los visitantes extranjeros no pueden asistir a manifestaciones al aire libre, aunque tengan permiso de la policía."
+      },
+      "quote": "Foreigners who are not permanent residents are prohibited from attending outdoor demonstrations regardless of police permission.",
+      "sources": ["src:fcdo-sg-safety-and-security"]
+    },
+    {
+      "id": "sg-medications-prescription",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Carry prescription medicine in its original packaging with your doctor's prescription, and check it is legal in Singapore.",
+        "es": "Lleva tus medicamentos en su empaque original con la receta de tu médico y verifica que sean legales en Singapur."
+      },
+      "items": ["medicine", "prescription", "medicamentos", "receta"],
+      "quote": "Always carry your prescription medication in original packaging, along with your doctor’s prescription. Check with Singapore’s Health Sciences Authority to ensure the medication is legal in Singapore.",
+      "sources": ["src:state-sg-health"]
+    }
+  ]
+}

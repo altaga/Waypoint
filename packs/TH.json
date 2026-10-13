@@ -8,252 +8,226 @@
   "generatedAt": "2026-10-11",
   "tier": "B",
   "review": {
-    "status": "machine_extracted",
-    "reviewedBy": null,
-    "reviewedAt": null
+    "status": "curated",
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
   },
   "localRules": [
     {
-      "id": "th-drugs-1",
+      "id": "th-drugs-8",
       "category": "drugs",
       "severity": "severe",
       "summary": {
-        "en": "Possessing Class A drugs can lead to the death penalty."
+        "en": "Drug penalties are severe: possessing, using or trafficking illegal drugs can mean long jail sentences, heavy fines or even execution.",
+        "es": "Las penas por drogas son severas: poseer, consumir o traficar drogas ilegales puede significar largas condenas, multas altas e incluso la pena de muerte."
       },
-      "quote": "Possessing Class A drugs can lead to the death penalty.",
+      "items": [
+        "drugs",
+        "drogas"
+      ],
+      "quote": "Expect long jail sentences under harsh conditions, heavy fines, or even execution for possessing, using, or trafficking in illegal drugs.",
       "sources": [
-        "src:fcdo-th-safety-and-security"
+        "src:state-th-local-laws-and-special-circumstances"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "th-photography-2",
-      "category": "photography",
-      "severity": "arrest",
-      "summary": {
-        "en": "The fine for an unregistered drone with the NBTC is 100,000 baht or five years imprisonment or both."
-      },
-      "quote": "The fine for an unregistered drone with the NBTC is 100,000 baht or five years imprisonment or both.",
-      "sources": [
-        "src:fcdo-th-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "th-alcohol-3",
-      "category": "alcohol",
-      "severity": "arrest",
-      "summary": {
-        "en": "Posting images of people drinking alcohol or wearing clothing considered inappropriate can be illegal. Both the person who uploaded the images and the people in them could be fined or imprisoned."
-      },
-      "quote": "Posting images of people drinking alcohol or wearing clothing considered inappropriate can be illegal. Both the person who uploaded the images and the people in them could be fined or imprisoned.",
-      "sources": [
-        "src:fcdo-th-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "th-photography-4",
-      "category": "photography",
-      "severity": "arrest",
-      "summary": {
-        "en": "The regulations apply to all drones, including those for recreational use. The fine for an unregistered drone with the NBTC is 100,000 baht or five years imprisonment or both."
-      },
-      "quote": "The regulations apply to all drones, including those for recreational use. The fine for an unregistered drone with the NBTC is 100,000 baht or five years imprisonment or both.",
-      "sources": [
-        "src:fcdo-th-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "th-drugs-5",
+      "id": "th-drugs-cannabis",
       "category": "drugs",
       "severity": "arrest",
       "summary": {
-        "en": "Illegal drugs and prison sentences"
+        "en": "Cannabis is allowed only with a Thai medical prescription; recreational use is illegal. Taking cannabis out of Thailand without an export permit is illegal.",
+        "es": "La marihuana solo se permite con receta médica tailandesa; el uso recreativo es ilegal. Sacarla de Tailandia sin permiso de exportación es ilegal."
       },
-      "quote": "Illegal drugs and prison sentences",
+      "items": [
+        "cannabis",
+        "marijuana",
+        "marihuana"
+      ],
+      "quote": "Cannabis use in Thailand is restricted to medical purposes only. You must not buy, possess or use it without a Thai-issued medical prescription, which is limited to a 30-day supply. Recreational use remains illegal. It is illegal to take cannabis out of Thailand without the appropriate export permission from the authorities.",
       "sources": [
         "src:fcdo-th-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "th-drugs-6",
-      "category": "drugs",
-      "severity": "arrest",
-      "summary": {
-        "en": "Cannabis is illegal in many countries. If you carry it when arriving in, or transiting through, another country, you risk arrest and serious penalties, including long prison sentences."
-      },
-      "quote": "Cannabis is illegal in many countries. If you carry it when arriving in, or transiting through, another country, you risk arrest and serious penalties, including long prison sentences.",
-      "sources": [
-        "src:fcdo-th-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "th-conduct-7",
       "category": "conduct",
       "severity": "arrest",
       "summary": {
-        "en": "Lèse majesté (Royal Insult): Making a critical or defamatory comment about the royal family is punishable by a prison sentence of up to 15 years per offense."
+        "en": "Never criticize the royal family: it can mean up to 15 years in prison per offense. Even deliberately tearing banknotes can count.",
+        "es": "Nunca critiques a la familia real: puede costar hasta 15 años de cárcel por delito. Incluso romper billetes a propósito puede contar."
       },
-      "quote": "Lèse majesté (Royal Insult): Making a critical or defamatory comment about the royal family is punishable by a prison sentence of up to 15 years per offense.",
+      "quote": "Lèse majesté (Royal Insult): Making a critical or defamatory comment about the royal family is punishable by a prison sentence of up to 15 years per offense. As an example, purposely tearing Thai bank notes, which carry an image of the King, may be considered a lèse majesté offense.",
       "sources": [
         "src:state-th-local-laws-and-special-circumstances"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "th-drugs-8",
-      "category": "drugs",
-      "severity": "arrest",
-      "summary": {
-        "en": "Expect long jail sentences under harsh conditions, heavy fines, or even execution for possessing, using, or trafficking in illegal drugs."
-      },
-      "quote": "Expect long jail sentences under harsh conditions, heavy fines, or even execution for possessing, using, or trafficking in illegal drugs.",
-      "sources": [
-        "src:state-th-local-laws-and-special-circumstances"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "th-conduct-9",
-      "category": "conduct",
-      "severity": "fine",
-      "summary": {
-        "en": "Offences can lead to confiscation, heavy fines (typically 5,000–30,000 Thai bhat), detention, and court proceedings."
-      },
-      "quote": "Offences can lead to confiscation, heavy fines (typically 5,000–30,000 Thai bhat), detention, and court proceedings.",
-      "sources": [
-        "src:fcdo-th-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "th-alcohol-10",
-      "category": "alcohol",
-      "severity": "info",
-      "summary": {
-        "en": "Posting images of people drinking alcohol or wearing clothing considered inappropriate can be illegal."
-      },
-      "quote": "Posting images of people drinking alcohol or wearing clothing considered inappropriate can be illegal.",
-      "sources": [
-        "src:fcdo-th-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "th-photography-11",
-      "category": "photography",
-      "severity": "info",
-      "summary": {
-        "en": "It is illegal to fly a drone in Thailand if it is not registered."
-      },
-      "quote": "It is illegal to fly a drone in Thailand if it is not registered.",
-      "sources": [
-        "src:fcdo-th-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "th-prohibited-items-12",
-      "category": "prohibited_items",
-      "severity": "info",
-      "summary": {
-        "en": "Under the Playing Cards Act (1943) it is illegal to carry over one hundred and twenty playing cards."
-      },
-      "quote": "Under the Playing Cards Act (1943) it is illegal to carry over one hundred and twenty playing cards.",
-      "sources": [
-        "src:fcdo-th-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "th-prohibited-items-13",
       "category": "prohibited_items",
-      "severity": "info",
+      "severity": "arrest",
       "summary": {
-        "en": "It is illegal to possess or use any vape, e-cigarette, pod, e-liquid, or heat-not-burn device in Thailand."
+        "en": "Vapes, e-cigarettes, pods, e-liquids and heat-not-burn devices are illegal, with no exception for tourists. Expect confiscation, heavy fines or detention.",
+        "es": "Los vapeadores, cigarros electrónicos, pods, líquidos y dispositivos de tabaco calentado son ilegales, sin excepción para turistas. Hay confiscación, multas altas o detención."
       },
-      "quote": "It is illegal to possess or use any vape, e-cigarette, pod, e-liquid, or heat-not-burn device in Thailand.",
+      "items": [
+        "vapes",
+        "e-cigarettes",
+        "vapeadores",
+        "cigarros electrónicos"
+      ],
+      "quote": "It is illegal to possess or use any vape, e-cigarette, pod, e-liquid, or heat-not-burn device in Thailand. Offences can lead to confiscation, heavy fines (typically 5,000–30,000 Thai bhat), detention, and court proceedings. You may be required to remain in Thailand until the case has been finalised. There are no exceptions for tourists or for personal use.",
       "sources": [
         "src:fcdo-th-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "th-alcohol-14",
-      "category": "alcohol",
-      "severity": "info",
+      "id": "th-photography-4",
+      "category": "photography",
+      "severity": "arrest",
       "summary": {
-        "en": "The sale of alcohol is restricted between midnight and 11am."
+        "en": "Register any drone with the NBTC within 30 days of arrival, even if you will not fly it. Unregistered drones risk a 100,000 baht fine or prison.",
+        "es": "Registra cualquier dron ante la NBTC dentro de 30 días de tu llegada, aunque no lo uses. Sin registro arriesgas multa de 100,000 baht o cárcel."
       },
-      "quote": "The sale of alcohol is restricted between midnight and 11am.",
+      "items": [
+        "drone",
+        "dron"
+      ],
+      "quote": "You must register your drone with Thailand’s National Broadcasting and Telecommunications Commission (NBTC) within 30 days of entering Thailand or purchasing a drone in Thailand even if you do not intend to fly it. The regulations apply to all drones, including those for recreational use. The fine for an unregistered drone with the NBTC is 100,000 baht or five years imprisonment or both.",
       "sources": [
         "src:fcdo-th-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "th-alcohol-15",
-      "category": "alcohol",
-      "severity": "info",
+      "id": "th-conduct-overstay",
+      "category": "conduct",
+      "severity": "arrest",
       "summary": {
-        "en": "Exercise caution when purchasing or consuming alcohol in public places during restricted hours and check with venue owners or shop sellers."
+        "en": "Do not overstay your permitted stay: you could be fined, detained, deported or banned from returning.",
+        "es": "No te quedes más tiempo del permitido: te pueden multar, detener, deportar o prohibir el regreso."
       },
-      "quote": "Exercise caution when purchasing or consuming alcohol in public places during restricted hours and check with venue owners or shop sellers.",
+      "quote": "If you overstay your permission to stay in Thailand, you could be fined, detained, deported or banned from re-entering the country.",
+      "sources": [
+        "src:fcdo-th-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "th-prohibited-items-cigarettes",
+      "category": "prohibited_items",
+      "severity": "fine",
+      "summary": {
+        "en": "Bring no more than 200 cigarettes per person. Over the limit, they will likely be confiscated and you could be fined 10 times their value.",
+        "es": "Lleva máximo 200 cigarros por persona. Si te pasas, probablemente te los confiscan y te pueden multar con 10 veces su valor."
+      },
+      "items": [
+        "cigarettes",
+        "tobacco",
+        "cigarros",
+        "tabaco"
+      ],
+      "quote": "It is illegal to take more than 200 cigarettes per person into Thailand. This is enforced at customs on arrival. If you go over the limit, you could be fined 10 times the value. Your cigarettes will likely be confiscated.",
+      "sources": [
+        "src:fcdo-th-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "th-conduct-smoking",
+      "category": "conduct",
+      "severity": "fine",
+      "summary": {
+        "en": "Smoking in public is illegal, with fines of up to 5,000 baht.",
+        "es": "Fumar en lugares públicos es ilegal, con multas de hasta 5,000 baht."
+      },
+      "items": [
+        "smoking",
+        "fumar"
+      ],
+      "quote": "It’s illegal to smoke in public with a fine of up to 5,000 Thai baht.",
       "sources": [
         "src:fcdo-th-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "th-medications-16",
+      "id": "th-medications-supply",
       "category": "medications",
       "severity": "info",
       "summary": {
-        "en": "You must not buy, possess or use it without a Thai-issued medical prescription, which is limited to a 30-day supply."
+        "en": "You may bring up to a 30-day supply of medicine for personal use.",
+        "es": "Puedes llevar medicamentos de uso personal para un máximo de 30 días."
       },
-      "quote": "You must not buy, possess or use it without a Thai-issued medical prescription, which is limited to a 30-day supply.",
+      "items": [
+        "medicine",
+        "medicamentos"
+      ],
+      "quote": "Medicine for personal use: Up to a 30-day supply may be brought into the country with you.",
       "sources": [
-        "src:fcdo-th-safety-and-security"
+        "src:state-th-health"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "id": "th-medications-us-prescriptions",
+      "category": "medications",
+      "severity": "info",
+      "summary": {
+        "en": "Some prescription medicines from the US are illegal to possess in Thailand; check yours before you travel.",
+        "es": "Algunos medicamentos con receta de EE. UU. son ilegales en Tailandia; revisa los tuyos antes de viajar."
+      },
+      "items": [
+        "prescription",
+        "receta"
+      ],
+      "quote": "Also please note that some prescription medication from the United States is not legal to possess under Thai law.",
+      "sources": [
+        "src:state-th-local-laws-and-special-circumstances"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
     }
   ],
   "essentials": {
     "currency": "THB",
     "plugTypes": [
-      "Schuko",
-      "Europlug",
-      "NEMA 1-15",
-      "NEMA 5-15"
+      "A",
+      "B",
+      "C",
+      "F",
+      "O"
     ],
     "emergency": {
-      "number1": "http://www.wikidata.org/entity/Q25648876",
-      "number2": "http://www.wikidata.org/entity/Q25648881",
-      "number3": "http://www.wikidata.org/entity/Q25743536"
+      "police": "191",
+      "ambulance": "1669",
+      "fire": "199",
+      "touristPolice": "1155"
     },
     "languages": [
       "th"
-    ]
+    ],
+    "languageNames": {
+      "en": [
+        "Thai"
+      ],
+      "es": [
+        "tailandés"
+      ]
+    }
   },
   "advisory": {
     "us": {

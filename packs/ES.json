@@ -8,232 +8,246 @@
   "generatedAt": "2026-10-11",
   "tier": "B",
   "review": {
-    "status": "machine_extracted",
-    "reviewedBy": null,
-    "reviewedAt": null
+    "status": "curated",
+    "reviewedBy": "waypoint-curation",
+    "reviewedAt": "2026-10-13",
+    "note": "Rules selected for any foreign visitor (UK-only wording and headings dropped, duplicates merged). Summaries in English and Spanish are paraphrased from the cited verbatim quotes; check the quote and source before relying on them. Essentials curated from well-established public references. Not yet signed off by a human reviewer."
   },
   "localRules": [
     {
-      "id": "es-conduct-1",
-      "category": "conduct",
-      "severity": "arrest",
-      "summary": {
-        "en": "Ignoring direct requests of a police officer can be considered as ‘disobedience’, which is a criminal offence."
-      },
-      "quote": "Ignoring direct requests of a police officer can be considered as ‘disobedience’, which is a criminal offence.",
-      "sources": [
-        "src:fcdo-es-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "es-drugs-2",
+      "id": "es-drugs-1",
       "category": "drugs",
       "severity": "arrest",
       "summary": {
-        "en": "You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports."
+        "en": "Drugs, including cannabis, mean long jail sentences and heavy fines, even in airport transit. Even a small quantity can lead to arrest.",
+        "es": "Las drogas, incluida la marihuana, implican largas condenas y multas altas, incluso en tránsito por aeropuertos. Hasta una pequeña cantidad puede llevar al arresto."
       },
-      "quote": "You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports.",
+      "items": [
+        "drugs",
+        "cannabis",
+        "marijuana",
+        "drogas",
+        "marihuana"
+      ],
+      "quote": "Illegal drugs, including cannabis, carry severe penalties. You should expect a long jail sentence and heavy fines for possessing, using or smuggling illegal drugs, including when transiting through airports. Possession of even a small quantity of drugs can lead to arrest and detention.",
       "sources": [
         "src:fcdo-es-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "es-drugs-3",
-      "category": "drugs",
+      "id": "es-driving-alcohol",
+      "category": "driving",
       "severity": "arrest",
       "summary": {
-        "en": "Possession of even a small quantity of drugs can lead to arrest and detention."
+        "en": "Drink-driving laws are strict and police run roadside alcohol and drug checks. Penalties include fines, losing your licence and prison.",
+        "es": "Las leyes contra manejar tras beber son estrictas y hay controles de alcohol y drogas en carretera. Hay multas, retiro de licencia y cárcel."
       },
-      "quote": "Possession of even a small quantity of drugs can lead to arrest and detention.",
+      "items": [
+        "alcohol",
+        "driving",
+        "manejar"
+      ],
+      "quote": "Spain has strict drink-driving laws. Police regularly carry out roadside checks for alcohol and drugs. Penalties include fines, loss of licence and a prison sentence.",
       "sources": [
         "src:fcdo-es-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "es-conduct-4",
+      "id": "es-conduct-police-id",
       "category": "conduct",
       "severity": "arrest",
       "summary": {
-        "en": "Causing a wildfire is a criminal offence in Spain, even if unintentional."
+        "en": "Show photo ID if any police officer asks; they can hold you until your identity is confirmed. Ignoring a direct police request is a crime.",
+        "es": "Muestra una identificación con foto si la policía la pide; pueden retenerte hasta confirmar quién eres. Ignorar una orden directa de la policía es delito."
       },
-      "quote": "Causing a wildfire is a criminal offence in Spain, even if unintentional.",
+      "items": [
+        "passport",
+        "ID",
+        "pasaporte",
+        "identificación"
+      ],
+      "quote": "You must provide photo ID if asked by a police officer. This includes the Guardia Civil and national, regional and local police forces. The police have the right to hold you at a police station until they have confirmed your identity. Ignoring direct requests of a police officer can be considered as ‘disobedience’, which is a criminal offence.",
       "sources": [
         "src:fcdo-es-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "es-drugs-5",
-      "category": "drugs",
-      "severity": "fine",
+      "id": "es-alcohol-street",
+      "category": "alcohol",
+      "severity": "arrest",
       "summary": {
-        "en": "Illegal drugs, including cannabis, carry severe penalties."
+        "en": "Most cities ban drinking alcohol in the street outside registered cafes and bars. You could be arrested or fined.",
+        "es": "La mayoría de las ciudades prohíbe beber alcohol en la calle fuera de cafés y bares registrados. Te pueden arrestar o multar."
       },
-      "quote": "Illegal drugs, including cannabis, carry severe penalties.",
-      "sources": [
-        "src:fcdo-es-safety-and-security"
+      "items": [
+        "alcohol",
+        "drinking",
+        "beer",
+        "beber",
+        "cerveza"
       ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "es-conduct-6",
-      "category": "conduct",
-      "severity": "fine",
-      "summary": {
-        "en": "The police can give you on-the-spot fines for a variety of driving offences including speeding."
-      },
-      "quote": "The police can give you on-the-spot fines for a variety of driving offences including speeding.",
-      "sources": [
-        "src:fcdo-es-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "es-conduct-7",
-      "category": "conduct",
-      "severity": "fine",
-      "summary": {
-        "en": "Incorrect installation of a child seat or not wearing a seatbelt can be considered a serious offence and met with fines."
-      },
-      "quote": "Incorrect installation of a child seat or not wearing a seatbelt can be considered a serious offence and met with fines.",
-      "sources": [
-        "src:fcdo-es-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "es-drugs-8",
-      "category": "drugs",
-      "severity": "fine",
-      "summary": {
-        "en": "Penalties for possessing, using, or trafficking in illegal drugs in El Salvador are severe."
-      },
-      "quote": "Penalties for possessing, using, or trafficking in illegal drugs in El Salvador are severe.",
+      "quote": "Most cities in Spain ban drinking alcohol in the street, except at registered cafes and bars. You could be arrested or fined for breaking the law.",
       "sources": [
         "src:state-es-local-laws-and-special-circumstances"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "es-alcohol-9",
-      "category": "alcohol",
-      "severity": "info",
+      "id": "es-conduct-wildfires",
+      "category": "conduct",
+      "severity": "arrest",
       "summary": {
-        "en": "It’s illegal to drink alcohol in the street in some areas of Spain."
+        "en": "Causing a wildfire is a crime, even by accident. Put out cigarette ends properly, do not light barbecues and do not leave empty bottles behind.",
+        "es": "Provocar un incendio forestal es delito, aunque sea sin querer. Apaga bien las colillas, no hagas asados y no dejes botellas vacías."
       },
-      "quote": "It’s illegal to drink alcohol in the street in some areas of Spain.",
+      "items": [
+        "barbecue",
+        "cigarettes",
+        "asador",
+        "cigarros"
+      ],
+      "quote": "Causing a wildfire is a criminal offence in Spain, even if unintentional. Make sure cigarette ends are properly extinguished, do not light barbecues and do not leave empty bottles behind.",
       "sources": [
         "src:fcdo-es-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "es-alcohol-10",
-      "category": "alcohol",
-      "severity": "info",
-      "summary": {
-        "en": "Alcohol laws in the Balearic Islands"
-      },
-      "quote": "Alcohol laws in the Balearic Islands",
-      "sources": [
-        "src:fcdo-es-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "es-alcohol-11",
-      "category": "alcohol",
-      "severity": "info",
-      "summary": {
-        "en": "Local laws limit the sale and availability of alcohol in areas of some resorts on the Balearic Islands, including:"
-      },
-      "quote": "Local laws limit the sale and availability of alcohol in areas of some resorts on the Balearic Islands, including:",
-      "sources": [
-        "src:fcdo-es-safety-and-security"
-      ],
-      "lastVerified": "2026-10-11",
-      "confidence": "medium"
-    },
-    {
-      "id": "es-dress-12",
+      "id": "es-dress-swimwear",
       "category": "dress",
-      "severity": "info",
+      "severity": "fine",
       "summary": {
-        "en": "Dress code"
+        "en": "In some areas it is illegal to be in the street in only swimwear or bare-chested. You could be fined on seafront promenades or nearby streets.",
+        "es": "En algunas zonas es ilegal andar por la calle en traje de baño o sin camisa. Te pueden multar en el paseo marítimo o calles cercanas."
       },
-      "quote": "Dress code",
+      "items": [
+        "swimwear",
+        "bikini",
+        "traje de baño"
+      ],
+      "quote": "In some parts of Spain it’s illegal to be in the street wearing only a bikini or swimming shorts. Being bare-chested is also illegal in some areas in Spain. You could be fined if you’re caught wearing swimwear on the seafront promenade or adjacent streets.",
       "sources": [
         "src:fcdo-es-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "es-medications-13",
-      "category": "medications",
-      "severity": "info",
+      "id": "es-conduct-unlicensed-taxis",
+      "category": "conduct",
+      "severity": "fine",
       "summary": {
-        "en": "Antiretroviral medication with a prescription can be imported for personal use and for the duration of stay."
+        "en": "Passengers using unlicensed taxis can be fined up to 600 euros. Book taxis and airport transfers through a licensed firm.",
+        "es": "Los pasajeros de taxis sin licencia pueden recibir multas de hasta 600 euros. Reserva taxis y traslados al aeropuerto con una empresa autorizada."
       },
-      "quote": "Antiretroviral medication with a prescription can be imported for personal use and for the duration of stay.",
+      "items": [
+        "taxi",
+        "airport transfer",
+        "traslado"
+      ],
+      "quote": "Passengers caught using unlicensed taxi services are liable for fines of up to 600 euros. Make sure you book your taxi or airport transfer through a licensed firm.",
       "sources": [
-        "src:state-es-entry-exit-requirements"
+        "src:fcdo-es-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
-      "id": "es-medications-14",
-      "category": "medications",
-      "severity": "info",
+      "id": "es-conduct-balconies",
+      "category": "conduct",
+      "severity": "fine",
       "summary": {
-        "en": "Always carry your prescription medication in original packaging, along with your doctor’s prescription."
+        "en": "Hotels will evict you for dangerous behaviour on balconies, and you could also be fined.",
+        "es": "Los hoteles te pueden echar por conductas peligrosas en los balcones, y además te pueden multar."
       },
-      "quote": "Always carry your prescription medication in original packaging, along with your doctor’s prescription.",
+      "quote": "Hotels and other establishments will evict you if you behave dangerously on balconies. You could also get a fine.",
       "sources": [
-        "src:state-es-health"
+        "src:fcdo-es-safety-and-security"
       ],
       "lastVerified": "2026-10-11",
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "id": "es-driving-mobile-phone",
+      "category": "driving",
+      "severity": "info",
+      "summary": {
+        "en": "Using a mobile phone while driving is illegal, even pulled over at the roadside, and earpieces are banned. Only fully hands-free units are allowed.",
+        "es": "Usar el celular al manejar es ilegal, aunque te hayas orillado, y los auriculares están prohibidos. Solo se permiten sistemas totalmente manos libres."
+      },
+      "items": [
+        "mobile phone",
+        "driving",
+        "celular",
+        "manejar"
+      ],
+      "quote": "It is illegal to use a mobile phone when driving, even if you have pulled over to the side of the road. You must be completely away from the road. Using an earpiece is also illegal. Only completely hands-free units are allowed.",
+      "sources": [
+        "src:fcdo-es-safety-and-security"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
+    },
+    {
+      "id": "es-conduct-schengen-overstay",
+      "category": "conduct",
+      "severity": "info",
+      "summary": {
+        "en": "If you overstay the 90-day visa-free limit, you may be banned from entering Schengen countries for up to 3 years.",
+        "es": "Si excedes el límite de 90 días sin visa, te pueden prohibir la entrada a los países Schengen hasta por 3 años."
+      },
+      "quote": "If you overstay the 90-day visa-free limit, you may be banned from entering Schengen countries for up to 3 years.",
+      "sources": [
+        "src:fcdo-es-entry-requirements"
+      ],
+      "lastVerified": "2026-10-11",
+      "confidence": "high"
     }
   ],
   "essentials": {
     "currency": "EUR",
     "plugTypes": [
-      "Schuko",
-      "Europlug"
+      "C",
+      "F"
     ],
     "emergency": {
-      "number1": "http://www.wikidata.org/entity/Q1061257",
-      "number2": "http://www.wikidata.org/entity/Q25648909",
-      "number3": "http://www.wikidata.org/entity/Q25648910"
+      "general": "112",
+      "police": "091"
     },
     "languages": [
       "es",
-      "eu",
       "ca",
-      "gl",
-      "oc"
-    ]
+      "eu",
+      "gl"
+    ],
+    "languageNames": {
+      "en": [
+        "Spanish",
+        "Catalan",
+        "Basque",
+        "Galician"
+      ],
+      "es": [
+        "español",
+        "catalán",
+        "euskera",
+        "gallego"
+      ]
+    }
   },
   "advisory": {
     "us": {
-      "level": 1,
-      "title": "El Salvador - Level 1: Exercise Normal Precautions",
-      "date": "2026-06-24"
+      "level": 2,
+      "title": "Spain - Level 2: Exercise Increased Caution",
+      "date": "2026-07-31"
     }
   },
   "sources": {
@@ -257,19 +271,19 @@
     },
     "src:state-es-local-laws-and-special-circumstances": {
       "title": "US State Dept: Spain - local laws and special circumstances",
-      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.slv.html",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.esp.html",
       "license": "US Government work (public domain)",
       "retrieved": "2026-10-11"
     },
     "src:state-es-entry-exit-requirements": {
       "title": "US State Dept: Spain - entry exit requirements",
-      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.slv.html",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.esp.html",
       "license": "US Government work (public domain)",
       "retrieved": "2026-10-11"
     },
     "src:state-es-health": {
       "title": "US State Dept: Spain - health",
-      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.slv.html",
+      "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.esp.html",
       "license": "US Government work (public domain)",
       "retrieved": "2026-10-11"
     }
