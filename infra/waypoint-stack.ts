@@ -32,9 +32,10 @@ export class WaypointStack extends Stack {
       runtime: lambda.Runtime.NODEJS_22_X,
       handler: "index.handler",
       code: lambda.Code.fromAsset(join(dirname(fileURLToPath(import.meta.url)), "..", "lambda-bundle")),
-      memorySize: 512,
-      // Alexa stops waiting after about 8 seconds; the Bedrock brain can take a few.
-      timeout: Duration.seconds(20),
+      memorySize: 1024,
+      // Alexa stops waiting after about 8 seconds (the skill never uses the brain). The
+      // concierge brain in the web host chains several tools, which can take 10-30 seconds.
+      timeout: Duration.seconds(60),
       logRetention: logs.RetentionDays.ONE_MONTH,
       environment: {
         WAYPOINT_TABLE_NAME: table.tableName,

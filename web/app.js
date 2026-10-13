@@ -15,6 +15,22 @@ const UI = {
     lang: "en-US",
     brain: "Brain: local router (no AWS needed). Bedrock brain: set WAYPOINT_BRAIN=bedrock on the server.",
     brainBedrock: "Brain: Bedrock via Strands (server-side)",
+    thinking: "Waypoint is checking…",
+    hello: "Hi, I'm Waypoint, your travel concierge. Tell me where you're going and when.",
+    welcomeBack: (name) => `Welcome back${name ? ", " + name : ""}.`,
+    chips: [
+      "My passport is Mexican",
+      "I'm going to Japan from December 3 to 10",
+      "What's left for my trip?",
+      "Can I bring vapes to Singapore?",
+      "How much is 1000 dollars in yen?",
+    ],
+    tools: {
+      get_traveler_profile: "Profile", update_traveler_profile: "Saved profile", plan_trip: "Trip plan",
+      check_entry_requirements: "Entry rules", get_local_rules: "Local rules", get_destination_essentials: "Essentials",
+      convert_budget: "Budget", packing_checklist: "Packing", build_itinerary: "Itinerary", trip_brief: "Trip brief",
+      log_expense: "Expense", forget_me: "Forget me",
+    },
     demoDone: "Demo group saved: Ana (Mexico), Sam (United States), Priya (India).",
     notUnderstood: "I didn't catch that. Try: “Can I bring vapes to Singapore?” or “Trip to Japan from December 3 to 10”.",
     send: "Send",
@@ -36,6 +52,22 @@ const UI = {
     lang: "es-MX",
     brain: "Cerebro: enrutador local (no requiere AWS). Cerebro Bedrock: configura WAYPOINT_BRAIN=bedrock en el servidor.",
     brainBedrock: "Cerebro: Bedrock vía Strands (en el servidor)",
+    thinking: "Waypoint está revisando…",
+    hello: "Hola, soy Waypoint, tu concierge de viajes. Dime a dónde vas y cuándo.",
+    welcomeBack: (name) => `Hola de nuevo${name ? ", " + name : ""}.`,
+    chips: [
+      "Mi pasaporte es mexicano",
+      "Voy a Japón del 3 al 10 de diciembre",
+      "¿Qué me falta para mi viaje?",
+      "¿Puedo llevar vapes a Singapur?",
+      "¿Cuánto son 1000 dólares en yenes?",
+    ],
+    tools: {
+      get_traveler_profile: "Perfil", update_traveler_profile: "Perfil guardado", plan_trip: "Plan del viaje",
+      check_entry_requirements: "Requisitos de entrada", get_local_rules: "Reglas locales", get_destination_essentials: "Básicos",
+      convert_budget: "Presupuesto", packing_checklist: "Maleta", build_itinerary: "Itinerario", trip_brief: "Resumen del viaje",
+      log_expense: "Gasto", forget_me: "Olvidar datos",
+    },
     demoDone: "Grupo de ejemplo guardado: Ana (México), Sam (Estados Unidos), Priya (India).",
     notUnderstood: "No entendí. Prueba: “¿Puedo llevar vapes a Singapur?” o “Viajo a Japón del 3 al 10 de diciembre”.",
     send: "Enviar",
@@ -51,10 +83,23 @@ const UI = {
   },
 };
 
-let lang = localStorage.getItem("waypoint-lang") || "en";
+let lang = (() => {
+  try {
+    const saved = localStorage.getItem("waypoint-lang");
+    if (saved) return saved;
+  } catch {}
+  return (navigator.language || "en").toLowerCase().startsWith("es") ? "es" : "en";
+})();
+let history = [];
 let device = "show";
 let client = null;
-let mcpUser = localStorage.getItem("waypoint-user") || `viewer-${Math.random().toString(36).slice(2, 10)}`;
+let mcpUser = (() => {
+  try {
+    return localStorage.getItem("waypoint-user");
+  } catch {
+    return null;
+  }
+})() || `viewer-${crypto.randomUUID ? crypto.randomUUID().slice(0, 18) : Math.random().toString(36).slice(2, 14)}`;
 try { localStorage.setItem("waypoint-user", mcpUser); } catch {}
 let brainUnavailable = false;
 let unmountApp = null;
@@ -74,7 +119,32 @@ function applyLang() {
   $("lblAbout").textContent = t("about");
   $("aboutText").textContent = t("aboutText");
   $("text").placeholder = lang === "es" ? "Escribe o habla" : "Type or speak";
-  $("brainMode").textContent = t("brain");
+  $("brainMode").textContent = brainUnavailable ? t("brain") : t("brainBedrock");
+  renderChips();
+}
+
+function renderChips() {
+  const box = $("chips");
+  box.innerHTML = "";
+  for (const text of t("chips")) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "chip";
+    b.textContent = text;
+    b.onclick = () => handleUtterance(text);
+    box.appendChild(b);
+  }
+}
+
+function tickClock() {
+  const now = new Date();
+  $("clock").textContent = now.toLocaleString(t("lang"), { weekday: "long", hour: "2-digit", minute: "2-digit" });
+}
+
+function setThinking(on) {
+  $("thinking").hidden = !on;
+  $("thinkingText").textContent = t("thinking");
+  $("send").disabled = on;
 }
 
 function appendLog(dir, msg) {
@@ -107,10 +177,29 @@ async function connect() {
   $("connState").textContent = t("connecting");
   const health = await fetch("/healthz").then((r) => r.json()).catch(() => ({}));
   brainUnavailable = !health.brain;
-  client = new McpClient({ url: "/mcp", user: mcpUser, onLog: appendLog, onElicit: showElicitation });
+  client = new McpClient({ url: "/mcp", user: mcpUser, locale: () => t("lang"), onLog: appendLog, onElicit: showElicitation });
   await client.initialize();
   const { tools } = await client.listTools();
   $("connState").textContent = t("connected")(tools.length, (client.sessionId || "—").slice(0, 8));
+  $("brainMode").textContent = brainUnavailable ? t("brain") : t("brainBedrock");
+  await greet();
+}
+
+// Memory across sessions: a returning viewer is greeted with their saved trip.
+async function greet() {
+  $("headline").textContent = t("hello");
+  const profile = await client.callTool("get_traveler_profile", {}).catch(() => null);
+  const travelers = profile?.structuredContent?.data?.travelers || profile?.structuredContent?.data?.profile?.travelers || [];
+  if (!profile || profile.isError || !travelers.length) return;
+  const me = travelers.find((x) => x.role === "self") || travelers[0];
+  const name = me?.displayName && !/^(me|yo|self)$/i.test(me.displayName) ? me.displayName : "";
+  const brief = await client.callTool("trip_brief", {}).catch(() => null);
+  const sc = brief && !brief.isError ? brief.structuredContent : null;
+  const hasTrip = sc && sc.card && (sc.card.rows || []).length;
+  // The disclaimer belongs on the cards, not in the greeting.
+  const voice = hasTrip ? String(sc.voice).replace(/\s*(Rules change|Las reglas cambian)[^.]*\.\s*$/i, "") : "";
+  $("headline").textContent = `${t("welcomeBack")(name)} ${voice}`.trim();
+  if (hasTrip && device !== "voice") $("cards").innerHTML = cardHtml(sc.card);
 }
 
 function cardHtml(card) {
@@ -131,6 +220,8 @@ async function renderResult(result) {
     return;
   }
   lastStructured = sc;
+  $("headline").textContent = sc.voice;
+  $("trace").innerHTML = "";
   bubble("assistant", sc.voice);
   speak(sc.voice);
   if (device !== "voice") {
@@ -255,25 +346,60 @@ function showElicitation(params) {
 
 async function callBrainServer(utterance) {
   if (brainUnavailable) return null;
-  const res = await fetch("/api/brain", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ utterance }) });
+  appendLog("→", { method: "POST /api/brain (Strands agent → MCP tools/call)", params: { utterance } });
+  const res = await fetch("/api/brain", {
+    method: "POST",
+    headers: { "content-type": "application/json", "x-waypoint-user": mcpUser, "x-waypoint-locale": t("lang") },
+    body: JSON.stringify({ utterance, history: history.slice(-8) }),
+  });
   if (res.status === 503) {
     brainUnavailable = true;
     return null;
   }
-  if (!res.ok) return null;
-  const { text } = await res.json();
-  return text;
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({}));
+    appendLog("!", { error: { code: res.status, message: `brain ${body.error || "failed"} ${body.kind || ""}`.trim() } });
+    return null;
+  }
+  return res.json();
+}
+
+const TRACE_SKIP = new Set(["get_traveler_profile"]);
+
+async function renderBrainReply(reply) {
+  bubble("assistant", reply.text);
+  speak(reply.text);
+  $("headline").textContent = reply.text;
+  for (const c of reply.calls) {
+    appendLog("⇄", { method: `tools/call ${c.tool} (server-side agent)`, params: c.args, result: { isError: c.isError } });
+  }
+  const trace = $("trace");
+  trace.innerHTML = reply.calls
+    .filter((c) => !TRACE_SKIP.has(c.tool))
+    .map((c) => `<span class="step ${c.isError ? "err" : ""}">${esc(t("tools")[c.tool] || c.tool)}</span>`)
+    .join("");
+  if (device === "voice") return;
+  // One card per tool (the latest), in the order the agent called them.
+  const latest = new Map();
+  for (const c of reply.calls) if (!c.isError && c.structured?.card && !TRACE_SKIP.has(c.tool)) latest.set(c.tool, c);
+  const shown = [...latest.values()];
+  if (shown.length) $("cards").innerHTML = shown.map((c) => cardHtml(c.structured.card)).join("");
+  const withUi = [...reply.calls].reverse().find((c) => !c.isError && c.uiResourceUri);
+  if (withUi) await mountApp(withUi.uiResourceUri, withUi.structured);
 }
 
 async function handleUtterance(text) {
   if (!text.trim()) return;
   bubble("user", text);
+  $("chips").innerHTML = "";
+  setThinking(true);
   try {
-    const remote = await callBrainServer(text);
+    const remote = await callBrainServer(text).catch(() => null);
+    setThinking(false);
     if (remote) {
-      bubble("assistant", remote);
-      speak(remote);
+      history.push({ role: "user", text }, { role: "assistant", text: remote.text });
       $("brainMode").textContent = t("brainBedrock");
+      await renderBrainReply(remote);
       return;
     }
     const intent = routeUtterance(text);
@@ -289,6 +415,8 @@ async function handleUtterance(text) {
     const msg = lang === "es" ? "Algo salió mal de mi lado. Intenta otra vez." : "Something went wrong on my side. Try again.";
     bubble("assistant", msg);
     appendLog("!", { error: { code: 0, message: String(err && err.message) } });
+  } finally {
+    setThinking(false);
   }
 }
 
@@ -329,8 +457,11 @@ function bindUi() {
   $("reset").addEventListener("click", async () => {
     // Same viewer, new MCP session: remembered trips must still be there.
     await client?.close();
+    history = [];
     $("cards").innerHTML = "";
     $("apps").innerHTML = "";
+    $("trace").innerHTML = "";
+    renderChips();
     await connect();
   });
   setupVoice();
@@ -358,6 +489,8 @@ function setupVoice() {
 }
 
 applyLang();
+tickClock();
+setInterval(tickClock, 30000);
 bindUi();
 connect().catch((err) => {
   $("connState").textContent = "offline";

@@ -50,3 +50,14 @@ jobs:
         run: npx cdk deploy --require-approval never --outputs-file outputs.json -c bedrockModel="$BEDROCK_MODEL" -c alexaSkillId="$SKILL_ID"
       - name: Show outputs (public URL)
         run: cat outputs.json
+      - name: Live concierge check (page + Bedrock brain chaining MCP tools)
+        run: |
+          url=$(jq -r '.. | .WaypointPublicUrl? // empty' outputs.json | head -1)
+          node scripts/concierge-live.mjs "$url" | tee concierge-live.txt
+      - name: Keep the concierge transcript
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: concierge-live
+          path: concierge-live.txt
+          if-no-files-found: ignore

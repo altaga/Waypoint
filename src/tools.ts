@@ -325,7 +325,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const profile: TravelerProfile = state.profile ?? {
           profileId: `profile-${userId}`,
           ownerUserId: userId,
-          locale: "en-US",
+          locale: hintLocale?.toLowerCase().startsWith("es") ? "es-MX" : "en-US",
           homeCurrency: args.homeCurrency ?? "USD",
           homeTimezone: args.homeTimezone ?? "UTC",
           travelers: [],
@@ -342,7 +342,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         if (args.sensitiveDataConsent !== undefined) {
           profile.consent = { sensitiveData: args.sensitiveDataConsent, updatedAt: now };
         }
-        const locale = profile.locale.startsWith("es") ? "es" : "en";
+        const locale = localeFromState({ ...state, profile }, hintLocale);
         const notes: string[] = [];
 
         for (const input of args.travelers ?? []) {

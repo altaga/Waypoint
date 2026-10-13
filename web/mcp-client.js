@@ -6,9 +6,10 @@
 export const PROTOCOL_VERSION = "2025-11-25";
 
 export class McpClient {
-  constructor({ url, user, onLog, onElicit }) {
+  constructor({ url, user, locale, onLog, onElicit }) {
     this.url = url;
     this.user = user;
+    this.locale = locale;
     this.onLog = onLog || (() => {});
     this.onElicit = onElicit;
     this.sessionId = null;
@@ -22,6 +23,7 @@ export class McpClient {
       "MCP-Protocol-Version": PROTOCOL_VERSION,
       "x-waypoint-user": this.user,
     };
+    if (this.locale) h["x-waypoint-locale"] = typeof this.locale === "function" ? this.locale() : this.locale;
     if (this.sessionId) h["Mcp-Session-Id"] = this.sessionId;
     return h;
   }

@@ -4,7 +4,7 @@ import { createMcpExpressApp } from "@modelcontextprotocol/sdk/server/express.js
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import { createContext, type AppContext } from "./context.ts";
 import { createWaypointMcpServer } from "./mcp-server.ts";
-import { runBrain, brainConfigured } from "./brain.ts";
+import { runBrain, brainConfigured, type BrainTurn } from "./brain.ts";
 import { mountAlexa } from "./alexa/endpoint.ts";
 import { setLocalMcpFactory } from "./alexa/mcp-call.ts";
 
@@ -19,8 +19,10 @@ export function allowedOrigins(): string[] {
   return [...DEFAULT_ORIGINS, ...extra];
 }
 
-export function originAllowed(origin: string | undefined, allow: string[]): boolean {
+export function originAllowed(origin: string | undefined, allow: string[], host?: string): boolean {
   if (!origin) return true; // non-browser clients do not send Origin
+  // The simulator page served by this same server (e.g. the public Function URL).
+  if (host && /^https:\/\//.test(origin) && origin.slice("https://".length) === host) return true;
   return allow.some((a) => origin === a || origin.startsWith(`${a}:`));
 }
 
@@ -49,7 +51,7 @@ export function createApp(ctx: AppContext = createContext()) {
 
   // Origin validation: a browser request from an unknown origin gets 403 (2025-11-25).
   app.use((req, res, next) => {
-    if (!originAllowed(req.header("origin"), allow)) {
+    if (!originAllowed(req.header("origin"), allow, req.header("host"))) {
       res.status(403).json({ error: "forbidden origin" });
       return;
     }
@@ -94,11 +96,22 @@ export function createApp(ctx: AppContext = createContext()) {
       res.status(503).json({ error: "brain_unavailable" });
       return;
     }
+    const history = Array.isArray(req.body?.history)
+      ? (req.body.history as unknown[])
+          .filter((t): t is BrainTurn => {
+            const x = t as BrainTurn;
+            return (x?.role === "user" || x?.role === "assistant") && typeof x.text === "string";
+          })
+          .map((t) => ({ role: t.role, text: t.text.slice(0, 1000) }))
+      : [];
     try {
-      const text = await runBrain(utterance, `http://127.0.0.1:${process.env.PORT ?? 3000}/mcp`, userFrom(req));
-      res.json({ text });
-    } catch {
-      res.status(502).json({ error: "brain_failed" });
+      const reply = await runBrain({ ctx, userId: userFrom(req), utterance, history, locale: localeFrom(req) });
+      res.json(reply);
+    } catch (err) {
+      // The error class (e.g. ValidationException) helps debugging and carries no secrets.
+      const kind = err instanceof Error ? err.name : "Error";
+      console.error("brain_failed", kind, err instanceof Error ? err.message : err);
+      res.status(502).json({ error: "brain_failed", kind });
     }
   });
 

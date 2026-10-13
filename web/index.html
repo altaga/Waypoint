@@ -31,8 +31,17 @@
   <section class="frame" id="frame" data-device="show">
     <div class="screen">
       <div class="status"><span id="connState">connecting…</span></div>
-      <div class="cards" id="cards"></div>
-      <div class="apps" id="apps"></div>
+      <div class="stage" id="stage">
+        <div class="home" id="home">
+          <div class="clock" id="clock"></div>
+          <h1 class="headline" id="headline"></h1>
+          <div class="chips" id="chips"></div>
+        </div>
+        <div class="thinking" id="thinking" hidden><span class="pulse"></span><span id="thinkingText"></span></div>
+        <div class="trace" id="trace"></div>
+        <div class="cards" id="cards"></div>
+        <div class="apps" id="apps"></div>
+      </div>
       <div class="form" id="form" hidden></div>
     </div>
     <div class="transcript" id="transcript" aria-live="polite"></div>

@@ -172,6 +172,31 @@ test("origin validation: unknown browser origins get 403, localhost is allowed",
   assert.equal(originAllowed("https://evil.example", ["http://localhost"]), false);
 });
 
+test("origin validation: the page served by this host may call it, other hosts may not", () => {
+  const host = "abc123.lambda-url.us-east-1.on.aws";
+  assert.equal(originAllowed(`https://${host}`, [], host), true);
+  assert.equal(originAllowed(`https://evil.example`, [], host), false);
+  assert.equal(originAllowed(`http://${host}`, [], host), false);
+  assert.equal(originAllowed(`https://${host}.evil.example`, [], host), false);
+});
+
+test("the simulated Alexa+ host is served at the root", async () => {
+  const res = await fetch(`${base}/`);
+  assert.equal(res.status, 200);
+  assert.match(await res.text(), /simulated Alexa\+ host/);
+});
+
+test("brain endpoint: 400 without an utterance, 503 when Bedrock is not configured", async () => {
+  const empty = await fetch(`${base}/api/brain`, { method: "POST", headers: { "content-type": "application/json" }, body: "{}" });
+  assert.equal(empty.status, 400);
+  const res = await fetch(`${base}/api/brain`, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ utterance: "hola", history: [{ role: "user", text: "x" }, { role: "evil", text: "y" }] }),
+  });
+  assert.equal(res.status, 503);
+});
+
 test("healthz reports the protocol version and loaded packs", async () => {
   const res = await fetch(`${base}/healthz`);
   const body = (await res.json()) as { protocolVersion: string; packs: number };
