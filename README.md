@@ -24,19 +24,25 @@ Offline mode (`WAYPOINT_OFFLINE=1`) needs no network: FX uses a labelled snapsho
 | Tool | Question it answers | Output |
 |---|---|---|
 | `get_traveler_profile` | What do you know about me and my group? | Profile card, sensitive fields redacted unless consented |
-| `update_traveler_profile` | Save me and my companions | Upserts travelers; **elicits** a missing passport country |
+| `update_traveler_profile` | Save me and my companions, with likes and things to avoid | Upserts travelers; **elicits** a missing passport country |
 | `plan_trip` (hero) | "Going to Japan 3–10 December" | Per-traveler entry status, stay-length check, top rules, days left; opens the **MCP App** dashboard |
 | `check_entry_requirements` | Do we need a visa? | One row per traveler, using the best of their passports |
 | `get_local_rules` | What can't I bring or do? | Verified rules with severity, each with its source quote |
 | `get_destination_essentials` | Plugs, emergency numbers, currency | Facts with sources |
 | `convert_budget` | How far does my money go? | Live FX (or labelled snapshot) plus World Bank PPP equivalent |
-| `packing_checklist` | What do I pack? | Checklist from trip length, plugs, children, medications and "do not pack" rules |
-| `build_itinerary` | Day plan | Slots by pace and interests; suggestions are marked low confidence |
-| `trip_brief` | What is left for my trip? | Works across sessions: open visa checks, packing, spending |
-| `log_expense` | I spent money | Stores the expense, trip total |
+| `packing_checklist` | What do I pack? | Checklist from trip length, plugs, children, medications and "do not pack" rules; ticks persist |
+| `get_highlights` | What is worth seeing here? | Real places from the catalog, each with its id, area, duration and source; Wikipedia-grounded where the article exists |
+| `set_trip_constraints` | Avoid nightlife; keep under 1,000 USD | Constraints every plan and expense respects |
+| `build_itinerary` | Day plan | Stops must be catalog ids; the plan is **verified** (country, pace, repeats, avoided interests, daily time) and not saved if it fails |
+| `trip_brief` | What is left for my trip? | Readiness, pending items, free-cancellation deadlines within 30 days |
+| `add_booking` / `confirm_booking` | I booked a flight or hotel | Pasted confirmations wait for the traveler to confirm |
+| `log_expense` | I spent money | Expense with payer and who shares it; warns when the spending limit is passed |
+| `settle_up` | Who owes whom? | Balances and the fewest transfers that square the group |
+| `plan_fairness` | Is the plan fair to everyone? | Share of stops each traveler likes, and what they avoid |
+| `export_trip` | Put it in my calendar | A calendar file with the trip and one event per planned day, or the plan as text |
 | `forget_me` | Delete my data | **Elicits** confirmation, then deletes profile, trips and expenses |
 
-Every tool declares an `inputSchema`, an `outputSchema`, `annotations` (`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`) and returns the same envelope:
+Every tool declares an `inputSchema`, an `outputSchema`, `annotations` (`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`) and returns the same envelope. The server exposes 19 tools over MCP 2025-11-25 Streamable HTTP:
 
 ```
 { voice, card, data, sources[], lastVerified, confidence, disclaimer, followUps[], missingFields? }
@@ -85,6 +91,9 @@ Every tool declares an `inputSchema`, an `outputSchema`, `annotations` (`readOnl
 | Live FX | [open.er-api.com](https://open.er-api.com) | Attribution required | runtime; snapshot in `data/vendor/fx-fallback.json` |
 | Purchasing power | [World Bank PA.NUS.PRVT.PP](https://data.worldbank.org/indicator/PA.NUS.PRVT.PP) | CC BY 4.0 | `data/vendor/ppp.json` |
 | Plug types and emergency numbers | [Wikidata P2853 / P2852](https://www.wikidata.org/) | CC0 | `data/vendor/wikidata-plugs-emergency.json` |
+| Countries, cities (population 300,000+ and capitals) | [Wikidata](https://www.wikidata.org/) via `scripts/build-world.ts` | CC0 | `data/world/countries.json`, `data/world/cities.json` |
+| Places to visit, 196 countries | Curated by Waypoint from the Wikidata list (ids must exist there; a test enforces it) and ranked by Wikipedia popularity for the rest | CC0 (ids); descriptions are Waypoint's or Wikipedia's | `highlights/*.json` (curated), `data/world/highlights/*.json` (ranked) |
+| Place descriptions | First sentence of each place's Wikipedia article, linked from the place | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (attribution and link kept) | `data/grounding/places.json`, applied to `highlights/*.json` |
 
 Not used: `Frankfurter` (no VND), REST Countries (discontinued), mledoze/countries (ODbL), the Mexican SRE guide (anti-bot challenge; link only).
 
@@ -109,6 +118,11 @@ Pack status is **tier B, machine-extracted** until a human reviewer signs off. T
 | `npm start` | Runs the server and simulator on port 3000 (`PORT` to change) |
 | `npm run smoke:web` | Browser smoke test (optional, needs Chromium and Playwright, see `docs/TESTING.md`) |
 | `npm run ci` | Typecheck, test, validate packs and eval |
+| `npm run build-world` | Rebuilds the worldwide catalogs from Wikidata (needs network; retries on 504; `ONLY=DE,FR` retries some countries) |
+| `node scripts/build-grounding.mjs` | Links each curated Wikidata place to its English and Spanish Wikipedia articles (about 40 minutes) |
+| `npx tsx scripts/apply-grounding.ts` | Applies the article sentences as descriptions and records where each came from |
+| `node scripts/concierge-live.mjs <url>` | Live check of the deployed concierge: a multi-tool conversation with a real Bedrock model |
+| `node scripts/tools-live.mjs <url>` | Live check of the deterministic tools: group money, catalog plans, bookings, calendar export |
 
 ## Repository map
 
@@ -116,7 +130,9 @@ Pack status is **tier B, machine-extracted** until a human reviewer signs off. T
 - `web/` simulated Alexa+ host (plain ES modules, no build step)
 - `scripts/` data pipeline and checks
 - `packs/` built country packs · `data/sources-text/` source text for quote checks · `data/vendor/` vendored snapshots
-- `src/brain.ts` Strands brain on Bedrock (optional; verified live by the `aws-smoke` workflow, see `docs/AWS.md`)
+- `src/brain.ts` the concierge: a Strands agent on Bedrock that calls the MCP tools in memory (verified live by the `aws-smoke` workflow and by `concierge-live`)
+- `src/itinerary.ts` the plan verifier, a pure function with unit tests
+- `highlights/` curated places · `data/world/` worldwide catalogs · `data/grounding/` Wikipedia links
 - `skills/waypoint/SKILL.md` Agent Skill with voice and routing rules
 - `oss/travel-entry-packs/` open-source schema, validator and sample packs (separate MIT package)
 - `docs/` SUBMISSION (official checklist), STATUS, TESTING, FEEDBACK, FRICTION_LOG, DEMO_SCRIPT, AWS, OPEN_SOURCE, DATA_REVIEW
@@ -124,8 +140,11 @@ Pack status is **tier B, machine-extracted** until a human reviewer signs off. T
 ## Limits
 
 - Packs are machine-extracted and not yet human-reviewed. Treat rules as leads to verify, not as legal advice.
+- Place descriptions come from the first sentence of Wikipedia articles where one exists, and from Waypoint's own short text otherwise (`descBy` says which). Neither has been checked by a person against the official tourism site.
+- Opening hours, prices and closures are not in any source we have. The itinerary says so and points to the official site.
+- The places catalog is a starting list, not a complete guide. Worldwide ranking is by Wikipedia popularity and can include things that are not travel destinations; the curated lists are what the concierge uses first.
 - The visa matrix is a dataset snapshot (2026-02-17), not a live feed.
 - Rules are English only for now (source language). Spanish summaries need a translation pass.
 - `find_events` is not implemented (no verified event source in the build environment).
-- The Bedrock brain is verified live by the `aws-smoke` workflow; the simulator still defaults to the local router.
-- Hosting is not deployed. The official FAQ says a locally runnable public repo plus the demo video is enough for the Alexa+ track, and that the MCP server does not need to stay running after submission. Lambda is the planned option if a hosted endpoint is added.
+- Deadlines are checked when the traveler asks (`trip_brief`); nothing pushes a reminder yet.
+- The hosted endpoint is deployed on AWS Lambda through the `deploy-aws` workflow, which also runs the live checks.

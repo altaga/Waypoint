@@ -54,6 +54,10 @@ jobs:
         run: |
           url=$(jq -r '.. | .WaypointPublicUrl? // empty' outputs.json | head -1)
           node scripts/concierge-live.mjs "$url" | tee concierge-live.txt
+      - name: Live tools check (group money, catalog plans, calendar)
+        run: |
+          url=$(jq -r '.. | .WaypointPublicUrl? // empty' outputs.json | head -1)
+          node scripts/tools-live.mjs "$url" | tee tools-live.txt
       - name: Keep the concierge transcript
         if: always()
         uses: actions/upload-artifact@v4
