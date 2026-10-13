@@ -90,7 +90,14 @@ function loadDir(dir: string, byCountry: Map<string, HighlightPack>, byId: Map<s
     if (!/^[A-Z]{2}\.json$/.test(file)) continue;
     const iso = file.slice(0, 2);
     if (!curated && byCountry.has(iso)) continue; // curated wins
-    const result = HighlightPack.safeParse(JSON.parse(readFileSync(join(dir, file), "utf8")));
+    let raw: unknown;
+    try {
+      raw = JSON.parse(readFileSync(join(dir, file), "utf8"));
+    } catch {
+      console.warn(`skipping highlights ${file}: not valid JSON`);
+      continue;
+    }
+    const result = HighlightPack.safeParse(raw);
     if (!result.success) {
       console.warn(`skipping highlights ${file}: ${result.error.issues.map((i) => i.message).join("; ")}`);
       continue;

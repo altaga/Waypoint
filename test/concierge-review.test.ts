@@ -162,6 +162,65 @@ test("highlights: each place says whether its text is from Wikipedia and links t
   await s.close();
 });
 
+test("bookings: a free-cancellation date after the booking is refused; a new booking waits for confirmation", async () => {
+  const ctx = context("2026-10-13T12:00:00Z");
+  const s = await group(ctx, "booking-user");
+  const bad = await s.refused("add_booking", { kind: "hotel", title: "Hotel Sakura", date: "2026-12-03", cancelBy: "2026-12-04" });
+  assert.equal(bad.refused, true);
+  const late = await s.refused("add_booking", { kind: "hotel", title: "Hotel Sakura", date: "2026-12-03", cancelBy: "2026-12-20" });
+  assert.equal(late.refused, true, "a cancellation date after the trip is refused too");
+  const ok = await s.call("add_booking", { kind: "hotel", title: "Hotel Sakura", date: "2026-12-03", cancelBy: "2026-12-01" });
+  assert.equal(ok.data.booking.status, "to_confirm");
+  await s.close();
+});
+
+test("bookings: confirm_booking finds a booking that belongs to an older trip", async () => {
+  const ctx = context("2026-10-13T12:00:00Z");
+  const s = await group(ctx, "old-trip-user");
+  const added = await s.call("add_booking", { kind: "flight", title: "JL 42 to Tokyo", date: "2026-12-03", status: "to_confirm" });
+  await s.call("plan_trip", { destination: "SG", startDate: "2027-01-10", endDate: "2027-01-14" });
+  const confirmed = await s.call("confirm_booking", { bookingId: added.data.booking.id });
+  assert.equal(confirmed.data.booking.status, "confirmed");
+  await s.close();
+});
+
+test("itinerary: a saved plan is checked again when the pace changes, and the reply says so", async () => {
+  const ctx = context("2026-10-13T12:00:00Z");
+  const s = await group(ctx, "pace-user");
+  const saved = await s.call("build_itinerary", { plan: [{ day: 1, stops: ["jp-senso-ji", "jp-meiji-jingu", "jp-fushimi-inari"] }] });
+  assert.equal(saved.data.saved, true, "three stops fit a balanced pace");
+  await s.call("update_traveler_profile", { pace: "relaxed", travelers: [{ displayName: "Ana", passports: ["MX"] }] });
+  const again = await s.call("build_itinerary");
+  assert.equal(again.data.violations[0].code, "too_many_stops");
+  assert.match(again.voice, /no longer fits/);
+  await s.close();
+});
+
+test("calendar export: text is escaped, lines are folded at 75 octets, and lines end with CRLF", async () => {
+  const ctx = context("2026-10-13T12:00:00Z");
+  const s = await group(ctx, "ics-user");
+  const longTitle = "Temples, markets; food\nlong line for the calendar app to fold at seventy-five";
+  await s.call("build_itinerary", { plan: [{ day: 1, title: longTitle, stops: ["jp-senso-ji"] }] });
+  const ics = await s.call("export_trip", { format: "ics" });
+  const content: string = ics.data.content;
+  assert.ok(content.endsWith("END:VCALENDAR\r\n"), "ends with CRLF");
+  assert.match(content, /SUMMARY:Day 1 · Temples\\, markets\\; food\\nlong/);
+  assert.ok(content.includes("\r\n "), "a long line is folded, and the continuation starts with a space");
+  for (const line of content.split("\r\n")) {
+    assert.ok(Buffer.byteLength(line) <= 75, `line over 75 octets: ${line}`);
+  }
+  await s.close();
+});
+
+test("markdown export: a booking pending confirmation is marked, and formatting characters are escaped", async () => {
+  const ctx = context("2026-10-13T12:00:00Z");
+  const s = await group(ctx, "md-user");
+  await s.call("add_booking", { kind: "activity", title: "Tour *guiado* [2h]", status: "to_confirm" });
+  const md = await s.call("export_trip", { format: "markdown" });
+  assert.match(md.data.content, /Tour \\\*guiado\\\* \\\[2h\\\] \(pending confirmation\)/);
+  await s.close();
+});
+
 test("grounding: the note keeps the pack's own text and gets the description sentence once", () => {
   const original = "Selected from the Wikidata list by Waypoint. Hours change: verify on the official source.";
   const once = withGroundingNote(original);

@@ -79,6 +79,28 @@ function localToday(now: Date, timeZone?: string): string {
 const daysUntil = (today: string, date: string) =>
   Math.round((Date.parse(`${date}T00:00:00Z`) - Date.parse(`${today}T00:00:00Z`)) / 86_400_000);
 
+// Calendar text (RFC 5545): backslash, semicolon and comma are escaped, and line breaks become \n.
+const icsText = (s: string) => s.replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r\n|\r|\n/g, "\\n");
+// Lines are folded at 75 octets; a continuation line starts with one space.
+function icsLine(line: string): string {
+  const parts: string[] = [];
+  let cur = "";
+  let limit = 75;
+  for (const ch of line) {
+    if (Buffer.byteLength(cur + ch) > limit) {
+      parts.push(cur);
+      cur = ch;
+      limit = 74;
+    } else {
+      cur += ch;
+    }
+  }
+  parts.push(cur);
+  return parts.join("\r\n ");
+}
+// Text inside a Markdown line: one line, and the characters that would start formatting are escaped.
+const mdText = (s: string) => s.replace(/\r\n|\r|\n/g, " ").replace(/([\\`*_[\]|<>])/g, "\\$1");
+
 function supportsElicitation(server: McpServer): boolean {
   return Boolean(server.server.getClientCapabilities()?.elicitation);
 }
@@ -1111,6 +1133,13 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           }
         }
 
+        // Without a new plan, the saved days are checked again: a new pace or an avoided interest can break them.
+        const stale = !verdict && (trip.itinerary ?? []).some((d) => d.stops.length)
+          ? verifyPlan({ plan: (trip.itinerary ?? []).map((d) => ({ day: d.day, title: d.title, stops: d.stops })), stayDays: stay, destinationIso: dest, pace: profile.pace, avoid, highlights: ctx.highlights })
+          : null;
+        const staleProblem = stale && !stale.ok ? stale.violations[0] : null;
+        const reported = verdict ?? stale;
+
         const saved = trip.itinerary ?? [];
         const days = Array.from({ length: stay }, (_, i) => saved.find((d) => d.day === i + 1) ?? { day: i + 1, date: dateOf(i + 1), stops: [] as string[] });
         const resolvedDays = days.map((d) => ({
@@ -1139,6 +1168,9 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         } else {
           voice = pick(locale, `Your plan covers ${planned} of ${stay} days.`, `Tu plan cubre ${planned} de ${stay} días.`);
         }
+        if (staleProblem) {
+          voice += pick(locale, ` Your saved plan no longer fits your settings: ${violationText(staleProblem, locale, placeName)}.`, ` Tu plan guardado ya no cumple tus ajustes: ${violationText(staleProblem, locale, placeName)}.`);
+        }
 
         const env = baseEnvelope(ctx, dest, locale, {
           voice,
@@ -1158,7 +1190,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             planned,
             stay,
             saved: !verdict || verdict.ok,
-            violations: verdict && !verdict.ok ? verdict.violations.map((v) => ({ day: v.day, code: v.code, placeId: v.placeId ?? null, message: v.message })) : [],
+            violations: reported && !reported.ok ? reported.violations.map((v) => ({ day: v.day, code: v.code, placeId: v.placeId ?? null, message: v.message })) : [],
             warnings,
           },
           followUps: [pick(locale, "Anything else for this trip?", "¿Algo más para este viaje?")],
@@ -1362,7 +1394,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
     {
       title: "Add booking",
       description:
-        "Use when the traveler gives a booking (flight, hotel, car, activity) or pastes its confirmation text. Extract the fields yourself. Pasted text is saved as to_confirm until the traveler confirms the details with confirm_booking. cancelBy is the last date the booking can be cancelled free of charge, when the text states it.",
+        "Use when the traveler gives a booking (flight, hotel, car, activity) or pastes its confirmation text. Extract the fields yourself. Saved as to_confirm unless status is given; the traveler confirms the details with confirm_booking. cancelBy is the last date the booking can be cancelled free of charge, when the text states it, and it cannot be after the booking date or the trip's end.",
       inputSchema: {
         tripId: z.string().optional(),
         kind: z.enum(["flight", "hotel", "car", "activity", "other"]),
@@ -1381,6 +1413,10 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const locale = localeOf(state);
         const trip = latestTrip(state, args.tripId);
         if (!trip) return nothingYetEnvelope(locale, "trip");
+        // A free-cancellation date after the booking itself, or after the trip ends, is a mistake in the text.
+        if (args.cancelBy && ((args.date && args.cancelBy > args.date) || args.cancelBy > trip.endDate)) {
+          return errorResult(new Error("bad cancelBy"), pick(locale, "The free-cancellation date is after the booking or the trip. Check the confirmation text.", "La fecha de cancelación gratis es posterior a la reserva o al viaje. Revisa el texto de confirmación."));
+        }
         const booking = {
           id: randomUUID(),
           kind: args.kind,
@@ -1388,7 +1424,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           date: args.date,
           cancelBy: args.cancelBy,
           reference: args.reference,
-          status: args.status ?? "confirmed",
+          status: args.status ?? "to_confirm",
           createdAt: ctx.clock().toISOString(),
         } as const;
         trip.bookings = [...(trip.bookings ?? []), { ...booking }];
@@ -1429,7 +1465,8 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
       run(async () => {
         const state = await load();
         const locale = localeOf(state);
-        const trip = latestTrip(state, args.tripId);
+        // The booking may belong to any trip of this traveler, not only the latest one.
+        const trip = state.trips.filter((t) => !args.tripId || t.tripId === args.tripId).find((t) => (t.bookings ?? []).some((x) => x.id === args.bookingId));
         const b = trip?.bookings?.find((x) => x.id === args.bookingId);
         if (!trip || !b) return errorResult(new Error("no booking"), pick(locale, "I can't find that booking.", "No encuentro esa reserva."));
         b.status = "confirmed";
@@ -1614,28 +1651,31 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           const day = (iso: string) => iso.replace(/-/g, "");
           const next = (iso: string) => new Date(Date.parse(`${iso}T00:00:00Z`) + 86_400_000).toISOString().slice(0, 10);
           const events = [
-            ["BEGIN:VEVENT", `UID:${trip.tripId}@waypoint`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${day(trip.startDate)}`, `DTEND;VALUE=DATE:${day(next(trip.endDate))}`, `SUMMARY:${locale === "es" ? "Viaje a" : "Trip to"} ${name}`, "END:VEVENT"],
+            ["BEGIN:VEVENT", `UID:${trip.tripId}@waypoint`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${day(trip.startDate)}`, `DTEND;VALUE=DATE:${day(next(trip.endDate))}`, `SUMMARY:${icsText(`${locale === "es" ? "Viaje a" : "Trip to"} ${name}`)}`, "END:VEVENT"],
             ...plan.map((d) => [
               "BEGIN:VEVENT", `UID:${trip.tripId}-d${d.day}@waypoint`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${day(dateOf(d.day))}`, `DTEND;VALUE=DATE:${day(next(dateOf(d.day)))}`,
-              `SUMMARY:${locale === "es" ? "Día" : "Day"} ${d.day}${d.title ? ` · ${d.title}` : ""}`,
-              `DESCRIPTION:${d.stops.map((id) => placeOf(id)?.name ?? id).join(", ")}`, "END:VEVENT",
+              `SUMMARY:${icsText(`${locale === "es" ? "Día" : "Day"} ${d.day}${d.title ? ` · ${d.title}` : ""}`)}`,
+              `DESCRIPTION:${icsText(d.stops.map((id) => placeOf(id)?.name ?? id).join(", "))}`, "END:VEVENT",
             ]),
           ];
-          content = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Waypoint//Travel concierge//EN", ...events.flat(), "END:VCALENDAR"].join("\r\n");
+          content = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Waypoint//Travel concierge//EN", ...events.flat().map(icsLine), "END:VCALENDAR"].join("\r\n") + "\r\n";
         } else {
-          const lines = [`# ${name}`, `${trip.startDate} → ${trip.endDate}`, ""];
+          const lines = [`# ${mdText(name)}`, `${trip.startDate} → ${trip.endDate}`, ""];
           for (const d of plan) {
-            lines.push(`## ${locale === "es" ? "Día" : "Day"} ${d.day}${d.title ? ` · ${d.title}` : ""} (${dateOf(d.day)})`);
+            lines.push(`## ${locale === "es" ? "Día" : "Day"} ${d.day}${d.title ? ` · ${mdText(d.title)}` : ""} (${dateOf(d.day)})`);
             for (const id of d.stops) {
               const p = placeOf(id);
-              if (p) lines.push(`- ${p.name} (${p.area}, ~${p.durationMinutes} min)${p.admission ? ` — ${p.admission}` : ""}`);
+              if (p) lines.push(`- ${mdText(p.name)} (${mdText(p.area)}, ~${p.durationMinutes} min)${p.admission ? ` — ${mdText(p.admission)}` : ""}`);
             }
             lines.push("");
           }
           const bookings = trip.bookings ?? [];
           if (bookings.length) {
             lines.push(`## ${locale === "es" ? "Reservas" : "Bookings"}`);
-            for (const b of bookings) lines.push(`- ${b.title}${b.date ? ` (${b.date})` : ""}${b.cancelBy ? ` — ${locale === "es" ? "cancelación gratis hasta" : "free cancellation until"} ${b.cancelBy}` : ""}`);
+            for (const b of bookings) {
+              const pending = b.status === "to_confirm" ? (locale === "es" ? " (pendiente de confirmar)" : " (pending confirmation)") : "";
+              lines.push(`- ${mdText(b.title)}${b.date ? ` (${b.date})` : ""}${b.cancelBy ? ` — ${locale === "es" ? "cancelación gratis hasta" : "free cancellation until"} ${b.cancelBy}` : ""}${pending}`);
+            }
           }
           lines.push("", locale === "es" ? "Verifica horarios y reglas en la fuente oficial antes de viajar." : "Check hours and rules on the official source before you travel.");
           content = lines.join("\n");

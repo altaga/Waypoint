@@ -125,6 +125,8 @@ let unmountApp = null;
 let lastStructured = null;
 let currentBrief = null;
 let lastUi = null;
+// One request at a time: the text box, the chips and the mic all send through handleUtterance.
+let busy = false;
 
 const t = (k) => UI[lang][k];
 
@@ -218,7 +220,12 @@ async function greet() {
   $("headline").textContent = t("hello");
   const profile = await client.callTool("get_traveler_profile", {}).catch(() => null);
   const travelers = profile?.structuredContent?.data?.profile?.travelers || [];
-  if (!profile || profile.isError || !travelers.length) return;
+  if (!profile || profile.isError || !travelers.length) {
+    // Nothing saved: a trip shown before (in another language or session) must not stay.
+    currentBrief = null;
+    $("hero").innerHTML = "";
+    return;
+  }
   const me = travelers.find((x) => x.role === "self") || travelers[0];
   const name = me?.displayName && !/^(me|yo|self)$/i.test(me.displayName) ? me.displayName : "";
   const sc = await refreshHero();
@@ -260,6 +267,8 @@ async function heroAction(action) {
     if (!r.isError) {
       bubble("assistant", r.structuredContent.voice);
       $("cards").innerHTML = renderTool("settle_up", r.structuredContent, lang);
+    } else {
+      bubble("assistant", r.content?.[0]?.text || "");
     }
     return;
   }
@@ -313,6 +322,8 @@ async function renderResult(result, tool) {
   if (device !== "voice") {
     $("cards").innerHTML = renderTool(tool, sc, lang);
   }
+  // The trip hero is read from the server after every action, so a change (a booking, a deleted trip) shows at once.
+  await refreshHero();
   const uri = result._meta?.ui?.resourceUri;
   if (uri && device !== "voice") await mountApp(uri, sc);
 }
@@ -484,8 +495,8 @@ async function renderBrainReply(reply) {
   let shown = [...latest.values()].sort((a, b) => (rank[a.tool] ?? 11) - (rank[b.tool] ?? 11));
   if (shown.some((c) => c.tool !== "update_traveler_profile")) shown = shown.filter((c) => c.tool !== "update_traveler_profile");
   const cards = shown.filter((c) => c.tool !== "plan_trip").map((c) => renderTool(c.tool, c.structured, lang)).join("");
-  if (cards) $("cards").innerHTML = cards;
-  else if (shown.some((c) => c.tool === "plan_trip")) $("cards").innerHTML = "";
+  // A reply with no card clears the previous turn's cards: they would sit beside the new answer.
+  $("cards").innerHTML = cards;
   await refreshHero();
   renderChips();
   const withUi = [...reply.calls].reverse().find((c) => !c.isError && c.uiResourceUri);
@@ -496,7 +507,8 @@ async function renderBrainReply(reply) {
 }
 
 async function handleUtterance(text) {
-  if (!text.trim()) return;
+  if (!text.trim() || busy) return;
+  busy = true;
   bubble("user", text);
   $("stage").classList.add("active");
   setThinking(true);
@@ -509,6 +521,8 @@ async function handleUtterance(text) {
       await renderBrainReply(remote);
       return;
     }
+    // The brain did not answer: the label must not keep claiming it did.
+    $("brainMode").textContent = t("brain");
     const intent = routeUtterance(text);
     if (!intent) {
       bubble("assistant", t("notUnderstood"));
@@ -524,6 +538,7 @@ async function handleUtterance(text) {
     appendLog("!", { error: { code: 0, message: String(err && err.message) } });
   } finally {
     setThinking(false);
+    busy = false;
   }
 }
 
@@ -581,7 +596,7 @@ function bindUi() {
   });
   $("hero").addEventListener("click", (e) => {
     const btn = e.target.closest("[data-action]");
-    if (btn) heroAction(btn.dataset.action);
+    if (btn) heroAction(btn.dataset.action).catch(() => bubble("assistant", lang === "es" ? "No pude completar esa acción. Intenta otra vez." : "I could not finish that. Try again."));
   });
   setupVoice();
 }
