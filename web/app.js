@@ -3,7 +3,7 @@
 // Waypoint MCP server through a real MCP client (mcp-client.js).
 import { McpClient, PROTOCOL_VERSION } from "./mcp-client.js";
 import { routeUtterance } from "./router.js";
-import { esc, genericCard, heroHtml, renderTool, tripIcs, words } from "./cards.js";
+import { esc, heroHtml, renderTool, tripIcs, words } from "./cards.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -238,8 +238,6 @@ async function refreshHero() {
   return sc;
 }
 
-const cardHtml = (card) => genericCard(card, {}, lang);
-
 function toast(text) {
   const el = document.createElement("div");
   el.className = "toast";
@@ -299,7 +297,8 @@ async function togglePacked(id, on) {
   await refreshHero();
 }
 
-async function renderResult(result) {
+// tool is the MCP tool that produced the result, so its own card renderer is used (local router).
+async function renderResult(result, tool) {
   const sc = result.structuredContent;
   if (result.isError) {
     bubble("assistant", result.content?.[0]?.text || "");
@@ -312,7 +311,7 @@ async function renderResult(result) {
   bubble("assistant", sc.voice);
   speak(sc.voice);
   if (device !== "voice") {
-    $("cards").innerHTML = cardHtml(sc.card);
+    $("cards").innerHTML = renderTool(tool, sc, lang);
   }
   const uri = result._meta?.ui?.resourceUri;
   if (uri && device !== "voice") await mountApp(uri, sc);
@@ -518,7 +517,7 @@ async function handleUtterance(text) {
     }
     const args = Object.fromEntries(Object.entries(intent.args).filter(([, v]) => v !== undefined));
     const result = await client.callTool(intent.tool, args);
-    await renderResult(result);
+    await renderResult(result, intent.tool);
   } catch (err) {
     const msg = lang === "es" ? "Algo salió mal de mi lado. Intenta otra vez." : "Something went wrong on my side. Try again.";
     bubble("assistant", msg);
@@ -542,7 +541,7 @@ async function loadDemoGroup() {
     travelers,
   });
   bubble("assistant", result.isError ? t("nothingSaved") : t("demoDone"));
-  if (!result.isError) await renderResult(result);
+  if (!result.isError) await renderResult(result, "update_traveler_profile");
 }
 
 function bindUi() {

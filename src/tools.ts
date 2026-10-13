@@ -20,7 +20,18 @@ import { verifyPlan, type Violation } from "./itinerary.ts";
 
 type Locale = "en" | "es";
 
-const ISO_DATE = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "use YYYY-MM-DD");
+// A date must be a real calendar day: "2026-02-30" is refused, not rolled over.
+function isRealDate(s: string): boolean {
+  const [y, m, d] = s.split("-").map(Number);
+  const t = new Date(Date.UTC(y, m - 1, d));
+  return t.getUTCFullYear() === y && t.getUTCMonth() === m - 1 && t.getUTCDate() === d;
+}
+const ISO_DATE = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "use YYYY-MM-DD").refine(isRealDate, "not a real calendar date");
+// Longer trips are refused: the plan and its cards are built one entry per day.
+const MAX_TRIP_DAYS = 365;
+const CURRENCIES = new Set<string>(Intl.supportedValuesOf("currency"));
+// ISO 4217 codes only, so money is never stored under a guessed code such as "US$".
+const CURRENCY = z.string().length(3).refine((c) => CURRENCIES.has(c.toUpperCase()), "use an ISO 4217 code, for example USD or MXN");
 const RULE_CATEGORIES = [
   "prohibited_items", "medications", "conduct", "dress", "photography", "drugs", "alcohol", "lgbtq", "driving",
 ] as const;
@@ -56,9 +67,17 @@ function latestTrip(state: UserState, tripId?: string): Trip | null {
 }
 
 const daysBetween = (a: string, b: string) => Math.round((Date.parse(b) - Date.parse(a)) / 86_400_000) + 1;
-/** Calendar days from the date of `from` (UTC) to `date`. */
-const daysUntil = (from: Date, date: string) =>
-  Math.round((Date.parse(date) - Date.parse(from.toISOString().slice(0, 10))) / 86_400_000);
+/** Today's calendar date in the traveler's timezone, so countdowns and deadlines match their day. */
+function localToday(now: Date, timeZone?: string): string {
+  try {
+    return new Intl.DateTimeFormat("en-CA", { timeZone: timeZone || "UTC", year: "numeric", month: "2-digit", day: "2-digit" }).format(now);
+  } catch {
+    return now.toISOString().slice(0, 10);
+  }
+}
+/** Calendar days from `today` to `date` (both YYYY-MM-DD). */
+const daysUntil = (today: string, date: string) =>
+  Math.round((Date.parse(`${date}T00:00:00Z`) - Date.parse(`${today}T00:00:00Z`)) / 86_400_000);
 
 function supportsElicitation(server: McpServer): boolean {
   return Boolean(server.server.getClientCapabilities()?.elicitation);
@@ -392,7 +411,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         "Use when the user tells Waypoint about themselves or their companions (passports, age band, preferences). Upserts travelers by displayName. Asks for missing passports when the client supports it. Medications are kept only with sensitiveDataConsent.",
       inputSchema: {
         locale: z.enum(["en-US", "es-MX", "es-ES"]).optional(),
-        homeCurrency: z.string().length(3).optional().describe("ISO 4217 code, for example MXN"),
+        homeCurrency: CURRENCY.optional().describe("ISO 4217 code, for example MXN"),
         homeTimezone: z.string().optional(),
         interests: z.array(z.string()).optional(),
         pace: z.enum(["relaxed", "balanced", "packed"]).optional(),
@@ -540,6 +559,9 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         if (args.endDate < args.startDate) {
           return errorResult(new Error("bad dates"), pick(locale, "The return date is before the start date. Tell me the dates again.", "La fecha de regreso es anterior a la de salida. Dime las fechas otra vez."));
         }
+        if (daysBetween(args.startDate, args.endDate) > MAX_TRIP_DAYS) {
+          return errorResult(new Error("trip too long"), pick(locale, `A trip can last at most ${MAX_TRIP_DAYS} days. Tell me the dates again.`, `Un viaje puede durar como máximo ${MAX_TRIP_DAYS} días. Dime las fechas otra vez.`));
+        }
         const { travelers, missing } = await ensurePassports(server, profile, args.travelerIds, locale);
         if (missing.length) return missingEnvelope(locale, missing);
 
@@ -557,7 +579,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
 
         const pack = ctx.packs.get(dest);
         const stay = daysBetween(args.startDate, args.endDate);
-        const left = daysUntil(ctx.clock(), args.startDate);
+        const left = daysUntil(localToday(ctx.clock(), profile.homeTimezone), args.startDate);
         const rows = travelers.map((t) => {
           const { best } = entryFor(ctx, t, dest);
           const tone = STATUS_LABEL[best.entry.status].tone;
@@ -790,8 +812,8 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         "Use when the user asks how far an amount goes. Converts currencies with live rates when available (snapshot otherwise, labelled) and adds a purchasing-power equivalent from World Bank PPP factors.",
       inputSchema: {
         amount: z.number().positive(),
-        from: z.string().length(3).optional(),
-        to: z.string().length(3).optional(),
+        from: CURRENCY.optional(),
+        to: CURRENCY.optional(),
         destination: z.string().optional(),
       },
       outputSchema: EnvelopeShape,
@@ -995,7 +1017,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
       inputSchema: {
         tripId: z.string().optional(),
         avoid: z.array(z.enum(INTERESTS)).optional(),
-        maxBudget: z.object({ amount: z.number().positive(), currency: z.string().length(3) }).optional(),
+        maxBudget: z.object({ amount: z.number().positive(), currency: CURRENCY }).optional(),
         clearAvoid: z.boolean().optional(),
         clearBudget: z.boolean().optional(),
       },
@@ -1076,7 +1098,10 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         let verdict: ReturnType<typeof verifyPlan> | null = null;
 
         if (args.plan?.length) {
-          verdict = verifyPlan({ plan: args.plan, stayDays: stay, destinationIso: dest, pace: profile.pace, avoid, highlights: ctx.highlights });
+          // Places planned on the days this plan does not replace still count, so a place cannot repeat across days.
+          const replaced = new Set(args.plan.map((d) => d.day));
+          const takenPlaces = (trip.itinerary ?? []).filter((d) => !replaced.has(d.day)).flatMap((d) => d.stops);
+          verdict = verifyPlan({ plan: args.plan, stayDays: stay, destinationIso: dest, pace: profile.pace, avoid, highlights: ctx.highlights, takenPlaces });
           if (verdict.ok) {
             const byDay = new Map((trip.itinerary ?? []).map((d) => [d.day, d]));
             for (const d of args.plan) byDay.set(d.day, { day: d.day, date: dateOf(d.day), title: d.title, stops: d.stops });
@@ -1161,7 +1186,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const trip = latestTrip(state, args.tripId);
         if (!trip) return nothingYetEnvelope(locale, "trip");
         const travelers = profile.travelers.filter((t) => trip.travelerIds.includes(t.travelerId));
-        const left = daysUntil(ctx.clock(), trip.startDate);
+        const left = daysUntil(localToday(ctx.clock(), profile.homeTimezone), trip.startDate);
         const stay = daysBetween(trip.startDate, trip.endDate);
         const pending: string[] = [];
         const entries = travelers.map((t) => {
@@ -1181,7 +1206,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const planned = (trip.itinerary ?? []).filter((d) => d.stops.length > 0).length;
         if (planned === 0) pending.push(pick(locale, "No day plan yet", "Aún sin plan de días"));
         // Bookings: pending confirmations, and cancellation deadlines within the next 30 days.
-        const today = ctx.clock().toISOString().slice(0, 10);
+        const today = localToday(ctx.clock(), profile.homeTimezone);
         const bookings = trip.bookings ?? [];
         const deadlines = bookings
           .filter((b) => b.cancelBy && b.cancelBy >= today)
@@ -1250,7 +1275,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         "Use when the user says they spent money on the trip. Stores the expense and returns the trip total in the currency of the expense.",
       inputSchema: {
         amount: z.number().positive(),
-        currency: z.string().length(3).optional(),
+        currency: CURRENCY.optional(),
         category: z.string().min(2),
         note: z.string().optional(),
         tripId: z.string().optional(),
@@ -1266,11 +1291,20 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const locale = localeOf(state);
         const profile = state.profile;
         const trip = latestTrip(state, args.tripId);
+        if (args.tripId && !trip) {
+          return errorResult(new Error("unknown trip"), pick(locale, "I don't have that trip. Tell me its destination again.", "No tengo ese viaje. Dime otra vez su destino."));
+        }
         const currency = (args.currency ?? profile?.homeCurrency ?? "USD").toUpperCase();
         const findTraveler = (ref: string) =>
           profile?.travelers.find((t) => t.travelerId === ref || t.displayName.toLowerCase() === ref.trim().toLowerCase());
+        // A name outside the group is refused, not dropped: dropping it would charge the cost to everyone else.
+        const unknown = [args.payer, ...(args.splitAmong ?? [])].filter((r): r is string => Boolean(r) && !findTraveler(r as string));
+        if (unknown.length) {
+          return errorResult(new Error("unknown traveler"), pick(locale, `I don't know ${unknown.join(" or ")} in this group. Use the names saved in the profile.`, `No conozco a ${unknown.join(" ni a ")} en este grupo. Usa los nombres guardados en tu perfil.`));
+        }
         const payer = args.payer ? findTraveler(args.payer)?.travelerId : undefined;
-        const splitAmong = args.splitAmong?.map((r) => findTraveler(r)?.travelerId).filter((x): x is string => Boolean(x));
+        // Repeated names count once, so a name typed twice does not weigh twice in settle_up.
+        const splitAmong = [...new Set((args.splitAmong ?? []).map((r) => findTraveler(r)?.travelerId).filter((x): x is string => Boolean(x)))];
         const expense = {
           id: randomUUID(),
           tripId: trip?.tripId ?? null,
@@ -1280,7 +1314,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           note: args.note,
           createdAt: ctx.clock().toISOString(),
           ...(payer ? { payer } : {}),
-          ...(splitAmong?.length ? { splitAmong } : {}),
+          ...(splitAmong.length ? { splitAmong } : {}),
         };
         state.expenses.push(expense);
         await save(state);
@@ -1288,19 +1322,22 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         // Spending limit: every expense of the trip, converted to the limit's currency.
         const cap = trip?.constraints?.maxBudget;
         let spentInCap: number | null = null;
+        let unconvertible: string | null = null;
         if (cap && trip) {
           let sum = 0;
           for (const e of state.expenses.filter((x) => x.tripId === trip.tripId)) {
             const conv = e.currency === cap.currency ? { value: e.amount } : await ctx.fx.convert(e.amount, e.currency, cap.currency);
-            if (!conv) { sum = NaN; break; }
+            if (!conv) { unconvertible = e.currency; break; }
             sum += conv.value;
           }
-          spentInCap = Number.isFinite(sum) ? Math.round(sum * 100) / 100 : null;
+          if (!unconvertible) spentInCap = Math.round(sum * 100) / 100;
         }
         const overBudget = cap !== undefined && spentInCap !== null && spentInCap > cap.amount;
         const budgetLine = cap && spentInCap !== null
           ? pick(locale, ` Spent ${money(spentInCap, cap.currency, locale)} of the ${money(cap.amount, cap.currency, locale)} limit.${overBudget ? " You are over the limit." : ""}`, ` Llevas ${money(spentInCap, cap.currency, locale)} de tu tope de ${money(cap.amount, cap.currency, locale)}.${overBudget ? " Ya pasaste el tope." : ""}`)
-          : "";
+          : cap && unconvertible
+            ? pick(locale, ` I have no rate from ${unconvertible} to ${cap.currency}, so I cannot check your limit.`, ` No tengo tasa de ${unconvertible} a ${cap.currency}, así que no puedo revisar tu tope.`)
+            : "";
         const env = baseEnvelope(ctx, trip?.destination ?? "", locale, {
           voice: pick(locale, `Logged ${args.amount} ${currency} for ${args.category}. Trip total in ${currency}: ${total.toFixed(2)}.`, `Registré ${args.amount} ${currency} en ${args.category}. Total del viaje en ${currency}: ${total.toFixed(2)}.`) + budgetLine,
           card: {
@@ -1433,28 +1470,40 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           if (!e.payer || !balance.has(e.payer)) { unassigned++; continue; }
           const conv = e.currency === home ? { value: e.amount } : await ctx.fx.convert(e.amount, e.currency, home);
           if (!conv) { unconverted++; continue; }
-          const among = (e.splitAmong ?? []).filter((id) => balance.has(id));
+          // A name listed twice in splitAmong weighs once.
+          const among = [...new Set((e.splitAmong ?? []).filter((id) => balance.has(id)))];
           const sharers = among.length ? among : members.map((m) => m.travelerId);
           balance.set(e.payer, (balance.get(e.payer) ?? 0) + conv.value);
           const share = conv.value / sharers.length;
           for (const id of sharers) balance.set(id, (balance.get(id) ?? 0) - share);
         }
         const name = (id: string) => members.find((m) => m.travelerId === id)?.displayName ?? id;
+        // Money is settled in whole cents. Each balance is rounded once; the rounding left over goes to the
+        // largest balance, so the balances add up to zero and the transfers add up exactly.
+        const cents = new Map([...balance].map(([id, v]) => [id, Math.round(v * 100)]));
+        const drift = [...cents.values()].reduce((s, c) => s + c, 0);
+        if (drift !== 0) {
+          const [biggestId, biggest] = [...cents].sort((a, b) => Math.abs(b[1]) - Math.abs(a[1]))[0];
+          cents.set(biggestId, biggest - drift);
+        }
         // Greedy settle-up: the largest debtor pays the largest creditor, until everyone is even.
-        const owes = [...balance].filter(([, v]) => v < -0.005).map(([id, v]) => ({ id, v: -v })).sort((a, b) => b.v - a.v);
-        const gets = [...balance].filter(([, v]) => v > 0.005).map(([id, v]) => ({ id, v })).sort((a, b) => b.v - a.v);
+        const owes = [...cents].filter(([, c]) => c < 0).map(([id, c]) => ({ id, c: -c })).sort((a, b) => b.c - a.c);
+        const gets = [...cents].filter(([, c]) => c > 0).map(([id, c]) => ({ id, c })).sort((a, b) => b.c - a.c);
         const transfers: { from: string; to: string; amount: number }[] = [];
         let i = 0, j = 0;
         while (i < owes.length && j < gets.length) {
-          const pay = Math.min(owes[i].v, gets[j].v);
-          if (pay >= 0.01) transfers.push({ from: name(owes[i].id), to: name(gets[j].id), amount: Math.round(pay * 100) / 100 });
-          owes[i].v -= pay;
-          gets[j].v -= pay;
-          if (owes[i].v < 0.005) i++;
-          if (gets[j].v < 0.005) j++;
+          const pay = Math.min(owes[i].c, gets[j].c);
+          transfers.push({ from: name(owes[i].id), to: name(gets[j].id), amount: pay / 100 });
+          owes[i].c -= pay;
+          gets[j].c -= pay;
+          if (owes[i].c === 0) i++;
+          if (gets[j].c === 0) j++;
         }
         const lines = transfers.map((t) => `${t.from} ${pick(locale, "pays", "paga a")} ${t.to} ${money(t.amount, home, locale)}`);
-        const caveat = unassigned ? pick(locale, ` ${unassigned} expense(s) have no payer and are not counted.`, ` ${unassigned} gasto(s) no tienen quién pagó y no cuentan.`) : "";
+        const caveat = [
+          unassigned ? pick(locale, ` ${unassigned} expense(s) have no payer and are not counted.`, ` ${unassigned} gasto(s) no tienen quién pagó y no cuentan.`) : "",
+          unconverted ? pick(locale, ` ${unconverted} expense(s) have no exchange rate to ${home} and are not counted.`, ` ${unconverted} gasto(s) no tienen tasa de cambio a ${home} y no cuentan.`) : "",
+        ].join("");
         const env = baseEnvelope(ctx, trip.destination, locale, {
           voice: transfers.length
             ? pick(locale, `To square up: ${lines.join("; ")}.${caveat}`, `Para quedar a mano: ${lines.join("; ")}.${caveat}`)
@@ -1465,13 +1514,13 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             subtitle: pick(locale, `In ${home}`, `En ${home}`),
             rows: [
               ...members.map((m) => {
-                const v = balance.get(m.travelerId) ?? 0;
+                const v = (cents.get(m.travelerId) ?? 0) / 100;
                 return { label: m.displayName, value: `${v >= 0 ? "+" : "−"}${money(Math.abs(v), home, locale)}`, status: (v >= 0 ? "ok" : "warn") as "ok" | "warn" };
               }),
               ...transfers.map((t) => ({ label: pick(locale, "Transfer", "Transferencia"), value: `${t.from} → ${t.to} · ${money(t.amount, home, locale)}`, status: "info" as const })),
             ],
           },
-          data: { transfers, balances: Object.fromEntries([...balance].map(([id, v]) => [name(id), Math.round(v * 100) / 100])), unassigned, unconverted, home },
+          data: { transfers, balances: Object.fromEntries([...cents].map(([id, c]) => [name(id), c / 100])), unassigned, unconverted, home },
           followUps: [],
         });
         return envelopeResult(env);

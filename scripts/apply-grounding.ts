@@ -41,6 +41,13 @@ export function firstSentence(extract: string): string {
   return words.length > 30 ? `${words.slice(0, 30).join(" ")}…` : sentence;
 }
 
+const GROUNDING_NOTE = "Descriptions: the first sentence of each place's Wikipedia article where descBy is wikipedia (the article link is in ground); otherwise Waypoint's own text (descBy: curated).";
+// Keeps the pack's own provenance note and adds the sentence about descriptions once. Idempotent.
+export function withGroundingNote(note: string | undefined): string {
+  const base = (note ?? "").trim();
+  return base.includes(GROUNDING_NOTE) ? base : `${base} ${GROUNDING_NOTE}`.trim();
+}
+
 const grounded = { en: 0, es: 0 };
 let total = 0;
 export function applyAll(): void {
@@ -73,7 +80,7 @@ for (const f of readdirSync(join(ROOT, "highlights"))) {
   }
   if (touched) {
     pack.sources = { ...pack.sources, wikipedia: WIKI_SOURCE };
-    pack.review.note = "Places picked by Waypoint from the Wikidata list. Descriptions come from the first sentence of each place's Wikipedia article (descBy: wikipedia, with the article link in ground) and otherwise from Waypoint's own text (descBy: curated). Not checked against official tourism sites. Hours, prices and closures change: verify on the official source before you go.";
+    pack.review = { ...pack.review, note: withGroundingNote(pack.review?.note) };
     writeFileSync(path, JSON.stringify(pack, null, 2) + "\n");
   }
 }

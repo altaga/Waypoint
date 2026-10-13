@@ -35,12 +35,14 @@ export function verifyPlan(input: {
   pace: Pace;
   avoid: Interest[];
   highlights: HighlightRegistry;
+  /** Place ids already planned on days this plan does not replace: they may not appear again. */
+  takenPlaces?: string[];
 }): VerifyResult {
-  const { plan, stayDays, destinationIso, pace, avoid, highlights } = input;
+  const { plan, stayDays, destinationIso, pace, avoid, highlights, takenPlaces = [] } = input;
   const violations: Violation[] = [];
   const warnings: string[] = [];
   const seenDays = new Set<number>();
-  const seenPlaces = new Set<string>();
+  const seenPlaces = new Set<string>(takenPlaces);
   const resolved: VerifyResult["resolved"] = [];
 
   for (const d of plan) {
@@ -48,7 +50,8 @@ export function verifyPlan(input: {
       violations.push({ day: d.day, code: "duplicate_day", message: `day ${d.day} appears twice` });
     }
     seenDays.add(d.day);
-    if (d.day < 1 || d.day > stayDays) {
+    // Written so that a non-numeric trip length refuses every day instead of accepting it.
+    if (!(d.day >= 1 && d.day <= stayDays)) {
       violations.push({ day: d.day, code: "day_out_of_range", message: `day ${d.day} is outside the ${stayDays}-day trip` });
       continue;
     }
