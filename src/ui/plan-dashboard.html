@@ -5,43 +5,46 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Waypoint trip dashboard</title>
 <style>
+  /* Tokens match the Waypoint device (Amazon's Echo Show dark set) and the workspace light set,
+     so the panel reads as part of the same screen. The host passes theme "dark" on the device. */
   :root {
-    --bg: #f6f7f9; --fg: #14161a; --muted: #5b6270; --card: #ffffff; --line: #e1e5eb;
-    --ok: #1d7a46; --warn: #a15c00; --bad: #b3261e; --accent: #1f5fbf; --tint: rgba(31, 95, 191, .08);
+    --bg: #f5f5f7; --fg: #1d1d1f; --muted: #6e6e73; --card: #ffffff; --line: rgba(0, 0, 0, .08);
+    --ok: #1d7a46; --warn: #a15c00; --bad: #b3261e; --accent: #0066cc; --tint: rgba(0, 102, 204, .08);
   }
   :root[data-theme="dark"] {
-    --bg: #0d131c; --fg: #eef2f7; --muted: #9aa6b8; --card: #151e2b; --line: #263347;
-    --ok: #4fd18b; --warn: #f3b562; --bad: #ff8577; --accent: #3fb6ff; --tint: rgba(63, 182, 255, .1);
+    --bg: #000000; --fg: #f5f5f7; --muted: #a1a1a6; --card: #14181e; --line: rgba(255, 255, 255, .08);
+    --ok: #30d158; --warn: #ffd60a; --bad: #ff6961; --accent: #2997ff; --tint: rgba(41, 151, 255, .12);
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg: #0d131c; --fg: #eef2f7; --muted: #9aa6b8; --card: #151e2b; --line: #263347;
-      --ok: #4fd18b; --warn: #f3b562; --bad: #ff8577; --accent: #3fb6ff; --tint: rgba(63, 182, 255, .1);
+      --bg: #000000; --fg: #f5f5f7; --muted: #a1a1a6; --card: #14181e; --line: rgba(255, 255, 255, .08);
+      --ok: #30d158; --warn: #ffd60a; --bad: #ff6961; --accent: #2997ff; --tint: rgba(41, 151, 255, .12);
     }
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
-  main { padding: 20px; max-width: 980px; margin: 0 auto; }
-  header { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; padding: 18px 20px; border-radius: 18px; background: var(--tint); border: 1px solid var(--line); }
-  .kicker { color: var(--muted); font-size: 14px; }
-  h1 { font-size: 34px; line-height: 1.1; margin: 4px 0 0; letter-spacing: -.02em; }
-  .count { text-align: right; }
-  .count b { display: block; font-size: 40px; line-height: 1; }
-  .count span { color: var(--muted); font-size: 13px; }
+  main { padding: 16px; max-width: 980px; margin: 0 auto; }
+  header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px; padding: 16px; border-radius: 16px; background: var(--tint); border: 1px solid var(--line); }
+  header > div:first-child { min-width: 0; }
+  .kicker { color: var(--muted); font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  h1 { font-size: 40px; line-height: 1.1; margin: 4px 0 0; letter-spacing: -.02em; overflow-wrap: anywhere; }
+  .count { display: flex; gap: 20px; text-align: right; white-space: nowrap; flex: none; }
+  .fig b { display: block; font-size: 40px; line-height: 1; font-variant-numeric: tabular-nums; }
+  .fig span { color: var(--muted); font-size: 14px; }
   .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 14px; }
-  @media (max-width: 640px) { .cols { grid-template-columns: 1fr; } h1 { font-size: 28px; } }
+  @media (max-width: 640px) { .cols { grid-template-columns: 1fr; } h1 { font-size: 32px; } }
   section { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 14px 16px; }
-  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 0 0 10px; }
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 0 0 10px; }
   .who { display: flex; justify-content: space-between; gap: 10px; padding: 9px 0; border-top: 1px solid var(--line); }
   .who:first-of-type { border-top: 0; }
   .who b { font-weight: 600; }
-  .badge { font-size: 13px; padding: 3px 10px; border-radius: 999px; white-space: nowrap; align-self: center; }
+  .badge { font-size: 14px; padding: 3px 10px; border-radius: 999px; white-space: nowrap; align-self: center; }
   .badge.ok { color: var(--ok); background: color-mix(in srgb, var(--ok) 14%, transparent); }
   .badge.warn { color: var(--warn); background: color-mix(in srgb, var(--warn) 14%, transparent); }
   .badge.blocked { color: var(--bad); background: color-mix(in srgb, var(--bad) 14%, transparent); }
   .facts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
   .fact { border: 1px solid var(--line); border-radius: 12px; padding: 8px 10px; }
-  .fact small { display: block; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; }
+  .fact small { display: block; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
   .rules { display: grid; gap: 8px; margin-top: 14px; }
   .rule { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--warn); border-radius: 12px; padding: 10px 14px; }
   .rule.sev { border-left-color: var(--bad); }
@@ -69,8 +72,8 @@
 // what the host sends: no network, no storage, no access to the parent page.
 (function () {
   var T = {
-    en: { travelers: "Entry by traveler", essentials: "Essentials", rules: "Local rules", days: "days to go", currency: "Currency", plugs: "Plugs", emergency: "Emergency", language: "Language", none: "No verified local rules for this destination yet." },
-    es: { travelers: "Entrada por viajero", essentials: "Básicos", rules: "Reglas locales", days: "días para el viaje", currency: "Moneda", plugs: "Enchufes", emergency: "Emergencias", language: "Idioma", none: "Aún no hay reglas locales verificadas para este destino." },
+    en: { travelers: "Entry by traveler", essentials: "Essentials", rules: "Local rules", days: "days to go", ready: "ready", currency: "Currency", plugs: "Plugs", emergency: "Emergency", language: "Language", none: "No verified local rules for this destination yet." },
+    es: { travelers: "Entrada por viajero", essentials: "Básicos", rules: "Reglas locales", days: "días para el viaje", ready: "listo", currency: "Moneda", plugs: "Enchufes", emergency: "Emergencias", language: "Idioma", none: "Aún no hay reglas locales verificadas para este destino." },
   };
   var CAT = {
     en: { prohibited_items: "Prohibited items", medications: "Medications", conduct: "Conduct", dress: "Dress code", photography: "Photography", drugs: "Drugs", alcohol: "Alcohol", lgbtq: "LGBTQ+", driving: "Driving" },
@@ -81,6 +84,7 @@
   var lang = "en";
   function send(msg) { window.parent.postMessage(Object.assign({ jsonrpc: "2.0" }, msg), "*"); }
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
+  function fig(value, label) { var f = el("div", "fig"); f.appendChild(el("b", "", value)); f.appendChild(el("span", "", label)); return f; }
   function applyContext(ctx) {
     if (!ctx) return;
     if (ctx.theme) document.documentElement.setAttribute("data-theme", ctx.theme);
@@ -97,7 +101,9 @@
     document.getElementById("kicker").textContent = (sc.card && sc.card.subtitle) || "";
     var count = document.getElementById("count");
     count.innerHTML = "";
-    if (typeof d.daysUntil === "number") { count.appendChild(el("b", "", String(d.daysUntil))); count.appendChild(el("span", "", t.days)); }
+    if (typeof d.daysUntil === "number") count.appendChild(fig(String(d.daysUntil), t.days));
+    // Readiness stays on the panel too: the panel covers the device hero when it opens.
+    if (typeof d.readiness === "number") count.appendChild(fig(d.readiness + "%", t.ready));
     document.getElementById("hTravelers").textContent = t.travelers;
     document.getElementById("hEssentials").textContent = t.essentials;
 

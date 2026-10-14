@@ -205,6 +205,8 @@ function setThinking(on) {
   setLight(on ? "thinking" : "idle");
   $("thinking").hidden = !on;
   $("thinkingText").textContent = t("thinking");
+  // The visible dots are hidden from assistive tech; this persistent live region announces the state.
+  $("announce").textContent = on ? t("thinking") : "";
   $("send").disabled = on;
 }
 
@@ -287,6 +289,7 @@ function toast(text) {
   const el = document.createElement("div");
   el.className = "toast";
   el.textContent = text;
+  $("announce").textContent = text;
   document.body.appendChild(el);
   setTimeout(() => el.remove(), 1800);
 }
@@ -375,6 +378,11 @@ async function renderResult(result, tool) {
 // MCP Apps host: load the ui:// resource into a sandboxed iframe and speak the Apps protocol.
 async function mountApp(uri, structured) {
   unmountApp?.();
+  // The panel shows the readiness the device hero shows: both come from the same trip_brief read.
+  const tripId = structured?.data?.trip?.tripId;
+  if (tripId !== undefined && tripId === currentBrief?.tripId) {
+    structured = { ...structured, data: { ...structured.data, readiness: currentBrief.readiness } };
+  }
   const read = await client.readResource(uri);
   const html = read.contents?.[0]?.text || "";
   const holder = $("apps");
