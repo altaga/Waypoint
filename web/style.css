@@ -84,7 +84,7 @@ select, .btn-ghost {
 }
 
 .chat-col {
-  --chat-h: max(620px, calc(100vh - 136px));
+  --chat-h: max(560px, calc(100vh - 136px));
   position: sticky; top: 104px; display: flex; flex-direction: column; gap: var(--s-12); min-width: 0; min-height: var(--chat-h); max-height: var(--chat-h);
   padding: var(--s-20); border-radius: var(--r-24); background: var(--surface);
   border: 1px solid var(--hairline); box-shadow: 0 1px 2px rgba(0, 0, 0, .04), 0 20px 48px -28px rgba(0, 0, 0, .22);
@@ -336,7 +336,7 @@ select, .btn-ghost {
   .headline { font-size: 18px; }
   .chat-col { padding: var(--s-16); }
   .bubble { max-width: 90%; }
-  .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding: 4px; margin: -4px; }
   .chip { flex: none; white-space: nowrap; }
   .stage:not(.active) .headline { font-size: 32px; }
 }

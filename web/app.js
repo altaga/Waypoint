@@ -138,6 +138,8 @@ let unmountApp = null;
 let lastStructured = null;
 let currentBrief = null;
 let lastUi = null;
+let panelFrame = null;
+let panelStructured = null;
 // One request at a time: the text box, the chips and the mic all send through handleUtterance.
 let busy = false;
 
@@ -281,7 +283,13 @@ async function refreshHero() {
   const brief = await client.callTool("trip_brief", {}).catch(() => null);
   const sc = brief && !brief.isError && brief.structuredContent?.data?.readiness !== undefined ? brief.structuredContent : null;
   currentBrief = sc ? sc.data : null;
+  // A Panel button or an open panel from another trip would open that trip: drop them.
+  if (lastUi && lastUi.structured?.data?.trip?.tripId !== currentBrief?.tripId) {
+    lastUi = null;
+    if (panelFrame) closePanel();
+  }
   $("hero").innerHTML = currentBrief && device !== "voice" ? heroHtml(currentBrief, lang, Boolean(lastUi)) : "";
+  syncPanel();
   return sc;
 }
 
@@ -289,7 +297,7 @@ function toast(text) {
   const el = document.createElement("div");
   el.className = "toast";
   el.textContent = text;
-  $("announce").textContent = text;
+  $("announceToast").textContent = text;
   document.body.appendChild(el);
   setTimeout(() => el.remove(), 1800);
 }
@@ -372,17 +380,41 @@ async function renderResult(result, tool) {
   // The trip hero is read from the server after every action, so a change (a booking, a deleted trip) shows at once.
   await refreshHero();
   const uri = result._meta?.ui?.resourceUri;
-  if (uri && device !== "voice") await mountApp(uri, sc);
+  if (uri && device !== "voice") {
+    lastUi = { uri, structured: sc };
+    $("hero").innerHTML = currentBrief ? heroHtml(currentBrief, lang, true) : "";
+    await mountApp(uri, sc);
+  }
 }
 
 // MCP Apps host: load the ui:// resource into a sandboxed iframe and speak the Apps protocol.
+// The panel's numbers come from the same trip_brief read as the hero, and its language is the host's now.
+function panelData(structured) {
+  if (!structured) return structured;
+  const data = { ...structured.data, locale: lang };
+  const tripId = structured.data?.trip?.tripId;
+  if (tripId !== undefined && tripId === currentBrief?.tripId) {
+    data.readiness = currentBrief.readiness;
+    data.daysUntil = currentBrief.daysUntil;
+  }
+  return { ...structured, data };
+}
+
+// Re-send the open panel's data, so it follows the hero when the readiness or the day count changes.
+function syncPanel() {
+  if (!panelFrame || !panelStructured) return;
+  panelFrame.contentWindow?.postMessage({ jsonrpc: "2.0", method: "ui/notifications/tool-result", params: { structuredContent: panelData(panelStructured) } }, "*");
+}
+
+function closePanel() {
+  unmountApp?.();
+  $("apps").classList.remove("open");
+  $("apps").innerHTML = "";
+}
+
 async function mountApp(uri, structured) {
   unmountApp?.();
-  // The panel shows the readiness the device hero shows: both come from the same trip_brief read.
-  const tripId = structured?.data?.trip?.tripId;
-  if (tripId !== undefined && tripId === currentBrief?.tripId) {
-    structured = { ...structured, data: { ...structured.data, readiness: currentBrief.readiness } };
-  }
+  panelStructured = structured;
   const read = await client.readResource(uri);
   const html = read.contents?.[0]?.text || "";
   const holder = $("apps");
@@ -391,17 +423,14 @@ async function mountApp(uri, structured) {
   close.type = "button";
   close.className = "close";
   close.textContent = lang === "es" ? "Cerrar panel" : "Close panel";
-  close.onclick = () => {
-    unmountApp?.();
-    holder.classList.remove("open");
-    holder.innerHTML = "";
-  };
+  close.onclick = closePanel;
   holder.appendChild(close);
   holder.classList.add("open");
   const frame = document.createElement("iframe");
   frame.setAttribute("sandbox", "allow-scripts");
   frame.setAttribute("title", "Waypoint readiness dashboard");
   frame.srcdoc = html;
+  panelFrame = frame;
   holder.appendChild(frame);
   const onMessage = (ev) => {
     if (ev.source !== frame.contentWindow) return;
@@ -423,12 +452,16 @@ async function mountApp(uri, structured) {
       frame.contentWindow.postMessage({
         jsonrpc: "2.0",
         method: "ui/notifications/tool-result",
-        params: { structuredContent: structured },
+        params: { structuredContent: panelData(structured) },
       }, "*");
     }
   };
   window.addEventListener("message", onMessage);
-  unmountApp = () => window.removeEventListener("message", onMessage);
+  unmountApp = () => {
+    window.removeEventListener("message", onMessage);
+    panelFrame = null;
+    panelStructured = null;
+  };
 }
 
 function hostContext() {
@@ -633,6 +666,8 @@ function bindUi() {
   $("device").addEventListener("change", (e) => {
     device = e.target.value;
     $("frame").dataset.device = device;
+    // The voice screen has no room for the panel, and voice never opens one.
+    if (device === "voice" && panelFrame) closePanel();
     $("hero").innerHTML = currentBrief && device !== "voice" ? heroHtml(currentBrief, lang, Boolean(lastUi)) : "";
   });
   $("inputForm").addEventListener("submit", (e) => {
