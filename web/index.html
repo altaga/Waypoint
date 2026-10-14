@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Waypoint concierge</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%23e8a33d'/%3E%3C/svg%3E">
+<title>Waypoint · concierge de viajes</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%233f6fe0'/%3E%3C/svg%3E">
 <meta name="description" content="Waypoint, a travel-readiness concierge on a simulated Alexa+ host (a real MCP client).">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
@@ -12,22 +12,25 @@
 </head>
 <body>
 <header class="top">
-  <div>
-    <strong>Waypoint</strong> <span class="muted">· simulated Alexa+ host, not affiliated with Amazon</span>
+  <div class="brand-row">
+    <span class="logo" aria-hidden="true"></span>
+    <div>
+      <strong class="brand">Waypoint</strong>
+      <span class="tagline" id="tagline">Travel concierge · simulated Alexa+ host</span>
+    </div>
   </div>
   <div class="controls">
-    <select id="lang" aria-label="Language">
-      <option value="en">English</option>
-      <option value="es">Español</option>
-    </select>
-    <select id="device" aria-label="Device">
+    <div class="seg" role="group" aria-label="Idioma">
+      <button type="button" data-lang="es" aria-pressed="false">ES</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <select id="device" aria-label="Dispositivo">
       <option value="show">Echo Show</option>
-      <option value="mobile">Mobile</option>
-      <option value="voice">Voice only</option>
+      <option value="mobile">Móvil</option>
+      <option value="voice">Solo voz</option>
     </select>
-    <label class="toggle"><input type="checkbox" id="voiceOut" checked> <span id="lblVoiceOut">Speak</span></label>
-    <button id="demoGroup" type="button">Demo group</button>
-    <button id="reset" type="button">New session</button>
+    <button id="demoGroup" class="btn-ghost" type="button">Ejemplo</button>
+    <button id="reset" class="btn-ghost" type="button">Nueva sesión</button>
   </div>
 </header>
 
@@ -36,43 +39,50 @@
     <div class="screen">
       <div class="topbar">
         <span class="clock" id="clock"></span>
-        <span class="brand">Waypoint</span>
-        <span class="conn" id="connState">connecting…</span>
+        <span class="brand-s">Waypoint</span>
+        <span class="conn" id="connState"></span>
       </div>
       <div class="stage" id="stage">
+        <div class="welcome" id="welcome">
+          <ul class="welcome-tags" id="welcomeTags"></ul>
+        </div>
         <div id="hero"></div>
         <div class="reply">
           <h1 class="headline" id="headline" aria-live="polite"></h1>
-          <div class="thinking" id="thinking" hidden><span class="dots"><i></i><i></i><i></i></span><span id="thinkingText"></span></div>
-          <div class="trace" id="trace"></div>
         </div>
-        <div class="chips" id="chips"></div>
         <div class="cards" id="cards"></div>
       </div>
       <div class="apps" id="apps"></div>
       <div class="form" id="form" hidden></div>
       <div class="lightbar" id="lightbar" data-state="idle" aria-hidden="true"></div>
     </div>
-    <div class="transcript" id="transcript" aria-live="polite"></div>
-    <form class="input" id="inputForm">
-      <button type="button" id="mic" aria-label="Speak"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M5.5 11a6.5 6.5 0 0013 0M12 17.5V21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
-      <input id="text" type="text" autocomplete="off" placeholder="Type or speak" />
-      <button type="submit" id="send">Send</button>
-    </form>
-    <p class="hint" id="brainMode"></p>
   </section>
 
-  <aside class="side">
-    <details open>
-      <summary id="lblProtocol">Protocol log</summary>
-      <pre id="log" class="log"></pre>
-    </details>
-    <details>
-      <summary id="lblAbout">About this host</summary>
-      <p class="small" id="aboutText"></p>
-    </details>
-  </aside>
+  <section class="chat-col" aria-labelledby="chatTitle">
+    <div class="chat-head">
+      <span id="chatTitle"></span>
+      <label class="toggle"><input type="checkbox" id="voiceOut" checked> <span id="lblVoiceOut"></span></label>
+    </div>
+    <div class="transcript" id="transcript" aria-live="polite"></div>
+    <div class="thinking" id="thinking" hidden><span class="dots"><i></i><i></i><i></i></span><span id="thinkingText"></span></div>
+    <div class="trace" id="trace"></div>
+    <div class="chips" id="chips"></div>
+    <form class="input" id="inputForm">
+      <button type="button" id="mic" aria-label="Hablar"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M5.5 11a6.5 6.5 0 0013 0M12 17.5V21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+      <input id="text" type="text" autocomplete="off" />
+      <button type="submit" id="send"></button>
+    </form>
+  </section>
 </main>
+
+<footer class="foot">
+  <span id="brainMode"></span>
+  <details>
+    <summary id="lblProtocol"></summary>
+    <p class="small" id="aboutText"></p>
+    <pre id="log" class="log"></pre>
+  </details>
+</footer>
 
 <script type="module" src="app.js"></script>
 </body>

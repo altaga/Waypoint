@@ -18,7 +18,7 @@ async function main() {
   page.on("console", (m: { type(): string; text(): string }) => m.type() === "error" && errors.push(`console: ${m.text()}`));
 
   await page.goto(BASE);
-  await page.waitForFunction(() => document.getElementById("connState")?.textContent?.includes("MCP 2025-11-25"), null, { timeout: 15000 });
+  await page.waitForFunction(() => /conectado|connected/.test(document.getElementById("connState")?.textContent || ""), null, { timeout: 15000 });
   console.log("connected");
 
   await page.click("#demoGroup");

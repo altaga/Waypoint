@@ -1,21 +1,30 @@
-// Simulated Alexa+ host: Echo Show-style frame, voice in/out, text fallback, ES/EN,
-// elicitation forms, an MCP Apps iframe host, and a protocol log. It talks to the
-// Waypoint MCP server through a real MCP client (mcp-client.js).
+// Simulated Alexa+ host: an Echo Show-style screen next to the conversation, voice in/out,
+// text fallback, ES/EN (the language follows what the traveler writes), elicitation forms,
+// an MCP Apps iframe host, and a protocol log for developers. It talks to the Waypoint MCP
+// server through a real MCP client (mcp-client.js).
 import { McpClient, PROTOCOL_VERSION } from "./mcp-client.js";
 import { routeUtterance } from "./router.js";
 import { esc, heroHtml, renderTool, tripIcs, words } from "./cards.js";
+import { detectLang } from "./lang.js";
 
 const $ = (id) => document.getElementById(id);
 
 const UI = {
   en: {
     connecting: "connecting…",
-    connected: (n, s) => `connected · MCP ${PROTOCOL_VERSION} · ${n} tools · session ${s}`,
+    connected: (n) => `connected · ${n} tools`,
     listening: "Listening…",
     noSpeech: "Voice input is not available in this browser. Type instead.",
     lang: "en-US",
-    brain: "Brain: local router (no AWS needed). Bedrock brain: set WAYPOINT_BRAIN=bedrock on the server.",
-    brainBedrock: "Brain: Bedrock via Strands (server-side)",
+    brain: "Assistant: local router, no AWS needed.",
+    brainBedrock: "Assistant: Bedrock agent on the server.",
+    tagline: "Travel concierge · simulated Alexa+ host",
+    chatTitle: "Conversation",
+    lblVoice: "Read aloud",
+    inputPlaceholder: "Type or speak",
+    emptyChat: "Ask about your trip: entry rules, what to pack, what to see, what your group owes.",
+    welcomeTags: ["Entry rules", "Local rules", "Budget", "Packing", "Day plan", "Group money"],
+    protocol: "For developers: MCP protocol log",
     thinking: "Waypoint is checking…",
     hello: "Hi, I'm Waypoint, your travel concierge. Tell me where you're going and when.",
     welcomeBack: (name) => `Welcome back${name ? ", " + name : ""}.`,
@@ -41,14 +50,12 @@ const UI = {
       log_expense: "Expense", forget_me: "Forget me", get_highlights: "Places", set_trip_constraints: "Trip rules",
       add_booking: "Booking", confirm_booking: "Confirmed", settle_up: "Group money", plan_fairness: "Fairness", export_trip: "Export",
     },
-    demoDone: "Demo group saved: Ana (Mexico), Sam (United States), Priya (India).",
+    demoDone: "Example group saved: Ana (Mexico), Sam (United States), Priya (India).",
     notUnderstood: "I didn't catch that. Try: “Can I bring vapes to Singapore?” or “Trip to Japan from December 3 to 10”.",
     send: "Send",
     speak: "Speak",
-    aboutText: "A simulated Alexa+ host built for a hackathon entry. It is not affiliated with Amazon and does not integrate with Alexa+. The server is a self-hosted MCP server; this page is a real MCP client.",
-    protocol: "Protocol log",
-    about: "About this host",
-    demo: "Demo group",
+    aboutText: `A simulated Alexa+ host built for a hackathon entry. It is not affiliated with Amazon and does not integrate with Alexa+. The server is a self-hosted MCP server; this page is a real MCP client (${PROTOCOL_VERSION}).`,
+    demo: "Example group",
     reset: "New session",
     nothingSaved: "Nothing to save yet.",
     cancel: "Cancel",
@@ -56,12 +63,19 @@ const UI = {
   },
   es: {
     connecting: "conectando…",
-    connected: (n, s) => `conectado · MCP ${PROTOCOL_VERSION} · ${n} herramientas · sesión ${s}`,
+    connected: (n) => `conectado · ${n} herramientas`,
     listening: "Escuchando…",
     noSpeech: "La entrada por voz no está disponible en este navegador. Escribe en su lugar.",
     lang: "es-MX",
-    brain: "Cerebro: enrutador local (no requiere AWS). Cerebro Bedrock: configura WAYPOINT_BRAIN=bedrock en el servidor.",
-    brainBedrock: "Cerebro: Bedrock vía Strands (en el servidor)",
+    brain: "Asistente: enrutador local, sin AWS.",
+    brainBedrock: "Asistente: agente Bedrock en el servidor.",
+    tagline: "Concierge de viajes · host simulado de Alexa+",
+    chatTitle: "Conversación",
+    lblVoice: "Leer en voz alta",
+    inputPlaceholder: "Escribe o habla",
+    emptyChat: "Pregunta lo que necesites de tu viaje: requisitos de entrada, qué empacar, qué visitar, cuentas del grupo.",
+    welcomeTags: ["Requisitos de entrada", "Reglas locales", "Presupuesto", "Equipaje", "Plan de días", "Cuentas del grupo"],
+    protocol: "Para desarrolladores: registro MCP",
     thinking: "Waypoint está revisando…",
     hello: "Hola, soy Waypoint, tu concierge de viajes. Dime a dónde vas y cuándo.",
     welcomeBack: (name) => `Hola de nuevo${name ? ", " + name : ""}.`,
@@ -91,9 +105,7 @@ const UI = {
     notUnderstood: "No entendí. Prueba: “¿Puedo llevar vapes a Singapur?” o “Viajo a Japón del 3 al 10 de diciembre”.",
     send: "Enviar",
     speak: "Hablar",
-    aboutText: "Un host simulado de Alexa+ creado para una entrada de hackathon. No está afiliado a Amazon ni se integra con Alexa+. El servidor es un servidor MCP propio; esta página es un cliente MCP real.",
-    protocol: "Registro del protocolo",
-    about: "Acerca de este host",
+    aboutText: `Un host simulado de Alexa+ creado para una entrada de hackathon. No está afiliado a Amazon ni se integra con Alexa+. El servidor es un servidor MCP propio; esta página es un cliente MCP real (${PROTOCOL_VERSION}).`,
     demo: "Grupo de ejemplo",
     reset: "Nueva sesión",
     nothingSaved: "Nada que guardar todavía.",
@@ -121,6 +133,7 @@ let mcpUser = (() => {
 })() || `viewer-${crypto.randomUUID ? crypto.randomUUID().slice(0, 18) : Math.random().toString(36).slice(2, 14)}`;
 try { localStorage.setItem("waypoint-user", mcpUser); } catch {}
 let brainUnavailable = false;
+let toolCount = null;
 let unmountApp = null;
 let lastStructured = null;
 let currentBrief = null;
@@ -132,18 +145,38 @@ const t = (k) => UI[lang][k];
 
 function applyLang() {
   document.documentElement.lang = lang;
-  $("lang").value = lang;
+  for (const b of document.querySelectorAll(".seg button[data-lang]")) b.setAttribute("aria-pressed", String(b.dataset.lang === lang));
+  $("tagline").textContent = t("tagline");
+  $("chatTitle").textContent = t("chatTitle");
   $("send").textContent = t("send");
   $("mic").setAttribute("aria-label", t("speak"));
-  $("lblVoiceOut").textContent = lang === "es" ? "Leer en voz alta" : "Speak";
+  $("lblVoiceOut").textContent = t("lblVoice");
   $("demoGroup").textContent = t("demo");
   $("reset").textContent = t("reset");
   $("lblProtocol").textContent = t("protocol");
-  $("lblAbout").textContent = t("about");
   $("aboutText").textContent = t("aboutText");
-  $("text").placeholder = lang === "es" ? "Escribe o habla" : "Type or speak";
+  $("text").placeholder = t("inputPlaceholder");
   $("brainMode").textContent = brainUnavailable ? t("brain") : t("brainBedrock");
+  $("welcomeTags").innerHTML = t("welcomeTags").map((x) => `<li>${esc(x)}</li>`).join("");
+  if (!$("transcript").children.length) renderEmptyChat();
+  // Text that the browser set in the other language: the clock, the connection line and the greeting.
+  tickClock();
+  if (toolCount !== null) $("connState").textContent = t("connected")(toolCount);
+  if (!$("stage").classList.contains("active")) $("headline").textContent = t("hello");
   renderChips();
+}
+
+function renderEmptyChat() {
+  $("transcript").innerHTML = `<p class="empty-chat">${esc(t("emptyChat"))}</p>`;
+}
+
+// The language follows the traveler. A switch re-draws the trip hero (the words on it are localized).
+async function setLang(next, { refresh = true } = {}) {
+  if (next === lang) return;
+  lang = next;
+  try { localStorage.setItem("waypoint-lang", lang); } catch {}
+  applyLang();
+  if (refresh && client && currentBrief) await refreshHero().catch(() => {});
 }
 
 function renderChips() {
@@ -188,11 +221,13 @@ function appendLog(dir, msg) {
 }
 
 function bubble(role, text) {
+  const box = $("transcript");
+  box.querySelector(".empty-chat")?.remove();
   const div = document.createElement("div");
   div.className = `bubble ${role}`;
   div.textContent = text;
-  $("transcript").appendChild(div);
-  $("transcript").scrollTop = $("transcript").scrollHeight;
+  box.appendChild(div);
+  box.scrollTop = box.scrollHeight;
 }
 
 function speak(text) {
@@ -212,7 +247,8 @@ async function connect() {
   client = new McpClient({ url: "/mcp", user: mcpUser, locale: () => t("lang"), onLog: appendLog, onElicit: showElicitation });
   await client.initialize();
   const { tools } = await client.listTools();
-  $("connState").textContent = t("connected")(tools.length, (client.sessionId || "—").slice(0, 8));
+  toolCount = tools.length;
+  $("connState").textContent = t("connected")(toolCount);
   $("brainMode").textContent = brainUnavailable ? t("brain") : t("brainBedrock");
   await greet();
 }
@@ -521,6 +557,9 @@ async function renderBrainReply(reply) {
 async function handleUtterance(text) {
   if (!text.trim() || busy) return;
   busy = true;
+  // The host answers in the language the traveler wrote in; the hero is redrawn after the reply.
+  const written = detectLang(text);
+  if (written) await setLang(written, { refresh: false });
   bubble("user", text);
   $("stage").classList.add("active");
   setThinking(true);
@@ -580,12 +619,9 @@ function connectReporting() {
 }
 
 function bindUi() {
-  $("lang").addEventListener("change", (e) => {
-    lang = e.target.value;
-    try { localStorage.setItem("waypoint-lang", lang); } catch {}
-    applyLang();
-    if (client) greet().catch(() => {});
-  });
+  for (const b of document.querySelectorAll(".seg button[data-lang]")) {
+    b.addEventListener("click", () => setLang(b.dataset.lang));
+  }
   $("device").addEventListener("change", (e) => {
     device = e.target.value;
     $("frame").dataset.device = device;
@@ -609,6 +645,9 @@ function bindUi() {
     $("cards").innerHTML = "";
     $("apps").innerHTML = "";
     $("trace").innerHTML = "";
+    $("headline").textContent = "";
+    $("transcript").innerHTML = "";
+    renderEmptyChat();
     renderChips();
     await connectReporting();
   });
