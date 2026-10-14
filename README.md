@@ -92,7 +92,7 @@ Every tool declares an `inputSchema`, an `outputSchema`, `annotations` (`readOnl
 | Purchasing power | [World Bank PA.NUS.PRVT.PP](https://data.worldbank.org/indicator/PA.NUS.PRVT.PP) | CC BY 4.0 | `data/vendor/ppp.json` |
 | Plug types and emergency numbers | [Wikidata P2853 / P2852](https://www.wikidata.org/) | CC0 | `data/vendor/wikidata-plugs-emergency.json` |
 | Countries, cities (population 300,000+ and capitals) | [Wikidata](https://www.wikidata.org/) via `scripts/build-world.ts` | CC0 | `data/world/countries.json`, `data/world/cities.json` |
-| Places to visit, 196 countries | Curated by Waypoint from the Wikidata list (ids must exist there; a test enforces it) and ranked by Wikipedia popularity for the rest | CC0 (ids); descriptions are Waypoint's or Wikipedia's | `highlights/*.json` (curated), `data/world/highlights/*.json` (ranked) |
+| Places to visit, 194 countries with places | Curated by Waypoint from the Wikidata list (ids must exist there; a test enforces it) and ranked by Wikipedia popularity for the rest | CC0 (ids); descriptions are Waypoint's or Wikipedia's | `highlights/*.json` (curated), `data/world/highlights/*.json` (ranked) |
 | Place descriptions | First sentence of each place's Wikipedia article, linked from the place | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (attribution and link kept) | `data/grounding/places.json`, applied to `highlights/*.json` |
 
 Not used: `Frankfurter` (no VND), REST Countries (discontinued), mledoze/countries (ODbL), the Mexican SRE guide (anti-bot challenge; link only).

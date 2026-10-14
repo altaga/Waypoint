@@ -8,7 +8,7 @@ Last updated: 2026-10-13. Repository: branch `claude/elegant-wozniak-qch21g`.
 - **Concierge:** a Bedrock/Strands agent calls several tools in one turn. It runs in the same process as the server (no local port), records every tool call, and answers in 1 to 3 spoken sentences. The live check runs after every deploy.
 - **Day plans:** the agent may only use place ids from `get_highlights`. `build_itinerary` checks the plan by rule (day range, repeats across days, unknown or wrong-country places, pace, avoided interests, daily time) and saves only a plan that passes.
 - **Worldwide catalog:** 194 countries have curated places: 1,114 in total. Each place has an English description for 948 places and a Spanish one for 728 places, taken from the first sentence of its Wikipedia article with a link (CC BY-SA 4.0). The other places keep Waypoint's own text, marked `curated`.
-- **Worldwide reference:** 196 countries and 1,699 cities resolve by name in English and Spanish (`data/world/`, Wikidata CC0).
+- **Worldwide reference:** 197 countries and 1,698 cities resolve by name in English and Spanish (`data/world/`, Wikidata CC0).
 - **Ranked lists:** 182 countries have a ranked list from Wikidata and Wikipedia popularity (`data/world/highlights/`). They are noisy: some entries are not destinations. The curated list wins for every country that has one.
 - **Group money:** expenses with a payer and the people who share them, settle-up with the fewest transfers (exact to the cent), a spending limit with conversion, fairness per traveler, bookings with free-cancellation deadlines, and export to calendar (ICS) or Markdown.
 - **Packs:** 13 country packs, 13 of 13 valid. Curated overlays for CN, JP, KR, SG, TH and VN.
