@@ -108,9 +108,11 @@ select, .btn-ghost { font-size: 14px; padding: 7px 12px; border-radius: 10px; bo
 @keyframes lb-sweep { from { background-position: 200% 0; } to { background-position: 0 0; } }
 @keyframes lb-breathe { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
 
-/* What Waypoint can help with, kept at the foot of the screen so it never looks empty. */
+/* What Waypoint can help with: the first thing on an empty screen, and out of the way once there are cards. */
 .welcome { display: flex; flex-direction: column; gap: 14px; margin-top: auto; padding-top: 8px; }
 .welcome[hidden] { display: none; }
+.stage.active .welcome { display: none; }
+.stage.active:has(.cards:empty) .welcome { display: flex; }
 .welcome-tags { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 0; padding: 0; }
 .welcome-tags li { font-size: 13px; color: #cfe8ff; padding: 6px 12px; border-radius: 999px; background: rgba(63, 182, 255, .1); border: 1px solid rgba(63, 182, 255, .22); }
 
@@ -135,7 +137,7 @@ select, .btn-ghost { font-size: 14px; padding: 7px 12px; border-radius: 10px; bo
 
 /* ---------- Reply ---------- */
 .reply { display: flex; flex-direction: column; gap: 8px; }
-.headline { font-size: 24px; line-height: 1.3; font-weight: 600; margin: 0; letter-spacing: -.01em; max-width: 44ch; }
+.headline { font-size: 20px; line-height: 1.35; font-weight: 600; margin: 0; letter-spacing: -.01em; max-width: 48ch; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
 .headline:empty { display: none; }
 
 /* ---------- Cards ---------- */
@@ -160,6 +162,12 @@ select, .btn-ghost { font-size: 14px; padding: 7px 12px; border-radius: 10px; bo
 .row .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 7px; background: #8a909a; flex: none; }
 .row.ok .dot { background: var(--s-ok); } .row.warn .dot { background: var(--s-warn); } .row.blocked .dot { background: var(--s-bad); }
 .row .value { text-align: right; color: #d5dce7; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+/* Long values (a description, a sentence) read better under their label than squeezed beside it. */
+.row.long { flex-direction: column; gap: 3px; }
+.row.long .value { text-align: left; -webkit-line-clamp: 6; }
+/* A list card spans the whole row, so short cards do not leave gaps beside it. */
+.card.wide { grid-column: 1 / -1; }
+.more { font-size: 12px; margin: 8px 0 0; }
 
 .verdict { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-top: 1px solid var(--s-line); }
 .verdict:first-of-type { border-top: 0; padding-top: 2px; }

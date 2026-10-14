@@ -68,12 +68,19 @@ function shell(kind, title, body, sc, lang, extra = "") {
   return `<article class="card k-${kind}" ${extra}><header class="ch"><h2>${esc(title)}</h2></header>${body}${sourceLine(sc, lang, PREFER[kind])}</article>`;
 }
 
+// A list longer than this shows its first rows and a count; the rest is one tap away in the conversation.
+const MAX_ROWS = 8;
 export function genericCard(card, sc = {}, lang = "en") {
   if (!card) return "";
-  const rows = (card.rows || [])
-    .map((r) => `<div class="row ${esc(r.status || "")}"><span class="label"><span class="dot"></span>${esc(r.label)}</span><span class="value">${esc(r.value)}</span></div>`)
+  const all = card.rows || [];
+  const shown = all.slice(0, MAX_ROWS);
+  const more = all.length - shown.length;
+  const rows = shown
+    .map((r) => `<div class="row ${esc(r.status || "")}${String(r.value ?? "").length > 40 ? " long" : ""}"><span class="label"><span class="dot"></span>${esc(r.label)}</span><span class="value">${esc(r.value)}</span></div>`)
     .join("");
-  return `<article class="card"><header class="ch"><h2>${esc(card.title)}</h2>${card.subtitle ? `<div class="sub">${esc(card.subtitle)}</div>` : ""}</header>${rows}${sourceLine(sc, lang)}</article>`;
+  const count = more > 0 ? `<p class="muted-s more">${esc(lang === "es" ? `y ${more} más` : `and ${more} more`)}</p>` : "";
+  const wide = all.length > 4 ? " wide" : "";
+  return `<article class="card${wide}"><header class="ch"><h2>${esc(card.title)}</h2>${card.subtitle ? `<div class="sub">${esc(card.subtitle)}</div>` : ""}</header>${rows}${count}${sourceLine(sc, lang)}</article>`;
 }
 
 function entryCard(sc, lang) {
