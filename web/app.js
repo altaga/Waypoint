@@ -147,6 +147,7 @@ let unmountApp = null;
 let lastStructured = null;
 let currentBrief = null;
 let lastUi = null;
+let speechAudio = null;
 let panelFrame = null;
 let panelStructured = null;
 // One request at a time: the text box, the chips and the mic all send through handleUtterance.
@@ -259,16 +260,46 @@ function pickVoice(lang) {
   return same.find((v) => v.localService) || same[0] || family.find((v) => v.localService) || family[0] || null;
 }
 
-function speak(text) {
-  if (!$("voiceOut").checked || !("speechSynthesis" in window)) return;
+// Stops whatever is being said, the neural voice or the browser's.
+function stopSpeech() {
+  if (speechAudio) { speechAudio.pause(); speechAudio = null; }
+  if ("speechSynthesis" in window) speechSynthesis.cancel();
+}
+
+// The reply in a neural voice (Amazon Polly, through the server). Throws when the server cannot speak.
+async function speakNeural(spoken, lang) {
+  const res = await fetch("/api/speech", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ text: spoken, lang }) });
+  if (!res.ok) throw new Error(`speech ${res.status}`);
+  const { audio, type } = await res.json();
+  const bytes = Uint8Array.from(atob(audio), (c) => c.charCodeAt(0));
+  const url = URL.createObjectURL(new Blob([bytes], { type: type || "audio/mpeg" }));
+  const a = new Audio(url);
+  speechAudio = a;
+  const done = () => { setLight("idle"); URL.revokeObjectURL(url); if (speechAudio === a) speechAudio = null; };
+  a.onplay = () => setLight("speaking");
+  a.onended = done;
+  a.onerror = done;
+  await a.play();
+}
+
+async function speak(text) {
+  if (!$("voiceOut").checked) return;
+  stopSpeech();
   const lang = t("lang");
-  const u = new SpeechSynthesisUtterance(speakable(text, lang));
+  const spoken = speakable(text, lang);
+  try {
+    await speakNeural(spoken, lang);
+    return;
+  } catch {
+    // No neural voice (the server cannot synthesize, or autoplay is blocked): the browser's voice says it.
+  }
+  if (!("speechSynthesis" in window)) return;
+  const u = new SpeechSynthesisUtterance(spoken);
   u.lang = lang;
   const voice = pickVoice(lang);
   if (voice) u.voice = voice;
   u.onstart = () => setLight("speaking");
   u.onend = () => setLight("idle");
-  speechSynthesis.cancel();
   speechSynthesis.speak(u);
 }
 

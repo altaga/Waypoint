@@ -46,6 +46,8 @@ export class WaypointStack extends Stack {
       },
     });
     table.grantReadWriteData(role);
+    // Neural speech for the host's replies (Amazon Polly); the function only synthesizes text.
+    role.addToPrincipalPolicy(new iam.PolicyStatement({ actions: ["polly:SynthesizeSpeech"], resources: ["*"] }));
     // Bedrock access for the brain: text models only, invoked by this function's role.
     role.addToPrincipalPolicy(new iam.PolicyStatement({
       actions: ["bedrock:InvokeModel", "bedrock:InvokeModelWithResponseStream", "bedrock:Converse", "bedrock:ConverseStream"],

@@ -5,6 +5,7 @@ import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/
 import { createContext, type AppContext } from "./context.ts";
 import { createWaypointMcpServer } from "./mcp-server.ts";
 import { runBrain, brainConfigured, type BrainTurn } from "./brain.ts";
+import { createSpeech, type SpeechLang } from "./speech.ts";
 import { mountAlexa } from "./alexa/endpoint.ts";
 import { setLocalMcpFactory } from "./alexa/mcp-call.ts";
 
@@ -84,6 +85,25 @@ export function createApp(ctx: AppContext = createContext()) {
 
   app.get("/healthz", (_req, res) => {
     res.json({ ok: true, server: "waypoint", protocolVersion: "2025-11-25", packs: ctx.packs.list().length, offline: ctx.offline, brain: brainConfigured() });
+  });
+
+  const speech = createSpeech();
+  // The host's reply, said with a neural voice. The audio comes back as base64 inside JSON, so the
+  // function URL needs no binary configuration. On failure the browser speaks the reply instead.
+  app.post("/api/speech", express.json(), async (req, res) => {
+    const text = typeof req.body?.text === "string" ? req.body.text : "";
+    if (!text.trim()) {
+      res.status(400).json({ error: "text required" });
+      return;
+    }
+    const lang: SpeechLang = String(req.body?.lang || "").toLowerCase().startsWith("en") ? "en" : "es";
+    try {
+      const audio = await speech(text, lang);
+      res.json({ audio: Buffer.from(audio).toString("base64"), type: "audio/mpeg" });
+    } catch (err) {
+      console.error("speech_failed", err instanceof Error ? err.name : "Error");
+      res.status(503).json({ error: "speech_unavailable" });
+    }
   });
 
   app.post("/api/brain", express.json(), async (req, res) => {
