@@ -6,6 +6,7 @@ import { McpClient, PROTOCOL_VERSION } from "./mcp-client.js";
 import { routeUtterance } from "./router.js";
 import { esc, heroHtml, renderTool, tripIcs, words } from "./cards.js";
 import { detectLang } from "./lang.js";
+import { speakable } from "./speech.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -249,10 +250,22 @@ function bubble(role, text) {
   box.scrollTop = box.scrollHeight;
 }
 
+// A voice for the reply's language, picked explicitly: a fallback voice can read the words with the wrong accent.
+function pickVoice(lang) {
+  const want = lang.toLowerCase();
+  const voices = speechSynthesis.getVoices();
+  const same = voices.filter((v) => v.lang.toLowerCase().replace("_", "-") === want);
+  const family = voices.filter((v) => v.lang.toLowerCase().startsWith(want.slice(0, 2)));
+  return same.find((v) => v.localService) || same[0] || family.find((v) => v.localService) || family[0] || null;
+}
+
 function speak(text) {
   if (!$("voiceOut").checked || !("speechSynthesis" in window)) return;
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang = t("lang");
+  const lang = t("lang");
+  const u = new SpeechSynthesisUtterance(speakable(text, lang));
+  u.lang = lang;
+  const voice = pickVoice(lang);
+  if (voice) u.voice = voice;
   u.onstart = () => setLight("speaking");
   u.onend = () => setLight("idle");
   speechSynthesis.cancel();
