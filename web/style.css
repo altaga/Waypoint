@@ -59,10 +59,10 @@ button:disabled { opacity: .45; cursor: default; }
 .controls { display: flex; flex-wrap: wrap; gap: var(--s-8); align-items: center; }
 .seg { position: relative; display: inline-flex; padding: 3px; gap: 2px; border-radius: 999px; background: var(--canvas); border: 1px solid var(--hairline); }
 .seg button {
-  position: relative; border: 0; background: transparent; color: var(--ink-2); height: 34px; min-width: 44px; padding: 0 var(--s-12);
+  position: relative; border: 0; background: transparent; color: var(--ink-2); height: 32px; min-width: 44px; padding: 0 var(--s-12);
   border-radius: 999px; font-size: var(--t-footnote); font-weight: 600;
 }
-.seg button::after { content: ""; position: absolute; inset: -5px -4px; } /* 44 px hit area around a 34 px control */
+.seg button::after { content: ""; position: absolute; inset: -6px -4px; } /* 44 px hit area around a 32 px control */
 .seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 2px rgba(0, 0, 0, .12); }
 select, .btn-ghost {
   height: 40px; padding: 0 var(--s-16); border-radius: 999px; border: 1px solid var(--field); background: transparent; color: var(--ink);
@@ -324,7 +324,7 @@ select, .btn-ghost {
 @media (max-width: 560px) {
   .top { padding: var(--s-8) var(--s-16); gap: var(--s-8); }
   .tagline { display: none; }
-  .controls { gap: var(--s-6); }
+  .controls { display: grid; grid-template-columns: auto auto; justify-content: start; gap: var(--s-6); }
   select, .btn-ghost { height: 36px; padding: 0 var(--s-12); font-size: 13px; }
   .seg button { height: 30px; }
   .stage { padding: var(--s-8) var(--s-16) var(--s-20); }
@@ -342,7 +342,8 @@ select, .btn-ghost {
 }
 @media (pointer: coarse) {
   button, .chip, select { min-height: 44px; }
-  .act, .apps .close { min-height: 44px; }
+  .act, .apps .close, .toggle { min-height: 44px; }
+  .foot summary { min-height: 44px; padding: 12px 0; }
   .seg button { min-height: 40px; }
 }
 
