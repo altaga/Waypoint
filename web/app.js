@@ -12,7 +12,7 @@ const $ = (id) => document.getElementById(id);
 const UI = {
   en: {
     connecting: "connecting…",
-    connected: (n) => `connected · ${n} tools`,
+    connected: () => "connected",
     listening: "Listening…",
     noSpeech: "Voice input is not available in this browser. Type instead.",
     lang: "en-US",
@@ -23,6 +23,7 @@ const UI = {
     lblVoice: "Read aloud",
     inputPlaceholder: "Type or speak",
     emptyChat: "Ask about your trip: entry rules, what to pack, what to see, what your group owes.",
+    welcomeIntro: "I can help with",
     welcomeTags: ["Entry rules", "Local rules", "Budget", "Packing", "Day plan", "Group money"],
     protocol: "For developers: MCP protocol log",
     thinking: "Waypoint is checking…",
@@ -64,7 +65,7 @@ const UI = {
   },
   es: {
     connecting: "conectando…",
-    connected: (n) => `conectado · ${n} herramientas`,
+    connected: () => "conectado",
     listening: "Escuchando…",
     noSpeech: "La entrada por voz no está disponible en este navegador. Escribe en su lugar.",
     lang: "es-MX",
@@ -75,6 +76,7 @@ const UI = {
     lblVoice: "Leer en voz alta",
     inputPlaceholder: "Escribe o habla",
     emptyChat: "Pregunta lo que necesites de tu viaje: requisitos de entrada, qué empacar, qué visitar, cuentas del grupo.",
+    welcomeIntro: "Puedo ayudarte con",
     welcomeTags: ["Requisitos de entrada", "Reglas locales", "Presupuesto", "Equipaje", "Plan de días", "Cuentas del grupo"],
     protocol: "Para desarrolladores: registro MCP",
     thinking: "Waypoint está revisando…",
@@ -162,6 +164,7 @@ function applyLang() {
   $("aboutText").textContent = t("aboutText");
   $("text").placeholder = t("inputPlaceholder");
   $("brainMode").textContent = brainUnavailable ? t("brain") : t("brainBedrock");
+  $("welcomeIntro").textContent = t("welcomeIntro");
   $("welcomeTags").innerHTML = t("welcomeTags").map((x) => `<li>${esc(x)}</li>`).join("");
   if (!$("transcript").children.length) renderEmptyChat();
   // Text that the browser set in the other language: the clock, the connection line and the greeting.
@@ -382,6 +385,7 @@ async function renderResult(result, tool) {
   }
   // The trip hero is read from the server after every action, so a change (a booking, a deleted trip) shows at once.
   await refreshHero();
+  renderChips();
   const uri = result._meta?.ui?.resourceUri;
   if (uri && device !== "voice") {
     lastUi = { uri, structured: sc };

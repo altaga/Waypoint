@@ -167,7 +167,12 @@ select, .btn-ghost {
 .stage.active .welcome { display: none; }
 .stage.active:has(.cards:empty) .welcome { display: flex; }
 .welcome-tags { display: flex; flex-wrap: wrap; gap: var(--s-8); list-style: none; margin: 0; padding: 0; }
-.welcome-tags li { min-height: 36px; display: inline-flex; align-items: center; padding: 0 var(--s-12); border-radius: 999px; background: var(--d-inner); border: 1px solid var(--d-line); color: #cfe3ff; font-size: var(--t-footnote); }
+.welcome-intro { margin: 0; font-size: var(--t-caption); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--d-ink-2); }
+.welcome-tags { row-gap: var(--s-4); }
+.welcome-tags li { color: var(--d-ink); font-size: var(--t-body); }
+.welcome-tags li:not(:last-child)::after { content: "·"; margin-left: var(--s-8); color: var(--d-ink-2); }
+.stage:not(.active):has(#hero:empty):has(.cards:empty) { justify-content: center; }
+.stage:not(.active):has(#hero:empty):has(.cards:empty) .welcome { margin-top: var(--s-24); }
 
 /* ---------- Hero: the trip, in one calm block ---------- */
 .hero {
@@ -221,6 +226,8 @@ select, .btn-ghost {
 .muted-s { color: var(--d-ink-2); margin: 0; font-size: var(--t-footnote); }
 .more { font-size: var(--t-caption); margin-top: var(--s-8); }
 .card.wide { grid-column: 1 / -1; }
+.cards > .card:only-child { grid-column: 1 / -1; }
+.cards > .k-packing:only-child .check { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); column-gap: var(--s-16); }
 
 .row { display: flex; justify-content: space-between; gap: var(--s-12); padding: var(--s-8) 0; border-top: 1px solid var(--d-line); font-size: var(--t-footnote); }
 .row:first-of-type { border-top: 0; }
@@ -314,6 +321,12 @@ select, .btn-ghost {
 .form input[type="text"] { width: 100%; min-height: 40px; padding: 0 var(--s-12); border-radius: var(--r-8); border: 1px solid #6e6e73; background: var(--d-base); color: var(--d-ink); }
 .form .actions { display: flex; gap: var(--s-8); margin-top: var(--s-12); }
 
+@media (max-width: 1040px) {
+  /* The text box stays reachable: on narrow screens the conversation sits under the device. */
+  .input { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; padding: var(--s-12) var(--s-16) calc(var(--s-12) + env(safe-area-inset-bottom)); background: var(--surface); border-top: 1px solid var(--hairline); box-shadow: 0 -8px 24px -16px rgba(0, 0, 0, .25); }
+  body { padding-bottom: calc(72px + env(safe-area-inset-bottom)); }
+  .toast { bottom: calc(88px + env(safe-area-inset-bottom)); }
+}
 .toast { position: fixed; left: 50%; bottom: var(--s-24); transform: translateX(-50%); z-index: 10; padding: var(--s-8) var(--s-16); border-radius: 999px; background: var(--ink); color: var(--canvas); font-size: var(--t-footnote); }
 
 /* ---------- Footer: developer details, out of the way ---------- */
@@ -334,7 +347,13 @@ select, .btn-ghost {
   .topbar { padding: 0 var(--s-12); gap: var(--s-6); grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
   .topbar .brand-s { display: none; }
   .hero { padding: var(--s-16); }
-  .h-dest { font-size: 34px; }
+  .h-dest { font-size: 32px; }
+  .hero { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: var(--s-12); align-items: center; }
+  .h-main { display: contents; }
+  .h-kicker, .h-dest, .h-count { grid-column: 1; }
+  .hero .ring { grid-column: 2; grid-row: 1 / span 3; width: 80px; height: 80px; }
+  .h-actions { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; }
+  .act { padding: 0 var(--s-8); }
   .screen { min-height: 560px; }
   .headline { font-size: 18px; }
   .chat-col { padding: var(--s-16); }

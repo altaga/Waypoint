@@ -29,7 +29,7 @@ const L = {
     daysLeft: (n) => (n === 1 ? "1 day to go" : `${n} days to go`), tapToTick: "Tap to tick off", profile: "Traveler profile",
     planEmpty: "No day plan yet", planEmptyHint: "Tell me what you enjoy and I'll put one together from real places.", freeDays: "Free days",
     settleBtn: "Group money", settle: "Settle up", fairness: "Fairness", transfers: "Transfers", squared: "Everyone is square.", unassigned: (n) => `${n} expense(s) have no payer and are not counted.`, noLikes: "no likes saved", avoids: "Avoids",
-    nothing: "Nothing pending", calendar: "Add to calendar", share: "Share brief", copied: "Copied", panel: "Open dashboard (MCP App)",
+    nothing: "Nothing pending", calendar: "Add to calendar", share: "Share brief", copied: "Copied", panel: "View panel",
   },
   es: {
     source: "Fuente", verified: "verificado", visaFree: "Sin visa", upTo: (d) => `estancias de hasta ${d} días`,
@@ -39,8 +39,8 @@ const L = {
     morning: "Mañana", afternoon: "Tarde", evening: "Noche", day: "Día", brief: "Lo que falta", ready: "listo",
     daysLeft: (n) => (n === 1 ? "Falta 1 día" : `Faltan ${n} días`), tapToTick: "Toca para marcar", profile: "Perfil del viajero",
     planEmpty: "Aún no hay plan de días", planEmptyHint: "Dime qué te gusta y armo uno con lugares reales.", freeDays: "Días libres",
-    settleBtn: "Cuentas del grupo", settle: "Cuentas del grupo", fairness: "Equidad del plan", transfers: "Transferencias", squared: "Todos están a mano.", unassigned: (n) => `${n} gasto(s) no tienen quién pagó y no cuentan.`, noLikes: "sin gustos guardados", avoids: "Evita",
-    nothing: "Sin pendientes", calendar: "Agregar al calendario", share: "Compartir resumen", copied: "Copiado", panel: "Abrir panel (MCP App)",
+    settleBtn: "Cuentas", settle: "Cuentas del grupo", fairness: "Equidad del plan", transfers: "Transferencias", squared: "Todos están a mano.", unassigned: (n) => `${n} gasto(s) no tienen quién pagó y no cuentan.`, noLikes: "sin gustos guardados", avoids: "Evita",
+    nothing: "Sin pendientes", calendar: "Calendario", share: "Compartir", copied: "Copiado", panel: "Ver panel",
   },
 };
 export const words = (lang) => L[lang] || L.en;

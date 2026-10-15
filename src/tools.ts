@@ -200,6 +200,8 @@ const SEVERITY_LABEL: Record<string, { en: string; es: string }> = {
 };
 const categoryLabel = (c: string, locale: Locale) => CATEGORY_LABEL[c]?.[locale] ?? c.replace(/_/g, " ");
 const severityLabel = (v: string, locale: Locale) => SEVERITY_LABEL[v]?.[locale] ?? v;
+// The card colour for a rule: the same mapping as the readiness panel (arrest and severe are red).
+const ruleStatus = (v: string): "blocked" | "warn" | "info" => (v === "severe" || v === "arrest" ? "blocked" : v === "info" ? "info" : "warn");
 
 /** Locale-aware number formatting for spoken and on-screen money. */
 /** Spoken form of a verifier problem, in the request's language. */
@@ -627,7 +629,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const ruleRows = sortRules(pack?.localRules ?? []).slice(0, 5).map((r) => ({
           label: categoryLabel(r.category, locale),
           value: ruleText(r, locale),
-          status: (r.severity === "info" ? "info" : "warn") as "info" | "warn",
+          status: ruleStatus(r.severity),
         }));
         // One traveler who is the user is spoken to directly; a group is spoken about by name.
         const solo = travelers.length === 1 && travelers[0].role === "self";
@@ -757,7 +759,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             : pick(locale, `I found no verified rule about ${args.item} for ${countryName(dest, "en")}. Check the official source.`, `No encontré una regla verificada sobre ${args.item} para ${countryName(dest, "es")}. Consulta la fuente oficial.`);
           const env = baseEnvelope(ctx, dest, locale, {
             voice: itemVoice,
-            card: { pattern: "list", title: pick(locale, "Item check", "Revisión del artículo"), rows: matches.map((r) => ({ label: `${categoryLabel(r.category, locale)} · ${severityLabel(r.severity, locale)}`, value: ruleText(r, locale), status: "warn" as const })) },
+            card: { pattern: "list", title: pick(locale, "Item check", "Revisión del artículo"), rows: matches.map((r) => ({ label: `${categoryLabel(r.category, locale)} · ${severityLabel(r.severity, locale)}`, value: ruleText(r, locale), status: ruleStatus(r.severity) })) },
             data: { item: args.item, matches },
             followUps: [],
           });
