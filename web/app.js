@@ -438,6 +438,8 @@ function closePanel({ restoreFocus = false } = {}) {
 async function mountApp(uri, structured) {
   unmountApp?.();
   const read = await client.readResource(uri);
+  // The trip or the session changed while the panel was loading: do not open the old one.
+  if (lastUi?.uri !== uri) return;
   const html = read.contents?.[0]?.text || "";
   const holder = $("apps");
   holder.innerHTML = "";

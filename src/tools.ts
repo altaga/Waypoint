@@ -660,7 +660,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           card: {
             pattern: "card",
             title: pick(locale, `Trip to ${countryName(dest, "en")}`, `Viaje a ${countryName(dest, "es")}`),
-            subtitle: `${shortRange(args.startDate, args.endDate, locale)} · ${stay} ${pick(locale, "days", "días")}`,
+            subtitle: `${shortRange(args.startDate, args.endDate, locale)} · ${stay} ${stay === 1 ? pick(locale, "day", "día") : pick(locale, "days", "días")}`,
             rows: [...rows, ...ruleRows],
             footer: pack ? undefined : pick(locale, "No verified local rules for this destination yet.", "Aún no tengo reglas locales verificadas para este destino."),
           },

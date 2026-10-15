@@ -270,7 +270,7 @@ export function heroHtml(brief, lang, panel = false) {
   const dates = `${shortDate(brief.startDate, lang)} – ${shortDate(brief.endDate, lang)}`;
   return `<section class="hero">
     <div class="h-main">
-      <div class="h-kicker">${icon("plane")}${esc(dates)} · ${esc(brief.stay)} ${lang === "es" ? "días" : "days"}</div>
+      <div class="h-kicker">${icon("plane")}${esc(dates)} · ${esc(brief.stay)} ${brief.stay === 1 ? (lang === "es" ? "día" : "day") : (lang === "es" ? "días" : "days")}</div>
       <div class="h-dest">${esc(brief.destinationName || brief.destination)}</div>
       <div class="h-count">${esc(w.daysLeft(brief.daysUntil))}</div>
       <div class="h-actions">
