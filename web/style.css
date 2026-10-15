@@ -198,6 +198,9 @@ select, .btn-ghost {
 .reply { display: flex; flex-direction: column; gap: var(--s-8); }
 .headline { margin: 0; font-size: var(--t-headline); font-weight: 600; line-height: 1.35; letter-spacing: -.01em; max-width: 46ch; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .headline:empty { display: none; }
+/* Shown when the spoken reply is clamped: the full reply is in the chat. */
+.more-cue { margin: 0; font-size: var(--t-caption); color: var(--d-ink-2); }
+.more-cue[hidden] { display: none; }
 
 /* ---------- Cards: one surface, hairline rows, no ornament ---------- */
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--s-12); align-items: stretch; }

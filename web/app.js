@@ -26,6 +26,7 @@ const UI = {
     welcomeTags: ["Entry rules", "Local rules", "Budget", "Packing", "Day plan", "Group money"],
     protocol: "For developers: MCP protocol log",
     thinking: "Waypoint is checking…",
+    moreCue: "Full reply in the chat",
     hello: "Hi, I'm Waypoint, your travel concierge. Tell me where you're going and when.",
     welcomeBack: (name) => `Welcome back${name ? ", " + name : ""}.`,
     chips: [
@@ -77,6 +78,7 @@ const UI = {
     welcomeTags: ["Requisitos de entrada", "Reglas locales", "Presupuesto", "Equipaje", "Plan de días", "Cuentas del grupo"],
     protocol: "Para desarrolladores: registro MCP",
     thinking: "Waypoint está revisando…",
+    moreCue: "Respuesta completa en el chat",
     hello: "Hola, soy Waypoint, tu concierge de viajes. Dime a dónde vas y cuándo.",
     welcomeBack: (name) => `Hola de nuevo${name ? ", " + name : ""}.`,
     chips: [
@@ -156,6 +158,7 @@ function applyLang() {
   $("demoGroup").textContent = t("demo");
   $("reset").textContent = t("reset");
   $("lblProtocol").textContent = t("protocol");
+  $("moreCue").textContent = t("moreCue");
   $("aboutText").textContent = t("aboutText");
   $("text").placeholder = t("inputPlaceholder");
   $("brainMode").textContent = brainUnavailable ? t("brain") : t("brainBedrock");
@@ -660,6 +663,14 @@ function connectReporting() {
 }
 
 function bindUi() {
+  // A long spoken reply is clamped on the device: say that the full reply is in the chat.
+  const headline = $("headline");
+  const markClamp = () => {
+    const clamped = getComputedStyle(headline).webkitLineClamp !== "none" && headline.scrollHeight > headline.clientHeight + 1;
+    $("moreCue").hidden = !clamped;
+  };
+  new MutationObserver(markClamp).observe(headline, { childList: true, characterData: true, subtree: true });
+  window.addEventListener("resize", markClamp);
   for (const b of document.querySelectorAll(".seg button[data-lang]")) {
     b.addEventListener("click", () => setLang(b.dataset.lang));
   }

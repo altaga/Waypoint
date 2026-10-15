@@ -215,7 +215,7 @@ function settleCard(sc, lang) {
   const transfers = (d.transfers || [])
     .map((t) => `<li>${icon("coin")}<span><b>${esc(t.from)}</b> → <b>${esc(t.to)}</b> · ${esc(Number(t.amount).toFixed(2))} ${esc(d.home || "")}</span></li>`)
     .join("");
-  const body = `${rows}${transfers ? `<div class="sub-h">${esc(w.transfers)}</div><ul class="pending transfers">${transfers}</ul>` : `<p class="ok-line">${icon("check")}${esc(w.squared)}</p>`}${d.unassigned ? `<p class="muted-s">${esc(w.unassigned(d.unassigned))}</p>` : ""}`;
+  const body = `${rows}${transfers ? `<div class="sub-h">${esc(w.transfers)}</div><ul class="pending">${transfers}</ul>` : `<p class="ok-line">${icon("check")}${esc(w.squared)}</p>`}${d.unassigned ? `<p class="muted-s">${esc(w.unassigned(d.unassigned))}</p>` : ""}`;
   return shell("settle", sc.card?.title || w.settle, body, sc, lang);
 }
 
