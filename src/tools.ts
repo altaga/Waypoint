@@ -265,6 +265,12 @@ function packingItems(ctx: AppContext, trip: Trip, travelers: Traveler[], locale
   return items;
 }
 
+// A short date range for cards and the panel, in the traveler's language: "3 dic – 10 dic".
+function shortRange(startIso: string, endIso: string, locale: Locale): string {
+  const fmt = (iso: string) => new Date(`${iso}T12:00:00Z`).toLocaleDateString(locale === "es" ? "es-MX" : "en-US", { day: "numeric", month: "short", timeZone: "UTC" });
+  return `${fmt(startIso)} – ${fmt(endIso)}`;
+}
+
 function sortRules(rules: Rule[]): Rule[] {
   const rank = { severe: 0, arrest: 1, fine: 2, info: 3 } as const;
   return [...rules].sort((a, b) => rank[a.severity] - rank[b.severity]);
@@ -626,11 +632,14 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             status: (tooLong ? "blocked" : tone) as "ok" | "warn" | "blocked" | "info",
           };
         });
-        const ruleRows = sortRules(pack?.localRules ?? []).slice(0, 5).map((r) => ({
-          label: categoryLabel(r.category, locale),
-          value: ruleText(r, locale),
-          status: ruleStatus(r.severity),
-        }));
+        // The rules themselves are on the panel and the packing list; the trip card only counts them.
+        const localRules = sortRules(pack?.localRules ?? []);
+        const seriousRules = localRules.filter((r) => r.severity === "severe" || r.severity === "arrest").length;
+        const ruleRows = localRules.length ? [{
+          label: pick(locale, "Local rules", "Reglas locales"),
+          value: pick(locale, `${localRules.length} rules${seriousRules ? `, ${seriousRules} with arrest or severe penalties` : ""}. Details on the panel.`, `${localRules.length} reglas${seriousRules ? `, ${seriousRules} con arresto o pena grave` : ""}. Detalle en el panel.`),
+          status: seriousRules ? "blocked" as const : "warn" as const,
+        }] : [];
         // One traveler who is the user is spoken to directly; a group is spoken about by name.
         const solo = travelers.length === 1 && travelers[0].role === "self";
         const visaLines = travelers.map((t) => {
@@ -650,7 +659,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           card: {
             pattern: "card",
             title: pick(locale, `Trip to ${countryName(dest, "en")}`, `Viaje a ${countryName(dest, "es")}`),
-            subtitle: `${args.startDate} → ${args.endDate} · ${stay} ${pick(locale, "days", "días")}`,
+            subtitle: `${shortRange(args.startDate, args.endDate, locale)} · ${stay} ${pick(locale, "days", "días")}`,
             rows: [...rows, ...ruleRows],
             footer: pack ? undefined : pick(locale, "No verified local rules for this destination yet.", "Aún no tengo reglas locales verificadas para este destino."),
           },
@@ -1281,7 +1290,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           card: {
             pattern: "list",
             title: pick(locale, "What's left", "Lo que falta"),
-            subtitle: `${trip.startDate} → ${trip.endDate}`,
+            subtitle: shortRange(trip.startDate, trip.endDate, locale),
             rows: [
               { label: pick(locale, "Days left", "Días restantes"), value: String(left), status: "info" },
               { label: pick(locale, "Ready", "Preparación"), value: `${readiness}%`, status: readiness >= 80 ? "ok" : "warn" },

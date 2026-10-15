@@ -34,6 +34,8 @@ async function main() {
   console.log("local rule card shows the vape rule");
 
   await send("Trip to Japan from December 3 to 10");
+  await page.waitForSelector('#hero .act[data-action="panel"]', { timeout: 15000 });
+  await page.click('#hero .act[data-action="panel"]');
   await page.waitForSelector("#apps iframe", { timeout: 15000 });
   console.log("MCP App iframe mounted");
 

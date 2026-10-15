@@ -188,11 +188,12 @@ function briefCard(sc, lang) {
   return shell("brief", w.brief, items, sc, lang);
 }
 
-export function ring(pct, label) {
+export function ring(pct, label, from = null) {
   const r = 34;
   const c = 2 * Math.PI * r;
   const v = Math.max(0, Math.min(100, Number(pct) || 0));
-  return `<div class="ring" aria-label="${v}% ${esc(label)}"><svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="${r}" class="r-bg"/><circle cx="40" cy="40" r="${r}" class="r-fg" stroke-dasharray="${c}" stroke-dashoffset="${c * (1 - v / 100)}"/></svg><div class="r-v"><b>${v}%</b><span>${esc(label)}</span></div></div>`;
+  const start = from === null ? v : Math.max(0, Math.min(100, Number(from) || 0));
+  return `<div class="ring" aria-label="${v}% ${esc(label)}"><svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="${r}" class="r-bg"/><circle cx="40" cy="40" r="${r}" class="r-fg" stroke-dasharray="${c}" stroke-dashoffset="${c * (1 - v / 100)}" style="--from:${c * (1 - start / 100)}"/></svg><div class="r-v"><b>${v}%</b><span>${esc(label)}</span></div></div>`;
 }
 
 function profileCard(sc, lang) {
@@ -259,9 +260,13 @@ export function renderTool(tool, sc, lang) {
 }
 
 /** The trip hero: destination, dates, countdown and readiness, with real-world actions. */
+// The ring moves from the readiness the hero last showed, so a change is seen.
+let heroLast = null;
 export function heroHtml(brief, lang, panel = false) {
   const w = words(lang);
   if (!brief || !brief.destination) return "";
+  const from = heroLast;
+  heroLast = brief.readiness;
   const dates = `${shortDate(brief.startDate, lang)} – ${shortDate(brief.endDate, lang)}`;
   return `<section class="hero">
     <div class="h-main">
@@ -275,7 +280,7 @@ export function heroHtml(brief, lang, panel = false) {
         ${panel ? `<button type="button" class="act" data-action="panel">${esc(w.panel)}</button>` : ""}
       </div>
     </div>
-    ${ring(brief.readiness, w.ready)}
+    ${ring(brief.readiness, w.ready, from)}
   </section>`;
 }
 

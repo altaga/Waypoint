@@ -27,6 +27,7 @@ const UI = {
     welcomeTags: ["Entry rules", "Local rules", "Budget", "Packing", "Day plan", "Group money"],
     protocol: "For developers: MCP protocol log",
     thinking: "Waypoint is checking…",
+    menu: "Settings",
     moreCue: "Full reply in the chat",
     hello: "Hi, I'm Waypoint, your travel concierge. Tell me where you're going and when.",
     welcomeBack: (name) => `Welcome back${name ? ", " + name : ""}.`,
@@ -80,6 +81,7 @@ const UI = {
     welcomeTags: ["Requisitos de entrada", "Reglas locales", "Presupuesto", "Equipaje", "Plan de días", "Cuentas del grupo"],
     protocol: "Para desarrolladores: registro MCP",
     thinking: "Waypoint está revisando…",
+    menu: "Ajustes",
     moreCue: "Respuesta completa en el chat",
     hello: "Hola, soy Waypoint, tu concierge de viajes. Dime a dónde vas y cuándo.",
     welcomeBack: (name) => `Hola de nuevo${name ? ", " + name : ""}.`,
@@ -161,6 +163,7 @@ function applyLang() {
   $("reset").textContent = t("reset");
   $("lblProtocol").textContent = t("protocol");
   $("moreCue").textContent = t("moreCue");
+  $("menuBtn").textContent = t("menu");
   $("aboutText").textContent = t("aboutText");
   $("text").placeholder = t("inputPlaceholder");
   $("brainMode").textContent = brainUnavailable ? t("brain") : t("brainBedrock");
@@ -363,7 +366,11 @@ async function togglePacked(id, on) {
     return;
   }
   const card = document.querySelector("#cards .k-packing");
-  if (card) card.outerHTML = renderTool("packing_checklist", result.structuredContent, lang);
+  if (card) {
+    card.outerHTML = renderTool("packing_checklist", result.structuredContent, lang);
+    // The ticked item gets a short confirmation; the others stay still.
+    document.querySelector(`#cards [data-pack-id="${CSS.escape(id)}"]`)?.classList.add("just");
+  }
   await refreshHero();
 }
 
@@ -388,9 +395,9 @@ async function renderResult(result, tool) {
   renderChips();
   const uri = result._meta?.ui?.resourceUri;
   if (uri && device !== "voice") {
+    // The panel opens from the hero's button; it does not cover the trip on arrival.
     lastUi = { uri, structured: sc };
     $("hero").innerHTML = currentBrief ? heroHtml(currentBrief, lang, true) : "";
-    await mountApp(uri, sc);
   }
 }
 
@@ -667,6 +674,11 @@ function connectReporting() {
 }
 
 function bindUi() {
+  // Small screens keep the settings behind one button, so the header is a single row.
+  $("menuBtn").addEventListener("click", () => {
+    const open = $("controlsBox").classList.toggle("open");
+    $("menuBtn").setAttribute("aria-expanded", String(open));
+  });
   // A long spoken reply is clamped on the device: say that the full reply is in the chat.
   const headline = $("headline");
   const markClamp = () => {
