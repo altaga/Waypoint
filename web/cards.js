@@ -147,7 +147,7 @@ function packingCard(sc, lang) {
   const avoid = items.filter((i) => i.group === "do-not-pack");
   const pct = pack.length ? Math.round((100 * pack.filter((i) => i.done).length) / pack.length) : 0;
   const body = `
-    <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}"><span style="width:${pct}%"></span></div>
+    <div class="progress" role="progressbar" aria-label="${esc(w.packed(pack.filter((i) => i.done).length, pack.length))}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}"><span style="width:${pct}%"></span></div>
     <div class="sub">${esc(w.packed(pack.filter((i) => i.done).length, pack.length))} · ${esc(w.tapToTick)}</div>
     <ul class="check">${pack
       .map((i) => `<li><button type="button" class="tick ${i.done ? "on" : ""}" data-pack-id="${esc(i.id)}" aria-pressed="${i.done}">${icon("check")}<span>${esc(i.label)}</span></button></li>`)
@@ -260,13 +260,13 @@ export function renderTool(tool, sc, lang) {
 }
 
 /** The trip hero: destination, dates, countdown and readiness, with real-world actions. */
-// The ring moves from the readiness the hero last showed, so a change is seen.
+// The ring moves from the readiness the hero last showed for the same trip, so a change is seen.
 let heroLast = null;
 export function heroHtml(brief, lang, panel = false) {
   const w = words(lang);
   if (!brief || !brief.destination) return "";
-  const from = heroLast;
-  heroLast = brief.readiness;
+  const from = heroLast && heroLast.tripId === brief.tripId ? heroLast.readiness : null;
+  heroLast = { tripId: brief.tripId, readiness: brief.readiness };
   const dates = `${shortDate(brief.startDate, lang)} – ${shortDate(brief.endDate, lang)}`;
   return `<section class="hero">
     <div class="h-main">

@@ -28,6 +28,7 @@ const UI = {
     protocol: "For developers: MCP protocol log",
     thinking: "Waypoint is checking…",
     menu: "Settings",
+    ariaLang: "Language", ariaDevice: "Device", optMobile: "Mobile", optVoice: "Voice only",
     moreCue: "Full reply in the chat",
     hello: "Hi, I'm Waypoint, your travel concierge. Tell me where you're going and when.",
     welcomeBack: (name) => `Welcome back${name ? ", " + name : ""}.`,
@@ -82,6 +83,7 @@ const UI = {
     protocol: "Para desarrolladores: registro MCP",
     thinking: "Waypoint está revisando…",
     menu: "Ajustes",
+    ariaLang: "Idioma", ariaDevice: "Dispositivo", optMobile: "Móvil", optVoice: "Solo voz",
     moreCue: "Respuesta completa en el chat",
     hello: "Hola, soy Waypoint, tu concierge de viajes. Dime a dónde vas y cuándo.",
     welcomeBack: (name) => `Hola de nuevo${name ? ", " + name : ""}.`,
@@ -164,6 +166,10 @@ function applyLang() {
   $("lblProtocol").textContent = t("protocol");
   $("moreCue").textContent = t("moreCue");
   $("menuBtn").textContent = t("menu");
+  document.querySelector(".seg").setAttribute("aria-label", t("ariaLang"));
+  $("device").setAttribute("aria-label", t("ariaDevice"));
+  $("device").options[1].text = t("optMobile");
+  $("device").options[2].text = t("optVoice");
   $("aboutText").textContent = t("aboutText");
   $("text").placeholder = t("inputPlaceholder");
   $("brainMode").textContent = brainUnavailable ? t("brain") : t("brainBedrock");
@@ -369,7 +375,9 @@ async function togglePacked(id, on) {
   if (card) {
     card.outerHTML = renderTool("packing_checklist", result.structuredContent, lang);
     // The ticked item gets a short confirmation; the others stay still.
-    document.querySelector(`#cards [data-pack-id="${CSS.escape(id)}"]`)?.classList.add("just");
+    const tick = document.querySelector(`#cards [data-pack-id="${CSS.escape(id)}"]`);
+    tick?.classList.add("just");
+    tick?.focus({ preventScroll: true });
   }
   await refreshHero();
 }
@@ -420,15 +428,15 @@ function syncPanel() {
   panelFrame.contentWindow?.postMessage({ jsonrpc: "2.0", method: "ui/notifications/tool-result", params: { structuredContent: panelData(panelStructured) } }, "*");
 }
 
-function closePanel() {
+function closePanel({ restoreFocus = false } = {}) {
   unmountApp?.();
   $("apps").classList.remove("open");
   $("apps").innerHTML = "";
+  if (restoreFocus) document.querySelector('#hero .act[data-action="panel"]')?.focus();
 }
 
 async function mountApp(uri, structured) {
   unmountApp?.();
-  panelStructured = structured;
   const read = await client.readResource(uri);
   const html = read.contents?.[0]?.text || "";
   const holder = $("apps");
@@ -437,7 +445,7 @@ async function mountApp(uri, structured) {
   close.type = "button";
   close.className = "close";
   close.textContent = lang === "es" ? "Cerrar panel" : "Close panel";
-  close.onclick = closePanel;
+  close.onclick = () => closePanel({ restoreFocus: true });
   holder.appendChild(close);
   holder.classList.add("open");
   const frame = document.createElement("iframe");
@@ -445,6 +453,8 @@ async function mountApp(uri, structured) {
   frame.setAttribute("title", "Waypoint readiness dashboard");
   frame.srcdoc = html;
   panelFrame = frame;
+  panelStructured = structured;
+  close.focus();
   holder.appendChild(frame);
   const onMessage = (ev) => {
     if (ev.source !== frame.contentWindow) return;
@@ -675,10 +685,16 @@ function connectReporting() {
 
 function bindUi() {
   // Small screens keep the settings behind one button, so the header is a single row.
+  const closeMenu = () => {
+    $("controlsBox").classList.remove("open");
+    $("menuBtn").setAttribute("aria-expanded", "false");
+  };
   $("menuBtn").addEventListener("click", () => {
     const open = $("controlsBox").classList.toggle("open");
     $("menuBtn").setAttribute("aria-expanded", String(open));
   });
+  $("controlsBox").addEventListener("click", (e) => { if (e.target.closest("button")) closeMenu(); });
+  $("device").addEventListener("change", closeMenu);
   // A long spoken reply is clamped on the device: say that the full reply is in the chat.
   const headline = $("headline");
   const markClamp = () => {
@@ -713,6 +729,7 @@ function bindUi() {
     unmountApp?.();
     lastUi = null;
     $("cards").innerHTML = "";
+    $("hero").innerHTML = "";
     $("apps").innerHTML = "";
     $("trace").innerHTML = "";
     $("headline").textContent = "";

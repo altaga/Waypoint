@@ -632,14 +632,15 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             status: (tooLong ? "blocked" : tone) as "ok" | "warn" | "blocked" | "info",
           };
         });
-        // The rules themselves are on the panel and the packing list; the trip card only counts them.
-        const localRules = sortRules(pack?.localRules ?? []);
-        const seriousRules = localRules.filter((r) => r.severity === "severe" || r.severity === "arrest").length;
-        const ruleRows = localRules.length ? [{
-          label: pick(locale, "Local rules", "Reglas locales"),
-          value: pick(locale, `${localRules.length} rules${seriousRules ? `, ${seriousRules} with arrest or severe penalties` : ""}. Details on the panel.`, `${localRules.length} reglas${seriousRules ? `, ${seriousRules} con arresto o pena grave` : ""}. Detalle en el panel.`),
-          status: seriousRules ? "blocked" as const : "warn" as const,
-        }] : [];
+        // One row per rule category, its most serious rule: no category repeats on the card, and the
+        // card keeps the rule detail that the Alexa card (which has no panel) shows. The panel has all rules.
+        const topByCategory = new Map<string, Rule>();
+        for (const r of sortRules(pack?.localRules ?? [])) if (!topByCategory.has(r.category)) topByCategory.set(r.category, r);
+        const ruleRows = [...topByCategory.values()].slice(0, 5).map((r) => ({
+          label: categoryLabel(r.category, locale),
+          value: ruleText(r, locale),
+          status: ruleStatus(r.severity),
+        }));
         // One traveler who is the user is spoken to directly; a group is spoken about by name.
         const solo = travelers.length === 1 && travelers[0].role === "self";
         const visaLines = travelers.map((t) => {
