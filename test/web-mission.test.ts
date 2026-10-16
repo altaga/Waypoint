@@ -160,3 +160,18 @@ test("autopilot works around what the trip avoids and keeps a saved plan", async
   assert.match(again.steps.get("plan")!.res.textContent, /already planned, kept/);
   assert.equal(res.calls, 7);
 });
+
+test("when the climate step fails, the spoken summary leaves the weather out instead of reading null", async () => {
+  const s = await session("mission-no-climate", "es-MX");
+  await s.call("update_traveler_profile", {
+    homeCurrency: "MXN",
+    travelers: [{ displayName: "Ana", passports: ["MX"], role: "self", ageBand: "adult" }],
+  });
+  await s.call("plan_trip", { destination: "JP", startDate: "2026-12-03", endDate: "2026-12-10" });
+  const down = { callTool: (name: string, args: Record<string, unknown>) => (name === "get_trip_climate" ? Promise.reject(new Error("down")) : s.client.callTool(name, args)) };
+  const root = fakeRoot();
+  const res = await runMission({ client: down, lang: "es", brief: (await s.call("trip_brief")).data, root, minStepMs: 0 });
+  assert.equal(root.steps.get("climate")!.dataset.state, "err");
+  assert.doesNotMatch(res.voice, /null|undefined|unos/);
+  assert.match(res.voice, /^Listo\. Revisé la entrada de 1 pasaportes/);
+});

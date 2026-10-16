@@ -22,10 +22,11 @@ const WORDS = {
     readiness: (p, d) => `${p}% ready · ${d} days to go`,
     failed: "could not finish",
     noTrip: "First tell me where and when you're going, and I'll get everything ready.",
-    summary: (s) =>
-      `Done. I checked entry for ${s.travelers} passports, ${s.rules} local rules and the weather: around ${s.hi} and ${s.lo} degrees. ` +
-      `${s.days ? `I planned ${s.days} days and ` : "I "}packed a list of ${s.items} items. You're ${s.readiness}% ready.` +
-      `${s.needs ? ` ${s.needs} still needs paperwork.` : ""}`,
+    // The weather is left out when that step failed: a missing number must not be read out.
+    summary: (s) => {
+      const weather = s.hi == null ? "" : ` I also checked the weather: around ${s.hi} and ${s.lo} degrees.`;
+      return `Done. I checked entry for ${s.travelers} passports and ${s.rules} local rules.${weather} ${s.days ? `I planned ${s.days} days and packed` : "I packed"} a list of ${s.items} items. You're ${s.readiness}% ready.${s.needs ? ` ${s.needs} still needs paperwork.` : ""}`;
+    },
   },
   es: {
     title: (d) => `Preparando tu viaje a ${d}`,
@@ -45,10 +46,10 @@ const WORDS = {
     readiness: (p, d) => `${p}% listo · faltan ${d} días`,
     failed: "no se pudo completar",
     noTrip: "Primero dime a dónde y cuándo viajas, y yo preparo todo.",
-    summary: (s) =>
-      `Listo. Revisé la entrada de ${s.travelers} pasaportes, ${s.rules} reglas locales y el clima: unos ${s.hi} y ${s.lo} grados. ` +
-      `${s.days ? `Planeé ${s.days} días y ` : ""}armé una maleta de ${s.items} cosas. Vas ${s.readiness}% listo.` +
-      `${s.needs ? ` A ${s.needs} le falta un trámite de entrada.` : ""}`,
+    summary: (s) => {
+      const weather = s.hi == null ? "" : ` También revisé el clima: unos ${s.hi} y ${s.lo} grados.`;
+      return `Listo. Revisé la entrada de ${s.travelers} pasaportes y ${s.rules} reglas locales.${weather} ${s.days ? `Planeé ${s.days} días y armé` : "Armé"} una maleta de ${s.items} cosas. Vas ${s.readiness}% listo.${s.needs ? ` A ${s.needs} le falta un trámite de entrada.` : ""}`;
+    },
   },
 };
 

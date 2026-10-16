@@ -134,7 +134,7 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 .chip:hover { background: rgba(41, 151, 255, .14); border-color: rgba(41, 151, 255, .5); }
 .chip:active { transform: scale(.97); }
 /* The composer: one pill holding the microphone, the field and the send arrow, as in Messages. */
-.input { display: flex; gap: var(--s-6); align-items: center; padding: 5px; border-radius: 999px; background: rgba(255, 255, 255, .06); border: 1px solid var(--hairline-2); transition: border-color .2s, box-shadow .2s; }
+.input { display: flex; gap: var(--s-6); align-items: center; padding: 5px; border-radius: 999px; background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .4); transition: border-color .2s, box-shadow .2s; }
 .input:focus-within { border-color: rgba(41, 151, 255, .7); box-shadow: 0 0 0 4px rgba(41, 151, 255, .18); }
 .input input[type="text"] { flex: 1; min-width: 0; height: 42px; padding: 0 var(--s-8); border: 0; background: transparent; color: var(--ink); font-size: var(--t-body); }
 .input input[type="text"]::placeholder { color: var(--ink-3); opacity: 1; }
@@ -502,7 +502,8 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 .m-ico .ico { width: 14px; height: 14px; }
 .m-text { display: grid; min-width: 0; }
 .m-name { font-size: var(--t-callout); font-weight: 500; color: var(--d-ink-2); transition: color .25s; }
-.m-res { font-size: 13px; color: var(--d-ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* The result wraps: on a narrow card it is the part worth reading, so it is never cut. */
+.m-res { font-size: 13px; color: var(--d-ink-2); overflow-wrap: anywhere; }
 .m-res:empty { display: none; }
 .m-tool { font: 500 12px/1 ui-monospace, "SF Mono", Menlo, Consolas, monospace; color: #9fd3ff; padding: 5px 8px; border-radius: 8px; background: rgba(41, 151, 255, .1); border: 1px solid rgba(41, 151, 255, .18); white-space: nowrap; }
 .m-ms { min-width: 52px; text-align: right; font-size: var(--t-caption); color: var(--d-ink-2); font-variant-numeric: tabular-nums; }
@@ -533,6 +534,19 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
   .m-tool { display: none; }
 }
 .k-mission.m-done .m-progress span { background: linear-gradient(90deg, #30d158, #64d2ff); }
+
+/* The phone hero follows the device's own width as well: the Móvil device is narrow on a wide screen. */
+.frame[data-device="mobile"] .hero { grid-template-columns: minmax(0, 1fr); padding: var(--s-20); border-radius: var(--r-24); row-gap: var(--s-16); }
+.frame[data-device="mobile"] .h-dest { font-size: 40px; }
+.frame[data-device="mobile"] .h-count b { font-size: 24px; }
+.frame[data-device="mobile"] .h-stats { gap: var(--s-16); margin-top: var(--s-12); }
+.frame[data-device="mobile"] .h-stats .ring { width: 72px; height: 72px; }
+.frame[data-device="mobile"] .h-stats .r-v b { font-size: 17px; }
+.frame[data-device="mobile"] .h-globe { grid-row: 1; justify-self: center; width: 232px; margin: -8px 0 -12px; }
+.frame[data-device="mobile"] .h-actions { display: grid; grid-template-columns: 1fr 1fr; }
+.frame[data-device="mobile"] .act.primary { grid-column: 1 / -1; }
+/* Every action in the phone hero is one height, so a label that wraps does not make its row taller. */
+.frame[data-device="mobile"] .act { min-height: 44px; }
 
 /* ---------- Motion: calm, short, and never required ---------- */
 @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }

@@ -395,6 +395,8 @@ async function heroAction(action) {
     return;
   }
   if (action === "settle") {
+    // The money card replaces the mission card: not while a run is writing into it.
+    if (busy) return;
     const r = await client.callTool("settle_up", {});
     if (!r.isError) {
       bubble("assistant", r.structuredContent.voice);
@@ -700,8 +702,7 @@ async function runAutopilot() {
     speak(line);
     return;
   }
-  setThinking(false);
-  setLight("thinking");
+  // The send button stays off until the run ends (handleUtterance clears the thinking state).
   $("trace").innerHTML = "";
   $("headline").textContent = lang === "es" ? `Preparando ${currentBrief.destinationName}…` : `Getting ${currentBrief.destinationName} ready…`;
   $("cards").innerHTML = missionHtml(lang, currentBrief.destinationName);
