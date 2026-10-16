@@ -293,19 +293,25 @@ export function heroHtml(brief, lang, panel = false) {
   const from = heroLast && heroLast.tripId === brief.tripId ? heroLast.readiness : null;
   heroLast = { tripId: brief.tripId, readiness: brief.readiness };
   const dates = `${shortDate(brief.startDate, lang)} – ${shortDate(brief.endDate, lang)}`;
-  return `<section class="hero">
+  const globe = brief.geo
+    ? `<div class="h-globe"><canvas class="globe" role="img" aria-label="${esc(lang === "es" ? `Rutas del grupo hacia ${brief.destinationName || brief.destination}` : `The group's routes to ${brief.destinationName || brief.destination}`)}"></canvas></div>`
+    : "";
+  return `<section class="hero${globe ? " has-globe" : ""}">
     <div class="h-main">
       <div class="h-kicker">${icon("plane")}${esc(dates)} · ${esc(brief.stay)} ${brief.stay === 1 ? (lang === "es" ? "día" : "day") : (lang === "es" ? "días" : "days")}${brief.climate ? `<span class="h-clim">${icon("temp")}${esc(brief.climate.hi)}° / ${esc(brief.climate.lo)}°</span>` : ""}</div>
       <div class="h-dest">${esc(brief.destinationName || brief.destination)}</div>
-      <div class="h-count"><b>${esc(brief.daysUntil)}</b><span>${esc(w.daysUnit(brief.daysUntil))}</span></div>
-      <div class="h-actions">
+      <div class="h-stats">
+        <div class="h-count"><b>${esc(brief.daysUntil)}</b><span>${esc(w.daysUnit(brief.daysUntil))}</span></div>
+        ${ring(brief.readiness, w.ready, from)}
+      </div>
+    </div>
+    ${globe}
+    <div class="h-actions">
         <button type="button" class="act" data-action="ics">${icon("calendar")}${esc(w.calendar)}</button>
         <button type="button" class="act" data-action="settle">${icon("people")}${esc(w.settleBtn)}</button>
         <button type="button" class="act" data-action="share">${icon("share")}${esc(w.share)}</button>
         ${panel ? `<button type="button" class="act" data-action="panel">${icon("panel")}${esc(w.panel)}</button>` : ""}
-      </div>
     </div>
-    ${ring(brief.readiness, w.ready, from)}
   </section>`;
 }
 

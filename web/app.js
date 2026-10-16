@@ -7,6 +7,7 @@ import { routeUtterance } from "./router.js";
 import { esc, heroHtml, renderTool, tripIcs, words } from "./cards.js";
 import { detectLang } from "./lang.js";
 import { speakable } from "./speech.js";
+import { mountGlobe } from "./globe.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -746,6 +747,15 @@ function connectReporting() {
 }
 
 function bindUi() {
+  // The trip hero's globe: mounted whenever the hero is drawn; it flies in only on a trip's first view.
+  let globeTrip = null;
+  new MutationObserver(() => {
+    const canvas = $("hero").querySelector("canvas.globe");
+    if (!canvas || !currentBrief?.geo) return;
+    const intro = globeTrip !== currentBrief.tripId;
+    globeTrip = currentBrief.tripId;
+    mountGlobe(canvas, currentBrief.geo, { intro });
+  }).observe($("hero"), { childList: true });
   // Small screens keep the settings behind one button, so the header is a single row.
   const closeMenu = () => {
     $("controlsBox").classList.remove("open");

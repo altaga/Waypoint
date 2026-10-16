@@ -234,9 +234,17 @@ select option { background: #1c1c1e; color: var(--ink); }
 .h-kicker { display: flex; align-items: center; flex-wrap: wrap; gap: var(--s-8); color: var(--d-ink-2); font-size: 13px; font-weight: 500; letter-spacing: .01em; }
 .h-kicker .ico { width: 16px; height: 16px; color: #8ccaff; }
 .h-dest { margin: var(--s-6) 0 0; font-size: var(--t-hero); font-weight: 700; letter-spacing: -.04em; line-height: 1; }
-.h-count { margin-top: var(--s-12); display: flex; align-items: baseline; flex-wrap: wrap; gap: var(--s-8); color: var(--d-ink-2); font-size: var(--t-callout); font-variant-numeric: tabular-nums; }
+.h-stats { margin-top: var(--s-16); display: flex; align-items: center; gap: var(--s-24); }
+.h-count { display: flex; align-items: baseline; flex-wrap: wrap; gap: var(--s-8); color: var(--d-ink-2); font-size: var(--t-callout); font-variant-numeric: tabular-nums; }
+.h-stats .ring { width: 84px; height: 84px; }
+.h-stats .r-v b { font-size: 20px; }
+/* The globe: the group's routes to the destination, on the hero's right. */
+.h-globe { width: 288px; aspect-ratio: 1; margin: -20px -16px -20px 0; pointer-events: none; }
+.h-globe[hidden] { display: none; }
+.h-globe canvas { display: block; width: 100%; height: 100%; }
 .h-count b { color: var(--d-ink); font-size: 28px; font-weight: 600; letter-spacing: -.02em; }
-.h-actions { display: flex; flex-wrap: wrap; gap: var(--s-8); margin-top: 22px; }
+/* The actions run under the whole hero, so the globe never squeezes them. */
+.h-actions { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: var(--s-8); }
 .act {
   display: inline-flex; align-items: center; justify-content: center; gap: var(--s-8); min-height: 40px; padding: 0 var(--s-16) 0 var(--s-12);
   border-radius: 999px; border: 1px solid rgba(255, 255, 255, .1); background: rgba(255, 255, 255, .07); color: var(--d-ink);
@@ -441,14 +449,15 @@ select option { background: #1c1c1e; color: var(--ink); }
   .home-time .ampm { font-size: 20px; margin-left: var(--s-8); }
   .home-date { font-size: 17px; }
   .home::after { width: 200px; height: 200px; top: -50px; right: -40px; }
-  .hero { padding: var(--s-20); border-radius: var(--r-24); column-gap: var(--s-12); }
-  .h-main { display: contents; }
-  .h-kicker, .h-dest, .h-count { grid-column: 1; }
+  /* Phones: the globe sits on top like a cover image, the text runs full width under it. */
+  .hero { grid-template-columns: minmax(0, 1fr); padding: var(--s-20); border-radius: var(--r-24); row-gap: var(--s-16); }
   .h-dest { font-size: 40px; }
   .h-count b { font-size: 24px; }
-  .hero .ring { grid-column: 2; grid-row: 1 / span 3; width: 92px; height: 92px; }
-  .hero .r-v b { font-size: 22px; }
-  .h-actions { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; margin-top: var(--s-8); }
+  .h-stats { gap: var(--s-16); margin-top: var(--s-12); }
+  .h-stats .ring { width: 72px; height: 72px; }
+  .h-stats .r-v b { font-size: 17px; }
+  .h-globe { grid-row: 1; justify-self: center; width: 232px; margin: -8px 0 -12px; }
+  .h-actions { display: grid; grid-template-columns: 1fr 1fr; }
   .act { padding: 0 var(--s-8); }
   .screen { min-height: 560px; }
   .headline { font-size: 18px; }
