@@ -16,6 +16,10 @@ const ICON = {
   bag: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="7.5" width="16" height="13" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 7.5V5.5a3 3 0 016 0v2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>',
   sun: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>',
   moon: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 14.5A8 8 0 019.5 4.5a8 8 0 1010 10z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>',
+  calendar: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+  people: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8.5" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 19.5c.6-3.4 3-5.3 6-5.3s5.4 1.9 6 5.3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M15.5 5.6a3 3 0 010 5.8M17.5 14.6c1.8.6 3 2.2 3.4 4.9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+  share: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 14.5V3.5M8 7l4-4 4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 10.5H6.5A2 2 0 004.5 12.5v6a2 2 0 002 2h11a2 2 0 002-2v-6a2 2 0 00-2-2H16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+  panel: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="13.5" y="3.5" width="7" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="3.5" y="13.5" width="7" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="13.5" y="13.5" width="7" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>',
 };
 export const icon = (name) => `<span class="ico">${ICON[name] || ""}</span>`;
 
@@ -26,7 +30,7 @@ const L = {
     currency: "Currency", plugs: "Plugs", emergency: "Emergency", languages: "Language", packing: "Packing list",
     packed: (a, b) => `${a} of ${b} packed`, doNotPack: "Do not pack", plan: "Day plan", free: "Free day",
     morning: "Morning", afternoon: "Afternoon", evening: "Evening", day: "Day", brief: "What's left", ready: "ready",
-    daysLeft: (n) => (n === 1 ? "1 day to go" : `${n} days to go`), tapToTick: "Tap to tick off", profile: "Traveler profile",
+    daysLeft: (n) => (n === 1 ? "1 day to go" : `${n} days to go`), daysUnit: (n) => (n === 1 ? "day to go" : "days to go"), tapToTick: "Tap to tick off", profile: "Traveler profile",
     planEmpty: "No day plan yet", planEmptyHint: "Tell me what you enjoy and I'll put one together from real places.", freeDays: "Free days",
     settleBtn: "Group money", settle: "Settle up", fairness: "Fairness", transfers: "Transfers", squared: "Everyone is square.", unassigned: (n) => `${n} expense(s) have no payer and are not counted.`, noLikes: "no likes saved", avoids: "Avoids",
     nothing: "Nothing pending", calendar: "Add to calendar", share: "Share brief", copied: "Copied", panel: "View panel",
@@ -37,7 +41,7 @@ const L = {
     currency: "Moneda", plugs: "Enchufes", emergency: "Emergencias", languages: "Idioma", packing: "Lista de equipaje",
     packed: (a, b) => `${a} de ${b} empacados`, doNotPack: "No llevar", plan: "Plan de días", free: "Día libre",
     morning: "Mañana", afternoon: "Tarde", evening: "Noche", day: "Día", brief: "Lo que falta", ready: "listo",
-    daysLeft: (n) => (n === 1 ? "Falta 1 día" : `Faltan ${n} días`), tapToTick: "Toca para marcar", profile: "Perfil del viajero",
+    daysLeft: (n) => (n === 1 ? "Falta 1 día" : `Faltan ${n} días`), daysUnit: (n) => (n === 1 ? "día para el viaje" : "días para el viaje"), tapToTick: "Toca para marcar", profile: "Perfil del viajero",
     planEmpty: "Aún no hay plan de días", planEmptyHint: "Dime qué te gusta y armo uno con lugares reales.", freeDays: "Días libres",
     settleBtn: "Cuentas", settle: "Cuentas del grupo", fairness: "Equidad del plan", transfers: "Transferencias", squared: "Todos están a mano.", unassigned: (n) => `${n} gasto(s) no tienen quién pagó y no cuentan.`, noLikes: "sin gustos guardados", avoids: "Evita",
     nothing: "Sin pendientes", calendar: "Calendario", share: "Compartir", copied: "Copiado", panel: "Ver panel",
@@ -272,12 +276,12 @@ export function heroHtml(brief, lang, panel = false) {
     <div class="h-main">
       <div class="h-kicker">${icon("plane")}${esc(dates)} · ${esc(brief.stay)} ${brief.stay === 1 ? (lang === "es" ? "día" : "day") : (lang === "es" ? "días" : "days")}</div>
       <div class="h-dest">${esc(brief.destinationName || brief.destination)}</div>
-      <div class="h-count">${esc(w.daysLeft(brief.daysUntil))}</div>
+      <div class="h-count"><b>${esc(brief.daysUntil)}</b><span>${esc(w.daysUnit(brief.daysUntil))}</span></div>
       <div class="h-actions">
-        <button type="button" class="act" data-action="ics">${esc(w.calendar)}</button>
-        <button type="button" class="act" data-action="settle">${esc(w.settleBtn)}</button>
-        <button type="button" class="act" data-action="share">${esc(w.share)}</button>
-        ${panel ? `<button type="button" class="act" data-action="panel">${esc(w.panel)}</button>` : ""}
+        <button type="button" class="act" data-action="ics">${icon("calendar")}${esc(w.calendar)}</button>
+        <button type="button" class="act" data-action="settle">${icon("people")}${esc(w.settleBtn)}</button>
+        <button type="button" class="act" data-action="share">${icon("share")}${esc(w.share)}</button>
+        ${panel ? `<button type="button" class="act" data-action="panel">${icon("panel")}${esc(w.panel)}</button>` : ""}
       </div>
     </div>
     ${ring(brief.readiness, w.ready, from)}

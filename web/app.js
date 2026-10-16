@@ -160,7 +160,8 @@ function applyLang() {
   for (const b of document.querySelectorAll(".seg button[data-lang]")) b.setAttribute("aria-pressed", String(b.dataset.lang === lang));
   $("tagline").textContent = t("tagline");
   $("chatTitle").textContent = t("chatTitle");
-  $("send").textContent = t("send");
+  $("send").setAttribute("aria-label", t("send"));
+  $("send").title = t("send");
   $("mic").setAttribute("aria-label", t("speak"));
   $("lblVoiceOut").textContent = t("lblVoice");
   $("demoGroup").textContent = t("demo");
@@ -214,6 +215,19 @@ function renderChips() {
 function tickClock() {
   const now = new Date();
   $("clock").textContent = now.toLocaleString(t("lang"), { weekday: "long", hour: "2-digit", minute: "2-digit" });
+  // The home screen's large clock: the time in large figures, the day period small beside it.
+  const parts = new Intl.DateTimeFormat(t("lang"), { hour: "numeric", minute: "2-digit" }).formatToParts(now);
+  const time = parts.filter((p) => p.type !== "dayPeriod").map((p) => p.value).join("").trim();
+  const period = parts.find((p) => p.type === "dayPeriod")?.value || "";
+  const big = $("homeTime");
+  big.textContent = time;
+  if (period) {
+    const s = document.createElement("span");
+    s.className = "ampm";
+    s.textContent = period;
+    big.appendChild(s);
+  }
+  $("homeDate").textContent = now.toLocaleDateString(t("lang"), { weekday: "long", day: "numeric", month: "long" });
 }
 
 function setLight(state) {
