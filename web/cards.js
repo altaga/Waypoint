@@ -21,6 +21,7 @@ const ICON = {
   share: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 14.5V3.5M8 7l4-4 4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 10.5H6.5A2 2 0 004.5 12.5v6a2 2 0 002 2h11a2 2 0 002-2v-6a2 2 0 00-2-2H16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
   panel: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="13.5" y="3.5" width="7" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="3.5" y="13.5" width="7" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="13.5" y="13.5" width="7" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>',
   temp: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4.5a2 2 0 014 0v9.2a4 4 0 11-4 0z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 10.5v5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+  spark: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.9 5.6L19.5 10.5l-5.6 1.9L12 18l-1.9-5.6L4.5 10.5l5.6-1.9z" fill="currentColor"/><path d="M18.5 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z" fill="currentColor"/></svg>',
   drop: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5c3 4 6 7.4 6 10.6a6 6 0 01-12 0C6 10.9 9 7.5 12 3.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>',
 };
 export const icon = (name) => `<span class="ico">${ICON[name] || ""}</span>`;
@@ -35,7 +36,7 @@ const L = {
     daysLeft: (n) => (n === 1 ? "1 day to go" : `${n} days to go`), daysUnit: (n) => (n === 1 ? "day to go" : "days to go"), tapToTick: "Tap to tick off", profile: "Traveler profile",
     planEmpty: "No day plan yet", planEmptyHint: "Tell me what you enjoy and I'll put one together from real places.", freeDays: "Free days",
     settleBtn: "Group money", settle: "Settle up", fairness: "Fairness", transfers: "Transfers", squared: "Everyone is square.", unassigned: (n) => `${n} expense(s) have no payer and are not counted.`, noLikes: "no likes saved", avoids: "Avoids",
-    nothing: "Nothing pending", calendar: "Add to calendar", share: "Share brief", copied: "Copied", panel: "View panel",
+    nothing: "Nothing pending", calendar: "Add to calendar", share: "Share brief", copied: "Copied", panel: "View panel", autopilot: "Get me ready",
   },
   es: {
     source: "Fuente", verified: "verificado", visaFree: "Sin visa", upTo: (d) => `estancias de hasta ${d} días`,
@@ -46,7 +47,7 @@ const L = {
     daysLeft: (n) => (n === 1 ? "Falta 1 día" : `Faltan ${n} días`), daysUnit: (n) => (n === 1 ? "día para el viaje" : "días para el viaje"), tapToTick: "Toca para marcar", profile: "Perfil del viajero",
     planEmpty: "Aún no hay plan de días", planEmptyHint: "Dime qué te gusta y armo uno con lugares reales.", freeDays: "Días libres",
     settleBtn: "Cuentas", settle: "Cuentas del grupo", fairness: "Equidad del plan", transfers: "Transferencias", squared: "Todos están a mano.", unassigned: (n) => `${n} gasto(s) no tienen quién pagó y no cuentan.`, noLikes: "sin gustos guardados", avoids: "Evita",
-    nothing: "Sin pendientes", calendar: "Calendario", share: "Compartir", copied: "Copiado", panel: "Ver panel",
+    nothing: "Sin pendientes", calendar: "Calendario", share: "Compartir", copied: "Copiado", panel: "Ver panel", autopilot: "Prepárame",
   },
 };
 export const words = (lang) => L[lang] || L.en;
@@ -307,6 +308,7 @@ export function heroHtml(brief, lang, panel = false) {
     </div>
     ${globe}
     <div class="h-actions">
+        <button type="button" class="act primary" data-action="autopilot">${icon("spark")}${esc(w.autopilot)}</button>
         <button type="button" class="act" data-action="ics">${icon("calendar")}${esc(w.calendar)}</button>
         <button type="button" class="act" data-action="settle">${icon("people")}${esc(w.settleBtn)}</button>
         <button type="button" class="act" data-action="share">${icon("share")}${esc(w.share)}</button>

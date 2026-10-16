@@ -8,6 +8,7 @@ import { esc, heroHtml, renderTool, tripIcs, words } from "./cards.js";
 import { detectLang } from "./lang.js";
 import { speakable } from "./speech.js";
 import { mountGlobe } from "./globe.js";
+import { isAutopilot, missionHtml, noTripLine, runMission } from "./mission.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -42,6 +43,7 @@ const UI = {
       "How much is 1000 dollars in yen?",
     ],
     chipsTrip: [
+      "Get me ready for the trip",
       "What's left for my trip?",
       "Plan my days: food and temples",
       "What should I pack?",
@@ -98,6 +100,7 @@ const UI = {
       "¿Cuánto son 1000 dólares en yenes?",
     ],
     chipsTrip: [
+      "Prepárame para el viaje",
       "¿Qué me falta para mi viaje?",
       "Arma mis días: comida y templos",
       "¿Qué empaco?",
@@ -385,6 +388,10 @@ async function heroAction(action) {
   const w = words(lang);
   if (action === "panel" && lastUi) {
     await mountApp(lastUi.uri, lastUi.structured);
+    return;
+  }
+  if (action === "autopilot") {
+    await handleUtterance(lang === "es" ? "Prepárame para el viaje" : "Get me ready for the trip");
     return;
   }
   if (action === "settle") {
@@ -682,6 +689,36 @@ async function renderBrainReply(reply) {
   }
 }
 
+// Autopilot: the whole preparation as a visible run of MCP tool calls, chained by the host. It is
+// deterministic on purpose, so every step, its time and its source can be shown as it happens.
+async function runAutopilot() {
+  if (!currentBrief) await refreshHero().catch(() => {});
+  if (!currentBrief) {
+    setThinking(false);
+    const line = noTripLine(lang);
+    bubble("assistant", line);
+    speak(line);
+    return;
+  }
+  setThinking(false);
+  setLight("thinking");
+  $("trace").innerHTML = "";
+  $("headline").textContent = lang === "es" ? `Preparando ${currentBrief.destinationName}…` : `Getting ${currentBrief.destinationName} ready…`;
+  $("cards").innerHTML = missionHtml(lang, currentBrief.destinationName);
+  const root = $("cards").querySelector(".k-mission");
+  // The run is the thing to watch: bring it into view (the headline above it stays in sight).
+  root.scrollIntoView({ block: "start", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+  const res = await runMission({ client, lang, brief: currentBrief, root });
+  setLight("idle");
+  $("headline").textContent = res.voice;
+  bubble("assistant", res.voice);
+  speak(res.voice);
+  history.push({ role: "assistant", text: res.voice });
+  // The hero reads the trip again: the readiness ring rises with the new plan.
+  await refreshHero();
+  renderChips();
+}
+
 async function handleUtterance(text) {
   if (!text.trim() || busy) return;
   busy = true;
@@ -692,6 +729,11 @@ async function handleUtterance(text) {
   $("stage").classList.add("active");
   setThinking(true);
   try {
+    if (isAutopilot(text)) {
+      history.push({ role: "user", text });
+      await runAutopilot();
+      return;
+    }
     const remote = await callBrainServer(text).catch(() => null);
     setThinking(false);
     if (remote) {

@@ -30,7 +30,8 @@ Offline mode (`WAYPOINT_OFFLINE=1`) needs no network: FX uses a labelled snapsho
 | `get_local_rules` | What can't I bring or do? | Verified rules with severity, each with its source quote |
 | `get_destination_essentials` | Plugs, emergency numbers, currency | Facts with sources |
 | `convert_budget` | How far does my money go? | Live FX (or labelled snapshot) plus World Bank PPP equivalent |
-| `packing_checklist` | What do I pack? | Checklist from trip length, plugs, children, medications and "do not pack" rules; ticks persist |
+| `get_trip_climate` | What will the weather be like? | The usual highs, lows and rain on the trip's own dates (NASA POWER normals for every capital, weighted by days per month); not a forecast |
+| `packing_checklist` | What do I pack? | Checklist from trip length, climate, plugs, children, medications and "do not pack" rules; ticks persist |
 | `get_highlights` | What is worth seeing here? | Real places from the catalog, each with its id, area, duration and source; Wikipedia-grounded where the article exists |
 | `set_trip_constraints` | Avoid nightlife; keep under 1,000 USD | Constraints every plan and expense respects |
 | `build_itinerary` | Day plan | Stops must be catalog ids; the plan is **verified** (country, pace, repeats, avoided interests, daily time) and not saved if it fails |
@@ -42,7 +43,7 @@ Offline mode (`WAYPOINT_OFFLINE=1`) needs no network: FX uses a labelled snapsho
 | `export_trip` | Put it in my calendar | A calendar file with the trip and one event per planned day, or the plan as text |
 | `forget_me` | Delete my data | **Elicits** confirmation, then deletes profile, trips and expenses |
 
-Every tool declares an `inputSchema`, an `outputSchema`, `annotations` (`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`) and returns the same envelope. The server exposes 19 tools over MCP 2025-11-25 Streamable HTTP:
+Every tool declares an `inputSchema`, an `outputSchema`, `annotations` (`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`) and returns the same envelope. The server exposes 20 tools over MCP 2025-11-25 Streamable HTTP:
 
 ```
 { voice, card, data, sources[], lastVerified, confidence, disclaimer, followUps[], missingFields? }
@@ -50,11 +51,17 @@ Every tool declares an `inputSchema`, an `outputSchema`, `annotations` (`readOnl
 
 `voice` is also the text content block. Errors are friendly: they name what went wrong in plain words and give the next step. They never include stack traces, URLs, HTTP codes or tool names.
 
+### Autopilot: one sentence, the whole preparation
+
+Say "Get me ready for the trip" (or tap **Get me ready** on the trip) and the host runs the preparation as a visible graph of real `tools/call` requests: the group's profile first; then entry, local rules, climate, essentials and places at once; then a day plan and the packing list; then readiness. Each step shows its tool, its result and its own time, and the sources are listed at the end. The day plan goes through the server's verifier: what it rejects (an avoided interest, a day that runs too long) is dropped and the plan is sent again, so only a verified plan is saved. A plan the traveler already has is kept. The code is `web/mission.js`; `test/web-mission.test.ts` runs it against the real server.
+
+The trip hero also draws the group's routes on a dotted globe (`web/globe.js`, canvas, no libraries; land dots from Natural Earth via `scripts/build-globe.ts`), from each traveler's home country to the destination.
+
 ## Architecture
 
 ```
 ┌──────────── Simulated Alexa+ host (web/) ───────────────┐
-│ Echo Show frame · voice (Web Speech) · text fallback    │
+│ Echo Show frame · Polly neural voice · text fallback    │
 │ ES/EN · elicitation forms · MCP Apps iframe host        │
 │ protocol log · real MCP client (fetch, Streamable HTTP) │
 │ brain: local router, or Bedrock via Strands (optional)  │
@@ -62,7 +69,7 @@ Every tool declares an `inputSchema`, an `outputSchema`, `annotations` (`readOnl
                 │ MCP 2025-11-25 · Streamable HTTP · POST/GET/DELETE /mcp
 ┌───────────────▼─────────────────────────────────────────┐
 │ Waypoint MCP server (src/, Node 22, Express 5)          │
-│  tools (12) · ui:// MCP App resource · elicitation      │
+│  tools (20) · ui:// MCP App resource · elicitation      │
 │  origin guard (403) · friendly errors · envelopes       │
 │  services: visa matrix · packs · FX (+snapshot) · PPP   │
 │  state: StateStore → file (local) | DynamoDB (designed) │

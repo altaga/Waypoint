@@ -459,6 +459,7 @@ select option { background: #1c1c1e; color: var(--ink); }
   .h-globe { grid-row: 1; justify-self: center; width: 232px; margin: -8px 0 -12px; }
   .h-actions { display: grid; grid-template-columns: 1fr 1fr; }
   .act { padding: 0 var(--s-8); }
+  .act.primary { grid-column: 1 / -1; }
   .screen { min-height: 560px; }
   .headline { font-size: 18px; }
   .stage:not(.active) .headline { font-size: 26px; }
@@ -477,6 +478,53 @@ select option { background: #1c1c1e; color: var(--ink); }
   .seg button { min-height: 40px; }
 }
 
+/* ---------- Autopilot: the preparation as a live run of tool calls ---------- */
+.act.primary { background: var(--grad-accent); border-color: rgba(120, 170, 255, .5); color: #fff; font-weight: 600; box-shadow: 0 8px 24px -10px rgba(41, 120, 255, .8), inset 0 1px 0 rgba(255, 255, 255, .25); }
+.act.primary .ico { color: #fff; }
+.act.primary:hover { background: linear-gradient(135deg, #1a6ff0 0%, #5b52f0 100%); }
+.k-mission { position: relative; overflow: hidden; container-type: inline-size; scroll-margin-top: 132px; }
+.k-mission::before { content: ""; position: absolute; inset: -40% -10% auto auto; width: 70%; height: 120%; background: radial-gradient(closest-side, rgba(41, 151, 255, .16), transparent); pointer-events: none; }
+.m-progress { position: relative; height: 4px; margin: 0 0 var(--s-16); border-radius: 999px; background: rgba(255, 255, 255, .08); overflow: hidden; }
+.m-progress span { position: absolute; inset: 0 auto 0 0; width: 0; border-radius: inherit; background: linear-gradient(90deg, #2997ff, #64d2ff 60%, #30d158); box-shadow: 0 0 14px rgba(100, 210, 255, .6); transition: width .5s var(--ease); }
+.mission { position: relative; display: grid; gap: var(--s-2); margin: 0; padding: 0; list-style: none; }
+.m-step { position: relative; display: grid; grid-template-columns: 28px minmax(0, 1fr) auto auto; align-items: center; gap: var(--s-12); padding: var(--s-8) var(--s-12); border-radius: 14px;
+  opacity: 0; animation: rise .4s var(--ease) both; animation-delay: calc(var(--i) * 45ms); transition: background .3s; }
+.m-ico { position: relative; display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; border: 1.5px solid rgba(255, 255, 255, .18); color: transparent; transition: background .25s, border-color .25s, color .25s; }
+.m-ico .ico { width: 14px; height: 14px; }
+.m-text { display: grid; min-width: 0; }
+.m-name { font-size: var(--t-callout); font-weight: 500; color: var(--d-ink-2); transition: color .25s; }
+.m-res { font-size: 13px; color: var(--d-ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.m-res:empty { display: none; }
+.m-tool { font: 500 12px/1 ui-monospace, "SF Mono", Menlo, Consolas, monospace; color: #9fd3ff; padding: 5px 8px; border-radius: 8px; background: rgba(41, 151, 255, .1); border: 1px solid rgba(41, 151, 255, .18); white-space: nowrap; }
+.m-ms { min-width: 52px; text-align: right; font-size: var(--t-caption); color: var(--d-ink-2); font-variant-numeric: tabular-nums; }
+.m-step[data-state="run"] { background: rgba(41, 151, 255, .1); }
+.m-step[data-state="run"] .m-name, .m-step[data-state="done"] .m-name { color: var(--d-ink); }
+.m-step[data-state="run"] .m-ico { border-color: rgba(41, 151, 255, .35); border-top-color: #64d2ff; animation: orb-spin .8s linear infinite; box-shadow: 0 0 12px rgba(100, 210, 255, .45); }
+.m-step[data-state="done"] .m-ico { background: var(--d-ok); border-color: var(--d-ok); color: #00210b; animation: tick-pop .35s var(--ease); }
+.m-step[data-state="done"] .m-res { color: var(--d-ink); }
+.m-step[data-state="skip"] .m-ico { border-style: dashed; }
+.m-step[data-state="skip"] .m-tool { opacity: .5; }
+.m-step[data-state="err"] .m-ico { background: rgba(255, 105, 97, .18); border-color: var(--d-bad); }
+.m-step[data-state="err"] .m-res { color: var(--d-bad); }
+/* Steps that run at the same time share a rail on the left, lit while any of them runs. */
+.m-step[data-par]::before { content: ""; position: absolute; left: 0; top: -1px; bottom: -1px; width: 2px; background: rgba(100, 210, 255, .28); transition: background .3s, box-shadow .3s; }
+.m-step[data-par="first"]::before { top: 12px; border-radius: 2px 2px 0 0; }
+.m-step[data-par="last"]::before { bottom: 12px; border-radius: 0 0 2px 2px; }
+.mission:has([data-phase="2"][data-state="run"]) [data-phase="2"][data-par]::before,
+.mission:has([data-phase="3"][data-state="run"]) [data-phase="3"][data-par]::before { background: #64d2ff; box-shadow: 0 0 10px rgba(100, 210, 255, .7); }
+.m-foot { display: grid; gap: var(--s-8); margin-top: var(--s-12); padding-top: var(--s-12); border-top: 1px solid var(--d-line); font-size: var(--t-caption); color: var(--d-ink-2); }
+.m-foot:empty { display: none; }
+.m-stats { color: var(--d-ink); font-size: var(--t-footnote); font-weight: 500; font-variant-numeric: tabular-nums; }
+.m-srcs { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-6); }
+.m-srcs-h { margin-right: var(--s-2); }
+.m-src { padding: 3px 9px; border-radius: 999px; background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .08); color: var(--d-ink); white-space: nowrap; animation: fade .4s var(--ease) both; }
+/* A narrow card (a phone, the mobile device) drops the tool names; the steps keep their results and times. */
+@container (max-width: 520px) {
+  .m-step { grid-template-columns: 24px minmax(0, 1fr) auto; gap: var(--s-8); padding: var(--s-8); }
+  .m-tool { display: none; }
+}
+.k-mission.m-done .m-progress span { background: linear-gradient(90deg, #30d158, #64d2ff); }
+
 /* ---------- Motion: calm, short, and never required ---------- */
 @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
@@ -485,6 +533,8 @@ select option { background: #1c1c1e; color: var(--ink); }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
   .card, .bubble, .hero { animation-name: fade; }
   .dots i, .lightbar, .r-fg, .tick.just .ico, .home::after, .screen { animation: none; }
+  .m-step { opacity: 1; animation: none; }
+  .m-step[data-state] .m-ico { animation: none; }
   .lightbar[data-state] { opacity: 1; }
 }
 
