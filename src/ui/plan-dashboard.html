@@ -8,15 +8,18 @@
   /* Tokens match the Waypoint device (Amazon's Echo Show dark set) and the workspace light set,
      so the panel reads as part of the same screen. The host passes theme "dark" on the device. */
   :root {
+    color-scheme: light;
     --bg: #f5f5f7; --fg: #1d1d1f; --muted: #6e6e73; --card: #ffffff; --line: rgba(0, 0, 0, .08);
     --ok: #1d7a46; --warn: #a15c00; --bad: #b3261e; --accent: #0066cc; --tint: rgba(0, 102, 204, .08);
   }
   :root[data-theme="dark"] {
+    color-scheme: dark;
     --bg: #000000; --fg: #f5f5f7; --muted: #a1a1a6; --card: #101114; --line: rgba(255, 255, 255, .08);
     --ok: #30d158; --warn: #ffd60a; --bad: #ff6961; --accent: #2997ff; --tint: rgba(41, 151, 255, .12);
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
+      color-scheme: dark;
       --bg: #000000; --fg: #f5f5f7; --muted: #a1a1a6; --card: #101114; --line: rgba(255, 255, 255, .08);
       --ok: #30d158; --warn: #ffd60a; --bad: #ff6961; --accent: #2997ff; --tint: rgba(41, 151, 255, .12);
     }
