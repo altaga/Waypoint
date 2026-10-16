@@ -4,6 +4,7 @@ import { parseVisaCsv, type VisaMatrix } from "./services/visa.ts";
 import { loadPacks, type PackRegistry } from "./services/packs.ts";
 import { loadHighlights, type HighlightRegistry } from "./services/highlights.ts";
 import { loadWorld, type WorldRegistry } from "./services/world.ts";
+import { loadClimate, type ClimateRegistry } from "./services/climate.ts";
 import { createFxService, type FxService } from "./services/fx.ts";
 import { createPppTable, type PppTable } from "./services/ppp.ts";
 import { createFileStore, createMemoryStore, type StateStore } from "./state.ts";
@@ -16,6 +17,7 @@ export interface AppContext {
   packs: PackRegistry;
   highlights: HighlightRegistry;
   world: WorldRegistry;
+  climate: ClimateRegistry;
   fx: FxService;
   ppp: PppTable;
   clock: () => Date;
@@ -47,6 +49,7 @@ export function createContext(opts: ContextOptions = {}): AppContext {
     packs: loadPacks(root),
     highlights: loadHighlights(root),
     world: loadWorld(root),
+    climate: loadClimate(root),
     fx: createFxService({ offline, snapshot: fxSnapshot }),
     ppp: createPppTable(pppFile.rows),
     visaSource: {

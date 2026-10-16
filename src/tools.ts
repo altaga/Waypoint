@@ -17,6 +17,7 @@ import { PLAN_DASHBOARD_URI } from "./resources.ts";
 import { itemTerms } from "./items.ts";
 import { INTERESTS, type Interest } from "./services/highlights.ts";
 import { verifyPlan, type Violation } from "./itinerary.ts";
+import { tripClimate, type TripClimate } from "./services/climate.ts";
 
 type Locale = "en" | "es";
 
@@ -231,6 +232,37 @@ function money(value: number, currency: string, locale: Locale): string {
 
 type PackItem = { id: string; group: string; label: string; status: "ok" | "warn" | "info" | "blocked" };
 
+/** What the usual weather on the trip's dates means for the bag (climate normals, not a forecast). */
+function climateAdvice(c: TripClimate, locale: Locale): { id: string; label: string; status: "info" | "warn" }[] {
+  const out: { id: string; label: string; status: "info" | "warn" }[] = [];
+  if (c.cold) out.push({ id: "warm", label: pick(locale, `Warm coat and layers: lows around ${c.lo} °C`, `Abrigo y capas: mínimas de ${c.lo} °C`), status: "warn" });
+  else if (c.cool) out.push({ id: "layer", label: pick(locale, `A light jacket for the evenings (around ${c.lo} °C)`, `Chaqueta ligera para las noches (unos ${c.lo} °C)`), status: "info" });
+  if (c.hot) out.push({ id: "sun", label: pick(locale, `Light clothes, sunscreen and a hat: highs around ${c.hi} °C`, `Ropa ligera, protector solar y gorra: máximas de ${c.hi} °C`), status: "info" });
+  if (c.wet) out.push({ id: "rain", label: pick(locale, "Umbrella or rain jacket: rain is frequent", "Paraguas o impermeable: llueve seguido"), status: "info" });
+  return out;
+}
+
+/** Where the group travels from and to, for the globe: each traveler's home (residence, else first passport) and the destination's capital. */
+function tripGeo(ctx: AppContext, trip: Trip, travelers: Traveler[]) {
+  const at = (iso: string) => {
+    const c = ctx.climate.get(iso);
+    return c ? { iso, lat: c.lat, lon: c.lon } : null;
+  };
+  const destination = at(trip.destination);
+  if (!destination) return null;
+  const origins = new Map<string, { iso: string; lat: number; lon: number; names: string[] }>();
+  for (const t of travelers) {
+    const iso = t.residenceCountry || t.passports[0]?.country;
+    if (!iso || iso === trip.destination) continue;
+    const point = at(iso);
+    if (!point) continue;
+    const o = origins.get(iso) ?? { ...point, names: [] };
+    o.names.push(t.displayName);
+    origins.set(iso, o);
+  }
+  return { destination, origins: [...origins.values()] };
+}
+
 /** The packing list for a trip; ids are stable so ticks survive sessions. */
 function packingItems(ctx: AppContext, trip: Trip, travelers: Traveler[], locale: Locale): PackItem[] {
   const pack = ctx.packs.get(trip.destination);
@@ -252,6 +284,8 @@ function packingItems(ctx: AppContext, trip: Trip, travelers: Traveler[], locale
   add("data", "electronics", pick(locale, "eSIM or roaming plan", "eSIM o plan de roaming"));
   add("clothes", "clothing", pick(locale, `Clothes for ${stay} days${stay > 7 ? " (or plan a laundry stop)" : ""}`, `Ropa para ${stay} días${stay > 7 ? " (o planea lavandería)" : ""}`));
   add("shoes", "clothing", pick(locale, "Comfortable walking shoes", "Zapatos cómodos para caminar"));
+  const climate = ctx.climate.get(trip.destination);
+  if (climate) for (const a of climateAdvice(tripClimate(climate, trip.startDate, trip.endDate), locale)) add(a.id, "clothing", a.label, a.status);
   if (pack?.essentials.currency) add("cash", "money", pick(locale, `Some cash in ${pack.essentials.currency} and a card without foreign fees`, `Algo de efectivo en ${pack.essentials.currency} y una tarjeta sin comisión en el extranjero`));
   if (travelers.some((t) => t.medications?.length)) {
     add("meds", "health", pick(locale, "Medications in original packaging with prescriptions", "Medicamentos en su empaque original con receta"), "warn");
@@ -1225,6 +1259,86 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
   );
 
   // 12. trip_brief (multi-session memory)
+  // The usual weather on the trip's dates, from vendored climate normals (NASA POWER).
+  server.registerTool(
+    "get_trip_climate",
+    {
+      title: "Trip climate",
+      description:
+        "Use when the user asks about the weather, temperature or rain at the destination, or what clothes to bring. Returns the usual highs, lows and rain for the trip's dates at the destination's capital (climate normals from NASA POWER, not a forecast) and what that means for packing. Without arguments it uses the saved trip.",
+      inputSchema: {
+        destination: z.string().min(2).optional(),
+        startDate: ISO_DATE.optional(),
+        endDate: ISO_DATE.optional(),
+      },
+      outputSchema: EnvelopeShape,
+      annotations: ann({ readOnly: true, idempotent: true, openWorld: false }),
+    },
+    (args) =>
+      run(async () => {
+        const state = await load();
+        const locale = localeOf(state);
+        const trip = latestTrip(state);
+        const dest = args.destination ? resolveDestinationOrThrow(args.destination) : trip?.destination;
+        if (!dest) return nothingYetEnvelope(locale, "trip");
+        const sameTrip = trip && trip.destination === dest;
+        const today = localToday(ctx.clock(), state.profile?.homeTimezone);
+        const startDate = args.startDate ?? (sameTrip ? trip.startDate : today);
+        const endDate = args.endDate ?? (sameTrip ? trip.endDate : args.startDate ?? today);
+        const entry = ctx.climate.get(dest);
+        if (!entry) {
+          return envelopeResult({
+            voice: pick(locale, `I have no climate data for ${countryName(dest, "en")}.`, `No tengo datos de clima para ${countryName(dest, "es")}.`),
+            card: { pattern: "card", title: pick(locale, "Weather", "Clima"), rows: [] },
+            data: { destination: dest },
+            sources: [],
+            lastVerified: ctx.climate.source.retrieved,
+            confidence: "low",
+            disclaimer: DISCLAIMER[locale],
+            followUps: [],
+          });
+        }
+        const c = tripClimate(entry, startDate, endDate);
+        const city = entry.city[locale];
+        const advice = climateAdvice(c, locale);
+        const rainWords = c.wet ? pick(locale, "frequent rain", "lluvia frecuente") : c.rain >= 1.5 ? pick(locale, "some rain", "algo de lluvia") : pick(locale, "little rain", "poca lluvia");
+        const when = spokenDates(startDate, endDate, locale);
+        const tip = c.cold
+          ? pick(locale, "Bring a warm coat and layers.", "Lleva abrigo y capas.")
+          : c.cool
+            ? pick(locale, "Bring a light jacket for the evenings.", "Lleva una chaqueta ligera para las noches.")
+            : c.hot
+              ? pick(locale, "Pack light clothes and sunscreen.", "Lleva ropa ligera y protector solar.")
+              : pick(locale, "Pack for mild weather.", "Lleva ropa para clima templado.");
+        const rainTip = c.wet ? pick(locale, " And an umbrella.", " Y un paraguas.") : "";
+        const env: Envelope = {
+          voice: pick(
+            locale,
+            `In ${city} ${when}, highs are usually around ${c.hi} degrees and lows around ${c.lo}, with ${rainWords}. ${tip}${rainTip}`,
+            `En ${city} ${when}, las máximas suelen rondar los ${c.hi} grados y las mínimas los ${c.lo}, con ${rainWords}. ${tip}${rainTip}`,
+          ),
+          card: {
+            pattern: "card",
+            title: pick(locale, `Weather in ${city}`, `Clima en ${city}`),
+            subtitle: `${shortRange(startDate, endDate, locale)} · ${pick(locale, "usual weather, not a forecast", "clima habitual, no un pronóstico")}`,
+            rows: [
+              { label: pick(locale, "Highs", "Máximas"), value: `${c.hi} °C`, status: c.hot ? "warn" : "info" },
+              { label: pick(locale, "Lows", "Mínimas"), value: `${c.lo} °C`, status: c.cold ? "warn" : "info" },
+              { label: pick(locale, "Rain", "Lluvia"), value: pick(locale, `${c.rain} mm a day`, `${c.rain} mm al día`), status: c.wet ? "warn" : "info" },
+              ...advice.map((a) => ({ label: pick(locale, "Bring", "Lleva"), value: a.label, status: a.status })),
+            ],
+          },
+          data: { destination: dest, city, startDate, endDate, ...c, advice: advice.map((a) => a.label) },
+          sources: [{ id: ctx.climate.source.id, title: ctx.climate.source.title, url: ctx.climate.source.url, license: ctx.climate.source.license, retrieved: ctx.climate.source.retrieved }] as Envelope["sources"],
+          lastVerified: ctx.climate.source.retrieved,
+          confidence: "medium",
+          disclaimer: pick(locale, `Climate normals for ${city} (NASA POWER, 2001 to 2025), not a forecast.`, `Clima habitual de ${city} (NASA POWER, 2001 a 2025), no un pronóstico.`),
+          followUps: [pick(locale, "Update the packing list?", "¿Actualizo la lista de equipaje?")],
+        };
+        return envelopeResult(env);
+      }),
+  );
+
   server.registerTool(
     "trip_brief",
     {
@@ -1316,6 +1430,13 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             pending,
             expenseTotal,
             expenseCurrency,
+            climate: (() => {
+              const cl = ctx.climate.get(trip.destination);
+              if (!cl) return null;
+              const c = tripClimate(cl, trip.startDate, trip.endDate);
+              return { city: cl.city[locale], hi: c.hi, lo: c.lo, rain: c.rain };
+            })(),
+            geo: tripGeo(ctx, trip, travelers),
           },
           followUps: [pick(locale, "Show the packing list?", "¿Muestro la lista de equipaje?")],
         });

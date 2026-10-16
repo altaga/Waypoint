@@ -20,6 +20,8 @@ const ICON = {
   people: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8.5" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 19.5c.6-3.4 3-5.3 6-5.3s5.4 1.9 6 5.3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M15.5 5.6a3 3 0 010 5.8M17.5 14.6c1.8.6 3 2.2 3.4 4.9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
   share: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 14.5V3.5M8 7l4-4 4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 10.5H6.5A2 2 0 004.5 12.5v6a2 2 0 002 2h11a2 2 0 002-2v-6a2 2 0 00-2-2H16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
   panel: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="13.5" y="3.5" width="7" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="3.5" y="13.5" width="7" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="13.5" y="13.5" width="7" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>',
+  temp: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4.5a2 2 0 014 0v9.2a4 4 0 11-4 0z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 10.5v5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+  drop: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5c3 4 6 7.4 6 10.6a6 6 0 01-12 0C6 10.9 9 7.5 12 3.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>',
 };
 export const icon = (name) => `<span class="ico">${ICON[name] || ""}</span>`;
 
@@ -101,6 +103,24 @@ function entryCard(sc, lang) {
     })
     .join("");
   return shell("entry", sc.card?.title || w.entry, body, sc, lang);
+}
+
+// The usual weather on the trip's dates: the high and low large, a bar on a -10 to 40 °C scale, the rain, and what to pack.
+function climateCard(sc, lang) {
+  const d = sc.data || {};
+  if (typeof d.hi !== "number") return genericCard(sc.card, sc, lang);
+  const es = lang === "es";
+  const at = (t) => Math.max(0, Math.min(100, ((t + 10) / 50) * 100)).toFixed(1);
+  const advice = (d.advice || []).map((a) => `<li>${icon("bag")}<span>${esc(a)}</span></li>`).join("");
+  const body = `
+    <div class="sub clim-sub">${esc(sc.card?.subtitle || "")}</div>
+    <div class="clim">
+      <div class="clim-temps"><span class="clim-hi">${esc(d.hi)}°</span><span class="clim-lo">${esc(d.lo)}°</span></div>
+      <div class="clim-bar" aria-hidden="true"><span style="left:${at(d.lo)}%;right:${(100 - at(d.hi)).toFixed(1)}%"></span></div>
+      <div class="clim-meta">${icon("drop")}<span>${esc(es ? `${d.rain} mm de lluvia al día` : `${d.rain} mm of rain a day`)}</span></div>
+    </div>
+    ${advice ? `<ul class="pending clim-advice">${advice}</ul>` : ""}`;
+  return shell("climate", sc.card?.title || (es ? "Clima" : "Weather"), body, sc, lang);
 }
 
 function rulesCard(sc, lang) {
@@ -246,6 +266,7 @@ function fairnessCard(sc, lang) {
 const RENDER = {
   check_entry_requirements: entryCard,
   get_local_rules: rulesCard,
+  get_trip_climate: climateCard,
   convert_budget: budgetCard,
   get_destination_essentials: essentialsCard,
   packing_checklist: packingCard,
@@ -274,7 +295,7 @@ export function heroHtml(brief, lang, panel = false) {
   const dates = `${shortDate(brief.startDate, lang)} – ${shortDate(brief.endDate, lang)}`;
   return `<section class="hero">
     <div class="h-main">
-      <div class="h-kicker">${icon("plane")}${esc(dates)} · ${esc(brief.stay)} ${brief.stay === 1 ? (lang === "es" ? "día" : "day") : (lang === "es" ? "días" : "days")}</div>
+      <div class="h-kicker">${icon("plane")}${esc(dates)} · ${esc(brief.stay)} ${brief.stay === 1 ? (lang === "es" ? "día" : "day") : (lang === "es" ? "días" : "days")}${brief.climate ? `<span class="h-clim">${icon("temp")}${esc(brief.climate.hi)}° / ${esc(brief.climate.lo)}°</span>` : ""}</div>
       <div class="h-dest">${esc(brief.destinationName || brief.destination)}</div>
       <div class="h-count"><b>${esc(brief.daysUntil)}</b><span>${esc(w.daysUnit(brief.daysUntil))}</span></div>
       <div class="h-actions">

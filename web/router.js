@@ -64,6 +64,7 @@ export function routeUtterance(text) {
     const n = Number(amount[1].replace(/[.,]/g, "")) * (amount[2] ? 1000 : 1);
     return { tool: "convert_budget", args: { amount: n, to: curr?.[1], destination: dest ?? undefined } };
   }
+  if (/(clima|weather|temperatura|temperature|frio|calor|lluvia|llueve|\brain\b|\bcold\b|\bhot\b)/.test(t)) return { tool: "get_trip_climate", args: dest ? { destination: dest } : {} };
   if (/(empacar|pack|maleta|equipaje|lista)/.test(t)) return { tool: "packing_checklist", args: {} };
   if (/(itinerario|itinerary|plan del dia|day plan)/.test(t)) return { tool: "build_itinerary", args: {} };
   if (/(enchufe|plug|adaptador|emergenc|moneda|currency|idioma|language)/.test(t) && dest) {

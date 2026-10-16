@@ -366,6 +366,20 @@ select option { background: #1c1c1e; color: var(--ink); }
 .pending .ico { color: var(--d-warn); }
 .ok-line { display: flex; gap: var(--s-8); align-items: center; margin: 0; color: var(--d-ok); font-size: var(--t-footnote); }
 
+/* Climate: the high and low as figures, a bar on a -10 to 40 °C scale, the rain, and what to pack. */
+.clim-sub { margin: -6px 0 var(--s-12); }
+.clim { display: grid; gap: var(--s-12); margin-bottom: var(--s-12); }
+.clim-temps { display: flex; align-items: baseline; gap: var(--s-12); font-variant-numeric: tabular-nums; }
+.clim-hi { font-size: 56px; font-weight: 600; letter-spacing: -.04em; line-height: 1; }
+.clim-lo { font-size: 32px; font-weight: 400; letter-spacing: -.03em; color: var(--d-ink-2); }
+.clim-bar { position: relative; height: 8px; border-radius: 999px; background: rgba(255, 255, 255, .1); }
+.clim-bar span { position: absolute; top: 0; bottom: 0; border-radius: inherit; background: linear-gradient(90deg, #64d2ff, #30d158 45%, #ffd60a 75%, #ff9f0a); background-size: 300px 100%; box-shadow: 0 0 12px rgba(100, 210, 255, .35); }
+.clim-meta { display: flex; align-items: center; gap: var(--s-6); font-size: var(--t-footnote); color: var(--d-ink-2); }
+.clim-meta .ico { width: 16px; height: 16px; color: #64d2ff; }
+.clim-advice .ico { color: #9fd3ff; }
+.h-clim { display: inline-flex; align-items: center; gap: var(--s-4); margin-left: var(--s-4); padding: 2px var(--s-8) 2px var(--s-6); border-radius: 999px; background: rgba(255, 255, 255, .08); color: var(--d-ink); font-variant-numeric: tabular-nums; }
+.h-clim .ico { width: 14px; height: 14px; color: #ffd60a; }
+
 .sub-h { margin: var(--s-16) 0 var(--s-8); font-size: var(--t-caption); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--d-ink-2); }
 .bal { margin: var(--s-8) 0; }
 .bal-top { display: flex; justify-content: space-between; gap: var(--s-12); font-size: var(--t-footnote); font-variant-numeric: tabular-nums; }
