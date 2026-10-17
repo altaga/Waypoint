@@ -75,7 +75,7 @@ test("China: the answer counts the usable options and names the local apps, in E
 test("Afghanistan: cash is the one option open to a visitor, and the answer is in Spanish", async () => {
   const s = await session("whatworks-af", "es-MX");
   const r = await s.call("get_what_works", { destination: "AF" });
-  assert.match(r.voice, /En Afganistán: una vía que un turista puede usar sin tarjeta local: Efectivo\./);
+  assert.match(r.voice, /En Afganistán: no encontré ninguna vía verificada.*El efectivo parece ser lo habitual, aunque es una estimación\./);
   const cash = (r.card.rows as { label: string; status: string }[]).find((x) => x.label === "Efectivo");
   assert.equal(cash?.status, "info");
 });
@@ -119,4 +119,10 @@ test("sources say official only when the address is an official publisher", asyn
   const s = await session("whatworks-licenses");
   const r = await s.call("get_what_works", { destination: "JP" });
   for (const src of r.sources as { license: string }[]) assert.ok(["Official public information", "Company, press or guide (not official)"].includes(src.license), src.license);
+});
+
+test("Japan: estimated cash is not counted as a verified way in the voice", async () => {
+  const s = await session("whatworks-jp-cash");
+  const r = await s.call("get_what_works", { destination: "JP" });
+  assert.doesNotMatch(r.voice, /Efectivo|Cash/);
 });

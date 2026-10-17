@@ -41,6 +41,8 @@ export const EnvelopeShape = {
   disclaimer: z.string(),
   followUps: z.array(z.string()),
   missingFields: z.array(z.string()).optional(),
+  // How the content was checked: "human" = a person signed it off; "curated" = compiled by us from cited sources, not yet reviewed by a person.
+  review: z.enum(["human", "curated"]).optional(),
 };
 
 export type Envelope = {
@@ -53,6 +55,7 @@ export type Envelope = {
   disclaimer: string;
   followUps: string[];
   missingFields?: string[];
+  review?: "human" | "curated";
 };
 
 export interface ToolResult {

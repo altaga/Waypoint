@@ -6,15 +6,15 @@
 |---|---|---|
 | Agent brain at runtime | Amazon Bedrock via Strands Agents TypeScript (`src/brain.ts`) | **Verified live on 2026-10-11** by the `aws-smoke` workflow: GitHub OIDC role → Bedrock → Strands agent calling the Waypoint MCP server. Enable with `WAYPOINT_BRAIN=bedrock` and `WAYPOINT_BEDROCK_MODEL`. |
 | Country-pack extraction | Bedrock `Converse` with tool use (design in the context doc §4.7) | **Not built.** The current build uses a deterministic extractor. Tier B packs say so. |
-| Hosting | Lambda with Function URL, DynamoDB for `StateStore` | **Not deployed.** Needs the team's approval and a budget alert first. |
+| Hosting | Lambda with Function URL, DynamoDB for `StateStore` | **Deployed** by the `deploy-aws` workflow (manual trigger). Each run completes the CDK deploy and then the live concierge and tools checks. Runs of 2026-10-17 succeeded. |
 
-## Why nothing has been deployed
+## Deploying and keeping it up
 
-The hackathon's AWS credits ran out on 7 October. Any deploy spends the team's money, so the plan requires explicit approval and a budget alert before deploying. Nothing has been created in AWS.
+Every deploy is started by hand from the `deploy-aws` workflow on the working branch, so a push alone deploys nothing. Each deploy spends AWS money. The hackathon rules require the project to stay accessible to judges until the judging period ends on 20 November 2026, so keep the Function URL running until then.
 
 ## Model access
 
-The build environment has AWS credentials, but no Bedrock call has been made. Before any run, confirm model access and region. The model id is not hard-coded: `WAYPOINT_BEDROCK_MODEL` must be set.
+Bedrock is called on every deploy by the live concierge check, and the `aws-smoke` workflow verified the path on 2026-10-11. The model id is not hard-coded: `WAYPOINT_BEDROCK_MODEL` must be set.
 
 ## How the brain is wired
 
@@ -22,8 +22,8 @@ The build environment has AWS credentials, but no Bedrock call has been made. Be
 - The user id travels as the `x-waypoint-user` header, so the agent sees the same memory as the simulator.
 - The system prompt forbids tool names and JSON in replies, and requires the disclaimer.
 
-## Costs to watch (once approved)
+## Costs to watch
 
 - Bedrock: per token. Keep the brain on for demo calls only.
 - Lambda and DynamoDB: on-demand pricing; small at demo volume.
-- Set an AWS Budgets alert before the first deploy.
+- Keep an AWS Budgets alert on for the account. Check it after each deploy during the judging period.

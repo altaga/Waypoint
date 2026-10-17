@@ -46,7 +46,9 @@ Checked against the official Rules, FAQ, Dates tab and Overview on 2026-10-11.
 | Optional feature requests (description, why it matters, priority) | Not started | |
 | English for all materials | Done for docs | |
 
-## Prizes (for reference)
+## Prizes (for reference, not confirmed)
+
+From an aggregator (tierones.io) on 2026-10-17. The official rules page could not be read by the tools, so check the amounts and the AWS credit figures on the rules page before submitting. The $15,000 Alexa+ credit figure was not found in any source.
 
 - Alexa+: 1st $25,000 + $15,000 AWS credits; 2nd $15,000 + $5,000; 3rd $4,000 + $1,000.
 - AWS Builder and Open Source: $5,000 + $5,000 AWS credits each.

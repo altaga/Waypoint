@@ -337,6 +337,8 @@ function baseEnvelope(
     disclaimer: DISCLAIMER[locale],
     followUps: partial.followUps,
     ...(partial.missingFields?.length ? { missingFields: partial.missingFields } : {}),
+    // A pack is compiled by us from cited sources; only a pack a person signed off counts as human-reviewed.
+    ...(pack ? { review: pack.review.status === "human_reviewed" ? ("human" as const) : ("curated" as const) } : {}),
   };
 }
 
@@ -1071,7 +1073,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           card: {
             pattern: "list",
             title: pick(locale, `Places in ${name}`, `Lugares en ${name}`),
-            subtitle: curated ? pick(locale, "Curated list, verify hours", "Lista curada, verifica horarios") : pick(locale, "Ranked by popularity, not curated", "Por popularidad, sin curación"),
+            subtitle: curated ? pick(locale, "Curated list, not reviewed by a person; verify hours", "Lista curada, sin revisión humana; verifica horarios") : pick(locale, "Ranked by popularity, not curated", "Por popularidad, sin curación"),
             rows: ranked.map((p) => ({ label: p.name, value: `${p.area} · ${p.desc[locale]}`, status: "info" as const })),
           },
           data: {
@@ -1618,23 +1620,31 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         // The data's detail is written in Spanish only, so it is shown in Spanish sessions and left out otherwise.
         const detailOf = (o: { detail: string }) => (locale.startsWith("es") ? o.detail : "");
         const viable = options.filter((o) => o.usable_by_tourist);
+        // Estimated cash (veracity below 0.5) stays in the rows, but it is not counted as a verified way.
+        const ways = viable.filter((o) => !(o.kind === "cash" && o.veracity < 0.5));
         const best = viable.reduce((m, o) => Math.max(m, o.veracity), 0);
         const officialBest = viable
           .filter((o) => o.sources.some((s) => s.official))
           .reduce((m, o) => Math.max(m, o.veracity), 0);
         const count =
-          viable.length === 1 ? pick(locale, "1 way", "una vía") : pick(locale, `${viable.length} ways`, `${viable.length} vías`);
-        const shown = viable.slice(0, 4).map(label);
-        const more = viable.length - shown.length;
+          ways.length === 1 ? pick(locale, "1 way", "una vía") : pick(locale, `${ways.length} ways`, `${ways.length} vías`);
+        const shown = ways.slice(0, 4).map(label);
+        const more = ways.length - shown.length;
         const names = shown.join(", ") + (more > 0 ? pick(locale, ` and ${more} more`, ` y ${more} más`) : "");
         const env: Envelope = {
-          voice: viable.length
+          voice: ways.length
             ? pick(
                 locale,
                 `In ${name}: ${count} a visitor can pay with without a local card: ${names}. Check each one before you travel.`,
                 `En ${name}: ${count} que un turista puede usar sin tarjeta local: ${names}. Revisa cada una antes de viajar.`,
               )
-            : pick(
+            : viable.length
+              ? pick(
+                  locale,
+                  `In ${name}: I found no verified way a visitor can pay with a foreign card or wallet. Cash is the usual way, though that is an estimate.`,
+                  `En ${name}: no encontré ninguna vía verificada con tarjeta o billetera extranjera. El efectivo parece ser lo habitual, aunque es una estimación.`,
+                )
+              : pick(
                 locale,
                 `In ${name}: I found no verified way a visitor can pay with a foreign card or wallet. Check the official travel advice and your bank.`,
                 `En ${name}: no encontré ninguna vía verificada que un turista pueda usar con tarjeta o billetera extranjera. Revisa el aviso oficial de viaje y a tu banco.`,

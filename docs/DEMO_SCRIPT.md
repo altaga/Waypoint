@@ -12,7 +12,7 @@ Target: 2 min 45 s. No music, no third-party logos. The presenter's voice for th
 | 1:55–2:15 | The concierge | Say: "How much are 20,000 pesos there, and what should I pack?" The trace shows several tools in one turn | "On Amazon Bedrock, the concierge chains tools in a single turn and answers in a few spoken sentences." |
 | 2:15–2:30 | Memory | Click **New session**, then say: "What's left for my trip?" | "The trip survives the session. This is a second conversation, not a fresh start." |
 | 2:30–2:42 | Under the hood | Click **View panel** (the MCP App), then open the protocol log: `initialize`, `tools/list`, `tools/call` | "Real MCP 2025-11-25 over Streamable HTTP, with output schemas, annotations and an MCP App, on AWS Lambda." |
-| 2:42–2:55 | Impact and open source | `oss/travel-entry-packs` on screen | "The packs are open source. Rules change; verify with the official source before you travel." |
+| 2:42–2:55 | Impact and open source | `docs/OPEN_SOURCE.md` on screen (the schema and plan). Do not show the example pack in `oss/`: it does not match the Japan pack the app serves | "The evidence format is open source. Rules change; verify with the official source before you travel." |
 
 ## Before recording
 
