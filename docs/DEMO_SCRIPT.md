@@ -18,8 +18,10 @@ Target: 2 min 45 s. No music, no third-party logos. The presenter's voice for th
 
 1. `npm ci && npm start`, then open `http://127.0.0.1:3000` (or the deployed URL, for the Bedrock concierge and the Polly voice).
 2. Run `npm run smoke:web` once to confirm the path works.
-3. Click **New session** so the viewer id is fresh, and keep **Read aloud** on.
-4. Record at 1440 × 900 or larger; the autopilot card scrolls into view by itself.
+3. Log the shared dinner so the group money has something to show: "Gasté 900 pesos de la cena, pagó Ana."
+4. Open **View panel** before **New session**. After a new session the button comes back only when a tool shows the panel again.
+5. Keep **Read aloud** on.
+6. Record at 1440 × 900 or larger; the autopilot card scrolls into view by itself.
 
 ## Known gaps to avoid showing
 

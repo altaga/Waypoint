@@ -745,7 +745,7 @@ async function handleUtterance(text) {
     }
     // The brain did not answer: the label must not keep claiming it did.
     $("brainMode").textContent = t("brain");
-    const intent = routeUtterance(text);
+    const intent = routeUtterance(text, { destination: currentBrief?.destination });
     if (!intent) {
       bubble("assistant", t("notUnderstood"));
       speak(t("notUnderstood"));

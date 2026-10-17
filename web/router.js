@@ -49,16 +49,22 @@ export function findDates(text, year = 2026) {
   return null;
 }
 
-export function routeUtterance(text) {
+// context.destination is the trip on the screen: a question about "what can't I bring" names no country.
+export function routeUtterance(text, context = {}) {
   const t = norm(text);
   const dest = findDestination(text);
+  const tripDest = dest ?? context.destination ?? null;
   const amount = t.match(/(\d[\d.,]*)\s*(mil|k|thousand)?/);
   const curr = CURRENCIES.find(([re]) => re.test(t));
 
   if (/olvida|forget|borra mis datos|delete my data/.test(t)) return { tool: "forget_me", args: {} };
   if (/que me falta|what.?s left|pending|pendiente|resumen del viaje|trip brief/.test(t)) return { tool: "trip_brief", args: {} };
-  if (/(gaste|spent|registra|log).*/.test(t) && amount) {
-    return { tool: "log_expense", args: { amount: Number(amount[1].replace(/[.,]/g, "")), category: "other", currency: curr?.[1] } };
+  if (/(gaste|spent|registra|log|pagu|pago|paid)/.test(t) && amount && !text.includes("?")) {
+    // "pagó Ana" or "paid by Ana" names who paid; without a name the cost is left unassigned, as before.
+    const payer = /\bpag[oó]\s+([A-Za-zÁÉÍÓÚáéíóúñÑ]+)|\bpaid by\s+([A-Za-z]+)/i.exec(text);
+    const who = payer ? (payer[1] || payer[2]) : null;
+    const category = /cena|comida|almuerzo|desayuno|restaurant|dinner|lunch|breakfast|food/.test(t) ? "food" : "other";
+    return { tool: "log_expense", args: { amount: Number(amount[1].replace(/[.,]/g, "")), category, currency: curr?.[1], ...(who ? { payer: who } : {}) } };
   }
   if (/(cuanto rinde|cuanto son|how far|convert|cambio|budget|presupuesto)/.test(t) && amount) {
     const n = Number(amount[1].replace(/[.,]/g, "")) * (amount[2] ? 1000 : 1);
@@ -70,9 +76,9 @@ export function routeUtterance(text) {
   if (/(enchufe|plug|adaptador|emergenc|moneda|currency|idioma|language)/.test(t) && dest) {
     return { tool: "get_destination_essentials", args: { destination: dest } };
   }
-  if (/(no puedo llevar|no puedo|prohib|can i bring|can.t bring|can i|reglas|rules|ley|law|multa|fine)/.test(t) && dest) {
+  if (/(no puedo llevar|no puedo|puedo llevar|puedo traer|puedo meter|prohib|can i bring|can.t bring|can.t i bring|can i|reglas|rules|ley|law|multa|fine)/.test(t) && tripDest) {
     const items = /(bring|llevar|import|traer|meter|carry|pack)/.test(t);
-    return { tool: "get_local_rules", args: { destination: dest, ...(items ? { categories: ["prohibited_items"] } : {}) } };
+    return { tool: "get_local_rules", args: { destination: tripDest, ...(items ? { categories: ["prohibited_items"] } : {}) } };
   }
   if (/(visa|requisito|entrar|entry|necesito|need)/.test(t) && dest) {
     return { tool: "check_entry_requirements", args: { destination: dest } };
