@@ -31,7 +31,7 @@ Do not use for flight or hotel booking. Alexa+ partners cover that.
 | Resume a trip | `trip_brief` |
 | Spending | `log_expense` |
 | Delete data | `forget_me` (always confirm first) |
-| How to pay (cash, cards, QR, e-wallets, ATMs, banknotes, cryptocurrency) | `get_payment_methods` (verified official sources only; say so when a country has no entry) |
+| How to pay (cash, cards, QR, e-wallets, ATMs, banknotes, cryptocurrency) | `get_payment_methods` (official sources when they exist, dated; otherwise travel guides and traveler reports, labelled as not officially confirmed; says so when a country has no entry) |
 | Weather, temperature, rain on the dates | `get_trip_climate` (usual weather, not a forecast) |
 | Who is travelling (the profile) | `get_traveler_profile` |
 | Group money: who owes whom | `settle_up`, `plan_fairness` (fairness of the plan for each traveler) |

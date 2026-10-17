@@ -1264,7 +1264,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
     {
       title: "Payment methods",
       description:
-        "Use when the user asks how to pay in a destination: cash or cards, QR codes or e-wallets, ATMs, banknotes, or cryptocurrency. Answers only from verified official sources, dated; for a country without a verified entry it says so and does not guess. Defaults to the trip's destination.",
+        "Use when the user asks how to pay in a destination: cash or cards, QR codes or e-wallets, ATMs, banknotes, or cryptocurrency. Answers from official sources when it has them, dated; otherwise from travel guides and traveler reports, labelled as not officially confirmed. For a country without an entry it says so and does not guess. Defaults to the trip's destination.",
       inputSchema: {
         destination: z.string().min(2).optional(),
         topic: z.enum(["cash", "cards", "qr", "atm", "banknotes", "crypto"]).optional().describe("What the traveler asked about; the answer starts with it"),
@@ -1285,11 +1285,11 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           return envelopeResult({
             voice: pick(
               locale,
-              `I don't have verified payment information for ${countryName(dest, "en")} yet. Check the official travel advice and your bank before you travel.`,
-              `Aún no tengo información de pagos verificada para ${name}. Revisa el aviso oficial de viaje y a tu banco antes de viajar.`,
+              `I don't have payment information for ${countryName(dest, "en")} yet. Check the official travel advice and your bank before you travel.`,
+              `Aún no tengo información de pagos para ${name}. Revisa el aviso oficial de viaje y a tu banco antes de viajar.`,
             ),
             card: { pattern: "list", title: pick(locale, `Payments in ${name}`, `Pagos en ${name}`), rows: [] },
-            data: { destination: dest, verified: false },
+            data: { destination: dest, tier: null, verified: false },
             sources: [],
             lastVerified: ctx.payments.retrieved,
             confidence: "low",
@@ -1319,21 +1319,39 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const first = args.topic === "crypto" && !entry.crypto
           ? pick(locale, "no official source says whether merchants accept cryptocurrency", "ninguna fuente oficial dice si los comercios aceptan criptomonedas")
           : asked ?? entry.cash ?? entry.cards ?? "";
-        const confidence = entry.confidence === "alta" ? "high" : entry.confidence === "media" ? "medium" : "low";
+        // Official entries answer as official. Reported entries (guides, card sites, traveler reports) say so in the voice,
+        // the subtitle and the source license, and never claim the official confidence level.
+        const official = entry.tier === "oficial";
+        const confidence = !official ? "low" : entry.confidence === "alta" ? "high" : entry.confidence === "media" ? "medium" : "low";
+        const said = first.replace(/\.\s*$/, "");
         const env: Envelope = {
-          voice: pick(
-            locale,
-            `In ${name}: ${first || "check the official source for the details"}. Verify with the official source before you travel.`,
-            `En ${name}: ${first || "revisa la fuente oficial para los detalles"}. Verifica con la fuente oficial antes de viajar.`,
-          ),
+          voice: official
+            ? pick(
+                locale,
+                `In ${name}: ${said || "check the official source for the details"}. Verify with the official source before you travel.`,
+                `En ${name}: ${said || "revisa la fuente oficial para los detalles"}. Verifica con la fuente oficial antes de viajar.`,
+              )
+            : pick(
+                locale,
+                `In ${name}, according to travel guides and travelers, not confirmed by an official source: ${said || "check an official source for the details"}. Verify before you travel.`,
+                `En ${name}, según guías y viajeros, sin confirmación oficial: ${said || "revisa una fuente oficial para los detalles"}. Verifica antes de viajar.`,
+              ),
           card: {
             pattern: "list",
             title: pick(locale, `Payments in ${name}`, `Pagos en ${name}`),
-            subtitle: pick(locale, `Official sources, retrieved ${entry.retrieved}`, `Fuentes oficiales, consultadas el ${entry.retrieved}`),
+            subtitle: official
+              ? pick(locale, `Official sources, retrieved ${entry.retrieved}`, `Fuentes oficiales, consultadas el ${entry.retrieved}`)
+              : pick(locale, `Travel guides and traveler reports, not official; retrieved ${entry.retrieved}`, `Guías y viajeros, no oficial; consultado el ${entry.retrieved}`),
             rows,
           },
-          data: { destination: dest, verified: true, confidence: entry.confidence, notes: entry.notes ?? [], retrieved: entry.retrieved },
-          sources: entry.sources.map((s, i) => ({ id: `src:payments:${dest}:${i}`, title: s.title, url: s.url, license: "Official public information", retrieved: entry.retrieved })),
+          data: { destination: dest, tier: entry.tier, verified: official, confidence: entry.confidence, notes: entry.notes ?? [], retrieved: entry.retrieved },
+          sources: entry.sources.map((s, i) => ({
+            id: `src:payments:${dest}:${i}`,
+            title: s.title,
+            url: s.url,
+            license: official ? "Official public information" : "Travel guide or traveler report (not official)",
+            retrieved: entry.retrieved,
+          })),
           followUps: [pick(locale, "Anything else for this trip?", "¿Algo más para este viaje?")],
           lastVerified: ctx.payments.retrieved,
           confidence,

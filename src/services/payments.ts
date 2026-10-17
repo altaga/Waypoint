@@ -1,11 +1,14 @@
 // Payment methods a foreign visitor can use, per country (data/world/payments.json). Every fact has
-// a source from an official publisher (government, central bank, national tourism board) and the
-// date it was retrieved. A country without a verified entry says so: nothing is guessed.
+// a source and the date it was retrieved. Two tiers: "oficial" entries cite an official publisher
+// (government, central bank, national tourism board); "reportado" entries come from travel guides,
+// card and exchange sites and traveler reports, and are never presented as official. A country
+// without an entry says so: nothing is guessed.
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 
 export interface PaymentSource { title: string; url: string }
 export interface PaymentEntry {
+  tier: "oficial" | "reportado";
   name: string;
   retrieved: string;
   confidence: "alta" | "media" | "baja";

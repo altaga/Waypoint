@@ -27,4 +27,4 @@ Target: 2 min 45 s. No music, no third-party logos. The presenter's voice for th
 
 - The climate is the usual weather for the dates (NASA POWER normals), not a forecast: do not call it a forecast.
 - Do not claim the rules are reviewed: tier B packs are machine-extracted.
-- Payment methods are verified for 18 countries only (`data/world/payments.json`, each with its official source and date). For any other country the agent says it has no verified data; do not show it guessing, and do not claim crypto is accepted anywhere.
+- Payment methods cover 191 countries in `data/world/payments.json`. Only 18 are official (each with its source and date). The other 173 come from travel guides and traveler reports, and the agent says they are not officially confirmed. Do not present the 173 as official, and do not claim crypto is accepted anywhere. A country with no entry gets "no data", never a guess.
