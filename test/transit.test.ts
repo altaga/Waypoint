@@ -32,7 +32,7 @@ async function session(user: string, locale = "en-US") {
 
 test("every transit system cites an https source, sits in a known country, and has a tier and a bank-card status", () => {
   const values = Object.values(data.systems);
-  assert.equal(values.length, 11);
+  assert.equal(values.length, 13);
   for (const [id, s] of Object.entries(data.systems)) {
     assert.match(s.source.url, /^https:\/\//, id);
     assert.ok(countries.has(s.country), `${id} has an unknown country ${s.country}`);
@@ -63,6 +63,14 @@ test("Japan and Korea: the answer says when a bank card is not confirmed or does
   assert.match(kr.voice, /not with a bank card in Seoul/);
   const seoulRow = (kr.card.rows as { label: string; status: string }[]).find((x) => x.label === "Seoul");
   assert.equal(seoulRow?.status, "warn");
+});
+
+test("Mexico City: the Metro takes a contactless bank card, and Metrobús only on some lines", async () => {
+  const s = await session("transit-mx");
+  const r = await s.call("get_transit_payment", { destination: "MX" });
+  assert.match(r.voice, /bank card works at the gates in Mexico City/);
+  assert.match(r.voice, /only partly in Mexico City \(Metrobús\)/);
+  assert.equal(r.confidence, "low", "press reports only");
 });
 
 test("a country with no transit entry says so, and cites nothing", async () => {

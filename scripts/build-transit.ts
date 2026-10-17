@@ -215,6 +215,40 @@ const SYSTEMS: Record<string, System> = {
     tier: "reportado",
     source: { title: "Gulf News: Dubai RTA and Visa collaborate on digital transport payments", url: "https://gulfnews.com/uae/transport/dubais-rta-and-visa-collaborate-to-improve-digital-payments-for-public-transport-1.78822383" },
   },
+  mexico_city_metro: {
+    country: "MX",
+    city: { en: "Mexico City", es: "Ciudad de México" },
+    system: { en: "Metro (all lines, per the operator's network figure)", es: "Metro (todas las líneas, según la cifra de la red del operador)" },
+    physicalCard: { en: "Tarjeta de Movilidad Integrada (MI), 15 pesos, loads up to 500 pesos", es: "Tarjeta de Movilidad Integrada (MI), 15 pesos, recargable hasta 500 pesos" },
+    bankCard: "yes",
+    bankCardNote: {
+      en: "Tap a contactless Visa, Mastercard or American Express debit or credit card, or a phone with the card in its wallet, at the turnstile validator; no PIN. Reported from a January 2026 article and the operator's network figure. The sources do not say whether cards issued outside Mexico are accepted.",
+      es: "Se toca una tarjeta de débito o crédito contactless Visa, Mastercard o American Express, o un teléfono con la tarjeta en su billetera, en el validador del torniquete; sin PIN. Reportado en un artículo de enero de 2026 y en la cifra de red del operador. Las fuentes no dicen si se aceptan tarjetas emitidas fuera de México.",
+    },
+    note: {
+      en: "Sources disagree on coverage: the operator's figure says the whole network since Line 12 was added; a January 2026 report lists only Lines 1 to 9, A and B. The fare is reported as 5 pesos (one source).",
+      es: "Las fuentes no coinciden en la cobertura: la cifra del operador dice toda la red desde que se sumó la línea 12; un reporte de enero de 2026 solo lista las líneas 1 a 9, A y B. La tarifa se reporta en 5 pesos (una fuente).",
+    },
+    tier: "reportado",
+    source: { title: "N+: which bank cards are accepted on the CDMX Metro, and on which lines", url: "https://www.nmas.com.mx/ciudad-de-mexico/que-tarjetas-bancarias-aceptan-metro-cdmx-en-cuales-lineas-asi-puedes-pagar-viaje/" },
+  },
+  mexico_city_metrobus: {
+    country: "MX",
+    city: { en: "Mexico City (Metrobús)", es: "Ciudad de México (Metrobús)" },
+    system: { en: "Metrobús bus rapid transit, Lines 1, 2 and 3", es: "Metrobús, líneas 1, 2 y 3" },
+    physicalCard: { en: "Tarjeta de Movilidad Integrada (MI), also valid on the Metro, RTP, Trolebús, Ecobici, Mi Ruta and Cablebús", es: "Tarjeta de Movilidad Integrada (MI), válida también en Metro, RTP, Trolebús, Ecobici, Mi Ruta y Cablebús" },
+    bankCard: "partial",
+    bankCardNote: {
+      en: "A press report says bank cards pay at the 122 stations of Lines 1, 2 and 3, by inserting the card or tapping a digital reader. A travel guide says the MI card is the only accepted payment, so the sources conflict.",
+      es: "Un reporte de prensa dice que las tarjetas bancarias pagan en las 122 estaciones de las líneas 1, 2 y 3, insertando la tarjeta o tocando un lector digital. Una guía de viaje dice que la tarjeta MI es el único pago aceptado; las fuentes no coinciden.",
+    },
+    note: {
+      en: "The MI card costs 15 pesos and is the usual alternative for visitors. The press reports are undated in the results, so the rollout date is unclear.",
+      es: "La tarjeta MI cuesta 15 pesos y es la alternativa habitual para visitantes. Los reportes no traen fecha en los resultados, así que no queda claro cuándo empezó.",
+    },
+    tier: "reportado",
+    source: { title: "Portal Automotriz: Metrobús users will be able to pay without contact with bank cards", url: "https://www.portalautomotriz.com/print/noticias/transporte/usuarios-de-metrobus-podran-pagar-sin-contacto-con-tarjetas-bancarias-y" },
+  },
 };
 
 function main() {
