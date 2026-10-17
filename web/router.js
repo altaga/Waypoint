@@ -74,6 +74,9 @@ export function routeUtterance(text, context = {}) {
     const n = Number(amount[1].replace(/[.,]/g, "")) * (amount[2] ? 1000 : 1);
     return { tool: "convert_budget", args: { amount: n, to: curr?.[1], destination: dest ?? undefined } };
   }
+  if (/\b(metro|subway|tren|train|tram|transporte|transit|bus|autobus|oyster|octopus|suica|pasmo|navigo|omny|ez-?link|opal|t-money|easycard|icoca|ov-chipkaart|istanbulkart)\b/.test(t) && tripDest) {
+    return { tool: "get_transit_payment", args: { destination: tripDest } };
+  }
   if (/(\bpagar\b|\bpago\b|\bpay\b|tarjeta|efectivo|\bcash\b|\bcard\b|\bqr\b|cajero|\batm\b|billetera|wallet|cripto|crypto|bitcoin|billete)/.test(t) && tripDest) {
     return { tool: "get_payment_methods", args: { destination: tripDest, ...(paymentTopic ? { topic: paymentTopic } : {}) } };
   }

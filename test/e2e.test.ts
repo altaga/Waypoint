@@ -51,10 +51,10 @@ after(() => new Promise<void>((resolve) => {
   server.close(() => resolve());
 }));
 
-test("tools/list exposes the 22 tools with outputSchema, annotations and the MCP App link", async () => {
+test("tools/list exposes the 23 tools with outputSchema, annotations and the MCP App link", async () => {
   const client = await connect("e2e-list");
   const { tools } = await client.listTools();
-  assert.equal(tools.length, 22);
+  assert.equal(tools.length, 23);
   for (const t of tools) {
     assert.ok(t.outputSchema, `${t.name} needs outputSchema`);
     assert.ok(t.annotations, `${t.name} needs annotations`);

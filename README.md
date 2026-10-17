@@ -30,6 +30,7 @@ Offline mode (`WAYPOINT_OFFLINE=1`) needs no network: FX uses a labelled snapsho
 | `get_local_rules` | What can't I bring or do? | Verified rules with severity, each with its source quote |
 | `get_destination_essentials` | Plugs, emergency numbers, currency | Facts with sources |
 | `convert_budget` | How far does my money go? | Live FX (or labelled snapshot) plus World Bank PPP equivalent |
+| `get_transit_payment` | Can I tap my bank card on the metro here, and which transit card do locals use? | For each city or network: whether a contactless bank card works at the gates (yes, partly, no, or not confirmed), the local card (Oyster, Octopus, Suica, OV-chipkaart, Navigo, T-money, EasyCard), with the operator's page as official source where it has one |
 | `get_local_apps` | Does Uber, Grab, DiDi, Rappi, Mercado Libre, Amazon or Mercari work here? | Each app for the trip's country: on the company's own list, reported by press or guides (not confirmed), not on the list, or no verified data. By country, not city |
 | `get_payment_methods` | How do I pay there? | Cash, cards, QR and e-wallets, ATMs, banknotes and cryptocurrency for 191 countries. 18 come from official sources with dates; 173 come from travel guides and traveler reports and are labelled as not officially confirmed. A country with no entry is said so, never guessed. No cryptocurrency acceptance is claimed anywhere |
 | `get_trip_climate` | What will the weather be like? | The usual highs, lows and rain on the trip's own dates (NASA POWER normals for every capital, weighted by days per month); not a forecast |
@@ -45,7 +46,7 @@ Offline mode (`WAYPOINT_OFFLINE=1`) needs no network: FX uses a labelled snapsho
 | `export_trip` | Put it in my calendar | A calendar file with the trip and one event per planned day, or the plan as text |
 | `forget_me` | Delete my data | **Elicits** confirmation, then deletes profile, trips and expenses |
 
-Every tool declares an `inputSchema`, an `outputSchema`, `annotations` (`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`) and returns the same envelope. The server exposes 22 tools over MCP 2025-11-25 Streamable HTTP:
+Every tool declares an `inputSchema`, an `outputSchema`, `annotations` (`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`) and returns the same envelope. The server exposes 23 tools over MCP 2025-11-25 Streamable HTTP:
 
 ```
 { voice, card, data, sources[], lastVerified, confidence, disclaimer, followUps[], missingFields? }
@@ -101,6 +102,7 @@ The trip hero also draws the group's routes on a dotted globe (`web/globe.js`, c
 | Purchasing power | [World Bank PA.NUS.PRVT.PP](https://data.worldbank.org/indicator/PA.NUS.PRVT.PP) | CC BY 4.0 | `data/vendor/ppp.json` |
 | Plug types and emergency numbers | [Wikidata P2853 / P2852](https://www.wikidata.org/) | CC0 | `data/vendor/wikidata-plugs-emergency.json` |
 | Countries, cities (population 300,000+ and capitals) | [Wikidata](https://www.wikidata.org/) via `scripts/build-world.ts` | CC0 | `data/world/countries.json`, `data/world/cities.json` |
+| Transit payment by city (Oyster, Octopus, Suica, OV-chipkaart, Navigo, T-money, EasyCard, Istanbulkart, OMNY) | Operator pages (TfL, MTA) are official; press and guides are labelled as not confirmed | Public information; see `data/world/transit.json` for each source and date | `data/world/transit.json` via `scripts/build-transit.ts` |
 | Travel apps by country (Uber, Grab, Mercado Libre, Amazon from their own pages or SEC filing; DiDi, Rappi, Mercari from press and travel guides) | Company pages and reports; see `data/world/apps.json` for each source and date | Public information; press and guides labelled as not official | `data/world/apps.json` via `scripts/build-apps.ts` |
 | Places to visit, 194 countries with places | Curated by Waypoint from the Wikidata list (ids must exist there; a test enforces it) and ranked by Wikipedia popularity for the rest | CC0 (ids); descriptions are Waypoint's or Wikipedia's | `highlights/*.json` (curated), `data/world/highlights/*.json` (ranked) |
 | Place descriptions | First sentence of each place's Wikipedia article, linked from the place | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (attribution and link kept) | `data/grounding/places.json`, applied to `highlights/*.json` |

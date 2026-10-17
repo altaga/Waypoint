@@ -1431,6 +1431,94 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
       }),
   );
 
+  // How a visitor pays for city transit: whether a contactless bank card works at the gates, and the local card.
+  // An operator's own page is official; press and guides are reported. A country with no entry says so.
+  server.registerTool(
+    "get_transit_payment",
+    {
+      title: "Transit payment",
+      description:
+        "Use when the user asks how to pay for the metro, bus, tram or train in a destination: whether a contactless bank card or phone works at the gates, and which transit card locals use (Oyster, Octopus, Suica, OV-chipkaart, Navigo, T-money, EasyCard, Istanbulkart). Answers from the operator's page when it has one, otherwise from press or guides, labelled as not confirmed. Where there is no entry it says so. Defaults to the trip's destination.",
+      inputSchema: {
+        destination: z.string().min(2).optional(),
+      },
+      outputSchema: EnvelopeShape,
+      annotations: ann({ readOnly: true, idempotent: true, openWorld: false }),
+    },
+    (args) =>
+      run(async () => {
+        const state = await load();
+        const locale = localeOf(state);
+        const trip = latestTrip(state);
+        const dest = args.destination ? resolveDestinationOrThrow(args.destination) : trip?.destination;
+        if (!dest) return nothingYetEnvelope(locale, "trip");
+        const name = countryName(dest, locale);
+        const systems = ctx.transit.forCountry(dest);
+        if (!systems.length) {
+          return envelopeResult({
+            voice: pick(
+              locale,
+              `I don't have verified transit payment information for ${countryName(dest, "en")} yet. Check the local transit operator before you travel.`,
+              `Aún no tengo información verificada de pago en el transporte para ${name}. Revisa al operador local antes de viajar.`,
+            ),
+            card: { pattern: "list", title: pick(locale, `Transit in ${name}`, `Transporte en ${name}`), rows: [] },
+            data: { destination: dest, systems: [], verified: false },
+            sources: [],
+            lastVerified: ctx.transit.retrieved,
+            confidence: "low",
+            disclaimer: DISCLAIMER[locale],
+            followUps: [pick(locale, "Anything else for this trip?", "¿Algo más para este viaje?")],
+          });
+        }
+        const end = (text: string) => text.replace(/\.\s*$/, "");
+        const bank: Record<string, { en: string; es: string; status: "info" | "warn" }> = {
+          yes: { en: "Bank card works at the gates", es: "La tarjeta bancaria entra en los torniquetes", status: "info" },
+          partial: { en: "Partly: bank card on some lines or services only", es: "En parte: tarjeta bancaria solo en algunas líneas o servicios", status: "info" },
+          no: { en: "Bank card does not work: use the local card", es: "La tarjeta bancaria no funciona: usa la tarjeta local", status: "warn" },
+          unverified: { en: "Not confirmed: check the operator", es: "Sin confirmar: revisa al operador", status: "warn" },
+        };
+        const rows = systems.map((s) => {
+          const label = bank[s.bankCard]!;
+          return {
+            label: pick(locale, s.city.en, s.city.es),
+            value: `${pick(locale, label.en, label.es)}. ${end(pick(locale, s.bankCardNote.en, s.bankCardNote.es))}. ${pick(locale, "Local card", "Tarjeta local")}: ${end(pick(locale, s.physicalCard.en, s.physicalCard.es))}.`,
+            status: label.status,
+          };
+        });
+        const cityNames = (xs: { city: { en: string; es: string } }[]) => xs.map((s) => pick(locale, s.city.en, s.city.es)).join(", ");
+        const yes = systems.filter((s) => s.bankCard === "yes");
+        const partial = systems.filter((s) => s.bankCard === "partial");
+        const no = systems.filter((s) => s.bankCard === "no");
+        const unverified = systems.filter((s) => s.bankCard === "unverified");
+        const env: Envelope = {
+          voice: pick(
+            locale,
+            `In ${name}: a bank card works at the gates in ${yes.length ? cityNames(yes) : "no system we have confirmed"}${partial.length ? `; only partly in ${cityNames(partial)}` : ""}${no.length ? `; not with a bank card in ${cityNames(no)}` : ""}${unverified.length ? `; not confirmed for ${cityNames(unverified)}` : ""}. Check the operator before you travel.`,
+            `En ${name}: la tarjeta bancaria entra en ${yes.length ? cityNames(yes) : "ningún sistema confirmado"}${partial.length ? `; solo en parte en ${cityNames(partial)}` : ""}${no.length ? `; no funciona con tarjeta bancaria en ${cityNames(no)}` : ""}${unverified.length ? `; sin confirmar en ${cityNames(unverified)}` : ""}. Revisa al operador antes de viajar.`,
+          ),
+          card: {
+            pattern: "list",
+            title: pick(locale, `Transit in ${name}`, `Transporte en ${name}`),
+            subtitle: pick(locale, `Operator pages and reports, retrieved ${ctx.transit.retrieved}`, `Páginas de operadores e informes, consultado el ${ctx.transit.retrieved}`),
+            rows,
+          },
+          data: { destination: dest, systems: systems.map((s) => s.id), verified: true },
+          sources: systems.map((s) => ({
+            id: `src:transit:${s.id}`,
+            title: s.source.title,
+            url: s.source.url,
+            license: s.tier === "oficial" ? "Operator's own page" : "Press or guide (not official)",
+            retrieved: s.retrieved,
+          })),
+          followUps: [pick(locale, "Anything else for this trip?", "¿Algo más para este viaje?")],
+          lastVerified: ctx.transit.retrieved,
+          confidence: systems.some((s) => s.tier === "oficial" && s.bankCard === "yes") ? "medium" : "low",
+          disclaimer: DISCLAIMER[locale],
+        };
+        return envelopeResult(env);
+      }),
+  );
+
   // 12. trip_brief (multi-session memory)
   // The usual weather on the trip's dates, from vendored climate normals (NASA POWER).
   server.registerTool(

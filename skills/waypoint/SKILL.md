@@ -31,6 +31,7 @@ Do not use for flight or hotel booking. Alexa+ partners cover that.
 | Resume a trip | `trip_brief` |
 | Spending | `log_expense` |
 | Delete data | `forget_me` (always confirm first) |
+| How to pay for the metro, bus or train: bank card at the gates, local transit card (Oyster, Octopus, Suica, OV-chipkaart, Navigo, T-money, EasyCard) | `get_transit_payment` (operator pages are official; press and guides are labelled as not confirmed; says so when there is no entry) |
 | Whether ride, delivery or shopping apps work here (Uber, Grab, DiDi, Rappi, Mercado Libre, Amazon, Mercari) | `get_local_apps` (company lists are official; press and guides are labelled as not confirmed; by country, not city) |
 | How to pay (cash, cards, QR, e-wallets, ATMs, banknotes, cryptocurrency) | `get_payment_methods` (official sources when they exist, dated; otherwise travel guides and traveler reports, labelled as not officially confirmed; says so when a country has no entry) |
 | Weather, temperature, rain on the dates | `get_trip_climate` (usual weather, not a forecast) |

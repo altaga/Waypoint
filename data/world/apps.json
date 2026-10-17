@@ -303,6 +303,141 @@
         "es": "Rakuten Ichiba es un marketplace japonés. Los compradores extranjeros envían con Rakuten Global Express a más de 80 países y regiones, tras registrarse y verificar su identidad. Cada tienda elige sus destinos."
       },
       "retrieved": "2026-10-17"
+    },
+    "bolt": {
+      "name": "Bolt",
+      "category": "mobility",
+      "tier": "oficial",
+      "complete": false,
+      "source": {
+        "title": "Bolt: list of countries (bolt.eu/en/cities; the page is truncated after Portugal)",
+        "url": "https://bolt.eu/en/cities/"
+      },
+      "description": {
+        "en": "Ride-hailing, delivery and scooters in 850+ cities, per Bolt's page. The fetched list stops after Portugal, so countries after it are not confirmed.",
+        "es": "Viajes en auto, reparto y scooters en más de 850 ciudades, según la página de Bolt. La lista descargada se corta después de Portugal; los países que siguen no están confirmados."
+      },
+      "retrieved": "2026-10-17"
+    },
+    "jumia": {
+      "name": "Jumia",
+      "category": "marketplace",
+      "tier": "oficial",
+      "complete": true,
+      "source": {
+        "title": "Jumia group site: 'active across 8 countries' and the platforms footer",
+        "url": "https://group.jumia.com/"
+      },
+      "description": {
+        "en": "Marketplace in eight African countries, per Jumia's own site.",
+        "es": "Marketplace en ocho países africanos, según el sitio de Jumia."
+      },
+      "retrieved": "2026-10-17"
+    },
+    "flipkart": {
+      "name": "Flipkart",
+      "category": "marketplace",
+      "tier": "oficial",
+      "complete": true,
+      "source": {
+        "title": "Flipkart homepage: 'India's trusted and beloved e-commerce platform'",
+        "url": "https://www.flipkart.com/"
+      },
+      "description": {
+        "en": "Marketplace in India only, per Flipkart's own homepage.",
+        "es": "Marketplace solo en India, según la página principal de Flipkart."
+      },
+      "retrieved": "2026-10-17"
+    },
+    "lyft": {
+      "name": "Lyft",
+      "category": "mobility",
+      "tier": "oficial",
+      "complete": true,
+      "source": {
+        "title": "Lyft cities page: Canada, United States and 'Europe' (early access; FREENOW not mentioned)",
+        "url": "https://www.lyft.com/cities"
+      },
+      "description": {
+        "en": "Ride-hailing in the US and Canada, per Lyft's cities page. Europe is served through FREENOW, which is listed separately.",
+        "es": "Viajes en auto en EE. UU. y Canadá, según la página de ciudades de Lyft. Europa se atiende con FREENOW, que aparece aparte."
+      },
+      "retrieved": "2026-10-17"
+    },
+    "freenow": {
+      "name": "FREENOW",
+      "category": "mobility",
+      "tier": "reportado",
+      "complete": false,
+      "source": {
+        "title": "Lyft press release on acquiring FREENOW (April 2025), reported by Nasdaq and others",
+        "url": "https://www.nasdaq.com/press-release/lyft-expands-europe-diversifies-acquiring-freenow-2025-04-16"
+      },
+      "description": {
+        "en": "Taxi and ride-hailing app in nine European countries, owned by Lyft since the 2025 announcement. Closing and the current list were not confirmed.",
+        "es": "App de taxis y viajes en auto en nueve países europeos, de Lyft desde el anuncio de 2025. El cierre y la lista actual no están confirmados."
+      },
+      "retrieved": "2026-10-17"
+    },
+    "foodpanda": {
+      "name": "foodpanda",
+      "category": "delivery",
+      "tier": "reportado",
+      "complete": false,
+      "source": {
+        "title": "Company profile listing ten Asian markets (undated); Insider Retail and Technode on the 2025 Thailand exit",
+        "url": "https://insideretail.asia/2025/04/24/foodpanda-to-exit-thailand-as-delivery-hero-scales-back-in-apac/"
+      },
+      "description": {
+        "en": "Food and grocery delivery in Asia, part of Delivery Hero. Thailand was exited in May 2025. The Delivery Hero annual report was not reachable, so the list is partial.",
+        "es": "Reparto de comida y súper en Asia, parte de Delivery Hero. Salió de Tailandia en mayo de 2025. El informe anual de Delivery Hero no fue accesible; la lista es parcial."
+      },
+      "retrieved": "2026-10-17"
+    },
+    "ebay": {
+      "name": "eBay",
+      "category": "marketplace",
+      "tier": "reportado",
+      "complete": false,
+      "source": {
+        "title": "Ginee: eBay international sites (dated list of country sites)",
+        "url": "https://ginee.com/my/insights/ebay-international-sites/"
+      },
+      "description": {
+        "en": "Online marketplace with country sites and worldwide shipping to over 190 countries. The country-site list is dated and the help page was not read, so it is partial.",
+        "es": "Marketplace en línea con sitios por país y envíos a más de 190 países. La lista de sitios es antigua y no se leyó la página de ayuda; es parcial."
+      },
+      "retrieved": "2026-10-17"
+    },
+    "trendyol": {
+      "name": "Trendyol",
+      "category": "marketplace",
+      "tier": "reportado",
+      "complete": false,
+      "source": {
+        "title": "Daily Sabah (Europe, 2020); trade press (Germany, Azerbaijan, Gulf, around 2022)",
+        "url": "https://www.dailysabah.com/business/turkeys-e-commerce-giant-trendyol-enters-european-market"
+      },
+      "description": {
+        "en": "Turkish marketplace, with Turkey as its base. The European and Gulf reports are from 2020 to 2022; no current company list was read.",
+        "es": "Marketplace turco, con base en Turquía. Los informes sobre Europa y el Golfo son de 2020 a 2022; no se leyó una lista actual de la empresa."
+      },
+      "retrieved": "2026-10-17"
+    },
+    "allegro": {
+      "name": "Allegro",
+      "category": "marketplace",
+      "tier": "reportado",
+      "complete": false,
+      "source": {
+        "title": "Komersant: Allegro's core markets and planned exits (2026)",
+        "url": "https://komersant.ua/en/naybilshyy-polskyy-marketpleys-allegro-planuie-vyyty-na-rynok-ukrainy-shcho-vidomo/"
+      },
+      "description": {
+        "en": "Polish marketplace, with sites in Poland, Czechia, Slovakia and Hungary. Slovenia and Croatia were planned to be sold off in 2026. The company's own site was not read.",
+        "es": "Marketplace polaco, con sitios en Polonia, Chequia, Eslovaquia y Hungría. Se planeaba vender Eslovenia y Croacia en 2026. No se leyó el sitio de la empresa."
+      },
+      "retrieved": "2026-10-17"
     }
   },
   "listings": {
@@ -581,6 +716,122 @@
     ],
     "rakuten": [
       "JP"
+    ],
+    "bolt": [
+      "GH",
+      "KE",
+      "MA",
+      "NG",
+      "ZA",
+      "TZ",
+      "UG",
+      "ZW",
+      "AZ",
+      "GE",
+      "KZ",
+      "MY",
+      "SA",
+      "TW",
+      "TH",
+      "AE",
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "MT",
+      "MD",
+      "NL",
+      "NO",
+      "PL",
+      "PT"
+    ],
+    "jumia": [
+      "EG",
+      "GH",
+      "CI",
+      "KE",
+      "MA",
+      "NG",
+      "SN",
+      "UG"
+    ],
+    "flipkart": [
+      "IN"
+    ],
+    "lyft": [
+      "US",
+      "CA"
+    ],
+    "freenow": [
+      "IE",
+      "GB",
+      "DE",
+      "GR",
+      "ES",
+      "IT",
+      "PL",
+      "FR",
+      "AT"
+    ],
+    "foodpanda": [
+      "BD",
+      "KH",
+      "LA",
+      "MY",
+      "MM",
+      "PK",
+      "PH",
+      "SG",
+      "TW"
+    ],
+    "ebay": [
+      "AU",
+      "CA",
+      "FR",
+      "DE",
+      "IE",
+      "IT",
+      "MY",
+      "NL",
+      "NZ",
+      "PH",
+      "SG",
+      "ES",
+      "SE",
+      "CH",
+      "TW",
+      "GB"
+    ],
+    "trendyol": [
+      "TR",
+      "AZ",
+      "DE",
+      "IT",
+      "ES",
+      "FR",
+      "DK",
+      "FI",
+      "GR",
+      "NL"
+    ],
+    "allegro": [
+      "PL",
+      "CZ",
+      "SK",
+      "HU"
     ]
   },
   "notes": {

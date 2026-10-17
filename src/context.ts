@@ -7,6 +7,7 @@ import { loadWorld, type WorldRegistry } from "./services/world.ts";
 import { loadClimate, type ClimateRegistry } from "./services/climate.ts";
 import { loadPayments, type PaymentsRegistry } from "./services/payments.ts";
 import { loadApps, type AppsRegistry } from "./services/apps.ts";
+import { loadTransit, type TransitRegistry } from "./services/transit.ts";
 import { createFxService, type FxService } from "./services/fx.ts";
 import { createPppTable, type PppTable } from "./services/ppp.ts";
 import { createFileStore, createMemoryStore, type StateStore } from "./state.ts";
@@ -22,6 +23,7 @@ export interface AppContext {
   climate: ClimateRegistry;
   payments: PaymentsRegistry;
   apps: AppsRegistry;
+  transit: TransitRegistry;
   fx: FxService;
   ppp: PppTable;
   clock: () => Date;
@@ -56,6 +58,7 @@ export function createContext(opts: ContextOptions = {}): AppContext {
     climate: loadClimate(root),
     payments: loadPayments(root),
     apps: loadApps(root),
+    transit: loadTransit(root),
     fx: createFxService({ offline, snapshot: fxSnapshot }),
     ppp: createPppTable(pppFile.rows),
     visaSource: {
