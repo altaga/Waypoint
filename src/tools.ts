@@ -1387,10 +1387,9 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const listed = apps.filter((a) => a.status === "listed");
         const unverified = apps.filter((a) => a.status === "unverified");
         const names = (rows: { name: string }[]) => rows.map((a) => a.name).join(", ");
-        const verb = listed.length > 1 ? "are" : "is";
-        const sayListed = listed.length
-          ? pick(locale, `${names(listed)} ${verb} listed for this country`, `${names(listed)} ${listed.length > 1 ? "aparecen" : "aparece"} en la lista de este país`)
-          : pick(locale, "none of these apps is listed for this country", "ninguna de estas apps aparece en la lista de este país");
+        // Company lists are official; press and guides are reported. The voice keeps the two apart.
+        const official = listed.filter((a) => a.tier === "oficial");
+        const reported = listed.filter((a) => a.tier === "reportado");
         const statusText = (a: { status: string; tier: string }) => {
           if (a.status === "unverified") return pick(locale, "No verified data", "Sin dato verificado");
           if (a.status === "not_listed") return pick(locale, "Not on the company's list", "No aparece en la lista de la empresa");
@@ -1400,14 +1399,14 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         };
         const rows = apps.map((a) => ({
           label: a.name,
-          value: a.note ? `${statusText(a)}. ${a.note}` : statusText(a),
+          value: a.note ? `${statusText(a)}. ${pick(locale, a.note.en, a.note.es)}` : statusText(a),
           status: (a.status === "unverified" ? "warn" : "info") as "info" | "warn",
         }));
         const env: Envelope = {
           voice: pick(
             locale,
-            `In ${name}: ${sayListed}${unverified.length ? `; no verified data for ${names(unverified)}` : ""}. Check the app before you travel; availability is by market, not by city.`,
-            `En ${name}: ${sayListed}${unverified.length ? `; sin dato verificado para ${names(unverified)}` : ""}. Revisa la app antes de viajar; la disponibilidad es por mercado, no por ciudad.`,
+            `In ${name}: ${official.length ? `on the company's list: ${names(official)}` : "no company list includes it"}${reported.length ? `; reported by press or guides, not confirmed: ${names(reported)}` : ""}${unverified.length ? `; no verified data for ${names(unverified)}` : ""}. Check the app before you travel; availability is by market, not by city.`,
+            `En ${name}: ${official.length ? `en la lista de la empresa: ${names(official)}` : "ninguna lista de empresa lo incluye"}${reported.length ? `; reportado por prensa o guías, sin confirmar: ${names(reported)}` : ""}${unverified.length ? `; sin dato verificado para ${names(unverified)}` : ""}. Revisa la app antes de viajar; la disponibilidad es por mercado, no por ciudad.`,
           ),
           card: {
             pattern: "list",

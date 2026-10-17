@@ -16,7 +16,7 @@ export interface AppAvailability {
   category: AppCategory;
   tier: AppTier;
   status: AppStatus;
-  note: string | null;
+  note: { en: string; es: string } | null;
   source: AppSource;
   retrieved: string;
 }
@@ -32,7 +32,7 @@ export function loadApps(root: string): AppsRegistry {
     source: { retrieved: string; method: string };
     apps: Record<string, { name: string; category: AppCategory; tier: AppTier; complete: boolean; source: AppSource; retrieved: string }>;
     listings: Record<string, string[]>;
-    notes: Record<string, Record<string, string>>;
+    notes: Record<string, Record<string, { en: string; es: string }>>;
   };
   return {
     forCountry(iso) {

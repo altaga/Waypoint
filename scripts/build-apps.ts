@@ -22,7 +22,7 @@ type AppDef = {
   source: { title: string; url: string };
   description: { en: string; es: string };
   listed: string[];
-  notes?: Record<string, string>;
+  notes?: Record<string, { en: string; es: string }>;
 };
 
 // Uber's "Global" list, in the order the page gives it. Hong Kong is listed by Uber but is not a country in
@@ -74,9 +74,18 @@ const APPS: AppDef[] = [
     },
     listed: ["CN", "KR", "SG", "JP", "MY", "ID", "VN", "AU", "EG"],
     notes: {
-      CN: "The 2025 article gives a footprint of over 1,200 cities including Hong Kong (China); no separate country list.",
-      AU: "Ride-hailing per a March 2026 travel guide (bento.travel, DiDi Food page).",
-      EG: "Ride-hailing in Cairo and Alexandria, per a March 2026 travel guide (bento.travel, DiDi Food page).",
+      CN: {
+        en: "The 2025 article gives a footprint of over 1,200 cities including Hong Kong (China); no separate country list.",
+        es: "El artículo de 2025 da una cobertura de más de 1,200 ciudades, incluida Hong Kong (China); no hay lista de países aparte.",
+      },
+      AU: {
+        en: "Ride-hailing per a March 2026 travel guide (bento.travel, DiDi Food page).",
+        es: "Viajes en auto según una guía de viaje de marzo de 2026 (bento.travel, página de DiDi Food).",
+      },
+      EG: {
+        en: "Ride-hailing in Cairo and Alexandria, per a March 2026 travel guide (bento.travel, DiDi Food page).",
+        es: "Viajes en auto en El Cairo y Alejandría, según una guía de viaje de marzo de 2026 (bento.travel, página de DiDi Food).",
+      },
     },
   },
   {
@@ -131,7 +140,202 @@ const APPS: AppDef[] = [
     },
     listed: ["JP", "US", "TW"],
     notes: {
-      TW: "Cross-border purchases from Japan through the Mercari Global app (launched 30 Sep 2025), per Value Added Resource.",
+      TW: {
+        en: "Cross-border purchases from Japan through the Mercari Global app (launched 30 Sep 2025), per Value Added Resource.",
+        es: "Compras transfronterizas desde Japón con la app Mercari Global (lanzada el 30 de septiembre de 2025), según Value Added Resource.",
+      },
+    },
+  },
+  {
+    id: "greensm",
+    name: "Green SM",
+    category: "mobility",
+    tier: "oficial",
+    complete: true,
+    source: { title: "Green SM: company release on its markets (Oct 2026, via wire services); greensm.com download page", url: "https://www.greensm.com/vn-en/download" },
+    description: {
+      en: "Electric car ride-hailing (VinFast) in Vietnam, also bikes, express and food. Known in Vietnam as Xanh SM.",
+      es: "Viajes en auto eléctrico (VinFast) en Vietnam, también motos, envíos y comida. En Vietnam se llama Xanh SM.",
+    },
+    listed: ["VN", "LA", "ID", "PH", "IN", "KZ", "DK", "NL", "US"],
+    notes: {
+      VN: {
+        en: "Hotline 1555. The company's page lists cash, bank cards and e-wallets. A travel blog says sign-up works with WhatsApp verification and no local number (not confirmed by the company).",
+        es: "Línea 1555. La página de la empresa lista efectivo, tarjetas bancarias y billeteras electrónicas. Un blog de viajes dice que el registro funciona con verificación por WhatsApp y sin número local (la empresa no lo confirma).",
+      },
+      US: {
+        en: "Los Angeles, launched October 2026; the company's first North American market.",
+        es: "Los Ángeles, lanzada en octubre de 2026; su primer mercado en Norteamérica.",
+      },
+    },
+  },
+  {
+    id: "cabify",
+    name: "Cabify",
+    category: "mobility",
+    tier: "oficial",
+    complete: true,
+    source: { title: "Cabify help center: In which cities can I find Cabify", url: "https://help.cabify.com/hc/en-us/articles/115000996089-In-which-cities-can-I-find-Cabify" },
+    description: {
+      en: "Ride-hailing in Spain and Latin America, per the company's help center.",
+      es: "Viajes en auto en España y Latinoamérica, según el centro de ayuda de la empresa.",
+    },
+    listed: ["ES", "AR", "CL", "CO", "PE", "UY"],
+  },
+  {
+    id: "gojek",
+    name: "Gojek",
+    category: "mobility",
+    tier: "reportado",
+    complete: false,
+    source: { title: "KrASIA: Gojek unifies its brand across four markets (2020); Wikipedia (five countries)", url: "https://kr-asia.com/gojek-officially-unifies-brand-across-four-markets" },
+    description: {
+      en: "Ride-hailing, food and delivery in Southeast Asia. The sources are from 2019 to 2021, so the footprint may have changed.",
+      es: "Viajes, comida y reparto en el sudeste asiático. Las fuentes son de 2019 a 2021; la cobertura pudo cambiar.",
+    },
+    listed: ["ID", "SG", "VN", "TH", "PH"],
+    notes: {
+      VN: { en: "Named GoViet in Vietnam in the 2020 report.", es: "Nombrada GoViet en Vietnam en el informe de 2020." },
+      TH: { en: "Named GET in Thailand in the 2020 report.", es: "Nombrada GET en Tailandia en el informe de 2020." },
+    },
+  },
+  {
+    id: "careem",
+    name: "Careem",
+    category: "mobility",
+    tier: "reportado",
+    complete: false,
+    source: { title: "Bento Travel: Careem (travel guide)", url: "https://bento.travel/apps/careem" },
+    description: {
+      en: "Ride-hailing in the Middle East, North Africa and Pakistan. The sources do not agree on the total; treat the list as partial.",
+      es: "Viajes en Oriente Medio, norte de África y Pakistán. Las fuentes no coinciden en el total; tratar la lista como parcial.",
+    },
+    listed: ["AE", "EG", "JO", "MA", "PK", "SA"],
+  },
+  {
+    id: "indrive",
+    name: "inDrive",
+    category: "mobility",
+    tier: "reportado",
+    complete: false,
+    source: { title: "Wikipedia (inDrive) and Arab News (Saudi Arabia licence)", url: "https://en.wikipedia.org/wiki/InDrive" },
+    description: {
+      en: "Ride-hailing where rider and driver agree the fare. The sources give about 48 countries; the named list comes from a courier-service list, so ride-hailing may differ.",
+      es: "Viajes en auto donde pasajero y conductor acuerdan la tarifa. Las fuentes dan unos 48 países; la lista nombrada viene de un listado de mensajería, así que los viajes pueden diferir.",
+    },
+    listed: ["BR", "EC", "EG", "IN", "MX", "PE", "PK", "ZA", "CO", "KZ", "NG", "GT", "SA"],
+  },
+  {
+    id: "yandexgo",
+    name: "Yandex Go",
+    category: "mobility",
+    tier: "reportado",
+    complete: false,
+    source: { title: "Kun.uz (Uzbekistan, 2024); Yandex Go app release notes (15 countries, not named)", url: "https://kun.uz/en/news/2024/06/27/yandex-go-service-launched-in-urgench-and-khiva" },
+    description: {
+      en: "Ride-hailing in Russia and neighbouring markets, sold as Yango in some of them. The app says 15 countries but does not name them.",
+      es: "Viajes en auto en Rusia y mercados vecinos; se vende como Yango en algunos. La app dice 15 países pero no los nombra.",
+    },
+    listed: ["UZ", "AM", "GE", "EE", "AE", "RU", "KZ", "BY", "MD", "KG"],
+    notes: {
+      AE: { en: "A pilot Yango launch in Dubai, per Interfax; not confirmed as current.", es: "Un piloto de Yango en Dubái, según Interfax; no confirmado como vigente." },
+    },
+  },
+  {
+    id: "ola",
+    name: "Ola",
+    category: "mobility",
+    tier: "reportado",
+    complete: false,
+    source: { title: "Ackodrive: Ola to exit international operations (sources conflict)", url: "https://ackodrive.com/news/ola-cabs-to-exit-international-operations/" },
+    description: {
+      en: "Ride-hailing in India. Reports say the overseas markets are being exited, and the sources conflict.",
+      es: "Viajes en auto en India. Hay informes de que sale de otros mercados, y las fuentes no coinciden.",
+    },
+    listed: ["IN"],
+  },
+  {
+    id: "glovo",
+    name: "Glovo",
+    category: "delivery",
+    tier: "reportado",
+    complete: false,
+    source: { title: "Wikipedia (Glovo); Delivery Hero acquisition of Glovo's Latin American operations (2020)", url: "https://en.wikipedia.org/wiki/Glovo" },
+    description: {
+      en: "Delivery in Europe, Central Asia, Africa and Latin America. The counts and lists are from 2020 to 2022.",
+      es: "Reparto en Europa, Asia Central, África y Latinoamérica. Los conteos y listas son de 2020 a 2022.",
+    },
+    listed: ["ES", "PT", "RO", "AM", "AR", "PE", "EC", "PA", "CR", "HN", "GT", "DO"],
+  },
+  {
+    id: "lazada",
+    name: "Lazada",
+    category: "marketplace",
+    tier: "reportado",
+    complete: false,
+    source: { title: "Statista (citing Semrush): top e-commerce sites, Singapore and the Lazada markets", url: "https://www.statista.com/statistics/869701/singapore-top-10-e-commerce-sites/" },
+    description: {
+      en: "Marketplace in six Southeast Asian markets, per third-party market data. The company's own list was not read.",
+      es: "Marketplace en seis mercados del sudeste asiático, según datos de mercado de terceros. No se leyó la lista de la empresa.",
+    },
+    listed: ["ID", "MY", "SG", "TH", "VN", "PH"],
+  },
+  {
+    id: "shopee",
+    name: "Shopee",
+    category: "marketplace",
+    tier: "reportado",
+    complete: false,
+    source: { title: "Wikipedia (Shopee); shopappy.com 2026 seller guide", url: "https://en.wikipedia.org/wiki/Shopee" },
+    description: {
+      en: "Marketplace in Southeast Asia, Taiwan, Brazil, Mexico, Chile, Colombia and Poland. South Korea is seller-only. The company's own list was not read.",
+      es: "Marketplace en el sudeste asiático, Taiwán, Brasil, México, Chile, Colombia y Polonia. Corea del Sur es solo para vendedores. No se leyó la lista de la empresa.",
+    },
+    listed: ["ID", "VN", "TH", "PH", "MY", "SG", "TW", "BR", "MX", "CL", "CO", "PL"],
+  },
+  {
+    id: "temu",
+    name: "Temu",
+    category: "marketplace",
+    tier: "reportado",
+    complete: false,
+    source: { title: "SCMP: Temu enters Vietnam and Brunei; Momentum Works: Temu in Japan and 22 other countries", url: "https://www.scmp.com/tech/big-tech/article/3282059/discount-shopping-giant-temu-enters-vietnam-and-brunei-app-faces-ban-indonesia" },
+    description: {
+      en: "Online marketplace shipping from China. Third-party counts range from over 80 to over 90 countries and territories; no company list was read.",
+      es: "Marketplace con envíos desde China. Los conteos de terceros van de más de 80 a más de 90 países y territorios; no se leyó una lista de la empresa.",
+    },
+    listed: ["US", "CA", "AU", "NZ", "JP", "VN", "BN", "FR", "DE", "IT", "NL", "ES", "GB"],
+  },
+  {
+    id: "coupang",
+    name: "Coupang",
+    category: "marketplace",
+    tier: "reportado",
+    complete: false,
+    source: { title: "Taipei Times (2023) and company profile sites", url: "https://www.taipeitimes.com/News/biz/archives/2023/04/28/2003798722" },
+    description: {
+      en: "E-commerce in South Korea and Taiwan. It left Japan in 2023. The company's SEC filings were not read.",
+      es: "Comercio electrónico en Corea del Sur y Taiwán. Salió de Japón en 2023. No se leyeron sus declaraciones ante la SEC.",
+    },
+    listed: ["KR", "TW"],
+  },
+  {
+    id: "rakuten",
+    name: "Rakuten",
+    category: "marketplace",
+    tier: "oficial",
+    complete: false,
+    source: { title: "Rakuten Global: Rakuten Global Express (company article, 2023)", url: "https://global.rakuten.com/corp/innovation/rakuten_today/2023/0825-5868/" },
+    description: {
+      en: "Rakuten Ichiba is a Japanese marketplace. Foreign buyers ship through Rakuten Global Express to more than 80 countries and regions after registering and verifying identity. Each shop chooses its destinations.",
+      es: "Rakuten Ichiba es un marketplace japonés. Los compradores extranjeros envían con Rakuten Global Express a más de 80 países y regiones, tras registrarse y verificar su identidad. Cada tienda elige sus destinos.",
+    },
+    listed: ["JP"],
+    notes: {
+      JP: {
+        en: "Foreign buyers register for Rakuten Global Express and verify identity. A shop notice says forwarding services are not tax-exempt.",
+        es: "Los compradores extranjeros se registran en Rakuten Global Express y verifican su identidad. Un aviso de tienda dice que los servicios de reenvío no están exentos de impuestos.",
+      },
     },
   },
 ];
@@ -143,7 +347,7 @@ function main() {
 
   const apps: Record<string, Omit<AppDef, "id" | "listed" | "notes"> & { retrieved: string }> = {};
   const listings: Record<string, string[]> = {};
-  const notes: Record<string, Record<string, string>> = {};
+  const notes: Record<string, Record<string, { en: string; es: string }>> = {};
   for (const app of APPS) {
     for (const iso of app.listed) if (!known.has(iso)) throw new Error(`${app.id}: ${iso} is not in countries.json`);
     if (new Set(app.listed).size !== app.listed.length) throw new Error(`${app.id}: duplicate country`);

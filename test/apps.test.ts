@@ -72,7 +72,7 @@ test("a country missing from an incomplete list has no verified data, and report
 test("a country with no entry in any list says so, and names the apps with no verified data", async () => {
   const s = await session("apps-none");
   const r = await s.call("get_local_apps", { destination: "AQ" });
-  assert.match(r.voice, /none of these apps is listed/);
+  assert.match(r.voice, /no company list includes it/);
   assert.match(r.voice, /no verified data for .*DiDi/);
   assert.equal(r.data.listed.length, 0);
   assert.equal(r.confidence, "low");
