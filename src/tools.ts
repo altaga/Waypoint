@@ -1563,6 +1563,108 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
       }),
   );
 
+  // What a visitor can pay with when a foreign card does not work here (data/world/what-works.json). A synthesis of
+  // options already cited elsewhere: domestic networks, local apps, merchant QR codes, wallets, cash. Never crypto.
+  server.registerTool(
+    "get_what_works",
+    {
+      title: "What works without a card",
+      description:
+        "Use when the user's foreign card does not work at the destination, or they ask what else they can pay with there: lists the options a visitor can actually use (local apps, merchant QR codes, domestic card networks, wallets, cash), each with how usable it is for a visitor and its sources. Says plainly when no option is open to a visitor. Defaults to the trip's destination.",
+      inputSchema: {
+        destination: z.string().min(2).optional(),
+      },
+      outputSchema: EnvelopeShape,
+      annotations: ann({ readOnly: true, idempotent: true, openWorld: false }),
+    },
+    (args) =>
+      run(async () => {
+        const state = await load();
+        const locale = localeOf(state);
+        const trip = latestTrip(state);
+        const dest = args.destination ? resolveDestinationOrThrow(args.destination) : trip?.destination;
+        if (!dest) return nothingYetEnvelope(locale, "trip");
+        const name = countryName(dest, locale);
+        const entry = ctx.whatWorks.forCountry(dest);
+        if (!entry) {
+          return envelopeResult({
+            voice: pick(
+              locale,
+              `I don't have verified information on what to pay with in ${countryName(dest, "en")} if your card fails. Check the official travel advice and your bank.`,
+              `Aún no tengo información verificada de qué pagar en ${name} si la tarjeta no funciona. Revisa el aviso oficial de viaje y a tu banco.`,
+            ),
+            card: { pattern: "list", title: pick(locale, `What works in ${name}`, `Qué funciona en ${name}`), rows: [] },
+            data: { destination: dest, viable: 0, verified: false },
+            sources: [],
+            lastVerified: ctx.whatWorks.retrieved,
+            confidence: "low",
+            disclaimer: DISCLAIMER[locale],
+            followUps: [pick(locale, "Anything else for this trip?", "¿Algo más para este viaje?")],
+          });
+        }
+        const kindLabel: Record<string, { en: string; es: string }> = {
+          domestic_network: { en: "Domestic card network", es: "Red nacional de tarjetas" },
+          local_app: { en: "Local app", es: "App local" },
+          merchant_qr: { en: "Merchant QR code", es: "QR de comercio" },
+          in_app_qr: { en: "QR inside an app", es: "QR dentro de una app" },
+          local_scheme: { en: "Local payment scheme", es: "Esquema de pago local" },
+          global_wallet: { en: "Wallet", es: "Billetera" },
+          cash: { en: "Cash", es: "Efectivo" },
+        };
+        const label = (o: { kind: string; name: string }) => (o.kind === "cash" ? pick(locale, "Cash", "Efectivo") : o.name);
+        const viable = entry.options.filter((o) => o.usable_by_tourist);
+        const best = viable.reduce((m, o) => Math.max(m, o.veracity), 0);
+        const count =
+          viable.length === 1 ? pick(locale, "1 way", "una vía") : pick(locale, `${viable.length} ways`, `${viable.length} vías`);
+        const names = viable.slice(0, 4).map(label).join(", ");
+        const env: Envelope = {
+          voice: viable.length
+            ? pick(
+                locale,
+                `In ${name}: ${count} a visitor can pay with without a local card: ${names}. Check each one before you travel.`,
+                `En ${name}: ${count} que un turista puede usar sin tarjeta local: ${names}. Revisa cada una antes de viajar.`,
+              )
+            : pick(
+                locale,
+                `In ${name}: I found no way a visitor can pay with a foreign card or wallet. Plan on cash, and check the official travel advice.`,
+                `En ${name}: no encontré ninguna vía que un turista pueda usar con tarjeta o billetera extranjera. Lleva efectivo y revisa el aviso oficial de viaje.`,
+              ),
+          card: {
+            pattern: "list",
+            title: pick(locale, `What works in ${name}`, `Qué funciona en ${name}`),
+            subtitle: pick(
+              locale,
+              `Options from cited sources, retrieved ${ctx.whatWorks.retrieved}`,
+              `Opciones de fuentes citadas, consultado el ${ctx.whatWorks.retrieved}`,
+            ),
+            rows: entry.options.map((o) => ({
+              label: label(o),
+              value: `${pick(locale, kindLabel[o.kind]!.en, kindLabel[o.kind]!.es)}. ${
+                o.usable_by_tourist
+                  ? pick(locale, "A visitor can use it.", "Un turista puede usarla.")
+                  : pick(locale, "A visitor cannot use it.", "Un turista no puede usarla.")
+              } ${o.detail}`.trim(),
+              status: o.usable_by_tourist ? ("info" as const) : ("warn" as const),
+            })),
+          },
+          data: { destination: dest, viable: viable.length, options: entry.options.length, verified: true },
+          sources: entry.sources.map((s, i) => ({
+            id: `src:what-works:${dest}:${i}`,
+            title: s.title,
+            url: s.url,
+            license:
+              s.type === "official" || s.type === "regulator" ? "Official public information" : "Company, press or guide (not official)",
+            retrieved: ctx.whatWorks.retrieved,
+          })),
+          followUps: [pick(locale, "Anything else for this trip?", "¿Algo más para este viaje?")],
+          lastVerified: ctx.whatWorks.retrieved,
+          confidence: best >= 0.8 ? "high" : best >= 0.5 ? "medium" : "low",
+          disclaimer: DISCLAIMER[locale],
+        };
+        return envelopeResult(env);
+      }),
+  );
+
   // 12. trip_brief (multi-session memory)
   // The usual weather on the trip's dates, from vendored climate normals (NASA POWER).
   server.registerTool(
