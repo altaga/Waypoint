@@ -57,7 +57,7 @@ test("London: a contactless bank card works at the gates, and the answer is offi
 test("Japan and Korea: the answer says when a bank card is not confirmed or does not work", async () => {
   const s = await session("transit-jp-kr");
   const jp = await s.call("get_transit_payment", { destination: "JP" });
-  assert.match(jp.voice, /not confirmed for Tokyo/);
+  assert.match(jp.voice, /only partly in Tokyo/);
   assert.equal(jp.confidence, "low", "press and guides only");
   const kr = await s.call("get_transit_payment", { destination: "KR" });
   assert.match(kr.voice, /not with a bank card in Seoul/);

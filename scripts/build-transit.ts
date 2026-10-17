@@ -150,19 +150,19 @@ const SYSTEMS: Record<string, System> = {
   tokyo: {
     country: "JP",
     city: { en: "Tokyo", es: "Tokio" },
-    system: { en: "JR East, Tokyo Metro, private rail and buses", es: "JR East, Tokyo Metro, ferrocarriles privados y buses" },
+    system: { en: "JR East, Tokyo Metro, Yurikamome, private rail and buses", es: "JR East, Tokyo Metro, Yurikamome, ferrocarriles privados y buses" },
     physicalCard: { en: "Suica or PASMO IC card, bought at station machines", es: "Tarjeta IC Suica o PASMO, comprada en las máquinas de la estación" },
-    bankCard: "unverified",
+    bankCard: "partial",
     bankCardNote: {
-      en: "The sources conflict. A May 2026 guide says contactless credit cards do not work at train gates; a 2023 article reports rail companies rolling out gates that accept cards. Check with the operator before relying on a card.",
-      es: "Las fuentes no coinciden. Una guía de mayo de 2026 dice que las tarjetas de crédito contactless no funcionan en los torniquetes; un artículo de 2023 reporta que las empresas de tren instalan torniquetes que sí aceptan tarjetas. Confirmar con el operador antes de depender de una tarjeta.",
+      en: "Yurikamome (the Odaiba line) accepts contactless credit cards at all or most stations since 25 March 2026, per Japan Guide. JR lines (including the Yamanote), Keisei and the Tokyo Monorail do not, and Tokyo Metro's status conflicts across sources. Tap in and out with the same card. Check the operator before relying on it.",
+      es: "Yurikamome (la línea de Odaiba) acepta tarjetas de crédito contactless en casi todas sus estaciones desde el 25 de marzo de 2026, según Japan Guide. Las líneas JR (incluida la Yamanote), Keisei y el Monorail de Tokio no. El estado de Tokyo Metro no coincide entre fuentes. Usa la misma tarjeta al entrar y al salir. Confirma con el operador antes de depender de ella.",
     },
     note: {
-      en: "Suica and PASMO work interchangeably across Japan. Tourist versions and chip supply were reported in 2023; check current availability. Apple Pay for transit was not covered.",
-      es: "Suica y PASMO funcionan indistintamente en todo Japón. Las versiones para turistas y el suministro de chips se reportaron en 2023; revisar la disponibilidad actual. Apple Pay para transporte no quedó cubierto.",
+      en: "Suica and PASMO work interchangeably across Japan. Tourist versions and chip supply were reported in 2023; check current availability. The Tokyo Metropolitan Bureau's own page is outdated and does not mention Yurikamome.",
+      es: "Suica y PASMO funcionan indistintamente en todo Japón. Las versiones para turistas y el suministro de chips se reportaron en 2023; revisar la disponibilidad actual. La página de la Oficina de Transporte de Tokio está desactualizada y no menciona Yurikamome.",
     },
     tier: "reportado",
-    source: { title: "Japan Travel: how to get a Suica card", url: "https://en.japantravel.com/guide/how-to-get-a-suica-card/22316" },
+    source: { title: "Japan Guide: credit card tap payment on trains", url: "https://www.japan-guide.com/e/e2359_credit_card_tap.html" },
   },
   seoul: {
     country: "KR",
