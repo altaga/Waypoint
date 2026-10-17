@@ -27,4 +27,4 @@ Target: 2 min 45 s. No music, no third-party logos. The presenter's voice for th
 
 - The climate is the usual weather for the dates (NASA POWER normals), not a forecast: do not call it a forecast.
 - Do not claim the rules are reviewed: tier B packs are machine-extracted.
-- Payment methods cover 197 countries in `data/world/payments.json`, compiled from the TravelPay payment database. 49 are official (each with its source and date). The other 148 come from travel guides and traveler reports, and the agent says they are not officially confirmed. Do not present the 148 as official, and do not claim crypto is accepted anywhere. A country with no entry gets "no data", never a guess.
+- Payment methods cover 197 countries in `data/world/payments.json`, compiled from the TravelPay payment database. 18 are official (each with its source and date). The other 179 come from travel guides, company pages and traveler reports, and the agent says they are not officially confirmed. Do not present the 179 as official, and do not claim crypto is accepted anywhere. A country with no entry gets "no data", never a guess.

@@ -5,7 +5,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 
-export interface WhatWorksSource { title: string; url: string; type: string }
+export interface WhatWorksSource { title: string; url: string; official: boolean }
 export type WhatWorksKind = "domestic_network" | "local_app" | "merchant_qr" | "in_app_qr" | "local_scheme" | "global_wallet" | "cash";
 export interface WhatWorksOption {
   kind: WhatWorksKind;

@@ -75,7 +75,7 @@ test("China: the answer counts the usable options and names the local apps, in E
 test("Afghanistan: cash is the one option open to a visitor, and the answer is in Spanish", async () => {
   const s = await session("whatworks-af", "es-MX");
   const r = await s.call("get_what_works", { destination: "AF" });
-  assert.match(r.voice, /En Afghanistan: una vía que un turista puede usar sin tarjeta local: Efectivo\./);
+  assert.match(r.voice, /En Afganistán: una vía que un turista puede usar sin tarjeta local: Efectivo\./);
   const cash = (r.card.rows as { label: string; status: string }[]).find((x) => x.label === "Efectivo");
   assert.equal(cash?.status, "info");
 });
@@ -84,7 +84,7 @@ test("a country where no option is open to a visitor says so, and marks every ro
   const s = await session("whatworks-bb");
   const r = await s.call("get_what_works", { destination: "BB" });
   assert.equal(data.countries.BB!.viable_count, 0);
-  assert.match(r.voice, /no way a visitor can pay with a foreign card or wallet/);
+  assert.match(r.voice, /no verified way a visitor can pay with a foreign card or wallet/);
   assert.equal(r.data.viable, 0);
   assert.ok((r.card.rows as { status: string }[]).every((x) => x.status === "warn"));
 });
@@ -95,4 +95,28 @@ test("a country with no entry says so and cites nothing", async () => {
   assert.match(r.voice, /don't have verified information/);
   assert.deepEqual(r.sources, []);
   assert.deepEqual(r.card.rows, []);
+});
+
+test("every visitor option is named once per country, and every usable option meets the veracity floor except cash", () => {
+  for (const [iso, c] of Object.entries(data.countries)) {
+    const names = c.options.map((o) => o.name.toLowerCase());
+    assert.equal(new Set(names).size, names.length, iso + " repeats an option name");
+    for (const o of c.options) {
+      if (o.usable_by_tourist && o.kind !== "cash") assert.ok((o as { veracity?: number }).veracity! >= 0.5, iso + " " + o.name + " is usable below the veracity floor");
+    }
+  }
+});
+
+test("in English the rows say what the option is and whether a visitor can use it, without the Spanish detail", async () => {
+  const s = await session("whatworks-cn-rows");
+  const r = await s.call("get_what_works", { destination: "CN" });
+  const unionpay = (r.card.rows as { label: string; value: string }[]).find((x) => x.label === "UnionPay");
+  assert.equal(unionpay?.value, "Domestic card network. Available to visitors.");
+  for (const row of r.card.rows as { value: string }[]) assert.match(row.value, /\. (Available|Not available) to visitors\.$/, row.value);
+});
+
+test("sources say official only when the address is an official publisher", async () => {
+  const s = await session("whatworks-licenses");
+  const r = await s.call("get_what_works", { destination: "JP" });
+  for (const src of r.sources as { license: string }[]) assert.ok(["Official public information", "Company, press or guide (not official)"].includes(src.license), src.license);
 });

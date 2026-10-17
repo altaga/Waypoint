@@ -1570,7 +1570,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
     {
       title: "What works without a card",
       description:
-        "Use when the user's foreign card does not work at the destination, or they ask what else they can pay with there: lists the options a visitor can actually use (local apps, merchant QR codes, domestic card networks, wallets, cash), each with how usable it is for a visitor and its sources. Says plainly when no option is open to a visitor. Defaults to the trip's destination.",
+        "Use when the user's foreign card does not work at the destination, or they ask what else they can pay with there: lists the options a visitor can actually use (local apps, merchant QR codes, domestic card networks, wallets, cash), each with whether a visitor can use it and its sources. Says plainly when no verified option is open to a visitor. Defaults to the trip's destination.",
       inputSchema: {
         destination: z.string().min(2).optional(),
       },
@@ -1611,12 +1611,22 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           global_wallet: { en: "Wallet", es: "Billetera" },
           cash: { en: "Cash", es: "Efectivo" },
         };
+        // Crypto never reaches the answer, even if a data row mentions it.
+        const CRYPTO = /cripto|crypto|usdc|usdt|bitcoin|stablecoin/i;
+        const options = entry.options.filter((o) => !CRYPTO.test(`${o.name} ${o.operator ?? ""} ${o.detail}`));
         const label = (o: { kind: string; name: string }) => (o.kind === "cash" ? pick(locale, "Cash", "Efectivo") : o.name);
-        const viable = entry.options.filter((o) => o.usable_by_tourist);
+        // The data's detail is written in Spanish only, so it is shown in Spanish sessions and left out otherwise.
+        const detailOf = (o: { detail: string }) => (locale.startsWith("es") ? o.detail : "");
+        const viable = options.filter((o) => o.usable_by_tourist);
         const best = viable.reduce((m, o) => Math.max(m, o.veracity), 0);
+        const officialBest = viable
+          .filter((o) => o.sources.some((s) => s.official))
+          .reduce((m, o) => Math.max(m, o.veracity), 0);
         const count =
           viable.length === 1 ? pick(locale, "1 way", "una vía") : pick(locale, `${viable.length} ways`, `${viable.length} vías`);
-        const names = viable.slice(0, 4).map(label).join(", ");
+        const shown = viable.slice(0, 4).map(label);
+        const more = viable.length - shown.length;
+        const names = shown.join(", ") + (more > 0 ? pick(locale, ` and ${more} more`, ` y ${more} más`) : "");
         const env: Envelope = {
           voice: viable.length
             ? pick(
@@ -1626,8 +1636,8 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
               )
             : pick(
                 locale,
-                `In ${name}: I found no way a visitor can pay with a foreign card or wallet. Plan on cash, and check the official travel advice.`,
-                `En ${name}: no encontré ninguna vía que un turista pueda usar con tarjeta o billetera extranjera. Lleva efectivo y revisa el aviso oficial de viaje.`,
+                `In ${name}: I found no verified way a visitor can pay with a foreign card or wallet. Check the official travel advice and your bank.`,
+                `En ${name}: no encontré ninguna vía verificada que un turista pueda usar con tarjeta o billetera extranjera. Revisa el aviso oficial de viaje y a tu banco.`,
               ),
           card: {
             pattern: "list",
@@ -1637,28 +1647,29 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
               `Options from cited sources, retrieved ${ctx.whatWorks.retrieved}`,
               `Opciones de fuentes citadas, consultado el ${ctx.whatWorks.retrieved}`,
             ),
-            rows: entry.options.map((o) => ({
-              label: label(o),
-              value: `${pick(locale, kindLabel[o.kind]!.en, kindLabel[o.kind]!.es)}. ${
-                o.usable_by_tourist
-                  ? pick(locale, "A visitor can use it.", "Un turista puede usarla.")
-                  : pick(locale, "A visitor cannot use it.", "Un turista no puede usarla.")
-              } ${o.detail}`.trim(),
-              status: o.usable_by_tourist ? ("info" as const) : ("warn" as const),
-            })),
+            rows: options.map((o) => {
+              const verdict = o.usable_by_tourist
+                ? pick(locale, "Available to visitors.", "Disponible para turistas.")
+                : pick(locale, "Not available to visitors.", "No disponible para turistas.");
+              return {
+                label: label(o),
+                value: `${pick(locale, kindLabel[o.kind]!.en, kindLabel[o.kind]!.es)}. ${verdict} ${detailOf(o)}`.trim(),
+                status: o.usable_by_tourist ? ("info" as const) : ("warn" as const),
+              };
+            }),
           },
-          data: { destination: dest, viable: viable.length, options: entry.options.length, verified: true },
+          data: { destination: dest, viable: viable.length, options: options.length, verified: true },
           sources: entry.sources.map((s, i) => ({
             id: `src:what-works:${dest}:${i}`,
             title: s.title,
             url: s.url,
-            license:
-              s.type === "official" || s.type === "regulator" ? "Official public information" : "Company, press or guide (not official)",
+            license: s.official ? "Official public information" : "Company, press or guide (not official)",
             retrieved: ctx.whatWorks.retrieved,
           })),
           followUps: [pick(locale, "Anything else for this trip?", "¿Algo más para este viaje?")],
           lastVerified: ctx.whatWorks.retrieved,
-          confidence: best >= 0.8 ? "high" : best >= 0.5 ? "medium" : "low",
+          // High only when a usable option is backed by an official publisher; company or press sources stay at medium.
+          confidence: officialBest >= 0.8 ? "high" : best >= 0.5 ? "medium" : "low",
           disclaimer: DISCLAIMER[locale],
         };
         return envelopeResult(env);

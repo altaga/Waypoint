@@ -41,43 +41,34 @@
     },
     "AE": {
       "tier": "oficial",
-      "name": "Emiratos Árabes Unidos",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, American Express. La banda de aceptacion sale de la regla de derivacion, pero el METODO es 'official' porque un operador de pagos publica este pais en su lista de pagos con tarjeta sin contacto. Ojo con el alcance: eso acredita que la infraestructura de tarjeta sin contacto existe y opera ahi, NO que cualquier tarjeta extranjera funcione en cualquier comercio. El efectivo y las cadenas menores siguen dependiendo de cada pais.",
+      "name": "Emiratos Árabes Unidos",
+      "confidence": "media",
+      "cash": "Hace falta como respaldo en cafeterías pequeñas, algunos taxis, zocos y comercios pequeños (Visit Abu Dhabi).",
+      "cards": "Tarjetas aceptadas en hoteles, restaurantes y tiendas; Apple Pay es común (Visit Dubai, Visit Abu Dhabi).",
       "qr": null,
-      "atm": "Densidad medida: 53.1 cajeros por 100.000 adultos (2023). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
-      "banknotes": null,
+      "atm": "Los cajeros con tarjeta suelen dar el mejor tipo de cambio (u.ae, portal del gobierno). Para cambiar efectivo, usar casas de cambio licenciadas.",
+      "banknotes": "Dirham (AED). Tasa fija de 3.6725 AED por USD (Abu Dhabi).",
       "crypto": null,
       "notes": [
-        "La banda de aceptacion sale de la regla de derivacion, pero el METODO es 'official' porque un operador de pagos publica este pais en su lista de pagos con tarjeta sin contacto. Ojo con el alcance: eso acredita que la infraestructura de tarjeta sin contacto existe y opera ahi, NO que cualquier tarjeta extranjera funcione en cualquier comercio. El efectivo y las cadenas menores siguen dependiendo de cada pais."
+        "El dirham digital del banco central incluye acceso para no residentes en su diseño; no confirmado como disponible."
       ],
       "sources": [
         {
-          "title": "Global Findex: adults with a financial account (% of adults)",
-          "url": "https://data.worldbank.org/indicator/FX.OWN.TOTL.ZS"
+          "title": "Visit Dubai: Moneda",
+          "url": "https://www.visitdubai.com/en/plan-your-trip/currency"
         },
         {
-          "title": "Domestic credit to private sector (% of GDP)",
-          "url": "https://data.worldbank.org/indicator/FS.AST.PRVT.GD.ZS"
+          "title": "Visit Abu Dhabi: Dinero",
+          "url": "https://visitabudhabi.ae/en/plan-your-trip/essential-info/money"
         },
         {
-          "title": "Countries and regions that support Apple Pay",
-          "url": "https://support.apple.com/en-us/102775"
+          "title": "u.ae: Cambiar dinero",
+          "url": "https://u.ae/en/information-and-services/visiting-and-exploring-the-uae/foreign-currency/exchanging-money-"
         },
         {
-          "title": "Countries or regions where you can use Google Pay (contactless in stores)",
-          "url": "https://support.google.com/pay/answer/9023773"
-        },
-        {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
-        },
-        {
-          "title": "Cash or card, country by country",
-          "url": "https://truetripcosts.com/cash-or-card/"
+          "title": "Banco Central de EAU: Dirham digital",
+          "url": "https://centralbank.ae/media/lczb23l4/cbdc-short-report_july.pdf"
         }
       ]
     },
@@ -134,7 +125,7 @@
       ]
     },
     "AL": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Albania",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -172,7 +163,7 @@
       ]
     },
     "AM": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Armenia",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -206,7 +197,7 @@
       ]
     },
     "AO": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Angola",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -269,29 +260,27 @@
     },
     "AT": {
       "tier": "oficial",
-      "name": "Austria",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, American Express, Diners Club. Los pagos con tarjeta estan ampliamente aceptados pero no en todas partes: el Gobierno de Austria advierte que las tarjetas de credito se usan mucho menos que el efectivo en tiendas pequenas, cafeterias y supermercados, y recomienda consultar con el local antes. Los c-automaticos aceptan Maestro, Mastercard, Amex, Visa y Diners 24/7.",
+      "name": "Austria",
+      "confidence": "media",
+      "cash": "Lleva algo de efectivo para compras pequeñas o lugares sin tarjeta (OeNB, austria.info).",
+      "cards": "La aceptación de tarjetas es amplia pero no universal (austria.info). Muchas tarjetas de débito austriacas están bloqueadas para pagos fuera de Europa; hay que revisar si necesitan desbloqueo (OeNB, página en alemán).",
       "qr": null,
-      "atm": "Densidad medida: 170.1 cajeros por 100.000 adultos (2024). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
-      "banknotes": null,
+      "atm": "Cajeros las 24 horas con las redes principales; pueden cobrar comisión (austria.info).",
+      "banknotes": "Euro.",
       "crypto": null,
-      "notes": [],
+      "notes": [
+        "Importar y exportar efectivo no tiene límite, pero las cantidades de 10,000 € o más hay que registrarlas (austria.info).",
+        "Los visitantes de países del euro normalmente no pagan cargos extra por tarjeta (austria.info)."
+      ],
       "sources": [
         {
-          "title": "Money Matters: cash, credit cards and ATMs",
+          "title": "austria.info: Dinero y cambio de divisas",
           "url": "https://www.austria.info/en-gb/planning/currency-money-exchange/"
         },
         {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
-        },
-        {
-          "title": "How much cash to take overseas",
-          "url": "https://beforeyoufly.com.au/essentials/travel-money/how-much-cash-to-take/"
+          "title": "OeNB: Pagar en el extranjero",
+          "url": "https://www.oenb.at/en/themen/finanzbildung/sicher-bezahlen/im-ausland.html"
         }
       ]
     },
@@ -328,7 +317,7 @@
       ]
     },
     "AZ": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Azerbaiyán",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -366,7 +355,7 @@
       ]
     },
     "BA": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Bosnia y Herzegovina",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -534,7 +523,7 @@
       ]
     },
     "BG": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Bulgaria",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -572,7 +561,7 @@
       ]
     },
     "BH": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Baréin",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -724,7 +713,7 @@
       ]
     },
     "BR": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Brasil",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -800,7 +789,7 @@
       ]
     },
     "BT": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Bután",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -931,47 +920,33 @@
     },
     "CA": {
       "tier": "oficial",
-      "name": "Canadá",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, American Express. La banda de aceptacion sale de la regla de derivacion, pero el METODO es 'official' porque un operador de pagos publica este pais en su lista de pagos con tarjeta sin contacto. Ojo con el alcance: eso acredita que la infraestructura de tarjeta sin contacto existe y opera ahi, NO que cualquier tarjeta extranjera funcione en cualquier comercio. El efectivo y las cadenas menores siguen dependiendo de cada pais.",
+      "name": "Canadá",
+      "confidence": "baja",
+      "cash": "Sin dato oficial detallado para visitantes en las fuentes revisadas.",
+      "cards": "Interac Debit está vinculada a una cuenta bancaria canadiense; la tarjeta de un visitante normalmente no es Interac Debit (inferencia a partir de la información de Interac).",
       "qr": null,
-      "atm": "Densidad medida: 173.8 cajeros por 100.000 adultos (2024). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
+      "contactless": "Límite de 250 CAD por toque con Interac Debit; los bancos pueden fijar límites acumulados (Interac).",
+      "atm": null,
       "banknotes": null,
       "crypto": null,
       "notes": [
-        "La banda de aceptacion sale de la regla de derivacion, pero el METODO es 'official' porque un operador de pagos publica este pais en su lista de pagos con tarjeta sin contacto. Ojo con el alcance: eso acredita que la infraestructura de tarjeta sin contacto existe y opera ahi, NO que cualquier tarjeta extranjera funcione en cualquier comercio. El efectivo y las cadenas menores siguen dependiendo de cada pais."
+        "Transporte: en algunos sistemas se paga la tarifa de adulto con Interac Debit contactless.",
+        "Estadios y conciertos suelen ser sin efectivo; algunos tienen cajeros que cargan una tarjeta prepagada (Interac).",
+        "Sin fuente oficial sobre cajeros ni comisiones para tarjetas extranjeras."
       ],
       "sources": [
         {
-          "title": "Global Findex: adults with a financial account (% of adults)",
-          "url": "https://data.worldbank.org/indicator/FX.OWN.TOTL.ZS"
+          "title": "Interac: Pagar con Interac Debit",
+          "url": "https://www.interac.ca/en/payments/personal/pay-with-interac-debit/"
         },
         {
-          "title": "Domestic credit to private sector (% of GDP)",
-          "url": "https://data.worldbank.org/indicator/FS.AST.PRVT.GD.ZS"
+          "title": "Interac: Preguntas frecuentes sobre Interac Debit",
+          "url": "https://www.interac.ca/en/resources/personal-resources/personal-faq/interac-debit/"
         },
         {
-          "title": "Countries and regions that support Apple Pay",
-          "url": "https://support.apple.com/en-us/102775"
-        },
-        {
-          "title": "Countries or regions where you can use Google Pay (contactless in stores)",
-          "url": "https://support.google.com/pay/answer/9023773"
-        },
-        {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
-        },
-        {
-          "title": "Cash or card, country by country",
-          "url": "https://truetripcosts.com/cash-or-card/"
-        },
-        {
-          "title": "How much cash to take overseas",
-          "url": "https://beforeyoufly.com.au/essentials/travel-money/how-much-cash-to-take/"
+          "title": "Interac: Pagar el transporte con Interac Debit",
+          "url": "https://www.interac.ca/en/how-to-use/interac-debit/how-to-use-interac-debit-to-pay-for-transit/"
         }
       ]
     },
@@ -1066,7 +1041,7 @@
       ]
     },
     "CH": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Suiza",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -1209,48 +1184,40 @@
     },
     "CN": {
       "tier": "oficial",
-      "name": "República Popular China",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, American Express. La banda de aceptacion sale de la regla de derivacion, pero el METODO es 'official' porque un operador de pagos publica este pais en su lista de pagos con tarjeta sin contacto. Ojo con el alcance: eso acredita que la infraestructura de tarjeta sin contacto existe y opera ahi, NO que cualquier tarjeta extranjera funcione en cualquier comercio. El efectivo y las cadenas menores siguen dependiendo de cada pais.",
-      "qr": null,
-      "atm": "Densidad medida: 67.8 cajeros por 100.000 adultos (2024). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
+      "name": "China",
+      "confidence": "media",
+      "cash": "Las autoridades buscan ampliar la aceptación de efectivo y el cambio de divisas en aeropuertos, puertos y hoteles.",
+      "cards": "Los hoteles de tres estrellas o más y las atracciones de nivel alto deben aceptar tarjetas bancarias nacionales y extranjeras (circular gubernamental, 2024).",
+      "qr": "Alipay y WeChat Pay permiten vincular tarjetas Visa y Mastercard internacionales; Alipay admite 13 billeteras extranjeras. Límites para visitantes: 5,000 USD por operación y 50,000 USD al año (antes 1,000 y 10,000). Los pagos con tarjeta por QR mayores a 200 RMB tienen 3 % de cargo. No hay transferencias entre personas.",
+      "atm": "Unos 320,000 cajeros. Las tarjetas bancarias pueden retirar RMB en cajeros con el logo de su red.",
       "banknotes": null,
       "crypto": null,
       "notes": [
-        "La banda de aceptacion sale de la regla de derivacion, pero el METODO es 'official' porque un operador de pagos publica este pais en su lista de pagos con tarjeta sin contacto. Ojo con el alcance: eso acredita que la infraestructura de tarjeta sin contacto existe y opera ahi, NO que cualquier tarjeta extranjera funcione en cualquier comercio. El efectivo y las cadenas menores siguen dependiendo de cada pais."
+        "Datos de 2024 y 2025; confirmar los límites antes de viajar.",
+        "No se verificó la situación de las criptomonedas en China y no se incluye."
       ],
       "sources": [
         {
-          "title": "Global Findex: adults with a financial account (% of adults)",
-          "url": "https://data.worldbank.org/indicator/FX.OWN.TOTL.ZS"
+          "title": "Gobierno de China: Guía de servicios de pago para visitantes",
+          "url": "https://english.www.gov.cn/news/202404/11/content_WS6617c858c6d0868f4e8e5f4d.html"
         },
         {
-          "title": "Domestic credit to private sector (% of GDP)",
-          "url": "https://data.worldbank.org/indicator/FS.AST.PRVT.GD.ZS"
+          "title": "Gobierno de China: Pagos móviles para extranjeros (2024)",
+          "url": "https://english.www.gov.cn/news/202403/02/content_WS65e26742c6d0868f4e8e4881.html"
         },
         {
-          "title": "Countries and regions that support Apple Pay",
-          "url": "https://support.apple.com/en-us/102775"
+          "title": "Gobierno de China: Mejoras para visitantes extranjeros (2025)",
+          "url": "https://english.www.gov.cn/news/202502/06/content_WS67a4b9f7c6d0868f4e8ef6a1.html"
         },
         {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
-        },
-        {
-          "title": "Cash or card, country by country",
-          "url": "https://truetripcosts.com/cash-or-card/"
-        },
-        {
-          "title": "How much cash to take overseas",
-          "url": "https://beforeyoufly.com.au/essentials/travel-money/how-much-cash-to-take/"
+          "title": "Gobierno de China: Política de pagos para extranjeros y personas mayores",
+          "url": "https://english.www.gov.cn/policies/policywatch/202403/08/content_WS65eafc0fc6d0868f4e8e4d91.html"
         }
       ]
     },
     "CO": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Colombia",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -1296,7 +1263,7 @@
       ]
     },
     "CR": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Costa Rica",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -1382,7 +1349,7 @@
       ]
     },
     "CY": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Chipre",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -1448,38 +1415,31 @@
       ]
     },
     "DE": {
-      "tier": "reportado",
-      "name": "Alemania",
+      "tier": "oficial",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, American Express. Tarjeta ampliamente aceptada; el euro es medio de pago legal. Los terminos de Visa y Mastercard aplican en la zona del EEE.",
-      "qr": null,
-      "atm": "Densidad medida: 70.9 cajeros por 100.000 adultos (2023). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
-      "banknotes": null,
+      "name": "Alemania",
+      "confidence": "media",
+      "cash": "El efectivo sigue siendo muy usado: 45 % de los pagos en 2025 (Bundesbank).",
+      "cards": "La mayoría de tiendas aceptan tarjeta de débito o crédito. Según el Bundesbank, 86 % de las compras en locales físicos se pudo pagar sin efectivo. Uno de cada cuatro encuestados no pudo pagar sin efectivo al menos una vez en el último mes.",
+      "qr": "Apple Pay es el monedero móvil más usado en el punto de venta (resumen de búsqueda del Bundesbank; confirmar en la publicación).",
+      "atm": null,
+      "banknotes": "Euro (germany.travel).",
       "crypto": null,
-      "notes": [],
+      "notes": [
+        "Contactless sin PIN hasta 50 € según un estudio del Bundesbank de 2021; el límite puede haber cambiado."
+      ],
       "sources": [
         {
-          "title": "Comment payer a l'etranger: moyens de paiement dans l'UE",
-          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2404?lang=en"
+          "title": "Bundesbank: Comportamiento de pago en Alemania (2025)",
+          "url": "https://www.bundesbank.de/en/press/press-releases/payment-behaviour-in-germany-in-2025-964738"
         },
         {
-          "title": "Where is Mastercard accepted: countries, online and ATMs",
-          "url": "https://www.photonpay.com/ca/blog/article/where-is-mastercard-accepted"
+          "title": "Bundesbank: El contactless se vuelve la norma",
+          "url": "https://www.bundesbank.de/en/press/press-releases/contactless-payment-becomes-the-norm-822412"
         },
         {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
-        },
-        {
-          "title": "How much cash to take overseas",
-          "url": "https://beforeyoufly.com.au/essentials/travel-money/how-much-cash-to-take/"
-        },
-        {
-          "title": "Cash or Card in Southeast Asia: what the data says",
-          "url": "https://www.cashjot.com/blog/cash-or-card-southeast-asia"
+          "title": "Germany Travel: Planificar el viaje",
+          "url": "https://www.germany.travel/en/accessible-germany/travel-plans.html"
         }
       ]
     },
@@ -1576,7 +1536,7 @@
       ]
     },
     "DO": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "República Dominicana",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -1614,7 +1574,7 @@
       ]
     },
     "DZ": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Argelia",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -1648,7 +1608,7 @@
       ]
     },
     "EC": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Ecuador",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -1714,7 +1674,7 @@
       ]
     },
     "EG": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Egipto",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -1778,30 +1738,36 @@
       ]
     },
     "ES": {
-      "tier": "reportado",
-      "name": "España",
+      "tier": "oficial",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, American Express. Altamente digital y con aceptacion casi universal. El euro es medio de pago legal.",
+      "name": "España",
+      "confidence": "media",
+      "cash": "Aceptado casi siempre; útil en mercados, propinas, playas y zonas rurales (spain.info, sitio de hace tiempo).",
+      "cards": "Visa y Mastercard muy extendidas. La ley no obliga a mostrar identificación para pagar con tarjeta; el comercio puede pedirla. Se acepta pasaporte o licencia. El 93.7 % de los pagos presenciales con tarjeta en el primer semestre de 2024 fueron sin contacto, sin PIN hasta 50 €.",
       "qr": null,
-      "atm": "Densidad medida: 84.2 cajeros por 100.000 adultos (2024). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
-      "banknotes": null,
+      "atm": null,
+      "banknotes": "Euro.",
       "crypto": null,
-      "notes": [],
+      "notes": [
+        "Límite de pago en efectivo: 1,000 € cuando una parte es empresa o profesional. Para personas físicas no residentes fiscales en España que lo acrediten, el límite es 10,000 €. Sanción de 25 % del importe (Banco de España, Ley 11/2021).",
+        "Hay que declarar el efectivo a partir de 10,000 € al salir."
+      ],
       "sources": [
         {
-          "title": "Comment payer a l'etranger: moyens de paiement dans l'UE",
-          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2404?lang=en"
+          "title": "Banco de España: Límite a los pagos en efectivo",
+          "url": "https://clientebancario.bde.es/pcb/en/blog/limite-a-los-pagos-en-efectivo.html"
         },
         {
-          "title": "Cash or card, country by country",
-          "url": "https://truetripcosts.com/cash-or-card/"
+          "title": "Banco de España: ¿Es obligatorio mostrar el DNI al pagar con tarjeta?",
+          "url": "https://clientebancario.bde.es/pcb/en/blog/es-obligatorio-mostrar-el-dni-al-pagar-con-tarjeta-.html"
         },
         {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
+          "title": "Banco de España: Tendencias en pagos (2025)",
+          "url": "https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/InformesBoletinesRevistas/BoletinEconomico/25/T2/Files/be2502-art03e.pdf"
+        },
+        {
+          "title": "spain.info: Monedas y billetes",
+          "url": "https://www.spain.info/en/travel-tips/coins-banknotes/"
         }
       ]
     },
@@ -1914,34 +1880,36 @@
       ]
     },
     "FR": {
-      "tier": "reportado",
-      "name": "Francia",
+      "tier": "oficial",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, American Express, Cartes Bancaires. Tarjeta ampliamente aceptada. El euro es medio de pago legal y las mismas condiciones bancarias que en el pais de origen aplican dentro de la UE.",
+      "name": "Francia",
+      "confidence": "media",
+      "cash": "Límite de pago en efectivo para compradores sin domicilio fiscal en Francia: 15,000 € según la Banque de France. Economie.gouv da 10,000 € o 15,000 € según las obligaciones antilavado: las fuentes no coinciden.",
+      "cards": "Pagos sin contacto de hasta 50 € por operación desde 2020; el PIN se pide al superar 150 € acumulados o 5 operaciones seguidas (Banque de France).",
       "qr": null,
-      "atm": "Densidad medida: 77.6 cajeros por 100.000 adultos (2023). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
-      "banknotes": null,
+      "atm": null,
+      "banknotes": "Euro (Banque de France).",
       "crypto": null,
-      "notes": [],
+      "notes": [
+        "Retiro en efectivo al pagar con tarjeta: hasta 60 €, con una compra mínima de 1 € (economie.gouv).",
+        "Hay que declarar al salir las cantidades de 10,000 € o más (economie.gouv)."
+      ],
       "sources": [
         {
-          "title": "Comment payer a l'etranger: moyens de paiement dans l'UE",
-          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2404?lang=en"
+          "title": "Banque de France: Moyens de paiement",
+          "url": "https://www.banque-france.fr/fr/aide-faq/Moyens%20de%20paiement"
         },
         {
-          "title": "Cash or card, country by country",
-          "url": "https://truetripcosts.com/cash-or-card/"
+          "title": "Banque de France: Foire aux questions - La carte de paiement",
+          "url": "https://www.banque-france.fr/fr/foire-aux-questions-la-carte-de-paiement"
         },
         {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
+          "title": "Economie.gouv: Cartes bancaires, chèques, espèces",
+          "url": "https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-un-commerce/cartes-bancaires-cheques-especes-quels-moyens-de-paiement-de-vos-clients-etes-vous"
         },
         {
-          "title": "How much cash to take overseas",
-          "url": "https://beforeyoufly.com.au/essentials/travel-money/how-much-cash-to-take/"
+          "title": "Economie.gouv: Moyens de paiement en vacances",
+          "url": "https://economie.gouv.fr/particuliers/vacances-moyens-paiement-carte-bancaire-especes-cheques"
         }
       ]
     },
@@ -1981,43 +1949,31 @@
     },
     "GB": {
       "tier": "oficial",
-      "name": "Reino Unido",
       "retrieved": "2026-10-17",
+      "name": "Reino Unido",
       "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, American Express. La banda de aceptacion sale de la regla de derivacion, pero el METODO es 'official' porque un operador de pagos publica este pais en su lista de pagos con tarjeta sin contacto. Ojo con el alcance: eso acredita que la infraestructura de tarjeta sin contacto existe y opera ahi, NO que cualquier tarjeta extranjera funcione en cualquier comercio. El efectivo y las cadenas menores siguen dependiendo de cada pais.",
+      "cash": "Algunos comercios pequeños, mercados y cafés no aceptan tarjeta o piden un mínimo; se recomienda llevar algo de efectivo (VisitBritain).",
+      "cards": "Tarjetas de crédito, débito y contactless muy extendidas. Visa y Mastercard son las más aceptadas; AmEx y Diners, solo a veces (VisitBritain).",
       "qr": null,
-      "atm": "Densidad medida: 77.7 cajeros por 100.000 adultos (2024). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
-      "banknotes": null,
+      "atm": "Algunos cajeros cobran una comisión pequeña. Las tarjetas extranjeras pagan además un cargo de cambio de divisas (VisitBritain).",
+      "banknotes": "Libra esterlina. Billetes de 5, 10, 20 y 50 libras. Los billetes escoceses y norirlandeses circulan en todo el Reino Unido, salvo el de 1 libra escocés, que no; los norirlandeses solo en Irlanda del Norte (VisitBritain).",
       "crypto": null,
       "notes": [
-        "La banda de aceptacion sale de la regla de derivacion, pero el METODO es 'official' porque un operador de pagos publica este pais en su lista de pagos con tarjeta sin contacto. Ojo con el alcance: eso acredita que la infraestructura de tarjeta sin contacto existe y opera ahi, NO que cualquier tarjeta extranjera funcione en cualquier comercio. El efectivo y las cadenas menores siguen dependiendo de cada pais."
+        "Transporte en Londres: el contactless funciona en la mayoría de los medios; Diners, JCB y UnionPay no se aceptan (TfL). Alternativa: la tarjeta Visitor Oyster.",
+        "En 2022, 59 % de los pagos fueron con tarjeta y 14 % en efectivo (ONS, con datos de UK Finance)."
       ],
       "sources": [
         {
-          "title": "Global Findex: adults with a financial account (% of adults)",
-          "url": "https://data.worldbank.org/indicator/FX.OWN.TOTL.ZS"
+          "title": "VisitBritain: Información útil",
+          "url": "https://www.visitbritain.com/en/plan-your-trip/useful-information"
         },
         {
-          "title": "Domestic credit to private sector (% of GDP)",
-          "url": "https://data.worldbank.org/indicator/FS.AST.PRVT.GD.ZS"
+          "title": "TfL: Formas de pago",
+          "url": "https://tfl.gov.uk/fares/ways-to-pay/pay-as-you-go"
         },
         {
-          "title": "Countries and regions that support Apple Pay",
-          "url": "https://support.apple.com/en-us/102775"
-        },
-        {
-          "title": "Countries or regions where you can use Google Pay (contactless in stores)",
-          "url": "https://support.google.com/pay/answer/9023773"
-        },
-        {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
-        },
-        {
-          "title": "Cash or card, country by country",
-          "url": "https://truetripcosts.com/cash-or-card/"
+          "title": "ONS: Gasto con tarjeta internacional",
+          "url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/output/articles/internationalconsumercardspendingukandabroad/2019to2023"
         }
       ]
     },
@@ -2044,7 +2000,7 @@
       ]
     },
     "GE": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Georgia",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -2204,35 +2160,28 @@
       ]
     },
     "GR": {
-      "tier": "reportado",
-      "name": "Grecia",
+      "tier": "oficial",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard. Atenas y las zonas turisticas aceptan tarjeta; las islas dependen mas del efectivo. El euro es medio de pago legal.",
+      "name": "Grecia",
+      "confidence": "baja",
+      "cash": "Sin dato oficial detallado para visitantes. Los cambios de divisas funcionan en aeropuertos, puertos y ciudades; hace falta pasaporte (Visit Greece).",
+      "cards": null,
       "qr": null,
-      "atm": "Densidad medida: 68.1 cajeros por 100.000 adultos (2024). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
-      "banknotes": null,
+      "atm": "Los titulares de tarjeta de crédito pueden retirar efectivo en cajeros de bancos colaboradores (Visit Greece). Sin dato de comisiones.",
+      "banknotes": "Euro.",
       "crypto": null,
-      "notes": [],
+      "notes": [
+        "Sin fuente oficial sobre contactless, comisiones o conversión dinámica de divisas."
+      ],
       "sources": [
         {
-          "title": "Comment payer a l'etranger: moyens de paiement dans l'UE",
-          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2404?lang=en"
-        },
-        {
-          "title": "How much cash to take overseas",
-          "url": "https://beforeyoufly.com.au/essentials/travel-money/how-much-cash-to-take/"
-        },
-        {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
+          "title": "Visit Greece: Consejos para viajar",
+          "url": "https://www.visitgreece.gr/en/before-you-travel/travel-tips"
         }
       ]
     },
     "GT": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Guatemala",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -2310,7 +2259,7 @@
       ]
     },
     "HN": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Honduras",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -2446,7 +2395,7 @@
       ]
     },
     "ID": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Indonesia",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -2664,34 +2613,31 @@
       ]
     },
     "IT": {
-      "tier": "reportado",
-      "name": "Italia",
+      "tier": "oficial",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, American Express, CartaSi. Tarjeta aceptada en ciudades y.Callbacks grandes, pero el efectivo manda en el punto de venta: mas del 60% de las transacciones en comercio son en efectivo, sobre todo comercios independientes y cafes regionales.",
+      "name": "Italia",
+      "confidence": "baja",
+      "cash": "El efectivo y las tarjetas se aceptan en general (Italia.it, portal oficial de turismo).",
+      "cards": "Visa, Mastercard/Cirrus/Maestro y American Express (Italia.it).",
       "qr": null,
-      "atm": "Densidad medida: 85.7 cajeros por 100.000 adultos (2024). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
-      "banknotes": null,
+      "atm": null,
+      "banknotes": "Euro.",
       "crypto": null,
-      "notes": [],
+      "notes": [
+        "El límite de pago en efectivo está en conflicto: la página de consumo del Banco de Italia dice 5,000 €, y otra página del mismo banco cita 1,000 € (Decreto-ley 201/2011). No se resolvió cuál aplica."
+      ],
       "sources": [
         {
-          "title": "Comment payer a l'etranger: moyens de paiement dans l'UE",
-          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2404?lang=en"
+          "title": "Italia.it: Moneda y pagos",
+          "url": "https://www.italia.it/en/practical-information/money-and-payments"
         },
         {
-          "title": "Cash or card, country by country",
-          "url": "https://truetripcosts.com/cash-or-card/"
+          "title": "Banca d'Italia: Efectivo (consumidores)",
+          "url": "https://economiapertutti.bancaditalia.it/aree-tematiche/pagamenti/contante/index.html?com.dotmarketing.htmlpage.language=3"
         },
         {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
-        },
-        {
-          "title": "Cash or Card in Southeast Asia: what the data says",
-          "url": "https://www.cashjot.com/blog/cash-or-card-southeast-asia"
+          "title": "Banca d'Italia: Instrumentos de pago",
+          "url": "https://www.bancaditalia.it/compiti/sispaga-mercati/strumenti-pagamento/index.html?com.dotmarketing.htmlpage.language=1"
         }
       ]
     },
@@ -2763,39 +2709,26 @@
     },
     "JP": {
       "tier": "oficial",
-      "name": "Japón",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": "Estimación, no medida: el efectivo es bajo. Se deduce de la inclusión financiera del país; no mide cuánto se paga en efectivo en la práctica.",
-      "cards": "Redes: Visa, Mastercard, JCB, American Express, Diners Club, Discover. El organismo oficial de turismo de Japon (JNTO) dice que las tarjetas de credito, debito y prepago de marcas internacionales se aceptan en general en todo el pais. PERO anade una advertencia que ninguna guia suele repetir: en Japon hay moneda de pago MOVIL EXTRANJERA que puede no funcionar. Apple Pay, Google Pay y Alipay a veces no se pueden usar. Y sigue siendo una cultura muy de efectivo: pueblos pequenos y ryokan remotos aceptan solo yen en efectivo.",
-      "qr": null,
-      "atm": "Cajeros en Japan Post Bank y Seven Bank. Mas de 26.000 cajeros de la oficina de correos segun JNTO. Se puede retirar con Cirrus, Plus, Maestro y Visa Electron, y con Visa, Mastercard, Amex y Diners. Densidad medida: 107.0 cajeros por 100.000 adultos (2024). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
+      "name": "Japón",
+      "confidence": "media",
+      "cash": "Sigue haciendo falta en tiendas pequeñas, casas de huéspedes y zonas rurales, y en algunos hoteles.",
+      "cards": "Visa, Mastercard y JCB en hoteles grandes, grandes almacenes y restaurantes urbanos; la aceptación varía por comercio.",
+      "qr": "PayPay, LINE Pay, Rakuten Pay y MerPay son las apps QR más comunes. Apple Pay, Google Pay y Alipay a veces no funcionan para visitantes.",
+      "atm": "Los cajeros de las tiendas de conveniencia aceptan tarjetas extranjeras para retirar yenes.",
       "banknotes": null,
       "crypto": null,
       "notes": [
-        "Fuente oficial de JNTO, no una guia. El matiz importante: la tarjeta va bien, las walletsrinacionales dependen del operador y del modelo de telefono, y el transporte de corta distancia no siempre acepta tarjeta."
+        "Confirmar apps y tarjetas aceptadas antes de viajar; las guías de japan.travel cambian con frecuencia."
       ],
       "sources": [
         {
-          "title": "Credit Cards in Japan",
-          "url": "https://www.japan.travel/en/plan/credit-cards/"
+          "title": "JNTO: ¿Son muy aceptadas las tarjetas de crédito?",
+          "url": "https://faq.japan-travel.jnto.go.jp/en/faq/articles/102060"
         },
         {
-          "title": "Cashless Payments in Japan",
+          "title": "Japan Travel: Cashless payments in Japan",
           "url": "https://www.japan.travel/en/plan/cashless-payments-in-japan/"
-        },
-        {
-          "title": "FAQ: Are credit cards widely accepted in Japan?",
-          "url": "https://www.japan.travel/en/plan/faq/"
-        },
-        {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
-        },
-        {
-          "title": "Global Findex: adults with a financial account (% of adults)",
-          "url": "https://data.worldbank.org/indicator/FX.OWN.TOTL.ZS"
         }
       ]
     },
@@ -2832,7 +2765,7 @@
       ]
     },
     "KG": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Kirguistán",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -3012,47 +2945,41 @@
       ]
     },
     "KR": {
-      "tier": "reportado",
-      "name": "Corea del Sur",
+      "tier": "oficial",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, American Express, JCB. Ampliamente aceptada en ciudades, aunque los comercios pequenos prefieren efectivo o apps locales. BC Card es la red domestica dominante y no acepta tarjetas extranjeras por si sola.",
-      "qr": null,
-      "atm": "Densidad medida: 244.5 cajeros por 100.000 adultos (2023). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
+      "name": "Corea del Sur",
+      "confidence": "media",
+      "cash": "Necesario en mercados tradicionales y tiendas callejeras.",
+      "cards": "Visa, Mastercard, JCB, AMEX y UnionPay en la mayoría de tiendas, sin monto mínimo (VisitKorea).",
+      "qr": "k.ride (2024) permite registrar una tarjeta de crédito en la app para taxis. La app Tmoney admite Mastercard, AMEX y UnionPay. Hay QR de UnionPay en comercios BC Card Paybooc, y Alipay, WeChat Pay y UnionPay en comercios ZeroPay. KakaoPay aparece en VisitKorea solo para recargar la tarjeta Namane; no está confirmado como pago general para visitantes.",
+      "atm": null,
       "banknotes": null,
       "crypto": null,
-      "notes": [],
+      "notes": [
+        "Transporte: T-money, EZL, WOWPASS y Mpass (el Mpass se compra solo con wones en efectivo). El saldo de EZL menor de 20,000 wones se devuelve en tiendas de conveniencia.",
+        "Algunas páginas de VisitKorea pueden estar desactualizadas; confirmar en el sitio oficial."
+      ],
       "sources": [
         {
-          "title": "Where is Mastercard accepted: countries, online and ATMs",
-          "url": "https://www.photonpay.com/ca/blog/article/where-is-mastercard-accepted"
+          "title": "VisitKorea: Tarjetas de transporte",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140663"
         },
         {
-          "title": "Card networks explained: Visa, Mastercard and local card schemes",
-          "url": "https://norbr.com/insights-blog/understanding-card-networks-15834"
+          "title": "VisitKorea: Compras en Corea",
+          "url": "https://english.visitkorea.or.kr/svc/contents/infoBscView.do?vcontsId=140734"
         },
         {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
+          "title": "VisitKorea: Apps para taxi",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=197907"
         },
         {
-          "title": "Cash or card, country by country",
-          "url": "https://truetripcosts.com/cash-or-card/"
-        },
-        {
-          "title": "Cash or Card in Southeast Asia: what the data says",
-          "url": "https://www.cashjot.com/blog/cash-or-card-southeast-asia"
-        },
-        {
-          "title": "Global QR code payments: which local schemes travellers can scan",
-          "url": "https://wise.com/gb/feature/qr-payments"
+          "title": "VisitKorea: Apps y recursos útiles",
+          "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=198570"
         }
       ]
     },
     "KW": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Kuwait",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -3246,7 +3173,7 @@
       ]
     },
     "LK": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Sri Lanka",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -3490,7 +3417,7 @@
       ]
     },
     "MA": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Marruecos",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -3557,7 +3484,7 @@
       ]
     },
     "MD": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Moldavia",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -3591,7 +3518,7 @@
       ]
     },
     "ME": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Montenegro",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -3671,7 +3598,7 @@
       ]
     },
     "MK": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Macedonia del Norte",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -3777,7 +3704,7 @@
       ]
     },
     "MN": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Mongolia",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -3973,26 +3900,33 @@
       ]
     },
     "MX": {
-      "tier": "reportado",
-      "name": "México",
+      "tier": "oficial",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, American Express. Visa y Mastercard se aceptan en hoteles, resorts, malls, cadenas y restaurantes establecidos. Amex es irregular: bien en resorts grandes, rechazada en toques}y negocios familiares. Algunos comercios anaden recargo del 3-5% por pagar con tarjeta. Taxis, puestos y tiendas pequenas siguen en efectivo.",
-      "qr": null,
+      "name": "México",
+      "confidence": "media",
+      "cash": "Los visitantes traen dólares en efectivo para propinas, artesanías y gasto turístico (Banxico; estimación de 2019).",
+      "cards": "Visa, Mastercard y American Express. Las tarjetas son el medio electrónico más usado: 57.9 % del volumen de pagos al menudeo en 2024 (Banxico).",
+      "qr": "CoDi (Banxico) permite pagos y transferencias con códigos QR y NFC. No hay reglas específicas para visitantes.",
       "atm": null,
-      "contactless": null,
       "banknotes": null,
       "crypto": null,
-      "notes": [],
+      "notes": [
+        "Tarjetas de prepago en pesos para extranjeros: programa de Banxico; no confirmado como vigente.",
+        "El pago de la entrada en efectivo a agentes de migración viene de una guía de 2020 y probablemente esté desactualizado.",
+        "OXXO (pago en efectivo con código) viene de una fuente comercial; no incluido."
+      ],
       "sources": [
         {
-          "title": "Mexico money 2026: cash, cards, ATMs and VISITAX",
-          "url": "https://truetripcosts.com/mexico/"
+          "title": "Banxico: Informe sobre pagos y visitantes",
+          "url": "https://www.banxico.org.mx/publicaciones-y-prensa/informes-trimestrales/recuadros/%7BCBD8DCED-4C67-1E1E-834C-DA5CB1AFA7CF%7D.pdf"
         },
         {
-          "title": "Cash or Card in Mexico: a Canadian traveller's guide",
-          "url": "https://www.remitly.com/blog/en-ca/travel/mexico-cash-or-card-guide-for-canadians/"
+          "title": "Banxico: Informe sobre infraestructuras de medios de pago",
+          "url": "https://www.banxico.org.mx/publicaciones-y-prensa/informe-anual-sobre-las-infraestructuras-de-los-me/%7BE0085475-B1D7-DED0-60AF-05ED88153BDC%7D.pdf"
+        },
+        {
+          "title": "Profeco: Recomendaciones para usar la tarjeta en el extranjero",
+          "url": "https://www.gob.mx/profeco/documentos/recomendaciones-para-el-uso-de-la-tarjeta-de-credito-y-telefono-celular-en-el-extranjero"
         }
       ]
     },
@@ -4345,7 +4279,7 @@
       ]
     },
     "OM": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Omán",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -4387,7 +4321,7 @@
       ]
     },
     "PA": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Panamá",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -4515,7 +4449,7 @@
       ]
     },
     "PK": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Pakistán",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -4581,7 +4515,7 @@
       ]
     },
     "PS": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Palestina",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -4665,7 +4599,7 @@
       ]
     },
     "PY": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Paraguay",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -4699,7 +4633,7 @@
       ]
     },
     "QA": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Catar",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -4773,7 +4707,7 @@
       ]
     },
     "RS": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Serbia",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -4877,7 +4811,7 @@
       ]
     },
     "SA": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Arabia Saudí",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -5026,47 +4960,34 @@
     },
     "SG": {
       "tier": "oficial",
-      "name": "Singapur",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, American Express. La banda de aceptacion sale de la regla de derivacion, pero el METODO es 'official' porque un operador de pagos publica este pais en su lista de pagos con tarjeta sin contacto. Ojo con el alcance: eso acredita que la infraestructura de tarjeta sin contacto existe y opera ahi, NO que cualquier tarjeta extranjera funcione en cualquier comercio. El efectivo y las cadenas menores siguen dependiendo de cada pais.",
-      "qr": null,
-      "atm": "Densidad medida: 47.0 cajeros por 100.000 adultos (2024). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
+      "name": "Singapur",
+      "confidence": "media",
+      "cash": "Respaldo. Las fuentes oficiales no describen qué tan extendida está la aceptación de efectivo.",
+      "cards": "Las tarjetas son el medio principal. Mezcla de pago en puntos de venta en 2022 (aprox., MAS): tarjetas ~57 %, efectivo ~19 %, billeteras ~18 %.",
+      "qr": "Para pagar con SGQR hay que registrarse en un esquema participante y solo funciona en comercios con ese vínculo (MAS, 2023). PayNow requiere registro local. Hay enlaces QR con Malasia (DuitNow, 2023) e Indonesia (QRIS, 2023). El informe PayNow Gen2 de 2026 propone un piloto de interoperabilidad PayNow–NETS; no está confirmado como activo.",
+      "atm": null,
       "banknotes": null,
       "crypto": null,
       "notes": [
-        "La banda de aceptacion sale de la regla de derivacion, pero el METODO es 'official' porque un operador de pagos publica este pais en su lista de pagos con tarjeta sin contacto. Ojo con el alcance: eso acredita que la infraestructura de tarjeta sin contacto existe y opera ahi, NO que cualquier tarjeta extranjera funcione en cualquier comercio. El efectivo y las cadenas menores siguen dependiendo de cada pais."
+        "El informe de 2026 de MAS describe a un visitante estadounidense que no pudo pagar con su tarjeta extranjera en un puesto y pagó en efectivo."
       ],
       "sources": [
         {
-          "title": "Global Findex: adults with a financial account (% of adults)",
-          "url": "https://data.worldbank.org/indicator/FX.OWN.TOTL.ZS"
+          "title": "MAS: SGQR para consumidores",
+          "url": "https://www.mas.gov.sg/development/e-payments/sgqr/for-consumers"
         },
         {
-          "title": "Domestic credit to private sector (% of GDP)",
-          "url": "https://data.worldbank.org/indicator/FS.AST.PRVT.GD.ZS"
+          "title": "MAS: Enlace QR Singapur–Malasia (2023)",
+          "url": "https://www.mas.gov.sg/news/media-releases/2023/launch-of-cross-border-qr-code-payments-connectivity-between-singapore-and-malaysia"
         },
         {
-          "title": "Countries and regions that support Apple Pay",
-          "url": "https://support.apple.com/en-us/102775"
+          "title": "MAS: Whitepaper de pagos QR interoperables (2023)",
+          "url": "https://www.mas.gov.sg/-/media/mas-media-library/publications/monographs-or-information-paper/ftig/2023/interoperable-qr-payments-in-singapore-whitepaper.pdf"
         },
         {
-          "title": "Countries or regions where you can use Google Pay (contactless in stores)",
-          "url": "https://support.google.com/pay/answer/9023773"
-        },
-        {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
-        },
-        {
-          "title": "Cash or Card in Southeast Asia: what the data says",
-          "url": "https://www.cashjot.com/blog/cash-or-card-southeast-asia"
-        },
-        {
-          "title": "Cash or card, country by country",
-          "url": "https://truetripcosts.com/cash-or-card/"
+          "title": "MAS: Informe PayNow Gen2 (2026)",
+          "url": "https://www.mas.gov.sg/-/media/PNG2-Phase-1-Collaterals_PDDC/PayNow-Gen2-Phase-1-Report_25-June-2026.pdf"
         }
       ]
     },
@@ -5319,7 +5240,7 @@
       ]
     },
     "SV": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "El Salvador",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -5478,34 +5399,36 @@
     },
     "TH": {
       "tier": "oficial",
-      "name": "Tailandia",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, UnionPay, JCB. El gobierno tailandes acepta Visa, Mastercard, UnionPay y JCB en hoteles, centros comerciales, restaurantes y atracciones turisticas. Sin contacto confirmado en MRT Lines Blue y Purple; no confirmado en BTS Skytrain. Muchos comerciantes pequeños anaden recargo por pago con tarjeta: preguntar antes.",
-      "qr": "Alipay: Pagando codigos QR cross-border entre las apps de origen (SG, MY, ID, KH, VN, LA, HK, JP).; PromptPay: Rail instantaneo nacional. Solo alcanzable desde apps de los 8 paises enlazados. No requiere cuenta tailandesa si vienes de esos paises.",
-      "atm": null,
-      "contactless": null,
+      "name": "Tailandia",
+      "confidence": "media",
+      "cash": "Sigue siendo el medio dominante: 78 % del valor de los pagos de turistas en 2024 (Banco de Tailandia y Visa).",
+      "cards": "Aceptadas en hoteles, centros comerciales y restaurantes grandes. Pagos con tarjeta por 327,000 millones de baht en 2024. La no aceptación es uno de los problemas más citados por turistas.",
+      "qr": "Los QR tailandeses se pueden escanear con las apps de Malasia (DuitNow), Singapur (NETS) y Hong Kong (FPS). Con China funcionan UnionPay, Alipay y WeChat Pay. Su uso transfronterizo todavía es bajo (0.2 %). TAGTHAi EASY PAY es una tarjeta prepagada para turistas que se compra en las casas de cambio de Kasikorn.",
+      "atm": "Los retiros suponen cerca del 10 % del gasto de turistas (Banco de Tailandia). Los cajeros de Kasikorn no cobran hasta 10,000 baht por operación (TAT; confirmar la fecha de la fuente).",
       "banknotes": null,
       "crypto": null,
-      "notes": [],
+      "notes": [
+        "PromptPay requiere cuenta bancaria tailandesa (fuente comercial, no oficial).",
+        "Comisión por retiro con tarjeta extranjera: 220 o 250 baht según fuentes comerciales; no oficial."
+      ],
       "sources": [
         {
-          "title": "Payment Methods Available for International Visitors",
-          "url": "https://www.am2026thailand.go.th/means-of-payment"
+          "title": "Banco de Tailandia: Enlaces de pago transfronterizo",
+          "url": "https://www.bot.or.th/en/financial-innovation/digital-finance/digital-payment/cross-border-payment.html"
         },
         {
-          "title": "Using Credit and Debit Cards in Thailand: Fees and Pitfalls",
-          "url": "https://www.visit-thailand.org/plan-your-trip/using-cards-in-thailand"
+          "title": "Banco de Tailandia y Visa: Comportamiento de pago de turistas",
+          "url": "https://www.bot.or.th/content/dam/bot/documents/en/research-and-publications/research/payment-research/whitepaper_tourist_payment_behaviours.pdf"
         },
         {
-          "title": "Cash or Card in Southeast Asia: what the data says",
-          "url": "https://www.cashjot.com/blog/cash-or-card-southeast-asia"
+          "title": "TAT Newsroom: TAGTHAi EASY PAY para visitantes internacionales",
+          "url": "https://www.tatnews.org/2025/03/tourist-e-wallet-tagthai-easy-pay-now-available-for-international-visitors/"
         }
       ]
     },
     "TJ": {
-      "tier": "oficial",
+      "tier": "reportado",
       "name": "Tayikistán",
       "retrieved": "2026-10-17",
       "confidence": "alta",
@@ -5648,39 +5571,27 @@
     },
     "TR": {
       "tier": "oficial",
-      "name": "Turquía",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, American Express. La banda de aceptacion sale de la regla de derivacion, pero el METODO es 'official' porque un operador de pagos publica este pais en su lista de pagos con tarjeta sin contacto. Ojo con el alcance: eso acredita que la infraestructura de tarjeta sin contacto existe y opera ahi, NO que cualquier tarjeta extranjera funcione en cualquier comercio. El efectivo y las cadenas menores siguen dependiendo de cada pais.",
+      "name": "Turquía",
+      "confidence": "baja",
+      "cash": "El efectivo es el medio más común: según el Banco Central, 89 % de las transacciones diarias fueron en efectivo (encuesta de 2020, datos de consumidores locales).",
+      "cards": "Sin dato oficial de aceptación para visitantes en las fuentes revisadas.",
       "qr": null,
-      "atm": "Densidad medida: 81.1 cajeros por 100.000 adultos (2024). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
+      "atm": null,
       "banknotes": null,
       "crypto": null,
       "notes": [
-        "La banda de aceptacion sale de la regla de derivacion, pero el METODO es 'official' porque un operador de pagos publica este pais en su lista de pagos con tarjeta sin contacto. Ojo con el alcance: eso acredita que la infraestructura de tarjeta sin contacto existe y opera ahi, NO que cualquier tarjeta extranjera funcione en cualquier comercio. El efectivo y las cadenas menores siguen dependiendo de cada pais."
+        "La lira digital planeada incluirá a no residentes y a turistas; no está confirmado que esté activa.",
+        "Sin fuente oficial sobre comisiones por retiro ni sobre la conversión a moneda de casa; las fuentes comerciales no coinciden (2–5 % frente a 8 % fijo)."
       ],
       "sources": [
         {
-          "title": "Global Findex: adults with a financial account (% of adults)",
-          "url": "https://data.worldbank.org/indicator/FX.OWN.TOTL.ZS"
+          "title": "Banco Central de Turquía: Consumo de efectivo",
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/992bb543-8cac-4079-9590-3eb145411ebf/wp2135.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-992bb543-8cac-4079-9590-3eb145411ebf-nTIUJUF"
         },
         {
-          "title": "Domestic credit to private sector (% of GDP)",
-          "url": "https://data.worldbank.org/indicator/FS.AST.PRVT.GD.ZS"
-        },
-        {
-          "title": "Countries or regions where you can use Google Pay (contactless in stores)",
-          "url": "https://support.google.com/pay/answer/9023773"
-        },
-        {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
-        },
-        {
-          "title": "How much cash to take overseas",
-          "url": "https://beforeyoufly.com.au/essentials/travel-money/how-much-cash-to-take/"
+          "title": "Banco Central de Turquía: Evaluación de la lira digital",
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/b2527947-27ca-41d1-8a9b-1c9a8c211682/Digital+Turkish+Lira+First+Phase+Evaluation+Report.pdf?MOD=AJPERES"
         }
       ]
     },
@@ -5884,47 +5795,27 @@
     },
     "US": {
       "tier": "oficial",
-      "name": "Estados Unidos",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard, American Express. La banda de aceptacion sale de la regla de derivacion, pero el METODO es 'official' porque un operador de pagos publica este pais en su lista de pagos con tarjeta sin contacto. Ojo con el alcance: eso acredita que la infraestructura de tarjeta sin contacto existe y opera ahi, NO que cualquier tarjeta extranjera funcione en cualquier comercio. El efectivo y las cadenas menores siguen dependiendo de cada pais.",
+      "name": "Estados Unidos",
+      "confidence": "media",
+      "cash": "La guía de visittheusa.com desaconseja llevar mucho efectivo.",
+      "cards": "Las tarjetas de crédito se aceptan en todo el país. Puede haber cargos por conversión y por transacción internacional, según la tarjeta (visittheusa.com).",
       "qr": null,
-      "atm": "Densidad medida: 172.8 cajeros por 100.000 adultos (2009). Mide red domestica, NO si el cajero acepta tarjeta extranjera: para eso verifica el operador concreto del pais.",
-      "contactless": null,
-      "banknotes": null,
+      "atm": "Unos 425,000 cajeros. Los que no son de bancos pueden cobrar hasta 3 USD por uso, además de los cargos de la red y de transacción internacional (visittheusa.com).",
+      "banknotes": "Dólar estadounidense.",
       "crypto": null,
       "notes": [
-        "La banda de aceptacion sale de la regla de derivacion, pero el METODO es 'official' porque un operador de pagos publica este pais en su lista de pagos con tarjeta sin contacto. Ojo con el alcance: eso acredita que la infraestructura de tarjeta sin contacto existe y opera ahi, NO que cualquier tarjeta extranjera funcione en cualquier comercio. El efectivo y las cadenas menores siguen dependiendo de cada pais."
+        "Aduanas: no hay límite para llevar dinero, pero hay que declarar desde 10,000 USD (CBP).",
+        "Propinas: no se encontró información oficial."
       ],
       "sources": [
         {
-          "title": "Global Findex: adults with a financial account (% of adults)",
-          "url": "https://data.worldbank.org/indicator/FX.OWN.TOTL.ZS"
+          "title": "Visit The USA: Compras y dinero",
+          "url": "https://www.visittheusa.com/info/shopping-spending-money"
         },
         {
-          "title": "Domestic credit to private sector (% of GDP)",
-          "url": "https://data.worldbank.org/indicator/FS.AST.PRVT.GD.ZS"
-        },
-        {
-          "title": "Countries and regions that support Apple Pay",
-          "url": "https://support.apple.com/en-us/102775"
-        },
-        {
-          "title": "Countries or regions where you can use Google Pay (contactless in stores)",
-          "url": "https://support.google.com/pay/answer/9023773"
-        },
-        {
-          "title": "Automated teller machines (ATMs) per 100,000 adults",
-          "url": "https://data.worldbank.org/indicator/FB.ATM.TOTL.P5"
-        },
-        {
-          "title": "Cash or card, country by country",
-          "url": "https://truetripcosts.com/cash-or-card/"
-        },
-        {
-          "title": "Is cash still king for international travel?",
-          "url": "https://www.travelpulse.com/voices/opinions/is-cash-still-king-for-international-travel"
+          "title": "CBP: Consejos para viajeros internacionales",
+          "url": "https://www.cbp.gov/newsroom/local-media-release/cbp-offers-international-travelers-tips"
         }
       ]
     },
@@ -6081,30 +5972,32 @@
       ]
     },
     "VN": {
-      "tier": "reportado",
-      "name": "Vietnam",
+      "tier": "oficial",
       "retrieved": "2026-10-17",
-      "confidence": "alta",
-      "cash": null,
-      "cards": "Redes: Visa, Mastercard. Concentrado en hoteles, centros comerciales, restaurantes grandes, attractiones y grandes operadores turisticos en Hanoi y Ho Chi Minh. Puestos de comida callejera, mercados tradicionales y tiendas pequenas siguen en efectivo.",
-      "qr": "VietQR: Capa QR sobre la red instantanea, 40+ bancos. Un QR visible no significa que tu app extranjera pueda pagarlo.; VietQRGlobal: Diseñado para pagos QR transfronterizos desde apps de paises participantes. Depende del pais de origen y de la app.",
-      "atm": null,
-      "contactless": null,
-      "banknotes": null,
+      "name": "Vietnam",
+      "confidence": "media",
+      "cash": "Sigue siendo lo habitual en comercios pequeños, vendedores ambulantes y mercados; conviene llevar billetes pequeños.",
+      "cards": "Visa y Mastercard en hoteles, tour operadores, restaurantes, tiendas y spas de las ciudades; en pueblos se prefiere efectivo o pago móvil. El contactless con Visa crece.",
+      "qr": "VietQRGlobal: los visitantes de Corea del Sur pagan con las apps de su país. Hay unos 30 millones de cuentas de e-wallet activas (SBV, 2025). Hay un corredor QR con Singapur; con Camboya y Laos está en marcha.",
+      "atm": "Visa acepta en más de 20,000 cajeros. Los límites por retiro varían según la fuente: de 2–3 millones de VND con bancos locales a 5–10 millones con bancos internacionales.",
+      "banknotes": "Billetes de 1,000 a 500,000 VND (fuentes comerciales).",
       "crypto": null,
-      "notes": [],
+      "notes": [
+        "Billeteras locales (MoMo, ZaloPay, ViettelPay, VNPay): los nombres vienen de fuentes comerciales. No se confirmó si un extranjero puede registrarse; suele pedirse número o cuenta local.",
+        "Los límites de retiro están en conflicto entre fuentes; confirmar con el banco."
+      ],
       "sources": [
         {
-          "title": "Vietnam Payment Methods: Cash, Cards & QR Payments",
-          "url": "https://ph.trip.com/guide/payments/vietnam-payment-methods.html"
+          "title": "Vietnam Travel: Currency and payments in Vietnam",
+          "url": "https://vietnam.travel/things-to-do/currency-and-payments-vietnam"
         },
         {
-          "title": "Cash or Card in Southeast Asia: what the data says",
-          "url": "https://www.cashjot.com/blog/cash-or-card-southeast-asia"
+          "title": "Vietnam Travel: Korean tourists can now use cross-border QR payments",
+          "url": "https://vietnam.travel/things-to-do/korean-tourists-can-now-use-cross-border-qr-payments-vietnam"
         },
         {
-          "title": "Is cash still king for international travel?",
-          "url": "https://www.travelpulse.com/voices/opinions/is-cash-still-king-for-international-travel"
+          "title": "SBV: Cashless Day 2025",
+          "url": "https://sbv.gov.vn/en/w/announcing-cashless-day-2025-events-themed-non-cash-payment-promoting-the-digital-economy-"
         }
       ]
     },
