@@ -1537,8 +1537,8 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const env: Envelope = {
           voice: pick(
             locale,
-            `In ${name}: a bank card works at the gates in ${yes.length ? cityNames(yes) : "no system we have confirmed"}${partial.length ? `; only partly in ${cityNames(partial)}` : ""}${no.length ? `; not with a bank card in ${cityNames(no)}` : ""}${unverified.length ? `; not confirmed for ${cityNames(unverified)}` : ""}. Check the operator before you travel.`,
-            `En ${name}: la tarjeta bancaria entra en ${yes.length ? cityNames(yes) : "ningún sistema confirmado"}${partial.length ? `; solo en parte en ${cityNames(partial)}` : ""}${no.length ? `; no funciona con tarjeta bancaria en ${cityNames(no)}` : ""}${unverified.length ? `; sin confirmar en ${cityNames(unverified)}` : ""}. Revisa al operador antes de viajar.`,
+            `In ${name}: ${yes.length ? `a bank card works at the gates in ${cityNames(yes)}` : "no system we have confirmed takes a bank card at the gates"}${partial.length ? `; only partly in ${cityNames(partial)}` : ""}${no.length ? `; not with a bank card in ${cityNames(no)}` : ""}${unverified.length ? `; not confirmed for ${cityNames(unverified)}` : ""}. Check the operator before you travel.`,
+            `En ${name}: ${yes.length ? `la tarjeta bancaria entra en ${cityNames(yes)}` : "ningún sistema confirmado acepta tarjeta bancaria en los torniquetes"}${partial.length ? `; solo en parte en ${cityNames(partial)}` : ""}${no.length ? `; no funciona con tarjeta bancaria en ${cityNames(no)}` : ""}${unverified.length ? `; sin confirmar en ${cityNames(unverified)}` : ""}. Revisa al operador antes de viajar.`,
           ),
           card: {
             pattern: "list",
