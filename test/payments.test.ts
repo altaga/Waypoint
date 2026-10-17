@@ -71,7 +71,7 @@ test("a reported country says it is not officially confirmed, is low confidence 
   assert.match(r.voice, /not confirmed by an official source/);
   assert.match(r.card.subtitle, /not official/);
   const rows = r.card.rows as { label: string }[];
-  assert.ok(rows.some((x) => x.label === "Cash"));
+  assert.ok(rows.some((x) => x.label === "Cards"), "Peru has a cards answer; a country with no verified cash data has no cash row");
   assert.ok(r.sources.length >= 1 && r.sources.every((x: { url: string; license: string }) => x.url.startsWith("https://") && x.license !== "Official public information"));
 });
 
