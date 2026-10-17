@@ -1361,6 +1361,77 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
       }),
   );
 
+  // Ride, delivery and marketplace apps a visitor can expect in a country. Company lists are official; press and
+  // guides are reported and say so. A country missing from an incomplete list is unverified, never "not available".
+  server.registerTool(
+    "get_local_apps",
+    {
+      title: "Travel apps",
+      description:
+        "Use when the user asks whether a ride, delivery or shopping app works in a destination: Uber, Grab, DiDi, Rappi, Mercado Libre, Amazon or Mercari. Answers from each company's own list when it publishes one, otherwise from press or travel guides, labelled as not confirmed. Where there is no verified data it says so. Availability is by market, not by city. Defaults to the trip's destination.",
+      inputSchema: {
+        destination: z.string().min(2).optional(),
+      },
+      outputSchema: EnvelopeShape,
+      annotations: ann({ readOnly: true, idempotent: true, openWorld: false }),
+    },
+    (args) =>
+      run(async () => {
+        const state = await load();
+        const locale = localeOf(state);
+        const trip = latestTrip(state);
+        const dest = args.destination ? resolveDestinationOrThrow(args.destination) : trip?.destination;
+        if (!dest) return nothingYetEnvelope(locale, "trip");
+        const name = countryName(dest, locale);
+        const apps = ctx.apps.forCountry(dest);
+        const listed = apps.filter((a) => a.status === "listed");
+        const unverified = apps.filter((a) => a.status === "unverified");
+        const names = (rows: { name: string }[]) => rows.map((a) => a.name).join(", ");
+        const verb = listed.length > 1 ? "are" : "is";
+        const sayListed = listed.length
+          ? pick(locale, `${names(listed)} ${verb} listed for this country`, `${names(listed)} ${listed.length > 1 ? "aparecen" : "aparece"} en la lista de este país`)
+          : pick(locale, "none of these apps is listed for this country", "ninguna de estas apps aparece en la lista de este país");
+        const statusText = (a: { status: string; tier: string }) => {
+          if (a.status === "unverified") return pick(locale, "No verified data", "Sin dato verificado");
+          if (a.status === "not_listed") return pick(locale, "Not on the company's list", "No aparece en la lista de la empresa");
+          return a.tier === "oficial"
+            ? pick(locale, "On the company's list", "En la lista de la empresa")
+            : pick(locale, "Reported by press or travel guides; the company has not confirmed it", "Reportado por prensa o guías; la empresa no lo ha confirmado");
+        };
+        const rows = apps.map((a) => ({
+          label: a.name,
+          value: a.note ? `${statusText(a)}. ${a.note}` : statusText(a),
+          status: (a.status === "unverified" ? "warn" : "info") as "info" | "warn",
+        }));
+        const env: Envelope = {
+          voice: pick(
+            locale,
+            `In ${name}: ${sayListed}${unverified.length ? `; no verified data for ${names(unverified)}` : ""}. Check the app before you travel; availability is by market, not by city.`,
+            `En ${name}: ${sayListed}${unverified.length ? `; sin dato verificado para ${names(unverified)}` : ""}. Revisa la app antes de viajar; la disponibilidad es por mercado, no por ciudad.`,
+          ),
+          card: {
+            pattern: "list",
+            title: pick(locale, `Apps in ${name}`, `Apps en ${name}`),
+            subtitle: pick(locale, `Company lists and reports, retrieved ${ctx.apps.retrieved}`, `Listas de empresas e informes, consultado el ${ctx.apps.retrieved}`),
+            rows,
+          },
+          data: { destination: dest, listed: listed.map((a) => a.id), unverified: unverified.map((a) => a.id) },
+          sources: apps.map((a) => ({
+            id: `src:apps:${a.id}`,
+            title: a.source.title,
+            url: a.source.url,
+            license: a.tier === "oficial" ? "Company's own publication" : "Press or travel guide (not official)",
+            retrieved: a.retrieved,
+          })),
+          followUps: [pick(locale, "Anything else for this trip?", "¿Algo más para este viaje?")],
+          lastVerified: ctx.apps.retrieved,
+          confidence: listed.some((a) => a.tier === "oficial") ? "medium" : "low",
+          disclaimer: DISCLAIMER[locale],
+        };
+        return envelopeResult(env);
+      }),
+  );
+
   // 12. trip_brief (multi-session memory)
   // The usual weather on the trip's dates, from vendored climate normals (NASA POWER).
   server.registerTool(

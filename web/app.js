@@ -59,6 +59,7 @@ const UI = {
       add_booking: "Booking", confirm_booking: "Confirmed", settle_up: "Group money", plan_fairness: "Fairness", export_trip: "Export",
       get_trip_climate: "Climate",
       get_payment_methods: "Payments",
+      get_local_apps: "Apps",
     },
     demoDone: "Example group saved: Ana (Mexico), Sam (United States), Priya (India).",
     notUnderstood: "I didn't catch that. Try: “Can I bring vapes to Singapore?” or “Trip to Japan from December 3 to 10”.",

@@ -1,0 +1,279 @@
+{
+  "source": {
+    "retrieved": "2026-10-17",
+    "method": "Lists per app. 'oficial': the company's own page or SEC filing. 'reportado': press coverage or travel guides, not confirmed by the company. A country missing from a list is 'not listed' only when the list is complete; otherwise it has no verified data. Availability is by market, not by city."
+  },
+  "apps": {
+    "uber": {
+      "name": "Uber",
+      "category": "mobility",
+      "tier": "oficial",
+      "complete": true,
+      "source": {
+        "title": "Uber: global list of cities and markets",
+        "url": "https://www.uber.com/global/en/cities/"
+      },
+      "description": {
+        "en": "Ride-hailing. Uber lists markets, not cities: service can be limited to part of a listed country.",
+        "es": "Viajes en auto. Uber publica mercados, no ciudades: el servicio puede cubrir solo parte de un país listado."
+      },
+      "retrieved": "2026-10-17"
+    },
+    "grab": {
+      "name": "Grab",
+      "category": "mobility",
+      "tier": "oficial",
+      "complete": true,
+      "source": {
+        "title": "Grab: where we are",
+        "url": "https://www.grab.com/sg/locations/"
+      },
+      "description": {
+        "en": "Ride-hailing, food and delivery in Southeast Asia.",
+        "es": "Viajes, comida y reparto en el sudeste asiático."
+      },
+      "retrieved": "2026-10-17"
+    },
+    "didi": {
+      "name": "DiDi",
+      "category": "mobility",
+      "tier": "reportado",
+      "complete": false,
+      "source": {
+        "title": "EqualOcean: DiDi Global overseas car rental, 2025 (company-attributed press)",
+        "url": "https://equalocean.com/news/2025050821535-didi-global-launches-overseas-car-rental-service-26-cities-across-11-countries"
+      },
+      "description": {
+        "en": "Ride-hailing. The sources give partial country lists and disagree on the total; a missing country is not confirmed.",
+        "es": "Viajes en auto. Las fuentes dan listas parciales y no coinciden en el total; un país que falta no está confirmado."
+      },
+      "retrieved": "2026-10-17"
+    },
+    "rappi": {
+      "name": "Rappi",
+      "category": "delivery",
+      "tier": "reportado",
+      "complete": false,
+      "source": {
+        "title": "Bento Travel: Rappi countries (travel guide, not the company)",
+        "url": "https://www.bento.travel/blog/rappi-countries"
+      },
+      "description": {
+        "en": "Delivery and errands in Latin America. The company's own list was not reachable; the country list comes from a travel guide.",
+        "es": "Reparto y mandados en América Latina. La lista de la empresa no fue accesible; la lista viene de una guía de viaje."
+      },
+      "retrieved": "2026-10-17"
+    },
+    "mercadolibre": {
+      "name": "Mercado Libre",
+      "category": "marketplace",
+      "tier": "oficial",
+      "complete": true,
+      "source": {
+        "title": "MercadoLibre 2026 proxy statement (SEC filing): e-commerce in 18 countries",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001099590/000109959026000010/meli-20260423.htm"
+      },
+      "description": {
+        "en": "Marketplace in 18 Latin American countries, per the company's 2026 SEC filing.",
+        "es": "Marketplace en 18 países de América Latina, según la declaración de la empresa ante la SEC (2026)."
+      },
+      "retrieved": "2026-10-17"
+    },
+    "amazon": {
+      "name": "Amazon",
+      "category": "marketplace",
+      "tier": "oficial",
+      "complete": false,
+      "source": {
+        "title": "Amazon: sell.amazon.com/global-selling (storefront domains listed on the page)",
+        "url": "https://sell.amazon.com/global-selling"
+      },
+      "description": {
+        "en": "Shopping on the local Amazon storefront. The page lists storefronts without saying it is complete.",
+        "es": "Compras en la tienda local de Amazon. La página lista tiendas sin decir que la lista está completa."
+      },
+      "retrieved": "2026-10-17"
+    },
+    "mercari": {
+      "name": "Mercari",
+      "category": "marketplace",
+      "tier": "reportado",
+      "complete": false,
+      "source": {
+        "title": "Digital Commerce 360: Mercari launches US app (June 2026)",
+        "url": "https://www.digitalcommerce360.com/2026/06/19/mercari-launches-us-app/"
+      },
+      "description": {
+        "en": "Second-hand marketplace. Core markets are Japan and the US; other places are reached cross-border. Mercari's own site could not be read.",
+        "es": "Mercado de segunda mano. Los mercados principales son Japón y EE. UU.; otros lugares se alcanzan de forma transfronteriza. No se pudo leer el sitio de Mercari."
+      },
+      "retrieved": "2026-10-17"
+    }
+  },
+  "listings": {
+    "uber": [
+      "AD",
+      "AE",
+      "AR",
+      "AT",
+      "AU",
+      "BB",
+      "BD",
+      "BE",
+      "BH",
+      "BO",
+      "BR",
+      "CA",
+      "CH",
+      "CL",
+      "CO",
+      "CR",
+      "CZ",
+      "DE",
+      "DK",
+      "DO",
+      "EC",
+      "EE",
+      "EG",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GH",
+      "GR",
+      "GT",
+      "HN",
+      "HR",
+      "HU",
+      "IE",
+      "IN",
+      "IT",
+      "JM",
+      "JO",
+      "JP",
+      "KE",
+      "KR",
+      "KW",
+      "LB",
+      "LC",
+      "LK",
+      "LT",
+      "LU",
+      "MT",
+      "MX",
+      "NG",
+      "NL",
+      "NO",
+      "NP",
+      "NZ",
+      "PA",
+      "PE",
+      "PL",
+      "PT",
+      "PY",
+      "QA",
+      "RO",
+      "SA",
+      "SE",
+      "SI",
+      "SK",
+      "SV",
+      "TR",
+      "TW",
+      "UA",
+      "UG",
+      "US",
+      "UY",
+      "ZA"
+    ],
+    "grab": [
+      "SG",
+      "MY",
+      "ID",
+      "PH",
+      "TH",
+      "VN",
+      "MM",
+      "KH"
+    ],
+    "didi": [
+      "CN",
+      "KR",
+      "SG",
+      "JP",
+      "MY",
+      "ID",
+      "VN",
+      "AU",
+      "EG"
+    ],
+    "rappi": [
+      "AR",
+      "BR",
+      "CL",
+      "CO",
+      "CR",
+      "EC",
+      "MX",
+      "PE",
+      "UY"
+    ],
+    "mercadolibre": [
+      "AR",
+      "BR",
+      "MX",
+      "CL",
+      "CO",
+      "PE",
+      "UY",
+      "VE",
+      "BO",
+      "CR",
+      "DO",
+      "EC",
+      "GT",
+      "HN",
+      "NI",
+      "PA",
+      "PY",
+      "SV"
+    ],
+    "amazon": [
+      "US",
+      "CA",
+      "MX",
+      "BR",
+      "GB",
+      "DE",
+      "ES",
+      "FR",
+      "IT",
+      "NL",
+      "PL",
+      "SE",
+      "TR",
+      "JP",
+      "IN",
+      "AU",
+      "SG",
+      "AE",
+      "EG",
+      "SA"
+    ],
+    "mercari": [
+      "JP",
+      "US",
+      "TW"
+    ]
+  },
+  "notes": {
+    "didi": {
+      "CN": "The 2025 article gives a footprint of over 1,200 cities including Hong Kong (China); no separate country list.",
+      "AU": "Ride-hailing per a March 2026 travel guide (bento.travel, DiDi Food page).",
+      "EG": "Ride-hailing in Cairo and Alexandria, per a March 2026 travel guide (bento.travel, DiDi Food page)."
+    },
+    "mercari": {
+      "TW": "Cross-border purchases from Japan through the Mercari Global app (launched 30 Sep 2025), per Value Added Resource."
+    }
+  }
+}

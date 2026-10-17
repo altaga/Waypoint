@@ -62,6 +62,7 @@ export function routeUtterance(text, context = {}) {
 
   if (/olvida|forget|borra mis datos|delete my data/.test(t)) return { tool: "forget_me", args: {} };
   if (/que me falta|what.?s left|pending|pendiente|resumen del viaje|trip brief/.test(t)) return { tool: "trip_brief", args: {} };
+  if (/\b(uber|grab|didi|rappi|mercado\s?libre|mercari|amazon)\b/.test(t) && tripDest) return { tool: "get_local_apps", args: { destination: tripDest } };
   if (/(gaste|spent|registra|log|pagu|pago|paid)/.test(t) && amount && !text.includes("?")) {
     // "pagó Ana" or "paid by Ana" names who paid; without a name the cost is left unassigned, as before.
     const payer = /\bpag[oó]\s+([A-Za-zÁÉÍÓÚáéíóúñÑ]+)|\bpaid by\s+([A-Za-z]+)/i.exec(text);
