@@ -1438,7 +1438,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
     {
       title: "Transit payment",
       description:
-        "Use when the user asks how to pay for the metro, bus, tram or train in a destination: whether a contactless bank card or phone works at the gates, and which transit card locals use (Oyster, Octopus, Suica, OV-chipkaart, Navigo, T-money, EasyCard, Istanbulkart). Answers from the operator's page when it has one, otherwise from press or guides, labelled as not confirmed. Where there is no entry it says so. Defaults to the trip's destination.",
+        "Use when the user asks how to pay for the metro, bus, tram or train in a destination: whether a contactless bank card or phone works at the gates, and which transit card locals use (Oyster, Octopus, Suica, OV-chipkaart, Navigo, T-money, EasyCard, Istanbulkart). Answers from the operator's page when it has one, otherwise from press or guides, labelled as not confirmed. A country with no city entry gets a country-level report from press or guides. Where there is no entry it says so. Defaults to the trip's destination.",
       inputSchema: {
         destination: z.string().min(2).optional(),
       },
@@ -1454,6 +1454,50 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         if (!dest) return nothingYetEnvelope(locale, "trip");
         const name = countryName(dest, locale);
         const systems = ctx.transit.forCountry(dest);
+        // No city system: a country-level report (one status for the whole country, from reports).
+        const country = systems.length ? undefined : ctx.transit.countryEntry(dest);
+        if (country) {
+          const sentence = {
+            yes: { en: "a bank card works at the gates", es: "una tarjeta bancaria entra en los torniquetes", status: "info" as const },
+            partial: { en: "a bank card works only partly", es: "una tarjeta bancaria funciona solo en parte", status: "info" as const },
+            no: { en: "a bank card does not work on transit; use the local card or cash", es: "la tarjeta bancaria no funciona en el transporte; usa la tarjeta local o efectivo", status: "warn" as const },
+            unverified: { en: "a bank card is not confirmed for transit", es: "no se confirma que la tarjeta bancaria funcione en el transporte", status: "warn" as const },
+          }[country.bankCard];
+          const official = country.tier === "oficial";
+          const tierLine =
+            country.bankCard === "unverified"
+              ? ""
+              : official
+                ? pick(locale, " The operator's own page says so.", " Lo dice la página del operador.")
+                : pick(locale, " Press and guides say so; cities were not checked one by one.", " Lo dicen prensa y guías; no revisé ciudad por ciudad.");
+          return envelopeResult({
+            voice: pick(
+              locale,
+              `In ${name}: ${sentence.en}.${tierLine} Check the operator before you travel.`,
+              `En ${name}: ${sentence.es}.${tierLine} Revisa al operador antes de viajar.`,
+            ),
+            card: {
+              pattern: "list",
+              title: pick(locale, `Transit in ${name}`, `Transporte en ${name}`),
+              subtitle: pick(locale, `Country-level report, retrieved ${country.retrieved}`, `Informe por país, consultado el ${country.retrieved}`),
+              rows: [{ label: name, value: pick(locale, country.bankCardNote.en, country.bankCardNote.es), status: sentence.status }],
+            },
+            data: { destination: dest, systems: [], country: country.iso, verified: true },
+            sources: [
+              {
+                id: `src:transit-country:${country.iso}`,
+                title: country.source.title,
+                url: country.source.url,
+                license: official ? "Operator's own page" : "Press or guide (not official)",
+                retrieved: country.retrieved,
+              },
+            ],
+            lastVerified: ctx.transit.retrieved,
+            confidence: official && country.bankCard === "yes" ? "medium" : "low",
+            disclaimer: DISCLAIMER[locale],
+            followUps: [pick(locale, "Anything else for this trip?", "¿Algo más para este viaje?")],
+          });
+        }
         if (!systems.length) {
           return envelopeResult({
             voice: pick(
