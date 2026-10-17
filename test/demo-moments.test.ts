@@ -54,12 +54,14 @@ test("moment 3: an answer carries its sources, dates and confidence, and a curat
   await s.call("update_traveler_profile", { travelers: [{ displayName: "Ana", passports: ["MX"], role: "self", ageBand: "adult" }] });
   const entry = await s.call("check_entry_requirements", { destination: "JP" });
   assert.ok(entry.sources.length >= 1, "the entry answer cites its sources");
+  assert.ok(entry.sources.some((x: { id: string }) => x.id === "src:passport-index"), "the entry answer cites the visa matrix it read");
   assert.ok(entry.sources.every((x: { url: string; license: string }) => x.url.startsWith("https://") && typeof x.license === "string"));
   assert.ok(entry.lastVerified, "the answer says when its data was dated");
   assert.ok(["low", "medium", "high"].includes(entry.confidence), "the answer says how confident it is");
 
   const rules = await s.call("get_local_rules", { destination: "JP" });
   assert.equal(rules.review, "curated", "Japan's pack is compiled by us and has no human sign-off yet");
+  assert.ok(!rules.sources.some((x: { id: string }) => x.id === "src:passport-index"), "a rules answer does not cite the visa matrix it did not read");
 
   const highlights = await s.call("get_highlights", { destination: "JP", limit: 3 });
   assert.match(highlights.card.subtitle, /not reviewed by a person/, "the highlight list does not pass as human-reviewed");

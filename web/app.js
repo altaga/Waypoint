@@ -8,7 +8,7 @@ import { esc, heroHtml, renderTool, tripIcs, words } from "./cards.js";
 import { detectLang } from "./lang.js";
 import { speakable } from "./speech.js";
 import { mountGlobe } from "./globe.js";
-import { isAutopilot, missionHtml, noTripLine, runMission } from "./mission.js";
+import { askDatesLine, isAutopilot, makeTrip, missionHtml, noTripLine, runMission, tripFromRequest } from "./mission.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -699,7 +699,20 @@ async function renderBrainReply(reply) {
 
 // Autopilot: the whole preparation as a visible run of MCP tool calls, chained by the host. It is
 // deterministic on purpose, so every step, its time and its source can be shown as it happens.
-async function runAutopilot() {
+async function runAutopilot(req) {
+  // A request that names a place and its dates creates that trip first, so the run prepares the trip asked for.
+  if (req.use === "ask") {
+    setThinking(false);
+    const line = askDatesLine(lang);
+    bubble("assistant", line);
+    speak(line);
+    return;
+  }
+  if (req.use === "create") {
+    const made = await makeTrip(client, req.trip);
+    if (made.answer) return renderResult(made.answer, "plan_trip");
+    await refreshHero();
+  }
   if (!currentBrief) await refreshHero().catch(() => {});
   if (!currentBrief) {
     setThinking(false);
@@ -736,9 +749,11 @@ async function handleUtterance(text) {
   $("stage").classList.add("active");
   setThinking(true);
   try {
-    if (isAutopilot(text)) {
+    // Dates for a place the browser does not know go to the concierge below, which can resolve any country.
+    const request = isAutopilot(text) ? tripFromRequest(text, currentBrief?.destination) : null;
+    if (request && request.use !== "unknown") {
       history.push({ role: "user", text });
-      await runAutopilot();
+      await runAutopilot(request);
       return;
     }
     const remote = await callBrainServer(text).catch(() => null);

@@ -2,6 +2,7 @@
 // tools/call on the Waypoint server, chained by the host (the result of one feeds the next); the
 // screen shows each step running, its result, its time and its source, then says a short summary.
 import { esc, icon } from "./cards.js";
+import { findDates, findDestination } from "./router.js";
 
 const WORDS = {
   en: {
@@ -22,6 +23,7 @@ const WORDS = {
     readiness: (p, d) => `${p}% ready · ${d} days to go`,
     failed: "could not finish",
     noTrip: "First tell me where and when you're going, and I'll get everything ready.",
+    askDates: "Tell me the dates of that trip, and I'll get everything ready.",
     // The weather is left out when that step failed: a missing number must not be read out.
     summary: (s) => {
       const weather = s.hi == null ? "" : ` I also checked the weather: around ${s.hi} and ${s.lo} degrees.`;
@@ -46,6 +48,7 @@ const WORDS = {
     readiness: (p, d) => `${p}% listo · faltan ${d} días`,
     failed: "no se pudo completar",
     noTrip: "Primero dime a dónde y cuándo viajas, y yo preparo todo.",
+    askDates: "Dime las fechas de ese viaje y yo preparo todo.",
     summary: (s) => {
       const weather = s.hi == null ? "" : ` También revisé el clima: unos ${s.hi} y ${s.lo} grados.`;
       return `Listo. Revisé la entrada de ${s.travelers} pasaportes y ${s.rules} reglas locales.${weather} ${s.days ? `Planeé ${s.days} días y armé` : "Armé"} una maleta de ${s.items} cosas. Vas ${s.readiness}% listo.${s.needs ? ` A ${s.needs} le falta un trámite de entrada.` : ""}`;
@@ -66,6 +69,35 @@ export function noTripLine(lang) {
   return words(lang).noTrip;
 }
 
+export function askDatesLine(lang) {
+  return words(lang).askDates;
+}
+
+/**
+ * What a request means for the trip. A place with both dates ("Prepárame para Japón del 3 al 10 de
+ * diciembre") creates that trip; a place without dates asks for them, unless it is the trip on the
+ * screen; dates for a place this browser does not know are left to the concierge, so the trip on
+ * the screen is not prepared by mistake; anything else prepares the trip on the screen.
+ */
+export function tripFromRequest(text, currentDestination) {
+  const destination = findDestination(text);
+  const dates = findDates(text);
+  if (!destination) return dates ? { use: "unknown" } : { use: "current" };
+  if (dates) return { use: "create", trip: { destination, ...dates } };
+  return destination === currentDestination ? { use: "current" } : { use: "ask" };
+}
+
+/**
+ * Creates the trip and reads its brief back. When the server makes no trip (a traveler without a
+ * passport, a date that cannot be used) its answer is returned instead, so the host can show it.
+ */
+export async function makeTrip(client, trip) {
+  const made = await client.callTool("plan_trip", trip);
+  if (made.isError || made.structuredContent?.missingFields?.length) return { answer: made };
+  const brief = await client.callTool("trip_brief", {});
+  return { brief: brief.structuredContent?.data };
+}
+
 // The run is a small dependency graph: the profile first; then everything that only needs the
 // destination, at once; then what needs those results; the readiness last.
 const PHASES = [["profile"], ["entry", "rules", "climate", "essentials", "places"], ["plan", "packing"], ["brief"]];
@@ -84,7 +116,7 @@ export function missionHtml(lang, destName) {
       const par = keys.length > 1 ? ` data-par="${keys.indexOf(k) === 0 ? "first" : keys.indexOf(k) === keys.length - 1 ? "last" : "mid"}"` : "";
       return `<li class="m-step" data-key="${k}" data-phase="${phase + 1}" data-state="pending"${par} style="--i:${i}">
       <span class="m-ico" aria-hidden="true">${icon("check")}</span>
-      <span class="m-text"><span class="m-name">${esc(w.steps[k])}</span><span class="m-res"></span></span>
+      <span class="m-text"><span class="m-name">${esc(w.steps[k])}</span><span class="m-res"></span><span class="m-by"></span></span>
       <code class="m-tool">${esc(TOOL_OF[k])}</code>
       <span class="m-ms"></span>
     </li>`;
@@ -110,6 +142,12 @@ function mark(root, key, state, text = "", ms = null) {
 
 /** A source's publisher, short: "FCDO travel advice: Japan - Health" is "FCDO travel advice". */
 const publisher = (title) => String(title).split(/:| \(|,/)[0].trim();
+
+/** The publishers behind a step's answer, on the step's own line. The traveler's profile has none, so its line stays empty. */
+function setSource(root, key, sc) {
+  const names = [...new Set((sc?.sources || []).map((s) => publisher(s?.title)).filter(Boolean))];
+  root.querySelector(`.m-step[data-key="${key}"]`).querySelector(".m-by").textContent = names.join(" · ");
+}
 
 const INTERESTS = new Set(["food", "museums", "nature", "temples", "history", "shopping", "nightlife", "beaches", "family", "architecture", "markets", "art", "sights"]);
 const MAX_MINUTES = 600;
@@ -183,6 +221,7 @@ export async function runMission({ client, lang, brief, root, minStepMs = MIN_ST
       return null;
     }
     for (const s of r.structuredContent?.sources || []) if (s?.title) sources.add(publisher(s.title));
+    setSource(root, key, r.structuredContent);
     return { sc: r.structuredContent, ms };
   };
   // A phase's steps run together; the phase takes as long as its slowest call.

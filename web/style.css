@@ -505,6 +505,8 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 /* The result wraps: on a narrow card it is the part worth reading, so it is never cut. */
 .m-res { font-size: 13px; color: var(--d-ink-2); overflow-wrap: anywhere; }
 .m-res:empty { display: none; }
+.m-by { font-size: var(--t-caption); color: var(--d-ink-2); opacity: .8; overflow-wrap: anywhere; }
+.m-by:empty { display: none; }
 .m-tool { font: 500 12px/1 ui-monospace, "SF Mono", Menlo, Consolas, monospace; color: #9fd3ff; padding: 5px 8px; border-radius: 8px; background: rgba(41, 151, 255, .1); border: 1px solid rgba(41, 151, 255, .18); white-space: nowrap; }
 .m-ms { min-width: 52px; text-align: right; font-size: var(--t-caption); color: var(--d-ink-2); font-variant-numeric: tabular-nums; }
 .m-step[data-state="run"] { background: rgba(41, 151, 255, .1); }

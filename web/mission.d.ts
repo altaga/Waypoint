@@ -10,6 +10,13 @@ type Root = {
 };
 export function isAutopilot(text: string): boolean;
 export function noTripLine(lang: string): string;
+export function askDatesLine(lang: string): string;
+export type TripRequest = { destination: string; startDate: string; endDate: string };
+export function tripFromRequest(text: string, currentDestination?: string | null): { use: "current" } | { use: "ask" } | { use: "unknown" } | { use: "create"; trip: TripRequest };
+export function makeTrip(
+  client: { callTool(name: string, args: Record<string, unknown>): Promise<any> },
+  trip: TripRequest,
+): Promise<{ answer?: any; brief?: any }>;
 export function missionHtml(lang: string, destName: string): string;
 export function planFrom(places: Place[], stay: number, pace?: string): PlanDay[];
 export function repair(plan: PlanDay[], violations: Violation[]): PlanDay[];

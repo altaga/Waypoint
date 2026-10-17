@@ -310,8 +310,9 @@ function sortRules(rules: Rule[]): Rule[] {
   return [...rules].sort((a, b) => rank[a.severity] - rank[b.severity]);
 }
 
-function packSources(pack: Pack | undefined, ctx: AppContext) {
-  const sources = [ctx.visaSource];
+// The visa matrix is cited only by answers that depend on passports; the rest cite their own pack.
+function packSources(pack: Pack | undefined, ctx: AppContext, visa: boolean) {
+  const sources = visa ? [ctx.visaSource] : [];
   if (pack) {
     for (const [id, s] of Object.entries(pack.sources)) {
       sources.push({ id, title: s.title, url: s.url, license: s.license, retrieved: s.retrieved } as typeof ctx.visaSource);
@@ -324,14 +325,14 @@ function baseEnvelope(
   ctx: AppContext,
   dest: string,
   locale: Locale,
-  partial: Pick<Envelope, "voice" | "card" | "data" | "followUps"> & { missingFields?: string[] },
+  partial: Pick<Envelope, "voice" | "card" | "data" | "followUps"> & { missingFields?: string[]; visa?: boolean },
 ): Envelope {
   const pack = ctx.packs.get(dest);
   return {
     voice: withDisclaimer(partial.voice, locale),
     card: partial.card,
     data: partial.data,
-    sources: packSources(pack, ctx) as Envelope["sources"],
+    sources: packSources(pack, ctx, partial.visa === true) as Envelope["sources"],
     lastVerified: pack?.generatedAt ?? ctx.visaSource.retrieved,
     confidence: pack ? "medium" : "low",
     disclaimer: DISCLAIMER[locale],
@@ -461,8 +462,9 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         }
         const profile = redactSensitive(state.profile);
         const names = profile.travelers.map((t) => t.displayName).join(", ");
-        return envelopeResult(
-          baseEnvelope(ctx, "", locale, {
+        // The profile is the traveler's own input: it cites no source, not even the visa matrix baseEnvelope adds by default.
+        return envelopeResult({
+          ...baseEnvelope(ctx, "", locale, {
             voice: pick(locale, `Your group is ${names}. Home currency ${profile.homeCurrency}.`, `Tu grupo es ${names}. Moneda de origen ${profile.homeCurrency}.`),
             card: {
               pattern: "card",
@@ -476,7 +478,8 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             data: { profile },
             followUps: [pick(locale, "Update a traveler or plan a trip.", "Actualiza un viajero o planea un viaje.")],
           }),
-        );
+          sources: [],
+        });
       }),
   );
 
@@ -688,6 +691,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         });
         const when = spokenDates(args.startDate, args.endDate, locale);
         const env = baseEnvelope(ctx, dest, locale, {
+          visa: true,
           voice: [
             pick(locale, `Done: your trip to ${countryName(dest, "en")} ${when}.`, `Listo: tu viaje a ${countryName(dest, "es")} ${when}.`),
             daysLeftSentence(left, locale),
@@ -747,6 +751,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           return { traveler: t.displayName, status: best.entry.status, maxStayDays: best.entry.maxStayDays ?? null, passport: best.passport, checkedPassports: entries.length };
         });
         const env = baseEnvelope(ctx, dest, locale, {
+          visa: true,
           voice:
             travelers
               .map((t, i) => visaSentence(results[i].status as VisaStatus, results[i].maxStayDays ?? undefined, locale, travelers.length === 1 && t.role === "self" ? undefined : t.displayName))
@@ -1825,6 +1830,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         const expenseTotal = expenses.reduce((sum, e) => sum + e.amount, 0);
         const expenseCurrency = expenses[0]?.currency ?? profile.homeCurrency;
         const env = baseEnvelope(ctx, trip.destination, locale, {
+          visa: true,
           voice: pick(
             locale,
             `${daysUntilTripSentence(left, countryName(trip.destination, "en"), "en")} You're ${readiness}% ready. ${pending.length ? `Still open: ${pending.map(lowerFirst).join("; ")}.` : "Nothing pending."}`,

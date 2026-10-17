@@ -5,7 +5,7 @@ import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { createContext } from "../src/context.ts";
 import { createMemoryStore } from "../src/state.ts";
 import { createWaypointMcpServer } from "../src/mcp-server.ts";
-import { isAutopilot, planFrom, repair, runMission } from "../web/mission.js";
+import { isAutopilot, makeTrip, planFrom, repair, runMission, tripFromRequest } from "../web/mission.js";
 
 // Autopilot: the host chains real tools/call requests (profile, then five at once, then the plan and
 // the bag, then readiness) and shows each step. These run the same module against the real server.
@@ -25,7 +25,7 @@ async function session(user: string, locale = "es-MX") {
   return { client, call };
 }
 
-type Step = { dataset: Record<string, string>; res: { textContent: string }; ms: { textContent: string }; querySelector(sel: string): { textContent: string } };
+type Step = { dataset: Record<string, string>; res: { textContent: string }; ms: { textContent: string }; by: { textContent: string }; querySelector(sel: string): { textContent: string } };
 
 // Just enough of the mission card for the run to write into.
 function fakeRoot() {
@@ -43,7 +43,8 @@ function fakeRoot() {
         if (!steps.has(key)) {
           const res = { textContent: "" };
           const ms = { textContent: "" };
-          steps.set(key, { dataset: {}, res, ms, querySelector: (s) => (s === ".m-res" ? res : ms) });
+          const by = { textContent: "" };
+          steps.set(key, { dataset: {}, res, ms, by, querySelector: (s) => (s === ".m-res" ? res : s === ".m-by" ? by : ms) });
         }
         return steps.get(key);
       }
@@ -126,6 +127,10 @@ test("autopilot runs every step against the server and the trip is readier after
   assert.match(root.steps.get("climate")!.res.textContent, /^\d+° \/ -?\d+°/);
   assert.match(root.steps.get("packing")!.res.textContent, /con abrigo/);
   assert.match(root.foot.innerHTML, /NASA POWER/);
+  // Each step names the publisher behind its own answer; the traveler's profile has none.
+  assert.match(root.steps.get("climate")!.by.textContent, /NASA POWER/);
+  assert.ok(root.steps.get("entry")!.by.textContent.length > 0, "the entry step names its source");
+  assert.equal(root.steps.get("profile")!.by.textContent, "");
   assert.ok(root.classes.has("m-done"));
 
   const after = (await s.call("trip_brief")).data;
@@ -174,4 +179,42 @@ test("when the climate step fails, the spoken summary leaves the weather out ins
   assert.equal(root.steps.get("climate")!.dataset.state, "err");
   assert.doesNotMatch(res.voice, /null|undefined|unos/);
   assert.match(res.voice, /^Listo\. Revisé la entrada de 1 pasaportes/);
+});
+
+test("a request that names a place and its dates creates that trip first, then prepares it", async () => {
+  const s = await session("mission-request", "en-US");
+  await s.call("update_traveler_profile", {
+    homeCurrency: "USD",
+    travelers: [{ displayName: "Sam", passports: ["US"], role: "self", ageBand: "adult" }],
+  });
+  // No trip exists yet: the request is the only thing that creates one.
+  const req = tripFromRequest("Get me ready for Japan from December 3 to 10", null);
+  if (req.use !== "create") throw new Error("the request names a place and both dates");
+  assert.deepEqual(req.trip, { destination: "JP", startDate: "2026-12-03", endDate: "2026-12-10" });
+  const made = await makeTrip(s.client, req.trip);
+  assert.equal(made.answer, undefined);
+  assert.equal(made.brief.destination, "JP");
+
+  const root = fakeRoot();
+  const res = await runMission({ client: s.client, lang: "en", brief: made.brief, root, minStepMs: 0 });
+  assert.equal(root.steps.get("brief")!.dataset.state, "done");
+  assert.match(res.voice, /^Done\. I checked entry for 1 passports/);
+  assert.equal((await s.call("trip_brief")).data.destination, "JP", "the trip the request named is the one prepared");
+});
+
+test("a place without dates asks for them, unless it is the trip already on the screen", () => {
+  assert.deepEqual(tripFromRequest("Prepárame para Japón", "MX"), { use: "ask" });
+  assert.deepEqual(tripFromRequest("Prepárame para Japón", "JP"), { use: "current" });
+  assert.deepEqual(tripFromRequest("Get me ready"), { use: "current" });
+  // Dates for a place the browser does not know are not applied to the trip on the screen.
+  assert.deepEqual(tripFromRequest("Get me ready for Portugal from March 1 to 5", "JP"), { use: "unknown" });
+});
+
+test("a trip with a traveler who has no passport is not created, and the server names the passport", async () => {
+  const s = await session("mission-request-missing", "en-US");
+  await s.call("update_traveler_profile", { travelers: [{ displayName: "Tom", role: "self", ageBand: "adult" }] });
+  const made = await makeTrip(s.client, { destination: "JP", startDate: "2026-12-03", endDate: "2026-12-10" });
+  assert.equal(made.brief, undefined, "no brief is read back for a trip that was not made");
+  assert.ok(made.answer, "the server's answer is returned, so the host can show it");
+  assert.ok(made.answer.structuredContent.missingFields.includes("passport:Tom"));
 });
