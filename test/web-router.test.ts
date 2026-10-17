@@ -28,3 +28,11 @@ test("a cost with the name of who paid is logged for that traveler, shared by ev
 test("a question about money is not logged as an expense", () => {
   assert.notEqual(routeUtterance("¿Cuánto pagó Ana por la cena?")?.tool, "log_expense");
 });
+
+test("a question about how to pay goes to the payment methods of the trip's country", () => {
+  assert.deepEqual(routeUtterance("¿Aceptan tarjeta en Japón?"), { tool: "get_payment_methods", args: { destination: "JP", topic: "cards" } });
+  assert.deepEqual(routeUtterance("¿Puedo pagar con QR?", { destination: "VN" }), { tool: "get_payment_methods", args: { destination: "VN", topic: "qr" } });
+  assert.deepEqual(routeUtterance("¿Hay cajeros que acepten tarjeta extranjera?", { destination: "JP" }), { tool: "get_payment_methods", args: { destination: "JP", topic: "atm" } });
+  // A country the router does not know is not answered with the trip's country.
+  assert.equal(routeUtterance("¿Aceptan tarjeta en Perú?", { destination: "JP" }), null);
+});

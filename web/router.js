@@ -53,7 +53,10 @@ export function findDates(text, year = 2026) {
 export function routeUtterance(text, context = {}) {
   const t = norm(text);
   const dest = findDestination(text);
-  const tripDest = dest ?? context.destination ?? null;
+  // A question that names a place the router does not know ("en Perú") must not fall back to the trip's country.
+  const namesOtherPlace = !dest && /\ben\s+[A-ZÁÉÍÓÚÑ]\p{L}+/u.test(text);
+  const tripDest = dest ?? (namesOtherPlace ? null : context.destination) ?? null;
+  const paymentTopic = /\bqr\b|billetera|wallet/.test(t) ? "qr" : /cripto|crypto|bitcoin/.test(t) ? "crypto" : /cajero|\batm\b/.test(t) ? "atm" : /billete/.test(t) ? "banknotes" : /tarjeta|\bcard\b|contactless/.test(t) ? "cards" : /efectivo|\bcash\b/.test(t) ? "cash" : undefined;
   const amount = t.match(/(\d[\d.,]*)\s*(mil|k|thousand)?/);
   const curr = CURRENCIES.find(([re]) => re.test(t));
 
@@ -69,6 +72,9 @@ export function routeUtterance(text, context = {}) {
   if (/(cuanto rinde|cuanto son|how far|convert|cambio|budget|presupuesto)/.test(t) && amount) {
     const n = Number(amount[1].replace(/[.,]/g, "")) * (amount[2] ? 1000 : 1);
     return { tool: "convert_budget", args: { amount: n, to: curr?.[1], destination: dest ?? undefined } };
+  }
+  if (/(\bpagar\b|\bpago\b|\bpay\b|tarjeta|efectivo|\bcash\b|\bcard\b|\bqr\b|cajero|\batm\b|billetera|wallet|cripto|crypto|bitcoin|billete)/.test(t) && tripDest) {
+    return { tool: "get_payment_methods", args: { destination: tripDest, ...(paymentTopic ? { topic: paymentTopic } : {}) } };
   }
   if (/(clima|weather|temperatura|temperature|frio|calor|lluvia|llueve|\brain\b|\bcold\b|\bhot\b)/.test(t)) return { tool: "get_trip_climate", args: dest ? { destination: dest } : {} };
   if (/(empacar|pack|maleta|equipaje|lista)/.test(t)) return { tool: "packing_checklist", args: {} };

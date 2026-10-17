@@ -31,6 +31,13 @@ Do not use for flight or hotel booking. Alexa+ partners cover that.
 | Resume a trip | `trip_brief` |
 | Spending | `log_expense` |
 | Delete data | `forget_me` (always confirm first) |
+| How to pay (cash, cards, QR, e-wallets, ATMs, banknotes, cryptocurrency) | `get_payment_methods` (verified official sources only; say so when a country has no entry) |
+| Weather, temperature, rain on the dates | `get_trip_climate` (usual weather, not a forecast) |
+| Who is travelling (the profile) | `get_traveler_profile` |
+| Group money: who owes whom | `settle_up`, `plan_fairness` (fairness of the plan for each traveler) |
+| Limits for the trip (avoid an interest, a budget cap) | `set_trip_constraints` |
+| Bookings the traveler pastes in | `add_booking`, then `confirm_booking` after the traveler confirms |
+| Calendar file | `export_trip` |
 
 Tools are not interchangeable: call one tool per intent, and do not chain tools the user did not ask for.
 

@@ -30,6 +30,7 @@ Offline mode (`WAYPOINT_OFFLINE=1`) needs no network: FX uses a labelled snapsho
 | `get_local_rules` | What can't I bring or do? | Verified rules with severity, each with its source quote |
 | `get_destination_essentials` | Plugs, emergency numbers, currency | Facts with sources |
 | `convert_budget` | How far does my money go? | Live FX (or labelled snapshot) plus World Bank PPP equivalent |
+| `get_payment_methods` | How do I pay there? | Cash, cards, QR and e-wallets, ATMs, banknotes and cryptocurrency, from official sources with dates; a country without a verified entry is said so, never guessed |
 | `get_trip_climate` | What will the weather be like? | The usual highs, lows and rain on the trip's own dates (NASA POWER normals for every capital, weighted by days per month); not a forecast |
 | `packing_checklist` | What do I pack? | Checklist from trip length, climate, plugs, children, medications and "do not pack" rules; ticks persist |
 | `get_highlights` | What is worth seeing here? | Real places from the catalog, each with its id, area, duration and source; Wikipedia-grounded where the article exists |
@@ -43,7 +44,7 @@ Offline mode (`WAYPOINT_OFFLINE=1`) needs no network: FX uses a labelled snapsho
 | `export_trip` | Put it in my calendar | A calendar file with the trip and one event per planned day, or the plan as text |
 | `forget_me` | Delete my data | **Elicits** confirmation, then deletes profile, trips and expenses |
 
-Every tool declares an `inputSchema`, an `outputSchema`, `annotations` (`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`) and returns the same envelope. The server exposes 20 tools over MCP 2025-11-25 Streamable HTTP:
+Every tool declares an `inputSchema`, an `outputSchema`, `annotations` (`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`) and returns the same envelope. The server exposes 21 tools over MCP 2025-11-25 Streamable HTTP:
 
 ```
 { voice, card, data, sources[], lastVerified, confidence, disclaimer, followUps[], missingFields? }

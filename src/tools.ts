@@ -1258,6 +1258,91 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
       }),
   );
 
+  // Payment methods a visitor can use, from official sources only (data/world/payments.json).
+  server.registerTool(
+    "get_payment_methods",
+    {
+      title: "Payment methods",
+      description:
+        "Use when the user asks how to pay in a destination: cash or cards, QR codes or e-wallets, ATMs, banknotes, or cryptocurrency. Answers only from verified official sources, dated; for a country without a verified entry it says so and does not guess. Defaults to the trip's destination.",
+      inputSchema: {
+        destination: z.string().min(2).optional(),
+        topic: z.enum(["cash", "cards", "qr", "atm", "banknotes", "crypto"]).optional().describe("What the traveler asked about; the answer starts with it"),
+      },
+      outputSchema: EnvelopeShape,
+      annotations: ann({ readOnly: true, idempotent: true, openWorld: false }),
+    },
+    (args) =>
+      run(async () => {
+        const state = await load();
+        const locale = localeOf(state);
+        const trip = latestTrip(state);
+        const dest = args.destination ? resolveDestinationOrThrow(args.destination) : trip?.destination;
+        if (!dest) return nothingYetEnvelope(locale, "trip");
+        const name = countryName(dest, locale);
+        const entry = ctx.payments.get(dest);
+        if (!entry) {
+          return envelopeResult({
+            voice: pick(
+              locale,
+              `I don't have verified payment information for ${countryName(dest, "en")} yet. Check the official travel advice and your bank before you travel.`,
+              `Aún no tengo información de pagos verificada para ${name}. Revisa el aviso oficial de viaje y a tu banco antes de viajar.`,
+            ),
+            card: { pattern: "list", title: pick(locale, `Payments in ${name}`, `Pagos en ${name}`), rows: [] },
+            data: { destination: dest, verified: false },
+            sources: [],
+            lastVerified: ctx.payments.retrieved,
+            confidence: "low",
+            disclaimer: DISCLAIMER[locale],
+            followUps: [pick(locale, "What's the currency there?", "¿Cuál es la moneda?")],
+          });
+        }
+        const pairs: Array<[string, string | null | undefined]> = [
+          [pick(locale, "Cash", "Efectivo"), entry.cash],
+          [pick(locale, "Cards", "Tarjetas"), entry.cards],
+          [pick(locale, "Contactless", "Sin contacto"), entry.contactless],
+          [pick(locale, "QR and e-wallets", "QR y billeteras"), entry.qr],
+          [pick(locale, "ATMs", "Cajeros"), entry.atm],
+          [pick(locale, "Banknotes", "Billetes"), entry.banknotes],
+        ];
+        const rows: Array<{ label: string; value: string; status: "info" | "warn" }> = pairs
+          .filter((p): p is [string, string] => Boolean(p[1]))
+          .map(([label, value]) => ({ label, value, status: "info" as const }));
+        rows.push({
+          label: pick(locale, "Cryptocurrency", "Criptomonedas"),
+          value: entry.crypto ?? pick(locale, "No official source says whether merchants accept it.", "Ninguna fuente oficial dice si los comercios la aceptan."),
+          status: "warn",
+        });
+        // The answer starts with what was asked (QR, ATM, ...); crypto says plainly when no official source covers it.
+        const byTopic: Record<string, string | null | undefined> = { cash: entry.cash, cards: entry.cards, qr: entry.qr, atm: entry.atm, banknotes: entry.banknotes, crypto: entry.crypto };
+        const asked = args.topic ? byTopic[args.topic] : undefined;
+        const first = args.topic === "crypto" && !entry.crypto
+          ? pick(locale, "no official source says whether merchants accept cryptocurrency", "ninguna fuente oficial dice si los comercios aceptan criptomonedas")
+          : asked ?? entry.cash ?? entry.cards ?? "";
+        const confidence = entry.confidence === "alta" ? "high" : entry.confidence === "media" ? "medium" : "low";
+        const env: Envelope = {
+          voice: pick(
+            locale,
+            `In ${name}: ${first || "check the official source for the details"}. Verify with the official source before you travel.`,
+            `En ${name}: ${first || "revisa la fuente oficial para los detalles"}. Verifica con la fuente oficial antes de viajar.`,
+          ),
+          card: {
+            pattern: "list",
+            title: pick(locale, `Payments in ${name}`, `Pagos en ${name}`),
+            subtitle: pick(locale, `Official sources, retrieved ${entry.retrieved}`, `Fuentes oficiales, consultadas el ${entry.retrieved}`),
+            rows,
+          },
+          data: { destination: dest, verified: true, confidence: entry.confidence, notes: entry.notes ?? [], retrieved: entry.retrieved },
+          sources: entry.sources.map((s, i) => ({ id: `src:payments:${dest}:${i}`, title: s.title, url: s.url, license: "Official public information", retrieved: entry.retrieved })),
+          followUps: [pick(locale, "Anything else for this trip?", "¿Algo más para este viaje?")],
+          lastVerified: ctx.payments.retrieved,
+          confidence,
+          disclaimer: DISCLAIMER[locale],
+        };
+        return envelopeResult(env);
+      }),
+  );
+
   // 12. trip_brief (multi-session memory)
   // The usual weather on the trip's dates, from vendored climate normals (NASA POWER).
   server.registerTool(
