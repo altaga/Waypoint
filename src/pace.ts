@@ -5,7 +5,7 @@
 // all its places, times the share of them the pace aims to see, over the minutes of sights a day holds at that pace,
 // and never fewer days than the pace's floor. It is Waypoint's estimate and is shown as such.
 import type { Place } from "./services/highlights.ts";
-import type { WorldCity } from "./services/world.ts";
+import type { CityStayRow, WorldCity } from "./services/world.ts";
 
 export type Pace = "relaxed" | "balanced" | "packed";
 export type StyleKey = "express" | "classic" | "slow";
@@ -47,23 +47,40 @@ export function stayCity(place: Place, cities: WorldCity[], iso: string): string
 
 export interface CityStay {
   city: string;
+  /** Where the minutes come from: the list's places, or the size of the city (see scripts/build-city-stays.ts). */
+  basis?: "places" | "population";
   places: number;
   minutes: number;
   minDays: Record<StyleKey, number>;
 }
 
 /** The cities of a country's list, biggest first, with the least days each needs at each pace. */
-export function cityStays(places: Place[], cities: WorldCity[], iso: string): CityStay[] {
+export function cityStays(places: Place[], cities: WorldCity[], iso: string, table?: Map<string, CityStayRow>): CityStay[] {
   const by = new Map<string, Place[]>();
   for (const p of places) {
     const c = stayCity(p, cities, iso);
     if (!by.has(c)) by.set(c, []);
     by.get(c)!.push(p);
   }
-  return [...by.entries()]
-    .map(([city, ps]) => {
-      const minutes = ps.reduce((m, p) => m + p.durationMinutes, 0);
-      return { city, places: ps.length, minutes, minDays: { express: minDays(minutes, "packed"), classic: minDays(minutes, "balanced"), slow: minDays(minutes, "relaxed") } };
-    })
-    .sort((a, b) => b.places - a.places || b.minutes - a.minutes);
+  const fromTable = (city: string) => {
+    const c = cities.find((x) => x.iso === iso && x.name.en === city);
+    return c ? table?.get(c.id) : undefined;
+  };
+  const rows: CityStay[] = [...by.entries()].map(([city, ps]) => {
+    // The list holds few places per country, so a big city never gets fewer minutes than its size gives.
+    const listed = ps.reduce((m, p) => m + p.durationMinutes, 0);
+    const size = fromTable(city)?.minutes ?? 0;
+    const minutes = Math.max(listed, size);
+    return { city, basis: listed >= size ? "places" : "population", places: ps.length, minutes, minDays: { express: minDays(minutes, "packed"), classic: minDays(minutes, "balanced"), slow: minDays(minutes, "relaxed") } };
+  });
+  // Every other city of the country, from the worldwide table, so each city has a minimum even where the list has no place.
+  const seen = new Set(rows.map((r) => r.city));
+  const rest = cities
+    .filter((c) => c.iso === iso && !seen.has(c.name.en) && table?.has(c.id))
+    .sort((a, b) => b.population - a.population)
+    .map((c): CityStay => {
+      const t = table!.get(c.id)!;
+      return { city: c.name.en, basis: t.basis, places: 0, minutes: t.minutes, minDays: t.minDays };
+    });
+  return [...rows.sort((a, b) => b.places - a.places || b.minutes - a.minutes), ...rest];
 }

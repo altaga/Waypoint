@@ -46,6 +46,8 @@ export function verifyPlan(input: {
   takenPlaces?: string[];
   /** The city a place belongs to for planning (the nearest city of the country); the place's own city when absent. */
   cityOf?: (p: Place) => string;
+  /** Minutes of sights a city holds by its size, a floor under the minutes of the list's places (data/world/city-stays.json). */
+  cityMinutes?: (city: string) => number;
 }): VerifyResult {
   const { plan, stayDays, destinationIso, pace, avoid, highlights, takenPlaces = [] } = input;
   const cityOf = input.cityOf ?? ((p: Place) => p.city);
@@ -114,7 +116,7 @@ export function verifyPlan(input: {
   if (blocks.length > 1) {
     // The least days a city needs at this pace: from all the places the list has in it (not only the planned ones).
     const pack = highlights.forCountry(destinationIso);
-    const minutesIn = (city: string) => (pack?.places ?? []).filter((p) => cityOf(p) === city).reduce((m, p) => m + p.durationMinutes, 0);
+    const minutesIn = (city: string) => Math.max((pack?.places ?? []).filter((p) => cityOf(p) === city).reduce((m, p) => m + p.durationMinutes, 0), input.cityMinutes?.(city) ?? 0);
     const need = (city: string) => Math.max(STYLES[pace].floor, minDays(minutesIn(city), pace));
     blocks.forEach((b, i) => {
       const least = need(b.city);

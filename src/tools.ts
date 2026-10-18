@@ -1089,7 +1089,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             country: dest,
             curated,
             // The cities of the list and the least days each needs at each pace (Waypoint's estimate from the places it has).
-            cities: cityStays(pack.places, ctx.world.cities, dest),
+            cities: cityStays(pack.places, ctx.world.cities, dest, ctx.world.stays),
             // descSource says where the description came from; article links to the Wikipedia article it was taken from (CC BY-SA 4.0).
             places: ranked.map((p) => ({ id: p.id, name: p.name, area: p.area, city: p.city, stayCity: stayCity(p, ctx.world.cities, dest), ...(p.zone ? { zone: p.zone } : {}), category: p.category, interests: p.interests, durationMinutes: p.durationMinutes, mapsUrl: mapsUrl(p.name, p.city, countryName(dest, "en")), website: p.website ?? null, hours: p.hours?.text ?? null, hoursSource: p.hours?.source ?? null, phone: p.phone ?? null, ...(p.lat != null && p.lon != null ? { lat: p.lat, lon: p.lon } : {}), desc: p.desc[locale], descSource: p.descBy?.[locale] ?? "curated", article: p.ground?.[locale] ?? null, admission: p.admission ?? null })),
           },
@@ -1197,7 +1197,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           // Places planned on the days this plan does not replace still count, so a place cannot repeat across days.
           const replaced = new Set(args.replace ? (trip.itinerary ?? []).map((d) => d.day).concat(args.plan.map((d) => d.day)) : args.plan.map((d) => d.day));
           const takenPlaces = (trip.itinerary ?? []).filter((d) => !replaced.has(d.day)).flatMap((d) => d.stops);
-          verdict = verifyPlan({ plan: args.plan, stayDays: stay, destinationIso: dest, pace: profile.pace, avoid, highlights: ctx.highlights, takenPlaces, cityOf: (p) => stayCity(p, ctx.world.cities, dest) });
+          verdict = verifyPlan({ plan: args.plan, stayDays: stay, destinationIso: dest, pace: profile.pace, avoid, highlights: ctx.highlights, takenPlaces, cityOf: (p) => stayCity(p, ctx.world.cities, dest), cityMinutes: (city) => ctx.world.cities.filter((c) => c.iso === dest && c.name.en === city).reduce((m, c) => Math.max(m, ctx.world.stays.get(c.id)?.minutes ?? 0), 0) });
           if (verdict.ok) {
             const byDay = new Map((args.replace ? [] : (trip.itinerary ?? [])).map((d) => [d.day, d]));
             for (const d of args.plan) byDay.set(d.day, { day: d.day, date: dateOf(d.day), title: d.title, stops: d.stops });
@@ -1208,7 +1208,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
 
         // Without a new plan, the saved days are checked again: a new pace or an avoided interest can break them.
         const stale = !verdict && (trip.itinerary ?? []).some((d) => d.stops.length)
-          ? verifyPlan({ plan: (trip.itinerary ?? []).map((d) => ({ day: d.day, title: d.title, stops: d.stops })), stayDays: stay, destinationIso: dest, pace: profile.pace, avoid, highlights: ctx.highlights, cityOf: (p) => stayCity(p, ctx.world.cities, dest) })
+          ? verifyPlan({ plan: (trip.itinerary ?? []).map((d) => ({ day: d.day, title: d.title, stops: d.stops })), stayDays: stay, destinationIso: dest, pace: profile.pace, avoid, highlights: ctx.highlights, cityOf: (p) => stayCity(p, ctx.world.cities, dest), cityMinutes: (city) => ctx.world.cities.filter((c) => c.iso === dest && c.name.en === city).reduce((m, c) => Math.max(m, ctx.world.stays.get(c.id)?.minutes ?? 0), 0) })
           : null;
         const staleProblem = stale && !stale.ok ? stale.violations[0] : null;
         const reported = verdict ?? stale;

@@ -21,7 +21,18 @@ export interface WorldCity {
   lon: number;
 }
 
+export interface CityStayRow {
+  name: string;
+  iso: string;
+  places: number;
+  minutes: number;
+  basis: "places" | "population";
+  minDays: { express: number; classic: number; slow: number };
+}
+
 export interface WorldRegistry {
+  /** Minutes of sights and the least days each city needs at each pace (data/world/city-stays.json), by city id. */
+  stays: Map<string, CityStayRow>;
   countries: WorldCountry[];
   cities: WorldCity[];
   countryByIso(iso: string): WorldCountry | undefined;
@@ -34,6 +45,13 @@ const fold = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,
 export function loadWorld(root: string): WorldRegistry {
   let countries: WorldCountry[] = [];
   let cities: WorldCity[] = [];
+  const stays = new Map<string, CityStayRow>();
+  try {
+    const raw = JSON.parse(readFileSync(join(root, "data/world/city-stays.json"), "utf8")).cities as Record<string, CityStayRow>;
+    for (const [id, row] of Object.entries(raw)) stays.set(id, row);
+  } catch {
+    // Without the table the minimums come from the places alone.
+  }
   try {
     countries = JSON.parse(readFileSync(join(root, "data/world/countries.json"), "utf8")).countries;
     cities = JSON.parse(readFileSync(join(root, "data/world/cities.json"), "utf8")).cities;
@@ -48,6 +66,7 @@ export function loadWorld(root: string): WorldRegistry {
     byName.set(fold(c.name.es), c);
   }
   return {
+    stays,
     countries,
     cities,
     countryByIso: (iso) => byIso.get(iso),
