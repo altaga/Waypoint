@@ -179,10 +179,15 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 
 .topbar { position: relative; z-index: 2; display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: var(--s-12); height: 56px; padding: 0 var(--s-32); font-size: 13px; color: var(--d-ink-2); }
 .topbar .clock { justify-self: start; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-variant-numeric: tabular-nums; }
-.topbar .brand-s { font-size: var(--t-caption); font-weight: 600; color: var(--d-ink); letter-spacing: .14em; text-transform: uppercase; }
-.topbar .conn { justify-self: end; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.topbar .brand-s { display: inline-flex; align-items: center; gap: var(--s-8); font-size: var(--t-caption); font-weight: 600; color: var(--d-ink); letter-spacing: .14em; text-transform: uppercase; }
+.topbar .brand-s svg { flex: none; filter: drop-shadow(0 0 6px rgba(41, 151, 255, .55)); }
+.topbar .conn { justify-self: end; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-flex; align-items: center; gap: var(--s-8); }
+/* A status dot, like a device status bar: green and softly pulsing while the server answers. */
+.topbar .conn:not(:empty)::before { content: ""; flex: none; width: 7px; height: 7px; border-radius: 50%; background: var(--d-ok, #30d158); box-shadow: 0 0 0 0 rgba(48, 209, 88, .5); animation: conn-pulse 2.4s ease-out infinite; }
+@keyframes conn-pulse { 0% { box-shadow: 0 0 0 0 rgba(48, 209, 88, .45); } 70%, 100% { box-shadow: 0 0 0 7px rgba(48, 209, 88, 0); } }
+@media (prefers-reduced-motion: reduce) { .topbar .conn:not(:empty)::before { animation: none; } }
+.topbar::after { content: ""; position: absolute; left: var(--s-32); right: var(--s-32); bottom: 0; height: 1px; background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .10) 20%, rgba(255, 255, 255, .10) 80%, transparent); pointer-events: none; }
 /* The home screen shows its own large clock, so the small one steps back. */
-.screen:has(> .stage:not(.active) > #hero:empty):has(> .stage > .cards:empty) .topbar .clock { visibility: hidden; }
 
 .stage { position: relative; flex: 1 1 auto; display: flex; flex-direction: column; gap: var(--s-20); padding: var(--s-8) var(--s-32) var(--s-32); }
 
