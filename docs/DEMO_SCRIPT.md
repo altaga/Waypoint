@@ -36,7 +36,7 @@ If a beat must go, drop **Apps and metro** or **Day plan**, never the Autopilot.
 ## Before recording
 
 1. Run the app locally with the deterministic router: `WAYPOINT_OFFLINE=1 npm start`, with `WAYPOINT_BRAIN` unset. Open `http://127.0.0.1:3000` at 1440 × 900 or larger. On the deployed site, typed sentences that are not Autopilot phrases go to Bedrock first, and those answers are not verified, so the take is not recorded there.
-2. Use a fresh browser profile, so the viewer has no earlier trip or passports. Type "What's left for my trip?" once to confirm it says there is no trip, then click **New session**.
+2. Start with no earlier trip or passports: click **Reset my data** twice (the first click asks for another one), or use a fresh browser profile. Type "What's left for my trip?" once to confirm it says there is no trip. **New session** does not erase anything; it is the beat at the end.
 3. Keep **Read aloud** off for the take.
 4. Open the protocol details before the beat (the mode line "Assistant: local router, no AWS needed." is inside them).
 5. After each answer, scroll so the card is below the sticky header. Press **View panel** and **Close panel** with the page scrolled to the buttons.

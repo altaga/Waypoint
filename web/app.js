@@ -71,6 +71,9 @@ const UI = {
     aboutText: `A simulated Alexa+ host built for a hackathon entry. It is not affiliated with Amazon and does not integrate with Alexa+. The server is a self-hosted MCP server; this page is a real MCP client (${PROTOCOL_VERSION}).`,
     demo: "Example group",
     reset: "New session",
+    wipe: "Reset my data",
+    wipeSure: "Click again to erase",
+    wipeDone: "Your data was erased. This is a new visitor.",
     nothingSaved: "Nothing to save yet.",
     cancel: "Cancel",
     submit: "Submit",
@@ -133,6 +136,9 @@ const UI = {
     aboutText: `Un host simulado de Alexa+ creado para una entrada de hackathon. No está afiliado a Amazon ni se integra con Alexa+. El servidor es un servidor MCP propio; esta página es un cliente MCP real (${PROTOCOL_VERSION}).`,
     demo: "Grupo de ejemplo",
     reset: "Nueva sesión",
+    wipe: "Borrar mis datos",
+    wipeSure: "Otro clic para borrar",
+    wipeDone: "Tus datos se borraron. Eres un visitante nuevo.",
     nothingSaved: "Nada que guardar todavía.",
     cancel: "Cancelar",
     submit: "Enviar",
@@ -158,6 +164,8 @@ let mcpUser = (() => {
 })() || `viewer-${crypto.randomUUID ? crypto.randomUUID().slice(0, 18) : Math.random().toString(36).slice(2, 14)}`;
 try { localStorage.setItem("waypoint-user", mcpUser); } catch {}
 let brainUnavailable = false;
+let wipeArmed = false;
+let wipeTimer = null;
 let toolCount = null;
 let unmountApp = null;
 let lastStructured = null;
@@ -184,6 +192,7 @@ function applyLang() {
   $("logosToggle").title = t("titleLogos");
   $("demoGroup").textContent = t("demo");
   $("reset").textContent = t("reset");
+  if (!wipeArmed) $("wipe").textContent = t("wipe");
   $("lblProtocol").textContent = t("protocol");
   $("moreCue").textContent = t("moreCue");
   $("menuBtn").textContent = t("menu");
@@ -879,7 +888,26 @@ function bindUi() {
     handleUtterance(v);
   });
   $("demoGroup").addEventListener("click", () => loadDemoGroup().catch(() => bubble("assistant", t("nothingSaved"))));
-  $("reset").addEventListener("click", async () => {
+  $("reset").addEventListener("click", () => restartSession());
+  // Erase this visitor's data and become a new visitor (a fresh id). Two clicks, so it is never an accident.
+  $("wipe").addEventListener("click", async () => {
+    if (!wipeArmed) {
+      wipeArmed = true;
+      $("wipe").textContent = t("wipeSure");
+      wipeTimer = setTimeout(() => { wipeArmed = false; $("wipe").textContent = t("wipe"); }, 4000);
+      return;
+    }
+    clearTimeout(wipeTimer);
+    wipeArmed = false;
+    $("wipe").textContent = t("wipe");
+    try { await client?.callTool("forget_me", { confirm: true }); } catch {}
+    mcpUser = `viewer-${crypto.randomUUID ? crypto.randomUUID().slice(0, 18) : Math.random().toString(36).slice(2, 14)}`;
+    try { localStorage.setItem("waypoint-user", mcpUser); } catch {}
+    currentBrief = null;
+    await restartSession();
+    bubble("assistant", t("wipeDone"));
+  });
+  async function restartSession() {
     // Same viewer, new MCP session: remembered trips must still be there.
     await client?.close();
     history = [];
@@ -896,7 +924,7 @@ function bindUi() {
     renderEmptyChat();
     renderChips();
     await connectReporting();
-  });
+  }
   $("cards").addEventListener("click", (e) => {
     const btn = e.target.closest("[data-pack-id]");
     if (btn) togglePacked(btn.dataset.packId, btn.getAttribute("aria-pressed") !== "true").catch(() => {});
