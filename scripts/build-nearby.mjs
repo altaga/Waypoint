@@ -5,6 +5,7 @@
 // Stages (each saves to data/raw/nearby/ and can be stopped and run again):
 //   node scripts/build-nearby.mjs classes   the Wikidata types that count as tourist-worthy
 //   node scripts/build-nearby.mjs places    the places around each city (set ONLY=VN to run one country)
+//   node scripts/build-nearby.mjs country  the best-known places of each country (towns the world list does not have)
 //   node scripts/build-nearby.mjs text      names, links, descriptions, coordinates, websites, phones, photo files
 //   node scripts/build-nearby.mjs commons   photo author and license
 //   node scripts/build-nearby.mjs write     merge into highlights/<ISO>.json (new places go after the curated ones)
@@ -76,7 +77,7 @@ async function places() {
     const radius = c.population >= 1_000_000 ? 14 : 22;
     const q = `SELECT ?item ?itemLabel ?sl ?cls WHERE {
       SERVICE wikibase:around { ?item wdt:P625 ?coord . bd:serviceParam wikibase:center "Point(${c.lon} ${c.lat})"^^geo:wktLiteral . bd:serviceParam wikibase:radius "${radius}" . }
-      ?item wikibase:sitelinks ?sl . FILTER(?sl >= 6) ?item wdt:P31 ?cls .
+      ?item wikibase:sitelinks ?sl . FILTER(?sl >= 3) ?item wdt:P31 ?cls .
       SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } ORDER BY DESC(?sl) LIMIT 400`;
     const r = await sparql(q);
     if (!r) { console.log("failed", c.name.en); continue; }
@@ -92,6 +93,40 @@ async function places() {
     done[c.id] = { iso: c.iso, city: c.name.en, items: [...by.values()].sort((a, b) => b.sl - a.sl).slice(0, 12) };
     if (++n % 25 === 0) { save("places.json", done); console.log(n, "/", cities.length, c.name.en); }
     await sleep(900);
+  }
+  save("places.json", done);
+}
+
+// ---- the best-known places of each country, wherever they are (towns the world list does not have: Hoi An, Ha Long Bay) ----
+async function country() {
+  const cls = load("classes.json", {});
+  const rootOf = new Map();
+  for (const [root, ids] of Object.entries(cls)) for (const id of ids) if (!rootOf.has(id)) rootOf.set(id, root);
+  const countries = JSON.parse(readFileSync(ROOT + "data/world/countries.json", "utf8")).countries.filter((c) => !ONLY || ONLY.includes(c.iso));
+  const done = load("places.json", {});
+  let n = 0;
+  for (const c of countries) {
+    const key = "country:" + c.iso;
+    if (done[key]) continue;
+    const q = `SELECT ?item ?itemLabel ?sl ?cls ?admLabel WHERE {
+      ?item wdt:P17 wd:${c.wikidata} ; wikibase:sitelinks ?sl ; wdt:P625 ?coord ; wdt:P31 ?cls . FILTER(?sl >= 8)
+      OPTIONAL { ?item wdt:P131 ?adm . }
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } ORDER BY DESC(?sl) LIMIT 1500`;
+    const r = await sparql(q);
+    if (!r) { console.log("failed", c.iso); continue; }
+    const by = new Map();
+    for (const b of r.results.bindings) {
+      const id = b.item.value.split("/").pop();
+      if (/^Q\d+$/.test(b.itemLabel.value)) continue;
+      const root = rootOf.get(b.cls.value.split("/").pop());
+      if (!root) continue;
+      const cur = by.get(id) ?? { id, name: b.itemLabel.value, sl: Number(b.sl.value), root, area: b.admLabel?.value };
+      if (!cur.area && b.admLabel) cur.area = b.admLabel.value;
+      by.set(id, cur);
+    }
+    done[key] = { iso: c.iso, city: "", countrywide: true, items: [...by.values()].sort((a, b) => b.sl - a.sl).slice(0, 60) };
+    if (++n % 10 === 0) { save("places.json", done); console.log("countries", n, "/", countries.length); }
+    await sleep(1200);
   }
   save("places.json", done);
 }
@@ -183,7 +218,10 @@ async function commons() {
 // ---- merge ----
 const slug = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 48) || "place";
 const MINUTES = { museum: 90, beach: 120, nature: 90, sight: 45, shopping: 60, experience: 120, food: 60, neighborhood: 90 };
+const D = Math.PI / 180;
+const km = (aLat, aLon, bLat, bLon) => 12742 * Math.asin(Math.sqrt(Math.sin(((bLat - aLat) * D) / 2) ** 2 + Math.cos(aLat * D) * Math.cos(bLat * D) * Math.sin(((bLon - aLon) * D) / 2) ** 2));
 function write() {
+  const worldCities = JSON.parse(readFileSync(ROOT + "data/world/cities.json", "utf8")).cities;
   const placesBy = load("places.json", {});
   const facts = load("facts.json", {});
   const wiki = load("wiki.json", {});
@@ -195,6 +233,7 @@ function write() {
   }
   let added = 0, photos = 0;
   for (const [iso, cityList] of byIso) {
+    if (ONLY && !ONLY.includes(iso)) continue;
     const file = `${ROOT}highlights/${iso}.json`;
     if (!existsSync(file)) continue;
     const pack = JSON.parse(readFileSync(file, "utf8"));
@@ -208,6 +247,14 @@ function write() {
         const w = wiki[it.id];
         if (!f || f.lat == null || !w?.en?.text || wikidataIds.has(it.id)) continue;
         if (nearBy(f.lat, f.lon)) continue; // already in the list under another id
+        // A countrywide place is filed under the nearest city (within 40 km), else under where Wikidata says it is; one far from every city of the country (a disputed rock far offshore) is left out.
+        let where = c.city;
+        if (c.countrywide) {
+          let best = null, bestKm = Infinity;
+          for (const w2 of worldCities) if (w2.iso === iso) { const d = km(f.lat, f.lon, w2.lat, w2.lon); if (d < bestKm) { best = w2; bestKm = d; } }
+          if (!best || bestKm > 300) continue;
+          where = bestKm <= 40 ? best.name.en : it.area || best.name.en;
+        }
         wikidataIds.add(it.id);
         const [category, interests] = ROOTS[it.root];
         const name = f.en || it.name;
@@ -218,14 +265,14 @@ function write() {
         if (photo) photos++;
         const es = w.es?.text;
         fresh.push({
-          id, name, ...(f.es && f.es !== name ? { nameLocal: undefined } : {}), area: c.city, city: c.city, wikidata: it.id,
+          id, name, ...(f.es && f.es !== name ? { nameLocal: undefined } : {}), area: where, city: where, wikidata: it.id,
           ...(f.website && /^https:\/\//.test(f.website) ? { website: f.website } : {}),
           lat: Math.round(f.lat * 1e6) / 1e6, lon: Math.round(f.lon * 1e6) / 1e6,
           ...(f.phone ? { phone: f.phone } : {}),
           category, interests, durationMinutes: MINUTES[category] ?? 45,
           desc: { en: w.en.text, es: es || w.en.text }, sourceId: "wikipedia",
           descBy: { en: "wikipedia", es: "wikipedia" },
-          ground: { retrieved: TODAY, en: { title: w.en.title, url: w.en.url }, ...(w.es?.url ? { es: { title: w.es.title, url: w.es.url } } : {}) },
+          ground: { retrieved: TODAY, en: { title: w.en.title, url: w.en.url }, es: w.es?.url ? { title: w.es.title, url: w.es.url } : { title: w.en.title, url: w.en.url } }, // no Spanish article: the sentence is English and the link is the English article
           ...(photo ? { image: photo } : {}),
         });
       }
@@ -248,6 +295,7 @@ function write() {
 const stage = process.argv[2];
 if (stage === "classes") await classes();
 else if (stage === "places") await places();
+else if (stage === "country") await country();
 else if (stage === "text") await text();
 else if (stage === "commons") await commons();
 else if (stage === "write") write();
