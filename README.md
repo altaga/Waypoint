@@ -36,7 +36,7 @@ Offline mode (`WAYPOINT_OFFLINE=1`) needs no network: FX uses a labelled snapsho
 | `get_payment_methods` | How do I pay there? | Cash, cards, QR and e-wallets, ATMs and cryptocurrency for 197 countries. 18 come from official sources with dates (government, central bank or national tourism board); 179 come from travel guides, company pages and traveler reports and are labelled as not officially confirmed. A country with no entry is said so, never guessed. No cryptocurrency acceptance is claimed anywhere |
 | `get_trip_climate` | What will the weather be like? | The usual highs, lows and rain on the trip's own dates (NASA POWER normals for every capital, weighted by days per month); not a forecast |
 | `packing_checklist` | What do I pack? | Checklist from trip length, climate, plugs, children, medications and "do not pack" rules; ticks persist |
-| `get_highlights` | What is worth seeing here? | Real places from the catalog, each with its id, area, duration and source; Wikipedia-grounded where the article exists |
+| `get_highlights` | What is worth seeing here? What is near me? | Real places from the catalog, each with its id, area, duration and source; Wikipedia-grounded where the article exists. With `near` (coordinates) or `nearPlace` (a town) it returns only places within the radius, closest first with the distance, and a credited photo where one exists |
 | `set_trip_constraints` | Avoid nightlife; keep under 1,000 USD | Constraints every plan and expense respects |
 | `build_itinerary` | Day plan | Stops must be catalog ids; the plan is **verified** (country, pace, repeats, avoided interests, daily time) and not saved if it fails |
 | `trip_brief` | What is left for my trip? | Readiness, pending items, free-cancellation deadlines within 30 days |
@@ -117,6 +117,10 @@ A visitor is a random id kept in the browser (`localStorage`), with no account. 
 | Transit payment by country, for countries with no city entry (one status per country, from press and guides; bilingual notes) | Each entry cites its article or page; see `data/world/transit-countries.json` for each source and date | Public information; press and guides, not official | `data/world/transit-countries.json` (compiled from a per-country sweep, 17 Oct 2026) |
 | Travel apps by country (Uber, Grab, Mercado Libre, Amazon from their own pages or SEC filing; DiDi, Rappi, Mercari from press and travel guides) | Company pages and reports; see `data/world/apps.json` for each source and date | Public information; press and guides labelled as not official | `data/world/apps.json` via `scripts/build-apps.ts` |
 | Places to visit, 194 countries with places | Curated by Waypoint from the Wikidata list (ids must exist there; a test enforces it) and ranked by Wikipedia popularity for the rest | CC0 (ids); descriptions are Waypoint's or Wikipedia's | `highlights/*.json` (curated), `data/world/highlights/*.json` (ranked) |
+| Places near each city, with photos | `scripts/build-nearby.mjs`: Wikidata places around each city and the best-known places of each country, filtered by type; no model writes a fact | CC0 (ids, coordinates, websites); photos from [Wikimedia Commons](https://commons.wikimedia.org/) only when their license is free, with author and license shown on the photo | `highlights/*.json` (`image`, `website`, `lat`, `lon`) |
+| Opening hours | [OpenStreetMap](https://www.openstreetmap.org/copyright) `opening_hours`, only where a mapper recorded them; otherwise a Google Maps link | [ODbL 1.0](https://opendatacommons.org/licenses/odbl/) | `highlights/*.json` (`hours`) |
+| Minimum days per city, by pace | Waypoint's estimate from the minutes of the places near the city and the size of the city (`scripts/build-city-stays.ts`); never an official figure | n/a | `data/world/city-stays.json` |
+| Where to get an app (Google Play, App Store) | Each link opened and its page title checked against the app name | n/a | `data/world/app-links.json` |
 | Place descriptions | First sentence of each place's Wikipedia article, linked from the place | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (attribution and link kept) | `data/grounding/places.json`, applied to `highlights/*.json` |
 
 Not used: `Frankfurter` (no VND), REST Countries (discontinued), mledoze/countries (ODbL), the Mexican SRE guide (anti-bot challenge; link only).
@@ -143,6 +147,7 @@ Pack status is **tier B, machine-extracted** until a human reviewer signs off. T
 | `npm run smoke:web` | Browser smoke test (optional, needs Chromium and Playwright, see `docs/TESTING.md`) |
 | `npm run ci` | Typecheck, test, validate packs and eval |
 | `npm run build-world` | Rebuilds the worldwide catalogs from Wikidata (needs network; retries on 504; `ONLY=DE,FR` retries some countries) |
+| `node scripts/build-nearby.mjs <stage>` | Places around every city and country from Wikidata, Wikipedia and Commons: `classes`, `places`, `country`, `text`, `commons`, `write` (resumable; `ONLY=VN` runs one country) |
 | `node scripts/build-grounding.mjs` | Links each curated Wikidata place to its English and Spanish Wikipedia articles (about 40 minutes) |
 | `npx tsx scripts/apply-grounding.ts` | Applies the article sentences as descriptions and records where each came from |
 | `node scripts/concierge-live.mjs <url>` | Live check of the deployed concierge: a multi-tool conversation with a real Bedrock model |
