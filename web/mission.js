@@ -15,7 +15,8 @@ const WORDS = {
     needs: (names) => `${names}: paperwork needed`,
     rules: (n, serious) => `${n} rules${serious ? `, ${serious} serious` : ""}`,
     rain: (r) => (r >= 4 ? "frequent rain" : r >= 1.5 ? "some rain" : "little rain"),
-    places: (n) => `${n} verified places`,
+    places: (n) => `${n} curated places`,
+    usual: "usual",
     planned: (n) => `${n} day${n === 1 ? "" : "s"} planned`,
     kept: (n) => `${n} day${n === 1 ? "" : "s"} already planned, kept`,
     fixed: (n) => `${n} fix${n === 1 ? "" : "es"} from the verifier`,
@@ -26,7 +27,7 @@ const WORDS = {
     askDates: "Tell me the dates of that trip, and I'll get everything ready.",
     // The weather is left out when that step failed: a missing number must not be read out.
     summary: (s) => {
-      const weather = s.hi == null ? "" : ` I also checked the weather: around ${s.hi} and ${s.lo} degrees.`;
+      const weather = s.hi == null ? "" : ` The usual weather for those dates is around ${s.hi} and ${s.lo} degrees.`;
       return `Done. I checked entry for ${s.travelers} passports and ${s.rules} local rules.${weather} ${s.days ? `I planned ${s.days} days and packed` : "I packed"} a list of ${s.items} items. You're ${s.readiness}% ready.${s.needs ? ` ${s.needs} still needs paperwork.` : ""}`;
     },
   },
@@ -40,7 +41,8 @@ const WORDS = {
     needs: (names) => `${names}: trámite pendiente`,
     rules: (n, serious) => `${n} reglas${serious ? `, ${serious} graves` : ""}`,
     rain: (r) => (r >= 4 ? "lluvia frecuente" : r >= 1.5 ? "algo de lluvia" : "poca lluvia"),
-    places: (n) => `${n} lugares verificados`,
+    places: (n) => `${n} lugares curados`,
+    usual: "habitual",
     planned: (n) => `${n} día${n === 1 ? "" : "s"} planeado${n === 1 ? "" : "s"}`,
     kept: (n) => `${n} día${n === 1 ? "" : "s"} ya planeado${n === 1 ? "" : "s"}, se conservan`,
     fixed: (n) => `${n} corrección${n === 1 ? "" : "es"} del verificador`,
@@ -50,7 +52,7 @@ const WORDS = {
     noTrip: "Primero dime a dónde y cuándo viajas, y yo preparo todo.",
     askDates: "Dime las fechas de ese viaje y yo preparo todo.",
     summary: (s) => {
-      const weather = s.hi == null ? "" : ` También revisé el clima: unos ${s.hi} y ${s.lo} grados.`;
+      const weather = s.hi == null ? "" : ` El clima habitual para esas fechas ronda los ${s.hi} y ${s.lo} grados.`;
       return `Listo. Revisé la entrada de ${s.travelers} pasaportes y ${s.rules} reglas locales.${weather} ${s.days ? `Planeé ${s.days} días y armé` : "Armé"} una maleta de ${s.items} cosas. Vas ${s.readiness}% listo.${s.needs ? ` A ${s.needs} le falta un trámite de entrada.` : ""}`;
     },
   },
@@ -95,7 +97,7 @@ export async function makeTrip(client, trip) {
   const made = await client.callTool("plan_trip", trip);
   if (made.isError || made.structuredContent?.missingFields?.length) return { answer: made };
   const brief = await client.callTool("trip_brief", {});
-  return { brief: brief.structuredContent?.data };
+  return { brief: brief.structuredContent?.data, plan: made };
 }
 
 // The run is a small dependency graph: the profile first; then everything that only needs the
@@ -273,7 +275,7 @@ export async function runMission({ client, lang, brief, root, minStepMs = MIN_ST
       const d = r.sc.data || {};
       facts.hi = d.hi;
       facts.lo = d.lo;
-      mark(root, "climate", "done", typeof d.hi === "number" ? `${d.hi}° / ${d.lo}° · ${w.rain(d.rain)}` : "", r.ms);
+      mark(root, "climate", "done", typeof d.hi === "number" ? `${w.usual} ${d.hi}° / ${d.lo}° · ${w.rain(d.rain)}` : "", r.ms);
       return r.ms;
     },
     async () => {

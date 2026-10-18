@@ -124,7 +124,7 @@ test("autopilot runs every step against the server and the trip is readier after
   assert.deepEqual(state(root), { profile: "done", entry: "done", rules: "done", climate: "done", essentials: "done", places: "done", plan: "done", packing: "done", brief: "done" });
   assert.equal(res.calls, 9);
   assert.match(root.steps.get("entry")!.res.textContent, /Priya: trámite pendiente/);
-  assert.match(root.steps.get("climate")!.res.textContent, /^\d+° \/ -?\d+°/);
+  assert.match(root.steps.get("climate")!.res.textContent, /^habitual \d+° \/ -?\d+°/, "the climate is the usual weather, not a live reading");
   assert.match(root.steps.get("packing")!.res.textContent, /con abrigo/);
   assert.match(root.foot.innerHTML, /NASA POWER/);
   // Each step names the publisher behind its own answer; the traveler's profile has none.
@@ -194,6 +194,9 @@ test("a request that names a place and its dates creates that trip first, then p
   const made = await makeTrip(s.client, req.trip);
   assert.equal(made.answer, undefined);
   assert.equal(made.brief.destination, "JP");
+  // The panel the trip opens belongs to the trip just made: the host keeps its link only for that trip.
+  assert.match(made.plan._meta.ui.resourceUri, /^ui:\/\//, "the trip opens its panel");
+  assert.equal(made.plan.structuredContent.data.trip.tripId, made.brief.tripId);
 
   const root = fakeRoot();
   const res = await runMission({ client: s.client, lang: "en", brief: made.brief, root, minStepMs: 0 });

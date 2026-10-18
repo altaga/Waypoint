@@ -711,6 +711,9 @@ async function runAutopilot(req) {
   if (req.use === "create") {
     const made = await makeTrip(client, req.trip);
     if (made.answer) return renderResult(made.answer, "plan_trip");
+    // The trip opens its MCP App panel from the hero's button, as a typed plan does (renderResult sets the same link).
+    const uri = made.plan._meta?.ui?.resourceUri;
+    if (uri && device !== "voice") lastUi = { uri, structured: made.plan.structuredContent };
     await refreshHero();
   }
   if (!currentBrief) await refreshHero().catch(() => {});

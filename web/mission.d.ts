@@ -16,7 +16,7 @@ export function tripFromRequest(text: string, currentDestination?: string | null
 export function makeTrip(
   client: { callTool(name: string, args: Record<string, unknown>): Promise<any> },
   trip: TripRequest,
-): Promise<{ answer?: any; brief?: any }>;
+): Promise<{ answer?: any; brief?: any; plan?: any }>;
 export function missionHtml(lang: string, destName: string): string;
 export function planFrom(places: Place[], stay: number, pace?: string): PlanDay[];
 export function repair(plan: PlanDay[], violations: Violation[]): PlanDay[];

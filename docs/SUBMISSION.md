@@ -1,15 +1,15 @@
 # Submission checklist
 
-Checked against the official Rules, FAQ, Dates tab and Overview on 2026-10-11.
+Checked against the official Rules, FAQ and Dates tab on 2026-10-18. The Rules state that they prevail over any other hackathon material.
 
 ## Key dates
 
 | Milestone | Official time | UTC+7 |
 |---|---|---|
 | Submission period | 31 Aug 2026 10:15 PT – **23 Oct 2026 12:00 PT** | closes **Sat 24 Oct 02:00** |
-| Judging (Rules) | 9 Nov 12:00 PT – 20 Nov 12:00 PT | |
-| Judging (Dates tab) | starts 26 Oct 12:00 PT | the pages disagree; plan for the earlier date |
-| Winners | about 3 Dec 2026 12:00 PT | |
+| Judging period (Rules) | 9 Nov 2026 12:00 PT – 20 Nov 2026 12:00 PT | |
+| Dates tab | shows 26 Oct 12:00 PT | the Rules prevail; judging follows the Rules |
+| Winners (Rules) | on or around 3 Dec 2026 12:00 PT | |
 
 ## Alexa+ track requirements
 
@@ -46,19 +46,19 @@ Checked against the official Rules, FAQ, Dates tab and Overview on 2026-10-11.
 | Optional feature requests (description, why it matters, priority) | Not started | |
 | English for all materials | Done for docs | |
 
-## Prizes (for reference, not confirmed)
+## Prizes (official Rules, read 2026-10-18)
 
-From an aggregator (tierones.io) on 2026-10-17. The official rules page could not be read by the tools, so check the amounts and the AWS credit figures on the rules page before submitting. The $15,000 Alexa+ credit figure was not found in any source.
-
-- Alexa+: 1st $25,000 + $15,000 AWS credits; 2nd $15,000 + $5,000; 3rd $4,000 + $1,000.
-- AWS Builder and Open Source: $5,000 + $5,000 AWS credits each.
+- Alexa+: 1st $25,000 cash + $15,000 AWS credits + a meeting with the Amazon Developer team; 2nd $15,000 cash + $5,000 AWS credits; 3rd $4,000 cash + $1,000 AWS credits.
+- AWS Builder (mini challenge): $5,000 cash + $5,000 AWS credits + a meeting. Eligible: any primary-track project that uses AWS services with documented integrations.
+- Open Source (mini challenge): $5,000 cash + $5,000 AWS credits + a meeting. Eligible: a new open-source project, or a contribution (branch, fork or PR) to a public repository, made during the submission period, submitted alongside a primary-track entry. Required: contribution URL, repository URL and a description.
 - One project can win at most one track prize and one mini-challenge prize.
+- The AWS promotional credit requests closed on 7 October; do not plan on them.
 
 ## Judging
 
 - Stage one: pass/fail on fitting the theme and applying the required APIs/SDKs.
 - Stage two: four equally weighted criteria: Tech Implementation, Design, Potential Impact, Quality of the Idea.
-- For Alexa+, the rules call "single-turn Q&A bot" and "basic MCP wrapper around an existing API" obvious; they call out as creative: agentic workflows across services, state across sessions, purchasing, media support (cards, carousels), MCP Apps, Agent Skills. Waypoint covers state across sessions, cards and carousels, an MCP App and an Agent Skill.
+- For Alexa+, the rules call "single-turn Q&A bot" and "basic MCP wrapper around an existing API" obvious; they call out as creative: agentic workflows across services, state across sessions, purchasing, media support (cards, carousels), MCP Apps, Agent Skills. Waypoint covers agentic workflows across services (the Autopilot), state across sessions, cards and carousels (`src/envelope.ts`) and an MCP App. It does not have a purchasing flow. `skills/waypoint/SKILL.md` is a Claude skill file, not an Alexa Agent Skill: do not present it as one.
 - For AWS Builder, "single Bedrock call" is called obvious; "multi-service pipeline (Bedrock + AgentCore + Strands)" is called creative. Today Waypoint has Strands + Bedrock wired but not run, so this mini challenge is the weakest part of the entry.
 
 ## Eligibility
