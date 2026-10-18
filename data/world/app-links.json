@@ -1,1 +1,428 @@
-{"source":{"method":"Each link opened; verified=true when the store page title matched the app.","retrieved":""},"apps":{}}
+{
+ "source": {
+  "method": "Each link opened and its page title checked against the app name by a research agent; links that did not open are null",
+  "retrieved": "2026-10-18"
+ },
+ "apps": {
+  "Uber": {
+   "site": "https://www.uber.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.ubercab",
+   "appStore": "https://apps.apple.com/us/app/uber-rides-eats-hotels/id368677368",
+   "verified": true,
+   "note": "Global listing; both pages opened (200) and titles match Uber."
+  },
+  "Grab": {
+   "site": "https://www.grab.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.grabtaxi.passenger",
+   "appStore": "https://apps.apple.com/sg/app/grab-food-delivery-taxi-ride/id647268330",
+   "verified": true,
+   "note": "Regional (Southeast Asia); App Store listing is Singapore, both pages opened and match."
+  },
+  "DiDi": {
+   "site": "https://web.didiglobal.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.didiglobal.passenger",
+   "appStore": "https://apps.apple.com/us/app/didi-rider-affordable-rides/id1362398401",
+   "verified": true,
+   "note": "Global DiDi Rider app (outside China); China uses a separate DiDi app."
+  },
+  "Rappi": {
+   "site": "https://www.rappi.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.grability.rappi",
+   "appStore": "https://apps.apple.com/co/app/rappi-food-delivery-y-m%C3%A1s/id984044296",
+   "verified": true,
+   "note": "Regional (Latin America); App Store listing is Colombia, both pages opened and match."
+  },
+  "Mercado Libre": {
+   "site": "https://www.mercadolibre.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.mercadolibre",
+   "appStore": "https://apps.apple.com/ar/app/mercado-libre-compras-10-10/id463624852",
+   "verified": true,
+   "note": "Regional; App Store listing is Argentina (the Play package serves it, storefront title varies by country), both opened."
+  },
+  "Amazon": {
+   "site": "https://www.amazon.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping",
+   "appStore": "https://apps.apple.com/us/app/amazon-shopping/id297606951",
+   "verified": true,
+   "note": "Amazon Shopping, US listing; both store pages opened, the website returns a bot-check 202 to curl but loads in other locales."
+  },
+  "Mercari": {
+   "site": "https://jp.mercari.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.kouzoh.mercari",
+   "appStore": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%AA%E3%83%9E%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AF%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%AA-%E3%83%A1%E3%83%AB%E3%83%9A%E3%82%A4%E3%81%AE%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%81%A7%E3%82%82%E3%81%A3%E3%81%A8%E3%81%8A%E5%BE%97/id667861049",
+   "verified": true,
+   "note": "Regional; Japan listing (US has a separate Mercari app), both pages opened and titled Mercari (Japanese)."
+  },
+  "Green SM": {
+   "site": "https://www.greensm.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.gsm.customer",
+   "appStore": "https://apps.apple.com/vn/app/green-sm-electric-mobility/id6446425595",
+   "verified": true,
+   "note": "Vietnam-based electric taxi; both pages opened and match."
+  },
+  "Cabify": {
+   "site": "https://cabify.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.cabify.rider",
+   "appStore": "https://apps.apple.com/es/app/cabify-viaja-como-te-mereces/id476087442",
+   "verified": true,
+   "note": "Regional; App Store listing is Spain, both pages opened and match."
+  },
+  "Gojek": {
+   "site": "https://www.gojek.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.gojek.app",
+   "appStore": "https://apps.apple.com/id/app/gojek/id944875099",
+   "verified": true,
+   "note": "Regional; App Store listing is Indonesia, both pages opened and match."
+  },
+  "Careem": {
+   "site": "https://www.careem.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.careem.acma",
+   "appStore": "https://apps.apple.com/ae/app/careem-rides-food-grocery/id592978487",
+   "verified": true,
+   "note": "Regional (Middle East); App Store listing is UAE, both pages opened and match."
+  },
+  "inDrive": {
+   "site": "https://indrive.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=sinet.startup.inDriver",
+   "appStore": "https://apps.apple.com/us/app/indrive-save-on-city-rides/id780125801",
+   "verified": true,
+   "note": "Global listing; both pages opened and match (site returned 403 to plain curl but 200 with browser UA)."
+  },
+  "Yandex Go": {
+   "site": "https://go.yandex/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=ru.yandex.taxi",
+   "appStore": "https://apps.apple.com/us/app/yandex-go-taxi-food-delivery/id472650686",
+   "verified": true,
+   "note": "Main market Russia/CIS; both pages opened and titles match Yandex Go."
+  },
+  "Ola": {
+   "site": "https://www.olacabs.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.olacabs.customer",
+   "appStore": "https://apps.apple.com/in/app/ola-book-cab-auto-bike-taxi/id539179365",
+   "verified": true,
+   "note": "India-only; App Store listing is India, both pages opened and match."
+  },
+  "Glovo": {
+   "site": "https://glovoapp.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.glovo",
+   "appStore": "https://apps.apple.com/es/app/glovo-comida-a-domicilio/id951812684",
+   "verified": true,
+   "note": "Regional; App Store listing is Spain, both pages opened and match."
+  },
+  "Lazada": {
+   "site": "https://www.lazada.com/en/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.lazada.android",
+   "appStore": "https://apps.apple.com/us/app/lazada-10-10-sale/id785385147",
+   "verified": true,
+   "note": "Single multi-country listing (Southeast Asia); both pages opened, titles say 'Lazada 10.10 Sale' (seasonal name)."
+  },
+  "Shopee": {
+   "site": "https://shopee.sg/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.shopee.sg",
+   "appStore": "https://apps.apple.com/sg/app/shopee-buy-today-get-today/id959840394",
+   "verified": true,
+   "note": "Regional: separate listing per country, this is Singapore (main market); both pages opened."
+  },
+  "Temu": {
+   "site": "https://www.temu.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.einnovation.temu",
+   "appStore": "https://apps.apple.com/us/app/temu-shop-like-a-billionaire/id1641486558",
+   "verified": true,
+   "note": "Global listing; both pages opened and titles match."
+  },
+  "Coupang": {
+   "site": null,
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.coupang.mobile",
+   "appStore": "https://apps.apple.com/us/app/coupang-mobile-shopping/id454434967",
+   "verified": true,
+   "note": "South Korea app; both store pages opened; coupang.com returned 403 to curl so site left null."
+  },
+  "Rakuten": {
+   "site": "https://www.rakuten.co.jp/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=jp.co.rakuten.android",
+   "appStore": "https://apps.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E5%B8%82%E5%A0%B4-%E3%81%8A%E8%B2%B7%E3%81%84%E7%89%A9%E3%81%A7%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E4%BE%BF%E5%88%A9%E3%81%AA%E9%80%9A%E8%B2%A9%E3%82%A2%E3%83%97%E3%83%AA/id419267350",
+   "verified": true,
+   "note": "Rakuten Ichiba (Japan) marketplace app, listings for Japan; other Rakuten apps (e.g. US cash back) exist separately."
+  },
+  "Bolt": {
+   "site": "https://bolt.eu/en/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=ee.mtakso.client",
+   "appStore": "https://apps.apple.com/us/app/bolt-request-a-ride/id675033630",
+   "verified": true,
+   "note": "Global ride-hailing listing (Estonia-based); both pages opened and titles match."
+  },
+  "Jumia": {
+   "site": null,
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.jumia.android",
+   "appStore": "https://apps.apple.com/us/app/jumia-online-shopping/id925015459",
+   "verified": true,
+   "note": "Single multi-country Africa listing; both pages opened; jumia.com returned 403 to curl so site left null."
+  },
+  "Flipkart": {
+   "site": "https://www.flipkart.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.flipkart.android",
+   "appStore": "https://apps.apple.com/us/app/flipkart-online-shopping-app/id742044692",
+   "verified": true,
+   "note": "India app; both pages opened and titles match."
+  },
+  "Lyft": {
+   "site": "https://www.lyft.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=me.lyft.android",
+   "appStore": "https://apps.apple.com/us/app/lyft/id529379082",
+   "verified": true,
+   "note": "US/Canada ride-hailing app; both pages opened and titles match."
+  },
+  "FREENOW": {
+   "site": null,
+   "googlePlay": "https://play.google.com/store/apps/details?id=taxi.android.client",
+   "appStore": "https://apps.apple.com/us/app/freenow-by-lyft-taxi-more/id357852748",
+   "verified": true,
+   "note": "Europe-wide app, now 'Freenow by Lyft'; both pages opened; free-now.com returned 429 so site left null."
+  },
+  "foodpanda": {
+   "site": null,
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.global.foodpanda.android",
+   "appStore": "https://apps.apple.com/us/app/foodpanda-food-groceries/id758103884",
+   "verified": true,
+   "note": "Global-brand listing used across Asia markets; both pages opened; foodpanda sites returned 403 so site left null."
+  },
+  "eBay": {
+   "site": null,
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.ebay.mobile",
+   "appStore": "https://apps.apple.com/us/app/ebay-online-shopping-selling/id282614216",
+   "verified": true,
+   "note": "Global listing; both pages opened; ebay.com returned 403 to curl so site left null."
+  },
+  "Trendyol": {
+   "site": "https://www.trendyol.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=trendyol.com",
+   "appStore": "https://apps.apple.com/us/app/trendyol-online-shopping/id524362642",
+   "verified": true,
+   "note": "Turkey's main marketplace app; both pages opened and titles match."
+  },
+  "Allegro": {
+   "site": null,
+   "googlePlay": "https://play.google.com/store/apps/details?id=pl.allegro",
+   "appStore": "https://apps.apple.com/us/app/allegro/id305659772",
+   "verified": true,
+   "note": "Poland marketplace app; both pages opened; allegro.pl returned 403 to curl so site left null."
+  },
+  "Apple Pay": {
+   "site": "https://www.apple.com/apple-pay/",
+   "googlePlay": null,
+   "appStore": null,
+   "verified": false,
+   "note": "Apple Pay is a built-in payment feature of the Wallet app, not a separate downloadable app, and no Android version exists."
+  },
+  "Google Pay": {
+   "site": "https://pay.google.com/about/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user",
+   "appStore": "https://apps.apple.com/in/app/google-pay/id1193357041",
+   "verified": true,
+   "note": "Google Pay app listing is the India one (only market with a standalone app); elsewhere it is Google Wallet."
+  },
+  "Alipay": {
+   "site": "https://global.alipay.com",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.eg.android.AlipayGphone",
+   "appStore": "https://apps.apple.com/us/app/alipay-simplify-your-life/id333206289",
+   "verified": true,
+   "note": "Global listing; the China App Store listing has the same id333206289."
+  },
+  "WeChat Pay": {
+   "site": "https://pay.weixin.qq.com",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.tencent.mm",
+   "appStore": "https://apps.apple.com/us/app/wechat/id414478124",
+   "verified": true,
+   "note": "WeChat Pay has no separate app, it is a feature inside WeChat, so these are the WeChat listings."
+  },
+  "PayPay": {
+   "site": "https://paypay.ne.jp",
+   "googlePlay": "https://play.google.com/store/apps/details?id=jp.ne.paypay.android.app",
+   "appStore": "https://apps.apple.com/jp/app/paypay/id1435783608",
+   "verified": true,
+   "note": "Japan-only app, Japan listings."
+  },
+  "LINE Pay": {
+   "site": "https://pay.line.me/portal/tw/main",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.linepaytw.upay",
+   "appStore": "https://apps.apple.com/tw/app/line-pay/id1563230455",
+   "verified": true,
+   "note": "Taiwan listing of LINE Pay (Japan's LINE Pay was merged into PayPay and has no standalone app)."
+  },
+  "Rakuten Pay": {
+   "site": "https://pay.rakuten.co.jp",
+   "googlePlay": "https://play.google.com/store/apps/details?id=jp.co.rakuten.pay",
+   "appStore": "https://apps.apple.com/jp/app/rakuten-pay/id1139755229",
+   "verified": true,
+   "note": "Japan-only app (Rakuten Pay), Japan listings."
+  },
+  "MerPay": {
+   "site": "https://www.merpay.com",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.kouzoh.mercari",
+   "appStore": "https://apps.apple.com/jp/app/mercari/id667861049",
+   "verified": true,
+   "note": "Merpay has no separate consumer app; it lives inside the Mercari app (Japan listings)."
+  },
+  "KakaoPay": {
+   "site": "https://www.kakaopay.com",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.kakaopay.app",
+   "appStore": "https://apps.apple.com/kr/app/kakaopay/id1464496236",
+   "verified": true,
+   "note": "South Korea listings."
+  },
+  "PayNow": {
+   "site": "https://www.abs.org.sg/consumer-banking/pay-now",
+   "googlePlay": null,
+   "appStore": null,
+   "verified": false,
+   "note": "PayNow is a Singapore bank-to-bank transfer scheme used inside bank apps, with no app of its own; site is the Association of Banks in Singapore page."
+  },
+  "DuitNow": {
+   "site": "https://www.duitnow.my",
+   "googlePlay": null,
+   "appStore": null,
+   "verified": false,
+   "note": "DuitNow is a Malaysian national payment scheme run by PayNet, used through bank and e-wallet apps, with no app of its own."
+  },
+  "PromptPay": {
+   "site": null,
+   "googlePlay": null,
+   "appStore": null,
+   "verified": false,
+   "note": "PromptPay is a Thai national payment scheme used inside bank apps, with no app of its own; official page not verified."
+  },
+  "MoMo": {
+   "site": "https://momo.vn",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.mservice.momotransfer",
+   "appStore": "https://apps.apple.com/vn/app/momo/id918751511",
+   "verified": true,
+   "note": "Vietnam e-wallet, Vietnam listings."
+  },
+  "ZaloPay": {
+   "site": "https://zalopay.vn",
+   "googlePlay": "https://play.google.com/store/apps/details?id=vn.com.vng.zalopay",
+   "appStore": "https://apps.apple.com/vn/app/zalopay/id1112407590",
+   "verified": true,
+   "note": "Vietnam e-wallet, Vietnam listings."
+  },
+  "PayPal": {
+   "site": "https://www.paypal.com",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.paypal.android.p2pmobile",
+   "appStore": "https://apps.apple.com/us/app/paypal-pay-send-save/id283646709",
+   "verified": true,
+   "note": "Global listing, US App Store."
+  },
+  "Suica": {
+   "site": "https://www.mobilesuica.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.mobilesuica.msb.android",
+   "appStore": "https://apps.apple.com/us/app/suica/id1156875272",
+   "verified": true,
+   "note": "Japan; on Android the app is Mobile Suica (different name), on iOS it is the Suica app; JR East site returned 403 so the Mobile Suica site is given."
+  },
+  "PASMO": {
+   "site": "https://www.pasmo.co.jp/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.mobilepasmo.android",
+   "appStore": "https://apps.apple.com/us/app/pasmo-%E3%83%91%E3%82%B9%E3%83%A2/id1489151487",
+   "verified": true,
+   "note": "Japan; Play listing is Mobile PASMO, App Store listing is the PASMO app (iPhone PASMO is added through Wallet)."
+  },
+  "ICOCA": {
+   "site": "https://www.jr-odekake.net/icoca/",
+   "googlePlay": null,
+   "appStore": null,
+   "verified": false,
+   "note": "Japan (JR West); no standalone ICOCA app found in either store (physical card, Mobile ICOCA lives in Wallet), so no store links."
+  },
+  "TfL Go (London transport)": {
+   "site": null,
+   "googlePlay": "https://play.google.com/store/apps/details?id=uk.gov.tfl.gotfl",
+   "appStore": "https://apps.apple.com/us/app/tfl-go-plan-pay-travel/id1419541638",
+   "verified": true,
+   "note": "UK; both store pages opened and titled TfL Go; tfl.gov.uk returned 403 to my requests so site left null."
+  },
+  "Octopus": {
+   "site": "https://www.octopus.com.hk/tc/consumer/index.html",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.octopuscards.nfc_reader",
+   "appStore": "https://apps.apple.com/us/app/octopus-%E5%85%AB%E9%81%94%E9%80%9A/id1114430602",
+   "verified": true,
+   "note": "Hong Kong; Octopus app (a separate Octopus for Tourists app also exists on the App Store)."
+  },
+  "Navigo / Île-de-France Mobilités": {
+   "site": null,
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.applidium.vianavigo",
+   "appStore": "https://apps.apple.com/us/app/%C3%AEle-de-france-mobilit%C3%A9s/id484527651",
+   "verified": true,
+   "note": "France (Paris region); both store pages opened and titled Île-de-France Mobilités; official site returned 403 so left null."
+  },
+  "OMNY": {
+   "site": "https://omny.info/",
+   "googlePlay": null,
+   "appStore": null,
+   "verified": false,
+   "note": "New York; OMNY is tap-to-pay with cards or phone wallets with no official OMNY app (the MTA app is separate, and the App Store 'OMNY Mobile' is by an unrelated developer)."
+  },
+  "EZ-Link": {
+   "site": "https://simplygo.com.sg",
+   "googlePlay": "https://play.google.com/store/apps/details?id=sg.com.transitlink",
+   "appStore": "https://apps.apple.com/us/app/simplygo/id667933103",
+   "verified": true,
+   "note": "Singapore; the EZ-Link app was replaced by SimplyGo, whose listings I opened in both stores."
+  },
+  "Opal": {
+   "site": "https://transportnsw.info/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=au.com.opal.travel",
+   "appStore": "https://apps.apple.com/us/app/opal-travel/id941006607",
+   "verified": true,
+   "note": "Australia (Sydney, NSW); Opal Travel app by Transport for NSW."
+  },
+  "T-money": {
+   "site": "https://www.tmoney.co.kr/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=kr.co.tmoney.tia",
+   "appStore": "https://apps.apple.com/us/app/%ED%8B%B0%EB%A8%B8%EB%8B%88go-%ED%83%9D%EC%8B%9C-%EA%B3%A0%EC%86%8D%EC%8B%9C%EC%99%B8-%EB%94%B0%EB%A6%89%EC%9D%B4-%ED%82%A5%EB%B3%B4%EB%93%9C/id1483433931",
+   "verified": true,
+   "note": "South Korea; both are the T-money GO app (Tmoney's main app); a separate MobileTmoney and KOREA TOUR CARD app also exist."
+  },
+  "EasyCard": {
+   "site": "https://www.easycard.com.tw/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.easycard.wallet",
+   "appStore": "https://apps.apple.com/us/app/easy-wallet-%E6%82%A0%E9%81%8A%E4%BB%98/id786065396",
+   "verified": true,
+   "note": "Taiwan; the EasyCard company's app is Easy Wallet 悠遊付, both listings opened."
+  },
+  "OV-chipkaart / OVpay": {
+   "site": "https://www.ovpay.nl/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=nl.tls.ovpay",
+   "appStore": "https://apps.apple.com/us/app/ovpay/id1542164084",
+   "verified": true,
+   "note": "Netherlands; OVpay app by Trans Link Systems."
+  },
+  "Istanbulkart": {
+   "site": "https://www.ibb.istanbul/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.tr.gov.ibb.istanbulsenin",
+   "appStore": "https://apps.apple.com/us/app/i-stanbul-senin/id1534342254",
+   "verified": true,
+   "note": "Turkey (Istanbul); the İBB app İstanbul Senin handles Istanbulkart, and the site is the municipality's, not a dedicated Istanbulkart site."
+  },
+  "Nol": {
+   "site": "https://www.nol.ae",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.snowballtech.rta",
+   "appStore": "https://apps.apple.com/us/app/nol-pay/id1541976471",
+   "verified": true,
+   "note": "UAE (Dubai); nol Pay app by RTA, both listings opened."
+  },
+  "WOWPASS": {
+   "site": "https://www.wowpass.io/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.wow.wowpass",
+   "appStore": "https://apps.apple.com/us/app/wowpass-go-cashless-in-korea/id1626691440",
+   "verified": true,
+   "note": "South Korea; WOWPASS prepaid card app, both listings opened."
+  },
+  "Mpass": {
+   "site": "https://www.macaupass.com/",
+   "googlePlay": "https://play.google.com/store/apps/details?id=com.macaupass.rechargeEasy",
+   "appStore": "https://apps.apple.com/us/app/mpay%E6%BE%B3%E9%96%80%E9%8C%A2%E5%8C%85/id1092594338",
+   "verified": true,
+   "note": "Assumed Macau Pass (Macau); its app is MPay 澳門錢包, and the name Mpass is ambiguous with other apps."
+  }
+ }
+}

@@ -5,7 +5,7 @@ const ROOT = new URL("..", import.meta.url).pathname;
 const data = JSON.parse(readFileSync(ROOT + "data/world/app-links.json", "utf8"));
 const out = {};
 for (const [name, v] of Object.entries(data.apps)) {
-  if (!v.site && !v.googlePlay && !v.appStore) continue;
+  if (v.verified === false || (!v.site && !v.googlePlay && !v.appStore)) continue;
   out[name.toLowerCase()] = { site: v.site, googlePlay: v.googlePlay, appStore: v.appStore };
 }
 writeFileSync(

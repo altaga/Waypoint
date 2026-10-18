@@ -37,7 +37,8 @@ test("every icon named in the brand list exists in the icon file, and the names 
 test("the payment, app and transit cards show chips; other cards do not", () => {
   const sc = { card: { title: "Payments in Japan", rows: [{ label: "QR and e-wallets", value: "PayPay, LINE Pay and MerPay are the most common QR apps.", status: "info" }, { label: "Cash", value: "Still needed.", status: "info" }] }, sources: [] };
   const pay = renderTool("get_payment_methods", sc, "en");
-  assert.match(pay, /class="bchip b-wallet"/);
+  assert.match(pay, /class="bchip b-wallet( linked)?"/);
+  assert.match(pay, /href="https:\/\/(play\.google\.com|apps\.apple\.com)\//); // a chip with a verified app link opens its store page
   assert.equal((pay.match(/class="brands"/g) || []).length, 1);
   const apps = renderTool("get_local_apps", { card: { title: "Apps in Japan", rows: [{ label: "Uber", value: "On the company's list", status: "ok" }, { label: "Rappi", value: "No verified data", status: "warn" }] }, sources: [] }, "en");
   assert.match(apps, /<b>Uber<\/b>/);
