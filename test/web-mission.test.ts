@@ -91,21 +91,45 @@ test("the plan from the places keeps to the pace, the day's hours and the stay",
   }
 });
 
-test("the plan stays in the main city and moves only with room for two days there, an arrival day of at most two stops", () => {
+test("the plan stays in the main city, and moves only on a trip longer than two weeks with two days for the next city", () => {
   const tokyo = Array.from({ length: 8 }, (_, i) => ({ id: `t${i}`, city: "Tokyo", durationMinutes: 60 }));
   const kyoto = Array.from({ length: 4 }, (_, i) => ({ id: `k${i}`, city: "Kyoto", durationMinutes: 60 }));
   const osaka = [{ id: "o0", city: "Osaka", durationMinutes: 60 }];
   const all = [...tokyo, ...kyoto, ...osaka];
   const city = new Map(all.map((p) => [p.id, p.city]));
-  const long = planFrom(all, 14, "balanced");
-  assert.deepEqual(long.map((d) => d.stops.length), [3, 3, 2, 2, 2], "Tokyo 3, 3, 2, then Kyoto 2, 2; Osaka has one place, so no stay there");
-  assert.deepEqual(long.map((d) => city.get(d.stops[0])), ["Tokyo", "Tokyo", "Tokyo", "Kyoto", "Kyoto"]);
+  const cities = (stay: number) => planFrom(all, stay, "balanced").map((d) => city.get(d.stops[0]));
+  // Up to two weeks: Tokyo only, even with places in other cities.
+  assert.deepEqual(cities(8), ["Tokyo", "Tokyo", "Tokyo"]);
+  assert.deepEqual(cities(14), ["Tokyo", "Tokyo", "Tokyo"]);
+  // Longer: Tokyo 3, 3, 2, then Kyoto 2, 2 (the arrival day has two stops); Osaka has one place, so no stay there.
+  const long = planFrom(all, 20, "balanced");
+  assert.deepEqual(long.map((d) => d.stops.length), [3, 3, 2, 2, 2]);
+  assert.deepEqual(cities(20), ["Tokyo", "Tokyo", "Tokyo", "Kyoto", "Kyoto"]);
   for (const d of long) assert.equal(new Set(d.stops.map((id) => city.get(id))).size, 1, `day ${d.day} is in one city`);
-  // No room to move: the days left cannot hold two days in Kyoto, so the plan stays in Tokyo.
-  assert.deepEqual(planFrom(all, 4, "balanced").map((d) => city.get(d.stops[0])), ["Tokyo", "Tokyo", "Tokyo"]);
-  assert.equal(new Set(planFrom(all, 3, "balanced").map((d) => city.get(d.stops[0]))).size, 1);
-  const many = Array.from({ length: 40 }, (_, i) => ({ id: `m${i}`, city: "Paris", durationMinutes: 60 }));
-  assert.equal(planFrom(many, 30, "balanced").length, 7, "at most seven days");
+  const many = Array.from({ length: 80 }, (_, i) => ({ id: `m${i}`, city: "Paris", durationMinutes: 60 }));
+  assert.equal(planFrom(many, 30, "balanced").length, 14, "at most two weeks planned on its own");
+});
+
+test("places of the same area are put together, so a day stays in one part of the city", () => {
+  const places = [
+    { id: "a1", city: "Tokyo", area: "Ueno", durationMinutes: 60 },
+    { id: "b1", city: "Tokyo", area: "Shinjuku", durationMinutes: 60 },
+    { id: "a2", city: "Tokyo", area: "Ueno", durationMinutes: 60 },
+    { id: "b2", city: "Tokyo", area: "Shinjuku", durationMinutes: 60 },
+    { id: "a3", city: "Tokyo", area: "Ueno", durationMinutes: 60 },
+    { id: "b3", city: "Tokyo", area: "Shinjuku", durationMinutes: 60 },
+  ];
+  assert.deepEqual(planFrom(places, 5, "balanced").map((d) => d.stops), [["a1", "a2", "a3"], ["b1", "b2", "b3"]]);
+});
+
+test("places go together by part of the city first, then by area", () => {
+  const places = [
+    { id: "w1", city: "Tokyo", zone: "west", area: "Shibuya", durationMinutes: 60 },
+    { id: "e1", city: "Tokyo", zone: "east", area: "Ueno", durationMinutes: 60 },
+    { id: "w2", city: "Tokyo", zone: "west", area: "Shinjuku", durationMinutes: 60 },
+    { id: "e2", city: "Tokyo", zone: "east", area: "Asakusa", durationMinutes: 60 },
+  ];
+  assert.deepEqual(planFrom(places, 3, "relaxed").map((d) => d.stops), [["w1", "w2"], ["e1", "e2"]]);
 });
 
 test("a day alone in its city, or a busy arrival day, is repaired away", () => {
@@ -170,7 +194,7 @@ test("autopilot runs every step against the server and the trip is readier after
   assert.ok(root.classes.has("m-done"));
 
   const after = (await s.call("trip_brief")).data;
-  assert.equal(after.planned, 4, "four verified days were saved: Tokyo twice, Kyoto and Osaka once each, one city a day");
+  assert.equal(after.planned, 8, "all eight days were planned, in Tokyo: a trip of eight days does not move to another city");
   assert.ok(after.readiness > before.readiness, `${before.readiness}% → ${after.readiness}%`);
   assert.match(res.voice, /^Listo\. Revisé la entrada de 2 pasaportes/);
   assert.match(res.voice, new RegExp(`Vas ${after.readiness}% listo`));

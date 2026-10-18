@@ -153,13 +153,15 @@ function setSource(root, key, sc) {
 
 const INTERESTS = new Set(["food", "museums", "nature", "temples", "history", "shopping", "nightlife", "beaches", "family", "architecture", "markets", "art", "sights"]);
 const MAX_MINUTES = 600;
-// The most days the autopilot plans on its own; what the places cannot fill stays open, and is said.
-const MAX_PLAN_DAYS = 7;
+// The most days the autopilot plans on its own (two weeks); what the places cannot fill stays open, and is said.
+const MAX_PLAN_DAYS = 14;
+// A trip shorter than this stays in one city: in two weeks Tokyo alone is a full trip.
+const MIN_STAY_TO_MOVE = 15;
 
 /**
  * Days from the catalog's places. One city a day, and the plan stays in the main city (the one with most places)
- * unless the trip has room to move: moving between cities costs most of a day, so a second city needs at least
- * two days and its first day has at most two stops. A city with fewer places than that is left out.
+ * unless the trip is longer than two weeks: moving between cities costs most of a day, so a second city needs at
+ * least two days and its first day has at most two stops. A city with fewer places than that is left out.
  */
 function planFrom(places, stay, pace) {
   const perDay = pace === "relaxed" ? 2 : pace === "packed" ? 4 : 3;
@@ -173,7 +175,19 @@ function planFrom(places, stay, pace) {
   const groups = [...byCity.values()].sort((a, b) => b.length - a.length);
   const plan = [];
   // Cuts one city's places into days of an even size (8 places at 3 a day: 3, 3 and 2), each within the day's hours.
-  const daysOf = (group, limit) => {
+  const daysOf = (places, limit) => {
+    // Places go together by part of the city and then by area, so a day stays in one part of it (Ueno Park, its
+    // museum and its market); the order inside keeps what the traveler likes first.
+    const nest = (list, key) => {
+      const m = new Map();
+      for (const p of list) {
+        const k = key(p);
+        if (!m.has(k)) m.set(k, []);
+        m.get(k).push(p);
+      }
+      return [...m.values()];
+    };
+    const group = nest(places, (p) => p.zone || "").flatMap((zone) => nest(zone, (p) => p.area || "").flat());
     const size = Math.ceil(group.length / Math.ceil(group.length / limit));
     const out = [];
     let stops = [], minutes = 0;
@@ -191,7 +205,7 @@ function planFrom(places, stay, pace) {
     if (plan.length >= days) return;
     const cut = daysOf(group, i === 0 ? perDay : Math.min(perDay, 2));
     // A city we move to needs two days; one that does not fit in the days left is not started.
-    if (i > 0 && (cut.length < 2 || plan.length + cut.length > days)) return;
+    if (i > 0 && ((stay || 0) < MIN_STAY_TO_MOVE || cut.length < 2 || plan.length + cut.length > days)) return;
     for (const stops of cut) {
       if (plan.length >= days) break;
       plan.push({ day: plan.length + 1, title: stops[0].city || undefined, stops: stops.map((p) => p.id) });
@@ -321,9 +335,12 @@ export async function runMission({ client, lang, brief, root, minStepMs = MIN_ST
       }
       const known = (profile?.interests || []).filter((i) => INTERESTS.has(i));
       const interests = known.length ? known : ["food", "temples", "sights"];
-      const r = await call("places", "get_highlights", { destination: dest, interests, limit: 12 });
+      // All of the country's places (up to 30), the ones that match what the traveler likes first: a trip of a
+      // week or two needs more days of places than the matches alone give.
+      const r = await call("places", "get_highlights", { destination: dest, limit: 30 });
       if (!r) return 0;
-      places = r.sc.data?.places || [];
+      const score = (p) => (p.interests || []).filter((i) => interests.includes(i)).length;
+      places = [...(r.sc.data?.places || [])].sort((a, b) => score(b) - score(a));
       mark(root, "places", "done", w.places(places.length), r.ms);
       return r.ms;
     },

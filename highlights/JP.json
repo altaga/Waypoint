@@ -46,7 +46,8 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "zone": "east"
     },
     {
       "id": "jp-shibuya-crossing",
@@ -67,7 +68,8 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "zone": "west"
     },
     {
       "id": "jp-shibuya-sky",
@@ -88,7 +90,8 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "zone": "west"
     },
     {
       "id": "jp-meiji-jingu",
@@ -110,7 +113,8 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "zone": "west"
     },
     {
       "id": "jp-tsukiji-outer",
@@ -131,7 +135,8 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "zone": "center"
     },
     {
       "id": "jp-omoide-yokocho",
@@ -152,7 +157,8 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "zone": "west"
     },
     {
       "id": "jp-tokyo-national-museum",
@@ -174,7 +180,8 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "zone": "east"
     },
     {
       "id": "jp-imperial-east-gardens",
@@ -195,7 +202,8 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "zone": "center"
     },
     {
       "id": "jp-fushimi-inari",
@@ -301,6 +309,426 @@
         "en": "curated",
         "es": "curated"
       }
+    },
+    {
+      "id": "jp-skytree",
+      "name": "Tokyo Skytree",
+      "area": "Oshiage",
+      "city": "Tokyo",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Broadcast tower with observation decks, the tallest structure in Japan.",
+        "es": "Torre de transmisión con miradores, la estructura más alta de Japón."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "east"
+    },
+    {
+      "id": "jp-tokyo-tower",
+      "name": "Tokyo Tower",
+      "area": "Shibakoen",
+      "city": "Tokyo",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "architecture"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Red-and-white lattice tower from 1958 with views over the city.",
+        "es": "Torre de celosía roja y blanca de 1958 con vistas de la ciudad."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "center"
+    },
+    {
+      "id": "jp-takeshita-street",
+      "name": "Takeshita Street",
+      "area": "Harajuku",
+      "city": "Tokyo",
+      "category": "neighborhood",
+      "interests": [
+        "shopping",
+        "sights"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Pedestrian street of youth fashion, crepes and small shops.",
+        "es": "Calle peatonal de moda juvenil, crepas y tiendas pequeñas."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "west"
+    },
+    {
+      "id": "jp-akihabara",
+      "name": "Akihabara",
+      "area": "Akihabara",
+      "city": "Tokyo",
+      "category": "neighborhood",
+      "interests": [
+        "shopping",
+        "sights"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "District of electronics, anime and game shops.",
+        "es": "Barrio de electrónica y tiendas de anime y videojuegos."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "east"
+    },
+    {
+      "id": "jp-ueno-park",
+      "name": "Ueno Park",
+      "area": "Ueno",
+      "city": "Tokyo",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Large public park with museums, a zoo and a pond.",
+        "es": "Gran parque público con museos, un zoológico y un estanque."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "east"
+    },
+    {
+      "id": "jp-ameyoko",
+      "name": "Ameya-Yokocho",
+      "area": "Ueno",
+      "city": "Tokyo",
+      "category": "neighborhood",
+      "interests": [
+        "markets",
+        "food"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Busy market street under and beside the railway, with food and clothes stalls.",
+        "es": "Calle de mercado junto a las vías del tren, con puestos de comida y ropa."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "east"
+    },
+    {
+      "id": "jp-shinjuku-gyoen",
+      "name": "Shinjuku Gyoen",
+      "area": "Shinjuku",
+      "city": "Tokyo",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Large garden with Japanese, English and French landscape sections.",
+        "es": "Gran jardín con secciones de paisaje japonés, inglés y francés."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "west"
+    },
+    {
+      "id": "jp-ginza",
+      "name": "Ginza",
+      "area": "Ginza",
+      "city": "Tokyo",
+      "category": "neighborhood",
+      "interests": [
+        "shopping",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Upscale shopping and dining district.",
+        "es": "Distrito de compras y restaurantes de alto nivel."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "center"
+    },
+    {
+      "id": "jp-nezu-museum",
+      "name": "Nezu Museum",
+      "area": "Aoyama",
+      "city": "Tokyo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "architecture"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museum of pre-modern Japanese and East Asian art, with a garden.",
+        "es": "Museo de arte japonés y de Asia oriental premoderno, con jardín."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "center"
+    },
+    {
+      "id": "jp-ghibli-museum",
+      "name": "Ghibli Museum",
+      "area": "Mitaka",
+      "city": "Tokyo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art",
+        "family"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Museum of Studio Ghibli's animation, west of central Tokyo.",
+        "es": "Museo de la animación de Studio Ghibli, al oeste del centro de Tokio."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "admission": "Tickets are sold in advance; check the official site.",
+      "zone": "west"
+    },
+    {
+      "id": "jp-kappabashi",
+      "name": "Kappabashi Kitchen Town",
+      "area": "Taito",
+      "city": "Tokyo",
+      "category": "neighborhood",
+      "interests": [
+        "shopping",
+        "food"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Street of shops for kitchenware, knives and plastic food models.",
+        "es": "Calle de tiendas de utensilios de cocina, cuchillos y réplicas de comida."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "east"
+    },
+    {
+      "id": "jp-yanaka",
+      "name": "Yanaka",
+      "area": "Taito",
+      "city": "Tokyo",
+      "category": "neighborhood",
+      "interests": [
+        "history",
+        "sights"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Older Tokyo neighborhood of temples, small shops and narrow streets.",
+        "es": "Barrio antiguo de Tokio con templos, tiendas pequeñas y calles angostas."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "east"
+    },
+    {
+      "id": "jp-odaiba",
+      "name": "Odaiba",
+      "area": "Odaiba",
+      "city": "Tokyo",
+      "category": "neighborhood",
+      "interests": [
+        "sights",
+        "architecture"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Waterfront district on reclaimed land, with views of the Rainbow Bridge.",
+        "es": "Zona costera sobre terreno ganado al mar, con vistas al Rainbow Bridge."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "center"
+    },
+    {
+      "id": "jp-tsukishima-monja",
+      "name": "Tsukishima Monja Street",
+      "area": "Tsukishima",
+      "city": "Tokyo",
+      "category": "food",
+      "interests": [
+        "food"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Street of restaurants for monjayaki, a pan-fried batter dish from Tokyo.",
+        "es": "Calle de restaurantes de monjayaki, un plato de masa a la plancha típico de Tokio."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "east"
+    },
+    {
+      "id": "jp-shimokitazawa",
+      "name": "Shimokitazawa",
+      "area": "Setagaya",
+      "city": "Tokyo",
+      "category": "neighborhood",
+      "interests": [
+        "shopping",
+        "food"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Neighborhood of vintage shops, cafes and small music venues.",
+        "es": "Barrio de tiendas vintage, cafés y pequeños locales de música."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "west"
+    },
+    {
+      "id": "jp-mori-art-museum",
+      "name": "Mori Art Museum",
+      "area": "Roppongi",
+      "city": "Tokyo",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Contemporary art museum high up in Roppongi Hills Mori Tower.",
+        "es": "Museo de arte contemporáneo en lo alto de la torre Mori de Roppongi Hills."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "center"
+    },
+    {
+      "id": "jp-hamarikyu",
+      "name": "Hama-rikyu Gardens",
+      "area": "Chuo",
+      "city": "Tokyo",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "history"
+      ],
+      "durationMinutes": 75,
+      "desc": {
+        "en": "Garden by Tokyo Bay that was once a feudal lord's estate.",
+        "es": "Jardín junto a la bahía de Tokio que fue la propiedad de un señor feudal."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "center"
+    },
+    {
+      "id": "jp-golden-gai",
+      "name": "Golden Gai",
+      "area": "Shinjuku",
+      "city": "Tokyo",
+      "category": "neighborhood",
+      "interests": [
+        "nightlife",
+        "food"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Alleys of tiny bars in Shinjuku.",
+        "es": "Callejones de bares diminutos en Shinjuku."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "west"
+    },
+    {
+      "id": "jp-inokashira-park",
+      "name": "Inokashira Park",
+      "area": "Kichijoji",
+      "city": "Tokyo",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "family"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Park around a pond, popular for boating and the walk to Kichijoji.",
+        "es": "Parque alrededor de un estanque, popular para pasear en bote y caminar a Kichijoji."
+      },
+      "sourceId": "jp-tourism",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "zone": "west"
     }
   ]
 }

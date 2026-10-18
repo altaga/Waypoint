@@ -32,3 +32,12 @@ test("curated descriptions are present in both languages", () => {
     }
   }
 });
+
+// Tokyo is big: each of its places says which part (east, center, west) so a day plan can stay in one part.
+test("every Tokyo place in the Japan list has a part of the city", () => {
+  const pack = HighlightPack.parse(JSON.parse(readFileSync(join(root, "highlights", "JP.json"), "utf8")));
+  const tokyo = pack.places.filter((p) => p.city === "Tokyo");
+  assert.ok(tokyo.length >= 24, "enough places for a week and more in Tokyo");
+  for (const p of tokyo) assert.ok(["east", "center", "west"].includes(p.zone ?? ""), `${p.id} has no zone`);
+  assert.equal(new Set(pack.places.map((p) => p.id)).size, pack.places.length, "no repeated ids");
+});

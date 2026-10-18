@@ -19,6 +19,8 @@ export const Place = z.object({
   name: z.string(),
   area: z.string(),
   city: z.string(),
+  // A part of a big city (east, center, west), so a day can stay in one part. Optional: only where it is curated.
+  zone: z.string().optional(),
   category: z.enum(CATEGORIES),
   interests: z.array(z.enum(INTERESTS)).min(1),
   durationMinutes: z.number().int().positive(),

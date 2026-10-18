@@ -37,7 +37,8 @@ test("the concierge is told to leave an earlier topic when the traveler moves on
 test("the concierge is told that moving between cities costs most of a day, and to leave days open rather than pad the plan", () => {
   const p = systemPrompt("2026-10-18", "en-US");
   assert.match(p, /A day is in one city, and moving between cities costs most of a day/);
-  assert.match(p, /at least two days in a city before moving/);
+  assert.match(p, /for a trip of up to two weeks, plan only the main city/);
+  assert.match(p, /limit 30/);
   assert.match(p, /Never plan one day in Kyoto and the next in Osaka/);
   assert.match(p, /leave days open/);
 });
