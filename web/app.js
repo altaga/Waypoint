@@ -745,7 +745,9 @@ async function runAutopilot(req) {
   $("cards").innerHTML = missionHtml(lang, currentBrief.destinationName);
   const root = $("cards").querySelector(".k-mission");
   // The run is the thing to watch: bring it into view (the headline above it stays in sight).
-  root.scrollIntoView({ block: "start", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+  // Only the device's own screen scrolls: the page behind it stays where it is.
+  const stage = $("stage");
+  stage.scrollTo({ top: stage.scrollTop + root.getBoundingClientRect().top - stage.getBoundingClientRect().top - 12, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
   const res = await runMission({ client, lang, brief: currentBrief, root });
   setLight("idle");
   $("headline").textContent = res.voice;

@@ -63,6 +63,8 @@ The trip hero also draws the group's routes on a dotted globe (`web/globe.js`, c
 
 Cards for payments, apps and transit show the brands they name as chips (`web/brands.js`): a flat icon for the kind of service (card, wallet or QR, ride, delivery, shopping, transit card) and the name. The **Logos** switch in the header (or `?logos=1`) shows each brand's own mark where one exists; it is off by default. The marks come from [Simple Icons](https://simpleicons.org) (CC0-1.0, `web/brand-icons.js`) and remain trademarks of their owners; they only identify the service. The screen works on a phone: choose **Mobile** in the header, or open the page on one.
 
+The simulated devices have a fixed size, like the real ones: the Echo Show is a landscape 16:10 screen and the phone is 9:19.5, and a long answer scrolls inside the screen. On a real phone the page is the device and fills the width.
+
 A visitor is a random id kept in the browser (`localStorage`), with no account. **Reset my data** (two clicks) erases that id's profile, trips and expenses on the server and starts a new id. **New session** only reconnects, and the trip is still there.
 
 ## Architecture

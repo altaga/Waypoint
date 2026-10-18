@@ -39,7 +39,7 @@ If a beat must go, drop **Apps and metro** or **Day plan**, never the Autopilot.
 2. Start with no earlier trip or passports: click **Reset my data** twice (the first click asks for another one), or use a fresh browser profile. Type "What's left for my trip?" once to confirm it says there is no trip. **New session** does not erase anything; it is the beat at the end.
 3. Keep **Read aloud** off for the take.
 4. Open the protocol details before the beat (the mode line "Assistant: local router, no AWS needed." is inside them).
-5. After each answer, scroll so the card is below the sticky header. Press **View panel** and **Close panel** with the page scrolled to the buttons.
+5. The device screen has a fixed size (Echo Show 16:10, phone 9:19.5) and scrolls inside. After each answer, scroll inside the screen if the card is cut off; the page itself does not need to move. Press **View panel** and **Close panel** from the hero buttons at the top of the screen.
 6. Rehearse each typed sentence once. The offline router reads exactly the phrases in the table; other wordings may not be understood.
 7. Measure the readiness figure on the take and use the number on screen. The 36% in the table is what the example trip showed on 2026-10-18, not a promise.
 
