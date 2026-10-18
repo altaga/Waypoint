@@ -15,7 +15,14 @@ const MONTHS = {
   november: 11, noviembre: 11, december: 12, diciembre: 12,
 };
 
+// Named currencies become their code first, so "Singapore dollar" is SGD and not a dollar: USD.
+const NAMED = [
+  [/mexican pesos?|pesos? mexicanos?/g, "mxn"], [/(?:us|u s|united states|american) dollars?|dolar(?:es)? (?:estadounidenses?|americanos?)/g, "usd"],
+  [/singapore dollars?|dolar(?:es)? (?:de singapur|singapurenses?)/g, "sgd"], [/canadian dollars?|dolar(?:es)? canadienses?/g, "cad"], [/australian dollars?|dolar(?:es)? australianos?/g, "aud"],
+];
+const nameToCode = (t) => NAMED.reduce((acc, [re, code]) => acc.replace(re, code), t);
 const CURRENCIES = [
+  [/sgd/, "SGD"], [/cad/, "CAD"], [/aud/, "AUD"],
   [/peso|pesos|mxn/, "MXN"], [/dolar|dolares|dollar|dollars|usd/, "USD"], [/euro|euros|eur/, "EUR"],
   [/yen|yenes|jpy/, "JPY"], [/baht|thb/, "THB"], [/won|wones|krw/, "KRW"], [/dong|dongs|vnd/, "VND"],
   [/dirham|dirhams|aed/, "AED"], [/lira|liras|try/, "TRY"], [/rupia|rupee|rupees|inr/, "INR"],
@@ -59,9 +66,10 @@ export function routeUtterance(text, context = {}) {
   const tripDest = dest ?? (namesOtherPlace ? null : context.destination) ?? null;
   const paymentTopic = /\bqr\b|billetera|wallet/.test(t) ? "qr" : /cripto|crypto|bitcoin/.test(t) ? "crypto" : /cajero|\batm\b/.test(t) ? "atm" : /billete/.test(t) ? "banknotes" : /tarjeta|\bcard\b|contactless/.test(t) ? "cards" : /efectivo|\bcash\b/.test(t) ? "cash" : undefined;
   const amount = t.match(/(\d[\d.,]*)\s*(mil|k|thousand)?/);
-  const curr = CURRENCIES.find(([re]) => re.test(t));
+  const tc = nameToCode(t);
+  const curr = CURRENCIES.find(([re]) => re.test(tc));
   // Currencies in the order they are said: "1000 dollars in yen" is from USD to JPY; one alone is what the amount is in.
-  const mentioned = CURRENCIES.map(([re, code]) => [t.search(re), code]).filter(([i]) => i >= 0).sort((a, b) => a[0] - b[0]).map(([, code]) => code).filter((c, i, all) => all.indexOf(c) === i);
+  const mentioned = CURRENCIES.map(([re, code]) => [tc.search(re), code]).filter(([i]) => i >= 0).sort((a, b) => a[0] - b[0]).map(([, code]) => code).filter((c, i, all) => all.indexOf(c) === i);
 
   // Passports: "my passport is Mexican" registers the speaker; "add Sam, US passport" adds a companion, and the
   // server asks for the passport itself (a form) when none is given. The server resolves nationalities and names.

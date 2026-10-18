@@ -18,6 +18,7 @@ import { itemTerms } from "./items.ts";
 import { INTERESTS, type Interest } from "./services/highlights.ts";
 import { mapsUrl, suggestTimes, verifyPlan, type Violation } from "./itinerary.ts";
 import { STYLES, cityStays, stayCity } from "./pace.ts";
+import { currencyCode } from "./currency.ts";
 import { tripClimate, type TripClimate } from "./services/climate.ts";
 
 type Locale = "en" | "es";
@@ -33,7 +34,11 @@ const ISO_DATE = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "use YYYY-MM-DD").refin
 const MAX_TRIP_DAYS = 365;
 const CURRENCIES = new Set<string>(Intl.supportedValuesOf("currency"));
 // ISO 4217 codes only, so money is never stored under a guessed code such as "US$".
-const CURRENCY = z.string().length(3).refine((c) => CURRENCIES.has(c.toUpperCase()), "use an ISO 4217 code, for example USD or MXN");
+// A code (MXN) or a currency name (Mexican peso, US dollar, Singapore dollar): the tools work with the code.
+const CURRENCY = z.preprocess(
+  (v) => (typeof v === "string" ? (currencyCode(v, CURRENCIES) ?? v) : v),
+  z.string().length(3).refine((c) => CURRENCIES.has(c.toUpperCase()), "use an ISO 4217 code, for example USD or MXN, or a currency name such as Mexican peso"),
+);
 const RULE_CATEGORIES = [
   "prohibited_items", "medications", "conduct", "dress", "photography", "drugs", "alcohol", "lgbtq", "driving",
 ] as const;
