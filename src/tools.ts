@@ -17,7 +17,7 @@ import { PLAN_DASHBOARD_URI } from "./resources.ts";
 import { itemTerms } from "./items.ts";
 import { INTERESTS, type Interest } from "./services/highlights.ts";
 import { mapsUrl, suggestTimes, verifyPlan, type Violation } from "./itinerary.ts";
-import { STYLES, cityStays, stayCity } from "./pace.ts";
+import { STYLES, cityStays, distanceKm, stayCity } from "./pace.ts";
 import { currencyCode } from "./currency.ts";
 import { tripClimate, type TripClimate } from "./services/climate.ts";
 
@@ -1049,6 +1049,9 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         destination: z.string().min(2),
         interests: z.array(z.enum(INTERESTS)).optional(),
         limit: z.number().int().min(1).max(30).optional(),
+        nearPlace: z.string().min(2).optional().describe("A town or city the traveler is in or asks about (for example Vung Tau): only places near it, closest first, with the distance. Use it when they say where they are."),
+        near: z.object({ lat: z.number().min(-90).max(90), lon: z.number().min(-180).max(180) }).optional().describe("The traveler's position, when the host gave it: only places near it, closest first."),
+        radiusKm: z.number().min(1).max(200).optional().describe("How far from the position to look, default 30 km."),
       },
       outputSchema: EnvelopeShape,
       annotations: ann({ readOnly: true, idempotent: true }),
@@ -1070,16 +1073,44 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           return envelopeResult(env);
         }
         const want = args.interests ?? [];
-        const ranked = pack.places
-          .map((p, i) => ({ p, i, hit: want.filter((w) => p.interests.includes(w)).length }))
-          .filter((x) => want.length === 0 || x.hit > 0)
-          .sort((a, b) => b.hit - a.hit || a.i - b.i)
-          .slice(0, args.limit ?? 12)
-          .map((x) => x.p);
+        // "Near me": where the traveler is, from coordinates or from a town name the list or the world list knows.
+        const foldName = (x: string) => x.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+        let here: { lat: number; lon: number; label: string } | null = args.near ? { ...args.near, label: "" } : null;
+        let unknownPlace = false;
+        if (!here && args.nearPlace) {
+          const q = foldName(args.nearPlace);
+          const inList = pack.places.filter((p) => p.lat != null && p.lon != null && (foldName(p.city) === q || foldName(p.area) === q));
+          const city = ctx.world.findCity(args.nearPlace);
+          if (inList.length) here = { lat: inList.reduce((m, p) => m + p.lat!, 0) / inList.length, lon: inList.reduce((m, p) => m + p.lon!, 0) / inList.length, label: args.nearPlace };
+          else if (city && city.iso === dest) here = { lat: city.lat, lon: city.lon, label: city.name[locale] };
+          else unknownPlace = true;
+        }
+        const radius = args.radiusKm ?? 30;
+        const km = (p: { lat?: number; lon?: number }) => (here && p.lat != null && p.lon != null ? distanceKm(here.lat, here.lon, p.lat, p.lon) : Infinity);
+        let nearest: { within: boolean } | null = null;
+        let pool = pack.places.map((p, i) => ({ p, i, hit: want.filter((w) => p.interests.includes(w)).length, d: km(p) })).filter((x) => want.length === 0 || x.hit > 0);
+        if (here) {
+          pool = pool.filter((x) => x.d !== Infinity).sort((a, b) => a.d - b.d);
+          const within = pool.filter((x) => x.d <= radius);
+          nearest = { within: within.length > 0 };
+          pool = within.length ? within : pool.slice(0, 3);
+        } else pool.sort((a, b) => b.hit - a.hit || a.i - b.i);
+        const distanceOf = new Map(pool.map((x) => [x.p.id, x.d]));
+        const ranked = pool.slice(0, args.limit ?? 12).map((x) => x.p);
         const curated = pack.review.status !== "wikidata_ranked";
         const names = ranked.slice(0, 3).map((p) => p.name).join(", ");
+        const away = (p: { id: string }) => {
+          const d = distanceOf.get(p.id);
+          return d !== undefined && Number.isFinite(d) ? `${d < 10 ? d.toFixed(1) : Math.round(d)} km` : "";
+        };
         const env = baseEnvelope(ctx, dest, locale, {
-          voice: ranked.length
+          voice: unknownPlace
+            ? pick(locale, `I don't know where "${args.nearPlace}" is in ${name}. Share your location or tell me a bigger town nearby.`, `No sé dónde queda "${args.nearPlace}" en ${name}. Comparte tu ubicación o dime un pueblo más grande cerca.`)
+            : here && nearest && !nearest.within && ranked.length
+              ? pick(locale, `My list has nothing within ${radius} km. The closest are ${names}, about ${away(ranked[0])} away. Check the travel time first.`, `Mi lista no tiene nada a menos de ${radius} km. Lo más cerca: ${names}, a unos ${away(ranked[0])}. Revisa el tiempo de traslado primero.`)
+              : here && ranked.length
+                ? pick(locale, `${ranked.length} places near ${here.label || "you"}, closest first: ${ranked.slice(0, 3).map((p) => `${p.name} (${away(p)})`).join(", ")}.`, `${ranked.length} lugares cerca de ${here.label || "ti"}, del más cercano al más lejano: ${ranked.slice(0, 3).map((p) => `${p.name} (${away(p)})`).join(", ")}.`)
+        : ranked.length
             ? pick(
                 locale,
                 `${ranked.length} places in ${name}. The first ones: ${names}.${curated ? "" : " This list is ranked by popularity, not curated, so check each place."}`,
@@ -1090,15 +1121,16 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             pattern: "list",
             title: pick(locale, `Places in ${name}`, `Lugares en ${name}`),
             subtitle: curated ? pick(locale, "Curated list, not reviewed by a person; verify hours", "Lista curada, sin revisión humana; verifica horarios") : pick(locale, "Ranked by popularity, not curated", "Por popularidad, sin curación"),
-            rows: ranked.map((p) => ({ label: p.name, value: `${p.area} · ${p.desc[locale]}`, status: "info" as const })),
+            rows: ranked.map((p) => ({ label: p.name, value: `${away(p) ? `${away(p)} · ` : ""}${p.area} · ${p.desc[locale]}`, status: "info" as const })),
           },
           data: {
             country: dest,
             curated,
+            ...(here ? { near: { lat: here.lat, lon: here.lon, label: here.label, radiusKm: radius, withinRadius: Boolean(nearest?.within) } } : {}),
             // The cities of the list and the least days each needs at each pace (Waypoint's estimate from the places it has).
             cities: cityStays(pack.places, ctx.world.cities, dest, ctx.world.stays),
             // descSource says where the description came from; article links to the Wikipedia article it was taken from (CC BY-SA 4.0).
-            places: ranked.map((p) => ({ id: p.id, name: p.name, area: p.area, city: p.city, stayCity: stayCity(p, ctx.world.cities, dest), ...(p.zone ? { zone: p.zone } : {}), category: p.category, interests: p.interests, durationMinutes: p.durationMinutes, mapsUrl: mapsUrl(p.name, p.city, countryName(dest, "en")), website: p.website ?? null, hours: p.hours?.text ?? null, hoursSource: p.hours?.source ?? null, phone: p.phone ?? null, ...(p.lat != null && p.lon != null ? { lat: p.lat, lon: p.lon } : {}), desc: p.desc[locale], descSource: p.descBy?.[locale] ?? "curated", article: p.ground?.[locale] ?? null, admission: p.admission ?? null })),
+            places: ranked.map((p) => ({ id: p.id, name: p.name, area: p.area, city: p.city, stayCity: stayCity(p, ctx.world.cities, dest), ...(p.zone ? { zone: p.zone } : {}), ...(away(p) ? { distanceKm: Math.round(distanceOf.get(p.id)! * 10) / 10 } : {}), ...(p.nameLocal ? { nameLocal: p.nameLocal } : {}), ...(p.image ? { image: { url: `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(p.image.file)}?width=640`, pageUrl: p.image.pageUrl, author: p.image.author, license: p.image.license } } : {}), category: p.category, interests: p.interests, durationMinutes: p.durationMinutes, mapsUrl: mapsUrl(p.name, p.city, countryName(dest, "en")), website: p.website ?? null, hours: p.hours?.text ?? null, hoursSource: p.hours?.source ?? null, phone: p.phone ?? null, ...(p.lat != null && p.lon != null ? { lat: p.lat, lon: p.lon } : {}), desc: p.desc[locale], descSource: p.descBy?.[locale] ?? "curated", article: p.ground?.[locale] ?? null, admission: p.admission ?? null })),
           },
           followUps: [pick(locale, "Build my day plan with these?", "¿Armo mi plan de días con estos?")],
         });

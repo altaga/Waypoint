@@ -29,6 +29,10 @@ export const Place = z.object({
   hours: z.object({ text: z.string(), source: z.string(), retrieved: z.string() }).optional(),
   // A part of a big city (east, center, west), so a day can stay in one part. Optional: only where it is curated.
   zone: z.string().optional(),
+  // The name in the local language, when it differs (Tháp Tam Thắng), so a traveler can read it on a sign or a map.
+  nameLocal: z.string().optional(),
+  // One photo from Wikimedia Commons (CC BY, CC BY-SA, CC0 or public domain): the file name, its page, who took it, its license.
+  image: z.object({ file: z.string(), pageUrl: z.url(), author: z.string(), license: z.string() }).optional(),
   category: z.enum(CATEGORIES),
   interests: z.array(z.enum(INTERESTS)).min(1),
   durationMinutes: z.number().int().positive(),

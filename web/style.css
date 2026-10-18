@@ -641,3 +641,15 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 .bchip.linked:hover { background: rgba(255, 255, 255, .14); border-color: rgba(255, 255, 255, .28); }
 .brands.app-links { gap: 4px 14px; margin-top: 0; }
 .brands.app-links .s-map { margin-top: 0; }
+
+/* ---------- Places near the traveler: a tile each, with a credited photo ---------- */
+.hls { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--s-12); }
+.hl { display: grid; grid-template-rows: auto 1fr; border-radius: var(--r-16); background: var(--d-inner); overflow: hidden; }
+.hl .ph { position: relative; aspect-ratio: 16 / 10; background: rgba(255, 255, 255, .04); }
+.hl .ph img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.hl .ph-credit { position: absolute; left: 0; right: 0; bottom: 0; padding: var(--s-6) var(--s-12); font-size: 11px; color: rgba(255, 255, 255, .85); text-decoration: none; background: linear-gradient(transparent, rgba(0, 0, 0, .7)); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hl-b { padding: var(--s-12) var(--s-16) var(--s-16); display: grid; gap: var(--s-4); align-content: start; }
+.hl .s-d { font-size: var(--t-footnote); color: var(--d-ink-2); line-height: 1.45; }
+.hl .s-local { font-size: var(--t-caption); color: var(--d-ink-2); }
+.hl .ph-km { display: inline-block; margin-right: var(--s-8); padding: 1px var(--s-8); border-radius: 999px; background: rgba(41, 151, 255, .18); color: #9fd0ff; letter-spacing: .02em; text-transform: none; }
+.cards > .k-places { grid-column: 1 / -1; }

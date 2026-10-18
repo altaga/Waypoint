@@ -31,7 +31,7 @@ export const icon = (name) => `<span class="ico">${ICON[name] || ""}</span>`;
 
 const L = {
   en: {
-    source: "Source", rateOf: "rate of", rateLive: "live, the provider updates it daily", rateCopy: "saved copy, not live", verified: "verified", checked: "sources checked", notReviewed: "compiled by us, not yet reviewed by a person", reviewed: "reviewed by a person", confidence: "confidence", level: { low: "low", medium: "medium", high: "high" }, visaFree: "No visa needed", upTo: (d) => `stays up to ${d} days`,
+    source: "Source", photo: "Photo", rateOf: "rate of", rateLive: "live, the provider updates it daily", rateCopy: "saved copy, not live", verified: "verified", checked: "sources checked", notReviewed: "compiled by us, not yet reviewed by a person", reviewed: "reviewed by a person", confidence: "confidence", level: { low: "low", medium: "medium", high: "high" }, visaFree: "No visa needed", upTo: (d) => `stays up to ${d} days`,
     entry: "Entry", rules: "Local rules", budget: "Budget", ppp: "Goes as far as", essentials: "Essentials",
     currency: "Currency", plugs: "Plugs", emergency: "Emergency", languages: "Language", packing: "Packing list",
     packed: (a, b) => `${a} of ${b} packed`, doNotPack: "Do not pack", plan: "Day plan", free: "Free day",
@@ -42,7 +42,7 @@ const L = {
     nothing: "Nothing pending", calendar: "Add to calendar", share: "Share brief", copied: "Copied", panel: "View panel", autopilot: "Get me ready",
   },
   es: {
-    source: "Fuente", rateOf: "tasa del", rateLive: "en vivo, el proveedor la actualiza a diario", rateCopy: "copia guardada, no en vivo", verified: "verificado", checked: "fuentes consultadas", notReviewed: "compilado por nosotros, sin revisión humana", reviewed: "revisado por una persona", confidence: "confianza", level: { low: "baja", medium: "media", high: "alta" }, visaFree: "Sin visa", upTo: (d) => `estancias de hasta ${d} días`,
+    source: "Fuente", photo: "Foto", rateOf: "tasa del", rateLive: "en vivo, el proveedor la actualiza a diario", rateCopy: "copia guardada, no en vivo", verified: "verificado", checked: "fuentes consultadas", notReviewed: "compilado por nosotros, sin revisión humana", reviewed: "revisado por una persona", confidence: "confianza", level: { low: "baja", medium: "media", high: "alta" }, visaFree: "Sin visa", upTo: (d) => `estancias de hasta ${d} días`,
     entry: "Entrada", rules: "Reglas locales", budget: "Presupuesto", ppp: "Rinde como", essentials: "Básicos",
     currency: "Moneda", plugs: "Enchufes", emergency: "Emergencias", languages: "Idioma", packing: "Lista de equipaje",
     packed: (a, b) => `${a} de ${b} empacados`, doNotPack: "No llevar", plan: "Plan de días", free: "Día libre",
@@ -328,8 +328,29 @@ function appsCard(sc, lang) {
   return `<article class="card wide"><header class="ch"><h2>${esc(card.title || "")}</h2>${card.subtitle ? `<div class="sub">${esc(card.subtitle)}</div>` : ""}</header>${rows}${sourceLine(sc, lang)}</article>`;
 }
 
+// Places near the traveler (or in a country): a tile each, with the photo when the list has one (Wikimedia Commons, credited),
+// the distance, the suggested hours' source and the links. Without place data the generic list card is used.
+function highlightsCard(sc, lang) {
+  const places = sc.data?.places || [];
+  if (!places.length) return genericCard(sc.card || {}, sc, lang, "get_highlights");
+  const w = words(lang);
+  const card = sc.card || {};
+  const tiles = places
+    .map((p) => {
+      const img = p.image && safeUrl(p.image.url) ? p.image : null;
+      const credit = img ? `<a class="ph-credit" href="${esc(safeUrl(img.pageUrl) || "#")}" target="_blank" rel="noopener noreferrer">${esc(w.photo)}: ${esc(img.author)} · ${esc(img.license)}</a>` : "";
+      const photo = img ? `<div class="ph"><img src="${esc(img.url)}" alt="${esc(p.name)}" loading="lazy" referrerpolicy="no-referrer">${credit}</div>` : "";
+      const away = p.distanceKm != null ? `<span class="ph-km">${esc(p.distanceKm)} km</span>` : "";
+      const local = p.nameLocal && p.nameLocal !== p.name ? `<div class="s-local">${esc(p.nameLocal)}</div>` : "";
+      return `<li class="hl">${photo}<div class="hl-b"><div class="s-k">${away}${esc(p.area)}</div><div class="s-v">${esc(p.name)}</div>${local}<div class="s-d">${esc(p.desc)}</div>${hoursBlock(p, w, lang)}${linksBlock(p, w)}</div></li>`;
+    })
+    .join("");
+  return `<article class="card wide k-places"><header class="ch"><h2>${esc(card.title || "")}</h2>${card.subtitle ? `<div class="sub">${esc(card.subtitle)}</div>` : ""}</header><ul class="hls">${tiles}</ul>${sourceLine(sc, lang)}</article>`;
+}
+
 const RENDER = {
   get_local_apps: appsCard,
+  get_highlights: highlightsCard,
   check_entry_requirements: entryCard,
   get_local_rules: rulesCard,
   get_trip_climate: climateCard,

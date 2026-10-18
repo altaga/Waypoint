@@ -293,6 +293,19 @@ async function locateMe() {
   if (currentBrief) $("hero").innerHTML = heroHtml(currentBrief, lang, true);
   const line = whereLine(lang, near, currentBrief?.destinationName);
   bubble("assistant", line);
+  // What is around the traveler, from the list (closest first, with a photo where there is one).
+  if (near && client) {
+    try {
+      const r = await client.callTool("get_highlights", { destination: near.iso, near: { lat: myPos.lat, lon: myPos.lon }, radiusKm: 40, limit: 6 });
+      const sc = r.structuredContent;
+      if (sc && !r.isError && sc.data?.places?.length) {
+        $("stage").classList.add("active");
+        $("headline").textContent = sc.voice;
+        $("cards").innerHTML = renderTool("get_highlights", sc, lang);
+        bubble("assistant", sc.voice);
+      }
+    } catch {}
+  }
   const box = $("chips");
   box.innerHTML = "";
   for (const [label, yes] of [[t("locYes"), true], [t("locNo"), false]]) {
