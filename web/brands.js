@@ -3,6 +3,7 @@
 // switch is on) next to the name. Names are found in the text of a card; nothing is guessed from the picture.
 // The marks (web/brand-icons.js) are trademarks of their owners and are off by default.
 import { BRAND_ICONS } from "./brand-icons.js";
+import { APP_LINKS } from "./app-links.js";
 
 // [name, kind, pattern, icon]. Patterns are case-sensitive where a lowercase word would be something else
 // ("visa" in an entry, "grab" a coffee). Order matters only for ties at the same position.
@@ -56,10 +57,23 @@ export function brandsIn(text) {
 }
 
 /** One chip: the kind's flat icon, or the brand's own mark when the Logos switch is on (CSS decides which shows). */
+// Where to get the app a chip names: the store of the traveler's phone (App Store on an iPhone, Google Play otherwise),
+// else the other store, else the app's site. https only.
+const isIos = () => typeof navigator !== "undefined" && /iPhone|iPad|iPod/i.test(navigator.userAgent || "");
+export function appUrl(name) {
+  const l = APP_LINKS[String(name).toLowerCase()];
+  if (!l) return "";
+  const order = isIos() ? [l.appStore, l.googlePlay, l.site] : [l.googlePlay, l.appStore, l.site];
+  return order.find((u) => typeof u === "string" && /^https:\/\//.test(u)) || "";
+}
+
 export function brandChip(b) {
   const glyph = `<svg class="g" viewBox="0 0 24 24" aria-hidden="true"><path d="${GLYPH[b.kind]}"/></svg>`;
   const mark = b.icon && BRAND_ICONS[b.icon] ? `<svg class="lg" viewBox="${BRAND_ICONS[b.icon].vb}" aria-hidden="true"><path d="${BRAND_ICONS[b.icon].d}"/></svg>` : `<svg class="lg gl" viewBox="0 0 24 24" aria-hidden="true"><path d="${GLYPH[b.kind]}"/></svg>`;
-  return `<span class="bchip b-${b.kind}">${glyph}${mark}<b>${esc(b.name)}</b></span>`;
+  const url = appUrl(b.name);
+  const inner = `${glyph}${mark}<b>${esc(b.name)}</b>`;
+  // A chip for an app we have a link for opens that app's page (a new tab); the others are plain.
+  return url ? `<a class="bchip b-${b.kind} linked" href="${esc(url)}" target="_blank" rel="noopener noreferrer" title="${esc(b.name)}">${inner}</a>` : `<span class="bchip b-${b.kind}">${inner}</span>`;
 }
 
 /** A row of chips for every brand named in a text, or "" when none is. */

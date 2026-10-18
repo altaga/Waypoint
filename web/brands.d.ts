@@ -3,3 +3,4 @@ export interface Brand { name: string; kind: "ride" | "delivery" | "shop" | "car
 export function brandsIn(text: string): Brand[];
 export function brandChip(b: Brand): string;
 export function brandStrip(text: string, max?: number): string;
+export function appUrl(name: string): string;

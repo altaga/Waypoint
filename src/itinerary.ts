@@ -1,13 +1,15 @@
 import type { HighlightRegistry, Interest, Place } from "./services/highlights.ts";
+import { openWindows } from "./hours.ts";
+import { STYLES, minDays } from "./pace.ts";
 type Pace = "relaxed" | "balanced" | "packed";
 
 // Itinerary verifier. A plan is a list of days, each with place ids from the catalog.
 // Every rule here is deterministic: the concierge's words are never trusted, only ids.
 // A plan with errors is not saved; the reply lists the problems so the plan can be fixed.
 // A day is in one city: Kyoto and Osaka in the same day is two days of travel, not one plan.
-// Moving between cities costs most of a day, so a plan that moves needs at least two days in each city, and the
-// first day in a new city has at most two stops. With fewer days or places, the plan stays in one city.
-export const MIN_DAYS_PER_CITY = 2;
+// Moving between cities costs most of a day, so a plan that moves needs the city's minimum days at the traveler's pace
+// (see pace.ts) in each city, and the first day in a new city has at most two stops. With fewer days or places, the
+// plan stays in one city.
 export const MAX_ARRIVAL_STOPS = 2;
 
 export const MAX_STOPS: Record<Pace, number> = { relaxed: 2, balanced: 3, packed: 4 };
@@ -42,8 +44,11 @@ export function verifyPlan(input: {
   highlights: HighlightRegistry;
   /** Place ids already planned on days this plan does not replace: they may not appear again. */
   takenPlaces?: string[];
+  /** The city a place belongs to for planning (the nearest city of the country); the place's own city when absent. */
+  cityOf?: (p: Place) => string;
 }): VerifyResult {
   const { plan, stayDays, destinationIso, pace, avoid, highlights, takenPlaces = [] } = input;
+  const cityOf = input.cityOf ?? ((p: Place) => p.city);
   const violations: Violation[] = [];
   const warnings: string[] = [];
   const seenDays = new Set<number>();
@@ -84,9 +89,9 @@ export function verifyPlan(input: {
       if (clash.length) {
         violations.push({ day: d.day, code: "avoided_interest", placeId: id, message: `"${id}" is tagged ${clash.join(", ")}, which the traveler avoids` });
       }
-      if (dayCity === null) dayCity = hit.place.city;
-      else if (hit.place.city !== dayCity) {
-        violations.push({ day: d.day, code: "mixed_cities", placeId: id, message: `"${id}" is in ${hit.place.city}, but day ${d.day} is in ${dayCity}: plan one city a day` });
+      if (dayCity === null) dayCity = cityOf(hit.place);
+      else if (cityOf(hit.place) !== dayCity) {
+        violations.push({ day: d.day, code: "mixed_cities", placeId: id, message: `"${id}" is in ${cityOf(hit.place)}, but day ${d.day} is in ${dayCity}: plan one city a day` });
       }
       if (hit.place.admission) warnings.push(hit.place.admission);
       places.push(hit.place);
@@ -101,15 +106,20 @@ export function verifyPlan(input: {
   const planned = resolved.filter((r) => r.places.length).sort((a, b) => a.day - b.day);
   const blocks: { city: string; days: typeof planned }[] = [];
   for (const r of planned) {
-    const city = r.places[0].city;
+    const city = cityOf(r.places[0]);
     const last = blocks[blocks.length - 1];
     if (last && last.city === city) last.days.push(r);
     else blocks.push({ city, days: [r] });
   }
   if (blocks.length > 1) {
+    // The least days a city needs at this pace: from all the places the list has in it (not only the planned ones).
+    const pack = highlights.forCountry(destinationIso);
+    const minutesIn = (city: string) => (pack?.places ?? []).filter((p) => cityOf(p) === city).reduce((m, p) => m + p.durationMinutes, 0);
+    const need = (city: string) => Math.max(STYLES[pace].floor, minDays(minutesIn(city), pace));
     blocks.forEach((b, i) => {
-      if (b.days.length < MIN_DAYS_PER_CITY) {
-        violations.push({ day: b.days[0].day, code: "short_stay", message: `day ${b.days[0].day} is the only day in ${b.city}: moving between cities takes most of a day, so plan at least ${MIN_DAYS_PER_CITY} days in each city, or stay in one` });
+      const least = need(b.city);
+      if (b.days.length < least) {
+        violations.push({ day: b.days[0].day, code: "short_stay", message: `${b.city} has ${b.days.length} day${b.days.length > 1 ? "s" : ""} at a ${STYLES[pace].en} pace: moving between cities takes most of a day, so a city needs at least ${least} days (Waypoint's estimate), or stay in one city` });
       }
       if (i > 0 && b.days[0].places.length > MAX_ARRIVAL_STOPS) {
         violations.push({ day: b.days[0].day, code: "arrival_day_busy", message: `day ${b.days[0].day} is the first day in ${b.city}: after the trip there, plan at most ${MAX_ARRIVAL_STOPS} stops` });
@@ -126,11 +136,14 @@ const hhmm = (m: number) => `${String(Math.floor(m / 60)).padStart(2, "0")}:${St
 /**
  * A time for each stop of one day, in the order given: the day starts at 09:00, each stop lasts its duration plus
  * 30 minutes to get to the next, and there is an hour for lunch once the morning is over. A stop tagged nightlife is
- * placed in the evening (from 18:30). These are suggestions from the stops' durations, not opening hours: the
- * traveler checks the hours of each place (see mapsUrl).
+ * placed in the evening (from 18:30). When a place has opening hours that this module can read and a date is given,
+ * the start moves to its opening time, and the stop says if the place is closed that day or the visit ends after it
+ * closes. These are suggestions from the stops' durations and the hours public data gives, not a promise: the traveler
+ * checks the hours of each place (see mapsUrl).
  */
-export function suggestTimes(places: Place[]): { start: string; end: string }[] {
-  const out: { start: string; end: string }[] = new Array(places.length);
+export type HoursState = "open" | "closed" | "outside" | "unknown";
+export function suggestTimes(places: Place[], date?: string): { start: string; end: string; hours: HoursState }[] {
+  const out: { start: string; end: string; hours: HoursState }[] = new Array(places.length);
   const run = (idx: number[], startAt: number, lunch: boolean) => {
     let t = startAt;
     let ate = !lunch;
@@ -140,7 +153,18 @@ export function suggestTimes(places: Place[]): { start: string; end: string }[] 
         ate = true;
       }
       const dur = places[i].durationMinutes;
-      out[i] = { start: hhmm(t), end: hhmm(t + dur) };
+      let hours: HoursState = "unknown";
+      const h = date && places[i].hours ? openWindows(places[i].hours!.text, date) : null;
+      if (h?.known) {
+        if (!h.windows.length) hours = "closed";
+        else {
+          // The first window that is still open at t, or the next one to open; the visit has to end before it closes.
+          const w = h.windows.find(([, close]) => t + dur <= close && t < close) ?? h.windows.find(([open]) => open > t);
+          if (w && w[0] > t) t = w[0];
+          hours = w && t + dur <= w[1] ? "open" : "outside";
+        }
+      }
+      out[i] = { start: hhmm(t), end: hhmm(t + dur), hours };
       t += dur + 30;
     }
   };

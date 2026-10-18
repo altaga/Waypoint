@@ -86,20 +86,28 @@ test("a day with stops in two cities is rejected, naming the stop that does not 
   assert.match(mixed.violations[0].message, /plan one city a day/);
 });
 
-// Moving between cities costs most of a day.
-test("a plan that moves between cities needs two days in each, and few stops on the arrival day", () => {
+// Moving between cities costs most of a day: each city needs its minimum days at the pace.
+test("a plan that moves between cities needs each city's minimum days at the pace, and few stops on the arrival day", () => {
   const cs: Record<string, { place: Place; country: string }> = {};
   for (const [id, city] of [["t1", "Tokyo"], ["t2", "Tokyo"], ["t3", "Tokyo"], ["k1", "Kyoto"], ["k2", "Kyoto"], ["k3", "Kyoto"], ["o1", "Osaka"]] as const) cs[`jp-${id}`] = { place: place(`jp-${id}`, { city }), country: "JP" };
   const reg: HighlightRegistry = { forCountry: () => undefined, place: (id) => cs[id], countries: () => ["JP"] };
-  const v = (plan: { day: number; stops: string[] }[]) => verifyPlan({ ...base, stayDays: 8, highlights: reg, plan }).violations.map((x) => [x.code, x.day]);
-  // Tokyo, Tokyo, Kyoto, Osaka: one day in Kyoto and one in Osaka.
-  assert.deepEqual(v([{ day: 1, stops: ["jp-t1"] }, { day: 2, stops: ["jp-t2"] }, { day: 3, stops: ["jp-k1"] }, { day: 4, stops: ["jp-o1"] }]), [["short_stay", 3], ["short_stay", 4]]);
-  // Two days in each, and two stops on the arrival day: fine.
-  assert.deepEqual(v([{ day: 1, stops: ["jp-t1"] }, { day: 2, stops: ["jp-t2"] }, { day: 3, stops: ["jp-k1", "jp-k2"] }, { day: 4, stops: ["jp-k3"] }]), []);
+  const v = (pace: "relaxed" | "balanced" | "packed", plan: { day: number; stops: string[] }[]) => verifyPlan({ ...base, pace, stayDays: 8, highlights: reg, plan }).violations.map((x) => [x.code, x.day]);
+  const tokyoTokyoKyotoOsaka = [{ day: 1, stops: ["jp-t1"] }, { day: 2, stops: ["jp-t2"] }, { day: 3, stops: ["jp-k1"] }, { day: 4, stops: ["jp-o1"] }];
+  // Express needs two days in a city: one day in Kyoto and one in Osaka are both too short.
+  assert.deepEqual(v("packed", tokyoTokyoKyotoOsaka), [["short_stay", 3], ["short_stay", 4]]);
+  // Two days in each, two stops on the arrival day: fine at an Express pace.
+  const ok = [{ day: 1, stops: ["jp-t1"] }, { day: 2, stops: ["jp-t2"] }, { day: 3, stops: ["jp-k1", "jp-k2"] }, { day: 4, stops: ["jp-k3"] }];
+  assert.deepEqual(v("packed", ok), []);
+  // The same plan at a Classic pace (three days a city at least) or a Slow one (four) is too short.
+  assert.deepEqual(v("balanced", ok), [["short_stay", 1], ["short_stay", 3]]);
+  assert.deepEqual(v("relaxed", ok), [["short_stay", 1], ["short_stay", 3]]);
   // Three stops on the arrival day.
-  assert.deepEqual(v([{ day: 1, stops: ["jp-t1"] }, { day: 2, stops: ["jp-t2"] }, { day: 3, stops: ["jp-k1", "jp-k2", "jp-k3"] }, { day: 4, stops: ["jp-t3"] }]).map(([c]) => c).sort(), ["arrival_day_busy", "short_stay", "short_stay"].sort());
+  assert.deepEqual(v("packed", [{ day: 1, stops: ["jp-t1"] }, { day: 2, stops: ["jp-t2"] }, { day: 3, stops: ["jp-k1", "jp-k2", "jp-k3"] }, { day: 4, stops: ["jp-t3"] }]).map(([c]) => c).sort(), ["arrival_day_busy", "short_stay", "short_stay"].sort());
   // One city, any number of days: nothing to check.
-  assert.deepEqual(v([{ day: 1, stops: ["jp-t1"] }, { day: 5, stops: ["jp-t2", "jp-t3"] }]), []);
+  assert.deepEqual(v("relaxed", [{ day: 1, stops: ["jp-t1"] }, { day: 5, stops: ["jp-t2", "jp-t3"] }]), []);
+  // The city of a place can come from outside (the nearest city), not only from the place's own field.
+  const byCity = verifyPlan({ ...base, pace: "packed", stayDays: 8, highlights: reg, cityOf: () => "Same", plan: [{ day: 1, stops: ["jp-t1", "jp-k1"] }] });
+  assert.equal(byCity.ok, true);
 });
 
 import { suggestTimes, mapsUrl } from "../src/itinerary.ts";
@@ -108,10 +116,10 @@ import { suggestTimes, mapsUrl } from "../src/itinerary.ts";
 test("a day starts at nine, leaves half an hour between stops and an hour for lunch, and puts nightlife in the evening", () => {
   const stop = (id: string, minutes: number, interests: Place["interests"] = ["sights"]) => place(id, { durationMinutes: minutes, interests });
   const t = suggestTimes([stop("a", 90), stop("b", 120), stop("c", 60), stop("bar", 90, ["nightlife"])]);
-  assert.deepEqual(t[0], { start: "09:00", end: "10:30" });
-  assert.deepEqual(t[1], { start: "11:00", end: "13:00" }, "the second stop starts before noon");
-  assert.deepEqual(t[2], { start: "14:30", end: "15:30" }, "after noon there is an hour for lunch first");
-  assert.deepEqual(t[3], { start: "18:30", end: "20:00" }, "nightlife is in the evening");
+  assert.deepEqual(t[0], { start: "09:00", end: "10:30", hours: "unknown" });
+  assert.deepEqual(t[1], { start: "11:00", end: "13:00", hours: "unknown" }, "the second stop starts before noon");
+  assert.deepEqual(t[2], { start: "14:30", end: "15:30", hours: "unknown" }, "after noon there is an hour for lunch first");
+  assert.deepEqual(t[3], { start: "18:30", end: "20:00", hours: "unknown" }, "nightlife is in the evening");
 });
 
 test("the map link is a search for the place that names its city and country", () => {

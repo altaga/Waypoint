@@ -8,7 +8,7 @@ import { esc, heroHtml, renderTool, tripIcs, words } from "./cards.js";
 import { detectLang } from "./lang.js";
 import { speakable } from "./speech.js";
 import { mountGlobe } from "./globe.js";
-import { askDatesLine, isAutopilot, makeTrip, missionHtml, noTripLine, runMission, tripFromRequest } from "./mission.js";
+import { PACE_NAMES, askDatesLine, askedPace, isAutopilot, makeTrip, missionHtml, noTripLine, runMission, tripFromRequest } from "./mission.js";
 import { freshCalls } from "./turn.js";
 
 const $ = (id) => document.getElementById(id);
@@ -154,6 +154,8 @@ let lang = (() => {
   return (navigator.language || "en").toLowerCase().startsWith("es") ? "es" : "en";
 })();
 let history = [];
+// The pace the last plan used: the chips offer the other two (see renderChips).
+let planPace = null;
 // Tool calls the concierge already made in earlier turns (see web/turn.js).
 const seenCalls = new Set();
 let device = "show";
@@ -234,7 +236,9 @@ async function setLang(next, { refresh = true } = {}) {
 function renderChips() {
   const box = $("chips");
   box.innerHTML = "";
-  for (const text of t(currentBrief ? "chipsTrip" : "chips")) {
+  // After a plan, the other paces come first: one tap makes the plan again at that pace.
+  const paceChips = currentBrief && planPace ? Object.entries(PACE_NAMES).filter(([k]) => k !== planPace).map(([, n]) => (lang === "es" ? `Hazlo ${n.es.toLowerCase()}` : `Make it ${n.en}`)) : [];
+  for (const text of [...paceChips, ...t(currentBrief ? "chipsTrip" : "chips")]) {
     const b = document.createElement("button");
     b.type = "button";
     b.className = "chip";
@@ -742,7 +746,7 @@ async function runAutopilot(req) {
     return;
   }
   if (req.use === "create") {
-    const made = await makeTrip(client, req.trip);
+    const made = await makeTrip(client, req.trip, req.pace);
     if (made.answer) return renderResult(made.answer, "plan_trip");
     // The trip opens its MCP App panel from the hero's button, as a typed plan does (renderResult sets the same link).
     const uri = made.plan._meta?.ui?.resourceUri;
@@ -766,7 +770,11 @@ async function runAutopilot(req) {
   // Only the device's own screen scrolls: the page behind it stays where it is.
   const stage = $("stage");
   stage.scrollTo({ top: stage.scrollTop + root.getBoundingClientRect().top - stage.getBoundingClientRect().top - 12, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
-  const res = await runMission({ client, lang, brief: currentBrief, root });
+  // A pace asked for on a trip that is already there is saved first, and the plan is made again at that pace.
+  if (req.use === "current" && req.pace) await client.callTool("update_traveler_profile", { pace: req.pace });
+  const res = await runMission({ client, lang, brief: currentBrief, root, replan: Boolean(req.pace) && req.use === "current" });
+  const profile = await client.callTool("get_traveler_profile", {}).catch(() => null);
+  planPace = profile?.structuredContent?.data?.profile?.pace || "balanced";
   setLight("idle");
   $("headline").textContent = res.voice;
   bubble("assistant", res.voice);
@@ -788,7 +796,9 @@ async function handleUtterance(text) {
   setThinking(true);
   try {
     // Dates for a place the browser does not know go to the concierge below, which can resolve any country.
-    const request = isAutopilot(text) ? tripFromRequest(text, currentBrief?.destination) : null;
+    // "Make it express" on a trip that is there asks for the same plan at another pace.
+    const wantedPace = !isAutopilot(text) && currentBrief ? askedPace(text) : null;
+    const request = wantedPace ? { use: "current", pace: wantedPace } : isAutopilot(text) ? tripFromRequest(text, currentBrief?.destination) : null;
     if (request && request.use !== "unknown") {
       history.push({ role: "user", text });
       await runAutopilot(request);
@@ -934,6 +944,7 @@ function bindUi() {
     await client?.close();
     history = [];
     seenCalls.clear();
+    planPace = null;
     $("stage").classList.remove("active");
     // The MCP App's message listener belongs to the old session: remove it with the panel.
     unmountApp?.();

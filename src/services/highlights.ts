@@ -19,6 +19,14 @@ export const Place = z.object({
   name: z.string(),
   area: z.string(),
   city: z.string(),
+  // What public data says about the place: Wikidata (id, official website, coordinates, phone) and OpenStreetMap
+  // (opening hours, in its opening_hours syntax). Each is present only when a source gave it.
+  wikidata: z.string().regex(/^Q\d+$/).optional(),
+  website: z.url().optional(),
+  lat: z.number().min(-90).max(90).optional(),
+  lon: z.number().min(-180).max(180).optional(),
+  phone: z.string().optional(),
+  hours: z.object({ text: z.string(), source: z.string(), retrieved: z.string() }).optional(),
   // A part of a big city (east, center, west), so a day can stay in one part. Optional: only where it is curated.
   zone: z.string().optional(),
   category: z.enum(CATEGORIES),

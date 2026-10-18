@@ -17,6 +17,7 @@ import { PLAN_DASHBOARD_URI } from "./resources.ts";
 import { itemTerms } from "./items.ts";
 import { INTERESTS, type Interest } from "./services/highlights.ts";
 import { mapsUrl, suggestTimes, verifyPlan, type Violation } from "./itinerary.ts";
+import { STYLES, cityStays, stayCity } from "./pace.ts";
 import { tripClimate, type TripClimate } from "./services/climate.ts";
 
 type Locale = "en" | "es";
@@ -1087,8 +1088,10 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           data: {
             country: dest,
             curated,
+            // The cities of the list and the least days each needs at each pace (Waypoint's estimate from the places it has).
+            cities: cityStays(pack.places, ctx.world.cities, dest),
             // descSource says where the description came from; article links to the Wikipedia article it was taken from (CC BY-SA 4.0).
-            places: ranked.map((p) => ({ id: p.id, name: p.name, area: p.area, city: p.city, ...(p.zone ? { zone: p.zone } : {}), category: p.category, interests: p.interests, durationMinutes: p.durationMinutes, mapsUrl: mapsUrl(p.name, p.city, countryName(dest, "en")), desc: p.desc[locale], descSource: p.descBy?.[locale] ?? "curated", article: p.ground?.[locale] ?? null, admission: p.admission ?? null })),
+            places: ranked.map((p) => ({ id: p.id, name: p.name, area: p.area, city: p.city, stayCity: stayCity(p, ctx.world.cities, dest), ...(p.zone ? { zone: p.zone } : {}), category: p.category, interests: p.interests, durationMinutes: p.durationMinutes, mapsUrl: mapsUrl(p.name, p.city, countryName(dest, "en")), website: p.website ?? null, hours: p.hours?.text ?? null, hoursSource: p.hours?.source ?? null, phone: p.phone ?? null, ...(p.lat != null && p.lon != null ? { lat: p.lat, lon: p.lon } : {}), desc: p.desc[locale], descSource: p.descBy?.[locale] ?? "curated", article: p.ground?.[locale] ?? null, admission: p.admission ?? null })),
           },
           followUps: [pick(locale, "Build my day plan with these?", "¿Armo mi plan de días con estos?")],
         });
@@ -1161,6 +1164,8 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
       inputSchema: {
         tripId: z.string().optional(),
         day: z.number().int().positive().optional(),
+        // true: the plan replaces the whole saved itinerary (a new pace), not only the days it names.
+        replace: z.boolean().optional(),
         plan: z
           .array(
             z.object({
@@ -1190,11 +1195,11 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
 
         if (args.plan?.length) {
           // Places planned on the days this plan does not replace still count, so a place cannot repeat across days.
-          const replaced = new Set(args.plan.map((d) => d.day));
+          const replaced = new Set(args.replace ? (trip.itinerary ?? []).map((d) => d.day).concat(args.plan.map((d) => d.day)) : args.plan.map((d) => d.day));
           const takenPlaces = (trip.itinerary ?? []).filter((d) => !replaced.has(d.day)).flatMap((d) => d.stops);
-          verdict = verifyPlan({ plan: args.plan, stayDays: stay, destinationIso: dest, pace: profile.pace, avoid, highlights: ctx.highlights, takenPlaces });
+          verdict = verifyPlan({ plan: args.plan, stayDays: stay, destinationIso: dest, pace: profile.pace, avoid, highlights: ctx.highlights, takenPlaces, cityOf: (p) => stayCity(p, ctx.world.cities, dest) });
           if (verdict.ok) {
-            const byDay = new Map((trip.itinerary ?? []).map((d) => [d.day, d]));
+            const byDay = new Map((args.replace ? [] : (trip.itinerary ?? [])).map((d) => [d.day, d]));
             for (const d of args.plan) byDay.set(d.day, { day: d.day, date: dateOf(d.day), title: d.title, stops: d.stops });
             trip.itinerary = [...byDay.values()].sort((x, y) => x.day - y.day);
             await save(state);
@@ -1203,7 +1208,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
 
         // Without a new plan, the saved days are checked again: a new pace or an avoided interest can break them.
         const stale = !verdict && (trip.itinerary ?? []).some((d) => d.stops.length)
-          ? verifyPlan({ plan: (trip.itinerary ?? []).map((d) => ({ day: d.day, title: d.title, stops: d.stops })), stayDays: stay, destinationIso: dest, pace: profile.pace, avoid, highlights: ctx.highlights })
+          ? verifyPlan({ plan: (trip.itinerary ?? []).map((d) => ({ day: d.day, title: d.title, stops: d.stops })), stayDays: stay, destinationIso: dest, pace: profile.pace, avoid, highlights: ctx.highlights, cityOf: (p) => stayCity(p, ctx.world.cities, dest) })
           : null;
         const staleProblem = stale && !stale.ok ? stale.violations[0] : null;
         const reported = verdict ?? stale;
@@ -1236,6 +1241,19 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         } else {
           voice = pick(locale, `Your plan covers ${planned} of ${stay} days.${planned < stay ? ` Do you want the other ${stay - planned} days free?` : ""}`, `Tu plan cubre ${planned} de ${stay} días.${planned < stay ? ` ¿Quieres dejar libres los otros ${stay - planned} días?` : ""}`);
         }
+        // A stop whose hours (public data) say it is closed that day, or that the visit would end after closing.
+        const shut = selected.flatMap((d) => {
+          const t = suggestTimes(d.places, d.date);
+          return d.places.flatMap((p, i) => (t[i].hours === "closed" || t[i].hours === "outside" ? [{ day: d.day, name: p.name, state: t[i].hours }] : []));
+        });
+        if (shut.length) {
+          const first = shut[0];
+          voice += pick(
+            locale,
+            ` Check ${shut.length > 1 ? `${shut.length} stops` : first.name}: ${shut.length > 1 ? `for example ${first.name} on day ${first.day}, ` : ""}public hours say ${first.state === "closed" ? "it is closed that day" : "it may be closed at the suggested time"}.`,
+            ` Revisa ${shut.length > 1 ? `${shut.length} paradas` : first.name}: ${shut.length > 1 ? `por ejemplo ${first.name} el día ${first.day}, ` : ""}los horarios públicos dicen que ${first.state === "closed" ? "cierra ese día" : "podría estar cerrado a la hora sugerida"}.`,
+          );
+        }
         if (staleProblem) {
           voice += pick(locale, ` Your saved plan no longer fits your settings: ${violationText(staleProblem, locale, placeName)}.`, ` Tu plan guardado ya no cumple tus ajustes: ${violationText(staleProblem, locale, placeName)}.`);
         }
@@ -1253,7 +1271,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             })),
           },
           data: {
-            days: selected.map((d) => { const times = suggestTimes(d.places); return { day: d.day, date: d.date, title: d.title, stops: d.places.map((p, i) => ({ id: p.id, name: p.name, area: p.area, category: p.category, desc: p.desc[locale], admission: p.admission ?? null, durationMinutes: p.durationMinutes, start: times[i].start, end: times[i].end, mapsUrl: mapsUrl(p.name, p.city, countryName(dest, "en")) })) }; }),
+            days: selected.map((d) => { const times = suggestTimes(d.places, d.date); return { day: d.day, date: d.date, title: d.title, stops: d.places.map((p, i) => ({ id: p.id, name: p.name, area: p.area, category: p.category, desc: p.desc[locale], admission: p.admission ?? null, durationMinutes: p.durationMinutes, start: times[i].start, end: times[i].end, hoursState: times[i].hours, hours: p.hours?.text ?? null, hoursSource: p.hours ? p.hours.source : null, website: p.website ?? null, phone: p.phone ?? null, mapsUrl: mapsUrl(p.name, p.city, countryName(dest, "en")) })) }; }),
             pace: profile.pace,
             planned,
             stay,
@@ -1435,7 +1453,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             ),
             rows,
           },
-          data: { destination: dest, listed: listed.map((a) => a.id), unverified: unverified.map((a) => a.id), notListed: apps.filter((a) => a.status === "not_listed").map((a) => a.id) },
+          data: { destination: dest, apps: listed.map((a) => ({ id: a.id, name: a.name, tier: a.tier, status: statusText(a), links: ctx.appLinks.get(a.name) ?? null })), listed: listed.map((a) => a.id), unverified: unverified.map((a) => a.id), notListed: apps.filter((a) => a.status === "not_listed").map((a) => a.id) },
           sources: apps.map((a) => ({
             id: `src:apps:${a.id}`,
             title: a.source.title,

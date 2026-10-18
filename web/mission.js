@@ -28,7 +28,7 @@ const WORDS = {
     // The weather is left out when that step failed: a missing number must not be read out.
     summary: (s) => {
       const weather = s.hi == null ? "" : ` The usual weather for those dates is around ${s.hi} and ${s.lo} degrees.`;
-      return `Done. I checked entry for ${s.travelers} passports and ${s.rules} local rules.${weather} ${s.days ? `I planned ${s.days} days and packed` : "I packed"} a list of ${s.items} items. You're ${s.readiness}% ready.${s.needs ? ` ${s.needs} still needs paperwork.` : ""}${s.days && s.stay > s.days ? ` Do you want the other ${s.stay - s.days} days free?` : ""}`;
+      return `Done. I checked entry for ${s.travelers} passports and ${s.rules} local rules.${weather} ${s.days ? `I planned ${s.days} days and packed` : "I packed"} a list of ${s.items} items. You're ${s.readiness}% ready.${s.needs ? ` ${s.needs} still needs paperwork.` : ""}${paceLine(s, "en")}`;
     },
   },
   es: {
@@ -53,14 +53,56 @@ const WORDS = {
     askDates: "Dime las fechas de ese viaje y yo preparo todo.",
     summary: (s) => {
       const weather = s.hi == null ? "" : ` El clima habitual para esas fechas ronda los ${s.hi} y ${s.lo} grados.`;
-      return `Listo. Revisé la entrada de ${s.travelers} pasaportes y ${s.rules} reglas locales.${weather} ${s.days ? `Planeé ${s.days} días y armé` : "Armé"} una maleta de ${s.items} cosas. Vas ${s.readiness}% listo.${s.needs ? ` A ${s.needs} le falta un trámite de entrada.` : ""}${s.days && s.stay > s.days ? ` ¿Quieres dejar libres los otros ${s.stay - s.days} días?` : ""}`;
+      return `Listo. Revisé la entrada de ${s.travelers} pasaportes y ${s.rules} reglas locales.${weather} ${s.days ? `Planeé ${s.days} días y armé` : "Armé"} una maleta de ${s.items} cosas. Vas ${s.readiness}% listo.${s.needs ? ` A ${s.needs} le falta un trámite de entrada.` : ""}${paceLine(s, "es")}`;
     },
   },
 };
 
+// The pace used, how many days the main city needs at it, and one question: the free days when places ran out,
+// otherwise whether to change the pace.
+function paceLine(s, lang) {
+  if (!s.days) return "";
+  const n = PACE_NAMES[s.pace] || PACE_NAMES.balanced;
+  const name = lang === "es" ? n.es : n.en;
+  const others = Object.entries(PACE_NAMES).filter(([k]) => k !== s.pace).map(([, v]) => (lang === "es" ? v.es : v.en));
+  const short = s.mainMin && s.stay < s.mainMin;
+  if (lang === "es") {
+    const base = ` Lo planeé a ritmo ${name}.${short ? ` A ese ritmo ${s.mainCity} necesita al menos ${s.mainMin} días (estimación nuestra) y tienes ${s.stay}.` : ""}`;
+    return base + (s.stay > s.days ? ` ¿Quieres dejar libres los otros ${s.stay - s.days} días?` : ` ¿Lo prefieres ${others.join(" o ")}?`);
+  }
+  const base = ` I planned it at a ${name} pace.${short ? ` At this pace ${s.mainCity} needs at least ${s.mainMin} days (our estimate) and you have ${s.stay}.` : ""}`;
+  return base + (s.stay > s.days ? ` Do you want the other ${s.stay - s.days} days free?` : ` Would you like it ${others.join(" or ")}?`);
+}
+
 const words = (lang) => WORDS[lang === "es" ? "es" : "en"];
 const fold = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
 const listOf = (names, lang) => (names.length < 2 ? names.join("") : `${names.slice(0, -1).join(", ")} ${lang === "es" ? "y" : "and"} ${names[names.length - 1]}`);
+
+// The three paces, by the names people choose from and the words they use for them.
+export const PACE_NAMES = { packed: { en: "Express", es: "Exprés" }, balanced: { en: "Classic", es: "Clásico" }, relaxed: { en: "Slow", es: "Pausado" } };
+const PACE_WORDS = [
+  ["packed", /\b(express|expres|rapido|apurado|con prisa|in a hurry|fast[- ]paced|packed)\b/],
+  ["relaxed", /\b(slow|pausado|lento|tranquilo|sin prisa|relajado|relaxed|take it easy|easygoing)\b/],
+  ["balanced", /\b(classic|clasico|balanceado|equilibrado|balanced)\b/],
+];
+/** The pace a text asks for ("make it express", "ritmo pausado"), or null. */
+export function paceFromText(text) {
+  const t = fold(text);
+  for (const [pace, re] of PACE_WORDS) if (re.test(t)) return pace;
+  return null;
+}
+
+/**
+ * The pace a message asks for on its own ("make it express", "ritmo pausado", or just "Slow"): a pace word with a
+ * lead phrase, or a message of at most three words. A pace word inside a longer question is not a request.
+ */
+export function askedPace(text) {
+  const pace = paceFromText(text);
+  if (!pace) return null;
+  const t = fold(text).trim();
+  const lead = /\b(make it|hazlo|ponlo|dejalo|quiero|i want|i'd like|i would like|prefiero|prefer|mejor|ritmo|pace|rhythm|set it)\b/.test(t);
+  return lead || t.split(/\s+/).length <= 3 ? pace : null;
+}
 
 /** True when the traveler asks the host to get the whole trip ready. */
 export function isAutopilot(text) {
@@ -84,16 +126,19 @@ export function askDatesLine(lang) {
 export function tripFromRequest(text, currentDestination) {
   const destination = findDestination(text);
   const dates = findDates(text);
-  if (!destination) return dates ? { use: "unknown" } : { use: "current" };
-  if (dates) return { use: "create", trip: { destination, ...dates } };
-  return destination === currentDestination ? { use: "current" } : { use: "ask" };
+  const pace = paceFromText(text);
+  if (!destination) return dates ? { use: "unknown" } : { use: "current", ...(pace ? { pace } : {}) };
+  if (dates) return { use: "create", trip: { destination, ...dates }, ...(pace ? { pace } : {}) };
+  return destination === currentDestination ? { use: "current", ...(pace ? { pace } : {}) } : { use: "ask" };
 }
 
 /**
  * Creates the trip and reads its brief back. When the server makes no trip (a traveler without a
  * passport, a date that cannot be used) its answer is returned instead, so the host can show it.
  */
-export async function makeTrip(client, trip) {
+export async function makeTrip(client, trip, pace) {
+  // The pace the traveler asked for is saved first: the plan is made and checked at that pace.
+  if (pace) await client.callTool("update_traveler_profile", { pace });
   const made = await client.callTool("plan_trip", trip);
   if (made.isError || made.structuredContent?.missingFields?.length) return { answer: made };
   const brief = await client.callTool("trip_brief", {});
@@ -155,63 +200,98 @@ const INTERESTS = new Set(["food", "museums", "nature", "temples", "history", "s
 const MAX_MINUTES = 600;
 // The most days the autopilot plans on its own (two weeks); what the places cannot fill stays open, and is said.
 const MAX_PLAN_DAYS = 14;
-// A trip shorter than this stays in one city: in two weeks Tokyo alone is a full trip.
-const MIN_STAY_TO_MOVE = 15;
+
+// How many places a day holds at each pace, and the pace's name for the minimum-days table (see src/pace.ts).
+const PACE = { relaxed: { perDay: 2, key: "slow", floor: 4 }, balanced: { perDay: 3, key: "classic", floor: 3 }, packed: { perDay: 4, key: "express", floor: 2 } };
+export const paceKey = (pace) => (PACE[pace] || PACE.balanced).key;
+
+const hav = (a, b) => {
+  const r = Math.PI / 180;
+  const x = Math.sin(((b.lat - a.lat) * r) / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(((b.lon - a.lon) * r) / 2) ** 2;
+  return 12742 * Math.asin(Math.sqrt(x));
+};
+
+/** The places of one city in walking order: each next place is the nearest one left (by coordinates), else by area. */
+function inOrder(list) {
+  if (list.length > 1 && list.every((p) => p.lat != null && p.lon != null)) {
+    const left = [...list];
+    const out = [left.shift()]; // the first is the one the traveler likes most
+    while (left.length) {
+      const last = out[out.length - 1];
+      let best = 0;
+      for (let i = 1; i < left.length; i++) if (hav(last, left[i]) < hav(last, left[best])) best = i;
+      out.push(left.splice(best, 1)[0]);
+    }
+    return out;
+  }
+  const nest = (items, key) => {
+    const m = new Map();
+    for (const p of items) {
+      const k = key(p);
+      if (!m.has(k)) m.set(k, []);
+      m.get(k).push(p);
+    }
+    return [...m.values()];
+  };
+  return nest(list, (p) => p.zone || "").flatMap((zone) => nest(zone, (p) => p.area || "").flat());
+}
+
+/** n places over k days as evenly as possible, the smaller days first or last. */
+function evenSizes(n, k, smallFirst) {
+  const base = Math.floor(n / k), extra = n % k;
+  const sizes = Array.from({ length: k }, (_, i) => base + (smallFirst ? (i >= k - extra ? 1 : 0) : i < extra ? 1 : 0));
+  return sizes;
+}
 
 /**
- * Days from the catalog's places. One city a day, and the plan stays in the main city (the one with most places)
- * unless the trip is longer than two weeks: moving between cities costs most of a day, so a second city needs at
- * least two days and its first day has at most two stops. A city with fewer places than that is left out.
+ * Days from the catalog's places, for a pace. One city a day. The plan stays in the main city (the one with most
+ * places) and moves to another only when the trip has the days for both cities' minimums at this pace (`cities` has
+ * them, from the server): moving costs most of a day, so a second city gets at least its minimum, its first day has at
+ * most two stops, and a city with fewer places than its minimum is left out. Within a city, days follow the map:
+ * each place is followed by the nearest one.
  */
-function planFrom(places, stay, pace) {
-  const perDay = pace === "relaxed" ? 2 : pace === "packed" ? 4 : 3;
+function planFrom(places, stay, pace, cities = []) {
+  const st = PACE[pace] || PACE.balanced;
   const days = Math.min(MAX_PLAN_DAYS, Math.max(1, stay || 1));
   const byCity = new Map();
   for (const p of places) {
-    const key = p.city || p.area || "";
+    const key = p.stayCity || p.city || p.area || "";
     if (!byCity.has(key)) byCity.set(key, []);
     byCity.get(key).push(p);
   }
-  const groups = [...byCity.values()].sort((a, b) => b.length - a.length);
+  const groups = [...byCity.entries()].map(([city, list]) => ({ city, list })).sort((a, b) => b.list.length - a.list.length);
+  if (!groups.length) return [];
+  const least = (city) => cities.find((c) => c.city === city)?.minDays?.[st.key] ?? st.floor;
+  const [main, ...others] = groups;
+  // The other cities this trip has room for, each with the days it gets (its minimum, or more if its places need an easier arrival).
+  const chosen = [];
+  let reserve = 0;
+  for (const g of others) {
+    let k = least(g.city);
+    if (g.list.length < k) continue; // not enough places to spend its minimum days
+    while (k < g.list.length && evenSizes(g.list.length, k, true)[0] > 2) k++; // the arrival day has at most two stops
+    if (days >= least(main.city) + reserve + k) {
+      chosen.push({ ...g, k });
+      reserve += k;
+    }
+  }
+  const mainDays = Math.max(1, Math.min(Math.ceil(main.list.length / st.perDay), days - reserve));
   const plan = [];
-  // Cuts one city's places into days of an even size (8 places at 3 a day: 3, 3 and 2), each within the day's hours.
-  const daysOf = (places, limit) => {
-    // Places go together by part of the city and then by area, so a day stays in one part of it (Ueno Park, its
-    // museum and its market); the order inside keeps what the traveler likes first.
-    const nest = (list, key) => {
-      const m = new Map();
-      for (const p of list) {
-        const k = key(p);
-        if (!m.has(k)) m.set(k, []);
-        m.get(k).push(p);
-      }
-      return [...m.values()];
-    };
-    const group = nest(places, (p) => p.zone || "").flatMap((zone) => nest(zone, (p) => p.area || "").flat());
-    const size = Math.ceil(group.length / Math.ceil(group.length / limit));
-    const out = [];
-    let stops = [], minutes = 0;
-    const flush = () => { if (stops.length) out.push(stops); stops = []; minutes = 0; };
-    for (const p of group) {
-      const m = p.durationMinutes || 90;
-      if (stops.length >= size || minutes + m > MAX_MINUTES) flush();
-      stops.push(p);
-      minutes += m;
+  const add = (city, list, sizes) => {
+    const ordered = inOrder(list);
+    let at = 0;
+    // No day holds more than the pace's places: the ones past 8 days of 3 are simply not planned.
+    for (const size of sizes.map((n) => Math.min(n, st.perDay))) {
+      let stops = ordered.slice(at, at + size);
+      at += size;
+      // A day fits in ten hours: the last stops are left out until it does.
+      while (stops.length > 1 && stops.reduce((m, p) => m + (p.durationMinutes || 90), 0) > MAX_MINUTES) stops = stops.slice(0, -1);
+      if (stops.length) plan.push({ day: plan.length + 1, title: city || undefined, stops: stops.map((p) => p.id) });
     }
-    flush();
-    return out;
   };
-  groups.forEach((group, i) => {
-    if (plan.length >= days) return;
-    const cut = daysOf(group, i === 0 ? perDay : Math.min(perDay, 2));
-    // A city we move to needs two days; one that does not fit in the days left is not started.
-    if (i > 0 && ((stay || 0) < MIN_STAY_TO_MOVE || cut.length < 2 || plan.length + cut.length > days)) return;
-    for (const stops of cut) {
-      if (plan.length >= days) break;
-      plan.push({ day: plan.length + 1, title: stops[0].city || undefined, stops: stops.map((p) => p.id) });
-    }
-  });
-  return plan;
+  add(main.city, main.list, evenSizes(main.list.length, mainDays, false));
+  for (const g of chosen) add(g.city, g.list, evenSizes(g.list.length, g.k, true));
+  return plan.slice(0, days);
 }
 
 /**
@@ -243,7 +323,7 @@ function repair(plan, violations) {
  */
 export { planFrom, repair };
 
-export async function runMission({ client, lang, brief, root, minStepMs = MIN_STEP_MS }) {
+export async function runMission({ client, lang, brief, root, minStepMs = MIN_STEP_MS, replan = false }) {
   const w = words(lang);
   const dest = brief.destination;
   const sources = new Set();
@@ -288,7 +368,9 @@ export async function runMission({ client, lang, brief, root, minStepMs = MIN_ST
 
   // 2. Everything that needs only the destination, at once.
   let places = [];
-  const keepPlan = (brief.planned || 0) > 0;
+  let cities = [];
+  // A saved plan is kept, unless the traveler changed the pace: then it is made again.
+  const keepPlan = (brief.planned || 0) > 0 && !replan;
   await phase(
     async () => {
       const r = await call("entry", "check_entry_requirements", { destination: dest });
@@ -341,6 +423,7 @@ export async function runMission({ client, lang, brief, root, minStepMs = MIN_ST
       if (!r) return 0;
       const score = (p) => (p.interests || []).filter((i) => interests.includes(i)).length;
       places = [...(r.sc.data?.places || [])].sort((a, b) => score(b) - score(a));
+      cities = r.sc.data?.cities || [];
       mark(root, "places", "done", w.places(places.length), r.ms);
       return r.ms;
     },
@@ -353,7 +436,7 @@ export async function runMission({ client, lang, brief, root, minStepMs = MIN_ST
         mark(root, "plan", "skip", w.kept(brief.planned), null);
         return 0;
       }
-      let plan = planFrom(places, brief.stay, profile?.pace);
+      let plan = planFrom(places, brief.stay, profile?.pace, cities);
       if (!plan.length) {
         mark(root, "plan", "skip", "", null);
         return 0;
@@ -361,20 +444,24 @@ export async function runMission({ client, lang, brief, root, minStepMs = MIN_ST
       // The server verifies every plan before saving it; what it rejects is dropped and the plan is sent again.
       // Dropping a stop can leave a city with one day, which the next pass drops in turn: up to three passes.
       const rejected = (x) => x?.sc.data?.violations || [];
-      let r = await call("plan", "build_itinerary", { plan });
+      let r = await call("plan", "build_itinerary", { plan, ...(replan ? { replace: true } : {}) });
       let fixes = 0;
       let ms = r?.ms || 0;
       for (let pass = 0; pass < 3 && r && rejected(r).length && plan.length; pass++) {
         fixes += rejected(r).length;
         plan = repair(plan, rejected(r));
         if (!plan.length) break;
-        r = await call("plan", "build_itinerary", { plan });
+        r = await call("plan", "build_itinerary", { plan, ...(replan ? { replace: true } : {}) });
         ms += r?.ms || 0;
       }
       if (!r) return ms;
       const saved = rejected(r).length || !plan.length ? 0 : plan.length;
       facts.days = saved;
       facts.stay = brief.stay;
+      facts.pace = profile?.pace || "balanced";
+      const main = cities[0];
+      facts.mainCity = main?.city;
+      facts.mainMin = main?.minDays?.[paceKey(profile?.pace)];
       mark(root, "plan", saved ? "done" : "err", saved ? `${w.planned(saved)}${fixes ? ` · ${w.fixed(fixes)}` : ""}` : w.failed, ms);
       return ms;
     },

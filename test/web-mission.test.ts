@@ -72,18 +72,28 @@ test("autopilot is asked for in plain words, in both languages", () => {
   }
 });
 
+const cityTable = [
+  { city: "Tokyo", minDays: { express: 3, classic: 6, slow: 8 } },
+  { city: "Kyoto", minDays: { express: 2, classic: 3, slow: 4 } },
+  { city: "Osaka", minDays: { express: 2, classic: 3, slow: 4 } },
+];
+const jp = () => {
+  const tokyo = Array.from({ length: 8 }, (_, i) => ({ id: `t${i}`, city: "Tokyo", durationMinutes: 60 }));
+  const kyoto = Array.from({ length: 4 }, (_, i) => ({ id: `k${i}`, city: "Kyoto", durationMinutes: 60 }));
+  const osaka = [{ id: "o0", city: "Osaka", durationMinutes: 60 }];
+  return [...tokyo, ...kyoto, ...osaka];
+};
+const cityOfId = new Map(jp().map((p) => [p.id, p.city]));
+const cityList = (plan: { stops: string[] }[]) => plan.map((d) => cityOfId.get(d.stops[0]));
+
 test("the plan from the places keeps to the pace, the day's hours and the stay", () => {
   const places = [
     { id: "a", city: "Tokyo", durationMinutes: 240 },
     { id: "b", city: "Tokyo", durationMinutes: 240 },
     { id: "c", city: "Tokyo", durationMinutes: 240 },
-    { id: "d", city: "Kyoto", durationMinutes: 60 },
-    { id: "e", city: "Kyoto", durationMinutes: 60 },
   ];
-  const plan = planFrom(places, 8, "relaxed");
-  // Kyoto has two places, which is one day: moving there for one day is not a plan, so it is left out.
-  assert.deepEqual(plan.map((d) => d.stops), [["a", "b"], ["c"]]);
-  assert.deepEqual(plan.map((d) => d.day), [1, 2]);
+  // Relaxed: two stops a day at most, spread evenly (3 places over 2 days: 2 and 1).
+  assert.deepEqual(planFrom(places, 8, "relaxed").map((d) => d.stops), [["a", "b"], ["c"]]);
   assert.equal(planFrom(places, 1, "packed").length, 1, "a one-day stay gets one day");
   for (const d of planFrom(places, 8, "packed")) {
     const minutes = d.stops.reduce((m, id) => m + (places.find((p) => p.id === id)?.durationMinutes ?? 0), 0);
@@ -91,63 +101,34 @@ test("the plan from the places keeps to the pace, the day's hours and the stay",
   }
 });
 
-test("the plan stays in the main city, and moves only on a trip longer than two weeks with two days for the next city", () => {
-  const tokyo = Array.from({ length: 8 }, (_, i) => ({ id: `t${i}`, city: "Tokyo", durationMinutes: 60 }));
-  const kyoto = Array.from({ length: 4 }, (_, i) => ({ id: `k${i}`, city: "Kyoto", durationMinutes: 60 }));
-  const osaka = [{ id: "o0", city: "Osaka", durationMinutes: 60 }];
-  const all = [...tokyo, ...kyoto, ...osaka];
-  const city = new Map(all.map((p) => [p.id, p.city]));
-  const cities = (stay: number) => planFrom(all, stay, "balanced").map((d) => city.get(d.stops[0]));
-  // Up to two weeks: Tokyo only, even with places in other cities.
-  assert.deepEqual(cities(8), ["Tokyo", "Tokyo", "Tokyo"]);
-  assert.deepEqual(cities(14), ["Tokyo", "Tokyo", "Tokyo"]);
-  // Longer: Tokyo 3, 3, 2, then Kyoto 2, 2 (the arrival day has two stops); Osaka has one place, so no stay there.
-  const long = planFrom(all, 20, "balanced");
-  assert.deepEqual(long.map((d) => d.stops.length), [3, 3, 2, 2, 2]);
-  assert.deepEqual(cities(20), ["Tokyo", "Tokyo", "Tokyo", "Kyoto", "Kyoto"]);
-  for (const d of long) assert.equal(new Set(d.stops.map((id) => city.get(id))).size, 1, `day ${d.day} is in one city`);
+test("the plan stays in the main city, and moves only when the days cover both cities' minimums at the pace", () => {
+  // Express: Tokyo 3 + Kyoto 2 = 5 days, an 8-day trip has room; Osaka has one place, fewer than its minimum, so it is left out.
+  const express = planFrom(jp(), 8, "packed", cityTable);
+  assert.deepEqual(cityList(express), ["Tokyo", "Tokyo", "Kyoto", "Kyoto"]);
+  assert.deepEqual(express.map((d) => d.stops.length), [4, 4, 2, 2]);
+  // Classic: Tokyo 6 + Kyoto 3 = 9 days; with 8 the plan stays in Tokyo, and with 9 it moves.
+  assert.deepEqual(cityList(planFrom(jp(), 8, "balanced", cityTable)), ["Tokyo", "Tokyo", "Tokyo"]);
+  const nine = planFrom(jp(), 9, "balanced", cityTable);
+  assert.deepEqual(cityList(nine), ["Tokyo", "Tokyo", "Tokyo", "Kyoto", "Kyoto", "Kyoto"]);
+  assert.deepEqual(nine.slice(3).map((d) => d.stops.length), [1, 1, 2], "the arrival day in Kyoto has the fewest stops");
+  // Slow: Tokyo 8 + Kyoto 4 = 12 days.
+  assert.deepEqual(new Set(cityList(planFrom(jp(), 11, "relaxed", cityTable))), new Set(["Tokyo"]));
+  assert.ok(cityList(planFrom(jp(), 12, "relaxed", cityTable)).includes("Kyoto"));
+  // Never more than one city in a day, and never a day on a second city shorter than its minimum.
+  for (const d of nine) assert.equal(new Set(d.stops.map((id) => cityOfId.get(id))).size, 1);
+  // Without the table the pace's floor stands in (Express 2, Classic 3, Slow 4 days).
+  assert.deepEqual(cityList(planFrom(jp(), 8, "packed")), ["Tokyo", "Tokyo", "Kyoto", "Kyoto"]);
   const many = Array.from({ length: 80 }, (_, i) => ({ id: `m${i}`, city: "Paris", durationMinutes: 60 }));
-  assert.equal(planFrom(many, 30, "balanced").length, 14, "at most two weeks planned on its own");
+  assert.equal(planFrom(many, 30, "packed").length, 14, "at most two weeks planned on its own");
 });
 
-test("places of the same area are put together, so a day stays in one part of the city", () => {
-  const places = [
-    { id: "a1", city: "Tokyo", area: "Ueno", durationMinutes: 60 },
-    { id: "b1", city: "Tokyo", area: "Shinjuku", durationMinutes: 60 },
-    { id: "a2", city: "Tokyo", area: "Ueno", durationMinutes: 60 },
-    { id: "b2", city: "Tokyo", area: "Shinjuku", durationMinutes: 60 },
-    { id: "a3", city: "Tokyo", area: "Ueno", durationMinutes: 60 },
-    { id: "b3", city: "Tokyo", area: "Shinjuku", durationMinutes: 60 },
-  ];
-  assert.deepEqual(planFrom(places, 5, "balanced").map((d) => d.stops), [["a1", "a2", "a3"], ["b1", "b2", "b3"]]);
-});
-
-test("places go together by part of the city first, then by area", () => {
-  const places = [
-    { id: "w1", city: "Tokyo", zone: "west", area: "Shibuya", durationMinutes: 60 },
-    { id: "e1", city: "Tokyo", zone: "east", area: "Ueno", durationMinutes: 60 },
-    { id: "w2", city: "Tokyo", zone: "west", area: "Shinjuku", durationMinutes: 60 },
-    { id: "e2", city: "Tokyo", zone: "east", area: "Asakusa", durationMinutes: 60 },
-  ];
-  assert.deepEqual(planFrom(places, 3, "relaxed").map((d) => d.stops), [["w1", "w2"], ["e1", "e2"]]);
-});
-
-test("a day alone in its city, or a busy arrival day, is repaired away", () => {
-  const plan = [
-    { day: 1, stops: ["t1", "t2"] },
-    { day: 2, stops: ["t3"] },
-    { day: 3, stops: ["k1", "k2", "k3"] },
-    { day: 4, stops: ["o1"] },
-  ];
-  const fixed = repair(plan, [
-    { day: 3, code: "arrival_day_busy" },
-    { day: 4, code: "short_stay" },
-  ]);
-  assert.deepEqual(fixed.map((d) => d.stops), [["t1", "t2"], ["t3"], ["k1", "k2"]]);
-  assert.deepEqual(fixed.map((d) => d.day), [1, 2, 3]);
-  // One day in each of two cities: the plan keeps the first rather than losing everything.
-  const lone = repair([{ day: 1, stops: ["t1", "t2"] }, { day: 2, stops: ["k1"] }], [{ day: 1, code: "short_stay" }, { day: 2, code: "short_stay" }]);
-  assert.deepEqual(lone.map((d) => d.stops), [["t1", "t2"]]);
+test("within a city the days follow the map: each place is followed by the nearest one", () => {
+  // Two clusters far apart, listed alternately; a day takes one cluster.
+  const east = (i: number) => ({ id: `e${i}`, city: "Tokyo", lat: 35.7, lon: 139.8 + i * 0.001, durationMinutes: 60 });
+  const west = (i: number) => ({ id: `w${i}`, city: "Tokyo", lat: 35.66, lon: 139.4 + i * 0.001, durationMinutes: 60 });
+  const places = [east(0), west(0), east(1), west(1), east(2), west(2)];
+  const plan = planFrom(places, 4, "balanced");
+  assert.deepEqual(plan.map((d) => d.stops), [["e0", "e1", "e2"], ["w2", "w1", "w0"]], "the east cluster first, then the west one from its nearest end");
 });
 
 test("what the verifier rejects is dropped and the days are numbered again", () => {
@@ -280,4 +261,44 @@ test("a trip with a traveler who has no passport is not created, and the server 
   assert.equal(made.brief, undefined, "no brief is read back for a trip that was not made");
   assert.ok(made.answer, "the server's answer is returned, so the host can show it");
   assert.ok(made.answer.structuredContent.missingFields.includes("passport:Tom"));
+});
+
+// The pace: asked in a request or on its own, saved before the plan, and the plan made again at the new pace.
+import { askedPace, paceFromText } from "../web/mission.js";
+
+test("a pace is read from plain words in English and Spanish, and a pace word inside a question is not a request", () => {
+  assert.equal(paceFromText("Prepárame para Japón del 3 al 10 de diciembre, exprés"), "packed");
+  assert.equal(paceFromText("Get me ready for Japan, December 3 to 10, nice and slow"), "relaxed");
+  assert.equal(paceFromText("quiero un ritmo clásico"), "balanced");
+  assert.equal(askedPace("Make it Express"), "packed");
+  assert.equal(askedPace("Hazlo pausado"), "relaxed");
+  assert.equal(askedPace("Slow"), "relaxed");
+  assert.equal(askedPace("Is the weather there slow to change in the winter months?"), null, "a long question with a pace word is not a request");
+  assert.equal(askedPace("What can't I bring?"), null);
+});
+
+test("a request with a pace carries it, and the trip is made at that pace", async () => {
+  assert.deepEqual(tripFromRequest("Get me ready for Japan, December 3 to 10, express"), { use: "create", trip: { destination: "JP", startDate: "2026-12-03", endDate: "2026-12-10" }, pace: "packed" });
+  const s = await session("mission-pace", "en-US");
+  await s.call("update_traveler_profile", { homeCurrency: "USD", travelers: [{ displayName: "Sam", passports: ["US"], role: "self", ageBand: "adult" }] });
+  const made = await makeTrip(s.client, { destination: "JP", startDate: "2026-12-03", endDate: "2026-12-10" }, "relaxed");
+  assert.ok(made.brief);
+  assert.equal((await s.call("get_traveler_profile")).data.profile.pace, "relaxed");
+});
+
+test("the same trip at another pace is planned again, replacing the saved plan", async () => {
+  const s = await session("mission-replan", "en-US");
+  await s.call("update_traveler_profile", { homeCurrency: "USD", pace: "relaxed", interests: ["food", "museums"], travelers: [{ displayName: "Sam", passports: ["US"], role: "self", ageBand: "adult" }] });
+  await s.call("plan_trip", { destination: "JP", startDate: "2026-12-03", endDate: "2026-12-10" });
+  await runMission({ client: s.client, lang: "en", brief: (await s.call("trip_brief")).data, root: fakeRoot(), minStepMs: 0 });
+  const slow = (await s.call("build_itinerary")).data;
+  assert.ok(slow.days.filter((d: { stops: unknown[] }) => d.stops.length).every((d: { stops: unknown[] }) => d.stops.length <= 2), "a Slow pace has at most two stops a day");
+  await s.call("update_traveler_profile", { pace: "packed" });
+  const root = fakeRoot();
+  await runMission({ client: s.client, lang: "en", brief: (await s.call("trip_brief")).data, root, minStepMs: 0, replan: true });
+  assert.equal(root.steps.get("plan")!.dataset.state, "done");
+  const express = (await s.call("build_itinerary")).data;
+  assert.ok(express.days.some((d: { stops: unknown[] }) => d.stops.length === 4), "an Express pace fits four stops in a day");
+  assert.ok(express.planned >= slow.planned - 2);
+  assert.equal(express.pace, "packed");
 });

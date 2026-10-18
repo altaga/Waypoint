@@ -3,6 +3,7 @@
 // back to the generic card the server already describes. All text is escaped.
 
 import { brandsIn, brandChip, brandStrip } from "./brands.js";
+import { humanizeHours } from "./hours.js";
 
 export const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
@@ -36,7 +37,7 @@ const L = {
     packed: (a, b) => `${a} of ${b} packed`, doNotPack: "Do not pack", plan: "Day plan", free: "Free day",
     morning: "Morning", afternoon: "Afternoon", evening: "Evening", day: "Day", brief: "What's left", ready: "ready",
     daysLeft: (n) => (n === 1 ? "1 day to go" : `${n} days to go`), daysUnit: (n) => (n === 1 ? "day to go" : "days to go"), tapToTick: "Tap to tick off", profile: "Traveler profile",
-    hours: "Hours and map", hoursNote: "Suggested times, not opening hours: check each place before you go.", planEmpty: "No day plan yet", planEmptyHint: "Tell me what you enjoy and I'll put one together from real places.",
+    hours: "Hours and map", website: "Official site", hoursFrom: "(OpenStreetMap)", closedThatDay: "Closed that day", mayBeClosed: "May be closed at this time", hoursNote: "Suggested times, not opening hours: check each place before you go.", planEmpty: "No day plan yet", planEmptyHint: "Tell me what you enjoy and I'll put one together from real places.",
     settleBtn: "Group money", settle: "Settle up", fairness: "Fairness", transfers: "Transfers", squared: "Everyone is square.", unassigned: (n) => `${n} expense(s) have no payer and are not counted.`, noLikes: "no likes saved", avoids: "Avoids",
     nothing: "Nothing pending", calendar: "Add to calendar", share: "Share brief", copied: "Copied", panel: "View panel", autopilot: "Get me ready",
   },
@@ -47,7 +48,7 @@ const L = {
     packed: (a, b) => `${a} de ${b} empacados`, doNotPack: "No llevar", plan: "Plan de días", free: "Día libre",
     morning: "Mañana", afternoon: "Tarde", evening: "Noche", day: "Día", brief: "Lo que falta", ready: "listo",
     daysLeft: (n) => (n === 1 ? "Falta 1 día" : `Faltan ${n} días`), daysUnit: (n) => (n === 1 ? "día para el viaje" : "días para el viaje"), tapToTick: "Toca para marcar", profile: "Perfil del viajero",
-    hours: "Horarios y mapa", hoursNote: "Horas sugeridas, no son horarios de apertura: revisa cada lugar antes de ir.", planEmpty: "Aún no hay plan de días", planEmptyHint: "Dime qué te gusta y armo uno con lugares reales.",
+    hours: "Horarios y mapa", website: "Sitio oficial", hoursFrom: "(OpenStreetMap)", closedThatDay: "Cerrado ese día", mayBeClosed: "Podría estar cerrado a esa hora", hoursNote: "Horas sugeridas, no son horarios de apertura: revisa cada lugar antes de ir.", planEmpty: "Aún no hay plan de días", planEmptyHint: "Dime qué te gusta y armo uno con lugares reales.",
     settleBtn: "Cuentas", settle: "Cuentas del grupo", fairness: "Equidad del plan", transfers: "Transferencias", squared: "Todos están a mano.", unassigned: (n) => `${n} gasto(s) no tienen quién pagó y no cuentan.`, noLikes: "sin gustos guardados", avoids: "Evita",
     nothing: "Sin pendientes", calendar: "Calendario", share: "Compartir", copied: "Copiado", panel: "Ver panel", autopilot: "Prepárame",
   },
@@ -60,6 +61,21 @@ const toneIcon = (tone) => icon(tone === "ok" ? "check" : tone === "blocked" ? "
 // Only https links are drawn: a link comes from the server, but it is not trusted to be a web address.
 function safeUrl(u) {
   return typeof u === "string" && /^https:\/\//.test(u) ? u : "";
+}
+
+// What public data says about a stop's hours, and whether the suggested time fits them (only said when the hours are known).
+function hoursBlock(s, w, lang) {
+  const state = s.hoursState === "closed" ? `<span class="s-flag bad">${esc(w.closedThatDay)}</span>` : s.hoursState === "outside" ? `<span class="s-flag warn">${esc(w.mayBeClosed)}</span>` : "";
+  const text = s.hours ? `<div class="s-hours">${esc(humanizeHours(s.hours, lang))} <span class="s-src">${esc(w.hoursFrom)}</span></div>` : "";
+  return state || text ? `<div class="s-h">${state}${text}</div>` : "";
+}
+
+// The place's own website and where to see its current hours: https links only, opened in a new tab.
+function linksBlock(s, w) {
+  const site = safeUrl(s.website), map = safeUrl(s.mapsUrl);
+  const link = (url, label) => `<a class="s-map" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`;
+  const links = [site ? link(site, w.website) : "", map ? link(map, w.hours) : ""].filter(Boolean);
+  return links.length ? `<div class="s-links">${links.join("")}</div>` : "";
 }
 
 function shortDate(iso, lang) {
@@ -218,7 +234,7 @@ function itineraryCards(sc, lang) {
       const stops = d.stops || [];
       const body = stops.length
         ? `<ol class="slots">${stops
-            .map((s) => `<li>${icon(s.category === "food" ? "talk" : s.category === "nature" ? "sun" : "sun")}<div><div class="s-k">${s.start ? `${esc(s.start)}–${esc(s.end)} · ${esc(s.area)}` : `${esc(s.area)} · ${esc(s.durationMinutes)} min`}</div><div class="s-v">${esc(s.name)}</div>${s.admission ? `<div class="s-note">${esc(s.admission)}</div>` : ""}${safeUrl(s.mapsUrl) ? `<a class="s-map" href="${esc(safeUrl(s.mapsUrl))}" target="_blank" rel="noopener noreferrer">${esc(w.hours)} ↗</a>` : ""}</div></li>`)
+            .map((s) => `<li>${icon(s.category === "food" ? "talk" : s.category === "nature" ? "sun" : "sun")}<div><div class="s-k">${s.start ? `${esc(s.start)}–${esc(s.end)} · ${esc(s.area)}` : `${esc(s.area)} · ${esc(s.durationMinutes)} min`}</div><div class="s-v">${esc(s.name)}</div>${s.admission ? `<div class="s-note">${esc(s.admission)}</div>` : ""}${hoursBlock(s, w, lang)}${linksBlock(s, w)}</div></li>`)
             .join("")}</ol>`
         : `<p class="muted-s">${esc(w.free)}</p>`;
       return `<article class="card k-day"><header class="ch"><div class="d-n">${esc(w.day)} ${d.day}${d.date ? ` · ${esc(shortDate(d.date, lang))}` : ""}</div>${d.title ? `<h2>${esc(d.title)}</h2>` : ""}</header>${body}</article>`;
@@ -287,7 +303,27 @@ function fairnessCard(sc, lang) {
   return shell("fairness", sc.card?.title || w.fairness, body, sc, lang);
 }
 
+// The apps that work in a country, each with where to get it (Google Play, App Store, website: https links only).
+function appsCard(sc, lang) {
+  const apps = sc.data?.apps || [];
+  if (!apps.length) return genericCard(sc.card, sc, lang, "get_local_apps");
+  const w = words(lang);
+  const link = (url, label) => (safeUrl(url) ? `<a class="s-map" href="${esc(safeUrl(url))}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>` : "");
+  const rows = apps
+    .map((a) => {
+      const chip = brandsIn(a.name).find((b) => b.name.toLowerCase() === a.name.toLowerCase());
+      const label = chip ? brandChip({ ...chip }) : esc(a.name);
+      const l = a.links || {};
+      const links = [link(l.googlePlay, "Google Play"), link(l.appStore, "App Store"), link(l.site, w.website)].filter(Boolean).join("");
+      return `<div class="row info ${links ? "has-brands" : ""}"><span class="label">${label}</span><span class="value">${esc(a.status)}</span>${links ? `<div class="brands app-links">${links}</div>` : ""}</div>`;
+    })
+    .join("");
+  const card = sc.card || {};
+  return `<article class="card wide"><header class="ch"><h2>${esc(card.title || "")}</h2>${card.subtitle ? `<div class="sub">${esc(card.subtitle)}</div>` : ""}</header>${rows}${sourceLine(sc, lang)}</article>`;
+}
+
 const RENDER = {
+  get_local_apps: appsCard,
   check_entry_requirements: entryCard,
   get_local_rules: rulesCard,
   get_trip_climate: climateCard,
