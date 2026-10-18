@@ -2,7 +2,7 @@
 // Lambda uses. Two turns for a fresh user:
 //   1. a grounded rules question (must cite the Singapore rule, not general knowledge);
 //   2. a full trip request (must save the passport and chain several tools in one turn).
-// Needs AWS credentials, WAYPOINT_BRAIN=bedrock and WAYPOINT_BEDROCK_MODEL.
+// Needs AWS credentials, the Bedrock brain switched on (WAYPOINT_BRAIN) and a model chosen (WAYPOINT_BEDROCK_MODEL).
 // Run: npm run smoke:brain
 import { createContext } from "../src/context.ts";
 import { createMemoryStore } from "../src/state.ts";
