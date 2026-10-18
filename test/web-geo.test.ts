@@ -22,6 +22,6 @@ test("a position in the middle of the ocean names no city and sends no coordinat
 
 test("the request carries the city name and whether there is a trip", () => {
   const near = nearestCity(1.35, 103.82, cities)!;
-  assert.equal(fromHereRequest("en", near, true), "I'm in Singapore. Check my plan from here.");
+  assert.equal(fromHereRequest("en", near, true), "I'm in Singapore and I'll leave from here. Check my plan.");
   assert.match(fromHereRequest("es", near, false), /^Estoy en Singapur\. Quiero planear un viaje/);
 });

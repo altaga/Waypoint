@@ -44,7 +44,7 @@ let current = null;
  * Draws the globe into the canvas. geo: { destination: {lat, lon}, origins: [{lat, lon, names}] }.
  * Replaces any globe already running; stops by itself when the canvas leaves the page.
  * intro: fly in and draw the routes (first view of a trip); otherwise start at rest.
- * you: { lat, lon, label } marks where the traveler is now (only when they asked the page to find them).
+ * you: { lat, lon, label } adds a route from where the traveler is now (only when they asked the page to find them).
  */
 export async function mountGlobe(canvas, geo, { intro = true, you = null } = {}) {
   if (current) current.stop();
@@ -60,6 +60,8 @@ export async function mountGlobe(canvas, geo, { intro = true, you = null } = {})
   const ctx = canvas.getContext("2d");
   const dest = toXYZ(geo.destination.lat, geo.destination.lon);
   const origins = (geo.origins || []).map((o) => ({ v: toXYZ(o.lat, o.lon), label: (o.names || []).join(", ") }));
+  // Where the traveler is now (only when they asked the page to find them): a route in amber from there to the destination.
+  if (you) origins.push({ v: toXYZ(you.lat, you.lon), label: you.label || "", you: true });
   // Aim between the homes and the destination, leaning to the destination, so every route is seen.
   const sum = origins.reduce((acc, o) => [acc[0] + o.v[0], acc[1] + o.v[1], acc[2] + o.v[2]], [dest[0] * 2.2, dest[1] * 2.2, dest[2] * 2.2]);
   const [lat0, lon0] = toLatLon(norm(sum));
@@ -136,7 +138,7 @@ export async function mountGlobe(canvas, geo, { intro = true, you = null } = {})
         const h = 1 + lift * Math.sin(Math.PI * u);
         const p = project([v[0] * h, v[1] * h, v[2] * h]);
         if (prev && !hidden(p) && !hidden(prev)) {
-          ctx.strokeStyle = `rgba(${Math.round(100 + 155 * u)},${Math.round(210 + 45 * u)},255,${0.55 + 0.45 * u})`;
+          ctx.strokeStyle = o.you ? `rgba(255,${Math.round(159 + 60 * u)},${Math.round(10 + 150 * u)},${0.55 + 0.45 * u})` : `rgba(${Math.round(100 + 155 * u)},${Math.round(210 + 45 * u)},255,${0.55 + 0.45 * u})`;
           ctx.beginPath(); ctx.moveTo(prev[0], prev[1]); ctx.lineTo(p[0], p[1]); ctx.stroke();
         }
         prev = p;
@@ -158,11 +160,11 @@ export async function mountGlobe(canvas, geo, { intro = true, you = null } = {})
       // Home: a small dot and the travelers' names.
       const home = project(o.v);
       if (home[2] > 0) {
-        ctx.fillStyle = "#64d2ff";
-        ctx.beginPath(); ctx.arc(home[0], home[1], 3 * dpr, 0, Math.PI * 2); ctx.fill();
+        ctx.fillStyle = o.you ? "#ff9f0a" : "#64d2ff";
+        ctx.beginPath(); ctx.arc(home[0], home[1], (o.you ? 4 : 3) * dpr, 0, Math.PI * 2); ctx.fill();
         if (o.label) {
           ctx.font = `500 ${11 * dpr}px -apple-system, BlinkMacSystemFont, Inter, sans-serif`;
-          ctx.fillStyle = "rgba(245,245,247,0.9)";
+          ctx.fillStyle = o.you ? "rgba(255,214,140,0.95)" : "rgba(245,245,247,0.9)";
           // The name sits right of the dot, or left of it when it would run off the canvas.
           const tw = ctx.measureText(o.label).width;
           const lx = home[0] + 6 * dpr + tw > px - 2 * dpr ? home[0] - 6 * dpr - tw : home[0] + 6 * dpr;
@@ -183,26 +185,6 @@ export async function mountGlobe(canvas, geo, { intro = true, you = null } = {})
       ctx.fillStyle = "#ffffff";
       ctx.beginPath(); ctx.arc(d[0], d[1], 4 * dpr, 0, Math.PI * 2); ctx.fill();
       ctx.shadowBlur = 0;
-    }
-
-    // The traveler's own position: an amber pin with a pulse and its label.
-    if (you) {
-      const y = project(toXYZ(you.lat, you.lon));
-      if (y[2] > 0) {
-        const pulse = reduced ? 0.5 : (t * 0.8 + 0.5) % 1;
-        ctx.strokeStyle = `rgba(255,159,10,${0.8 * (1 - pulse)})`;
-        ctx.lineWidth = 2 * dpr;
-        ctx.beginPath(); ctx.arc(y[0], y[1], (4 + 12 * pulse) * dpr, 0, Math.PI * 2); ctx.stroke();
-        ctx.fillStyle = "#ff9f0a";
-        ctx.beginPath(); ctx.arc(y[0], y[1], 4 * dpr, 0, Math.PI * 2); ctx.fill();
-        if (you.label) {
-          ctx.font = `600 ${11 * dpr}px -apple-system, BlinkMacSystemFont, Inter, sans-serif`;
-          ctx.fillStyle = "rgba(255,214,140,0.95)";
-          const tw = ctx.measureText(you.label).width;
-          const lx = y[0] + 7 * dpr + tw > px - 2 * dpr ? y[0] - 7 * dpr - tw : y[0] + 7 * dpr;
-          ctx.fillText(you.label, Math.max(2 * dpr, lx), Math.min(px - 4 * dpr, y[1] + 14 * dpr));
-        }
-      }
     }
 
     if (!reduced) raf = requestAnimationFrame(frame);

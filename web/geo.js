@@ -36,6 +36,6 @@ export function whereLine(lang, near, destName) {
 /** The request sent when the traveler says yes. It carries the city name only. */
 export function fromHereRequest(lang, near, hasTrip) {
   const city = near ? near.name[lang === "es" ? "es" : "en"] : null;
-  if (lang === "es") return city ? (hasTrip ? `Estoy en ${city}. Revisa mi plan desde aquí.` : `Estoy en ${city}. Quiero planear un viaje desde aquí.`) : "Revisa mi plan desde donde estoy.";
-  return city ? (hasTrip ? `I'm in ${city}. Check my plan from here.` : `I'm in ${city}. I want to plan a trip from here.`) : "Check my plan from where I am.";
+  if (lang === "es") return city ? (hasTrip ? `Estoy en ${city} y saldré desde aquí. Revisa mi plan.` : `Estoy en ${city}. Quiero planear un viaje desde aquí.`) : "Revisa mi plan desde donde estoy.";
+  return city ? (hasTrip ? `I'm in ${city} and I'll leave from here. Check my plan.` : `I'm in ${city}. I want to plan a trip from here.`) : "Check my plan from where I am.";
 }
