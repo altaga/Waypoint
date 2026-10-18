@@ -951,7 +951,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           data: { amount: args.amount, from, to, converted: value, rate: conv.rate, ppp, rateSource: conv.source },
           followUps: [pick(locale, "Log an expense?", "¿Registro un gasto?")],
         });
-        env.sources = [...env.sources, { id: "src:open-er-api", title: "Open Exchange Rates (open.er-api.com)", url: "https://open.er-api.com", license: "Attribution required", retrieved: conv.asOf.slice(0, 10) }, { id: "src:world-bank-ppp", title: "World Bank PA.NUS.PRVT.PP", url: "https://data.worldbank.org/indicator/PA.NUS.PRVT.PP", license: "CC BY 4.0" }];
+        env.sources = [...env.sources, { id: "src:open-er-api", title: "Open Exchange Rates (open.er-api.com)", url: "https://open.er-api.com", license: "Attribution required", retrieved: conv.asOf }, { id: "src:world-bank-ppp", title: "World Bank PA.NUS.PRVT.PP", url: "https://data.worldbank.org/indicator/PA.NUS.PRVT.PP", license: "CC BY 4.0" }];
         env.confidence = conv.source === "live" ? "high" : "medium";
         return envelopeResult(env);
       }),

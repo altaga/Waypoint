@@ -43,3 +43,10 @@ test("the concierge is told that moving between cities costs most of a day, and 
   assert.match(p, /Never plan one day in Kyoto and the next in Osaka/);
   assert.match(p, /ask the traveler whether they want those days free/);
 });
+
+test("the concierge is told to write amounts with the three-letter currency code", () => {
+  const p = systemPrompt("2026-10-18", "en-US");
+  assert.match(p, /three-letter currency code before the number/);
+  assert.match(p, /MXN 20,000, JPY 172,946/);
+  assert.match(p, /The exceptions: text quoted from a source/);
+});

@@ -75,6 +75,8 @@ test("every suggested chip is understood by the local router", () => {
 test("an amount with a thousands separator is read whole, and the currency said first is the one it is in", () => {
   assert.deepEqual(routeUtterance("How much is 20,000 pesos there?", { destination: "JP" }), { tool: "convert_budget", args: { amount: 20000, from: "MXN", to: undefined, destination: undefined } });
   assert.deepEqual(routeUtterance("¿Cuánto rinden 20 mil pesos allá?", { destination: "JP" }), { tool: "convert_budget", args: { amount: 20000, from: "MXN", to: undefined, destination: undefined } });
+  assert.deepEqual(routeUtterance("How much is MXN 20,000 there?", { destination: "JP" }), routeUtterance("How much is 20,000 pesos there?", { destination: "JP" }));
+  assert.deepEqual(routeUtterance("¿Cuánto rinden MXN 20,000 allá?", { destination: "JP" }), routeUtterance("¿Cuánto rinden 20 mil pesos allá?", { destination: "JP" }));
   assert.deepEqual(routeUtterance("How much is 1000 dollars in yen?"), { tool: "convert_budget", args: { amount: 1000, from: "USD", to: "JPY", destination: undefined } });
 });
 

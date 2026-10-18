@@ -53,7 +53,7 @@ const UI = {
       "What should I pack?",
       "What will the weather be like?",
       "What can't I bring?",
-      "How much is 20,000 pesos there?",
+      "How much is MXN 20,000 there?",
     ],
     tools: {
       get_traveler_profile: "Profile", update_traveler_profile: "Saved profile", plan_trip: "Trip plan",
@@ -126,7 +126,7 @@ const UI = {
       "¿Qué empaco?",
       "¿Qué clima hará?",
       "¿Qué no puedo llevar?",
-      "¿Cuánto rinden 20 mil pesos allá?",
+      "¿Cuánto rinden MXN 20,000 allá?",
     ],
     tools: {
       get_traveler_profile: "Perfil", update_traveler_profile: "Perfil guardado", plan_trip: "Plan del viaje",

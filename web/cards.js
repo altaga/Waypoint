@@ -31,7 +31,7 @@ export const icon = (name) => `<span class="ico">${ICON[name] || ""}</span>`;
 
 const L = {
   en: {
-    source: "Source", verified: "verified", checked: "sources checked", notReviewed: "compiled by us, not yet reviewed by a person", reviewed: "reviewed by a person", confidence: "confidence", level: { low: "low", medium: "medium", high: "high" }, visaFree: "No visa needed", upTo: (d) => `stays up to ${d} days`,
+    source: "Source", rateOf: "rate of", rateLive: "live, the provider updates it daily", rateCopy: "saved copy, not live", verified: "verified", checked: "sources checked", notReviewed: "compiled by us, not yet reviewed by a person", reviewed: "reviewed by a person", confidence: "confidence", level: { low: "low", medium: "medium", high: "high" }, visaFree: "No visa needed", upTo: (d) => `stays up to ${d} days`,
     entry: "Entry", rules: "Local rules", budget: "Budget", ppp: "Goes as far as", essentials: "Essentials",
     currency: "Currency", plugs: "Plugs", emergency: "Emergency", languages: "Language", packing: "Packing list",
     packed: (a, b) => `${a} of ${b} packed`, doNotPack: "Do not pack", plan: "Day plan", free: "Free day",
@@ -42,7 +42,7 @@ const L = {
     nothing: "Nothing pending", calendar: "Add to calendar", share: "Share brief", copied: "Copied", panel: "View panel", autopilot: "Get me ready",
   },
   es: {
-    source: "Fuente", verified: "verificado", checked: "fuentes consultadas", notReviewed: "compilado por nosotros, sin revisión humana", reviewed: "revisado por una persona", confidence: "confianza", level: { low: "baja", medium: "media", high: "alta" }, visaFree: "Sin visa", upTo: (d) => `estancias de hasta ${d} días`,
+    source: "Fuente", rateOf: "tasa del", rateLive: "en vivo, el proveedor la actualiza a diario", rateCopy: "copia guardada, no en vivo", verified: "verificado", checked: "fuentes consultadas", notReviewed: "compilado por nosotros, sin revisión humana", reviewed: "revisado por una persona", confidence: "confianza", level: { low: "baja", medium: "media", high: "alta" }, visaFree: "Sin visa", upTo: (d) => `estancias de hasta ${d} días`,
     entry: "Entrada", rules: "Reglas locales", budget: "Presupuesto", ppp: "Rinde como", essentials: "Básicos",
     currency: "Moneda", plugs: "Enchufes", emergency: "Emergencias", languages: "Idioma", packing: "Lista de equipaje",
     packed: (a, b) => `${a} de ${b} empacados`, doNotPack: "No llevar", plan: "Plan de días", free: "Día libre",
@@ -92,6 +92,12 @@ function sourceLine(sc, lang, prefer) {
   const name = String(src.title || "").split(":")[0].split(" (")[0];
   // Say what is known: when the sources were checked, whether a person reviewed the content, and how confident we are.
   const bits = [];
+  // An exchange rate is dated by the rate itself, not by when the country's rules were checked, and nobody reviews a rate.
+  if (/er-api/i.test(src.id) && src.retrieved) {
+    bits.push(`${w.rateOf} ${src.retrieved}`, sc.data?.rateSource === "snapshot" ? w.rateCopy : w.rateLive);
+    if (sc.confidence && w.level[sc.confidence]) bits.push(`${w.confidence}: ${w.level[sc.confidence]}`);
+    return `<div class="src">${esc(w.source)}: ${esc(name)}${bits.map((b) => ` · ${esc(b)}`).join("")}</div>`;
+  }
   if (sc.lastVerified) bits.push(`${w.checked} ${sc.lastVerified}`);
   if (sc.review === "curated") bits.push(w.notReviewed);
   if (sc.review === "human") bits.push(w.reviewed);

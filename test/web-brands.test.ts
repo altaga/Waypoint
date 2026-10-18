@@ -55,3 +55,11 @@ test("each stop of the day plan shows its suggested time and an https map link; 
   assert.match(ok, /Suggested times, not opening hours/);
   assert.doesNotMatch(renderTool("build_itinerary", day("javascript:alert(1)"), "en"), /<a /);
 });
+
+test("an exchange-rate card dates the rate, says if it is live, and does not claim a review", () => {
+  const base = { card: { title: "Budget", rows: [{ label: "Exchange", value: "MXN 20,000 = JPY 171,132", status: "info" }] }, sources: [{ id: "src:open-er-api", title: "Open Exchange Rates (open.er-api.com)", retrieved: "Sun, 18 Oct 2026" }], review: "curated", lastVerified: "2026-10-11", confidence: "high" };
+  const live = renderTool("convert_budget", { ...base, data: { rateSource: "live" } }, "en");
+  assert.match(live, /Open Exchange Rates · rate of Sun, 18 Oct 2026 · live, the provider updates it daily · confidence: high/);
+  assert.doesNotMatch(live, /not yet reviewed|sources checked/);
+  assert.match(renderTool("convert_budget", { ...base, data: { rateSource: "snapshot" } }, "es"), /tasa del Sun, 18 Oct 2026 · copia guardada, no en vivo/);
+});
