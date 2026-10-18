@@ -35,6 +35,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -177,6 +183,472 @@
       },
       "lat": 15.877135,
       "lon": 108.328631
+    },
+    {
+      "id": "vn-tam-thang-tower-back-beach",
+      "name": "Tam Thang Tower - Back Beach",
+      "area": "Back Beach",
+      "city": "Vung Tau",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "architecture",
+        "beaches"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "A landmark tower of 143 concrete pillars rising toward the sea, built in 2025 on the Thùy Vân (Back Beach) seafront plaza.",
+        "es": "Torre emblemática de 143 pilares de hormigón que se elevan hacia el mar, construida en 2025 en la plaza frente a Thùy Vân (Bãi Sau)."
+      },
+      "lat": 10.3456066,
+      "lon": 107.0974283,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Tháp Tam Thắng – Bãi Sau"
+    },
+    {
+      "id": "vn-christ-of-vung-tau",
+      "name": "Christ of Vung Tau",
+      "area": "Small Mountain (Núi Nhỏ)",
+      "city": "Vung Tau",
+      "category": "sight",
+      "interests": [
+        "sights",
+        "temples",
+        "nature"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "A 32 m statue of Christ with 18.3 m outstretched arms atop Núi Nhỏ, completed in 1994, with a 133-step staircase inside.",
+        "es": "Estatua de Cristo de 32 m con brazos extendidos de 18,3 m en lo alto del Núi Nhỏ, terminada en 1994, con una escalera interior de 133 peldaños."
+      },
+      "lat": 10.3265017,
+      "lon": 107.0845208,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Tượng Chúa Kitô Vua",
+      "wikidata": "Q277837",
+      "image": {
+        "file": "Statue of Jesus in Vung Tau.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Statue_of_Jesus_in_Vung_Tau.jpg",
+        "author": "Chris Phan from Eugene, Oregon, United States",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "vn-vung-tau-lighthouse",
+      "name": "Vung Tau Lighthouse",
+      "area": "Small Mountain (Núi Nhỏ)",
+      "city": "Vung Tau",
+      "category": "sight",
+      "interests": [
+        "history",
+        "sights",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "An 18 m white cylindrical lighthouse on Núi Nhỏ, first built by the French in 1862 and rebuilt in 1913, among the oldest in Vietnam and Southeast Asia.",
+        "es": "Faro cilíndrico blanco de 18 m en el Núi Nhỏ, construido por los franceses en 1862 y reconstruido en 1913, uno de los más antiguos de Vietnam y el Sudeste Asiático."
+      },
+      "lat": 10.3341077,
+      "lon": 107.0776554,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Hải đăng Vũng Tàu",
+      "wikidata": "Q16480605",
+      "image": {
+        "file": "Hải đăng Vũng Tàu.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hải_đăng_Vũng_Tàu.JPG",
+        "author": "Hoangvantoanajc",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "vn-bach-dinh-white-palace",
+      "name": "Bach Dinh (White Palace)",
+      "area": "Big Mountain (Núi Lớn)",
+      "city": "Vung Tau",
+      "category": "museum",
+      "interests": [
+        "history",
+        "architecture",
+        "museums"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "A late-19th-century European-style villa (Villa Blanche) on the slope of Núi Lớn, once a retreat for Indochina's governors-general and a national heritage site since 1992.",
+        "es": "Villa de estilo europeo de finales del siglo XIX (Villa Blanche) en la ladera del Núi Lớn, antigua residencia de descanso de gobernadores de Indochina y patrimonio nacional desde 1992."
+      },
+      "lat": 10.3507372,
+      "lon": 107.0686418,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Bạch Dinh",
+      "wikidata": "Q10743096",
+      "image": {
+        "file": "Vung Tau Bach Dinh.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vung_Tau_Bach_Dinh.JPG",
+        "author": "BrightRaven",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "vn-back-beach-bai-sau",
+      "name": "Back Beach (Bai Sau)",
+      "area": "Back Beach",
+      "city": "Vung Tau",
+      "category": "beach",
+      "interests": [
+        "beaches",
+        "family"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Bãi Sau, also called Bãi Thùy Vân, is the main sandy beach on the eastern side of the Vung Tau peninsula.",
+        "es": "Bãi Sau, también llamada Bãi Thùy Vân, es la principal playa de arena en el lado este de la península de Vung Tau."
+      },
+      "lat": 10.3425579,
+      "lon": 107.0958939,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Bãi Sau (Bãi Thùy Vân)",
+      "image": {
+        "file": "Ảnh đẹp Vũng Tàu - Biển bãi sau - Gần Hòn Bà.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ảnh_đẹp_Vũng_Tàu_-_Biển_bãi_sau_-_Gần_Hòn_Bà.jpg",
+        "author": "Willyvu",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "vn-front-beach-bai-truoc",
+      "name": "Front Beach (Bai Truoc)",
+      "area": "Front Beach",
+      "city": "Vung Tau",
+      "category": "beach",
+      "interests": [
+        "beaches",
+        "sights"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Bãi Trước, also known as Bãi Tầm Dương, is the beach on the western, bay-facing side of Vung Tau city.",
+        "es": "Bãi Trước, también conocida como Bãi Tầm Dương, es la playa del lado oeste de la ciudad de Vung Tau, frente a la bahía."
+      },
+      "lat": 10.3439165,
+      "lon": 107.0740738,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Bãi Trước (Bãi Tầm Dương)",
+      "wikidata": "Q10742301",
+      "image": {
+        "file": "FrontBeachVungtau.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:FrontBeachVungtau.JPG",
+        "author": "Genghiskhanviet",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "vn-hon-ba",
+      "name": "Hon Ba",
+      "area": "Back Beach",
+      "city": "Vung Tau",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "temples",
+        "sights"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "A small rocky islet off the Vung Tau coast, known to the French as Ile Archinard, with a temple and scenic views.",
+        "es": "Pequeño islote rocoso frente a la costa de Vung Tau, conocido por los franceses como Ile Archinard, con un templo y vistas panorámicas."
+      },
+      "lat": 10.3238724,
+      "lon": 107.0892665,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Hòn Bà",
+      "wikidata": "Q1325448",
+      "image": {
+        "file": "Vung Tau islet.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vung_Tau_islet.jpg",
+        "author": "Alexis Lê-Quôc from New York, United States",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "vn-ho-may-park",
+      "name": "Ho May Park",
+      "area": "Big Mountain (Núi Lớn)",
+      "city": "Vung Tau",
+      "category": "experience",
+      "interests": [
+        "family",
+        "nature",
+        "sights"
+      ],
+      "durationMinutes": 180,
+      "desc": {
+        "en": "A leisure park on Núi Lớn reached by the Hồ Mây cable car, whose 8-person cabins take about 10 minutes.",
+        "es": "Parque de ocio en el Núi Lớn al que se llega en el teleférico Hồ Mây, cuyas cabinas de 8 personas tardan unos 10 minutos."
+      },
+      "lat": 10.3594711,
+      "lon": 107.0676503,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Hồ Mây Park"
+    },
+    {
+      "id": "vn-niet-ban-tinh-xa-pagoda",
+      "name": "Niet Ban Tinh Xa Pagoda",
+      "area": "Small Mountain (Núi Nhỏ)",
+      "city": "Vung Tau",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "architecture",
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "A large Buddhist complex on the slope of Núi Nhỏ built 1969-1974 facing the sea, ranked a national historic site in 1989.",
+        "es": "Gran complejo budista en la ladera del Núi Nhỏ, construido entre 1969 y 1974 frente al mar y declarado sitio histórico nacional en 1989."
+      },
+      "lat": 10.3306105,
+      "lon": 107.076797,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Niết Bàn Tịnh Xá",
+      "wikidata": "Q10801482"
+    },
+    {
+      "id": "vn-thich-ca-phat-dai",
+      "name": "Thich Ca Phat Dai",
+      "area": "Big Mountain (Núi Lớn)",
+      "city": "Vung Tau",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "A Theravada Buddhist temple on the northwest slope of Núi Lớn, built between 1961 and 1963 on about five hectares.",
+        "es": "Templo budista theravada en la ladera noroeste del Núi Lớn, construido entre 1961 y 1963 en unas cinco hectáreas."
+      },
+      "lat": 10.3746285,
+      "lon": 107.0705354,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Thích Ca Phật Đài",
+      "wikidata": "Q7799927"
+    },
+    {
+      "id": "vn-dinh-co-temple",
+      "name": "Dinh Co Temple",
+      "area": "Long Hai",
+      "city": "Long Hai",
+      "category": "sight",
+      "interests": [
+        "temples",
+        "history",
+        "beaches"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "A coastal temple complex in Long Hải that began as a small shrine in the late 18th century and is a recognised national historic-cultural site.",
+        "es": "Complejo de templos costero en Long Hải que comenzó como un pequeño santuario a finales del siglo XVIII y es sitio histórico-cultural nacional."
+      },
+      "lat": 10.3866753,
+      "lon": 107.2342459,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Dinh Cô",
+      "image": {
+        "file": "Dinh Cô.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dinh_Cô.jpg",
+        "author": "Bùi Thụy Đào Nguyên",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "vn-long-hai-beach",
+      "name": "Long Hai Beach",
+      "area": "Long Hai",
+      "city": "Long Hai",
+      "category": "beach",
+      "interests": [
+        "beaches",
+        "family"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "A sandy beach in Long Hải commune, east of Vung Tau, close to the Dinh Cô temple.",
+        "es": "Playa de arena en la comuna de Long Hải, al este de Vung Tau, cerca del templo Dinh Cô."
+      },
+      "lat": 10.3850453,
+      "lon": 107.2350623,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Bãi tắm Long Hải"
+    },
+    {
+      "id": "vn-ba-ria-cathedral",
+      "name": "Ba Ria Cathedral",
+      "area": "Ba Ria",
+      "city": "Ba Ria",
+      "category": "sight",
+      "interests": [
+        "architecture",
+        "temples",
+        "history"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "The cathedral of the Bà Rịa Diocese at 227 Cách Mạng Tháng Tám, dedicated to Saints James and Philip, begun in 1874 and blessed in 1879.",
+        "es": "Catedral de la diócesis de Bà Rịa en el 227 Cách Mạng Tháng Tám, dedicada a los santos Santiago y Felipe, iniciada en 1874 y bendecida en 1879."
+      },
+      "lat": 10.4969822,
+      "lon": 107.1703337,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Nhà thờ Chánh tòa Bà Rịa"
+    },
+    {
+      "id": "vn-thang-tam-communal-house",
+      "name": "Thang Tam Communal House",
+      "area": "Vung Tau city centre",
+      "city": "Vung Tau",
+      "category": "sight",
+      "interests": [
+        "history",
+        "temples",
+        "architecture"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "A nationally recognised heritage complex, originally the communal house of Thắng Tam village, begun in 1820 at 77A Hoàng Hoa Thám.",
+        "es": "Complejo patrimonial reconocido a nivel nacional, antigua casa comunal de la aldea de Thắng Tam, iniciada en 1820 en 77A Hoàng Hoa Thám."
+      },
+      "lat": 10.3403396,
+      "lon": 107.0831087,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Đình thần Thắng Tam"
+    },
+    {
+      "id": "vn-ba-ria-vung-tau-museum",
+      "name": "Ba Ria-Vung Tau Museum",
+      "area": "Big Mountain (Núi Lớn)",
+      "city": "Vung Tau",
+      "category": "museum",
+      "interests": [
+        "museums",
+        "history"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "The provincial museum on Thành Thái street, in the same area of Núi Lớn as the Bạch Dinh villa.",
+        "es": "El museo provincial en la calle Thành Thái, en la misma zona del Núi Lớn que la villa Bạch Dinh."
+      },
+      "lat": 10.3505175,
+      "lon": 107.0697401,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Bảo tàng Bà Rịa-Vũng Tàu"
+    },
+    {
+      "id": "vn-nghinh-phong-cape",
+      "name": "Nghinh Phong Cape",
+      "area": "Nghinh Phong",
+      "city": "Vung Tau",
+      "category": "nature",
+      "interests": [
+        "nature",
+        "sights"
+      ],
+      "durationMinutes": 40,
+      "desc": {
+        "en": "A headland at the southernmost tip of Vung Tau, between Bãi Dứa and Bãi Sau; its name means 'welcoming the wind'.",
+        "es": "Cabo en el extremo sur de Vung Tau, entre Bãi Dứa y Bãi Sau; su nombre significa 'recibir el viento'."
+      },
+      "lat": 10.3204661,
+      "lon": 107.083721,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Mũi Nghinh Phong"
+    },
+    {
+      "id": "vn-nui-nho-ancient-cannon-battery",
+      "name": "Nui Nho Ancient Cannon Battery",
+      "area": "Small Mountain (Núi Nhỏ)",
+      "city": "Vung Tau",
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 30,
+      "desc": {
+        "en": "A historic cannon battery on Núi Nhỏ along Hải Đăng street, with start date 1862 recorded in OpenStreetMap.",
+        "es": "Antigua batería de cañones en el Núi Nhỏ, en la calle Hải Đăng, con fecha de inicio 1862 registrada en OpenStreetMap."
+      },
+      "lat": 10.3368041,
+      "lon": 107.074503,
+      "sourceId": "osm",
+      "descBy": {
+        "en": "curated",
+        "es": "curated"
+      },
+      "nameLocal": "Trận địa pháo cổ Núi Nhỏ"
     }
   ]
 }

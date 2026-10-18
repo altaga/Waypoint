@@ -59,3 +59,18 @@ test("a place with a photo shows it with its credit; a place without one shows n
   const unsafe = renderTool("get_highlights", { card: { title: "x", rows: [] }, data: { places: [{ id: "vn-c", name: "C", area: "a", desc: "d", image: { url: "http://evil.example/x.jpg", pageUrl: "javascript:1", author: "x", license: "y" } }] } }, "en");
   assert.doesNotMatch(unsafe, /<img /);
 });
+
+test("a traveler in Vung Tau gets Tháp Tam Thắng first, then the other places of the town, with credited photos where there are any", async () => {
+  const r = await call("get_highlights", { destination: "VN", nearPlace: "Vung Tau", radiusKm: 15 });
+  const ids = r.data.places.map((p: any) => p.id);
+  assert.ok(ids.includes("vn-tam-thang-tower-back-beach"), "Tháp Tam Thắng is listed");
+  assert.ok(!ids.includes("vn-hoan-kiem"), "nothing from Hanoi");
+  assert.ok(r.data.places.every((p: any) => p.distanceKm <= 15));
+  const tower = r.data.places.find((p: any) => p.id === "vn-tam-thang-tower-back-beach");
+  assert.equal(tower.nameLocal, "Tháp Tam Thắng – Bãi Sau");
+  assert.ok(tower.mapsUrl.startsWith("https://www.google.com/maps/"));
+  assert.ok(r.data.places.some((p: any) => p.image?.url?.startsWith("https://commons.wikimedia.org/wiki/Special:FilePath/")));
+  // Asked by coordinates from the Back Beach, the tower is the closest.
+  const here = await call("get_highlights", { destination: "VN", near: { lat: 10.3452, lon: 107.0970 }, radiusKm: 10 });
+  assert.equal(here.data.places[0].id, "vn-tam-thang-tower-back-beach");
+});

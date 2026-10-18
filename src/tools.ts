@@ -1119,7 +1119,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             : pick(locale, `No place in ${name} matches those interests in my list.`, `Ningún lugar de ${name} coincide con esos intereses en mi lista.`),
           card: {
             pattern: "list",
-            title: pick(locale, `Places in ${name}`, `Lugares en ${name}`),
+            title: here ? pick(locale, `Near ${here.label || "you"}`, `Cerca de ${here.label || "ti"}`) : pick(locale, `Places in ${name}`, `Lugares en ${name}`),
             subtitle: curated ? pick(locale, "Curated list, not reviewed by a person; verify hours", "Lista curada, sin revisión humana; verifica horarios") : pick(locale, "Ranked by popularity, not curated", "Por popularidad, sin curación"),
             rows: ranked.map((p) => ({ label: p.name, value: `${away(p) ? `${away(p)} · ` : ""}${p.area} · ${p.desc[locale]}`, status: "info" as const })),
           },
