@@ -10,7 +10,7 @@ npm run ci        # typecheck, every test, pack validation, accuracy eval
 Expected on `claude/elegant-wozniak-qch21g` (checked 2026-10-17):
 
 - typecheck clean
-- 408 tests passing, 0 failing
+- 411 tests passing, 0 failing
 - 13/13 country packs valid
 - eval 33/33 (100%, threshold 95%)
 
@@ -62,6 +62,6 @@ It connects, loads the demo group, asks a rule question (checks the vape rule ca
 
 - The Bedrock brain is not part of `npm test` (it needs AWS). It is checked live after each deploy by `scripts/concierge-live.mjs`.
 - Descriptions of places: the first sentence of each Wikipedia article is shown with its link, and Waypoint's own text is marked `curated`. No person has checked either against the official site.
-- Opening hours, prices and closures: not in any source the app reads. The app says so and points to the official source.
+- Opening hours, prices and closures: not in any source the app reads. Each stop of a day plan has a map link where the current hours are, and the suggested times say they are not opening hours. Nobody has checked that a suggested time falls inside a place's hours.
 - Hosting, load, and latency under 500 ms on a real network.
 - Voice input and output. Web Speech is browser-only and was not exercised in the headless run.

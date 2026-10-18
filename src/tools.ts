@@ -16,7 +16,7 @@ import { StateConflictError, type ItineraryDay, type Trip, type UserState } from
 import { PLAN_DASHBOARD_URI } from "./resources.ts";
 import { itemTerms } from "./items.ts";
 import { INTERESTS, type Interest } from "./services/highlights.ts";
-import { verifyPlan, type Violation } from "./itinerary.ts";
+import { mapsUrl, suggestTimes, verifyPlan, type Violation } from "./itinerary.ts";
 import { tripClimate, type TripClimate } from "./services/climate.ts";
 
 type Locale = "en" | "es";
@@ -1088,7 +1088,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             country: dest,
             curated,
             // descSource says where the description came from; article links to the Wikipedia article it was taken from (CC BY-SA 4.0).
-            places: ranked.map((p) => ({ id: p.id, name: p.name, area: p.area, city: p.city, ...(p.zone ? { zone: p.zone } : {}), category: p.category, interests: p.interests, durationMinutes: p.durationMinutes, desc: p.desc[locale], descSource: p.descBy?.[locale] ?? "curated", article: p.ground?.[locale] ?? null, admission: p.admission ?? null })),
+            places: ranked.map((p) => ({ id: p.id, name: p.name, area: p.area, city: p.city, ...(p.zone ? { zone: p.zone } : {}), category: p.category, interests: p.interests, durationMinutes: p.durationMinutes, mapsUrl: mapsUrl(p.name, p.city, countryName(dest, "en")), desc: p.desc[locale], descSource: p.descBy?.[locale] ?? "curated", article: p.ground?.[locale] ?? null, admission: p.admission ?? null })),
           },
           followUps: [pick(locale, "Build my day plan with these?", "¿Armo mi plan de días con estos?")],
         });
@@ -1245,7 +1245,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
           card: {
             pattern: "carousel",
             title: pick(locale, "Day plan", "Plan de días"),
-            subtitle: pick(locale, "Real places from the list · check hours", "Lugares reales de la lista · revisa horarios"),
+            subtitle: pick(locale, "Real places from the list · suggested times, not opening hours: check each place", "Lugares reales de la lista · horas sugeridas, no son horarios de apertura: revisa cada lugar"),
             rows: selected.map((d) => ({
               label: `${pick(locale, "Day", "Día")} ${d.day}${d.title ? ` · ${d.title}` : ""}`,
               value: d.places.map((p) => `${p.name} (${p.area})`).join(" · ") || pick(locale, "Free day", "Día libre"),
@@ -1253,7 +1253,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             })),
           },
           data: {
-            days: selected.map((d) => ({ day: d.day, date: d.date, title: d.title, stops: d.places.map((p) => ({ id: p.id, name: p.name, area: p.area, category: p.category, desc: p.desc[locale], admission: p.admission ?? null, durationMinutes: p.durationMinutes })) })),
+            days: selected.map((d) => { const times = suggestTimes(d.places); return { day: d.day, date: d.date, title: d.title, stops: d.places.map((p, i) => ({ id: p.id, name: p.name, area: p.area, category: p.category, desc: p.desc[locale], admission: p.admission ?? null, durationMinutes: p.durationMinutes, start: times[i].start, end: times[i].end, mapsUrl: mapsUrl(p.name, p.city, countryName(dest, "en")) })) }; }),
             pace: profile.pace,
             planned,
             stay,

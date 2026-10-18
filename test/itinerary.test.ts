@@ -101,3 +101,23 @@ test("a plan that moves between cities needs two days in each, and few stops on 
   // One city, any number of days: nothing to check.
   assert.deepEqual(v([{ day: 1, stops: ["jp-t1"] }, { day: 5, stops: ["jp-t2", "jp-t3"] }]), []);
 });
+
+import { suggestTimes, mapsUrl } from "../src/itinerary.ts";
+
+// Suggested times and the map link: help to arrive when a place is open, without claiming its hours.
+test("a day starts at nine, leaves half an hour between stops and an hour for lunch, and puts nightlife in the evening", () => {
+  const stop = (id: string, minutes: number, interests: Place["interests"] = ["sights"]) => place(id, { durationMinutes: minutes, interests });
+  const t = suggestTimes([stop("a", 90), stop("b", 120), stop("c", 60), stop("bar", 90, ["nightlife"])]);
+  assert.deepEqual(t[0], { start: "09:00", end: "10:30" });
+  assert.deepEqual(t[1], { start: "11:00", end: "13:00" }, "the second stop starts before noon");
+  assert.deepEqual(t[2], { start: "14:30", end: "15:30" }, "after noon there is an hour for lunch first");
+  assert.deepEqual(t[3], { start: "18:30", end: "20:00" }, "nightlife is in the evening");
+});
+
+test("the map link is a search for the place that names its city and country", () => {
+  const u = new URL(mapsUrl("Senso-ji", "Tokyo", "Japan"));
+  assert.equal(u.origin + u.pathname, "https://www.google.com/maps/search/");
+  assert.equal(u.searchParams.get("api"), "1");
+  assert.equal(u.searchParams.get("query"), "Senso-ji, Tokyo, Japan");
+  assert.equal(new URL(mapsUrl("Café & Bar #1", "Zürich", "Switzerland")).searchParams.get("query"), "Café & Bar #1, Zürich, Switzerland");
+});

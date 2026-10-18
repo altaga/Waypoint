@@ -118,3 +118,40 @@ export function verifyPlan(input: {
   }
   return { ok: violations.length === 0, violations, warnings: [...new Set(warnings)], resolved };
 }
+
+// ---- Suggested times and a map link: help to arrive when a place is open, without claiming its hours. ----
+
+const hhmm = (m: number) => `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
+
+/**
+ * A time for each stop of one day, in the order given: the day starts at 09:00, each stop lasts its duration plus
+ * 30 minutes to get to the next, and there is an hour for lunch once the morning is over. A stop tagged nightlife is
+ * placed in the evening (from 18:30). These are suggestions from the stops' durations, not opening hours: the
+ * traveler checks the hours of each place (see mapsUrl).
+ */
+export function suggestTimes(places: Place[]): { start: string; end: string }[] {
+  const out: { start: string; end: string }[] = new Array(places.length);
+  const run = (idx: number[], startAt: number, lunch: boolean) => {
+    let t = startAt;
+    let ate = !lunch;
+    for (const i of idx) {
+      if (!ate && t >= 12 * 60) {
+        t += 60;
+        ate = true;
+      }
+      const dur = places[i].durationMinutes;
+      out[i] = { start: hhmm(t), end: hhmm(t + dur) };
+      t += dur + 30;
+    }
+  };
+  const all = places.map((_, i) => i);
+  run(all.filter((i) => !places[i].interests.includes("nightlife")), 9 * 60, true);
+  run(all.filter((i) => places[i].interests.includes("nightlife")), 18 * 60 + 30, false);
+  return out;
+}
+
+/** A Google Maps search for the place (documented Maps URLs): it opens on the place, with its current hours. */
+export function mapsUrl(name: string, city: string, country: string): string {
+  const query = [name, city, country].filter(Boolean).join(", ");
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}

@@ -65,6 +65,8 @@ Cards for payments, apps and transit show the brands they name as chips (`web/br
 
 The simulated devices have a fixed size, like the real ones: the Echo Show is a landscape 16:10 screen and the phone is 9:19.5, and a long answer scrolls inside the screen. On a real phone the page is the device and fills the width.
 
+Each stop of a day plan shows a suggested time and a **Hours and map** link: a Google Maps search for the place, name plus city plus country, so it works for every country in the list and opens on the place's current hours. The times are suggestions from the length of each visit (the day starts at 09:00, half an hour between stops, an hour for lunch, nightlife in the evening), not opening hours, and the card says so: Waypoint has no verified opening hours, and places close on certain days.
+
 A visitor is a random id kept in the browser (`localStorage`), with no account. **Reset my data** (two clicks) erases that id's profile, trips and expenses on the server and starts a new id. **New session** only reconnects, and the trip is still there.
 
 ## Architecture

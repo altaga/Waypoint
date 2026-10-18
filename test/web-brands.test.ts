@@ -37,10 +37,20 @@ test("every icon named in the brand list exists in the icon file, and the names 
 test("the payment, app and transit cards show chips; other cards do not", () => {
   const sc = { card: { title: "Payments in Japan", rows: [{ label: "QR and e-wallets", value: "PayPay, LINE Pay and MerPay are the most common QR apps.", status: "info" }, { label: "Cash", value: "Still needed.", status: "info" }] }, sources: [] };
   const pay = renderTool("get_payment_methods", sc, "en");
-  assert.match(pay, /class="brand b-wallet"/);
+  assert.match(pay, /class="bchip b-wallet"/);
   assert.equal((pay.match(/class="brands"/g) || []).length, 1);
   const apps = renderTool("get_local_apps", { card: { title: "Apps in Japan", rows: [{ label: "Uber", value: "On the company's list", status: "ok" }, { label: "Rappi", value: "No verified data", status: "warn" }] }, sources: [] }, "en");
   assert.match(apps, /<b>Uber<\/b>/);
   assert.match(apps, /<b>Rappi<\/b>/);
-  assert.doesNotMatch(renderTool("get_local_rules", sc, "en"), /class="brand /);
+  assert.doesNotMatch(renderTool("get_local_rules", sc, "en"), /class="bchip /);
+});
+
+test("each stop of the day plan shows its suggested time and an https map link; anything else is not drawn as a link", () => {
+  const day = (url: string) => ({ data: { days: [{ day: 1, stops: [{ name: "Senso-ji", area: "Asakusa", category: "sight", durationMinutes: 90, start: "09:00", end: "10:30", mapsUrl: url }] }] }, sources: [] });
+  const ok = renderTool("build_itinerary", day("https://www.google.com/maps/search/?api=1&query=Senso-ji"), "en");
+  assert.match(ok, /09:00–10:30/);
+  assert.match(ok, /href="https:\/\/www\.google\.com\/maps\/search\/\?api=1&amp;query=Senso-ji"/);
+  assert.match(ok, /rel="noopener noreferrer"/);
+  assert.match(ok, /Suggested times, not opening hours/);
+  assert.doesNotMatch(renderTool("build_itinerary", day("javascript:alert(1)"), "en"), /<a /);
 });

@@ -59,7 +59,7 @@ export function brandsIn(text) {
 export function brandChip(b) {
   const glyph = `<svg class="g" viewBox="0 0 24 24" aria-hidden="true"><path d="${GLYPH[b.kind]}"/></svg>`;
   const mark = b.icon && BRAND_ICONS[b.icon] ? `<svg class="lg" viewBox="${BRAND_ICONS[b.icon].vb}" aria-hidden="true"><path d="${BRAND_ICONS[b.icon].d}"/></svg>` : `<svg class="lg gl" viewBox="0 0 24 24" aria-hidden="true"><path d="${GLYPH[b.kind]}"/></svg>`;
-  return `<span class="brand b-${b.kind}">${glyph}${mark}<b>${esc(b.name)}</b></span>`;
+  return `<span class="bchip b-${b.kind}">${glyph}${mark}<b>${esc(b.name)}</b></span>`;
 }
 
 /** A row of chips for every brand named in a text, or "" when none is. */

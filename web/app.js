@@ -185,7 +185,9 @@ const t = (k) => UI[lang][k];
 function applyLang() {
   document.documentElement.lang = lang;
   for (const b of document.querySelectorAll(".seg button[data-lang]")) b.setAttribute("aria-pressed", String(b.dataset.lang === lang));
-  $("tagline").textContent = t("tagline");
+  // "Travel concierge · simulated Alexa+ host": the second part is the label that says what this page is.
+  const [tagA, tagB] = t("tagline").split(" · ");
+  $("tagline").innerHTML = `<span>${esc(tagA)}</span>${tagB ? `<span class="sim-tag">${esc(tagB)}</span>` : ""}`;
   $("chatTitle").textContent = t("chatTitle");
   $("send").setAttribute("aria-label", t("send"));
   $("send").title = t("send");

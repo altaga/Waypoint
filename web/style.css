@@ -55,9 +55,10 @@ button:disabled { opacity: .4; cursor: default; }
   border-bottom: 1px solid var(--hairline);
 }
 .brand-row { display: flex; align-items: center; gap: var(--s-12); min-width: 0; }
-.logo { width: 30px; height: 30px; flex: none; filter: drop-shadow(0 0 10px rgba(41, 151, 255, .45)); }
-.brand { display: block; font-size: 17px; font-weight: 600; letter-spacing: -.015em; line-height: 1.2; }
-.tagline { display: block; font-size: 13px; color: var(--ink-2); line-height: 1.3; letter-spacing: -.005em; }
+.logo { width: 36px; height: 36px; flex: none; filter: drop-shadow(0 0 10px rgba(41, 151, 255, .45)); }
+.brand { display: block; font-size: 21px; font-weight: 650; letter-spacing: -.03em; line-height: 1.1; background: linear-gradient(100deg, #ffffff 30%, #9fd3ff); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.tagline { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-top: 3px; font-size: 12.5px; color: var(--ink-2); line-height: 1.3; letter-spacing: -.005em; }
+.sim-tag { padding: 1px 8px; border-radius: 999px; border: 1px solid rgba(41, 151, 255, .4); background: rgba(41, 151, 255, .1); color: #9fd3ff; font-size: 10.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
 .controls { display: flex; flex-wrap: wrap; gap: var(--s-8); align-items: center; }
 .menu-btn { display: none; }
 .seg { position: relative; display: inline-flex; padding: 3px; gap: 2px; border-radius: 999px; background: rgba(255, 255, 255, .06); border: 1px solid var(--hairline); }
@@ -546,17 +547,17 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 /* Brand chips (web/brands.js): a flat icon by kind, or the brand's own mark when Logos is on. */
 .row.has-brands { flex-wrap: wrap; }
 .brands { display: flex; flex-wrap: wrap; gap: 6px; flex-basis: 100%; margin-top: 2px; }
-.brand { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px 3px 7px; border-radius: 999px; background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .12); font-size: 12px; color: var(--d-ink); white-space: nowrap; max-width: 100%; }
-.brand b { font-weight: 600; overflow: hidden; text-overflow: ellipsis; }
-.brand svg { width: 15px; height: 15px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-.brand .lg { display: none; fill: currentColor; stroke: none; width: auto; height: 15px; max-width: 46px; }
-.brand .lg.gl { fill: none; stroke: currentColor; width: 15px; }
-.logos .brand .g { display: none; }
-.logos .brand .lg { display: block; }
-.brand.b-card svg { color: #8fb4ff; } .brand.b-wallet svg { color: #7ee0b5; } .brand.b-ride svg { color: #ffd37a; }
-.brand.b-delivery svg { color: #ff9f8a; } .brand.b-shop svg { color: #d7a8ff; } .brand.b-transit svg { color: #8ae0ff; }
-.row .label .brand { margin-right: 2px; }
-@media (max-width: 560px) { .brand { font-size: 11.5px; padding: 3px 9px 3px 6px; } }
+.bchip { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px 3px 7px; border-radius: 999px; background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .12); font-size: 12px; color: var(--d-ink); white-space: nowrap; max-width: 100%; }
+.bchip b { font-weight: 600; overflow: hidden; text-overflow: ellipsis; }
+.bchip svg { width: 15px; height: 15px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.bchip .lg { display: none; fill: currentColor; stroke: none; width: auto; height: 15px; max-width: 46px; }
+.bchip .lg.gl { fill: none; stroke: currentColor; width: 15px; }
+.logos .bchip .g { display: none; }
+.logos .bchip .lg { display: block; }
+.bchip.b-card svg { color: #8fb4ff; } .bchip.b-wallet svg { color: #7ee0b5; } .bchip.b-ride svg { color: #ffd37a; }
+.bchip.b-delivery svg { color: #ff9f8a; } .bchip.b-shop svg { color: #d7a8ff; } .bchip.b-transit svg { color: #8ae0ff; }
+.row .label .bchip { margin-right: 2px; }
+@media (max-width: 560px) { .bchip { font-size: 11.5px; padding: 3px 9px 3px 6px; } }
 
 /* ---------- Simulated devices have a fixed size; what does not fit scrolls inside the screen ---------- */
 .stage { min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: rgba(255, 255, 255, .22) transparent; }
@@ -608,3 +609,8 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
   .h-actions .act { min-width: 0; justify-content: center; text-align: center; }
   .h-dest { overflow-wrap: anywhere; }
 }
+
+/* A link under each stop of the day plan: the place's hours and map. */
+.slots .s-map { display: inline-block; margin-top: 3px; font-size: 12px; font-weight: 500; color: #9fd3ff; text-decoration: none; border-bottom: 1px solid rgba(159, 211, 255, .35); }
+.slots .s-map:hover { color: #fff; border-bottom-color: #fff; }
+.cards > .plan-note { grid-column: 1 / -1; margin: 0; }

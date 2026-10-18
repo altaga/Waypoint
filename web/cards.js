@@ -36,7 +36,7 @@ const L = {
     packed: (a, b) => `${a} of ${b} packed`, doNotPack: "Do not pack", plan: "Day plan", free: "Free day",
     morning: "Morning", afternoon: "Afternoon", evening: "Evening", day: "Day", brief: "What's left", ready: "ready",
     daysLeft: (n) => (n === 1 ? "1 day to go" : `${n} days to go`), daysUnit: (n) => (n === 1 ? "day to go" : "days to go"), tapToTick: "Tap to tick off", profile: "Traveler profile",
-    planEmpty: "No day plan yet", planEmptyHint: "Tell me what you enjoy and I'll put one together from real places.",
+    hours: "Hours and map", hoursNote: "Suggested times, not opening hours: check each place before you go.", planEmpty: "No day plan yet", planEmptyHint: "Tell me what you enjoy and I'll put one together from real places.",
     settleBtn: "Group money", settle: "Settle up", fairness: "Fairness", transfers: "Transfers", squared: "Everyone is square.", unassigned: (n) => `${n} expense(s) have no payer and are not counted.`, noLikes: "no likes saved", avoids: "Avoids",
     nothing: "Nothing pending", calendar: "Add to calendar", share: "Share brief", copied: "Copied", panel: "View panel", autopilot: "Get me ready",
   },
@@ -47,7 +47,7 @@ const L = {
     packed: (a, b) => `${a} de ${b} empacados`, doNotPack: "No llevar", plan: "Plan de días", free: "Día libre",
     morning: "Mañana", afternoon: "Tarde", evening: "Noche", day: "Día", brief: "Lo que falta", ready: "listo",
     daysLeft: (n) => (n === 1 ? "Falta 1 día" : `Faltan ${n} días`), daysUnit: (n) => (n === 1 ? "día para el viaje" : "días para el viaje"), tapToTick: "Toca para marcar", profile: "Perfil del viajero",
-    planEmpty: "Aún no hay plan de días", planEmptyHint: "Dime qué te gusta y armo uno con lugares reales.",
+    hours: "Horarios y mapa", hoursNote: "Horas sugeridas, no son horarios de apertura: revisa cada lugar antes de ir.", planEmpty: "Aún no hay plan de días", planEmptyHint: "Dime qué te gusta y armo uno con lugares reales.",
     settleBtn: "Cuentas", settle: "Cuentas del grupo", fairness: "Equidad del plan", transfers: "Transferencias", squared: "Todos están a mano.", unassigned: (n) => `${n} gasto(s) no tienen quién pagó y no cuentan.`, noLikes: "sin gustos guardados", avoids: "Evita",
     nothing: "Sin pendientes", calendar: "Calendario", share: "Compartir", copied: "Copiado", panel: "Ver panel", autopilot: "Prepárame",
   },
@@ -56,6 +56,11 @@ export const words = (lang) => L[lang] || L.en;
 
 const STATUS_TONE = { visa_free: "ok", same_country: "ok", eta: "warn", e_visa: "warn", visa_on_arrival: "warn", visa_required: "blocked", no_admission: "blocked" };
 const toneIcon = (tone) => icon(tone === "ok" ? "check" : tone === "blocked" ? "stop" : "alert");
+
+// Only https links are drawn: a link comes from the server, but it is not trusted to be a web address.
+function safeUrl(u) {
+  return typeof u === "string" && /^https:\/\//.test(u) ? u : "";
+}
 
 function shortDate(iso, lang) {
   if (!iso) return "";
@@ -206,12 +211,14 @@ function itineraryCards(sc, lang) {
   if (!days.length) {
     return `<article class="card k-day"><header class="ch"><h2>${esc(w.planEmpty)}</h2></header><p class="muted-s">${esc(w.planEmptyHint)}</p></article>`;
   }
-  return days
+  // One line above the days: the times are suggestions, and where to see the real hours.
+  const note = days.some((d) => (d.stops || []).some((s) => s.start)) ? `<p class="plan-note muted-s">${esc(w.hoursNote)}</p>` : "";
+  return note + days
     .map((d) => {
       const stops = d.stops || [];
       const body = stops.length
         ? `<ol class="slots">${stops
-            .map((s) => `<li>${icon(s.category === "food" ? "talk" : s.category === "nature" ? "sun" : "sun")}<div><div class="s-k">${esc(s.area)} · ${esc(s.durationMinutes)} min</div><div class="s-v">${esc(s.name)}</div>${s.admission ? `<div class="s-note">${esc(s.admission)}</div>` : ""}</div></li>`)
+            .map((s) => `<li>${icon(s.category === "food" ? "talk" : s.category === "nature" ? "sun" : "sun")}<div><div class="s-k">${s.start ? `${esc(s.start)}–${esc(s.end)} · ${esc(s.area)}` : `${esc(s.area)} · ${esc(s.durationMinutes)} min`}</div><div class="s-v">${esc(s.name)}</div>${s.admission ? `<div class="s-note">${esc(s.admission)}</div>` : ""}${safeUrl(s.mapsUrl) ? `<a class="s-map" href="${esc(safeUrl(s.mapsUrl))}" target="_blank" rel="noopener noreferrer">${esc(w.hours)} ↗</a>` : ""}</div></li>`)
             .join("")}</ol>`
         : `<p class="muted-s">${esc(w.free)}</p>`;
       return `<article class="card k-day"><header class="ch"><div class="d-n">${esc(w.day)} ${d.day}${d.date ? ` · ${esc(shortDate(d.date, lang))}` : ""}</div>${d.title ? `<h2>${esc(d.title)}</h2>` : ""}</header>${body}</article>`;
