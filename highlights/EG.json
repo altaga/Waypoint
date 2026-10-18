@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,6 +62,16 @@
           "title": "Museo Egipcio de El Cairo",
           "url": "https://es.wikipedia.org/wiki/Museo_Egipcio_de_El_Cairo"
         }
+      },
+      "wikidata": "Q201219",
+      "website": "https://egyptianmuseumcairo.eg/",
+      "lat": 30.04778,
+      "lon": 31.23333,
+      "phone": "+20-2-25796948",
+      "hours": {
+        "text": "Mo-Sa 09:00-21:00; Su 09:00-16:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -88,7 +104,12 @@
           "title": "Gran Museo Egipcio",
           "url": "https://es.wikipedia.org/wiki/Gran_Museo_Egipcio"
         }
-      }
+      },
+      "wikidata": "Q2583681",
+      "website": "https://gem.eg/",
+      "lat": 29.99361,
+      "lon": 31.11972,
+      "phone": "+20-2-33776893"
     },
     {
       "id": "eg-q501851",
@@ -120,7 +141,11 @@
           "title": "Bibliotheca Alexandrina",
           "url": "https://es.wikipedia.org/wiki/Bibliotheca_Alexandrina"
         }
-      }
+      },
+      "wikidata": "Q501851",
+      "website": "https://www.bibalex.org/",
+      "lat": 31.20889,
+      "lon": 29.90917
     },
     {
       "id": "eg-q1878362",
@@ -152,7 +177,11 @@
           "title": "Museo de Luxor",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Luxor"
         }
-      }
+      },
+      "wikidata": "Q1878362",
+      "website": "https://egymonuments.com/locations/details/LuxorMuseum",
+      "lat": 25.70772,
+      "lon": 32.64449
     },
     {
       "id": "eg-q1784177",
@@ -184,7 +213,12 @@
           "title": "Museo Copto",
           "url": "https://es.wikipedia.org/wiki/Museo_Copto"
         }
-      }
+      },
+      "wikidata": "Q1784177",
+      "website": "https://egymonuments.gov.eg/en/museums/the-coptic-museum",
+      "lat": 30.00592,
+      "lon": 31.23067,
+      "phone": "+20-2-27412016"
     },
     {
       "id": "eg-q3330629",
@@ -217,7 +251,12 @@
           "title": "Museo de arte islámico de El Cairo",
           "url": "https://es.wikipedia.org/wiki/Museo_de_arte_isl%C3%A1mico_de_El_Cairo"
         }
-      }
+      },
+      "wikidata": "Q3330629",
+      "website": "https://www.miaegypt.org/",
+      "lat": 30.04472,
+      "lon": 31.25278,
+      "phone": "+20-2-23901520"
     },
     {
       "id": "eg-q201383",
@@ -249,7 +288,12 @@
           "title": "Museo Nacional de Alejandría",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Alejandr%C3%ADa"
         }
-      }
+      },
+      "wikidata": "Q201383",
+      "website": "https://egymonuments.com/locations/details/AlexandriaNationalMuseum",
+      "lat": 31.2011,
+      "lon": 29.9132,
+      "phone": "+20-3-4835519"
     },
     {
       "id": "eg-q1546319",
@@ -281,6 +325,16 @@
           "title": "Museo Grecorromano de Alejandría",
           "url": "https://es.wikipedia.org/wiki/Museo_Grecorromano_de_Alejandr%C3%ADa"
         }
+      },
+      "wikidata": "Q1546319",
+      "website": "https://egymonuments.gov.eg/en/museums/graeco-roman-museum",
+      "lat": 31.19925,
+      "lon": 29.90661,
+      "phone": "+20 34876434",
+      "hours": {
+        "text": "Mo-Su 09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -313,7 +367,12 @@
           "title": "Museo Nacional de la Civilización Egipcia",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_la_Civilizaci%C3%B3n_Egipcia"
         }
-      }
+      },
+      "wikidata": "Q29017001",
+      "website": "https://nmec.gov.eg/",
+      "lat": 30.0075,
+      "lon": 31.24833,
+      "phone": "+20-2-27412273"
     },
     {
       "id": "eg-q4164858",
@@ -345,7 +404,10 @@
           "title": "Bab al-Futuh",
           "url": "https://es.wikipedia.org/wiki/Bab_al-Futuh"
         }
-      }
+      },
+      "wikidata": "Q4164858",
+      "lat": 30.0555,
+      "lon": 31.2634
     }
   ]
 }

@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,10 @@
           "title": "Parque zoológico de Guyana",
           "url": "https://es.wikipedia.org/wiki/Parque_zool%C3%B3gico_de_Guyana"
         }
-      }
+      },
+      "wikidata": "Q1557640",
+      "lat": 6.80605,
+      "lon": -58.14631
     },
     {
       "id": "gy-q2586282",
@@ -88,7 +97,10 @@
           "title": "Museo nacional de Guyana",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Guyana"
         }
-      }
+      },
+      "wikidata": "Q2586282",
+      "lat": 6.8135,
+      "lon": -58.1658
     },
     {
       "id": "gy-q5049685",
@@ -116,7 +128,10 @@
           "title": "Castellani House, Guyana",
           "url": "https://en.wikipedia.org/wiki/Castellani_House%2C_Guyana"
         }
-      }
+      },
+      "wikidata": "Q5049685",
+      "lat": 6.80604,
+      "lon": -58.14992
     }
   ]
 }

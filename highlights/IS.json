@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,6 +62,16 @@
           "title": "Museo Nacional de Islandia",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Islandia"
         }
+      },
+      "wikidata": "Q626963",
+      "website": "http://www.thjodminjasafn.is",
+      "lat": 64.1419,
+      "lon": -21.94811,
+      "phone": "+354 530-2200",
+      "hours": {
+        "text": "Mo-Su 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -88,6 +104,16 @@
           "title": "Museo de Arte de Reikiavik",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_de_Reikiavik"
         }
+      },
+      "wikidata": "Q3358410",
+      "website": "http://www.artmuseum.is/",
+      "lat": 64.149,
+      "lon": -21.9406,
+      "phone": "+354 411 6400",
+      "hours": {
+        "text": "Mo-We 10:00-17:00; Th 10:00-22:00; Fr-Su 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -120,6 +146,16 @@
           "title": "Galería Nacional de Islandia",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Islandia"
         }
+      },
+      "wikidata": "Q3480309",
+      "website": "http://www.listasafn.is",
+      "lat": 64.14417,
+      "lon": -21.93917,
+      "phone": "+354 515 9600",
+      "hours": {
+        "text": "Mo-Su 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -148,6 +184,15 @@
           "title": "Árbæjarsafn",
           "url": "https://en.wikipedia.org/wiki/%C3%81rb%C3%A6jarsafn"
         }
+      },
+      "wikidata": "Q3481984",
+      "website": "https://reykjavikcitymuseum.is/arbaer-open-air-museum",
+      "lat": 64.118,
+      "lon": -21.818,
+      "hours": {
+        "text": "Jun-Aug 10:00-17:00, Sep-May 13:00-17:00; Jan 1 off; easter -2 days off; easter off; Dec 25 off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -176,7 +221,11 @@
           "title": "Þjóðveldisbærinn Stöng",
           "url": "https://en.wikipedia.org/wiki/%C3%9Ej%C3%B3%C3%B0veldisb%C3%A6rinn_St%C3%B6ng"
         }
-      }
+      },
+      "wikidata": "Q15049871",
+      "website": "http://www.thjodveldisbaer.is/",
+      "lat": 64.12119,
+      "lon": -19.82919
     },
     {
       "id": "is-q4163674",
@@ -208,7 +257,11 @@
           "title": "Museo Nacional Vikingo",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_Vikingo"
         }
-      }
+      },
+      "wikidata": "Q4163674",
+      "website": "https://www.vikingworld.is/",
+      "lat": 63.976,
+      "lon": -22.5289
     },
     {
       "id": "is-q356308",
@@ -236,7 +289,11 @@
           "title": "The Living Art Museum",
           "url": "https://en.wikipedia.org/wiki/The_Living_Art_Museum"
         }
-      }
+      },
+      "wikidata": "Q356308",
+      "website": "http://www.nylo.is/",
+      "lat": 64.14561,
+      "lon": -21.91953
     },
     {
       "id": "is-q10480451",
@@ -264,6 +321,16 @@
           "title": "Eiríksstaðir",
           "url": "https://en.wikipedia.org/wiki/Eir%C3%ADkssta%C3%B0ir"
         }
+      },
+      "wikidata": "Q10480451",
+      "website": "https://www.eiriksstadir.is/",
+      "lat": 65.05919,
+      "lon": -21.54114,
+      "phone": "+354 899 7111",
+      "hours": {
+        "text": "Apr 01-Oct 03: 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -292,6 +359,16 @@
           "title": "Gljúfrasteinn",
           "url": "https://en.wikipedia.org/wiki/Glj%C3%BAfrasteinn"
         }
+      },
+      "wikidata": "Q2312229",
+      "website": "https://www.gljufrasteinn.is/",
+      "lat": 64.18083,
+      "lon": -21.58167,
+      "phone": "+354 586 8066",
+      "hours": {
+        "text": "Mar-May: Tu-Su 10:00-16:00; Jun-Aug: Mo-Su 10:00-17:00; Sep-Oct: Tu-Su 10:00-16:00; Nov-Feb: Tu-Fr 10:00-16:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

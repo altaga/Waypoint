@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,6 +62,16 @@
           "title": "Museo Olímpico (Lausana)",
           "url": "https://es.wikipedia.org/wiki/Museo_Ol%C3%ADmpico_(Lausana)"
         }
+      },
+      "wikidata": "Q598646",
+      "website": "https://www.olympic.org/museum",
+      "lat": 46.50861,
+      "lon": 6.63389,
+      "phone": "+41 21 621 65 11",
+      "hours": {
+        "text": "Tu-Su 09:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -89,7 +105,10 @@
           "title": "Kapellbrücke",
           "url": "https://es.wikipedia.org/wiki/Kapellbr%C3%BCcke"
         }
-      }
+      },
+      "wikidata": "Q25225",
+      "lat": 47.05163,
+      "lon": 8.30753
     },
     {
       "id": "ch-q194626",
@@ -121,6 +140,16 @@
           "title": "Museo de Arte de Basilea",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_de_Basilea"
         }
+      },
+      "wikidata": "Q194626",
+      "website": "https://kunstmuseumbasel.ch/",
+      "lat": 47.55417,
+      "lon": 7.59417,
+      "phone": "+41 61 206 62 62",
+      "hours": {
+        "text": "Tu-Su 09:00-18:00; We 09:00-20:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -153,6 +182,16 @@
           "title": "Kunsthaus Zürich",
           "url": "https://es.wikipedia.org/wiki/Kunsthaus_Z%C3%BCrich"
         }
+      },
+      "wikidata": "Q685038",
+      "website": "http://www.kunsthaus.ch/",
+      "lat": 47.37028,
+      "lon": 8.54806,
+      "phone": "+41-44-253-84-84",
+      "hours": {
+        "text": "Tu-Su 10:00-18:00; Th 10:00-20:00; PH 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -185,7 +224,12 @@
           "title": "Museo Nacional de Zúrich",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Z%C3%BArich"
         }
-      }
+      },
+      "wikidata": "Q691896",
+      "website": "https://www.landesmuseum.ch",
+      "lat": 47.37917,
+      "lon": 8.53972,
+      "phone": "+41-44-218-65-11"
     },
     {
       "id": "ch-q246105",
@@ -218,7 +262,11 @@
           "title": "Zytgloggeturm",
           "url": "https://es.wikipedia.org/wiki/Zytgloggeturm"
         }
-      }
+      },
+      "wikidata": "Q246105",
+      "website": "http://www.zeitglockenturm.ch",
+      "lat": 46.94806,
+      "lon": 7.44778
     },
     {
       "id": "ch-q679075",
@@ -251,7 +299,12 @@
           "title": "Museo de Arte e Historia de Ginebra",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_e_Historia_de_Ginebra"
         }
-      }
+      },
+      "wikidata": "Q679075",
+      "website": "https://www.mahmah.ch/",
+      "lat": 46.1993,
+      "lon": 6.15157,
+      "phone": "+41 22 418 26 00"
     },
     {
       "id": "ch-q194622",
@@ -283,7 +336,11 @@
           "title": "Museo de Bellas Artes de Berna",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Bellas_Artes_de_Berna"
         }
-      }
+      },
+      "wikidata": "Q194622",
+      "website": "https://www.kunstmuseumbern.ch",
+      "lat": 46.95111,
+      "lon": 7.44333
     },
     {
       "id": "ch-q688315",
@@ -316,7 +373,11 @@
           "title": "Catedral de Berna",
           "url": "https://es.wikipedia.org/wiki/Catedral_de_Berna"
         }
-      }
+      },
+      "wikidata": "Q688315",
+      "website": "https://www.bernermuenster.ch",
+      "lat": 46.94722,
+      "lon": 7.45139
     },
     {
       "id": "ch-q673833",
@@ -349,7 +410,11 @@
           "title": "Fundación Beyeler",
           "url": "https://es.wikipedia.org/wiki/Fundaci%C3%B3n_Beyeler"
         }
-      }
+      },
+      "wikidata": "Q673833",
+      "website": "https://www.fondationbeyeler.ch",
+      "lat": 47.58806,
+      "lon": 7.65111
     }
   ]
 }

@@ -23,6 +23,18 @@
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-18"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -45,7 +57,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": -9.103056,
+      "lon": 160.150556
     },
     {
       "id": "sb-marovo-lagoon",
@@ -66,7 +80,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": -8.48,
+      "lon": 158.07
     },
     {
       "id": "sb-central-market",
@@ -87,7 +103,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": -9.431944,
+      "lon": 159.955556
     }
   ]
 }

@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Museo de Surinam",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Surinam"
         }
-      }
+      },
+      "wikidata": "Q1960505",
+      "website": "http://www.surinaamsmuseum.net",
+      "lat": 5.8252,
+      "lon": -55.14987
     },
     {
       "id": "sr-q922908",
@@ -88,7 +98,10 @@
           "title": "Zoológico de Paramaribo",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Paramaribo"
         }
-      }
+      },
+      "wikidata": "Q922908",
+      "lat": 5.8473,
+      "lon": -55.15966
     }
   ]
 }

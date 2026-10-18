@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,6 +63,15 @@
           "title": "Museo del palacio de Narayanhity",
           "url": "https://es.wikipedia.org/wiki/Museo_del_palacio_de_Narayanhity"
         }
+      },
+      "wikidata": "Q1050042",
+      "website": "http://narayanhitipalacemuseum.gov.np",
+      "lat": 27.7156,
+      "lon": 85.32,
+      "hours": {
+        "text": "Th-Mo 11:00-16:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -89,7 +104,11 @@
           "title": "Zoológico Central",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_Central"
         }
-      }
+      },
+      "wikidata": "Q220043",
+      "website": "https://ntnc.org.np/project/central-zoo",
+      "lat": 27.67318,
+      "lon": 85.31093
     },
     {
       "id": "np-q16977242",
@@ -121,7 +140,10 @@
           "title": "Cueva Mahendra",
           "url": "https://es.wikipedia.org/wiki/Cueva_Mahendra"
         }
-      }
+      },
+      "wikidata": "Q16977242",
+      "lat": 28.2714,
+      "lon": 83.9797
     },
     {
       "id": "np-q6980524",
@@ -153,7 +175,11 @@
           "title": "Museo de Historia Natural de Nepal",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Natural_de_Nepal"
         }
-      }
+      },
+      "wikidata": "Q6980524",
+      "website": "http://nhmnepal.edu.np",
+      "lat": 27.71451,
+      "lon": 85.28794
     },
     {
       "id": "np-q17013603",
@@ -182,7 +208,12 @@
           "title": "Patan Museum",
           "url": "https://en.wikipedia.org/wiki/Patan_Museum"
         }
-      }
+      },
+      "wikidata": "Q17013603",
+      "website": "http://patanmuseum.gov.np",
+      "lat": 27.67344,
+      "lon": 85.32522,
+      "phone": "+977 1-5521492"
     },
     {
       "id": "np-q19678683",
@@ -210,7 +241,10 @@
           "title": "Tansen Durbar",
           "url": "https://en.wikipedia.org/wiki/Tansen_Durbar"
         }
-      }
+      },
+      "wikidata": "Q19678683",
+      "lat": 27.86736,
+      "lon": 83.54514
     },
     {
       "id": "np-q28183979",
@@ -238,6 +272,16 @@
           "title": "International Mountain Museum",
           "url": "https://en.wikipedia.org/wiki/International_Mountain_Museum"
         }
+      },
+      "wikidata": "Q28183979",
+      "website": "http://www.internationalmountainmuseum.org",
+      "lat": 28.19007,
+      "lon": 83.98286,
+      "phone": "+977 061-450343",
+      "hours": {
+        "text": "Su-Sa 9:00-16:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -267,7 +311,10 @@
           "title": "Pujarimath Museum",
           "url": "https://en.wikipedia.org/wiki/Pujarimath_Museum"
         }
-      }
+      },
+      "wikidata": "Q16917852",
+      "lat": 27.67326,
+      "lon": 85.43558
     }
   ]
 }

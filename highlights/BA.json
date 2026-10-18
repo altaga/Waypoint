@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,10 @@
           "title": "Puente Latino",
           "url": "https://es.wikipedia.org/wiki/Puente_Latino"
         }
-      }
+      },
+      "wikidata": "Q1277685",
+      "lat": 43.85765,
+      "lon": 18.42901
     },
     {
       "id": "ba-q2880621",
@@ -88,7 +97,10 @@
           "title": "Vjetrenica",
           "url": "https://es.wikipedia.org/wiki/Vjetrenica"
         }
-      }
+      },
+      "wikidata": "Q2880621",
+      "lat": 42.84583,
+      "lon": 17.98389
     },
     {
       "id": "ba-q568938",
@@ -116,6 +128,16 @@
           "title": "National Museum of Bosnia and Herzegovina",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_Bosnia_and_Herzegovina"
         }
+      },
+      "wikidata": "Q568938",
+      "website": "http://www.zemaljskimuzej.ba/",
+      "lat": 43.85499,
+      "lon": 18.40264,
+      "phone": "+33-668-027",
+      "hours": {
+        "text": "Tu-Fr 10:00-19:00; Sa-Su 10:00-14:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -148,6 +170,16 @@
           "title": "Museo de la Infancia en Guerra",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Infancia_en_Guerra"
         }
+      },
+      "wikidata": "Q28654544",
+      "website": "http://museum.warchildhood.com",
+      "lat": 43.86199,
+      "lon": 18.42852,
+      "phone": "+387-33-535-558",
+      "hours": {
+        "text": "Mo-Su 11:00-19:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -177,7 +209,10 @@
           "title": "Blagaj, Mostar",
           "url": "https://en.wikipedia.org/wiki/Blagaj%2C_Mostar"
         }
-      }
+      },
+      "wikidata": "Q1277723",
+      "lat": 43.25743,
+      "lon": 17.89467
     },
     {
       "id": "ba-q1400323",
@@ -209,7 +244,12 @@
           "title": "Túnel de Sarajevo",
           "url": "https://es.wikipedia.org/wiki/T%C3%BAnel_de_Sarajevo"
         }
-      }
+      },
+      "wikidata": "Q1400323",
+      "website": "http://tunelspasa.ba",
+      "lat": 43.81972,
+      "lon": 18.33722,
+      "phone": "+387-33-778-672"
     },
     {
       "id": "ba-q2784755",
@@ -241,7 +281,11 @@
           "title": "Museo de arte moderno de la República Srpska",
           "url": "https://es.wikipedia.org/wiki/Museo_de_arte_moderno_de_la_Rep%C3%BAblica_Srpska"
         }
-      }
+      },
+      "wikidata": "Q2784755",
+      "website": "http://msurs.net/index.php/en",
+      "lat": 44.7723,
+      "lon": 17.1897
     },
     {
       "id": "ba-q391211",
@@ -269,7 +313,11 @@
           "title": "Šargan Eight",
           "url": "https://en.wikipedia.org/wiki/%C5%A0argan_Eight"
         }
-      }
+      },
+      "wikidata": "Q391211",
+      "website": "http://www.zeleznicesrbije.com/active/sr-latin/home/glavna_navigacija/prezentacije/sarganska_osmica/red_voznje_sarganske_osmice.html",
+      "lat": 43.8,
+      "lon": 19.52194
     }
   ]
 }

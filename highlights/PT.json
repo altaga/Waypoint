@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,6 +62,15 @@
           "title": "Torre de Belém",
           "url": "https://es.wikipedia.org/wiki/Torre_de_Bel%C3%A9m"
         }
+      },
+      "wikidata": "Q215003",
+      "website": "http://www.patrimoniocultural.gov.pt/pt/museus-e-monumentos/dgpc/m/torre-de-belem/",
+      "lat": 38.69139,
+      "lon": -9.21583,
+      "hours": {
+        "text": "Oct-Apr: Tu-Su 10:00-17:30; May-Sep: Tu-Su 10:00-18:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -88,7 +103,11 @@
           "title": "Palacio Nacional de Mafra",
           "url": "https://es.wikipedia.org/wiki/Palacio_Nacional_de_Mafra"
         }
-      }
+      },
+      "wikidata": "Q599223",
+      "website": "http://www.palaciomafra.pt",
+      "lat": 38.93692,
+      "lon": -9.32639
     },
     {
       "id": "pt-q211262",
@@ -120,6 +139,16 @@
           "title": "Museo Calouste Gulbenkian",
           "url": "https://es.wikipedia.org/wiki/Museo_Calouste_Gulbenkian"
         }
+      },
+      "wikidata": "Q211262",
+      "website": "https://gulbenkian.pt/museu/en/",
+      "lat": 38.73667,
+      "lon": -9.15417,
+      "phone": "+351-21-782-3000",
+      "hours": {
+        "text": "We-Mo 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -153,6 +182,16 @@
           "title": "Museo Nacional de Arte Antiguo",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_Antiguo"
         }
+      },
+      "wikidata": "Q212459",
+      "website": "http://www.museudearteantiga.pt/",
+      "lat": 38.7053,
+      "lon": -9.16072,
+      "phone": "+351 21 391 2800",
+      "hours": {
+        "text": "Tu-Su 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -185,6 +224,16 @@
           "title": "Palacio da Regaleira",
           "url": "https://es.wikipedia.org/wiki/Palacio_da_Regaleira"
         }
+      },
+      "wikidata": "Q2630165",
+      "website": "http://www.regaleira.pt",
+      "lat": 38.79635,
+      "lon": -9.39603,
+      "phone": "+351219106650",
+      "hours": {
+        "text": "Apr 01-Sep 30 09:30-19:00; Oct 01-Mar 31 09:30-17:00; Dec 24-25 off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -217,7 +266,10 @@
           "title": "Iglesia de San Vicente de Fora",
           "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Vicente_de_Fora"
         }
-      }
+      },
+      "wikidata": "Q1776168",
+      "lat": 38.71472,
+      "lon": -9.12778
     },
     {
       "id": "pt-q856866",
@@ -249,7 +301,10 @@
           "title": "Cabo Girão",
           "url": "https://es.wikipedia.org/wiki/Cabo_Gir%C3%A3o"
         }
-      }
+      },
+      "wikidata": "Q856866",
+      "lat": 32.65649,
+      "lon": -17.00446
     },
     {
       "id": "pt-q1954384",
@@ -281,6 +336,16 @@
           "title": "Museo Nacional de Arqueología (Portugal)",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arqueolog%C3%ADa_(Portugal)"
         }
+      },
+      "wikidata": "Q1954384",
+      "website": "http://www.museunacionalarqueologia.gov.pt/",
+      "lat": 38.69728,
+      "lon": -9.20706,
+      "phone": "+351 213 620 000;+351 213 620 025",
+      "hours": {
+        "text": "Tu-Su 10:00-18:00; Jan 01,May 01,Jun 13,Dec 25 off;easter off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -313,7 +378,11 @@
           "title": "Oceanario de Lisboa",
           "url": "https://es.wikipedia.org/wiki/Oceanario_de_Lisboa"
         }
-      }
+      },
+      "wikidata": "Q652806",
+      "website": "https://www.oceanario.pt/",
+      "lat": 38.76353,
+      "lon": -9.09375
     },
     {
       "id": "pt-q2313815",
@@ -346,6 +415,16 @@
           "title": "Museo Nacional del Azulejo (Portugal)",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_del_Azulejo_(Portugal)"
         }
+      },
+      "wikidata": "Q2313815",
+      "website": "http://www.museudoazulejo.gov.pt",
+      "lat": 38.7244,
+      "lon": -9.11389,
+      "phone": "+351 218 100 340",
+      "hours": {
+        "text": "closed",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -378,6 +457,16 @@
           "title": "Museo de la Marina (Lisboa)",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Marina_(Lisboa)"
         }
+      },
+      "wikidata": "Q1540177",
+      "website": "https://ccm.marinha.pt/pt/museu",
+      "lat": 38.6971,
+      "lon": -9.20814,
+      "phone": "+351 21 097 7390",
+      "hours": {
+        "text": "May 01-Sep 30 10:00-18:00; Oct 01-Apr 30 10:00-17:00; easter off; Jan 01,May 01,Dec 25 off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -410,7 +499,10 @@
           "title": "Catedral nueva de Coímbra",
           "url": "https://es.wikipedia.org/wiki/Catedral_nueva_de_Co%C3%ADmbra"
         }
-      }
+      },
+      "wikidata": "Q979100",
+      "lat": 40.20944,
+      "lon": -8.42444
     }
   ]
 }

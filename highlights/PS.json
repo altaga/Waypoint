@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,10 @@
           "title": "Santo Sepulcro",
           "url": "https://es.wikipedia.org/wiki/Santo_Sepulcro"
         }
-      }
+      },
+      "wikidata": "Q187702",
+      "lat": 31.77844,
+      "lon": 35.22975
     },
     {
       "id": "ps-q1177765",
@@ -90,7 +99,11 @@
           "title": "Torre de David",
           "url": "https://es.wikipedia.org/wiki/Torre_de_David"
         }
-      }
+      },
+      "wikidata": "Q1177765",
+      "website": "https://www.tod.org.il/",
+      "lat": 31.77611,
+      "lon": 35.22778
     },
     {
       "id": "ps-q121610806",
@@ -120,7 +133,10 @@
           "title": "Al-Aqsa",
           "url": "https://en.wikipedia.org/wiki/Al-Aqsa"
         }
-      }
+      },
+      "wikidata": "Q121610806",
+      "lat": 31.778,
+      "lon": 35.236
     },
     {
       "id": "ps-q3407496",
@@ -153,7 +169,10 @@
           "title": "Museo Islámico de Jerusalén",
           "url": "https://es.wikipedia.org/wiki/Museo_Isl%C3%A1mico_de_Jerusal%C3%A9n"
         }
-      }
+      },
+      "wikidata": "Q3407496",
+      "lat": 31.77607,
+      "lon": 35.23481
     },
     {
       "id": "ps-q18211128",
@@ -186,7 +205,11 @@
           "title": "Museo de Palestina",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Palestina"
         }
-      }
+      },
+      "wikidata": "Q18211128",
+      "website": "http://www.palmuseum.org/",
+      "lat": 31.96297,
+      "lon": 35.18345
     },
     {
       "id": "ps-q2157390",
@@ -218,7 +241,12 @@
           "title": "Museo folclórico de Belén",
           "url": "https://es.wikipedia.org/wiki/Museo_folcl%C3%B3rico_de_Bel%C3%A9n"
         }
-      }
+      },
+      "wikidata": "Q2157390",
+      "website": "http://www.bethawu.org/museums/ethnographic-museum",
+      "lat": 31.70474,
+      "lon": 35.20506,
+      "phone": "+970-2742589"
     }
   ]
 }

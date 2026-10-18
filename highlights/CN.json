@@ -23,6 +23,18 @@
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-18"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -46,7 +58,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://intl.dpm.org.cn",
+      "lat": 39.915833,
+      "lon": 116.390833
     },
     {
       "id": "cn-great-wall-mutianyu",
@@ -67,7 +82,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.mutianyugreatwall.com",
+      "lat": 40.438017,
+      "lon": 116.5619
     },
     {
       "id": "cn-temple-heaven",
@@ -89,7 +107,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 39.8822,
+      "lon": 116.4066
     },
     {
       "id": "cn-bund",
@@ -111,7 +131,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 31.238028,
+      "lon": 121.486139
     },
     {
       "id": "cn-yu-garden",
@@ -133,7 +155,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.yugarden.com.cn",
+      "lat": 31.229167,
+      "lon": 121.4875
     },
     {
       "id": "cn-terracotta",
@@ -154,7 +179,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 34.385,
+      "lon": 109.273056
     }
   ]
 }

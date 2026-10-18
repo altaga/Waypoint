@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,12 @@
           "title": "Museo Casa Rull",
           "url": "https://es.wikipedia.org/wiki/Museo_Casa_Rull"
         }
-      }
+      },
+      "wikidata": "Q2124368",
+      "website": "https://museus.ad/es/museos/museo-casa-rull",
+      "lat": 42.53236,
+      "lon": 1.51417,
+      "phone": "+376 836 919"
     },
     {
       "id": "ad-q2912609",
@@ -88,7 +99,10 @@
           "title": "Museo nacional del Automóvil (Andorra)",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_del_Autom%C3%B3vil_(Andorra)"
         }
-      }
+      },
+      "wikidata": "Q2912609",
+      "lat": 42.53314,
+      "lon": 1.5779
     },
     {
       "id": "ad-q2912615",
@@ -116,7 +130,11 @@
           "title": "Farga Rossell",
           "url": "https://es.wikipedia.org/wiki/Farga_Rossell"
         }
-      }
+      },
+      "wikidata": "Q2912615",
+      "website": "http://www.museus.ad/",
+      "lat": 42.54618,
+      "lon": 1.52104
     },
     {
       "id": "ad-q2912621",
@@ -149,7 +167,11 @@
           "title": "Casa de Areny-Plandolit",
           "url": "https://es.wikipedia.org/wiki/Casa_de_Areny-Plandolit"
         }
-      }
+      },
+      "wikidata": "Q2912621",
+      "website": "https://museus.ad/en/museums/casa-d-areny-plandolit-museum",
+      "lat": 42.55667,
+      "lon": 1.53389
     },
     {
       "id": "ad-q5047802",
@@ -177,7 +199,11 @@
           "title": "Casa Cristo",
           "url": "https://en.wikipedia.org/wiki/Casa_Cristo"
         }
-      }
+      },
+      "wikidata": "Q5047802",
+      "website": "https://museus.ad/museus/museu-etnografic-casa-cristo",
+      "lat": 42.53515,
+      "lon": 1.58242
     },
     {
       "id": "ad-q36374033",
@@ -205,7 +231,11 @@
           "title": "Museo Carmen Thyssen Andorra",
           "url": "https://es.wikipedia.org/wiki/Museo_Carmen_Thyssen_Andorra"
         }
-      }
+      },
+      "wikidata": "Q36374033",
+      "website": "https://museucarmenthyssenandorra.ad",
+      "lat": 42.50879,
+      "lon": 1.54211
     }
   ]
 }

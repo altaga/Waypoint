@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Museo Nacional del Bardo",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_del_Bardo"
         }
-      }
+      },
+      "wikidata": "Q1429003",
+      "website": "https://bardomuseum.pages.dev/",
+      "lat": 36.80944,
+      "lon": 10.13444
     },
     {
       "id": "tn-q3329457",
@@ -88,7 +98,11 @@
           "title": "Museo Arqueológico de Susa",
           "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Susa"
         }
-      }
+      },
+      "wikidata": "Q3329457",
+      "lat": 35.82194,
+      "lon": 10.63528,
+      "phone": "+216 73219011-73227256-73201228"
     },
     {
       "id": "tn-q163299",
@@ -120,7 +134,11 @@
           "title": "Museo de Chemtou",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Chemtou"
         }
-      }
+      },
+      "wikidata": "Q163299",
+      "website": "http://www.chimtou.com",
+      "lat": 36.48972,
+      "lon": 8.57694
     },
     {
       "id": "tn-q1961849",
@@ -152,7 +170,10 @@
           "title": "Museo Nacional de Cartago",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Cartago"
         }
-      }
+      },
+      "wikidata": "Q1961849",
+      "lat": 36.85314,
+      "lon": 10.3244
     },
     {
       "id": "tn-q3329731",
@@ -184,6 +205,14 @@
           "title": "Museo de Mahdía",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Mahd%C3%ADa"
         }
+      },
+      "wikidata": "Q3329731",
+      "lat": 35.5038,
+      "lon": 11.0688,
+      "hours": {
+        "text": "Sep 16-Apr 30: Mo-Su 09:30 - 16:00; May 01-Sep 15: Mo-Su 09:00 - 16:00; 09:00-15:00 \"Openings hours at Ramadan's month\"",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -216,7 +245,10 @@
           "title": "Museo paleocristiano de Cartago",
           "url": "https://es.wikipedia.org/wiki/Museo_paleocristiano_de_Cartago"
         }
-      }
+      },
+      "wikidata": "Q1961879",
+      "lat": 36.8484,
+      "lon": 10.3247
     },
     {
       "id": "tn-q3329710",
@@ -248,6 +280,14 @@
           "title": "Museo de Bulla Regia",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Bulla_Regia"
         }
+      },
+      "wikidata": "Q3329710",
+      "lat": 36.55655,
+      "lon": 8.7545,
+      "hours": {
+        "text": "May 1-Oct 30: 08:00-20:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -280,7 +320,11 @@
           "title": "Parque de Friguia",
           "url": "https://es.wikipedia.org/wiki/Parque_de_Friguia"
         }
-      }
+      },
+      "wikidata": "Q3087852",
+      "website": "http://www.friguiapark.com/",
+      "lat": 36.20306,
+      "lon": 10.42333
     },
     {
       "id": "tn-q3364339",
@@ -312,7 +356,10 @@
           "title": "Parque de Belvédère",
           "url": "https://es.wikipedia.org/wiki/Parque_de_Belv%C3%A9d%C3%A8re"
         }
-      }
+      },
+      "wikidata": "Q3364339",
+      "lat": 36.8225,
+      "lon": 10.1733
     },
     {
       "id": "tn-q3329425",
@@ -344,7 +391,10 @@
           "title": "Museo Arqueológico de El Djem",
           "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_El_Djem"
         }
-      }
+      },
+      "wikidata": "Q3329425",
+      "lat": 35.28972,
+      "lon": 10.70472
     }
   ]
 }

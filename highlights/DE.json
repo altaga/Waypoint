@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Aquisgrán",
           "url": "https://es.wikipedia.org/wiki/Aquisgr%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q1017",
+      "website": "https://www.aachen.de/",
+      "lat": 50.77621,
+      "lon": 6.08379
     },
     {
       "id": "de-q2833",
@@ -88,7 +98,12 @@
           "title": "Friburgo de Brisgovia",
           "url": "https://es.wikipedia.org/wiki/Friburgo_de_Brisgovia"
         }
-      }
+      },
+      "wikidata": "Q2833",
+      "website": "https://www.freiburg.de/",
+      "lat": 47.995,
+      "lon": 7.85,
+      "phone": "+49-761-2010"
     },
     {
       "id": "de-q4100",
@@ -121,7 +136,11 @@
           "title": "Baden-Baden",
           "url": "https://es.wikipedia.org/wiki/Baden-Baden"
         }
-      }
+      },
+      "wikidata": "Q4100",
+      "website": "https://www.baden-baden.de/",
+      "lat": 48.76194,
+      "lon": 8.24083
     },
     {
       "id": "de-q4152",
@@ -155,6 +174,16 @@
           "title": "Neuschwanstein",
           "url": "https://es.wikipedia.org/wiki/Neuschwanstein"
         }
+      },
+      "wikidata": "Q4152",
+      "website": "https://www.neuschwanstein.com/",
+      "lat": 47.55749,
+      "lon": 10.74944,
+      "phone": "+49 8362 93988-0",
+      "hours": {
+        "text": "Apr 01-Oct 15: Mo-Su,PH 09:00-18:00; Oct 16-Mar 31: Mo-Su,PH 10:00-16:00; Jan 01,Dec 24,25,31 closed",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -187,7 +216,11 @@
           "title": "Heligoland",
           "url": "https://es.wikipedia.org/wiki/Heligoland"
         }
-      }
+      },
+      "wikidata": "Q3038",
+      "website": "https://www.helgoland.de/rathaus",
+      "lat": 54.1825,
+      "lon": 7.88528
     },
     {
       "id": "de-q157298",
@@ -221,6 +254,16 @@
           "title": "Museo de Pérgamo",
           "url": "https://es.wikipedia.org/wiki/Museo_de_P%C3%A9rgamo"
         }
+      },
+      "wikidata": "Q157298",
+      "website": "https://www.smb.museum/museen-einrichtungen/pergamonmuseum/",
+      "lat": 52.521,
+      "lon": 13.396,
+      "phone": "+49 30 20905577",
+      "hours": {
+        "text": "off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -253,6 +296,16 @@
           "title": "Neues Museum",
           "url": "https://es.wikipedia.org/wiki/Neues_Museum"
         }
+      },
+      "wikidata": "Q157316",
+      "website": "https://www.smb.museum/museen-einrichtungen/neues-museum/home/",
+      "lat": 52.5202,
+      "lon": 13.3976,
+      "phone": "+49-30-266424242",
+      "hours": {
+        "text": "Mo off; Tu-Su 10:00-18:00; PH 10:00-18:00; Dec 24 off; Dec 31 off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -285,6 +338,15 @@
           "title": "Palacio de Charlottenburg",
           "url": "https://es.wikipedia.org/wiki/Palacio_de_Charlottenburg"
         }
+      },
+      "wikidata": "Q154996",
+      "website": "https://www.spsg.de/schloesser-gaerten/objekt/schloss-charlottenburg-altes-schloss/",
+      "lat": 52.52111,
+      "lon": 13.29583,
+      "hours": {
+        "text": "Apr-Oct Tu-Su 10:00-17:30; Nov-Mar Tu-Su 10:00-16:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -318,6 +380,16 @@
           "title": "Palacio de Nymphenburg",
           "url": "https://es.wikipedia.org/wiki/Palacio_de_Nymphenburg"
         }
+      },
+      "wikidata": "Q131631",
+      "website": "http://www.schloss-nymphenburg.de",
+      "lat": 48.15806,
+      "lon": 11.50361,
+      "phone": "+49 89 179 080",
+      "hours": {
+        "text": "Apr 01-Oct 15 09:00-18:00; Oct 16-Mar 31 10:00-16:00; Jan 01,Dec 24,Dec 25,Dec 31 off; \"Faschingsdienstag geschlossen\"",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -351,6 +423,16 @@
           "title": "Residencia de Wurzburgo",
           "url": "https://es.wikipedia.org/wiki/Residencia_de_Wurzburgo"
         }
+      },
+      "wikidata": "Q156316",
+      "website": "https://www.residenz-wuerzburg.de/",
+      "lat": 49.7928,
+      "lon": 9.93889,
+      "phone": "+49 931 35517 0",
+      "hours": {
+        "text": "Jan-Mar Mo-Su,PH 10:00-16:30; Apr-Oct Mo-Su,PH 09:00-18:00; Nov-Dec Mo-Su,PH 10:00-16:30; Jan 01,easter -47 days,Dec 24,Dec 25,Dec 31 off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -384,7 +466,12 @@
           "title": "Castillo de Wartburg",
           "url": "https://es.wikipedia.org/wiki/Castillo_de_Wartburg"
         }
-      }
+      },
+      "wikidata": "Q151545",
+      "website": "https://www.wartburg.de/de/",
+      "lat": 50.96611,
+      "lon": 10.30639,
+      "phone": "+49 3691 2500"
     },
     {
       "id": "de-q156457",
@@ -416,7 +503,12 @@
           "title": "Castillo de Hohenzollern",
           "url": "https://es.wikipedia.org/wiki/Castillo_de_Hohenzollern"
         }
-      }
+      },
+      "wikidata": "Q156457",
+      "website": "https://www.burg-hohenzollern.com",
+      "lat": 48.32356,
+      "lon": 8.9674,
+      "phone": "+49-7471-2428"
     },
     {
       "id": "de-q157886",
@@ -448,7 +540,11 @@
           "title": "Monasterio de Maulbronn",
           "url": "https://es.wikipedia.org/wiki/Monasterio_de_Maulbronn"
         }
-      }
+      },
+      "wikidata": "Q157886",
+      "website": "http://www.kloster-maulbronn.de/",
+      "lat": 49.0011,
+      "lon": 8.8129
     },
     {
       "id": "de-q157550",
@@ -480,7 +576,11 @@
           "title": "Abadía de Lorsch",
           "url": "https://es.wikipedia.org/wiki/Abad%C3%ADa_de_Lorsch"
         }
-      }
+      },
+      "wikidata": "Q157550",
+      "website": "http://www.kloster-lorsch.de/",
+      "lat": 49.65389,
+      "lon": 8.56889
     },
     {
       "id": "de-q152802",
@@ -512,7 +612,11 @@
           "title": "Campo de concentración de Buchenwald",
           "url": "https://es.wikipedia.org/wiki/Campo_de_concentraci%C3%B3n_de_Buchenwald"
         }
-      }
+      },
+      "wikidata": "Q152802",
+      "website": "http://www.buchenwald.de/",
+      "lat": 51.0212,
+      "lon": 11.249
     }
   ]
 }

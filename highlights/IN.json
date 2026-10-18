@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,10 @@
           "title": "Parque Arqueológico de Champaner-Pavagadh",
           "url": "https://es.wikipedia.org/wiki/Parque_Arqueol%C3%B3gico_de_Champaner-Pavagadh"
         }
-      }
+      },
+      "wikidata": "Q844427",
+      "lat": 22.48333,
+      "lon": 73.53333
     },
     {
       "id": "in-q1356352",
@@ -89,6 +98,16 @@
           "title": "Victoria Memorial (Calcuta)",
           "url": "https://es.wikipedia.org/wiki/Victoria_Memorial_(Calcuta)"
         }
+      },
+      "wikidata": "Q1356352",
+      "website": "http://www.victoriamemorial-cal.org/",
+      "lat": 22.5449,
+      "lon": 88.3425,
+      "phone": "+91-33-2223-1890",
+      "hours": {
+        "text": "Tu-Fr 10:00-18:00, Sa-Su 10:00-20:00, PH closed",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -117,7 +136,11 @@
           "title": "Sabarmati Ashram",
           "url": "https://en.wikipedia.org/wiki/Sabarmati_Ashram"
         }
-      }
+      },
+      "wikidata": "Q1410702",
+      "website": "http://www.gandhiashramsabarmati.org",
+      "lat": 23.06,
+      "lon": 72.58083
     },
     {
       "id": "in-q1364900",
@@ -150,7 +173,12 @@
           "title": "Museo de la India (Calcuta)",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_India_(Calcuta)"
         }
-      }
+      },
+      "wikidata": "Q1364900",
+      "website": "https://indianmuseumkolkata.org/",
+      "lat": 22.55806,
+      "lon": 88.35083,
+      "phone": "+91-33-2252-1790"
     },
     {
       "id": "in-q1356138",
@@ -179,6 +207,16 @@
           "title": "National Museum of India",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_India"
         }
+      },
+      "wikidata": "Q1356138",
+      "website": "http://www.nationalmuseumindia.gov.in",
+      "lat": 28.61181,
+      "lon": 77.21926,
+      "phone": "+91 011-23019272",
+      "hours": {
+        "text": "Tu-Su 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -211,7 +249,11 @@
           "title": "Museo Salar Jung",
           "url": "https://es.wikipedia.org/wiki/Museo_Salar_Jung"
         }
-      }
+      },
+      "wikidata": "Q1864572",
+      "website": "https://salarjungmuseum.in",
+      "lat": 17.37143,
+      "lon": 78.48035
     },
     {
       "id": "in-q1381516",
@@ -243,6 +285,16 @@
           "title": "Casa Birla",
           "url": "https://es.wikipedia.org/wiki/Casa_Birla"
         }
+      },
+      "wikidata": "Q1381516",
+      "website": "http://gandhismriti.gov.in/",
+      "lat": 28.60186,
+      "lon": 77.21436,
+      "phone": "+91 11 2301 2843",
+      "hours": {
+        "text": "Tu-Su 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -271,7 +323,11 @@
           "title": "Ramoji Film City",
           "url": "https://en.wikipedia.org/wiki/Ramoji_Film_City"
         }
-      }
+      },
+      "wikidata": "Q1786944",
+      "website": "https://www.ramojifilmcity.com/",
+      "lat": 17.2523,
+      "lon": 78.6802
     }
   ]
 }

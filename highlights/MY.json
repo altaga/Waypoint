@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Cuevas de Batu",
           "url": "https://es.wikipedia.org/wiki/Cuevas_de_Batu"
         }
-      }
+      },
+      "wikidata": "Q687629",
+      "website": "https://mrt.com.my/komuter/Batu_Caves.htm",
+      "lat": 3.2374,
+      "lon": 101.68391
     },
     {
       "id": "my-q917630",
@@ -89,7 +99,11 @@
           "title": "Museo nacional de Malasia",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Malasia"
         }
-      }
+      },
+      "wikidata": "Q917630",
+      "website": "http://www.muziumnegara.gov.my/",
+      "lat": 3.13758,
+      "lon": 101.68739
     },
     {
       "id": "my-q3330187",
@@ -118,6 +132,16 @@
           "title": "Islamic Arts Museum Malaysia",
           "url": "https://en.wikipedia.org/wiki/Islamic_Arts_Museum_Malaysia"
         }
+      },
+      "wikidata": "Q3330187",
+      "website": "https://www.iamm.org.my/",
+      "lat": 3.14292,
+      "lon": 101.689,
+      "phone": "+60 3 20927070",
+      "hours": {
+        "text": "Mo-Su 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -146,6 +170,16 @@
           "title": "Kuala Lumpur Bird Park",
           "url": "https://en.wikipedia.org/wiki/Kuala_Lumpur_Bird_Park"
         }
+      },
+      "wikidata": "Q2660049",
+      "website": "https://www.klbirdpark.com/",
+      "lat": 3.14243,
+      "lon": 101.68847,
+      "phone": "+60 3 2272 1010",
+      "hours": {
+        "text": "09:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -178,7 +212,12 @@
           "title": "Aquaria KLCC",
           "url": "https://es.wikipedia.org/wiki/Aquaria_KLCC"
         }
-      }
+      },
+      "wikidata": "Q29168",
+      "website": "http://www.aquariaklcc.com/",
+      "lat": 3.15339,
+      "lon": 101.71308,
+      "phone": "+60-3-2333-1975"
     },
     {
       "id": "my-q3329752",
@@ -210,7 +249,11 @@
           "title": "Museo del Estado de Sarawak",
           "url": "https://es.wikipedia.org/wiki/Museo_del_Estado_de_Sarawak"
         }
-      }
+      },
+      "wikidata": "Q3329752",
+      "website": "https://museum.sarawak.gov.my",
+      "lat": 1.55472,
+      "lon": 110.34361
     },
     {
       "id": "my-q3229105",
@@ -237,6 +280,16 @@
           "title": "Legoland Malaysia Resort",
           "url": "https://en.wikipedia.org/wiki/Legoland_Malaysia_Resort"
         }
+      },
+      "wikidata": "Q3229105",
+      "website": "https://www.legoland.com.my/",
+      "lat": 1.425,
+      "lon": 103.62722,
+      "phone": "+607 597 8888",
+      "hours": {
+        "text": "09:00-19:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -266,7 +319,12 @@
           "title": "Sabah Museum",
           "url": "https://en.wikipedia.org/wiki/Sabah_Museum"
         }
-      }
+      },
+      "wikidata": "Q2209383",
+      "website": "http://www.museum.sabah.gov.my/",
+      "lat": 5.96056,
+      "lon": 116.07167,
+      "phone": "+60-88-253-199"
     },
     {
       "id": "my-q6441508",
@@ -297,7 +355,10 @@
           "title": "Museo del gato de Kuching",
           "url": "https://es.wikipedia.org/wiki/Museo_del_gato_de_Kuching"
         }
-      }
+      },
+      "wikidata": "Q6441508",
+      "lat": 1.58661,
+      "lon": 110.334
     },
     {
       "id": "my-q7353928",
@@ -326,7 +387,10 @@
           "title": "Malacca Sultanate Palace Museum",
           "url": "https://en.wikipedia.org/wiki/Malacca_Sultanate_Palace_Museum"
         }
-      }
+      },
+      "wikidata": "Q7353928",
+      "lat": 2.19288,
+      "lon": 102.25044
     }
   ]
 }

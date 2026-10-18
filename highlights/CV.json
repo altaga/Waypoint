@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Museo de la Tabanka",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Tabanka"
         }
-      }
+      },
+      "wikidata": "Q2686462",
+      "website": "http://www.ic.cv/museudatabanka",
+      "lat": 15.09644,
+      "lon": -23.667
     },
     {
       "id": "cv-q3330560",
@@ -88,6 +98,15 @@
           "title": "Museo Etnográfico de Praia",
           "url": "https://es.wikipedia.org/wiki/Museo_Etnogr%C3%A1fico_de_Praia"
         }
+      },
+      "wikidata": "Q3330560",
+      "website": "http://www.ic.cv/museu-etno.html",
+      "lat": 14.9209,
+      "lon": -23.5072,
+      "hours": {
+        "text": "Mo-Fr 08:00-12:00,14:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -120,7 +139,11 @@
           "title": "Museo Municipal de São Filipe",
           "url": "https://es.wikipedia.org/wiki/Museo_Municipal_de_S%C3%A3o_Filipe"
         }
-      }
+      },
+      "wikidata": "Q3330658",
+      "website": "http://museumsaofilipe-fogo.blogspot.fr/",
+      "lat": 14.8942,
+      "lon": -24.4999
     }
   ]
 }

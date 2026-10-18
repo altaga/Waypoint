@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Ópera de Sídney",
           "url": "https://es.wikipedia.org/wiki/%C3%93pera_de_S%C3%ADdney"
         }
-      }
+      },
+      "wikidata": "Q45178",
+      "website": "https://sydneyoperahouse.com",
+      "lat": -33.85706,
+      "lon": 151.2149
     },
     {
       "id": "au-q623578",
@@ -88,6 +98,15 @@
           "title": "Biblioteca Nacional de Australia",
           "url": "https://es.wikipedia.org/wiki/Biblioteca_Nacional_de_Australia"
         }
+      },
+      "wikidata": "Q623578",
+      "website": "https://www.library.gov.au/",
+      "lat": -35.29639,
+      "lon": 149.12944,
+      "hours": {
+        "text": "Mo-Fr 08:30-17:00; Sa,Su 09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -120,7 +139,10 @@
           "title": "Parque nacional Cuevas de Naracoorte",
           "url": "https://es.wikipedia.org/wiki/Parque_nacional_Cuevas_de_Naracoorte"
         }
-      }
+      },
+      "wikidata": "Q1135796",
+      "lat": -37.03611,
+      "lon": 140.79667
     },
     {
       "id": "au-q1464509",
@@ -152,6 +174,16 @@
           "title": "Galería Nacional de Victoria",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Victoria"
         }
+      },
+      "wikidata": "Q1464509",
+      "website": "https://www.ngv.vic.gov.au/",
+      "lat": -37.8225,
+      "lon": 144.96889,
+      "phone": "+61 3 8620 2222",
+      "hours": {
+        "text": "Mo-Su 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -184,6 +216,16 @@
           "title": "Galería Nacional de Australia",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Australia"
         }
+      },
+      "wikidata": "Q795228",
+      "website": "https://nga.gov.au/",
+      "lat": -35.30028,
+      "lon": 149.13639,
+      "phone": "+61 2 6240 6411",
+      "hours": {
+        "text": "Mo-Su 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -216,7 +258,12 @@
           "title": "Parliament House",
           "url": "https://es.wikipedia.org/wiki/Parliament_House"
         }
-      }
+      },
+      "wikidata": "Q1858105",
+      "website": "http://www.aph.gov.au",
+      "lat": -35.30806,
+      "lon": 149.12444,
+      "phone": "+61 2 6277 5399"
     },
     {
       "id": "au-q769416",
@@ -249,6 +296,16 @@
           "title": "Museo Australiano",
           "url": "https://es.wikipedia.org/wiki/Museo_Australiano"
         }
+      },
+      "wikidata": "Q769416",
+      "website": "https://australian.museum/",
+      "lat": -33.8743,
+      "lon": 151.213,
+      "phone": "+61 2 9320 6000",
+      "hours": {
+        "text": "PH,Mo-Su 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -281,6 +338,15 @@
           "title": "Zoológico Taronga",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_Taronga"
         }
+      },
+      "wikidata": "Q1064813",
+      "website": "http://www.zoo.nsw.gov.au",
+      "lat": -33.84333,
+      "lon": 151.24111,
+      "hours": {
+        "text": "May-Aug 09:30-16:30; Sep-Apr 09:30-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -313,6 +379,16 @@
           "title": "Galería de Arte de Nueva Gales del Sur",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_de_Arte_de_Nueva_Gales_del_Sur"
         }
+      },
+      "wikidata": "Q705551",
+      "website": "https://www.artgallery.nsw.gov.au/",
+      "lat": -33.86861,
+      "lon": 151.21722,
+      "phone": "02 9225 1700",
+      "hours": {
+        "text": "Th-Tu 10:00-17:00; We 10:00-22:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -345,6 +421,16 @@
           "title": "Galería de Arte de Australia del Sur",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_de_Arte_de_Australia_del_Sur"
         }
+      },
+      "wikidata": "Q705557",
+      "website": "https://www.agsa.sa.gov.au/",
+      "lat": -34.92064,
+      "lon": 138.60394,
+      "phone": "+61 8 8207 7000",
+      "hours": {
+        "text": "Mo-Su 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

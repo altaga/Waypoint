@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Museo Nacional de Nigeria",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Nigeria"
         }
-      }
+      },
+      "wikidata": "Q1311732",
+      "lat": 6.44283,
+      "lon": 3.40286,
+      "phone": "+234-802 740 9112"
     },
     {
       "id": "ng-q5397968",
@@ -86,7 +96,10 @@
           "title": "Esiẹ Museum",
           "url": "https://en.wikipedia.org/wiki/Esi%E1%BA%B9_Museum"
         }
-      }
+      },
+      "wikidata": "Q5397968",
+      "lat": 8.19633,
+      "lon": 4.88821
     },
     {
       "id": "ng-q111008534",
@@ -114,7 +127,10 @@
           "title": "Badagry Heritage Museum",
           "url": "https://en.wikipedia.org/wiki/Badagry_Heritage_Museum"
         }
-      }
+      },
+      "wikidata": "Q111008534",
+      "lat": 6.4183,
+      "lon": 2.8901
     },
     {
       "id": "ng-q25044062",
@@ -146,6 +162,16 @@
           "title": "Nike Art Gallery",
           "url": "https://es.wikipedia.org/wiki/Nike_Art_Gallery"
         }
+      },
+      "wikidata": "Q25044062",
+      "website": "http://www.nikeart.com/",
+      "lat": 6.43152,
+      "lon": 3.48189,
+      "phone": "+234 08023131067",
+      "hours": {
+        "text": "Mo-Sa 10:00-18:00; Su 13:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -178,7 +204,10 @@
           "title": "Museo Nacional de la Unidad, Ibadan",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_la_Unidad%2C_Ibadan"
         }
-      }
+      },
+      "wikidata": "Q55113752",
+      "lat": 7.38494,
+      "lon": 3.86878
     },
     {
       "id": "ng-q2157384",
@@ -210,7 +239,11 @@
           "title": "Galería Nacional de Arte Moderno (Lagos)",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Arte_Moderno_(Lagos)"
         }
-      }
+      },
+      "wikidata": "Q2157384",
+      "website": "http://www.nga.gov.ng/",
+      "lat": 6.47646,
+      "lon": 3.36934
     },
     {
       "id": "ng-q4888021",
@@ -239,7 +272,11 @@
           "title": "Benin City National Museum",
           "url": "https://en.wikipedia.org/wiki/Benin_City_National_Museum"
         }
-      }
+      },
+      "wikidata": "Q4888021",
+      "website": "https://ncmm.gov.ng/?page_id=555",
+      "lat": 6.33292,
+      "lon": 5.62225
     },
     {
       "id": "ng-q5559489",
@@ -268,6 +305,16 @@
           "title": "Gidan Makama Museum Kano",
           "url": "https://en.wikipedia.org/wiki/Gidan_Makama_Museum_Kano"
         }
+      },
+      "wikidata": "Q5559489",
+      "website": "https://ncmm.gov.ng/",
+      "lat": 11.9888,
+      "lon": 8.52106,
+      "phone": "+2348032502007 +2348052365636",
+      "hours": {
+        "text": "08:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -296,7 +343,12 @@
           "title": "Kaduna Museum",
           "url": "https://en.wikipedia.org/wiki/Kaduna_Museum"
         }
-      }
+      },
+      "wikidata": "Q6345759",
+      "website": "https://national-commission-for-museums-and-monuments-kaduna.business.site",
+      "lat": 10.5607,
+      "lon": 7.43967,
+      "phone": "+234 803 424 2008"
     }
   ]
 }

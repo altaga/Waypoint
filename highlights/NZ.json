@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,6 +63,15 @@
           "title": "Museo de Nueva Zelanda Te Papa Tongarewa",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Nueva_Zelanda_Te_Papa_Tongarewa"
         }
+      },
+      "wikidata": "Q915603",
+      "website": "https://www.tepapa.govt.nz",
+      "lat": -41.29056,
+      "lon": 174.78194,
+      "hours": {
+        "text": "10:00-18:00; Dec 24 off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -85,7 +100,11 @@
           "title": "Auckland War Memorial Museum",
           "url": "https://en.wikipedia.org/wiki/Auckland_War_Memorial_Museum"
         }
-      }
+      },
+      "wikidata": "Q758657",
+      "website": "http://www.aucklandmuseum.com/",
+      "lat": -36.8606,
+      "lon": 174.7778
     },
     {
       "id": "nz-q1033769",
@@ -114,7 +133,12 @@
           "title": "Canterbury Museum, Christchurch",
           "url": "https://en.wikipedia.org/wiki/Canterbury_Museum%2C_Christchurch"
         }
-      }
+      },
+      "wikidata": "Q1033769",
+      "website": "http://www.canterburymuseum.com/",
+      "lat": -43.5309,
+      "lon": 172.6271,
+      "phone": "+64 3 366 5000"
     },
     {
       "id": "nz-q4819492",
@@ -142,6 +166,16 @@
           "title": "Auckland Art Gallery",
           "url": "https://en.wikipedia.org/wiki/Auckland_Art_Gallery"
         }
+      },
+      "wikidata": "Q4819492",
+      "website": "https://www.aucklandartgallery.com/",
+      "lat": -36.85135,
+      "lon": 174.76624,
+      "phone": "+64 9 379 1349",
+      "hours": {
+        "text": "Sa-Th 10:00-17:00; Fr 10:00-21:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -169,7 +203,10 @@
           "title": "Cardrona Bra Fence",
           "url": "https://en.wikipedia.org/wiki/Cardrona_Bra_Fence"
         }
-      }
+      },
+      "wikidata": "Q528852",
+      "lat": -44.86043,
+      "lon": 169.02217
     },
     {
       "id": "nz-q2665285",
@@ -201,6 +238,16 @@
           "title": "Zoológico de Auckland",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Auckland"
         }
+      },
+      "wikidata": "Q2665285",
+      "website": "https://www.aucklandzoo.co.nz/",
+      "lat": -36.86278,
+      "lon": 174.72083,
+      "phone": "+64 9 360 3805",
+      "hours": {
+        "text": "Mo-Su,PH 09:30-17:30; Dec 25 off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -233,6 +280,15 @@
           "title": "Galería de Arte de Christchurch",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_de_Arte_de_Christchurch"
         }
+      },
+      "wikidata": "Q5109058",
+      "website": "https://christchurchartgallery.org.nz/",
+      "lat": -43.5306,
+      "lon": 172.631,
+      "hours": {
+        "text": "Th-Tu 10:00-17:00, We 10:00-21:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -265,7 +321,12 @@
           "title": "Zoológico de Wellington",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Wellington"
         }
-      }
+      },
+      "wikidata": "Q7981545",
+      "website": "http://www.wellingtonzoo.com",
+      "lat": -41.3225,
+      "lon": 174.785,
+      "phone": "604 381 6755"
     },
     {
       "id": "nz-q28897",
@@ -297,7 +358,11 @@
           "title": "Acuario de vida marina de Kelly Tarlton",
           "url": "https://es.wikipedia.org/wiki/Acuario_de_vida_marina_de_Kelly_Tarlton"
         }
-      }
+      },
+      "wikidata": "Q28897",
+      "website": "https://www.visitsealife.com/auckland/",
+      "lat": -36.84583,
+      "lon": 174.81722
     },
     {
       "id": "nz-q7108347",
@@ -326,6 +391,15 @@
           "title": "Tūhura Otago Museum",
           "url": "https://en.wikipedia.org/wiki/T%C5%ABhura_Otago_Museum"
         }
+      },
+      "wikidata": "Q7108347",
+      "website": "http://otagomuseum.nz/",
+      "lat": -45.8657,
+      "lon": 170.511,
+      "hours": {
+        "text": "Mo-Su 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -354,7 +428,11 @@
           "title": "Zealandia (wildlife sanctuary)",
           "url": "https://en.wikipedia.org/wiki/Zealandia_(wildlife_sanctuary)"
         }
-      }
+      },
+      "wikidata": "Q913886",
+      "website": "https://www.visitzealandia.com/",
+      "lat": -41.29438,
+      "lon": 174.75002
     }
   ]
 }

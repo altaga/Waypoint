@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,10 @@
           "title": "Narikala",
           "url": "https://es.wikipedia.org/wiki/Narikala"
         }
-      }
+      },
+      "wikidata": "Q155453",
+      "lat": 41.68778,
+      "lon": 44.80861
     },
     {
       "id": "ge-q2563760",
@@ -88,7 +97,11 @@
           "title": "Museo Estatal Iósif Stalin",
           "url": "https://es.wikipedia.org/wiki/Museo_Estatal_I%C3%B3sif_Stalin"
         }
-      }
+      },
+      "wikidata": "Q2563760",
+      "website": "http://www.stalinmuseum.ge/indexeng.html",
+      "lat": 41.98722,
+      "lon": 44.11361
     },
     {
       "id": "ge-q2562904",
@@ -120,6 +133,15 @@
           "title": "Museo de la Ocupación Soviética (Tiflis)",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Ocupaci%C3%B3n_Sovi%C3%A9tica_(Tiflis)"
         }
+      },
+      "wikidata": "Q2562904",
+      "website": "http://museum.ge/?lang_id=ENG",
+      "lat": 41.6958,
+      "lon": 44.8004,
+      "hours": {
+        "text": "Tu-Su 10:00-20:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -152,6 +174,15 @@
           "title": "Museo Nacional de Georgia",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Georgia"
         }
+      },
+      "wikidata": "Q2586798",
+      "website": "https://museum.ge",
+      "lat": 41.69605,
+      "lon": 44.80025,
+      "hours": {
+        "text": "Tu-Su 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -184,7 +215,11 @@
           "title": "Museo de Arte de Georgia",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_de_Georgia"
         }
-      }
+      },
+      "wikidata": "Q2028327",
+      "website": "http://museum.ge/?lang_id=ENGGEO&sec_id=45",
+      "lat": 41.69702,
+      "lon": 44.80072
     },
     {
       "id": "ge-q3610430",
@@ -217,7 +252,12 @@
           "title": "Museo de historia y arquitectura del Palacio de Dadiani",
           "url": "https://es.wikipedia.org/wiki/Museo_de_historia_y_arquitectura_del_Palacio_de_Dadiani"
         }
-      }
+      },
+      "wikidata": "Q3610430",
+      "website": "https://dadianipalaces.ge/",
+      "lat": 42.51222,
+      "lon": 41.87417,
+      "phone": "+995 595 287 676"
     },
     {
       "id": "ge-q2899707",
@@ -249,7 +289,11 @@
           "title": "Museo Simon Janashia de Georgia",
           "url": "https://es.wikipedia.org/wiki/Museo_Simon_Janashia_de_Georgia"
         }
-      }
+      },
+      "wikidata": "Q2899707",
+      "website": "http://museum.ge/",
+      "lat": 41.69605,
+      "lon": 44.80026
     },
     {
       "id": "ge-q3647379",
@@ -280,7 +324,11 @@
           "title": "Monumento natural Cueva de Prometeo",
           "url": "https://es.wikipedia.org/wiki/Monumento_natural_Cueva_de_Prometeo"
         }
-      }
+      },
+      "wikidata": "Q3647379",
+      "website": "https://nationalparks.ge/en/site/prometheuscave",
+      "lat": 42.37687,
+      "lon": 42.60052
     },
     {
       "id": "ge-q4453139",
@@ -308,6 +356,15 @@
           "title": "Tbilisi Zoo",
           "url": "https://en.wikipedia.org/wiki/Tbilisi_Zoo"
         }
+      },
+      "wikidata": "Q4453139",
+      "website": "http://www.zoo.ge/index.php",
+      "lat": 41.713,
+      "lon": 44.777,
+      "hours": {
+        "text": "Mo-Su 10:00-19:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -340,7 +397,11 @@
           "title": "Museo de Etnografía al aire libre de Tiflis",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Etnograf%C3%ADa_al_aire_libre_de_Tiflis"
         }
-      }
+      },
+      "wikidata": "Q2920430",
+      "website": "http://museum.ge/index.php?lang_id=ENG&sec_id=46",
+      "lat": 41.702,
+      "lon": 44.743
     }
   ]
 }

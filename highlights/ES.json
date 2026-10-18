@@ -23,6 +23,18 @@
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-18"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -45,6 +57,14 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      },
+      "website": "https://sagradafamilia.org/en/home",
+      "lat": 41.40369,
+      "lon": 2.17433,
+      "hours": {
+        "text": "Nov-Feb: Mo-Sa 09:00-18:00, Su 10:30-18:00; Mar-Oct: Mo-Fr 09:00-19:00, Sa 09:00-18:00, Su 10:30-19:00; Apr-Sep: Mo-Fr 09:00-20:00, Sa 09:00-18:00, Su 10:30-20:00; Dec 25,Dec 26,Jan 01,Jan 06 09:00-14:00; PH off",
+        "source": "https://www.openstreetmap.org/relation/9194723",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -67,7 +87,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://parkguell.barcelona/en",
+      "lat": 41.41361,
+      "lon": 2.15278
     },
     {
       "id": "es-boqueria",
@@ -88,6 +111,13 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      },
+      "lat": 41.381796,
+      "lon": 2.171549,
+      "hours": {
+        "text": "Mo-Sa 08:00-20:30",
+        "source": "https://www.openstreetmap.org/relation/6288735",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -110,6 +140,13 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      },
+      "lat": 40.41389,
+      "lon": -3.69222,
+      "hours": {
+        "text": "Mo-Sa 10:00-20:00; Su 10:00-19:00",
+        "source": "https://www.openstreetmap.org/relation/7726080",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -131,7 +168,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro",
+      "lat": 40.415,
+      "lon": -3.68389
     },
     {
       "id": "es-mercado-san-miguel",
@@ -152,6 +192,14 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      },
+      "website": "https://mercadodesanmiguel.es/",
+      "lat": 40.415438,
+      "lon": -3.708869,
+      "hours": {
+        "text": "Mo-Th 10:00-24:00; Fr,Sa 10:00-01:00; Su 10:00-24:00",
+        "source": "https://www.openstreetmap.org/way/4518846",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -173,7 +221,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.alhambra-patronato.es/en",
+      "lat": 37.17634,
+      "lon": -3.58821
     },
     {
       "id": "es-sevilla-cathedral",
@@ -194,6 +245,14 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      },
+      "website": "https://www.catedraldesevilla.es/",
+      "lat": 37.38574,
+      "lon": -5.9931,
+      "hours": {
+        "text": "Mo-Sa 11:00-17:00; Su 14:30-18:00",
+        "source": "https://www.openstreetmap.org/relation/5641600",
+        "retrieved": "2026-10-18"
       }
     }
   ]

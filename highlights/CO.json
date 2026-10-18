@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,10 @@
           "title": "Parque Arqueológico Nacional de Tierradentro",
           "url": "https://es.wikipedia.org/wiki/Parque_Arqueol%C3%B3gico_Nacional_de_Tierradentro"
         }
-      }
+      },
+      "wikidata": "Q179506",
+      "lat": 2.583,
+      "lon": -76.033
     },
     {
       "id": "co-q2887224",
@@ -88,7 +97,11 @@
           "title": "Parque arqueológico de San Agustín",
           "url": "https://es.wikipedia.org/wiki/Parque_arqueol%C3%B3gico_de_San_Agust%C3%ADn"
         }
-      }
+      },
+      "wikidata": "Q2887224",
+      "website": "http://www.icanh.gov.co",
+      "lat": 1.88444,
+      "lon": -76.29611
     },
     {
       "id": "co-q1109031",
@@ -121,6 +134,15 @@
           "title": "Museo del Oro",
           "url": "https://es.wikipedia.org/wiki/Museo_del_Oro"
         }
+      },
+      "wikidata": "Q1109031",
+      "website": "http://www.banrepcultural.org/museo-del-oro",
+      "lat": 4.60192,
+      "lon": -74.072,
+      "hours": {
+        "text": "Tu-Sa 09:00-19:00; Su 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -153,7 +175,11 @@
           "title": "Catedral de Sal",
           "url": "https://es.wikipedia.org/wiki/Catedral_de_Sal"
         }
-      }
+      },
+      "wikidata": "Q2565876",
+      "website": "https://www.catedraldesal.gov.co/",
+      "lat": 5.01876,
+      "lon": -74.0093
     },
     {
       "id": "co-q671264",
@@ -185,7 +211,11 @@
           "title": "Museo Nacional de Colombia",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Colombia"
         }
-      }
+      },
+      "wikidata": "Q671264",
+      "website": "http://www.museonacional.gov.co/",
+      "lat": 4.6155,
+      "lon": -74.0683
     },
     {
       "id": "co-q3329100",
@@ -217,6 +247,15 @@
           "title": "Museo Botero",
           "url": "https://es.wikipedia.org/wiki/Museo_Botero"
         }
+      },
+      "wikidata": "Q3329100",
+      "website": "http://www.banrepcultural.org/museo-botero",
+      "lat": 4.5967,
+      "lon": -74.07337,
+      "hours": {
+        "text": "Mo, We-Sa 09:00-19:00; Su 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -249,7 +288,11 @@
           "title": "Museo de Arte Moderno de Bogotá",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Moderno_de_Bogot%C3%A1"
         }
-      }
+      },
+      "wikidata": "Q640718",
+      "website": "http://www.mambogota.com",
+      "lat": 4.61022,
+      "lon": -74.06933
     }
   ]
 }

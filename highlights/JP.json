@@ -23,6 +23,18 @@
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-18"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -47,7 +59,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "east"
+      "zone": "east",
+      "website": "https://www.senso-ji.jp/english/",
+      "lat": 35.714556,
+      "lon": 139.796639
     },
     {
       "id": "jp-shibuya-crossing",
@@ -69,7 +84,9 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "west"
+      "zone": "west",
+      "lat": 35.659503,
+      "lon": 139.700544
     },
     {
       "id": "jp-shibuya-sky",
@@ -91,7 +108,8 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "west"
+      "zone": "west",
+      "website": "https://www.shibuya-scramble-square.com/sky/"
     },
     {
       "id": "jp-meiji-jingu",
@@ -114,7 +132,11 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "west"
+      "zone": "west",
+      "website": "https://www.meijijingu.or.jp/en/",
+      "lat": 35.676111,
+      "lon": 139.699167,
+      "phone": "+81-3-3379-5511"
     },
     {
       "id": "jp-tsukiji-outer",
@@ -136,7 +158,8 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "center"
+      "zone": "center",
+      "website": "https://www.tsukiji.or.jp/english/"
     },
     {
       "id": "jp-omoide-yokocho",
@@ -158,7 +181,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "west"
+      "zone": "west",
+      "website": "https://en.shinjuku-omoide.com/",
+      "lat": 35.69307,
+      "lon": 139.6995
     },
     {
       "id": "jp-tokyo-national-museum",
@@ -181,7 +207,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "east"
+      "zone": "east",
+      "website": "https://www.tnm.jp/?lang=en",
+      "lat": 35.718889,
+      "lon": 139.776389
     },
     {
       "id": "jp-imperial-east-gardens",
@@ -203,7 +232,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "center"
+      "zone": "center",
+      "website": "https://www.kunaicho.go.jp/en/learn/institution/shisetsu/higashigyoen01.html",
+      "lat": 35.6875,
+      "lon": 139.7575
     },
     {
       "id": "jp-fushimi-inari",
@@ -224,7 +256,11 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://inari.jp/en/",
+      "lat": 34.967202,
+      "lon": 135.773386,
+      "phone": "+81-75-641-7331"
     },
     {
       "id": "jp-kiyomizu-dera",
@@ -245,7 +281,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.kiyomizudera.or.jp/en/",
+      "lat": 34.994831,
+      "lon": 135.785003
     },
     {
       "id": "jp-arashiyama-bamboo",
@@ -265,7 +304,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 35.009465,
+      "lon": 135.666772
     },
     {
       "id": "jp-nishiki-market",
@@ -286,7 +327,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.kyoto-nishiki.or.jp/en/",
+      "lat": 35.005028,
+      "lon": 135.766139
     },
     {
       "id": "jp-dotonbori",
@@ -308,7 +352,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 34.668611,
+      "lon": 135.501389
     },
     {
       "id": "jp-skytree",
@@ -330,7 +376,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "east"
+      "zone": "east",
+      "website": "https://en.tokyo-skytree.jp/",
+      "lat": 35.710056,
+      "lon": 139.810722
     },
     {
       "id": "jp-tokyo-tower",
@@ -352,7 +401,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "center"
+      "zone": "center",
+      "website": "https://en.tokyotower.co.jp/",
+      "lat": 35.658611,
+      "lon": 139.745556
     },
     {
       "id": "jp-takeshita-street",
@@ -374,7 +426,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "west"
+      "zone": "west",
+      "website": "https://www.takeshita-street.com/",
+      "lat": 35.67125,
+      "lon": 139.70481
     },
     {
       "id": "jp-akihabara",
@@ -396,7 +451,9 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "east"
+      "zone": "east",
+      "lat": 35.698333,
+      "lon": 139.773056
     },
     {
       "id": "jp-ueno-park",
@@ -419,7 +476,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "east"
+      "zone": "east",
+      "website": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/index_top.html",
+      "lat": 35.712222,
+      "lon": 139.771111
     },
     {
       "id": "jp-ameyoko",
@@ -441,7 +501,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "east"
+      "zone": "east",
+      "website": "https://www.ameyoko.net/",
+      "lat": 35.710059,
+      "lon": 139.774543
     },
     {
       "id": "jp-shinjuku-gyoen",
@@ -462,7 +525,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "west"
+      "zone": "west",
+      "website": "https://policies.env.go.jp/national-garden/shinjukugyoen/index.html",
+      "lat": 35.687169,
+      "lon": 139.710644
     },
     {
       "id": "jp-ginza",
@@ -484,7 +550,9 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "center"
+      "zone": "center",
+      "lat": 35.671356,
+      "lon": 139.765622
     },
     {
       "id": "jp-nezu-museum",
@@ -507,7 +575,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "center"
+      "zone": "center",
+      "website": "https://www.nezu-muse.or.jp/en/",
+      "lat": 35.66216,
+      "lon": 139.717603
     },
     {
       "id": "jp-ghibli-museum",
@@ -531,7 +602,10 @@
         "es": "curated"
       },
       "admission": "Tickets are sold in advance; check the official site.",
-      "zone": "west"
+      "zone": "west",
+      "website": "https://www.ghibli-museum.jp/en/",
+      "lat": 35.696233,
+      "lon": 139.570431
     },
     {
       "id": "jp-kappabashi",
@@ -553,7 +627,8 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "east"
+      "zone": "east",
+      "website": "https://www.kappabashi.or.jp/"
     },
     {
       "id": "jp-yanaka",
@@ -575,7 +650,9 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "east"
+      "zone": "east",
+      "lat": 35.723789,
+      "lon": 139.768422
     },
     {
       "id": "jp-odaiba",
@@ -597,7 +674,9 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "center"
+      "zone": "center",
+      "lat": 35.63,
+      "lon": 139.775
     },
     {
       "id": "jp-tsukishima-monja",
@@ -640,7 +719,9 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "west"
+      "zone": "west",
+      "lat": 35.661606,
+      "lon": 139.666561
     },
     {
       "id": "jp-mori-art-museum",
@@ -662,7 +743,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "center"
+      "zone": "center",
+      "website": "https://www.mori.art.museum/en/",
+      "lat": 35.660506,
+      "lon": 139.729067
     },
     {
       "id": "jp-hamarikyu",
@@ -684,7 +768,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "center"
+      "zone": "center",
+      "website": "https://www.tokyo-park.or.jp/teien/en/hama-rikyu/",
+      "lat": 35.66,
+      "lon": 139.762
     },
     {
       "id": "jp-golden-gai",
@@ -706,7 +793,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "west"
+      "zone": "west",
+      "website": "https://golden-gai.tokyo/",
+      "lat": 35.6939,
+      "lon": 139.705
     },
     {
       "id": "jp-inokashira-park",
@@ -728,7 +818,10 @@
         "en": "curated",
         "es": "curated"
       },
-      "zone": "west"
+      "zone": "west",
+      "website": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/seibuk/inokashira/",
+      "lat": 35.698289,
+      "lon": 139.571469
     }
   ]
 }

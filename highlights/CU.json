@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,10 @@
           "title": "Museo de la Revolución",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Revoluci%C3%B3n"
         }
-      }
+      },
+      "wikidata": "Q1781364",
+      "lat": 23.14167,
+      "lon": -82.35667
     },
     {
       "id": "cu-q1779837",
@@ -88,7 +97,12 @@
           "title": "Museo Nacional de Bellas Artes (Cuba)",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_(Cuba)"
         }
-      }
+      },
+      "wikidata": "Q1779837",
+      "website": "https://www.bellasartes.co.cu/",
+      "lat": 23.14022,
+      "lon": -82.35719,
+      "phone": "+53-7-8620140"
     },
     {
       "id": "cu-q4703397",
@@ -121,7 +135,10 @@
           "title": "Convento de San Francisco de Asís (La Habana)",
           "url": "https://es.wikipedia.org/wiki/Convento_de_San_Francisco_de_As%C3%ADs_(La_Habana)"
         }
-      }
+      },
+      "wikidata": "Q4703397",
+      "lat": 23.13694,
+      "lon": -82.34833
     },
     {
       "id": "cu-q5449801",
@@ -154,7 +171,10 @@
           "title": "Finca La Vigía",
           "url": "https://es.wikipedia.org/wiki/Finca_La_Vig%C3%ADa"
         }
-      }
+      },
+      "wikidata": "Q5449801",
+      "lat": 23.06774,
+      "lon": -82.29642
     },
     {
       "id": "cu-q66011008",
@@ -187,7 +207,10 @@
           "title": "Museo Provincial Emilio Bacardí Moreau",
           "url": "https://es.wikipedia.org/wiki/Museo_Provincial_Emilio_Bacard%C3%AD_Moreau"
         }
-      }
+      },
+      "wikidata": "Q66011008",
+      "lat": 20.02158,
+      "lon": -75.82789
     }
   ]
 }

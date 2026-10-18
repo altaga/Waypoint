@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "La Capilla del Hombre",
           "url": "https://es.wikipedia.org/wiki/La_Capilla_del_Hombre"
         }
-      }
+      },
+      "wikidata": "Q5640065",
+      "website": "http://www.capilladelhombre.com",
+      "lat": -0.1908,
+      "lon": -78.4695
     },
     {
       "id": "ec-q50327423",
@@ -89,7 +99,10 @@
           "title": "Catedral vieja de Cuenca (Ecuador)",
           "url": "https://es.wikipedia.org/wiki/Catedral_vieja_de_Cuenca_(Ecuador)"
         }
-      }
+      },
+      "wikidata": "Q50327423",
+      "lat": -2.89784,
+      "lon": -79.00385
     },
     {
       "id": "ec-q6034022",
@@ -121,7 +134,10 @@
           "title": "Museo de Historia Natural Gustavo Orcés",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Natural_Gustavo_Orc%C3%A9s"
         }
-      }
+      },
+      "wikidata": "Q6034022",
+      "lat": -0.21039,
+      "lon": -78.49284
     },
     {
       "id": "ec-q18416972",
@@ -153,7 +169,10 @@
           "title": "Museo Casa de Sucre",
           "url": "https://es.wikipedia.org/wiki/Museo_Casa_de_Sucre"
         }
-      }
+      },
+      "wikidata": "Q18416972",
+      "lat": -0.22167,
+      "lon": -78.5131
     },
     {
       "id": "ec-q19896440",
@@ -185,6 +204,15 @@
           "title": "Museo de la Ciudad (Quito)",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Ciudad_(Quito)"
         }
+      },
+      "wikidata": "Q19896440",
+      "lat": -0.22306,
+      "lon": -78.515,
+      "phone": "+59322283882",
+      "hours": {
+        "text": "Mo-Tu off; We,Su 09:30-16:30; Th-Fr 09:30-18:00; Sa 11:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

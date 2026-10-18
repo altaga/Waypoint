@@ -23,6 +23,18 @@
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-18"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -46,6 +58,15 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      },
+      "website": "https://www.inah.gob.mx/zonas/23-zona-arqueologica-de-teotihuacan",
+      "lat": 19.6925,
+      "lon": -98.843889,
+      "phone": "+52 594 956 0477",
+      "hours": {
+        "text": "Mo-Su 08:00-17:00",
+        "source": "https://www.inah.gob.mx/zonas/23-zona-arqueologica-de-teotihuacan",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -68,7 +89,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 19.426111,
+      "lon": -99.186111
     },
     {
       "id": "mx-bellas-artes",
@@ -90,7 +113,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://palacio.inba.gob.mx/",
+      "lat": 19.435278,
+      "lon": -99.141389
     },
     {
       "id": "mx-xochimilco",
@@ -112,7 +138,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.xochimilco.cdmx.gob.mx/",
+      "lat": 19.247583,
+      "lon": -99.098222
     },
     {
       "id": "mx-coyoacan",
@@ -134,6 +163,14 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      },
+      "website": "https://www.museofridakahlo.org.mx/",
+      "lat": 19.355143,
+      "lon": -99.162525,
+      "hours": {
+        "text": "Mo off; Tu 10:00-18:00; We 11:00-18:00; Th-Su 10:00-18:00",
+        "source": "https://www.museofridakahlo.org.mx/",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -155,7 +192,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 19.4447,
+      "lon": -99.1447
     },
     {
       "id": "mx-monte-alban",
@@ -177,6 +216,14 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      },
+      "website": "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban",
+      "lat": 17.043889,
+      "lon": -96.767778,
+      "hours": {
+        "text": "Mo-Su 08:00-17:00",
+        "source": "https://www.inah.gob.mx/zonas/94-zona-arqueologica-de-monte-alban",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -199,6 +246,14 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      },
+      "website": "https://www.inah.gob.mx/zonas/99-zona-arqueologica-de-tulum",
+      "lat": 20.214722,
+      "lon": -87.428889,
+      "hours": {
+        "text": "08:00-17:00",
+        "source": "https://www.inah.gob.mx/zonas/99-zona-arqueologica-de-tulum",
+        "retrieved": "2026-10-18"
       }
     }
   ]

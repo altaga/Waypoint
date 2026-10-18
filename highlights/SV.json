@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Museo de la Palabra y la Imagen",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Palabra_y_la_Imagen"
         }
-      }
+      },
+      "wikidata": "Q1541926",
+      "website": "http://www.museo.com.sv",
+      "lat": 13.70912,
+      "lon": -89.20485
     },
     {
       "id": "sv-q5668865",
@@ -89,7 +99,10 @@
           "title": "Museo Militar de la Fuerza Armada de El Salvador",
           "url": "https://es.wikipedia.org/wiki/Museo_Militar_de_la_Fuerza_Armada_de_El_Salvador"
         }
-      }
+      },
+      "wikidata": "Q5668865",
+      "lat": 13.6815,
+      "lon": -89.19288
     },
     {
       "id": "sv-q6941114",
@@ -121,7 +134,10 @@
           "title": "Museo de la Revolución Salvadoreña",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Revoluci%C3%B3n_Salvadore%C3%B1a"
         }
-      }
+      },
+      "wikidata": "Q6941114",
+      "lat": 13.95857,
+      "lon": -88.16349
     },
     {
       "id": "sv-q6033911",
@@ -153,7 +169,11 @@
           "title": "Museo de Arte de El Salvador",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_de_El_Salvador"
         }
-      }
+      },
+      "wikidata": "Q6033911",
+      "website": "http://museomarte.org",
+      "lat": 13.69271,
+      "lon": -89.24211
     }
   ]
 }

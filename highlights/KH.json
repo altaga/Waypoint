@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Tuol Sleng",
           "url": "https://es.wikipedia.org/wiki/Tuol_Sleng"
         }
-      }
+      },
+      "wikidata": "Q850268",
+      "website": "http://www.tuolsleng.gov.kh",
+      "lat": 11.54944,
+      "lon": 104.91778
     },
     {
       "id": "kh-q1929750",
@@ -89,6 +99,15 @@
           "title": "Museo nacional de Camboya",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Camboya"
         }
+      },
+      "wikidata": "Q1929750",
+      "website": "http://www.cambodiamuseum.info/",
+      "lat": 11.5658,
+      "lon": 104.929,
+      "hours": {
+        "text": "Mo-Su 08:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -117,7 +136,11 @@
           "title": "Angkor National Museum",
           "url": "https://en.wikipedia.org/wiki/Angkor_National_Museum"
         }
-      }
+      },
+      "wikidata": "Q15961573",
+      "website": "http://www.angkornationalmuseum.com/index",
+      "lat": 13.3666,
+      "lon": 103.86
     },
     {
       "id": "kh-q5025157",
@@ -145,7 +168,12 @@
           "title": "Cambodian Landmine Museum",
           "url": "https://en.wikipedia.org/wiki/Cambodian_Landmine_Museum"
         }
-      }
+      },
+      "wikidata": "Q5025157",
+      "website": "https://www.cambodialandminemuseum.org/",
+      "lat": 13.53962,
+      "lon": 103.94554,
+      "phone": "+855-15-674-163"
     }
   ]
 }

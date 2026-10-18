@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Torres de Kuwait",
           "url": "https://es.wikipedia.org/wiki/Torres_de_Kuwait"
         }
-      }
+      },
+      "wikidata": "Q1335640",
+      "website": "http://www.kuwaittowers.com/",
+      "lat": 29.39,
+      "lon": 48.00306
     },
     {
       "id": "kw-q2498040",
@@ -88,7 +98,10 @@
           "title": "Museo Nacional de Kuwait",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Kuwait"
         }
-      }
+      },
+      "wikidata": "Q2498040",
+      "lat": 29.37306,
+      "lon": 47.96667
     },
     {
       "id": "kw-q12238655",
@@ -120,7 +133,11 @@
           "title": "Museo Tareq Rajab",
           "url": "https://es.wikipedia.org/wiki/Museo_Tareq_Rajab"
         }
-      }
+      },
+      "wikidata": "Q12238655",
+      "website": "https://trmkt.org/",
+      "lat": 29.37444,
+      "lon": 47.96722
     },
     {
       "id": "kw-q11705490",
@@ -152,7 +169,10 @@
           "title": "Zoológico de Kuwait",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Kuwait"
         }
-      }
+      },
+      "wikidata": "Q11705490",
+      "lat": 29.30017,
+      "lon": 47.96245
     }
   ]
 }

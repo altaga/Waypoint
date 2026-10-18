@@ -23,6 +23,18 @@
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-18"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -46,6 +58,14 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      },
+      "website": "https://www.royalgrandpalace.th/en/home",
+      "lat": 13.750139,
+      "lon": 100.492028,
+      "hours": {
+        "text": "Mo-Su 08:30-16:30",
+        "source": "https://www.royalgrandpalace.th/en/home",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -67,7 +87,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 13.743689,
+      "lon": 100.488919
     },
     {
       "id": "th-chatuchak",
@@ -88,7 +110,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.chatuchakmarket.org/",
+      "lat": 13.800833,
+      "lon": 100.551389
     },
     {
       "id": "th-yaowarat",
@@ -109,7 +134,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 13.738801,
+      "lon": 100.512178
     },
     {
       "id": "th-doi-suthep",
@@ -130,7 +157,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 18.8052,
+      "lon": 98.9216
     },
     {
       "id": "th-phi-phi",
@@ -151,7 +180,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 7.733333,
+      "lon": 98.766667
     }
   ]
 }

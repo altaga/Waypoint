@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Beit Al Quran",
           "url": "https://es.wikipedia.org/wiki/Beit_Al_Quran"
         }
-      }
+      },
+      "wikidata": "Q630922",
+      "website": "http://www.moc.gov.bh/en/top10/Name,7534,en.html",
+      "lat": 26.23976,
+      "lon": 50.59154
     },
     {
       "id": "bh-q869788",
@@ -89,7 +99,11 @@
           "title": "Museo nacional de Baréin",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Bar%C3%A9in"
         }
-      }
+      },
+      "wikidata": "Q869788",
+      "website": "http://www.bahraintourism.com/default.asp?action=article&id=151",
+      "lat": 26.24139,
+      "lon": 50.5975
     },
     {
       "id": "bh-q2877666",
@@ -118,7 +132,11 @@
           "title": "Bab Al Bahrain",
           "url": "https://en.wikipedia.org/wiki/Bab_Al_Bahrain"
         }
-      }
+      },
+      "wikidata": "Q2877666",
+      "website": "http://www.btea.bh/souq-bab-al-bahrain",
+      "lat": 26.23403,
+      "lon": 50.57561
     }
   ]
 }

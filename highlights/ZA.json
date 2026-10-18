@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,12 @@
           "title": "Cuevas de Cangó",
           "url": "https://es.wikipedia.org/wiki/Cuevas_de_Cang%C3%B3"
         }
-      }
+      },
+      "wikidata": "Q1033211",
+      "website": "https://www.cango-caves.co.za",
+      "lat": -33.393,
+      "lon": 22.215,
+      "phone": "+27 44 272 7410; +27 82 303 0029"
     },
     {
       "id": "za-q617810",
@@ -85,7 +96,11 @@
           "title": "Apartheid Museum",
           "url": "https://en.wikipedia.org/wiki/Apartheid_Museum"
         }
-      }
+      },
+      "wikidata": "Q617810",
+      "website": "https://www.apartheidmuseum.org",
+      "lat": -26.23806,
+      "lon": 28.00889
     },
     {
       "id": "za-q2583379",
@@ -118,7 +133,11 @@
           "title": "Museo del Transvaal",
           "url": "https://es.wikipedia.org/wiki/Museo_del_Transvaal"
         }
-      }
+      },
+      "wikidata": "Q2583379",
+      "website": "https://www.ditsong.org.za/",
+      "lat": -25.75,
+      "lon": 28.19
     },
     {
       "id": "za-q1139958",
@@ -150,7 +169,12 @@
           "title": "Jardín zoológico nacional de Sudáfrica",
           "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_nacional_de_Sud%C3%A1frica"
         }
-      }
+      },
+      "wikidata": "Q1139958",
+      "website": "https://www.pretoriazoo.org/",
+      "lat": -25.73833,
+      "lon": 28.18917,
+      "phone": "+27-12-339-2700"
     },
     {
       "id": "za-q1480756",
@@ -181,7 +205,10 @@
           "title": "Cueva Maravilla de Kromdraai",
           "url": "https://es.wikipedia.org/wiki/Cueva_Maravilla_de_Kromdraai"
         }
-      }
+      },
+      "wikidata": "Q1480756",
+      "lat": -25.97,
+      "lon": 27.77139
     },
     {
       "id": "za-q6102031",
@@ -210,6 +237,15 @@
           "title": "Iziko South African Museum",
           "url": "https://en.wikipedia.org/wiki/Iziko_South_African_Museum"
         }
+      },
+      "wikidata": "Q6102031",
+      "website": "http://www.iziko.org.za",
+      "lat": -33.92864,
+      "lon": 18.41522,
+      "hours": {
+        "text": "Mo-Su 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -242,7 +278,12 @@
           "title": "Acuario de los Dos Océanos",
           "url": "https://es.wikipedia.org/wiki/Acuario_de_los_Dos_Oc%C3%A9anos"
         }
-      }
+      },
+      "wikidata": "Q1783786",
+      "website": "https://www.aquarium.co.za/",
+      "lat": -33.90806,
+      "lon": 18.41767,
+      "phone": "+27 21 418 3823"
     },
     {
       "id": "za-q10956303",
@@ -270,7 +311,12 @@
           "title": "Freedom Park (South Africa)",
           "url": "https://en.wikipedia.org/wiki/Freedom_Park_(South_Africa)"
         }
-      }
+      },
+      "wikidata": "Q10956303",
+      "website": "http://www.freedompark.co.za/",
+      "lat": -25.767,
+      "lon": 28.1888,
+      "phone": "+27 12 336 4020"
     },
     {
       "id": "za-q28003638",
@@ -298,6 +344,16 @@
           "title": "Zeitz Museum of Contemporary Art Africa",
           "url": "https://en.wikipedia.org/wiki/Zeitz_Museum_of_Contemporary_Art_Africa"
         }
+      },
+      "wikidata": "Q28003638",
+      "website": "https://www.zeitzmocaa.museum/",
+      "lat": -33.90833,
+      "lon": 18.42278,
+      "phone": "+27 87 350 4777",
+      "hours": {
+        "text": "Mo-Su 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -326,6 +382,16 @@
           "title": "Iziko South African National Gallery",
           "url": "https://en.wikipedia.org/wiki/Iziko_South_African_National_Gallery"
         }
+      },
+      "wikidata": "Q1419469",
+      "website": "https://www.iziko.org.za/museums/south-african-national-gallery/",
+      "lat": -33.92898,
+      "lon": 18.41717,
+      "phone": "+27 21 481 3970",
+      "hours": {
+        "text": "Mo-Fr 09:00-17:00; Sa-Su 08:00-16:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -354,7 +420,10 @@
           "title": "Johannesburg Art Gallery",
           "url": "https://en.wikipedia.org/wiki/Johannesburg_Art_Gallery"
         }
-      }
+      },
+      "wikidata": "Q6217142",
+      "lat": -26.197,
+      "lon": 28.0471
     }
   ]
 }

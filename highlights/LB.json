@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,10 @@
           "title": "Gruta de Jeita",
           "url": "https://es.wikipedia.org/wiki/Gruta_de_Jeita"
         }
-      }
+      },
+      "wikidata": "Q1552568",
+      "lat": 33.94392,
+      "lon": 35.64061
     },
     {
       "id": "lb-q2915627",
@@ -90,7 +99,11 @@
           "title": "Museo Nacional de Beirut",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Beirut"
         }
-      }
+      },
+      "wikidata": "Q2915627",
+      "website": "https://web.archive.org/web/20191017200458/http://www.beirutnationalmuseum.com/index.htm",
+      "lat": 33.87822,
+      "lon": 35.5149
     },
     {
       "id": "lb-q10661349",
@@ -123,7 +136,10 @@
           "title": "Catedral ortodoxa griega de San Jorge",
           "url": "https://es.wikipedia.org/wiki/Catedral_ortodoxa_griega_de_San_Jorge"
         }
-      }
+      },
+      "wikidata": "Q10661349",
+      "lat": 33.89634,
+      "lon": 35.50514
     },
     {
       "id": "lb-q1619788",
@@ -156,7 +172,11 @@
           "title": "Castillo de Biblos",
           "url": "https://es.wikipedia.org/wiki/Castillo_de_Biblos"
         }
-      }
+      },
+      "wikidata": "Q1619788",
+      "website": "http://www.lgic.org/en/photos2_byblos.php",
+      "lat": 34.12,
+      "lon": 35.6464
     },
     {
       "id": "lb-q287360",
@@ -189,7 +209,12 @@
           "title": "Museo Sursock",
           "url": "https://es.wikipedia.org/wiki/Museo_Sursock"
         }
-      }
+      },
+      "wikidata": "Q287360",
+      "website": "https://sursock.museum/",
+      "lat": 33.89294,
+      "lon": 35.51623,
+      "phone": "+961 1202001"
     },
     {
       "id": "lb-q15260373",
@@ -218,6 +243,16 @@
           "title": "Museum of Lebanese Prehistory",
           "url": "https://en.wikipedia.org/wiki/Museum_of_Lebanese_Prehistory"
         }
+      },
+      "wikidata": "Q15260373",
+      "website": "http://www.usj.edu.lb/mpl/",
+      "lat": 33.89164,
+      "lon": 35.50816,
+      "phone": "+961 1 4218602",
+      "hours": {
+        "text": "Tu-We,Fr-Sa 09:00-15:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -247,7 +282,10 @@
           "title": "Debbane Palace",
           "url": "https://en.wikipedia.org/wiki/Debbane_Palace"
         }
-      }
+      },
+      "wikidata": "Q97403226",
+      "lat": 33.56514,
+      "lon": 35.37161
     },
     {
       "id": "lb-q7347853",
@@ -281,7 +319,11 @@
           "title": "Museo Privado Robert Mouawad",
           "url": "https://es.wikipedia.org/wiki/Museo_Privado_Robert_Mouawad"
         }
-      }
+      },
+      "wikidata": "Q7347853",
+      "website": "http://www.rmpm.info/",
+      "lat": 33.89532,
+      "lon": 35.49898
     }
   ]
 }

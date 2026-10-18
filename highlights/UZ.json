@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,10 @@
           "title": "Mausoleo de Ismail Samani",
           "url": "https://es.wikipedia.org/wiki/Mausoleo_de_Ismail_Samani"
         }
-      }
+      },
+      "wikidata": "Q1268850",
+      "lat": 39.77701,
+      "lon": 64.40058
     },
     {
       "id": "uz-q4294007",
@@ -89,7 +98,10 @@
           "title": "Minarete de Kalyan",
           "url": "https://es.wikipedia.org/wiki/Minarete_de_Kalyan"
         }
-      }
+      },
+      "wikidata": "Q4294007",
+      "lat": 39.77568,
+      "lon": 64.41501
     },
     {
       "id": "uz-q493304",
@@ -117,7 +129,10 @@
           "title": "Kukeldash Madrasah (Tashkent)",
           "url": "https://en.wikipedia.org/wiki/Kukeldash_Madrasah_(Tashkent)"
         }
-      }
+      },
+      "wikidata": "Q493304",
+      "lat": 41.32333,
+      "lon": 69.23611
     },
     {
       "id": "uz-q597055",
@@ -150,7 +165,11 @@
           "title": "Museo Igor Savitsky",
           "url": "https://es.wikipedia.org/wiki/Museo_Igor_Savitsky"
         }
-      }
+      },
+      "wikidata": "Q597055",
+      "website": "http://museum.kr.uz/",
+      "lat": 42.46563,
+      "lon": 59.61356
     },
     {
       "id": "uz-q4120971",
@@ -178,7 +197,11 @@
           "title": "Amir Timur Museum",
           "url": "https://en.wikipedia.org/wiki/Amir_Timur_Museum"
         }
-      }
+      },
+      "wikidata": "Q4120971",
+      "website": "http://temurid.uz/",
+      "lat": 41.31359,
+      "lon": 69.27903
     },
     {
       "id": "uz-q10988029",
@@ -206,7 +229,10 @@
           "title": "Ulugbek Madrasah (Bukhara)",
           "url": "https://en.wikipedia.org/wiki/Ulugbek_Madrasah_(Bukhara)"
         }
-      }
+      },
+      "wikidata": "Q10988029",
+      "lat": 39.77668,
+      "lon": 64.41753
     },
     {
       "id": "uz-q4146885",
@@ -238,7 +264,12 @@
           "title": "Museo de Artes de Uzbekistán",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Artes_de_Uzbekist%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q4146885",
+      "website": "http://www.stateartmuseum.uz",
+      "lat": 41.3259,
+      "lon": 69.28278,
+      "phone": "+998 71 236 74 36"
     },
     {
       "id": "uz-q4306302",
@@ -270,6 +301,14 @@
           "title": "Museo Afrasiab de Samarcanda",
           "url": "https://es.wikipedia.org/wiki/Museo_Afrasiab_de_Samarcanda"
         }
+      },
+      "wikidata": "Q4306302",
+      "lat": 39.66934,
+      "lon": 66.99335,
+      "hours": {
+        "text": "Mo-Su 09:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -302,7 +341,10 @@
           "title": "Aq Saray",
           "url": "https://es.wikipedia.org/wiki/Aq_Saray"
         }
-      }
+      },
+      "wikidata": "Q2828887",
+      "lat": 39.06078,
+      "lon": 66.82948
     },
     {
       "id": "uz-q4517198",
@@ -330,7 +372,10 @@
           "title": "Chor Minor",
           "url": "https://en.wikipedia.org/wiki/Chor_Minor"
         }
-      }
+      },
+      "wikidata": "Q4517198",
+      "lat": 39.77483,
+      "lon": 64.42737
     }
   ]
 }

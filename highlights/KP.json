@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,10 @@
           "title": "Montañas Changbai",
           "url": "https://es.wikipedia.org/wiki/Monta%C3%B1as_Changbai"
         }
-      }
+      },
+      "wikidata": "Q512139",
+      "lat": 41.733,
+      "lon": 128.067
     },
     {
       "id": "kp-q708588",
@@ -89,7 +98,11 @@
           "title": "Exposición Internacional de la Amistad",
           "url": "https://es.wikipedia.org/wiki/Exposici%C3%B3n_Internacional_de_la_Amistad"
         }
-      }
+      },
+      "wikidata": "Q708588",
+      "website": "http://naenara.com.kp/main/index/en/exhibition",
+      "lat": 40.01731,
+      "lon": 126.21513
     },
     {
       "id": "kp-q1326244",
@@ -122,7 +135,10 @@
           "title": "Museo de la Revolución Coreana",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Revoluci%C3%B3n_Coreana"
         }
-      }
+      },
+      "wikidata": "Q1326244",
+      "lat": 39.03234,
+      "lon": 125.75205
     },
     {
       "id": "kp-q708915",
@@ -155,7 +171,11 @@
           "title": "Zoológico central de Corea",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_central_de_Corea"
         }
-      }
+      },
+      "wikidata": "Q708915",
+      "website": "http://www.kza.org.kp/",
+      "lat": 39.075,
+      "lon": 125.815
     },
     {
       "id": "kp-q5047540",
@@ -184,7 +204,10 @@
           "title": "Korean Central History Museum",
           "url": "https://en.wikipedia.org/wiki/Korean_Central_History_Museum"
         }
-      }
+      },
+      "wikidata": "Q5047540",
+      "lat": 39.02009,
+      "lon": 125.75456
     },
     {
       "id": "kp-q17198628",
@@ -216,7 +239,10 @@
           "title": "Parque acuático Munsu",
           "url": "https://es.wikipedia.org/wiki/Parque_acu%C3%A1tico_Munsu"
         }
-      }
+      },
+      "wikidata": "Q17198628",
+      "lat": 39.03962,
+      "lon": 125.78118
     },
     {
       "id": "kp-q11588512",
@@ -249,7 +275,10 @@
           "title": "Museo de la Guerra Victoriosa",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Guerra_Victoriosa"
         }
-      }
+      },
+      "wikidata": "Q11588512",
+      "lat": 39.04098,
+      "lon": 125.73734
     }
   ]
 }

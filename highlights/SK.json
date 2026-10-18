@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Bardejov",
           "url": "https://es.wikipedia.org/wiki/Bardejov"
         }
-      }
+      },
+      "wikidata": "Q27007",
+      "website": "https://www.bardejov.sk/",
+      "lat": 49.29269,
+      "lon": 21.2756
     },
     {
       "id": "sk-q321074",
@@ -87,7 +97,11 @@
           "title": "Piešťany",
           "url": "https://es.wikipedia.org/wiki/Pie%C5%A1%C5%A5any"
         }
-      }
+      },
+      "wikidata": "Q321074",
+      "website": "https://www.piestany.sk",
+      "lat": 48.58333,
+      "lon": 17.83333
     },
     {
       "id": "sk-q532555",
@@ -118,7 +132,11 @@
           "title": "Trenčianske Teplice",
           "url": "https://es.wikipedia.org/wiki/Tren%C4%8Dianske_Teplice"
         }
-      }
+      },
+      "wikidata": "Q532555",
+      "website": "http://www.teplice.sk/",
+      "lat": 48.91056,
+      "lon": 18.16611
     },
     {
       "id": "sk-q135655",
@@ -149,7 +167,11 @@
           "title": "Rajecké Teplice",
           "url": "https://es.wikipedia.org/wiki/Rajeck%C3%A9_Teplice"
         }
-      }
+      },
+      "wikidata": "Q135655",
+      "website": "http://www.rajecke-teplice.sk",
+      "lat": 49.13333,
+      "lon": 18.68333
     },
     {
       "id": "sk-q837291",
@@ -181,7 +203,10 @@
           "title": "Most SNP",
           "url": "https://es.wikipedia.org/wiki/Most_SNP"
         }
-      }
+      },
+      "wikidata": "Q837291",
+      "lat": 48.13833,
+      "lon": 17.10444
     },
     {
       "id": "sk-q1093925",
@@ -213,6 +238,15 @@
           "title": "Museo nacional Eslovaco",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_Eslovaco"
         }
+      },
+      "wikidata": "Q1093925",
+      "website": "https://www.snm.sk/",
+      "lat": 48.1402,
+      "lon": 17.1129,
+      "hours": {
+        "text": "Jan-Dec Tu-Fr 09:00-17:00; Jul-Aug Tu-Fr 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -244,6 +278,16 @@
           "title": "Cueva de hielo de Dobšinská",
           "url": "https://es.wikipedia.org/wiki/Cueva_de_hielo_de_Dob%C5%A1insk%C3%A1"
         }
+      },
+      "wikidata": "Q284340",
+      "website": "http://www.ssj.sk/sk/jaskyna/6-dobsinska-ladova-jaskyna",
+      "lat": 48.86833,
+      "lon": 20.30444,
+      "phone": "+421-587-788-470",
+      "hours": {
+        "text": "May 16-31,Sep 01-15 Tu-Su 09:30,11:00,12:30,14:00; Jun-Aug Tu-Su 09:00,10:00,11:00,12:00,13:00,14:00,15:00,16:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -275,7 +319,10 @@
           "title": "Cueva de Domica",
           "url": "https://es.wikipedia.org/wiki/Cueva_de_Domica"
         }
-      }
+      },
+      "wikidata": "Q908287",
+      "lat": 48.47861,
+      "lon": 20.47278
     },
     {
       "id": "sk-q1075804",
@@ -306,7 +353,10 @@
           "title": "Cueva de aragonito Ochtinská",
           "url": "https://es.wikipedia.org/wiki/Cueva_de_aragonito_Ochtinsk%C3%A1"
         }
-      }
+      },
+      "wikidata": "Q1075804",
+      "lat": 48.66472,
+      "lon": 20.30917
     },
     {
       "id": "sk-q1744024",
@@ -334,6 +384,15 @@
           "title": "Slovak National Gallery",
           "url": "https://en.wikipedia.org/wiki/Slovak_National_Gallery"
         }
+      },
+      "wikidata": "Q1744024",
+      "website": "https://www.sng.sk/en",
+      "lat": 48.14,
+      "lon": 17.10861,
+      "hours": {
+        "text": "Tu-Su 10:00-18:00; Th 12:00-20:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

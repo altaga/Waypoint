@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Palazzo Pubblico (San Marino)",
           "url": "https://es.wikipedia.org/wiki/Palazzo_Pubblico_(San_Marino)"
         }
-      }
+      },
+      "wikidata": "Q1705125",
+      "lat": 43.93679,
+      "lon": 12.44644,
+      "phone": "+378 0549 883152"
     },
     {
       "id": "sm-q1424199",
@@ -88,6 +98,15 @@
           "title": "Museo de armas antiguas de San Marino",
           "url": "https://es.wikipedia.org/wiki/Museo_de_armas_antiguas_de_San_Marino"
         }
+      },
+      "wikidata": "Q1424199",
+      "website": "https://www.museidistato.sm/armiAntiche.html",
+      "lat": 43.933,
+      "lon": 12.45169,
+      "hours": {
+        "text": "Jun-Sep: Mo-Su 08:30-19:45, Sep-Mar: Mo-Su 09:00-16:50, Mar-Jun: Mo-Su 10:00-19:45, Sep: Mo-Su 10:00-17:50; Sep: PH off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -116,7 +135,12 @@
           "title": "Torture Museum (San Marino)",
           "url": "https://en.wikipedia.org/wiki/Torture_Museum_(San_Marino)"
         }
-      }
+      },
+      "wikidata": "Q37411608",
+      "website": "http://www.thetorturemuseum.it/",
+      "lat": 43.9353,
+      "lon": 12.44707,
+      "phone": "+378 0549 991215"
     }
   ]
 }

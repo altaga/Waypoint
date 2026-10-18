@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Museo del Castillo Rojo",
           "url": "https://es.wikipedia.org/wiki/Museo_del_Castillo_Rojo"
         }
-      }
+      },
+      "wikidata": "Q2498401",
+      "website": "https://www.libyanmuseumtripoli.ly/",
+      "lat": 32.89583,
+      "lon": 13.18028
     },
     {
       "id": "ly-q11137266",
@@ -86,7 +96,11 @@
           "title": "Islamic Museum of Tripoli",
           "url": "https://en.wikipedia.org/wiki/Islamic_Museum_of_Tripoli"
         }
-      }
+      },
+      "wikidata": "Q11137266",
+      "website": "http://islammit.4t.com/",
+      "lat": 32.87744,
+      "lon": 13.18283
     },
     {
       "id": "ly-q5550965",
@@ -115,7 +129,10 @@
           "title": "Germa Museum",
           "url": "https://en.wikipedia.org/wiki/Germa_Museum"
         }
-      }
+      },
+      "wikidata": "Q5550965",
+      "lat": 26.52611,
+      "lon": 13.06631
     }
   ]
 }

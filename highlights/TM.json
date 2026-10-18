@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,10 @@
           "title": "Monumento a la Independencia de Turkmenistán",
           "url": "https://es.wikipedia.org/wiki/Monumento_a_la_Independencia_de_Turkmenist%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q3323339",
+      "lat": 37.88119,
+      "lon": 58.38236
     },
     {
       "id": "tm-q1835821",
@@ -88,7 +97,12 @@
           "title": "Museo de alfombras de Turkmenistán",
           "url": "https://es.wikipedia.org/wiki/Museo_de_alfombras_de_Turkmenist%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q1835821",
+      "website": "http://turkmenhali.gov.tm/ru/progress/museum/",
+      "lat": 37.92402,
+      "lon": 58.37788,
+      "phone": "+993-12 398-886, 398-881 through 885"
     },
     {
       "id": "tm-q1835360",
@@ -120,7 +134,11 @@
           "title": "Museo nacional de historia de Asjabad",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_historia_de_Asjabad"
         }
-      }
+      },
+      "wikidata": "Q1835360",
+      "website": "http://www.museum.gov.tm",
+      "lat": 37.88541,
+      "lon": 58.34903
     },
     {
       "id": "tm-q7855419",
@@ -148,7 +166,10 @@
           "title": "Turkmen Museum of Fine Arts",
           "url": "https://en.wikipedia.org/wiki/Turkmen_Museum_of_Fine_Arts"
         }
-      }
+      },
+      "wikidata": "Q7855419",
+      "lat": 37.9353,
+      "lon": 58.3747
     },
     {
       "id": "tm-q4283341",
@@ -176,6 +197,16 @@
           "title": "Mary Museum",
           "url": "https://en.wikipedia.org/wiki/Mary_Museum"
         }
+      },
+      "wikidata": "Q4283341",
+      "website": "https://marymuseum.gov.tm/",
+      "lat": 37.58528,
+      "lon": 61.85444,
+      "phone": "(+993-522) 4-50-98",
+      "hours": {
+        "text": "Mo-Su 10:00-13:00, 14:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

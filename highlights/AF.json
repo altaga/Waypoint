@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Museo Nacional de Kabul",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Kabul"
         }
-      }
+      },
+      "wikidata": "Q715467",
+      "website": "http://www.afghan-web.com/kabul-museum/",
+      "lat": 34.4675,
+      "lon": 69.12
     },
     {
       "id": "af-q833625",
@@ -90,7 +100,10 @@
           "title": "Zoológico de Kabul",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Kabul"
         }
-      }
+      },
+      "wikidata": "Q833625",
+      "lat": 34.50944,
+      "lon": 69.15528
     },
     {
       "id": "af-q5361536",
@@ -119,7 +132,11 @@
           "title": "OMAR Mine Museum",
           "url": "https://en.wikipedia.org/wiki/OMAR_Mine_Museum"
         }
-      }
+      },
+      "wikidata": "Q5361536",
+      "website": "https://omar.org.af/museum/",
+      "lat": 34.55986,
+      "lon": 69.20184
     },
     {
       "id": "af-q5732778",
@@ -148,7 +165,10 @@
           "title": "Herat National Museum",
           "url": "https://en.wikipedia.org/wiki/Herat_National_Museum"
         }
-      }
+      },
+      "wikidata": "Q5732778",
+      "lat": 34.34588,
+      "lon": 62.18798
     },
     {
       "id": "af-q6361210",
@@ -177,7 +197,10 @@
           "title": "Kandahar Museum",
           "url": "https://en.wikipedia.org/wiki/Kandahar_Museum"
         }
-      }
+      },
+      "wikidata": "Q6361210",
+      "lat": 31.62036,
+      "lon": 65.71179
     }
   ]
 }

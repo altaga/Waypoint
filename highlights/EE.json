@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Kumu (museo)",
           "url": "https://es.wikipedia.org/wiki/Kumu_(museo)"
         }
-      }
+      },
+      "wikidata": "Q919611",
+      "website": "https://kumu.ekm.ee/",
+      "lat": 59.43639,
+      "lon": 24.79639
     },
     {
       "id": "ee-q625590",
@@ -88,7 +98,11 @@
           "title": "Museo de las Ocupaciones",
           "url": "https://es.wikipedia.org/wiki/Museo_de_las_Ocupaciones"
         }
-      }
+      },
+      "wikidata": "Q625590",
+      "website": "https://www.vabamu.ee/",
+      "lat": 59.43265,
+      "lon": 24.73943
     },
     {
       "id": "ee-q12361299",
@@ -117,6 +131,16 @@
           "title": "Estonian Museum of Natural History",
           "url": "https://en.wikipedia.org/wiki/Estonian_Museum_of_Natural_History"
         }
+      },
+      "wikidata": "Q12361299",
+      "website": "https://www.loodusmuuseum.ee/",
+      "lat": 59.44086,
+      "lon": 24.74527,
+      "phone": "+372 6411739",
+      "hours": {
+        "text": "Mo-Su 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -148,7 +172,10 @@
           "title": "Jardín Botánico de la Universidad de Tartu",
           "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_de_la_Universidad_de_Tartu"
         }
-      }
+      },
+      "wikidata": "Q946301",
+      "lat": 58.38466,
+      "lon": 26.72115
     },
     {
       "id": "ee-q2790284",
@@ -177,7 +204,11 @@
           "title": "Ice Age Centre",
           "url": "https://en.wikipedia.org/wiki/Ice_Age_Centre"
         }
-      }
+      },
+      "wikidata": "Q2790284",
+      "website": "https://jaaaeg.ee",
+      "lat": 58.52575,
+      "lon": 26.67623
     },
     {
       "id": "ee-q720876",
@@ -205,7 +236,10 @@
           "title": "Suur Tõll (icebreaker)",
           "url": "https://en.wikipedia.org/wiki/Suur_T%C3%B5ll_(icebreaker)"
         }
-      }
+      },
+      "wikidata": "Q720876",
+      "lat": 59.45307,
+      "lon": 24.73872
     },
     {
       "id": "ee-q12376504",
@@ -233,7 +267,11 @@
           "title": "University of Tartu Museum",
           "url": "https://en.wikipedia.org/wiki/University_of_Tartu_Museum"
         }
-      }
+      },
+      "wikidata": "Q12376504",
+      "website": "http://www.muuseum.ut.ee",
+      "lat": 58.38027,
+      "lon": 26.71542
     },
     {
       "id": "ee-q5401903",
@@ -261,7 +299,11 @@
           "title": "Patarei Prison",
           "url": "https://en.wikipedia.org/wiki/Patarei_Prison"
         }
-      }
+      },
+      "wikidata": "Q5401903",
+      "website": "https://patareiprison.org/",
+      "lat": 59.45027,
+      "lon": 24.74175
     },
     {
       "id": "ee-q12376513",
@@ -289,6 +331,16 @@
           "title": "University of Tartu Art Museum",
           "url": "https://en.wikipedia.org/wiki/University_of_Tartu_Art_Museum"
         }
+      },
+      "wikidata": "Q12376513",
+      "website": "https://www.kunstimuuseum.ut.ee/",
+      "lat": 58.38105,
+      "lon": 26.72002,
+      "phone": "+372 7375384",
+      "hours": {
+        "text": "Mo-Fr 11:00-17:00; Sa-Su \"Announce visit\"",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

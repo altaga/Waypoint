@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Museo Nacional de Arte de Azerbaiyán",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_de_Azerbaiy%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q2559128",
+      "website": "http://nationalartmuseum.az/?lang=az",
+      "lat": 40.36317,
+      "lon": 49.83174
     },
     {
       "id": "az-q2664428",
@@ -88,7 +98,12 @@
           "title": "Museo Estatal de Historia de Azerbaiyán",
           "url": "https://es.wikipedia.org/wiki/Museo_Estatal_de_Historia_de_Azerbaiy%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q2664428",
+      "website": "http://azhistorymuseum.gov.az/",
+      "lat": 40.36948,
+      "lon": 49.84012,
+      "phone": "+994-12-493-23-87"
     },
     {
       "id": "az-q2452280",
@@ -120,7 +135,10 @@
           "title": "Parque zoológico de Bakú",
           "url": "https://es.wikipedia.org/wiki/Parque_zool%C3%B3gico_de_Bak%C3%BA"
         }
-      }
+      },
+      "wikidata": "Q2452280",
+      "lat": 40.39295,
+      "lon": 49.84897
     },
     {
       "id": "az-q754560",
@@ -153,7 +171,10 @@
           "title": "Ateshgah de Bakú",
           "url": "https://es.wikipedia.org/wiki/Ateshgah_de_Bak%C3%BA"
         }
-      }
+      },
+      "wikidata": "Q754560",
+      "lat": 40.41556,
+      "lon": 50.00861
     },
     {
       "id": "az-q1136822",
@@ -186,6 +207,16 @@
           "title": "Museo de Alfombra de Azerbaiyán",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Alfombra_de_Azerbaiy%C3%A1n"
         }
+      },
+      "wikidata": "Q1136822",
+      "website": "http://www.azcarpetmuseum.az/index_eng.htm",
+      "lat": 40.35984,
+      "lon": 49.83547,
+      "phone": "+994124972016",
+      "hours": {
+        "text": "Tu-Fr 10:00-18:00; Sa-Su 10:00-20:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -218,6 +249,15 @@
           "title": "Museo del Ferrocarril de Azerbaiyán",
           "url": "https://es.wikipedia.org/wiki/Museo_del_Ferrocarril_de_Azerbaiy%C3%A1n"
         }
+      },
+      "wikidata": "Q123753947",
+      "website": "https://muzey.ady.az/",
+      "lat": 40.37969,
+      "lon": 49.84799,
+      "hours": {
+        "text": "Mo-Sa 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -250,7 +290,11 @@
           "title": "Museo de arte moderno (Bakú)",
           "url": "https://es.wikipedia.org/wiki/Museo_de_arte_moderno_(Bak%C3%BA)"
         }
-      }
+      },
+      "wikidata": "Q1678321",
+      "website": "http://mim.az",
+      "lat": 40.37802,
+      "lon": 49.86469
     },
     {
       "id": "az-q2500152",
@@ -282,7 +326,11 @@
           "title": "Museo Nacional de Literatura de Azerbaiyán",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Literatura_de_Azerbaiy%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q2500152",
+      "website": "http://nizamimuseum.az/museum/",
+      "lat": 40.36992,
+      "lon": 49.83639
     },
     {
       "id": "az-q4058262",
@@ -314,7 +362,12 @@
           "title": "Museo Estatal de Cultura Musical de Azerbaiyán",
           "url": "https://es.wikipedia.org/wiki/Museo_Estatal_de_Cultura_Musical_de_Azerbaiy%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q4058262",
+      "website": "http://www.musicmuseum.az/az/index.php",
+      "lat": 40.36961,
+      "lon": 49.84251,
+      "phone": "(+994 12) 498-69-72"
     },
     {
       "id": "az-q4306396",
@@ -346,7 +399,11 @@
           "title": "Museo de Independencia de Azerbaiyán",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Independencia_de_Azerbaiy%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q4306396",
+      "website": "http://www.istiqlalmuzeyi.gov.az",
+      "lat": 40.36827,
+      "lon": 49.83309
     }
   ]
 }

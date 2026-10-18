@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,12 @@
           "title": "Spa (Bélgica)",
           "url": "https://es.wikipedia.org/wiki/Spa_(B%C3%A9lgica)"
         }
-      }
+      },
+      "wikidata": "Q39865",
+      "website": "https://www.villedespa.be/",
+      "lat": 50.49228,
+      "lon": 5.86221,
+      "phone": "+32-87-79-53-60"
     },
     {
       "id": "be-q180901",
@@ -89,6 +100,16 @@
           "title": "Atomium",
           "url": "https://es.wikipedia.org/wiki/Atomium"
         }
+      },
+      "wikidata": "Q180901",
+      "website": "https://www.atomium.be/",
+      "lat": 50.895,
+      "lon": 4.34139,
+      "phone": "+32 2 475 47 75",
+      "hours": {
+        "text": "10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -122,6 +143,16 @@
           "title": "Museo Plantin-Moretus",
           "url": "https://es.wikipedia.org/wiki/Museo_Plantin-Moretus"
         }
+      },
+      "wikidata": "Q595802",
+      "website": "http://www.museumplantinmoretus.be",
+      "lat": 51.21829,
+      "lon": 4.39816,
+      "phone": "+32 3 221 14 50",
+      "hours": {
+        "text": "Tu-Su 10:00-17:00; Jan 01 off; May 01 off; Nov 01 off; Dec 25 off; easter +39 days off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -154,7 +185,11 @@
           "title": "Catedral de Amberes",
           "url": "https://es.wikipedia.org/wiki/Catedral_de_Amberes"
         }
-      }
+      },
+      "wikidata": "Q5901",
+      "website": "http://www.dekathedraal.be",
+      "lat": 51.22027,
+      "lon": 4.40025
     },
     {
       "id": "be-q377500",
@@ -186,6 +221,16 @@
           "title": "Museos Reales de Bellas Artes de Bélgica",
           "url": "https://es.wikipedia.org/wiki/Museos_Reales_de_Bellas_Artes_de_B%C3%A9lgica"
         }
+      },
+      "wikidata": "Q377500",
+      "website": "http://www.fine-arts-museum.be",
+      "lat": 50.84168,
+      "lon": 4.35824,
+      "phone": "+32 2 508 32 11",
+      "hours": {
+        "text": "off \"Not open to the public\"",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -217,7 +262,11 @@
           "title": "Fuerte Eben-Emael",
           "url": "https://es.wikipedia.org/wiki/Fuerte_Eben-Emael"
         }
-      }
+      },
+      "wikidata": "Q947912",
+      "website": "http://www.fort-eben-emael.be",
+      "lat": 50.79722,
+      "lon": 5.68083
     },
     {
       "id": "be-q917183",
@@ -250,6 +299,16 @@
           "title": "Iglesia de Nuestra Señora (Brujas)",
           "url": "https://es.wikipedia.org/wiki/Iglesia_de_Nuestra_Se%C3%B1ora_(Brujas)"
         }
+      },
+      "wikidata": "Q917183",
+      "website": "https://www.museabrugge.be",
+      "lat": 51.20465,
+      "lon": 3.22447,
+      "phone": "+32 50 44 87 11",
+      "hours": {
+        "text": "Mo-Su 09:30-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -282,6 +341,15 @@
           "title": "Museo Groeninge",
           "url": "https://es.wikipedia.org/wiki/Museo_Groeninge"
         }
+      },
+      "wikidata": "Q1948674",
+      "website": "https://www.museabrugge.be/bezoek-onze-musea/onze-musea-en-monumenten/groeningemuseum",
+      "lat": 51.20528,
+      "lon": 3.22667,
+      "hours": {
+        "text": "Th-Tu 09:30-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -314,7 +382,11 @@
           "title": "Campanario de Brujas",
           "url": "https://es.wikipedia.org/wiki/Campanario_de_Brujas"
         }
-      }
+      },
+      "wikidata": "Q2441211",
+      "website": "http://www.museabrugge.be",
+      "lat": 51.20798,
+      "lon": 3.2253
     },
     {
       "id": "be-q1995367",
@@ -346,6 +418,16 @@
           "title": "Museo Horta",
           "url": "https://es.wikipedia.org/wiki/Museo_Horta"
         }
+      },
+      "wikidata": "Q1995367",
+      "website": "https://www.hortamuseum.be/",
+      "lat": 50.82417,
+      "lon": 4.35556,
+      "phone": "+32-2-543-04-90",
+      "hours": {
+        "text": "Tu-Fr 14:00-17:30; Sa-Su 11:00-17:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -378,7 +460,11 @@
           "title": "Museo de Bellas Artes de Gante",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Bellas_Artes_de_Gante"
         }
-      }
+      },
+      "wikidata": "Q2365880",
+      "website": "https://www.mskgent.be/en/",
+      "lat": 51.03798,
+      "lon": 3.72424
     }
   ]
 }

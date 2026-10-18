@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -55,7 +61,10 @@
           "title": "Cuevas Chinhoyi",
           "url": "https://es.wikipedia.org/wiki/Cuevas_Chinhoyi"
         }
-      }
+      },
+      "wikidata": "Q5101060",
+      "lat": -17.35,
+      "lon": 30.125
     },
     {
       "id": "zw-q4113712",
@@ -87,6 +96,15 @@
           "title": "Galería Nacional de Zimbabue",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Zimbabue"
         }
+      },
+      "wikidata": "Q4113712",
+      "website": "http://nationalgallery.co.zw",
+      "lat": -17.8253,
+      "lon": 31.0489,
+      "hours": {
+        "text": "Tu-Su 09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -120,7 +138,10 @@
           "title": "Museo del Ferrocarril de Bulawayo",
           "url": "https://es.wikipedia.org/wiki/Museo_del_Ferrocarril_de_Bulawayo"
         }
-      }
+      },
+      "wikidata": "Q203414",
+      "lat": -20.16389,
+      "lon": 28.57372
     },
     {
       "id": "zw-q8071996",
@@ -148,6 +169,14 @@
           "title": "Zimbabwe Museum of Human Sciences",
           "url": "https://en.wikipedia.org/wiki/Zimbabwe_Museum_of_Human_Sciences"
         }
+      },
+      "wikidata": "Q8071996",
+      "lat": -17.8325,
+      "lon": 31.0389,
+      "hours": {
+        "text": "Mo-Su 08:00-16:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -180,7 +209,10 @@
           "title": "Parque de esculturas Chapungu",
           "url": "https://es.wikipedia.org/wiki/Parque_de_esculturas_Chapungu"
         }
-      }
+      },
+      "wikidata": "Q507403",
+      "lat": -17.84369,
+      "lon": 31.12084
     },
     {
       "id": "zw-q1771023",
@@ -212,6 +244,15 @@
           "title": "Museo de Mutare",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Mutare"
         }
+      },
+      "wikidata": "Q1771023",
+      "lat": -18.9711,
+      "lon": 32.6671,
+      "phone": "0202063630",
+      "hours": {
+        "text": "Mo-Sa 08:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -245,7 +286,11 @@
           "title": "Museo de historia natural de Zimbabue",
           "url": "https://es.wikipedia.org/wiki/Museo_de_historia_natural_de_Zimbabue"
         }
-      }
+      },
+      "wikidata": "Q1771439",
+      "website": "http://naturalhistorymuseumzimbabwe.com/",
+      "lat": -20.1558,
+      "lon": 28.5965
     }
   ]
 }

@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -52,7 +58,10 @@
           "title": "Druskininkai",
           "url": "https://en.wikipedia.org/wiki/Druskininkai"
         }
-      }
+      },
+      "wikidata": "Q1261509",
+      "lat": 54.02056,
+      "lon": 23.9725
     },
     {
       "id": "lt-q1050522",
@@ -80,6 +89,16 @@
           "title": "Grūtas Park",
           "url": "https://en.wikipedia.org/wiki/Gr%C5%ABtas_Park"
         }
+      },
+      "wikidata": "Q1050522",
+      "website": "http://grutoparkas.lt/",
+      "lat": 54.02083,
+      "lon": 24.07972,
+      "phone": "+370 313 55 511",
+      "hours": {
+        "text": "Jan-Feb 9:00-18:00; Mar-Apr 9:00-20:00; May 9:00-21:00; Jun-Aug 9:00-22:00; Sep 9:00-20:00; Oct 9:00-19:00; Nov 9:00-17:00; Dec 9:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -112,6 +131,16 @@
           "title": "Museo Nacional de Lituania",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Lituania"
         }
+      },
+      "wikidata": "Q1790447",
+      "website": "https://lnm.lt/",
+      "lat": 54.68722,
+      "lon": 25.28917,
+      "phone": "+370 (5) 262 94 26",
+      "hours": {
+        "text": "Tu-Su 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -144,7 +173,11 @@
           "title": "Jardín zoológico Lituano",
           "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_Lituano"
         }
-      }
+      },
+      "wikidata": "Q3266986",
+      "website": "https://www.zoosodas.lt/",
+      "lat": 54.90139,
+      "lon": 23.95139
     },
     {
       "id": "lt-q323860",
@@ -176,6 +209,16 @@
           "title": "Museo de las Ocupaciones y las Luchas por la Libertad",
           "url": "https://es.wikipedia.org/wiki/Museo_de_las_Ocupaciones_y_las_Luchas_por_la_Libertad"
         }
+      },
+      "wikidata": "Q323860",
+      "website": "http://genocid.lt/muziejus",
+      "lat": 54.68788,
+      "lon": 25.27059,
+      "phone": "+370 602 87022",
+      "hours": {
+        "text": "We-Sa 10:00-18:00; Su 10:00-17:00; Mo-Tu off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -208,6 +251,16 @@
           "title": "Museo Žmuidzinavičius",
           "url": "https://es.wikipedia.org/wiki/Museo_%C5%BDmuidzinavi%C4%8Dius"
         }
+      },
+      "wikidata": "Q2305235",
+      "website": "https://www.muziejai.lt/kaunas/zmuidz_muziejus.htm",
+      "lat": 54.90083,
+      "lon": 23.91056,
+      "phone": "+370 37 22 15 87",
+      "hours": {
+        "text": "Tu-Su 11:00-17:00; Th 11:00-19:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -236,6 +289,16 @@
           "title": "House of the Signatories",
           "url": "https://en.wikipedia.org/wiki/House_of_the_Signatories"
         }
+      },
+      "wikidata": "Q5915642",
+      "website": "https://lnm.lt/muziejai/signataru-namai/",
+      "lat": 54.68222,
+      "lon": 25.28944,
+      "phone": "+370 5 231 4437",
+      "hours": {
+        "text": "Tu-Fr 10:00-18:00; Sa,Su 12:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -268,6 +331,16 @@
           "title": "Museo Nacional de Arte Mikalojus Konstantinas Čiurlionis",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_Mikalojus_Konstantinas_%C4%8Ciurlionis"
         }
+      },
+      "wikidata": "Q4381425",
+      "website": "https://ciurlionis.lt/",
+      "lat": 54.9,
+      "lon": 23.91139,
+      "phone": "+370 37 229 475",
+      "hours": {
+        "text": "Tu-Su 11:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

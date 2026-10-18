@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Baden bei Wien",
           "url": "https://es.wikipedia.org/wiki/Baden_bei_Wien"
         }
-      }
+      },
+      "wikidata": "Q486450",
+      "website": "https://baden.at",
+      "lat": 48.0075,
+      "lon": 16.23444
     },
     {
       "id": "at-q254835",
@@ -88,7 +98,11 @@
           "title": "Bad Gastein",
           "url": "https://es.wikipedia.org/wiki/Bad_Gastein"
         }
-      }
+      },
+      "wikidata": "Q254835",
+      "website": "http://www.bad-gastein.at/",
+      "lat": 47.11472,
+      "lon": 13.13556
     },
     {
       "id": "at-q46242",
@@ -121,7 +135,11 @@
           "title": "Palacio Imperial de Hofburg",
           "url": "https://es.wikipedia.org/wiki/Palacio_Imperial_de_Hofburg"
         }
-      }
+      },
+      "wikidata": "Q46242",
+      "website": "http://www.hofburg-wien.at/",
+      "lat": 48.20639,
+      "lon": 16.36528
     },
     {
       "id": "at-q160139",
@@ -152,7 +170,10 @@
           "title": "Campo de concentración de Mauthausen-Gusen",
           "url": "https://es.wikipedia.org/wiki/Campo_de_concentraci%C3%B3n_de_Mauthausen-Gusen"
         }
-      }
+      },
+      "wikidata": "Q160139",
+      "lat": 48.25752,
+      "lon": 14.50043
     },
     {
       "id": "at-q95569",
@@ -185,6 +206,16 @@
           "title": "Museo de Historia del Arte de Viena",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_del_Arte_de_Viena"
         }
+      },
+      "wikidata": "Q95569",
+      "website": "https://www.khm.at/en/",
+      "lat": 48.20388,
+      "lon": 16.3616,
+      "phone": "+43 1 525240",
+      "hours": {
+        "text": "Tu-We, Fr-Su 10:00-18:00; Th 10:00-21:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -217,6 +248,16 @@
           "title": "Albertina",
           "url": "https://es.wikipedia.org/wiki/Albertina"
         }
+      },
+      "wikidata": "Q371908",
+      "website": "http://www.albertina.at/",
+      "lat": 48.20472,
+      "lon": 16.36833,
+      "phone": "+43 1 534 83 0",
+      "hours": {
+        "text": "PH,Th,Sa-Tu 10:00-18:00; We,Fr 10:00-21:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -250,6 +291,15 @@
           "title": "Biblioteca Nacional de Austria",
           "url": "https://es.wikipedia.org/wiki/Biblioteca_Nacional_de_Austria"
         }
+      },
+      "wikidata": "Q304037",
+      "website": "https://www.onb.ac.at/",
+      "lat": 48.20614,
+      "lon": 16.36627,
+      "hours": {
+        "text": "Tu-Su 10:00 - 18:00; Th 10:00 - 21:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -282,6 +332,15 @@
           "title": "Carnuntum",
           "url": "https://es.wikipedia.org/wiki/Carnuntum"
         }
+      },
+      "wikidata": "Q508815",
+      "website": "https://www.carnuntum.at/",
+      "lat": 48.11333,
+      "lon": 16.86139,
+      "hours": {
+        "text": "Mo-Su 09:00-17:00 \"im Sommer\"",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -314,6 +373,16 @@
           "title": "Museo de Historia Natural de Viena",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Natural_de_Viena"
         }
+      },
+      "wikidata": "Q688704",
+      "website": "http://www.nhm-wien.ac.at/",
+      "lat": 48.20513,
+      "lon": 16.35993,
+      "phone": "+43 1 521770",
+      "hours": {
+        "text": "Th-Mo 09:00-18:30; We 09:00-21:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

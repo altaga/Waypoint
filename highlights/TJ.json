@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,6 +62,16 @@
           "title": "Museo nacional de Tayikistán",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Tayikist%C3%A1n"
         }
+      },
+      "wikidata": "Q1962119",
+      "website": "http://www.newnmt.tj",
+      "lat": 38.5823,
+      "lon": 68.77954,
+      "phone": "+992 372 278561",
+      "hours": {
+        "text": "Tu-Sa 10:00-17:00; Su 10:00-16:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -88,7 +104,10 @@
           "title": "Museo histórico de Sughd",
           "url": "https://es.wikipedia.org/wiki/Museo_hist%C3%B3rico_de_Sughd"
         }
-      }
+      },
+      "wikidata": "Q1962237",
+      "lat": 40.285,
+      "lon": 69.61806
     },
     {
       "id": "tj-q13201851",
@@ -116,7 +135,11 @@
           "title": "National Museum of Antiquities of Tajikistan",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_Antiquities_of_Tajikistan"
         }
-      }
+      },
+      "wikidata": "Q13201851",
+      "website": "http://www.afc.ryukoku.ac.jp/tj/",
+      "lat": 38.5634,
+      "lon": 68.7991
     },
     {
       "id": "tj-q5316871",
@@ -148,7 +171,10 @@
           "title": "Zoológico de Dusambé",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Dusamb%C3%A9"
         }
-      }
+      },
+      "wikidata": "Q5316871",
+      "lat": 38.585,
+      "lon": 68.77194
     },
     {
       "id": "tj-q25582608",
@@ -176,7 +202,10 @@
           "title": "Gurminj Museum of Musical Instruments",
           "url": "https://en.wikipedia.org/wiki/Gurminj_Museum_of_Musical_Instruments"
         }
-      }
+      },
+      "wikidata": "Q25582608",
+      "lat": 38.5768,
+      "lon": 68.7898
     },
     {
       "id": "tj-q117426036",
@@ -204,7 +233,10 @@
           "title": "Rudaki Republican Museum of Regional History, Panjakent",
           "url": "https://en.wikipedia.org/wiki/Rudaki_Republican_Museum_of_Regional_History%2C_Panjakent"
         }
-      }
+      },
+      "wikidata": "Q117426036",
+      "lat": 38.50624,
+      "lon": 68.68549
     }
   ]
 }

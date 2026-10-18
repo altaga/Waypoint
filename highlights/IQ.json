@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Mezquita del Imán Alí",
           "url": "https://es.wikipedia.org/wiki/Mezquita_del_Im%C3%A1n_Al%C3%AD"
         }
-      }
+      },
+      "wikidata": "Q838359",
+      "website": "https://www.imamali.net/",
+      "lat": 31.99611,
+      "lon": 44.31417
     },
     {
       "id": "iq-q521251",
@@ -90,7 +100,11 @@
           "title": "Museo Nacional de Irak",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Irak"
         }
-      }
+      },
+      "wikidata": "Q521251",
+      "website": "https://www.theiraqmuseum.com",
+      "lat": 33.32861,
+      "lon": 44.38583
     },
     {
       "id": "iq-q773704",
@@ -123,7 +137,10 @@
           "title": "Mezquita Imam Husayn",
           "url": "https://es.wikipedia.org/wiki/Mezquita_Imam_Husayn"
         }
-      }
+      },
+      "wikidata": "Q773704",
+      "lat": 32.61639,
+      "lon": 44.0325
     },
     {
       "id": "iq-q154116",
@@ -156,7 +173,10 @@
           "title": "Mezquita Al-Kadhimiya",
           "url": "https://es.wikipedia.org/wiki/Mezquita_Al-Kadhimiya"
         }
-      }
+      },
+      "wikidata": "Q154116",
+      "lat": 33.37997,
+      "lon": 44.33796
     },
     {
       "id": "iq-q1486703",
@@ -189,7 +209,11 @@
           "title": "Taq-i Kisra",
           "url": "https://es.wikipedia.org/wiki/Taq-i_Kisra"
         }
-      }
+      },
+      "wikidata": "Q1486703",
+      "website": "http://www.taqkasra.com",
+      "lat": 33.09372,
+      "lon": 44.58072
     },
     {
       "id": "iq-q3250647",
@@ -222,7 +246,10 @@
           "title": "Mezquita de Abbás",
           "url": "https://es.wikipedia.org/wiki/Mezquita_de_Abb%C3%A1s"
         }
-      }
+      },
+      "wikidata": "Q3250647",
+      "lat": 32.61719,
+      "lon": 44.03622
     },
     {
       "id": "iq-q19414891",
@@ -255,7 +282,11 @@
           "title": "Museo de Sulaimaniya",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Sulaimaniya"
         }
-      }
+      },
+      "wikidata": "Q19414891",
+      "website": "https://slemanimuseum.org",
+      "lat": 35.55757,
+      "lon": 45.42582
     },
     {
       "id": "iq-q3014063",
@@ -288,7 +319,10 @@
           "title": "Museo de Ennigaldi-Nanna",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Ennigaldi-Nanna"
         }
-      }
+      },
+      "wikidata": "Q3014063",
+      "lat": 30.96167,
+      "lon": 46.10528
     }
   ]
 }

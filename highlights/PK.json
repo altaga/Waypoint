@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -53,7 +59,11 @@
           "title": "Lahore Museum",
           "url": "https://en.wikipedia.org/wiki/Lahore_Museum"
         }
-      }
+      },
+      "wikidata": "Q1640876",
+      "website": "http://www.lahoremuseum.org/",
+      "lat": 31.56823,
+      "lon": 74.30817
     },
     {
       "id": "pk-q1967486",
@@ -85,6 +95,14 @@
           "title": "Museo nacional de Pakistán",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Pakist%C3%A1n"
         }
+      },
+      "wikidata": "Q1967486",
+      "lat": 24.85261,
+      "lon": 67.01791,
+      "hours": {
+        "text": "Th-Tu 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -113,7 +131,11 @@
           "title": "Taxila Museum",
           "url": "https://en.wikipedia.org/wiki/Taxila_Museum"
         }
-      }
+      },
+      "wikidata": "Q7689656",
+      "website": "https://taxilamuseum.punjab.gov.pk/",
+      "lat": 33.74643,
+      "lon": 72.81723
     },
     {
       "id": "pk-q1416493",
@@ -142,7 +164,11 @@
           "title": "Peshawar Museum",
           "url": "https://en.wikipedia.org/wiki/Peshawar_Museum"
         }
-      }
+      },
+      "wikidata": "Q1416493",
+      "website": "https://www.kparchaeology.com/front_cms/museum/museum_info/27",
+      "lat": 34.00775,
+      "lon": 71.55826
     },
     {
       "id": "pk-q3694624",
@@ -171,6 +197,15 @@
           "title": "Lok Virsa Museum",
           "url": "https://en.wikipedia.org/wiki/Lok_Virsa_Museum"
         }
+      },
+      "wikidata": "Q3694624",
+      "website": "http://lokvirsa.org.pk/",
+      "lat": 33.68333,
+      "lon": 73.06667,
+      "hours": {
+        "text": "Tu-Su 10:00-20:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -199,7 +234,10 @@
           "title": "Delhi Gate, Lahore",
           "url": "https://en.wikipedia.org/wiki/Delhi_Gate%2C_Lahore"
         }
-      }
+      },
+      "wikidata": "Q2027173",
+      "lat": 31.58222,
+      "lon": 74.32639
     },
     {
       "id": "pk-q2157417",
@@ -231,7 +269,11 @@
           "title": "Museo marítimo de Pakistán",
           "url": "https://es.wikipedia.org/wiki/Museo_mar%C3%ADtimo_de_Pakist%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q2157417",
+      "website": "https://pmm.com.pk/",
+      "lat": 24.88609,
+      "lon": 67.08994
     },
     {
       "id": "pk-q4785375",
@@ -259,7 +301,10 @@
           "title": "Harappa Museum",
           "url": "https://en.wikipedia.org/wiki/Harappa_Museum"
         }
-      }
+      },
+      "wikidata": "Q4785375",
+      "lat": 30.62528,
+      "lon": 72.86619
     },
     {
       "id": "pk-q9055975",
@@ -290,7 +335,11 @@
           "title": "Parque nacional de Ayub",
           "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Ayub"
         }
-      }
+      },
+      "wikidata": "Q9055975",
+      "website": "https://ayubpark.com/",
+      "lat": 33.57083,
+      "lon": 73.08056
     },
     {
       "id": "pk-q2046672",
@@ -318,7 +367,11 @@
           "title": "Pakistan Museum of Natural History",
           "url": "https://en.wikipedia.org/wiki/Pakistan_Museum_of_Natural_History"
         }
-      }
+      },
+      "wikidata": "Q2046672",
+      "website": "http://www.pmnh.gov.pk/default.asp",
+      "lat": 33.68639,
+      "lon": 73.07639
     },
     {
       "id": "pk-q5071705",
@@ -349,7 +402,10 @@
           "title": "Changa Manga",
           "url": "https://es.wikipedia.org/wiki/Changa_Manga"
         }
-      }
+      },
+      "wikidata": "Q5071705",
+      "lat": 31.08333,
+      "lon": 73.96667
     },
     {
       "id": "pk-q6970474",
@@ -381,7 +437,11 @@
           "title": "Galería Nacional de Arte de Pakistán",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Arte_de_Pakist%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q6970474",
+      "website": "http://www.pnca.org.pk/",
+      "lat": 33.7305,
+      "lon": 73.091
     }
   ]
 }

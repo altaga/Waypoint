@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,6 +63,16 @@
           "title": "Museo nacional Boubou-Hama",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_Boubou-Hama"
         }
+      },
+      "wikidata": "Q1989844",
+      "website": "http://www.museenationalduniger.ne/",
+      "lat": 13.51111,
+      "lon": 2.10722,
+      "phone": "+227-20-73-43-21",
+      "hours": {
+        "text": "Mo-Su 08:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

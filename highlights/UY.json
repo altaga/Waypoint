@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Museo Nacional de Artes Visuales",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Artes_Visuales"
         }
-      }
+      },
+      "wikidata": "Q1786577",
+      "website": "http://www.mnav.gub.uy/",
+      "lat": -34.91389,
+      "lon": -56.16472
     },
     {
       "id": "uy-q16609962",
@@ -88,7 +98,12 @@
           "title": "Museo de la Memoria (Montevideo)",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Memoria_(Montevideo)"
         }
-      }
+      },
+      "wikidata": "Q16609962",
+      "website": "http://mume.montevideo.gub.uy/",
+      "lat": -34.8421233,
+      "lon": -56.1985539,
+      "phone": "+598 2355 5891"
     },
     {
       "id": "uy-q1570412",
@@ -120,7 +135,12 @@
           "title": "Museo Torres García",
           "url": "https://es.wikipedia.org/wiki/Museo_Torres_Garc%C3%ADa"
         }
-      }
+      },
+      "wikidata": "Q1570412",
+      "website": "http://www.torresgarcia.org.uy",
+      "lat": -34.90644,
+      "lon": -56.20131,
+      "phone": "+598 291 52 635"
     },
     {
       "id": "uy-q3328392",
@@ -153,7 +173,12 @@
           "title": "Museo Nacional de Historia Natural de Uruguay",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Historia_Natural_de_Uruguay"
         }
-      }
+      },
+      "wikidata": "Q3328392",
+      "website": "https://www.mnhn.gub.uy/",
+      "lat": -34.8946,
+      "lon": -56.18073,
+      "phone": "+598 2929 0517"
     },
     {
       "id": "uy-q3816749",
@@ -186,7 +211,12 @@
           "title": "Museo de Arte Precolombino e Indígena",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Precolombino_e_Ind%C3%ADgena"
         }
-      }
+      },
+      "wikidata": "Q3816749",
+      "website": "http://www.mapi.org.uy",
+      "lat": -34.90752,
+      "lon": -56.21028,
+      "phone": "+598-2916-9360"
     },
     {
       "id": "uy-q957021",
@@ -218,7 +248,11 @@
           "title": "Museo del Hombre y la Tecnología",
           "url": "https://es.wikipedia.org/wiki/Museo_del_Hombre_y_la_Tecnolog%C3%ADa"
         }
-      }
+      },
+      "wikidata": "Q957021",
+      "website": "https://www.salto.gub.uy/resultado-busqueda/item/408-museo-del-hombre-y-la-tecnologia",
+      "lat": -31.38596,
+      "lon": -57.96911
     },
     {
       "id": "uy-q3817068",
@@ -250,7 +284,11 @@
           "title": "Museo Aeronáutico Coronel (Aviador) Jaime Meregalli",
           "url": "https://es.wikipedia.org/wiki/Museo_Aeron%C3%A1utico_Coronel_(Aviador)_Jaime_Meregalli"
         }
-      }
+      },
+      "wikidata": "Q3817068",
+      "website": "https://museo.fau.mil.uy/",
+      "lat": -34.84053,
+      "lon": -56.01583
     },
     {
       "id": "uy-q1438902",
@@ -282,7 +320,11 @@
           "title": "Fortaleza de Santa Teresa",
           "url": "https://es.wikipedia.org/wiki/Fortaleza_de_Santa_Teresa"
         }
-      }
+      },
+      "wikidata": "Q1438902",
+      "lat": -33.97222,
+      "lon": -53.54861,
+      "phone": "+598 4474 6541"
     },
     {
       "id": "uy-q1055949",
@@ -314,7 +356,10 @@
           "title": "Cerro San Antonio",
           "url": "https://es.wikipedia.org/wiki/Cerro_San_Antonio"
         }
-      }
+      },
+      "wikidata": "Q1055949",
+      "lat": -34.87833,
+      "lon": -55.27389
     },
     {
       "id": "uy-q987058",
@@ -346,7 +391,10 @@
           "title": "El Tesoro (Uruguay)",
           "url": "https://es.wikipedia.org/wiki/El_Tesoro_(Uruguay)"
         }
-      }
+      },
+      "wikidata": "Q987058",
+      "lat": -34.89531,
+      "lon": -54.86622
     }
   ]
 }

@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,6 +63,16 @@
           "title": "Museo Nacional del Palacio",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_del_Palacio"
         }
+      },
+      "wikidata": "Q540668",
+      "website": "http://www.npm.gov.tw",
+      "lat": 25.10222,
+      "lon": 121.54861,
+      "phone": "+886 2 2881 2021",
+      "hours": {
+        "text": "Tu-Su 09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -89,6 +105,16 @@
           "title": "Zoológico de Taipéi",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Taip%C3%A9i"
         }
+      },
+      "wikidata": "Q591131",
+      "website": "https://www.zoo.gov.taipei",
+      "lat": 25.0026,
+      "lon": 121.582,
+      "phone": "+886 2 2938 2300#630",
+      "hours": {
+        "text": "09:00-17:00; Jul-Aug Sa 09:00-21:00; Oct Sa[-1] 09:00-21:00; PH 09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -117,7 +143,10 @@
           "title": "Fort Provintia",
           "url": "https://en.wikipedia.org/wiki/Fort_Provintia"
         }
-      }
+      },
+      "wikidata": "Q714431",
+      "lat": 22.9975,
+      "lon": 120.20281
     },
     {
       "id": "tw-q4984158",
@@ -150,7 +179,10 @@
           "title": "Museo del Buda de Fo Guang Shan",
           "url": "https://es.wikipedia.org/wiki/Museo_del_Buda_de_Fo_Guang_Shan"
         }
-      }
+      },
+      "wikidata": "Q4984158",
+      "lat": 22.75708,
+      "lon": 120.44135
     },
     {
       "id": "tw-q5095087",
@@ -178,6 +210,16 @@
           "title": "Chimei Museum",
           "url": "https://en.wikipedia.org/wiki/Chimei_Museum"
         }
+      },
+      "wikidata": "Q5095087",
+      "website": "http://www.chimeimuseum.org/ml/English/3",
+      "lat": 22.92667,
+      "lon": 120.24361,
+      "phone": "+886 6 266 0808",
+      "hours": {
+        "text": "Th-Tu 09:30-17:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -206,6 +248,16 @@
           "title": "National Taiwan Museum",
           "url": "https://en.wikipedia.org/wiki/National_Taiwan_Museum"
         }
+      },
+      "wikidata": "Q706692",
+      "website": "http://formosa.ntm.gov.tw/web/en/exhibition.aspx",
+      "lat": 25.04275,
+      "lon": 121.51504,
+      "phone": "+886 2 2382 2566",
+      "hours": {
+        "text": "Tu-Su 09:30-17:00, Mo off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -234,6 +286,16 @@
           "title": "Kaohsiung Museum of History",
           "url": "https://en.wikipedia.org/wiki/Kaohsiung_Museum_of_History"
         }
+      },
+      "wikidata": "Q6125749",
+      "website": "http://khm.gov.tw/khm_eng/home01.aspx?ID=1",
+      "lat": 22.62669,
+      "lon": 120.2877,
+      "phone": "+886-7-531-2612",
+      "hours": {
+        "text": "Tu-Su 09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -262,7 +324,11 @@
           "title": "Museum of Contemporary Art Taipei",
           "url": "https://en.wikipedia.org/wiki/Museum_of_Contemporary_Art_Taipei"
         }
-      }
+      },
+      "wikidata": "Q699040",
+      "website": "http://www.mocataipei.org.tw/",
+      "lat": 25.05078,
+      "lon": 121.51902
     },
     {
       "id": "tw-q10927014",
@@ -290,6 +356,16 @@
           "title": "National Taiwan Museum of Fine Arts",
           "url": "https://en.wikipedia.org/wiki/National_Taiwan_Museum_of_Fine_Arts"
         }
+      },
+      "wikidata": "Q10927014",
+      "website": "https://www.ntmofa.gov.tw/",
+      "lat": 24.14139,
+      "lon": 120.66361,
+      "phone": "+886-4-23723552",
+      "hours": {
+        "text": "Tu-Fr 09:00-17:00; Sa-Su 09:00-18:00; Mo off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

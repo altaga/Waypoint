@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Persépolis",
           "url": "https://es.wikipedia.org/wiki/Pers%C3%A9polis"
         }
-      }
+      },
+      "wikidata": "Q129072",
+      "website": "https://persepolis.ir",
+      "lat": 29.935,
+      "lon": 52.89
     },
     {
       "id": "ir-q40758",
@@ -89,7 +99,10 @@
           "title": "Damavand",
           "url": "https://es.wikipedia.org/wiki/Damavand"
         }
-      }
+      },
+      "wikidata": "Q40758",
+      "lat": 35.95528,
+      "lon": 52.10917
     },
     {
       "id": "ir-q180773",
@@ -122,7 +135,10 @@
           "title": "Susa",
           "url": "https://es.wikipedia.org/wiki/Susa"
         }
-      }
+      },
+      "wikidata": "Q180773",
+      "lat": 32.18944,
+      "lon": 48.25611
     },
     {
       "id": "ir-q4519",
@@ -155,7 +171,10 @@
           "title": "Plaza de Naqsh-e Yahán",
           "url": "https://es.wikipedia.org/wiki/Plaza_de_Naqsh-e_Yah%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q4519",
+      "lat": 32.65822,
+      "lon": 51.67733
     },
     {
       "id": "ir-q622796",
@@ -187,7 +206,11 @@
           "title": "Torre Milad",
           "url": "https://es.wikipedia.org/wiki/Torre_Milad"
         }
-      }
+      },
+      "wikidata": "Q622796",
+      "website": "https://miladtower.tehran.ir",
+      "lat": 35.74461,
+      "lon": 51.37533
     },
     {
       "id": "ir-q643098",
@@ -220,6 +243,14 @@
           "title": "Mezquita del Imam Jomeini",
           "url": "https://es.wikipedia.org/wiki/Mezquita_del_Imam_Jomeini"
         }
+      },
+      "wikidata": "Q643098",
+      "lat": 32.65481,
+      "lon": 51.67778,
+      "hours": {
+        "text": "09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -253,7 +284,12 @@
           "title": "Torre Azadi",
           "url": "https://es.wikipedia.org/wiki/Torre_Azadi"
         }
-      }
+      },
+      "wikidata": "Q1140026",
+      "website": "http://azadi-tower.ir",
+      "lat": 35.69972,
+      "lon": 51.33806,
+      "phone": "02166023951"
     },
     {
       "id": "ir-q4399",
@@ -286,7 +322,10 @@
           "title": "Bazar de Tabriz",
           "url": "https://es.wikipedia.org/wiki/Bazar_de_Tabriz"
         }
-      }
+      },
+      "wikidata": "Q4399",
+      "lat": 38.08077,
+      "lon": 46.29229
     }
   ]
 }

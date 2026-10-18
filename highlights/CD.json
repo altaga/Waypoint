@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -53,7 +59,11 @@
           "title": "National Museum of the Democratic Republic of the Congo",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_the_Democratic_Republic_of_the_Congo"
         }
-      }
+      },
+      "wikidata": "Q65600754",
+      "lat": -4.3351,
+      "lon": 15.2994,
+      "phone": "+243 814 932 524"
     },
     {
       "id": "cd-q16335725",
@@ -82,7 +92,10 @@
           "title": "National Museum of Lubumbashi",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_Lubumbashi"
         }
-      }
+      },
+      "wikidata": "Q16335725",
+      "lat": -11.6494,
+      "lon": 27.4769
     }
   ]
 }

@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,6 +62,16 @@
           "title": "Museo Histórico Nacional (Albania)",
           "url": "https://es.wikipedia.org/wiki/Museo_Hist%C3%B3rico_Nacional_(Albania)"
         }
+      },
+      "wikidata": "Q1581154",
+      "website": "https://www.mhk.gov.al/en/homeen/",
+      "lat": 41.32931,
+      "lon": 19.81719,
+      "phone": "+ 355 4 2223977",
+      "hours": {
+        "text": "Tu-Sa 09:00-16:00; Su 10:00-15:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -88,7 +104,11 @@
           "title": "Museo Skanderbeg",
           "url": "https://es.wikipedia.org/wiki/Museo_Skanderbeg"
         }
-      }
+      },
+      "wikidata": "Q3303191",
+      "website": "http://www.muzeukombetarskenderbeukruje.com",
+      "lat": 41.5074,
+      "lon": 19.79401
     },
     {
       "id": "al-q37858697",
@@ -116,6 +136,16 @@
           "title": "Museum of Secret Surveillance",
           "url": "https://en.wikipedia.org/wiki/Museum_of_Secret_Surveillance"
         }
+      },
+      "wikidata": "Q37858697",
+      "website": "https://muzeugjethi.gov.al",
+      "lat": 41.32667,
+      "lon": 19.81647,
+      "phone": "+355 42222612;+355 699676116",
+      "hours": {
+        "text": "Mo-Su 09:00-19:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -148,7 +178,10 @@
           "title": "Museo Arqueológico Nacional (Tirana)",
           "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_Nacional_(Tirana)"
         }
-      }
+      },
+      "wikidata": "Q637170",
+      "lat": 41.31829,
+      "lon": 19.8219
     },
     {
       "id": "al-q1968108",
@@ -180,7 +213,11 @@
           "title": "Galería Nacional de Arte (Albania)",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Arte_(Albania)"
         }
-      }
+      },
+      "wikidata": "Q1968108",
+      "website": "http://www.galeriakombetare.gov.al",
+      "lat": 41.32546,
+      "lon": 19.82021
     },
     {
       "id": "al-q5316767",
@@ -212,7 +249,11 @@
           "title": "Museo Arqueológico de Durrës",
           "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Durr%C3%ABs"
         }
-      }
+      },
+      "wikidata": "Q5316767",
+      "website": "http://www.durresmuzeu.tpginc.net/",
+      "lat": 41.31139,
+      "lon": 19.44028
     },
     {
       "id": "al-q6940744",
@@ -244,7 +285,11 @@
           "title": "Museo de Apolonia",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Apolonia"
         }
-      }
+      },
+      "wikidata": "Q6940744",
+      "website": "https://apolloniaarchaeologicalpark.al/",
+      "lat": 40.72033,
+      "lon": 19.47172
     },
     {
       "id": "al-q6974484",
@@ -276,7 +321,11 @@
           "title": "Museo Nacional de Arte Medieval",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_Medieval"
         }
-      }
+      },
+      "wikidata": "Q6974484",
+      "website": "https://muzeumesjetar.gov.al/",
+      "lat": 40.61222,
+      "lon": 20.78667
     }
   ]
 }

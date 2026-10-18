@@ -23,6 +23,18 @@
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-18"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -47,7 +59,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.rijksmuseum.nl/en",
+      "lat": 52.36,
+      "lon": 4.885278
     },
     {
       "id": "nl-van-gogh",
@@ -69,7 +84,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.vangoghmuseum.nl/en",
+      "lat": 52.358333,
+      "lon": 4.881111
     },
     {
       "id": "nl-anne-frank",
@@ -91,7 +109,11 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.annefrank.org/en/",
+      "lat": 52.375147,
+      "lon": 4.88404,
+      "phone": "+31 20 556 71 05"
     },
     {
       "id": "nl-canals",
@@ -113,7 +135,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 52.365,
+      "lon": 4.887778
     },
     {
       "id": "nl-keukenhof",
@@ -134,7 +158,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.keukenhof.nl/en/",
+      "lat": 52.268889,
+      "lon": 4.547222
     },
     {
       "id": "nl-kinderdijk",
@@ -156,7 +183,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://kinderdijk.nl/en/",
+      "lat": 51.883333,
+      "lon": 4.633333
     },
     {
       "id": "nl-mauritshuis",
@@ -177,7 +207,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 52.080389,
+      "lon": 4.314306
     }
   ]
 }

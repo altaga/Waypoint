@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Museo nacional de Sudán",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Sud%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q643453",
+      "website": "https://sudannationalmuseum.com",
+      "lat": 15.606,
+      "lon": 32.508
     },
     {
       "id": "sd-q16878222",
@@ -90,7 +100,10 @@
           "title": "Casa Califa",
           "url": "https://es.wikipedia.org/wiki/Casa_Califa"
         }
-      }
+      },
+      "wikidata": "Q16878222",
+      "lat": 15.383,
+      "lon": 32.29
     },
     {
       "id": "sd-q57980405",
@@ -123,7 +136,11 @@
           "title": "Museo de Kerma",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Kerma"
         }
-      }
+      },
+      "wikidata": "Q57980405",
+      "website": "https://kerma.ch/en/musee",
+      "lat": 19.60079,
+      "lon": 30.41185
     },
     {
       "id": "sd-q60786727",
@@ -152,7 +169,10 @@
           "title": "Jebel Barkal Museum",
           "url": "https://en.wikipedia.org/wiki/Jebel_Barkal_Museum"
         }
-      }
+      },
+      "wikidata": "Q60786727",
+      "lat": 18.53956,
+      "lon": 31.83078
     }
   ]
 }

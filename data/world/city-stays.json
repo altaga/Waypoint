@@ -31,9 +31,9 @@
   "Q1863": {
    "name": "Andorra la Vella",
    "iso": "AD",
-   "places": 0,
-   "minutes": 360,
-   "basis": "population",
+   "places": 6,
+   "minutes": 375,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -43,7 +43,7 @@
   "Q612": {
    "name": "Dubai",
    "iso": "AE",
-   "places": 0,
+   "places": 3,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -55,7 +55,7 @@
   "Q1519": {
    "name": "Abu Dhabi",
    "iso": "AE",
-   "places": 0,
+   "places": 2,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -103,7 +103,7 @@
   "Q5838": {
    "name": "Kabul",
    "iso": "AF",
-   "places": 0,
+   "places": 3,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -115,7 +115,7 @@
   "Q45604": {
    "name": "Kandahar",
    "iso": "AF",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -127,7 +127,7 @@
   "Q45313": {
    "name": "Herat",
    "iso": "AF",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -163,7 +163,7 @@
   "Q19689": {
    "name": "Tirana",
    "iso": "AL",
-   "places": 0,
+   "places": 6,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -175,7 +175,7 @@
   "Q1953": {
    "name": "Yerevan",
    "iso": "AM",
-   "places": 0,
+   "places": 7,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -187,7 +187,7 @@
   "Q3897": {
    "name": "Luanda",
    "iso": "AO",
-   "places": 0,
+   "places": 3,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -307,7 +307,7 @@
   "Q727233": {
    "name": "Belas",
    "iso": "AO",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -331,7 +331,7 @@
   "Q998798": {
    "name": "Greater Buenos Aires",
    "iso": "AR",
-   "places": 0,
+   "places": 3,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -343,7 +343,7 @@
   "Q1486": {
    "name": "Buenos Aires",
    "iso": "AR",
-   "places": 0,
+   "places": 5,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -463,7 +463,7 @@
   "Q753642": {
    "name": "Avellaneda",
    "iso": "AR",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -511,7 +511,7 @@
   "Q1741": {
    "name": "Vienna",
    "iso": "AT",
-   "places": 0,
+   "places": 7,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -535,7 +535,7 @@
   "Q3130": {
    "name": "Sydney",
    "iso": "AU",
-   "places": 0,
+   "places": 4,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -547,7 +547,7 @@
   "Q3141": {
    "name": "Melbourne",
    "iso": "AU",
-   "places": 0,
+   "places": 1,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -583,7 +583,7 @@
   "Q5112": {
    "name": "Adelaide",
    "iso": "AU",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -607,7 +607,7 @@
   "Q3114": {
    "name": "Canberra",
    "iso": "AU",
-   "places": 0,
+   "places": 3,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -619,7 +619,7 @@
   "Q9248": {
    "name": "Baku",
    "iso": "AZ",
-   "places": 0,
+   "places": 10,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -655,7 +655,7 @@
   "Q11194": {
    "name": "Sarajevo",
    "iso": "BA",
-   "places": 0,
+   "places": 4,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -667,7 +667,7 @@
   "Q36168": {
    "name": "Bridgetown",
    "iso": "BB",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -679,7 +679,7 @@
   "Q1354": {
    "name": "Dhaka",
    "iso": "BD",
-   "places": 0,
+   "places": 4,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -703,7 +703,7 @@
   "Q376749": {
    "name": "Chittagong",
    "iso": "BD",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -763,7 +763,7 @@
   "Q322155": {
    "name": "Rajshahi",
    "iso": "BD",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -799,7 +799,7 @@
   "Q1756617": {
    "name": "Tongi",
    "iso": "BD",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -823,7 +823,7 @@
   "Q12892": {
    "name": "Antwerp",
    "iso": "BE",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -835,9 +835,9 @@
   "Q239": {
    "name": "Brussels",
    "iso": "BE",
-   "places": 0,
-   "minutes": 360,
-   "basis": "population",
+   "places": 4,
+   "minutes": 405,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -847,7 +847,7 @@
   "Q3777": {
    "name": "Ouagadougou",
    "iso": "BF",
-   "places": 0,
+   "places": 2,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -871,7 +871,7 @@
   "Q472": {
    "name": "Sofia",
    "iso": "BG",
-   "places": 0,
+   "places": 2,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -883,7 +883,7 @@
   "Q459": {
    "name": "Plovdiv",
    "iso": "BG",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -907,7 +907,7 @@
   "Q3882": {
    "name": "Manama",
    "iso": "BH",
-   "places": 0,
+   "places": 3,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -919,7 +919,7 @@
   "Q3854": {
    "name": "Bujumbura",
    "iso": "BI",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -931,7 +931,7 @@
   "Q167551": {
    "name": "Gitega",
    "iso": "BI",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -943,7 +943,7 @@
   "Q43595": {
    "name": "Cotonou",
    "iso": "BJ",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -955,7 +955,7 @@
   "Q3799": {
    "name": "Porto-Novo",
    "iso": "BJ",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -967,7 +967,7 @@
   "Q9279": {
    "name": "Bandar Seri Begawan",
    "iso": "BN",
-   "places": 0,
+   "places": 4,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -991,7 +991,7 @@
   "Q30996": {
    "name": "El Alto",
    "iso": "BO",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -1003,7 +1003,7 @@
   "Q1491": {
    "name": "La Paz",
    "iso": "BO",
-   "places": 0,
+   "places": 3,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -1051,7 +1051,7 @@
   "Q174": {
    "name": "São Paulo",
    "iso": "BR",
-   "places": 0,
+   "places": 1,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -2179,7 +2179,7 @@
   "Q2467": {
    "name": "Nassau",
    "iso": "BS",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -2191,7 +2191,7 @@
   "Q9270": {
    "name": "Thimphu",
    "iso": "BT",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -2203,7 +2203,7 @@
   "Q3919": {
    "name": "Gaborone",
    "iso": "BW",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -2215,7 +2215,7 @@
   "Q2280": {
    "name": "Minsk",
    "iso": "BY",
-   "places": 0,
+   "places": 4,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -2251,7 +2251,7 @@
   "Q102217": {
    "name": "Vitebsk",
    "iso": "BY",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -2275,7 +2275,7 @@
   "Q140147": {
    "name": "Brest",
    "iso": "BY",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -2287,7 +2287,7 @@
   "Q3043": {
    "name": "Belmopan",
    "iso": "BZ",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -2299,7 +2299,7 @@
   "Q172": {
    "name": "Toronto",
    "iso": "CA",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -2383,7 +2383,7 @@
   "Q24639": {
    "name": "Vancouver",
    "iso": "CA",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -2407,7 +2407,7 @@
   "Q2145": {
    "name": "Quebec City",
    "iso": "CA",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -2491,7 +2491,7 @@
   "Q3838": {
    "name": "Kinshasa",
    "iso": "CD",
-   "places": 0,
+   "places": 1,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -2515,7 +2515,7 @@
   "Q187593": {
    "name": "Lubumbashi",
    "iso": "CD",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -2707,7 +2707,7 @@
   "Q72": {
    "name": "Zurich",
    "iso": "CH",
-   "places": 0,
+   "places": 3,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -2719,7 +2719,7 @@
   "Q70": {
    "name": "Bern",
    "iso": "CH",
-   "places": 0,
+   "places": 3,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -2731,7 +2731,7 @@
   "Q1515": {
    "name": "Abidjan",
    "iso": "CI",
-   "places": 0,
+   "places": 2,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -2779,7 +2779,7 @@
   "Q3768": {
    "name": "Yamoussoukro",
    "iso": "CI",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -2791,7 +2791,7 @@
   "Q2887": {
    "name": "Santiago",
    "iso": "CL",
-   "places": 0,
+   "places": 7,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -2863,7 +2863,7 @@
   "Q132830": {
    "name": "Douala",
    "iso": "CM",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -2875,7 +2875,7 @@
   "Q3808": {
    "name": "Yaoundé",
    "iso": "CM",
-   "places": 0,
+   "places": 2,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -2911,7 +2911,7 @@
   "Q528432": {
    "name": "Bamenda",
    "iso": "CM",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -2935,7 +2935,7 @@
   "Q8686": {
    "name": "Shanghai",
    "iso": "CN",
-   "places": 0,
+   "places": 2,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -2947,7 +2947,7 @@
   "Q956": {
    "name": "Beijing",
    "iso": "CN",
-   "places": 0,
+   "places": 2,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -4087,7 +4087,7 @@
   "Q126995": {
    "name": "Weinan",
    "iso": "CN",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -6895,7 +6895,7 @@
   "Q2841": {
    "name": "Bogotá",
    "iso": "CO",
-   "places": 0,
+   "places": 5,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -7111,7 +7111,7 @@
   "Q3070": {
    "name": "San José",
    "iso": "CR",
-   "places": 0,
+   "places": 4,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -7123,7 +7123,7 @@
   "Q1563": {
    "name": "Havana",
    "iso": "CU",
-   "places": 0,
+   "places": 4,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -7135,7 +7135,7 @@
   "Q117040": {
    "name": "Santiago de Cuba",
    "iso": "CU",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -7171,7 +7171,7 @@
   "Q3751": {
    "name": "Praia",
    "iso": "CV",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -7183,9 +7183,9 @@
   "Q3856": {
    "name": "Nicosia",
    "iso": "CY",
-   "places": 0,
-   "minutes": 360,
-   "basis": "population",
+   "places": 6,
+   "minutes": 375,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -7195,7 +7195,7 @@
   "Q1085": {
    "name": "Prague",
    "iso": "CZ",
-   "places": 0,
+   "places": 5,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -7219,7 +7219,7 @@
   "Q64": {
    "name": "Berlin",
    "iso": "DE",
-   "places": 0,
+   "places": 3,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -7243,7 +7243,7 @@
   "Q1726": {
    "name": "Munich",
    "iso": "DE",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -7459,7 +7459,7 @@
   "Q2119": {
    "name": "Mannheim",
    "iso": "DE",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -7471,7 +7471,7 @@
   "Q1040": {
    "name": "Karlsruhe",
    "iso": "DE",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -7531,9 +7531,9 @@
   "Q36281": {
    "name": "Roseau",
    "iso": "DM",
-   "places": 0,
-   "minutes": 360,
-   "basis": "population",
+   "places": 2,
+   "minutes": 390,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -7543,7 +7543,7 @@
   "Q34820": {
    "name": "Santo Domingo",
    "iso": "DO",
-   "places": 0,
+   "places": 2,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -7555,7 +7555,7 @@
   "Q3561": {
    "name": "Algiers",
    "iso": "DZ",
-   "places": 0,
+   "places": 4,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -7579,7 +7579,7 @@
   "Q187346": {
    "name": "Constantine",
    "iso": "DZ",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -7603,7 +7603,7 @@
   "Q2900": {
    "name": "Quito",
    "iso": "EC",
-   "places": 0,
+   "places": 4,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -7615,7 +7615,7 @@
   "Q54886": {
    "name": "Cuenca",
    "iso": "EC",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -7639,7 +7639,7 @@
   "Q1770": {
    "name": "Tallinn",
    "iso": "EE",
-   "places": 0,
+   "places": 5,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -7651,7 +7651,7 @@
   "Q85": {
    "name": "Cairo",
    "iso": "EG",
-   "places": 0,
+   "places": 3,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -7663,7 +7663,7 @@
   "Q87": {
    "name": "Alexandria",
    "iso": "EG",
-   "places": 0,
+   "places": 3,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -7675,7 +7675,7 @@
   "Q81788": {
    "name": "Giza",
    "iso": "EG",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -7819,7 +7819,7 @@
   "Q5668715": {
    "name": "Dar El Salam",
    "iso": "EG",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -7867,7 +7867,7 @@
   "Q626031": {
    "name": "Esna",
    "iso": "EG",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -8023,7 +8023,7 @@
   "Q3642": {
    "name": "Asmara",
    "iso": "ER",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -8035,7 +8035,7 @@
   "Q2807": {
    "name": "Madrid",
    "iso": "ES",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -8047,7 +8047,7 @@
   "Q116170766": {
    "name": "Madrid city",
    "iso": "ES",
-   "places": 0,
+   "places": 2,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -8059,7 +8059,7 @@
   "Q1492": {
    "name": "Barcelona",
    "iso": "ES",
-   "places": 0,
+   "places": 3,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -8083,7 +8083,7 @@
   "Q55893348": {
    "name": "Seville city",
    "iso": "ES",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -8155,7 +8155,7 @@
   "Q3624": {
    "name": "Addis Ababa",
    "iso": "ET",
-   "places": 0,
+   "places": 4,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -8227,7 +8227,7 @@
   "Q1757": {
    "name": "Helsinki",
    "iso": "FI",
-   "places": 0,
+   "places": 5,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -8251,7 +8251,7 @@
   "Q38807": {
    "name": "Suva",
    "iso": "FJ",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -8263,7 +8263,7 @@
   "Q42751": {
    "name": "Palikir",
    "iso": "FM",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -8275,13 +8275,13 @@
   "Q90": {
    "name": "Paris",
    "iso": "FR",
-   "places": 0,
-   "minutes": 1200,
-   "basis": "population",
+   "places": 12,
+   "minutes": 1890,
+   "basis": "places",
    "minDays": {
     "express": 2,
-    "classic": 3,
-    "slow": 4
+    "classic": 5,
+    "slow": 7
    }
   },
   "Q16665897": {
@@ -8347,7 +8347,7 @@
   "Q6441": {
    "name": "Montpellier",
    "iso": "FR",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -8359,7 +8359,7 @@
   "Q3825": {
    "name": "Libreville",
    "iso": "GA",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -8371,7 +8371,7 @@
   "Q84": {
    "name": "London",
    "iso": "GB",
-   "places": 0,
+   "places": 11,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -8443,7 +8443,7 @@
   "Q23436": {
    "name": "Edinburgh",
    "iso": "GB",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -8527,7 +8527,7 @@
   "Q41547": {
    "name": "St. George's",
    "iso": "GD",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -8539,7 +8539,7 @@
   "Q994": {
    "name": "Tbilisi",
    "iso": "GE",
-   "places": 0,
+   "places": 7,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -8551,7 +8551,7 @@
   "Q182059": {
    "name": "Kumasi",
    "iso": "GH",
-   "places": 0,
+   "places": 2,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -8563,7 +8563,7 @@
   "Q3761": {
    "name": "Accra",
    "iso": "GH",
-   "places": 0,
+   "places": 2,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -8599,7 +8599,7 @@
   "Q3726": {
    "name": "Banjul",
    "iso": "GM",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -8611,7 +8611,7 @@
   "Q3733": {
    "name": "Conakry",
    "iso": "GN",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -8647,7 +8647,7 @@
   "Q1524": {
    "name": "Athens",
    "iso": "GR",
-   "places": 0,
+   "places": 3,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -8659,7 +8659,7 @@
   "Q17151": {
    "name": "Thessaloniki",
    "iso": "GR",
-   "places": 0,
+   "places": 3,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -8671,7 +8671,7 @@
   "Q1555": {
    "name": "Guatemala City",
    "iso": "GT",
-   "places": 0,
+   "places": 4,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -8719,7 +8719,7 @@
   "Q10717": {
    "name": "Georgetown",
    "iso": "GY",
-   "places": 0,
+   "places": 3,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -8731,7 +8731,7 @@
   "Q3238": {
    "name": "Tegucigalpa",
    "iso": "HN",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -8755,9 +8755,9 @@
   "Q1435": {
    "name": "Zagreb",
    "iso": "HR",
-   "places": 0,
-   "minutes": 600,
-   "basis": "population",
+   "places": 9,
+   "minutes": 615,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -8767,7 +8767,7 @@
   "Q34261": {
    "name": "Port-au-Prince",
    "iso": "HT",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -8815,7 +8815,7 @@
   "Q1781": {
    "name": "Budapest",
    "iso": "HU",
-   "places": 0,
+   "places": 7,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -8827,7 +8827,7 @@
   "Q3630": {
    "name": "Jakarta",
    "iso": "ID",
-   "places": 0,
+   "places": 5,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -8863,7 +8863,7 @@
   "Q10392": {
    "name": "Bekasi",
    "iso": "ID",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -8875,7 +8875,7 @@
   "Q10396": {
    "name": "Depok",
    "iso": "ID",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -8959,7 +8959,7 @@
   "Q14634": {
    "name": "Makassar",
    "iso": "ID",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -9103,7 +9103,7 @@
   "Q11506": {
    "name": "Denpasar",
    "iso": "ID",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -9367,9 +9367,9 @@
   "Q1761": {
    "name": "Dublin",
    "iso": "IE",
-   "places": 0,
-   "minutes": 600,
-   "basis": "population",
+   "places": 7,
+   "minutes": 750,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -9391,7 +9391,7 @@
   "Q1218": {
    "name": "Jerusalem",
    "iso": "IL",
-   "places": 0,
+   "places": 6,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -9403,7 +9403,7 @@
   "Q33935": {
    "name": "Tel Aviv",
    "iso": "IL",
-   "places": 0,
+   "places": 4,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -9451,7 +9451,7 @@
   "Q1361": {
    "name": "Hyderabad",
    "iso": "IN",
-   "places": 0,
+   "places": 2,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -9463,7 +9463,7 @@
   "Q1070": {
    "name": "Ahmedabad",
    "iso": "IN",
-   "places": 0,
+   "places": 1,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -9535,7 +9535,7 @@
   "Q1348": {
    "name": "Kolkata",
    "iso": "IN",
-   "places": 0,
+   "places": 2,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -9607,7 +9607,7 @@
   "Q11909": {
    "name": "Vadodara",
    "iso": "IN",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -10891,7 +10891,7 @@
   "Q987": {
    "name": "New Delhi",
    "iso": "IN",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -10903,7 +10903,7 @@
   "Q1530": {
    "name": "Baghdad",
    "iso": "IQ",
-   "places": 0,
+   "places": 2,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -10951,7 +10951,7 @@
   "Q191204": {
    "name": "Sulaymaniyah",
    "iso": "IQ",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -10987,7 +10987,7 @@
   "Q168193": {
    "name": "Najaf",
    "iso": "IQ",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -10999,7 +10999,7 @@
   "Q199909": {
    "name": "Karbala",
    "iso": "IQ",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -11011,7 +11011,7 @@
   "Q38811": {
    "name": "Nasiriyah",
    "iso": "IQ",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -11047,7 +11047,7 @@
   "Q192541": {
    "name": "Ctesiphon",
    "iso": "IQ",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -11119,7 +11119,7 @@
   "Q3616": {
    "name": "Tehran",
    "iso": "IR",
-   "places": 0,
+   "places": 2,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -11131,7 +11131,7 @@
   "Q42053": {
    "name": "Isfahan",
    "iso": "IR",
-   "places": 0,
+   "places": 2,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -11359,9 +11359,9 @@
   "Q1764": {
    "name": "Reykjavík",
    "iso": "IS",
-   "places": 0,
-   "minutes": 360,
-   "basis": "population",
+   "places": 7,
+   "minutes": 570,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -11371,7 +11371,7 @@
   "Q220": {
    "name": "Rome",
    "iso": "IT",
-   "places": 0,
+   "places": 3,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -11395,7 +11395,7 @@
   "Q2634": {
    "name": "Naples",
    "iso": "IT",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -11443,7 +11443,7 @@
   "Q2044": {
    "name": "Florence",
    "iso": "IT",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -11479,7 +11479,7 @@
   "Q34692": {
    "name": "Kingston",
    "iso": "JM",
-   "places": 0,
+   "places": 3,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -11491,7 +11491,7 @@
   "Q3805": {
    "name": "Amman",
    "iso": "JO",
-   "places": 0,
+   "places": 6,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -11539,7 +11539,7 @@
   "Q1490": {
    "name": "Tokyo",
    "iso": "JP",
-   "places": 0,
+   "places": 11,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -11551,7 +11551,7 @@
   "Q7473516": {
    "name": "Tokyo",
    "iso": "JP",
-   "places": 0,
+   "places": 12,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -11575,7 +11575,7 @@
   "Q35765": {
    "name": "Osaka",
    "iso": "JP",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -11647,7 +11647,7 @@
   "Q34600": {
    "name": "Kyoto",
    "iso": "JP",
-   "places": 0,
+   "places": 4,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -12415,7 +12415,7 @@
   "Q3870": {
    "name": "Nairobi",
    "iso": "KE",
-   "places": 0,
+   "places": 5,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -12427,7 +12427,7 @@
   "Q225641": {
    "name": "Mombasa",
    "iso": "KE",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -12439,7 +12439,7 @@
   "Q214485": {
    "name": "Kisumu",
    "iso": "KE",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -12451,7 +12451,7 @@
   "Q9361": {
    "name": "Bishkek",
    "iso": "KG",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -12475,7 +12475,7 @@
   "Q1850": {
    "name": "Phnom Penh",
    "iso": "KH",
-   "places": 0,
+   "places": 2,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -12499,7 +12499,7 @@
   "Q3901": {
    "name": "Moroni",
    "iso": "KM",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -12523,7 +12523,7 @@
   "Q18808": {
    "name": "Pyongyang",
    "iso": "KP",
-   "places": 0,
+   "places": 5,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -12619,7 +12619,7 @@
   "Q716127": {
    "name": "Kaechon",
    "iso": "KP",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -12643,7 +12643,7 @@
   "Q8684": {
    "name": "Seoul",
    "iso": "KR",
-   "places": 0,
+   "places": 5,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -12655,7 +12655,7 @@
   "Q16520": {
    "name": "Busan",
    "iso": "KR",
-   "places": 0,
+   "places": 2,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -13063,7 +13063,7 @@
   "Q35178": {
    "name": "Kuwait City",
    "iso": "KW",
-   "places": 0,
+   "places": 4,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -13075,7 +13075,7 @@
   "Q35493": {
    "name": "Almaty",
    "iso": "KZ",
-   "places": 0,
+   "places": 6,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -13099,7 +13099,7 @@
   "Q1520": {
    "name": "Astana",
    "iso": "KZ",
-   "places": 0,
+   "places": 3,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -13195,7 +13195,7 @@
   "Q9326": {
    "name": "Vientiane",
    "iso": "LA",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -13207,7 +13207,7 @@
   "Q3820": {
    "name": "Beirut",
    "iso": "LB",
-   "places": 0,
+   "places": 8,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -13219,9 +13219,9 @@
   "Q41699": {
    "name": "Castries",
    "iso": "LC",
-   "places": 0,
-   "minutes": 360,
-   "basis": "population",
+   "places": 3,
+   "minutes": 540,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -13231,7 +13231,7 @@
   "Q1844": {
    "name": "Vaduz",
    "iso": "LI",
-   "places": 0,
+   "places": 3,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -13243,7 +13243,7 @@
   "Q35381": {
    "name": "Colombo",
    "iso": "LK",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -13255,7 +13255,7 @@
   "Q41963": {
    "name": "Sri Jayawardenepura Kotte",
    "iso": "LK",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -13267,7 +13267,7 @@
   "Q3748": {
    "name": "Monrovia",
    "iso": "LR",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -13279,7 +13279,7 @@
   "Q3909": {
    "name": "Maseru",
    "iso": "LS",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -13291,7 +13291,7 @@
   "Q216": {
    "name": "Vilnius",
    "iso": "LT",
-   "places": 0,
+   "places": 3,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -13303,7 +13303,7 @@
   "Q4115712": {
    "name": "Kaunas",
    "iso": "LT",
-   "places": 0,
+   "places": 3,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -13315,9 +13315,9 @@
   "Q1842": {
    "name": "Luxembourg",
    "iso": "LU",
-   "places": 0,
-   "minutes": 360,
-   "basis": "population",
+   "places": 9,
+   "minutes": 840,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -13327,9 +13327,9 @@
   "Q1773": {
    "name": "Riga",
    "iso": "LV",
-   "places": 0,
-   "minutes": 600,
-   "basis": "population",
+   "places": 8,
+   "minutes": 750,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -13339,7 +13339,7 @@
   "Q3579": {
    "name": "Tripoli",
    "iso": "LY",
-   "places": 0,
+   "places": 2,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -13363,7 +13363,7 @@
   "Q7903": {
    "name": "Casablanca",
    "iso": "MA",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -13387,7 +13387,7 @@
   "Q80985": {
    "name": "Fez",
    "iso": "MA",
-   "places": 0,
+   "places": 2,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -13399,7 +13399,7 @@
   "Q101625": {
    "name": "Marrakech",
    "iso": "MA",
-   "places": 0,
+   "places": 3,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -13423,7 +13423,7 @@
   "Q178663": {
    "name": "Meknes",
    "iso": "MA",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -13447,7 +13447,7 @@
   "Q3551": {
    "name": "Rabat",
    "iso": "MA",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -13483,7 +13483,7 @@
   "Q185157": {
    "name": "Tétouan",
    "iso": "MA",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -13495,9 +13495,9 @@
   "Q235": {
    "name": "Monaco",
    "iso": "MC",
-   "places": 0,
-   "minutes": 360,
-   "basis": "population",
+   "places": 6,
+   "minutes": 450,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -13507,9 +13507,9 @@
   "Q21197": {
    "name": "Chișinău",
    "iso": "MD",
-   "places": 0,
-   "minutes": 600,
-   "basis": "population",
+   "places": 8,
+   "minutes": 615,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -13519,7 +13519,7 @@
   "Q23564": {
    "name": "Podgorica",
    "iso": "ME",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -13531,7 +13531,7 @@
   "Q3915": {
    "name": "Antananarivo",
    "iso": "MG",
-   "places": 0,
+   "places": 2,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -13543,7 +13543,7 @@
   "Q12919": {
    "name": "Majuro",
    "iso": "MH",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -13555,7 +13555,7 @@
   "Q384": {
    "name": "Skopje",
    "iso": "MK",
-   "places": 0,
+   "places": 6,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -13567,7 +13567,7 @@
   "Q3703": {
    "name": "Bamako",
    "iso": "ML",
-   "places": 0,
+   "places": 2,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -13579,7 +13579,7 @@
   "Q37995": {
    "name": "Yangon",
    "iso": "MM",
-   "places": 0,
+   "places": 2,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -13591,7 +13591,7 @@
   "Q185518": {
    "name": "Mandalay",
    "iso": "MM",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -13603,7 +13603,7 @@
   "Q37400": {
    "name": "Naypyidaw",
    "iso": "MM",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -13615,7 +13615,7 @@
   "Q1209404": {
    "name": "Hpa-An",
    "iso": "MM",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -13627,7 +13627,7 @@
   "Q23430": {
    "name": "Ulaanbaatar",
    "iso": "MN",
-   "places": 0,
+   "places": 6,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -13639,7 +13639,7 @@
   "Q3688": {
    "name": "Nouakchott",
    "iso": "MR",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -13651,9 +13651,9 @@
   "Q23800": {
    "name": "Valletta",
    "iso": "MT",
-   "places": 0,
-   "minutes": 360,
-   "basis": "population",
+   "places": 10,
+   "minutes": 810,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -13663,7 +13663,7 @@
   "Q3929": {
    "name": "Port Louis",
    "iso": "MU",
-   "places": 0,
+   "places": 3,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -13675,7 +13675,7 @@
   "Q9347": {
    "name": "Malé",
    "iso": "MV",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -13699,7 +13699,7 @@
   "Q188693": {
    "name": "Blantyre",
    "iso": "MW",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -13711,7 +13711,7 @@
   "Q665894": {
    "name": "Greater Mexico City",
    "iso": "MX",
-   "places": 0,
+   "places": 4,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -13723,7 +13723,7 @@
   "Q1489": {
    "name": "Mexico City",
    "iso": "MX",
-   "places": 0,
+   "places": 2,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -14155,7 +14155,7 @@
   "Q1865": {
    "name": "Kuala Lumpur",
    "iso": "MY",
-   "places": 0,
+   "places": 5,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -14251,7 +14251,7 @@
   "Q231318": {
    "name": "Johor Bahru",
    "iso": "MY",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -14275,7 +14275,7 @@
   "Q61089": {
    "name": "Malacca",
    "iso": "MY",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -14287,7 +14287,7 @@
   "Q137271": {
    "name": "Kota Kinabalu",
    "iso": "MY",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -14335,7 +14335,7 @@
   "Q220445": {
    "name": "Kuching",
    "iso": "MY",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -14347,7 +14347,7 @@
   "Q3889": {
    "name": "Maputo",
    "iso": "MZ",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -14407,7 +14407,7 @@
   "Q3935": {
    "name": "Windhoek",
    "iso": "NA",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -14419,7 +14419,7 @@
   "Q3674": {
    "name": "Niamey",
    "iso": "NE",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -14431,7 +14431,7 @@
   "Q8673": {
    "name": "Lagos",
    "iso": "NG",
-   "places": 0,
+   "places": 3,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -14443,7 +14443,7 @@
   "Q182984": {
    "name": "Kano",
    "iso": "NG",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -14467,7 +14467,7 @@
   "Q183298": {
    "name": "Ibadan",
    "iso": "NG",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -14479,7 +14479,7 @@
   "Q320704": {
    "name": "Benin City",
    "iso": "NG",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -14611,7 +14611,7 @@
   "Q208318": {
    "name": "Kaduna",
    "iso": "NG",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -14983,7 +14983,7 @@
   "Q131546626": {
    "name": "Managua",
    "iso": "NI",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -14995,9 +14995,9 @@
   "Q727": {
    "name": "Amsterdam",
    "iso": "NL",
-   "places": 0,
-   "minutes": 600,
-   "basis": "population",
+   "places": 5,
+   "minutes": 660,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -15007,9 +15007,9 @@
   "Q585": {
    "name": "Oslo",
    "iso": "NO",
-   "places": 0,
-   "minutes": 600,
-   "basis": "population",
+   "places": 9,
+   "minutes": 810,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -15019,7 +15019,7 @@
   "Q3037": {
    "name": "Kathmandu",
    "iso": "NP",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -15031,7 +15031,7 @@
   "Q6647": {
    "name": "Lalitpur",
    "iso": "NP",
-   "places": 0,
+   "places": 3,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -15055,7 +15055,7 @@
   "Q6640": {
    "name": "Pokhara",
    "iso": "NP",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -15067,7 +15067,7 @@
   "Q31026": {
    "name": "Yaren District",
    "iso": "NR",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -15079,7 +15079,7 @@
   "Q37100": {
    "name": "Auckland",
    "iso": "NZ",
-   "places": 0,
+   "places": 4,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -15091,7 +15091,7 @@
   "Q79990": {
    "name": "Christchurch",
    "iso": "NZ",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -15103,9 +15103,9 @@
   "Q23661": {
    "name": "Wellington",
    "iso": "NZ",
-   "places": 0,
-   "minutes": 360,
-   "basis": "population",
+   "places": 3,
+   "minutes": 450,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -15115,7 +15115,7 @@
   "Q3826": {
    "name": "Muscat",
    "iso": "OM",
-   "places": 0,
+   "places": 5,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -15151,7 +15151,7 @@
   "Q3306": {
    "name": "Panama City",
    "iso": "PA",
-   "places": 0,
+   "places": 3,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -15175,7 +15175,7 @@
   "Q2868": {
    "name": "Lima",
    "iso": "PE",
-   "places": 0,
+   "places": 6,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -15199,7 +15199,7 @@
   "Q214173": {
    "name": "Trujillo",
    "iso": "PE",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -15319,7 +15319,7 @@
   "Q36526": {
    "name": "Port Moresby",
    "iso": "PG",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -15331,7 +15331,7 @@
   "Q13580": {
    "name": "Metro Manila",
    "iso": "PH",
-   "places": 0,
+   "places": 1,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -15355,7 +15355,7 @@
   "Q1461": {
    "name": "Manila",
    "iso": "PH",
-   "places": 0,
+   "places": 3,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -15415,7 +15415,7 @@
   "Q1467": {
    "name": "Cebu City",
    "iso": "PH",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -15475,7 +15475,7 @@
   "Q63129": {
    "name": "Bacoor",
    "iso": "PH",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -15559,7 +15559,7 @@
   "Q17175": {
    "name": "Marikina",
    "iso": "PH",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -15595,7 +15595,7 @@
   "Q17189": {
    "name": "Pasay",
    "iso": "PH",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -15703,7 +15703,7 @@
   "Q25096": {
    "name": "Cabuyao",
    "iso": "PH",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -15799,7 +15799,7 @@
   "Q8660": {
    "name": "Karachi",
    "iso": "PK",
-   "places": 0,
+   "places": 1,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -15811,7 +15811,7 @@
   "Q11739": {
    "name": "Lahore",
    "iso": "PK",
-   "places": 0,
+   "places": 2,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -15835,7 +15835,7 @@
   "Q93230": {
    "name": "Rawalpindi",
    "iso": "PK",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -15859,7 +15859,7 @@
   "Q1113311": {
    "name": "Peshawar",
    "iso": "PK",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -15895,7 +15895,7 @@
   "Q1362": {
    "name": "Islamabad",
    "iso": "PK",
-   "places": 0,
+   "places": 3,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -15967,7 +15967,7 @@
   "Q523778": {
    "name": "Sahiwal",
    "iso": "PK",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -16039,7 +16039,7 @@
   "Q1251261": {
    "name": "Wah Cantonment",
    "iso": "PK",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -16111,7 +16111,7 @@
   "Q4579677": {
    "name": "Shah Faisal Town",
    "iso": "PK",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -16147,7 +16147,7 @@
   "Q989283": {
    "name": "Kasur",
    "iso": "PK",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -16171,7 +16171,7 @@
   "Q3114019": {
    "name": "Katowice urban area",
    "iso": "PL",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -16183,7 +16183,7 @@
   "Q270": {
    "name": "Warsaw",
    "iso": "PL",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -16195,7 +16195,7 @@
   "Q31487": {
    "name": "Kraków",
    "iso": "PL",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -16243,7 +16243,7 @@
   "Q1792": {
    "name": "Gdańsk",
    "iso": "PL",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -16267,7 +16267,7 @@
   "Q37333": {
    "name": "Lublin",
    "iso": "PL",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -16303,9 +16303,9 @@
   "Q212938": {
    "name": "East Jerusalem",
    "iso": "PS",
-   "places": 0,
+   "places": 5,
    "minutes": 360,
-   "basis": "population",
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -16315,7 +16315,7 @@
   "Q158119": {
    "name": "Ramallah",
    "iso": "PS",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -16327,9 +16327,9 @@
   "Q597": {
    "name": "Lisbon",
    "iso": "PT",
-   "places": 0,
-   "minutes": 600,
-   "basis": "population",
+   "places": 10,
+   "minutes": 1140,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -16339,7 +16339,7 @@
   "Q515229": {
    "name": "Ngerulmud",
    "iso": "PW",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -16351,7 +16351,7 @@
   "Q2933": {
    "name": "Asunción",
    "iso": "PY",
-   "places": 0,
+   "places": 3,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -16375,7 +16375,7 @@
   "Q3861": {
    "name": "Doha",
    "iso": "QA",
-   "places": 0,
+   "places": 3,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -16387,7 +16387,7 @@
   "Q19660": {
    "name": "Bucharest",
    "iso": "RO",
-   "places": 0,
+   "places": 4,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -16399,7 +16399,7 @@
   "Q2074197": {
    "name": "City of Belgrade",
    "iso": "RS",
-   "places": 0,
+   "places": 2,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -16411,7 +16411,7 @@
   "Q3711": {
    "name": "Belgrade",
    "iso": "RS",
-   "places": 0,
+   "places": 5,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -16423,7 +16423,7 @@
   "Q649": {
    "name": "Moscow",
    "iso": "RU",
-   "places": 0,
+   "places": 4,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -16435,7 +16435,7 @@
   "Q656": {
    "name": "Saint Petersburg",
    "iso": "RU",
-   "places": 0,
+   "places": 1,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -17059,7 +17059,7 @@
   "Q3859": {
    "name": "Kigali",
    "iso": "RW",
-   "places": 0,
+   "places": 3,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -17071,7 +17071,7 @@
   "Q668180": {
    "name": "Muhanga",
    "iso": "RW",
-   "places": 0,
+   "places": 3,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -17083,7 +17083,7 @@
   "Q3692": {
    "name": "Riyadh",
    "iso": "SA",
-   "places": 0,
+   "places": 2,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -17095,7 +17095,7 @@
   "Q374365": {
    "name": "Jeddah",
    "iso": "SA",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -17107,7 +17107,7 @@
   "Q35484": {
    "name": "Medina",
    "iso": "SA",
-   "places": 0,
+   "places": 2,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -17227,7 +17227,7 @@
   "Q40921": {
    "name": "Honiara",
    "iso": "SB",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -17239,7 +17239,7 @@
   "Q3940": {
    "name": "Victoria",
    "iso": "SC",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -17251,7 +17251,7 @@
   "Q1963": {
    "name": "Khartoum",
    "iso": "SD",
-   "places": 0,
+   "places": 2,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -17359,9 +17359,9 @@
   "Q1754": {
    "name": "Stockholm",
    "iso": "SE",
-   "places": 0,
-   "minutes": 600,
-   "basis": "population",
+   "places": 8,
+   "minutes": 960,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -17395,7 +17395,7 @@
   "Q334": {
    "name": "Singapore",
    "iso": "SG",
-   "places": 0,
+   "places": 6,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -17407,9 +17407,9 @@
   "Q437": {
    "name": "Ljubljana",
    "iso": "SI",
-   "places": 0,
-   "minutes": 360,
-   "basis": "population",
+   "places": 8,
+   "minutes": 780,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -17419,7 +17419,7 @@
   "Q1780": {
    "name": "Bratislava",
    "iso": "SK",
-   "places": 0,
+   "places": 3,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -17431,7 +17431,7 @@
   "Q3780": {
    "name": "Freetown",
    "iso": "SL",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -17443,7 +17443,7 @@
   "Q1848": {
    "name": "San Marino",
    "iso": "SM",
-   "places": 0,
+   "places": 3,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -17455,7 +17455,7 @@
   "Q3718": {
    "name": "Dakar",
    "iso": "SN",
-   "places": 0,
+   "places": 3,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -17467,7 +17467,7 @@
   "Q1273644": {
    "name": "Pikine",
    "iso": "SN",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -17515,7 +17515,7 @@
   "Q2449": {
    "name": "Mogadishu",
    "iso": "SO",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -17539,7 +17539,7 @@
   "Q3001": {
    "name": "Paramaribo",
    "iso": "SR",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -17587,7 +17587,7 @@
   "Q3932": {
    "name": "São Tomé",
    "iso": "ST",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -17599,7 +17599,7 @@
   "Q3110": {
    "name": "San Salvador",
    "iso": "SV",
-   "places": 0,
+   "places": 3,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -17611,7 +17611,7 @@
   "Q3766": {
    "name": "Damascus",
    "iso": "SY",
-   "places": 0,
+   "places": 4,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -17623,7 +17623,7 @@
   "Q41183": {
    "name": "Aleppo",
    "iso": "SY",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -17695,7 +17695,7 @@
   "Q3904": {
    "name": "Mbabane",
    "iso": "SZ",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -17707,7 +17707,7 @@
   "Q3659": {
    "name": "N'Djamena",
    "iso": "TD",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -17719,7 +17719,7 @@
   "Q3792": {
    "name": "Lomé",
    "iso": "TG",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -17731,7 +17731,7 @@
   "Q1861": {
    "name": "Bangkok",
    "iso": "TH",
-   "places": 0,
+   "places": 4,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -17755,7 +17755,7 @@
   "Q52028": {
    "name": "Chiang Mai",
    "iso": "TH",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -17767,7 +17767,7 @@
   "Q9365": {
    "name": "Dushanbe",
    "iso": "TJ",
-   "places": 0,
+   "places": 5,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -17779,7 +17779,7 @@
   "Q9310": {
    "name": "Dili",
    "iso": "TL",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -17791,7 +17791,7 @@
   "Q23438": {
    "name": "Ashgabat",
    "iso": "TM",
-   "places": 0,
+   "places": 4,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -17803,7 +17803,7 @@
   "Q3572": {
    "name": "Tunis",
    "iso": "TN",
-   "places": 0,
+   "places": 4,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -17815,7 +17815,7 @@
   "Q38834": {
    "name": "Nukuʻalofa",
    "iso": "TO",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -17827,7 +17827,7 @@
   "Q406": {
    "name": "Istanbul",
    "iso": "TR",
-   "places": 0,
+   "places": 5,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -18235,7 +18235,7 @@
   "Q39178": {
    "name": "Port of Spain",
    "iso": "TT",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -18247,7 +18247,7 @@
   "Q34126": {
    "name": "Funafuti",
    "iso": "TV",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -18271,7 +18271,7 @@
   "Q245023": {
    "name": "Taichung",
    "iso": "TW",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -18283,7 +18283,7 @@
   "Q1867": {
    "name": "Taipei",
    "iso": "TW",
-   "places": 0,
+   "places": 4,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -18307,7 +18307,7 @@
   "Q140631": {
    "name": "Tainan",
    "iso": "TW",
-   "places": 0,
+   "places": 4,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -18355,7 +18355,7 @@
   "Q1960": {
    "name": "Dar es Salaam",
    "iso": "TZ",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -18367,7 +18367,7 @@
   "Q2222874": {
    "name": "Zanzibar City",
    "iso": "TZ",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -18463,7 +18463,7 @@
   "Q1899": {
    "name": "Kyiv",
    "iso": "UA",
-   "places": 0,
+   "places": 5,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -18607,7 +18607,7 @@
   "Q3894": {
    "name": "Kampala",
    "iso": "UG",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -18655,7 +18655,7 @@
   "Q683705": {
    "name": "New York metropolitan area",
    "iso": "US",
-   "places": 0,
+   "places": 3,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -18667,7 +18667,7 @@
   "Q60": {
    "name": "New York City",
    "iso": "US",
-   "places": 0,
+   "places": 2,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -18679,7 +18679,7 @@
   "Q65": {
    "name": "Los Angeles",
    "iso": "US",
-   "places": 0,
+   "places": 3,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -18739,7 +18739,7 @@
   "Q11299": {
    "name": "Manhattan",
    "iso": "US",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -18763,7 +18763,7 @@
   "Q1345": {
    "name": "Philadelphia",
    "iso": "US",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -18931,7 +18931,7 @@
   "Q61": {
    "name": "Washington, D.C.",
    "iso": "US",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -18979,7 +18979,7 @@
   "Q100": {
    "name": "Boston",
    "iso": "US",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -19327,7 +19327,7 @@
   "Q37320": {
    "name": "Cleveland",
    "iso": "US",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -19351,7 +19351,7 @@
   "Q49247": {
    "name": "Anaheim",
    "iso": "US",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -19375,7 +19375,7 @@
   "Q49233": {
    "name": "Orlando",
    "iso": "US",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -19519,7 +19519,7 @@
   "Q38022": {
    "name": "St. Louis",
    "iso": "US",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -19531,7 +19531,7 @@
   "Q1335": {
    "name": "Montevideo",
    "iso": "UY",
-   "places": 0,
+   "places": 6,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -19543,7 +19543,7 @@
   "Q269": {
    "name": "Tashkent",
    "iso": "UZ",
-   "places": 0,
+   "places": 3,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -19579,7 +19579,7 @@
   "Q5753": {
    "name": "Samarkand",
    "iso": "UZ",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -19591,7 +19591,7 @@
   "Q489898": {
    "name": "Nukus",
    "iso": "UZ",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -19603,9 +19603,9 @@
   "Q237": {
    "name": "Vatican City",
    "iso": "VA",
-   "places": 0,
-   "minutes": 360,
-   "basis": "population",
+   "places": 9,
+   "minutes": 645,
+   "basis": "places",
    "minDays": {
     "express": 2,
     "classic": 3,
@@ -19615,7 +19615,7 @@
   "Q41474": {
    "name": "Kingstown",
    "iso": "VC",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -19627,7 +19627,7 @@
   "Q1533": {
    "name": "Caracas",
    "iso": "VE",
-   "places": 0,
+   "places": 5,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -19735,7 +19735,7 @@
   "Q26906": {
    "name": "Ciudad Bolívar",
    "iso": "VE",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -19807,7 +19807,7 @@
   "Q1854": {
    "name": "Ho Chi Minh City",
    "iso": "VN",
-   "places": 0,
+   "places": 1,
    "minutes": 2400,
    "basis": "population",
    "minDays": {
@@ -19819,7 +19819,7 @@
   "Q1858": {
    "name": "Hanoi",
    "iso": "VN",
-   "places": 0,
+   "places": 2,
    "minutes": 1800,
    "basis": "population",
    "minDays": {
@@ -19867,7 +19867,7 @@
   "Q33396": {
    "name": "Quảng Ninh",
    "iso": "VN",
-   "places": 0,
+   "places": 1,
    "minutes": 900,
    "basis": "population",
    "minDays": {
@@ -19927,7 +19927,7 @@
   "Q25282": {
    "name": "Da Nang",
    "iso": "VN",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -20023,7 +20023,7 @@
   "Q37806": {
    "name": "Port Vila",
    "iso": "VU",
-   "places": 0,
+   "places": 2,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -20035,7 +20035,7 @@
   "Q36260": {
    "name": "Apia",
    "iso": "WS",
-   "places": 0,
+   "places": 1,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -20047,7 +20047,7 @@
   "Q25270": {
    "name": "Pristina",
    "iso": "XK",
-   "places": 0,
+   "places": 3,
    "minutes": 360,
    "basis": "population",
    "minDays": {
@@ -20059,7 +20059,7 @@
   "Q2471": {
    "name": "Sanaa",
    "iso": "YE",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -20107,7 +20107,7 @@
   "Q466216": {
    "name": "Ta'izz",
    "iso": "YE",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -20119,7 +20119,7 @@
   "Q34647": {
    "name": "Johannesburg",
    "iso": "ZA",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -20131,7 +20131,7 @@
   "Q2346838": {
    "name": "City of Johannesburg Metropolitan Municipality",
    "iso": "ZA",
-   "places": 0,
+   "places": 1,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -20143,7 +20143,7 @@
   "Q5465": {
    "name": "Cape Town",
    "iso": "ZA",
-   "places": 0,
+   "places": 4,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -20251,7 +20251,7 @@
   "Q3926": {
    "name": "Pretoria",
    "iso": "ZA",
-   "places": 0,
+   "places": 3,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -20299,7 +20299,7 @@
   "Q2166182": {
    "name": "Roodepoort",
    "iso": "ZA",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -20359,7 +20359,7 @@
   "Q219671": {
    "name": "Ndola",
    "iso": "ZM",
-   "places": 0,
+   "places": 1,
    "minutes": 600,
    "basis": "population",
    "minDays": {
@@ -20371,7 +20371,7 @@
   "Q3921": {
    "name": "Harare",
    "iso": "ZW",
-   "places": 0,
+   "places": 3,
    "minutes": 1200,
    "basis": "population",
    "minDays": {
@@ -20395,7 +20395,7 @@
   "Q193250": {
    "name": "Bulawayo",
    "iso": "ZW",
-   "places": 0,
+   "places": 2,
    "minutes": 600,
    "basis": "population",
    "minDays": {

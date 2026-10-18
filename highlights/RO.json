@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,12 @@
           "title": "Băile Herculane",
           "url": "https://es.wikipedia.org/wiki/B%C4%83ile_Herculane"
         }
-      }
+      },
+      "wikidata": "Q650981",
+      "website": "http://www.baile-herculane.ro",
+      "lat": 44.87722,
+      "lon": 22.4175,
+      "phone": "+40-255560439"
     },
     {
       "id": "ro-q375371",
@@ -88,7 +99,12 @@
           "title": "Călimănești",
           "url": "https://es.wikipedia.org/wiki/C%C4%83lim%C4%83ne%C8%99ti"
         }
-      }
+      },
+      "wikidata": "Q375371",
+      "website": "https://www.primaria-calimanesti.ro/",
+      "lat": 45.23917,
+      "lon": 24.34333,
+      "phone": "+40-250750080"
     },
     {
       "id": "ro-q2522104",
@@ -121,6 +137,16 @@
           "title": "Palacio de la Cultura de Iași",
           "url": "https://es.wikipedia.org/wiki/Palacio_de_la_Cultura_de_Ia%C8%99i"
         }
+      },
+      "wikidata": "Q2522104",
+      "website": "https://palatulculturii.ro",
+      "lat": 47.15739,
+      "lon": 27.58695,
+      "phone": "0232275979",
+      "hours": {
+        "text": "We-Su 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -153,6 +179,16 @@
           "title": "Museo Nacional de Arte de Rumanía",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_de_Ruman%C3%ADa"
         }
+      },
+      "wikidata": "Q1319192",
+      "website": "https://mnar.ro",
+      "lat": 44.43978,
+      "lon": 26.09598,
+      "phone": "021/313.30.30;021/314.81.19",
+      "hours": {
+        "text": "Apr-Sep 11:00-19:00; Oct-Mar 10:00-18:00; Mo,Tu closed",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -182,6 +218,16 @@
           "title": "National Museum of the Romanian Peasant",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_the_Romanian_Peasant"
         }
+      },
+      "wikidata": "Q623662",
+      "website": "http://www.muzeultaranuluiroman.ro",
+      "lat": 44.45438,
+      "lon": 26.08368,
+      "phone": "021/317.96.61;021/317.96.64;021/317.96.65",
+      "hours": {
+        "text": "10:00-18:00; Mo closed",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -214,7 +260,11 @@
           "title": "Museo de Historia Nacional de Rumanía",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Nacional_de_Ruman%C3%ADa"
         }
-      }
+      },
+      "wikidata": "Q179283",
+      "website": "https://www.mnir.ro/",
+      "lat": 44.43153,
+      "lon": 26.09723
     },
     {
       "id": "ro-q1956214",
@@ -247,7 +297,11 @@
           "title": "Museo Satului",
           "url": "https://es.wikipedia.org/wiki/Museo_Satului"
         }
-      }
+      },
+      "wikidata": "Q1956214",
+      "website": "http://www.muzeul-satului.ro/",
+      "lat": 44.47336,
+      "lon": 26.07656
     },
     {
       "id": "ro-q850207",
@@ -276,7 +330,12 @@
           "title": "Brukenthal National Museum",
           "url": "https://en.wikipedia.org/wiki/Brukenthal_National_Museum"
         }
-      }
+      },
+      "wikidata": "Q850207",
+      "website": "https://www.brukenthalmuseum.ro/",
+      "lat": 45.7965,
+      "lon": 24.15061,
+      "phone": "0269/217.691;0369.101.780"
     }
   ]
 }

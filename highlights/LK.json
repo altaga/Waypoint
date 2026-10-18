@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,6 +62,15 @@
           "title": "Museo nacional de Colombo",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Colombo"
         }
+      },
+      "wikidata": "Q2033487",
+      "website": "http://www.museum.gov.lk/",
+      "lat": 6.91,
+      "lon": 79.86083,
+      "hours": {
+        "text": "Mo-Su 09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -88,7 +103,11 @@
           "title": "Orfanato de elefantes de Pinnawala",
           "url": "https://es.wikipedia.org/wiki/Orfanato_de_elefantes_de_Pinnawala"
         }
-      }
+      },
+      "wikidata": "Q2672104",
+      "website": "http://nationalzoo.gov.lk/elephantorphanage/",
+      "lat": 7.30056,
+      "lon": 80.38833
     },
     {
       "id": "lk-q1144452",
@@ -120,7 +139,11 @@
           "title": "Jardín zoológico nacional de Sri Lanka",
           "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_nacional_de_Sri_Lanka"
         }
-      }
+      },
+      "wikidata": "Q1144452",
+      "website": "http://www.colombozoo.gov.lk",
+      "lat": 6.85681,
+      "lon": 79.87289
     },
     {
       "id": "lk-q3533580",
@@ -148,6 +171,15 @@
           "title": "National Museum of Kandy",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_Kandy"
         }
+      },
+      "wikidata": "Q3533580",
+      "website": "http://www.museum.gov.lk/web/index.php?option=com_regionalm&task=regionalmuseum&id=4&Itemid=60&lang=en",
+      "lat": 7.29326,
+      "lon": 80.64214,
+      "hours": {
+        "text": "Tu-Sa 9:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -176,7 +208,10 @@
           "title": "National Art Gallery, Sri Lanka",
           "url": "https://en.wikipedia.org/wiki/National_Art_Gallery%2C_Sri_Lanka"
         }
-      }
+      },
+      "wikidata": "Q11302924",
+      "lat": 6.91146,
+      "lon": 79.86018
     },
     {
       "id": "lk-q11310066",
@@ -204,7 +239,11 @@
           "title": "Archaeological Museum, Jaffna",
           "url": "https://en.wikipedia.org/wiki/Archaeological_Museum%2C_Jaffna"
         }
-      }
+      },
+      "wikidata": "Q11310066",
+      "website": "http://www.archaeology.gov.lk",
+      "lat": 9.66886,
+      "lon": 80.02426
     },
     {
       "id": "lk-q20640029",
@@ -232,7 +271,11 @@
           "title": "Anuradhapura Museum",
           "url": "https://en.wikipedia.org/wiki/Anuradhapura_Museum"
         }
-      }
+      },
+      "wikidata": "Q20640029",
+      "website": "http://www.archaeology.gov.lk",
+      "lat": 8.3473,
+      "lon": 80.3936
     },
     {
       "id": "lk-q20987443",
@@ -260,7 +303,11 @@
           "title": "National Museum of Galle",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_Galle"
         }
-      }
+      },
+      "wikidata": "Q20987443",
+      "website": "http://www.museum.gov.lk/web/index.php?option=com_regionalm&task=regionalmuseum&id=9&Itemid=78&lang=en",
+      "lat": 6.02928,
+      "lon": 80.21669
     }
   ]
 }

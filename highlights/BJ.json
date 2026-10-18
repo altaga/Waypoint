@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Museo del Palacio Real",
           "url": "https://es.wikipedia.org/wiki/Museo_del_Palacio_Real"
         }
-      }
+      },
+      "wikidata": "Q2784858",
+      "lat": 6.46947,
+      "lon": 2.62519,
+      "phone": "+229-20-21-35-66"
     },
     {
       "id": "bj-q4720905",
@@ -85,7 +95,11 @@
           "title": "Alexandre Sènou Adandé Ethnographic Museum",
           "url": "https://en.wikipedia.org/wiki/Alexandre_S%C3%A8nou_Adand%C3%A9_Ethnographic_Museum"
         }
-      }
+      },
+      "wikidata": "Q4720905",
+      "lat": 6.4732,
+      "lon": 2.61744,
+      "phone": "+229-20-21-25-54"
     },
     {
       "id": "bj-q7110333",
@@ -113,7 +127,11 @@
           "title": "Ouidah Museum of History",
           "url": "https://en.wikipedia.org/wiki/Ouidah_Museum_of_History"
         }
-      }
+      },
+      "wikidata": "Q7110333",
+      "website": "http://www.museeouidah.org/",
+      "lat": 6.35909,
+      "lon": 2.09006
     },
     {
       "id": "bj-q2784689",
@@ -145,7 +163,10 @@
           "title": "Museo al aire libre de Parakou",
           "url": "https://es.wikipedia.org/wiki/Museo_al_aire_libre_de_Parakou"
         }
-      }
+      },
+      "wikidata": "Q2784689",
+      "lat": 9.32896,
+      "lon": 2.61851
     },
     {
       "id": "bj-q20380202",
@@ -174,7 +195,11 @@
           "title": "Villa Karo",
           "url": "https://en.wikipedia.org/wiki/Villa_Karo"
         }
-      }
+      },
+      "wikidata": "Q20380202",
+      "website": "http://villakaro.org",
+      "lat": 6.2789,
+      "lon": 1.8255
     },
     {
       "id": "bj-q3075592",
@@ -198,6 +223,16 @@
       },
       "ground": {
         "retrieved": "2026-10-13"
+      },
+      "wikidata": "Q3075592",
+      "website": "http://fondationzinsou.org/",
+      "lat": 6.35172,
+      "lon": 2.37275,
+      "phone": "+229 21 30 99 25",
+      "hours": {
+        "text": "Mo 13:00-19:00; Tu-Fr 8:30-19:00; Sa 10:00-19:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

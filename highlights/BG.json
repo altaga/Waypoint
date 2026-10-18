@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Nesebar",
           "url": "https://es.wikipedia.org/wiki/Nesebar"
         }
-      }
+      },
+      "wikidata": "Q193241",
+      "website": "https://www.nesebar.bg",
+      "lat": 42.65951,
+      "lon": 27.72472
     },
     {
       "id": "bg-q271925",
@@ -90,7 +100,11 @@
           "title": "Sozopol",
           "url": "https://es.wikipedia.org/wiki/Sozopol"
         }
-      }
+      },
+      "wikidata": "Q271925",
+      "website": "https://sozopol.bg",
+      "lat": 42.41872,
+      "lon": 27.69432
     },
     {
       "id": "bg-q43282",
@@ -122,6 +136,15 @@
           "title": "Catedral de Alejandro Nevski de Sofía",
           "url": "https://es.wikipedia.org/wiki/Catedral_de_Alejandro_Nevski_de_Sof%C3%ADa"
         }
+      },
+      "wikidata": "Q43282",
+      "website": "https://www.cathedral.bg/",
+      "lat": 42.69584,
+      "lon": 23.33297,
+      "hours": {
+        "text": "Mo-Su 07:00-19:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -155,6 +178,15 @@
           "title": "Iglesia de Boyana",
           "url": "https://es.wikipedia.org/wiki/Iglesia_de_Boyana"
         }
+      },
+      "wikidata": "Q276553",
+      "website": "https://boyanachurch.info/",
+      "lat": 42.64467,
+      "lon": 23.26617,
+      "hours": {
+        "text": "Mo-Su 09:30-17:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -187,7 +219,11 @@
           "title": "Sandanski",
           "url": "https://es.wikipedia.org/wiki/Sandanski"
         }
-      }
+      },
+      "wikidata": "Q331566",
+      "website": "https://sandanski.bg",
+      "lat": 41.5681,
+      "lon": 23.28229
     },
     {
       "id": "bg-q503387",
@@ -219,7 +255,11 @@
           "title": "Iglesias rupestres de Ivanovo",
           "url": "https://es.wikipedia.org/wiki/Iglesias_rupestres_de_Ivanovo"
         }
-      }
+      },
+      "wikidata": "Q503387",
+      "website": "https://www.museumruse.com/portfolio-items/ivanovo/",
+      "lat": 43.69556,
+      "lon": 25.98806
     },
     {
       "id": "bg-q301815",
@@ -252,6 +292,15 @@
           "title": "Tumba tracia de Kazanlak",
           "url": "https://es.wikipedia.org/wiki/Tumba_tracia_de_Kazanlak"
         }
+      },
+      "wikidata": "Q301815",
+      "website": "http://www.muzei-kazanlak.org/index.php?option=com_content&view=article&id=63&Itemid=87&lang=en",
+      "lat": 42.62556,
+      "lon": 25.39917,
+      "hours": {
+        "text": "Mo-Su 09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -284,7 +333,11 @@
           "title": "Hisarya",
           "url": "https://es.wikipedia.org/wiki/Hisarya"
         }
-      }
+      },
+      "wikidata": "Q239989",
+      "website": "http://hisar.bg",
+      "lat": 42.50247,
+      "lon": 24.70327
     }
   ]
 }

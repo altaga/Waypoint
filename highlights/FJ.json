@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,6 +62,16 @@
           "title": "Museo de Fiyi",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Fiyi"
         }
+      },
+      "wikidata": "Q2652153",
+      "website": "http://www.fijimuseum.org.fj/",
+      "lat": -18.14967,
+      "lon": 178.42574,
+      "phone": "+679 331 5944",
+      "hours": {
+        "text": "Mo-Su 09:00-16:30; PH 09:00-16:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

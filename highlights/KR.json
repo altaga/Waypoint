@@ -23,6 +23,18 @@
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-18"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -46,7 +58,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://royal.khs.go.kr/ROYAL/main/index.do",
+      "lat": 37.5798841,
+      "lon": 126.9767996
     },
     {
       "id": "kr-bukchon",
@@ -67,7 +82,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://hanok.seoul.go.kr/front/eng/town/town01.do",
+      "lat": 37.58305556,
+      "lon": 126.98361111
     },
     {
       "id": "kr-gwangjang",
@@ -88,7 +106,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 37.57,
+      "lon": 126.999
     },
     {
       "id": "kr-myeongdong",
@@ -110,7 +130,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.junggu.seoul.kr/content.do?cmsid=1432",
+      "lat": 37.5637,
+      "lon": 126.984
     },
     {
       "id": "kr-namsan",
@@ -131,7 +154,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.seoultower.co.kr/en/",
+      "lat": 37.551216,
+      "lon": 126.988276
     },
     {
       "id": "kr-haeundae",
@@ -153,7 +179,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 35.158552435,
+      "lon": 129.160539102
     },
     {
       "id": "kr-gamcheon",
@@ -175,7 +203,11 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.gamcheon.or.kr/",
+      "lat": 35.0975,
+      "lon": 129.00916667,
+      "phone": "+82-51-204-1444"
     }
   ]
 }

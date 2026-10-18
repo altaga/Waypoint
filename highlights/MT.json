@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,12 @@
           "title": "Għar Dalam",
           "url": "https://es.wikipedia.org/wiki/G%C4%A7ar_Dalam"
         }
-      }
+      },
+      "wikidata": "Q742598",
+      "website": "https://heritagemalta.org/ghar-dalam/",
+      "lat": 35.83642,
+      "lon": 14.52803,
+      "phone": "+356 21 657 419"
     },
     {
       "id": "mt-q1859009",
@@ -87,7 +98,12 @@
           "title": "Popeye Village",
           "url": "https://es.wikipedia.org/wiki/Popeye_Village"
         }
-      }
+      },
+      "wikidata": "Q1859009",
+      "website": "https://popeyemalta.com/",
+      "lat": 35.96085,
+      "lon": 14.3413,
+      "phone": "+356 2152 4782"
     },
     {
       "id": "mt-q2898298",
@@ -119,7 +135,12 @@
           "title": "Museo Arqueológico Nacional (Malta)",
           "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_Nacional_(Malta)"
         }
-      }
+      },
+      "wikidata": "Q2898298",
+      "website": "https://heritagemalta.org/national-museum-of-archaeology/",
+      "lat": 35.8975,
+      "lon": 14.51125,
+      "phone": "+356 25 584 712"
     },
     {
       "id": "mt-q6974470",
@@ -147,6 +168,16 @@
           "title": "MUŻA",
           "url": "https://en.wikipedia.org/wiki/MU%C5%BBA"
         }
+      },
+      "wikidata": "Q6974470",
+      "website": "https://muza.mt/",
+      "lat": 35.89639,
+      "lon": 14.51139,
+      "phone": "+356 21 220 006",
+      "hours": {
+        "text": "Su,We-Th 10:00-22:00; Fr-Sa 10:00-23:00; Mo-Tu 10:00-16:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -179,6 +210,16 @@
           "title": "Museo marítimo de Malta",
           "url": "https://es.wikipedia.org/wiki/Museo_mar%C3%ADtimo_de_Malta"
         }
+      },
+      "wikidata": "Q3013993",
+      "website": "http://www.heritagemalta.org/malta-maritime-museum/",
+      "lat": 35.88764,
+      "lon": 14.52083,
+      "phone": "+356 21 660 052",
+      "hours": {
+        "text": "Mo-Su 09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -207,7 +248,11 @@
           "title": "Domvs Romana",
           "url": "https://en.wikipedia.org/wiki/Domvs_Romana"
         }
-      }
+      },
+      "wikidata": "Q5291392",
+      "website": "https://heritagemalta.mt/explore/domvs-romana/",
+      "lat": 35.88528,
+      "lon": 14.40028
     },
     {
       "id": "mt-q6979344",
@@ -235,6 +280,15 @@
           "title": "National War Museum (Malta)",
           "url": "https://en.wikipedia.org/wiki/National_War_Museum_(Malta)"
         }
+      },
+      "wikidata": "Q6979344",
+      "website": "https://heritagemalta.org/national-war-museum/",
+      "lat": 35.90194,
+      "lon": 14.51861,
+      "hours": {
+        "text": "Mo-Su 10:00-18:00; Dec 24-Dec 25 off; Dec 31-Jan 01 off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -267,6 +321,16 @@
           "title": "Museo Nacional de Historia Natural de Malta",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Historia_Natural_de_Malta"
         }
+      },
+      "wikidata": "Q3014352",
+      "website": "https://heritagemalta.org/national-museum-of-natural-history/",
+      "lat": 35.885,
+      "lon": 14.4037,
+      "phone": "+356 21 455 951",
+      "hours": {
+        "text": "Mo-Su 09:00-17:00; Dec 24-25 off; Dec 31-Jan 01 off; Good Friday off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -299,6 +363,16 @@
           "title": "Acuario Nacional de Malta",
           "url": "https://es.wikipedia.org/wiki/Acuario_Nacional_de_Malta"
         }
+      },
+      "wikidata": "Q97126855",
+      "website": "https://www.aquarium.com.mt/",
+      "lat": 35.95833,
+      "lon": 14.42278,
+      "phone": "+365 2258 8100",
+      "hours": {
+        "text": "Mo-Su 10:00-20:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -328,6 +402,16 @@
           "title": "Casa Rocca Piccola",
           "url": "https://en.wikipedia.org/wiki/Casa_Rocca_Piccola"
         }
+      },
+      "wikidata": "Q2044132",
+      "website": "http://www.casaroccapiccola.com/",
+      "lat": 35.89986,
+      "lon": 14.51542,
+      "phone": "+356 21221499",
+      "hours": {
+        "text": "Mo-Sa 10:00-16:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

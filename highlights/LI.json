@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,6 +62,16 @@
           "title": "Kunstmuseum Liechtenstein",
           "url": "https://es.wikipedia.org/wiki/Kunstmuseum_Liechtenstein"
         }
+      },
+      "wikidata": "Q1792561",
+      "website": "http://www.kunstmuseum.li",
+      "lat": 47.13944,
+      "lon": 9.5225,
+      "phone": "+423 2350300",
+      "hours": {
+        "text": "Tu-Su 10:00-17:00; Th 10:00-20:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -88,6 +104,16 @@
           "title": "Museo nacional de Liechtenstein",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Liechtenstein"
         }
+      },
+      "wikidata": "Q1557760",
+      "website": "http://www.landesmuseum.li/",
+      "lat": 47.13825,
+      "lon": 9.52268,
+      "phone": "+4232396820",
+      "hours": {
+        "text": "Tu-Su 10:00-17:00; We 10:00-20:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -116,7 +142,11 @@
           "title": "Postal Museum (Liechtenstein)",
           "url": "https://en.wikipedia.org/wiki/Postal_Museum_(Liechtenstein)"
         }
-      }
+      },
+      "wikidata": "Q972697",
+      "website": "https://www.landesmuseum.li/de/postmuseum/",
+      "lat": 47.13889,
+      "lon": 9.52278
     }
   ]
 }

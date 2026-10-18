@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,12 @@
           "title": "Museo Nacional de Historia y Arte (Luxemburgo)",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Historia_y_Arte_(Luxemburgo)"
         }
-      }
+      },
+      "wikidata": "Q2585886",
+      "website": "https://www.mnaha.lu",
+      "lat": 49.61194,
+      "lon": 6.13306,
+      "phone": "+352-47-93-30-1"
     },
     {
       "id": "lu-q1955758",
@@ -88,6 +99,16 @@
           "title": "Mudam",
           "url": "https://es.wikipedia.org/wiki/Mudam"
         }
+      },
+      "wikidata": "Q1955758",
+      "website": "https://www.mudam.com",
+      "lat": 49.61709,
+      "lon": 6.1399,
+      "phone": "+3524537851",
+      "hours": {
+        "text": "Tu, Th-Su 10:00-18:00; We 10:00-21:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -120,7 +141,12 @@
           "title": "Museo Histórico de la Ciudad de Luxemburgo",
           "url": "https://es.wikipedia.org/wiki/Museo_Hist%C3%B3rico_de_la_Ciudad_de_Luxemburgo"
         }
-      }
+      },
+      "wikidata": "Q2555232",
+      "website": "https://citymuseum.lu/en/",
+      "lat": 49.6099,
+      "lon": 6.1335,
+      "phone": "+352-47-96-45-00"
     },
     {
       "id": "lu-q2223322",
@@ -149,6 +175,15 @@
           "title": "Villa Vauban",
           "url": "https://en.wikipedia.org/wiki/Villa_Vauban"
         }
+      },
+      "wikidata": "Q2223322",
+      "website": "http://villavauban.lu/le-musee/",
+      "lat": 49.61306,
+      "lon": 6.1225,
+      "hours": {
+        "text": "We-Mo 10:00-18:00, Fr 10:00-21:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -177,7 +212,12 @@
           "title": "National Museum of Military History (Luxembourg)",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_Military_History_(Luxembourg)"
         }
-      }
+      },
+      "wikidata": "Q478061",
+      "website": "http://www.mnhm.lu",
+      "lat": 49.87121,
+      "lon": 6.15891,
+      "phone": "+352-80-89-08"
     },
     {
       "id": "lu-q2392584",
@@ -209,6 +249,15 @@
           "title": "Parque Merveilleux",
           "url": "https://es.wikipedia.org/wiki/Parque_Merveilleux"
         }
+      },
+      "wikidata": "Q2392584",
+      "website": "http://www.parc-merveilleux.lu/index.php/fr/",
+      "lat": 49.51147,
+      "lon": 6.12071,
+      "hours": {
+        "text": "Mo-Su 09:30-19:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -237,7 +286,11 @@
           "title": "National Museum of Natural History, Luxembourg",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_Natural_History%2C_Luxembourg"
         }
-      }
+      },
+      "wikidata": "Q6974489",
+      "website": "https://mnhn.public.lu",
+      "lat": 49.60985,
+      "lon": 6.13575
     },
     {
       "id": "lu-q6978080",
@@ -265,7 +318,11 @@
           "title": "National Resistance Museum, Luxembourg",
           "url": "https://en.wikipedia.org/wiki/National_Resistance_Museum%2C_Luxembourg"
         }
-      }
+      },
+      "wikidata": "Q6978080",
+      "website": "https://mnr.lu/",
+      "lat": 49.4924,
+      "lon": 5.976
     },
     {
       "id": "lu-q2244220",
@@ -293,7 +350,10 @@
           "title": "Wiltz Castle",
           "url": "https://en.wikipedia.org/wiki/Wiltz_Castle"
         }
-      }
+      },
+      "wikidata": "Q2244220",
+      "lat": 49.96625,
+      "lon": 5.93819
     }
   ]
 }

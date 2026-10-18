@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -58,6 +64,16 @@
           "title": "Basílica de San Pedro",
           "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_San_Pedro"
         }
+      },
+      "wikidata": "Q12512",
+      "website": "https://www.basilicasanpietro.va/",
+      "lat": 41.90222,
+      "lon": 12.45342,
+      "phone": "+39 06 6988 3462",
+      "hours": {
+        "text": "Mo-Su 07:00-20:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -92,7 +108,12 @@
           "title": "Museos Vaticanos",
           "url": "https://es.wikipedia.org/wiki/Museos_Vaticanos"
         }
-      }
+      },
+      "wikidata": "Q182955",
+      "website": "http://www.museivaticani.va",
+      "lat": 41.90639,
+      "lon": 12.45444,
+      "phone": "+39 06 6988 3145"
     },
     {
       "id": "va-q498557",
@@ -125,7 +146,11 @@
           "title": "Apartamentos Borgia",
           "url": "https://es.wikipedia.org/wiki/Apartamentos_Borgia"
         }
-      }
+      },
+      "wikidata": "Q498557",
+      "website": "http://www.christusrex.org/www1/vaticano/0-Musei.html",
+      "lat": 41.90333,
+      "lon": 12.455
     },
     {
       "id": "va-q774940",
@@ -153,6 +178,15 @@
           "title": "Pinacoteca Vaticana",
           "url": "https://es.wikipedia.org/wiki/Pinacoteca_Vaticana"
         }
+      },
+      "wikidata": "Q774940",
+      "website": "https://www.museivaticani.va/content/museivaticani/it/collezioni/musei/la-pinacoteca.html",
+      "lat": 41.90573,
+      "lon": 12.45277,
+      "hours": {
+        "text": "Mo-Sa 08:00-17:00+",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -186,7 +220,11 @@
           "title": "Galería de los Mapas",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_de_los_Mapas"
         }
-      }
+      },
+      "wikidata": "Q634691",
+      "website": "http://www.christusrex.org/www1/vaticano/0-Musei.html",
+      "lat": 41.90417,
+      "lon": 12.45472
     },
     {
       "id": "va-q1439912",
@@ -211,7 +249,11 @@
       },
       "ground": {
         "retrieved": "2026-10-13"
-      }
+      },
+      "wikidata": "Q1439912",
+      "website": "https://www.museivaticani.va/content/museivaticani/it/collezioni/musei/museo-pio-clementino/Museo-Pio-Clementino.html",
+      "lat": 41.90673,
+      "lon": 12.45351
     },
     {
       "id": "va-q1452731",
@@ -239,7 +281,11 @@
           "title": "Vatican Historical Museum",
           "url": "https://en.wikipedia.org/wiki/Vatican_Historical_Museum"
         }
-      }
+      },
+      "wikidata": "Q1452731",
+      "website": "http://mv.vatican.va",
+      "lat": 41.8866,
+      "lon": 12.5057
     },
     {
       "id": "va-q1452723",
@@ -263,6 +309,15 @@
       },
       "ground": {
         "retrieved": "2026-10-13"
+      },
+      "wikidata": "Q1452723",
+      "website": "http://www.museivaticani.va/content/museivaticani/it/collezioni/musei/museo-chiaramonti.html",
+      "lat": 41.90439,
+      "lon": 12.45511,
+      "hours": {
+        "text": "Mo-Fr 09:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -295,7 +350,11 @@
           "title": "Colección de Arte Religioso Moderno",
           "url": "https://es.wikipedia.org/wiki/Colecci%C3%B3n_de_Arte_Religioso_Moderno"
         }
-      }
+      },
+      "wikidata": "Q2034945",
+      "website": "https://www.museivaticani.va/content/museivaticani/it/collezioni/musei/collezione-d_arte-contemporanea.html",
+      "lat": 41.90333,
+      "lon": 12.455
     }
   ]
 }

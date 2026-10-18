@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Museo del Canal Interoceánico de Panamá",
           "url": "https://es.wikipedia.org/wiki/Museo_del_Canal_Interoce%C3%A1nico_de_Panam%C3%A1"
         }
-      }
+      },
+      "wikidata": "Q3330421",
+      "website": "http://www.museodelcanal.com",
+      "lat": 8.95192,
+      "lon": -79.5347
     },
     {
       "id": "pa-q6034184",
@@ -89,7 +99,11 @@
           "title": "Biomuseo",
           "url": "https://es.wikipedia.org/wiki/Biomuseo"
         }
-      }
+      },
+      "wikidata": "Q6034184",
+      "website": "http://www.biomuseo.org/",
+      "lat": 8.93189,
+      "lon": -79.54473
     },
     {
       "id": "pa-q20024732",
@@ -121,7 +135,11 @@
           "title": "Museo de Arte Contemporáneo (Panamá)",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Contempor%C3%A1neo_(Panam%C3%A1)"
         }
-      }
+      },
+      "wikidata": "Q20024732",
+      "website": "https://macpanama.org",
+      "lat": 8.96092,
+      "lon": -79.54304
     }
   ]
 }

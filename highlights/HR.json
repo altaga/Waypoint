@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,6 +62,16 @@
           "title": "Museo de las Relaciones Rotas",
           "url": "https://es.wikipedia.org/wiki/Museo_de_las_Relaciones_Rotas"
         }
+      },
+      "wikidata": "Q1954595",
+      "website": "https://brokenships.com/",
+      "lat": 45.81517,
+      "lon": 15.97358,
+      "phone": "+38514851021",
+      "hours": {
+        "text": "Jun-Sep Mo-Su 09:00-22:00; Oct-May Mo-Su 09:00-21:00; PH off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -88,6 +104,14 @@
           "title": "Museo de Dubrovnik",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Dubrovnik"
         }
+      },
+      "wikidata": "Q2497590",
+      "lat": 42.64028,
+      "lon": 18.11083,
+      "hours": {
+        "text": "Mo-Su 09:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -120,7 +144,11 @@
           "title": "Jardín zoológico de Zagreb",
           "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_de_Zagreb"
         }
-      }
+      },
+      "wikidata": "Q220113",
+      "website": "http://www.zgzoo.com",
+      "lat": 45.8221,
+      "lon": 16.02128
     },
     {
       "id": "hr-q631440",
@@ -153,7 +181,10 @@
           "title": "Gruta Azul (Croacia)",
           "url": "https://es.wikipedia.org/wiki/Gruta_Azul_(Croacia)"
         }
-      }
+      },
+      "wikidata": "Q631440",
+      "lat": 42.98035,
+      "lon": 16.0215
     },
     {
       "id": "hr-q1936046",
@@ -181,6 +212,16 @@
           "title": "Mimara Museum",
           "url": "https://en.wikipedia.org/wiki/Mimara_Museum"
         }
+      },
+      "wikidata": "Q1936046",
+      "website": "http://www.mimara.hr/",
+      "lat": 45.80833,
+      "lon": 15.96694,
+      "phone": "+385 1 4828 100",
+      "hours": {
+        "text": "off \"Muzej je zatvoren za javnost do završetka obnove zbog oštećenja zgrade u potresu 22. ožujka 2020. godine.\"",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -213,7 +254,11 @@
           "title": "Museo croata de Arte Naïf",
           "url": "https://es.wikipedia.org/wiki/Museo_croata_de_Arte_Na%C3%AFf"
         }
-      }
+      },
+      "wikidata": "Q5187140",
+      "website": "https://hmnu.hr/",
+      "lat": 45.81542,
+      "lon": 15.97333
     },
     {
       "id": "hr-q3503103",
@@ -241,7 +286,12 @@
           "title": "Museum of Contemporary Art, Zagreb",
           "url": "https://en.wikipedia.org/wiki/Museum_of_Contemporary_Art%2C_Zagreb"
         }
-      }
+      },
+      "wikidata": "Q3503103",
+      "website": "http://www.msu.hr/",
+      "lat": 45.77881,
+      "lon": 15.98186,
+      "phone": "+385-1-6052-700"
     },
     {
       "id": "hr-q2986831",
@@ -269,7 +319,11 @@
           "title": "Archaeological Museum in Zagreb",
           "url": "https://en.wikipedia.org/wiki/Archaeological_Museum_in_Zagreb"
         }
-      }
+      },
+      "wikidata": "Q2986831",
+      "website": "http://www.amz.hr/",
+      "lat": 45.811,
+      "lon": 15.97732
     },
     {
       "id": "hr-q8366704",
@@ -297,6 +351,16 @@
           "title": "Croatian Natural History Museum",
           "url": "https://en.wikipedia.org/wiki/Croatian_Natural_History_Museum"
         }
+      },
+      "wikidata": "Q8366704",
+      "website": "http://www.hpm.hr/",
+      "lat": 45.81713,
+      "lon": 15.97252,
+      "phone": "+38514851700",
+      "hours": {
+        "text": "Tu-We,Fr 10:00-17:00; Th 10:00-20:00; Sa 10:00-19:00; Su 10:00-13:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -325,6 +389,16 @@
           "title": "Ethnographic Museum, Zagreb",
           "url": "https://en.wikipedia.org/wiki/Ethnographic_Museum%2C_Zagreb"
         }
+      },
+      "wikidata": "Q502157",
+      "website": "https://emz.hr/",
+      "lat": 45.80835,
+      "lon": 15.969,
+      "phone": "+385-1-4826-220",
+      "hours": {
+        "text": "Tu-Fr 10:00-18:00; Sa-Su 10:00-13:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -357,6 +431,16 @@
           "title": "Museo de la ciudad de Zagreb",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_ciudad_de_Zagreb"
         }
+      },
+      "wikidata": "Q2618426",
+      "website": "http://www.mgz.hr",
+      "lat": 45.81856,
+      "lon": 15.97505,
+      "phone": "+385 4851 361;+385 4851 362",
+      "hours": {
+        "text": "Tu-Sa 10:00-18:00; Su 10:00-14:00; PH off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

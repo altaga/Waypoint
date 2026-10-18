@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Museo Chileno de Arte Precolombino",
           "url": "https://es.wikipedia.org/wiki/Museo_Chileno_de_Arte_Precolombino"
         }
-      }
+      },
+      "wikidata": "Q517430",
+      "website": "http://www.precolombino.cl",
+      "lat": -33.43889,
+      "lon": -70.65222
     },
     {
       "id": "cl-q775376",
@@ -89,7 +99,11 @@
           "title": "Museo Nacional de Bellas Artes (Chile)",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_(Chile)"
         }
-      }
+      },
+      "wikidata": "Q775376",
+      "website": "http://www.mnba.cl",
+      "lat": -33.43532,
+      "lon": -70.64357
     },
     {
       "id": "cl-q3064279",
@@ -122,7 +136,11 @@
           "title": "Museo Nacional de Historia Natural de Chile",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Historia_Natural_de_Chile"
         }
-      }
+      },
+      "wikidata": "Q3064279",
+      "website": "http://www.mnhn.cl",
+      "lat": -33.44217,
+      "lon": -70.68184
     },
     {
       "id": "cl-q1639516",
@@ -154,7 +172,10 @@
           "title": "Monitor Huáscar",
           "url": "https://es.wikipedia.org/wiki/Monitor_Hu%C3%A1scar"
         }
-      }
+      },
+      "wikidata": "Q1639516",
+      "lat": -36.70547,
+      "lon": -73.11142
     },
     {
       "id": "cl-q6940940",
@@ -186,7 +207,11 @@
           "title": "Museo de la Memoria y los Derechos Humanos",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Memoria_y_los_Derechos_Humanos"
         }
-      }
+      },
+      "wikidata": "Q6940940",
+      "website": "http://www.mmdh.cl",
+      "lat": -33.43984,
+      "lon": -70.67937
     },
     {
       "id": "cl-q605703",
@@ -218,7 +243,11 @@
           "title": "Museo de Arte Contemporáneo de Santiago",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Contempor%C3%A1neo_de_Santiago"
         }
-      }
+      },
+      "wikidata": "Q605703",
+      "website": "https://mac.uchile.cl/",
+      "lat": -33.44194,
+      "lon": -70.68042
     },
     {
       "id": "cl-q3647931",
@@ -246,7 +275,11 @@
           "title": "Museo Histórico Nacional (Chile)",
           "url": "https://es.wikipedia.org/wiki/Museo_Hist%C3%B3rico_Nacional_(Chile)"
         }
-      }
+      },
+      "wikidata": "Q3647931",
+      "website": "https://www.mhn.gob.cl/",
+      "lat": -33.437,
+      "lon": -70.65061
     },
     {
       "id": "cl-q6034308",
@@ -279,7 +312,11 @@
           "title": "Museo de la Solidaridad Salvador Allende",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Solidaridad_Salvador_Allende"
         }
-      }
+      },
+      "wikidata": "Q6034308",
+      "website": "http://www.mssa.cl",
+      "lat": -33.45415,
+      "lon": -70.66756
     },
     {
       "id": "cl-q6683083",
@@ -310,7 +347,11 @@
           "title": "Monumento natural Los Pingüinos",
           "url": "https://es.wikipedia.org/wiki/Monumento_natural_Los_Ping%C3%BCinos"
         }
-      }
+      },
+      "wikidata": "Q6683083",
+      "website": "http://www.conaf.cl/parques/monumento-natural-los-pinguinos/",
+      "lat": -52.91819,
+      "lon": -70.5746
     }
   ]
 }

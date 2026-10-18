@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Templo Choijin Lama",
           "url": "https://es.wikipedia.org/wiki/Templo_Choijin_Lama"
         }
-      }
+      },
+      "wikidata": "Q2093410",
+      "website": "http://www.templemuseum.mn/",
+      "lat": 47.915,
+      "lon": 106.91833
     },
     {
       "id": "mn-q2154176",
@@ -88,6 +98,16 @@
           "title": "Museo Nacional de Mongolia",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Mongolia"
         }
+      },
+      "wikidata": "Q2154176",
+      "website": "http://nationalmuseum.mn",
+      "lat": 47.9208,
+      "lon": 106.915,
+      "phone": "+976-70110911",
+      "hours": {
+        "text": "Tu-Su 09:00-18:00; May 15-Sep 16 Mo-Su 09:00-20:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -120,7 +140,11 @@
           "title": "Museo de historia natural de Mongolia",
           "url": "https://es.wikipedia.org/wiki/Museo_de_historia_natural_de_Mongolia"
         }
-      }
+      },
+      "wikidata": "Q2154359",
+      "website": "http://www.naturemuseum.mn",
+      "lat": 47.9235,
+      "lon": 106.90578
     },
     {
       "id": "mn-q2370206",
@@ -148,6 +172,15 @@
           "title": "Fine Arts Zanabazar Museum",
           "url": "https://en.wikipedia.org/wiki/Fine_Arts_Zanabazar_Museum"
         }
+      },
+      "wikidata": "Q2370206",
+      "website": "http://www.zanabazarfam.mn/",
+      "lat": 47.9202,
+      "lon": 106.9097,
+      "hours": {
+        "text": "May-Sep Mo-Su 09:00-18:00; Oct-Apr Mo-Fr 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -176,6 +209,14 @@
           "title": "Kharakhorum Museum",
           "url": "https://en.wikipedia.org/wiki/Kharakhorum_Museum"
         }
+      },
+      "wikidata": "Q2154295",
+      "lat": 47.1953,
+      "lon": 102.8393,
+      "hours": {
+        "text": "Mar-Oct: Mo-Su 09:00-18:00; Nov-Feb: Mo-Sa 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -204,7 +245,10 @@
           "title": "Ulaanbaatar City Museum",
           "url": "https://en.wikipedia.org/wiki/Ulaanbaatar_City_Museum"
         }
-      }
+      },
+      "wikidata": "Q2368924",
+      "lat": 47.91806,
+      "lon": 106.93583
     },
     {
       "id": "mn-q25631559",
@@ -232,7 +276,10 @@
           "title": "Memorial Museum of Victims of Political Repression",
           "url": "https://en.wikipedia.org/wiki/Memorial_Museum_of_Victims_of_Political_Repression"
         }
-      }
+      },
+      "wikidata": "Q25631559",
+      "lat": 47.91522,
+      "lon": 106.92061
     },
     {
       "id": "mn-q31188106",
@@ -260,7 +307,10 @@
           "title": "Göktürk Museum",
           "url": "https://en.wikipedia.org/wiki/G%C3%B6kt%C3%BCrk_Museum"
         }
-      }
+      },
+      "wikidata": "Q31188106",
+      "lat": 47.56058,
+      "lon": 102.84122
     }
   ]
 }

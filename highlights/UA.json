@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -58,7 +64,11 @@
           "title": "Catedral de Santa Sofía (Kiev)",
           "url": "https://es.wikipedia.org/wiki/Catedral_de_Santa_Sof%C3%ADa_(Kiev)"
         }
-      }
+      },
+      "wikidata": "Q830054",
+      "website": "https://st-sophia.org.ua/en/home/",
+      "lat": 50.45278,
+      "lon": 30.51444
     },
     {
       "id": "ua-q1440653",
@@ -91,7 +101,10 @@
           "title": "Casa con Quimeras",
           "url": "https://es.wikipedia.org/wiki/Casa_con_Quimeras"
         }
-      }
+      },
+      "wikidata": "Q1440653",
+      "lat": 50.445,
+      "lon": 30.52861
     },
     {
       "id": "ua-q1427503",
@@ -124,7 +137,10 @@
           "title": "Puerta dorada de Kiev",
           "url": "https://es.wikipedia.org/wiki/Puerta_dorada_de_Kiev"
         }
-      }
+      },
+      "wikidata": "Q1427503",
+      "lat": 50.44833,
+      "lon": 30.51306
     },
     {
       "id": "ua-q167321",
@@ -157,6 +173,15 @@
           "title": "Iglesia de San Andrés de Kiev",
           "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Andr%C3%A9s_de_Kiev"
         }
+      },
+      "wikidata": "Q167321",
+      "website": "https://stavropigiainua.org",
+      "lat": 50.45889,
+      "lon": 30.51806,
+      "hours": {
+        "text": "Mo-Su 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -191,7 +216,11 @@
           "title": "Parque Sofiyivski",
           "url": "https://es.wikipedia.org/wiki/Parque_Sofiyivski"
         }
-      }
+      },
+      "wikidata": "Q2297522",
+      "website": "https://www.sofievka.org/",
+      "lat": 48.76306,
+      "lon": 30.2225
     },
     {
       "id": "ua-q1189277",
@@ -224,6 +253,16 @@
           "title": "Museo Nacional de Arte de Ucrania",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_de_Ucrania"
         }
+      },
+      "wikidata": "Q1189277",
+      "website": "http://www.namu.ua/",
+      "lat": 50.44944,
+      "lon": 30.53111,
+      "phone": "+380-278-13-57",
+      "hours": {
+        "text": "Mo, Tu off; Su, We-Th 10:00-17:00; Fr 12:00-19:00; Sa 11:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -257,7 +296,11 @@
           "title": "Truskavets",
           "url": "https://es.wikipedia.org/wiki/Truskavets"
         }
-      }
+      },
+      "wikidata": "Q157440",
+      "website": "http://truskavets-city.gov.ua/",
+      "lat": 49.28056,
+      "lon": 23.505
     }
   ]
 }

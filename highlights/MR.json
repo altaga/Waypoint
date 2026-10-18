@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,10 @@
           "title": "Museo Nacional de Mauritania",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Mauritania"
         }
-      }
+      },
+      "wikidata": "Q2370438",
+      "lat": 18.08556,
+      "lon": -15.97472
     },
     {
       "id": "mr-q84440536",
@@ -88,7 +97,10 @@
           "title": "Museo de Uadane",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Uadane"
         }
-      }
+      },
+      "wikidata": "Q84440536",
+      "lat": 20.93289,
+      "lon": -11.62131
     }
   ]
 }

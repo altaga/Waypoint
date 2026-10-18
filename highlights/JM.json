@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Museo Bob Marley",
           "url": "https://es.wikipedia.org/wiki/Museo_Bob_Marley"
         }
-      }
+      },
+      "wikidata": "Q650517",
+      "website": "https://www.bobmarleymuseum.com/",
+      "lat": 18.01962,
+      "lon": -76.77983
     },
     {
       "id": "jm-q7995541",
@@ -85,7 +95,11 @@
           "title": "Annie Palmer (White Witch of Rose Hall)",
           "url": "https://en.wikipedia.org/wiki/Annie_Palmer_(White_Witch_of_Rose_Hall)"
         }
-      }
+      },
+      "wikidata": "Q7995541",
+      "website": "http://rosehall.com",
+      "lat": 18.08389,
+      "lon": -77.13389
     },
     {
       "id": "jm-q2498011",
@@ -117,7 +131,11 @@
           "title": "Galería Nacional de Jamaica",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Jamaica"
         }
-      }
+      },
+      "wikidata": "Q2498011",
+      "website": "https://nationalgalleryofjamaica.wordpress.com",
+      "lat": 17.9648,
+      "lon": -76.7947
     },
     {
       "id": "jm-q5602610",
@@ -145,7 +163,10 @@
           "title": "Green Grotto Caves",
           "url": "https://en.wikipedia.org/wiki/Green_Grotto_Caves"
         }
-      }
+      },
+      "wikidata": "Q5602610",
+      "lat": 18.4604,
+      "lon": -77.37413
     }
   ]
 }

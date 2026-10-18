@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,10 @@
           "title": "Alcázar de Colón",
           "url": "https://es.wikipedia.org/wiki/Alc%C3%A1zar_de_Col%C3%B3n"
         }
-      }
+      },
+      "wikidata": "Q668772",
+      "lat": 18.4775,
+      "lon": -69.88275
     },
     {
       "id": "do-q5472510",
@@ -88,7 +97,10 @@
           "title": "Fortaleza de San Felipe",
           "url": "https://es.wikipedia.org/wiki/Fortaleza_de_San_Felipe"
         }
-      }
+      },
+      "wikidata": "Q5472510",
+      "lat": 19.80389,
+      "lon": -70.69583
     },
     {
       "id": "do-q13619956",
@@ -120,7 +132,11 @@
           "title": "Museo Memorial de la Resistencia Dominicana",
           "url": "https://es.wikipedia.org/wiki/Museo_Memorial_de_la_Resistencia_Dominicana"
         }
-      }
+      },
+      "wikidata": "Q13619956",
+      "website": "http://www.museodelaresistencia.com/",
+      "lat": 18.47166,
+      "lon": -69.88821
     }
   ]
 }

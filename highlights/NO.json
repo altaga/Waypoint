@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Museo Munch",
           "url": "https://es.wikipedia.org/wiki/Museo_Munch"
         }
-      }
+      },
+      "wikidata": "Q844926",
+      "website": "https://www.munch.no/",
+      "lat": 59.90575,
+      "lon": 10.75531
     },
     {
       "id": "no-q644464",
@@ -88,7 +98,10 @@
           "title": "Fortaleza de Akershus",
           "url": "https://es.wikipedia.org/wiki/Fortaleza_de_Akershus"
         }
-      }
+      },
+      "wikidata": "Q644464",
+      "lat": 59.90661,
+      "lon": 10.73625
     },
     {
       "id": "no-q7460945",
@@ -120,7 +133,11 @@
           "title": "Parque de Vigeland",
           "url": "https://es.wikipedia.org/wiki/Parque_de_Vigeland"
         }
-      }
+      },
+      "wikidata": "Q7460945",
+      "website": "http://www.vigeland.museum.no/",
+      "lat": 59.92767,
+      "lon": 10.69889
     },
     {
       "id": "no-q941250",
@@ -152,6 +169,15 @@
           "title": "Museo del Fram",
           "url": "https://es.wikipedia.org/wiki/Museo_del_Fram"
         }
+      },
+      "wikidata": "Q941250",
+      "website": "http://www.frammuseum.no/",
+      "lat": 59.90333,
+      "lon": 10.69944,
+      "hours": {
+        "text": "Jan-Apr: 10:00-17:00; May; 10:00-18:00; Jun-Aug: 10:00-17:00; Sep: 10:00-18:00; Oct-Dec: 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -185,7 +211,12 @@
           "title": "Museo Nacional de Arte, Arquitectura y Diseño",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte%2C_Arquitectura_y_Dise%C3%B1o"
         }
-      }
+      },
+      "wikidata": "Q1132918",
+      "website": "https://www.nasjonalmuseet.no/en/",
+      "lat": 59.91167,
+      "lon": 10.72917,
+      "phone": "+47 21 98 20 00"
     },
     {
       "id": "no-q941120",
@@ -217,6 +248,16 @@
           "title": "Centro Nobel",
           "url": "https://es.wikipedia.org/wiki/Centro_Nobel"
         }
+      },
+      "wikidata": "Q941120",
+      "website": "http://www.nobelpeacecenter.org/",
+      "lat": 59.91161,
+      "lon": 10.73023,
+      "phone": "+47 48 30 10 00",
+      "hours": {
+        "text": "Jan 1 off; Jan 2‑6 Mo off; Jan 2‑6 Tu‑Su 11:00‑17:00; Jan 7‑May 31 Mo off; Jan 7‑May 31 Tu 11:00‑17:00; Jan 7‑May 31 We 11:00‑20:00; Jan 7‑May 31 Th‑Su 11:00‑17:00; May 1 11:00‑17:00; May 20 11:00‑13:00; Jun 1‑Aug 31 Mo‑Su 10:00‑18:00; May 17 off; Dec 9 o",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -249,6 +290,15 @@
           "title": "Museo de Barcos Vikingos (Oslo)",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Barcos_Vikingos_(Oslo)"
         }
+      },
+      "wikidata": "Q961220",
+      "website": "https://www.khm.uio.no/vikingskipshuset/",
+      "lat": 59.90475,
+      "lon": 10.68444,
+      "hours": {
+        "text": "closed",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -281,6 +331,16 @@
           "title": "Museo Kon-Tiki",
           "url": "https://es.wikipedia.org/wiki/Museo_Kon-Tiki"
         }
+      },
+      "wikidata": "Q1415972",
+      "website": "https://www.kon-tiki.no/",
+      "lat": 59.90361,
+      "lon": 10.69806,
+      "phone": "+47-23-08-67-67",
+      "hours": {
+        "text": "May 10:00-18:00; Jun-Aug 09:30-18:00; Sep-Apr 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -313,7 +373,11 @@
           "title": "Museo del Pueblo Noruego",
           "url": "https://es.wikipedia.org/wiki/Museo_del_Pueblo_Noruego"
         }
-      }
+      },
+      "wikidata": "Q937521",
+      "website": "http://www.norskfolkemuseum.no/",
+      "lat": 59.90691,
+      "lon": 10.68596
     },
     {
       "id": "no-q1291307",
@@ -345,6 +409,16 @@
           "title": "Troldhaugen",
           "url": "https://es.wikipedia.org/wiki/Troldhaugen"
         }
+      },
+      "wikidata": "Q1291307",
+      "website": "https://www.kodebergen.no/museene/troldhaugen",
+      "lat": 60.3196,
+      "lon": 5.32948,
+      "phone": "+47 55 92 29 92",
+      "hours": {
+        "text": "Jan-Apr: Mo-Su 10:00-16:00; May-Sep: Mo-Su 09:00-18:00; Oct-Dec: Mo-Su 10:00-16:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -377,7 +451,11 @@
           "title": "Museo de Bergen",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Bergen"
         }
-      }
+      },
+      "wikidata": "Q301787",
+      "website": "https://www.uib.no/en/universitymuseum",
+      "lat": 60.38762,
+      "lon": 5.32158
     }
   ]
 }

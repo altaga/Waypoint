@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -58,7 +64,10 @@
           "title": "Mezquita de los Omeyas",
           "url": "https://es.wikipedia.org/wiki/Mezquita_de_los_Omeyas"
         }
-      }
+      },
+      "wikidata": "Q183562",
+      "lat": 33.51139,
+      "lon": 36.30667
     },
     {
       "id": "sy-q617254",
@@ -91,7 +100,11 @@
           "title": "Museo Nacional de Damasco",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Damasco"
         }
-      }
+      },
+      "wikidata": "Q617254",
+      "website": "https://dgam.gov.sy/?p=10598",
+      "lat": 33.51257,
+      "lon": 36.29004
     },
     {
       "id": "sy-q1164599",
@@ -120,7 +133,10 @@
           "title": "National Museum of Aleppo",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_Aleppo"
         }
-      }
+      },
+      "wikidata": "Q1164599",
+      "lat": 36.205,
+      "lon": 37.15
     },
     {
       "id": "sy-q1749276",
@@ -153,7 +169,10 @@
           "title": "Catedral de Nuestra Señora de Tartús",
           "url": "https://es.wikipedia.org/wiki/Catedral_de_Nuestra_Se%C3%B1ora_de_Tart%C3%BAs"
         }
-      }
+      },
+      "wikidata": "Q1749276",
+      "lat": 34.89172,
+      "lon": 35.87841
     },
     {
       "id": "sy-q632127",
@@ -186,7 +205,10 @@
           "title": "Bimaristán de Nur ad-Din",
           "url": "https://es.wikipedia.org/wiki/Bimarist%C3%A1n_de_Nur_ad-Din"
         }
-      }
+      },
+      "wikidata": "Q632127",
+      "lat": 33.5102,
+      "lon": 36.30346
     },
     {
       "id": "sy-q55627273",
@@ -215,7 +237,10 @@
           "title": "October War Panorama",
           "url": "https://en.wikipedia.org/wiki/October_War_Panorama"
         }
-      }
+      },
+      "wikidata": "Q55627273",
+      "lat": 33.53583,
+      "lon": 36.3212
     }
   ]
 }

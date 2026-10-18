@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Jardín Botánico y Zoológico de Tsimbazaza",
           "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_y_Zool%C3%B3gico_de_Tsimbazaza"
         }
-      }
+      },
+      "wikidata": "Q7849674",
+      "website": "http://pbzt.recherches.gov.mg",
+      "lat": -18.93,
+      "lon": 47.5261
     },
     {
       "id": "mg-q2370232",
@@ -90,7 +100,10 @@
           "title": "Museo de arte y arqueología de la Universidad de Madagascar",
           "url": "https://es.wikipedia.org/wiki/Museo_de_arte_y_arqueolog%C3%ADa_de_la_Universidad_de_Madagascar"
         }
-      }
+      },
+      "wikidata": "Q2370232",
+      "lat": -18.91184,
+      "lon": 47.52088
     },
     {
       "id": "mg-q27576370",
@@ -118,7 +131,10 @@
           "title": "Nosy Tanikely National Park",
           "url": "https://en.wikipedia.org/wiki/Nosy_Tanikely_National_Park"
         }
-      }
+      },
+      "wikidata": "Q27576370",
+      "lat": -12.23769,
+      "lon": 49.01357
     }
   ]
 }

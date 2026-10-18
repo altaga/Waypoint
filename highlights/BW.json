@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,6 +62,15 @@
           "title": "Museo nacional de Botsuana",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Botsuana"
         }
+      },
+      "wikidata": "Q859613",
+      "lat": -24.65699,
+      "lon": 25.91966,
+      "phone": "+267 397 4616",
+      "hours": {
+        "text": "Tu-Fr 07:30-12:45, 13:45-16:30;Sa-Su 08:00-12:45, 13:45-16:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -88,7 +103,12 @@
           "title": "Museo de Phuthadikobo",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Phuthadikobo"
         }
-      }
+      },
+      "wikidata": "Q615930",
+      "website": "http://www.kgaboprecincts.org/?q=node/59",
+      "lat": -24.38783,
+      "lon": 26.15206,
+      "phone": "+267 577 7238"
     },
     {
       "id": "bw-q3504025",
@@ -116,7 +136,12 @@
           "title": "Supa Ngwao Museum",
           "url": "https://en.wikipedia.org/wiki/Supa_Ngwao_Museum"
         }
-      }
+      },
+      "wikidata": "Q3504025",
+      "website": "https://museum-francistown.org/",
+      "lat": -21.17361,
+      "lon": 27.5125,
+      "phone": "+267 2403088"
     }
   ]
 }

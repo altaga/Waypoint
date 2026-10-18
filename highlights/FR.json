@@ -13,10 +13,10 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "fr-tourism": {
       "title": "Atout France (France.fr)",
@@ -29,6 +29,12 @@
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -52,6 +58,14 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      },
+      "website": "https://www.louvre.fr/en",
+      "lat": 48.861111,
+      "lon": 2.335833,
+      "hours": {
+        "text": "Mo,Th,Sa,Su 09:00-18:00; We,Fr 09:00-21:00; Tu off",
+        "source": "https://www.louvre.fr/en/visit/hours-admission",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -73,7 +87,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 48.858296,
+      "lon": 2.294479
     },
     {
       "id": "fr-montmartre",
@@ -95,7 +111,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 48.886944,
+      "lon": 2.341111
     },
     {
       "id": "fr-marais",
@@ -117,7 +135,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 48.86,
+      "lon": 2.360833
     },
     {
       "id": "fr-versailles",
@@ -139,7 +159,11 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://en.chateauversailles.fr/",
+      "lat": 48.804722,
+      "lon": 2.120278,
+      "phone": "+33 1 30 83 78 00"
     },
     {
       "id": "fr-orsay",
@@ -160,7 +184,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 48.859972,
+      "lon": 2.326528
     },
     {
       "id": "fr-vieux-port",
@@ -182,7 +208,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 43.29472,
+      "lon": 5.37083
     },
     {
       "id": "fr-mont-saint-michel",
@@ -204,7 +232,11 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.mairie-lemontsaintmichel.fr/",
+      "lat": 48.635833,
+      "lon": -1.510278,
+      "phone": "+33 2 33 60 14 06"
     },
     {
       "id": "fr-q201428",
@@ -237,7 +269,11 @@
           "title": "Palacio de Fontainebleau",
           "url": "https://es.wikipedia.org/wiki/Palacio_de_Fontainebleau"
         }
-      }
+      },
+      "wikidata": "Q201428",
+      "website": "https://www.chateaudefontainebleau.fr/",
+      "lat": 48.40222,
+      "lon": 2.70056
     },
     {
       "id": "fr-q818517",
@@ -269,6 +305,15 @@
           "title": "Jardín de las Tullerías",
           "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_de_las_Tuller%C3%ADas"
         }
+      },
+      "wikidata": "Q818517",
+      "website": "https://www.parisinfo.com/musee-monument-paris/71304/Jardin-des-Tuileries",
+      "lat": 48.86389,
+      "lon": 2.32611,
+      "hours": {
+        "text": "Mo-Su 07:30-21:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -301,6 +346,16 @@
           "title": "Catacumbas de París",
           "url": "https://es.wikipedia.org/wiki/Catacumbas_de_Par%C3%ADs"
         }
+      },
+      "wikidata": "Q28924",
+      "website": "https://www.catacombes.paris.fr",
+      "lat": 48.83397,
+      "lon": 2.33245,
+      "phone": "+33 1 43224763",
+      "hours": {
+        "text": "Tu-Su 09:45-20:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -332,7 +387,10 @@
           "title": "Bastilla",
           "url": "https://es.wikipedia.org/wiki/Bastilla"
         }
-      }
+      },
+      "wikidata": "Q1865480",
+      "lat": 48.85333,
+      "lon": 2.36917
     },
     {
       "id": "fr-q178065",
@@ -365,6 +423,16 @@
           "title": "Centro Pompidou",
           "url": "https://es.wikipedia.org/wiki/Centro_Pompidou"
         }
+      },
+      "wikidata": "Q178065",
+      "website": "https://centrepompidou.fr",
+      "lat": 48.86064,
+      "lon": 2.35224,
+      "phone": "+33-1-44-78-12-33",
+      "hours": {
+        "text": "closed",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -397,7 +465,12 @@
           "title": "Maison Carrée",
           "url": "https://es.wikipedia.org/wiki/Maison_Carr%C3%A9e"
         }
-      }
+      },
+      "wikidata": "Q677659",
+      "website": "https://www.maisoncarree.eu/en/",
+      "lat": 43.83819,
+      "lon": 4.35611,
+      "phone": "+33 4 66 21 82 56"
     },
     {
       "id": "fr-q833850",
@@ -429,7 +502,11 @@
           "title": "Alineamientos de Carnac",
           "url": "https://es.wikipedia.org/wiki/Alineamientos_de_Carnac"
         }
-      }
+      },
+      "wikidata": "Q833850",
+      "website": "https://www.menhirs-carnac.fr/en/",
+      "lat": 47.59333,
+      "lon": -3.07972
     },
     {
       "id": "fr-q663673",
@@ -461,7 +538,12 @@
           "title": "Castillo de Vincennes",
           "url": "https://es.wikipedia.org/wiki/Castillo_de_Vincennes"
         }
-      }
+      },
+      "wikidata": "Q663673",
+      "website": "http://www.chateau-vincennes.fr/",
+      "lat": 48.84278,
+      "lon": 2.43583,
+      "phone": "+33 1 43 28 15 48"
     },
     {
       "id": "fr-q835966",
@@ -492,6 +574,14 @@
           "title": "Alesia (ciudad)",
           "url": "https://es.wikipedia.org/wiki/Alesia_(ciudad)"
         }
+      },
+      "wikidata": "Q835966",
+      "lat": 47.53917,
+      "lon": 4.50056,
+      "hours": {
+        "text": "Apr Sa[1]-Nov Su[1] 10:00-17:00; Apr-Jun,Sep-Oct 10:00-18:00; Jul-Aug 09:30-19:00; PH \"Ouverture normale\"",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -524,7 +614,11 @@
           "title": "Palacio de Tau",
           "url": "https://es.wikipedia.org/wiki/Palacio_de_Tau"
         }
-      }
+      },
+      "wikidata": "Q578771",
+      "website": "http://palais-tau.monuments-nationaux.fr/",
+      "lat": 49.25306,
+      "lon": 4.03444
     },
     {
       "id": "fr-q206521",
@@ -555,7 +649,11 @@
           "title": "Disneyland Paris",
           "url": "https://es.wikipedia.org/wiki/Disneyland_Paris"
         }
-      }
+      },
+      "wikidata": "Q206521",
+      "website": "https://www.disneylandparis.com/",
+      "lat": 48.86872,
+      "lon": 2.7818
     }
   ]
 }

@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Gran Mezquita de La Meca",
           "url": "https://es.wikipedia.org/wiki/Gran_Mezquita_de_La_Meca"
         }
-      }
+      },
+      "wikidata": "Q428858",
+      "website": "http://www.gph.gov.sa/",
+      "lat": 21.4225,
+      "lon": 39.82611
     },
     {
       "id": "sa-q486080",
@@ -90,7 +100,11 @@
           "title": "Mezquita del Profeta",
           "url": "https://es.wikipedia.org/wiki/Mezquita_del_Profeta"
         }
-      }
+      },
+      "wikidata": "Q486080",
+      "website": "https://wmn.gov.sa/",
+      "lat": 24.46833,
+      "lon": 39.61083
     },
     {
       "id": "sa-q656743",
@@ -122,7 +136,11 @@
           "title": "Kingdom Centre",
           "url": "https://es.wikipedia.org/wiki/Kingdom_Centre"
         }
-      }
+      },
+      "wikidata": "Q656743",
+      "website": "http://kingdomcentre.com.sa",
+      "lat": 24.71139,
+      "lon": 46.67444
     },
     {
       "id": "sa-q751987",
@@ -150,7 +168,10 @@
           "title": "Al Masmak Palace",
           "url": "https://en.wikipedia.org/wiki/Al_Masmak_Palace"
         }
-      }
+      },
+      "wikidata": "Q751987",
+      "lat": 24.6311,
+      "lon": 46.7133
     },
     {
       "id": "sa-q5701241",
@@ -178,7 +199,10 @@
           "title": "Hejaz Railway Museum",
           "url": "https://en.wikipedia.org/wiki/Hejaz_Railway_Museum"
         }
-      }
+      },
+      "wikidata": "Q5701241",
+      "lat": 24.4617,
+      "lon": 39.6002
     },
     {
       "id": "sa-q6172700",
@@ -206,7 +230,10 @@
           "title": "Khuzam Palace",
           "url": "https://en.wikipedia.org/wiki/Khuzam_Palace"
         }
-      }
+      },
+      "wikidata": "Q6172700",
+      "lat": 21.4737,
+      "lon": 39.2067
     }
   ]
 }

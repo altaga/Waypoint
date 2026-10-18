@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -52,7 +58,11 @@
           "title": "Kigali Genocide Memorial",
           "url": "https://en.wikipedia.org/wiki/Kigali_Genocide_Memorial"
         }
-      }
+      },
+      "wikidata": "Q6405906",
+      "website": "http://www.kgm.rw/",
+      "lat": -1.93089,
+      "lon": 30.06071
     },
     {
       "id": "rw-q24964531",
@@ -83,7 +93,10 @@
           "title": "Memorial del genocidio de Bisesero",
           "url": "https://es.wikipedia.org/wiki/Memorial_del_genocidio_de_Bisesero"
         }
-      }
+      },
+      "wikidata": "Q24964531",
+      "lat": -2.192,
+      "lon": 29.3413
     },
     {
       "id": "rw-q2110810",
@@ -115,7 +128,11 @@
           "title": "Museo nacional de Ruanda",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Ruanda"
         }
-      }
+      },
+      "wikidata": "Q2110810",
+      "website": "http://museum.gov.rw",
+      "lat": -2.58878,
+      "lon": 29.74518
     },
     {
       "id": "rw-q11295489",
@@ -143,7 +160,10 @@
           "title": "Kandt House Museum",
           "url": "https://en.wikipedia.org/wiki/Kandt_House_Museum"
         }
-      }
+      },
+      "wikidata": "Q11295489",
+      "lat": -1.94661,
+      "lon": 30.05319
     },
     {
       "id": "rw-q2110327",
@@ -175,7 +195,11 @@
           "title": "Museo de arte de Rwesero",
           "url": "https://es.wikipedia.org/wiki/Museo_de_arte_de_Rwesero"
         }
-      }
+      },
+      "wikidata": "Q2110327",
+      "website": "http://museum.gov.rw/index.php?id=70",
+      "lat": -2.36022,
+      "lon": 29.73936
     },
     {
       "id": "rw-q16678454",
@@ -203,7 +227,10 @@
           "title": "King's Palace Museum Rukari",
           "url": "https://en.wikipedia.org/wiki/King's_Palace_Museum_Rukari"
         }
-      }
+      },
+      "wikidata": "Q16678454",
+      "lat": -2.3603,
+      "lon": 29.7399
     },
     {
       "id": "rw-q16678464",
@@ -231,7 +258,11 @@
           "title": "Rwanda Art Museum",
           "url": "https://en.wikipedia.org/wiki/Rwanda_Art_Museum"
         }
-      }
+      },
+      "wikidata": "Q16678464",
+      "website": "https://www.museum.gov.rw/index.php?id=74",
+      "lat": -1.97531,
+      "lon": 30.17303
     }
   ]
 }

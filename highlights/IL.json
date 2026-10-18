@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,6 +63,16 @@
           "title": "Museo de Israel",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Israel"
         }
+      },
+      "wikidata": "Q46815",
+      "website": "https://www.imj.org.il/en",
+      "lat": 31.7725,
+      "lon": 35.20417,
+      "phone": "+972 2 670-8811",
+      "hours": {
+        "text": "Mo,We-Th,Su,PH 10:00-17:00; Tu 16:00-21:00; Fr 10:00-14:00; Sa 10:30-16:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -89,7 +105,10 @@
           "title": "Santo Sepulcro",
           "url": "https://es.wikipedia.org/wiki/Santo_Sepulcro"
         }
-      }
+      },
+      "wikidata": "Q187702",
+      "lat": 31.77844,
+      "lon": 35.22975
     },
     {
       "id": "il-q126130",
@@ -121,6 +140,15 @@
           "title": "Museo Tierras de la Biblia",
           "url": "https://es.wikipedia.org/wiki/Museo_Tierras_de_la_Biblia"
         }
+      },
+      "wikidata": "Q126130",
+      "website": "https://www.blmj.org/en/",
+      "lat": 31.77495,
+      "lon": 35.20248,
+      "hours": {
+        "text": "Mo-Su 09:30-17:30; We 09:30-21:30; Fr,Sa 10:00-14:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -153,7 +181,12 @@
           "title": "Yad Vashem",
           "url": "https://es.wikipedia.org/wiki/Yad_Vashem"
         }
-      }
+      },
+      "wikidata": "Q156591",
+      "website": "https://www.yadvashem.org/",
+      "lat": 31.77442,
+      "lon": 35.17725,
+      "phone": "+972 2-644-3400"
     },
     {
       "id": "il-q456800",
@@ -185,7 +218,11 @@
           "title": "Mini Israel",
           "url": "https://es.wikipedia.org/wiki/Mini_Israel"
         }
-      }
+      },
+      "wikidata": "Q456800",
+      "website": "https://minisrael.co.il",
+      "lat": 31.84217,
+      "lon": 34.96837
     },
     {
       "id": "il-q796764",
@@ -217,7 +254,11 @@
           "title": "ANU - Museo del Pueblo Judío",
           "url": "https://es.wikipedia.org/wiki/ANU_-_Museo_del_Pueblo_Jud%C3%ADo"
         }
-      }
+      },
+      "wikidata": "Q796764",
+      "website": "https://www.anumuseum.org.il/",
+      "lat": 32.11381,
+      "lon": 34.80526
     },
     {
       "id": "il-q840618",
@@ -249,7 +290,12 @@
           "title": "Museo Eretz Israel",
           "url": "https://es.wikipedia.org/wiki/Museo_Eretz_Israel"
         }
-      }
+      },
+      "wikidata": "Q840618",
+      "website": "http://www.eretzmuseum.org.il",
+      "lat": 32.10315,
+      "lon": 34.79642,
+      "phone": "03-6415244"
     },
     {
       "id": "il-q174527",
@@ -281,7 +327,11 @@
           "title": "Santuario del Libro",
           "url": "https://es.wikipedia.org/wiki/Santuario_del_Libro"
         }
-      }
+      },
+      "wikidata": "Q174527",
+      "website": "http://www.imj.org.il/wings/%D7%9E%D7%9B%D7%9C%D7%95%D7%9C-%D7%94%D7%99%D7%9B%D7%9C-%D7%94%D7%A1%D7%A4%D7%A8",
+      "lat": 31.77333,
+      "lon": 35.20278
     },
     {
       "id": "il-q1267958",
@@ -313,7 +363,12 @@
           "title": "Museo de Arte de Tel Aviv",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_de_Tel_Aviv"
         }
-      }
+      },
+      "wikidata": "Q1267958",
+      "website": "https://www.tamuseum.org.il",
+      "lat": 32.0775,
+      "lon": 34.78667,
+      "phone": "+972-3-6077020"
     },
     {
       "id": "il-q2297982",
@@ -346,7 +401,11 @@
           "title": "Museo de Diseño Jolón",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Dise%C3%B1o_Jol%C3%B3n"
         }
-      }
+      },
+      "wikidata": "Q2297982",
+      "website": "http://www.dmh.org.il/heb/",
+      "lat": 32.01096,
+      "lon": 34.77761
     }
   ]
 }

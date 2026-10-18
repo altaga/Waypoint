@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Estatua de la Libertad",
           "url": "https://es.wikipedia.org/wiki/Estatua_de_la_Libertad"
         }
-      }
+      },
+      "wikidata": "Q9202",
+      "website": "http://www.nps.gov/stli/index.htm",
+      "lat": 40.68921,
+      "lon": -74.04443
     },
     {
       "id": "us-q160236",
@@ -90,6 +100,16 @@
           "title": "Museo Metropolitano de Arte",
           "url": "https://es.wikipedia.org/wiki/Museo_Metropolitano_de_Arte"
         }
+      },
+      "wikidata": "Q160236",
+      "website": "https://www.metmuseum.org/",
+      "lat": 40.77944,
+      "lon": -73.96333,
+      "phone": "+1 (212) 535-7710",
+      "hours": {
+        "text": "10:00-17:00; Fr-Sa 10:00-21:00; We off; May Mo[1] off; Nov Th[4] off; Dec 25 off; Jan 01 off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -122,6 +142,16 @@
           "title": "MoMA",
           "url": "https://es.wikipedia.org/wiki/MoMA"
         }
+      },
+      "wikidata": "Q188740",
+      "website": "https://www.moma.org/",
+      "lat": 40.76167,
+      "lon": -73.9775,
+      "phone": "+1 212-708-9400",
+      "hours": {
+        "text": "Mo-Su 10:30-17:30; Sa 10:30-19:00; Dec 25 off; Nov Th[4] off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -155,6 +185,16 @@
           "title": "Museo Solomon R. Guggenheim",
           "url": "https://es.wikipedia.org/wiki/Museo_Solomon_R._Guggenheim"
         }
+      },
+      "wikidata": "Q201469",
+      "website": "https://www.guggenheim.org/",
+      "lat": 40.78306,
+      "lon": -73.95889,
+      "phone": "+1 212-423-3500",
+      "hours": {
+        "text": "Mo-Su 10:30-17:30; Nov Th[4] off; Dec 24 10:30-16:00; Dec 25 off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -188,6 +228,16 @@
           "title": "Museo Americano de Historia Natural",
           "url": "https://es.wikipedia.org/wiki/Museo_Americano_de_Historia_Natural"
         }
+      },
+      "wikidata": "Q217717",
+      "website": "http://www.amnh.org/",
+      "lat": 40.78083,
+      "lon": -73.97444,
+      "phone": "+1 212-769-5100",
+      "hours": {
+        "text": "Mo-Su 10:00-17:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -220,7 +270,11 @@
           "title": "Salón de la Fama del Rock and Roll",
           "url": "https://es.wikipedia.org/wiki/Sal%C3%B3n_de_la_Fama_del_Rock_and_Roll"
         }
-      }
+      },
+      "wikidata": "Q179191",
+      "website": "https://rockhall.com",
+      "lat": 41.50861,
+      "lon": -81.69556
     },
     {
       "id": "us-q9219",
@@ -252,7 +306,11 @@
           "title": "Academia Militar de los Estados Unidos",
           "url": "https://es.wikipedia.org/wiki/Academia_Militar_de_los_Estados_Unidos"
         }
-      }
+      },
+      "wikidata": "Q9219",
+      "website": "https://www.westpoint.edu",
+      "lat": 41.3925,
+      "lon": -73.9575
     },
     {
       "id": "us-q463179",
@@ -285,7 +343,11 @@
           "title": "Casa de la cascada",
           "url": "https://es.wikipedia.org/wiki/Casa_de_la_cascada"
         }
-      }
+      },
+      "wikidata": "Q463179",
+      "website": "https://fallingwater.org/",
+      "lat": 39.90639,
+      "lon": -79.46806
     },
     {
       "id": "us-q181185",
@@ -318,6 +380,15 @@
           "title": "Disneyland",
           "url": "https://es.wikipedia.org/wiki/Disneyland"
         }
+      },
+      "wikidata": "Q181185",
+      "website": "https://disneyland.disney.go.com",
+      "lat": 33.809,
+      "lon": -117.919,
+      "hours": {
+        "text": "\"Mon-Sun (Disneyland park hours vary from day to day.\"",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -351,7 +422,11 @@
           "title": "Walt Disney World Resort",
           "url": "https://es.wikipedia.org/wiki/Walt_Disney_World_Resort"
         }
-      }
+      },
+      "wikidata": "Q206859",
+      "website": "http://disneyworld.disney.go.com/",
+      "lat": 28.3722,
+      "lon": -81.5494
     },
     {
       "id": "us-q242681",
@@ -383,6 +458,16 @@
           "title": "Parque nacional de Mammoth Cave",
           "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Mammoth_Cave"
         }
+      },
+      "wikidata": "Q242681",
+      "website": "https://www.nps.gov/maca/index.htm",
+      "lat": 37.18694,
+      "lon": -86.10111,
+      "phone": "+1-270-758-2180",
+      "hours": {
+        "text": "Mo-Su 08:30-20:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -416,6 +501,15 @@
           "title": "Institución Smithsonian",
           "url": "https://es.wikipedia.org/wiki/Instituci%C3%B3n_Smithsonian"
         }
+      },
+      "wikidata": "Q131626",
+      "website": "https://www.si.edu/",
+      "lat": 38.88889,
+      "lon": -77.026,
+      "hours": {
+        "text": "Mo-Su 08:00-17:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -448,7 +542,11 @@
           "title": "Hollywood Sign",
           "url": "https://es.wikipedia.org/wiki/Hollywood_Sign"
         }
-      }
+      },
+      "wikidata": "Q180376",
+      "website": "http://hollywoodsign.org/",
+      "lat": 34.1341,
+      "lon": -118.32169
     },
     {
       "id": "us-q71719",
@@ -480,7 +578,11 @@
           "title": "Paseo de la fama de Hollywood",
           "url": "https://es.wikipedia.org/wiki/Paseo_de_la_fama_de_Hollywood"
         }
-      }
+      },
+      "wikidata": "Q71719",
+      "website": "https://walkoffame.com/",
+      "lat": 34.1014,
+      "lon": -118.34497
     },
     {
       "id": "us-q237128",
@@ -513,7 +615,11 @@
           "title": "Parque nacional de Mesa Verde",
           "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Mesa_Verde"
         }
-      }
+      },
+      "wikidata": "Q237128",
+      "website": "https://www.nps.gov/meve/index.htm",
+      "lat": 37.26038,
+      "lon": -108.49444
     },
     {
       "id": "us-q333661",
@@ -545,7 +651,11 @@
           "title": "Cahokia",
           "url": "https://es.wikipedia.org/wiki/Cahokia"
         }
-      }
+      },
+      "wikidata": "Q333661",
+      "website": "http://www.cahokiamounds.org/",
+      "lat": 38.65389,
+      "lon": -90.06444
     },
     {
       "id": "us-q390028",
@@ -578,6 +688,15 @@
           "title": "Independence Hall",
           "url": "https://es.wikipedia.org/wiki/Independence_Hall"
         }
+      },
+      "wikidata": "Q390028",
+      "website": "https://www.nps.gov/inde/planyourvisit/independencehall.htm",
+      "lat": 39.94889,
+      "lon": -75.15,
+      "hours": {
+        "text": "Mo-Su 09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -611,7 +730,11 @@
           "title": "Getty Center",
           "url": "https://es.wikipedia.org/wiki/Getty_Center"
         }
-      }
+      },
+      "wikidata": "Q29247",
+      "website": "https://www.getty.edu/",
+      "lat": 34.0775,
+      "lon": -118.475
     },
     {
       "id": "us-q632682",
@@ -644,6 +767,16 @@
           "title": "Museo Brooklyn",
           "url": "https://es.wikipedia.org/wiki/Museo_Brooklyn"
         }
+      },
+      "wikidata": "Q632682",
+      "website": "https://www.brooklynmuseum.org/",
+      "lat": 40.67121,
+      "lon": -73.96363,
+      "phone": "+1 (718) 638-5000",
+      "hours": {
+        "text": "We-Su 11:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -676,6 +809,16 @@
           "title": "Museo de Bellas Artes (Boston)",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Bellas_Artes_(Boston)"
         }
+      },
+      "wikidata": "Q49133",
+      "website": "http://www.mfa.org/",
+      "lat": 42.33944,
+      "lon": -71.09417,
+      "phone": "+1 (617) 267-9300",
+      "hours": {
+        "text": "We, Sa-Mo 10:00-17:00; Th-Fr 10:00-22:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

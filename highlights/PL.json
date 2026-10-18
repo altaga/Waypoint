@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,6 +63,15 @@
           "title": "Campo de concentración de Auschwitz",
           "url": "https://es.wikipedia.org/wiki/Campo_de_concentraci%C3%B3n_de_Auschwitz"
         }
+      },
+      "wikidata": "Q7341",
+      "website": "http://www.auschwitz.org/",
+      "lat": 50.03583,
+      "lon": 19.17833,
+      "hours": {
+        "text": "Jan: Mo-Su 07:30-15:00; Feb: Mo-Su 07:30-16:00; Mar: Mo-Su 07:30-17:00; Apr-May: Mo-Su 07:30-18:00; Jun-Aug: Mo-Su 07:30-19:00; Sep: Mo-Su 07:30-18:00; Oct: Mo-Su 07:30-17:00; Nov: Mo-Su 07:30-15:00; Dec: Mo-Su 07:30-14:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -89,7 +104,11 @@
           "title": "Świnoujście",
           "url": "https://es.wikipedia.org/wiki/%C5%9Awinouj%C5%9Bcie"
         }
-      }
+      },
+      "wikidata": "Q41599",
+      "website": "https://www.swinoujscie.pl/",
+      "lat": 53.91028,
+      "lon": 14.24694
     },
     {
       "id": "pl-q110011",
@@ -121,7 +140,11 @@
           "title": "Kołobrzeg",
           "url": "https://es.wikipedia.org/wiki/Ko%C5%82obrzeg"
         }
-      }
+      },
+      "wikidata": "Q110011",
+      "website": "http://www.kolobrzeg.pl",
+      "lat": 54.17611,
+      "lon": 15.57611
     },
     {
       "id": "pl-q152010",
@@ -152,7 +175,10 @@
           "title": "Campo de exterminio de Treblinka",
           "url": "https://es.wikipedia.org/wiki/Campo_de_exterminio_de_Treblinka"
         }
-      }
+      },
+      "wikidata": "Q152010",
+      "lat": 52.63111,
+      "lon": 22.05306
     },
     {
       "id": "pl-q71279",
@@ -184,7 +210,12 @@
           "title": "Castillo de Malbork",
           "url": "https://es.wikipedia.org/wiki/Castillo_de_Malbork"
         }
-      }
+      },
+      "wikidata": "Q71279",
+      "website": "https://zamek.malbork.pl/en",
+      "lat": 54.03972,
+      "lon": 19.02778,
+      "phone": "+48 55 647 08 77"
     },
     {
       "id": "pl-q167566",
@@ -216,7 +247,12 @@
           "title": "Palacio de la Cultura y la Ciencia",
           "url": "https://es.wikipedia.org/wiki/Palacio_de_la_Cultura_y_la_Ciencia"
         }
-      }
+      },
+      "wikidata": "Q167566",
+      "website": "http://www.pkin.pl",
+      "lat": 52.23167,
+      "lon": 21.00639,
+      "phone": "+48 22 656 76 00"
     },
     {
       "id": "pl-q160135",
@@ -248,7 +284,11 @@
           "title": "Campo de concentración de Majdanek",
           "url": "https://es.wikipedia.org/wiki/Campo_de_concentraci%C3%B3n_de_Majdanek"
         }
-      }
+      },
+      "wikidata": "Q160135",
+      "website": "http://www.majdanek.eu",
+      "lat": 51.22278,
+      "lon": 22.59861
     },
     {
       "id": "pl-q454019",
@@ -281,6 +321,16 @@
           "title": "Minas de sal de Wieliczka",
           "url": "https://es.wikipedia.org/wiki/Minas_de_sal_de_Wieliczka"
         }
+      },
+      "wikidata": "Q454019",
+      "website": "http://www.kopalnia.pl",
+      "lat": 49.98305,
+      "lon": 20.05566,
+      "phone": "+48 12 278 73 02",
+      "hours": {
+        "text": "Mo-Su 07:30-19:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

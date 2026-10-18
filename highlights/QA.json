@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,6 +63,16 @@
           "title": "Museo de arte islámico de Doha",
           "url": "https://es.wikipedia.org/wiki/Museo_de_arte_isl%C3%A1mico_de_Doha"
         }
+      },
+      "wikidata": "Q1148353",
+      "website": "https://www.mia.org.qa/en/",
+      "lat": 25.29502,
+      "lon": 51.53927,
+      "phone": "+974-4422-4488",
+      "hours": {
+        "text": "Sa-Tu 09:00-19:00; Fr 13:30-19:00; Th 09:00-21:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -90,6 +106,16 @@
           "title": "Museo Nacional de Catar",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Catar"
         }
+      },
+      "wikidata": "Q3084218",
+      "website": "https://nmoq.org.qa/en/",
+      "lat": 25.28847,
+      "lon": 51.54926,
+      "phone": "+974 4452 5555",
+      "hours": {
+        "text": "Fr 13:30-19:00; We, Sa-Mo 09:00-19:00; Th 09:00-21:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -122,7 +148,11 @@
           "title": "Museo árabe de arte moderno",
           "url": "https://es.wikipedia.org/wiki/Museo_%C3%A1rabe_de_arte_moderno"
         }
-      }
+      },
+      "wikidata": "Q1908321",
+      "website": "https://mathaf.org.qa/",
+      "lat": 25.31056,
+      "lon": 51.41972
     }
   ]
 }

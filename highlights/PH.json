@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,10 @@
           "title": "Cueva del Callao",
           "url": "https://es.wikipedia.org/wiki/Cueva_del_Callao"
         }
-      }
+      },
+      "wikidata": "Q5021779",
+      "lat": 17.70326,
+      "lon": 121.82375
     },
     {
       "id": "ph-q1472845",
@@ -88,7 +97,10 @@
           "title": "Fuerte de San Pedro",
           "url": "https://es.wikipedia.org/wiki/Fuerte_de_San_Pedro"
         }
-      }
+      },
+      "wikidata": "Q1472845",
+      "lat": 10.29253,
+      "lon": 123.90586
     },
     {
       "id": "ph-q28980",
@@ -120,6 +132,15 @@
           "title": "Parque oceánico de Manila",
           "url": "https://es.wikipedia.org/wiki/Parque_oce%C3%A1nico_de_Manila"
         }
+      },
+      "wikidata": "Q28980",
+      "website": "http://www.manilaoceanpark.com",
+      "lat": 14.57931,
+      "lon": 120.97249,
+      "hours": {
+        "text": "9:00 - 20:15",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -152,7 +173,10 @@
           "title": "Jardín botánico y Zoológico de Manila",
           "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_bot%C3%A1nico_y_Zool%C3%B3gico_de_Manila"
         }
-      }
+      },
+      "wikidata": "Q2307982",
+      "lat": 14.56472,
+      "lon": 120.98861
     },
     {
       "id": "ph-q2110963",
@@ -185,7 +209,12 @@
           "title": "Museo Ayala",
           "url": "https://es.wikipedia.org/wiki/Museo_Ayala"
         }
-      }
+      },
+      "wikidata": "Q2110963",
+      "website": "http://www.ayalamuseum.org",
+      "lat": 14.5536,
+      "lon": 121.023,
+      "phone": "+63 2 759 8288"
     },
     {
       "id": "ph-q3550173",
@@ -212,7 +241,10 @@
           "title": "Aguinaldo Shrine",
           "url": "https://en.wikipedia.org/wiki/Aguinaldo_Shrine"
         }
-      }
+      },
+      "wikidata": "Q3550173",
+      "lat": 14.445,
+      "lon": 120.90694
     },
     {
       "id": "ph-q123815605",
@@ -244,6 +276,15 @@
           "title": "Museo Nacional de Bellas Artes (Manila)",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_(Manila)"
         }
+      },
+      "wikidata": "Q123815605",
+      "website": "https://www.nationalmuseum.gov.ph/our-museums/national-museum-of-fine-arts/",
+      "lat": 14.5869,
+      "lon": 120.9813,
+      "hours": {
+        "text": "Mo-Su 09:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -276,7 +317,10 @@
           "title": "Museo Sugbo",
           "url": "https://es.wikipedia.org/wiki/Museo_Sugbo"
         }
-      }
+      },
+      "wikidata": "Q2110972",
+      "lat": 10.30361,
+      "lon": 123.90639
     },
     {
       "id": "ph-q17086673",
@@ -308,7 +352,10 @@
           "title": "Santuario Rizal (Calambá)",
           "url": "https://es.wikipedia.org/wiki/Santuario_Rizal_(Calamb%C3%A1)"
         }
-      }
+      },
+      "wikidata": "Q17086673",
+      "lat": 14.21346,
+      "lon": 121.16682
     },
     {
       "id": "ph-q2110553",
@@ -340,7 +387,11 @@
           "title": "Galería de arte Ateneo",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_de_arte_Ateneo"
         }
-      }
+      },
+      "wikidata": "Q2110553",
+      "website": "http://ateneoartgallery.org/",
+      "lat": 14.64,
+      "lon": 121.07722
     },
     {
       "id": "ph-q28451570",
@@ -368,7 +419,11 @@
           "title": "National Museum of Natural History (Manila)",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_Natural_History_(Manila)"
         }
-      }
+      },
+      "wikidata": "Q28451570",
+      "website": "https://www.nationalmuseum.gov.ph/our-museums/national-museum-of-natural-history/",
+      "lat": 14.58331,
+      "lon": 120.98219
     }
   ]
 }

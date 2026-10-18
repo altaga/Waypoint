@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Fortaleza de Brest",
           "url": "https://es.wikipedia.org/wiki/Fortaleza_de_Brest"
         }
-      }
+      },
+      "wikidata": "Q23868",
+      "website": "http://www.brest-fortress.by/",
+      "lat": 52.08333,
+      "lon": 23.65278
     },
     {
       "id": "by-q2584571",
@@ -88,7 +98,11 @@
           "title": "Museo Nacional de Arte de Bielorrusia",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_de_Bielorrusia"
         }
-      }
+      },
+      "wikidata": "Q2584571",
+      "website": "https://artmuseum.by",
+      "lat": 53.89833,
+      "lon": 27.56056
     },
     {
       "id": "by-q1710170",
@@ -120,7 +134,10 @@
           "title": "Torre de Kamianiec",
           "url": "https://es.wikipedia.org/wiki/Torre_de_Kamianiec"
         }
-      }
+      },
+      "wikidata": "Q1710170",
+      "lat": 52.40476,
+      "lon": 23.81952
     },
     {
       "id": "by-q2073524",
@@ -152,7 +169,12 @@
           "title": "Museo estatal bielorruso de la Gran Guerra Patriótica",
           "url": "https://es.wikipedia.org/wiki/Museo_estatal_bielorruso_de_la_Gran_Guerra_Patri%C3%B3tica"
         }
-      }
+      },
+      "wikidata": "Q2073524",
+      "website": "https://warmuseum.by",
+      "lat": 53.91631,
+      "lon": 27.53789,
+      "phone": "+375-203-07-92"
     },
     {
       "id": "by-q2034395",
@@ -184,7 +206,11 @@
           "title": "Museo nacional de la cultura e historia de Bielorrusia",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_la_cultura_e_historia_de_Bielorrusia"
         }
-      }
+      },
+      "wikidata": "Q2034395",
+      "website": "http://www.histmuseum.by/",
+      "lat": 53.89667,
+      "lon": 27.55556
     },
     {
       "id": "by-q2376115",
@@ -216,6 +242,16 @@
           "title": "Zoológico de Minsk",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Minsk"
         }
+      },
+      "wikidata": "Q2376115",
+      "website": "http://minskzoo.by/",
+      "lat": 53.85056,
+      "lon": 27.63472,
+      "phone": "+375 29 3783265",
+      "hours": {
+        "text": "10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -247,7 +283,10 @@
           "title": "Nárach",
           "url": "https://es.wikipedia.org/wiki/N%C3%A1rach"
         }
-      }
+      },
+      "wikidata": "Q2471155",
+      "lat": 54.90677,
+      "lon": 26.7066
     },
     {
       "id": "by-q1995542",
@@ -275,6 +314,16 @@
           "title": "Marc Chagall Museum",
           "url": "https://en.wikipedia.org/wiki/Marc_Chagall_Museum"
         }
+      },
+      "wikidata": "Q1995542",
+      "website": "http://chagal-vitebsk.com/",
+      "lat": 55.20052,
+      "lon": 30.19057,
+      "phone": "+375 212 66-34-68",
+      "hours": {
+        "text": "Mo off; Tu-Su 11:00-19:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -303,7 +352,10 @@
           "title": "Jesuit College in Polotsk",
           "url": "https://en.wikipedia.org/wiki/Jesuit_College_in_Polotsk"
         }
-      }
+      },
+      "wikidata": "Q13133440",
+      "lat": 55.4861,
+      "lon": 28.7642
     }
   ]
 }

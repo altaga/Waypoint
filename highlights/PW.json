@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -52,6 +58,16 @@
           "title": "Belau National Museum",
           "url": "https://en.wikipedia.org/wiki/Belau_National_Museum"
         }
+      },
+      "wikidata": "Q4881995",
+      "website": "https://belaunationalmuseum.pw/",
+      "lat": 7.33639,
+      "lon": 134.47611,
+      "phone": "(680)488-2265",
+      "hours": {
+        "text": "Mo-Fr 09:00-17:00; Sa 10:00-17:00; Su 13:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -84,6 +100,16 @@
           "title": "Museo Etpison",
           "url": "https://es.wikipedia.org/wiki/Museo_Etpison"
         }
+      },
+      "wikidata": "Q55668993",
+      "website": "https://www.etpisonmuseum.org/",
+      "lat": 7.34533,
+      "lon": 134.48317,
+      "phone": "+680 488 6730",
+      "hours": {
+        "text": "Mo-Sa 09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

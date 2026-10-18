@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,10 @@
           "title": "Museo nacional de Etiopía",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Etiop%C3%ADa"
         }
-      }
+      },
+      "wikidata": "Q2652168",
+      "lat": 9.03833,
+      "lon": 38.7619
     },
     {
       "id": "et-q3444339",
@@ -87,7 +96,10 @@
           "title": "Cuevas de Sof Omar",
           "url": "https://es.wikipedia.org/wiki/Cuevas_de_Sof_Omar"
         }
-      }
+      },
+      "wikidata": "Q3444339",
+      "lat": 6.9,
+      "lon": 40.85
     },
     {
       "id": "et-q15856263",
@@ -115,6 +127,16 @@
           "title": "Red Terror Martyrs' Memorial Museum",
           "url": "https://en.wikipedia.org/wiki/Red_Terror_Martyrs'_Memorial_Museum"
         }
+      },
+      "wikidata": "Q15856263",
+      "website": "http://rtmmm.org/",
+      "lat": 9.0102,
+      "lon": 38.76323,
+      "phone": "+251 11 850 6730",
+      "hours": {
+        "text": "Mo-Su 08:00-18:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -143,7 +165,10 @@
           "title": "Ethnological Museum, Addis Ababa",
           "url": "https://en.wikipedia.org/wiki/Ethnological_Museum%2C_Addis_Ababa"
         }
-      }
+      },
+      "wikidata": "Q6585314",
+      "lat": 9.04662,
+      "lon": 38.75762
     },
     {
       "id": "et-q55603199",
@@ -171,7 +196,10 @@
           "title": "Addis Ababa Zoo",
           "url": "https://en.wikipedia.org/wiki/Addis_Ababa_Zoo"
         }
-      }
+      },
+      "wikidata": "Q55603199",
+      "lat": 9.04278,
+      "lon": 38.76194
     }
   ]
 }

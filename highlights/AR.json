@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,12 @@
           "title": "Museo Nacional de Bellas Artes (Argentina)",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_(Argentina)"
         }
-      }
+      },
+      "wikidata": "Q1848918",
+      "website": "https://www.bellasartes.gob.ar/",
+      "lat": -34.58399,
+      "lon": -58.39297,
+      "phone": "+54 11 5288-9900"
     },
     {
       "id": "ar-q1024829",
@@ -88,7 +99,11 @@
           "title": "Cabildo de Buenos Aires",
           "url": "https://es.wikipedia.org/wiki/Cabildo_de_Buenos_Aires"
         }
-      }
+      },
+      "wikidata": "Q1024829",
+      "website": "https://cabildonacional.cultura.gob.ar/",
+      "lat": -34.60886,
+      "lon": -58.37376
     },
     {
       "id": "ar-q570385",
@@ -120,7 +135,10 @@
           "title": "Torre Monumental",
           "url": "https://es.wikipedia.org/wiki/Torre_Monumental"
         }
-      }
+      },
+      "wikidata": "Q570385",
+      "lat": -34.59296,
+      "lon": -58.37319
     },
     {
       "id": "ar-q1136338",
@@ -152,7 +170,10 @@
           "title": "Museo Nacional de Arte Decorativo",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_Decorativo"
         }
-      }
+      },
+      "wikidata": "Q1136338",
+      "lat": -34.582,
+      "lon": -58.4015
     },
     {
       "id": "ar-q57785",
@@ -184,6 +205,16 @@
           "title": "Museo Histórico Nacional (Argentina)",
           "url": "https://es.wikipedia.org/wiki/Museo_Hist%C3%B3rico_Nacional_(Argentina)"
         }
+      },
+      "wikidata": "Q57785",
+      "website": "https://museohistoriconacional.cultura.gob.ar",
+      "lat": -34.62694,
+      "lon": -58.37056,
+      "phone": "+54-11-4300-7530",
+      "hours": {
+        "text": "We-Su 11:00-19:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -216,7 +247,12 @@
           "title": "Museo de Arte Latinoamericano de Buenos Aires",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Latinoamericano_de_Buenos_Aires"
         }
-      }
+      },
+      "wikidata": "Q1808336",
+      "website": "https://www.malba.org.ar/",
+      "lat": -34.57711,
+      "lon": -58.40359,
+      "phone": "+54 11 4808-6500"
     },
     {
       "id": "ar-q115044",
@@ -248,7 +284,11 @@
           "title": "Tren del Fin del Mundo",
           "url": "https://es.wikipedia.org/wiki/Tren_del_Fin_del_Mundo"
         }
-      }
+      },
+      "wikidata": "Q115044",
+      "website": "https://www.trendelfindelmundo.com.ar/es",
+      "lat": -54.83316,
+      "lon": -68.424
     },
     {
       "id": "ar-q1633517",
@@ -280,7 +320,11 @@
           "title": "Museo Argentino de Ciencias Naturales",
           "url": "https://es.wikipedia.org/wiki/Museo_Argentino_de_Ciencias_Naturales"
         }
-      }
+      },
+      "wikidata": "Q1633517",
+      "website": "https://www.macnconicet.gob.ar",
+      "lat": -34.6048,
+      "lon": -58.4377
     },
     {
       "id": "ar-q1798541",
@@ -313,6 +357,16 @@
           "title": "Museo de La Plata",
           "url": "https://es.wikipedia.org/wiki/Museo_de_La_Plata"
         }
+      },
+      "wikidata": "Q1798541",
+      "website": "https://www.museo.fcnym.unlp.edu.ar/",
+      "lat": -34.909,
+      "lon": -57.93542,
+      "phone": "+54-221 425-7744 / 9161/9638",
+      "hours": {
+        "text": "PH,We-Su 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -345,7 +399,11 @@
           "title": "La Trochita",
           "url": "https://es.wikipedia.org/wiki/La_Trochita"
         }
-      }
+      },
+      "wikidata": "Q2737219",
+      "website": "https://latrochita.org.ar/",
+      "lat": -42.95,
+      "lon": -71.183
     },
     {
       "id": "ar-q1134582",
@@ -377,7 +435,11 @@
           "title": "Museo de Arte Moderno de Buenos Aires",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Moderno_de_Buenos_Aires"
         }
-      }
+      },
+      "wikidata": "Q1134582",
+      "website": "https://museomoderno.org/",
+      "lat": -34.6218,
+      "lon": -58.3705
     }
   ]
 }

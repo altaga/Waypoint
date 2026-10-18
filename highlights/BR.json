@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,12 @@
           "title": "Museo de Arte de São Paulo",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_de_S%C3%A3o_Paulo"
         }
-      }
+      },
+      "wikidata": "Q82941",
+      "website": "https://masp.org.br/",
+      "lat": -23.56111,
+      "lon": -46.65583,
+      "phone": "+55-11-3149-5959"
     },
     {
       "id": "br-q1474721",
@@ -87,7 +98,11 @@
           "title": "Parque nacional de Itatiaia",
           "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Itatiaia"
         }
-      }
+      },
+      "wikidata": "Q1474721",
+      "website": "http://www.icmbio.gov.br/portal/o-que-fazemos/visitacao/ucs-abertas-a-visitacao/188-parque-nacional-do-itatiaia",
+      "lat": -22.35425,
+      "lon": -44.65329
     },
     {
       "id": "br-q2266463",
@@ -118,7 +133,12 @@
           "title": "Parque nacional de la Chapada de la Diamantina",
           "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_la_Chapada_de_la_Diamantina"
         }
-      }
+      },
+      "wikidata": "Q2266463",
+      "website": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-chapada-da-diamantina/informacoes-sobre-visitacao-parna-da-chapada-da-diamantina",
+      "lat": -12.51089,
+      "lon": -41.57586,
+      "phone": "+55-75-3332-2229"
     }
   ]
 }

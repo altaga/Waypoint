@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,6 +63,16 @@
           "title": "Museo Nacional de Serbia",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Serbia"
         }
+      },
+      "wikidata": "Q1277393",
+      "website": "https://www.narodnimuzej.rs/",
+      "lat": 44.81677,
+      "lon": 20.45965,
+      "phone": "+381 60 8075020",
+      "hours": {
+        "text": "Mo off, Tu,We,Fr,Su 10:00-18:00; Th,Sa 12:00-20:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -90,7 +106,10 @@
           "title": "Monasterio patriarcal de Peć",
           "url": "https://es.wikipedia.org/wiki/Monasterio_patriarcal_de_Pe%C4%87"
         }
-      }
+      },
+      "wikidata": "Q969047",
+      "lat": 42.66116,
+      "lon": 20.26562
     },
     {
       "id": "rs-q613201",
@@ -122,6 +141,16 @@
           "title": "Museo Nikola Tesla",
           "url": "https://es.wikipedia.org/wiki/Museo_Nikola_Tesla"
         }
+      },
+      "wikidata": "Q613201",
+      "website": "https://nikolateslamuseum.org/",
+      "lat": 44.8051,
+      "lon": 20.4707,
+      "phone": "+381 11 2433886",
+      "hours": {
+        "text": "Mo 10:00-18:00; Tu-Su 10:00-20:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -150,7 +179,11 @@
           "title": "Museum of Yugoslavia",
           "url": "https://en.wikipedia.org/wiki/Museum_of_Yugoslavia"
         }
-      }
+      },
+      "wikidata": "Q2338290",
+      "website": "http://www.mij.rs",
+      "lat": 44.78667,
+      "lon": 20.45167
     },
     {
       "id": "rs-q1290510",
@@ -182,6 +215,16 @@
           "title": "Museo de Arte Contemporáneo de Belgrado",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Contempor%C3%A1neo_de_Belgrado"
         }
+      },
+      "wikidata": "Q1290510",
+      "website": "http://msub.org.rs/",
+      "lat": 44.81944,
+      "lon": 20.44222,
+      "phone": "+381 11 3115713",
+      "hours": {
+        "text": "Mo 10:00-18:00; Tu off; We-Su 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -214,7 +257,11 @@
           "title": "Küstendorf",
           "url": "https://es.wikipedia.org/wiki/K%C3%BCstendorf"
         }
-      }
+      },
+      "wikidata": "Q116343",
+      "website": "https://mecavnik.info/sr",
+      "lat": 43.79563,
+      "lon": 19.50809
     },
     {
       "id": "rs-q391211",
@@ -242,7 +289,11 @@
           "title": "Šargan Eight",
           "url": "https://en.wikipedia.org/wiki/%C5%A0argan_Eight"
         }
-      }
+      },
+      "wikidata": "Q391211",
+      "website": "http://www.zeleznicesrbije.com/active/sr-latin/home/glavna_navigacija/prezentacije/sarganska_osmica/red_voznje_sarganske_osmice.html",
+      "lat": 43.8,
+      "lon": 19.52194
     },
     {
       "id": "rs-q1281959",
@@ -270,7 +321,12 @@
           "title": "Military Museum, Belgrade",
           "url": "https://en.wikipedia.org/wiki/Military_Museum%2C_Belgrade"
         }
-      }
+      },
+      "wikidata": "Q1281959",
+      "website": "http://www.muzej.mod.gov.rs",
+      "lat": 44.82194,
+      "lon": 20.45,
+      "phone": "+381 11 3343441"
     },
     {
       "id": "rs-q2539582",
@@ -302,6 +358,16 @@
           "title": "Museo de Aeronáutica (Belgrado)",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Aeron%C3%A1utica_(Belgrado)"
         }
+      },
+      "wikidata": "Q2539582",
+      "website": "http://www.aeronauticalmuseum.com/",
+      "lat": 44.81889,
+      "lon": 20.28528,
+      "phone": "+381 11 2670992",
+      "hours": {
+        "text": "Mo-Su 09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -333,7 +399,11 @@
           "title": "Campo de concentración de Banjica",
           "url": "https://es.wikipedia.org/wiki/Campo_de_concentraci%C3%B3n_de_Banjica"
         }
-      }
+      },
+      "wikidata": "Q698270",
+      "website": "http://www.mgb.org.rs/visit/details/21",
+      "lat": 44.77028,
+      "lon": 20.46833
     }
   ]
 }

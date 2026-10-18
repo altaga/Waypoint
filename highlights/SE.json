@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Palacio de Drottningholm",
           "url": "https://es.wikipedia.org/wiki/Palacio_de_Drottningholm"
         }
-      }
+      },
+      "wikidata": "Q208559",
+      "website": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/drottningholm-palace.html",
+      "lat": 59.32169,
+      "lon": 17.88638
     },
     {
       "id": "se-q750444",
@@ -90,7 +100,11 @@
           "title": "Palacio Real de Estocolmo",
           "url": "https://es.wikipedia.org/wiki/Palacio_Real_de_Estocolmo"
         }
-      }
+      },
+      "wikidata": "Q750444",
+      "website": "https://www.kungligaslotten.se",
+      "lat": 59.32667,
+      "lon": 18.07167
     },
     {
       "id": "se-q936884",
@@ -121,7 +135,11 @@
           "title": "Forjas de Engelsberg",
           "url": "https://es.wikipedia.org/wiki/Forjas_de_Engelsberg"
         }
-      }
+      },
+      "wikidata": "Q936884",
+      "website": "http://www.engelsberg.se/",
+      "lat": 59.96917,
+      "lon": 16.01028
     },
     {
       "id": "se-q901371",
@@ -153,6 +171,16 @@
           "title": "Museo Vasa",
           "url": "https://es.wikipedia.org/wiki/Museo_Vasa"
         }
+      },
+      "wikidata": "Q901371",
+      "website": "https://www.vasamuseet.se/",
+      "lat": 59.32807,
+      "lon": 18.09139,
+      "phone": "+46 8 51954800",
+      "hours": {
+        "text": "Mo-Su 08:30-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -186,6 +214,16 @@
           "title": "Skansen",
           "url": "https://es.wikipedia.org/wiki/Skansen"
         }
+      },
+      "wikidata": "Q725108",
+      "website": "https://skansen.se",
+      "lat": 59.32445,
+      "lon": 18.101,
+      "phone": "+46 8 442 82 00",
+      "hours": {
+        "text": "Mo-Su 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -218,6 +256,16 @@
           "title": "Museo Nacional de Suecia",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Suecia"
         }
+      },
+      "wikidata": "Q842858",
+      "website": "http://www.nationalmuseum.se",
+      "lat": 59.32861,
+      "lon": 18.07806,
+      "phone": "+46 8 519 543 00",
+      "hours": {
+        "text": "Mo off; Tu-We,Fr-Su 11:00-17:00; Th 11:00-20:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -249,6 +297,16 @@
           "title": "Museo Nobel",
           "url": "https://es.wikipedia.org/wiki/Museo_Nobel"
         }
+      },
+      "wikidata": "Q1968711",
+      "website": "https://nobelprizemuseum.se/",
+      "lat": 59.32522,
+      "lon": 18.07083,
+      "phone": "+46853481800",
+      "hours": {
+        "text": "Sep-Mar Tu-Th 11:00-17:00; Fr 11:00-21:00; Sa-Su 11:00-17:00; Mo off; Apr-May Tu-Th 11:00-17:00; Fr 11:00-21:00; Sa-Su 10:00-18:00; Mo off; Jun-Aug Mo-Th,Sa-Su 10:00-19:00; Fr 10:00-21:00; PH off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -281,6 +339,16 @@
           "title": "Museo Nórdico",
           "url": "https://es.wikipedia.org/wiki/Museo_N%C3%B3rdico"
         }
+      },
+      "wikidata": "Q1142142",
+      "website": "http://www.nordiskamuseet.se/",
+      "lat": 59.32917,
+      "lon": 18.09333,
+      "phone": "+46 8 51954600",
+      "hours": {
+        "text": "Mo-Su 10:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -313,6 +381,16 @@
           "title": "Museo Sueco de Historia Natural",
           "url": "https://es.wikipedia.org/wiki/Museo_Sueco_de_Historia_Natural"
         }
+      },
+      "wikidata": "Q1420103",
+      "website": "https://www.nrm.se",
+      "lat": 59.36889,
+      "lon": 18.05361,
+      "phone": "+46-8-519-540-00",
+      "hours": {
+        "text": "Tu-Su 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

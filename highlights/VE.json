@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Museo de Bellas Artes de Caracas",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Bellas_Artes_de_Caracas"
         }
-      }
+      },
+      "wikidata": "Q2630111",
+      "website": "http://mba.fmn.gob.ve",
+      "lat": 10.50064,
+      "lon": -66.89697
     },
     {
       "id": "ve-q212281",
@@ -90,7 +100,11 @@
           "title": "Galería de Arte Nacional (Caracas)",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_de_Arte_Nacional_(Caracas)"
         }
-      }
+      },
+      "wikidata": "Q212281",
+      "website": "http://gan.fmn.gob.ve",
+      "lat": 10.50056,
+      "lon": -66.9025
     },
     {
       "id": "ve-q2184071",
@@ -123,7 +137,12 @@
           "title": "Museo de Arte Contemporáneo de Caracas",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Contempor%C3%A1neo_de_Caracas"
         }
-      }
+      },
+      "wikidata": "Q2184071",
+      "website": "http://mac.fmn.gob.ve/",
+      "lat": 10.49853,
+      "lon": -66.89962,
+      "phone": "+58 212-5738289"
     },
     {
       "id": "ve-q6033185",
@@ -156,7 +175,10 @@
           "title": "Museo Bolivariano",
           "url": "https://es.wikipedia.org/wiki/Museo_Bolivariano"
         }
-      }
+      },
+      "wikidata": "Q6033185",
+      "lat": 10.50473,
+      "lon": -66.91319
     },
     {
       "id": "ve-q6188666",
@@ -189,7 +211,11 @@
           "title": "Museo de Arte Moderno Jesús Soto",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Moderno_Jes%C3%BAs_Soto"
         }
-      }
+      },
+      "wikidata": "Q6188666",
+      "website": "https://www.venezuelatuya.com/guayana/soto.htm",
+      "lat": 8.1325,
+      "lon": -63.53694
     },
     {
       "id": "ve-q2920273",
@@ -223,7 +249,10 @@
           "title": "Sinagoga de Coro",
           "url": "https://es.wikipedia.org/wiki/Sinagoga_de_Coro"
         }
-      }
+      },
+      "wikidata": "Q2920273",
+      "lat": 11.40799,
+      "lon": -69.6764
     },
     {
       "id": "ve-q7139676",
@@ -256,6 +285,16 @@
           "title": "Parque Zoológico Caricuao",
           "url": "https://es.wikipedia.org/wiki/Parque_Zool%C3%B3gico_Caricuao"
         }
+      },
+      "wikidata": "Q7139676",
+      "website": "http://www.minec.gob.ve/el-parque-recreacional-zoologico-de-caricuao-arriba-a-42-anos/",
+      "lat": 10.43072,
+      "lon": -66.96772,
+      "phone": "+58 212 4312045",
+      "hours": {
+        "text": "Tu-Su 09:00-16:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

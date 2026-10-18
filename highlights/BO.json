@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,10 @@
           "title": "Casa de la Moneda de Bolivia",
           "url": "https://es.wikipedia.org/wiki/Casa_de_la_Moneda_de_Bolivia"
         }
-      }
+      },
+      "wikidata": "Q847038",
+      "lat": -19.58861,
+      "lon": -65.75417
     },
     {
       "id": "bo-q1420258",
@@ -89,7 +98,10 @@
           "title": "Museo Nacional de Arqueología (Bolivia)",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arqueolog%C3%ADa_(Bolivia)"
         }
-      }
+      },
+      "wikidata": "Q1420258",
+      "lat": -16.5025,
+      "lon": -68.13056
     },
     {
       "id": "bo-q10333587",
@@ -121,7 +133,11 @@
           "title": "Museo Nacional de Arte (Palacio Diez de Medina)",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_(Palacio_Diez_de_Medina)"
         }
-      }
+      },
+      "wikidata": "Q10333587",
+      "website": "http://www.mna.org.bo/",
+      "lat": -16.49577,
+      "lon": -68.13419
     },
     {
       "id": "bo-q6940534",
@@ -153,7 +169,10 @@
           "title": "Museo de Arte Antonio Paredes Candia",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Antonio_Paredes_Candia"
         }
-      }
+      },
+      "wikidata": "Q6940534",
+      "lat": -16.51968,
+      "lon": -68.15139
     },
     {
       "id": "bo-q5139104",
@@ -185,7 +204,11 @@
           "title": "Museo de la Coca",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Coca"
         }
-      }
+      },
+      "wikidata": "Q5139104",
+      "website": "https://cocamuseum.com/",
+      "lat": -16.4977,
+      "lon": -68.13825
     }
   ]
 }

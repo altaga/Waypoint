@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,10 @@
           "title": "Huacachina",
           "url": "https://es.wikipedia.org/wiki/Huacachina"
         }
-      }
+      },
+      "wikidata": "Q1632715",
+      "lat": -14.0875,
+      "lon": -75.76333
     },
     {
       "id": "pe-q1954240",
@@ -88,6 +97,16 @@
           "title": "Museo Arqueológico Rafael Larco Herrera",
           "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_Rafael_Larco_Herrera"
         }
+      },
+      "wikidata": "Q1954240",
+      "website": "http://www.museolarco.org",
+      "lat": -12.0725,
+      "lon": -77.07086,
+      "phone": "+511 4611835",
+      "hours": {
+        "text": "Mo-Su 09:00-19:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -120,7 +139,12 @@
           "title": "Museo Nacional de Arqueología, Antropología e Historia del Perú",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arqueolog%C3%ADa%2C_Antropolog%C3%ADa_e_Historia_del_Per%C3%BA"
         }
-      }
+      },
+      "wikidata": "Q1568821",
+      "website": "http://mnaahp.cultura.pe/",
+      "lat": -12.07725,
+      "lon": -77.06214,
+      "phone": "+51-1-3215630"
     },
     {
       "id": "pe-q1001995",
@@ -152,7 +176,10 @@
           "title": "Huanchaco",
           "url": "https://es.wikipedia.org/wiki/Huanchaco"
         }
-      }
+      },
+      "wikidata": "Q1001995",
+      "lat": -8.083,
+      "lon": -79.119
     },
     {
       "id": "pe-q776515",
@@ -184,7 +211,12 @@
           "title": "Museo de Arte Italiano",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Italiano"
         }
-      }
+      },
+      "wikidata": "Q776515",
+      "website": "https://museos.cultura.pe/museos/museo-de-arte-italiano",
+      "lat": -12.05846,
+      "lon": -77.0368,
+      "phone": "+51-1-3215622"
     },
     {
       "id": "pe-q6033913",
@@ -216,7 +248,11 @@
           "title": "Museo de Arte de Lima",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_de_Lima"
         }
-      }
+      },
+      "wikidata": "Q6033913",
+      "website": "http://www.mali.pe/",
+      "lat": -12.06045,
+      "lon": -77.03697
     },
     {
       "id": "pe-q4306271",
@@ -248,7 +284,11 @@
           "title": "Museo Oro del Perú y Armas del Mundo",
           "url": "https://es.wikipedia.org/wiki/Museo_Oro_del_Per%C3%BA_y_Armas_del_Mundo"
         }
-      }
+      },
+      "wikidata": "Q4306271",
+      "website": "http://www.museoroperu.com.pe",
+      "lat": -12.10917,
+      "lon": -76.96389
     },
     {
       "id": "pe-q1684512",
@@ -280,7 +320,12 @@
           "title": "Museo de Historia Natural (Universidad Nacional Mayor de San Marcos)",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Natural_(Universidad_Nacional_Mayor_de_San_Marcos)"
         }
-      }
+      },
+      "wikidata": "Q1684512",
+      "website": "https://museohn.unmsm.edu.pe",
+      "lat": -12.07744,
+      "lon": -77.03733,
+      "phone": "+51 1 4710117"
     }
   ]
 }

@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -52,7 +58,10 @@
           "title": "Emir Abdelkader Mosque",
           "url": "https://en.wikipedia.org/wiki/Emir_Abdelkader_Mosque"
         }
-      }
+      },
+      "wikidata": "Q3846204",
+      "lat": 36.34706,
+      "lon": 6.60334
     },
     {
       "id": "dz-q3324913",
@@ -81,7 +90,10 @@
           "title": "Sidi Belahcen Mosque",
           "url": "https://en.wikipedia.org/wiki/Sidi_Belahcen_Mosque"
         }
-      }
+      },
+      "wikidata": "Q3324913",
+      "lat": 34.8828,
+      "lon": -1.3111
     },
     {
       "id": "dz-q3126504",
@@ -108,7 +120,10 @@
           "title": "Hammam Maskhoutine",
           "url": "https://en.wikipedia.org/wiki/Hammam_Maskhoutine"
         }
-      }
+      },
+      "wikidata": "Q3126504",
+      "lat": 36.45985,
+      "lon": 7.26939
     },
     {
       "id": "dz-q2912600",
@@ -140,7 +155,12 @@
           "title": "Museo Nacional de Bellas Artes de Argel",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_de_Argel"
         }
-      }
+      },
+      "wikidata": "Q2912600",
+      "website": "http://www.musee-beauxarts.dz/",
+      "lat": 36.74611,
+      "lon": 3.07222,
+      "phone": "+21321664916"
     },
     {
       "id": "dz-q663776",
@@ -172,7 +192,12 @@
           "title": "Museo público de arte moderno y contemporáneo de Argel",
           "url": "https://es.wikipedia.org/wiki/Museo_p%C3%BAblico_de_arte_moderno_y_contempor%C3%A1neo_de_Argel"
         }
-      }
+      },
+      "wikidata": "Q663776",
+      "website": "http://www.mama-dz.com",
+      "lat": 36.77732,
+      "lon": 3.05756,
+      "phone": "+213 21 71 72 52"
     },
     {
       "id": "dz-q3330723",
@@ -204,7 +229,11 @@
           "title": "Museo Nacional de Antigüedades y Arte Islámico",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Antig%C3%BCedades_y_Arte_Isl%C3%A1mico"
         }
-      }
+      },
+      "wikidata": "Q3330723",
+      "website": "http://www.musee-antiquites.art.dz/",
+      "lat": 36.7614,
+      "lon": 3.04611
     },
     {
       "id": "dz-q3330730",
@@ -236,7 +265,11 @@
           "title": "Museo Nacional del Bardo (Argelia)",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_del_Bardo_(Argelia)"
         }
-      }
+      },
+      "wikidata": "Q3330730",
+      "website": "http://museebardo.dz/",
+      "lat": 36.76028,
+      "lon": 3.04639
     },
     {
       "id": "dz-q4785393",
@@ -268,7 +301,11 @@
           "title": "Museo Arqueológico de Cherchell",
           "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Cherchell"
         }
-      }
+      },
+      "wikidata": "Q4785393",
+      "website": "http://www.musee-cherchell.dz/",
+      "lat": 36.60833,
+      "lon": 2.19125
     }
   ]
 }

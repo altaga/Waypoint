@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -54,7 +60,10 @@
           "title": "Ashrafiya Mosque",
           "url": "https://en.wikipedia.org/wiki/Ashrafiya_Mosque"
         }
-      }
+      },
+      "wikidata": "Q12204203",
+      "lat": 13.56937,
+      "lon": 44.0109
     },
     {
       "id": "ye-q1837324",
@@ -87,7 +96,10 @@
           "title": "Museo nacional de Yemen",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Yemen"
         }
-      }
+      },
+      "wikidata": "Q1837324",
+      "lat": 15.35588,
+      "lon": 44.20606
     }
   ]
 }

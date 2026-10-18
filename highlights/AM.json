@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,6 +62,16 @@
           "title": "Matenadarán",
           "url": "https://es.wikipedia.org/wiki/Matenadar%C3%A1n"
         }
+      },
+      "wikidata": "Q1322278",
+      "website": "https://matenadaran.am",
+      "lat": 40.19207,
+      "lon": 44.52113,
+      "phone": "+374 10 562578;+374 10 513043",
+      "hours": {
+        "text": "Tu-Sa 10:00-17:50; Su-Mo off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -88,7 +104,11 @@
           "title": "Tsitsernakaberd",
           "url": "https://es.wikipedia.org/wiki/Tsitsernakaberd"
         }
-      }
+      },
+      "wikidata": "Q154775",
+      "website": "http://www.genocide-museum.am/",
+      "lat": 40.18582,
+      "lon": 44.48811
     },
     {
       "id": "am-q2087788",
@@ -120,7 +140,11 @@
           "title": "Galería nacional de Armenia",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_nacional_de_Armenia"
         }
-      }
+      },
+      "wikidata": "Q2087788",
+      "website": "https://gallery.am",
+      "lat": 40.17875,
+      "lon": 44.51417
     },
     {
       "id": "am-q1138228",
@@ -152,7 +176,11 @@
           "title": "Museo de Historia de Armenia",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_de_Armenia"
         }
-      }
+      },
+      "wikidata": "Q1138228",
+      "website": "https://historymuseum.am",
+      "lat": 40.1787,
+      "lon": 44.5142
     },
     {
       "id": "am-q3108672",
@@ -184,6 +212,16 @@
           "title": "Zoológico de Ereván",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Erev%C3%A1n"
         }
+      },
+      "wikidata": "Q3108672",
+      "website": "https://zoo.am",
+      "lat": 40.196,
+      "lon": 44.5505,
+      "phone": "+374 10 562362",
+      "hours": {
+        "text": "Tu-Su 10:00-21:00; Mo 10:00-21:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -216,7 +254,11 @@
           "title": "Museo Serguéi Paradzhánov",
           "url": "https://es.wikipedia.org/wiki/Museo_Sergu%C3%A9i_Paradzh%C3%A1nov"
         }
-      }
+      },
+      "wikidata": "Q7453721",
+      "website": "https://parajanovmuseum.am",
+      "lat": 40.17877,
+      "lon": 44.50012
     },
     {
       "id": "am-q8052580",
@@ -248,7 +290,11 @@
           "title": "Museo de Historia de Ereván",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_de_Erev%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q8052580",
+      "website": "https://yhm.am",
+      "lat": 40.17433,
+      "lon": 44.50345
     }
   ]
 }

@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -58,7 +64,11 @@
           "title": "Museo nacional de Birmania",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Birmania"
         }
-      }
+      },
+      "wikidata": "Q2756611",
+      "website": "http://www.myanmar.com/Ministry/culture/index.htm",
+      "lat": 16.78918,
+      "lon": 96.14221
     },
     {
       "id": "mm-q1136334",
@@ -91,6 +101,15 @@
           "title": "Jardín zoológico de Rangún",
           "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_de_Rang%C3%BAn"
         }
+      },
+      "wikidata": "Q1136334",
+      "website": "http://yangonzoo.info/",
+      "lat": 16.79167,
+      "lon": 96.15944,
+      "hours": {
+        "text": "Mo-Su 08:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -124,7 +143,10 @@
           "title": "Jardín Zoológico Yadanabon",
           "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Zool%C3%B3gico_Yadanabon"
         }
-      }
+      },
+      "wikidata": "Q8046515",
+      "lat": 22.006,
+      "lon": 96.1
     },
     {
       "id": "mm-q23055279",
@@ -154,7 +176,10 @@
           "title": "Bagan Archaeological Museum",
           "url": "https://en.wikipedia.org/wiki/Bagan_Archaeological_Museum"
         }
-      }
+      },
+      "wikidata": "Q23055279",
+      "lat": 21.16788,
+      "lon": 94.85616
     },
     {
       "id": "mm-q6897583",
@@ -183,7 +208,10 @@
           "title": "Mon State Cultural Museum",
           "url": "https://en.wikipedia.org/wiki/Mon_State_Cultural_Museum"
         }
-      }
+      },
+      "wikidata": "Q6897583",
+      "lat": 16.48082,
+      "lon": 97.62197
     },
     {
       "id": "mm-q7487839",
@@ -212,7 +240,10 @@
           "title": "Shan State Cultural Museum",
           "url": "https://en.wikipedia.org/wiki/Shan_State_Cultural_Museum"
         }
-      }
+      },
+      "wikidata": "Q7487839",
+      "lat": 20.771,
+      "lon": 97.03938
     },
     {
       "id": "mm-q21707107",
@@ -241,6 +272,15 @@
           "title": "National Museum of Myanmar (Naypyidaw)",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_Myanmar_(Naypyidaw)"
         }
+      },
+      "wikidata": "Q21707107",
+      "lat": 19.77748,
+      "lon": 96.14057,
+      "phone": "+9567418432",
+      "hours": {
+        "text": "Mo-Su 09:30-16:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

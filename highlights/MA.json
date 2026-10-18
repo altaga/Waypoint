@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,6 +62,15 @@
           "title": "Palacio de la Bahía",
           "url": "https://es.wikipedia.org/wiki/Palacio_de_la_Bah%C3%ADa"
         }
+      },
+      "wikidata": "Q2465115",
+      "website": "https://e-services.minculture.gov.ma/en/tickets/palais-bahia",
+      "lat": 31.62159,
+      "lon": -7.98223,
+      "hours": {
+        "text": "Mo-Su 09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -88,6 +103,16 @@
           "title": "Museo de Marrakech",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Marrakech"
         }
+      },
+      "wikidata": "Q3090631",
+      "website": "https://marrakechmuseum.com/",
+      "lat": 31.63121,
+      "lon": -7.98677,
+      "phone": "+212 244418",
+      "hours": {
+        "text": "09:00-18:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -120,7 +145,10 @@
           "title": "Museo Judío de Casablanca",
           "url": "https://es.wikipedia.org/wiki/Museo_Jud%C3%ADo_de_Casablanca"
         }
-      }
+      },
+      "wikidata": "Q593909",
+      "lat": 33.55567,
+      "lon": -7.64236
     },
     {
       "id": "ma-q3330322",
@@ -153,7 +181,12 @@
           "title": "Museo de Batha",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Batha"
         }
-      }
+      },
+      "wikidata": "Q3330322",
+      "website": "http://www.minculture.gov.ma/fr/index.php?option=com_content&view=article&id=95:musee-du-batha-a-fes&catid=44&Itemid=104",
+      "lat": 34.06058,
+      "lon": -4.98272,
+      "phone": "+212 5 35 63 67 13"
     },
     {
       "id": "ma-q3329122",
@@ -185,7 +218,10 @@
           "title": "Museo Dar Si Said",
           "url": "https://es.wikipedia.org/wiki/Museo_Dar_Si_Said"
         }
-      }
+      },
+      "wikidata": "Q3329122",
+      "lat": 31.62333,
+      "lon": -7.98361
     },
     {
       "id": "ma-q3360852",
@@ -217,7 +253,11 @@
           "title": "Museo Dar Jamaï",
           "url": "https://es.wikipedia.org/wiki/Museo_Dar_Jama%C3%AF"
         }
-      }
+      },
+      "wikidata": "Q3360852",
+      "website": "http://www.minculture.gov.ma/fr/index.php?option=com_content&view=article&id=92&Itemid=133&lang=fr",
+      "lat": 33.89377,
+      "lon": -5.56656
     },
     {
       "id": "ma-q12238602",
@@ -249,7 +289,10 @@
           "title": "Museo Arqueológico de Rabat",
           "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Rabat"
         }
-      }
+      },
+      "wikidata": "Q12238602",
+      "lat": 34.01361,
+      "lon": -6.83139
     },
     {
       "id": "ma-q609167",
@@ -281,7 +324,10 @@
           "title": "Funduq al-Najjariyyin",
           "url": "https://es.wikipedia.org/wiki/Funduq_al-Najjariyyin"
         }
-      }
+      },
+      "wikidata": "Q609167",
+      "lat": 34.06486,
+      "lon": -4.97586
     },
     {
       "id": "ma-q16335733",
@@ -313,7 +359,11 @@
           "title": "Museo Arqueológico de Tetuán",
           "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Tetu%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q16335733",
+      "website": "http://www.fnm.ma/musee-archeologique-de-tetouan/",
+      "lat": 35.57056,
+      "lon": -5.37028
     },
     {
       "id": "ma-q20726223",
@@ -345,6 +395,15 @@
           "title": "Museo Mohamed VI de Arte Moderno y Contemporáneo",
           "url": "https://es.wikipedia.org/wiki/Museo_Mohamed_VI_de_Arte_Moderno_y_Contempor%C3%A1neo"
         }
+      },
+      "wikidata": "Q20726223",
+      "website": "http://www.museemohammed6.ma/",
+      "lat": 34.01528,
+      "lon": -6.83278,
+      "hours": {
+        "text": "We-Mo 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

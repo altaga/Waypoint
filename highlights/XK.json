@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,10 @@
           "title": "Mezquita Imperial",
           "url": "https://es.wikipedia.org/wiki/Mezquita_Imperial"
         }
-      }
+      },
+      "wikidata": "Q513756",
+      "lat": 42.667,
+      "lon": 21.167
     },
     {
       "id": "xk-q2097655",
@@ -86,7 +95,10 @@
           "title": "Sinan Pasha Mosque (Prizren)",
           "url": "https://en.wikipedia.org/wiki/Sinan_Pasha_Mosque_(Prizren)"
         }
-      }
+      },
+      "wikidata": "Q2097655",
+      "lat": 42.20889,
+      "lon": 20.74139
     },
     {
       "id": "xk-q16854755",
@@ -118,7 +130,11 @@
           "title": "Museo de Kosovo",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Kosovo"
         }
-      }
+      },
+      "wikidata": "Q16854755",
+      "website": "http://www.muzeu-rks.org/",
+      "lat": 42.66568,
+      "lon": 21.16627
     },
     {
       "id": "xk-q16334463",
@@ -146,7 +162,11 @@
           "title": "National Gallery of Kosovo",
           "url": "https://en.wikipedia.org/wiki/National_Gallery_of_Kosovo"
         }
-      }
+      },
+      "wikidata": "Q16334463",
+      "website": "https://www.galeriakombetare-rks.com",
+      "lat": 42.6571,
+      "lon": 21.164
     },
     {
       "id": "xk-q769963",
@@ -178,7 +198,10 @@
           "title": "Puente Terzijski",
           "url": "https://es.wikipedia.org/wiki/Puente_Terzijski"
         }
-      }
+      },
+      "wikidata": "Q769963",
+      "lat": 42.3594,
+      "lon": 20.5092
     },
     {
       "id": "xk-q3324861",
@@ -207,7 +230,10 @@
           "title": "Hadum Mosque",
           "url": "https://en.wikipedia.org/wiki/Hadum_Mosque"
         }
-      }
+      },
+      "wikidata": "Q3324861",
+      "lat": 42.3754,
+      "lon": 20.4208
     },
     {
       "id": "xk-q4451245",
@@ -239,7 +265,10 @@
           "title": "Catedral de Nuestra Señora del Perpetuo Socorro (Prizren)",
           "url": "https://es.wikipedia.org/wiki/Catedral_de_Nuestra_Se%C3%B1ora_del_Perpetuo_Socorro_(Prizren)"
         }
-      }
+      },
+      "wikidata": "Q4451245",
+      "lat": 42.20775,
+      "lon": 20.73831
     }
   ]
 }

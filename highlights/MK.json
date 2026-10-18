@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Porta Macedonia",
           "url": "https://es.wikipedia.org/wiki/Porta_Macedonia"
         }
-      }
+      },
+      "wikidata": "Q3078453",
+      "lat": 41.99444,
+      "lon": 21.43222,
+      "phone": "+389 2 3151141"
     },
     {
       "id": "mk-q922143",
@@ -88,7 +98,12 @@
           "title": "Museo de la Ciudad de Skopie",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Ciudad_de_Skopie"
         }
-      }
+      },
+      "wikidata": "Q922143",
+      "website": "http://www.mgs.org.mk/",
+      "lat": 41.99083,
+      "lon": 21.42944,
+      "phone": "+389 2 3114742"
     },
     {
       "id": "mk-q1580610",
@@ -116,7 +131,10 @@
           "title": "New Mosque, Bitola",
           "url": "https://en.wikipedia.org/wiki/New_Mosque%2C_Bitola"
         }
-      }
+      },
+      "wikidata": "Q1580610",
+      "lat": 41.03075,
+      "lon": 21.335
     },
     {
       "id": "mk-q587617",
@@ -148,7 +166,11 @@
           "title": "Casa memorial de la Madre Teresa",
           "url": "https://es.wikipedia.org/wiki/Casa_memorial_de_la_Madre_Teresa"
         }
-      }
+      },
+      "wikidata": "Q587617",
+      "website": "http://memorialhouseofmotherteresa.com/en/",
+      "lat": 41.99381,
+      "lon": 21.43092
     },
     {
       "id": "mk-q3329592",
@@ -180,6 +202,16 @@
           "title": "Museo de Arte Contemporáneo de Skopie",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Contempor%C3%A1neo_de_Skopie"
         }
+      },
+      "wikidata": "Q3329592",
+      "website": "https://msu.mk/doma/",
+      "lat": 42.00389,
+      "lon": 21.43278,
+      "phone": "+389 2 3117734",
+      "hours": {
+        "text": "Tu-Sa 10:00-17:00; Su 09:00-13:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -212,6 +244,16 @@
           "title": "Jardín zoológico de Skopie",
           "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_de_Skopie"
         }
+      },
+      "wikidata": "Q3133681",
+      "website": "https://www.zooskopje.com.mk/",
+      "lat": 42.00708,
+      "lon": 21.41687,
+      "phone": "+389 2 322 0578",
+      "hours": {
+        "text": "09:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -240,6 +282,16 @@
           "title": "Museum of the Macedonian Struggle (Skopje)",
           "url": "https://en.wikipedia.org/wiki/Museum_of_the_Macedonian_Struggle_(Skopje)"
         }
+      },
+      "wikidata": "Q986531",
+      "website": "http://mmb.org.mk",
+      "lat": 41.99801,
+      "lon": 21.43321,
+      "phone": "+389 02 3 256 668",
+      "hours": {
+        "text": "Tu-Su 10:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -269,6 +321,15 @@
           "title": "Robevi family house",
           "url": "https://en.wikipedia.org/wiki/Robevi_family_house"
         }
+      },
+      "wikidata": "Q3406442",
+      "website": "https://muzejohrid.mk/en/house-of-robev-family",
+      "lat": 41.11231,
+      "lon": 20.79625,
+      "hours": {
+        "text": "Tu-Su 09:00-14:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -297,7 +358,10 @@
           "title": "Clock Tower (Bitola)",
           "url": "https://en.wikipedia.org/wiki/Clock_Tower_(Bitola)"
         }
-      }
+      },
+      "wikidata": "Q1343398",
+      "lat": 41.03084,
+      "lon": 21.33389
     }
   ]
 }

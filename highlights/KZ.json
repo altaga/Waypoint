@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,10 @@
           "title": "Bayterek",
           "url": "https://es.wikipedia.org/wiki/Bayterek"
         }
-      }
+      },
+      "wikidata": "Q804210",
+      "lat": 51.12833,
+      "lon": 71.43056
     },
     {
       "id": "kz-q2119741",
@@ -88,7 +97,11 @@
           "title": "Palacio de la Paz y la Reconciliación",
           "url": "https://es.wikipedia.org/wiki/Palacio_de_la_Paz_y_la_Reconciliaci%C3%B3n"
         }
-      }
+      },
+      "wikidata": "Q2119741",
+      "website": "http://astana-piramida.kz/en/",
+      "lat": 51.12306,
+      "lon": 71.46361
     },
     {
       "id": "kz-q190456",
@@ -120,7 +133,11 @@
           "title": "Museo central de la República de Kazajistán",
           "url": "https://es.wikipedia.org/wiki/Museo_central_de_la_Rep%C3%BAblica_de_Kazajist%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q190456",
+      "website": "http://www.csmrk.kz/index.php",
+      "lat": 43.23582,
+      "lon": 76.95073
     },
     {
       "id": "kz-q1795699",
@@ -152,7 +169,10 @@
           "title": "Kok Tobe",
           "url": "https://es.wikipedia.org/wiki/Kok_Tobe"
         }
-      }
+      },
+      "wikidata": "Q1795699",
+      "lat": 43.23306,
+      "lon": 76.97611
     },
     {
       "id": "kz-q2324596",
@@ -180,7 +200,11 @@
           "title": "A. Kasteyev State Museum of Arts",
           "url": "https://en.wikipedia.org/wiki/A._Kasteyev_State_Museum_of_Arts"
         }
-      }
+      },
+      "wikidata": "Q2324596",
+      "website": "http://www.gmirk.kz",
+      "lat": 43.23559,
+      "lon": 76.9195
     },
     {
       "id": "kz-q18405670",
@@ -208,7 +232,11 @@
           "title": "National Museum of the Republic of Kazakhstan",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_the_Republic_of_Kazakhstan"
         }
-      }
+      },
+      "wikidata": "Q18405670",
+      "website": "https://nmrk.kz/",
+      "lat": 51.1178,
+      "lon": 71.4701
     },
     {
       "id": "kz-q2498214",
@@ -240,7 +268,10 @@
           "title": "Museo estatal de instrumentos musicales nacionales de Kazajistán",
           "url": "https://es.wikipedia.org/wiki/Museo_estatal_de_instrumentos_musicales_nacionales_de_Kazajist%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q2498214",
+      "lat": 43.25943,
+      "lon": 76.95686
     },
     {
       "id": "kz-q4062771",
@@ -268,7 +299,12 @@
           "title": "Almaty Zoo",
           "url": "https://en.wikipedia.org/wiki/Almaty_Zoo"
         }
-      }
+      },
+      "wikidata": "Q4062771",
+      "website": "http://www.almatyzoo.kz/",
+      "lat": 43.26342,
+      "lon": 76.97405,
+      "phone": "+7 727 291 37 19"
     },
     {
       "id": "kz-q60853367",
@@ -296,7 +332,10 @@
           "title": "Almaty Museum",
           "url": "https://en.wikipedia.org/wiki/Almaty_Museum"
         }
-      }
+      },
+      "wikidata": "Q60853367",
+      "lat": 43.24874,
+      "lon": 76.93611
     }
   ]
 }

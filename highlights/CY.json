@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Museo de Chipre",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Chipre"
         }
-      }
+      },
+      "wikidata": "Q1148462",
+      "website": "http://www.mcw.gov.cy/da",
+      "lat": 35.17167,
+      "lon": 33.35528
     },
     {
       "id": "cy-q1365162",
@@ -89,7 +99,10 @@
           "title": "Mezquita Haydarpaşa",
           "url": "https://es.wikipedia.org/wiki/Mezquita_Haydarpa%C5%9Fa"
         }
-      }
+      },
+      "wikidata": "Q1365162",
+      "lat": 35.17748,
+      "lon": 33.36613
     },
     {
       "id": "cy-q2247315",
@@ -117,7 +130,11 @@
           "title": "Limassol Castle",
           "url": "https://en.wikipedia.org/wiki/Limassol_Castle"
         }
-      }
+      },
+      "wikidata": "Q2247315",
+      "website": "https://www.visitcyprus.com/discover-cyprus/culture/sites-and-monuments/lemesos-limassol-medieval-castle/",
+      "lat": 34.67231,
+      "lon": 33.04163
     },
     {
       "id": "cy-q12065255",
@@ -149,7 +166,11 @@
           "title": "Parque Arqueológico de Pafos",
           "url": "https://es.wikipedia.org/wiki/Parque_Arqueol%C3%B3gico_de_Pafos"
         }
-      }
+      },
+      "wikidata": "Q12065255",
+      "website": "http://www.visitpafos.org.cy/Archaeological_Park.aspx",
+      "lat": 34.75993,
+      "lon": 32.40756
     },
     {
       "id": "cy-q16677642",
@@ -181,7 +202,10 @@
           "title": "Monasterio de San Bernabé",
           "url": "https://es.wikipedia.org/wiki/Monasterio_de_San_Bernab%C3%A9"
         }
-      }
+      },
+      "wikidata": "Q16677642",
+      "lat": 35.17474,
+      "lon": 33.88029
     },
     {
       "id": "cy-q4140950",
@@ -213,7 +237,10 @@
           "title": "Palacio del Arzobispo (Nicosia)",
           "url": "https://es.wikipedia.org/wiki/Palacio_del_Arzobispo_(Nicosia)"
         }
-      }
+      },
+      "wikidata": "Q4140950",
+      "lat": 35.173,
+      "lon": 33.3675
     },
     {
       "id": "cy-q6535231",
@@ -241,7 +268,11 @@
           "title": "Leventis Municipal Museum of Nicosia",
           "url": "https://en.wikipedia.org/wiki/Leventis_Municipal_Museum_of_Nicosia"
         }
-      }
+      },
+      "wikidata": "Q6535231",
+      "website": "http://www.mcw.gov.cy/da",
+      "lat": 35.17056,
+      "lon": 33.36166
     },
     {
       "id": "cy-q6489690",
@@ -273,7 +304,11 @@
           "title": "Museo Arqueológico de Lárnaca",
           "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_L%C3%A1rnaca"
         }
-      }
+      },
+      "wikidata": "Q6489690",
+      "website": "http://www.mcw.gov.cy",
+      "lat": 34.91918,
+      "lon": 33.63344
     },
     {
       "id": "cy-q3329448",
@@ -305,6 +340,16 @@
           "title": "Museo Arqueológico de Pafos",
           "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Pafos"
         }
+      },
+      "wikidata": "Q3329448",
+      "website": "https://www.mcw.gov.cy/mcw/da/da.nsf/All/306F2D157B5C878FC225719900205580?OpenDocument",
+      "lat": 34.7716,
+      "lon": 32.4302,
+      "phone": "+357 26955801",
+      "hours": {
+        "text": "Tu-Su 9:00-16:30; Mo,PH off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

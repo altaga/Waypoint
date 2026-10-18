@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,12 @@
           "title": "Fuerte Jesús",
           "url": "https://es.wikipedia.org/wiki/Fuerte_Jes%C3%BAs"
         }
-      }
+      },
+      "wikidata": "Q379080",
+      "website": "http://www.museums.or.ke/siyu-fort/",
+      "lat": -4.07117,
+      "lon": 39.68206,
+      "phone": "+254-41-2220058"
     },
     {
       "id": "ke-q3330879",
@@ -85,7 +96,11 @@
           "title": "National Museums of Kenya",
           "url": "https://en.wikipedia.org/wiki/National_Museums_of_Kenya"
         }
-      }
+      },
+      "wikidata": "Q3330879",
+      "website": "https://museums.or.ke",
+      "lat": -1.27295,
+      "lon": 36.81438
     },
     {
       "id": "ke-q367631",
@@ -113,7 +128,11 @@
           "title": "Karen Blixen Museum, Kenya",
           "url": "https://en.wikipedia.org/wiki/Karen_Blixen_Museum%2C_Kenya"
         }
-      }
+      },
+      "wikidata": "Q367631",
+      "website": "http://www.karen-blixen.dk/",
+      "lat": -1.35194,
+      "lon": 36.7125
     },
     {
       "id": "ke-q611606",
@@ -145,7 +164,11 @@
           "title": "Museo del ferrocarril de Nairobi",
           "url": "https://es.wikipedia.org/wiki/Museo_del_ferrocarril_de_Nairobi"
         }
-      }
+      },
+      "wikidata": "Q611606",
+      "website": "http://krc.co.ke/?page_id=477",
+      "lat": -1.29373,
+      "lon": 36.82219
     },
     {
       "id": "ke-q225477",
@@ -174,7 +197,12 @@
           "title": "Bomas of Kenya",
           "url": "https://en.wikipedia.org/wiki/Bomas_of_Kenya"
         }
-      }
+      },
+      "wikidata": "Q225477",
+      "website": "http://www.bomasofkenya.co.ke",
+      "lat": -1.33688,
+      "lon": 36.76912,
+      "phone": "+254 20 891391"
     },
     {
       "id": "ke-q3329722",
@@ -202,7 +230,11 @@
           "title": "Kisumu Museum",
           "url": "https://en.wikipedia.org/wiki/Kisumu_Museum"
         }
-      }
+      },
+      "wikidata": "Q3329722",
+      "website": "https://www.museums.or.ke/kisumu/",
+      "lat": -0.1075,
+      "lon": 34.7631
     },
     {
       "id": "ke-q5564103",
@@ -234,7 +266,11 @@
           "title": "Giraffe Centre",
           "url": "https://es.wikipedia.org/wiki/Giraffe_Centre"
         }
-      }
+      },
+      "wikidata": "Q5564103",
+      "website": "http://www.giraffecenter.org",
+      "lat": -1.37447,
+      "lon": 36.74232
     },
     {
       "id": "ke-q15036534",
@@ -262,7 +298,11 @@
           "title": "Hyrax Hill Prehistoric Site and Museum",
           "url": "https://en.wikipedia.org/wiki/Hyrax_Hill_Prehistoric_Site_and_Museum"
         }
-      }
+      },
+      "wikidata": "Q15036534",
+      "website": "https://museums.or.ke",
+      "lat": -0.2796,
+      "lon": 36.1055
     }
   ]
 }

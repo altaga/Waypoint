@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,12 @@
           "title": "Museo nacional de Bangladés",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Banglad%C3%A9s"
         }
-      }
+      },
+      "wikidata": "Q51876",
+      "website": "http://www.bangladeshmuseum.gov.bd/",
+      "lat": 23.73755,
+      "lon": 90.3941,
+      "phone": "+8801552375647"
     },
     {
       "id": "bd-q3350326",
@@ -89,7 +100,11 @@
           "title": "Zoológico de Daca",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Daca"
         }
-      }
+      },
+      "wikidata": "Q3350326",
+      "website": "http://www.dhakazoo.org/",
+      "lat": 23.81267,
+      "lon": 90.34461
     },
     {
       "id": "bd-q13058770",
@@ -117,7 +132,12 @@
           "title": "Bangabandhu Memorial Museum",
           "url": "https://en.wikipedia.org/wiki/Bangabandhu_Memorial_Museum"
         }
-      }
+      },
+      "wikidata": "Q13058770",
+      "website": "http://www.bangabandhumuseum.org.bd/",
+      "lat": 23.75167,
+      "lon": 90.37639,
+      "phone": "+880 02-48122571"
     },
     {
       "id": "bd-q2912841",
@@ -149,7 +169,11 @@
           "title": "Museo de la Guerra de Liberación",
           "url": "https://es.wikipedia.org/wiki/Museo_de_la_Guerra_de_Liberaci%C3%B3n"
         }
-      }
+      },
+      "wikidata": "Q2912841",
+      "website": "http://www.liberationwarmuseumbd.org/",
+      "lat": 23.77558,
+      "lon": 90.3697
     },
     {
       "id": "bd-q5313401",
@@ -177,7 +201,10 @@
           "title": "Dulhazra Safari Park",
           "url": "https://en.wikipedia.org/wiki/Dulhazra_Safari_Park"
         }
-      }
+      },
+      "wikidata": "Q5313401",
+      "lat": 21.67,
+      "lon": 92.09
     },
     {
       "id": "bd-q18987429",
@@ -205,7 +232,10 @@
           "title": "Chittagong Zoo",
           "url": "https://en.wikipedia.org/wiki/Chittagong_Zoo"
         }
-      }
+      },
+      "wikidata": "Q18987429",
+      "lat": 22.36657,
+      "lon": 91.79619
     },
     {
       "id": "bd-q7915600",
@@ -233,7 +263,11 @@
           "title": "Varendra Research Museum",
           "url": "https://en.wikipedia.org/wiki/Varendra_Research_Museum"
         }
-      }
+      },
+      "wikidata": "Q7915600",
+      "website": "https://www.ru.ac.bd/facilities/varendra-research-museum/",
+      "lat": 24.3671,
+      "lon": 88.5924
     },
     {
       "id": "bd-q13059829",
@@ -261,7 +295,11 @@
           "title": "Zainul Abedin Museum",
           "url": "https://en.wikipedia.org/wiki/Zainul_Abedin_Museum"
         }
-      }
+      },
+      "wikidata": "Q13059829",
+      "lat": 24.77033,
+      "lon": 90.39494,
+      "phone": "+880 91-64298"
     },
     {
       "id": "bd-q23044804",
@@ -289,7 +327,12 @@
           "title": "National Museum of Science and Technology (Bangladesh)",
           "url": "https://en.wikipedia.org/wiki/National_Museum_of_Science_and_Technology_(Bangladesh)"
         }
-      }
+      },
+      "wikidata": "Q23044804",
+      "website": "http://www.nmst.gov.bd/",
+      "lat": 23.7788,
+      "lon": 90.3716,
+      "phone": "+৮৮০২-৯১১২০৮৪"
     }
   ]
 }

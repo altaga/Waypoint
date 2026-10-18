@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -58,7 +64,11 @@
           "title": "Kremlin de Moscú",
           "url": "https://es.wikipedia.org/wiki/Kremlin_de_Mosc%C3%BA"
         }
-      }
+      },
+      "wikidata": "Q133274",
+      "website": "http://kreml.ru",
+      "lat": 55.75167,
+      "lon": 37.61778
     },
     {
       "id": "ru-q132783",
@@ -91,6 +101,16 @@
           "title": "Museo del Hermitage",
           "url": "https://es.wikipedia.org/wiki/Museo_del_Hermitage"
         }
+      },
+      "wikidata": "Q132783",
+      "website": "https://hermitagemuseum.org",
+      "lat": 59.94056,
+      "lon": 30.31361,
+      "phone": "+7 812 710-90-79",
+      "hours": {
+        "text": "Tu-Su 12:00-21:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -124,6 +144,16 @@
           "title": "Catedral de San Basilio",
           "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Basilio"
         }
+      },
+      "wikidata": "Q129846",
+      "website": "http://www.saintbasil.ru/",
+      "lat": 55.7525,
+      "lon": 37.62306,
+      "phone": "+7 495 6983304",
+      "hours": {
+        "text": "Mo-Su 11:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -156,6 +186,15 @@
           "title": "Mausoleo de Lenin",
           "url": "https://es.wikipedia.org/wiki/Mausoleo_de_Lenin"
         }
+      },
+      "wikidata": "Q191414",
+      "website": "http://fso.gov.ru/struct/skmk/pravila_kremlin/",
+      "lat": 55.75361,
+      "lon": 37.61972,
+      "hours": {
+        "text": "Tu-Su 10:00-13:00; Fr off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -189,7 +228,11 @@
           "title": "Veliki Ústiug",
           "url": "https://es.wikipedia.org/wiki/Veliki_%C3%9Astiug"
         }
-      }
+      },
+      "wikidata": "Q111048",
+      "website": "http://www.movustug.ru/",
+      "lat": 60.75889,
+      "lon": 46.30389
     },
     {
       "id": "ru-q183334",
@@ -221,6 +264,16 @@
           "title": "Galería Tretiakov",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Tretiakov"
         }
+      },
+      "wikidata": "Q183334",
+      "website": "https://www.tretyakovgallery.ru",
+      "lat": 55.74139,
+      "lon": 37.62086,
+      "phone": "+7 (495) 957 07 27",
+      "hours": {
+        "text": "Tu-Su 10:00-18:00; Th-Sa 10:00-21:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

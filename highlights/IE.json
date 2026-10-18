@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -57,7 +63,11 @@
           "title": "Roca de Cashel",
           "url": "https://es.wikipedia.org/wiki/Roca_de_Cashel"
         }
-      }
+      },
+      "wikidata": "Q1255597",
+      "website": "http://www.heritageireland.ie/en/south-east/rockofcashel/",
+      "lat": 52.52,
+      "lon": -7.89
     },
     {
       "id": "ie-q2018379",
@@ -89,6 +99,16 @@
           "title": "Galería Nacional de Irlanda",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Irlanda"
         }
+      },
+      "wikidata": "Q2018379",
+      "website": "https://www.nationalgallery.ie",
+      "lat": 53.34091,
+      "lon": -6.25255,
+      "phone": "+353 1 661 5133",
+      "hours": {
+        "text": "Su,Mo 11:00-17:30; Tu,We,Fr,Sa 09:15-17:30; Th 09:15-20:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -121,7 +141,11 @@
           "title": "Museo Nacional de Irlanda",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Irlanda"
         }
-      }
+      },
+      "wikidata": "Q1672840",
+      "website": "http://www.museum.ie",
+      "lat": 53.34028,
+      "lon": -6.25472
     },
     {
       "id": "ie-q391976",
@@ -153,6 +177,16 @@
           "title": "Biblioteca Chester Beatty",
           "url": "https://es.wikipedia.org/wiki/Biblioteca_Chester_Beatty"
         }
+      },
+      "wikidata": "Q391976",
+      "website": "https://chesterbeatty.ie",
+      "lat": 53.342,
+      "lon": -6.267,
+      "phone": "+353 1 4070750",
+      "hours": {
+        "text": "Mo-Fr 10:00-17:00; Sa 11:00-17:00; Su 13:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -186,7 +220,11 @@
           "title": "Kilmainham Gaol",
           "url": "https://es.wikipedia.org/wiki/Kilmainham_Gaol"
         }
-      }
+      },
+      "wikidata": "Q1049842",
+      "website": "https://kilmainhamgaolmuseum.ie/",
+      "lat": 53.34167,
+      "lon": -6.30944
     },
     {
       "id": "ie-q1538285",
@@ -218,6 +256,16 @@
           "title": "Museo Irlandés de Arte Moderno",
           "url": "https://es.wikipedia.org/wiki/Museo_Irland%C3%A9s_de_Arte_Moderno"
         }
+      },
+      "wikidata": "Q1538285",
+      "website": "http://www.imma.ie",
+      "lat": 53.3429,
+      "lon": -6.3,
+      "phone": "+353 1 612 9900",
+      "hours": {
+        "text": "Tu-Fr 11:30-17:30; Sa 10:00-17:30; Su 12:00-17:30; PH 12:00-17:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -250,6 +298,16 @@
           "title": "Zoológico de Dublín",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Dubl%C3%ADn"
         }
+      },
+      "wikidata": "Q220027",
+      "website": "http://www.dublinzoo.ie",
+      "lat": 53.35389,
+      "lon": -6.30389,
+      "phone": "+353 1 474 8900",
+      "hours": {
+        "text": "Mo-Su 09:30-16:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -282,6 +340,15 @@
           "title": "Castillo de Kilkenny",
           "url": "https://es.wikipedia.org/wiki/Castillo_de_Kilkenny"
         }
+      },
+      "wikidata": "Q2453267",
+      "website": "https://www.kilkennycastle.ie",
+      "lat": 52.65028,
+      "lon": -7.24917,
+      "hours": {
+        "text": "Oct-Feb 09:30-16:30; Mar 09:30-17:00; Apr, May 09:30-17:30; Jun-Aug 09:00-17:30; Sep 09:30-17:30",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -314,6 +381,15 @@
           "title": "Castillo del Rey Juan (Limerick)",
           "url": "https://es.wikipedia.org/wiki/Castillo_del_Rey_Juan_(Limerick)"
         }
+      },
+      "wikidata": "Q2533198",
+      "website": "https://kingjohnscastle.ie",
+      "lat": 52.66972,
+      "lon": -8.62556,
+      "hours": {
+        "text": "Mo-Su 09:30-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -342,6 +418,15 @@
           "title": "Guinness Storehouse",
           "url": "https://en.wikipedia.org/wiki/Guinness_Storehouse"
         }
+      },
+      "wikidata": "Q261012",
+      "website": "https://www.guinness-storehouse.com",
+      "lat": 53.34187,
+      "lon": -6.28671,
+      "hours": {
+        "text": "Mo-Su 09:30-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

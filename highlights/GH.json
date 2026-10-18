@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Museo Nacional de Ghana",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Ghana"
         }
-      }
+      },
+      "wikidata": "Q1967472",
+      "website": "https://gmmb.gov.gh/national-museum-of-ghana/",
+      "lat": 5.55675,
+      "lon": -0.20613
     },
     {
       "id": "gh-q1282665",
@@ -88,6 +98,16 @@
           "title": "Museo Regional de Volta",
           "url": "https://es.wikipedia.org/wiki/Museo_Regional_de_Volta"
         }
+      },
+      "wikidata": "Q1282665",
+      "website": "http://www.voltaregionalmuseum.ghana0.com/",
+      "lat": 6.60861,
+      "lon": 0.46889,
+      "phone": "+233 362 026403",
+      "hours": {
+        "text": "Mo-Sa 08:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -116,7 +136,12 @@
           "title": "Manhyia Palace",
           "url": "https://en.wikipedia.org/wiki/Manhyia_Palace"
         }
-      }
+      },
+      "wikidata": "Q6749385",
+      "website": "https://manhyiapalacemuseum.org/",
+      "lat": 6.70348,
+      "lon": -1.61579,
+      "phone": "+233322 023680"
     },
     {
       "id": "gh-q2585962",
@@ -148,7 +173,10 @@
           "title": "Museo Yaa Asantewaa",
           "url": "https://es.wikipedia.org/wiki/Museo_Yaa_Asantewaa"
         }
-      }
+      },
+      "wikidata": "Q2585962",
+      "lat": 6.71366,
+      "lon": -1.46705
     },
     {
       "id": "gh-q98077924",
@@ -176,6 +204,15 @@
           "title": "Museum of Science and Technology (Accra)",
           "url": "https://en.wikipedia.org/wiki/Museum_of_Science_and_Technology_(Accra)"
         }
+      },
+      "wikidata": "Q98077924",
+      "website": "https://gmmb.gov.gh/museum-of-science-and-technology-mst-accra-1963",
+      "lat": 5.5567,
+      "lon": -0.20611,
+      "hours": {
+        "text": "Tu-Su 09:00-18:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

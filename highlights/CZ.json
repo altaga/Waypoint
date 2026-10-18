@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Mariánské Lázně",
           "url": "https://es.wikipedia.org/wiki/Mari%C3%A1nsk%C3%A9_L%C3%A1zn%C4%9B"
         }
-      }
+      },
+      "wikidata": "Q523469",
+      "website": "https://www.muml.cz/",
+      "lat": 49.9647,
+      "lon": 12.70125
     },
     {
       "id": "cz-q1419555",
@@ -88,7 +98,12 @@
           "title": "Galería Nacional de Praga",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_Nacional_de_Praga"
         }
-      }
+      },
+      "wikidata": "Q1419555",
+      "website": "https://www.ngprague.cz",
+      "lat": 50.10111,
+      "lon": 14.4325,
+      "phone": "+420 224 301 122"
     },
     {
       "id": "cz-q1413217",
@@ -120,7 +135,10 @@
           "title": "Torre de televisión de Žižkov",
           "url": "https://es.wikipedia.org/wiki/Torre_de_televisi%C3%B3n_de_%C5%BDi%C5%BEkov"
         }
-      }
+      },
+      "wikidata": "Q1413217",
+      "lat": 50.08083,
+      "lon": 14.45139
     },
     {
       "id": "cz-q1488700",
@@ -152,7 +170,11 @@
           "title": "Torre de la Pólvora (Praga)",
           "url": "https://es.wikipedia.org/wiki/Torre_de_la_P%C3%B3lvora_(Praga)"
         }
-      }
+      },
+      "wikidata": "Q1488700",
+      "website": "http://www.muzeumprahy.cz/199-prasna-brana/",
+      "lat": 50.08722,
+      "lon": 14.42778
     },
     {
       "id": "cz-q220086",
@@ -184,6 +206,16 @@
           "title": "Jardín zoológico de Praga",
           "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_de_Praga"
         }
+      },
+      "wikidata": "Q220086",
+      "website": "https://www.zoopraha.cz/en",
+      "lat": 50.11694,
+      "lon": 14.40611,
+      "phone": "+420 296 112 230",
+      "hours": {
+        "text": "Jan-Feb,Nov-Dec 09:00-16:00; Mar 09:00-17:00; Apr-May,Sep-Oct 09:00-18:00; Jun-Aug 09:00-21:00; Dec 24 09:00-14:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -217,6 +249,15 @@
           "title": "Ayuntamiento de la ciudad vieja (Praga)",
           "url": "https://es.wikipedia.org/wiki/Ayuntamiento_de_la_ciudad_vieja_(Praga)"
         }
+      },
+      "wikidata": "Q2332231",
+      "website": "https://www.prague.eu/staromestskaradnice",
+      "lat": 50.08711,
+      "lon": 14.42061,
+      "hours": {
+        "text": "Mo 11:00-22:00; Tu-Su 09:00-22:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     }
   ]

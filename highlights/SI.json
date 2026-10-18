@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Cueva de Postojna",
           "url": "https://es.wikipedia.org/wiki/Cueva_de_Postojna"
         }
-      }
+      },
+      "wikidata": "Q15903",
+      "website": "https://www.postojnska-jama.eu/postojnska-jama/",
+      "lat": 45.78276,
+      "lon": 14.20366
     },
     {
       "id": "si-q500376",
@@ -87,7 +97,11 @@
           "title": "Grutas de Škocjan",
           "url": "https://es.wikipedia.org/wiki/Grutas_de_%C5%A0kocjan"
         }
-      }
+      },
+      "wikidata": "Q500376",
+      "website": "https://www.park-skocjanske-jame.si/",
+      "lat": 45.665,
+      "lon": 13.99472
     },
     {
       "id": "si-q1779044",
@@ -114,7 +128,10 @@
           "title": "Cross Cave",
           "url": "https://en.wikipedia.org/wiki/Cross_Cave"
         }
-      }
+      },
+      "wikidata": "Q1779044",
+      "lat": 45.82,
+      "lon": 14.24583
     },
     {
       "id": "si-q1953536",
@@ -146,7 +163,11 @@
           "title": "Galería nacional de Eslovenia",
           "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_nacional_de_Eslovenia"
         }
-      }
+      },
+      "wikidata": "Q1953536",
+      "website": "http://www.ng-slo.si/",
+      "lat": 46.05396,
+      "lon": 14.50025
     },
     {
       "id": "si-q2033282",
@@ -178,7 +199,11 @@
           "title": "Museo Nacional de Eslovenia",
           "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Eslovenia"
         }
-      }
+      },
+      "wikidata": "Q2033282",
+      "website": "https://www.nms.si/",
+      "lat": 46.05222,
+      "lon": 14.49944
     },
     {
       "id": "si-q11234584",
@@ -210,7 +235,11 @@
           "title": "Museo de Arte Moderno de Liubliana",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Moderno_de_Liubliana"
         }
-      }
+      },
+      "wikidata": "Q11234584",
+      "website": "https://www.mg-lj.si/",
+      "lat": 46.05296,
+      "lon": 14.49881
     },
     {
       "id": "si-q3436372",
@@ -242,6 +271,16 @@
           "title": "Zoológico de Liubliana",
           "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Liubliana"
         }
+      },
+      "wikidata": "Q3436372",
+      "website": "https://www.zoo.si/",
+      "lat": 46.055,
+      "lon": 14.47167,
+      "phone": "+386 1 2442 188",
+      "hours": {
+        "text": "Jan,Dec: 09:00-16:30; Feb-Mar,Nov: 09:00-17:00; Oct: 09:00-18:00; Apr-Sep: 09:00-19:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -270,7 +309,11 @@
           "title": "Slovenian Museum of Natural History",
           "url": "https://en.wikipedia.org/wiki/Slovenian_Museum_of_Natural_History"
         }
-      }
+      },
+      "wikidata": "Q3666739",
+      "website": "http://www.pms-lj.si/si/",
+      "lat": 46.05222,
+      "lon": 14.49944
     },
     {
       "id": "si-q18533909",
@@ -302,7 +345,10 @@
           "title": "Divje Babe",
           "url": "https://es.wikipedia.org/wiki/Divje_Babe"
         }
-      }
+      },
+      "wikidata": "Q18533909",
+      "lat": 46.11284,
+      "lon": 13.91532
     }
   ]
 }

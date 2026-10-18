@@ -23,6 +23,18 @@
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "wikidata": {
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
+      "url": "https://www.wikidata.org/",
+      "license": "CC0 1.0",
+      "retrieved": "2026-10-18"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -46,7 +58,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 41.008333,
+      "lon": 28.98
     },
     {
       "id": "tr-blue-mosque",
@@ -67,7 +81,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 41.005385,
+      "lon": 28.976825
     },
     {
       "id": "tr-topkapi",
@@ -89,7 +105,10 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "website": "https://www.millisaraylar.gov.tr/Lokasyon/2/Topkapi-Sarayi?culture=en",
+      "lat": 41.013,
+      "lon": 28.984
     },
     {
       "id": "tr-grand-bazaar",
@@ -111,7 +130,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 41.010581,
+      "lon": 28.967933
     },
     {
       "id": "tr-spice-bazaar",
@@ -132,7 +153,9 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
-      }
+      },
+      "lat": 41.016389,
+      "lon": 28.970556
     },
     {
       "id": "tr-cappadocia",
@@ -154,6 +177,15 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      },
+      "website": "https://muze.gov.tr/muze-detay?SectionId=GRM01&DistId=GRM",
+      "lat": 38.640047,
+      "lon": 34.84538,
+      "phone": "+90 384 271 2167",
+      "hours": {
+        "text": "Mo-Su 08:00-17:45",
+        "source": "https://muze.gov.tr/muze-detay?SectionId=GRM01&DistId=GRM",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -175,6 +207,15 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      },
+      "website": "https://muze.gov.tr/muze-detay?SectionId=EFS01&DistId=EFS",
+      "lat": 37.94058,
+      "lon": 27.33939,
+      "phone": "+90 232 892 6010",
+      "hours": {
+        "text": "Mo-Su 08:00-18:00",
+        "source": "https://muze.gov.tr/muze-detay?SectionId=EFS01&DistId=EFS",
+        "retrieved": "2026-10-18"
       }
     }
   ]

@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -52,7 +58,11 @@
           "title": "Doual'art",
           "url": "https://en.wikipedia.org/wiki/Doual'art"
         }
-      }
+      },
+      "wikidata": "Q1051789",
+      "website": "http://www.doualart.org",
+      "lat": 4.04335,
+      "lon": 9.68708
     },
     {
       "id": "cm-q15961646",
@@ -81,7 +91,12 @@
           "title": "Blackitude Museum",
           "url": "https://en.wikipedia.org/wiki/Blackitude_Museum"
         }
-      }
+      },
+      "wikidata": "Q15961646",
+      "website": "http://www.blackitude.org/",
+      "lat": 3.86421,
+      "lon": 11.51835,
+      "phone": "+237 670 58 79 16"
     },
     {
       "id": "cm-q6356988",
@@ -113,7 +128,10 @@
           "title": "Jardín zoológico botánico de Mvog-Betsi",
           "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_bot%C3%A1nico_de_Mvog-Betsi"
         }
-      }
+      },
+      "wikidata": "Q6356988",
+      "lat": 3.86474,
+      "lon": 11.4875
     },
     {
       "id": "cm-q108912427",
@@ -142,7 +160,11 @@
           "title": "Mankon Museum",
           "url": "https://en.wikipedia.org/wiki/Mankon_Museum"
         }
-      }
+      },
+      "wikidata": "Q108912427",
+      "website": "http://www.museumcam.org/mankon/",
+      "lat": 6.00306,
+      "lon": 10.10472
     }
   ]
 }

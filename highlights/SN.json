@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Museo de Artes de África IFAN",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Artes_de_%C3%81frica_IFAN"
         }
-      }
+      },
+      "wikidata": "Q2629758",
+      "website": "https://musee-monod.sn/",
+      "lat": 14.66331,
+      "lon": -17.43807
     },
     {
       "id": "sn-q59521062",
@@ -88,7 +98,11 @@
           "title": "Museo de Civilizaciones Negras",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Civilizaciones_Negras"
         }
-      }
+      },
+      "wikidata": "Q59521062",
+      "website": "https://mcn-sn.com/",
+      "lat": 14.67751,
+      "lon": -17.4351
     },
     {
       "id": "sn-q3364375",
@@ -120,7 +134,10 @@
           "title": "Parque forestal y Zoológico de Hann",
           "url": "https://es.wikipedia.org/wiki/Parque_forestal_y_Zool%C3%B3gico_de_Hann"
         }
-      }
+      },
+      "wikidata": "Q3364375",
+      "lat": 14.72402,
+      "lon": -17.43314
     },
     {
       "id": "sn-q10283605",
@@ -152,7 +169,10 @@
           "title": "Museo Histórico de Gorea",
           "url": "https://es.wikipedia.org/wiki/Museo_Hist%C3%B3rico_de_Gorea"
         }
-      }
+      },
+      "wikidata": "Q10283605",
+      "lat": 14.67074,
+      "lon": -17.39961
     },
     {
       "id": "sn-q110682482",
@@ -185,7 +205,10 @@
           "title": "Museo de Arte e Historia de las Culturas Africanas Occidentales",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_e_Historia_de_las_Culturas_Africanas_Occidentales"
         }
-      }
+      },
+      "wikidata": "Q110682482",
+      "lat": 14.12105,
+      "lon": -16.66017
     }
   ]
 }

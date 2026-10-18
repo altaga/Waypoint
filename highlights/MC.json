@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,6 +62,16 @@
           "title": "Museo Oceanográfico de Mónaco",
           "url": "https://es.wikipedia.org/wiki/Museo_Oceanogr%C3%A1fico_de_M%C3%B3naco"
         }
+      },
+      "wikidata": "Q851527",
+      "website": "https://www.oceano.org/en/",
+      "lat": 43.73083,
+      "lon": 7.42528,
+      "phone": "+377 93 15 36 00",
+      "hours": {
+        "text": "Oct-Mar 10:00-18:00; Apr-Jun,Sep 10:00-19:00; Jul-Aug 10:00-20:00; Dec 25 off",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -87,7 +103,11 @@
           "title": "Museo del Automóvil de Mónaco",
           "url": "https://es.wikipedia.org/wiki/Museo_del_Autom%C3%B3vil_de_M%C3%B3naco"
         }
-      }
+      },
+      "wikidata": "Q16010845",
+      "website": "https://www.mtcc.mc/",
+      "lat": 43.7354,
+      "lon": 7.42181
     },
     {
       "id": "mc-q3330282",
@@ -119,7 +139,11 @@
           "title": "Museo de Sellos y Monedas de Mónaco",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Sellos_y_Monedas_de_M%C3%B3naco"
         }
-      }
+      },
+      "wikidata": "Q3330282",
+      "website": "https://www.mtm-monaco.mc/",
+      "lat": 43.73088,
+      "lon": 7.41759
     },
     {
       "id": "mc-q2264191",
@@ -151,7 +175,10 @@
           "title": "Museo Napoleónico (Mónaco)",
           "url": "https://es.wikipedia.org/wiki/Museo_Napole%C3%B3nico_(M%C3%B3naco)"
         }
-      }
+      },
+      "wikidata": "Q2264191",
+      "lat": 43.73126,
+      "lon": 7.42013
     },
     {
       "id": "mc-q3329551",
@@ -183,7 +210,11 @@
           "title": "Museo de Antropología Prehistórica de Mónaco",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Antropolog%C3%ADa_Prehist%C3%B3rica_de_M%C3%B3naco"
         }
-      }
+      },
+      "wikidata": "Q3329551",
+      "website": "http://www.map-mc.com/",
+      "lat": 43.7321,
+      "lon": 7.41389
     },
     {
       "id": "mc-q3345073",
@@ -215,7 +246,11 @@
           "title": "Nuevo Museo Nacional de Mónaco",
           "url": "https://es.wikipedia.org/wiki/Nuevo_Museo_Nacional_de_M%C3%B3naco"
         }
-      }
+      },
+      "wikidata": "Q3345073",
+      "website": "https://www.nmnm.mc/",
+      "lat": 43.7328,
+      "lon": 7.41389
     }
   ]
 }

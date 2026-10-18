@@ -13,16 +13,22 @@
   },
   "sources": {
     "wikidata": {
-      "title": "Wikidata (CC0 1.0)",
+      "title": "Wikidata (CC0 1.0): official website, coordinates, phone",
       "url": "https://www.wikidata.org/",
       "license": "CC0 1.0",
-      "retrieved": "2026-10-13"
+      "retrieved": "2026-10-18"
     },
     "wikipedia": {
       "title": "Wikipedia (text under CC BY-SA 4.0; each place links to its article)",
       "url": "https://www.wikipedia.org/",
       "license": "CC BY-SA 4.0",
       "retrieved": "2026-10-13"
+    },
+    "osm": {
+      "title": "OpenStreetMap contributors (ODbL): opening hours",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -56,7 +62,11 @@
           "title": "Museo nacional de Omán",
           "url": "https://es.wikipedia.org/wiki/Museo_nacional_de_Om%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q2158194",
+      "website": "https://www.nm.gov.om",
+      "lat": 23.61158,
+      "lon": 58.59376
     },
     {
       "id": "om-q2157528",
@@ -88,7 +98,10 @@
           "title": "Museo de Historia Natural de Omán",
           "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Natural_de_Om%C3%A1n"
         }
-      }
+      },
+      "wikidata": "Q2157528",
+      "lat": 23.5989,
+      "lon": 58.4231
     },
     {
       "id": "om-q3329080",
@@ -116,6 +129,15 @@
           "title": "Bait Al Zubair",
           "url": "https://en.wikipedia.org/wiki/Bait_Al_Zubair"
         }
+      },
+      "wikidata": "Q3329080",
+      "website": "https://www.baitalzubair.com/",
+      "lat": 23.61433,
+      "lon": 58.58958,
+      "hours": {
+        "text": "Sa-Th 09:00-17:00",
+        "source": "osm",
+        "retrieved": "2026-10-18"
       }
     },
     {
@@ -144,7 +166,10 @@
           "title": "Muscat Gate Museum",
           "url": "https://en.wikipedia.org/wiki/Muscat_Gate_Museum"
         }
-      }
+      },
+      "wikidata": "Q3330063",
+      "lat": 23.6175,
+      "lon": 58.5869
     },
     {
       "id": "om-q7089526",
@@ -172,7 +197,10 @@
           "title": "Oman Children's Museum",
           "url": "https://en.wikipedia.org/wiki/Oman_Children's_Museum"
         }
-      }
+      },
+      "wikidata": "Q7089526",
+      "lat": 23.6159,
+      "lon": 58.4808
     }
   ]
 }
