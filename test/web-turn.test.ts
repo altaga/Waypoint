@@ -41,5 +41,5 @@ test("the concierge is told that moving between cities costs most of a day, and 
   assert.match(p, /limit 30/);
   assert.match(p, /call get_highlights again without interests/);
   assert.match(p, /Never plan one day in Kyoto and the next in Osaka/);
-  assert.match(p, /Leave a day open only when there are no more verified places/);
+  assert.match(p, /ask the traveler whether they want those days free/);
 });

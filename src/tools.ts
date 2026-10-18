@@ -1232,9 +1232,9 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         } else if (planned === 0) {
           voice = pick(locale, `There is no day plan yet for your ${stay} days. Tell me what you enjoy and I'll put one together from real places.`, `Aún no hay plan para tus ${stay} días. Dime qué te gusta y armo uno con lugares reales.`);
         } else if (verdict) {
-          voice = pick(locale, `Saved a plan for ${planned} of ${stay} days, checked against the places list.${warnings.length ? " Some places need a reservation." : ""}`, `Guardé el plan de ${planned} de ${stay} días, revisado contra la lista de lugares.${warnings.length ? " Algunos lugares requieren reserva." : ""}`);
+          voice = pick(locale, `Saved a plan for ${planned} of ${stay} days, checked against the places list.${warnings.length ? " Some places need a reservation." : ""}${planned < stay ? ` Do you want the other ${stay - planned} days free?` : ""}`, `Guardé el plan de ${planned} de ${stay} días, revisado contra la lista de lugares.${warnings.length ? " Algunos lugares requieren reserva." : ""}${planned < stay ? ` ¿Quieres dejar libres los otros ${stay - planned} días?` : ""}`);
         } else {
-          voice = pick(locale, `Your plan covers ${planned} of ${stay} days.`, `Tu plan cubre ${planned} de ${stay} días.`);
+          voice = pick(locale, `Your plan covers ${planned} of ${stay} days.${planned < stay ? ` Do you want the other ${stay - planned} days free?` : ""}`, `Tu plan cubre ${planned} de ${stay} días.${planned < stay ? ` ¿Quieres dejar libres los otros ${stay - planned} días?` : ""}`);
         }
         if (staleProblem) {
           voice += pick(locale, ` Your saved plan no longer fits your settings: ${violationText(staleProblem, locale, placeName)}.`, ` Tu plan guardado ya no cumple tus ajustes: ${violationText(staleProblem, locale, placeName)}.`);

@@ -450,34 +450,11 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
   .frame::after { bottom: -24px; }
   select, .btn-ghost { height: 36px; padding: 0 var(--s-12); font-size: 13px; }
   .seg button { height: 30px; }
-  .stage { padding: var(--s-8) var(--s-16) var(--s-24); gap: var(--s-16); }
-  .topbar { padding: 0 var(--s-16); gap: var(--s-6); grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
-  .topbar .brand-s { display: none; }
-  .home { margin-top: var(--s-16); }
-  .home-time { font-size: 76px; }
-  .home-time .ampm { font-size: 20px; margin-left: var(--s-8); }
-  .home-date { font-size: 17px; }
-  .home::after { width: 200px; height: 200px; top: -50px; right: -40px; }
-  /* Phones: the globe sits on top like a cover image, the text runs full width under it. */
-  .hero { grid-template-columns: minmax(0, 1fr); padding: var(--s-20); border-radius: var(--r-24); row-gap: var(--s-16); }
-  .h-dest { font-size: 40px; }
-  .h-count b { font-size: 24px; }
-  .h-stats { gap: var(--s-16); margin-top: var(--s-12); }
-  .h-stats .ring { width: 72px; height: 72px; }
-  .h-stats .r-v b { font-size: 17px; }
-  .h-globe { grid-row: 1; justify-self: center; width: 232px; margin: -8px 0 -12px; }
-  .h-actions { display: grid; grid-template-columns: 1fr 1fr; }
-  .act { padding: 0 var(--s-8); }
-  .act.primary { grid-column: 1 / -1; }
   .screen { min-height: 560px; }
-  .headline { font-size: 18px; }
-  .stage:not(.active) .headline { font-size: 26px; }
-  .card { padding: var(--s-16) var(--s-20); }
   .chat-col { padding: var(--s-16); border-radius: var(--r-24); }
   .bubble { max-width: 90%; }
   .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding: 4px; margin: -4px; }
   .chip { flex: none; white-space: nowrap; }
-  .money .m-to { font-size: 40px; }
 }
 @media (pointer: coarse) {
   button, .chip, select { min-height: 44px; }
@@ -602,6 +579,32 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 .card.k-budget { container-type: inline-size; }
 .money .m-to { font-size: clamp(24px, 11cqw, 48px); white-space: nowrap; }
 
-/* The note about days nothing is planned for is one line across the grid, not a card-sized hole. */
-.card.k-day.free { grid-column: 1 / -1; min-height: 0; padding: var(--s-12) var(--s-20); }
-.card.k-day.free p { margin: 0; }
+
+/* ---------- The phone layout follows the width of the screen, so the simulated phone gets it on a desktop too ---------- */
+.screen { container-type: inline-size; container-name: screen; }
+@container screen (max-width: 560px) {
+  .stage { padding: var(--s-8) var(--s-16) var(--s-24); gap: var(--s-16); }
+  .topbar { padding: 0 var(--s-16); gap: var(--s-6); grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .topbar .brand-s { display: none; }
+  .home { margin-top: var(--s-16); }
+  .home-time { font-size: 76px; }
+  .home-time .ampm { font-size: 20px; margin-left: var(--s-8); }
+  .home-date { font-size: 17px; }
+  .home::after { width: 200px; height: 200px; top: -50px; right: -40px; }
+  /* Phones: the globe sits on top like a cover image, the text runs full width under it. */
+  .hero { grid-template-columns: minmax(0, 1fr); padding: var(--s-20); border-radius: var(--r-24); row-gap: var(--s-16); }
+  .h-dest { font-size: 40px; }
+  .h-count b { font-size: 24px; }
+  .h-stats { gap: var(--s-16); margin-top: var(--s-12); }
+  .h-stats .ring { width: 72px; height: 72px; }
+  .h-stats .r-v b { font-size: 17px; }
+  .h-globe { grid-row: 1; justify-self: center; width: 232px; margin: -8px 0 -12px; }
+  .h-actions { display: grid; grid-template-columns: 1fr 1fr; }
+  .act { padding: 0 var(--s-8); }
+  .act.primary { grid-column: 1 / -1; }
+  .headline { font-size: 18px; }
+  .stage:not(.active) .headline { font-size: 26px; }
+  .card { padding: var(--s-16) var(--s-20); }
+  .h-actions .act { min-width: 0; justify-content: center; text-align: center; }
+  .h-dest { overflow-wrap: anywhere; }
+}

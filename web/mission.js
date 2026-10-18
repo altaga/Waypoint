@@ -28,7 +28,7 @@ const WORDS = {
     // The weather is left out when that step failed: a missing number must not be read out.
     summary: (s) => {
       const weather = s.hi == null ? "" : ` The usual weather for those dates is around ${s.hi} and ${s.lo} degrees.`;
-      return `Done. I checked entry for ${s.travelers} passports and ${s.rules} local rules.${weather} ${s.days ? `I planned ${s.days} days and packed` : "I packed"} a list of ${s.items} items. You're ${s.readiness}% ready.${s.needs ? ` ${s.needs} still needs paperwork.` : ""}`;
+      return `Done. I checked entry for ${s.travelers} passports and ${s.rules} local rules.${weather} ${s.days ? `I planned ${s.days} days and packed` : "I packed"} a list of ${s.items} items. You're ${s.readiness}% ready.${s.needs ? ` ${s.needs} still needs paperwork.` : ""}${s.days && s.stay > s.days ? ` Do you want the other ${s.stay - s.days} days free?` : ""}`;
     },
   },
   es: {
@@ -53,7 +53,7 @@ const WORDS = {
     askDates: "Dime las fechas de ese viaje y yo preparo todo.",
     summary: (s) => {
       const weather = s.hi == null ? "" : ` El clima habitual para esas fechas ronda los ${s.hi} y ${s.lo} grados.`;
-      return `Listo. Revisé la entrada de ${s.travelers} pasaportes y ${s.rules} reglas locales.${weather} ${s.days ? `Planeé ${s.days} días y armé` : "Armé"} una maleta de ${s.items} cosas. Vas ${s.readiness}% listo.${s.needs ? ` A ${s.needs} le falta un trámite de entrada.` : ""}`;
+      return `Listo. Revisé la entrada de ${s.travelers} pasaportes y ${s.rules} reglas locales.${weather} ${s.days ? `Planeé ${s.days} días y armé` : "Armé"} una maleta de ${s.items} cosas. Vas ${s.readiness}% listo.${s.needs ? ` A ${s.needs} le falta un trámite de entrada.` : ""}${s.days && s.stay > s.days ? ` ¿Quieres dejar libres los otros ${s.stay - s.days} días?` : ""}`;
     },
   },
 };
@@ -374,6 +374,7 @@ export async function runMission({ client, lang, brief, root, minStepMs = MIN_ST
       if (!r) return ms;
       const saved = rejected(r).length || !plan.length ? 0 : plan.length;
       facts.days = saved;
+      facts.stay = brief.stay;
       mark(root, "plan", saved ? "done" : "err", saved ? `${w.planned(saved)}${fixes ? ` · ${w.fixed(fixes)}` : ""}` : w.failed, ms);
       return ms;
     },
