@@ -9,6 +9,7 @@ import { detectLang } from "./lang.js";
 import { speakable } from "./speech.js";
 import { mountGlobe } from "./globe.js";
 import { askDatesLine, isAutopilot, makeTrip, missionHtml, noTripLine, runMission, tripFromRequest } from "./mission.js";
+import { freshCalls } from "./turn.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -153,6 +154,8 @@ let lang = (() => {
   return (navigator.language || "en").toLowerCase().startsWith("es") ? "es" : "en";
 })();
 let history = [];
+// Tool calls the concierge already made in earlier turns (see web/turn.js).
+const seenCalls = new Set();
 let device = "show";
 let client = null;
 let mcpUser = (() => {
@@ -708,7 +711,7 @@ async function renderBrainReply(reply) {
   }
   // One card per tool (the latest), in the order the agent called them.
   const latest = new Map();
-  for (const c of reply.calls) if (!c.isError && c.structured?.card && !TRACE_SKIP.has(c.tool)) latest.set(c.tool, c);
+  for (const c of freshCalls(reply.calls, seenCalls)) if (!c.isError && c.structured?.card && !TRACE_SKIP.has(c.tool)) latest.set(c.tool, c);
   // What was just asked comes first; the profile card only when there is nothing else to show.
   const rank = { settle_up: 0, plan_fairness: 1, add_booking: 2, confirm_booking: 2, export_trip: 3, trip_brief: 4, packing_checklist: 5, build_itinerary: 6, get_highlights: 7, convert_budget: 8, check_entry_requirements: 9, get_local_rules: 10, update_traveler_profile: 12 };
   let shown = [...latest.values()].sort((a, b) => (rank[a.tool] ?? 11) - (rank[b.tool] ?? 11));
@@ -928,6 +931,7 @@ function bindUi() {
     // Same viewer, new MCP session: remembered trips must still be there.
     await client?.close();
     history = [];
+    seenCalls.clear();
     $("stage").classList.remove("active");
     // The MCP App's message listener belongs to the old session: remove it with the panel.
     unmountApp?.();
