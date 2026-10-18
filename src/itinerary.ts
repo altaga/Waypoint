@@ -4,6 +4,7 @@ type Pace = "relaxed" | "balanced" | "packed";
 // Itinerary verifier. A plan is a list of days, each with place ids from the catalog.
 // Every rule here is deterministic: the concierge's words are never trusted, only ids.
 // A plan with errors is not saved; the reply lists the problems so the plan can be fixed.
+// A day is in one city: Kyoto and Osaka in the same day is two days of travel, not one plan.
 
 export const MAX_STOPS: Record<Pace, number> = { relaxed: 2, balanced: 3, packed: 4 };
 export const MAX_MINUTES_PER_DAY = 600;
@@ -16,7 +17,7 @@ export interface PlanDay {
 
 export interface Violation {
   day: number | null;
-  code: "day_out_of_range" | "duplicate_day" | "unknown_place" | "wrong_country" | "repeated_place" | "too_many_stops" | "avoided_interest" | "too_long";
+  code: "day_out_of_range" | "duplicate_day" | "unknown_place" | "wrong_country" | "repeated_place" | "too_many_stops" | "avoided_interest" | "too_long" | "mixed_cities";
   message: string;
   placeId?: string;
 }
@@ -60,6 +61,7 @@ export function verifyPlan(input: {
     }
     const places: Place[] = [];
     let minutes = 0;
+    let dayCity: string | null = null;
     for (const id of d.stops) {
       const hit = highlights.place(id);
       if (!hit) {
@@ -77,6 +79,10 @@ export function verifyPlan(input: {
       const clash = hit.place.interests.filter((i) => avoid.includes(i));
       if (clash.length) {
         violations.push({ day: d.day, code: "avoided_interest", placeId: id, message: `"${id}" is tagged ${clash.join(", ")}, which the traveler avoids` });
+      }
+      if (dayCity === null) dayCity = hit.place.city;
+      else if (hit.place.city !== dayCity) {
+        violations.push({ day: d.day, code: "mixed_cities", placeId: id, message: `"${id}" is in ${hit.place.city}, but day ${d.day} is in ${dayCity}: plan one city a day` });
       }
       if (hit.place.admission) warnings.push(hit.place.admission);
       places.push(hit.place);

@@ -153,11 +153,13 @@ function setSource(root, key, sc) {
 
 const INTERESTS = new Set(["food", "museums", "nature", "temples", "history", "shopping", "nightlife", "beaches", "family", "architecture", "markets", "art", "sights"]);
 const MAX_MINUTES = 600;
+// The most days the autopilot plans on its own; what the places cannot fill stays open, and is said.
+const MAX_PLAN_DAYS = 7;
 
 /** Days from the catalog's places: one city a day where possible, within the pace's stop limit and the day's hours. */
 function planFrom(places, stay, pace) {
   const perDay = pace === "relaxed" ? 2 : pace === "packed" ? 4 : 3;
-  const days = Math.min(3, Math.max(1, stay || 1));
+  const days = Math.min(MAX_PLAN_DAYS, Math.max(1, stay || 1));
   const byCity = new Map();
   for (const p of places) {
     const key = p.city || p.area || "";
@@ -166,6 +168,8 @@ function planFrom(places, stay, pace) {
   }
   const plan = [];
   for (const group of [...byCity.values()].sort((a, b) => b.length - a.length)) {
+    // A city's places are spread evenly over its days (8 places at 3 a day is 3, 3 and 2, not 3, 3 and 2 by luck of the order).
+    const size = Math.ceil(group.length / Math.ceil(group.length / perDay));
     let stops = [], minutes = 0;
     const flush = () => {
       if (stops.length && plan.length < days) plan.push({ day: plan.length + 1, title: stops[0].city || undefined, stops: stops.map((p) => p.id) });
@@ -175,7 +179,7 @@ function planFrom(places, stay, pace) {
     for (const p of group) {
       if (plan.length >= days) break;
       const m = p.durationMinutes || 90;
-      if (stops.length >= perDay || minutes + m > MAX_MINUTES) flush();
+      if (stops.length >= size || minutes + m > MAX_MINUTES) flush();
       if (plan.length >= days) break;
       stops.push(p);
       minutes += m;

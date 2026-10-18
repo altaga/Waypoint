@@ -90,6 +90,18 @@ test("the plan from the places keeps to the pace, the day's hours and the stay",
   }
 });
 
+test("a city's places are spread evenly over its days, one city a day, and a long trip is planned for at most seven days", () => {
+  const tokyo = Array.from({ length: 8 }, (_, i) => ({ id: `t${i}`, city: "Tokyo", durationMinutes: 60 }));
+  const kyoto = Array.from({ length: 4 }, (_, i) => ({ id: `k${i}`, city: "Kyoto", durationMinutes: 60 }));
+  const osaka = [{ id: "o0", city: "Osaka", durationMinutes: 60 }];
+  const plan = planFrom([...tokyo, ...kyoto, ...osaka], 14, "balanced");
+  assert.deepEqual(plan.map((d) => d.stops.length), [3, 3, 2, 2, 2, 1], "Tokyo 3, 3, 2; Kyoto 2, 2; Osaka 1");
+  const city = new Map([...tokyo, ...kyoto, ...osaka].map((p) => [p.id, p.city]));
+  for (const d of plan) assert.equal(new Set(d.stops.map((id) => city.get(id))).size, 1, `day ${d.day} is in one city`);
+  const many = Array.from({ length: 40 }, (_, i) => ({ id: `m${i}`, city: `C${Math.floor(i / 3)}`, durationMinutes: 60 }));
+  assert.equal(planFrom(many, 30, "balanced").length, 7);
+});
+
 test("what the verifier rejects is dropped and the days are numbered again", () => {
   const plan = [
     { day: 1, stops: ["a", "b"] },
@@ -134,7 +146,7 @@ test("autopilot runs every step against the server and the trip is readier after
   assert.ok(root.classes.has("m-done"));
 
   const after = (await s.call("trip_brief")).data;
-  assert.equal(after.planned, 3, "three verified days were saved");
+  assert.equal(after.planned, 4, "four verified days were saved: Tokyo twice, Kyoto and Osaka once each, one city a day");
   assert.ok(after.readiness > before.readiness, `${before.readiness}% → ${after.readiness}%`);
   assert.match(res.voice, /^Listo\. Revisé la entrada de 2 pasaportes/);
   assert.match(res.voice, new RegExp(`Vas ${after.readiness}% listo`));

@@ -69,3 +69,19 @@ test("a day that exceeds the daily time limit is rejected", () => {
   assert.equal(r.violations[0].code, "too_long");
   assert.equal(verifyPlan({ ...base, plan: [{ day: 1, stops: ["jp-c"] }] }).ok, true, "400 minutes alone is inside the limit");
 });
+
+// One city a day: Kyoto and Osaka in the same day is a plan nobody would follow.
+test("a day with stops in two cities is rejected, naming the stop that does not belong", () => {
+  const cities: Record<string, { place: Place; country: string }> = {
+    "jp-kyoto-1": { place: place("jp-kyoto-1", { city: "Kyoto" }), country: "JP" },
+    "jp-kyoto-2": { place: place("jp-kyoto-2", { city: "Kyoto" }), country: "JP" },
+    "jp-osaka-1": { place: place("jp-osaka-1", { city: "Osaka" }), country: "JP" },
+  };
+  const reg: HighlightRegistry = { forCountry: () => undefined, place: (id) => cities[id], countries: () => ["JP"] };
+  const same = verifyPlan({ ...base, highlights: reg, plan: [{ day: 1, stops: ["jp-kyoto-1", "jp-kyoto-2"] }] });
+  assert.equal(same.ok, true);
+  const mixed = verifyPlan({ ...base, highlights: reg, plan: [{ day: 1, stops: ["jp-kyoto-1", "jp-osaka-1"] }] });
+  assert.equal(mixed.ok, false);
+  assert.deepEqual(mixed.violations.map((v) => [v.code, v.placeId, v.day]), [["mixed_cities", "jp-osaka-1", 1]]);
+  assert.match(mixed.violations[0].message, /plan one city a day/);
+});

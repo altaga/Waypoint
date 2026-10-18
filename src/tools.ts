@@ -217,6 +217,7 @@ function violationText(v: Violation, locale: Locale, placeName: (id: string) => 
     too_many_stops: `el día ${v.day} tiene demasiadas paradas para el ritmo del viaje`,
     avoided_interest: `${p} entra en algo que el viajero quiere evitar`,
     too_long: `el día ${v.day} es demasiado largo`,
+    mixed_cities: `${p} está en otra ciudad que el resto del día ${v.day}: planea una ciudad por día`,
   };
   return locale === "es" ? es[v.code] : v.message;
 }

@@ -187,7 +187,7 @@ test("bookings: confirm_booking finds a booking that belongs to an older trip", 
 test("itinerary: a saved plan is checked again when the pace changes, and the reply says so", async () => {
   const ctx = context("2026-10-13T12:00:00Z");
   const s = await group(ctx, "pace-user");
-  const saved = await s.call("build_itinerary", { plan: [{ day: 1, stops: ["jp-senso-ji", "jp-meiji-jingu", "jp-fushimi-inari"] }] });
+  const saved = await s.call("build_itinerary", { plan: [{ day: 1, stops: ["jp-senso-ji", "jp-meiji-jingu", "jp-tsukiji-outer"] }] });
   assert.equal(saved.data.saved, true, "three stops fit a balanced pace");
   await s.call("update_traveler_profile", { pace: "relaxed", travelers: [{ displayName: "Ana", passports: ["MX"] }] });
   const again = await s.call("build_itinerary");

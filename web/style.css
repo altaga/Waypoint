@@ -601,3 +601,7 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 /* A long amount ("JPY 172,946") scales to the card instead of running out of it. */
 .card.k-budget { container-type: inline-size; }
 .money .m-to { font-size: clamp(24px, 11cqw, 48px); white-space: nowrap; }
+
+/* The note about days nothing is planned for is one line across the grid, not a card-sized hole. */
+.card.k-day.free { grid-column: 1 / -1; min-height: 0; padding: var(--s-12) var(--s-20); }
+.card.k-day.free p { margin: 0; }
