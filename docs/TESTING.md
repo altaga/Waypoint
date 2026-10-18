@@ -10,7 +10,7 @@ npm run ci        # typecheck, every test, pack validation, accuracy eval
 Expected on `claude/elegant-wozniak-qch21g` (checked 2026-10-17):
 
 - typecheck clean
-- 391 tests passing, 0 failing
+- 396 tests passing, 0 failing
 - 13/13 country packs valid
 - eval 33/33 (100%, threshold 95%)
 
@@ -28,6 +28,7 @@ The deployed server is checked after every deploy by `.github/workflows/deploy-a
 | Grounding | `test/unit/grounding.test.ts` | First sentences of Wikipedia articles: abbreviations and initials do not end them; grounded places link to their article; the attribution source is present |
 | Climate and autopilot | `test/climate.test.ts`, `test/web-mission.test.ts` | Climate normals cover every country; trips across months are weighted by days; the packing list follows the climate; the autopilot runs every step against the real server, names each step's source, repairs what the plan verifier rejects, keeps a saved plan and raises readiness; a request with a place and dates creates that trip, a place without dates asks for them, and a traveler with no passport gets no trip |
 | Payment methods | `test/payments.test.ts`, `test/web-router.test.ts` | Each country cites https sources with a date and has a tier (official or reported); a reported country is said to be not officially confirmed; a country without an entry says so; the router sends payment questions to the trip's country |
+| Brand chips | `test/web-brands.test.ts` | Brands are found by name in a card's text, once each and in order; look-alike words are not read as brands; every mark has a path and a box; names are escaped; only the payment, app and transit cards show chips |
 | MCP contract | `test/e2e.test.ts` | 24 tools with outputSchema, annotations and the MCP App link over Streamable HTTP; memory across sessions; other users see nothing; origin checks; `/api/brain` errors |
 | Alexa skill | `test/alexa*.test.ts`, `test/interaction-model.test.ts`, `test/unit/alexa-dates.test.ts` | Intents and slots in the two interaction models, en-US and es-MX; the robustness sweep runs all four locales (en-US, es-MX, es-US, en-GB); random and scripted conversations; dates as Alexa sends them; SSML escaping; the interaction model rules |
 | Profile and errors | `test/profile.test.ts`, `test/errors.test.ts` | Passports store the country only; medications are redacted without consent; friendly messages with no stack, URL or code |

@@ -49,7 +49,9 @@ test("a country on a company list shows it as official; a country missing from a
   const byLabel = Object.fromEntries((r.card.rows as { label: string; value: string; status: string }[]).map((x) => [x.label, x]));
   assert.equal(byLabel["Mercado Libre"]!.value, "On the company's list");
   assert.match(byLabel["Uber"]!.value, /company's list/);
-  assert.equal(byLabel["Grab"]!.value, "Not on the company's list");
+  assert.equal(byLabel["Grab"], undefined, "an app that is not on the company's list is not a row");
+  assert.ok(r.data.notListed.includes("grab"), "it is still in the data");
+  assert.match(r.card.subtitle, /\d+ other apps not listed or unverified/);
   assert.equal(r.confidence, "medium", "an official list supports the answer");
   assert.match(r.voice, /Mercado Libre/);
 });
@@ -62,9 +64,10 @@ test("a country missing from an incomplete list has no verified data, and report
   assert.equal(amazon?.value, "On the company's list");
   const didi = rows.find((x) => x.label === "DiDi");
   assert.match(didi!.value, /not confirmed/);
-  const rappi = rows.find((x) => x.label === "Rappi");
-  assert.equal(rappi?.status, "warn", "Rappi is not listed for Japan, and its list is incomplete");
-  assert.equal(rappi?.value, "No verified data");
+  assert.equal(rows.find((x) => x.label === "Rappi"), undefined, "Rappi has no verified data for Japan, so it is not a row");
+  assert.ok(r.data.unverified.includes("rappi"), "but it is kept in the data as unverified, never as unavailable");
+  assert.ok(rows.every((x) => x.status === "info"), "every row is an app that is listed");
+  assert.match(r.voice, /no listing or no verified data/);
   assert.ok(r.sources.every((x: { url: string }) => x.url.startsWith("https://")));
   assert.equal(r.lastVerified, data.source.retrieved);
 });
@@ -73,7 +76,8 @@ test("a country with no entry in any list says so, and names the apps with no ve
   const s = await session("apps-none");
   const r = await s.call("get_local_apps", { destination: "AQ" });
   assert.match(r.voice, /no company list includes it/);
-  assert.match(r.voice, /no verified data for .*DiDi/);
+  assert.match(r.voice, /for the other \d+ apps there is no listing or no verified data/);
+  assert.equal((r.card.rows as unknown[]).length, 0);
   assert.equal(r.data.listed.length, 0);
   assert.equal(r.confidence, "low");
 });

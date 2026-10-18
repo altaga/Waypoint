@@ -565,3 +565,18 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 
 /* Screen-reader-only text: live regions that announce status without showing it. */
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+/* Brand chips (web/brands.js): a flat icon by kind, or the brand's own mark when Logos is on. */
+.row.has-brands { flex-wrap: wrap; }
+.brands { display: flex; flex-wrap: wrap; gap: 6px; flex-basis: 100%; margin-top: 2px; }
+.brand { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px 3px 7px; border-radius: 999px; background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .12); font-size: 12px; color: var(--d-ink); white-space: nowrap; max-width: 100%; }
+.brand b { font-weight: 600; overflow: hidden; text-overflow: ellipsis; }
+.brand svg { width: 15px; height: 15px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.brand .lg { display: none; fill: currentColor; stroke: none; width: auto; height: 15px; max-width: 46px; }
+.brand .lg.gl { fill: none; stroke: currentColor; width: 15px; }
+.logos .brand .g { display: none; }
+.logos .brand .lg { display: block; }
+.brand.b-card svg { color: #8fb4ff; } .brand.b-wallet svg { color: #7ee0b5; } .brand.b-ride svg { color: #ffd37a; }
+.brand.b-delivery svg { color: #ff9f8a; } .brand.b-shop svg { color: #d7a8ff; } .brand.b-transit svg { color: #8ae0ff; }
+.row .label .brand { margin-right: 2px; }
+@media (max-width: 560px) { .brand { font-size: 11.5px; padding: 3px 9px 3px 6px; } }

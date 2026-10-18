@@ -1408,24 +1408,31 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             ? pick(locale, "On the company's list", "En la lista de la empresa")
             : pick(locale, "Reported by press or travel guides; the company has not confirmed it", "Reportado por prensa o guías; la empresa no lo ha confirmado");
         };
-        const rows = apps.map((a) => ({
+        // The card shows the apps that work there: on the company's own list, or reported. The rest (not on a list,
+        // no verified data) is one count in the subtitle and one clause in the voice, not a row each.
+        const rest = apps.length - listed.length;
+        const rows = listed.map((a) => ({
           label: a.name,
           value: a.note ? `${statusText(a)}. ${pick(locale, a.note.en, a.note.es)}` : statusText(a),
-          status: (a.status === "unverified" ? "warn" : "info") as "info" | "warn",
+          status: "info" as const,
         }));
         const env: Envelope = {
           voice: pick(
             locale,
-            `In ${name}: ${official.length ? `on the company's list: ${names(official)}` : "no company list includes it"}${reported.length ? `; reported by press or guides, not confirmed: ${names(reported)}` : ""}${unverified.length ? `; no verified data for ${names(unverified)}` : ""}. Check the app before you travel; availability is by market, not by city.`,
-            `En ${name}: ${official.length ? `en la lista de la empresa: ${names(official)}` : "ninguna lista de empresa lo incluye"}${reported.length ? `; reportado por prensa o guías, sin confirmar: ${names(reported)}` : ""}${unverified.length ? `; sin dato verificado para ${names(unverified)}` : ""}. Revisa la app antes de viajar; la disponibilidad es por mercado, no por ciudad.`,
+            `In ${name}: ${official.length ? `on the company's list: ${names(official)}` : "no company list includes it"}${reported.length ? `; reported by press or guides, not confirmed: ${names(reported)}` : ""}${rest ? `; for the other ${rest} apps there is no listing or no verified data` : ""}. Check the app before you travel; availability is by market, not by city.`,
+            `En ${name}: ${official.length ? `en la lista de la empresa: ${names(official)}` : "ninguna lista de empresa lo incluye"}${reported.length ? `; reportado por prensa o guías, sin confirmar: ${names(reported)}` : ""}${rest ? `; de las otras ${rest} apps no hay listado o dato verificado` : ""}. Revisa la app antes de viajar; la disponibilidad es por mercado, no por ciudad.`,
           ),
           card: {
             pattern: "list",
             title: pick(locale, `Apps in ${name}`, `Apps en ${name}`),
-            subtitle: pick(locale, `Company lists and reports, retrieved ${ctx.apps.retrieved}`, `Listas de empresas e informes, consultado el ${ctx.apps.retrieved}`),
+            subtitle: pick(
+              locale,
+              `Company lists and reports, retrieved ${ctx.apps.retrieved}${rest ? ` · ${rest} other apps not listed or unverified` : ""}`,
+              `Listas de empresas e informes, consultado el ${ctx.apps.retrieved}${rest ? ` · ${rest} apps más sin listado o sin dato verificado` : ""}`,
+            ),
             rows,
           },
-          data: { destination: dest, listed: listed.map((a) => a.id), unverified: unverified.map((a) => a.id) },
+          data: { destination: dest, listed: listed.map((a) => a.id), unverified: unverified.map((a) => a.id), notListed: apps.filter((a) => a.status === "not_listed").map((a) => a.id) },
           sources: apps.map((a) => ({
             id: `src:apps:${a.id}`,
             title: a.source.title,

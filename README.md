@@ -61,6 +61,8 @@ Say "Get me ready for Japan from December 3 to 10" and the host creates that tri
 
 The trip hero also draws the group's routes on a dotted globe (`web/globe.js`, canvas, no libraries; land dots from Natural Earth via `scripts/build-globe.ts`), from each traveler's home country to the destination.
 
+Cards for payments, apps and transit show the brands they name as chips (`web/brands.js`): a flat icon for the kind of service (card, wallet or QR, ride, delivery, shopping, transit card) and the name. The **Logos** switch in the header (or `?logos=1`) shows each brand's own mark where one exists; it is off by default. The marks come from [Simple Icons](https://simpleicons.org) (CC0-1.0, `web/brand-icons.js`) and remain trademarks of their owners; they only identify the service. The screen works on a phone: choose **Mobile** in the header, or open the page on one.
+
 ## Architecture
 
 ```
@@ -73,7 +75,7 @@ The trip hero also draws the group's routes on a dotted globe (`web/globe.js`, c
                 │ MCP 2025-11-25 · Streamable HTTP · POST/GET/DELETE /mcp
 ┌───────────────▼─────────────────────────────────────────┐
 │ Waypoint MCP server (src/, Node 22, Express 5)          │
-│  tools (20) · ui:// MCP App resource · elicitation      │
+│  tools (24) · ui:// MCP App resource · elicitation      │
 │  origin guard (403) · friendly errors · envelopes       │
 │  services: visa matrix · packs · FX (+snapshot) · PPP   │
 │  state: StateStore → file (local) | DynamoDB (designed) │

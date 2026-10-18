@@ -23,6 +23,8 @@ const UI = {
     brainBedrock: "Assistant: Bedrock agent on the server.",
     tagline: "Travel concierge · simulated Alexa+ host",
     chatTitle: "Conversation",
+    lblLogos: "Logos",
+    titleLogos: "Show brand logos on payment, app and transit cards (off for the demo video)",
     lblVoice: "Read aloud",
     inputPlaceholder: "Type or speak",
     emptyChat: "Ask about your trip: entry rules, what to pack, what to see, what your group owes.",
@@ -83,6 +85,8 @@ const UI = {
     brainBedrock: "Asistente: agente Bedrock en el servidor.",
     tagline: "Concierge de viajes · host simulado de Alexa+",
     chatTitle: "Conversación",
+    lblLogos: "Logos",
+    titleLogos: "Mostrar logos de marcas en las tarjetas de pagos, apps y transporte (apagado para el video del demo)",
     lblVoice: "Leer en voz alta",
     inputPlaceholder: "Escribe o habla",
     emptyChat: "Pregunta lo que necesites de tu viaje: requisitos de entrada, qué empacar, qué visitar, cuentas del grupo.",
@@ -176,6 +180,8 @@ function applyLang() {
   $("send").title = t("send");
   $("mic").setAttribute("aria-label", t("speak"));
   $("lblVoiceOut").textContent = t("lblVoice");
+  $("lblLogos").textContent = t("lblLogos");
+  $("logosToggle").title = t("titleLogos");
   $("demoGroup").textContent = t("demo");
   $("reset").textContent = t("reset");
   $("lblProtocol").textContent = t("protocol");
@@ -813,7 +819,21 @@ function connectReporting() {
   });
 }
 
+// Brand logos on payment, app and transit cards: off unless asked for (the switch, or ?logos=1), and remembered.
+function initLogos() {
+  let on = false;
+  try { on = localStorage.getItem("waypoint-logos") === "1"; } catch {}
+  if (new URLSearchParams(location.search).get("logos") === "1") on = true;
+  $("logos").checked = on;
+  document.body.classList.toggle("logos", on);
+  $("logos").addEventListener("change", () => {
+    document.body.classList.toggle("logos", $("logos").checked);
+    try { localStorage.setItem("waypoint-logos", $("logos").checked ? "1" : "0"); } catch {}
+  });
+}
+
 function bindUi() {
+  initLogos();
   // The trip hero's globe: mounted whenever the hero is drawn; it flies in only on a trip's first view.
   let globeTrip = null;
   new MutationObserver(() => {

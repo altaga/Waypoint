@@ -2,6 +2,8 @@
 // tool's structuredContent (voice, card, data, sources, lastVerified). Anything unknown falls
 // back to the generic card the server already describes. All text is escaped.
 
+import { brandsIn, brandChip, brandStrip } from "./brands.js";
+
 export const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
 const ICON = {
@@ -83,13 +85,22 @@ function shell(kind, title, body, sc, lang, extra = "") {
 
 // A list longer than this shows its first rows and a count; the rest is one tap away in the conversation.
 const MAX_ROWS = 8;
-export function genericCard(card, sc = {}, lang = "en") {
+// The cards a tourist acts on show the brands they name as chips: apps by name, payments and transit cards from the text.
+const BRAND_TOOLS = new Set(["get_payment_methods", "get_local_apps", "get_transit_payment"]);
+export function genericCard(card, sc = {}, lang = "en", tool = "") {
   if (!card) return "";
   const all = card.rows || [];
   const shown = all.slice(0, MAX_ROWS);
   const more = all.length - shown.length;
+  const withBrands = BRAND_TOOLS.has(tool);
   const rows = shown
-    .map((r) => `<div class="row ${esc(r.status || "")}${String(r.value ?? "").length > 40 ? " long" : ""}"><span class="label"><span class="dot"></span>${esc(r.label)}</span><span class="value">${esc(r.value)}</span></div>`)
+    .map((r) => {
+      // A row named after a brand (an app) shows its chip in place of the dot; otherwise the chips for the brands in the text go under the row.
+      const own = withBrands ? brandsIn(r.label).find((b) => b.name.toLowerCase() === String(r.label).trim().toLowerCase()) : null;
+      const label = own ? brandChip(own) : `<span class="dot"></span>${esc(r.label)}`;
+      const strip = withBrands && !own ? brandStrip(`${r.label}. ${r.value ?? ""}`) : "";
+      return `<div class="row ${esc(r.status || "")}${String(r.value ?? "").length > 40 ? " long" : ""}${strip ? " has-brands" : ""}"><span class="label">${label}</span><span class="value">${esc(r.value)}</span>${strip}</div>`;
+    })
     .join("");
   const count = more > 0 ? `<p class="muted-s more">${esc(lang === "es" ? `y ${more} más` : `and ${more} more`)}</p>` : "";
   const wide = all.length > 4 ? " wide" : "";
@@ -288,7 +299,7 @@ const RENDER = {
 export function renderTool(tool, sc, lang) {
   if (!sc) return "";
   const fn = RENDER[tool];
-  return fn ? fn(sc, lang) : genericCard(sc.card, sc, lang);
+  return fn ? fn(sc, lang) : genericCard(sc.card, sc, lang, tool);
 }
 
 /** The trip hero: destination, dates, countdown and readiness, with real-world actions. */
