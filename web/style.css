@@ -285,7 +285,7 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 .more-cue[hidden] { display: none; }
 
 /* ---------- Cards: one material, hairline rows, no ornament ---------- */
-.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: var(--s-12); align-items: stretch; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: var(--s-12); align-items: start; }
 .frame[data-device="mobile"] .cards, .frame[data-device="voice"] .cards { grid-template-columns: 1fr; }
 .card {
   min-width: 0; padding: var(--s-20) var(--s-24); border-radius: var(--r-24);
@@ -309,6 +309,10 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 .more { font-size: var(--t-caption); margin-top: var(--s-8); }
 .card.wide { grid-column: 1 / -1; }
 .cards > .card:only-child { grid-column: 1 / -1; }
+/* A long list of rules takes two columns and lays its rules out in as many columns as fit, so a short card beside it is not left beside a tall empty one. */
+.cards > .k-rules { grid-column: span 2; }
+.k-rules .rules { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); align-items: start; }
+.frame[data-device="mobile"] .cards > .k-rules, .frame[data-device="voice"] .cards > .k-rules { grid-column: auto; }
 .cards > .k-packing:only-child .check { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); column-gap: var(--s-16); }
 
 .row { display: flex; justify-content: space-between; gap: var(--s-16); padding: 10px 0; border-top: 1px solid var(--d-line); font-size: var(--t-footnote); }
@@ -589,6 +593,7 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 /* ---------- The phone layout follows the width of the screen, so the simulated phone gets it on a desktop too ---------- */
 .screen { container-type: inline-size; container-name: screen; }
 @container screen (max-width: 560px) {
+  .cards > .k-rules { grid-column: auto; }
   .stage { padding: var(--s-8) var(--s-16) var(--s-24); gap: var(--s-16); }
   .topbar { padding: 0 var(--s-16); gap: var(--s-6); grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
   .topbar .brand-s { display: none; }

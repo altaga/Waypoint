@@ -300,7 +300,18 @@ async function locateMe() {
     b.type = "button";
     b.className = "chip";
     b.textContent = label;
-    b.onclick = () => (yes ? handleUtterance(fromHereRequest(lang, near, Boolean(currentBrief))) : renderChips());
+    b.onclick = async () => {
+      if (!yes) return renderChips();
+      // The trip keeps its destination; where the traveler leaves from becomes this city (saved with the trip).
+      if (currentBrief && near) {
+        try {
+          await client.callTool("set_trip_constraints", { departureCity: near.id });
+          myPos = null;
+          await refreshHero();
+        } catch {}
+      }
+      handleUtterance(fromHereRequest(lang, near, Boolean(currentBrief)));
+    };
     box.appendChild(b);
   }
 }

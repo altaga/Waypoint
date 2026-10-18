@@ -59,9 +59,9 @@ export async function mountGlobe(canvas, geo, { intro = true, you = null } = {})
   const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const ctx = canvas.getContext("2d");
   const dest = toXYZ(geo.destination.lat, geo.destination.lon);
-  const origins = (geo.origins || []).map((o) => ({ v: toXYZ(o.lat, o.lon), label: (o.names || []).join(", ") }));
+  const origins = (geo.origins || []).map((o) => ({ v: toXYZ(o.lat, o.lon), label: (o.names || []).join(", "), you: Boolean(o.you) }));
   // Where the traveler is now (only when they asked the page to find them): a route in amber from there to the destination.
-  if (you) origins.push({ v: toXYZ(you.lat, you.lon), label: you.label || "", you: true });
+  if (you && !origins.some((o) => o.you)) origins.push({ v: toXYZ(you.lat, you.lon), label: you.label || "", you: true });
   // Aim between the homes and the destination, leaning to the destination, so every route is seen.
   const sum = origins.reduce((acc, o) => [acc[0] + o.v[0], acc[1] + o.v[1], acc[2] + o.v[2]], [dest[0] * 2.2, dest[1] * 2.2, dest[2] * 2.2]);
   const [lat0, lon0] = toLatLon(norm(sum));

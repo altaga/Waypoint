@@ -8,12 +8,12 @@ export function distanceKm(aLat, aLon, bLat, bLon) {
   return 12742 * Math.asin(Math.sqrt(x));
 }
 
-/** The nearest city of the list: { name: {en, es}, iso, km }, or null when none lies within maxKm. */
+/** The nearest city of the list: { id, name: {en, es}, iso, km }, or null when none lies within maxKm. */
 export function nearestCity(lat, lon, cities, maxKm = 150) {
   let best = null;
-  for (const [en, es, iso, cLat, cLon] of cities) {
+  for (const [en, es, iso, cLat, cLon, id] of cities) {
     const km = distanceKm(lat, lon, cLat, cLon);
-    if (km <= maxKm && (!best || km < best.km)) best = { name: { en: en.replace(/^Greater /, ""), es }, iso, km };
+    if (km <= maxKm && (!best || km < best.km)) best = { id, name: { en: en.replace(/^Greater /, ""), es }, iso, km };
   }
   return best;
 }

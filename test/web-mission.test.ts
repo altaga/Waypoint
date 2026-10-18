@@ -5,6 +5,7 @@ import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { createContext } from "../src/context.ts";
 import { createMemoryStore } from "../src/state.ts";
 import { createWaypointMcpServer } from "../src/mcp-server.ts";
+import { readFileSync } from "node:fs";
 import { isAutopilot, makeTrip, planFrom, repair, runMission, tripFromRequest } from "../web/mission.js";
 
 // Autopilot: the host chains real tools/call requests (profile, then five at once, then the plan and
@@ -301,4 +302,24 @@ test("the same trip at another pace is planned again, replacing the saved plan",
   assert.ok(express.days.some((d: { stops: unknown[] }) => d.stops.length === 4), "an Express pace fits four stops in a day");
   assert.ok(express.planned >= slow.planned - 2);
   assert.equal(express.pace, "packed");
+});
+
+test("the city the traveler leaves from is saved with the trip and becomes the route's start", async () => {
+  const s = await session("leaving-from", "en-US");
+  await s.call("update_traveler_profile", { homeCurrency: "USD", travelers: [{ displayName: "Sam", passports: ["US"], role: "self", ageBand: "adult" }] });
+  await s.call("plan_trip", { destination: "JP", startDate: "2026-12-03", endDate: "2026-12-10" });
+  const before = (await s.call("trip_brief")).data.geo;
+  assert.ok(before.origins.length >= 1 && !before.origins.some((o: any) => o.you), "before: routes start at the passports' countries");
+  const cities = JSON.parse(readFileSync(new URL("../web/world-cities.json", import.meta.url), "utf8")).cities as string[][];
+  const hcm = cities.find((c) => c[0] === "Ho Chi Minh City")!;
+  const saved = await s.call("set_trip_constraints", { departureCity: hcm[5] });
+  assert.match(saved.voice, /Leaving from Ho Chi Minh City/);
+  const geo = (await s.call("trip_brief")).data.geo;
+  assert.equal(geo.destination.iso, "JP", "the destination does not move");
+  assert.equal(geo.origins.length, 1);
+  assert.equal(geo.origins[0].names[0], "Ho Chi Minh City");
+  assert.equal(geo.origins[0].you, true);
+  await assert.rejects(async () => s.call("set_trip_constraints", { departureCity: "Nowhereville" }), /unknown city|isError|failed/);
+  await s.call("set_trip_constraints", { clearDeparture: true });
+  assert.ok(!(await s.call("trip_brief")).data.geo.origins.some((o: any) => o.you));
 });

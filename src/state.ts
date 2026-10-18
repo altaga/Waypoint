@@ -19,6 +19,8 @@ export interface Trip {
   /** Things the traveler told us to respect for every plan and every expense. */
   constraints?: TripConstraints;
   bookings?: Booking[];
+  /** Where the traveler leaves from, when they said (the city is from the world list; the page sends it after "My location"). */
+  departure?: { cityId: string; city: string; iso: string; lat: number; lon: number };
 }
 
 export interface ItineraryDay {

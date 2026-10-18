@@ -254,7 +254,7 @@ function tripGeo(ctx: AppContext, trip: Trip, travelers: Traveler[]) {
   };
   const destination = at(trip.destination);
   if (!destination) return null;
-  const origins = new Map<string, { iso: string; lat: number; lon: number; names: string[] }>();
+  const origins = new Map<string, { iso: string; lat: number; lon: number; names: string[]; you?: boolean }>();
   for (const t of travelers) {
     const iso = t.residenceCountry || t.passports[0]?.country;
     if (!iso || iso === trip.destination) continue;
@@ -264,6 +264,8 @@ function tripGeo(ctx: AppContext, trip: Trip, travelers: Traveler[]) {
     o.names.push(t.displayName);
     origins.set(iso, o);
   }
+  // Where the traveler said they leave from replaces the travelers' home countries: one route, from there.
+  if (trip.departure) return { destination, origins: [{ iso: trip.departure.iso, lat: trip.departure.lat, lon: trip.departure.lon, names: [trip.departure.city], you: true }] };
   return { destination, origins: [...origins.values()] };
 }
 
@@ -1114,6 +1116,8 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         maxBudget: z.object({ amount: z.number().positive(), currency: CURRENCY }).optional(),
         clearAvoid: z.boolean().optional(),
         clearBudget: z.boolean().optional(),
+        departureCity: z.string().min(2).optional().describe("The city the traveler leaves from: its name or its Wikidata id from the world list. The trip's route is drawn from there."),
+        clearDeparture: z.boolean().optional(),
       },
       outputSchema: EnvelopeShape,
       annotations: ann({ idempotent: true }),
@@ -1130,14 +1134,21 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         if (args.clearBudget) delete c.maxBudget;
         if (args.maxBudget) c.maxBudget = { amount: args.maxBudget.amount, currency: args.maxBudget.currency.toUpperCase() };
         trip.constraints = c;
+        if (args.clearDeparture) delete trip.departure;
+        if (args.departureCity) {
+          const q = args.departureCity.trim();
+          const city = ctx.world.cities.find((x) => x.id === q) ?? ctx.world.findCity(q);
+          if (!city) return errorResult(new Error("unknown city"), pick(locale, `I don't have a city called "${q}" in my list. Tell me a bigger city nearby.`, `No tengo una ciudad llamada "${q}" en mi lista. Dime una ciudad grande cercana.`));
+          trip.departure = { cityId: city.id, city: city.name.en, iso: city.iso, lat: city.lat, lon: city.lon };
+        }
         await save(state);
         const avoidText = c.avoid.length ? c.avoid.join(", ") : pick(locale, "nothing", "nada");
         const budgetText = c.maxBudget ? money(c.maxBudget.amount, c.maxBudget.currency, locale) : pick(locale, "no limit", "sin límite");
         const env = baseEnvelope(ctx, trip.destination, locale, {
           voice: pick(
             locale,
-            `Saved. I'll keep out: ${avoidText}. Spending limit: ${budgetText}.`,
-            `Guardado. Evitaré: ${avoidText}. Tope de gasto: ${budgetText}.`,
+            `Saved. I'll keep out: ${avoidText}. Spending limit: ${budgetText}.${trip.departure ? ` Leaving from ${trip.departure.city}.` : ""}`,
+            `Guardado. Evitaré: ${avoidText}. Tope de gasto: ${budgetText}.${trip.departure ? ` Sales desde ${trip.departure.city}.` : ""}`,
           ),
           card: {
             pattern: "card",
@@ -1145,6 +1156,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             rows: [
               { label: pick(locale, "Avoid", "Evitar"), value: avoidText, status: c.avoid.length ? "warn" : "info" },
               { label: pick(locale, "Spending limit", "Tope de gasto"), value: budgetText, status: c.maxBudget ? "ok" : "info" },
+              ...(trip.departure ? [{ label: pick(locale, "Leaving from", "Sales desde"), value: trip.departure.city, status: "info" as const }] : []),
             ],
           },
           data: { constraints: c },
