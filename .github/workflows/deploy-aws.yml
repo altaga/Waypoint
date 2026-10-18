@@ -47,7 +47,10 @@ jobs:
         env:
           BEDROCK_MODEL: ${{ secrets.WAYPOINT_BEDROCK_MODEL }}
           SKILL_ID: ${{ inputs.skill_id || vars.ALEXA_SKILL_ID }}
-        run: npx cdk deploy --require-approval never --outputs-file outputs.json -c bedrockModel="$BEDROCK_MODEL" -c alexaSkillId="$SKILL_ID"
+        # The stack ARN printed by cdk carries the AWS account id: hide the digits in the log.
+        run: |
+          set -o pipefail
+          npx cdk deploy --require-approval never --outputs-file outputs.json -c bedrockModel="$BEDROCK_MODEL" -c alexaSkillId="$SKILL_ID" 2>&1 | sed -E 's/[0-9]{12}/<account-id>/g'
       - name: Show outputs (public URL)
         run: cat outputs.json
       - name: Live concierge check (page + Bedrock brain chaining MCP tools)
