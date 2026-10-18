@@ -34,8 +34,10 @@ test("the concierge is told to leave an earlier topic when the traveler moves on
   assert.match(p, /Never say you saved, checked or corrected something unless a tool result in this turn shows it/);
 });
 
-test("the concierge is told to plan one city a day and to leave days open rather than pad the plan", () => {
+test("the concierge is told that moving between cities costs most of a day, and to leave days open rather than pad the plan", () => {
   const p = systemPrompt("2026-10-18", "en-US");
-  assert.match(p, /A day is in one city/);
-  assert.match(p, /never mix two cities in one day/);
+  assert.match(p, /A day is in one city, and moving between cities costs most of a day/);
+  assert.match(p, /at least two days in a city before moving/);
+  assert.match(p, /Never plan one day in Kyoto and the next in Osaka/);
+  assert.match(p, /leave days open/);
 });

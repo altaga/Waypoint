@@ -156,7 +156,11 @@ const MAX_MINUTES = 600;
 // The most days the autopilot plans on its own; what the places cannot fill stays open, and is said.
 const MAX_PLAN_DAYS = 7;
 
-/** Days from the catalog's places: one city a day where possible, within the pace's stop limit and the day's hours. */
+/**
+ * Days from the catalog's places. One city a day, and the plan stays in the main city (the one with most places)
+ * unless the trip has room to move: moving between cities costs most of a day, so a second city needs at least
+ * two days and its first day has at most two stops. A city with fewer places than that is left out.
+ */
 function planFrom(places, stay, pace) {
   const perDay = pace === "relaxed" ? 2 : pace === "packed" ? 4 : 3;
   const days = Math.min(MAX_PLAN_DAYS, Math.max(1, stay || 1));
@@ -166,36 +170,55 @@ function planFrom(places, stay, pace) {
     if (!byCity.has(key)) byCity.set(key, []);
     byCity.get(key).push(p);
   }
+  const groups = [...byCity.values()].sort((a, b) => b.length - a.length);
   const plan = [];
-  for (const group of [...byCity.values()].sort((a, b) => b.length - a.length)) {
-    // A city's places are spread evenly over its days (8 places at 3 a day is 3, 3 and 2, not 3, 3 and 2 by luck of the order).
-    const size = Math.ceil(group.length / Math.ceil(group.length / perDay));
+  // Cuts one city's places into days of an even size (8 places at 3 a day: 3, 3 and 2), each within the day's hours.
+  const daysOf = (group, limit) => {
+    const size = Math.ceil(group.length / Math.ceil(group.length / limit));
+    const out = [];
     let stops = [], minutes = 0;
-    const flush = () => {
-      if (stops.length && plan.length < days) plan.push({ day: plan.length + 1, title: stops[0].city || undefined, stops: stops.map((p) => p.id) });
-      stops = [];
-      minutes = 0;
-    };
+    const flush = () => { if (stops.length) out.push(stops); stops = []; minutes = 0; };
     for (const p of group) {
-      if (plan.length >= days) break;
       const m = p.durationMinutes || 90;
       if (stops.length >= size || minutes + m > MAX_MINUTES) flush();
-      if (plan.length >= days) break;
       stops.push(p);
       minutes += m;
     }
     flush();
-    if (plan.length >= days) break;
-  }
+    return out;
+  };
+  groups.forEach((group, i) => {
+    if (plan.length >= days) return;
+    const cut = daysOf(group, i === 0 ? perDay : Math.min(perDay, 2));
+    // A city we move to needs two days; one that does not fit in the days left is not started.
+    if (i > 0 && (cut.length < 2 || plan.length + cut.length > days)) return;
+    for (const stops of cut) {
+      if (plan.length >= days) break;
+      plan.push({ day: plan.length + 1, title: stops[0].city || undefined, stops: stops.map((p) => p.id) });
+    }
+  });
   return plan;
 }
 
-/** The plan without what the verifier rejected: the named places, or a day's last stop when the day ran long. */
+/**
+ * The plan without what the verifier rejected: the named places, a day's last stop when the day ran long, the stops
+ * past the second on an arrival day, and a day that is alone in its city.
+ */
 function repair(plan, violations) {
   const drop = new Set(violations.map((v) => v.placeId).filter(Boolean));
-  const long = new Set(violations.filter((v) => !v.placeId).map((v) => v.day));
+  const days = (code) => new Set(violations.filter((v) => v.code === code).map((v) => v.day));
+  const alone = days("short_stay"), arrival = days("arrival_day_busy");
+  // When every city has a single day, keep the first (the main one) rather than dropping the whole plan.
+  if (plan.length && plan.every((d) => alone.has(d.day))) alone.delete(Math.min(...plan.map((d) => d.day)));
+  const long = new Set(violations.filter((v) => !v.placeId && !["short_stay", "arrival_day_busy"].includes(v.code)).map((v) => v.day));
   return plan
-    .map((d) => ({ ...d, stops: d.stops.filter((id) => !drop.has(id)).slice(0, long.has(d.day) ? -1 : undefined) }))
+    .filter((d) => !alone.has(d.day))
+    .map((d) => {
+      let stops = d.stops.filter((id) => !drop.has(id));
+      if (arrival.has(d.day)) stops = stops.slice(0, 2);
+      if (long.has(d.day)) stops = stops.slice(0, -1);
+      return { ...d, stops };
+    })
     .filter((d) => d.stops.length)
     .map((d, i) => ({ ...d, day: i + 1 }));
 }
@@ -318,18 +341,18 @@ export async function runMission({ client, lang, brief, root, minStepMs = MIN_ST
         mark(root, "plan", "skip", "", null);
         return 0;
       }
-      // The server verifies every plan before saving it; what it rejects is dropped and the plan is sent again once.
+      // The server verifies every plan before saving it; what it rejects is dropped and the plan is sent again.
+      // Dropping a stop can leave a city with one day, which the next pass drops in turn: up to three passes.
       const rejected = (x) => x?.sc.data?.violations || [];
       let r = await call("plan", "build_itinerary", { plan });
       let fixes = 0;
       let ms = r?.ms || 0;
-      if (r && rejected(r).length) {
-        fixes = rejected(r).length;
+      for (let pass = 0; pass < 3 && r && rejected(r).length && plan.length; pass++) {
+        fixes += rejected(r).length;
         plan = repair(plan, rejected(r));
-        if (plan.length) {
-          r = await call("plan", "build_itinerary", { plan });
-          ms += r?.ms || 0;
-        }
+        if (!plan.length) break;
+        r = await call("plan", "build_itinerary", { plan });
+        ms += r?.ms || 0;
       }
       if (!r) return ms;
       const saved = rejected(r).length || !plan.length ? 0 : plan.length;

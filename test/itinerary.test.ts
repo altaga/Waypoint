@@ -85,3 +85,19 @@ test("a day with stops in two cities is rejected, naming the stop that does not 
   assert.deepEqual(mixed.violations.map((v) => [v.code, v.placeId, v.day]), [["mixed_cities", "jp-osaka-1", 1]]);
   assert.match(mixed.violations[0].message, /plan one city a day/);
 });
+
+// Moving between cities costs most of a day.
+test("a plan that moves between cities needs two days in each, and few stops on the arrival day", () => {
+  const cs: Record<string, { place: Place; country: string }> = {};
+  for (const [id, city] of [["t1", "Tokyo"], ["t2", "Tokyo"], ["t3", "Tokyo"], ["k1", "Kyoto"], ["k2", "Kyoto"], ["k3", "Kyoto"], ["o1", "Osaka"]] as const) cs[`jp-${id}`] = { place: place(`jp-${id}`, { city }), country: "JP" };
+  const reg: HighlightRegistry = { forCountry: () => undefined, place: (id) => cs[id], countries: () => ["JP"] };
+  const v = (plan: { day: number; stops: string[] }[]) => verifyPlan({ ...base, stayDays: 8, highlights: reg, plan }).violations.map((x) => [x.code, x.day]);
+  // Tokyo, Tokyo, Kyoto, Osaka: one day in Kyoto and one in Osaka.
+  assert.deepEqual(v([{ day: 1, stops: ["jp-t1"] }, { day: 2, stops: ["jp-t2"] }, { day: 3, stops: ["jp-k1"] }, { day: 4, stops: ["jp-o1"] }]), [["short_stay", 3], ["short_stay", 4]]);
+  // Two days in each, and two stops on the arrival day: fine.
+  assert.deepEqual(v([{ day: 1, stops: ["jp-t1"] }, { day: 2, stops: ["jp-t2"] }, { day: 3, stops: ["jp-k1", "jp-k2"] }, { day: 4, stops: ["jp-k3"] }]), []);
+  // Three stops on the arrival day.
+  assert.deepEqual(v([{ day: 1, stops: ["jp-t1"] }, { day: 2, stops: ["jp-t2"] }, { day: 3, stops: ["jp-k1", "jp-k2", "jp-k3"] }, { day: 4, stops: ["jp-t3"] }]).map(([c]) => c).sort(), ["arrival_day_busy", "short_stay", "short_stay"].sort());
+  // One city, any number of days: nothing to check.
+  assert.deepEqual(v([{ day: 1, stops: ["jp-t1"] }, { day: 5, stops: ["jp-t2", "jp-t3"] }]), []);
+});

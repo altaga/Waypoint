@@ -218,6 +218,8 @@ function violationText(v: Violation, locale: Locale, placeName: (id: string) => 
     avoided_interest: `${p} entra en algo que el viajero quiere evitar`,
     too_long: `el día ${v.day} es demasiado largo`,
     mixed_cities: `${p} está en otra ciudad que el resto del día ${v.day}: planea una ciudad por día`,
+    short_stay: `el día ${v.day} es el único en esa ciudad: cambiar de ciudad toma casi un día, planea al menos 2 días en cada ciudad o quédate en una`,
+    arrival_day_busy: `el día ${v.day} es el primero en una ciudad nueva: planea máximo 2 paradas`,
   };
   return locale === "es" ? es[v.code] : v.message;
 }

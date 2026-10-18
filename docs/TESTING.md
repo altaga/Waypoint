@@ -10,7 +10,7 @@ npm run ci        # typecheck, every test, pack validation, accuracy eval
 Expected on `claude/elegant-wozniak-qch21g` (checked 2026-10-17):
 
 - typecheck clean
-- 404 tests passing, 0 failing
+- 406 tests passing, 0 failing
 - 13/13 country packs valid
 - eval 33/33 (100%, threshold 95%)
 
@@ -20,7 +20,7 @@ The deployed server is checked after every deploy by `.github/workflows/deploy-a
 
 | Layer | File | What it proves |
 |---|---|---|
-| Itinerary verifier | `test/itinerary.test.ts` | Plans are checked by rule: day range, duplicates, unknown or wrong-country places, pace, avoided interests, daily time, one city a day |
+| Itinerary verifier | `test/itinerary.test.ts` | Plans are checked by rule: day range, duplicates, unknown or wrong-country places, pace, avoided interests, daily time, one city a day, two days in a city before moving on and at most two stops on the arrival day |
 | Concierge tools | `test/concierge-tools.test.ts` | Packing remembers ticks across sessions; a plan of catalog ids is saved, refused when invented; avoided interests block a plan; the spending limit warns; money is formatted for the locale |
 | Group money | `test/concierge-group.test.ts` | Settle-up transfers, expenses without a payer, fairness scores, booking deadlines, ICS and Markdown export |
 | Review regressions | `test/concierge-review.test.ts` | Each defect from the code review stays fixed: a place cannot repeat across days; unknown names are refused; duplicate names count once; currencies are ISO codes; dates must exist; trips are at most 365 days; settle-up is exact to the cent; unconvertible expenses are said; countdowns use the traveler's timezone; the grounding note is kept and not duplicated |

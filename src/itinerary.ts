@@ -5,6 +5,10 @@ type Pace = "relaxed" | "balanced" | "packed";
 // Every rule here is deterministic: the concierge's words are never trusted, only ids.
 // A plan with errors is not saved; the reply lists the problems so the plan can be fixed.
 // A day is in one city: Kyoto and Osaka in the same day is two days of travel, not one plan.
+// Moving between cities costs most of a day, so a plan that moves needs at least two days in each city, and the
+// first day in a new city has at most two stops. With fewer days or places, the plan stays in one city.
+export const MIN_DAYS_PER_CITY = 2;
+export const MAX_ARRIVAL_STOPS = 2;
 
 export const MAX_STOPS: Record<Pace, number> = { relaxed: 2, balanced: 3, packed: 4 };
 export const MAX_MINUTES_PER_DAY = 600;
@@ -17,7 +21,7 @@ export interface PlanDay {
 
 export interface Violation {
   day: number | null;
-  code: "day_out_of_range" | "duplicate_day" | "unknown_place" | "wrong_country" | "repeated_place" | "too_many_stops" | "avoided_interest" | "too_long" | "mixed_cities";
+  code: "day_out_of_range" | "duplicate_day" | "unknown_place" | "wrong_country" | "repeated_place" | "too_many_stops" | "avoided_interest" | "too_long" | "mixed_cities" | "short_stay" | "arrival_day_busy";
   message: string;
   placeId?: string;
 }
@@ -92,6 +96,25 @@ export function verifyPlan(input: {
       violations.push({ day: d.day, code: "too_long", message: `day ${d.day} needs about ${Math.round(minutes / 60)} hours; the limit is ${MAX_MINUTES_PER_DAY / 60}` });
     }
     resolved.push({ day: d.day, title: d.title, places });
+  }
+  // Blocks of consecutive planned days in one city. More than one block means the plan moves between cities.
+  const planned = resolved.filter((r) => r.places.length).sort((a, b) => a.day - b.day);
+  const blocks: { city: string; days: typeof planned }[] = [];
+  for (const r of planned) {
+    const city = r.places[0].city;
+    const last = blocks[blocks.length - 1];
+    if (last && last.city === city) last.days.push(r);
+    else blocks.push({ city, days: [r] });
+  }
+  if (blocks.length > 1) {
+    blocks.forEach((b, i) => {
+      if (b.days.length < MIN_DAYS_PER_CITY) {
+        violations.push({ day: b.days[0].day, code: "short_stay", message: `day ${b.days[0].day} is the only day in ${b.city}: moving between cities takes most of a day, so plan at least ${MIN_DAYS_PER_CITY} days in each city, or stay in one` });
+      }
+      if (i > 0 && b.days[0].places.length > MAX_ARRIVAL_STOPS) {
+        violations.push({ day: b.days[0].day, code: "arrival_day_busy", message: `day ${b.days[0].day} is the first day in ${b.city}: after the trip there, plan at most ${MAX_ARRIVAL_STOPS} stops` });
+      }
+    });
   }
   return { ok: violations.length === 0, violations, warnings: [...new Set(warnings)], resolved };
 }

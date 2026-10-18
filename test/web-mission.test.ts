@@ -81,8 +81,9 @@ test("the plan from the places keeps to the pace, the day's hours and the stay",
     { id: "e", city: "Kyoto", durationMinutes: 60 },
   ];
   const plan = planFrom(places, 8, "relaxed");
-  assert.deepEqual(plan.map((d) => d.stops), [["a", "b"], ["c"], ["d", "e"]]);
-  assert.deepEqual(plan.map((d) => d.day), [1, 2, 3]);
+  // Kyoto has two places, which is one day: moving there for one day is not a plan, so it is left out.
+  assert.deepEqual(plan.map((d) => d.stops), [["a", "b"], ["c"]]);
+  assert.deepEqual(plan.map((d) => d.day), [1, 2]);
   assert.equal(planFrom(places, 1, "packed").length, 1, "a one-day stay gets one day");
   for (const d of planFrom(places, 8, "packed")) {
     const minutes = d.stops.reduce((m, id) => m + (places.find((p) => p.id === id)?.durationMinutes ?? 0), 0);
@@ -90,16 +91,39 @@ test("the plan from the places keeps to the pace, the day's hours and the stay",
   }
 });
 
-test("a city's places are spread evenly over its days, one city a day, and a long trip is planned for at most seven days", () => {
+test("the plan stays in the main city and moves only with room for two days there, an arrival day of at most two stops", () => {
   const tokyo = Array.from({ length: 8 }, (_, i) => ({ id: `t${i}`, city: "Tokyo", durationMinutes: 60 }));
   const kyoto = Array.from({ length: 4 }, (_, i) => ({ id: `k${i}`, city: "Kyoto", durationMinutes: 60 }));
   const osaka = [{ id: "o0", city: "Osaka", durationMinutes: 60 }];
-  const plan = planFrom([...tokyo, ...kyoto, ...osaka], 14, "balanced");
-  assert.deepEqual(plan.map((d) => d.stops.length), [3, 3, 2, 2, 2, 1], "Tokyo 3, 3, 2; Kyoto 2, 2; Osaka 1");
-  const city = new Map([...tokyo, ...kyoto, ...osaka].map((p) => [p.id, p.city]));
-  for (const d of plan) assert.equal(new Set(d.stops.map((id) => city.get(id))).size, 1, `day ${d.day} is in one city`);
-  const many = Array.from({ length: 40 }, (_, i) => ({ id: `m${i}`, city: `C${Math.floor(i / 3)}`, durationMinutes: 60 }));
-  assert.equal(planFrom(many, 30, "balanced").length, 7);
+  const all = [...tokyo, ...kyoto, ...osaka];
+  const city = new Map(all.map((p) => [p.id, p.city]));
+  const long = planFrom(all, 14, "balanced");
+  assert.deepEqual(long.map((d) => d.stops.length), [3, 3, 2, 2, 2], "Tokyo 3, 3, 2, then Kyoto 2, 2; Osaka has one place, so no stay there");
+  assert.deepEqual(long.map((d) => city.get(d.stops[0])), ["Tokyo", "Tokyo", "Tokyo", "Kyoto", "Kyoto"]);
+  for (const d of long) assert.equal(new Set(d.stops.map((id) => city.get(id))).size, 1, `day ${d.day} is in one city`);
+  // No room to move: the days left cannot hold two days in Kyoto, so the plan stays in Tokyo.
+  assert.deepEqual(planFrom(all, 4, "balanced").map((d) => city.get(d.stops[0])), ["Tokyo", "Tokyo", "Tokyo"]);
+  assert.equal(new Set(planFrom(all, 3, "balanced").map((d) => city.get(d.stops[0]))).size, 1);
+  const many = Array.from({ length: 40 }, (_, i) => ({ id: `m${i}`, city: "Paris", durationMinutes: 60 }));
+  assert.equal(planFrom(many, 30, "balanced").length, 7, "at most seven days");
+});
+
+test("a day alone in its city, or a busy arrival day, is repaired away", () => {
+  const plan = [
+    { day: 1, stops: ["t1", "t2"] },
+    { day: 2, stops: ["t3"] },
+    { day: 3, stops: ["k1", "k2", "k3"] },
+    { day: 4, stops: ["o1"] },
+  ];
+  const fixed = repair(plan, [
+    { day: 3, code: "arrival_day_busy" },
+    { day: 4, code: "short_stay" },
+  ]);
+  assert.deepEqual(fixed.map((d) => d.stops), [["t1", "t2"], ["t3"], ["k1", "k2"]]);
+  assert.deepEqual(fixed.map((d) => d.day), [1, 2, 3]);
+  // One day in each of two cities: the plan keeps the first rather than losing everything.
+  const lone = repair([{ day: 1, stops: ["t1", "t2"] }, { day: 2, stops: ["k1"] }], [{ day: 1, code: "short_stay" }, { day: 2, code: "short_stay" }]);
+  assert.deepEqual(lone.map((d) => d.stops), [["t1", "t2"]]);
 });
 
 test("what the verifier rejects is dropped and the days are numbered again", () => {
