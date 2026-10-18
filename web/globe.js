@@ -44,8 +44,9 @@ let current = null;
  * Draws the globe into the canvas. geo: { destination: {lat, lon}, origins: [{lat, lon, names}] }.
  * Replaces any globe already running; stops by itself when the canvas leaves the page.
  * intro: fly in and draw the routes (first view of a trip); otherwise start at rest.
+ * you: { lat, lon, label } marks where the traveler is now (only when they asked the page to find them).
  */
-export async function mountGlobe(canvas, geo, { intro = true } = {}) {
+export async function mountGlobe(canvas, geo, { intro = true, you = null } = {}) {
   if (current) current.stop();
   if (!canvas || !geo?.destination) return;
   let dots;
@@ -182,6 +183,26 @@ export async function mountGlobe(canvas, geo, { intro = true } = {}) {
       ctx.fillStyle = "#ffffff";
       ctx.beginPath(); ctx.arc(d[0], d[1], 4 * dpr, 0, Math.PI * 2); ctx.fill();
       ctx.shadowBlur = 0;
+    }
+
+    // The traveler's own position: an amber pin with a pulse and its label.
+    if (you) {
+      const y = project(toXYZ(you.lat, you.lon));
+      if (y[2] > 0) {
+        const pulse = reduced ? 0.5 : (t * 0.8 + 0.5) % 1;
+        ctx.strokeStyle = `rgba(255,159,10,${0.8 * (1 - pulse)})`;
+        ctx.lineWidth = 2 * dpr;
+        ctx.beginPath(); ctx.arc(y[0], y[1], (4 + 12 * pulse) * dpr, 0, Math.PI * 2); ctx.stroke();
+        ctx.fillStyle = "#ff9f0a";
+        ctx.beginPath(); ctx.arc(y[0], y[1], 4 * dpr, 0, Math.PI * 2); ctx.fill();
+        if (you.label) {
+          ctx.font = `600 ${11 * dpr}px -apple-system, BlinkMacSystemFont, Inter, sans-serif`;
+          ctx.fillStyle = "rgba(255,214,140,0.95)";
+          const tw = ctx.measureText(you.label).width;
+          const lx = y[0] + 7 * dpr + tw > px - 2 * dpr ? y[0] - 7 * dpr - tw : y[0] + 7 * dpr;
+          ctx.fillText(you.label, Math.max(2 * dpr, lx), Math.min(px - 4 * dpr, y[1] + 14 * dpr));
+        }
+      }
     }
 
     if (!reduced) raf = requestAnimationFrame(frame);

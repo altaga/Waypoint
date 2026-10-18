@@ -8,6 +8,7 @@ import { esc, heroHtml, renderTool, tripIcs, words } from "./cards.js";
 import { detectLang } from "./lang.js";
 import { speakable } from "./speech.js";
 import { mountGlobe } from "./globe.js";
+import { fromHereRequest, nearestCity, whereLine } from "./geo.js";
 import { PACE_NAMES, askDatesLine, askedPace, isAutopilot, makeTrip, missionHtml, noTripLine, runMission, tripFromRequest } from "./mission.js";
 import { freshCalls } from "./turn.js";
 
@@ -72,6 +73,14 @@ const UI = {
     aboutText: `A simulated Alexa+ host built for a hackathon entry. It is not affiliated with Amazon and does not integrate with Alexa+. The server is a self-hosted MCP server; this page is a real MCP client (${PROTOCOL_VERSION}).`,
     demo: "Example group",
     reset: "New session",
+    locate: "My location",
+    locating: "Finding where you are…",
+    locDenied: "I can't see your location: the browser didn't allow it. Nothing was stored. You can still tell me where you are.",
+    locFail: "I couldn't find your location this time. You can tell me where you are instead.",
+    locNone: "This browser can't share a location. You can tell me where you are instead.",
+    locYes: "Yes, from here",
+    locNo: "No, thanks",
+    locYou: "You",
     wipe: "Reset my data",
     wipeSure: "Click again to erase",
     wipeDone: "Your data was erased. This is a new visitor.",
@@ -137,6 +146,14 @@ const UI = {
     aboutText: `Un host simulado de Alexa+ creado para una entrada de hackathon. No está afiliado a Amazon ni se integra con Alexa+. El servidor es un servidor MCP propio; esta página es un cliente MCP real (${PROTOCOL_VERSION}).`,
     demo: "Grupo de ejemplo",
     reset: "Nueva sesión",
+    locate: "Mi ubicación",
+    locating: "Buscando dónde estás…",
+    locDenied: "No puedo ver tu ubicación: el navegador no lo permitió. No se guardó nada. Aún puedes decirme dónde estás.",
+    locFail: "No pude encontrar tu ubicación esta vez. Mejor dime dónde estás.",
+    locNone: "Este navegador no puede compartir la ubicación. Mejor dime dónde estás.",
+    locYes: "Sí, desde aquí",
+    locNo: "No, gracias",
+    locYou: "Tú",
     wipe: "Borrar mis datos",
     wipeSure: "Otro clic para borrar",
     wipeDone: "Tus datos se borraron. Eres un visitante nuevo.",
@@ -181,6 +198,9 @@ let panelFrame = null;
 let panelStructured = null;
 // One request at a time: the text box, the chips and the mic all send through handleUtterance.
 let busy = false;
+// Where the traveler is, only after they press "My location". It stays in this page: the chat gets a city name, never coordinates.
+let myPos = null;
+let worldCities = null;
 
 const t = (k) => UI[lang][k];
 
@@ -199,6 +219,7 @@ function applyLang() {
   $("logosToggle").title = t("titleLogos");
   $("demoGroup").textContent = t("demo");
   $("reset").textContent = t("reset");
+  $("locate").textContent = t("locate");
   if (!wipeArmed) $("wipe").textContent = t("wipe");
   $("lblProtocol").textContent = t("protocol");
   $("moreCue").textContent = t("moreCue");
@@ -244,6 +265,42 @@ function renderChips() {
     b.className = "chip";
     b.textContent = text;
     b.onclick = () => handleUtterance(text);
+    box.appendChild(b);
+  }
+}
+
+// "My location": asks the browser for the position (it shows its own permission prompt), names the nearest city,
+// marks it on the trip's globe and offers to check the plan from there.
+async function locateMe() {
+  if (busy) return;
+  if (!("geolocation" in navigator)) { bubble("assistant", t("locNone")); return; }
+  bubble("assistant", t("locating"));
+  setLight("thinking");
+  let pos;
+  try {
+    pos = await new Promise((ok, no) => navigator.geolocation.getCurrentPosition(ok, no, { enableHighAccuracy: false, timeout: 15000, maximumAge: 600000 }));
+  } catch (e) {
+    setLight("idle");
+    bubble("assistant", e && e.code === 1 ? t("locDenied") : t("locFail"));
+    return;
+  }
+  setLight("idle");
+  myPos = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+  try {
+    worldCities ??= (await (await fetch(new URL("./world-cities.json", import.meta.url))).json()).cities;
+  } catch { worldCities = []; }
+  const near = nearestCity(myPos.lat, myPos.lon, worldCities);
+  if (currentBrief) $("hero").innerHTML = heroHtml(currentBrief, lang, true);
+  const line = whereLine(lang, near, currentBrief?.destinationName);
+  bubble("assistant", line);
+  const box = $("chips");
+  box.innerHTML = "";
+  for (const [label, yes] of [[t("locYes"), true], [t("locNo"), false]]) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "chip";
+    b.textContent = label;
+    b.onclick = () => (yes ? handleUtterance(fromHereRequest(lang, near, Boolean(currentBrief))) : renderChips());
     box.appendChild(b);
   }
 }
@@ -882,7 +939,7 @@ function bindUi() {
     if (!canvas || !currentBrief?.geo) return;
     const intro = globeTrip !== currentBrief.tripId;
     globeTrip = currentBrief.tripId;
-    mountGlobe(canvas, currentBrief.geo, { intro });
+    mountGlobe(canvas, currentBrief.geo, { intro, you: myPos ? { ...myPos, label: t("locYou") } : null });
   }).observe($("hero"), { childList: true });
   // Small screens keep the settings behind one button, so the header is a single row.
   const closeMenu = () => {
@@ -922,6 +979,7 @@ function bindUi() {
   $("demoGroup").addEventListener("click", () => loadDemoGroup().catch(() => bubble("assistant", t("nothingSaved"))));
   $("reset").addEventListener("click", () => restartSession());
   // Erase this visitor's data and become a new visitor (a fresh id). Two clicks, so it is never an accident.
+  $("locate").addEventListener("click", () => locateMe());
   $("wipe").addEventListener("click", async () => {
     if (!wipeArmed) {
       wipeArmed = true;
@@ -930,6 +988,7 @@ function bindUi() {
       return;
     }
     clearTimeout(wipeTimer);
+    myPos = null;
     wipeArmed = false;
     $("wipe").textContent = t("wipe");
     try { await client?.callTool("forget_me", { confirm: true }); } catch {}
