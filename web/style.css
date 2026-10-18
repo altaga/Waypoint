@@ -440,17 +440,22 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 .foot summary { cursor: pointer; font-weight: 500; color: var(--ink-2); }
 .log { margin: var(--s-12) 0 0; max-height: 360px; overflow: auto; white-space: pre-wrap; word-break: break-all; font: 12px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--ink-2); }
 
-/* ---------- Small screens: the same system, tighter ---------- */
-@media (max-width: 560px) {
+/* ---------- The header: the controls fold into a Settings menu before they wrap into a second row ---------- */
+@media (max-width: 1180px) {
   .top { padding: var(--s-8) var(--s-16); gap: var(--s-8); }
-  .tagline { display: none; }
   .menu-btn { display: inline-flex; align-items: center; }
   .controls { display: none; grid-template-columns: auto auto; justify-content: start; gap: var(--s-6); }
   .controls.open { display: grid; width: 100%; }
-  .frame .screen, .frame[data-device="mobile"] .screen { border-width: 0; border-radius: var(--r-28); }
-  .frame::after { bottom: -24px; }
   select, .btn-ghost { height: 36px; padding: 0 var(--s-12); font-size: 13px; }
   .seg button { height: 30px; }
+}
+
+/* ---------- Small screens: the same system, tighter ---------- */
+@media (max-width: 560px) {
+  /* The tag that says this is a simulated host stays; the words before it go. */
+  .tagline span:first-child { display: none; }
+  .frame .screen, .frame[data-device="mobile"] .screen { border-width: 0; border-radius: var(--r-28); }
+  .frame::after { bottom: -24px; }
   .screen { min-height: 560px; }
   .chat-col { padding: var(--s-16); border-radius: var(--r-24); }
   .bubble { max-width: 90%; }

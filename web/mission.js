@@ -70,7 +70,7 @@ function paceLine(s, lang) {
     const base = ` Lo planeé a ritmo ${name}.${short ? ` A ese ritmo ${s.mainCity} necesita al menos ${s.mainMin} días (estimación nuestra) y tienes ${s.stay}.` : ""}`;
     return base + (s.stay > s.days ? ` ¿Quieres dejar libres los otros ${s.stay - s.days} días?` : ` ¿Lo prefieres ${others.join(" o ")}?`);
   }
-  const base = ` I planned it at a ${name} pace.${short ? ` At this pace ${s.mainCity} needs at least ${s.mainMin} days (our estimate) and you have ${s.stay}.` : ""}`;
+  const base = ` I planned it at ${/^[AEIOU]/i.test(name) ? "an" : "a"} ${name} pace.${short ? ` At this pace ${s.mainCity} needs at least ${s.mainMin} days (our estimate) and you have ${s.stay}.` : ""}`;
   return base + (s.stay > s.days ? ` Do you want the other ${s.stay - s.days} days free?` : ` Would you like it ${others.join(" or ")}?`);
 }
 
