@@ -21,8 +21,9 @@ const CURRENCIES = [
   [/dirham|dirhams|aed/, "AED"], [/lira|liras|try/, "TRY"], [/rupia|rupee|rupees|inr/, "INR"],
 ];
 
+// Punctuation becomes a space, except the commas and dots inside a number ("20,000").
 const norm = (s) =>
-  s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[¿?¡!.,]/g, " ").replace(/\s+/g, " ").trim();
+  s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[¿?¡!]|(?<!\d)[.,]|[.,](?!\d)/g, " ").replace(/\s+/g, " ").trim();
 
 export function findDestination(text) {
   const t = norm(text);
@@ -59,7 +60,25 @@ export function routeUtterance(text, context = {}) {
   const paymentTopic = /\bqr\b|billetera|wallet/.test(t) ? "qr" : /cripto|crypto|bitcoin/.test(t) ? "crypto" : /cajero|\batm\b/.test(t) ? "atm" : /billete/.test(t) ? "banknotes" : /tarjeta|\bcard\b|contactless/.test(t) ? "cards" : /efectivo|\bcash\b/.test(t) ? "cash" : undefined;
   const amount = t.match(/(\d[\d.,]*)\s*(mil|k|thousand)?/);
   const curr = CURRENCIES.find(([re]) => re.test(t));
+  // Currencies in the order they are said: "1000 dollars in yen" is from USD to JPY; one alone is what the amount is in.
+  const mentioned = CURRENCIES.map(([re, code]) => [t.search(re), code]).filter(([i]) => i >= 0).sort((a, b) => a[0] - b[0]).map(([, code]) => code).filter((c, i, all) => all.indexOf(c) === i);
 
+  // Passports: "my passport is Mexican" registers the speaker; "add Sam, US passport" adds a companion, and the
+  // server asks for the passport itself (a form) when none is given. The server resolves nationalities and names.
+  const WORDS = "[\\p{L}][\\p{L} .'-]{1,30}?";
+  const self = new RegExp(`(?:my passport is|mi pasaporte es(?: de)?|tengo pasaporte(?: de)?)\\s+(?:the\\s+)?(${WORDS})(?:\\s+passport)?\\s*[.!]*$|\\bi (?:have|hold) an?\\s+(${WORDS})\\s+passport\\b`, "iu").exec(text.trim());
+  if (self) {
+    const spanish = /mi pasaporte|tengo/i.test(text);
+    return { tool: "update_traveler_profile", args: { travelers: [{ displayName: spanish ? "Yo" : "Me", role: "self", passports: [(self[1] || self[2]).trim()] }] } };
+  }
+  const named = new RegExp(`^([A-ZÁÉÍÓÚÑ][\\p{L}]*)(?:['’]s passport is|\\s+has an?|\\s+tiene (?:un )?pasaporte(?: de)?)\\s+(?:the\\s+)?(${WORDS})(?:\\s+passport)?\\s*[.!]*$`, "u").exec(text.trim());
+  if (named && !findDestination(named[1])) return { tool: "update_traveler_profile", args: { travelers: [{ displayName: named[1], passports: [named[2].trim()] }] } };
+  const add = new RegExp(`(?:[Aa]dd|[Aa]grega|[Aa][ñn]ade|[Ss]uma)\\s+(?:a\\s+)?(?:(?:my|mi)\\s+(?:friend|partner|amigo|amiga|pareja)\\s+)?([A-ZÁÉÍÓÚÑ][\\p{L}]*)(?:[,\\s]+(?:with\\s+)?(?:an?\\s+)?(${WORDS})\\s+passport|[,\\s]+con pasaporte(?: de)?\\s+(${WORDS}))?\\s*[.!]*$`, "u").exec(text.trim());
+  if (add && !findDestination(add[1])) {
+    const passport = (add[2] || add[3] || "").trim();
+    const partner = /\b(partner|pareja)\b/i.test(text);
+    return { tool: "update_traveler_profile", args: { travelers: [{ displayName: add[1], role: partner ? "partner" : "friend", ...(passport ? { passports: [passport] } : {}) }] } };
+  }
   if (/olvida|forget|borra mis datos|delete my data/.test(t)) return { tool: "forget_me", args: {} };
   if (/que me falta|what.?s left|pending|pendiente|resumen del viaje|trip brief/.test(t)) return { tool: "trip_brief", args: {} };
   if (/\b(uber|grab|didi|rappi|mercado\s?libre|mercari|amazon)\b/.test(t) && tripDest) return { tool: "get_local_apps", args: { destination: tripDest } };
@@ -70,9 +89,9 @@ export function routeUtterance(text, context = {}) {
     const category = /cena|comida|almuerzo|desayuno|restaurant|dinner|lunch|breakfast|food/.test(t) ? "food" : "other";
     return { tool: "log_expense", args: { amount: Number(amount[1].replace(/[.,]/g, "")), category, currency: curr?.[1], ...(who ? { payer: who } : {}) } };
   }
-  if (/(cuanto rinde|cuanto son|how far|convert|cambio|budget|presupuesto)/.test(t) && amount) {
+  if (/(cuanto rinde|cuanto son|cuanto es|how far|how much is|how much are|convert|cambio|budget|presupuesto)/.test(t) && amount) {
     const n = Number(amount[1].replace(/[.,]/g, "")) * (amount[2] ? 1000 : 1);
-    return { tool: "convert_budget", args: { amount: n, to: curr?.[1], destination: dest ?? undefined } };
+    return { tool: "convert_budget", args: { amount: n, from: mentioned[0], to: mentioned[1], destination: dest ?? undefined } };
   }
   if (/\b(metro|subway|tren|train|tram|transporte|transit|bus|autobus|oyster|octopus|suica|pasmo|navigo|omny|ez-?link|opal|t-money|easycard|icoca|ov-chipkaart|istanbulkart)\b/.test(t) && tripDest) {
     return { tool: "get_transit_payment", args: { destination: tripDest } };
@@ -82,9 +101,9 @@ export function routeUtterance(text, context = {}) {
   }
   if (/(clima|weather|temperatura|temperature|frio|calor|lluvia|llueve|\brain\b|\bcold\b|\bhot\b)/.test(t)) return { tool: "get_trip_climate", args: dest ? { destination: dest } : {} };
   if (/(empacar|pack|maleta|equipaje|lista)/.test(t)) return { tool: "packing_checklist", args: {} };
-  if (/(itinerario|itinerary|plan del dia|day plan)/.test(t)) return { tool: "build_itinerary", args: {} };
-  if (/(enchufe|plug|adaptador|emergenc|moneda|currency|idioma|language)/.test(t) && dest) {
-    return { tool: "get_destination_essentials", args: { destination: dest } };
+  if (/(itinerario|itinerary|plan del dia|day plan|plan my days?|my day plan|arma(me)? (mis|los) dias|plan mis dias|dia por dia|day by day)/.test(t)) return { tool: "build_itinerary", args: {} };
+  if (/(enchufe|plug|adaptador|emergenc|moneda|currency|idioma|language)/.test(t) && tripDest) {
+    return { tool: "get_destination_essentials", args: { destination: tripDest } };
   }
   if (/(no puedo llevar|no puedo|puedo llevar|puedo traer|puedo meter|prohib|can i bring|can.t bring|can.t i bring|can i|reglas|rules|ley|law|multa|fine)/.test(t) && tripDest) {
     const items = /(bring|llevar|import|traer|meter|carry|pack)/.test(t);

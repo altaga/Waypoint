@@ -1304,33 +1304,37 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             followUps: [pick(locale, "What's the currency there?", "¿Cuál es la moneda?")],
           });
         }
+        // The facts are written in Spanish; the official entries also have an English version. An English answer
+        // for an entry without one keeps the Spanish text on the card and says so, instead of mixing it into a sentence.
+        const text = locale === "en" && entry.en ? entry.en : entry;
+        const spanishOnly = locale === "en" && !entry.en;
         const pairs: Array<[string, string | null | undefined]> = [
-          [pick(locale, "Cash", "Efectivo"), entry.cash],
-          [pick(locale, "Cards", "Tarjetas"), entry.cards],
-          [pick(locale, "Contactless", "Sin contacto"), entry.contactless],
-          [pick(locale, "QR and e-wallets", "QR y billeteras"), entry.qr],
-          [pick(locale, "ATMs", "Cajeros"), entry.atm],
-          [pick(locale, "Banknotes", "Billetes"), entry.banknotes],
+          [pick(locale, "Cash", "Efectivo"), text.cash],
+          [pick(locale, "Cards", "Tarjetas"), text.cards],
+          [pick(locale, "Contactless", "Sin contacto"), text.contactless],
+          [pick(locale, "QR and e-wallets", "QR y billeteras"), text.qr],
+          [pick(locale, "ATMs", "Cajeros"), text.atm],
+          [pick(locale, "Banknotes", "Billetes"), text.banknotes],
         ];
         const rows: Array<{ label: string; value: string; status: "info" | "warn" }> = pairs
           .filter((p): p is [string, string] => Boolean(p[1]))
           .map(([label, value]) => ({ label, value, status: "info" as const }));
         rows.push({
           label: pick(locale, "Cryptocurrency", "Criptomonedas"),
-          value: entry.crypto ?? pick(locale, "No official source says whether merchants accept it.", "Ninguna fuente oficial dice si los comercios la aceptan."),
+          value: text.crypto ?? pick(locale, "No official source says whether merchants accept it.", "Ninguna fuente oficial dice si los comercios la aceptan."),
           status: "warn",
         });
         // The answer starts with what was asked (QR, ATM, ...); crypto says plainly when no official source covers it.
-        const byTopic: Record<string, string | null | undefined> = { cash: entry.cash, cards: entry.cards, qr: entry.qr, atm: entry.atm, banknotes: entry.banknotes, crypto: entry.crypto };
+        const byTopic: Record<string, string | null | undefined> = { cash: text.cash, cards: text.cards, qr: text.qr, atm: text.atm, banknotes: text.banknotes, crypto: text.crypto };
         const asked = args.topic ? byTopic[args.topic] : undefined;
-        const first = args.topic === "crypto" && !entry.crypto
+        const first = args.topic === "crypto" && !text.crypto
           ? pick(locale, "no official source says whether merchants accept cryptocurrency", "ninguna fuente oficial dice si los comercios aceptan criptomonedas")
-          : asked ?? entry.cash ?? entry.cards ?? "";
+          : asked ?? text.cash ?? text.cards ?? "";
         // Official entries answer as official. Reported entries (guides, card sites, traveler reports) say so in the voice,
         // the subtitle and the source license, and never claim the official confidence level.
         const official = entry.tier === "oficial";
         const confidence = !official ? "low" : entry.confidence === "alta" ? "high" : entry.confidence === "media" ? "medium" : "low";
-        const said = first.replace(/\.\s*$/, "");
+        const said = spanishOnly && first ? "the details are only written in Spanish for now, and the card shows them" : first.replace(/\.\s*$/, "");
         const env: Envelope = {
           voice: official
             ? pick(
@@ -1351,7 +1355,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
               : pick(locale, `Travel guides and traveler reports, not official; retrieved ${entry.retrieved}`, `Guías y viajeros, no oficial; consultado el ${entry.retrieved}`),
             rows,
           },
-          data: { destination: dest, tier: entry.tier, verified: official, confidence: entry.confidence, notes: entry.notes ?? [], retrieved: entry.retrieved },
+          data: { destination: dest, tier: entry.tier, verified: official, confidence: entry.confidence, notes: text.notes ?? [], retrieved: entry.retrieved },
           sources: entry.sources.map((s, i) => ({
             id: `src:payments:${dest}:${i}`,
             title: s.title,

@@ -1,0 +1,172 @@
+{
+ "_note": "English text for the official entries of payments.json. Same facts, same sources; translated from the Spanish original.",
+ "countries": {
+  "AE": {
+   "cash": "Needed as a backup in small cafes, some taxis, souks and small shops (Visit Abu Dhabi).",
+   "cards": "Cards are accepted in hotels, restaurants and shops; Apple Pay is common (Visit Dubai, Visit Abu Dhabi).",
+   "atm": "Withdrawing with a card at an ATM usually gives the best exchange rate (u.ae, government portal). To change cash, use licensed exchange houses.",
+   "banknotes": "Dirham (AED). Fixed rate of 3.6725 AED per USD (Abu Dhabi).",
+   "notes": [
+    "The central bank's digital dirham includes access for non-residents in its design; not confirmed as available."
+   ]
+  },
+  "AT": {
+   "cash": "Carry some cash for small purchases or places that do not take cards (OeNB, austria.info).",
+   "cards": "Card acceptance is wide but not universal (austria.info). Many Austrian debit cards are blocked for payments outside Europe; check whether they need unlocking (OeNB, page in German).",
+   "atm": "24-hour ATMs on the main networks; they may charge a fee (austria.info).",
+   "banknotes": "Euro.",
+   "notes": [
+    "There is no limit on bringing in or taking out cash, but amounts of €10,000 or more must be declared (austria.info).",
+    "Visitors from euro-area countries do not normally pay extra card fees (austria.info)."
+   ]
+  },
+  "CA": {
+   "cash": "No detailed official data for visitors in the sources reviewed.",
+   "cards": "Interac Debit is tied to a Canadian bank account; a visitor's card is normally not Interac Debit (inferred from Interac's information).",
+   "contactless": "Limit of CAD 250 per tap with Interac Debit; banks may set cumulative limits (Interac).",
+   "notes": [
+    "Transit: some systems let you pay the adult fare with contactless Interac Debit.",
+    "Stadiums and concerts are often cashless; some have ATMs that load a prepaid card (Interac).",
+    "No official source on ATMs or fees for foreign cards."
+   ]
+  },
+  "CN": {
+   "cash": "Authorities are working to widen cash acceptance and currency exchange at airports, ports and hotels.",
+   "cards": "Hotels of three stars or more and top-tier attractions must accept domestic and foreign bank cards (government circular, 2024).",
+   "qr": "Alipay and WeChat Pay let you link international Visa and Mastercard cards; Alipay supports 13 foreign wallets. Limits for visitors: USD 5,000 per transaction and USD 50,000 a year (previously 1,000 and 10,000). Card payments by QR above RMB 200 carry a 3% fee. No person-to-person transfers.",
+   "atm": "About 320,000 ATMs. Bank cards can withdraw RMB at ATMs showing their network's logo.",
+   "notes": [
+    "Data from 2024 and 2025; confirm the limits before you travel.",
+    "The situation of cryptocurrencies in China was not verified and is not included."
+   ]
+  },
+  "DE": {
+   "cash": "Cash is still widely used: 45% of payments in 2025 (Bundesbank).",
+   "cards": "Most shops accept debit or credit cards. According to the Bundesbank, 86% of in-store purchases could be paid without cash. One in four respondents could not pay without cash at least once in the last month.",
+   "qr": "Apple Pay is the most used mobile wallet at the point of sale (summary of Bundesbank research; confirm in the publication).",
+   "banknotes": "Euro (germany.travel).",
+   "notes": [
+    "Contactless without a PIN up to €50 according to a 2021 Bundesbank study; the limit may have changed."
+   ]
+  },
+  "ES": {
+   "cash": "Almost always accepted; useful in markets, for tips, at beaches and in rural areas (spain.info, an older site).",
+   "cards": "Visa and Mastercard are very widespread. The law does not require showing ID to pay by card; the shop may ask for it. A passport or licence is accepted. 93.7% of in-person card payments in the first half of 2024 were contactless, with no PIN up to €50.",
+   "banknotes": "Euro.",
+   "notes": [
+    "Cash payment limit: €1,000 when one party is a business or professional. For individuals who are not tax residents in Spain and can show it, the limit is €10,000. Penalty of 25% of the amount (Bank of Spain, Law 11/2021).",
+    "Cash of €10,000 or more must be declared when leaving."
+   ]
+  },
+  "FR": {
+   "cash": "Cash payment limit for buyers with no tax domicile in France: €15,000 according to the Banque de France. Economie.gouv gives €10,000 or €15,000 depending on anti-money-laundering obligations: the sources do not agree.",
+   "cards": "Contactless payments of up to €50 per transaction since 2020; the PIN is asked for above €150 cumulative or 5 payments in a row (Banque de France).",
+   "banknotes": "Euro (Banque de France).",
+   "notes": [
+    "Cash back when paying by card: up to €60, with a minimum purchase of €1 (economie.gouv).",
+    "Amounts of €10,000 or more must be declared when leaving (economie.gouv)."
+   ]
+  },
+  "GB": {
+   "cash": "Some small shops, markets and cafes do not accept cards or ask for a minimum; carrying some cash is advised (VisitBritain).",
+   "cards": "Credit, debit and contactless cards are very widespread. Visa and Mastercard are the most accepted; AmEx and Diners only sometimes (VisitBritain).",
+   "atm": "Some ATMs charge a small fee. Foreign cards also pay a currency exchange charge (VisitBritain).",
+   "banknotes": "Pound sterling. Notes of £5, £10, £20 and £50. Scottish and Northern Irish notes circulate throughout the UK, except the Scottish £1 note, which does not; Northern Irish notes only in Northern Ireland (VisitBritain).",
+   "notes": [
+    "Transport in London: contactless works on most modes; Diners, JCB and UnionPay are not accepted (TfL). Alternative: the Visitor Oyster card.",
+    "In 2022, 59% of payments were by card and 14% in cash (ONS, with UK Finance data)."
+   ]
+  },
+  "GR": {
+   "cash": "No detailed official data for visitors. Currency exchange works at airports, ports and cities; a passport is required (Visit Greece).",
+   "atm": "Credit card holders can withdraw cash at partner banks' ATMs (Visit Greece). No fee data.",
+   "banknotes": "Euro.",
+   "notes": [
+    "No official source on contactless, fees or dynamic currency conversion."
+   ]
+  },
+  "IT": {
+   "cash": "Cash and cards are generally accepted (Italia.it, the official tourism portal).",
+   "cards": "Visa, Mastercard/Cirrus/Maestro and American Express (Italia.it).",
+   "banknotes": "Euro.",
+   "notes": [
+    "The cash payment limit is in conflict: the Bank of Italy's consumer page says €5,000, and another page of the same bank cites €1,000 (Decree-Law 201/2011). It was not resolved which applies."
+   ]
+  },
+  "JP": {
+   "cash": "Still needed in small shops, guesthouses and rural areas, and at some hotels.",
+   "cards": "Visa, Mastercard and JCB at large hotels, department stores and city restaurants; acceptance varies by shop.",
+   "qr": "PayPay, LINE Pay, Rakuten Pay and MerPay are the most common QR apps. Apple Pay, Google Pay and Alipay sometimes do not work for visitors.",
+   "atm": "Convenience-store ATMs accept foreign cards to withdraw yen.",
+   "notes": [
+    "Confirm the apps and cards accepted before you travel; the japan.travel guides change often."
+   ]
+  },
+  "KR": {
+   "cash": "Needed at traditional markets and street stalls.",
+   "cards": "Visa, Mastercard, JCB, AMEX and UnionPay in most shops, with no minimum amount (VisitKorea).",
+   "qr": "k.ride (2024) lets you register a credit card in the app for taxis. The Tmoney app supports Mastercard, AMEX and UnionPay. There is UnionPay QR at BC Card Paybooc shops, and Alipay, WeChat Pay and UnionPay at ZeroPay shops. KakaoPay appears on VisitKorea only for topping up the Namane card; it is not confirmed as a general payment for visitors.",
+   "notes": [
+    "Transport: T-money, EZL, WOWPASS and Mpass (Mpass can only be bought with cash won). An EZL balance under 20,000 won is refunded at convenience stores.",
+    "Some VisitKorea pages may be out of date; confirm on the official site."
+   ]
+  },
+  "MX": {
+   "cash": "Visitors bring US dollars in cash for tips, crafts and tourist spending (Banxico; 2019 estimate).",
+   "cards": "Visa, Mastercard and American Express. Cards are the most used electronic means: 57.9% of retail payment volume in 2024 (Banxico).",
+   "qr": "CoDi (Banxico) allows payments and transfers with QR codes and NFC. There are no specific rules for visitors.",
+   "notes": [
+    "Peso prepaid cards for foreigners: a Banxico programme; not confirmed as current.",
+    "Paying the entry fee in cash to immigration agents comes from a 2020 guide and is probably out of date.",
+    "OXXO (cash payment with a code) comes from a commercial source; not included."
+   ]
+  },
+  "SG": {
+   "cash": "A backup. Official sources do not describe how widespread cash acceptance is.",
+   "cards": "Cards are the main means. Point-of-sale payment mix in 2022 (approx., MAS): cards ~57%, cash ~19%, wallets ~18%.",
+   "qr": "To pay with SGQR you must register with a participating scheme, and it only works at shops with that link (MAS, 2023). PayNow requires local registration. There are QR links with Malaysia (DuitNow, 2023) and Indonesia (QRIS, 2023). The 2026 PayNow Gen2 report proposes a PayNow–NETS interoperability pilot; it is not confirmed as active.",
+   "notes": [
+    "MAS's 2026 report describes a US visitor who could not pay with a foreign card at a stall and paid in cash."
+   ]
+  },
+  "TH": {
+   "cash": "Still the dominant means: 78% of the value of tourist payments in 2024 (Bank of Thailand and Visa).",
+   "cards": "Accepted in hotels, malls and large restaurants. Card payments of 327 billion baht in 2024. Non-acceptance is one of the problems tourists cite most.",
+   "qr": "Thai QR codes can be scanned with apps from Malaysia (DuitNow), Singapore (NETS) and Hong Kong (FPS). With China, UnionPay, Alipay and WeChat Pay work. Cross-border use is still low (0.2%). TAGTHAi EASY PAY is a prepaid card for tourists sold at Kasikorn exchange booths.",
+   "atm": "Withdrawals make up about 10% of tourist spending (Bank of Thailand). Kasikorn ATMs charge no fee up to 10,000 baht per transaction (TAT; confirm the source's date).",
+   "notes": [
+    "PromptPay requires a Thai bank account (commercial source, not official).",
+    "Fee for withdrawing with a foreign card: 220 or 250 baht according to commercial sources; not official."
+   ]
+  },
+  "TR": {
+   "cash": "Cash is the most common means: according to the Central Bank, 89% of daily transactions were in cash (2020 survey, local consumer data).",
+   "cards": "No official acceptance data for visitors in the sources reviewed.",
+   "notes": [
+    "The planned digital lira will include non-residents and tourists; it is not confirmed as active.",
+    "No official source on withdrawal fees or on conversion to your home currency; commercial sources disagree (2–5% versus a fixed 8%)."
+   ]
+  },
+  "US": {
+   "cash": "The visittheusa.com guide advises against carrying a lot of cash.",
+   "cards": "Credit cards are accepted across the country. There may be conversion and international transaction fees, depending on the card (visittheusa.com).",
+   "atm": "About 425,000 ATMs. Those that are not bank-owned can charge up to USD 3 per use, on top of network and international transaction fees (visittheusa.com).",
+   "banknotes": "US dollar.",
+   "notes": [
+    "Customs: there is no limit on carrying money, but amounts from USD 10,000 must be declared (CBP).",
+    "Tipping: no official information was found."
+   ]
+  },
+  "VN": {
+   "cash": "Still the norm in small shops, street vendors and markets; carry small notes.",
+   "cards": "Visa and Mastercard in hotels, tour operators, restaurants, shops and spas in cities; in towns, cash or mobile payment is preferred. Visa contactless is growing.",
+   "qr": "VietQRGlobal: visitors from South Korea pay with their home apps. There are about 30 million active e-wallet accounts (SBV, 2025). There is a QR corridor with Singapore; with Cambodia and Laos it is under way.",
+   "atm": "Visa is accepted at more than 20,000 ATMs. Withdrawal limits vary by source: from 2–3 million VND with local banks to 5–10 million with international banks.",
+   "banknotes": "Notes from 1,000 to 500,000 VND (commercial sources).",
+   "notes": [
+    "Local wallets (MoMo, ZaloPay, ViettelPay, VNPay): the names come from commercial sources. It was not confirmed whether a foreigner can register; a local number or account is usually required.",
+    "Withdrawal limits conflict between sources; confirm with your bank."
+   ]
+  }
+ }
+}

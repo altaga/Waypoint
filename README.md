@@ -24,7 +24,7 @@ Offline mode (`WAYPOINT_OFFLINE=1`) needs no network: FX uses a labelled snapsho
 | Tool | Question it answers | Output |
 |---|---|---|
 | `get_traveler_profile` | What do you know about me and my group? | Profile card, sensitive fields redacted unless consented |
-| `update_traveler_profile` | Save me and my companions, with likes and things to avoid | Upserts travelers; **elicits** a missing passport country |
+| `update_traveler_profile` | Save me and my companions, with likes and things to avoid | Upserts travelers; **elicits** a missing passport country where the connection lets the server ask (over the stateless HTTP host it answers with the missing name instead) |
 | `plan_trip` (hero) | "Going to Japan 3–10 December" | Per-traveler entry status, stay-length check, top rules, days left; opens the **MCP App** dashboard |
 | `check_entry_requirements` | Do we need a visa? | One row per traveler, using the best of their passports |
 | `get_local_rules` | What can't I bring or do? | Verified rules with severity, each with its source quote |

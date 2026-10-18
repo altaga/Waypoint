@@ -21,6 +21,8 @@ export interface PaymentEntry {
   crypto?: string | null;
   notes?: string[];
   sources: PaymentSource[];
+  /** The same facts in English (data/world/payments.en.json). Only the official entries have it. */
+  en?: Pick<PaymentEntry, "cash" | "cards" | "qr" | "atm" | "contactless" | "banknotes" | "crypto" | "notes">;
 }
 export interface PaymentsRegistry {
   get(iso: string): PaymentEntry | undefined;
@@ -35,6 +37,14 @@ export function loadPayments(root: string): PaymentsRegistry {
     crypto_note: { text: string; sources: PaymentSource[] };
     countries: Record<string, PaymentEntry>;
   };
+  // English text for the official entries, when the file is there.
+  let english: Record<string, PaymentEntry["en"]> = {};
+  try {
+    english = (JSON.parse(readFileSync(join(root, "data/world/payments.en.json"), "utf8")) as { countries: Record<string, PaymentEntry["en"]> }).countries;
+  } catch {
+    // Without the file every entry is Spanish only, and the English answers say so.
+  }
+  for (const [iso, text] of Object.entries(english)) if (file.countries[iso]) file.countries[iso].en = text;
   return {
     get: (iso) => file.countries[String(iso).toUpperCase()],
     cryptoNote: file.crypto_note,

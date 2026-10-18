@@ -83,3 +83,33 @@ test("a country with no entry at all says so and cites nothing", async () => {
   assert.deepEqual(r.card.rows, []);
   assert.match(r.voice, /don't have payment information/);
 });
+
+// English: the 18 official entries have an English version with the same facts; the others say their detail is Spanish.
+test("every official entry has English text with the same fields as the Spanish original", () => {
+  const en = JSON.parse(readFileSync("data/world/payments.en.json", "utf8")) as { countries: Record<string, Record<string, unknown>> };
+  const official = Object.entries(data.countries).filter(([, v]) => v.tier === "oficial").map(([k]) => k).sort();
+  assert.deepEqual(Object.keys(en.countries).sort(), official);
+  for (const iso of official) {
+    const es = data.countries[iso] as Record<string, unknown>;
+    for (const f of ["cash", "cards", "contactless", "qr", "atm", "banknotes", "crypto"]) assert.equal(Boolean(es[f]), Boolean(en.countries[iso][f]), `${iso}.${f}`);
+    assert.equal(((es.notes as string[]) ?? []).length, ((en.countries[iso].notes as string[]) ?? []).length, `${iso}.notes`);
+    for (const f of ["cash", "cards", "qr", "atm"]) assert.doesNotMatch(String(en.countries[iso][f] ?? ""), /\b(Sigue|Las tarjetas|Hace falta|Los cajeros|Sin dato)\b/, `${iso}.${f} reads as Spanish`);
+  }
+});
+
+test("in English an official country answers in English, card and voice", async () => {
+  const s = await session("payments-en-jp");
+  const r = await s.call("get_payment_methods", { destination: "Japan", topic: "qr" });
+  assert.match(r.voice, /PayPay/);
+  assert.doesNotMatch(r.voice, /Sigue|apps QR/);
+  const rows = r.card.rows.map((x: { value: string }) => x.value).join(" ");
+  assert.doesNotMatch(rows, /Sigue|tiendas|cajeros/);
+});
+
+test("in English a reported country says its detail is only in Spanish instead of mixing the languages", async () => {
+  const reported = Object.entries(data.countries).find(([, v]) => v.tier === "reportado");
+  assert.ok(reported);
+  const s = await session("payments-en-reported");
+  const r = await s.call("get_payment_methods", { destination: reported![0] });
+  assert.match(r.voice, /only written in Spanish/);
+});
