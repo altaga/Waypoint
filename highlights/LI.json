@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -147,6 +153,1393 @@
       "website": "https://www.landesmuseum.li/de/postmuseum/",
       "lat": 47.13889,
       "lon": 9.52278
+    },
+    {
+      "id": "li-vaduz-castle",
+      "name": "Vaduz Castle",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q694782",
+      "lat": 47.139444,
+      "lon": 9.524444,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Vaduz Castle is the palace and official residence of the Prince of Liechtenstein.",
+        "es": "El castillo de Vaduz es uno de los dos existentes en Liechtenstein."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vaduz Castle",
+          "url": "https://en.wikipedia.org/wiki/Vaduz_Castle"
+        },
+        "es": {
+          "title": "Castillo de Vaduz",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Vaduz"
+        }
+      }
+    },
+    {
+      "id": "li-grauspitz",
+      "name": "Grauspitz",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q665000",
+      "lat": 47.052778,
+      "lon": 9.581944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Grauspitz is a mountain in the Rätikon range of the Alps, located on the border between Liechtenstein and Switzerland.",
+        "es": "Grauspitz o Pico gris es la montaña más alta de Liechtenstein."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grauspitz",
+          "url": "https://en.wikipedia.org/wiki/Grauspitz"
+        },
+        "es": {
+          "title": "Grauspitz",
+          "url": "https://es.wikipedia.org/wiki/Grauspitz"
+        }
+      },
+      "image": {
+        "file": "Grauspitzen.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Grauspitzen.JPG",
+        "author": "Svickova",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "li-vaduz-cathedral",
+      "name": "Vaduz Cathedral",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q156427",
+      "website": "https://www.dompfarrei.li/",
+      "lat": 47.1362,
+      "lon": 9.5227,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Vaduz Cathedral, or Cathedral of St. Florin, is a neo-Gothic church in Vaduz, Liechtenstein, and the centre of the Archdiocese of Vaduz.",
+        "es": "La Catedral de Vaduz, o Catedral de Florín, es una iglesia de estilo neogótico ubicada en la ciudad de Vaduz, capital del Principado de Liechtenstein, y sede de la arquidiócesis de Vaduz."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vaduz Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Vaduz_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de San Florián (Vaduz)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Flori%C3%A1n_(Vaduz)"
+        }
+      }
+    },
+    {
+      "id": "li-naafkopf",
+      "name": "Naafkopf",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q666531",
+      "lat": 47.060706,
+      "lon": 9.607153,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Naafkopf is a mountain in the Rätikon range of the Alps, located at the border between Austria, Liechtenstein and Switzerland.",
+        "es": "El Naafkopf es una montaña en el macizo de Rhäticon, en los Alpes Réticos occidentales."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Naafkopf",
+          "url": "https://en.wikipedia.org/wiki/Naafkopf"
+        },
+        "es": {
+          "title": "Naafkopf",
+          "url": "https://es.wikipedia.org/wiki/Naafkopf"
+        }
+      },
+      "image": {
+        "file": "Naafkopf.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Naafkopf.jpg",
+        "author": "PhonoPhil",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "li-falknis",
+      "name": "Falknis",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q75570",
+      "lat": 47.050528,
+      "lon": 9.564528,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Falknis is a mountain in the Rätikon range of the Eastern Alps, located on the border between Liechtenstein and Switzerland.",
+        "es": "The Falknis is a mountain in the Rätikon range of the Eastern Alps, located on the border between Liechtenstein and Switzerland."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Falknis",
+          "url": "https://en.wikipedia.org/wiki/Falknis"
+        },
+        "es": {
+          "title": "Falknis",
+          "url": "https://en.wikipedia.org/wiki/Falknis"
+        }
+      },
+      "image": {
+        "file": "Blick_auf_falknis.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blick_auf_falknis.JPG",
+        "author": "Thbigliel at German Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "li-gampriner-seele",
+      "name": "Gampriner Seele",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q156543",
+      "lat": 47.225,
+      "lon": 9.509167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Gampriner Seele or Gampriner Seelein is the only lake in Liechtenstein.",
+        "es": "El Gampriner Seele es el único lago de importancia en Liechtenstein."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gampriner Seele",
+          "url": "https://en.wikipedia.org/wiki/Gampriner_Seele"
+        },
+        "es": {
+          "title": "Gampriner Seele",
+          "url": "https://es.wikipedia.org/wiki/Gampriner_Seele"
+        }
+      },
+      "image": {
+        "file": "Gampriner_Seele.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gampriner_Seele.jpg",
+        "author": "Plutowiki",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "li-drei-schwestern",
+      "name": "Drei Schwestern",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q206798",
+      "lat": 47.175,
+      "lon": 9.571389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Drei Schwestern is a mountain located on the border of Austria and Liechtenstein.",
+        "es": "Drei Schwestern es un grupo de tres montañas que se encuentra situado en Liechtenstein, una de las cuales es el punto de máxima altitud de Liechtenstein, el Grauspitz."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Drei Schwestern",
+          "url": "https://en.wikipedia.org/wiki/Drei_Schwestern"
+        },
+        "es": {
+          "title": "Drei Schwestern",
+          "url": "https://es.wikipedia.org/wiki/Drei_Schwestern"
+        }
+      },
+      "image": {
+        "file": "Drei_schwestern.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drei_schwestern.JPG",
+        "author": "svickova",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "li-gutenberg-castle",
+      "name": "Gutenberg Castle",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q1012141",
+      "lat": 47.06525,
+      "lon": 9.500278,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Gutenberg Castle is an intact castle in the municipality of Balzers, Liechtenstein, the southern-most municipality in the country.",
+        "es": "El Castillo Gutenberg es un castillo bien preservado en la ciudad de Balzers, en el principado de Liechtenstein, justo el centro del municipio de Balzers."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gutenberg Castle",
+          "url": "https://en.wikipedia.org/wiki/Gutenberg_Castle"
+        },
+        "es": {
+          "title": "Castillo Gutenberg",
+          "url": "https://es.wikipedia.org/wiki/Castillo_Gutenberg"
+        }
+      }
+    },
+    {
+      "id": "li-galinakopf",
+      "name": "Galinakopf",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q642396",
+      "lat": 47.151667,
+      "lon": 9.620556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Galinakopf is a mountain on the border of Austria and Liechtenstein in the Rätikon range of the Eastern Alps, with a height of 2,198 metres.",
+        "es": "El Galinakopf es una montaña de 2198 metros de altitud situada en el macizo de Rätikon, un grupo montañoso de los Alpes Centrales Orientales."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Galinakopf",
+          "url": "https://en.wikipedia.org/wiki/Galinakopf"
+        },
+        "es": {
+          "title": "Galinakopf",
+          "url": "https://es.wikipedia.org/wiki/Galinakopf"
+        }
+      },
+      "image": {
+        "file": "Galinakopf.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Galinakopf.jpg",
+        "author": "Vince51",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "li-mazorakopf",
+      "name": "Mazorakopf",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q673660",
+      "lat": 47.048478,
+      "lon": 9.556992,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mazorakopf or Falknishorn is a mountain on the border between Switzerland and Liechtenstein.",
+        "es": "Mazorakopf or Falknishorn is a mountain on the border between Switzerland and Liechtenstein."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mazorakopf",
+          "url": "https://en.wikipedia.org/wiki/Mazorakopf"
+        },
+        "es": {
+          "title": "Mazorakopf",
+          "url": "https://en.wikipedia.org/wiki/Mazorakopf"
+        }
+      },
+      "image": {
+        "file": "Koraspitz_Mazorakopf_Mittlerspitz.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Koraspitz_Mazorakopf_Mittlerspitz.jpg",
+        "author": "Kristian Thy from Copenhagen, Denmark",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "li-garsellakopf",
+      "name": "Garsellakopf",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4133703",
+      "lat": 47.1702,
+      "lon": 9.5646,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Garsellakopf is a mountain on the border of Liechtenstein and Austria in the Rätikon range of the Eastern Alps to the east of the town of Schaan, with a height of 2,105 metres.",
+        "es": "Garsellakopf is a mountain on the border of Liechtenstein and Austria in the Rätikon range of the Eastern Alps to the east of the town of Schaan, with a height of 2,105 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Garsellakopf",
+          "url": "https://en.wikipedia.org/wiki/Garsellakopf"
+        },
+        "es": {
+          "title": "Garsellakopf",
+          "url": "https://en.wikipedia.org/wiki/Garsellakopf"
+        }
+      },
+      "image": {
+        "file": "Garsellikopf46.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Garsellikopf46.jpg",
+        "author": "Ramessos",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "li-sarojahoehe",
+      "name": "Sarojahoehe",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4187536",
+      "lat": 47.190833,
+      "lon": 9.5725,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sarojahöhe or Saroja is a mountain on the border of Liechtenstein and Austria in the Rätikon range of the Eastern Alps to the east of the village of Planken, with a height of 1,659 metres.",
+        "es": "Sarojahöhe or Saroja is a mountain on the border of Liechtenstein and Austria in the Rätikon range of the Eastern Alps to the east of the village of Planken, with a height of 1,659 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sarojahöhe",
+          "url": "https://en.wikipedia.org/wiki/Sarojah%C3%B6he"
+        },
+        "es": {
+          "title": "Sarojahöhe",
+          "url": "https://en.wikipedia.org/wiki/Sarojah%C3%B6he"
+        }
+      },
+      "image": {
+        "file": "Saroja_Gipfel_vom_Sattelköpfle_aus_gesehen.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Saroja_Gipfel_vom_Sattelk%C3%B6pfle_aus_gesehen.jpg",
+        "author": "S-Lanz",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "li-schwarzhorn-ratikon",
+      "name": "Schwarzhorn (Rätikon)",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q125968",
+      "lat": 47.054722,
+      "lon": 9.588056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Schwarzhorn is a mountain on the border of Switzerland and Liechtenstein in the Rätikon range of the Eastern Alps.",
+        "es": "The Schwarzhorn is a mountain on the border of Switzerland and Liechtenstein in the Rätikon range of the Eastern Alps."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Schwarzhorn (Rätikon)",
+          "url": "https://en.wikipedia.org/wiki/Schwarzhorn_(R%C3%A4tikon)"
+        },
+        "es": {
+          "title": "Schwarzhorn (Rätikon)",
+          "url": "https://en.wikipedia.org/wiki/Schwarzhorn_(R%C3%A4tikon)"
+        }
+      },
+      "image": {
+        "file": "Hinter_Grauspitz.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hinter_Grauspitz.JPG",
+        "author": "JMiall",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "li-augstenberg",
+      "name": "Augstenberg",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4072361",
+      "lat": 47.0825,
+      "lon": 9.61,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Augstenberg is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps close to the border with Austria and the town of Malbun, with a height of 2,365 metres.",
+        "es": "Augstenberg is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps close to the border with Austria and the town of Malbun, with a height of 2,365 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Augstenberg (Liechtenstein)",
+          "url": "https://en.wikipedia.org/wiki/Augstenberg_(Liechtenstein)"
+        },
+        "es": {
+          "title": "Augstenberg (Liechtenstein)",
+          "url": "https://en.wikipedia.org/wiki/Augstenberg_(Liechtenstein)"
+        }
+      },
+      "image": {
+        "file": "AugstenbergLi01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:AugstenbergLi01.jpg",
+        "author": "Ramessos",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "li-gorfion",
+      "name": "Gorfion",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4145968",
+      "lat": 47.078056,
+      "lon": 9.618611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Gorfion is a mountain on the border of Austria and Liechtenstein in the Rätikon range of the Eastern Alps, with a height of 2,308 metres.",
+        "es": "Gorfion is a mountain on the border of Austria and Liechtenstein in the Rätikon range of the Eastern Alps, with a height of 2,308 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gorfion",
+          "url": "https://en.wikipedia.org/wiki/Gorfion"
+        },
+        "es": {
+          "title": "Gorfion",
+          "url": "https://en.wikipedia.org/wiki/Gorfion"
+        }
+      },
+      "image": {
+        "file": "Gorfion_vom_Bettlerjoch.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gorfion_vom_Bettlerjoch.jpg",
+        "author": "32-Fuß-Freak",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "li-mittlerspitz",
+      "name": "Mittlerspitz",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q2065492",
+      "lat": 47.065,
+      "lon": 9.539722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mittlerspitz is a mountain on the border of Liechtenstein and Switzerland in the Rätikon range of the Eastern Alps east of the town of Balzers, with a height of 1,897 metres.",
+        "es": "Mittlerspitz is a mountain on the border of Liechtenstein and Switzerland in the Rätikon range of the Eastern Alps east of the town of Balzers, with a height of 1,897 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mittlerspitz",
+          "url": "https://en.wikipedia.org/wiki/Mittlerspitz"
+        },
+        "es": {
+          "title": "Mittlerspitz",
+          "url": "https://en.wikipedia.org/wiki/Mittlerspitz"
+        }
+      },
+      "image": {
+        "file": "Koraspitz_Mazorakopf_Mittlerspitz.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Koraspitz_Mazorakopf_Mittlerspitz.jpg",
+        "author": "Kristian Thy from Copenhagen, Denmark",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "li-kuhgrat",
+      "name": "Kuhgrat",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4244296",
+      "lat": 47.166667,
+      "lon": 9.566667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kuhgrat is the highest of a group of three peaks known as the Drei Schwestern in the Rätikon range in the Eastern Alps which between them form part of the Austria-Liechtenstein border.",
+        "es": "Kuhgrat is the highest of a group of three peaks known as the Drei Schwestern in the Rätikon range in the Eastern Alps which between them form part of the Austria-Liechtenstein border."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kuhgrat",
+          "url": "https://en.wikipedia.org/wiki/Kuhgrat"
+        },
+        "es": {
+          "title": "Kuhgrat",
+          "url": "https://en.wikipedia.org/wiki/Kuhgrat"
+        }
+      },
+      "image": {
+        "file": "Kuegrat03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kuegrat03.jpg",
+        "author": "Ramessos",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "li-ochsenkopf",
+      "name": "Ochsenkopf",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4332782",
+      "lat": 47.114722,
+      "lon": 9.624444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ochsenkopf is a mountain on the border of Liechtenstein and Austria in the Rätikon range of the Eastern Alps close to the town of Malbun, with a height of 2,286 metres.",
+        "es": "Ochsenkopf is a mountain on the border of Liechtenstein and Austria in the Rätikon range of the Eastern Alps close to the town of Malbun, with a height of 2,286 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ochsenkopf (Malbun)",
+          "url": "https://en.wikipedia.org/wiki/Ochsenkopf_(Malbun)"
+        },
+        "es": {
+          "title": "Ochsenkopf (Malbun)",
+          "url": "https://en.wikipedia.org/wiki/Ochsenkopf_(Malbun)"
+        }
+      },
+      "image": {
+        "file": "Ochsenkopf_Rätikon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ochsenkopf_R%C3%A4tikon.jpg",
+        "author": "CapriceJ",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "li-gamsgrat",
+      "name": "Gamsgrat",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4133142",
+      "lat": 47.110556,
+      "lon": 9.620556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Gamsgrat is a mountain on the border of Liechtenstein and Austria in the Rätikon range of the Eastern Alps close to the town of Malbun, with a height of 2,246 metres.",
+        "es": "Gamsgrat is a mountain on the border of Liechtenstein and Austria in the Rätikon range of the Eastern Alps close to the town of Malbun, with a height of 2,246 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gamsgrat",
+          "url": "https://en.wikipedia.org/wiki/Gamsgrat"
+        },
+        "es": {
+          "title": "Gamsgrat",
+          "url": "https://en.wikipedia.org/wiki/Gamsgrat"
+        }
+      }
+    },
+    {
+      "id": "li-zigerbergkopf",
+      "name": "Zigerbergkopf",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4505557",
+      "lat": 47.150189,
+      "lon": 9.604463,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Zigerbergkopf is a mountain on the border of Austria and Liechtenstein in the Rätikon range of the Eastern Alps with a height of 2,051 metres.",
+        "es": "Zigerbergkopf is a mountain on the border of Austria and Liechtenstein in the Rätikon range of the Eastern Alps with a height of 2,051 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zigerbergkopf",
+          "url": "https://en.wikipedia.org/wiki/Zigerbergkopf"
+        },
+        "es": {
+          "title": "Zigerbergkopf",
+          "url": "https://en.wikipedia.org/wiki/Zigerbergkopf"
+        }
+      }
+    },
+    {
+      "id": "li-schonberg",
+      "name": "Schönberg",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4528266",
+      "lat": 47.130278,
+      "lon": 9.593056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Schönberg is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps north-east of the village of Steg, with a height of 2,104 metres.",
+        "es": "Schönberg is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps north-east of the village of Steg, with a height of 2,104 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Schönberg (Liechtenstein)",
+          "url": "https://en.wikipedia.org/wiki/Sch%C3%B6nberg_(Liechtenstein)"
+        },
+        "es": {
+          "title": "Schönberg (Liechtenstein)",
+          "url": "https://en.wikipedia.org/wiki/Sch%C3%B6nberg_(Liechtenstein)"
+        }
+      },
+      "image": {
+        "file": "FL_-_Schönberg_001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:FL_-_Sch%C3%B6nberg_001.jpg",
+        "author": "ANKAWÜ",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "li-wurznerhorn",
+      "name": "Würznerhorn",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q2065482",
+      "lat": 47.06306,
+      "lon": 9.53131,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Würznerhorn is a mountain on the border of Liechtenstein and Switzerland in the Rätikon range of the Eastern Alps close to the town of Balzers, with a height of 1,713 metres.",
+        "es": "Würznerhorn is a mountain on the border of Liechtenstein and Switzerland in the Rätikon range of the Eastern Alps close to the town of Balzers, with a height of 1,713 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Würznerhorn",
+          "url": "https://en.wikipedia.org/wiki/W%C3%BCrznerhorn"
+        },
+        "es": {
+          "title": "Würznerhorn",
+          "url": "https://en.wikipedia.org/wiki/W%C3%BCrznerhorn"
+        }
+      }
+    },
+    {
+      "id": "li-goldlochspitz",
+      "name": "Goldlochspitz",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4142758",
+      "lat": 47.0825,
+      "lon": 9.567222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Goldlochspitz is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps with a height of 2,110 metres.",
+        "es": "Goldlochspitz is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps with a height of 2,110 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Goldlochspitz",
+          "url": "https://en.wikipedia.org/wiki/Goldlochspitz"
+        },
+        "es": {
+          "title": "Goldlochspitz",
+          "url": "https://en.wikipedia.org/wiki/Goldlochspitz"
+        }
+      }
+    },
+    {
+      "id": "li-rappenstein",
+      "name": "Rappenstein",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4390062",
+      "lat": 47.076389,
+      "lon": 9.566667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rappenstein is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps with a height of 2,222 metres.",
+        "es": "Rappenstein is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps with a height of 2,222 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rappenstein",
+          "url": "https://en.wikipedia.org/wiki/Rappenstein"
+        },
+        "es": {
+          "title": "Rappenstein",
+          "url": "https://en.wikipedia.org/wiki/Rappenstein"
+        }
+      }
+    },
+    {
+      "id": "li-rotspitz",
+      "name": "Rotspitz",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4398696",
+      "lat": 47.05788,
+      "lon": 9.55242,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rotspitz is a mountain in Liechtenstein, located close to the Swiss border, due east of the Swiss town of Wartau.",
+        "es": "Rotspitz is a mountain in Liechtenstein, located close to the Swiss border, due east of the Swiss town of Wartau."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rotspitz",
+          "url": "https://en.wikipedia.org/wiki/Rotspitz"
+        },
+        "es": {
+          "title": "Rotspitz",
+          "url": "https://en.wikipedia.org/wiki/Rotspitz"
+        }
+      },
+      "image": {
+        "file": "Rotspitz_vom_Gschöllkopf_gesehen.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rotspitz_vom_Gsch%C3%B6llkopf_gesehen.jpg",
+        "author": "Gerd Fahrenhorst",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "li-scheienkopf",
+      "name": "Scheienkopf",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4519447",
+      "lat": 47.128252,
+      "lon": 9.63585,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Scheienkopf is a mountain on the border of Liechtenstein and Austria, although the summit is in Austria, in the Rätikon range of the Eastern Alps with a height of 2,159 metres.",
+        "es": "Scheienkopf is a mountain on the border of Liechtenstein and Austria, although the summit is in Austria, in the Rätikon range of the Eastern Alps with a height of 2,159 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Scheienkopf",
+          "url": "https://en.wikipedia.org/wiki/Scheienkopf"
+        },
+        "es": {
+          "title": "Scheienkopf",
+          "url": "https://en.wikipedia.org/wiki/Scheienkopf"
+        }
+      }
+    },
+    {
+      "id": "li-stachlerkopf",
+      "name": "Stachlerkopf",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q172960",
+      "lat": 47.121944,
+      "lon": 9.5925,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Stachlerkopf is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps, close to the towns of Steg and Malbun, with a height of 2,071 metres.",
+        "es": "Stachlerkopf is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps, close to the towns of Steg and Malbun, with a height of 2,071 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Stachlerkopf",
+          "url": "https://en.wikipedia.org/wiki/Stachlerkopf"
+        },
+        "es": {
+          "title": "Stachlerkopf",
+          "url": "https://en.wikipedia.org/wiki/Stachlerkopf"
+        }
+      },
+      "image": {
+        "file": "Malbun_Stachlerkopf.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malbun_Stachlerkopf.jpg",
+        "author": "Rémih",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "li-alpspitz",
+      "name": "Alpspitz",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4063561",
+      "lat": 47.133333,
+      "lon": 9.55,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Alpspitz is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps, to the east of Vaduz, with a height of 1,943 metres or 1,942 metres.",
+        "es": "Alpspitz is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps, to the east of Vaduz, with a height of 1,943 metres or 1,942 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Alpspitz",
+          "url": "https://en.wikipedia.org/wiki/Alpspitz"
+        },
+        "es": {
+          "title": "Alpspitz",
+          "url": "https://en.wikipedia.org/wiki/Alpspitz"
+        }
+      }
+    },
+    {
+      "id": "li-plasteikopf",
+      "name": "Plasteikopf",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4364503",
+      "lat": 47.065278,
+      "lon": 9.577222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Plasteikopf is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps close to the border with Switzerland, with a height of 2,356 metres.",
+        "es": "Plasteikopf is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps close to the border with Switzerland, with a height of 2,356 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plasteikopf",
+          "url": "https://en.wikipedia.org/wiki/Plasteikopf"
+        },
+        "es": {
+          "title": "Plasteikopf",
+          "url": "https://en.wikipedia.org/wiki/Plasteikopf"
+        }
+      }
+    },
+    {
+      "id": "li-rauher-berg",
+      "name": "Rauher Berg",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4390965",
+      "lat": 47.1075,
+      "lon": 9.628333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rauher Berg is a mountain on the border of Liechtenstein and Austria in the Rätikon range of the Eastern Alps close to the town of Malbun, with a height of 2,094 metres.",
+        "es": "Rauher Berg is a mountain on the border of Liechtenstein and Austria in the Rätikon range of the Eastern Alps close to the town of Malbun, with a height of 2,094 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rauher Berg",
+          "url": "https://en.wikipedia.org/wiki/Rauher_Berg"
+        },
+        "es": {
+          "title": "Rauher Berg",
+          "url": "https://en.wikipedia.org/wiki/Rauher_Berg"
+        }
+      }
+    },
+    {
+      "id": "li-eschnerberg",
+      "name": "Eschnerberg",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q1367118",
+      "lat": 47.233333,
+      "lon": 9.55,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Eschnerberg, also Eschner Berg and Schellenberg, is a 698-metre high mountain of seven peaks in the Rhine Valley, on the border of Liechtenstein and the Austrian state of Vorarlberg.",
+        "es": "Eschnerberg, also Eschner Berg and Schellenberg, is a 698-metre high mountain of seven peaks in the Rhine Valley, on the border of Liechtenstein and the Austrian state of Vorarlberg."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Eschnerberg",
+          "url": "https://en.wikipedia.org/wiki/Eschnerberg"
+        },
+        "es": {
+          "title": "Eschnerberg",
+          "url": "https://en.wikipedia.org/wiki/Eschnerberg"
+        }
+      },
+      "image": {
+        "file": "Eschnerberg_von_West.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eschnerberg_von_West.jpg",
+        "author": "Plutowiki",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "li-silberhorn",
+      "name": "Silberhorn",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q281367",
+      "lat": 47.0875,
+      "lon": 9.605556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Silberhorn, or Hubel, is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps close to the border with Austria, with a height of 2,150 metres.",
+        "es": "Silberhorn, or Hubel, is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps close to the border with Austria, with a height of 2,150 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Silberhorn (Liechtenstein)",
+          "url": "https://en.wikipedia.org/wiki/Silberhorn_(Liechtenstein)"
+        },
+        "es": {
+          "title": "Silberhorn (Liechtenstein)",
+          "url": "https://en.wikipedia.org/wiki/Silberhorn_(Liechtenstein)"
+        }
+      }
+    },
+    {
+      "id": "li-drei-kapuziner",
+      "name": "Drei Kapuziner",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4462860",
+      "lat": 47.124417,
+      "lon": 9.588889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Drei Kapuziner is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps, close to the towns of Malbun and Steg, with a height of 2,084 metres.",
+        "es": "Drei Kapuziner is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps, close to the towns of Malbun and Steg, with a height of 2,084 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Drei Kapuziner",
+          "url": "https://en.wikipedia.org/wiki/Drei_Kapuziner"
+        },
+        "es": {
+          "title": "Drei Kapuziner",
+          "url": "https://en.wikipedia.org/wiki/Drei_Kapuziner"
+        }
+      }
+    },
+    {
+      "id": "li-helwangspitz",
+      "name": "Helwangspitz",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4497169",
+      "lat": 47.148611,
+      "lon": 9.562222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Helwangspitz is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps, to the east of Vaduz, with a height of 1,999 metres / or 2,000 metres.",
+        "es": "Helwangspitz is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps, to the east of Vaduz, with a height of 1,999 metres / or 2,000 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Helwangspitz",
+          "url": "https://en.wikipedia.org/wiki/Helwangspitz"
+        },
+        "es": {
+          "title": "Helwangspitz",
+          "url": "https://en.wikipedia.org/wiki/Helwangspitz"
+        }
+      }
+    },
+    {
+      "id": "li-spitz",
+      "name": "Spitz",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q4526493",
+      "lat": 47.086667,
+      "lon": 9.623889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Spitz is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps close to the border with Austria and the town of Malbun with a height of 2,186 metres.",
+        "es": "Spitz is a mountain in Liechtenstein in the Rätikon range of the Eastern Alps close to the border with Austria and the town of Malbun with a height of 2,186 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Spitz (Liechtenstein)",
+          "url": "https://en.wikipedia.org/wiki/Spitz_(Liechtenstein)"
+        },
+        "es": {
+          "title": "Spitz (Liechtenstein)",
+          "url": "https://en.wikipedia.org/wiki/Spitz_(Liechtenstein)"
+        }
+      }
+    },
+    {
+      "id": "li-santis",
+      "name": "Säntis",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q15224",
+      "lat": 47.249167,
+      "lon": 9.343333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "At 2,501.9 metres above sea level, Säntis is the highest mountain in the Alpstein massif of northeastern Switzerland.",
+        "es": "Säntis es una montaña en el macizo de Alpstein de los Prealpes appenzelleses en Suiza."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Säntis",
+          "url": "https://en.wikipedia.org/wiki/S%C3%A4ntis"
+        },
+        "es": {
+          "title": "Säntis",
+          "url": "https://es.wikipedia.org/wiki/S%C3%A4ntis"
+        }
+      },
+      "image": {
+        "file": "Säntis_-_Batzberg_IMG_9803.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:S%C3%A4ntis_-_Batzberg_IMG_9803.JPG",
+        "author": "Roland zh",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "li-schesaplana",
+      "name": "Schesaplana",
+      "area": "Vaduz",
+      "city": "Vaduz",
+      "wikidata": "Q15241",
+      "lat": 47.053846,
+      "lon": 9.707361,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Schesaplana is the highest mountain in the Rätikon mountain range at the border between Vorarlberg, Austria and Graubünden, Switzerland.",
+        "es": "El Schesaplana es la montaña más alta en el Macizo de Rätikon en la frontera entre Vorarlberg, Austria y los Grisones, Suiza."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Schesaplana",
+          "url": "https://en.wikipedia.org/wiki/Schesaplana"
+        },
+        "es": {
+          "title": "Schesaplana",
+          "url": "https://es.wikipedia.org/wiki/Schesaplana"
+        }
+      },
+      "image": {
+        "file": "Schesaplana_von_der_Mannheimer_Hütte.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Schesaplana_von_der_Mannheimer_H%C3%BCtte.jpg",
+        "author": "Jörg Braukmann",
+        "license": "CC BY-SA 4.0"
+      }
     }
   ]
 }

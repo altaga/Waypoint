@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -140,6 +146,1009 @@
       "website": "http://www.conmebol.com/es/content/museo-del-futbol-sudamericano",
       "lat": -25.26122,
       "lon": -57.51482
+    },
+    {
+      "id": "py-guaira-falls",
+      "name": "Guaíra Falls",
+      "area": "Saltos del Guairá",
+      "city": "Saltos del Guairá",
+      "wikidata": "Q940892",
+      "lat": -24.073,
+      "lon": -54.284,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Guairá Falls or Guaíra Falls were a series of immense waterfalls on the Paraná River along the border between Paraguay and Brazil.",
+        "es": "Los Saltos del Guairá era la mayor cascada de agua del río Paraná hasta su desaparición en 1982 con la construcción de la represa hidroeléctrica de Itaipú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Guaíra Falls",
+          "url": "https://en.wikipedia.org/wiki/Gua%C3%ADra_Falls"
+        },
+        "es": {
+          "title": "Saltos del Guairá",
+          "url": "https://es.wikipedia.org/wiki/Saltos_del_Guair%C3%A1"
+        }
+      },
+      "image": {
+        "file": "Salto_das_Sete_Quedas.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Salto_das_Sete_Quedas.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "py-la-santisima-trinidad-del-parana",
+      "name": "La Santísima Trinidad del Paraná",
+      "area": "Trinidad",
+      "city": "Trinidad",
+      "wikidata": "Q1366015",
+      "lat": -27.132,
+      "lon": -55.702,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "La Santísima Trinidad de Paraná, or the Most Holy Trinity of Paraná, is the name of a former Jesuit reduction in Paraguay.",
+        "es": "La misión Jesuítica de Santísima Trinidad del Paraná es la reducción guaraní mejor conservada del Paraguay y la más extensa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "La Santísima Trinidad de Paraná",
+          "url": "https://en.wikipedia.org/wiki/La_Sant%C3%ADsima_Trinidad_de_Paran%C3%A1"
+        },
+        "es": {
+          "title": "Misión jesuítica de La Santísima Trinidad de Paraná",
+          "url": "https://es.wikipedia.org/wiki/Misi%C3%B3n_jesu%C3%ADtica_de_La_Sant%C3%ADsima_Trinidad_de_Paran%C3%A1"
+        }
+      },
+      "image": {
+        "file": "Jesuit_Missions_of_La_Santísima_Trinidad_-_panoramio_(4).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jesuit_Missions_of_La_Sant%C3%ADsima_Trinidad_-_panoramio_(4).jpg",
+        "author": "ogwen",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "py-jesus-de-tavarangue",
+      "name": "Jesús de Tavarangüé",
+      "area": "Jesús",
+      "city": "Jesús",
+      "wikidata": "Q318338",
+      "lat": -27.056,
+      "lon": -55.753,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Jesús de Tavarangue was a Jesuit Reduction located in what is now Itapua, Paraguay.",
+        "es": "La misión jesuítica guaraní de Jesús de Tavarangüé es una de las reducciones que aún se conservan, de entre numerosos pueblos fundados por misioneros jesuitas en el marco de su tarea colonizadora en América del Sur…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ruins of Jesús de Tavarangue",
+          "url": "https://en.wikipedia.org/wiki/Ruins_of_Jes%C3%BAs_de_Tavarangue"
+        },
+        "es": {
+          "title": "Misión jesuítica de Jesús de Tavarangüé",
+          "url": "https://es.wikipedia.org/wiki/Misi%C3%B3n_jesu%C3%ADtica_de_Jes%C3%BAs_de_Tavarang%C3%BC%C3%A9"
+        }
+      },
+      "image": {
+        "file": "J37_730_Jesús_de_Tavarangüe,_colegio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:J37_730_Jes%C3%BAs_de_Tavarang%C3%BCe%2C_colegio.jpg",
+        "author": "Falk2",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "py-friendship-bridge",
+      "name": "Friendship Bridge",
+      "area": "Ciudad del Este",
+      "city": "Ciudad del Este",
+      "wikidata": "Q1140475",
+      "lat": -25.509583,
+      "lon": -54.601111,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Friendship Bridge is an arch bridge connecting the Brazilian city of Foz do Iguaçu and the Paraguayan city of Ciudad del Este.",
+        "es": "El Puente Internacional de la Amistad, o simplemente Puente de la Amistad o Ponte da Amizade, fue construido sobre la carretera BR-277 hacia fines de los '50 y principios de los '60 sobre el río Paraná, y comunica a…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Friendship Bridge (Brazil–Paraguay)",
+          "url": "https://en.wikipedia.org/wiki/Friendship_Bridge_(Brazil%E2%80%93Paraguay)"
+        },
+        "es": {
+          "title": "Puente Internacional de la Amistad",
+          "url": "https://es.wikipedia.org/wiki/Puente_Internacional_de_la_Amistad"
+        }
+      },
+      "image": {
+        "file": "The_´Friendship_Bridge´_between_Paraguay_and_Brazil2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_%C2%B4Friendship_Bridge%C2%B4_between_Paraguay_and_Brazil2.jpg",
+        "author": "Liam King",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "py-cerro-tres-kandu",
+      "name": "Cerro Tres Kandú",
+      "area": "General Eugenio A. Garay",
+      "city": "General Eugenio A. Garay",
+      "wikidata": "Q1055965",
+      "lat": -25.901667,
+      "lon": -56.16,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cerro Tres Kandú is the highest point in Paraguay, with an elevation of 842 meters.",
+        "es": "El cerro Tres Kandú es el punto más alto del territorio de la República del Paraguay, con 842 m s."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cerro Tres Kandú",
+          "url": "https://en.wikipedia.org/wiki/Cerro_Tres_Kand%C3%BA"
+        },
+        "es": {
+          "title": "Cerro Tres Kandú",
+          "url": "https://es.wikipedia.org/wiki/Cerro_Tres_Kand%C3%BA"
+        }
+      },
+      "image": {
+        "file": "Cerro_Tres_Kandu_Paraguay.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cerro_Tres_Kandu_Paraguay.jpg",
+        "author": "Felipe Méndez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "py-palacio-de-lopez",
+      "name": "Palacio de López",
+      "area": "Asunción",
+      "city": "Asunción",
+      "wikidata": "Q3298842",
+      "lat": -25.277636,
+      "lon": -57.637569,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Palacio de los López, officially titled Palacio de Gobierno is a neoclassical manor in Asunción, Paraguay, that serves as a workplace for the President of Paraguay, and as the seat of the government of Paraguay.",
+        "es": "El Palacio de López, llamado oficialmente Palacio de Gobierno, es la sede del despacho del presidente de la República del Paraguay y de las secretarías del Poder Ejecutivo, se encuentra ubicada en la capital, Asunción."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palacio de los López",
+          "url": "https://en.wikipedia.org/wiki/Palacio_de_los_L%C3%B3pez"
+        },
+        "es": {
+          "title": "Palacio de López",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_L%C3%B3pez"
+        }
+      },
+      "image": {
+        "file": "Palacio_de_los_López.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palacio_de_los_L%C3%B3pez.jpg",
+        "author": "Fotografía tomada por \"globevisions\" usuario de Flickr.",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "py-ypacarai-lake",
+      "name": "Ypacaraí Lake",
+      "area": "Asunción",
+      "city": "Asunción",
+      "wikidata": "Q2571350",
+      "lat": -25.3,
+      "lon": -57.35,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ypacaraí Lake is a major body of water located in Paraguay, about 50 kilometres east of the capital, Asunción.",
+        "es": "El lago Ypacaraí es un cuerpo de agua situado en la región oriental de Paraguay, entre los departamentos Central y Cordillera."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ypacaraí Lake",
+          "url": "https://en.wikipedia.org/wiki/Ypacara%C3%AD_Lake"
+        },
+        "es": {
+          "title": "Lago Ypacaraí",
+          "url": "https://es.wikipedia.org/wiki/Lago_Ypacara%C3%AD"
+        }
+      },
+      "image": {
+        "file": "Lago1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lago1.jpg",
+        "author": "Steve",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "py-nacunday-national-park",
+      "name": "Nacunday National Park",
+      "area": "Ciudad del Este",
+      "city": "Ciudad del Este",
+      "wikidata": "Q31133",
+      "lat": -26.048611,
+      "lon": -54.670833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ñacunday National Park is a national park, located in the district of Ñacunday, Alto Paraná, in Paraguay, situated between the latitude 26°03’ and longitude 54°42’.",
+        "es": "El Parque Nacional Ñacunday es un parque nacional, ubicado en el Distrito de Ñacunday, Departamento de Alto Paraná, en Paraguay, situado entre los 26º 03’ latitud; 54º 42´ longitud, con una superficie de 2000 hectáreas"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nacunday National Park",
+          "url": "https://en.wikipedia.org/wiki/Nacunday_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Ñacunday",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_%C3%91acunday"
+        }
+      },
+      "image": {
+        "file": "Panoramico_de_Ñacunday.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Panoramico_de_%C3%91acunday.png",
+        "author": "Hugo Diaz Lavigne",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "py-san-roque-gonzalez-de-santa-cruz-bridge",
+      "name": "San Roque González de Santa Cruz Bridge",
+      "area": "Posadas",
+      "city": "Posadas",
+      "wikidata": "Q654084",
+      "lat": -27.373111,
+      "lon": -55.871889,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The San Roque González de Santa Cruz Bridge iis an international cable-stayed road-rail bridge that spans the Paraná River, connecting the cities of Posadas, Argentina, and Encarnación, Paraguay.",
+        "es": "El Puente Internacional San Roque González de Santa Cruz es un puente carretero y ferroviario construido sobre el río Paraná, que comunica la ciudad de Posadas, Provincia de Misiones, Argentina -noreste de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "San Roque González de Santa Cruz Bridge",
+          "url": "https://en.wikipedia.org/wiki/San_Roque_Gonz%C3%A1lez_de_Santa_Cruz_Bridge"
+        },
+        "es": {
+          "title": "Puente Internacional San Roque González de Santa Cruz",
+          "url": "https://es.wikipedia.org/wiki/Puente_Internacional_San_Roque_Gonz%C3%A1lez_de_Santa_Cruz"
+        }
+      },
+      "image": {
+        "file": "Puente-san-roque-gonzales-2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Puente-san-roque-gonzales-2.JPG",
+        "author": "Leandro Kibisz (Loco085 12:42, 5 January 2007 (UTC))",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "py-metropolitan-cathedral-of-our-lady-of-the-assump",
+      "name": "Metropolitan Cathedral of Our Lady of the Assumption, Asunción",
+      "area": "Asunción",
+      "city": "Asunción",
+      "wikidata": "Q23890126",
+      "lat": -25.2816,
+      "lon": -57.6324,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Metropolitan Cathedral of Our Lady of the Assumption It is the main Catholic church in Asunción.",
+        "es": "La Catedral Metropolitana de Asunción es el principal templo católico de Asunción."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Asunción Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n_Cathedral"
+        },
+        "es": {
+          "title": "Catedral metropolitana de Asunción",
+          "url": "https://es.wikipedia.org/wiki/Catedral_metropolitana_de_Asunci%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Catedral_de_Asunción_Paraguay.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_Asunci%C3%B3n_Paraguay.jpg",
+        "author": "FF MM",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "py-national-pantheon-of-the-heroes",
+      "name": "National Pantheon of the Heroes",
+      "area": "Asunción",
+      "city": "Asunción",
+      "wikidata": "Q3500546",
+      "lat": -25.282227,
+      "lon": -57.635179,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The National Pantheon of the Heroes, whose full name National Pantheon of Heroes and Oratory of the Virgin of the Assumption is a building and landmark of Asunción, Paraguay, and a national monument of Paraguay.",
+        "es": "El Oratorio de Nuestra Señora de la Asunción y Panteón Nacional de los Héroes, conocido también como el Panteón Nacional o simplemente Panteón de los Héroes, es un edificio y monumento nacional de Paraguay, que se…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Pantheon of the Heroes",
+          "url": "https://en.wikipedia.org/wiki/National_Pantheon_of_the_Heroes"
+        },
+        "es": {
+          "title": "Panteón Nacional de los Héroes",
+          "url": "https://es.wikipedia.org/wiki/Pante%C3%B3n_Nacional_de_los_H%C3%A9roes"
+        }
+      },
+      "image": {
+        "file": "ASUNCION_PANTEON_NACIONAL_DE_LOS_HÉROES.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ASUNCION_PANTEON_NACIONAL_DE_LOS_H%C3%89ROES.jpg",
+        "author": "Felipe Antonio",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "py-st-lawrence-cathedral-san-lorenzo",
+      "name": "St. Lawrence Cathedral, San Lorenzo",
+      "area": "Asunción",
+      "city": "Asunción",
+      "wikidata": "Q5758574",
+      "lat": -25.341944,
+      "lon": -57.508333,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of St. Lawrence is a cathedral of the Roman Catholic Church in the city of San Lorenzo, Paraguay dating from the early twentieth century, although its completion took circa 50 years.",
+        "es": "La Catedral de San Lorenzo es una catedral católica de estilo neogótico ubicada en la ciudad de San Lorenzo, República del Paraguay que data de principios del siglo XX aunque su conclusión tardó cerca de 50 años."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Lawrence Cathedral, San Lorenzo",
+          "url": "https://en.wikipedia.org/wiki/St._Lawrence_Cathedral%2C_San_Lorenzo"
+        },
+        "es": {
+          "title": "Catedral de San Lorenzo (Paraguay)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Lorenzo_(Paraguay)"
+        }
+      },
+      "image": {
+        "file": "Catedral_de_San_Lorenzo_-_Paraguay.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_San_Lorenzo_-_Paraguay.JPG",
+        "author": "Robslpy",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "py-cathedral-basilica-of-our-lady-of-miracles-caacu",
+      "name": "Cathedral Basilica of Our Lady of Miracles, Caacupé",
+      "area": "Caacupé",
+      "city": "Caacupé",
+      "wikidata": "Q20007903",
+      "lat": -25.386,
+      "lon": -57.141,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral Basilica of Our Lady of Miracles, also Caacupé Cathedral, is the religious building that functions as the Catholic cathedral of the city of Caacupé, Paraguay, and also as the seat of the Roman Catholic…",
+        "es": "La Basílica Menor de Nuestra Señora de los Milagros, o simplemente Basílica de Caacupé, es un edificio religioso que funciona como la catedral católica de la ciudad de Caacupé, ciudad de Paraguay."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral Basilica of Our Lady of Miracles, Caacupé",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_Basilica_of_Our_Lady_of_Miracles%2C_Caacup%C3%A9"
+        },
+        "es": {
+          "title": "Catedral de Nuestra Señora de los Milagros (Caacupé)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Nuestra_Se%C3%B1ora_de_los_Milagros_(Caacup%C3%A9)"
+        }
+      },
+      "image": {
+        "file": "Caacupe.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Caacupe.JPG",
+        "author": "Signals",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "py-saltos-del-monday",
+      "name": "Saltos del Monday",
+      "area": "Ciudad del Este",
+      "city": "Ciudad del Este",
+      "wikidata": "Q880046",
+      "lat": -25.561944,
+      "lon": -54.631389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Municipal Park Monday and its main attraction – approximately 45 m tall and 120 m wide waterfall named Saltos del Monday – are located in the Presidente Franco District, Alto Paraná Department, Paraguay, located…",
+        "es": "Las Cataratas del Monday son un conjunto de cataratas localizadas en el río Monday, distrito de Presidente Franco, departamento de Alto Paraná, Paraguay; a solo unos 10 km de Brasil y Argentina."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saltos del Monday",
+          "url": "https://en.wikipedia.org/wiki/Saltos_del_Monday"
+        },
+        "es": {
+          "title": "Cataratas del Monday",
+          "url": "https://es.wikipedia.org/wiki/Cataratas_del_Monday"
+        }
+      },
+      "image": {
+        "file": "Saltos_del_Monday111.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Saltos_del_Monday111.JPG",
+        "author": "FF MM",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "py-laguna-blanca",
+      "name": "Laguna Blanca",
+      "area": "Asunción",
+      "city": "Asunción",
+      "wikidata": "Q2985933",
+      "website": "https://ecoturlagunablanca.com.py/",
+      "lat": -23.813333,
+      "lon": -56.295,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Laguna Blanca is an ecological and tourist location of Paraguay that comprehends an agricultural and cattle establishment, with a lake that is settled over calcareous sand, fact that makes the water completely…",
+        "es": "Laguna Blanca es un sitio ecológico y turístico del Paraguay, que comprende un establecimiento agrícola-ganadero y turístico, con un lago que tiene la particularidad de estar asentado sobre arena calcárea lo cual…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Laguna Blanca (Paraguay)",
+          "url": "https://en.wikipedia.org/wiki/Laguna_Blanca_(Paraguay)"
+        },
+        "es": {
+          "title": "Laguna Blanca (Paraguay)",
+          "url": "https://es.wikipedia.org/wiki/Laguna_Blanca_(Paraguay)"
+        }
+      },
+      "image": {
+        "file": "Amanecer_en_laguna_blanca_largo.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amanecer_en_laguna_blanca_largo.png",
+        "author": "Hugo Diaz Lavigne",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "py-nu-guasu-park",
+      "name": "Ñu Guasú Park",
+      "area": "Luque",
+      "city": "Luque",
+      "wikidata": "Q3646777",
+      "lat": -26.3356,
+      "lon": -57.5205,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Ñu Guasú Park is an urban park located in Luque, in the Greater Asuncion area, in Paraguay, near the Silvio Pettirossi International Airport.",
+        "es": "The Ñu Guasú Park is an urban park located in Luque, in the Greater Asuncion area, in Paraguay, near the Silvio Pettirossi International Airport."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ñu Guasú Park",
+          "url": "https://en.wikipedia.org/wiki/%C3%91u_Guas%C3%BA_Park"
+        },
+        "es": {
+          "title": "Ñu Guasú Park",
+          "url": "https://en.wikipedia.org/wiki/%C3%91u_Guas%C3%BA_Park"
+        }
+      },
+      "image": {
+        "file": "Ñu_Guasu_006.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%91u_Guasu_006.jpg",
+        "author": "Patty P",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "py-asuncion-paraguay-temple",
+      "name": "Asunción Paraguay Temple",
+      "area": "Asunción",
+      "city": "Asunción",
+      "wikidata": "Q518556",
+      "website": "https://www.churchofjesuschrist.org/temples/details/asuncion-paraguay-temple?lang=eng",
+      "lat": -25.287916,
+      "lon": -57.602869,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Asunción Paraguay Temple is a temple of the Church of Jesus Christ of Latter-day Saints, located in Asunción, Paraguay.",
+        "es": "El Templo de Asunción, Paraguay, es uno de los templos construidos y operados por la Iglesia de Jesucristo de los Santos de los Últimos Días, el número 112 construido por la iglesia y el primero de Paraguay, ubicado…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Asunción Paraguay Temple",
+          "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n_Paraguay_Temple"
+        },
+        "es": {
+          "title": "Templo de Asunción (Paraguay)",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_Asunci%C3%B3n_(Paraguay)"
+        }
+      },
+      "image": {
+        "file": "Asunción_temple_by_Bwood720.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Asunci%C3%B3n_temple_by_Bwood720.jpeg",
+        "author": "Bwood720 at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "py-botanical-garden-and-zoo-of-asuncion",
+      "name": "Botanical Garden and Zoo of Asunción",
+      "area": "Asunción",
+      "city": "Asunción",
+      "wikidata": "Q9010970",
+      "lat": -25.24741,
+      "lon": -57.57076,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Botanical Garden and Zoo of Asunción is a botanical garden and zoo located in Asunción, capital of the Republic of Paraguay.",
+        "es": "El Jardín Botánico y Zoológico de Asunción es un jardín botánico y parque zoológico que se encuentra en Asunción, capital de la República del Paraguay."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Botanical Garden and Zoo of Asunción",
+          "url": "https://en.wikipedia.org/wiki/Botanical_Garden_and_Zoo_of_Asunci%C3%B3n"
+        },
+        "es": {
+          "title": "Jardín Botánico y Zoológico de Asunción",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_y_Zool%C3%B3gico_de_Asunci%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Asuncion_zoo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Asuncion_zoo.jpg",
+        "author": "Iamlatin",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "py-museo-memoria-de-la-ciudad",
+      "name": "Museo Memoria de la Ciudad",
+      "area": "Asunción",
+      "city": "Asunción",
+      "wikidata": "Q9046865",
+      "lat": -25.2782,
+      "lon": -57.6375,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Museum of the Memory of the City is located in the Viola House, one of the nine buildings that make up the architectonic complex Manzana de la Rivera, in front the Government house, in Asunción, capital of Paraguay.",
+        "es": "El Museo Memoria de la Ciudad se encuentra ubicado en la Casa Viola, una de las nueve edificaciones que conforman el complejo arquitectónico Manzana de la Rivera, frente al Palacio de Gobierno, en la ciudad de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museo Memoria de la Ciudad",
+          "url": "https://en.wikipedia.org/wiki/Museo_Memoria_de_la_Ciudad"
+        },
+        "es": {
+          "title": "Museo Memoria de la Ciudad",
+          "url": "https://es.wikipedia.org/wiki/Museo_Memoria_de_la_Ciudad"
+        }
+      },
+      "image": {
+        "file": "Museo_Memoria_de_la_Ciudad_Paraguay.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museo_Memoria_de_la_Ciudad_Paraguay.jpg",
+        "author": "Casalin c",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "py-municipal-theatre-ignacio-a-pane",
+      "name": "Municipal Theatre Ignacio A. Pane",
+      "area": "Asunción",
+      "city": "Asunción",
+      "wikidata": "Q9082167",
+      "lat": -25.281058,
+      "lon": -57.634922,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Municipal Theatre Ignacio A. Pane is a municipal theatre in Asunción, the capital city of Paraguay.",
+        "es": "El Teatro Municipal Ignacio A. Pane es el Teatro más antiguo de Asunción en Paraguay, lleva esa denominación en homenaje a Ignacio Alberto Pane Ignacio A."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Municipal Theatre Ignacio A. Pane",
+          "url": "https://en.wikipedia.org/wiki/Municipal_Theatre_Ignacio_A._Pane"
+        },
+        "es": {
+          "title": "Teatro Municipal Ignacio A. Pane",
+          "url": "https://es.wikipedia.org/wiki/Teatro_Municipal_Ignacio_A._Pane"
+        }
+      },
+      "image": {
+        "file": "Teatro_Municipal_Ignacio_A._Pane.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Teatro_Municipal_Ignacio_A._Pane.jpg",
+        "author": "Patty P",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "py-tancredo-neves-bridge",
+      "name": "Tancredo Neves Bridge",
+      "area": "Ciudad del Este",
+      "city": "Ciudad del Este",
+      "wikidata": "Q2679759",
+      "lat": -25.588933,
+      "lon": -54.56157,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Tancredo Neves Bridge, better known as Fraternity Bridge, is a bridge that connects the Brazilian city of Foz do Iguaçu with the Argentine Puerto Iguazú, spanning the Iguazú River.",
+        "es": "El Puente Internacional Tancredo Neves, también conocido como Puente Internacional de la Fraternidad, es un puente que se encuentra situado sobre el río Iguazú, al comienzo de la ruta brasileña BR 469, uniendo las…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tancredo Neves Bridge",
+          "url": "https://en.wikipedia.org/wiki/Tancredo_Neves_Bridge"
+        },
+        "es": {
+          "title": "Puente Internacional Tancredo Neves",
+          "url": "https://es.wikipedia.org/wiki/Puente_Internacional_Tancredo_Neves"
+        }
+      },
+      "image": {
+        "file": "Puente_Internacional_Tancredo_Neves.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Puente_Internacional_Tancredo_Neves.JPG",
+        "author": "Albasmalko especialmente para Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "py-omar-ibn-al-khatab-mosque",
+      "name": "Omar Ibn Al-Khatab Mosque",
+      "area": "Ciudad del Este",
+      "city": "Ciudad del Este",
+      "wikidata": "Q2198956",
+      "lat": -25.520556,
+      "lon": -54.578611,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Omar Ibn Al-Khatab Mosque is a mosque located at Foz do Iguaçu, Paraná, Brazil.",
+        "es": "The Omar Ibn Al-Khatab Mosque is a mosque located at Foz do Iguaçu, Paraná, Brazil."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mesquita Omar Ibn Al-Khatab",
+          "url": "https://en.wikipedia.org/wiki/Mesquita_Omar_Ibn_Al-Khatab"
+        },
+        "es": {
+          "title": "Mesquita Omar Ibn Al-Khatab",
+          "url": "https://en.wikipedia.org/wiki/Mesquita_Omar_Ibn_Al-Khatab"
+        }
+      },
+      "image": {
+        "file": "MesquitaFozDoIguaçuParanaBrasil.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:MesquitaFozDoIgua%C3%A7uParanaBrasil.JPG",
+        "author": "SamirNosteb",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "py-parque-das-aves",
+      "name": "Parque das Aves",
+      "area": "Ciudad del Este",
+      "city": "Ciudad del Este",
+      "wikidata": "Q1894779",
+      "lat": -25.614,
+      "lon": -54.4826,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Parque das Aves is a sanctuary and shelter for birds situated in Foz do Iguaçu, Paraná State, Brazil, and it is near to Iguaçu Falls.",
+        "es": "El Parque das Aves es un parque temático ubicado en la ciudad de Foz do Iguaçu, en el estado de Paraná, Brasil."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Parque das Aves",
+          "url": "https://en.wikipedia.org/wiki/Parque_das_Aves"
+        },
+        "es": {
+          "title": "Parque das Aves",
+          "url": "https://es.wikipedia.org/wiki/Parque_das_Aves"
+        }
+      },
+      "image": {
+        "file": "Parque_das_Aves,_Foz_do_Iguacu,_Brazil-12Feb2011.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parque_das_Aves%2C_Foz_do_Iguacu%2C_Brazil-12Feb2011.jpg",
+        "author": "Jorge Andrade from Rio de Janeiro, Brazil",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "py-buddhist-temple-of-foz-do-iguacu",
+      "name": "Buddhist Temple of Foz do Iguaçu",
+      "area": "Ciudad del Este",
+      "city": "Ciudad del Este",
+      "wikidata": "Q2356727",
+      "lat": -25.4744,
+      "lon": -54.5992,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Chen Tien Buddhist Temple in Foz do Iguaçu, Brazil, was built in 1996 by Chinese communities in the triple frontier region of Brazil, Paraguay, and Argentina.",
+        "es": "The Chen Tien Buddhist Temple in Foz do Iguaçu, Brazil, was built in 1996 by Chinese communities in the triple frontier region of Brazil, Paraguay, and Argentina."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Buddhist Temple of Foz do Iguaçu",
+          "url": "https://en.wikipedia.org/wiki/Buddhist_Temple_of_Foz_do_Igua%C3%A7u"
+        },
+        "es": {
+          "title": "Buddhist Temple of Foz do Iguaçu",
+          "url": "https://en.wikipedia.org/wiki/Buddhist_Temple_of_Foz_do_Igua%C3%A7u"
+        }
+      },
+      "image": {
+        "file": "Templo_budista_de_foz_do_iguaçu1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Templo_budista_de_foz_do_igua%C3%A7u1.JPG",
+        "author": "Massimiliano W",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "py-mezquita-del-este",
+      "name": "Mezquita del Este",
+      "area": "Ciudad del Este",
+      "city": "Ciudad del Este",
+      "wikidata": "Q135973228",
+      "lat": -25.522333,
+      "lon": -54.610222,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mezquita del Este, is a mosque and Islamic cultural center located in Ciudad del Este, Paraguay.",
+        "es": "The Mezquita del Este, is a mosque and Islamic cultural center located in Ciudad del Este, Paraguay."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mezquita del Este",
+          "url": "https://en.wikipedia.org/wiki/Mezquita_del_Este"
+        },
+        "es": {
+          "title": "Mezquita del Este",
+          "url": "https://en.wikipedia.org/wiki/Mezquita_del_Este"
+        }
+      },
+      "image": {
+        "file": "Mezquita_Alkhaulafa_Al-Rashdeen.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mezquita_Alkhaulafa_Al-Rashdeen.jpg",
+        "author": "Cverascuderi",
+        "license": "CC BY-SA 4.0"
+      }
     }
   ]
 }

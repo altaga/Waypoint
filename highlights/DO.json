@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -137,6 +143,984 @@
       "website": "http://www.museodelaresistencia.com/",
       "lat": 18.47166,
       "lon": -69.88821
+    },
+    {
+      "id": "do-dominican-republic",
+      "name": "Dominican Republic",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "wikidata": "Q786",
+      "website": "https://www.dominicanrepublic.com/",
+      "lat": 18.8,
+      "lon": -70.2,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Dominican Republic is an island country on the eastern part of the Caribbean island of Hispaniola in the Greater Antilles of the Caribbean Sea in the North Atlantic Ocean.",
+        "es": "La República Dominicana es un país de América situado en el Caribe, ubicado en la zona central de las Antillas; ocupa la parte central y oriental de la isla La Española."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dominican Republic",
+          "url": "https://en.wikipedia.org/wiki/Dominican_Republic"
+        },
+        "es": {
+          "title": "República Dominicana",
+          "url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Dominicana"
+        }
+      }
+    },
+    {
+      "id": "do-hispaniola",
+      "name": "Hispaniola",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "wikidata": "Q25277",
+      "lat": 19,
+      "lon": -71,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Hispaniola is an island in the Greater Antilles of the Caribbean, located between Cuba and Puerto Rico.",
+        "es": "La Española o Santo Domingo es una isla de América ubicada en el mar Caribe, que acoge a dos Estados soberanos: Haití y la República Dominicana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hispaniola",
+          "url": "https://en.wikipedia.org/wiki/Hispaniola"
+        },
+        "es": {
+          "title": "La Española",
+          "url": "https://es.wikipedia.org/wiki/La_Espa%C3%B1ola"
+        }
+      },
+      "image": {
+        "file": "ISS-20_Caribbean_island_of_Hispaniola_from_the_ISS.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ISS-20_Caribbean_island_of_Hispaniola_from_the_ISS.jpg",
+        "author": "NASA/Expedition 20 crew",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "do-saona-island",
+      "name": "Saona Island",
+      "area": "La Altagracia Province",
+      "city": "La Altagracia Province",
+      "wikidata": "Q1339113",
+      "lat": 18.155556,
+      "lon": -68.699444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Saona Island is a 110-square-kilometer tropical island located 1.5 miles off the south-east coast in Dominican Republic's La Altagracia province.",
+        "es": "La Isla Saona/ Kaíku Adamaney es una de las más grandes de la República Dominicana que se encuentra ubicada frente a las costas de la provincia La Altagracia pero pertenece a la provincia La Romana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saona Island",
+          "url": "https://en.wikipedia.org/wiki/Saona_Island"
+        },
+        "es": {
+          "title": "Isla Saona",
+          "url": "https://es.wikipedia.org/wiki/Isla_Saona"
+        }
+      },
+      "image": {
+        "file": "Saona-playa.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Saona-playa.JPG",
+        "author": "Mihai mad",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "do-lake-enriquillo",
+      "name": "Lake Enriquillo",
+      "area": "Independencia",
+      "city": "Independencia",
+      "wikidata": "Q1464758",
+      "lat": 18.485556,
+      "lon": -71.615278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Enriquillo is a hypersaline lake in the Dominican Republic located in the southwestern region of the country.",
+        "es": "El lago Enriquillo es la mayor reserva natural de agua de la isla La Española y de todas las Antillas en su conjunto, con una superficie de 375 km² hacia octubre de 2011, aunque su área no es constante."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Enriquillo",
+          "url": "https://en.wikipedia.org/wiki/Lake_Enriquillo"
+        },
+        "es": {
+          "title": "Lago Enriquillo",
+          "url": "https://es.wikipedia.org/wiki/Lago_Enriquillo"
+        }
+      },
+      "image": {
+        "file": "Lago_Enriquillo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lago_Enriquillo.jpg",
+        "author": "Juan Alberto Silver",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "do-pico-duarte",
+      "name": "Pico Duarte",
+      "area": "Santiago Province",
+      "city": "Santiago Province",
+      "wikidata": "Q783742",
+      "lat": 19.033056,
+      "lon": -71.005278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pico Duarte is the highest peak in the Dominican Republic, on the island of Hispaniola and in all the Caribbean.",
+        "es": "El pico Duarte es un pico perteneciente a la Cordillera Central en la República Dominicana, siendo el punto más elevado de La Española y de las Antillas en su conjunto."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pico Duarte",
+          "url": "https://en.wikipedia.org/wiki/Pico_Duarte"
+        },
+        "es": {
+          "title": "Pico Duarte",
+          "url": "https://es.wikipedia.org/wiki/Pico_Duarte"
+        }
+      },
+      "image": {
+        "file": "Pico_Duarte.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pico_Duarte.jpg",
+        "author": "Adrian Michael",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "do-beata-island",
+      "name": "Beata Island",
+      "area": "Pedernales Province",
+      "city": "Pedernales Province",
+      "wikidata": "Q34765",
+      "lat": 17.578333,
+      "lon": -71.511667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Beata Island is a small island in the Caribbean Sea, located 7 km southwest from Cape Beata.",
+        "es": "Isla Beata es una isla en el mar Caribe, ubicada 7 km al suroeste de Cabo Beata, el punto más meridional de la isla La Española."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Beata Island",
+          "url": "https://en.wikipedia.org/wiki/Beata_Island"
+        },
+        "es": {
+          "title": "Isla Beata",
+          "url": "https://es.wikipedia.org/wiki/Isla_Beata"
+        }
+      },
+      "image": {
+        "file": "Isla_Beata.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Isla_Beata.jpg",
+        "author": "Luis Alberto 9919",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "do-etang-saumatre",
+      "name": "Étang Saumâtre",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "wikidata": "Q2722327",
+      "lat": 18.5975,
+      "lon": -72.014722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Étang Saumâtre, is the largest lake in Haiti, and lies along part of the border with the Dominican Republic.",
+        "es": "La Laguna del Fondo pero también conocido como el Lago Azuey, es el segundo mayor cuerpo acuífero de la isla La Española, y el mayor dentro de Haití."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Étang Saumâtre",
+          "url": "https://en.wikipedia.org/wiki/%C3%89tang_Saum%C3%A2tre"
+        },
+        "es": {
+          "title": "Laguna del Fondo",
+          "url": "https://es.wikipedia.org/wiki/Laguna_del_Fondo"
+        }
+      },
+      "image": {
+        "file": "Etang_Saumatre_NASA.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Etang_Saumatre_NASA.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "do-catalina-island",
+      "name": "Catalina Island",
+      "area": "La Romana",
+      "city": "La Romana",
+      "wikidata": "Q477915",
+      "lat": 18.36,
+      "lon": -69.004722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Catalina Island or Isla Catalina is a tropical island in the Caribbean Sea located 2.4 kilometres from the mainland on the south-east corner of the Dominican Republic, near the provinces of La Altagracia and La Romana.",
+        "es": "Isla Catalina, también denominada Isla Ikiita, es una isla que se encuentra en el mar Caribe o Mar de las Antillas a sólo unos kilómetros al sureste de la Isla La Española al sur de la provincia de La Romana que es…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Catalina Island (Dominican Republic)",
+          "url": "https://en.wikipedia.org/wiki/Catalina_Island_(Dominican_Republic)"
+        },
+        "es": {
+          "title": "Isla Catalina (República Dominicana)",
+          "url": "https://es.wikipedia.org/wiki/Isla_Catalina_(Rep%C3%BAblica_Dominicana)"
+        }
+      },
+      "image": {
+        "file": "Dominicana-Isla_Catalina2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dominicana-Isla_Catalina2.jpg",
+        "author": "Original uploader was Niedźwiadek78 (Michał Sulczyński) at pl.wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "do-basilica-catedral-metropolitana-santa-maria-de-l",
+      "name": "Basílica Catedral Metropolitana Santa María de la Encarnación",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "wikidata": "Q4868419",
+      "lat": 18.47303,
+      "lon": -69.88394,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of the Americas, Cathedral of Santo Domingo, Cathedral Basilica of Santa María la Menor or Minor Basilica of Santa María de la Encarnación, officially known as the Minor Cathedral Basilica of Our Lady…",
+        "es": "La Catedral Primada de América, Catedral de Santo Domingo o Basílica Menor de Santa María de la Encarnación, es una catedral y basílica menor dedicada a Santa María de la Encarnación que se encuentra en la Ciudad…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of Santo Domingo",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_Santo_Domingo"
+        },
+        "es": {
+          "title": "Catedral primada de América",
+          "url": "https://es.wikipedia.org/wiki/Catedral_primada_de_Am%C3%A9rica"
+        }
+      },
+      "image": {
+        "file": "Dominikanische_Republik_Santo_Domingo_Basilica_Catedral_Menor_de_Santa_Maria_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dominikanische_Republik_Santo_Domingo_Basilica_Catedral_Menor_de_Santa_Maria_02.jpg",
+        "author": "Georg Karl Ell",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "do-columbus-lighthouse",
+      "name": "Columbus Lighthouse",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "wikidata": "Q2983646",
+      "lat": 18.4786,
+      "lon": -69.868156,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Columbus Lighthouse is a mausoleum monument dedicated to Christopher Columbus, located in Santo Domingo Este, Dominican Republic.",
+        "es": "El Faro a Colón es un monumento y museo dominicano construido en honor a Cristóbal Colón, descubridor del Nuevo Mundo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Columbus Lighthouse",
+          "url": "https://en.wikipedia.org/wiki/Columbus_Lighthouse"
+        },
+        "es": {
+          "title": "Faro a Colón",
+          "url": "https://es.wikipedia.org/wiki/Faro_a_Col%C3%B3n"
+        }
+      }
+    },
+    {
+      "id": "do-los-haitises-national-park",
+      "name": "Los Haitises National Park",
+      "area": "Hato Mayor Province",
+      "city": "Hato Mayor Province",
+      "wikidata": "Q42090",
+      "lat": 19.043944,
+      "lon": -69.592897,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Los Haitises National Park is a national park located on the remote northeast coast of the Dominican Republic that was established in 1976.",
+        "es": "El parque nacional Los Haitises es un parque nacional en República Dominicana creado mediante la Ley 402 del 3 de junio de 1976, aunque ya en 1968 la Ley 244 había creado una Reserva Forestal llamada Zona Vedada de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Los Haitises National Park",
+          "url": "https://en.wikipedia.org/wiki/Los_Haitises_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Los Haitises",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Los_Haitises"
+        }
+      },
+      "image": {
+        "file": "Los_Haitises_Park.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Los_Haitises_Park.jpeg",
+        "author": "Anton Bielousov",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "do-basilica-catedral-nuestra-senora-de-la-altagraci",
+      "name": "Basílica Catedral Nuestra Señora de la Altagracia",
+      "area": "Higüey",
+      "city": "Higüey",
+      "wikidata": "Q4868422",
+      "lat": 18.616111,
+      "lon": -68.716944,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica-Cathedral of Our Lady of Altagracia is a Roman Catholic minor basilica and cathedral in the Dominican Republic dedicated to Our Lady of Altagracia, patroness of the nation.",
+        "es": "La basílica de Higüey, cuyo nombre oficial es basílica catedral de Nuestra Señora de la Altagracia, es un santuario católico de Salvaleón de Higüey, República Dominicana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica-Cathedral of Our Lady of Altagracia",
+          "url": "https://en.wikipedia.org/wiki/Basilica-Cathedral_of_Our_Lady_of_Altagracia"
+        },
+        "es": {
+          "title": "Catedral basílica de Nuestra Señora de la Altagracia (Higüey)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_la_Altagracia_(Hig%C3%BCey)"
+        }
+      },
+      "image": {
+        "file": "BasílicaHigüey.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlicaHig%C3%BCey.jpg",
+        "author": "Celiovmota",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "do-jaragua-national-park",
+      "name": "Jaragua National Park",
+      "area": "Pedernales Province",
+      "city": "Pedernales Province",
+      "wikidata": "Q9055961",
+      "lat": 17.789228,
+      "lon": -71.499023,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Jaragua National Park is a Dominican national park located in Pedernales Province, in the extreme southwest of the Dominican Republic.",
+        "es": "El Parque Nacional Jaragua está localizado en la región suroeste de la República Dominicana y enclavado en el procurrente de Barahona."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jaragua National Park",
+          "url": "https://en.wikipedia.org/wiki/Jaragua_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Jaragua",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Jaragua"
+        }
+      },
+      "image": {
+        "file": "CaribFlamingosLOviedo2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CaribFlamingosLOviedo2.jpg",
+        "author": "Tim Ross",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "do-alto-velo-island",
+      "name": "Alto Velo Island",
+      "area": "Pedernales Province",
+      "city": "Pedernales Province",
+      "wikidata": "Q1674017",
+      "lat": 17.475556,
+      "lon": -71.641944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Alto Velo Island is a small uninhabited island south of the island of Hispaniola in the Caribbean Sea.",
+        "es": "La isla Alto Velo es una isla del mar Caribe o Mar de las Antillas, perteneciente a la República Dominicana ubicada al suroeste del país, administrativamente incluida en la provincia de Perdernales, y a 7 millas de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Alto Velo Island",
+          "url": "https://en.wikipedia.org/wiki/Alto_Velo_Island"
+        },
+        "es": {
+          "title": "Isla Alto Velo",
+          "url": "https://es.wikipedia.org/wiki/Isla_Alto_Velo"
+        }
+      }
+    },
+    {
+      "id": "do-cotubanama-national-park",
+      "name": "Cotubanamá National Park",
+      "area": "La Altagracia Province",
+      "city": "La Altagracia Province",
+      "wikidata": "Q585251",
+      "lat": 18.2283,
+      "lon": -68.683,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cotubanamá National Park is located on the lower southeastern coast of the Dominican Republic, spanning across the provinces of La Altagracia and La Romana with an area of 791.9 km2 which includes a range of dense…",
+        "es": "El Parque Nacional de Cotubanamá es una reserva natural que está localizada en el extremo sureste de la República Dominicana que ocupa unos 305 km² de la provincia La Altagracia y unos 109 km² de la provincia La Romana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cotubanamá National Park",
+          "url": "https://en.wikipedia.org/wiki/Cotubanam%C3%A1_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional del Este",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_Este"
+        }
+      },
+      "image": {
+        "file": "Isla_Saona_III.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Isla_Saona_III.jpg",
+        "author": "Melodygar",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "do-santo-domingo-dominican-republic-temple",
+      "name": "Santo Domingo Dominican Republic Temple",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "wikidata": "Q3844709",
+      "website": "https://www.churchofjesuschrist.org/temples/details/santo-domingo-dominican-republic-temple?lang=eng",
+      "lat": 18.466567,
+      "lon": -69.917144,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Santo Domingo Dominican Republic Temple is a temple of the Church of Jesus Christ of Latter-day Saints in Santo Domingo, Dominican Republic.",
+        "es": "El Templo de Santo Domingo, República Dominicana, es uno de los templos construidos y operados por la Iglesia de Jesucristo de los Santos de los Últimos Días, el número 99 construido por la iglesia y el único…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Santo Domingo Dominican Republic Temple",
+          "url": "https://en.wikipedia.org/wiki/Santo_Domingo_Dominican_Republic_Temple"
+        },
+        "es": {
+          "title": "Templo de Santo Domingo (República Dominicana)",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_Santo_Domingo_(Rep%C3%BAblica_Dominicana)"
+        }
+      },
+      "image": {
+        "file": "Santo_Domingo_Temple_by_Jairo_Hernández.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Santo_Domingo_Temple_by_Jairo_Hern%C3%A1ndez.jpg",
+        "author": "Jairo Hernández",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "do-cayo-levantado",
+      "name": "Cayo Levantado",
+      "area": "Samaná Province",
+      "city": "Samaná Province",
+      "wikidata": "Q4208698",
+      "lat": 19.166389,
+      "lon": -69.275556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cayo Levantado is an island in Samaná Bay, located in the Samaná Province in the eastern region of Dominican Republic.",
+        "es": "Cayo Levantado, es un islote en la bahía de Samaná, fue declarado Bien de Dominio Público, no susceptible de propiedad privada, por el Tribunal Constitucional mediante la sentencia 194/13."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cayo Levantado",
+          "url": "https://en.wikipedia.org/wiki/Cayo_Levantado"
+        },
+        "es": {
+          "title": "Cayo Levantado",
+          "url": "https://es.wikipedia.org/wiki/Cayo_Levantado"
+        }
+      },
+      "image": {
+        "file": "DomRep_Bacardi_Insel.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DomRep_Bacardi_Insel.jpg",
+        "author": "Jens Jäpel",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "do-monte-cristi-national-park",
+      "name": "Monte Cristi National Park",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "wikidata": "Q6904743",
+      "lat": 19.777042,
+      "lon": -71.702271,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Monte Cristi National Park is a national park on the Caribbean Island of Hispaniola that extends from the borders of Haiti to Punta Rucia in the Dominican Republic and covers an area of 550 km2.",
+        "es": "El Parque nacional Monte Cristi es un espacio protegido de la isla caribeña de La Española que se extiende desde las fronteras de Haití a Punta Rucia en Montecristi, República Dominicana específicamente y tiene una…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Monte Cristi National Park",
+          "url": "https://en.wikipedia.org/wiki/Monte_Cristi_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Monte Cristi",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Monte_Cristi"
+        }
+      },
+      "image": {
+        "file": "Unnamed_Road,_Dominican_Republic_-_panoramio_(9).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Unnamed_Road%2C_Dominican_Republic_-_panoramio_(9).jpg",
+        "author": "Joel Diplan",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "do-dominican-national-pantheon",
+      "name": "Dominican National Pantheon",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "wikidata": "Q6974727",
+      "lat": 18.475131,
+      "lon": -69.883158,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The National Pantheon was built from 1714 to 1746 by the Spaniard Geronimo Quezada y Garçon and was originally a Jesuit church.",
+        "es": "El Panteón de la Patria, es un mausoleo de la República Dominicana donde se conservan los restos de personajes destacados de su historia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Pantheon of the Dominican Republic",
+          "url": "https://en.wikipedia.org/wiki/National_Pantheon_of_the_Dominican_Republic"
+        },
+        "es": {
+          "title": "Panteón de la Patria",
+          "url": "https://es.wikipedia.org/wiki/Pante%C3%B3n_de_la_Patria"
+        }
+      },
+      "image": {
+        "file": "DOM_Santo_Domingo,_Ciudad_Colonial,_Pantéon_de_la_Patria_0008.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DOM_Santo_Domingo%2C_Ciudad_Colonial%2C_Pant%C3%A9on_de_la_Patria_0008.jpg",
+        "author": "-wuppertaler",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "do-monasterio-de-san-francisco",
+      "name": "Monasterio de San Francisco",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "wikidata": "Q6898286",
+      "lat": 18.47694,
+      "lon": -69.88567,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Monasterio de San Francisco in Santo Domingo de Guzmán, Dominican Republic, is a monastery that was built between 1508–1560, with the arrival of the Franciscan fathers.",
+        "es": "El Monasterio de San Francisco de la ciudad de Santo Domingo es una de las ruinas más importantes de la República Dominicana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Monastery of San Francisco, Santo Domingo",
+          "url": "https://en.wikipedia.org/wiki/Monastery_of_San_Francisco%2C_Santo_Domingo"
+        },
+        "es": {
+          "title": "Monasterio de San Francisco (Santo Domingo)",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_de_San_Francisco_(Santo_Domingo)"
+        }
+      },
+      "image": {
+        "file": "CCSD_RD_12_2017_7541.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CCSD_RD_12_2017_7541.jpg",
+        "author": "Mariordo (Mario Roberto Durán Ortiz)",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "do-altar-of-the-homeland",
+      "name": "Altar of the Homeland",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "wikidata": "Q2218981",
+      "lat": 18.4712,
+      "lon": -69.8924,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Altar de la Patria, or Altar of the Homeland, is a white marble mausoleum in Santo Domingo, Dominican Republic that houses the remains of the founding fathers of the Dominican Republic: Juan Pablo Duarte, Francisco…",
+        "es": "Altar de la Patria, or Altar of the Homeland, is a white marble mausoleum in Santo Domingo, Dominican Republic that houses the remains of the founding fathers of the Dominican Republic: Juan Pablo Duarte, Francisco…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Altar de la Patria",
+          "url": "https://en.wikipedia.org/wiki/Altar_de_la_Patria"
+        },
+        "es": {
+          "title": "Altar de la Patria",
+          "url": "https://en.wikipedia.org/wiki/Altar_de_la_Patria"
+        }
+      },
+      "image": {
+        "file": "Altar_de_la_Patria_CCSD_09_2018_1606.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Altar_de_la_Patria_CCSD_09_2018_1606.jpg",
+        "author": "Mariordo (Mario Roberto Durán Ortiz)",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "do-los-tres-ojos-national-park",
+      "name": "Los Tres Ojos National Park",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "wikidata": "Q6683320",
+      "lat": 18.481386,
+      "lon": -69.843579,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Three Eyes National Park is a 50-yard open-air limestone cave located in Mirador del Este park, within the Santo Domingo Este municipality of the Dominican Republic.",
+        "es": "Los Tres Ojos es una cueva de piedra caliza al aire libre de 50 yardas de largo ubicada en el parque Mirador del Este, en el municipio de Santo Domingo Este, República Dominicana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Los Tres Ojos National Park",
+          "url": "https://en.wikipedia.org/wiki/Los_Tres_Ojos_National_Park"
+        },
+        "es": {
+          "title": "Los Tres Ojos",
+          "url": "https://es.wikipedia.org/wiki/Los_Tres_Ojos"
+        }
+      },
+      "image": {
+        "file": "LosTresOjos.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:LosTresOjos.JPG",
+        "author": "Swatigsood",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "do-parque-colon",
+      "name": "Parque Colon",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "wikidata": "Q7139633",
+      "lat": 18.47343,
+      "lon": -69.88422,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Parque Colón is the central square of the Ciudad Colonial historic district of Santo Domingo, Dominican Republic.",
+        "es": "El Parque Colón es uno de los parques o plazas históricas de la Ciudad Colonial de Santo Domingo, el cual sirvió como centro principal de fiesta en la sociedad de la época colonial."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Parque Colón",
+          "url": "https://en.wikipedia.org/wiki/Parque_Col%C3%B3n"
+        },
+        "es": {
+          "title": "Parque Colón (Santo Domingo)",
+          "url": "https://es.wikipedia.org/wiki/Parque_Col%C3%B3n_(Santo_Domingo)"
+        }
+      },
+      "image": {
+        "file": "Parque_Colon.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parque_Colon.JPG",
+        "author": "Siso84",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "do-al-noor-mosque",
+      "name": "Al-Noor Mosque",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "wikidata": "Q108570156",
+      "lat": 18.475722,
+      "lon": -69.90375,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Al-Noor Mosque is a mosque in Santo Domingo, National District, in the Dominican Republic.",
+        "es": "The Al-Noor Mosque is a mosque in Santo Domingo, National District, in the Dominican Republic."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Al-Noor Mosque (Santo Domingo)",
+          "url": "https://en.wikipedia.org/wiki/Al-Noor_Mosque_(Santo_Domingo)"
+        },
+        "es": {
+          "title": "Al-Noor Mosque (Santo Domingo)",
+          "url": "https://en.wikipedia.org/wiki/Al-Noor_Mosque_(Santo_Domingo)"
+        }
+      }
+    },
+    {
+      "id": "do-dr-rafael-ma-moscoso-national-botanical-garden",
+      "name": "Dr. Rafael Ma. Moscoso National Botanical Garden",
+      "area": "Santo Domingo",
+      "city": "Santo Domingo",
+      "wikidata": "Q5304337",
+      "lat": 18.4906,
+      "lon": -69.9586,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Dr. Rafael Ma. Moscoso National Botanical Garden is a botanical garden in the heart of Santo Domingo.",
+        "es": "El Jardín Botánico Nacional Dr. Rafael María Moscoso, popularmente conocido como Jardín Botánico o simplemente \"El Botánico\", es un jardín botánico, arboreto y área de vegetación natural silvestre preservada, que se…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dr. Rafael Ma. Moscoso National Botanical Garden",
+          "url": "https://en.wikipedia.org/wiki/Dr._Rafael_Ma._Moscoso_National_Botanical_Garden"
+        },
+        "es": {
+          "title": "Jardín botánico de Santo Domingo",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_bot%C3%A1nico_de_Santo_Domingo"
+        }
+      },
+      "image": {
+        "file": "Coccothrinax_argentea.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Coccothrinax_argentea.jpg",
+        "author": "Scott Zona",
+        "license": "CC BY 2.0"
+      }
     }
   ]
 }

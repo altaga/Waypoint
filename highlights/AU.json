@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -431,6 +437,3333 @@
         "text": "Mo-Su 10:00-17:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "au-mount-kosciuszko",
+      "name": "Mount Kosciuszko",
+      "area": "New South Wales",
+      "city": "New South Wales",
+      "wikidata": "Q178167",
+      "lat": -36.45583,
+      "lon": 148.263511,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Kościuszko is the highest mountain of mainland Australia, at 2,228 metres above sea level.",
+        "es": "El monte Kosciuszko, en la Gran Cordillera Divisoria y emplazado en el parque nacional Kosciuszko, es la montaña más alta de la Australia continental."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Kosciuszko",
+          "url": "https://en.wikipedia.org/wiki/Mount_Kosciuszko"
+        },
+        "es": {
+          "title": "Monte Kosciuszko",
+          "url": "https://es.wikipedia.org/wiki/Monte_Kosciuszko"
+        }
+      },
+      "image": {
+        "file": "Kosciuszko_Townsend.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kosciuszko_Townsend.jpg",
+        "author": "John Wormell",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "au-sydney-harbour-bridge",
+      "name": "Sydney Harbour Bridge",
+      "area": "Sydney",
+      "city": "Sydney",
+      "wikidata": "Q54495",
+      "lat": -33.852232,
+      "lon": 151.210684,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sydney Harbour Bridge is a steel through arch bridge in Sydney, New South Wales, Australia, spanning Sydney Harbour from the central business district to the North Shore.",
+        "es": "El puente de la bahía de Sídney es un arco de tablero pasante metálico, localizado en Sídney, Nueva Gales del Sur."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sydney Harbour Bridge",
+          "url": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge"
+        },
+        "es": {
+          "title": "Puente de la bahía de Sídney",
+          "url": "https://es.wikipedia.org/wiki/Puente_de_la_bah%C3%ADa_de_S%C3%ADdney"
+        }
+      },
+      "image": {
+        "file": "SydneyHarbourBridge1_gobeirne.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:SydneyHarbourBridge1_gobeirne.jpg",
+        "author": "Photograph by Greg O'Beirne",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "au-k-gari",
+      "name": "K'gari",
+      "area": "Queensland",
+      "city": "Queensland",
+      "wikidata": "Q134905",
+      "lat": -25.24,
+      "lon": 153.15,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "K'gari, also known by its former name Fraser Island, is a World Heritage-listed sand island along the south-eastern coast in the Wide Bay–Burnett region of Queensland, Australia.",
+        "es": "La isla Fraser, desde 2023 oficialmente K'Gari en el idioma gabi, es la isla de arena más grande del mundo con 1630 km²."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "K'gari",
+          "url": "https://en.wikipedia.org/wiki/K'gari"
+        },
+        "es": {
+          "title": "Isla Fraser",
+          "url": "https://es.wikipedia.org/wiki/Isla_Fraser"
+        }
+      },
+      "image": {
+        "file": "Fraser_Island_view_from_Indian_Head.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fraser_Island_view_from_Indian_Head.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-kangaroo-island",
+      "name": "Kangaroo Island",
+      "area": "South Australia",
+      "city": "South Australia",
+      "wikidata": "Q210371",
+      "lat": -35.8,
+      "lon": 137.3,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kangaroo Island, known colloquially as KI, is Australia's third-largest island, after Tasmania and Melville Island.",
+        "es": "La isla Canguro es la tercera isla más grande de Australia, después de la isla de Tasmania y de la isla Melville."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kangaroo Island",
+          "url": "https://en.wikipedia.org/wiki/Kangaroo_Island"
+        },
+        "es": {
+          "title": "Isla Canguro",
+          "url": "https://es.wikipedia.org/wiki/Isla_Canguro"
+        }
+      },
+      "image": {
+        "file": "Kangaroo_Island_kangaroos.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kangaroo_Island_kangaroos.jpg",
+        "author": "Paul Asman and Jill Lenoble",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "au-melbourne-cricket-ground",
+      "name": "Melbourne Cricket Ground",
+      "area": "Melbourne",
+      "city": "Melbourne",
+      "wikidata": "Q330136",
+      "website": "https://www.mcg.org.au/",
+      "lat": -37.819943,
+      "lon": 144.983447,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Melbourne Cricket Ground, also known locally as the 'G, is a multi-purpose stadium located in Yarra Park in the suburb of East Melbourne, Victoria, Australia.",
+        "es": "El Melbourne Cricket Ground es un estadio multiusos en el que principalmente se practica críquet, fútbol, fútbol australiano y rugby; ubicado en el distrito suburbano de Yarra Park de la ciudad de Melbourne, capital…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Melbourne Cricket Ground",
+          "url": "https://en.wikipedia.org/wiki/Melbourne_Cricket_Ground"
+        },
+        "es": {
+          "title": "Melbourne Cricket Ground",
+          "url": "https://es.wikipedia.org/wiki/Melbourne_Cricket_Ground"
+        }
+      },
+      "image": {
+        "file": "2017_AFL_Grand_Final_panorama_during_national_anthem.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2017_AFL_Grand_Final_panorama_during_national_anthem.jpg",
+        "author": "Flickerd",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "au-royal-exhibition-building",
+      "name": "Royal Exhibition Building",
+      "area": "Melbourne",
+      "city": "Melbourne",
+      "wikidata": "Q695935",
+      "website": "https://museumsvictoria.com.au/reb/",
+      "lat": -37.804722,
+      "lon": 144.971389,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Royal Exhibition Building is a UNESCO World Heritage-listed building in Melbourne, Victoria, Australia, built in 1879–1880 as part of the international exhibition movement, which presented over 50 exhibitions…",
+        "es": "El Palacio Real de Exposiciones, está localizado en la ciudad de Melbourne, estado de Victoria, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Royal Exhibition Building",
+          "url": "https://en.wikipedia.org/wiki/Royal_Exhibition_Building"
+        },
+        "es": {
+          "title": "Palacio Real de Exposiciones",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Real_de_Exposiciones"
+        }
+      },
+      "image": {
+        "file": "Royal_exhibition_building_tulips_straight.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Royal_exhibition_building_tulips_straight.jpg",
+        "author": "Photograph taken by Diliff and straightened by Ian Fieggen",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "au-q1-tower",
+      "name": "Q1 Tower",
+      "area": "Gold Coast",
+      "city": "Gold Coast",
+      "wikidata": "Q125846",
+      "lat": -28.006111,
+      "lon": 153.429444,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Q1 Tower is a 322.5-metre supertall skyscraper on the Gold Coast, Queensland, Australia.",
+        "es": "Q1 Tower es un rascacielos de 322,5 metros y 78 plantas situado en Surfers Paradise, Gold Coast, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Q1 (building)",
+          "url": "https://en.wikipedia.org/wiki/Q1_(building)"
+        },
+        "es": {
+          "title": "Q1 Tower",
+          "url": "https://es.wikipedia.org/wiki/Q1_Tower"
+        }
+      },
+      "image": {
+        "file": "Q1_Tower,_Gold_Coast,_Queensland.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Q1_Tower%2C_Gold_Coast%2C_Queensland.jpg",
+        "author": "Jordan Gellie jordan_gellie",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "au-king-island",
+      "name": "King Island",
+      "area": "Tasmania",
+      "city": "Tasmania",
+      "wikidata": "Q794502",
+      "lat": -39.8725,
+      "lon": 143.985556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "King Island is an island in Bass Strait, belonging to the Australian state of Tasmania.",
+        "es": "La isla King es una de las islas que conforman el estado de Tasmania, en Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "King Island (Tasmania)",
+          "url": "https://en.wikipedia.org/wiki/King_Island_(Tasmania)"
+        },
+        "es": {
+          "title": "Isla King (Australia)",
+          "url": "https://es.wikipedia.org/wiki/Isla_King_(Australia)"
+        }
+      },
+      "image": {
+        "file": "King_island_tasm.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:King_island_tasm.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-carlton-gardens",
+      "name": "Carlton Gardens",
+      "area": "Melbourne",
+      "city": "Melbourne",
+      "wikidata": "Q829338",
+      "lat": -37.8061,
+      "lon": 144.97,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Carlton Gardens is a UNESCO World Heritage Site located on the northeastern edge of the Central Business District in the suburb of Carlton, Melbourne, in the state of Victoria, Australia.",
+        "es": "The Carlton Gardens is a UNESCO World Heritage Site located on the northeastern edge of the Central Business District in the suburb of Carlton, Melbourne, in the state of Victoria, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Carlton Gardens",
+          "url": "https://en.wikipedia.org/wiki/Carlton_Gardens"
+        },
+        "es": {
+          "title": "Carlton Gardens",
+          "url": "https://en.wikipedia.org/wiki/Carlton_Gardens"
+        }
+      }
+    },
+    {
+      "id": "au-rottnest-island",
+      "name": "Rottnest Island",
+      "area": "Perth",
+      "city": "Perth",
+      "wikidata": "Q585317",
+      "website": "https://rottnestisland.com/",
+      "lat": -32.005,
+      "lon": 115.515,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Rottnest Island, nicknamed Rotto, is a 19-square-kilometre island off the coast of Western Australia, 18 kilometres west of Fremantle.",
+        "es": "Rottnest Island, nicknamed Rotto, is a 19-square-kilometre island off the coast of Western Australia, 18 kilometres west of Fremantle."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rottnest Island",
+          "url": "https://en.wikipedia.org/wiki/Rottnest_Island"
+        },
+        "es": {
+          "title": "Rottnest Island",
+          "url": "https://en.wikipedia.org/wiki/Rottnest_Island"
+        }
+      },
+      "image": {
+        "file": "Rottnest_Basin_and_Lighthouse_SMC_2005.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rottnest_Basin_and_Lighthouse_SMC_2005.jpg",
+        "author": "SeanMack",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "au-great-ocean-road",
+      "name": "Great Ocean Road",
+      "area": "Victoria",
+      "city": "Victoria",
+      "wikidata": "Q74046",
+      "website": "https://www.visitgreatoceanroad.org.au",
+      "lat": -38.733889,
+      "lon": 143.687222,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Great Ocean Road is an Australian National Heritage-listed 240-kilometre stretch of road along the south-eastern coast of Australia, between the Victorian towns of Torquay and Allansford.",
+        "es": "The Great Ocean Road is an Australian National Heritage-listed 240-kilometre stretch of road along the south-eastern coast of Australia, between the Victorian towns of Torquay and Allansford."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Great Ocean Road",
+          "url": "https://en.wikipedia.org/wiki/Great_Ocean_Road"
+        },
+        "es": {
+          "title": "Great Ocean Road",
+          "url": "https://en.wikipedia.org/wiki/Great_Ocean_Road"
+        }
+      },
+      "image": {
+        "file": "Great_ocean_road.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Great_ocean_road.jpg",
+        "author": "User:Summi",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-royal-national-park",
+      "name": "Royal National Park",
+      "area": "Sydney",
+      "city": "Sydney",
+      "wikidata": "Q113523",
+      "lat": -34.131667,
+      "lon": 151.051111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Royal National Park is a protected national park in the Sutherland Shire local government area in Southern Sydney and in the City of Wollongong local government area in the Illawarra region of New South Wales,…",
+        "es": "El Parque nacional Real, de nombre original en inglés Royal National Park es un parque nacional situado en Australia, concretamente en las cercanías de la metropole Sídney, en Nueva Gales del Sur."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Royal National Park",
+          "url": "https://en.wikipedia.org/wiki/Royal_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Real",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Real"
+        }
+      },
+      "image": {
+        "file": "WattamollaLiss.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:WattamollaLiss.jpg",
+        "author": "No machine-readable author provided. Kdliss assumed (based on copyright claims).",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-sydney-tower",
+      "name": "Sydney Tower",
+      "area": "Sydney",
+      "city": "Sydney",
+      "wikidata": "Q827268",
+      "website": "https://www.sydneytowereye.com.au/",
+      "lat": -33.870278,
+      "lon": 151.208889,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Sydney Tower, also known as the Sydney Tower Eye, Westfield Tower and formerly albeit still commonly as Centrepoint Tower, is an observation and telecommunications tower that is the tallest structure in Sydney, New…",
+        "es": "La Sydney Tower, también conocida como AMP Tower es la tercera torre más alta del hemisferio sur con 309 metros de altura, después de la Queensland Number One de Australia y la Sky Tower de Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sydney Tower",
+          "url": "https://en.wikipedia.org/wiki/Sydney_Tower"
+        },
+        "es": {
+          "title": "Sydney Tower",
+          "url": "https://es.wikipedia.org/wiki/Sydney_Tower"
+        }
+      },
+      "image": {
+        "file": "SydneyAMPTower_gobeirne.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:SydneyAMPTower_gobeirne.jpg",
+        "author": "Photograph by Greg O'Beirne",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "au-kosciuszko-national-park",
+      "name": "Kosciuszko National Park",
+      "area": "New South Wales",
+      "city": "New South Wales",
+      "wikidata": "Q1755161",
+      "lat": -35.998333,
+      "lon": 148.334444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Kosciuszko National Park is a 6,900-square-kilometre national park and contains mainland Australia's highest peak, Mount Kosciuszko, for which it is named, and Cabramurra, the highest town in Australia.",
+        "es": "El Parque nacional Kosciuszko es un parque nacional en Nueva Gales del Sur, ubicado a 354 km al suroeste de Sídney."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kosciuszko National Park",
+          "url": "https://en.wikipedia.org/wiki/Kosciuszko_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Kosciuszko",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Kosciuszko"
+        }
+      },
+      "image": {
+        "file": "Mount_Kosciuszko_with_snow.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Kosciuszko_with_snow.jpg",
+        "author": "Martinjohnbudden",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "au-greater-blue-mountains-area",
+      "name": "Greater Blue Mountains Area",
+      "area": "New South Wales",
+      "city": "New South Wales",
+      "wikidata": "Q934627",
+      "lat": -33.7,
+      "lon": 150,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Greater Blue Mountains Area is a World Heritage Site located in the Blue Mountains of New South Wales, Australia.",
+        "es": "La Región de las Montañas Azules o de la Sierra Azul o Área de las Grandes Montañas Azules es un bien natural declarado Patrimonio de la Humanidad en las Montañas Azules de Nueva Gales del Sur, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Greater Blue Mountains Area",
+          "url": "https://en.wikipedia.org/wiki/Greater_Blue_Mountains_Area"
+        },
+        "es": {
+          "title": "Región de las Montañas Azules",
+          "url": "https://es.wikipedia.org/wiki/Regi%C3%B3n_de_las_Monta%C3%B1as_Azules"
+        }
+      },
+      "image": {
+        "file": "Jamison_Valley,_Blue_Mountains,_Australia_-_Nov_2008.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jamison_Valley%2C_Blue_Mountains%2C_Australia_-_Nov_2008.jpg",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-lake-burley-griffin",
+      "name": "Lake Burley Griffin",
+      "area": "Canberra",
+      "city": "Canberra",
+      "wikidata": "Q1642390",
+      "lat": -35.293333,
+      "lon": 149.113889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Burley Griffin is an artificial lake in the centre of Canberra, the capital of Australia.",
+        "es": "El lago Burley Griffin es un gran lago en el centro de Canberra, la capital federal de Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Burley Griffin",
+          "url": "https://en.wikipedia.org/wiki/Lake_Burley_Griffin"
+        },
+        "es": {
+          "title": "Lago Burley Griffin",
+          "url": "https://es.wikipedia.org/wiki/Lago_Burley_Griffin"
+        }
+      },
+      "image": {
+        "file": "Lake_Burley_Griffin_From_Black_Mountain_Tower_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Burley_Griffin_From_Black_Mountain_Tower_(cropped).jpg",
+        "author": "JJ Harrison (jjharrison89@facebook.com)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-phillip-island",
+      "name": "Phillip Island",
+      "area": "Bass Coast Shire",
+      "city": "Bass Coast Shire",
+      "wikidata": "Q785760",
+      "lat": -38.490771,
+      "lon": 145.240865,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Phillip Island is an Australian island about 125 km south-southeast of Melbourne, Victoria.",
+        "es": "La isla Phillip es una isla australiana situada a 140 km de Melbourne."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Phillip Island",
+          "url": "https://en.wikipedia.org/wiki/Phillip_Island"
+        },
+        "es": {
+          "title": "Isla Phillip",
+          "url": "https://es.wikipedia.org/wiki/Isla_Phillip"
+        }
+      },
+      "image": {
+        "file": "Nobbies_zz.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nobbies_zz.JPG",
+        "author": "Chensiyuan",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "au-blue-mountains-national-park",
+      "name": "Blue Mountains National Park",
+      "area": "New South Wales",
+      "city": "New South Wales",
+      "wikidata": "Q885558",
+      "lat": -33.615,
+      "lon": 150.417778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Blue Mountains National Park is a protected national park in the Blue Mountains region of New South Wales, in eastern Australia.",
+        "es": "El parque nacional Montañas Azules es un parque nacional en Nueva Gales del Sur, ubicado a 81 km al oeste de Sídney, en la región de las Montañas Azules de la Gran Cordillera Divisoria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Blue Mountains National Park",
+          "url": "https://en.wikipedia.org/wiki/Blue_Mountains_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Montañas Azules",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Monta%C3%B1as_Azules"
+        }
+      },
+      "image": {
+        "file": "Rainforest,bluemountainsNSW.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rainforest%2CbluemountainsNSW.jpg",
+        "author": "Adam.J.W.C.",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-museum-of-contemporary-art-australia",
+      "name": "Museum of Contemporary Art Australia",
+      "area": "Sydney",
+      "city": "Sydney",
+      "wikidata": "Q690242",
+      "lat": -33.86,
+      "lon": 151.208889,
+      "phone": "+61 2 9245 2400",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Museum of Contemporary Art Australia, formerly the Museum of Contemporary Art, Sydney, is located on George Street in The Rocks neighbourhood of Sydney.",
+        "es": "The Museum of Contemporary Art Australia, formerly the Museum of Contemporary Art, Sydney, is located on George Street in The Rocks neighbourhood of Sydney."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museum of Contemporary Art Australia",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Contemporary_Art_Australia"
+        },
+        "es": {
+          "title": "Museum of Contemporary Art Australia",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Contemporary_Art_Australia"
+        }
+      },
+      "image": {
+        "file": "SydneyMuseumContemporaryArt_gobeirne.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:SydneyMuseumContemporaryArt_gobeirne.jpg",
+        "author": "Photograph by Greg O'Beirne",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "au-cockatoo-island",
+      "name": "Cockatoo Island",
+      "area": "Sydney",
+      "city": "Sydney",
+      "wikidata": "Q1105244",
+      "lat": -33.8475,
+      "lon": 151.1725,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cockatoo Island Wareamah is a UNESCO World Heritage Site at the confluence of the Parramatta River and Lane Cove River in Sydney Harbour, New South Wales, Australia.",
+        "es": "Isla Cockatoo es una isla que se encuentra en Sídney, Nueva Gales del Sur, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cockatoo Island",
+          "url": "https://en.wikipedia.org/wiki/Cockatoo_Island"
+        },
+        "es": {
+          "title": "Isla Cockatoo (Nueva Gales del Sur)",
+          "url": "https://es.wikipedia.org/wiki/Isla_Cockatoo_(Nueva_Gales_del_Sur)"
+        }
+      },
+      "image": {
+        "file": "CockatooIslandPanorama.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CockatooIslandPanorama.jpg",
+        "author": "spud murphy from Sydney, Australia",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "au-royal-botanic-gardens-sydney",
+      "name": "Royal Botanic Gardens, Sydney",
+      "area": "Sydney",
+      "city": "Sydney",
+      "wikidata": "Q54489",
+      "website": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney",
+      "lat": -33.862222,
+      "lon": 151.2175,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Royal Botanic Garden is a heritage-listed major 30-hectare botanical garden in Sydney, New South Wales, Australia, event venue and public recreation area located at Farm Cove on the eastern fringe of the Sydney…",
+        "es": "El Real Jardín Botánico de Sídney, es un jardín botánico de 30 hectáreas de extensión, próximo al centro de Sídney, Nueva Gales del Sur, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Royal Botanic Garden, Sydney",
+          "url": "https://en.wikipedia.org/wiki/Royal_Botanic_Garden%2C_Sydney"
+        },
+        "es": {
+          "title": "Real Jardín Botánico de Sídney",
+          "url": "https://es.wikipedia.org/wiki/Real_Jard%C3%ADn_Bot%C3%A1nico_de_S%C3%ADdney"
+        }
+      },
+      "image": {
+        "file": "Sydney_Opera_house_3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_house_3.jpg",
+        "author": "Pavel from Sydney, AU",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "au-st-mary-s-cathedral",
+      "name": "St Mary’s Cathedral",
+      "area": "Sydney",
+      "city": "Sydney",
+      "wikidata": "Q971514",
+      "lat": -33.871111,
+      "lon": 151.213333,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral Church and Minor Basilica of the Immaculate Mother of God, Help of Christians, Patroness of Australia, locally known as Saint Mary's Cathedral, is a Catholic basilica and the seat of the Archdiocese of…",
+        "es": "La catedral metropolitana de Santa María es la iglesia-catedral de la arquidiócesis de Sídney, sede del arzobispo católico de Sídney, Anthony Colin Fisher."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Mary's Cathedral, Sydney",
+          "url": "https://en.wikipedia.org/wiki/St_Mary's_Cathedral%2C_Sydney"
+        },
+        "es": {
+          "title": "Catedral de Santa María (Sídney)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Santa_Mar%C3%ADa_(S%C3%ADdney)"
+        }
+      },
+      "image": {
+        "file": "St._Marys_Cathedral_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St._Marys_Cathedral_1.jpg",
+        "author": "[https://www.flickr.com/people/8721758@N06 Jorge L�scar] from Bogot�, Colombia",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "au-hyde-park",
+      "name": "Hyde Park",
+      "area": "Sydney",
+      "city": "Sydney",
+      "wikidata": "Q1144894",
+      "lat": -33.873333,
+      "lon": 151.211389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Hyde Park, is an urban park, of 16.2-hectare, located in the central business district of Sydney, New South Wales, Australia.",
+        "es": "Hyde Park, is an urban park, of 16.2-hectare, located in the central business district of Sydney, New South Wales, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hyde Park, Sydney",
+          "url": "https://en.wikipedia.org/wiki/Hyde_Park%2C_Sydney"
+        },
+        "es": {
+          "title": "Hyde Park, Sydney",
+          "url": "https://en.wikipedia.org/wiki/Hyde_Park%2C_Sydney"
+        }
+      },
+      "image": {
+        "file": "Hyde_Park_(16635815165).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hyde_Park_(16635815165).jpg",
+        "author": "Jorge Láscar from Melbourne, Australia",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "au-sydney-town-hall",
+      "name": "Sydney Town Hall",
+      "area": "Sydney",
+      "city": "Sydney",
+      "wikidata": "Q1192985",
+      "lat": -33.8732,
+      "lon": 151.206,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Sydney Town Hall is a late 19th-century heritage-listed town hall building in the city of Sydney, the capital city of New South Wales, Australia, housing the chambers of the Lord Mayor of Sydney, council offices,…",
+        "es": "El Ayuntamiento de Sídney es un monumento de arenisca situado en Sídney, Nueva Gales del Sur, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sydney Town Hall",
+          "url": "https://en.wikipedia.org/wiki/Sydney_Town_Hall"
+        },
+        "es": {
+          "title": "Ayuntamiento de Sídney",
+          "url": "https://es.wikipedia.org/wiki/Ayuntamiento_de_S%C3%ADdney"
+        }
+      },
+      "image": {
+        "file": "SydneyTownHall_gobeirne-1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:SydneyTownHall_gobeirne-1.jpg",
+        "author": "Greg O'Beirne",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "au-st-patrick-s-cathedral",
+      "name": "St Patrick's Cathedral",
+      "area": "Melbourne",
+      "city": "Melbourne",
+      "wikidata": "Q1138670",
+      "website": "https://www.cam1.org.au/cathedral",
+      "lat": -37.8101,
+      "lon": 144.976,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral Basílica of Saint Patrick is a Roman Catholic cathedral in Melbourne, Victoria, Australia.",
+        "es": "La Catedral Basílica de San Patricio es una catedral y basílica menor católica australiana localizada en Melbourne y sede del arzobispo de la arquidiócesis homónima; y es conocida de manera internacional como uno de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Patrick's Cathedral, Melbourne",
+          "url": "https://en.wikipedia.org/wiki/St_Patrick's_Cathedral%2C_Melbourne"
+        },
+        "es": {
+          "title": "Catedral de San Patricio (Melbourne)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Patricio_(Melbourne)"
+        }
+      },
+      "image": {
+        "file": "St_Patrick's_Cathedral_(Gothic_Revival_Style).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St_Patrick's_Cathedral_(Gothic_Revival_Style).jpg",
+        "author": "Donaldytong",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-melbourne-museum",
+      "name": "Melbourne Museum",
+      "area": "Melbourne",
+      "city": "Melbourne",
+      "wikidata": "Q1353869",
+      "website": "https://museumsvictoria.com.au/melbournemuseum/",
+      "lat": -37.803337,
+      "lon": 144.971445,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Melbourne Museum is a natural and cultural history museum located in the Carlton Gardens in Melbourne, Australia.",
+        "es": "The Melbourne Museum is a natural and cultural history museum located in the Carlton Gardens in Melbourne, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Melbourne Museum",
+          "url": "https://en.wikipedia.org/wiki/Melbourne_Museum"
+        },
+        "es": {
+          "title": "Melbourne Museum",
+          "url": "https://en.wikipedia.org/wiki/Melbourne_Museum"
+        }
+      }
+    },
+    {
+      "id": "au-melbourne-zoo",
+      "name": "Melbourne Zoo",
+      "area": "Melbourne",
+      "city": "Melbourne",
+      "wikidata": "Q578027",
+      "website": "https://www.zoo.org.au/melbourne",
+      "lat": -37.784762,
+      "lon": 144.952095,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Melbourne Zoo is a zoo in Melbourne, Australia.",
+        "es": "Melbourne Zoo is a zoo in Melbourne, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Melbourne Zoo",
+          "url": "https://en.wikipedia.org/wiki/Melbourne_Zoo"
+        },
+        "es": {
+          "title": "Melbourne Zoo",
+          "url": "https://en.wikipedia.org/wiki/Melbourne_Zoo"
+        }
+      },
+      "image": {
+        "file": "Melbourne_Zoo_entrance_1a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Melbourne_Zoo_entrance_1a.jpg",
+        "author": "Commander Keane",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-120-collins-street",
+      "name": "120 Collins Street",
+      "area": "Melbourne",
+      "city": "Melbourne",
+      "wikidata": "Q172402",
+      "lat": -37.813833,
+      "lon": 144.9695,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "120 Collins Street is a 265-metre-tall skyscraper on Collins Street, Melbourne central business district, Victoria, Australia.",
+        "es": "120 Collins Street es un rascacielos de 265 metros de altura situado en Melbourne, Victoria, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "120 Collins Street",
+          "url": "https://en.wikipedia.org/wiki/120_Collins_Street"
+        },
+        "es": {
+          "title": "120 Collins Street",
+          "url": "https://es.wikipedia.org/wiki/120_Collins_Street"
+        }
+      },
+      "image": {
+        "file": "120CollinsSt.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:120CollinsSt.jpg",
+        "author": "Canley at English Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-rialto-towers",
+      "name": "Rialto Towers",
+      "area": "Melbourne",
+      "city": "Melbourne",
+      "wikidata": "Q1138772",
+      "lat": -37.818889,
+      "lon": 144.958333,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Rialto Towers is a skyscraper complex at 525 Collins Street, on the western side of the Melbourne central business district, Victoria, Australia.",
+        "es": "Las Rialto Towers es un rascacielos situado en el 525 de Collins Street, en el lado occidental del distrito financiero de Melbourne, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rialto Towers",
+          "url": "https://en.wikipedia.org/wiki/Rialto_Towers"
+        },
+        "es": {
+          "title": "Rialto Towers",
+          "url": "https://es.wikipedia.org/wiki/Rialto_Towers"
+        }
+      },
+      "image": {
+        "file": "Rialto_Towers_1.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rialto_Towers_1.png",
+        "author": "Samekh",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-101-collins-street",
+      "name": "101 Collins Street",
+      "area": "Melbourne",
+      "city": "Melbourne",
+      "wikidata": "Q165506",
+      "lat": -37.815,
+      "lon": 144.970778,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "101 Collins Street is a 260 m skyscraper located in Collins Street, Melbourne central business district, Victoria, Australia.",
+        "es": "101 Collins Street es un rascacielos de 260 metros de altura situado en Melbourne, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "101 Collins Street",
+          "url": "https://en.wikipedia.org/wiki/101_Collins_Street"
+        },
+        "es": {
+          "title": "101 Collins Street",
+          "url": "https://es.wikipedia.org/wiki/101_Collins_Street"
+        }
+      },
+      "image": {
+        "file": "AUS_Melbourne,_Central_Business_District,_Princes_Bridge,_View_002.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:AUS_Melbourne%2C_Central_Business_District%2C_Princes_Bridge%2C_View_002.jpg",
+        "author": "-wuppertaler",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "au-federation-square",
+      "name": "Federation Square",
+      "area": "Melbourne",
+      "city": "Melbourne",
+      "wikidata": "Q923304",
+      "lat": -37.817798,
+      "lon": 144.968714,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Federation Square is a venue for arts, culture and public events on the edge of the Melbourne central business district.",
+        "es": "Federation Square is a venue for arts, culture and public events on the edge of the Melbourne central business district."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Federation Square",
+          "url": "https://en.wikipedia.org/wiki/Federation_Square"
+        },
+        "es": {
+          "title": "Federation Square",
+          "url": "https://en.wikipedia.org/wiki/Federation_Square"
+        }
+      },
+      "image": {
+        "file": "Fed_Square_August_2007.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fed_Square_August_2007.jpg",
+        "author": "AussieNickuss at en.wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-shrine-of-remembrance",
+      "name": "Shrine of Remembrance",
+      "area": "Melbourne",
+      "city": "Melbourne",
+      "wikidata": "Q1369544",
+      "website": "https://www.shrine.org.au/Home",
+      "lat": -37.830556,
+      "lon": 144.973444,
+      "phone": "+61-3-9661-8100",
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Shrine of Remembrance is a war memorial in Melbourne, Victoria, Australia, located in Kings Domain on St Kilda Road.",
+        "es": "El Santuario de la Memoria o Shrine of Remembrance en inglés, es un monumento ubicado en Melbourne, Australia, que fue construido como un monumento a los hombres y mujeres de Victoria que sirvieron en la Primera…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shrine of Remembrance",
+          "url": "https://en.wikipedia.org/wiki/Shrine_of_Remembrance"
+        },
+        "es": {
+          "title": "Shrine of Remembrance",
+          "url": "https://es.wikipedia.org/wiki/Shrine_of_Remembrance"
+        }
+      },
+      "image": {
+        "file": "Shrine_of_Rememberence.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Shrine_of_Rememberence.jpg",
+        "author": "Adam Carr at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-city-botanic-gardens",
+      "name": "City Botanic Gardens",
+      "area": "Brisbane",
+      "city": "Brisbane",
+      "wikidata": "Q917681",
+      "lat": -27.4747,
+      "lon": 153.03,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The City Botanic Gardens is a heritage-listed botanic garden on Alice Street in Brisbane, Queensland, Australia.",
+        "es": "Los Jardines Botánicos de la Ciudad es un jardín botánico declarado patrimonio de la humanidad en Alice Street, Brisbane City, ciudad de Brisbane, Queensland, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Brisbane City Botanic Gardens",
+          "url": "https://en.wikipedia.org/wiki/Brisbane_City_Botanic_Gardens"
+        },
+        "es": {
+          "title": "Jardín Botánico de la Ciudad de Brisbane",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_de_la_Ciudad_de_Brisbane"
+        }
+      },
+      "image": {
+        "file": "City_botanic_gardens_(duck_pond).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:City_botanic_gardens_(duck_pond).jpg",
+        "author": "No machine-readable author provided. Lacrimosus assumed (based on copyright clai",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-lone-pine-koala-sanctuary",
+      "name": "Lone Pine Koala Sanctuary",
+      "area": "Brisbane",
+      "city": "Brisbane",
+      "wikidata": "Q641873",
+      "lat": -27.5329,
+      "lon": 152.969,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Lone Pine Koala Sanctuary is an 18-hectare koala sanctuary in the Brisbane suburb of Fig Tree Pocket in Queensland, Australia.",
+        "es": "Lone Pine Koala Sanctuary es la reserva de koalas más antigua y grande del mundo, ubicada en Brisbane, Queensland, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lone Pine Koala Sanctuary",
+          "url": "https://en.wikipedia.org/wiki/Lone_Pine_Koala_Sanctuary"
+        },
+        "es": {
+          "title": "Lone Pine Koala Sanctuary",
+          "url": "https://es.wikipedia.org/wiki/Lone_Pine_Koala_Sanctuary"
+        }
+      },
+      "image": {
+        "file": "Rainbow_Lorikeet_-feeding_time_-Lone_Pine_Koala_Sanctuary-2005.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rainbow_Lorikeet_-feeding_time_-Lone_Pine_Koala_Sanctuary-2005.JPG",
+        "author": "Figaro at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-gallery-of-modern-art",
+      "name": "Gallery of Modern Art",
+      "area": "Brisbane",
+      "city": "Brisbane",
+      "wikidata": "Q7270943",
+      "website": "https://www.qagoma.qld.gov.au/",
+      "lat": -27.470606,
+      "lon": 153.017235,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Gallery of Modern Art is an art museum located within the Queensland Cultural Centre in the South Bank precinct of Brisbane, Queensland, Australia.",
+        "es": "La Galería de Arte Moderno de Queensland es un museo de arte localizado en el South Bank de Brisbane, Queensland."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gallery of Modern Art, Brisbane",
+          "url": "https://en.wikipedia.org/wiki/Gallery_of_Modern_Art%2C_Brisbane"
+        },
+        "es": {
+          "title": "Galería de Arte Moderno de Queensland",
+          "url": "https://es.wikipedia.org/wiki/Galer%C3%ADa_de_Arte_Moderno_de_Queensland"
+        }
+      },
+      "image": {
+        "file": "Gallery_of_Modern_Art_(GOMA),_Brisbane,_Australia,_June_2009.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gallery_of_Modern_Art_(GOMA)%2C_Brisbane%2C_Australia%2C_June_2009.jpg",
+        "author": "Phillip Capper",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "au-queensland-museum",
+      "name": "Queensland Museum",
+      "area": "Brisbane",
+      "city": "Brisbane",
+      "wikidata": "Q1537684",
+      "website": "https://www.qm.qld.gov.au/",
+      "lat": -27.473173,
+      "lon": 153.017423,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Queensland Museum is the state museum of Queensland, funded by the Queensland Government, of natural history, cultural heritage, science and human achievement.",
+        "es": "The Queensland Museum is the state museum of Queensland, funded by the Queensland Government, of natural history, cultural heritage, science and human achievement."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Queensland Museum",
+          "url": "https://en.wikipedia.org/wiki/Queensland_Museum"
+        },
+        "es": {
+          "title": "Queensland Museum",
+          "url": "https://en.wikipedia.org/wiki/Queensland_Museum"
+        }
+      },
+      "image": {
+        "file": "Queensland_Museum-Sciencentre.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Queensland_Museum-Sciencentre.JPG",
+        "author": "Figaro",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-brisbane-skytower",
+      "name": "Brisbane Skytower",
+      "area": "Brisbane",
+      "city": "Brisbane",
+      "wikidata": "Q4631224",
+      "lat": -27.4717,
+      "lon": 153.029,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Brisbane Skytower is a 274.3-metre skyscraper at 222 Margaret Street in Brisbane, Queensland, Australia.",
+        "es": "El Brisbane Skytower es un rascacielos de 270,5 metros de altura en 222 Margaret Street en Brisbane, Queensland, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Brisbane Skytower",
+          "url": "https://en.wikipedia.org/wiki/Brisbane_Skytower"
+        },
+        "es": {
+          "title": "Brisbane Skytower",
+          "url": "https://es.wikipedia.org/wiki/Brisbane_Skytower"
+        }
+      },
+      "image": {
+        "file": "Skylines_of_Brisbane_from_Kangaroo_Point_Cliffs_Park,_2020,_03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Skylines_of_Brisbane_from_Kangaroo_Point_Cliffs_Park%2C_2020%2C_03.jpg",
+        "author": "Chris Olszewski",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "au-story-bridge",
+      "name": "Story Bridge",
+      "area": "Brisbane",
+      "city": "Brisbane",
+      "wikidata": "Q914048",
+      "lat": -27.463752,
+      "lon": 153.035699,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Story Bridge is a heritage-listed steel cantilever bridge spanning the Brisbane River built to carry vehicular, bicycle and pedestrian traffic between the northern and southern suburbs of Brisbane, Queensland,…",
+        "es": "El Puente Story es un puente en ménsula de acero que cruza el río Brisbane, permitiendo el paso de vehículos de motor, bicicletas y peatones entre los barrios de las zonas norte y sur de Brisbane."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Story Bridge",
+          "url": "https://en.wikipedia.org/wiki/Story_Bridge"
+        },
+        "es": {
+          "title": "Puente Story",
+          "url": "https://es.wikipedia.org/wiki/Puente_Story"
+        }
+      },
+      "image": {
+        "file": "BNE-StoryBridge-fromCityCat.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BNE-StoryBridge-fromCityCat.jpg",
+        "author": "MagpieShooter",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-infinity-tower",
+      "name": "Infinity Tower",
+      "area": "Brisbane",
+      "city": "Brisbane",
+      "wikidata": "Q6030049",
+      "lat": -27.4678,
+      "lon": 153.02,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Infinity Tower is a 262-metre skyscraper by Meriton completed in 2014 at 43 Herschel Street Brisbane, Australia.",
+        "es": "La Infinity Tower es un rascacielos de 249 metros de altura situado en el 43 de Herschel Street, en Brisbane, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Infinity Tower (Brisbane)",
+          "url": "https://en.wikipedia.org/wiki/Infinity_Tower_(Brisbane)"
+        },
+        "es": {
+          "title": "Infinity Tower (Brisbane)",
+          "url": "https://es.wikipedia.org/wiki/Infinity_Tower_(Brisbane)"
+        }
+      },
+      "image": {
+        "file": "Infinity_Tower,_Brisbane_in_11.2013_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Infinity_Tower%2C_Brisbane_in_11.2013_01.jpg",
+        "author": "Chris Olszewski",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-queensland-art-gallery",
+      "name": "Queensland Art Gallery",
+      "area": "Brisbane",
+      "city": "Brisbane",
+      "wikidata": "Q7270900",
+      "website": "https://www.qagoma.qld.gov.au/",
+      "lat": -27.4727,
+      "lon": 153.018,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Queensland Art Gallery is an art museum located in South Bank, Brisbane, Queensland, Australia.",
+        "es": "The Queensland Art Gallery is an art museum located in South Bank, Brisbane, Queensland, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Queensland Art Gallery",
+          "url": "https://en.wikipedia.org/wiki/Queensland_Art_Gallery"
+        },
+        "es": {
+          "title": "Queensland Art Gallery",
+          "url": "https://en.wikipedia.org/wiki/Queensland_Art_Gallery"
+        }
+      },
+      "image": {
+        "file": "Queensland_Art_Gallery_-_Joy_of_Museums_-_External_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Queensland_Art_Gallery_-_Joy_of_Museums_-_External_2.jpg",
+        "author": "GordonMakryllos",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "au-cathedral-of-st-stephen-brisbane",
+      "name": "Cathedral of St Stephen, Brisbane",
+      "area": "Brisbane",
+      "city": "Brisbane",
+      "wikidata": "Q607293",
+      "lat": -27.4687,
+      "lon": 153.029,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of St Stephen is the heritage-listed cathedral church of the Roman Catholic Archdiocese of Brisbane and seat of its archbishop in Brisbane, Queensland, Australia.",
+        "es": "La Catedral de San Esteban es la iglesia catedral considerada patrimonio histórico de la archidiócesis católica de Brisbane y la sede de su arzobispo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of St Stephen, Brisbane",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_St_Stephen%2C_Brisbane"
+        },
+        "es": {
+          "title": "Catedral de San Esteban (Brisbane)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Esteban_(Brisbane)"
+        }
+      },
+      "image": {
+        "file": "St_Stephen's_cathedral,_Brisbane.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St_Stephen's_cathedral%2C_Brisbane.jpg",
+        "author": "Masalai at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-riparian-plaza",
+      "name": "Riparian Plaza",
+      "area": "Brisbane",
+      "city": "Brisbane",
+      "wikidata": "Q597184",
+      "lat": -27.4681,
+      "lon": 153.03,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Riparian Plaza is a 53-storey skyscraper located in the central business district of Brisbane, Queensland, Australia.",
+        "es": "Riparian Plaza es un rascacielos de 53 plantas situado en el distrito financiero de Brisbane, Queensland, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Riparian Plaza",
+          "url": "https://en.wikipedia.org/wiki/Riparian_Plaza"
+        },
+        "es": {
+          "title": "Riparian Plaza",
+          "url": "https://es.wikipedia.org/wiki/Riparian_Plaza"
+        }
+      },
+      "image": {
+        "file": "Brisbane_Riparian_Plaza.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brisbane_Riparian_Plaza.jpg",
+        "author": "Skyscraper297 (talk)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-fort-lytton-national-park",
+      "name": "Fort Lytton National Park",
+      "area": "Brisbane",
+      "city": "Brisbane",
+      "wikidata": "Q48642",
+      "lat": -27.412222,
+      "lon": 153.15,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fort Lytton National Park is a national park in Lytton, City of Brisbane, Queensland, Australia.",
+        "es": "Fuerte Lytton es un parque nacional en Queensland, ubicado a 13 km al noreste de Brisbane."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fort Lytton National Park",
+          "url": "https://en.wikipedia.org/wiki/Fort_Lytton_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Fuerte Lytton",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Fuerte_Lytton"
+        }
+      },
+      "image": {
+        "file": "Inside_Fort_Lytton_1a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Inside_Fort_Lytton_1a.jpg",
+        "author": "Commander Keane",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-perth-mint",
+      "name": "Perth Mint",
+      "area": "Perth",
+      "city": "Perth",
+      "wikidata": "Q917524",
+      "website": "https://www.perthmint.com/",
+      "lat": -31.957276,
+      "lon": 115.869175,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Perth Mint is Australia's official bullion mint and wholly owned by the Government of Western Australia.",
+        "es": "The Perth Mint is Australia's official bullion mint and wholly owned by the Government of Western Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Perth Mint",
+          "url": "https://en.wikipedia.org/wiki/Perth_Mint"
+        },
+        "es": {
+          "title": "Perth Mint",
+          "url": "https://en.wikipedia.org/wiki/Perth_Mint"
+        }
+      },
+      "image": {
+        "file": "Perth_Mint,_WA,_2023.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Perth_Mint%2C_WA%2C_2023.jpg",
+        "author": "Chris Olszewski",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "au-subiaco-oval",
+      "name": "Subiaco Oval",
+      "area": "Perth",
+      "city": "Perth",
+      "wikidata": "Q585927",
+      "lat": -31.944444,
+      "lon": 115.82982,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Subiaco Oval was a sports stadium in Perth, Western Australia, located in the suburb of Subiaco.",
+        "es": "El Subiaco Oval es un estadio multipropósito ubicado en la ciudad de Perth, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Subiaco Oval",
+          "url": "https://en.wikipedia.org/wiki/Subiaco_Oval"
+        },
+        "es": {
+          "title": "Subiaco Oval",
+          "url": "https://es.wikipedia.org/wiki/Subiaco_Oval"
+        }
+      },
+      "image": {
+        "file": "Subiaco_Oval_panorama.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Subiaco_Oval_panorama.jpg",
+        "author": "Michael Spencer from Perth, WA, Australia",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "au-kings-park",
+      "name": "Kings Park",
+      "area": "Perth",
+      "city": "Perth",
+      "wikidata": "Q3495894",
+      "website": "https://www.bgpa.wa.gov.au/kings-park",
+      "lat": -31.962135,
+      "lon": 115.831712,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kings Park is a 400.6-hectare park overlooking Perth Water and the Perth central business district, Western Australia.",
+        "es": "El Kings Park en Australia Occidental es un parque y jardín botánico de 4,06 km² ubicado en el borde oeste del \"central business district\" de Perth, Western Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kings Park, Western Australia",
+          "url": "https://en.wikipedia.org/wiki/Kings_Park%2C_Western_Australia"
+        },
+        "es": {
+          "title": "Kings Park en Australia Occidental",
+          "url": "https://es.wikipedia.org/wiki/Kings_Park_en_Australia_Occidental"
+        }
+      },
+      "image": {
+        "file": "Kings_Park_WorldWind.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kings_Park_WorldWind.png",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-art-gallery-of-western-australia",
+      "name": "Art Gallery of Western Australia",
+      "area": "Perth",
+      "city": "Perth",
+      "wikidata": "Q4796833",
+      "website": "https://artgallery.wa.gov.au/",
+      "lat": -31.950588,
+      "lon": 115.860943,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Art Gallery of Western Australia is a public art gallery that is part of the Perth Cultural Centre, in Perth.",
+        "es": "The Art Gallery of Western Australia is a public art gallery that is part of the Perth Cultural Centre, in Perth."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Art Gallery of Western Australia",
+          "url": "https://en.wikipedia.org/wiki/Art_Gallery_of_Western_Australia"
+        },
+        "es": {
+          "title": "Art Gallery of Western Australia",
+          "url": "https://en.wikipedia.org/wiki/Art_Gallery_of_Western_Australia"
+        }
+      },
+      "image": {
+        "file": "ArtGalleryOfWesternAustralia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ArtGalleryOfWesternAustralia.jpg",
+        "author": "Navid Mavaddat. PharcydeNav at en.wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-perth-zoo",
+      "name": "Perth Zoo",
+      "area": "Perth",
+      "city": "Perth",
+      "wikidata": "Q3082583",
+      "website": "https://perthzoo.wa.gov.au/",
+      "lat": -31.975561,
+      "lon": 115.852216,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Perth Zoo is a 17-hectare zoological park in South Perth, Western Australia.",
+        "es": "El Zoológico de Perth es un zoológico y jardín botánico de 17 hectáreas de extensión, en South Perth, Australia Occidental, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Perth Zoo",
+          "url": "https://en.wikipedia.org/wiki/Perth_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Perth",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Perth"
+        }
+      },
+      "image": {
+        "file": "Perth_Zoo_entrance.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Perth_Zoo_entrance.jpg",
+        "author": "Shinjiman",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-st-mary-s-cathedral-perth",
+      "name": "St Mary's Cathedral, Perth",
+      "area": "Perth",
+      "city": "Perth",
+      "wikidata": "Q2942506",
+      "lat": -31.955368,
+      "lon": 115.866437,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St Mary's Cathedral, Perth, officially the Cathedral of the Immaculate Conception of the Blessed Virgin Mary, is an Australian cathedral.",
+        "es": "La Catedral de Santa María de Perth es una catedral católica australiana, sede del arzobispo de la arquidiócesis de Perth."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Mary's Cathedral, Perth",
+          "url": "https://en.wikipedia.org/wiki/St_Mary's_Cathedral%2C_Perth"
+        },
+        "es": {
+          "title": "Catedral de Santa María (Perth)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Santa_Mar%C3%ADa_(Perth)"
+        }
+      },
+      "image": {
+        "file": "St_Mary's_Catherdral,_Perth.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St_Mary's_Catherdral%2C_Perth.JPG",
+        "author": "Ali K",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-perth-railway-station",
+      "name": "Perth railway station",
+      "area": "Perth",
+      "city": "Perth",
+      "wikidata": "Q7170917",
+      "lat": -31.951389,
+      "lon": 115.860278,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Perth railway station is the largest station on the Transperth network, serving the central business district of Perth, Western Australia.",
+        "es": "Perth railway station is the largest station on the Transperth network, serving the central business district of Perth, Western Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Perth railway station",
+          "url": "https://en.wikipedia.org/wiki/Perth_railway_station"
+        },
+        "es": {
+          "title": "Perth railway station",
+          "url": "https://en.wikipedia.org/wiki/Perth_railway_station"
+        }
+      },
+      "image": {
+        "file": "Perth_220716_gnangarra-9.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Perth_220716_gnangarra-9.JPG",
+        "author": "Gnangarra",
+        "license": "CC BY 2.5 au"
+      }
+    },
+    {
+      "id": "au-crown-perth",
+      "name": "Crown Perth",
+      "area": "Perth",
+      "city": "Perth",
+      "wikidata": "Q1017078",
+      "website": "https://www.crownperth.com.au/",
+      "lat": -31.960831,
+      "lon": 115.895561,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Crown Perth is a resort and casino located in Burswood, Western Australia, near the Swan River.",
+        "es": "Crown Perth is a resort and casino located in Burswood, Western Australia, near the Swan River."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Crown Perth",
+          "url": "https://en.wikipedia.org/wiki/Crown_Perth"
+        },
+        "es": {
+          "title": "Crown Perth",
+          "url": "https://en.wikipedia.org/wiki/Crown_Perth"
+        }
+      },
+      "image": {
+        "file": "Crown_Perth,_December_2017_03_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Crown_Perth%2C_December_2017_03_(cropped).jpg",
+        "author": "Samuel Wiki",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "au-karrakatta-cemetery",
+      "name": "Karrakatta Cemetery",
+      "area": "Perth",
+      "city": "Perth",
+      "wikidata": "Q3193585",
+      "website": "https://www.mcb.wa.gov.au/our-cemeteries/karrakatta-cemetery",
+      "lat": -31.97,
+      "lon": 115.799167,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Karrakatta Cemetery is a metropolitan cemetery in the suburb of Karrakatta in Perth, Western Australia.",
+        "es": "Karrakatta Cemetery is a metropolitan cemetery in the suburb of Karrakatta in Perth, Western Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Karrakatta Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Karrakatta_Cemetery"
+        },
+        "es": {
+          "title": "Karrakatta Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Karrakatta_Cemetery"
+        }
+      },
+      "image": {
+        "file": "Karrakatta_Cemetery.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Karrakatta_Cemetery.JPG",
+        "author": "Ali K",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-perth-mosque",
+      "name": "Perth Mosque",
+      "area": "Perth",
+      "city": "Perth",
+      "wikidata": "Q7170875",
+      "lat": -31.943654,
+      "lon": 115.862578,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Perth Mosque, located in Perth, Western Australia is the oldest mosque in Perth and the second oldest purpose-built mosque in Australia.",
+        "es": "Perth Mosque, located in Perth, Western Australia is the oldest mosque in Perth and the second oldest purpose-built mosque in Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Perth Mosque",
+          "url": "https://en.wikipedia.org/wiki/Perth_Mosque"
+        },
+        "es": {
+          "title": "Perth Mosque",
+          "url": "https://en.wikipedia.org/wiki/Perth_Mosque"
+        }
+      },
+      "image": {
+        "file": "Mosque_Perth_20180108-3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mosque_Perth_20180108-3.jpg",
+        "author": "Zenwort",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "au-south-australian-museum",
+      "name": "South Australian Museum",
+      "area": "Adelaide",
+      "city": "Adelaide",
+      "wikidata": "Q2546445",
+      "website": "https://www.samuseum.sa.gov.au/",
+      "lat": -34.92049,
+      "lon": 138.60319,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The South Australian Museum is a natural history museum and research institution in Adelaide, South Australia, founded in 1856 and owned by the Government of South Australia.",
+        "es": "The South Australian Museum is a natural history museum and research institution in Adelaide, South Australia, founded in 1856 and owned by the Government of South Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "South Australian Museum",
+          "url": "https://en.wikipedia.org/wiki/South_Australian_Museum"
+        },
+        "es": {
+          "title": "South Australian Museum",
+          "url": "https://en.wikipedia.org/wiki/South_Australian_Museum"
+        }
+      },
+      "image": {
+        "file": "Sa_museum.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sa_museum.jpg",
+        "author": "Blnguyen",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-adelaide-zoo",
+      "name": "Adelaide Zoo",
+      "area": "Adelaide",
+      "city": "Adelaide",
+      "wikidata": "Q3244627",
+      "lat": -34.914089,
+      "lon": 138.605794,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Adelaide Zoo is a zoo in Adelaide, Australia.",
+        "es": "Adelaide Zoo is a zoo in Adelaide, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Adelaide Zoo",
+          "url": "https://en.wikipedia.org/wiki/Adelaide_Zoo"
+        },
+        "es": {
+          "title": "Adelaide Zoo",
+          "url": "https://en.wikipedia.org/wiki/Adelaide_Zoo"
+        }
+      },
+      "image": {
+        "file": "Adelaide_Zoo_flamingo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adelaide_Zoo_flamingo.jpg",
+        "author": "Kevin",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-mount-lofty",
+      "name": "Mount Lofty",
+      "area": "Adelaide",
+      "city": "Adelaide",
+      "wikidata": "Q1984533",
+      "lat": -34.966667,
+      "lon": 138.7,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Lofty is the highest point in the southern Mount Lofty Ranges.",
+        "es": "El Monte Lofty es el punto más alto de los Montes Lofty."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Lofty",
+          "url": "https://en.wikipedia.org/wiki/Mount_Lofty"
+        },
+        "es": {
+          "title": "Monte Lofty",
+          "url": "https://es.wikipedia.org/wiki/Monte_Lofty"
+        }
+      },
+      "image": {
+        "file": "Mount_lofty_from_south.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_lofty_from_south.jpg",
+        "author": "Mel Mazzone",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-belair-national-park",
+      "name": "Belair National Park",
+      "area": "Adelaide",
+      "city": "Adelaide",
+      "wikidata": "Q643818",
+      "lat": -35.013056,
+      "lon": 138.655833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Belair National Park is a protected area in Belair, South Australia, 9 kilometres southeast of Adelaide city centre; it covers an area of 835 hectares.",
+        "es": "Belair es un Parque nacional en Australia del Sur, ubicado a 16 km al sur de Adelaida."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Belair National Park",
+          "url": "https://en.wikipedia.org/wiki/Belair_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Belair",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Belair"
+        }
+      },
+      "image": {
+        "file": "Belair_Old_Government_House.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Belair_Old_Government_House.jpg",
+        "author": "tmyroadctfig",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-st-francis-xavier-s-cathedral",
+      "name": "St Francis Xavier's Cathedral",
+      "area": "Adelaide",
+      "city": "Adelaide",
+      "wikidata": "Q4355677",
+      "website": "https://www.adelcathparish.org",
+      "lat": -34.929,
+      "lon": 138.6014,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St Francis Xavier's Cathedral is a Roman Catholic cathedral in Adelaide, South Australia.",
+        "es": "Este artículo habla sobre la Catedral Católica, para ver la otra catedral véase Catedral de San Pedro de Adelaida"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Francis Xavier's Cathedral, Adelaide",
+          "url": "https://en.wikipedia.org/wiki/St_Francis_Xavier's_Cathedral%2C_Adelaide"
+        },
+        "es": {
+          "title": "Catedral de San Francisco Javier (Adelaida)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Francisco_Javier_(Adelaida)"
+        }
+      },
+      "image": {
+        "file": "Cathedral_103_046.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_103_046.jpg",
+        "author": "Honeykanakkary",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-st-peter-s-cathedral",
+      "name": "St Peter's Cathedral",
+      "area": "Adelaide",
+      "city": "Adelaide",
+      "wikidata": "Q2918618",
+      "lat": -34.91278,
+      "lon": 138.598119,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St Peter's Cathedral is an Anglican cathedral in the South Australian capital of Adelaide.",
+        "es": "Este artículo habla sobre la Catedral Anglicana, para ver la otra catedral véase Catedral de San Francisco Javier de Adelaida"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Peter's Cathedral, Adelaide",
+          "url": "https://en.wikipedia.org/wiki/St_Peter's_Cathedral%2C_Adelaide"
+        },
+        "es": {
+          "title": "Catedral de San Pedro (Adelaida)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Pedro_(Adelaida)"
+        }
+      },
+      "image": {
+        "file": "StPeter_2179.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:StPeter_2179.jpg",
+        "author": "Mike Lehmann, Mike Switzerland 09:46, 28 February 2007 (UTC)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-adelaide-botanic-garden",
+      "name": "Adelaide Botanic Garden",
+      "area": "Adelaide",
+      "city": "Adelaide",
+      "wikidata": "Q4681683",
+      "lat": -34.9175,
+      "lon": 138.6125,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Adelaide Botanic Garden is a 51-hectare public garden at the north-east corner of the Adelaide city centre, in the Adelaide Park Lands.",
+        "es": "El Jardín Botánico de Adelaida o en inglés: Adelaide Botanic Garden, es un jardín botánico público de 125 acres, de administración estatal, que está localizado en Adelaida, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Adelaide Botanic Garden",
+          "url": "https://en.wikipedia.org/wiki/Adelaide_Botanic_Garden"
+        },
+        "es": {
+          "title": "Jardín Botánico de Adelaida",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_de_Adelaida"
+        }
+      },
+      "image": {
+        "file": "Palm_house,_Adelaide_Botanic_Gardens_-_oblique.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palm_house%2C_Adelaide_Botanic_Gardens_-_oblique.JPG",
+        "author": "Peripitus",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-central-adelaide-mosque",
+      "name": "Central Adelaide Mosque",
+      "area": "Adelaide",
+      "city": "Adelaide",
+      "wikidata": "Q5060262",
+      "lat": -34.934,
+      "lon": 138.592,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Central Adelaide Mosque, also known as Adelaide City Mosque or Adelaide Central Mosque or Adelaide Mosque, and formerly known as the Afghan Chapel, is a mosque located in Adelaide, South Australia.",
+        "es": "The Central Adelaide Mosque, also known as Adelaide City Mosque or Adelaide Central Mosque or Adelaide Mosque, and formerly known as the Afghan Chapel, is a mosque located in Adelaide, South Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Central Adelaide Mosque",
+          "url": "https://en.wikipedia.org/wiki/Central_Adelaide_Mosque"
+        },
+        "es": {
+          "title": "Central Adelaide Mosque",
+          "url": "https://en.wikipedia.org/wiki/Central_Adelaide_Mosque"
+        }
+      },
+      "image": {
+        "file": "Adelaide_Mosque_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adelaide_Mosque_1.jpg",
+        "author": "Bahudhara",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-adelaide-town-hall",
+      "name": "Adelaide Town Hall",
+      "area": "Adelaide",
+      "city": "Adelaide",
+      "wikidata": "Q4681798",
+      "lat": -34.9261,
+      "lon": 138.6,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Adelaide Town Hall is a civic building on King William Street in Adelaide, South Australia.",
+        "es": "El Ayuntamiento de Adelaide es un edificio emblemático de King William Street en Adelaide, Australia Meridional, Australia que junto al edificio de oficinas de 25 Pirie Street alberga el consistorio de la ciudad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Adelaide Town Hall",
+          "url": "https://en.wikipedia.org/wiki/Adelaide_Town_Hall"
+        },
+        "es": {
+          "title": "Ayuntamiento de Adelaide",
+          "url": "https://es.wikipedia.org/wiki/Ayuntamiento_de_Adelaide"
+        }
+      },
+      "image": {
+        "file": "Adelaide_Town_Hall_in_July_2026_(028A8353).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adelaide_Town_Hall_in_July_2026_(028A8353).jpg",
+        "author": "Yu Chu Chin",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "au-migration-museum",
+      "name": "Migration Museum",
+      "area": "Adelaide",
+      "city": "Adelaide",
+      "wikidata": "Q6844330",
+      "lat": -34.9198,
+      "lon": 138.602,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Migration Museum is a social history museum located in Adelaide, South Australia.",
+        "es": "The Migration Museum is a social history museum located in Adelaide, South Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Migration Museum, Adelaide",
+          "url": "https://en.wikipedia.org/wiki/Migration_Museum%2C_Adelaide"
+        },
+        "es": {
+          "title": "Migration Museum, Adelaide",
+          "url": "https://en.wikipedia.org/wiki/Migration_Museum%2C_Adelaide"
+        }
+      },
+      "image": {
+        "file": "Migration_Museum,_Adelaide_-_entrance.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Migration_Museum%2C_Adelaide_-_entrance.JPG",
+        "author": "Bahudhara",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-victoria-square",
+      "name": "Victoria Square",
+      "area": "Adelaide",
+      "city": "Adelaide",
+      "wikidata": "Q7927046",
+      "lat": -34.930556,
+      "lon": 138.604167,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Victoria Square, also known as Tarntanyangga, is the central square of five public squares in the Adelaide city centre, South Australia.",
+        "es": "La Plaza Victoria también conocida como Tarndanyangga, es una plaza pública en la capital de Australia meridional, la ciudad de Adelaida."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Victoria Square, Adelaide",
+          "url": "https://en.wikipedia.org/wiki/Victoria_Square%2C_Adelaide"
+        },
+        "es": {
+          "title": "Plaza Victoria (Adelaida)",
+          "url": "https://es.wikipedia.org/wiki/Plaza_Victoria_(Adelaida)"
+        }
+      },
+      "image": {
+        "file": "VictoriaSquare_South.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:VictoriaSquare_South.JPG",
+        "author": "Blueturtle01 (talk)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-springbrook-national-park",
+      "name": "Springbrook National Park",
+      "area": "Gold Coast",
+      "city": "Gold Coast",
+      "wikidata": "Q1848058",
+      "website": "https://parks.qld.gov.au/parks/springbrook",
+      "lat": -28.14,
+      "lon": 153.274167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Springbrook National Park is a protected national park in the Gold Coast hinterland of Queensland, Australia.",
+        "es": "El parque nacional Springbrook es un parque nacional en Queensland, ubicado a 78 km al sur de Brisbane."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Springbrook National Park",
+          "url": "https://en.wikipedia.org/wiki/Springbrook_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Springbrook",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Springbrook"
+        }
+      },
+      "image": {
+        "file": "IMAG0310.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:IMAG0310.jpg",
+        "author": "Knödelbaum",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-south-stradbroke-island",
+      "name": "South Stradbroke Island",
+      "area": "Gold Coast",
+      "city": "Gold Coast",
+      "wikidata": "Q1345291",
+      "lat": -27.85,
+      "lon": 153.416667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "South Stradbroke Island, colloquially South Straddie, is an island that lies within Moreton Bay south-southeast of Brisbane in the Australian state of Queensland and forms the northern end of the city of Gold Coast.",
+        "es": "South Stradbroke Island, colloquially South Straddie, is an island that lies within Moreton Bay south-southeast of Brisbane in the Australian state of Queensland and forms the northern end of the city of Gold Coast."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "South Stradbroke Island",
+          "url": "https://en.wikipedia.org/wiki/South_Stradbroke_Island"
+        },
+        "es": {
+          "title": "South Stradbroke Island",
+          "url": "https://en.wikipedia.org/wiki/South_Stradbroke_Island"
+        }
+      },
+      "image": {
+        "file": "Aus_-_South_Stradbroke_Island.PNG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aus_-_South_Stradbroke_Island.PNG",
+        "author": "edited by M.Minderhoud",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-warner-bros-movie-world",
+      "name": "Warner Bros. Movie World",
+      "area": "Gold Coast",
+      "city": "Gold Coast",
+      "wikidata": "Q1417567",
+      "lat": -27.9075,
+      "lon": 153.3125,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Warner Bros. Movie World is a theme park on the Gold Coast in Queensland, Australia.",
+        "es": "Warner Bros. Movie World es un parque temático situado en la Costa de Oro de Queensland, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Warner Bros. Movie World",
+          "url": "https://en.wikipedia.org/wiki/Warner_Bros._Movie_World"
+        },
+        "es": {
+          "title": "Warner Bros. Movie World",
+          "url": "https://es.wikipedia.org/wiki/Warner_Bros._Movie_World"
+        }
+      },
+      "image": {
+        "file": "Superman_Escape_over_Movie_World's_entrance.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Superman_Escape_over_Movie_World's_entrance.jpg",
+        "author": "Zanekingi at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-sea-world",
+      "name": "Sea World",
+      "area": "Gold Coast",
+      "city": "Gold Coast",
+      "wikidata": "Q505518",
+      "lat": -27.9559,
+      "lon": 153.4257,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Sea World is a marine mammal park, oceanarium, and theme park located on the Gold Coast, Queensland, Australia.",
+        "es": "Sea World is a marine mammal park, oceanarium, and theme park located on the Gold Coast, Queensland, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sea World (Australia)",
+          "url": "https://en.wikipedia.org/wiki/Sea_World_(Australia)"
+        },
+        "es": {
+          "title": "Sea World (Australia)",
+          "url": "https://en.wikipedia.org/wiki/Sea_World_(Australia)"
+        }
+      },
+      "image": {
+        "file": "Sea_world_australia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sea_world_australia.jpg",
+        "author": "Tristanb (talk).",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-david-fleay-wildlife-park",
+      "name": "David Fleay Wildlife Park",
+      "area": "Gold Coast",
+      "city": "Gold Coast",
+      "wikidata": "Q4355489",
+      "lat": -28.1078,
+      "lon": 153.444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "David Fleay Wildlife Park is a heritage-listed wildlife park at Fleays Wildlife Park Conservation Park, Tallebudgera Creek Road, Tallebudgera, Queensland, Australia.",
+        "es": "David Fleay Wildlife Park is a heritage-listed wildlife park at Fleays Wildlife Park Conservation Park, Tallebudgera Creek Road, Tallebudgera, Queensland, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "David Fleay Wildlife Park",
+          "url": "https://en.wikipedia.org/wiki/David_Fleay_Wildlife_Park"
+        },
+        "es": {
+          "title": "David Fleay Wildlife Park",
+          "url": "https://en.wikipedia.org/wiki/David_Fleay_Wildlife_Park"
+        }
+      },
+      "image": {
+        "file": "Lumholtz's_tree_kangaroo-02.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lumholtz's_tree_kangaroo-02.JPG",
+        "author": "DiverDave",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-dreamworld",
+      "name": "Dreamworld",
+      "area": "Gold Coast",
+      "city": "Gold Coast",
+      "wikidata": "Q1256280",
+      "lat": -27.864,
+      "lon": 153.316,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Dreamworld is a theme park and zoo situated on the Gold Coast in Queensland.",
+        "es": "Dreamworld is a theme park and zoo situated on the Gold Coast in Queensland."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dreamworld (Australia)",
+          "url": "https://en.wikipedia.org/wiki/Dreamworld_(Australia)"
+        },
+        "es": {
+          "title": "Dreamworld (Australia)",
+          "url": "https://en.wikipedia.org/wiki/Dreamworld_(Australia)"
+        }
+      },
+      "image": {
+        "file": "Dreamworld_Entrance.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dreamworld_Entrance.jpg",
+        "author": "Lakeyboy at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-burleigh-head-national-park",
+      "name": "Burleigh Head National Park",
+      "area": "Gold Coast",
+      "city": "Gold Coast",
+      "wikidata": "Q1016604",
+      "lat": -28.095278,
+      "lon": 153.457222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Burleigh Head is a small national park at Burleigh Heads in the City of Gold Coast in South East Queensland, Australia.",
+        "es": "Burleigh Head es un parque nacional en Queensland, ubicado a 81 km al sureste de Brisbane."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Burleigh Head National Park",
+          "url": "https://en.wikipedia.org/wiki/Burleigh_Head_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Burleigh Head",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Burleigh_Head"
+        }
+      },
+      "image": {
+        "file": "Burleigh_Head_National_Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Burleigh_Head_National_Park.jpg",
+        "author": "John Rotenstein",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-tower-of-terror-ii",
+      "name": "Tower of Terror II",
+      "area": "Gold Coast",
+      "city": "Gold Coast",
+      "wikidata": "Q1547610",
+      "lat": -27.8641,
+      "lon": 153.317,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Tower of Terror II was a steel shuttle roller coaster located at the Dreamworld amusement park on the Gold Coast, Queensland, Australia.",
+        "es": "The Tower of Terror II was a steel shuttle roller coaster located at the Dreamworld amusement park on the Gold Coast, Queensland, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tower of Terror II",
+          "url": "https://en.wikipedia.org/wiki/Tower_of_Terror_II"
+        },
+        "es": {
+          "title": "Tower of Terror II",
+          "url": "https://en.wikipedia.org/wiki/Tower_of_Terror_II"
+        }
+      },
+      "image": {
+        "file": "Tower_of_Terror_Dreamworld.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tower_of_Terror_Dreamworld.jpg",
+        "author": "Lakeyboy at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "au-soul",
+      "name": "Soul",
+      "area": "Gold Coast",
+      "city": "Gold Coast",
+      "wikidata": "Q2887137",
+      "lat": -28.0012,
+      "lon": 153.43,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Soul is a 243 m tall residential tower and hotel on the Esplanade, close to Cavill Avenue in Surfers Paradise on the Gold Coast, Queensland, Australia.",
+        "es": "Soul es una torre residencial de 243 m de altura situado en la esquina de Cavill Avenue y The Esplanade en Surfers Paradise, Gold Coast, Queensland, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Soul (building)",
+          "url": "https://en.wikipedia.org/wiki/Soul_(building)"
+        },
+        "es": {
+          "title": "Soul (edificio)",
+          "url": "https://es.wikipedia.org/wiki/Soul_(edificio)"
+        }
+      },
+      "image": {
+        "file": "Surfers_Paradise,_Queensland_14.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Surfers_Paradise%2C_Queensland_14.jpg",
+        "author": "Chris Olszewski",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-superman-escape",
+      "name": "Superman Escape",
+      "area": "Gold Coast",
+      "city": "Gold Coast",
+      "wikidata": "Q258188",
+      "lat": -27.908,
+      "lon": 153.312,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Superman Escape is an Intamin Accelerator Coaster at Warner Bros.",
+        "es": "Superman Escape is an Intamin Accelerator Coaster at Warner Bros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Superman Escape",
+          "url": "https://en.wikipedia.org/wiki/Superman_Escape"
+        },
+        "es": {
+          "title": "Superman Escape",
+          "url": "https://en.wikipedia.org/wiki/Superman_Escape"
+        }
+      },
+      "image": {
+        "file": "Movie_world_superman_escape_zz.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Movie_world_superman_escape_zz.JPG",
+        "author": "Chensiyuan",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "au-the-wave",
+      "name": "The Wave",
+      "area": "Gold Coast",
+      "city": "Gold Coast",
+      "wikidata": "Q7773762",
+      "lat": -28.0288,
+      "lon": 153.432,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Wave is a residential skyscraper with an unusual appearance on the Gold Coast, Australia.",
+        "es": "The Wave is a residential skyscraper with an unusual appearance on the Gold Coast, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "The Wave (Gold Coast)",
+          "url": "https://en.wikipedia.org/wiki/The_Wave_(Gold_Coast)"
+        },
+        "es": {
+          "title": "The Wave (Gold Coast)",
+          "url": "https://en.wikipedia.org/wiki/The_Wave_(Gold_Coast)"
+        }
+      },
+      "image": {
+        "file": "The_Wave_Apartments,_Gold_Coast,_QLD,_AU.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Wave_Apartments%2C_Gold_Coast%2C_QLD%2C_AU.jpg",
+        "author": "Thien Zie Yung",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "au-national-museum-of-australia",
+      "name": "National Museum of Australia",
+      "area": "Canberra",
+      "city": "Canberra",
+      "wikidata": "Q1967496",
+      "lat": -35.2931,
+      "lon": 149.121,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The National Museum of Australia is a national public museum in Canberra, Capital Territory, Australia.",
+        "es": "El Museo Nacional de Australia, ubicado en la ciudad de Canberra, provee una plataforma para explorar la historia y cultura de Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Museum of Australia",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Australia"
+        },
+        "es": {
+          "title": "Museo Nacional de Australia",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Australia"
+        }
+      },
+      "image": {
+        "file": "NatMusAus_Main_Entrance_Strip.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NatMusAus_Main_Entrance_Strip.jpg",
+        "author": "Myk Dowling",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-australian-war-memorial",
+      "name": "Australian War Memorial",
+      "area": "Canberra",
+      "city": "Canberra",
+      "wikidata": "Q782783",
+      "lat": -35.280472,
+      "lon": 149.149056,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Australian War Memorial is a national war memorial, museum and archive dedicated to all Australians who have died as a result of war, including peacekeeping duties.",
+        "es": "El Centro Conmemorativo de Guerra Australiano es el centro de conmemoración de guerra nacional de Australia que recuerda a los miembros de todas sus fuerzas armadas u organizaciones de apoyo que han muerto o…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Australian War Memorial",
+          "url": "https://en.wikipedia.org/wiki/Australian_War_Memorial"
+        },
+        "es": {
+          "title": "Memorial de Guerra Australiano",
+          "url": "https://es.wikipedia.org/wiki/Memorial_de_Guerra_Australiano"
+        }
+      },
+      "image": {
+        "file": "AWM_canberra_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:AWM_canberra_1.jpg",
+        "author": "Capital photographer (talk)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-mount-stromlo",
+      "name": "Mount Stromlo",
+      "area": "Canberra",
+      "city": "Canberra",
+      "wikidata": "Q1041646",
+      "lat": -35.316667,
+      "lon": 149.016667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Stromlo is a mountain with an elevation of 770 metres AHD that is situated in the Australian Capital Territory, Australia.",
+        "es": "El Monte Stromlo está situado a poca distancia al oeste del centro de Canberra, Australia, cerca del distrito de Weston Creek."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Stromlo",
+          "url": "https://en.wikipedia.org/wiki/Mount_Stromlo"
+        },
+        "es": {
+          "title": "Monte Stromlo",
+          "url": "https://es.wikipedia.org/wiki/Monte_Stromlo"
+        }
+      },
+      "image": {
+        "file": "Stromlo_ACT_locality-MJC01.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Stromlo_ACT_locality-MJC01.png",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-black-mountain",
+      "name": "Black Mountain",
+      "area": "Canberra",
+      "city": "Canberra",
+      "wikidata": "Q804222",
+      "lat": -35.273836,
+      "lon": 149.0978,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Black Mountain is a small mountain with an elevation of 812 metres AHD that is situated to the west of the Canberra central business district on the northern shore of Lake Burley Griffin, in the Australian Capital…",
+        "es": "Black Mountain is a small mountain with an elevation of 812 metres AHD that is situated to the west of the Canberra central business district on the northern shore of Lake Burley Griffin, in the Australian Capital…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Black Mountain (Australian Capital Territory)",
+          "url": "https://en.wikipedia.org/wiki/Black_Mountain_(Australian_Capital_Territory)"
+        },
+        "es": {
+          "title": "Black Mountain (Australian Capital Territory)",
+          "url": "https://en.wikipedia.org/wiki/Black_Mountain_(Australian_Capital_Territory)"
+        }
+      },
+      "image": {
+        "file": "Black_Mountain_and_Black_Mountain_Tower.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_Mountain_and_Black_Mountain_Tower.jpg",
+        "author": "Bidgee",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-black-mountain-tower",
+      "name": "Black Mountain Tower",
+      "area": "Canberra",
+      "city": "Canberra",
+      "wikidata": "Q880443",
+      "lat": -35.275556,
+      "lon": 149.097778,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Telstra Tower is a telecommunications tower and lookout that is situated above the summit of Black Mountain in Australia's capital city of Canberra.",
+        "es": "La Torre Telstra es una torre de telecomunicaciones que se encuentra en la cumbre de la Montaña Negra en la capital federal australiana de Canberra."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Telstra Tower",
+          "url": "https://en.wikipedia.org/wiki/Telstra_Tower"
+        },
+        "es": {
+          "title": "Torre Telstra",
+          "url": "https://es.wikipedia.org/wiki/Torre_Telstra"
+        }
+      },
+      "image": {
+        "file": "Telstra_Tower_2009.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Telstra_Tower_2009.jpg",
+        "author": "Bidgee",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "au-australian-national-botanic-gardens",
+      "name": "Australian National Botanic Gardens",
+      "area": "Canberra",
+      "city": "Canberra",
+      "wikidata": "Q509884",
+      "website": "https://www.anbg.gov.au/gardens/index.html",
+      "lat": -35.278889,
+      "lon": 149.109167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Australian National Botanic Gardens is a heritage-listed botanical garden located in Acton, Canberra, in the Australian Capital Territory, Australia.",
+        "es": "El Jardín Botánico Nacional de Australia o en inglés: Australian National Botanic Gardens, es un jardín botánico de 90 hectáreas en la Black Mountain aunque el jardín propiamente ocupa unas 40 hectáreas y con un área…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Australian National Botanic Gardens",
+          "url": "https://en.wikipedia.org/wiki/Australian_National_Botanic_Gardens"
+        },
+        "es": {
+          "title": "Jardín Botánico Nacional de Australia",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_Nacional_de_Australia"
+        }
+      }
+    },
+    {
+      "id": "au-national-portrait-gallery",
+      "name": "National Portrait Gallery",
+      "area": "Canberra",
+      "city": "Canberra",
+      "wikidata": "Q1489633",
+      "lat": -35.3,
+      "lon": 149.133889,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The National Portrait Gallery, also known as the National Portrait Gallery of Australia in Canberra is a public art gallery containing portraits of prominent Australians.",
+        "es": "The National Portrait Gallery, also known as the National Portrait Gallery of Australia in Canberra is a public art gallery containing portraits of prominent Australians."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Portrait Gallery (Australia)",
+          "url": "https://en.wikipedia.org/wiki/National_Portrait_Gallery_(Australia)"
+        },
+        "es": {
+          "title": "National Portrait Gallery (Australia)",
+          "url": "https://en.wikipedia.org/wiki/National_Portrait_Gallery_(Australia)"
+        }
+      },
+      "image": {
+        "file": "National_Portrait_Gallery_of_Australia_building_(South_face).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:National_Portrait_Gallery_of_Australia_building_(South_face).jpg",
+        "author": "Shkuru Afshar",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "au-queen-elizabeth-ii-island",
+      "name": "Queen Elizabeth II Island",
+      "area": "Canberra",
+      "city": "Canberra",
+      "wikidata": "Q736060",
+      "lat": -35.298889,
+      "lon": 149.142222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Queen Elizabeth II Island, formerly Aspen Island, is an artificial island located within Lake Burley Griffin, in Canberra, Australian Capital Territory, Australia.",
+        "es": "Queen Elizabeth II Island, formerly Aspen Island, is an artificial island located within Lake Burley Griffin, in Canberra, Australian Capital Territory, Australia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Queen Elizabeth II Island",
+          "url": "https://en.wikipedia.org/wiki/Queen_Elizabeth_II_Island"
+        },
+        "es": {
+          "title": "Queen Elizabeth II Island",
+          "url": "https://en.wikipedia.org/wiki/Queen_Elizabeth_II_Island"
+        }
+      },
+      "image": {
+        "file": "National_Carillon_(437594827).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:National_Carillon_(437594827).jpg",
+        "author": "Percita Dittmar from Canberra, Australia",
+        "license": "CC BY-SA 2.0"
       }
     }
   ]

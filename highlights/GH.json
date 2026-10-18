@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -213,6 +219,2083 @@
         "text": "Tu-Su 09:00-18:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "gh-lake-volta",
+      "name": "Lake Volta",
+      "area": "Accra",
+      "city": "Accra",
+      "wikidata": "Q201679",
+      "lat": 7.4,
+      "lon": 0.2,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Volta, the largest artificial reservoir in the world by surface area, is contained behind the Akosombo Dam which generates a substantial amount of Ghana's electricity.",
+        "es": "El lago Volta es el embalse con mayor superficie del mundo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Volta",
+          "url": "https://en.wikipedia.org/wiki/Lake_Volta"
+        },
+        "es": {
+          "title": "Lago Volta",
+          "url": "https://es.wikipedia.org/wiki/Lago_Volta"
+        }
+      },
+      "image": {
+        "file": "Volta_lake.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volta_lake.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gh-lake-bosumtwi",
+      "name": "Lake Bosumtwi",
+      "area": "Kumasi",
+      "city": "Kumasi",
+      "wikidata": "Q894613",
+      "lat": 6.5055,
+      "lon": -1.40891,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Bosomtwe, also spelled Bosumtwi, is the only natural lake in Ghana.",
+        "es": "Lago Bosumtwi, es un lago situado dentro de un cráter causado por un impacto antiguo de un meteorito."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Bosumtwi",
+          "url": "https://en.wikipedia.org/wiki/Lake_Bosumtwi"
+        },
+        "es": {
+          "title": "Lago Bosumtwi",
+          "url": "https://es.wikipedia.org/wiki/Lago_Bosumtwi"
+        }
+      },
+      "image": {
+        "file": "Bosumtwi_Worldwind_SW.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bosumtwi_Worldwind_SW.jpg",
+        "author": "User:Vesta",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gh-elmina-castle",
+      "name": "Elmina Castle",
+      "area": "Central Region",
+      "city": "Central Region",
+      "wikidata": "Q55264655",
+      "lat": 5.08274,
+      "lon": -1.348211,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Elmina Castle, or Fort St. George, was erected by the Portuguese in 1482 as Castelo de São Jorge da Mina, also known as Castelo da Mina or simply Mina, in present-day Elmina, Ghana, formerly the Gold Coast.",
+        "es": "San Jorge de la Mina fue un establecimiento fortificado de dominio portugués, en la costa del golfo de Guinea, África, en el lugar que ocupa actualmente la ciudad de Elmina en Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Elmina Castle",
+          "url": "https://en.wikipedia.org/wiki/Elmina_Castle"
+        },
+        "es": {
+          "title": "San Jorge de la Mina",
+          "url": "https://es.wikipedia.org/wiki/San_Jorge_de_la_Mina"
+        }
+      },
+      "image": {
+        "file": "Castle_of_St._George’s_03.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Castle_of_St._George%E2%80%99s_03.JPG",
+        "author": "Bolance",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gh-larabanga-mosque",
+      "name": "Larabanga Mosque",
+      "area": "West Gonja Municipal District",
+      "city": "West Gonja Municipal District",
+      "wikidata": "Q490898",
+      "lat": 9.2166,
+      "lon": -1.8666,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Larabanga Mosque is a mosque built in the Sudanese architectural style in the village of Larabanga, Savanna Region of Ghana.",
+        "es": "La Mezquita Larabanga es una mezquita histórica del tipo arquitectónico “Sudanés”, se ubica en el pueblo de Larabanga, en Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Larabanga Mosque",
+          "url": "https://en.wikipedia.org/wiki/Larabanga_Mosque"
+        },
+        "es": {
+          "title": "Mezquita de Larabanga",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_de_Larabanga"
+        }
+      },
+      "image": {
+        "file": "Larabanga_Mosque_Ghana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Larabanga_Mosque_Ghana.jpg",
+        "author": "Sathyan Velumani",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gh-mole-national-park",
+      "name": "Mole National Park",
+      "area": "Northern Region",
+      "city": "Northern Region",
+      "wikidata": "Q1585600",
+      "lat": 9.7,
+      "lon": -1.833333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mole National Park, one of Ghana's seven national parks, is the country's largest wildlife refuge.",
+        "es": "Parque Nacional Mole es el refugio de vida silvestre más grande del país africano de Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mole National Park",
+          "url": "https://en.wikipedia.org/wiki/Mole_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Mole",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Mole"
+        }
+      },
+      "image": {
+        "file": "Mole_National_Park_Mo_24.08.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mole_National_Park_Mo_24.08.JPG",
+        "author": "Neoesel",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gh-kakum-national-park",
+      "name": "Kakum National Park",
+      "area": "Central Region",
+      "city": "Central Region",
+      "wikidata": "Q568693",
+      "lat": 5.353611,
+      "lon": -1.383333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kakum National Park, located in the coastal environs of the Central Region of Ghana, covers an area of 375 square kilometres.",
+        "es": "Parque Nacional de Kakum, es un parque nacional ubicado en el país africano de Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kakum National Park",
+          "url": "https://en.wikipedia.org/wiki/Kakum_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Kakum",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Kakum"
+        }
+      },
+      "image": {
+        "file": "Kakum.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kakum.jpg",
+        "author": "Original uploader was Chiappinik at it.wikipedia",
+        "license": "CC BY 2.5 it"
+      }
+    },
+    {
+      "id": "gh-osu-castle",
+      "name": "Osu Castle",
+      "area": "Accra",
+      "city": "Accra",
+      "wikidata": "Q1082964",
+      "lat": 5.5466,
+      "lon": -0.1827,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Osu Castle is a castle located in Osu, a neighborhood of Accra, the capital city of Ghana, on the coast of the Gulf of Guinea.",
+        "es": "Fort Christiansborg, también conocido Castillo de Osu, fue hasta 2013 la residencia del presidente de la República de Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Osu Castle",
+          "url": "https://en.wikipedia.org/wiki/Osu_Castle"
+        },
+        "es": {
+          "title": "Fort Christiansborg",
+          "url": "https://es.wikipedia.org/wiki/Fort_Christiansborg"
+        }
+      },
+      "image": {
+        "file": "Osu_Castle_(also_known_as_Fort_Christiansborg_or_Christiansborg_Castle)_in_Accra,_Ghana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Osu_Castle_(also_known_as_Fort_Christiansborg_or_Christiansborg_Castle)_in_Accra%2C_Ghana.jpg",
+        "author": "Twi inaccr",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "gh-mount-afadja",
+      "name": "Mount Afadja",
+      "area": "Jasikan District",
+      "city": "Jasikan District",
+      "wikidata": "Q635179",
+      "lat": 7.144444,
+      "lon": 0.355,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Afadja, known as Afadjato to the Ewe people of Ghana and Togo, is one of the highest mountains in Ghana.",
+        "es": "Monte Afadjato es la montaña más alta de Ghana, a una altitud de 885 metros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Afadja",
+          "url": "https://en.wikipedia.org/wiki/Mount_Afadja"
+        },
+        "es": {
+          "title": "Monte Afadjato",
+          "url": "https://es.wikipedia.org/wiki/Monte_Afadjato"
+        }
+      }
+    },
+    {
+      "id": "gh-cape-coast-castle",
+      "name": "Cape Coast Castle",
+      "area": "Cape Coast",
+      "city": "Cape Coast",
+      "wikidata": "Q1254826",
+      "lat": 5.103583,
+      "lon": -1.24125,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Cape Coast Castle is one of about forty \"slave castles\", or large commercial forts, built on the Gold Coast of West Africa by European traders.",
+        "es": "El Castillo de la Costa del Cabo o Cabo Corso es una fortificación situada en Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cape Coast Castle",
+          "url": "https://en.wikipedia.org/wiki/Cape_Coast_Castle"
+        },
+        "es": {
+          "title": "Castillo de la Costa del Cabo",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_la_Costa_del_Cabo"
+        }
+      },
+      "image": {
+        "file": "Cape_Coast_Castle,_Cape_Coast,_Ghana.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cape_Coast_Castle%2C_Cape_Coast%2C_Ghana.JPG",
+        "author": "Rjruiziii",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gh-black-star-square",
+      "name": "Black Star Square",
+      "area": "Accra",
+      "city": "Accra",
+      "wikidata": "Q4921908",
+      "lat": 5.5476,
+      "lon": -0.1926,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Black Star Square, also known as Independence Square, is a public square in Accra, Ghana, bordered by the Accra Sports Stadium and the Kwame Nkrumah Memorial Park.",
+        "es": "La plaza de la Estrella Negra es una plaza pública en la ciudad de Acra, la capital del país africano de Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Black Star Square",
+          "url": "https://en.wikipedia.org/wiki/Black_Star_Square"
+        },
+        "es": {
+          "title": "Plaza de la Estrella Negra",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_la_Estrella_Negra"
+        }
+      },
+      "image": {
+        "file": "Independence_Square,_Ghana.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Independence_Square%2C_Ghana.JPG",
+        "author": "J3Lda77",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gh-bui-national-park",
+      "name": "Bui National Park",
+      "area": "Kumasi",
+      "city": "Kumasi",
+      "wikidata": "Q1002702",
+      "lat": 8.29983,
+      "lon": -2.36275,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Bui National Park is located in Ghana.",
+        "es": "The Bui National Park is located in Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bui National Park",
+          "url": "https://en.wikipedia.org/wiki/Bui_National_Park"
+        },
+        "es": {
+          "title": "Bui National Park",
+          "url": "https://en.wikipedia.org/wiki/Bui_National_Park"
+        }
+      },
+      "image": {
+        "file": "Bui_National_Park_2009.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bui_National_Park_2009.jpg",
+        "author": "Benjamin Mussler from Austria",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "gh-tagbo-falls",
+      "name": "Tagbo Falls",
+      "area": "Volta Region",
+      "city": "Volta Region",
+      "wikidata": "Q980134",
+      "lat": 7.14083,
+      "lon": 0.333056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tagbo Falls is a waterfall near Mount Afadjato in Ghana, located at Liati Wote, approximately 27 kilometres east of the township of Hohoe.",
+        "es": "Cataratas Tagbo. Es una cascada cerca del monte Afadjato en el país africano de Ghana, que se encuentra en Liati Wote, a unos 27 kilómetros al este de la localidad de Hohoe, en las coordenadas geográficas 07°08′27″N…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tagbo Falls",
+          "url": "https://en.wikipedia.org/wiki/Tagbo_Falls"
+        },
+        "es": {
+          "title": "Cataratas Tagbo",
+          "url": "https://es.wikipedia.org/wiki/Cataratas_Tagbo"
+        }
+      },
+      "image": {
+        "file": "Tagbo_Falls_Ghana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tagbo_Falls_Ghana.jpg",
+        "author": "Jimmynoton",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gh-wli-waterfalls",
+      "name": "Wli waterfalls",
+      "area": "Hohoe",
+      "city": "Hohoe",
+      "wikidata": "Q15560122",
+      "lat": 7.105833,
+      "lon": 0.608889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Wli Waterfalls is the highest waterfall in Ghana and the tallest in West Africa.",
+        "es": "Wli Waterfalls is the highest waterfall in Ghana and the tallest in West Africa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wli waterfalls",
+          "url": "https://en.wikipedia.org/wiki/Wli_waterfalls"
+        },
+        "es": {
+          "title": "Wli waterfalls",
+          "url": "https://en.wikipedia.org/wiki/Wli_waterfalls"
+        }
+      },
+      "image": {
+        "file": "Wli_Lower_Fall-4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wli_Lower_Fall-4.jpg",
+        "author": "Stig Nygaard",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gh-digya-national-park",
+      "name": "Digya National Park",
+      "area": "Brong-Ahafo Region",
+      "city": "Brong-Ahafo Region",
+      "wikidata": "Q491509",
+      "lat": 7.366667,
+      "lon": -0.1,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Digya National Park is the second largest national park and the oldest protected area in Ghana.",
+        "es": "Digya National Park is the second largest national park and the oldest protected area in Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Digya National Park",
+          "url": "https://en.wikipedia.org/wiki/Digya_National_Park"
+        },
+        "es": {
+          "title": "Digya National Park",
+          "url": "https://en.wikipedia.org/wiki/Digya_National_Park"
+        }
+      }
+    },
+    {
+      "id": "gh-fort-sao-sebastiao-de-xama",
+      "name": "Fort São Sebastião de Xama",
+      "area": "Accra",
+      "city": "Accra",
+      "wikidata": "Q1318387",
+      "lat": 5.54667,
+      "lon": -0.18356,
+      "category": "shopping",
+      "interests": [
+        "markets",
+        "shopping"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Fort São Sebastião or Fort San Sebastian located in Shama, Ghana, is the third oldest fortification in Ghana and it was built in 1523.",
+        "es": "Fort São Sebastião or Fort San Sebastian located in Shama, Ghana, is the third oldest fortification in Ghana and it was built in 1523."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fort São Sebastião de Xama",
+          "url": "https://en.wikipedia.org/wiki/Fort_S%C3%A3o_Sebasti%C3%A3o_de_Xama"
+        },
+        "es": {
+          "title": "Fort São Sebastião de Xama",
+          "url": "https://en.wikipedia.org/wiki/Fort_S%C3%A3o_Sebasti%C3%A3o_de_Xama"
+        }
+      },
+      "image": {
+        "file": "FortShama_Frey_1890.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:FortShama_Frey_1890.jpg",
+        "author": "Bretegnier (?)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gh-bia-national-park",
+      "name": "Bia National Park",
+      "area": "Kumasi",
+      "city": "Kumasi",
+      "wikidata": "Q855195",
+      "lat": 6.083333,
+      "lon": -3.1,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Bia National Park is a national park in the Bia West district in the Western North Region of Ghana.",
+        "es": "Bia National Park is a national park in the Bia West district in the Western North Region of Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bia National Park",
+          "url": "https://en.wikipedia.org/wiki/Bia_National_Park"
+        },
+        "es": {
+          "title": "Bia National Park",
+          "url": "https://en.wikipedia.org/wiki/Bia_National_Park"
+        }
+      },
+      "image": {
+        "file": "Bia_National_Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bia_National_Park.jpg",
+        "author": "AmarAfshin",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gh-kyabobo-national-park",
+      "name": "Kyabobo National Park",
+      "area": "Volta Region",
+      "city": "Volta Region",
+      "wikidata": "Q1638856",
+      "lat": 8.416667,
+      "lon": 0.616667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kyabobo National Park is a 360 km2 national park in Ghana.",
+        "es": "Kyabobo National Park is a 360 km2 national park in Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kyabobo National Park",
+          "url": "https://en.wikipedia.org/wiki/Kyabobo_National_Park"
+        },
+        "es": {
+          "title": "Kyabobo National Park",
+          "url": "https://en.wikipedia.org/wiki/Kyabobo_National_Park"
+        }
+      },
+      "image": {
+        "file": "Small_Waterfall_at_Kyabobo_National_Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Small_Waterfall_at_Kyabobo_National_Park.jpg",
+        "author": "Sean Moran",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gh-boti-falls",
+      "name": "Boti Falls",
+      "area": "Eastern Region",
+      "city": "Eastern Region",
+      "wikidata": "Q16845075",
+      "lat": 6.164722,
+      "lon": -0.201389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Boti Falls is a twin waterfall located at Boti in Yilo Krobo District in the Eastern Region of Ghana.",
+        "es": "Boti Falls is a twin waterfall located at Boti in Yilo Krobo District in the Eastern Region of Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Boti Falls",
+          "url": "https://en.wikipedia.org/wiki/Boti_Falls"
+        },
+        "es": {
+          "title": "Boti Falls",
+          "url": "https://en.wikipedia.org/wiki/Boti_Falls"
+        }
+      },
+      "image": {
+        "file": "Boti.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Boti.png",
+        "author": "Benutzer:Eggi",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gh-kintampo-waterfalls",
+      "name": "Kintampo waterfalls",
+      "area": "Kintampo North Municipal Assembly",
+      "city": "Kintampo North Municipal Assembly",
+      "wikidata": "Q6414333",
+      "lat": 8.089653,
+      "lon": -1.697389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kintampo waterfalls is one of Ghana' highest waterfalls located in Bono East.",
+        "es": "Kintampo waterfalls is one of Ghana' highest waterfalls located in Bono East."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kintampo waterfalls",
+          "url": "https://en.wikipedia.org/wiki/Kintampo_waterfalls"
+        },
+        "es": {
+          "title": "Kintampo waterfalls",
+          "url": "https://en.wikipedia.org/wiki/Kintampo_waterfalls"
+        }
+      },
+      "image": {
+        "file": "Kintempo_Water_Falls_II.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kintempo_Water_Falls_II.jpg",
+        "author": "Sean Moran",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gh-kwame-nkrumah-mausoleum",
+      "name": "Kwame Nkrumah Mausoleum",
+      "area": "Accra",
+      "city": "Accra",
+      "wikidata": "Q13848097",
+      "lat": 5.54444,
+      "lon": -0.202778,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Kwame Nkrumah Memorial Park and Mausoleum is located in downtown Accra, the capital of Ghana.",
+        "es": "El Mausoleo de Kwame Nkrumah o también conocido como «mausoleo y parque conmemorativo de Kwame Nkrumah» es un espacio público situado en el centro de Acra, Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kwame Nkrumah Memorial Park",
+          "url": "https://en.wikipedia.org/wiki/Kwame_Nkrumah_Memorial_Park"
+        },
+        "es": {
+          "title": "Mausoleo de Kwame Nkrumah",
+          "url": "https://es.wikipedia.org/wiki/Mausoleo_de_Kwame_Nkrumah"
+        }
+      },
+      "image": {
+        "file": "Kwame_nkrumah_grave_accra_ghana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kwame_nkrumah_grave_accra_ghana.jpg",
+        "author": "Edward Kamau",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "gh-fort-saint-anthony",
+      "name": "Fort Saint Anthony",
+      "area": "Axim",
+      "city": "Axim",
+      "wikidata": "Q1998460",
+      "lat": 4.868,
+      "lon": -2.2444,
+      "category": "shopping",
+      "interests": [
+        "markets",
+        "shopping"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Fort Saint Anthony was a fort built by the Portuguese in 1515 near the town of Axim, in what is now Ghana.",
+        "es": "Fort Saint Anthony was a fort built by the Portuguese in 1515 near the town of Axim, in what is now Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fort Saint Anthony",
+          "url": "https://en.wikipedia.org/wiki/Fort_Saint_Anthony"
+        },
+        "es": {
+          "title": "Fort Saint Anthony",
+          "url": "https://en.wikipedia.org/wiki/Fort_Saint_Anthony"
+        }
+      },
+      "image": {
+        "file": "Fort_Saint_Anthony_in_Axim,_Western_Region,_Ghana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fort_Saint_Anthony_in_Axim%2C_Western_Region%2C_Ghana.jpg",
+        "author": "Jesuraj Alakassery",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gh-fort-coenraadsburg",
+      "name": "Fort Coenraadsburg",
+      "area": "Central Region",
+      "city": "Central Region",
+      "wikidata": "Q478471",
+      "lat": 5.08474,
+      "lon": -1.3508,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Fort Coenraadsburg or Conraadsburg, also Fort São Tiago da Mina, is a small fort situated opposite the Elmina Castle in the Central region of Ghana, built around a Portuguese chapel for Saint Jago, to protect Fort…",
+        "es": "Fort Coenraadsburg or Conraadsburg, also Fort São Tiago da Mina, is a small fort situated opposite the Elmina Castle in the Central region of Ghana, built around a Portuguese chapel for Saint Jago, to protect Fort…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fort Coenraadsburg",
+          "url": "https://en.wikipedia.org/wiki/Fort_Coenraadsburg"
+        },
+        "es": {
+          "title": "Fort Coenraadsburg",
+          "url": "https://en.wikipedia.org/wiki/Fort_Coenraadsburg"
+        }
+      },
+      "image": {
+        "file": "St_Jago.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St_Jago.JPG",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gh-fort-nassau",
+      "name": "Fort Nassau",
+      "area": "Central Region",
+      "city": "Central Region",
+      "wikidata": "Q504406",
+      "lat": 5.133333,
+      "lon": -1.2,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Fort Nassau, near Moree, Ghana, was the first fort that the Dutch established on what would become the Dutch Gold Coast.",
+        "es": "Fort Nassau, near Moree, Ghana, was the first fort that the Dutch established on what would become the Dutch Gold Coast."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fort Nassau, Ghana",
+          "url": "https://en.wikipedia.org/wiki/Fort_Nassau%2C_Ghana"
+        },
+        "es": {
+          "title": "Fort Nassau, Ghana",
+          "url": "https://en.wikipedia.org/wiki/Fort_Nassau%2C_Ghana"
+        }
+      },
+      "image": {
+        "file": "FortNassauMouri.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:FortNassauMouri.JPG",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gh-ghana-national-mosque",
+      "name": "Ghana National Mosque",
+      "area": "Accra",
+      "city": "Accra",
+      "wikidata": "Q105555389",
+      "lat": 5.590694,
+      "lon": -0.189583,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Ghana National Mosque is a mosque and Islamic complex in Accra, the capital city of Ghana; and has served as the national mosque for the country since 2021.",
+        "es": "The Ghana National Mosque is a mosque and Islamic complex in Accra, the capital city of Ghana; and has served as the national mosque for the country since 2021."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ghana National Mosque",
+          "url": "https://en.wikipedia.org/wiki/Ghana_National_Mosque"
+        },
+        "es": {
+          "title": "Ghana National Mosque",
+          "url": "https://en.wikipedia.org/wiki/Ghana_National_Mosque"
+        }
+      },
+      "image": {
+        "file": "National_Mosque_of_Ghana1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:National_Mosque_of_Ghana1.jpg",
+        "author": "Amuzujoe",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gh-fort-metal-cross",
+      "name": "Fort Metal Cross",
+      "area": "Sekondi-Takoradi",
+      "city": "Sekondi-Takoradi",
+      "wikidata": "Q1427246",
+      "lat": 4.79342,
+      "lon": -1.94504,
+      "category": "shopping",
+      "interests": [
+        "markets",
+        "shopping"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Fort Metal Cross, originally Fort Dixcove, is a military structure located on a promontory at the fishing community of Infuma in Dixcove, in the Western Region of Ghana.",
+        "es": "Fort Metal Cross, originally Fort Dixcove, is a military structure located on a promontory at the fishing community of Infuma in Dixcove, in the Western Region of Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fort Metal Cross",
+          "url": "https://en.wikipedia.org/wiki/Fort_Metal_Cross"
+        },
+        "es": {
+          "title": "Fort Metal Cross",
+          "url": "https://en.wikipedia.org/wiki/Fort_Metal_Cross"
+        }
+      },
+      "image": {
+        "file": "Fort_Metal_Cross.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fort_Metal_Cross.jpg",
+        "author": "Nicholas McGee",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gh-fort-goede-hoop",
+      "name": "Fort Goede Hoop",
+      "area": "Accra",
+      "city": "Accra",
+      "wikidata": "Q1963564",
+      "lat": 5.3874,
+      "lon": -0.4898,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Fort de Goede Hoop is a historic Dutch fort located in Senya Beraku, Central Region, Ghana.",
+        "es": "Fort de Goede Hoop is a historic Dutch fort located in Senya Beraku, Central Region, Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fort Goede Hoop, Ghana",
+          "url": "https://en.wikipedia.org/wiki/Fort_Goede_Hoop%2C_Ghana"
+        },
+        "es": {
+          "title": "Fort Goede Hoop, Ghana",
+          "url": "https://en.wikipedia.org/wiki/Fort_Goede_Hoop%2C_Ghana"
+        }
+      },
+      "image": {
+        "file": "Overzicht_binnenplaats_naar_de_achtergevel_-_Senya_Beraku_-_20375244_-_RCE.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Overzicht_binnenplaats_naar_de_achtergevel_-_Senya_Beraku_-_20375244_-_RCE.jpg",
+        "author": "Loek Tangel",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gh-ussher-fort",
+      "name": "Ussher Fort",
+      "area": "Accra",
+      "city": "Accra",
+      "wikidata": "Q2424003",
+      "lat": 5.5385,
+      "lon": -0.2082,
+      "category": "shopping",
+      "interests": [
+        "markets",
+        "shopping"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Ussher Fort is a fort in Accra, Ghana. It was built by the Dutch in 1649 as Fort Crèvecœur, and is two days' march from Elmina and to the west of Accra on a rocky point between two lagoons.",
+        "es": "Ussher Fort is a fort in Accra, Ghana. It was built by the Dutch in 1649 as Fort Crèvecœur, and is two days' march from Elmina and to the west of Accra on a rocky point between two lagoons."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ussher Fort",
+          "url": "https://en.wikipedia.org/wiki/Ussher_Fort"
+        },
+        "es": {
+          "title": "Ussher Fort",
+          "url": "https://en.wikipedia.org/wiki/Ussher_Fort"
+        }
+      },
+      "image": {
+        "file": "Crevecoeur_and_James_Fort.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Crevecoeur_and_James_Fort.png",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gh-black-star-gate",
+      "name": "Black Star Gate",
+      "area": "Accra",
+      "city": "Accra",
+      "wikidata": "Q98410976",
+      "lat": 5.54901,
+      "lon": -0.19286,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Black Star Gate is a monument located in Accra, Ghana, at the center of Black Star Square.",
+        "es": "The Black Star Gate is a monument located in Accra, Ghana, at the center of Black Star Square."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Black Star Gate",
+          "url": "https://en.wikipedia.org/wiki/Black_Star_Gate"
+        },
+        "es": {
+          "title": "Black Star Gate",
+          "url": "https://en.wikipedia.org/wiki/Black_Star_Gate"
+        }
+      },
+      "image": {
+        "file": "Black_Star_Gate_(21712600269).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Black_Star_Gate_(21712600269).jpg",
+        "author": "David Stanley from Nanaimo, Canada",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gh-nini-suhien-national-park",
+      "name": "Nini Suhien National Park",
+      "area": "Western Region",
+      "city": "Western Region",
+      "wikidata": "Q556596",
+      "lat": 5.276944,
+      "lon": -2.567778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Nini-Suhien National Park is found in Ghana.",
+        "es": "The Nini-Suhien National Park is found in Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nini Suhien National Park",
+          "url": "https://en.wikipedia.org/wiki/Nini_Suhien_National_Park"
+        },
+        "es": {
+          "title": "Nini Suhien National Park",
+          "url": "https://en.wikipedia.org/wiki/Nini_Suhien_National_Park"
+        }
+      }
+    },
+    {
+      "id": "gh-adome-bridge",
+      "name": "Adome Bridge",
+      "area": "Asuogyaman District",
+      "city": "Asuogyaman District",
+      "wikidata": "Q167088",
+      "lat": 6.239444,
+      "lon": 0.095556,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Adomi Bridge is a latticed steel arch suspension bridge crossing the Volta River at Atimpoku in Ghana in West Africa.",
+        "es": "El puente Adome es un puente situado en Ghana, en África occidental."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Adomi Bridge",
+          "url": "https://en.wikipedia.org/wiki/Adomi_Bridge"
+        },
+        "es": {
+          "title": "Puente Adome",
+          "url": "https://es.wikipedia.org/wiki/Puente_Adome"
+        }
+      },
+      "image": {
+        "file": "Lake_Volta_07.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Volta_07.jpg",
+        "author": "Nora Morgan",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gh-fort-apollonia",
+      "name": "Fort Apollonia",
+      "area": "Western Region",
+      "city": "Western Region",
+      "wikidata": "Q2159452",
+      "lat": 4.987,
+      "lon": -2.59,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Fort Apollonia is a fort in Beyin, Ghana.",
+        "es": "Fort Apollonia is a fort in Beyin, Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fort Apollonia",
+          "url": "https://en.wikipedia.org/wiki/Fort_Apollonia"
+        },
+        "es": {
+          "title": "Fort Apollonia",
+          "url": "https://en.wikipedia.org/wiki/Fort_Apollonia"
+        }
+      },
+      "image": {
+        "file": "Fort_Apollonia_001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fort_Apollonia_001.jpg",
+        "author": "Kwameghana",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gh-national-theatre-of-ghana",
+      "name": "National Theatre of Ghana",
+      "area": "Accra",
+      "city": "Accra",
+      "wikidata": "Q6978924",
+      "website": "https://www.nationaltheatre.gov.gh",
+      "lat": 5.55367,
+      "lon": -0.20059,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The National Theatre of Ghana opened in Accra, the capital of Ghana, in 1992.",
+        "es": "The National Theatre of Ghana opened in Accra, the capital of Ghana, in 1992."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Theatre of Ghana",
+          "url": "https://en.wikipedia.org/wiki/National_Theatre_of_Ghana"
+        },
+        "es": {
+          "title": "National Theatre of Ghana",
+          "url": "https://en.wikipedia.org/wiki/National_Theatre_of_Ghana"
+        }
+      },
+      "image": {
+        "file": "National_Theatre_of_Ghana_20060826.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:National_Theatre_of_Ghana_20060826.jpg",
+        "author": "Guido Sohne",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "gh-fort-james",
+      "name": "Fort James",
+      "area": "Accra",
+      "city": "Accra",
+      "wikidata": "Q5471403",
+      "lat": 5.5337,
+      "lon": -0.2111,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Fort James is a fort located in Accra, Ghana.",
+        "es": "Fort James is a fort located in Accra, Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fort James, Ghana",
+          "url": "https://en.wikipedia.org/wiki/Fort_James%2C_Ghana"
+        },
+        "es": {
+          "title": "Fort James, Ghana",
+          "url": "https://en.wikipedia.org/wiki/Fort_James%2C_Ghana"
+        }
+      },
+      "image": {
+        "file": "James_Fort_Ghana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:James_Fort_Ghana.jpg",
+        "author": "Synth85",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gh-cathedral-basilica-of-our-lady-of-seven-sorrows",
+      "name": "Cathedral Basilica of Our Lady of Seven Sorrows",
+      "area": "Upper East Region",
+      "city": "Upper East Region",
+      "wikidata": "Q4255947",
+      "lat": 10.88427,
+      "lon": -1.077864,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral Basilica of Our Lady of Seven Sorrows is a Roman Catholic cathedral and basilica dedicated to the Blessed Virgin Mary located in Navrongo, Upper East Region, Ghana.",
+        "es": "La Catedral Basílica de Nuestra Señora de los Siete Dolores es una catedral católica y basílica dedicada a la Virgen María situada en la localidad de Navrongo, en el país africano de Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral Basilica of Our Lady of Seven Sorrows, Navrongo",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_Basilica_of_Our_Lady_of_Seven_Sorrows%2C_Navrongo"
+        },
+        "es": {
+          "title": "Catedral basílica de Nuestra Señora de los Siete Dolores (Navrongo)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_los_Siete_Dolores_(Navrongo)"
+        }
+      },
+      "image": {
+        "file": "Old_Navrongo_Catholic_Cathedral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Old_Navrongo_Catholic_Cathedral.jpg",
+        "author": "Kwameghana",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gh-elmina-java-museum",
+      "name": "Elmina Java Museum",
+      "area": "Elmina",
+      "city": "Elmina",
+      "wikidata": "Q15045463",
+      "website": "https://www.eaumf.org/elmina-java-museum",
+      "lat": 5.0995,
+      "lon": -1.3468,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Elmina Java Museum is a museum in Elmina, Ghana, dedicated to the history of the so-called Belanda Hitam; soldiers recruited in the 19th century in the Dutch Gold Coast to serve in the Royal Netherlands East…",
+        "es": "The Elmina Java Museum is a museum in Elmina, Ghana, dedicated to the history of the so-called Belanda Hitam; soldiers recruited in the 19th century in the Dutch Gold Coast to serve in the Royal Netherlands East…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Elmina Java Museum",
+          "url": "https://en.wikipedia.org/wiki/Elmina_Java_Museum"
+        },
+        "es": {
+          "title": "Elmina Java Museum",
+          "url": "https://en.wikipedia.org/wiki/Elmina_Java_Museum"
+        }
+      },
+      "image": {
+        "file": "Elmina_Java_Museum_sign.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elmina_Java_Museum_sign.jpg",
+        "author": "Fentener van Vlissingen",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gh-mount-adaklu",
+      "name": "Mount Adaklu",
+      "area": "Adaklu District",
+      "city": "Adaklu District",
+      "wikidata": "Q6919243",
+      "lat": 6.49725,
+      "lon": 0.498472,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Adaklu is a mountain situated 12 km from Ho in the Volta Region of Ghana.",
+        "es": "Mount Adaklu is a mountain situated 12 km from Ho in the Volta Region of Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Adaklu",
+          "url": "https://en.wikipedia.org/wiki/Mount_Adaklu"
+        },
+        "es": {
+          "title": "Mount Adaklu",
+          "url": "https://en.wikipedia.org/wiki/Mount_Adaklu"
+        }
+      }
+    },
+    {
+      "id": "gh-fort-william",
+      "name": "Fort William",
+      "area": "Central Region",
+      "city": "Central Region",
+      "wikidata": "Q5472327",
+      "lat": 5.17419,
+      "lon": -1.1189,
+      "category": "shopping",
+      "interests": [
+        "markets",
+        "shopping"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Fort William is a fort in Anomabu, Central Region, Ghana, originally known as Fort Anomabo and renamed Fort William in the 1830s by its then-commander, Brodie Cruickshank, who added one storey to the main building,…",
+        "es": "Fort William is a fort in Anomabu, Central Region, Ghana, originally known as Fort Anomabo and renamed Fort William in the 1830s by its then-commander, Brodie Cruickshank, who added one storey to the main building,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fort William, Ghana",
+          "url": "https://en.wikipedia.org/wiki/Fort_William%2C_Ghana"
+        },
+        "es": {
+          "title": "Fort William, Ghana",
+          "url": "https://en.wikipedia.org/wiki/Fort_William%2C_Ghana"
+        }
+      },
+      "image": {
+        "file": "Fort_Williams_Ghana_(9_of_9).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fort_Williams_Ghana_(9_of_9).jpg",
+        "author": "Owula kpakpo",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gh-fort-william-lighthouse",
+      "name": "Fort William Lighthouse",
+      "area": "Cape Coast Metropolitan District",
+      "city": "Cape Coast Metropolitan District",
+      "wikidata": "Q55611926",
+      "lat": 5.10797,
+      "lon": -1.24428,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Fort William Lighthouse is a lighthouse located on Dawson's Hill in the old town of Cape Coast, Ghana's Central Region.",
+        "es": "Fort William Lighthouse is a lighthouse located on Dawson's Hill in the old town of Cape Coast, Ghana's Central Region."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fort William Lighthouse",
+          "url": "https://en.wikipedia.org/wiki/Fort_William_Lighthouse"
+        },
+        "es": {
+          "title": "Fort William Lighthouse",
+          "url": "https://en.wikipedia.org/wiki/Fort_William_Lighthouse"
+        }
+      },
+      "image": {
+        "file": "Fort_William_(3_of_9).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fort_William_(3_of_9).jpg",
+        "author": "Owula kpakpo",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gh-nakore-mosque",
+      "name": "Nakore Mosque",
+      "area": "Wa",
+      "city": "Wa",
+      "wikidata": "Q98293324",
+      "lat": 10.060323,
+      "lon": -2.510053,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Nakore Mosque is a small mosque located in the village of Nakore, southwest of Wa, in the Upper West region of Ghana.",
+        "es": "The Nakore Mosque is a small mosque located in the village of Nakore, southwest of Wa, in the Upper West region of Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nakore Mosque",
+          "url": "https://en.wikipedia.org/wiki/Nakore_Mosque"
+        },
+        "es": {
+          "title": "Nakore Mosque",
+          "url": "https://en.wikipedia.org/wiki/Nakore_Mosque"
+        }
+      },
+      "image": {
+        "file": "Nakore_Mosque,_Upper_West_Region,_Ghana_3.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nakore_Mosque%2C_Upper_West_Region%2C_Ghana_3.JPG",
+        "author": "Virtutepetens",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gh-akaa-falls",
+      "name": "Akaa Falls",
+      "area": "Akuapim North Municipal District",
+      "city": "Akuapim North Municipal District",
+      "wikidata": "Q106954094",
+      "lat": 6.17503,
+      "lon": -0.19614,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Akaa Falls is located near the Akyeremanteng village in the Akuapem North District, is about 21 kilometres northeast of Koforidua in the Eastern Region of Ghana.",
+        "es": "The Akaa Falls is located near the Akyeremanteng village in the Akuapem North District, is about 21 kilometres northeast of Koforidua in the Eastern Region of Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Akaa Falls",
+          "url": "https://en.wikipedia.org/wiki/Akaa_Falls"
+        },
+        "es": {
+          "title": "Akaa Falls",
+          "url": "https://en.wikipedia.org/wiki/Akaa_Falls"
+        }
+      },
+      "image": {
+        "file": "Aka_falls_-_Ghana_-_West_Africa.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aka_falls_-_Ghana_-_West_Africa.png",
+        "author": "Neeti Shree",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gh-dakrupe-mosque",
+      "name": "Dakrupe Mosque",
+      "area": "Kumasi",
+      "city": "Kumasi",
+      "wikidata": "Q98410401",
+      "lat": 6.6209,
+      "lon": -1.63,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Dakrupe Mosque was a mosque located in the village of Dakrupe, in the Savannah region of Ghana.",
+        "es": "The Dakrupe Mosque was a mosque located in the village of Dakrupe, in the Savannah region of Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dakrupe Mosque",
+          "url": "https://en.wikipedia.org/wiki/Dakrupe_Mosque"
+        },
+        "es": {
+          "title": "Dakrupe Mosque",
+          "url": "https://en.wikipedia.org/wiki/Dakrupe_Mosque"
+        }
+      }
+    },
+    {
+      "id": "gh-ghana-armed-forces-museum",
+      "name": "Ghana Armed Forces Museum",
+      "area": "Kumasi",
+      "city": "Kumasi",
+      "wikidata": "Q16251736",
+      "lat": 6.691367,
+      "lon": -1.624872,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Armed Forces Museum, also known as the Kumasi Fort, is a military history museum located in Kumasi, Ghana.",
+        "es": "The Armed Forces Museum, also known as the Kumasi Fort, is a military history museum located in Kumasi, Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Armed Forces Museum (Ghana)",
+          "url": "https://en.wikipedia.org/wiki/Armed_Forces_Museum_(Ghana)"
+        },
+        "es": {
+          "title": "Armed Forces Museum (Ghana)",
+          "url": "https://en.wikipedia.org/wiki/Armed_Forces_Museum_(Ghana)"
+        }
+      },
+      "image": {
+        "file": "Ghana_Air_Force_Historic_Attack_Aircraft_and_Attack_Helicopter.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ghana_Air_Force_Historic_Attack_Aircraft_and_Attack_Helicopter.jpg",
+        "author": "jbdodane",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gh-wesley-methodist-cathedral",
+      "name": "Wesley Methodist Cathedral",
+      "area": "Kumasi",
+      "city": "Kumasi",
+      "wikidata": "Q386380",
+      "lat": 6.693611,
+      "lon": -1.623333,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Wesley Methodist Cathedral is a Methodist cathedral located in Kumasi, Ghana.",
+        "es": "Wesley Methodist Cathedral is a Methodist cathedral located in Kumasi, Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wesley Methodist Cathedral (Kumasi)",
+          "url": "https://en.wikipedia.org/wiki/Wesley_Methodist_Cathedral_(Kumasi)"
+        },
+        "es": {
+          "title": "Wesley Methodist Cathedral (Kumasi)",
+          "url": "https://en.wikipedia.org/wiki/Wesley_Methodist_Cathedral_(Kumasi)"
+        }
+      },
+      "image": {
+        "file": "Wesley_Methodist_Cathedral,_Kumasi,_Ghana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wesley_Methodist_Cathedral%2C_Kumasi%2C_Ghana.jpg",
+        "author": "ZSM",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gh-st-peter-s-cathedral-basilica-kumasi",
+      "name": "St Peter's Cathedral Basilica, Kumasi",
+      "area": "Kumasi",
+      "city": "Kumasi",
+      "wikidata": "Q7595206",
+      "lat": 6.695337,
+      "lon": -1.618027,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The St. Peter's Cathedral Basilica is a Roman Catholic cathedral and basilica dedicated to Saint Peter located in Kumasi, Ghana.",
+        "es": "La Catedral Basílica de San Pedro es un edificio religioso que pertenece a la Iglesia católica y funciona como la catedral y la basílica regional dedicada a San Pedro y ubicada en la localidad de Kumasi, parte de la…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Peter's Cathedral Basilica, Kumasi",
+          "url": "https://en.wikipedia.org/wiki/St_Peter's_Cathedral_Basilica%2C_Kumasi"
+        },
+        "es": {
+          "title": "Catedral basílica de San Pedro (Kumasi)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_bas%C3%ADlica_de_San_Pedro_(Kumasi)"
+        }
+      },
+      "image": {
+        "file": "Basilica_Kumasi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Basilica_Kumasi.jpg",
+        "author": "Hugues",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "gh-manhiya-palace-museum",
+      "name": "Manhiya Palace Museum",
+      "area": "Kumasi",
+      "city": "Kumasi",
+      "wikidata": "Q16267974",
+      "website": "https://manhyiapalacemuseum.org/#",
+      "lat": 6.706786,
+      "lon": -1.614321,
+      "phone": "+233 256071700",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Manhyia Palace Museum is a historical museum located in Kumasi, Ashanti, Ghana and situated within the Manhyia Palace.",
+        "es": "The Manhyia Palace Museum is a historical museum located in Kumasi, Ashanti, Ghana and situated within the Manhyia Palace."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Manhyia Palace Museum",
+          "url": "https://en.wikipedia.org/wiki/Manhyia_Palace_Museum"
+        },
+        "es": {
+          "title": "Manhyia Palace Museum",
+          "url": "https://en.wikipedia.org/wiki/Manhyia_Palace_Museum"
+        }
+      }
+    },
+    {
+      "id": "gh-prempeh-jubilee-museum",
+      "name": "Prempeh Jubilee Museum",
+      "area": "Kumasi",
+      "city": "Kumasi",
+      "wikidata": "Q16267976",
+      "lat": 6.701472,
+      "lon": -1.63,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Prempeh II Jubilee Museum is a museum located in Kumasi, Ghana.",
+        "es": "The Prempeh II Jubilee Museum is a museum located in Kumasi, Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Prempeh II Jubilee Museum",
+          "url": "https://en.wikipedia.org/wiki/Prempeh_II_Jubilee_Museum"
+        },
+        "es": {
+          "title": "Prempeh II Jubilee Museum",
+          "url": "https://en.wikipedia.org/wiki/Prempeh_II_Jubilee_Museum"
+        }
+      }
+    },
+    {
+      "id": "gh-kumasi-zoo",
+      "name": "Kumasi Zoo",
+      "area": "Kumasi",
+      "city": "Kumasi",
+      "wikidata": "Q18344049",
+      "lat": 6.701,
+      "lon": -1.626,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Kumasi Zoo is a zoo located in the heart of Kumasi in the Ashanti Region of Ghana.",
+        "es": "The Kumasi Zoo is a zoo located in the heart of Kumasi in the Ashanti Region of Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kumasi Zoo",
+          "url": "https://en.wikipedia.org/wiki/Kumasi_Zoo"
+        },
+        "es": {
+          "title": "Kumasi Zoo",
+          "url": "https://en.wikipedia.org/wiki/Kumasi_Zoo"
+        }
+      },
+      "image": {
+        "file": "Migrant_birds_with_daily_routine_journey_from_the_Kumasi_zoo_to_the_hinterland.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Migrant_birds_with_daily_routine_journey_from_the_Kumasi_zoo_to_the_hinterland.jpg",
+        "author": "Saani mujahidu",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gh-rattray-park",
+      "name": "Rattray Park",
+      "area": "Kumasi",
+      "city": "Kumasi",
+      "wikidata": "Q20536873",
+      "lat": 6.681781,
+      "lon": -1.626117,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rattray Park is a recreational and a modern amusement park located in Kumasi in the capital city of the Ashanti Region of Ghana.",
+        "es": "Rattray Park is a recreational and a modern amusement park located in Kumasi in the capital city of the Ashanti Region of Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rattray Park",
+          "url": "https://en.wikipedia.org/wiki/Rattray_Park"
+        },
+        "es": {
+          "title": "Rattray Park",
+          "url": "https://en.wikipedia.org/wiki/Rattray_Park"
+        }
+      }
+    },
+    {
+      "id": "gh-kumasi-central-mosque",
+      "name": "Kumasi Central Mosque",
+      "area": "Kumasi",
+      "city": "Kumasi",
+      "wikidata": "Q117196194",
+      "lat": 6.666667,
+      "lon": -1.616667,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Kumasi Central Mosque is a mosque in Kumasi, the capital city of the Ashanti Region in Ghana.",
+        "es": "The Kumasi Central Mosque is a mosque in Kumasi, the capital city of the Ashanti Region in Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kumasi Central Mosque",
+          "url": "https://en.wikipedia.org/wiki/Kumasi_Central_Mosque"
+        },
+        "es": {
+          "title": "Kumasi Central Mosque",
+          "url": "https://en.wikipedia.org/wiki/Kumasi_Central_Mosque"
+        }
+      }
+    },
+    {
+      "id": "gh-holy-trinity-cathedral",
+      "name": "Holy Trinity Cathedral",
+      "area": "Accra",
+      "city": "Accra",
+      "wikidata": "Q9710080",
+      "lat": 5.541298,
+      "lon": -0.206018,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Holy Trinity Cathedral, officially known as Cathedral Church of the Most Holy Trinity is an Anglican church in Accra, Ghana.",
+        "es": "The Holy Trinity Cathedral, officially known as Cathedral Church of the Most Holy Trinity is an Anglican church in Accra, Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Holy Trinity Cathedral (Accra)",
+          "url": "https://en.wikipedia.org/wiki/Holy_Trinity_Cathedral_(Accra)"
+        },
+        "es": {
+          "title": "Holy Trinity Cathedral (Accra)",
+          "url": "https://en.wikipedia.org/wiki/Holy_Trinity_Cathedral_(Accra)"
+        }
+      },
+      "image": {
+        "file": "Holy_Trinity_Church_03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Holy_Trinity_Church_03.jpg",
+        "author": "Shahadusadik",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gh-holy-spirit-cathedral-accra",
+      "name": "Holy Spirit Cathedral (Accra)",
+      "area": "Accra",
+      "city": "Accra",
+      "wikidata": "Q3663658",
+      "lat": 5.56249,
+      "lon": -0.206806,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Holy Spirit Cathedral in Accra, Ghana, is the main church of the Roman Catholic Archdiocese of Accra.",
+        "es": "The Holy Spirit Cathedral in Accra, Ghana, is the main church of the Roman Catholic Archdiocese of Accra."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Holy Spirit Cathedral (Accra)",
+          "url": "https://en.wikipedia.org/wiki/Holy_Spirit_Cathedral_(Accra)"
+        },
+        "es": {
+          "title": "Holy Spirit Cathedral (Accra)",
+          "url": "https://en.wikipedia.org/wiki/Holy_Spirit_Cathedral_(Accra)"
+        }
+      },
+      "image": {
+        "file": "Cathedral_Ghana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_Ghana.jpg",
+        "author": "Amuzujoe",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gh-bisa-abrewa-museum",
+      "name": "Bisa Abrewa Museum",
+      "area": "Sekondi-Takoradi",
+      "city": "Sekondi-Takoradi",
+      "wikidata": "Q104762344",
+      "lat": 4.92143,
+      "lon": -1.7443,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Bisa Abrewa Museum is a museum in Nkontompo in the Sekondi-Takoradi Metropolis of the Western Region, Ghana.",
+        "es": "Bisa Abrewa Museum is a museum in Nkontompo in the Sekondi-Takoradi Metropolis of the Western Region, Ghana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bisa Aberwa Museum",
+          "url": "https://en.wikipedia.org/wiki/Bisa_Aberwa_Museum"
+        },
+        "es": {
+          "title": "Bisa Aberwa Museum",
+          "url": "https://en.wikipedia.org/wiki/Bisa_Aberwa_Museum"
+        }
+      }
+    },
+    {
+      "id": "gh-fort-sekondi",
+      "name": "Fort Sekondi",
+      "area": "Sekondi-Takoradi",
+      "city": "Sekondi-Takoradi",
+      "wikidata": "Q1438711",
+      "lat": 4.9415,
+      "lon": -1.7095,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Fort Sekondi, also Fort George, was an English fort on the Gold Coast, built in 1682 at Sekondi.",
+        "es": "Fort Sekondi, also Fort George, was an English fort on the Gold Coast, built in 1682 at Sekondi."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fort Sekondi",
+          "url": "https://en.wikipedia.org/wiki/Fort_Sekondi"
+        },
+        "es": {
+          "title": "Fort Sekondi",
+          "url": "https://en.wikipedia.org/wiki/Fort_Sekondi"
+        }
+      },
+      "image": {
+        "file": "FortsSekondi.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:FortsSekondi.JPG",
+        "author": "Unknown",
+        "license": "Public domain"
       }
     }
   ]

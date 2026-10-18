@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -142,6 +148,246 @@
       "lat": -21.17361,
       "lon": 27.5125,
       "phone": "+267 2403088"
+    },
+    {
+      "id": "bw-otse-hill",
+      "name": "Otse Hill",
+      "area": "Gaborone",
+      "city": "Gaborone",
+      "wikidata": "Q3491942",
+      "lat": -25.018333,
+      "lon": 25.725833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Otse Hill is a peak often cited as the highest point of Botswana, with a reported altitude of 1,491 metres.",
+        "es": "Cerro Otse es un pico y el punto más alto de Botsuana, con una altitud de 1.491 metros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Otse Hill",
+          "url": "https://en.wikipedia.org/wiki/Otse_Hill"
+        },
+        "es": {
+          "title": "Cerro Otse",
+          "url": "https://es.wikipedia.org/wiki/Cerro_Otse"
+        }
+      },
+      "image": {
+        "file": "Lovers_mountains.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lovers_mountains.jpg",
+        "author": "Morgane Sekalaba",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bw-monalanong-hill",
+      "name": "Monalanong Hill",
+      "area": "Gaborone",
+      "city": "Gaborone",
+      "wikidata": "Q6897936",
+      "lat": -24.840833,
+      "lon": 25.665,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Monalanong Hill is a mountain often considered the highest point of Botswana, with an altitude derived from SRTM data of 1,494 metres.",
+        "es": "Monte Monalanong es una montaña a menudo considerada el punto más alto del país africano de Botsuana, con una altitud según algunas fuentes de 1.494 metros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Monalanong Hill",
+          "url": "https://en.wikipedia.org/wiki/Monalanong_Hill"
+        },
+        "es": {
+          "title": "Monalanong",
+          "url": "https://es.wikipedia.org/wiki/Monalanong"
+        }
+      },
+      "image": {
+        "file": "Mannyelanong_Hill_20200721.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mannyelanong_Hill_20200721.jpg",
+        "author": "CNJerem",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "bw-kgale-hill",
+      "name": "Kgale Hill",
+      "area": "Gaborone",
+      "city": "Gaborone",
+      "wikidata": "Q4352520",
+      "lat": -24.6957,
+      "lon": 25.8678,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kgale Hill is a hill located in Gaborone, Botswana.",
+        "es": "El cerro Kgale es un cerro localizado en Gaborone, Botsuana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kgale Hill",
+          "url": "https://en.wikipedia.org/wiki/Kgale_Hill"
+        },
+        "es": {
+          "title": "Cerro Kgale",
+          "url": "https://es.wikipedia.org/wiki/Cerro_Kgale"
+        }
+      },
+      "image": {
+        "file": "Kgale_Hill_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kgale_Hill_2.jpg",
+        "author": "Athena Lao",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "bw-christ-the-king-cathedral",
+      "name": "Christ the King Cathedral",
+      "area": "Gaborone",
+      "city": "Gaborone",
+      "wikidata": "Q926642",
+      "lat": -24.656944,
+      "lon": 25.918611,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Christ the King Cathedral is a Roman Catholic church in Gaborone, Botswana.",
+        "es": "La Catedral de Cristo Rey es una iglesia católica en la localidad de Gaborone, la ciudad capital del país africano de Botsuana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Christ the King Cathedral (Gaborone)",
+          "url": "https://en.wikipedia.org/wiki/Christ_the_King_Cathedral_(Gaborone)"
+        },
+        "es": {
+          "title": "Catedral de Cristo Rey (Gaborone)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Cristo_Rey_(Gaborone)"
+        }
+      },
+      "image": {
+        "file": "Catholic_Christ_the_King_Cathedral_20200211.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catholic_Christ_the_King_Cathedral_20200211.jpg",
+        "author": "CNJerem",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "bw-three-dikgosi-monument",
+      "name": "Three Dikgosi Monument",
+      "area": "Gaborone",
+      "city": "Gaborone",
+      "wikidata": "Q7797448",
+      "lat": -24.644917,
+      "lon": 25.907333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Three Dikgosi Monument is a bronze sculpture located in the Central Business District of Gaborone, Botswana's capital city.",
+        "es": "The Three Dikgosi Monument is a bronze sculpture located in the Central Business District of Gaborone, Botswana's capital city."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Three Dikgosi Monument",
+          "url": "https://en.wikipedia.org/wiki/Three_Dikgosi_Monument"
+        },
+        "es": {
+          "title": "Three Dikgosi Monument",
+          "url": "https://en.wikipedia.org/wiki/Three_Dikgosi_Monument"
+        }
+      },
+      "image": {
+        "file": "Three_Dikgosi_Monument_Close_up.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Three_Dikgosi_Monument_Close_up.jpg",
+        "author": "Maatla Claudia",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "bw-national-botanical-garden",
+      "name": "National Botanical Garden",
+      "area": "Gaborone",
+      "city": "Gaborone",
+      "wikidata": "Q6971105",
+      "lat": -24.66679,
+      "lon": 25.94488,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The National Botanical Garden is a 7-hectare park located along the Notwane River 3 kilometres south-east of the city center of Gaborone.",
+        "es": "The National Botanical Garden is a 7-hectare park located along the Notwane River 3 kilometres south-east of the city center of Gaborone."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Botanical Garden (Botswana)",
+          "url": "https://en.wikipedia.org/wiki/National_Botanical_Garden_(Botswana)"
+        },
+        "es": {
+          "title": "National Botanical Garden (Botswana)",
+          "url": "https://en.wikipedia.org/wiki/National_Botanical_Garden_(Botswana)"
+        }
+      },
+      "image": {
+        "file": "1_National_Botanical_Gardens_Botswana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:1_National_Botanical_Gardens_Botswana.jpg",
+        "author": "S Molteno",
+        "license": "CC BY-SA 4.0"
+      }
     }
   ]
 }

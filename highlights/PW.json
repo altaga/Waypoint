@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -110,6 +116,515 @@
         "text": "Mo-Sa 09:00-17:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "pw-palau",
+      "name": "Palau",
+      "area": "Ngerulmud",
+      "city": "Ngerulmud",
+      "wikidata": "Q695",
+      "website": "https://www.palaugov.pw/",
+      "lat": 7.466667,
+      "lon": 134.55,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Palau, officially the Republic of Palau, is an island country located in the Micronesia subregion of Oceania in the western Pacific Ocean.",
+        "es": "Palaos, oficialmente la República de Palaos, es un país insular, uno de los cuatro que forman Micronesia y uno de los catorce que conforman Oceanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palau",
+          "url": "https://en.wikipedia.org/wiki/Palau"
+        },
+        "es": {
+          "title": "Palaos",
+          "url": "https://es.wikipedia.org/wiki/Palaos"
+        }
+      }
+    },
+    {
+      "id": "pw-babeldaob",
+      "name": "Babeldaob",
+      "area": "Ngerulmud",
+      "city": "Ngerulmud",
+      "wikidata": "Q746861",
+      "lat": 7.530278,
+      "lon": 134.564722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Babeldaob is the largest island in the island nation of Palau.",
+        "es": "Babeldaob o Babelthuap es la isla más grande de Palaos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Babeldaob",
+          "url": "https://en.wikipedia.org/wiki/Babeldaob"
+        },
+        "es": {
+          "title": "Babeldaob",
+          "url": "https://es.wikipedia.org/wiki/Babeldaob"
+        }
+      },
+      "image": {
+        "file": "Beach-in-melekeok20071222.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Beach-in-melekeok20071222.jpg",
+        "author": "Peter R. Binter (=Binter); The original uploader was Binter at German Wikipedia.",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pw-jellyfish-lake",
+      "name": "Jellyfish Lake",
+      "area": "Ngerulmud",
+      "city": "Ngerulmud",
+      "wikidata": "Q263422",
+      "lat": 7.161111,
+      "lon": 134.376111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Jellyfish Lake is a marine lake located on Eil Malk island in Palau.",
+        "es": "El lago de las Medusas se encuentra en las islas Palaos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jellyfish Lake",
+          "url": "https://en.wikipedia.org/wiki/Jellyfish_Lake"
+        },
+        "es": {
+          "title": "Lago de las Medusas",
+          "url": "https://es.wikipedia.org/wiki/Lago_de_las_Medusas"
+        }
+      },
+      "image": {
+        "file": "Jellyfish_Lake_aerial_(March_2008).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jellyfish_Lake_aerial_(March_2008).jpg",
+        "author": "Lukas from Munich, Germany",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "pw-mount-ngerchelchuus",
+      "name": "Mount Ngerchelchuus",
+      "area": "Ngerulmud",
+      "city": "Ngerulmud",
+      "wikidata": "Q1191219",
+      "lat": 7.565278,
+      "lon": 134.569444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Ngerchelchuus is the Republic of Palau's highest point, located at the border of the states of Ngardmau and Ngaremlengui, on the island of Babeldaob.",
+        "es": "Monte Ngerchelchuus también llamado a veces Monte Makelulu es una montaña que constituye el punto más alto de Palaos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Ngerchelchuus",
+          "url": "https://en.wikipedia.org/wiki/Mount_Ngerchelchuus"
+        },
+        "es": {
+          "title": "Monte Ngerchelchuus",
+          "url": "https://es.wikipedia.org/wiki/Monte_Ngerchelchuus"
+        }
+      },
+      "image": {
+        "file": "Mount_Ngerchelchuus.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Ngerchelchuus.JPG",
+        "author": "Abasaa",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pw-koror-island",
+      "name": "Koror Island",
+      "area": "Ngerulmud",
+      "city": "Ngerulmud",
+      "wikidata": "Q1784668",
+      "lat": 7.344167,
+      "lon": 134.481389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Koror is the state comprising the main commercial centre of the Republic of Palau.",
+        "es": "Isla de Koror es una isla de Palaos, situada en el Estado de Koror y que constituye donde se encuentra la mayor parte de la ciudad de Koror, la más grande del país y antigua capital de ese estado insular."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Koror",
+          "url": "https://en.wikipedia.org/wiki/Koror"
+        },
+        "es": {
+          "title": "Isla de Koror",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Koror"
+        }
+      },
+      "image": {
+        "file": "Aerial_view_of_Koror.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Koror.jpg",
+        "author": "U.S. National Park Service",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pw-koror-babeldaob-bridge",
+      "name": "Koror–Babeldaob Bridge",
+      "area": "Ngerulmud",
+      "city": "Ngerulmud",
+      "wikidata": "Q31374",
+      "lat": 7.36204,
+      "lon": 134.50424,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Koror–Babeldaob Bridge is a bridge in Palau that connects Koror and Babeldaob Islands.",
+        "es": "El puente de Koror-Babeldaob es un puente en Palaos que conecta las islas de Koror y Babeldaob."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Koror–Babeldaob Bridge",
+          "url": "https://en.wikipedia.org/wiki/Koror%E2%80%93Babeldaob_Bridge"
+        },
+        "es": {
+          "title": "Puente de Koror-Babeldaob",
+          "url": "https://es.wikipedia.org/wiki/Puente_de_Koror-Babeldaob"
+        }
+      },
+      "image": {
+        "file": "Japan_Palau_Friendship_Bridge.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Japan_Palau_Friendship_Bridge.jpg",
+        "author": "Randyqs at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pw-malakal-island",
+      "name": "Malakal Island",
+      "area": "Ngerulmud",
+      "city": "Ngerulmud",
+      "wikidata": "Q547662",
+      "lat": 7.3325,
+      "lon": 134.453056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Malakal Island is an island in the state of Koror, Palau.",
+        "es": "Malakal, también llamada Ngemelachel, es una pequeña isla en el Océano Pacífico occidental, que pertenece geográficamente a las Islas Palaos, y administrativamente depende de la isla y estado de Koror de la República…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Malakal Island",
+          "url": "https://en.wikipedia.org/wiki/Malakal_Island"
+        },
+        "es": {
+          "title": "Isla Malakal",
+          "url": "https://es.wikipedia.org/wiki/Isla_Malakal"
+        }
+      },
+      "image": {
+        "file": "Boatyard_koror20050906.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Boatyard_koror20050906.jpg",
+        "author": "Photographer: Dr. James P. McVey, NOAA Sea Grant Program;",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pw-ngerekebesang-island",
+      "name": "Ngerekebesang Island",
+      "area": "Ngerulmud",
+      "city": "Ngerulmud",
+      "wikidata": "Q625386",
+      "lat": 7.316667,
+      "lon": 134.45,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ngerekebesang Island is an island in the state of Koror, Palau, where the office of the President of Palau was located until the capital was moved to Ngerulmud in October 2006.",
+        "es": "Isla de Ngerekebesang es una isla en el estado de Koror, en Palaos, donde se encontraba la oficina del Presidente de la República de Palaos antes de que la capital se trasladara al estado de Melekeok."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ngerekebesang",
+          "url": "https://en.wikipedia.org/wiki/Ngerekebesang"
+        },
+        "es": {
+          "title": "Ngerekebesang",
+          "url": "https://es.wikipedia.org/wiki/Ngerekebesang"
+        }
+      },
+      "image": {
+        "file": "Palau-CIA_WFB_Map-de.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palau-CIA_WFB_Map-de.png",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pw-eil-malk",
+      "name": "Eil Malk",
+      "area": "Koror",
+      "city": "Koror",
+      "wikidata": "Q1303870",
+      "lat": 7.154167,
+      "lon": 134.3625,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Eil Malk or Mecherchar is the main island of the Mecherchar Islands, an island group of Palau in the Pacific Ocean.",
+        "es": "Eil Malk también llamada Mecherchar es la isla principal de las Islas Mecherchar, un archipiélago de Palaos en el Océano Pacífico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Eil Malk",
+          "url": "https://en.wikipedia.org/wiki/Eil_Malk"
+        },
+        "es": {
+          "title": "Eil Malk",
+          "url": "https://es.wikipedia.org/wiki/Eil_Malk"
+        }
+      },
+      "image": {
+        "file": "Palau-rock-islands20071222.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palau-rock-islands20071222.jpg",
+        "author": "Peter R. Binter (=Binter); The original uploader was Binter at German Wikipedia.",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pw-peleliu",
+      "name": "Peleliu",
+      "area": "Peleliu",
+      "city": "Peleliu",
+      "wikidata": "Q14752295",
+      "lat": 7.016667,
+      "lon": 134.25,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Peleliu is an island in the island nation of Palau.",
+        "es": "Peleliu es una isla en el Océano Pacífico que pertenece a la nación insular de Palaos, parte de Oceanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Peleliu",
+          "url": "https://en.wikipedia.org/wiki/Peleliu"
+        },
+        "es": {
+          "title": "Peleliu (isla)",
+          "url": "https://es.wikipedia.org/wiki/Peleliu_(isla)"
+        }
+      },
+      "image": {
+        "file": "Peleliu_map.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Peleliu_map.jpg",
+        "author": "USGS",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pw-nan-yo-shrine",
+      "name": "Nan'yō Shrine",
+      "area": "Ngerulmud",
+      "city": "Ngerulmud",
+      "wikidata": "Q712958",
+      "lat": 7.339722,
+      "lon": 134.496667,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Nanyo Shrine was a Shinto shrine located on the island of Koror, in Palau.",
+        "es": "El Santuario Nan'yō es un santuario sintoísta ubicado en la isla de Koror, en Palaos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nan'yō Shrine",
+          "url": "https://en.wikipedia.org/wiki/Nan'y%C5%8D_Shrine"
+        },
+        "es": {
+          "title": "Santuario Nan'yō",
+          "url": "https://es.wikipedia.org/wiki/Santuario_Nan'y%C5%8D"
+        }
+      },
+      "image": {
+        "file": "Nanyo_Shrine_Enshrinement_Festival_in_Palau_Nov_20_1940.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nanyo_Shrine_Enshrinement_Festival_in_Palau_Nov_20_1940.png",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pw-lake-ngardok",
+      "name": "Lake Ngardok",
+      "area": "Ngerulmud",
+      "city": "Ngerulmud",
+      "wikidata": "Q1813703",
+      "lat": 7.5125,
+      "lon": 134.603611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Ngardok is a lake on the Palauan island of Babeldaob, in the State of Melekeok.",
+        "es": "El lago Ngardok es un lago de Palaos en la isla de Babeldaob, en el Estado de Melekeok."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Ngardok",
+          "url": "https://en.wikipedia.org/wiki/Lake_Ngardok"
+        },
+        "es": {
+          "title": "Lago Ngardok",
+          "url": "https://es.wikipedia.org/wiki/Lago_Ngardok"
+        }
+      },
+      "image": {
+        "file": "State_of_Melekeok.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:State_of_Melekeok.png",
+        "author": "Aotearoa",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "pw-ngkesill",
+      "name": "Ngkesill",
+      "area": "Ngerulmud",
+      "city": "Ngerulmud",
+      "wikidata": "Q16873556",
+      "lat": 7.34033,
+      "lon": 134.55789,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ngkesill is an island geographically located at 7.3383°N 134.5550°E of Palau.",
+        "es": "Ngkesill is an island geographically located at 7.3383°N 134.5550°E of Palau."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ngkesill",
+          "url": "https://en.wikipedia.org/wiki/Ngkesill"
+        },
+        "es": {
+          "title": "Ngkesill",
+          "url": "https://en.wikipedia.org/wiki/Ngkesill"
+        }
       }
     }
   ]

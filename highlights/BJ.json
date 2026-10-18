@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -233,6 +239,484 @@
         "text": "Mo 13:00-19:00; Tu-Fr 8:30-19:00; Sa 10:00-19:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "bj-royal-palaces-of-abomey",
+      "name": "Royal Palaces of Abomey",
+      "area": "Abomey",
+      "city": "Abomey",
+      "wikidata": "Q2425839",
+      "lat": 7.18645,
+      "lon": 1.994003,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Royal Palaces of Abomey are 10 palaces spread over an area of 47 hectares at the heart of the Abomey town in Benin, formerly the capital of the West African Kingdom of Dahomey.",
+        "es": "Los Palacios reales de Abomey son edificios de tierra que fueron construidos por el pueblo fon para sus monarcas desde la mitad del siglo XVII hasta finales del XIX."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Royal Palaces of Abomey",
+          "url": "https://en.wikipedia.org/wiki/Royal_Palaces_of_Abomey"
+        },
+        "es": {
+          "title": "Palacios reales de Abomey",
+          "url": "https://es.wikipedia.org/wiki/Palacios_reales_de_Abomey"
+        }
+      },
+      "image": {
+        "file": "Abomey_2006_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Abomey_2006_1.jpg",
+        "author": "Joachim Huber",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "bj-lake-nokoue",
+      "name": "Lake Nokoué",
+      "area": "Cotonou",
+      "city": "Cotonou",
+      "wikidata": "Q268631",
+      "lat": 6.432778,
+      "lon": 2.425556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Nokoué is a lake in the southern part of Benin.",
+        "es": "Lago Nokoué es un lago en el sur del país africano de Benín."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Nokoué",
+          "url": "https://en.wikipedia.org/wiki/Lake_Nokou%C3%A9"
+        },
+        "es": {
+          "title": "Lago Nokoué",
+          "url": "https://es.wikipedia.org/wiki/Lago_Nokou%C3%A9"
+        }
+      },
+      "image": {
+        "file": "Lake_Nokoue_NASA.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Nokoue_NASA.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "bj-lake-aheme",
+      "name": "Lake Ahémé",
+      "area": "Cotonou",
+      "city": "Cotonou",
+      "wikidata": "Q21787689",
+      "lat": 6.495,
+      "lon": 1.975,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Ahémé is Benin's second largest lake, with an area of 78 square kilometres in the dry season which expands to 100 square kilometres in the rainy season.",
+        "es": "El lago Ahémé es el segundo lago más grande de Benín, con un área de 78 km² en la estación seca que se expande hasta los 100 km² en la estación húmeda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Ahémé",
+          "url": "https://en.wikipedia.org/wiki/Lake_Ah%C3%A9m%C3%A9"
+        },
+        "es": {
+          "title": "Lago Ahémé",
+          "url": "https://es.wikipedia.org/wiki/Lago_Ah%C3%A9m%C3%A9"
+        }
+      },
+      "image": {
+        "file": "LE_LAC_AHEME_AU_BENIN_en_2018.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:LE_LAC_AHEME_AU_BENIN_en_2018.jpg",
+        "author": "Adoscam",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bj-cotonou-cathedral",
+      "name": "Cotonou Cathedral",
+      "area": "Cotonou",
+      "city": "Cotonou",
+      "wikidata": "Q2942229",
+      "website": "https://archidiocesedecotonou.org/cathedrale-ndm/",
+      "lat": 6.356342,
+      "lon": 2.439158,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The cathedral of Notre Dame de Miséricorde, commonly known as Cotonou Cathedral, is a Catholic cathedral located near the Ancien Pont bridge in Cotonou, Benin.",
+        "es": "La Catedral de Nuestra Señora de la Misericordia de Cotonú comúnmente conocida como la \"catedral de Cotonú\" es una catedral católica, ubicada cerca del puente Pont Ancien en Cotonú, en el país africano de Benín."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cotonou Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Cotonou_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Nuestra Señora de la Misericordia (Cotonú)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Nuestra_Se%C3%B1ora_de_la_Misericordia_(Coton%C3%BA)"
+        }
+      },
+      "image": {
+        "file": "Cotonoucathedral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cotonoucathedral.jpg",
+        "author": "MVN",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "bj-door-of-no-return",
+      "name": "Door of No Return",
+      "area": "Cotonou",
+      "city": "Cotonou",
+      "wikidata": "Q18467833",
+      "lat": 6.324,
+      "lon": 2.0894,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Door of No Return is a memorial arch in Ouidah, Benin.",
+        "es": "The Door of No Return is a memorial arch in Ouidah, Benin."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Door of No Return, Ouidah",
+          "url": "https://en.wikipedia.org/wiki/Door_of_No_Return%2C_Ouidah"
+        },
+        "es": {
+          "title": "Door of No Return, Ouidah",
+          "url": "https://en.wikipedia.org/wiki/Door_of_No_Return%2C_Ouidah"
+        }
+      },
+      "image": {
+        "file": "Porte_du_non-retour_au_Benin.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Porte_du_non-retour_au_Benin.jpg",
+        "author": "Borisghost",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "bj-great-mosque-of-porto-novo",
+      "name": "Great Mosque of Porto-Novo",
+      "area": "Porto-Novo",
+      "city": "Porto-Novo",
+      "wikidata": "Q94238736",
+      "lat": 6.470333,
+      "lon": 2.626611,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Great Mosque of Porto-Novo is a mosque in Porto-Novo, Ouémé Department, Benin.",
+        "es": "The Great Mosque of Porto-Novo is a mosque in Porto-Novo, Ouémé Department, Benin."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Great Mosque of Porto-Novo",
+          "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Porto-Novo"
+        },
+        "es": {
+          "title": "Great Mosque of Porto-Novo",
+          "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Porto-Novo"
+        }
+      },
+      "image": {
+        "file": "Grande_Mosquee_de_Porto-Novo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Grande_Mosquee_de_Porto-Novo.jpg",
+        "author": "Caroline Léna Becker",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "bj-lac-toho",
+      "name": "Lac Toho",
+      "area": "Cotonou",
+      "city": "Cotonou",
+      "wikidata": "Q21786512",
+      "lat": 6.61913,
+      "lon": 1.77671,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Toho is a small lake in Mono Department, Benin.",
+        "es": "Lake Toho is a small lake in Mono Department, Benin."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Toho (Benin)",
+          "url": "https://en.wikipedia.org/wiki/Lake_Toho_(Benin)"
+        },
+        "es": {
+          "title": "Lake Toho (Benin)",
+          "url": "https://en.wikipedia.org/wiki/Lake_Toho_(Benin)"
+        }
+      },
+      "image": {
+        "file": "Pirogue_du_lac_toho_au_Bénin.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pirogue_du_lac_toho_au_B%C3%A9nin.jpg",
+        "author": "Rachad sanoussi",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bj-basilique-de-l-immaculee-conception",
+      "name": "Basilique de l'Immaculée Conception",
+      "area": "Cotonou",
+      "city": "Cotonou",
+      "wikidata": "Q2091236",
+      "lat": 6.360652,
+      "lon": 2.084734,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilique de l'Immaculée Conception is a Catholic minor basilica dedicated to the Immaculate Conception located in Ouidah, Benin.",
+        "es": "La Basílica de la Inmaculada Concepción es una basílica menor de culto católico que se encuentra en la ciudad de Ouidah en el sur de Benín."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilique de l'Immaculée Conception",
+          "url": "https://en.wikipedia.org/wiki/Basilique_de_l'Immacul%C3%A9e_Conception"
+        },
+        "es": {
+          "title": "Basílica de la Inmaculada Concepción (Ouidah)",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_la_Inmaculada_Concepci%C3%B3n_(Ouidah)"
+        }
+      },
+      "image": {
+        "file": "Façade_principale_de_la_basilique_de_ouidah.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_principale_de_la_basilique_de_ouidah.jpg",
+        "author": "houaito affo daniel",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bj-amazon-monument",
+      "name": "Amazon Monument",
+      "area": "Cotonou",
+      "city": "Cotonou",
+      "wikidata": "Q112032217",
+      "website": "https://www.gouv.bj/monument/monument-amazone/",
+      "lat": 6.349012,
+      "lon": 2.407547,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Amazon Monument is a statue honoring the Dahomey Amazons.",
+        "es": "The Amazon Monument is a statue honoring the Dahomey Amazons."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Amazon Monument (Benin)",
+          "url": "https://en.wikipedia.org/wiki/Amazon_Monument_(Benin)"
+        },
+        "es": {
+          "title": "Amazon Monument (Benin)",
+          "url": "https://en.wikipedia.org/wiki/Amazon_Monument_(Benin)"
+        }
+      },
+      "image": {
+        "file": "Monument_de_l'Amazone_au_Benin.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Monument_de_l'Amazone_au_Benin.jpg",
+        "author": "Alfrednadjere",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bj-ancien-pont-bridge",
+      "name": "Ancien Pont Bridge",
+      "area": "Cotonou",
+      "city": "Cotonou",
+      "wikidata": "Q4752787",
+      "lat": 6.358889,
+      "lon": 2.44175,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Ancien Pont is a bridge in Cotonou, Benin.",
+        "es": "The Ancien Pont is a bridge in Cotonou, Benin."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ancien Pont",
+          "url": "https://en.wikipedia.org/wiki/Ancien_Pont"
+        },
+        "es": {
+          "title": "Ancien Pont",
+          "url": "https://en.wikipedia.org/wiki/Ancien_Pont"
+        }
+      },
+      "image": {
+        "file": "Ancien_Pont_Bridge.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ancien_Pont_Bridge.jpg",
+        "author": "MVN",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "bj-presidential-palace-cotonou",
+      "name": "Presidential Palace, Cotonou",
+      "area": "Cotonou",
+      "city": "Cotonou",
+      "wikidata": "Q106195578",
+      "lat": 6.3517,
+      "lon": 2.409,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Palais de la Marina is a government complex in Cotonou, Benin.",
+        "es": "The Palais de la Marina is a government complex in Cotonou, Benin."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Presidential Palace, Cotonou",
+          "url": "https://en.wikipedia.org/wiki/Presidential_Palace%2C_Cotonou"
+        },
+        "es": {
+          "title": "Presidential Palace, Cotonou",
+          "url": "https://en.wikipedia.org/wiki/Presidential_Palace%2C_Cotonou"
+        }
+      },
+      "image": {
+        "file": "Palais_de_la_Marina_ou_Présidence_de_la_République_du_Bénin_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palais_de_la_Marina_ou_Pr%C3%A9sidence_de_la_R%C3%A9publique_du_B%C3%A9nin_01.jpg",
+        "author": "Adoscam",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bj-cotonou-central-mosque",
+      "name": "Cotonou Central Mosque",
+      "area": "Cotonou",
+      "city": "Cotonou",
+      "wikidata": "Q5175452",
+      "lat": 6.361846,
+      "lon": 2.397802,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cotonou Central Mosque is a mosque in Cotonou, Littoral, Benin.",
+        "es": "The Cotonou Central Mosque is a mosque in Cotonou, Littoral, Benin."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cotonou Central Mosque",
+          "url": "https://en.wikipedia.org/wiki/Cotonou_Central_Mosque"
+        },
+        "es": {
+          "title": "Cotonou Central Mosque",
+          "url": "https://en.wikipedia.org/wiki/Cotonou_Central_Mosque"
+        }
       }
     }
   ]

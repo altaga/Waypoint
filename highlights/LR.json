@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -66,6 +72,302 @@
       "wikidata": "Q1345859",
       "lat": 6.31685,
       "lon": -10.80394
+    },
+    {
+      "id": "lr-mount-wuteve",
+      "name": "Mount Wuteve",
+      "area": "Voinjama District",
+      "city": "Voinjama District",
+      "wikidata": "Q1950836",
+      "lat": 8.145833,
+      "lon": -9.925,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Wuteve, also known as Mount Wologizi, is a mountain located in Liberia, whose summit is the highest point in Liberia.",
+        "es": "El monte Wuteve es una montaña de 1.440 metros de altura localizada en Liberia, siendo el punto más alto del país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Wuteve",
+          "url": "https://en.wikipedia.org/wiki/Mount_Wuteve"
+        },
+        "es": {
+          "title": "Monte Wuteve",
+          "url": "https://es.wikipedia.org/wiki/Monte_Wuteve"
+        }
+      }
+    },
+    {
+      "id": "lr-sapo-national-park",
+      "name": "Sapo National Park",
+      "area": "Sinoe County",
+      "city": "Sinoe County",
+      "wikidata": "Q1969043",
+      "lat": 5.476389,
+      "lon": -8.550833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sapo National Park is a national park in Sinoe County, Liberia.",
+        "es": "Parque nacional Sapo es un parque nacional en el condado de Sinoe, en el país africano de Liberia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sapo National Park",
+          "url": "https://en.wikipedia.org/wiki/Sapo_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Sapo",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Sapo"
+        }
+      },
+      "image": {
+        "file": "Zwergflusspferd_-_Pygmy_Hippopotamus_-_Hexaprotodon_liberiensis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zwergflusspferd_-_Pygmy_Hippopotamus_-_Hexaprotodon_liberiensis.jpg",
+        "author": "Raimond Spekking",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lr-bushrod-island",
+      "name": "Bushrod Island",
+      "area": "Monrovia",
+      "city": "Monrovia",
+      "wikidata": "Q2093421",
+      "lat": 6.3575,
+      "lon": -10.783333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Bushrod Island is an island near Monrovia, Liberia surrounded by the Atlantic Ocean, the Saint Paul River, the Mesurado River and Stockton Creek.",
+        "es": "La Isla Bushrod es una isla cerca de la ciudad de Monrovia, Liberia, rodeada por el océano Atlántico y el río San Pablo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bushrod Island",
+          "url": "https://en.wikipedia.org/wiki/Bushrod_Island"
+        },
+        "es": {
+          "title": "Isla Bushrod",
+          "url": "https://es.wikipedia.org/wiki/Isla_Bushrod"
+        }
+      }
+    },
+    {
+      "id": "lr-lake-piso",
+      "name": "Lake Piso",
+      "area": "Grand Cape Mount County",
+      "city": "Grand Cape Mount County",
+      "wikidata": "Q1801041",
+      "lat": 6.735278,
+      "lon": -11.251111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Piso, also known as Lake Pisu and Fisherman's Lake, is an oblong tidal lagoon in Grand Cape Mount County in western Liberia, near the town of Robertsport.",
+        "es": "Lago Piso, también conocido como Lago Pisu y el Lago de los Pescadores, es una laguna de marea en el condado de Grand Cape Mount, en el oeste del país africano de Liberia, cerca de la ciudad de Robertsport."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Piso",
+          "url": "https://en.wikipedia.org/wiki/Lake_Piso"
+        },
+        "es": {
+          "title": "Lago Piso",
+          "url": "https://es.wikipedia.org/wiki/Lago_Piso"
+        }
+      },
+      "image": {
+        "file": "Lake_Piso.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Piso.jpg",
+        "author": "Bethel. Anthony Chisom",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lr-lofa-mano-national-park",
+      "name": "Lofa-Mano National Park",
+      "area": "Monrovia",
+      "city": "Monrovia",
+      "wikidata": "Q1867900",
+      "lat": 7.783333,
+      "lon": -10.366667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Lofa-Mano National Park is a proposed national park in Liberia.",
+        "es": "The Lofa-Mano National Park is a proposed national park in Liberia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lofa-Mano National Park",
+          "url": "https://en.wikipedia.org/wiki/Lofa-Mano_National_Park"
+        },
+        "es": {
+          "title": "Lofa-Mano National Park",
+          "url": "https://en.wikipedia.org/wiki/Lofa-Mano_National_Park"
+        }
+      }
+    },
+    {
+      "id": "lr-providence-island",
+      "name": "Providence Island",
+      "area": "Monrovia",
+      "city": "Monrovia",
+      "wikidata": "Q27459317",
+      "lat": 6.319758,
+      "lon": -10.801259,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Providence Island was the site of the first successful settlement of American freedmen by the American Colonization Society in Liberia.",
+        "es": "Providence Island was the site of the first successful settlement of American freedmen by the American Colonization Society in Liberia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Providence Island, Liberia",
+          "url": "https://en.wikipedia.org/wiki/Providence_Island%2C_Liberia"
+        },
+        "es": {
+          "title": "Providence Island, Liberia",
+          "url": "https://en.wikipedia.org/wiki/Providence_Island%2C_Liberia"
+        }
+      },
+      "image": {
+        "file": "JOHNSTON(1907)_Providence_Island_in_Mesurado_Lagoon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:JOHNSTON(1907)_Providence_Island_in_Mesurado_Lagoon.jpg",
+        "author": "Johnston, Harry Hamilton, Sir, 1858-1927; Royal Geographical Society (Great Brit",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "lr-gabriel-tucker-bridge",
+      "name": "Gabriel Tucker Bridge",
+      "area": "Monrovia",
+      "city": "Monrovia",
+      "wikidata": "Q5515889",
+      "lat": 6.319444,
+      "lon": -10.802222,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Gabriel Tucker Bridge is a bridge over the Mesurado River in Monrovia, Liberia.",
+        "es": "El Puente Gabriel Tucker antes llamado el puente del Pueblo, es un puente sobre el río Mesurado en Monrovia, la capital del país africano de Liberia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gabriel Tucker Bridge",
+          "url": "https://en.wikipedia.org/wiki/Gabriel_Tucker_Bridge"
+        },
+        "es": {
+          "title": "Puente Gabriel Tucker",
+          "url": "https://es.wikipedia.org/wiki/Puente_Gabriel_Tucker"
+        }
+      },
+      "image": {
+        "file": "ASC_Leiden_-_F._van_der_Kraaij_Collection_-_05_-_023_-_Waterside,_Providence_Island._The_Tucker_Bridge_-_Monrovia,_Mamba_Point,_Montserrado,_Liberia,_1975.tif",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_F._van_der_Kraaij_Collection_-_05_-_023_-_Waterside%2C_Providence_Island._The_Tucker_Bridge_-_Monrovia%2C_Mamba_Point%2C_Montserrado%2C_Liberia%2C_1975.tif",
+        "author": "Fred van der Kraaij",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lr-sacred-heart-cathedral-monrovia",
+      "name": "Sacred Heart Cathedral, Monrovia",
+      "area": "Monrovia",
+      "city": "Monrovia",
+      "wikidata": "Q23928968",
+      "lat": 6.31945,
+      "lon": -10.81028,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sacred Heart Cathedral or simply Cathedral of Monrovia, is a religious building belonging to the Catholic Church and is located across Broad Street in the heart of the city of Monrovia, capital of the African…",
+        "es": "La Catedral del Sagrado Corazón o simplemente Catedral de Monrovia es el nombre que recibe un edificio religioso que pertenece a la Iglesia católica y se encuentra ubicado frente a la Calle Broad en pleno centro de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sacred Heart Cathedral, Monrovia",
+          "url": "https://en.wikipedia.org/wiki/Sacred_Heart_Cathedral%2C_Monrovia"
+        },
+        "es": {
+          "title": "Catedral del Sagrado Corazón (Monrovia)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Sagrado_Coraz%C3%B3n_(Monrovia)"
+        }
+      }
     }
   ]
 }

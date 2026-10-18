@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -104,6 +110,835 @@
       "website": "http://warmheartofmalawi.org/",
       "lat": -9.94199,
       "lon": 33.92228
+    },
+    {
+      "id": "mw-lake-malawi",
+      "name": "Lake Malawi",
+      "area": "Lilongwe",
+      "city": "Lilongwe",
+      "wikidata": "Q5532",
+      "lat": -12.183333,
+      "lon": 34.366667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Malawi, also known as Lake Nyasa in Tanzania and Lago Niassa in Mozambique, is an African Great Lake and the southernmost lake in the East African Rift system, located between Malawi, Mozambique and Tanzania.",
+        "es": "El lago Malaui o Malawi es un gran lago africano, el lago más austral del Gran Rift, en África Oriental, perteneciente a Malaui, Mozambique y Tanzania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Malawi",
+          "url": "https://en.wikipedia.org/wiki/Lake_Malawi"
+        },
+        "es": {
+          "title": "Lago Malaui",
+          "url": "https://es.wikipedia.org/wiki/Lago_Malaui"
+        }
+      },
+      "image": {
+        "file": "Otter_Point,_Cape_Maclear_(Malawi).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Otter_Point%2C_Cape_Maclear_(Malawi).jpg",
+        "author": "Hans Hillewaert",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mw-lake-chilwa",
+      "name": "Lake Chilwa",
+      "area": "Zomba District",
+      "city": "Zomba District",
+      "wikidata": "Q746975",
+      "lat": -15.3,
+      "lon": 35.7,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Chilwa is the second-largest lake in Malawi after Lake Malawi.",
+        "es": "Lago Chilwa es el segundo lago más grande del país africano de Malaui después del lago Malaui."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Chilwa",
+          "url": "https://en.wikipedia.org/wiki/Lake_Chilwa"
+        },
+        "es": {
+          "title": "Lago Chilwa",
+          "url": "https://es.wikipedia.org/wiki/Lago_Chilwa"
+        }
+      },
+      "image": {
+        "file": "Lake_Chilwa_NASA.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Chilwa_NASA.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mw-lake-malawi-national-park",
+      "name": "Lake Malawi National Park",
+      "area": "Lilongwe",
+      "city": "Lilongwe",
+      "wikidata": "Q1077596",
+      "lat": -14.033333,
+      "lon": 34.883333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Malawi National Park is a national park at the southern end of Lake Malawi in Malawi, Southeast Africa.",
+        "es": "El Parque Nacional del Lago Malaui se encuentra en los distritos de Mangochi, en el sur de Malaui, y de Salima, en la región central, a 14°02′S, 34°53′E y, con una área de 9.400 ha, incluye la península de Nankumba,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Malawi National Park",
+          "url": "https://en.wikipedia.org/wiki/Lake_Malawi_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional del Lago Malaui",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_Lago_Malaui"
+        }
+      },
+      "image": {
+        "file": "Lake_Malawi_(2489696873).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Malawi_(2489696873).jpg",
+        "author": "Joachim Huber from Switzerland",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "mw-likoma-island",
+      "name": "Likoma Island",
+      "area": "Northern Region",
+      "city": "Northern Region",
+      "wikidata": "Q9135742",
+      "lat": -12.066667,
+      "lon": 34.733333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Likoma Island is the larger of two islands in Lake Malawi, in East Africa, the smaller being the nearby Chizumulu.",
+        "es": "La Isla Likoma es la isla más grande de las Islas Likoma en el lago Malaui."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Likoma Island",
+          "url": "https://en.wikipedia.org/wiki/Likoma_Island"
+        },
+        "es": {
+          "title": "Isla Likoma",
+          "url": "https://es.wikipedia.org/wiki/Isla_Likoma"
+        }
+      },
+      "image": {
+        "file": "Likoma_(satellite).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Likoma_(satellite).jpg",
+        "author": "Ulanwp",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mw-chongoni-rock-art-area",
+      "name": "Chongoni Rock Art Area",
+      "area": "Lilongwe",
+      "city": "Lilongwe",
+      "wikidata": "Q832262",
+      "website": "https://whc.unesco.org/en/list/476",
+      "lat": -14.293333,
+      "lon": 34.279167,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Chongoni Rock Art Area is a region containing 127 rock art and painting sites depicting the farmer community of the Late Stone Age and Iron Age, located in the forested hills of the Malawi plateau in the Central…",
+        "es": "El Arte rupestre de Chongoni en una zona de la montaña Chongoni de 2.224 metros de altura, localizada en el Distrito de Dedza, en la Región Central de Malaui."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chongoni Rock Art Area",
+          "url": "https://en.wikipedia.org/wiki/Chongoni_Rock_Art_Area"
+        },
+        "es": {
+          "title": "Arte rupestre de Chongoni",
+          "url": "https://es.wikipedia.org/wiki/Arte_rupestre_de_Chongoni"
+        }
+      },
+      "image": {
+        "file": "Chongoni_rock_art.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chongoni_rock_art.jpg",
+        "author": "「Malawi」",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mw-lake-malombe",
+      "name": "Lake Malombe",
+      "area": "Southern Region",
+      "city": "Southern Region",
+      "wikidata": "Q1887719",
+      "lat": -14.666667,
+      "lon": 35.25,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Malombe is a lake in southern Malawi.",
+        "es": "El lago Malombe es un lago en el sur del país africano de Malaui, en el río Shire, en la Región Sur."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Malombe",
+          "url": "https://en.wikipedia.org/wiki/Lake_Malombe"
+        },
+        "es": {
+          "title": "Lago Malombe",
+          "url": "https://es.wikipedia.org/wiki/Lago_Malombe"
+        }
+      },
+      "image": {
+        "file": "Lake_Malombe_NASA.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Malombe_NASA.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mw-chizumulu-island",
+      "name": "Chizumulu Island",
+      "area": "Likoma District",
+      "city": "Likoma District",
+      "wikidata": "Q182414",
+      "lat": -12.0225,
+      "lon": 34.6225,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Chizumulu Island is the smaller of two islands in Lake Malawi, the larger being the nearby Likoma island, which together make up the Likoma District.",
+        "es": "La Isla Chizumulu es la menor de dos islas principales habitadas en el Lago Malaui, la más grande es la cercana isla Likoma junto con la cual conforman el distrito de Likoma."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chizumulu Island",
+          "url": "https://en.wikipedia.org/wiki/Chizumulu_Island"
+        },
+        "es": {
+          "title": "Isla Chizumulu",
+          "url": "https://es.wikipedia.org/wiki/Isla_Chizumulu"
+        }
+      },
+      "image": {
+        "file": "Likoma_(satellite).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Likoma_(satellite).jpg",
+        "author": "Ulanwp",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mw-liwonde-national-park",
+      "name": "Liwonde National Park",
+      "area": "Southern Region",
+      "city": "Southern Region",
+      "wikidata": "Q2739189",
+      "lat": -14.833333,
+      "lon": 35.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Liwonde National Park, also known as Liwonde Wildlife Reserve, is a national park in southern Malawi, near the Mozambique border.",
+        "es": "El Parque Nacional Liwonde es un parque nacional en Malaui."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Liwonde National Park",
+          "url": "https://en.wikipedia.org/wiki/Liwonde_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Liwonde",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Liwonde"
+        }
+      },
+      "image": {
+        "file": "Liwonde_Park_-_view_of_Shire_River.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Liwonde_Park_-_view_of_Shire_River.jpg",
+        "author": "Brian Dell",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mw-lake-chiuta",
+      "name": "Lake Chiuta",
+      "area": "Blantyre",
+      "city": "Blantyre",
+      "wikidata": "Q1075037",
+      "lat": -14.8175,
+      "lon": 35.853889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Chiuta is a shallow lake on the border between Malawi and Mozambique.",
+        "es": "El lago Chiuta es un lago poco profundo situado en la frontera entre Malawi y Mozambique."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Chiuta",
+          "url": "https://en.wikipedia.org/wiki/Lake_Chiuta"
+        },
+        "es": {
+          "title": "Lago Chiuta",
+          "url": "https://es.wikipedia.org/wiki/Lago_Chiuta"
+        }
+      },
+      "image": {
+        "file": "L._Chiuta-N_04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:L._Chiuta-N_04.jpg",
+        "author": "Incommodus Verus",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mw-kasungu-national-park",
+      "name": "Kasungu National Park",
+      "area": "Central Region",
+      "city": "Central Region",
+      "wikidata": "Q1735508",
+      "lat": -13,
+      "lon": 33.166667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kasungu National Park is a national park in Malawi.",
+        "es": "El Parque Nacional Kasungu es un parque nacional en Malaui."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kasungu National Park",
+          "url": "https://en.wikipedia.org/wiki/Kasungu_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Kasungu",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Kasungu"
+        }
+      },
+      "image": {
+        "file": "Kasungu_lifupa2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kasungu_lifupa2.jpg",
+        "author": "Dr. Thomas Wagner",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mw-chisi-island",
+      "name": "Chisi Island",
+      "area": "Zomba District",
+      "city": "Zomba District",
+      "wikidata": "Q1074841",
+      "lat": -15.3333,
+      "lon": 35.6167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Chisi Island is a small island in the middle of Lake Chilwa.",
+        "es": "La Isla Chisi es una pequeña isla en medio del lago Chilwa, el segundo mayor lago de Malaui."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chisi Island",
+          "url": "https://en.wikipedia.org/wiki/Chisi_Island"
+        },
+        "es": {
+          "title": "Isla Chisi",
+          "url": "https://es.wikipedia.org/wiki/Isla_Chisi"
+        }
+      },
+      "image": {
+        "file": "Lake_Chilwa_NASA.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Chilwa_NASA.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mw-lengwe-national-park",
+      "name": "Lengwe National Park",
+      "area": "Blantyre",
+      "city": "Blantyre",
+      "wikidata": "Q1104628",
+      "lat": -16.257778,
+      "lon": 34.751389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lengwe National Park is a national park in Malawi located near the town of Chikwawa and about 40 miles southwest of Blantyre.",
+        "es": "Lengwe National Park is a national park in Malawi located near the town of Chikwawa and about 40 miles southwest of Blantyre."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lengwe National Park",
+          "url": "https://en.wikipedia.org/wiki/Lengwe_National_Park"
+        },
+        "es": {
+          "title": "Lengwe National Park",
+          "url": "https://en.wikipedia.org/wiki/Lengwe_National_Park"
+        }
+      },
+      "image": {
+        "file": "Lengwe2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lengwe2.jpg",
+        "author": "Dr. Thomas Wagner",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mw-kapichira-falls",
+      "name": "Kapichira Falls",
+      "area": "Blantyre",
+      "city": "Blantyre",
+      "wikidata": "Q1728533",
+      "lat": -15.9006,
+      "lon": 34.7509,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kapachira Falls is a waterfall in Malawi.",
+        "es": "Kapachira Falls is a waterfall in Malawi."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kapachira Falls",
+          "url": "https://en.wikipedia.org/wiki/Kapachira_Falls"
+        },
+        "es": {
+          "title": "Kapachira Falls",
+          "url": "https://en.wikipedia.org/wiki/Kapachira_Falls"
+        }
+      },
+      "image": {
+        "file": "Kapachira_Falls.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kapachira_Falls.jpg",
+        "author": "Stonyyy",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mw-zomba-massif",
+      "name": "Zomba Massif",
+      "area": "Zomba District",
+      "city": "Zomba District",
+      "wikidata": "Q8073720",
+      "lat": -15.327222,
+      "lon": 35.320833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Zomba Plateau, also called the Zomba Massif, is a mountain of the Shire Highlands in southern Malawi.",
+        "es": "The Zomba Plateau, also called the Zomba Massif, is a mountain of the Shire Highlands in southern Malawi."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zomba Plateau",
+          "url": "https://en.wikipedia.org/wiki/Zomba_Plateau"
+        },
+        "es": {
+          "title": "Zomba Plateau",
+          "url": "https://en.wikipedia.org/wiki/Zomba_Plateau"
+        }
+      },
+      "image": {
+        "file": "At_the_slopes_of_Zomba_Platea.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:At_the_slopes_of_Zomba_Platea.JPG",
+        "author": "Felefuchs",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mw-chambe-peak",
+      "name": "Chambe Peak",
+      "area": "Blantyre",
+      "city": "Blantyre",
+      "wikidata": "Q5069503",
+      "lat": -15.899,
+      "lon": 35.526,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Chambe Peak is a peak of Mulanje Massif, one of the highest mountains in Southern Africa, with an elevation of 3,002 meters.",
+        "es": "Pico Chambe es un pico en el país africano de Malaui con una elevación de 2.385 metros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chambe Peak",
+          "url": "https://en.wikipedia.org/wiki/Chambe_Peak"
+        },
+        "es": {
+          "title": "Pico Chambe",
+          "url": "https://es.wikipedia.org/wiki/Pico_Chambe"
+        }
+      },
+      "image": {
+        "file": "Chambe.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chambe.jpg",
+        "author": "Dr. Ferdinand Groeger",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mw-maula-cathedral",
+      "name": "Maula Cathedral",
+      "area": "Lilongwe",
+      "city": "Lilongwe",
+      "wikidata": "Q23928773",
+      "lat": -13.979589,
+      "lon": 33.762483,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Maula Cathedral which is also known as the Our Lady of Africa Cathedral or simply the Cathedral of Lilongwe, is a Catholic church and the seat of the Archdiocese of Lilongwe, located in the capital and largest…",
+        "es": "La Catedral de Maula o simplemente Catedral de Lilongüe es el nombre que recibe un edificio religioso que pertenece a la Iglesia Católica y se encuentra ubicado en la localidad de Lilongüe la capital y ciudad más…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Maula Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Maula_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Maula",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Maula"
+        }
+      }
+    },
+    {
+      "id": "mw-lilongwe-wildlife-centre",
+      "name": "Lilongwe Wildlife Centre",
+      "area": "Lilongwe",
+      "city": "Lilongwe",
+      "wikidata": "Q23808334",
+      "lat": -13.97221,
+      "lon": 33.78386,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Lilongwe Wildlife Centre is a wildlife sanctuary in Lilongwe, Malawi, which is part of Lilongwe National Park.",
+        "es": "The Lilongwe Wildlife Centre is a wildlife sanctuary in Lilongwe, Malawi, which is part of Lilongwe National Park."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lilongwe Wildlife Centre",
+          "url": "https://en.wikipedia.org/wiki/Lilongwe_Wildlife_Centre"
+        },
+        "es": {
+          "title": "Lilongwe Wildlife Centre",
+          "url": "https://en.wikipedia.org/wiki/Lilongwe_Wildlife_Centre"
+        }
+      },
+      "image": {
+        "file": "Lilongwe_Wildlife_Centre_-_entrance_-_Jan_2018.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lilongwe_Wildlife_Centre_-_entrance_-_Jan_2018.jpg",
+        "author": "nesnad",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "mw-kamuzu-mausoleum",
+      "name": "Kamuzu Mausoleum",
+      "area": "Lilongwe",
+      "city": "Lilongwe",
+      "wikidata": "Q124818664",
+      "lat": -13.954444,
+      "lon": 33.789167,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kamuzu Mausoleum is a resting place of the first president of Malawi, Dr.",
+        "es": "Kamuzu Mausoleum is a resting place of the first president of Malawi, Dr."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kamuzu Mausoleum",
+          "url": "https://en.wikipedia.org/wiki/Kamuzu_Mausoleum"
+        },
+        "es": {
+          "title": "Kamuzu Mausoleum",
+          "url": "https://en.wikipedia.org/wiki/Kamuzu_Mausoleum"
+        }
+      },
+      "image": {
+        "file": "Mausoleum_vom_selbsternannten_Präsident_auf_Lebenszeit_(40284511071).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mausoleum_vom_selbsternannten_Pr%C3%A4sident_auf_Lebenszeit_(40284511071).jpg",
+        "author": "ilf_",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "mw-st-michael-and-all-angels-church-blantyre-malawi",
+      "name": "St Michael and All Angels Church, Blantyre, Malawi",
+      "area": "Blantyre",
+      "city": "Blantyre",
+      "wikidata": "Q7594852",
+      "lat": -15.7841,
+      "lon": 35.0207,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. Michael and All Angels Church is a church that was constructed from 1888 to 1891 of brick at the Blantyre Mission in Blantyre, Malawi.",
+        "es": "St. Michael and All Angels Church is a church that was constructed from 1888 to 1891 of brick at the Blantyre Mission in Blantyre, Malawi."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Michael and All Angels Church, Blantyre",
+          "url": "https://en.wikipedia.org/wiki/St_Michael_and_All_Angels_Church%2C_Blantyre"
+        },
+        "es": {
+          "title": "St Michael and All Angels Church, Blantyre",
+          "url": "https://en.wikipedia.org/wiki/St_Michael_and_All_Angels_Church%2C_Blantyre"
+        }
+      },
+      "image": {
+        "file": "St_Michael_and_All_Angels_Church_facade,_Blantyre,_Malawi.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St_Michael_and_All_Angels_Church_facade%2C_Blantyre%2C_Malawi.JPG",
+        "author": "AndrewDressel (talk)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mw-michiru-mountain",
+      "name": "Michiru Mountain",
+      "area": "Blantyre",
+      "city": "Blantyre",
+      "wikidata": "Q16895079",
+      "lat": -15.75,
+      "lon": 34.9667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Michiru Mountain is located about 5 miles north of the city of Blantyre, Malawi, on the edge of the Great Rift Valley.",
+        "es": "Michiru Mountain is located about 5 miles north of the city of Blantyre, Malawi, on the edge of the Great Rift Valley."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Michiru Mountain",
+          "url": "https://en.wikipedia.org/wiki/Michiru_Mountain"
+        },
+        "es": {
+          "title": "Michiru Mountain",
+          "url": "https://en.wikipedia.org/wiki/Michiru_Mountain"
+        }
+      }
+    },
+    {
+      "id": "mw-our-lady-of-wisdom-cathedral-blantyre",
+      "name": "Our Lady of Wisdom Cathedral, Blantyre",
+      "area": "Blantyre",
+      "city": "Blantyre",
+      "wikidata": "Q23928817",
+      "lat": -15.80242,
+      "lon": 35.07214,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Our Lady of Wisdom Cathedral or Cathedral Limbe Our Lady of Wisdom, also simply Cathedral of Blantyre, is a religious building belonging to the Catholic Church and is located in Blantyre the second largest city…",
+        "es": "La Catedral de Nuestra Señora de la Sabiduría[cita requerida] o Catedral Limbe de Nuestra Señora de la Sabiduría[cita requerida] también simplemente Catedral de Blantire es el nombre que recibe un edificio religioso…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Our Lady of Wisdom Cathedral, Blantyre",
+          "url": "https://en.wikipedia.org/wiki/Our_Lady_of_Wisdom_Cathedral%2C_Blantyre"
+        },
+        "es": {
+          "title": "Catedral de Nuestra Señora de la Sabiduría (Blantire)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Nuestra_Se%C3%B1ora_de_la_Sabidur%C3%ADa_(Blantire)"
+        }
+      },
+      "image": {
+        "file": "Blantyre_Cathedral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blantyre_Cathedral.jpg",
+        "author": "Malcolm Manners",
+        "license": "CC BY 2.0"
+      }
     }
   ]
 }

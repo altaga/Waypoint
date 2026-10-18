@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -176,6 +182,2203 @@
       "website": "http://www.mac.go.cr/",
       "lat": 9.93539,
       "lon": -84.09906
+    },
+    {
+      "id": "cr-arenal-volcano",
+      "name": "Arenal Volcano",
+      "area": "San Carlos Canton",
+      "city": "San Carlos Canton",
+      "wikidata": "Q641588",
+      "lat": 10.4625,
+      "lon": -84.703333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Arenal Volcano is a recently active andesitic stratovolcano in north-western Costa Rica around 90 km northwest of San José, in the province of Alajuela, canton of San Carlos, and district of La Fortuna.",
+        "es": "El volcán Arenal está situado en el distrito de La Fortuna, cantón de San Carlos, en la provincia de Alajuela."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Arenal Volcano",
+          "url": "https://en.wikipedia.org/wiki/Arenal_Volcano"
+        },
+        "es": {
+          "title": "Volcán Arenal",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Arenal"
+        }
+      },
+      "image": {
+        "file": "Arenal_volcano_(70785p)_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arenal_volcano_(70785p)_(cropped).jpg",
+        "author": "Rhododendrites",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cr-stone-spheres-of-costa-rica",
+      "name": "Stone spheres of Costa Rica",
+      "area": "Puntarenas Province",
+      "city": "Puntarenas Province",
+      "wikidata": "Q282275",
+      "lat": 8.911389,
+      "lon": -83.4775,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The stone spheres of Costa Rica are an assortment of over 300 petrospheres in Costa Rica, on the Diquís Delta and on Isla del Caño.",
+        "es": "Las esferas de piedra de Costa Rica son un grupo de más de quinientas petroesferas precolombinas de la cultura del Diquís ubicadas principalmente en el sur de Costa Rica, en la llanura aluvial del Delta del Diquís,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Stone spheres of Costa Rica",
+          "url": "https://en.wikipedia.org/wiki/Stone_spheres_of_Costa_Rica"
+        },
+        "es": {
+          "title": "Esferas de piedra de Costa Rica",
+          "url": "https://es.wikipedia.org/wiki/Esferas_de_piedra_de_Costa_Rica"
+        }
+      },
+      "image": {
+        "file": "Parque_de_las_Esferas_de_Costa_Rica.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parque_de_las_Esferas_de_Costa_Rica.JPG",
+        "author": "Axxis10",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-irazu-volcano",
+      "name": "Irazú Volcano",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q1672472",
+      "lat": 9.979167,
+      "lon": -83.8525,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Irazú Volcano is an active volcano in Costa Rica, situated in the Cordillera Central near the city of Cartago.",
+        "es": "El volcán Irazú es un volcán en escudo activo ubicado en Costa Rica, en la Cordillera Volcánica Central, en el interior del parque nacional que lleva su nombre, a unos 32 km al norte de la ciudad de Cartago."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Irazú Volcano",
+          "url": "https://en.wikipedia.org/wiki/Iraz%C3%BA_Volcano"
+        },
+        "es": {
+          "title": "Volcán Irazú",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Iraz%C3%BA"
+        }
+      },
+      "image": {
+        "file": "Irazu_Volcano.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Irazu_Volcano.JPG",
+        "author": "Rafael Golan",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-cerro-chirripo",
+      "name": "Cerro Chirripó",
+      "area": "Costa Rica",
+      "city": "Costa Rica",
+      "wikidata": "Q252362",
+      "lat": 9.484083,
+      "lon": -83.488667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cerro Chirripó is the highest mountain in Costa Rica, with an elevation of 3,821 meters.",
+        "es": "El Cerro Chirripó es el nombre del punto más alto de Costa Rica, que forma parte del Parque Nacional Chirripó."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cerro Chirripó",
+          "url": "https://en.wikipedia.org/wiki/Cerro_Chirrip%C3%B3"
+        },
+        "es": {
+          "title": "Cerro Chirripó",
+          "url": "https://es.wikipedia.org/wiki/Cerro_Chirrip%C3%B3"
+        }
+      },
+      "image": {
+        "file": "Picture_1191.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Picture_1191.jpg",
+        "author": "Peter Andersen",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-poas-volcano",
+      "name": "Poás Volcano",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q1969482",
+      "lat": 10.197815,
+      "lon": -84.230298,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Poás Volcano, is an active 2,697-metre stratovolcano in central Costa Rica located within Poas Volcano National Park.",
+        "es": "The Poás Volcano, is an active 2,697-metre stratovolcano in central Costa Rica located within Poas Volcano National Park."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Poás Volcano",
+          "url": "https://en.wikipedia.org/wiki/Po%C3%A1s_Volcano"
+        },
+        "es": {
+          "title": "Poás Volcano",
+          "url": "https://en.wikipedia.org/wiki/Po%C3%A1s_Volcano"
+        }
+      },
+      "image": {
+        "file": "Poas_crater.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poas_crater.jpg",
+        "author": "Peter Andersen",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "cr-manuel-antonio-national-park",
+      "name": "Manuel Antonio National Park",
+      "area": "Quepos Canton",
+      "city": "Quepos Canton",
+      "wikidata": "Q112854",
+      "lat": 9.375556,
+      "lon": -84.135833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Manuel Antonio National Park is a small national park in the Central Pacific Conservation Area located on the Pacific coast of Costa Rica, just south of the city of Quepos, Puntarenas, and 157 km from the national…",
+        "es": "El Parque Nacional Manuel Antonio es una área de conservación natural localizada en la costa pacífica central de Costa Rica, en el cantón de Quepos, provincia de Puntarenas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Manuel Antonio National Park",
+          "url": "https://en.wikipedia.org/wiki/Manuel_Antonio_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Manuel Antonio",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Manuel_Antonio"
+        }
+      },
+      "image": {
+        "file": "הפארק_הלאומי_מנואל_אנטוניו_קוסטה_ריקה_חוף_הים_07.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D7%94%D7%A4%D7%90%D7%A8%D7%A7_%D7%94%D7%9C%D7%90%D7%95%D7%9E%D7%99_%D7%9E%D7%A0%D7%95%D7%90%D7%9C_%D7%90%D7%A0%D7%98%D7%95%D7%A0%D7%99%D7%95_%D7%A7%D7%95%D7%A1%D7%98%D7%94_%D7%A8%D7%99%D7%A7%D7%94_%D7%97%D7%95%D7%A3_%D7%94%D7%99%D7%9D_07.jpg",
+        "author": "Hanay",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cr-corcovado-national-park",
+      "name": "Corcovado National Park",
+      "area": "Puntarenas Province",
+      "city": "Puntarenas Province",
+      "wikidata": "Q869074",
+      "lat": 8.55,
+      "lon": -83.583333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Corcovado National Park is a National Park on the Osa Peninsula, in Osa Canton, located on the southwestern regions of Costa Rica, which is a part of the Osa Conservation Area.",
+        "es": "El Parque Nacional Corcovado se encuentra en la Península de Osa al suroeste de Costa Rica, y es parte del Área de Conservación Osa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Corcovado National Park",
+          "url": "https://en.wikipedia.org/wiki/Corcovado_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Corcovado (Costa Rica)",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Corcovado_(Costa_Rica)"
+        }
+      },
+      "image": {
+        "file": "Parque_Nacional_Corcovado.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Corcovado.JPG",
+        "author": "José R.",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "cr-turrialba",
+      "name": "Turrialba",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q546876",
+      "lat": 10.033333,
+      "lon": -83.766667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Turrialba Volcano is an active volcano in central Costa Rica that has been eruptive in recent years including 2016 and in January, March, and April 2017.",
+        "es": "El volcán Turrialba es un estratovolcán complejo activo de Costa Rica, ubicado en el distrito de Santa Cruz, en el cantón de Turrialba, provincia de Cartago, a 24 km de la ciudad del mismo nombre."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Turrialba Volcano",
+          "url": "https://en.wikipedia.org/wiki/Turrialba_Volcano"
+        },
+        "es": {
+          "title": "Volcán Turrialba",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Turrialba"
+        }
+      },
+      "image": {
+        "file": "Turrialba_Volcano_cone_Sept_2005_.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Turrialba_Volcano_cone_Sept_2005_.jpg",
+        "author": "Fbolanos",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cr-rincon-de-la-vieja-volcano",
+      "name": "Rincón de la Vieja Volcano",
+      "area": "Guanacaste Province",
+      "city": "Guanacaste Province",
+      "wikidata": "Q1122340",
+      "lat": 10.83,
+      "lon": -85.323889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rincón de la Vieja is an active andesitic complex volcano in north-western Costa Rica, about 23 km from Liberia, in the province of Guanacaste.",
+        "es": "El volcán Rincón de la Vieja es un estratovolcán complejo ubicado en Costa Rica, localizado en el noroeste del país, en el cantón de Upala en la provincia de Alajuela y en el cantón de Liberia en la provincia de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rincón de la Vieja Volcano",
+          "url": "https://en.wikipedia.org/wiki/Rinc%C3%B3n_de_la_Vieja_Volcano"
+        },
+        "es": {
+          "title": "Volcán Rincón de la Vieja",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Rinc%C3%B3n_de_la_Vieja"
+        }
+      },
+      "image": {
+        "file": "Guanacaste_National_Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Guanacaste_National_Park.jpg",
+        "author": "cyph3r [2]",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "cr-tortuguero-national-park",
+      "name": "Tortuguero National Park",
+      "area": "Limón Province",
+      "city": "Limón Province",
+      "wikidata": "Q602120",
+      "lat": 10.4232,
+      "lon": -83.4967,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tortuguero National Park is a national park in the Limón Province of Costa Rica.",
+        "es": "El Parque Nacional Tortuguero es un parque nacional de Costa Rica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tortuguero National Park",
+          "url": "https://en.wikipedia.org/wiki/Tortuguero_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Tortuguero",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Tortuguero"
+        }
+      },
+      "image": {
+        "file": "Tortuguero_caribbean_coast.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tortuguero_caribbean_coast.jpg",
+        "author": "Lars0001",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cr-orosi-volcano",
+      "name": "Orosí Volcano",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q1632780",
+      "lat": 10.98,
+      "lon": -85.473333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Orosí Volcano, in Spanish Volcán Orosí, is an inactive volcano in Costa Rica in the Cordillera de Guanacaste near the border with Nicaragua.",
+        "es": "El volcán Orosí es un estratovolcán localizado en Costa Rica, ubicado en la cordillera de Guanacaste, a 30 km de la ciudad de La Cruz, provincia de Guanacaste y cerca de la frontera norte con Nicaragua."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Orosí Volcano",
+          "url": "https://en.wikipedia.org/wiki/Oros%C3%AD_Volcano"
+        },
+        "es": {
+          "title": "Volcán Orosí",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Oros%C3%AD"
+        }
+      },
+      "image": {
+        "file": "Orosí.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oros%C3%AD.jpg",
+        "author": "Cindy Stine (U.S. Geological Survey)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cr-lake-arenal",
+      "name": "Lake Arenal",
+      "area": "Tilarán Canton",
+      "city": "Tilarán Canton",
+      "wikidata": "Q31938",
+      "lat": 10.533333,
+      "lon": -84.933333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Arenal is a lake in the northern highlands of Costa Rica.",
+        "es": "El lago Arenal es un embalse artificial situado en Costa Rica formado tras la construcción de una presa en 1979 aprovechando la existencia de un pequeño lago del mismo nombre."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Arenal",
+          "url": "https://en.wikipedia.org/wiki/Lake_Arenal"
+        },
+        "es": {
+          "title": "Lago Arenal",
+          "url": "https://es.wikipedia.org/wiki/Lago_Arenal"
+        }
+      },
+      "image": {
+        "file": "Lac_Arenal_Costa_Rica_025.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lac_Arenal_Costa_Rica_025.JPG",
+        "author": "Grez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-miravalles-volcano",
+      "name": "Miravalles Volcano",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q1733093",
+      "lat": 10.747278,
+      "lon": -85.150944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Miravalles Volcano is an andesitic stratovolcano within the Miravalles Protected Zone, a nature reserve in Costa Rica.",
+        "es": "El volcán Miravalles es un estratovolcán complejo, situado en Costa Rica 15 kilómetros al norte de la ciudad de Bagaces, en la Zona Protectora Miravalles."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Miravalles Volcano",
+          "url": "https://en.wikipedia.org/wiki/Miravalles_Volcano"
+        },
+        "es": {
+          "title": "Volcán Miravalles",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Miravalles"
+        }
+      },
+      "image": {
+        "file": "Miravalles_volcano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Miravalles_volcano.jpg",
+        "author": "William Melson (Smithsonian Institution)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cr-barva-volcano",
+      "name": "Barva Volcano",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q809647",
+      "lat": 10.135,
+      "lon": -84.1,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Barva Volcano is an andesitic stratovolcano complex in central Costa Rica, 22 kilometres north of San José, in Heredia Province.",
+        "es": "El volcán Barva es un volcán ubicado en Costa Rica, en la Cordillera Volcánica Central, 22 km al norte de San José, en la provincia de Heredia, y a una altitud de 2.906 metros sobre el nivel del mar, lo que lo hace…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Barva Volcano",
+          "url": "https://en.wikipedia.org/wiki/Barva_Volcano"
+        },
+        "es": {
+          "title": "Volcán Barva",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Barva"
+        }
+      },
+      "image": {
+        "file": "Barva.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Barva.jpg",
+        "author": "William Melson (Smithsonian Institution)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cr-arenal-volcano-national-park",
+      "name": "Arenal Volcano National Park",
+      "area": "Alajuela Province",
+      "city": "Alajuela Province",
+      "wikidata": "Q1189526",
+      "lat": 10.463056,
+      "lon": -84.703056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Arenal Volcano National Park is a Costa Rican national park in the central part of the country, part of the Arenal Huetar Norte Conservation Area.",
+        "es": "El Parque Nacional Volcán Arenal se encuentra en la provincia de Alajuela."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Arenal Volcano National Park",
+          "url": "https://en.wikipedia.org/wiki/Arenal_Volcano_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Volcán Arenal",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Volc%C3%A1n_Arenal"
+        }
+      },
+      "image": {
+        "file": "Volcan_Arenal_Costa_Rica_0065.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volcan_Arenal_Costa_Rica_0065.JPG",
+        "author": "Grez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-carara-national-park",
+      "name": "Carara National Park",
+      "area": "Turrubares Canton",
+      "city": "Turrubares Canton",
+      "wikidata": "Q1968766",
+      "lat": 9.747222,
+      "lon": -84.627778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Carara National Park is a national park in the Central Pacific Conservation Area located near the Pacific coast of Costa Rica.",
+        "es": "El Parque Nacional Carara es un parque nacional en el Área de Conservación Pacífico Central que se encuentra cerca de la costa del Pacífico de Costa Rica, entre los cantones de Turrubares y Garabito."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Carara National Park",
+          "url": "https://en.wikipedia.org/wiki/Carara_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Carara",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Carara"
+        }
+      },
+      "image": {
+        "file": "Carara_Entrance.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Carara_Entrance.jpg",
+        "author": "Jesi",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-poas-volcano-national-park",
+      "name": "Poás Volcano National Park",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q773878",
+      "website": "https://www.sinac.go.cr/EN-US/ac/accvc/pnvp/Pages/default.aspx",
+      "lat": 10.20141,
+      "lon": -84.24179,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Poás Volcano National Park is a national park in Costa Rica that covers an area of approximately 65 square kilometres ; the summit of Poás Volcano located within the park is at an elevation of 2,700 metres.",
+        "es": "El Parque Nacional Volcán Poás es un parque nacional de Costa Rica que cubre un área de aproximadamente 65 km²."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Poás Volcano National Park",
+          "url": "https://en.wikipedia.org/wiki/Po%C3%A1s_Volcano_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Volcán Poás",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Volc%C3%A1n_Po%C3%A1s"
+        }
+      },
+      "image": {
+        "file": "Poas_crater.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poas_crater.jpg",
+        "author": "Peter Andersen",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "cr-chato-volcan",
+      "name": "Chato Volcan",
+      "area": "Costa Rica",
+      "city": "Costa Rica",
+      "wikidata": "Q1055820",
+      "lat": 10.441944,
+      "lon": -84.688056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Chato Volcano, sometimes called \"Cerro Chato\", is an inactive volcano in northwestern Costa Rica northwest of San José, in the province of Alajuela, canton of San Carlos, and district of La Fortuna.",
+        "es": "El Volcán Cerro Chato es un estratovolcán ubicado en Costa Rica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chato Volcano",
+          "url": "https://en.wikipedia.org/wiki/Chato_Volcano"
+        },
+        "es": {
+          "title": "Volcán Chato",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Chato"
+        }
+      },
+      "image": {
+        "file": "Cerro_chato_crater_lake_2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cerro_chato_crater_lake_2.JPG",
+        "author": "Lars0001",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cr-braulio-carrillo-national-park",
+      "name": "Braulio Carrillo National Park",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q1757413",
+      "lat": 10.1599,
+      "lon": -83.974425,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Braulio Carrillo National Park is a national park in Heredia Province, Cartago Province, Limón Province and San José Province, in central Costa Rica.",
+        "es": "El Parque Nacional Braulio Carrillo es un parque nacional localizado en Costa Rica, a 38 km de la ciudad capital, San José."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Braulio Carrillo National Park",
+          "url": "https://en.wikipedia.org/wiki/Braulio_Carrillo_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Braulio Carrillo",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Braulio_Carrillo"
+        }
+      }
+    },
+    {
+      "id": "cr-guayabo-national-monument",
+      "name": "Guayabo National Monument",
+      "area": "Cartago Province",
+      "city": "Cartago Province",
+      "wikidata": "Q5614364",
+      "website": "https://www.sinac.go.cr/ES/ac/accvc/mng/Paginas/default.aspx",
+      "lat": 9.972444,
+      "lon": -83.691398,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Guayabo National Monument, is an archaeological site near the city of Turrialba, within the Central Conservation Area in the Cartago Province, Costa Rica.",
+        "es": "El Monumento Nacional Guayabo es un área protegida de Costa Rica, conocida principalmente porque en ella se encuentra uno de los sitios arqueológicos prehispánicos más antiguos e importantes del país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Guayabo National Monument",
+          "url": "https://en.wikipedia.org/wiki/Guayabo_National_Monument"
+        },
+        "es": {
+          "title": "Monumento nacional Guayabo",
+          "url": "https://es.wikipedia.org/wiki/Monumento_nacional_Guayabo"
+        }
+      },
+      "image": {
+        "file": "Guayabo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Guayabo.jpg",
+        "author": "Lutz Maertens",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-volcan-tenorio",
+      "name": "Volcán Tenorio",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q2091698",
+      "lat": 10.672778,
+      "lon": -85.015,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tenorio Volcano is an inactive andesitic stratovolcano in the southeasternmost part of the Cordillera de Guanacaste volcanic mountain range in northwestern Costa Rica.",
+        "es": "El Volcán Tenorio es un volcán ubicado en Costa Rica, en la Cordillera de Guanacaste."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tenorio Volcano",
+          "url": "https://en.wikipedia.org/wiki/Tenorio_Volcano"
+        },
+        "es": {
+          "title": "Volcán Tenorio",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Tenorio"
+        }
+      },
+      "image": {
+        "file": "Tenorio_volcano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tenorio_volcano.jpg",
+        "author": "Cindy Stine, USGS",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cr-cano-island",
+      "name": "Caño Island",
+      "area": "Puntarenas Province",
+      "city": "Puntarenas Province",
+      "wikidata": "Q182214",
+      "lat": 8.705764,
+      "lon": -83.878644,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Caño Island is a small island and biological reserve in the Bahia de Corcovado in Osa, Costa Rica.",
+        "es": "Isla del Caño es una pequeña isla y reserva biológica en el Océano Pacífico de Costa Rica, y se ubica a unos 20 km al oeste de Bahía Drake en la Península de Osa, cuenta con un área de unas 320 hectáreas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Isla del Caño",
+          "url": "https://en.wikipedia.org/wiki/Isla_del_Ca%C3%B1o"
+        },
+        "es": {
+          "title": "Isla del Caño",
+          "url": "https://es.wikipedia.org/wiki/Isla_del_Ca%C3%B1o"
+        }
+      },
+      "image": {
+        "file": "View_from_Isla_del_Cano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:View_from_Isla_del_Cano.jpg",
+        "author": "Peter Andersen",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-la-paz-waterfall",
+      "name": "La Paz Waterfall",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q37316",
+      "lat": 10.201744,
+      "lon": -84.161453,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "La Paz is a waterfall in central Costa Rica.",
+        "es": "La catarata La Paz es una cascada en el centro de Costa Rica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "La Paz Waterfall (Costa Rica)",
+          "url": "https://en.wikipedia.org/wiki/La_Paz_Waterfall_(Costa_Rica)"
+        },
+        "es": {
+          "title": "Catarata La Paz",
+          "url": "https://es.wikipedia.org/wiki/Catarata_La_Paz"
+        }
+      },
+      "image": {
+        "file": "La_Paz_Waterfall,_Costa_Rica.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:La_Paz_Waterfall%2C_Costa_Rica.JPG",
+        "author": "Erebus555",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-santa-rosa-national-park",
+      "name": "Santa Rosa National Park",
+      "area": "Santa Elena",
+      "city": "Santa Elena",
+      "wikidata": "Q1154052",
+      "lat": 10.883611,
+      "lon": -85.775,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Santa Rosa National Park, is a national park, in Guanacaste Province, northwestern Costa Rica, it was created in 1966 by decree 3694.",
+        "es": "El parque nacional Santa Rosa se localiza en Costa Rica, en la provincia de Guanacaste a unos 50 km al norte de la ciudad de Liberia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Santa Rosa National Park",
+          "url": "https://en.wikipedia.org/wiki/Santa_Rosa_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Santa Rosa",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Santa_Rosa"
+        }
+      },
+      "image": {
+        "file": "Santa_Rosa_National_Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Santa_Rosa_National_Park.jpg",
+        "author": "Geoff Gallice",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "cr-guanacaste-national-park",
+      "name": "Guanacaste National Park",
+      "area": "Guanacaste Province",
+      "city": "Guanacaste Province",
+      "wikidata": "Q1587862",
+      "lat": 10.83,
+      "lon": -85.323889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Guanacaste National Park, in Spanish Parque Nacional Guanacaste is a national park in northern Costa Rica.",
+        "es": "El Parque Nacional Guanacaste es un parque nacional de Costa Rica ubicado en la provincia de Guanacaste."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Guanacaste National Park (Costa Rica)",
+          "url": "https://en.wikipedia.org/wiki/Guanacaste_National_Park_(Costa_Rica)"
+        },
+        "es": {
+          "title": "Parque nacional Guanacaste",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Guanacaste"
+        }
+      },
+      "image": {
+        "file": "Guanacaste_National_Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Guanacaste_National_Park.jpg",
+        "author": "cyph3r [2]",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "cr-chirripo-national-park",
+      "name": "Chirripó National Park",
+      "area": "Limón Province",
+      "city": "Limón Province",
+      "wikidata": "Q3244192",
+      "lat": 9.48,
+      "lon": -83.48,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Chirripó National Park is a national park of Costa Rica, encompassing parts of three provinces: San José, Limón and Cartago.",
+        "es": "El Parque Nacional Chirripó es un parque nacional en Costa Rica, famoso porque ahí se encuentra el punto más alto de Costa Rica, el cerro Chirripó, a una altitud de 3.821,25 metros sobre el nivel del mar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chirripó National Park",
+          "url": "https://en.wikipedia.org/wiki/Chirrip%C3%B3_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Chirripó",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Chirrip%C3%B3"
+        }
+      },
+      "image": {
+        "file": "Chirripo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chirripo.jpg",
+        "author": "Peter Andersen",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-cerro-de-la-muerte",
+      "name": "Cerro de la Muerte",
+      "area": "Costa Rica",
+      "city": "Costa Rica",
+      "wikidata": "Q4391501",
+      "lat": 9.566667,
+      "lon": -83.75,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cerro de la Muerte is a mountain peak in a massif in Costa Rica, it is located within the Tapantí — Cerro de la Muerte Massif National Park, and is the highest point on the Pan-American Highway.",
+        "es": "El Cerro Buena Vista, también llamado popularmente Cerro de la Muerte, es un macizo de 3491 metros de altitud que forma parte de la Cordillera de Talamanca, en el eje montañoso central de Costa Rica, en las…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cerro de la Muerte",
+          "url": "https://en.wikipedia.org/wiki/Cerro_de_la_Muerte"
+        },
+        "es": {
+          "title": "Cerro de la Muerte",
+          "url": "https://es.wikipedia.org/wiki/Cerro_de_la_Muerte"
+        }
+      },
+      "image": {
+        "file": "Cerro-de-la-muerte.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cerro-de-la-muerte.jpg",
+        "author": "Lsobrado",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-tenorio-volcano-national-park",
+      "name": "Tenorio Volcano National Park",
+      "area": "Guanacaste Province",
+      "city": "Guanacaste Province",
+      "wikidata": "Q4551358",
+      "website": "https://www.sinac.go.cr/ES/ac/acat/pnvt/Paginas/default.aspx",
+      "lat": 10.666667,
+      "lon": -85,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tenorio Volcano National Park is a national park in the northern part of Costa Rica, which forms part of the Arenal Tempisque Conservation Area.",
+        "es": "El parque nacional Volcán Tenorio es un área de conservación natural ubicada en Costa Rica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tenorio Volcano National Park",
+          "url": "https://en.wikipedia.org/wiki/Tenorio_Volcano_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Volcán Tenorio",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Volc%C3%A1n_Tenorio"
+        }
+      },
+      "image": {
+        "file": "Rio_celeste_Fall_1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rio_celeste_Fall_1.JPG",
+        "author": "Cephas",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cr-rincon-de-la-vieja-national-park",
+      "name": "Rincón de la Vieja National Park",
+      "area": "Guanacaste Province",
+      "city": "Guanacaste Province",
+      "wikidata": "Q1431228",
+      "lat": 10.83,
+      "lon": -85.323889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rincón de la Vieja National Park, is a National Park in Guanacaste Province of the northwestern part of Costa Rica.",
+        "es": "El Parque Nacional Rincón de la Vieja está ubicado en las provincias de Guanacaste y Alajuela."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rincón de la Vieja National Park",
+          "url": "https://en.wikipedia.org/wiki/Rinc%C3%B3n_de_la_Vieja_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Rincón de la Vieja",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Rinc%C3%B3n_de_la_Vieja"
+        }
+      },
+      "image": {
+        "file": "Guanacaste_National_Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Guanacaste_National_Park.jpg",
+        "author": "cyph3r [2]",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "cr-la-fortuna-waterfall",
+      "name": "La Fortuna Waterfall",
+      "area": "La Fortuna",
+      "city": "La Fortuna",
+      "wikidata": "Q37446",
+      "lat": 10.440911,
+      "lon": -84.676386,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "La Fortuna Waterfall is in north-central Costa Rica, in Arenal Volcano National Park in the Alajuela Province.",
+        "es": "La Catarata Río Fortuna se encuentra en la Zona Norte del país centroamericano de Costa Rica, en la provincia de Alajuela y distrito La Fortuna."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "La Fortuna Waterfall (Costa Rica)",
+          "url": "https://en.wikipedia.org/wiki/La_Fortuna_Waterfall_(Costa_Rica)"
+        },
+        "es": {
+          "title": "Catarata La Fortuna",
+          "url": "https://es.wikipedia.org/wiki/Catarata_La_Fortuna"
+        }
+      },
+      "image": {
+        "file": "La_Fortuna_Waterfall_Pool.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:La_Fortuna_Waterfall_Pool.jpg",
+        "author": "Photo by and (c)2007 Derek Ramsey (Ram-Man)",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cr-chira",
+      "name": "Chira",
+      "area": "Puntarenas Canton",
+      "city": "Puntarenas Canton",
+      "wikidata": "Q164096",
+      "lat": 10.099625,
+      "lon": -85.145746,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Chira Island is a 4,300-hectare Costa Rican Pacific island located at the upper end of the Gulf of Nicoya, belonging to the Puntarenas canton, in the Puntarenas province of Costa Rica.",
+        "es": "Chira es una isla en el Golfo de Nicoya, y el duodécimo distrito del cantón de Puntarenas, en la provincia de Puntarenas, de Costa Rica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chira Island",
+          "url": "https://en.wikipedia.org/wiki/Chira_Island"
+        },
+        "es": {
+          "title": "Isla de Chira",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Chira"
+        }
+      },
+      "image": {
+        "file": "Atardecer_en_Isla_de_Chira.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Atardecer_en_Isla_de_Chira.jpg",
+        "author": "Rodtico21",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-uvita-island",
+      "name": "Uvita Island",
+      "area": "Limón",
+      "city": "Limón",
+      "wikidata": "Q2328844",
+      "lat": 9.9938,
+      "lon": -83.0113,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Uvita Island, or Isla Uvita, officially Isla Quiribrí, is a small 0.8-square-kilometre island 885 metres offshore of the port at Limón on the Caribbean coast of Costa Rica.",
+        "es": "La Isla Quiribrí, más conocida por su nombre popular, Isla Uvita, es una isla de Costa Rica, ubicada a 1.4 km al este del actual puerto de la ciudad de Limón, en el mar Caribe."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Uvita Island",
+          "url": "https://en.wikipedia.org/wiki/Uvita_Island"
+        },
+        "es": {
+          "title": "Isla Uvita",
+          "url": "https://es.wikipedia.org/wiki/Isla_Uvita"
+        }
+      },
+      "image": {
+        "file": "Isla_Uvita._Limón._Costa_Rica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Isla_Uvita._Lim%C3%B3n._Costa_Rica.jpg",
+        "author": "Roger",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "cr-barra-honda-national-park",
+      "name": "Barra Honda National Park",
+      "area": "Nicoya Canton",
+      "city": "Nicoya Canton",
+      "wikidata": "Q1968749",
+      "lat": 10.175,
+      "lon": -85.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Barra Honda National Park is a national park in the western part of Costa Rica, which forms part of the Tempisque Conservation Area about 12 km from the Tempisque River.",
+        "es": "El parque nacional Barra Honda es un parque nacional de Costa Rica, de 2295 ha de extensión, en territorios que no superan los 423 m de altitud."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Barra Honda National Park",
+          "url": "https://en.wikipedia.org/wiki/Barra_Honda_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Barra Honda",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Barra_Honda"
+        }
+      },
+      "image": {
+        "file": "Barra_Honda_National_Park_01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Barra_Honda_National_Park_01.JPG",
+        "author": "Shamhain",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-nuestra-senora-de-los-angeles",
+      "name": "Nuestra Señora de los Ángeles",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q3445644",
+      "lat": 9.863889,
+      "lon": -83.912778,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basílica de Nuestra Señora de los Ángeles is a Roman Catholic basilica in Costa Rica, located in the city of Cartago and dedicated to the Virgen de los Pardos, officially known as Virgen de los Ángeles.",
+        "es": "La Basílica de Nuestra Señora de los Ángeles es un templo católico de la ciudad de Cartago, Costa Rica y el Santuario principal de Costa Rica, dedicado a Nuestra Señora de los Ángeles."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica of Our Lady of the Angels, Cartago",
+          "url": "https://en.wikipedia.org/wiki/Basilica_of_Our_Lady_of_the_Angels%2C_Cartago"
+        },
+        "es": {
+          "title": "Basílica de Nuestra Señora de los Ángeles (Cartago)",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_de_los_%C3%81ngeles_(Cartago)"
+        }
+      },
+      "image": {
+        "file": "Basilica_of_Our_Lady_of_the_Angels,_Cartago_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Basilica_of_Our_Lady_of_the_Angels%2C_Cartago_01.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "cr-palo-verde-national-park",
+      "name": "Palo Verde National Park",
+      "area": "Guanacaste Province",
+      "city": "Guanacaste Province",
+      "wikidata": "Q11697913",
+      "lat": 10.397222,
+      "lon": -85.323333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Palo Verde National Park, is a national park of Costa Rica, part of the Arenal Tempisque Conservation Area, that contains much of the area of the valley of the Tempisque River and covers an area of 18,400 ha in…",
+        "es": "El Parque nacional Palo Verde es un espacio natural protegido de Costa Rica ubicado en la provincia de Guanacaste."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palo Verde National Park",
+          "url": "https://en.wikipedia.org/wiki/Palo_Verde_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Palo Verde",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Palo_Verde"
+        }
+      }
+    },
+    {
+      "id": "cr-cahuita-national-park",
+      "name": "Cahuita National Park",
+      "area": "Cahuita",
+      "city": "Cahuita",
+      "wikidata": "Q2546988",
+      "lat": 9.729167,
+      "lon": -82.825,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cahuita National Park is a terrestrial and marine national park in the Caribbean La Amistad Conservation Area of Costa Rica located on the southern Caribbean coast in Limón Province, connected to the town of Cahuita.",
+        "es": "El parque nacional Cahuita es un área natural protegida, ubicada en la provincia de Limón, Costa Rica, a 202 km al sur de la capital de la provincia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cahuita National Park",
+          "url": "https://en.wikipedia.org/wiki/Cahuita_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Cahuita",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Cahuita"
+        }
+      },
+      "image": {
+        "file": "Cahuita_national_park,_Costa_Rica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cahuita_national_park%2C_Costa_Rica.jpg",
+        "author": "Haakon S. Krohn",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-isla-calero",
+      "name": "Isla Calero",
+      "area": "Limón Province",
+      "city": "Limón Province",
+      "wikidata": "Q1674027",
+      "lat": 10.849492,
+      "lon": -83.623122,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Isla Calero is the largest island in Costa Rica, as well as along the San Juan River, which marks the border between Nicaragua and Costa Rica.",
+        "es": "Isla Calero es una isla continental de Costa Rica ubicada en el extremo noreste de este país, limitada al norte por la isla Portillos, al oeste y suroeste por los cauces del río San Juan y el río Colorado, al sur por…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Isla Calero",
+          "url": "https://en.wikipedia.org/wiki/Isla_Calero"
+        },
+        "es": {
+          "title": "Isla Calero",
+          "url": "https://es.wikipedia.org/wiki/Isla_Calero"
+        }
+      },
+      "image": {
+        "file": "Vista_de_laguna_portillo_desde_isla_calero.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vista_de_laguna_portillo_desde_isla_calero.JPG",
+        "author": "Axxis10",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-platanar",
+      "name": "Platanar",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q3372707",
+      "lat": 10.300017,
+      "lon": -84.366088,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Platanar Volcano is a dormant stratovolcano located in the Cordillera Central mountain range.",
+        "es": "El volcán Platanar, también conocido como \"cerro Congo\", es un estratovolcán inactivo, localizado a 8 km al sudeste de Ciudad Quesada, San Carlos, Costa Rica, en la Cordillera Volcánica Central."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Platanar Volcano",
+          "url": "https://en.wikipedia.org/wiki/Platanar_Volcano"
+        },
+        "es": {
+          "title": "Volcán Platanar",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Platanar"
+        }
+      },
+      "image": {
+        "file": "Volcán_Platanar,_AA_2009.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volc%C3%A1n_Platanar%2C_AA_2009.jpg",
+        "author": "Green Mostaza",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "cr-isla-damas",
+      "name": "Isla Damas",
+      "area": "Puntarenas Province",
+      "city": "Puntarenas Province",
+      "wikidata": "Q3845188",
+      "lat": 9.453889,
+      "lon": -84.203333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Isla Damas, or Damas Island, is a small island in Costa Rica in the vicinity of Quepos district.",
+        "es": "Isla Damas es una isla marítimo - fluvial de aproximadamente 600 hectáreas ubicada en la costa central del Océano Pacífico de Costa Rica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Isla Damas",
+          "url": "https://en.wikipedia.org/wiki/Isla_Damas"
+        },
+        "es": {
+          "title": "Isla Damas (Costa Rica)",
+          "url": "https://es.wikipedia.org/wiki/Isla_Damas_(Costa_Rica)"
+        }
+      },
+      "image": {
+        "file": "תעלת_המים_בה_שטים_מוקפת_צמחייה_איסלה_דמאס_קוסטה_ריקה_(3).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D7%AA%D7%A2%D7%9C%D7%AA_%D7%94%D7%9E%D7%99%D7%9D_%D7%91%D7%94_%D7%A9%D7%98%D7%99%D7%9D_%D7%9E%D7%95%D7%A7%D7%A4%D7%AA_%D7%A6%D7%9E%D7%97%D7%99%D7%99%D7%94_%D7%90%D7%99%D7%A1%D7%9C%D7%94_%D7%93%D7%9E%D7%90%D7%A1_%D7%A7%D7%95%D7%A1%D7%98%D7%94_%D7%A8%D7%99%D7%A7%D7%94_(3).jpg",
+        "author": "Hanay",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cr-las-baulas-national-marine-park",
+      "name": "Las Baulas National Marine Park",
+      "area": "Guanacaste Province",
+      "city": "Guanacaste Province",
+      "wikidata": "Q4315024",
+      "lat": 10.318,
+      "lon": -85.865,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Las Baulas de Guanacaste Marine National Park is a National Park of Costa Rica and a Ramsar Site.",
+        "es": "El Parque Nacional Marino Las Baulas de Guanacaste es un parque nacional de Costa Rica y un Sitio Ramsar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Las Baulas Marine National Park",
+          "url": "https://en.wikipedia.org/wiki/Las_Baulas_Marine_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional marino Las Baulas",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_marino_Las_Baulas"
+        }
+      },
+      "image": {
+        "file": "Las_Baulas_National_Marine_Park_Panorama_3_CRI_08_2009.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Las_Baulas_National_Marine_Park_Panorama_3_CRI_08_2009.jpg",
+        "author": "Mariordo Mario Roberto Duran Ortiz",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-cerro-echandi",
+      "name": "Cerro Echandi",
+      "area": "Panama",
+      "city": "Panama",
+      "wikidata": "Q5064908",
+      "lat": 9.030806,
+      "lon": -82.819742,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cerro Echandi is a mountain in Bocas del Toro Province of western Panama and in Limón of southwest Costa Rica, on the border with Costa Rica.",
+        "es": "El Cerro Echandi es una montaña fronteriza entre Costa Rica y Panamá, compartida en la provincia de Puntarenas al sureste de la Cordillera de Talamanca en Costa Rica y al oeste de la provincia de Bocas del Toro en…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cerro Echandi",
+          "url": "https://en.wikipedia.org/wiki/Cerro_Echandi"
+        },
+        "es": {
+          "title": "Cerro Echandi",
+          "url": "https://es.wikipedia.org/wiki/Cerro_Echandi"
+        }
+      }
+    },
+    {
+      "id": "cr-san-lucas-island",
+      "name": "San Lucas Island",
+      "area": "Puntarenas Canton",
+      "city": "Puntarenas Canton",
+      "wikidata": "Q592125",
+      "lat": 9.940078,
+      "lon": -84.904233,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "San Lucas Island National Park is an island located off the Pacific shore of Costa Rica in the Gulf of Nicoya.",
+        "es": "El Parque nacional Isla San Lucas es una isla ubicada frente a la costa del Pacífico de Costa Rica, en el Golfo de Nicoya."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "San Lucas Island",
+          "url": "https://en.wikipedia.org/wiki/San_Lucas_Island"
+        },
+        "es": {
+          "title": "Isla San Lucas",
+          "url": "https://es.wikipedia.org/wiki/Isla_San_Lucas"
+        }
+      },
+      "image": {
+        "file": "Isla_San_Lucas.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Isla_San_Lucas.JPG",
+        "author": "Rodtico21",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-metropolitan-cathedral-of-san-jose",
+      "name": "Metropolitan Cathedral of San José",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q6825031",
+      "lat": 9.93275,
+      "lon": -84.078789,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Metropolitan Cathedral of San José is a cathedral in San José, Costa Rica, located on Calle Central and Avenues 2 and 4.",
+        "es": "La Catedral Metropolitana de San José es la iglesia principal de la arquidiócesis católica de San José, en Costa Rica, y sede del arzobispo metropolitano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Metropolitan Cathedral of San José",
+          "url": "https://en.wikipedia.org/wiki/Metropolitan_Cathedral_of_San_Jos%C3%A9"
+        },
+        "es": {
+          "title": "Catedral metropolitana de San José",
+          "url": "https://es.wikipedia.org/wiki/Catedral_metropolitana_de_San_Jos%C3%A9"
+        }
+      },
+      "image": {
+        "file": "Metropolitan_Cathedral_in_San_Jose,_Costa_Rica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Metropolitan_Cathedral_in_San_Jose%2C_Costa_Rica.jpg",
+        "author": "Andy Rusch",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "cr-la-cangreja-national-park",
+      "name": "La Cangreja National Park",
+      "area": "Puriscal Canton",
+      "city": "Puriscal Canton",
+      "wikidata": "Q4552189",
+      "lat": 9.717,
+      "lon": -84.373,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "La Cangreja National Park, until 2002 the Cerro de la Cangreja Protected Zone, is a National Park in the Puriscal Canton of San José Province, in west-central Costa Rica.",
+        "es": "El Parque nacional La Cangreja es un área protegida ubicada entre los distritos montañosos de Chires y Mercedes Sur, en el cantón de Puriscal, Costa Rica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "La Cangreja National Park",
+          "url": "https://en.wikipedia.org/wiki/La_Cangreja_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional La Cangreja",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_La_Cangreja"
+        }
+      },
+      "image": {
+        "file": "Nature_in_Costa_Rica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nature_in_Costa_Rica.jpg",
+        "author": "Ricardo Calvo Aguilar",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-tapanti-national-park",
+      "name": "Tapantí National Park",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q4552264",
+      "lat": 9.770556,
+      "lon": -83.799722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tapantí - Cerro de la Muerte Massif National Park,, is a national park in the Central Conservation Area of Costa Rica located on the edge of the Talamanca Range, near Cartago.",
+        "es": "El parque nacional Tapantí es una reserva natural que se encuentra ubicada en el Área de Conservación La Amistad - Pacífico, en conjunto con el macizo de la Muerte, al noreste de la cordillera de Talamanca, en el…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tapantí National Park",
+          "url": "https://en.wikipedia.org/wiki/Tapant%C3%AD_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Tapantí",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Tapant%C3%AD"
+        }
+      },
+      "image": {
+        "file": "Tapanti.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tapanti.jpg",
+        "author": "No machine-readable author provided. Mardochaios assumed (based on copyright cla",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cr-irazu-volcano-national-park",
+      "name": "Irazú Volcano National Park",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q969125",
+      "lat": 9.975,
+      "lon": -83.865278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Irazú Volcano National Park, or in Spanish the Parque Nacional Volcán Irazú, is a national park in the Central Conservation Area in Cartago Province, Costa Rica, that encompasses Irazú Volcano as well as the Prusia…",
+        "es": "El Parque Nacional Volcán Irazú es un parque nacional de Costa Rica situado al sureste de la Cordillera Volcánica Central, extendiéndose por los cantones de Cartago, Alvarado y Oreamuno, en la provincia de Cartago,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Irazú Volcano National Park",
+          "url": "https://en.wikipedia.org/wiki/Iraz%C3%BA_Volcano_National_Park"
+        },
+        "es": {
+          "title": "Parque Nacional Volcán Irazú",
+          "url": "https://es.wikipedia.org/wiki/Parque_Nacional_Volc%C3%A1n_Iraz%C3%BA"
+        }
+      },
+      "image": {
+        "file": "Irazu_Volcano.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Irazu_Volcano.JPG",
+        "author": "Rafael Golan",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-marino-ballena-national-park",
+      "name": "Marino Ballena National Park",
+      "area": "Puntarenas Province",
+      "city": "Puntarenas Province",
+      "wikidata": "Q3364525",
+      "lat": 9.09193,
+      "lon": -83.7323,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ballena Marine National Park, is a national park of Costa Rica, part of the Osa Conservation Area created as a safe area for migration of humpback whales, hence its name, as Ballena is the Spanish word for whale.",
+        "es": "El parque nacional Marino Ballena se ubica en el distrito de Bahía Ballena, cantón de Osa, provincia de Puntarenas, en la costa pacífica de Costa Rica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ballena Marine National Park",
+          "url": "https://en.wikipedia.org/wiki/Ballena_Marine_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional marino Ballena",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_marino_Ballena"
+        }
+      },
+      "image": {
+        "file": "Parque-Marino-Ballena-Costa-Rica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parque-Marino-Ballena-Costa-Rica.jpg",
+        "author": "Jorge Antonio Leoni de León",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-los-quetzales-national-park",
+      "name": "Los Quetzales National Park",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q6063008",
+      "lat": 9.586111,
+      "lon": -83.907222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Los Quetzales National Park, located 97 kilometers from San Isidro de El General, in Costa Rica, was created in 2006 by Decree 32981-MINAE.",
+        "es": "El Parque Nacional Los Quetzales es un área de conservación natural, ubicado en su mayor extensión en el cantón de Dota, en la provincia de San José, Costa Rica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Los Quetzales National Park",
+          "url": "https://en.wikipedia.org/wiki/Los_Quetzales_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Los Quetzales",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Los_Quetzales"
+        }
+      },
+      "image": {
+        "file": "Pharomachrus_mocinno_-_Parque_Nacional_Los_Quetzales_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pharomachrus_mocinno_-_Parque_Nacional_Los_Quetzales_01.jpg",
+        "author": "Frank Vassen",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "cr-cerro-congo",
+      "name": "Cerro Congo",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q11691399",
+      "lat": 10.254,
+      "lon": -84.228,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Congo Volcano, in Spanish the Volcán Congo and also known as Congo Mountain, Cerro Congo, is an inactive volcano in Costa Rica, situated in the Cordillera Central range near the Poás Volcano and within the Poás…",
+        "es": "El volcán Congo es un estratovolcán inactivo localizado en el cantón de Río Cuarto, provincia de Alajuela, Costa Rica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Congo Volcano",
+          "url": "https://en.wikipedia.org/wiki/Congo_Volcano"
+        },
+        "es": {
+          "title": "Volcán Congo",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Congo"
+        }
+      },
+      "image": {
+        "file": "Volcan_Congo_Alajuela.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volcan_Congo_Alajuela.jpg",
+        "author": "Apega71",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cr-barbilla-national-park",
+      "name": "Barbilla National Park",
+      "area": "Turrialba Canton",
+      "city": "Turrialba Canton",
+      "wikidata": "Q4502059",
+      "lat": 9.942,
+      "lon": -83.42,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Barbilla National Park is a national park in the Caribbean La Amistad Conservation Area located on the eastern slopes of the Cordillera de Talamanca of Costa Rica.",
+        "es": "El parque nacional Barbilla es un parque nacional que se encuentra en el Caribe de Costa Rica, administrado por el Sistema Nacional de Áreas de Conservación en el Área de conservación La Amistad Caribe."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Barbilla National Park",
+          "url": "https://en.wikipedia.org/wiki/Barbilla_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Barbilla",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Barbilla"
+        }
+      },
+      "image": {
+        "file": "BarbillaNationalPark.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BarbillaNationalPark.jpg",
+        "author": "Natox",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-cerro-kamuk",
+      "name": "Cerro Kamuk",
+      "area": "Costa Rica",
+      "city": "Costa Rica",
+      "wikidata": "Q5064934",
+      "lat": 9.283333,
+      "lon": -83.033333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cerro Kamuk is a mountain in the Cordillera de Talamanca, in La Amistad International Park, in eastern Costa Rica, close to the border with Panama.",
+        "es": "El cerro Kamuk es una montaña en la base de las colinas y de las montañas de Parque internacional La Amistad, en la cordillera de Talamanca, entre las cordilleras norteñas de Panamá y del sudeste de Costa Rica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cerro Kamuk",
+          "url": "https://en.wikipedia.org/wiki/Cerro_Kamuk"
+        },
+        "es": {
+          "title": "Cerro Kamuk",
+          "url": "https://es.wikipedia.org/wiki/Cerro_Kamuk"
+        }
+      }
+    },
+    {
+      "id": "cr-cerro-rabo-de-mico",
+      "name": "Cerro Rabo de Mico",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q5064979",
+      "lat": 9.85,
+      "lon": -84.13,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Cerro Rabo de Mico is the highest mountain of the Cerros de Escazú, Costa Rica at 2,428 m.",
+        "es": "El Cerro Rabo de Mico es la montaña más alta de los Cerros de Escazú, Costa Rica, con 2.428 m la cual pertenece al Cantón de Alajuelita."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cerro Rabo de Mico",
+          "url": "https://en.wikipedia.org/wiki/Cerro_Rabo_de_Mico"
+        },
+        "es": {
+          "title": "Cerro Rabo de Mico",
+          "url": "https://es.wikipedia.org/wiki/Cerro_Rabo_de_Mico"
+        }
+      }
+    },
+    {
+      "id": "cr-melico-salazar-theatre",
+      "name": "Melico Salazar Theatre",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q3357547",
+      "website": "https://teatromelico.go.cr/",
+      "lat": 9.9335,
+      "lon": -84.0794,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Melico Salazar Theatre is located in San José, Costa Rica.",
+        "es": "El Teatro Popular Melico Salazar es un teatro público costarricense, declarado patrimonio cultural, y con capacidad para 1.180 espectadores."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Melico Salazar Theatre",
+          "url": "https://en.wikipedia.org/wiki/Melico_Salazar_Theatre"
+        },
+        "es": {
+          "title": "Teatro Popular Melico Salazar",
+          "url": "https://es.wikipedia.org/wiki/Teatro_Popular_Melico_Salazar"
+        }
+      },
+      "image": {
+        "file": "Teatro_Popular_Melico_Salazar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Teatro_Popular_Melico_Salazar.jpg",
+        "author": "Haakon S. Krohn",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cr-cerro-cedral",
+      "name": "Cerro Cedral",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q5064882",
+      "lat": 9.883333,
+      "lon": -84.183333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Cerro Cedral is the second highest mountain of the Cerros de Escazú, Costa Rica with 2,420 m.",
+        "es": "El Cerro Cedral es la segunda montaña más alta de la Cerros de Escazú, Costa Rica, con 2.420 m."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cerro Cedral",
+          "url": "https://en.wikipedia.org/wiki/Cerro_Cedral"
+        },
+        "es": {
+          "title": "Cerro Cedral",
+          "url": "https://es.wikipedia.org/wiki/Cerro_Cedral"
+        }
+      }
+    },
+    {
+      "id": "cr-san-jose-costa-rica-temple",
+      "name": "San José Costa Rica Temple",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q3846757",
+      "website": "https://www.churchofjesuschrist.org/temples/details/san-jose-costa-rica-temple?lang=eng",
+      "lat": 9.986418,
+      "lon": -84.184831,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The San José Costa Rica Temple is a temple of the Church of Jesus Christ of Latter-day Saints in Belén, Costa Rica.",
+        "es": "El Templo de San José, Costa Rica, es uno de los templos construidos y operados por la Iglesia de Jesucristo de los Santos de los Últimos Días, el número 87 construido por esta iglesia y el primero de Costa Rica,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "San José Costa Rica Temple",
+          "url": "https://en.wikipedia.org/wiki/San_Jos%C3%A9_Costa_Rica_Temple"
+        },
+        "es": {
+          "title": "Templo de San José (Costa Rica)",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_San_Jos%C3%A9_(Costa_Rica)"
+        }
+      }
+    },
+    {
+      "id": "cr-la-sabana-metropolitan-park",
+      "name": "La Sabana Metropolitan Park",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q3438120",
+      "lat": 9.934578,
+      "lon": -84.102619,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "La Sabana Metropolitan Park is located in downtown San José, Costa Rica.",
+        "es": "El parque metropolitano La Sabana Padre Chapuí, conocido comúnmente como: La Sabana, es un parque urbano de Costa Rica localizado en el distrito de Mata Redonda, en la ciudad de San José."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "La Sabana Metropolitan Park",
+          "url": "https://en.wikipedia.org/wiki/La_Sabana_Metropolitan_Park"
+        },
+        "es": {
+          "title": "Parque metropolitano La Sabana",
+          "url": "https://es.wikipedia.org/wiki/Parque_metropolitano_La_Sabana"
+        }
+      }
     }
   ]
 }

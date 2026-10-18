@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -199,6 +205,888 @@
         "text": "Tu-Su 08:00-12:00, 13:00-16:00; Mo off",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "la-plain-of-jars",
+      "name": "Plain of Jars",
+      "area": "Xiangkhouang Province",
+      "city": "Xiangkhouang Province",
+      "wikidata": "Q870258",
+      "lat": 19.431111,
+      "lon": 103.1525,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Plain of Jars is a megalithic archaeological landscape in Laos.",
+        "es": "El páramo de las tinajas [tʰōŋ hǎj hǐn] Thong Hai Hin) es un conjunto histórico cultural del norte de Laos que concentra miles de vasijas de piedra en forma de tinaja esparcidas por la meseta de Xieng Khouang, en las…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plain of Jars",
+          "url": "https://en.wikipedia.org/wiki/Plain_of_Jars"
+        },
+        "es": {
+          "title": "Páramo de las tinajas",
+          "url": "https://es.wikipedia.org/wiki/P%C3%A1ramo_de_las_tinajas"
+        }
+      },
+      "image": {
+        "file": "20171115_Plain_of_Jars_Laos_2540_DxO.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20171115_Plain_of_Jars_Laos_2540_DxO.jpg",
+        "author": "Jakub Hałun",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "la-phou-bia",
+      "name": "Phou Bia",
+      "area": "Xiangkhouang Province",
+      "city": "Xiangkhouang Province",
+      "wikidata": "Q239485",
+      "lat": 18.983333,
+      "lon": 103.133333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Phou Bia is the highest mountain in Laos.",
+        "es": "Phou Bia es la montaña más alta de Laos, país del Sudeste Asiático."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Phou Bia",
+          "url": "https://en.wikipedia.org/wiki/Phou_Bia"
+        },
+        "es": {
+          "title": "Phou Bia",
+          "url": "https://es.wikipedia.org/wiki/Phou_Bia"
+        }
+      },
+      "image": {
+        "file": "PhouBia_from_Nam_Ngum_Lake.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:PhouBia_from_Nam_Ngum_Lake.jpg",
+        "author": "Chaoborus",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "la-pha-that-luang",
+      "name": "Pha That Luang",
+      "area": "Vientiane",
+      "city": "Vientiane",
+      "wikidata": "Q1059720",
+      "lat": 17.976167,
+      "lon": 102.63425,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Pha That Luang is a gold-covered Buddhist stupa in Vientiane, the capital city of Laos.",
+        "es": "Pha That Luang es una estupa budista recubierta con oro situada en el centro de Vientián, Laos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pha That Luang",
+          "url": "https://en.wikipedia.org/wiki/Pha_That_Luang"
+        },
+        "es": {
+          "title": "Pha That Luang",
+          "url": "https://es.wikipedia.org/wiki/Pha_That_Luang"
+        }
+      },
+      "image": {
+        "file": "Pha_That_Luang_Vientiane_Laos.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pha_That_Luang_Vientiane_Laos.jpg",
+        "author": "Jialiang Gao www.peace-on-earth.org",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "la-first-thai-lao-friendship-bridge",
+      "name": "First Thai–Lao Friendship Bridge",
+      "area": "Vientiane",
+      "city": "Vientiane",
+      "wikidata": "Q917862",
+      "lat": 17.878333,
+      "lon": 102.715556,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The First Thai–Lao Friendship Bridge is a bridge over the Mekong, connecting Nong Khai Province and the city of Nong Khai in Thailand with Vientiane Prefecture in Laos.",
+        "es": "El Puente de la Amistad entre Tailandia y Laos es un puente sobre el río Mekong, que conecta la provincia de Nong Khai y la ciudad de Nong Khai en Tailandia con Prefectura Vientián en Laos, la ciudad de Vientián está…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "First Thai–Lao Friendship Bridge",
+          "url": "https://en.wikipedia.org/wiki/First_Thai%E2%80%93Lao_Friendship_Bridge"
+        },
+        "es": {
+          "title": "Puente de la Amistad entre Tailandia y Laos",
+          "url": "https://es.wikipedia.org/wiki/Puente_de_la_Amistad_entre_Tailandia_y_Laos"
+        }
+      },
+      "image": {
+        "file": "Thai-Lao-Freundschaftsbruecke.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Thai-Lao-Freundschaftsbruecke.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "la-kuang-si-falls",
+      "name": "Kuang Si Falls",
+      "area": "Luang Prabang Province",
+      "city": "Luang Prabang Province",
+      "wikidata": "Q2584261",
+      "lat": 19.749167,
+      "lon": 101.991667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Kuang Si Falls or Kuang Xi Falls, alternatively known as the Tat Kuang Si Waterfalls, is a multi-tiered waterfall in Laos about 29 kilometers south of the town of Luang Prabang.",
+        "es": "Cataratas Kuang Si a veces escrito Kuang Xi, es una cascada de tres niveles alrededor de 29 kilómetros al sur de Luang Prabang en Laos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kuang Si Falls",
+          "url": "https://en.wikipedia.org/wiki/Kuang_Si_Falls"
+        },
+        "es": {
+          "title": "Cataratas Kuang Si",
+          "url": "https://es.wikipedia.org/wiki/Cataratas_Kuang_Si"
+        }
+      },
+      "image": {
+        "file": "Kuang_Si_Falls_and_a_turquoise_water_pool_in_Luang_Prabang_province_Laos.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kuang_Si_Falls_and_a_turquoise_water_pool_in_Luang_Prabang_province_Laos.jpg",
+        "author": "Basile Morin",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "la-wat-xieng-thong",
+      "name": "Wat Xieng Thong",
+      "area": "Luang Prabang",
+      "city": "Luang Prabang",
+      "wikidata": "Q2671118",
+      "lat": 19.8975,
+      "lon": 102.143056,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Wat Xieng Thong is a Buddhist temple on the northern tip of the peninsula of Luang Prabang, Laos.",
+        "es": "Wat Xieng Thong is a Buddhist temple on the northern tip of the peninsula of Luang Prabang, Laos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wat Xieng Thong",
+          "url": "https://en.wikipedia.org/wiki/Wat_Xieng_Thong"
+        },
+        "es": {
+          "title": "Wat Xieng Thong",
+          "url": "https://en.wikipedia.org/wiki/Wat_Xieng_Thong"
+        }
+      },
+      "image": {
+        "file": "Wat_Xieng_Thong_Laos_I.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wat_Xieng_Thong_Laos_I.jpg",
+        "author": "Phillip Maiwald (Nikopol)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "la-second-thai-lao-friendship-bridge",
+      "name": "Second Thai–Lao Friendship Bridge",
+      "area": "Kaysone Phomvihane",
+      "city": "Kaysone Phomvihane",
+      "wikidata": "Q233452",
+      "lat": 16.601111,
+      "lon": 104.735833,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Second Thai–Lao Friendship Bridge over the Mekong connects Mukdahan Province in Thailand with Savannakhet in Laos.",
+        "es": "El Segundo Puente de la Amistad entre Tailandia y Laos (en tailandés: สะพานมิตรภาพ ไทย-ลาว แห่งที่ 2; es un puente internacional que cruza el río Mekong y une la provincia de Mukdahan, en Tailandia, con Savannakhet…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Second Thai–Lao Friendship Bridge",
+          "url": "https://en.wikipedia.org/wiki/Second_Thai%E2%80%93Lao_Friendship_Bridge"
+        },
+        "es": {
+          "title": "Segundo Puente de la Amistad entre Tailandia y Laos",
+          "url": "https://es.wikipedia.org/wiki/Segundo_Puente_de_la_Amistad_entre_Tailandia_y_Laos"
+        }
+      },
+      "image": {
+        "file": "Second_Thai–Lao_Friendship_Bridge.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Second_Thai%E2%80%93Lao_Friendship_Bridge.JPG",
+        "author": "Premica Pata, Schwägerin",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "la-third-thai-lao-friendship-bridge",
+      "name": "Third Thai–Lao Friendship Bridge",
+      "area": "Thakhèk",
+      "city": "Thakhèk",
+      "wikidata": "Q1259211",
+      "lat": 17.4925,
+      "lon": 104.728333,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Third Thai–Lao Friendship Bridge over the Mekong is a bridge that connects Nakhon Phanom Province in Thailand with Thakhek, Khammouane Province in Laos.",
+        "es": "The Third Thai–Lao Friendship Bridge over the Mekong is a bridge that connects Nakhon Phanom Province in Thailand with Thakhek, Khammouane Province in Laos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Third Thai–Lao Friendship Bridge",
+          "url": "https://en.wikipedia.org/wiki/Third_Thai%E2%80%93Lao_Friendship_Bridge"
+        },
+        "es": {
+          "title": "Third Thai–Lao Friendship Bridge",
+          "url": "https://en.wikipedia.org/wiki/Third_Thai%E2%80%93Lao_Friendship_Bridge"
+        }
+      },
+      "image": {
+        "file": "3rd_Friendschip_Laos_04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:3rd_Friendschip_Laos_04.jpg",
+        "author": "Yothin M",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "la-wat-si-saket",
+      "name": "Wat Si Saket",
+      "area": "Vientiane",
+      "city": "Vientiane",
+      "wikidata": "Q1442048",
+      "lat": 17.963061,
+      "lon": 102.611111,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Wat Si Saket is a Buddhist wat in Vientiane, Laos.",
+        "es": "Wat Si Saket is a Buddhist wat in Vientiane, Laos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wat Si Saket",
+          "url": "https://en.wikipedia.org/wiki/Wat_Si_Saket"
+        },
+        "es": {
+          "title": "Wat Si Saket",
+          "url": "https://en.wikipedia.org/wiki/Wat_Si_Saket"
+        }
+      },
+      "image": {
+        "file": "Sisaket.2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sisaket.2.jpg",
+        "author": "User:Mattes",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "la-wat-si-muang",
+      "name": "Wat Si Muang",
+      "area": "Vientiane",
+      "city": "Vientiane",
+      "wikidata": "Q1441659",
+      "lat": 17.9579,
+      "lon": 102.617,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Wat Si Muang or Simuong is a Buddhist temple in Vientiane, the capital of Laos.",
+        "es": "Wat Si Muang or Simuong is a Buddhist temple in Vientiane, the capital of Laos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wat Si Muang",
+          "url": "https://en.wikipedia.org/wiki/Wat_Si_Muang"
+        },
+        "es": {
+          "title": "Wat Si Muang",
+          "url": "https://en.wikipedia.org/wiki/Wat_Si_Muang"
+        }
+      },
+      "image": {
+        "file": "Wat_Si_Muang.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wat_Si_Muang.jpg",
+        "author": "Ondřej Žváček",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "la-royal-palace-luang-prabang",
+      "name": "Royal Palace, Luang Prabang",
+      "area": "Luang Prabang",
+      "city": "Luang Prabang",
+      "wikidata": "Q3361219",
+      "lat": 19.8921,
+      "lon": 102.1356,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Royal Palace in Luang Prabang, Laos, was built in 1904 during the French colonial era for King Sisavang Vong and his family.",
+        "es": "El Palacio real de Luang Prabang se localiza en Laos, fue construido en 1904 durante la época colonial francesa para el rey Sisavang Vong y su familia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Royal Palace, Luang Prabang",
+          "url": "https://en.wikipedia.org/wiki/Royal_Palace%2C_Luang_Prabang"
+        },
+        "es": {
+          "title": "Palacio real de Luang Prabang",
+          "url": "https://es.wikipedia.org/wiki/Palacio_real_de_Luang_Prabang"
+        }
+      },
+      "image": {
+        "file": "Haw_Kham_palace_(August_2009).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Haw_Kham_palace_(August_2009).jpg",
+        "author": "Allie Caulfield",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "la-tam-pa-ling-cave",
+      "name": "Tam Pa Ling Cave",
+      "area": "Vientiane",
+      "city": "Vientiane",
+      "wikidata": "Q27922296",
+      "lat": 20.208611,
+      "lon": 103.409722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tam Pa Ling is a cave in the Annamite Mountains in north-eastern Laos.",
+        "es": "Tam Pa Ling es una cueva de la cordillera Annamita, en el noreste de Laos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tam Pa Ling Cave",
+          "url": "https://en.wikipedia.org/wiki/Tam_Pa_Ling_Cave"
+        },
+        "es": {
+          "title": "Cueva de Tam Pa Ling",
+          "url": "https://es.wikipedia.org/wiki/Cueva_de_Tam_Pa_Ling"
+        }
+      },
+      "image": {
+        "file": "Tam_Pa_Ling_cave_south_entrance.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tam_Pa_Ling_cave_south_entrance.jpg",
+        "author": "Demeter F, Shackelford L, Westaway K, Duringer P, Bacon A-M, et al.",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "la-presidential-palace",
+      "name": "Presidential Palace",
+      "area": "Vientiane",
+      "city": "Vientiane",
+      "wikidata": "Q15268539",
+      "lat": 17.962037,
+      "lon": 102.60988,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Presidential Palace is the official residence of the President of Laos, who, by convention, also holds the position of General Secretary of the Lao People's Revolutionary Party.",
+        "es": "The Presidential Palace is the official residence of the President of Laos, who, by convention, also holds the position of General Secretary of the Lao People's Revolutionary Party."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Presidential Palace, Laos",
+          "url": "https://en.wikipedia.org/wiki/Presidential_Palace%2C_Laos"
+        },
+        "es": {
+          "title": "Presidential Palace, Laos",
+          "url": "https://en.wikipedia.org/wiki/Presidential_Palace%2C_Laos"
+        }
+      },
+      "image": {
+        "file": "Ministry_of_Education,_Laos.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ministry_of_Education%2C_Laos.jpg",
+        "author": "Ryuch",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "la-wat-manorom",
+      "name": "Wat Manorom",
+      "area": "Luang Prabang",
+      "city": "Luang Prabang",
+      "wikidata": "Q1670535",
+      "lat": 19.882711,
+      "lon": 102.132767,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Wat Manorom is a major Buddhist temple and monastery in Luang Prabang, Laos.",
+        "es": "Wat Manorom is a major Buddhist temple and monastery in Luang Prabang, Laos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wat Manorom",
+          "url": "https://en.wikipedia.org/wiki/Wat_Manorom"
+        },
+        "es": {
+          "title": "Wat Manorom",
+          "url": "https://en.wikipedia.org/wiki/Wat_Manorom"
+        }
+      },
+      "image": {
+        "file": "Luang_Prabang-Wat_Manorom-05-gje.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Luang_Prabang-Wat_Manorom-05-gje.jpg",
+        "author": "Gerd Eichmann",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "la-wat-mai-suwannaphumaham",
+      "name": "Wat Mai Suwannaphumaham",
+      "area": "Luang Prabang District",
+      "city": "Luang Prabang District",
+      "wikidata": "Q7972939",
+      "lat": 19.8906,
+      "lon": 102.135,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Wat Mai Suwannaphumaham often simply Wat Mai or Wat May is a Buddhist temple or wat in Luang Prabang, Laos.",
+        "es": "Wat Mai Suwannaphumaham often simply Wat Mai or Wat May is a Buddhist temple or wat in Luang Prabang, Laos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wat Mai Suwannaphumaham",
+          "url": "https://en.wikipedia.org/wiki/Wat_Mai_Suwannaphumaham"
+        },
+        "es": {
+          "title": "Wat Mai Suwannaphumaham",
+          "url": "https://en.wikipedia.org/wiki/Wat_Mai_Suwannaphumaham"
+        }
+      },
+      "image": {
+        "file": "Vat_May1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vat_May1.JPG",
+        "author": "Alcyon",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "la-wat-ong-teu-mahawihan",
+      "name": "Wat Ong Teu Mahawihan",
+      "area": "Vientiane",
+      "city": "Vientiane",
+      "wikidata": "Q7972946",
+      "lat": 17.9656,
+      "lon": 102.604,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Wat Ong Teu Mahawihan is one of many Buddhist monasteries in the city of Vientiane in Laos.",
+        "es": "Wat Ong Teu Mahawihan es uno de los muchos monasterios budistas de la ciudad de Vientián en Laos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wat Ong Teu Mahawihan",
+          "url": "https://en.wikipedia.org/wiki/Wat_Ong_Teu_Mahawihan"
+        },
+        "es": {
+          "title": "Templo Ong Teu Mahawihan",
+          "url": "https://es.wikipedia.org/wiki/Templo_Ong_Teu_Mahawihan"
+        }
+      },
+      "image": {
+        "file": "Wat_Ong_Theu_Vientiane_Laos.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wat_Ong_Theu_Vientiane_Laos.jpg",
+        "author": "Grossbildjaeger",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "la-wat-sen",
+      "name": "Wat Sen",
+      "area": "Luang Prabang District",
+      "city": "Luang Prabang District",
+      "wikidata": "Q7972957",
+      "lat": 19.8956,
+      "lon": 102.142,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Wat Sen also known as Wat Sene Souk Haram is a Buddhist temple, located in Luang Phrabang, Laos.",
+        "es": "Wat Sen also known as Wat Sene Souk Haram is a Buddhist temple, located in Luang Phrabang, Laos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wat Sen",
+          "url": "https://en.wikipedia.org/wiki/Wat_Sen"
+        },
+        "es": {
+          "title": "Wat Sen",
+          "url": "https://en.wikipedia.org/wiki/Wat_Sen"
+        }
+      },
+      "image": {
+        "file": "Luang_Prabang-Wat_Sene-02-Buddha-gje.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Luang_Prabang-Wat_Sene-02-Buddha-gje.jpg",
+        "author": "Gerd Eichmann",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "la-vientiane-jamia-mosque",
+      "name": "Vientiane Jamia Mosque",
+      "area": "Vientiane",
+      "city": "Vientiane",
+      "wikidata": "Q17606819",
+      "lat": 17.964606,
+      "lon": 102.608822,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Vientiane Jamia Mosque, also called Jamia Masjid or the Congregational Mosque, is a Sunni Islamic mosque that worships in the Hanafi school tradition, located in a lane near the Nam Phu Fountain, in Vientiane, Laos.",
+        "es": "The Vientiane Jamia Mosque, also called Jamia Masjid or the Congregational Mosque, is a Sunni Islamic mosque that worships in the Hanafi school tradition, located in a lane near the Nam Phu Fountain, in Vientiane, Laos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vientiane Jamia Mosque",
+          "url": "https://en.wikipedia.org/wiki/Vientiane_Jamia_Mosque"
+        },
+        "es": {
+          "title": "Vientiane Jamia Mosque",
+          "url": "https://en.wikipedia.org/wiki/Vientiane_Jamia_Mosque"
+        }
+      },
+      "image": {
+        "file": "Vientiane_-_Jamia_Masjid_-_0001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vientiane_-_Jamia_Masjid_-_0001.jpg",
+        "author": "Stefan Fussan",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "la-that-dam",
+      "name": "That Dam",
+      "area": "Vientiane",
+      "city": "Vientiane",
+      "wikidata": "Q4466863",
+      "lat": 17.966,
+      "lon": 102.611,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "That Dam is a large stupa located in Vientiane, Laos.",
+        "es": "That Dam is a large stupa located in Vientiane, Laos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "That Dam",
+          "url": "https://en.wikipedia.org/wiki/That_Dam"
+        },
+        "es": {
+          "title": "That Dam",
+          "url": "https://en.wikipedia.org/wiki/That_Dam"
+        }
+      },
+      "image": {
+        "file": "Vientiane_-_That_Dam_-_0001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vientiane_-_That_Dam_-_0001.jpg",
+        "author": "Stefan Fussan",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "la-tham-kong-lo",
+      "name": "Tham Kong Lo",
+      "area": "Kounkham District",
+      "city": "Kounkham District",
+      "wikidata": "Q7709772",
+      "lat": 17.956376,
+      "lon": 104.761098,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tham Kong Lo or Kong Lor Cave is a karst limestone cave in Phu Hin Bun National Park, in Khammouane Province, Laos.",
+        "es": "Tham Kong Lo or Kong Lor Cave is a karst limestone cave in Phu Hin Bun National Park, in Khammouane Province, Laos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tham Kong Lo",
+          "url": "https://en.wikipedia.org/wiki/Tham_Kong_Lo"
+        },
+        "es": {
+          "title": "Tham Kong Lo",
+          "url": "https://en.wikipedia.org/wiki/Tham_Kong_Lo"
+        }
+      },
+      "image": {
+        "file": "Tham_Kong_Lo_(2).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tham_Kong_Lo_(2).JPG",
+        "author": "Alexander Blecher, blecher.info, all 452 pictures, overview",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "la-sacred-heart-cathedral-vientiane",
+      "name": "Sacred Heart Cathedral, Vientiane",
+      "area": "Vientiane",
+      "city": "Vientiane",
+      "wikidata": "Q25017398",
+      "lat": 17.96154,
+      "lon": 102.6148,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sacred Heart Cathedral, also called Vientiane Cathedral, is the name given to a Roman Catholic cathedral in the city of Vientiane, the capital of Laos.",
+        "es": "La Catedral del Sagrado Corazón o simplemente Catedral de Vientián es el nombre que recibe un edificio religioso que está afiliado a la Iglesia católica y se encuentra ubicado en la localidad de Vientián, la ciudad…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sacred Heart Cathedral, Vientiane",
+          "url": "https://en.wikipedia.org/wiki/Sacred_Heart_Cathedral%2C_Vientiane"
+        },
+        "es": {
+          "title": "Catedral del Sagrado Corazón (Vientián)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Sagrado_Coraz%C3%B3n_(Vienti%C3%A1n)"
+        }
+      },
+      "image": {
+        "file": "Laos1_556.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Laos1_556.jpg",
+        "author": "Torbenbrinker",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "la-sala-keoku",
+      "name": "Sala Keoku",
+      "area": "Vientiane",
+      "city": "Vientiane",
+      "wikidata": "Q353944",
+      "lat": 17.8869,
+      "lon": 102.782267,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sala Keoku is a park featuring giant fantastic concrete sculptures inspired by Buddhism and Hinduism.",
+        "es": "Sala Keoku is a park featuring giant fantastic concrete sculptures inspired by Buddhism and Hinduism."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sala Keoku",
+          "url": "https://en.wikipedia.org/wiki/Sala_Keoku"
+        },
+        "es": {
+          "title": "Sala Keoku",
+          "url": "https://en.wikipedia.org/wiki/Sala_Keoku"
+        }
+      },
+      "image": {
+        "file": "SalaKeoKou_3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:SalaKeoKou_3.jpg",
+        "author": "Der aus Uebersee kommt",
+        "license": "CC BY-SA 3.0"
       }
     }
   ]

@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -173,6 +179,599 @@
       "wikidata": "Q11705490",
       "lat": 29.30017,
       "lon": 47.96245
+    },
+    {
+      "id": "kw-al-hamra-tower",
+      "name": "Al Hamra Tower",
+      "area": "Kuwait City",
+      "city": "Kuwait City",
+      "wikidata": "Q557933",
+      "website": "https://www.alhamra.com.kw/",
+      "lat": 29.378611,
+      "lon": 47.992778,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Al Hamra Tower is a skyscraper in Kuwait City, Kuwait.",
+        "es": "Al Hamra Tower es un rascacielos situado en Kuwait City, Kuwait."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Al Hamra Tower",
+          "url": "https://en.wikipedia.org/wiki/Al_Hamra_Tower"
+        },
+        "es": {
+          "title": "Al Hamra Tower",
+          "url": "https://es.wikipedia.org/wiki/Al_Hamra_Tower"
+        }
+      },
+      "image": {
+        "file": "Al_Hamra_Kuwait_Mai_2010.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Al_Hamra_Kuwait_Mai_2010.jpg",
+        "author": "J.Stiegler",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "kw-bubiyan-island",
+      "name": "Bubiyan Island",
+      "area": "Al Jahra Governorate",
+      "city": "Al Jahra Governorate",
+      "wikidata": "Q781268",
+      "lat": 29.783333,
+      "lon": 48.183333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Bubiyan Island is the largest island in the Kuwaiti coastal island chain situated in the north-western corner of the Persian Gulf, with an area of 863 km2.",
+        "es": "Bubiyan es con diferencia la mayor de las islas kuwaitíes del golfo Pérsico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bubiyan Island",
+          "url": "https://en.wikipedia.org/wiki/Bubiyan_Island"
+        },
+        "es": {
+          "title": "Bubiyan",
+          "url": "https://es.wikipedia.org/wiki/Bubiyan"
+        }
+      },
+      "image": {
+        "file": "Kuwait-Islands.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kuwait-Islands.png",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "kw-failaka-island",
+      "name": "Failaka Island",
+      "area": "Kuwait City",
+      "city": "Kuwait City",
+      "wikidata": "Q1392962",
+      "lat": 29.433333,
+      "lon": 48.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Failaka Island is a Kuwaiti Island in the Persian Gulf.",
+        "es": "Failaka Island is a Kuwaiti Island in the Persian Gulf."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Failaka Island",
+          "url": "https://en.wikipedia.org/wiki/Failaka_Island"
+        },
+        "es": {
+          "title": "Failaka Island",
+          "url": "https://en.wikipedia.org/wiki/Failaka_Island"
+        }
+      },
+      "image": {
+        "file": "Failaka_Island_2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Failaka_Island_2.JPG",
+        "author": "Pburiot",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "kw-grand-mosque",
+      "name": "Grand Mosque",
+      "area": "Kuwait City",
+      "city": "Kuwait City",
+      "wikidata": "Q1432832",
+      "lat": 29.369722,
+      "lon": 47.978333,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Grand Mosque, located in Kuwait City, is the largest mosque in Kuwait.",
+        "es": "La Gran Mezquita Estatal es una mezquita ubicada en la ciudad de Kuwait, cerca de la costa del Golfo Pérsico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grand Mosque of Kuwait",
+          "url": "https://en.wikipedia.org/wiki/Grand_Mosque_of_Kuwait"
+        },
+        "es": {
+          "title": "Gran Mezquita de Kuwait",
+          "url": "https://es.wikipedia.org/wiki/Gran_Mezquita_de_Kuwait"
+        }
+      },
+      "image": {
+        "file": "Kuwait_City_Grand_Mosque_Exterior_South_Facade_5.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kuwait_City_Grand_Mosque_Exterior_South_Facade_5.jpg",
+        "author": "Zairon",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "kw-auhah-island",
+      "name": "Auhah Island",
+      "area": "Kuwait City",
+      "city": "Kuwait City",
+      "wikidata": "Q1935593",
+      "lat": 29.383333,
+      "lon": 48.433333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Auhah Island is a small island belonging to Kuwait.",
+        "es": "La Isla Auhah es una pequeña isla que pertenece a Kuwait."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Auhah Island",
+          "url": "https://en.wikipedia.org/wiki/Auhah_Island"
+        },
+        "es": {
+          "title": "Isla Auhah",
+          "url": "https://es.wikipedia.org/wiki/Isla_Auhah"
+        }
+      }
+    },
+    {
+      "id": "kw-miskan-island",
+      "name": "Miskan Island",
+      "area": "Kuwait City",
+      "city": "Kuwait City",
+      "wikidata": "Q4164575",
+      "lat": 29.485833,
+      "lon": 48.251389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Miskan Island is a small, uninhabited island in the Persian Gulf off Kuwait.",
+        "es": "Isla Miskan es una pequeña isla, que se encuentra en el Golfo Pérsico, perteneciente a Kuwait."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Miskan Island",
+          "url": "https://en.wikipedia.org/wiki/Miskan_Island"
+        },
+        "es": {
+          "title": "Isla Miskan",
+          "url": "https://es.wikipedia.org/wiki/Isla_Miskan"
+        }
+      }
+    },
+    {
+      "id": "kw-kubbar-island",
+      "name": "Kubbar Island",
+      "area": "Kuwait City",
+      "city": "Kuwait City",
+      "wikidata": "Q944666",
+      "lat": 29.072222,
+      "lon": 48.493333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kubbar is a sandy island of Kuwait in the Persian Gulf, covered with shrub.",
+        "es": "Isla Kubbar es una isla de Kuwait en el Golfo Pérsico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kubbar Island",
+          "url": "https://en.wikipedia.org/wiki/Kubbar_Island"
+        },
+        "es": {
+          "title": "Isla Kubbar",
+          "url": "https://es.wikipedia.org/wiki/Isla_Kubbar"
+        }
+      },
+      "image": {
+        "file": "Kubbar_island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kubbar_island.jpg",
+        "author": "Kubbar",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "kw-umm-an-namil-island",
+      "name": "Umm an Namil Island",
+      "area": "Kuwait City",
+      "city": "Kuwait City",
+      "wikidata": "Q4116196",
+      "lat": 29.381667,
+      "lon": 47.866944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Umm al Namil is an island belonging to Kuwait, located within Kuwait Bay, in Persian Gulf.",
+        "es": "Isla Umm an Namil es una isla que pertenece a Kuwait, que se encuentra dentro de la bahía de Kuwait, en el Golfo Pérsico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Umm an Namil Island",
+          "url": "https://en.wikipedia.org/wiki/Umm_an_Namil_Island"
+        },
+        "es": {
+          "title": "Isla Umm an Namil",
+          "url": "https://es.wikipedia.org/wiki/Isla_Umm_an_Namil"
+        }
+      }
+    },
+    {
+      "id": "kw-umm-al-maradim-island",
+      "name": "Umm al Maradim Island",
+      "area": "Kuwait City",
+      "city": "Kuwait City",
+      "wikidata": "Q4116095",
+      "lat": 28.678333,
+      "lon": 48.652778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Umm al Maradim is an island located at the extreme south of Kuwait's marine borders near the junction with the Kingdom of Saudi Arabia.",
+        "es": "Isla Umm al Maradim, significa, Madre de cantos rodados, es una isla perteneciente al estado de Kuwait."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Umm al Maradim Island",
+          "url": "https://en.wikipedia.org/wiki/Umm_al_Maradim_Island"
+        },
+        "es": {
+          "title": "Isla Umm al Maradim",
+          "url": "https://es.wikipedia.org/wiki/Isla_Umm_al_Maradim"
+        }
+      }
+    },
+    {
+      "id": "kw-shuwaikh-island",
+      "name": "Shuwaikh Island",
+      "area": "Kuwait City",
+      "city": "Kuwait City",
+      "wikidata": "Q4116188",
+      "lat": 29.354444,
+      "lon": 47.909722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Shuwaikh Island, also known as Akkaz Island, is a former island of Kuwait within Kuwait Bay.",
+        "es": "Isla Shuwaikh también conocida como Isla Qurain, o la isla de Akkaz, es una antigua isla de Kuwait en la Bahía de Kuwait."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shuwaikh Island",
+          "url": "https://en.wikipedia.org/wiki/Shuwaikh_Island"
+        },
+        "es": {
+          "title": "Isla Shuwaikh",
+          "url": "https://es.wikipedia.org/wiki/Isla_Shuwaikh"
+        }
+      }
+    },
+    {
+      "id": "kw-qaruh-island",
+      "name": "Qaruh Island",
+      "area": "Al Ahmadi Governorate",
+      "city": "Al Ahmadi Governorate",
+      "wikidata": "Q2585129",
+      "lat": 28.82,
+      "lon": 48.774167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Qaruh Island is an island belonging to the state of Kuwait, which received its name from the large amounts of petroleum sediments in the area.",
+        "es": "Isla Qaruh es una isla perteneciente al estado de Kuwait, que recibió su nombre por la gran cantidad de sedimentos de petróleo en la zona conocida como Qar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Qaruh Island",
+          "url": "https://en.wikipedia.org/wiki/Qaruh_Island"
+        },
+        "es": {
+          "title": "Isla Qaruh",
+          "url": "https://es.wikipedia.org/wiki/Isla_Qaruh"
+        }
+      },
+      "image": {
+        "file": "US_Navy_110125-N-6499D-229_Kuwaiti_military_personnel_and_dignitaries_celebrate_the_20th_anniversary_of_the_liberation_of_Qaruh_Island,_Kuwait.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:US_Navy_110125-N-6499D-229_Kuwaiti_military_personnel_and_dignitaries_celebrate_the_20th_anniversary_of_the_liberation_of_Qaruh_Island%2C_Kuwait.jpg",
+        "author": "U.S. Navy photo by Mass Communication Specialist 1st Class Elisandro Diaz",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "kw-square-capital-tower",
+      "name": "Square Capital Tower",
+      "area": "Kuwait City",
+      "city": "Kuwait City",
+      "wikidata": "Q691263",
+      "lat": 29.384857,
+      "lon": 47.988659,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Square Capital Tower, also known as Assima Tower, is a skyscraper in Kuwait City, Kuwait.",
+        "es": "La Torre Square Capital , también conocida como Torre Assima, es un rascacielos en Ciudad de Kuwait, Kuwait."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Square Capital Tower",
+          "url": "https://en.wikipedia.org/wiki/Square_Capital_Tower"
+        },
+        "es": {
+          "title": "Torre Square Capital (Kuwait)",
+          "url": "https://es.wikipedia.org/wiki/Torre_Square_Capital_(Kuwait)"
+        }
+      }
+    },
+    {
+      "id": "kw-sheikh-jaber-al-ahmad-al-sabah-causeway",
+      "name": "Sheikh Jaber al-Ahmad al-Sabah Causeway",
+      "area": "Kuwait City",
+      "city": "Kuwait City",
+      "wikidata": "Q28221159",
+      "lat": 29.371186,
+      "lon": 47.910154,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sheikh Jaber Al-Ahmad Al-Sabah Causeway is a causeway in Kuwait that spans the Bay of Kuwait in two directions and comprises two links: the Main Link, which connects Kuwait City with northern Kuwait ; and a Doha…",
+        "es": "El Puente Sheikh Jaber Al-Ahmad Al-Sabah es un puente en Kuwait que atraviesa la Bahía de Kuwait en dos direcciones y consta de dos enlaces: el Enlace Principal, que conecta Ciudad de Kuwait con el norte de Kuwait ;…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sheikh Jaber Al-Ahmad Al-Sabah Causeway",
+          "url": "https://en.wikipedia.org/wiki/Sheikh_Jaber_Al-Ahmad_Al-Sabah_Causeway"
+        },
+        "es": {
+          "title": "Puente Sheikh Jaber Al-Ahmad Al-Sabah",
+          "url": "https://es.wikipedia.org/wiki/Puente_Sheikh_Jaber_Al-Ahmad_Al-Sabah"
+        }
+      },
+      "image": {
+        "file": "26th_December_2019_solar_eclipse_as_viewed_in_Kuwait.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:26th_December_2019_solar_eclipse_as_viewed_in_Kuwait.jpg",
+        "author": "Aaronstonedd",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "kw-imam-hussein-mosque",
+      "name": "Imam Hussein Mosque",
+      "area": "Kuwait City",
+      "city": "Kuwait City",
+      "wikidata": "Q3906657",
+      "lat": 29.369722,
+      "lon": 47.978333,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Imam Hussein Mosque, in Midan Hawalli District, Kuwait City, is the largest Shi'a mosque in Kuwait.",
+        "es": "Imam Hussein Mosque, in Midan Hawalli District, Kuwait City, is the largest Shi'a mosque in Kuwait."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Imam Hussein Mosque (Kuwait)",
+          "url": "https://en.wikipedia.org/wiki/Imam_Hussein_Mosque_(Kuwait)"
+        },
+        "es": {
+          "title": "Imam Hussein Mosque (Kuwait)",
+          "url": "https://en.wikipedia.org/wiki/Imam_Hussein_Mosque_(Kuwait)"
+        }
+      },
+      "image": {
+        "file": "Imam_Hussein_Mosque,_Kuwait_City_1980_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Imam_Hussein_Mosque%2C_Kuwait_City_1980_01.jpg",
+        "author": "Anaya Ki Family",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "kw-siddiqa-fatima-zahra-mosque",
+      "name": "Siddiqa Fatima Zahra Mosque",
+      "area": "Kuwait City",
+      "city": "Kuwait City",
+      "wikidata": "Q7508203",
+      "lat": 29.231694,
+      "lon": 47.896472,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Thr Siddiqua Fatima Zahra Mosque is a mosque located in the Dahiya Abdullah Mubarak community, near the Kuwait International Airport, in Kuwait.",
+        "es": "Thr Siddiqua Fatima Zahra Mosque is a mosque located in the Dahiya Abdullah Mubarak community, near the Kuwait International Airport, in Kuwait."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Siddiqa Fatima Zahra Mosque",
+          "url": "https://en.wikipedia.org/wiki/Siddiqa_Fatima_Zahra_Mosque"
+        },
+        "es": {
+          "title": "Siddiqa Fatima Zahra Mosque",
+          "url": "https://en.wikipedia.org/wiki/Siddiqa_Fatima_Zahra_Mosque"
+        }
+      }
+    },
+    {
+      "id": "kw-imam-baqir-mosque",
+      "name": "Imam Baqir Mosque",
+      "area": "Kuwait City",
+      "city": "Kuwait City",
+      "wikidata": "Q6003058",
+      "lat": 29.369722,
+      "lon": 47.978333,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Imam Baqir Mosque is a Shi'a mosque located in Surra, Kuwait City, Kuwait.",
+        "es": "The Imam Baqir Mosque is a Shi'a mosque located in Surra, Kuwait City, Kuwait."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Imam Baqir Mosque",
+          "url": "https://en.wikipedia.org/wiki/Imam_Baqir_Mosque"
+        },
+        "es": {
+          "title": "Imam Baqir Mosque",
+          "url": "https://en.wikipedia.org/wiki/Imam_Baqir_Mosque"
+        }
+      }
     }
   ]
 }

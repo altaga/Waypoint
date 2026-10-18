@@ -35,6 +35,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -253,6 +259,4140 @@
         "text": "Mo-Sa 11:00-17:00; Su 14:30-18:00",
         "source": "https://www.openstreetmap.org/relation/5641600",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "es-mallorca",
+      "name": "Mallorca",
+      "area": "Palma",
+      "city": "Palma",
+      "wikidata": "Q8828",
+      "lat": 39.616667,
+      "lon": 2.983333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mallorca, also spelled Majorca in English, is the largest of Spain's Balearic Islands, and the seventh largest island in the Mediterranean Sea.",
+        "es": "Mallorca es una isla española situada en la parte central del archipiélago balear, en el mar Mediterráneo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mallorca",
+          "url": "https://en.wikipedia.org/wiki/Mallorca"
+        },
+        "es": {
+          "title": "Mallorca",
+          "url": "https://es.wikipedia.org/wiki/Mallorca"
+        }
+      },
+      "image": {
+        "file": "Imagen_satelital_de_Mallorca_(Islas_Baleares,_España).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Imagen_satelital_de_Mallorca_(Islas_Baleares%2C_Espa%C3%B1a).jpg",
+        "author": "Pierre Markuse from Hamm, Germany",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "es-ibiza",
+      "name": "Ibiza",
+      "area": "Balearic Islands",
+      "city": "Balearic Islands",
+      "wikidata": "Q52631",
+      "lat": 38.98,
+      "lon": 1.43,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ibiza, or Iviza, is a Spanish island in the Mediterranean Sea off the eastern coast of the Iberian Peninsula.",
+        "es": "Ibiza es una isla española situada en el mar Mediterráneo y que forma, junto con Mallorca, Menorca, Formentera y diversos islotes, el archipiélago y la comunidad autónoma de las Islas Baleares."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ibiza",
+          "url": "https://en.wikipedia.org/wiki/Ibiza"
+        },
+        "es": {
+          "title": "Ibiza",
+          "url": "https://es.wikipedia.org/wiki/Ibiza"
+        }
+      },
+      "image": {
+        "file": "Ibiza_rock_volcano_(747230830).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ibiza_rock_volcano_(747230830).jpg",
+        "author": "athinaf",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "es-menorca",
+      "name": "Menorca",
+      "area": "Balearic Islands",
+      "city": "Balearic Islands",
+      "wikidata": "Q52636",
+      "website": "https://www.cime.es/",
+      "lat": 39.966667,
+      "lon": 4.083333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Menorca or Minorca is one of the Balearic Islands located in the Mediterranean Sea belonging to Spain.",
+        "es": "Menorca es una isla española situada en la parte nororiental del archipiélago balear, en el mar Mediterráneo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Menorca",
+          "url": "https://en.wikipedia.org/wiki/Menorca"
+        },
+        "es": {
+          "title": "Menorca",
+          "url": "https://es.wikipedia.org/wiki/Menorca"
+        }
+      },
+      "image": {
+        "file": "Menorca,_Spain_-_4_May_2023_(52948884259).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Menorca%2C_Spain_-_4_May_2023_(52948884259).jpg",
+        "author": "SentinelHub",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "es-royal-monastery-of-san-lorenzo-de-el-escorial",
+      "name": "Royal Monastery of San Lorenzo de El Escorial",
+      "area": "San Lorenzo de El Escorial",
+      "city": "San Lorenzo de El Escorial",
+      "wikidata": "Q28471",
+      "website": "https://entradas.patrimonionacional.es/es-ES/comprar-entradas-palacios-reales-monasterios",
+      "lat": 40.589167,
+      "lon": -4.147778,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Royal Site of San Lorenzo de El Escorial, also called Monasterio de El Escorial or simply El Escorial, is a historical residence of the king of Spain located in the town of San Lorenzo de El Escorial, 2.06…",
+        "es": "El Real Monasterio de San Lorenzo de El Escorial es un complejo que incluye un palacio real, una basílica, un panteón, una biblioteca, un colegio y un monasterio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "El Escorial",
+          "url": "https://en.wikipedia.org/wiki/El_Escorial"
+        },
+        "es": {
+          "title": "Real Monasterio de San Lorenzo de El Escorial",
+          "url": "https://es.wikipedia.org/wiki/Real_Monasterio_de_San_Lorenzo_de_El_Escorial"
+        }
+      },
+      "image": {
+        "file": "Monasterio_de_El_Escorial_en_Madrid.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Monasterio_de_El_Escorial_en_Madrid.jpg",
+        "author": "Zvonimir Stamenov",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-guggenheim-museum-bilbao",
+      "name": "Guggenheim Museum Bilbao",
+      "area": "Bilbao",
+      "city": "Bilbao",
+      "wikidata": "Q179199",
+      "website": "https://www.guggenheim-bilbao.eus/",
+      "lat": 43.26883,
+      "lon": -2.934099,
+      "phone": "+34-944-35-90-80",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Guggenheim Museum Bilbao is a museum of modern and contemporary art in Bilbao, Biscay, Spain.",
+        "es": "El Museo Guggenheim Bilbao es un museo de arte contemporáneo diseñado por el arquitecto canadiense Frank O."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Guggenheim Museum Bilbao",
+          "url": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao"
+        },
+        "es": {
+          "title": "Museo Guggenheim Bilbao",
+          "url": "https://es.wikipedia.org/wiki/Museo_Guggenheim_Bilbao"
+        }
+      },
+      "image": {
+        "file": "Museo_Guggenheim,_Bilbao_(31273245344).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museo_Guggenheim%2C_Bilbao_(31273245344).jpg",
+        "author": "Naotake Murayama",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "es-mosque-cathedral-of-cordoba",
+      "name": "Mosque-Cathedral of Cordoba",
+      "area": "Córdoba",
+      "city": "Córdoba",
+      "wikidata": "Q33200",
+      "website": "https://mezquita-catedraldecordoba.es/",
+      "lat": 37.878865,
+      "lon": -4.779342,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mosque–Cathedral of Córdoba is the cathedral of the Roman Catholic Diocese of Córdoba in the Spanish region of Andalusia.",
+        "es": "La mezquita-catedral de Córdoba, conocida eclesiásticamente como catedral de Nuestra Señora de la Asunción y de forma popular como la Mezquita, es la catedral de la diócesis de Córdoba ubicada en la ciudad española…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mosque–Cathedral of Córdoba",
+          "url": "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba"
+        },
+        "es": {
+          "title": "Mezquita-catedral de Córdoba",
+          "url": "https://es.wikipedia.org/wiki/Mezquita-catedral_de_C%C3%B3rdoba"
+        }
+      },
+      "image": {
+        "file": "Mezquita_de_Córdoba_desde_el_aire_(Córdoba,_España).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mezquita_de_C%C3%B3rdoba_desde_el_aire_(C%C3%B3rdoba%2C_Espa%C3%B1a).jpg",
+        "author": "Toni Castillo Quero",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "es-aqueduct-of-segovia",
+      "name": "Aqueduct of Segovia",
+      "area": "Segovia",
+      "city": "Segovia",
+      "wikidata": "Q244947",
+      "lat": 40.947889,
+      "lon": -4.117806,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Aqueduct of Segovia is a Roman aqueduct in Spain, built around the first century AD to channel water from springs in the mountains 17 kilometres to Segovia's fountains, public baths and private houses, in use…",
+        "es": "El Acueducto de Segovia es un acueducto que llevaba agua a la ciudad española de Segovia hasta 1973."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aqueduct of Segovia",
+          "url": "https://en.wikipedia.org/wiki/Aqueduct_of_Segovia"
+        },
+        "es": {
+          "title": "Acueducto de Segovia",
+          "url": "https://es.wikipedia.org/wiki/Acueducto_de_Segovia"
+        }
+      },
+      "image": {
+        "file": "Aqueduct_of_Segovia_08.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aqueduct_of_Segovia_08.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-burgos-cathedral",
+      "name": "Burgos Cathedral",
+      "area": "Burgos",
+      "city": "Burgos",
+      "wikidata": "Q744420",
+      "lat": 42.340806,
+      "lon": -3.704472,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of Saint Mary of Burgos is a Catholic church dedicated to the Virgin Mary located in the historical center of the Spanish city of Burgos.",
+        "es": "La Catedral Basílica Metropolitana de Santa María es un templo catedralicio de culto católico dedicado a la Virgen María, en la ciudad española de Burgos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Burgos Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Burgos_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Burgos",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Burgos"
+        }
+      },
+      "image": {
+        "file": "Escaleras_a_la_Catedral_--_2023_--_Burgos,_Castilla_y_León,_España.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Escaleras_a_la_Catedral_--_2023_--_Burgos%2C_Castilla_y_Le%C3%B3n%2C_Espa%C3%B1a.jpg",
+        "author": "José Ligero Loarte",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-penon-de-velez-de-la-gomera",
+      "name": "Peñón de Vélez de la Gomera",
+      "area": "Melilla",
+      "city": "Melilla",
+      "wikidata": "Q191146",
+      "lat": 35.172222,
+      "lon": -4.299722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Peñón de Vélez de la Gomera, also known as Hajar Badis, is a Spanish tied island, exclave and former rocky tidal island in the western Mediterranean Sea.",
+        "es": "Vélez de la Gomera es un peñón español en el norte de África."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Peñón de Vélez de la Gomera",
+          "url": "https://en.wikipedia.org/wiki/Pe%C3%B1%C3%B3n_de_V%C3%A9lez_de_la_Gomera"
+        },
+        "es": {
+          "title": "Peñón de Vélez de la Gomera",
+          "url": "https://es.wikipedia.org/wiki/Pe%C3%B1%C3%B3n_de_V%C3%A9lez_de_la_Gomera"
+        }
+      },
+      "image": {
+        "file": "Badis_Island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Badis_Island.jpg",
+        "author": "Soufiane elkadaoui",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-aneto",
+      "name": "Aneto",
+      "area": "Benasque",
+      "city": "Benasque",
+      "wikidata": "Q208081",
+      "lat": 42.630992,
+      "lon": 0.656686,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Aneto is the highest mountain in the Pyrenees and in Aragon, Spain's third-highest mountain, reaching a height of 3,404 metres.",
+        "es": "El Aneto es el pico más elevado de los Pirineos y el segundo más alto de la península ibérica, con una altitud de 3404 metros sobre el nivel del mar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aneto",
+          "url": "https://en.wikipedia.org/wiki/Aneto"
+        },
+        "es": {
+          "title": "Pico Aneto",
+          "url": "https://es.wikipedia.org/wiki/Pico_Aneto"
+        }
+      },
+      "image": {
+        "file": "Aneto_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aneto_01.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-mulhacen",
+      "name": "Mulhacén",
+      "area": "Capileira",
+      "city": "Capileira",
+      "wikidata": "Q209528",
+      "lat": 37.053333,
+      "lon": -3.311389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mulhacén, with an elevation of 3,479 metres, is the highest mountain in peninsular Spain and in all of the Iberian Peninsula.",
+        "es": "El Mulhacén es el pico más alto de la península ibérica y el segundo de España tras el Teide en Tenerife, islas Canarias; con una elevación de 3479 metros sobre el nivel del mar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mulhacén",
+          "url": "https://en.wikipedia.org/wiki/Mulhac%C3%A9n"
+        },
+        "es": {
+          "title": "Mulhacén",
+          "url": "https://es.wikipedia.org/wiki/Mulhac%C3%A9n"
+        }
+      },
+      "image": {
+        "file": "Mulhacen_Winter.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mulhacen_Winter.jpg",
+        "author": "Nilsf at German Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-donana-national-park",
+      "name": "Doñana National Park",
+      "area": "Andalusia",
+      "city": "Andalusia",
+      "wikidata": "Q463141",
+      "website": "https://www.miteco.gob.es/es/red-parques-nacionales/nuestros-parques/donana/",
+      "lat": 37.02,
+      "lon": -6.44,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Doñana National Park or Parque Nacional y Natural de Doñana is a natural reserve in Andalusia, southern Spain, in the provinces of Huelva, Cádiz and Seville.",
+        "es": "Doñana es un parque nacional y un espacio natural español situado en las provincias andaluzas de Huelva, Sevilla y Cádiz."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Doñana National Park",
+          "url": "https://en.wikipedia.org/wiki/Do%C3%B1ana_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional y natural de Doñana",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_y_natural_de_Do%C3%B1ana"
+        }
+      },
+      "image": {
+        "file": "Vista_de_las_marismas_del_Parque_Doñana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vista_de_las_marismas_del_Parque_Do%C3%B1ana.jpg",
+        "author": "Gabriela Coronado Hernández",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-perejil-islet",
+      "name": "Perejil Islet",
+      "area": "Ceuta",
+      "city": "Ceuta",
+      "wikidata": "Q191750",
+      "lat": 35.913889,
+      "lon": -5.418611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Perejil Island, also known as Parsley Island, is a small, uninhabited, rocky islet located approximately 250 metres off the coast of Morocco and about 6 km from the southern coast of Spain.",
+        "es": "Perejil es un islote deshabitado en disputa territorial entre España y Marruecos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Perejil Island",
+          "url": "https://en.wikipedia.org/wiki/Perejil_Island"
+        },
+        "es": {
+          "title": "Isla de Perejil",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Perejil"
+        }
+      },
+      "image": {
+        "file": "Persil_Islet_and_the_strait_of_jibraltar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Persil_Islet_and_the_strait_of_jibraltar.jpg",
+        "author": "Mustapha Bassouh",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-poblet-monastery",
+      "name": "Poblet Monastery",
+      "area": "Poblet",
+      "city": "Poblet",
+      "wikidata": "Q645157",
+      "lat": 41.380833,
+      "lon": 1.0825,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Poblet Abbey, otherwise the Royal Abbey of Santa Maria de Poblet, is a Cistercian monastery, founded in 1151, located at the foot of the Prades Mountains, in the comarca of Conca de Barberà, in Catalonia.",
+        "es": "El Real Monasterio de Santa María de Poblet o, simplemente monasterio de Poblet, es el prototipo de abadía cisterciense española."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Poblet Abbey",
+          "url": "https://en.wikipedia.org/wiki/Poblet_Abbey"
+        },
+        "es": {
+          "title": "Monasterio de Poblet",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_de_Poblet"
+        }
+      },
+      "image": {
+        "file": "Monestir_de_Poblet.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Monestir_de_Poblet.JPG",
+        "author": "Sergi Esteve (sel_commons)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-museo-nacional-centro-de-arte-reina-sofia",
+      "name": "Museo Nacional Centro de Arte Reina Sofía",
+      "area": "Madrid",
+      "city": "Madrid",
+      "wikidata": "Q460889",
+      "website": "https://www.museoreinasofia.es/",
+      "lat": 40.408571,
+      "lon": -3.693996,
+      "phone": "+34 917 74 10 00",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Museo Nacional Centro de Arte Reina Sofía is Spain's national museum of 20th-century art.",
+        "es": "El Museo Nacional Centro de Arte Reina Sofía, conocido comúnmente como Museo Reina Sofía, es un museo español de arte del siglo XX y contemporáneo, con sede en la ciudad de Madrid."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museo Nacional Centro de Arte Reina Sofía",
+          "url": "https://en.wikipedia.org/wiki/Museo_Nacional_Centro_de_Arte_Reina_Sof%C3%ADa"
+        },
+        "es": {
+          "title": "Museo Nacional Centro de Arte Reina Sofía",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_Centro_de_Arte_Reina_Sof%C3%ADa"
+        }
+      },
+      "image": {
+        "file": "MNCARS_05.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:MNCARS_05.jpg",
+        "author": "Luis García (Zaqarbal)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-royal-palace-of-madrid",
+      "name": "Royal Palace of Madrid",
+      "area": "Madrid",
+      "city": "Madrid",
+      "wikidata": "Q171517",
+      "website": "https://www.patrimonionacional.es/visita/palacio-real-de-madrid",
+      "lat": 40.417955,
+      "lon": -3.714312,
+      "phone": "+34 914 54 87 00",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Royal Palace of Madrid is the official residence of the Spanish royal family and is used primarily for state ceremonies.",
+        "es": "El Palacio Real de Madrid es la residencia oficial del rey de España; no obstante, la familia real no habita en él, sino en el Palacio de la Zarzuela, por lo que es utilizado para ceremonias de Estado y actos solemnes."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Royal Palace of Madrid",
+          "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_Madrid"
+        },
+        "es": {
+          "title": "Palacio Real de Madrid",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Real_de_Madrid"
+        }
+      },
+      "image": {
+        "file": "Palacio_Real_de_Madrid_Julio_2016_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palacio_Real_de_Madrid_Julio_2016_(cropped).jpg",
+        "author": "Tim Adams",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-royal-spanish-academy",
+      "name": "Royal Spanish Academy",
+      "area": "Madrid",
+      "city": "Madrid",
+      "wikidata": "Q11993457",
+      "website": "https://www.rae.es/",
+      "lat": 40.41502,
+      "lon": -3.69091,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Royal Spanish Academy is Spain's official royal institution with a mission to ensure the stability of the Spanish language.",
+        "es": "La Real Academia Española es una institución cultural española con sede en Madrid, España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Royal Spanish Academy",
+          "url": "https://en.wikipedia.org/wiki/Royal_Spanish_Academy"
+        },
+        "es": {
+          "title": "Real Academia Española",
+          "url": "https://es.wikipedia.org/wiki/Real_Academia_Espa%C3%B1ola"
+        }
+      },
+      "image": {
+        "file": "Fachada_de_la_Real_Academia_Española.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fachada_de_la_Real_Academia_Espa%C3%B1ola.jpg",
+        "author": "Real Academia Española",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-almudena-cathedral",
+      "name": "Almudena Cathedral",
+      "area": "Madrid",
+      "city": "Madrid",
+      "wikidata": "Q849711",
+      "lat": 40.415556,
+      "lon": -3.714444,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of Saint Mary the Royal of the Almudena, commonly known as the Almudena Cathedral, is a Catholic cathedral in Madrid, Spain.",
+        "es": "La Santa Iglesia Catedral Metropolitana de Santa María la Real de la Almudena, conocida simplemente como catedral de la Almudena, es una catedral de culto católico, dedicada a la Virgen María bajo la advocación de la…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Almudena Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Almudena_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de la Almudena",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Almudena"
+        }
+      },
+      "image": {
+        "file": "Almudena_2022_-_overview.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Almudena_2022_-_overview.jpg",
+        "author": "Fernando",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-thyssen-bornemisza-museum",
+      "name": "Thyssen-Bornemisza Museum",
+      "area": "Madrid",
+      "city": "Madrid",
+      "wikidata": "Q176251",
+      "website": "https://www.museothyssen.org/",
+      "lat": 40.416041,
+      "lon": -3.694925,
+      "phone": "+34 917 91 13 70",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Thyssen-Bornemisza National Museum, or simply the Thyssen, is an art museum in Madrid, Spain, located near the Prado Museum on one of the city's main boulevards.",
+        "es": "El Museo Nacional Thyssen-Bornemisza es una pinacoteca de maestros antiguos y modernos ubicada en Madrid."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Thyssen-Bornemisza Museum",
+          "url": "https://en.wikipedia.org/wiki/Thyssen-Bornemisza_Museum"
+        },
+        "es": {
+          "title": "Museo Thyssen-Bornemisza",
+          "url": "https://es.wikipedia.org/wiki/Museo_Thyssen-Bornemisza"
+        }
+      },
+      "image": {
+        "file": "Site_of_the_Retiro_and_the_Prado_in_Madrid_49_(29684554308).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Site_of_the_Retiro_and_the_Prado_in_Madrid_49_(29684554308).jpg",
+        "author": "Kyle Magnuson from Los Angeles, United States",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "es-main-square",
+      "name": "Main Square",
+      "area": "Madrid",
+      "city": "Madrid",
+      "wikidata": "Q1123493",
+      "lat": 40.415456,
+      "lon": -3.707381,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Plaza Mayor is the principal public square in the heart of Madrid, the capital of Spain.",
+        "es": "La plaza Mayor está situada en el centro de Madrid, en el barrio de Sol, junto a la calle Mayor y a 300 metros de la Puerta del Sol."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plaza Mayor, Madrid",
+          "url": "https://en.wikipedia.org/wiki/Plaza_Mayor%2C_Madrid"
+        },
+        "es": {
+          "title": "Plaza Mayor de Madrid",
+          "url": "https://es.wikipedia.org/wiki/Plaza_Mayor_de_Madrid"
+        }
+      },
+      "image": {
+        "file": "Madrid,_Plaza_Mayor,_2016,_(02).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Madrid%2C_Plaza_Mayor%2C_2016%2C_(02).jpg",
+        "author": "Draceane",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-puerta-del-sol",
+      "name": "Puerta del Sol",
+      "area": "Madrid",
+      "city": "Madrid",
+      "wikidata": "Q427163",
+      "lat": 40.41694,
+      "lon": -3.70361,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Puerta del Sol is a public square in Madrid, one of the best known and busiest places in the city.",
+        "es": "La Puerta del Sol es una plaza de la ciudad española de Madrid."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Puerta del Sol",
+          "url": "https://en.wikipedia.org/wiki/Puerta_del_Sol"
+        },
+        "es": {
+          "title": "Puerta del Sol",
+          "url": "https://es.wikipedia.org/wiki/Puerta_del_Sol"
+        }
+      },
+      "image": {
+        "file": "Puerta_del_Sol_(Madrid)_10.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Puerta_del_Sol_(Madrid)_10.jpg",
+        "author": "Tomás Fano",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "es-torre-moeve",
+      "name": "Torre Moeve",
+      "area": "Madrid",
+      "city": "Madrid",
+      "wikidata": "Q519568",
+      "lat": 40.475556,
+      "lon": -3.687778,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Torre Moeve is a skyscraper located in the Cuatro Torres Business Area in Madrid, Spain.",
+        "es": "La Torre Foster, originalmente conocida como Torre Cepsa, es un rascacielos de 248,3 metros situado en la zona financiera Cuatro Torres Business Area, Madrid."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Torre Moeve",
+          "url": "https://en.wikipedia.org/wiki/Torre_Moeve"
+        },
+        "es": {
+          "title": "Torre Moeve",
+          "url": "https://es.wikipedia.org/wiki/Torre_Moeve"
+        }
+      },
+      "image": {
+        "file": "Torre_Cepsa_(Madrid)_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Torre_Cepsa_(Madrid)_01.jpg",
+        "author": "Luis García (Zaqarbal)",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-national-museum-of-archaeology",
+      "name": "National Museum of Archaeology",
+      "area": "Madrid",
+      "city": "Madrid",
+      "wikidata": "Q1352282",
+      "website": "https://man.es",
+      "lat": 40.423645,
+      "lon": -3.689422,
+      "phone": "+34-915-77-79-12",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The National Museum of Archaeology is a archaeology museum in Madrid, Spain.",
+        "es": "El Museo Arqueológico Nacional es un museo nacional español con sede en el Palacio de Biblioteca y Museos Nacionales de Madrid, un edificio del siglo XIX, iniciado por el arquitecto Francisco Jareño y Alarcón y…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Museum of Archaeology (Madrid)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Archaeology_(Madrid)"
+        },
+        "es": {
+          "title": "Museo Arqueológico Nacional de España",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_Nacional_de_Espa%C3%B1a"
+        }
+      },
+      "image": {
+        "file": "Museo_Arqueológico_Nacional_(35039235760).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museo_Arqueol%C3%B3gico_Nacional_(35039235760).jpg",
+        "author": "Emilio J. Rodríguez Posada",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "es-teatro-real",
+      "name": "Teatro Real",
+      "area": "Madrid",
+      "city": "Madrid",
+      "wikidata": "Q211250",
+      "website": "https://www.teatroreal.es",
+      "lat": 40.41824,
+      "lon": -3.71037,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Teatro Real is an opera house in Madrid, Spain.",
+        "es": "El Teatro Real es un teatro de ópera de Madrid, España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Teatro Real",
+          "url": "https://en.wikipedia.org/wiki/Teatro_Real"
+        },
+        "es": {
+          "title": "Teatro Real (Madrid)",
+          "url": "https://es.wikipedia.org/wiki/Teatro_Real_(Madrid)"
+        }
+      },
+      "image": {
+        "file": "Teatro_Real_de_Madrid_2025.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Teatro_Real_de_Madrid_2025.jpg",
+        "author": "Fernando",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-temple-of-debod",
+      "name": "Temple of Debod",
+      "area": "Madrid city",
+      "city": "Madrid city",
+      "wikidata": "Q1140249",
+      "lat": 40.424053,
+      "lon": -3.717778,
+      "phone": "+34 913 667 415",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Temple of Debod is an ancient Nubian temple currently located in Madrid, Spain.",
+        "es": "El templo de Debod es un edificio del antiguo Egipto localizado actualmente en la ciudad española de Madrid."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Temple of Debod",
+          "url": "https://en.wikipedia.org/wiki/Temple_of_Debod"
+        },
+        "es": {
+          "title": "Templo de Debod",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_Debod"
+        }
+      },
+      "image": {
+        "file": "Templo_de_Debod_Madrid.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Templo_de_Debod_Madrid.JPG",
+        "author": "Unknown",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "es-cathedral-of-the-holy-cross-and-saint-eulalia",
+      "name": "Cathedral of the Holy Cross and Saint Eulalia",
+      "area": "Barcelona",
+      "city": "Barcelona",
+      "wikidata": "Q17155",
+      "website": "https://catedralbcn.org/",
+      "lat": 41.383889,
+      "lon": 2.176389,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of the Holy Cross and Saint Eulalia, also known as Barcelona Cathedral, is the seat of the archbishop of Barcelona in Catalonia, Spain.",
+        "es": "La Catedral Basílica Metropolitana de la Santa Cruz y Santa Eulalia —también llamada, en lugar de catedral, Seo— es la catedral gótica de Barcelona, sede de la archidiócesis de Barcelona, en Cataluña, España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Barcelona Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Barcelona_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de la Santa Cruz y Santa Eulalia (Barcelona)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Santa_Cruz_y_Santa_Eulalia_(Barcelona)"
+        }
+      },
+      "image": {
+        "file": "Barcelona_Cathedral_Saint_Eulalia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Barcelona_Cathedral_Saint_Eulalia.jpg",
+        "author": "Fernando",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-palau-de-la-musica-catalana",
+      "name": "Palau de la Música Catalana",
+      "area": "Barcelona",
+      "city": "Barcelona",
+      "wikidata": "Q327940",
+      "lat": 41.387667,
+      "lon": 2.175278,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Palau de la Música Catalana is a concert hall in Barcelona, Catalonia, Spain.",
+        "es": "El Palacio de la Música Catalana es un auditorio de música situado en la calle Alta de San Pedro en el barrio de la Ribera de Barcelona, España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palau de la Música Catalana",
+          "url": "https://en.wikipedia.org/wiki/Palau_de_la_M%C3%BAsica_Catalana"
+        },
+        "es": {
+          "title": "Palacio de la Música Catalana",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_la_M%C3%BAsica_Catalana"
+        }
+      },
+      "image": {
+        "file": "Palau_música_catalana_exterior.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palau_m%C3%BAsica_catalana_exterior.jpg",
+        "author": "Doomuu",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-torre-glories",
+      "name": "Torre Glòries",
+      "area": "Barcelona",
+      "city": "Barcelona",
+      "wikidata": "Q336246",
+      "lat": 41.403489,
+      "lon": 2.189519,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Torre Glòries, formerly known as Torre Agbar, is a 38-story skyscraper located between Avinguda Diagonal and Carrer Badajoz, near Plaça de les Glòries Catalanes, which marks the gateway to the new technological…",
+        "es": "La Torre Glòries, anteriormente denominada Torre Agbar, es un rascacielos de la ciudad de Barcelona, España, ubicado en la confluencia de la avenida Diagonal y la calle Badajoz, junto a la plaza de las Glorias, y que…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Torre Glòries",
+          "url": "https://en.wikipedia.org/wiki/Torre_Gl%C3%B2ries"
+        },
+        "es": {
+          "title": "Torre Glòries",
+          "url": "https://es.wikipedia.org/wiki/Torre_Gl%C3%B2ries"
+        }
+      },
+      "image": {
+        "file": "Torre_Agbar_-_Barcelona,_Spain_-_Jan_2007.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Torre_Agbar_-_Barcelona%2C_Spain_-_Jan_2007.jpg",
+        "author": "Diliff",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "es-la-rambla",
+      "name": "La Rambla",
+      "area": "Barcelona",
+      "city": "Barcelona",
+      "wikidata": "Q850593",
+      "lat": 41.381389,
+      "lon": 2.173056,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "La Rambla is considered the most well known street in central Barcelona.",
+        "es": "La Rambla, antiguamente también llamada Las Ramblas, es un emblemático paseo de la ciudad de Barcelona que discurre entre la plaza de Cataluña, centro neurálgico de la ciudad, y el puerto antiguo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "La Rambla, Barcelona",
+          "url": "https://en.wikipedia.org/wiki/La_Rambla%2C_Barcelona"
+        },
+        "es": {
+          "title": "La Rambla",
+          "url": "https://es.wikipedia.org/wiki/La_Rambla"
+        }
+      }
+    },
+    {
+      "id": "es-placa-de-catalunya",
+      "name": "Plaça de Catalunya",
+      "area": "Barcelona",
+      "city": "Barcelona",
+      "wikidata": "Q822881",
+      "lat": 41.387031,
+      "lon": 2.170079,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Plaça de Catalunya is a large square in central Barcelona that is generally considered to be both its city centre and the place where the old city and the 19th century-built Eixample meet.",
+        "es": "La plaza de Cataluña es una céntrica plaza de Barcelona, uno de los centros neurálgicos de la ciudad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plaça de Catalunya",
+          "url": "https://en.wikipedia.org/wiki/Pla%C3%A7a_de_Catalunya"
+        },
+        "es": {
+          "title": "Plaza de Cataluña",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_Catalu%C3%B1a"
+        }
+      }
+    },
+    {
+      "id": "es-palau-guell",
+      "name": "Palau Güell",
+      "area": "Barcelona",
+      "city": "Barcelona",
+      "wikidata": "Q597051",
+      "website": "https://inici.palauguell.cat/ca",
+      "lat": 41.37882,
+      "lon": 2.17439,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Palau Güell is a mansion designed by the architect Antoni Gaudí for the industrial tycoon Eusebi Güell, and was built between 1886 and 1888.",
+        "es": "El palacio Güell es un edificio diseñado por Antoni Gaudí y encuadrado en la corriente del modernismo catalán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palau Güell",
+          "url": "https://en.wikipedia.org/wiki/Palau_G%C3%BCell"
+        },
+        "es": {
+          "title": "Palacio Güell",
+          "url": "https://es.wikipedia.org/wiki/Palacio_G%C3%BCell"
+        }
+      },
+      "image": {
+        "file": "Palau_Güell,_Antoni_Gaudi,_Barcelona_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palau_G%C3%BCell%2C_Antoni_Gaudi%2C_Barcelona_2.jpg",
+        "author": "Thomas Ledl",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-casa-vicens",
+      "name": "Casa Vicens",
+      "area": "Barcelona",
+      "city": "Barcelona",
+      "wikidata": "Q746333",
+      "website": "https://casavicens.org/es/",
+      "lat": 41.403487,
+      "lon": 2.150643,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Casa Vicens is a modernist building situated in the Gràcia neighbourhood of Barcelona.",
+        "es": "La Casa Vicens es un edificio modernista situado en Barcelona, en el distrito de Gracia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Casa Vicens",
+          "url": "https://en.wikipedia.org/wiki/Casa_Vicens"
+        },
+        "es": {
+          "title": "Casa Vicens",
+          "url": "https://es.wikipedia.org/wiki/Casa_Vicens"
+        }
+      },
+      "image": {
+        "file": "Gaudí_-_Casa_Vicens.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gaud%C3%AD_-_Casa_Vicens.JPG",
+        "author": "Canaan",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-tibidabo",
+      "name": "Tibidabo",
+      "area": "Barcelona",
+      "city": "Barcelona",
+      "wikidata": "Q658271",
+      "lat": 41.4225,
+      "lon": 2.118611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tibidabo is a hill overlooking Barcelona, Catalonia, Spain.",
+        "es": "El Tibidabo es, con 512 metros sobre el nivel del mar, el pico más alto de la sierra de Collserola, en el municipio de Barcelona."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tibidabo",
+          "url": "https://en.wikipedia.org/wiki/Tibidabo"
+        },
+        "es": {
+          "title": "Tibidabo",
+          "url": "https://es.wikipedia.org/wiki/Tibidabo"
+        }
+      },
+      "image": {
+        "file": "El_Tibidabo,_l'observatori_Fabra_i_la_punxa_d'una_torre_veneciana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:El_Tibidabo%2C_l'observatori_Fabra_i_la_punxa_d'una_torre_veneciana.jpg",
+        "author": "jordi domènech",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-museu-nacional-d-art-de-catalunya",
+      "name": "Museu Nacional d'Art de Catalunya",
+      "area": "Barcelona",
+      "city": "Barcelona",
+      "wikidata": "Q861252",
+      "website": "https://www.museunacional.cat/ca",
+      "lat": 41.368333,
+      "lon": 2.153306,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Museu Nacional d'Art de Catalunya, abbreviated as MNAC, is a museum of Catalan visual art located in Barcelona, Catalonia, Spain.",
+        "es": "El Museo Nacional de Arte de Cataluña está situado en el Palacio Nacional, distrito de Sants-Montjuïc, Barcelona."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museu Nacional d'Art de Catalunya",
+          "url": "https://en.wikipedia.org/wiki/Museu_Nacional_d'Art_de_Catalunya"
+        },
+        "es": {
+          "title": "Museo Nacional de Arte de Cataluña",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Arte_de_Catalu%C3%B1a"
+        }
+      },
+      "image": {
+        "file": "WLM14ES_-_Palau_Nacional_i_seu_del_MNAC_de_Barcelona_-_MARIA_ROSA_FERRE.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:WLM14ES_-_Palau_Nacional_i_seu_del_MNAC_de_Barcelona_-_MARIA_ROSA_FERRE.jpg",
+        "author": "MARIA ROSA FERRE ✿ from Vilafranca del penedes, Catalunya",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "es-fundacio-joan-miro",
+      "name": "Fundació Joan Miró",
+      "area": "Barcelona",
+      "city": "Barcelona",
+      "wikidata": "Q867072",
+      "website": "https://www.fmirobcn.org/",
+      "lat": 41.368611,
+      "lon": 2.16,
+      "phone": "+34 934 439 470",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Fundació Joan Miró is a modern art museum honoring the life and work of the Spanish artist Joan Miró, located on the hill called Montjuïc in Barcelona, Catalonia.",
+        "es": "La Fundación Joan Miró es una institución cultural de Barcelona que custodia algunas de las obras más representativas del pintor catalán Joan Miró."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fundació Joan Miró",
+          "url": "https://en.wikipedia.org/wiki/Fundaci%C3%B3_Joan_Mir%C3%B3"
+        },
+        "es": {
+          "title": "Fundación Joan Miró",
+          "url": "https://es.wikipedia.org/wiki/Fundaci%C3%B3n_Joan_Mir%C3%B3"
+        }
+      },
+      "image": {
+        "file": "Fundació_Miró.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fundaci%C3%B3_Mir%C3%B3.JPG",
+        "author": "Canaan",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-city-of-arts-and-sciences",
+      "name": "City of Arts and Sciences",
+      "area": "City of Valencia",
+      "city": "City of Valencia",
+      "wikidata": "Q239935",
+      "lat": 39.454528,
+      "lon": -0.350364,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The City of Arts and Sciences is a cultural and architectural complex in the city of Valencia, Spain.",
+        "es": "La Ciudad de las Artes y las Ciencias es un complejo arquitectónico, cultural y de entretenimiento de la ciudad de Valencia, capital de la Comunidad Valenciana, España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "City of Arts and Sciences",
+          "url": "https://en.wikipedia.org/wiki/City_of_Arts_and_Sciences"
+        },
+        "es": {
+          "title": "Ciudad de las Artes y las Ciencias",
+          "url": "https://es.wikipedia.org/wiki/Ciudad_de_las_Artes_y_las_Ciencias"
+        }
+      },
+      "image": {
+        "file": "Valencia,_Ciudad_de_las_Ciencias_y_de_las_Artes.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Valencia%2C_Ciudad_de_las_Ciencias_y_de_las_Artes.jpg",
+        "author": "Jcca76",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-valencia-cathedral",
+      "name": "Valencia Cathedral",
+      "area": "City of Valencia",
+      "city": "City of Valencia",
+      "wikidata": "Q1466926",
+      "lat": 39.475611,
+      "lon": -0.375139,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Valencia Cathedral, at greater length the Metropolitan Cathedral–Basilica of the Assumption of Our Lady of Valencia, also known as St Mary's Cathedral, is a Catholic church in Valencia, Spain.",
+        "es": "La iglesia catedral-basílica metropolitana de la Asunción de Nuestra Señora de Valencia, llamada popularmente la Seu en valenciano, es sede del arzobispado de Valencia y está dedicada por deseo de Jaime I —siguiendo…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Valencia Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Valencia_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Santa María (Valencia)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Santa_Mar%C3%ADa_(Valencia)"
+        }
+      },
+      "image": {
+        "file": "Catedral_de_Valencia,_Valencia,_España,_2014-06-30,_DD_160.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_Valencia%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_160.JPG",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-palau-de-les-arts-reina-sofia",
+      "name": "Palau de les Arts Reina Sofia",
+      "area": "City of Valencia",
+      "city": "City of Valencia",
+      "wikidata": "Q747342",
+      "lat": 39.45778,
+      "lon": -0.35556,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Palau de les Arts Reina Sofía is an opera house, performing arts centre, and urban landmark designed by Santiago Calatrava to anchor the northwest end of the City of Arts and Sciences in Valencia, Spain.",
+        "es": "El Palacio de las Artes Reina Sofía es el teatro de la ópera de estilo neofuturista de Valencia, y sede de la Orquesta de la Comunidad Valenciana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palau de les Arts Reina Sofía",
+          "url": "https://en.wikipedia.org/wiki/Palau_de_les_Arts_Reina_Sof%C3%ADa"
+        },
+        "es": {
+          "title": "Palacio de las Artes Reina Sofía",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_las_Artes_Reina_Sof%C3%ADa"
+        }
+      },
+      "image": {
+        "file": "Ciutat_de_les_Arts_i_les_Ciències,_València,_Valencia,_Spain_-_panoramio_(19).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ciutat_de_les_Arts_i_les_Ci%C3%A8ncies%2C_Val%C3%A8ncia%2C_Valencia%2C_Spain_-_panoramio_(19).jpg",
+        "author": "Ben Bender",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-l-oceanografic",
+      "name": "L'Oceanogràfic",
+      "area": "City of Valencia",
+      "city": "City of Valencia",
+      "wikidata": "Q2447851",
+      "lat": 39.452867,
+      "lon": -0.348047,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "L'Oceanogràfic is an oceanarium situated in the Garden of the Turia to the southeast of the city center of Valencia, Spain, where different marine habitats are represented.",
+        "es": "El Oceanogràfic es el acuario más grande de toda la Unión Europea, situado en la ciudad española de Valencia, dentro del complejo arquitectónico, cultural y de entretenimiento de la Ciudad de las Artes y las Ciencias."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "L'Oceanogràfic",
+          "url": "https://en.wikipedia.org/wiki/L'Oceanogr%C3%A0fic"
+        },
+        "es": {
+          "title": "Oceanogràfic",
+          "url": "https://es.wikipedia.org/wiki/Oceanogr%C3%A0fic"
+        }
+      },
+      "image": {
+        "file": "L'Oceanografic,_Valencia,_Spain_1_-_Jan_07.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:L'Oceanografic%2C_Valencia%2C_Spain_1_-_Jan_07.jpg",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-museu-de-belles-arts-de-valencia",
+      "name": "Museu de Belles Arts de València",
+      "area": "City of Valencia",
+      "city": "City of Valencia",
+      "wikidata": "Q1748404",
+      "lat": 39.479167,
+      "lon": -0.370833,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Museu de Belles Arts de València is an art gallery in Valencia, Spain, founded in 1913.",
+        "es": "El Museo de Bellas Artes de Valencia es un museo de titularidad estatal, gestionado por la Generalidad Valenciana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museu de Belles Arts de València",
+          "url": "https://en.wikipedia.org/wiki/Museu_de_Belles_Arts_de_Val%C3%A8ncia"
+        },
+        "es": {
+          "title": "Museo de Bellas Artes de Valencia",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Bellas_Artes_de_Valencia"
+        }
+      },
+      "image": {
+        "file": "Museu_belles_arts_valència2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museu_belles_arts_val%C3%A8ncia2.jpg",
+        "author": "Felivet",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "es-torres-dels-serrans",
+      "name": "Torres dels Serrans",
+      "area": "City of Valencia",
+      "city": "City of Valencia",
+      "wikidata": "Q2455550",
+      "lat": 39.4793,
+      "lon": -0.375933,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Serrans Gate or Serranos Gate, also known as Serrans Towers or Serranos Towers is one of the twelve gates that formed part of the ancient city wall, the Christian Wall, of the city of Valencia, Spain.",
+        "es": "Las Torres de Serranos o Puerta de Serranos son uno de los dos pórticos fortificados de la muralla medieval de Valencia que aún permanecen en pie."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Torres de Serranos",
+          "url": "https://en.wikipedia.org/wiki/Torres_de_Serranos"
+        },
+        "es": {
+          "title": "Torres de Serranos",
+          "url": "https://es.wikipedia.org/wiki/Torres_de_Serranos"
+        }
+      },
+      "image": {
+        "file": "Torres_serrans_abril.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Torres_serrans_abril.jpg",
+        "author": "Felivet",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "es-museu-de-les-ciencies-principe-felipe",
+      "name": "Museu de les Ciències Príncipe Felipe",
+      "area": "City of Valencia",
+      "city": "City of Valencia",
+      "wikidata": "Q939288",
+      "lat": 39.455798,
+      "lon": -0.35155,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Museu de les Ciències Príncipe Felipe is a science museum in Valencia, Spain.",
+        "es": "El Museo de las Ciencias Príncipe Felipe es un museo español dedicado a la ciencia, la tecnología y el medio ambiente ubicado en el complejo de la Ciudad de las Artes y de las Ciencias de la ciudad de Valencia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museu de les Ciències Príncipe Felipe",
+          "url": "https://en.wikipedia.org/wiki/Museu_de_les_Ci%C3%A8ncies_Pr%C3%ADncipe_Felipe"
+        },
+        "es": {
+          "title": "Museo de las Ciencias Príncipe Felipe",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_las_Ciencias_Pr%C3%ADncipe_Felipe"
+        }
+      }
+    },
+    {
+      "id": "es-plaza-de-toros-de-valencia",
+      "name": "Plaza de Toros de Valencia",
+      "area": "City of Valencia",
+      "city": "City of Valencia",
+      "wikidata": "Q526528",
+      "lat": 39.466667,
+      "lon": -0.37625,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Plaza de Toros de Valencia, officially Plaça de Bous de València, is a bullring in Valencia, Spain.",
+        "es": "La plaza de toros de Valencia es una plaza de toros en Valencia, en la Comunidad Valenciana en España donde se celebra la feria taurina de Fallas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plaza de Toros de Valencia",
+          "url": "https://en.wikipedia.org/wiki/Plaza_de_Toros_de_Valencia"
+        },
+        "es": {
+          "title": "Plaza de toros de Valencia",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_toros_de_Valencia"
+        }
+      },
+      "image": {
+        "file": "Plaza_de_toros,_Valencia,_España,_2014-06-30,_DD_126.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plaza_de_toros%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_126.JPG",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-assut-de-l-or-bridge",
+      "name": "Assut de l'Or Bridge",
+      "area": "City of Valencia",
+      "city": "City of Valencia",
+      "wikidata": "Q2458493",
+      "lat": 39.454806,
+      "lon": -0.349639,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Assut de l'Or Bridge is a white single-pylon cable-stayed bridge in the City of Arts and Sciences in Valencia, Spain, designed by Valencian architect and civil engineer Santiago Calatrava and completed in…",
+        "es": "The Assut de l'Or Bridge is a white single-pylon cable-stayed bridge in the City of Arts and Sciences in Valencia, Spain, designed by Valencian architect and civil engineer Santiago Calatrava and completed in…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Assut de l'Or Bridge",
+          "url": "https://en.wikipedia.org/wiki/Assut_de_l'Or_Bridge"
+        },
+        "es": {
+          "title": "Assut de l'Or Bridge",
+          "url": "https://en.wikipedia.org/wiki/Assut_de_l'Or_Bridge"
+        }
+      },
+      "image": {
+        "file": "Ciutat_de_les_Arts_i_les_Ciències,_València,_Valencia,_Spain_-_panoramio_(5)_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ciutat_de_les_Arts_i_les_Ci%C3%A8ncies%2C_Val%C3%A8ncia%2C_Valencia%2C_Spain_-_panoramio_(5)_(cropped).jpg",
+        "author": "Santi Garcia",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "es-turia-garden",
+      "name": "Turia Garden",
+      "area": "City of Valencia",
+      "city": "City of Valencia",
+      "wikidata": "Q2713406",
+      "lat": 39.4801,
+      "lon": -0.386109,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Turia Garden is a public urban park located in the former riverbed of the Turia River in the city of Valencia, Spain.",
+        "es": "El Jardín del Turia es un parque urbano público situado en el antiguo cauce del río Turia de la ciudad de Valencia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Turia Garden",
+          "url": "https://en.wikipedia.org/wiki/Turia_Garden"
+        },
+        "es": {
+          "title": "Jardín del Turia",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_del_Turia"
+        }
+      },
+      "image": {
+        "file": "Ciudad_Ciencias_y_las_artes_en_Valencia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ciudad_Ciencias_y_las_artes_en_Valencia.jpg",
+        "author": "Areyes108",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-reales-alcazares",
+      "name": "Reales Alcázares",
+      "area": "Seville city",
+      "city": "Seville city",
+      "wikidata": "Q498261",
+      "lat": 37.384426,
+      "lon": -5.991187,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Alcázar of Seville, officially called Royal Alcázar of Seville, is a historic royal palace in Seville, Spain and one of the official residences of the Spanish royal family.",
+        "es": "El Real Alcázar de Sevilla es un conjunto palaciego amurallado construido en diferentes etapas históricas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Alcázar of Seville",
+          "url": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Seville"
+        },
+        "es": {
+          "title": "Real Alcázar de Sevilla",
+          "url": "https://es.wikipedia.org/wiki/Real_Alc%C3%A1zar_de_Sevilla"
+        }
+      },
+      "image": {
+        "file": "Patio_de_las_doncellas001.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Patio_de_las_doncellas001.JPG",
+        "author": "لا روسا",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-giralda",
+      "name": "Giralda",
+      "area": "Seville city",
+      "city": "Seville city",
+      "wikidata": "Q834479",
+      "lat": 37.38614,
+      "lon": -5.99238,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Giralda is the bell tower of Seville Cathedral in Seville, Spain.",
+        "es": "La Giralda es la torre campanario de la catedral de Santa María de la Sede de la ciudad de Sevilla, en Andalucía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Giralda",
+          "url": "https://en.wikipedia.org/wiki/Giralda"
+        },
+        "es": {
+          "title": "Giralda",
+          "url": "https://es.wikipedia.org/wiki/Giralda"
+        }
+      },
+      "image": {
+        "file": "Giralda_de_Sevilla_(3).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Giralda_de_Sevilla_(3).jpg",
+        "author": "Alberto-g-rovi",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "es-italica",
+      "name": "Italica",
+      "area": "Seville city",
+      "city": "Seville city",
+      "wikidata": "Q658893",
+      "lat": 37.44119,
+      "lon": -6.0445,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Italica was an ancient Roman city in Hispania; its site is close to the town of Santiponce in the province of Seville, Spain.",
+        "es": "Itálica es una antigua ciudad romana situada en el actual término municipal de Santiponce, en la comunidad autónoma de Andalucía, España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Italica",
+          "url": "https://en.wikipedia.org/wiki/Italica"
+        },
+        "es": {
+          "title": "Itálica",
+          "url": "https://es.wikipedia.org/wiki/It%C3%A1lica"
+        }
+      },
+      "image": {
+        "file": "Amphitheatre_Italica,_Spain.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amphitheatre_Italica%2C_Spain.jpg",
+        "author": "No machine-readable author provided. Joris assumed (based on copyright claims).",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "es-torre-del-oro",
+      "name": "Torre del Oro",
+      "area": "Seville city",
+      "city": "Seville city",
+      "wikidata": "Q943873",
+      "lat": 37.382455,
+      "lon": -5.996296,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Torre del Oro is a dodecagonal military watchtower in Seville, southern Spain.",
+        "es": "La Torre del Oro de Sevilla es una torre albarrana situada al margen oriental del río Guadalquivir, en la ciudad de Sevilla, Andalucía, España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Torre del Oro",
+          "url": "https://en.wikipedia.org/wiki/Torre_del_Oro"
+        },
+        "es": {
+          "title": "Torre del Oro",
+          "url": "https://es.wikipedia.org/wiki/Torre_del_Oro"
+        }
+      },
+      "image": {
+        "file": "Torre_del_oro_laurels_Seville_Andalusia_Spain.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Torre_del_oro_laurels_Seville_Andalusia_Spain.jpg",
+        "author": "Jebulon",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "es-plaza-de-espana",
+      "name": "Plaza de España",
+      "area": "Seville city",
+      "city": "Seville city",
+      "wikidata": "Q956018",
+      "lat": 37.37708,
+      "lon": -5.986901,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Plaza de España is a plaza in Maria Luisa Park in Seville, Spain.",
+        "es": "La plaza de España es un conjunto arquitectónico enclavado en el parque de María Luisa de la ciudad de Sevilla."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plaza de España, Seville",
+          "url": "https://en.wikipedia.org/wiki/Plaza_de_Espa%C3%B1a%2C_Seville"
+        },
+        "es": {
+          "title": "Plaza de España (Sevilla)",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_Espa%C3%B1a_(Sevilla)"
+        }
+      },
+      "image": {
+        "file": "Plaza_de_España_(Sevilla)_-_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_(Sevilla)_-_01.jpg",
+        "author": "Carlos Delgado",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-puente-del-alamillo",
+      "name": "Puente del Alamillo",
+      "area": "Seville city",
+      "city": "Seville city",
+      "wikidata": "Q1353494",
+      "lat": 37.413333,
+      "lon": -5.990278,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Alamillo Bridge is a structure in Seville, Andalucia, which spans the Canal de Alfonso XIII, allowing access to La Cartuja, a peninsula located between the canal and the Guadalquivir River.",
+        "es": "El puente del Alamillo es un puente atirantado de pilón contrapeso que cruza el río Guadalquivir a su paso por Sevilla."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Alamillo Bridge",
+          "url": "https://en.wikipedia.org/wiki/Alamillo_Bridge"
+        },
+        "es": {
+          "title": "Puente del Alamillo (Sevilla)",
+          "url": "https://es.wikipedia.org/wiki/Puente_del_Alamillo_(Sevilla)"
+        }
+      },
+      "image": {
+        "file": "Puente_del_Alamillo_Guadalquivir_Seville_Spain.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Puente_del_Alamillo_Guadalquivir_Seville_Spain.jpg",
+        "author": "Jebulon",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "es-plaza-de-toros-de-la-maestranza",
+      "name": "Plaza de toros de la Maestranza",
+      "area": "Seville city",
+      "city": "Seville city",
+      "wikidata": "Q2274061",
+      "website": "https://realmaestranza.com/en/home/",
+      "lat": 37.385959,
+      "lon": -5.998407,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Plaza de Toros de la Real Maestranza de Caballería de Sevilla is a 12,000-capacity bullring in Seville, Spain.",
+        "es": "La plaza de toros de la Maestranza se encuentra en el barrio del Arenal de Sevilla, Andalucía, España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Maestranza (Seville)",
+          "url": "https://en.wikipedia.org/wiki/Maestranza_(Seville)"
+        },
+        "es": {
+          "title": "Plaza de toros de Sevilla",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_toros_de_Sevilla"
+        }
+      },
+      "image": {
+        "file": "Plaza_de_Toros_de_la_Maestranza.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plaza_de_Toros_de_la_Maestranza.jpg",
+        "author": "Vincenzo venditti",
+        "license": "CC BY-SA 3.0 es"
+      }
+    },
+    {
+      "id": "es-casa-de-pilatos",
+      "name": "Casa de Pilatos",
+      "area": "Seville city",
+      "city": "Seville city",
+      "wikidata": "Q1046529",
+      "lat": 37.390269,
+      "lon": -5.986989,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "La Casa de Pilatos is an Andalusian palace in Seville, Spain, which serves as the permanent residence of the Dukes of Medinaceli.",
+        "es": "La Casa de Pilatos es un palacio situado en la ciudad española de Sevilla, en Andalucía, perteneciente a la Casa de Medinaceli."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Casa de Pilatos",
+          "url": "https://en.wikipedia.org/wiki/Casa_de_Pilatos"
+        },
+        "es": {
+          "title": "Casa de Pilatos (Sevilla)",
+          "url": "https://es.wikipedia.org/wiki/Casa_de_Pilatos_(Sevilla)"
+        }
+      },
+      "image": {
+        "file": "Casa_pilatos_2018002.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Casa_pilatos_2018002.jpg",
+        "author": "Anual",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-museo-de-bellas-artes-de-sevilla",
+      "name": "Museo de Bellas Artes de Sevilla",
+      "area": "Seville city",
+      "city": "Seville city",
+      "wikidata": "Q2163496",
+      "lat": 37.392654,
+      "lon": -6.000126,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Museum of Fine Arts of Seville is one of the main art galleries in Seville, Spain, with a collection of Spanish visual arts from the medieval period to the early 20th century.",
+        "es": "El Museo de Bellas Artes de Sevilla es una de las pinacotecas más importantes de España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museum of Fine Arts of Seville",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Fine_Arts_of_Seville"
+        },
+        "es": {
+          "title": "Museo de Bellas Artes de Sevilla",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Bellas_Artes_de_Sevilla"
+        }
+      },
+      "image": {
+        "file": "Fachada_Museo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fachada_Museo.jpg",
+        "author": "Pepe Morón",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "es-palacio-de-san-telmo",
+      "name": "Palacio de San Telmo",
+      "area": "Seville city",
+      "city": "Seville city",
+      "wikidata": "Q2665595",
+      "lat": 37.380278,
+      "lon": -5.993611,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Palace of San Telmo is a historic edifice in Seville, southern Spain, formerly the Universidad de Mareantes, now the seat of the presidency of the Andalusian Autonomous Government.",
+        "es": "El palacio de San Telmo es la sede de la Presidencia de la Junta de Andalucía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palacio de San Telmo",
+          "url": "https://en.wikipedia.org/wiki/Palacio_de_San_Telmo"
+        },
+        "es": {
+          "title": "Palacio de San Telmo",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_San_Telmo"
+        }
+      },
+      "image": {
+        "file": "Palacio_de_San_Telmo,_Sevilla,_España,_2015-12-06,_DD_74.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palacio_de_San_Telmo%2C_Sevilla%2C_Espa%C3%B1a%2C_2015-12-06%2C_DD_74.JPG",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-metropol-parasol",
+      "name": "Metropol Parasol",
+      "area": "Seville city",
+      "city": "Seville city",
+      "wikidata": "Q3087671",
+      "lat": 37.393253,
+      "lon": -5.991881,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Setas de Sevilla or Las Setas, initially titled Metropol Parasol, is a large, predominantly wood structure located at La Encarnación square in the old quarter of Seville, Spain.",
+        "es": "Metropol Parasol, conocido popularmente como Setas de Sevilla, es una estructura en forma de pérgola con un esqueleto de madera y hormigón ubicada en la céntrica plaza de la Encarnación de la ciudad de Sevilla, en la…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Metropol Parasol",
+          "url": "https://en.wikipedia.org/wiki/Metropol_Parasol"
+        },
+        "es": {
+          "title": "Setas de Sevilla",
+          "url": "https://es.wikipedia.org/wiki/Setas_de_Sevilla"
+        }
+      },
+      "image": {
+        "file": "Setas_2022An006.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Setas_2022An006.jpg",
+        "author": "Anual",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-basilica-of-our-lady-of-the-pillar",
+      "name": "Basilica of Our Lady of the Pillar",
+      "area": "Zaragoza",
+      "city": "Zaragoza",
+      "wikidata": "Q810684",
+      "website": "https://catedraldezaragoza.es",
+      "lat": 41.656882,
+      "lon": -0.878327,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral Basilica of Our Lady of the Pillar is a Catholic church in the city of Zaragoza, Aragon.",
+        "es": "La Basílica o Santo Templo Metropolitano de Nuestra Señora del Pilar, habitualmente llamada «Basílica del Pilar» o «el Pilar», es una de las dos catedrales metropolitanas de la Archidiócesis de Zaragoza, junto con la…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral-Basilica of Our Lady of the Pillar",
+          "url": "https://en.wikipedia.org/wiki/Cathedral-Basilica_of_Our_Lady_of_the_Pillar"
+        },
+        "es": {
+          "title": "Catedral basílica de Nuestra Señora del Pilar (Zaragoza)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_del_Pilar_(Zaragoza)"
+        }
+      },
+      "image": {
+        "file": "Zaragoza_-_Basilica_de_Nuestra_Señora_del_Pilar_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zaragoza_-_Basilica_de_Nuestra_Se%C3%B1ora_del_Pilar_01.jpg",
+        "author": "Rab Lawrence",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "es-aljaferia",
+      "name": "Aljafería",
+      "area": "Zaragoza",
+      "city": "Zaragoza",
+      "wikidata": "Q1354033",
+      "lat": 41.65649,
+      "lon": -0.89708,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Aljafería Palace is a fortified medieval palace built during the second half of the 11th century in the Taifa of Zaragoza in Al-Andalus, present day Zaragoza, Aragon, Spain.",
+        "es": "El palacio de la Aljafería es un palacio fortificado construido en Zaragoza en la segunda mitad del siglo XI por iniciativa de al-Muqtádir como residencia de los reyes hudíes de Saraqusta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aljafería",
+          "url": "https://en.wikipedia.org/wiki/Aljafer%C3%ADa"
+        },
+        "es": {
+          "title": "Palacio de la Aljafería",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_la_Aljafer%C3%ADa"
+        }
+      },
+      "image": {
+        "file": "Aljafería_Palace.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aljafer%C3%ADa_Palace.jpg",
+        "author": "Fernando",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-cathedral-of-the-savior-in-his-epiphany-of-zarag",
+      "name": "Cathedral of the Savior in his Epiphany of Zaragoza",
+      "area": "Zaragoza",
+      "city": "Zaragoza",
+      "wikidata": "Q2196869",
+      "lat": 41.65456,
+      "lon": -0.87585,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of the Savior or La Seo de Zaragoza is a Catholic cathedral in Zaragoza, in Aragon, Spain.",
+        "es": "La Seo del Salvador en su Epifanía es una de las dos seos o catedrales metropolitanas de la archidiócesis de Zaragoza, junto con la catedral-basílica de Nuestra Señora del Pilar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of the Savior of Zaragoza",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_the_Savior_of_Zaragoza"
+        },
+        "es": {
+          "title": "Catedral del Salvador (Zaragoza)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Salvador_(Zaragoza)"
+        }
+      },
+      "image": {
+        "file": "La_Seo-Zaragoza_-_P1410404.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:La_Seo-Zaragoza_-_P1410404.jpg",
+        "author": "FRANCIS RAHER",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "es-caesaraugusta",
+      "name": "Caesaraugusta",
+      "area": "Zaragoza",
+      "city": "Zaragoza",
+      "wikidata": "Q2932882",
+      "lat": 41.654247,
+      "lon": -0.877536,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Caesaraugusta or Caesar Augusta was the name of the Roman city of Zaragoza, founded as a colonia inmunis from Rome in 14 BC, possibly on December 23, on the intensely Romanized Iberian city of Salduie.",
+        "es": "Caesaraugusta o Caesar Augusta fue el nombre de la ciudad romana de Zaragoza, fundada como colonia inmune de Roma en el año 14 a."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Caesaraugusta",
+          "url": "https://en.wikipedia.org/wiki/Caesaraugusta"
+        },
+        "es": {
+          "title": "Caesaraugusta",
+          "url": "https://es.wikipedia.org/wiki/Caesaraugusta"
+        }
+      },
+      "image": {
+        "file": "Augusto_Prima_Porta_(Zaragoza).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Augusto_Prima_Porta_(Zaragoza).jpg",
+        "author": "Stuardo Herrera",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "es-basilica-of-saint-engratia",
+      "name": "Basilica of Saint Engratia",
+      "area": "Zaragoza",
+      "city": "Zaragoza",
+      "wikidata": "Q29729",
+      "lat": 41.648889,
+      "lon": -0.882778,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of Santa Engracia de Zaragoza is a basilica church in Zaragoza, Spain.",
+        "es": "La basílica menor de Santa Engracia de la ciudad de Zaragoza, más conocida como basílica de Santa Engracia, es un templo católico de la ciudad de Zaragoza."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of Santa Engracia de Zaragoza",
+          "url": "https://en.wikipedia.org/wiki/Church_of_Santa_Engracia_de_Zaragoza"
+        },
+        "es": {
+          "title": "Basílica de Santa Engracia (Zaragoza)",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_Santa_Engracia_(Zaragoza)"
+        }
+      },
+      "image": {
+        "file": "Zaragoza_-_Iglesia_basílica_de_Santa_Engracia_22.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zaragoza_-_Iglesia_bas%C3%ADlica_de_Santa_Engracia_22.jpg",
+        "author": "Zarateman",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "es-saragossa-museum",
+      "name": "Saragossa Museum",
+      "area": "Zaragoza",
+      "city": "Zaragoza",
+      "wikidata": "Q2837755",
+      "lat": 41.6482,
+      "lon": -0.8786,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Zaragoza Museum is a national museum in the Plaza de los Sitios in the city of Zaragoza in Spain.",
+        "es": "Zaragoza Museum is a national museum in the Plaza de los Sitios in the city of Zaragoza in Spain."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zaragoza Museum",
+          "url": "https://en.wikipedia.org/wiki/Zaragoza_Museum"
+        },
+        "es": {
+          "title": "Museo de Zaragoza",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Zaragoza"
+        }
+      },
+      "image": {
+        "file": "Museo_Provincial_Zaragoza_3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museo_Provincial_Zaragoza_3.jpg",
+        "author": "Jzh2074",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-bridge-pavilion",
+      "name": "Bridge Pavilion",
+      "area": "Zaragoza",
+      "city": "Zaragoza",
+      "wikidata": "Q2367010",
+      "lat": 41.66642,
+      "lon": -0.904419,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Bridge Pavilion is a building designed by British-Iraqi architect Zaha Hadid that was constructed for the Expo 2008 in Zaragoza, Spain as one of its main landmarks.",
+        "es": "El Pabellón Puente fue uno de los edificios principales de la Expo 2008 de Zaragoza."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bridge Pavilion",
+          "url": "https://en.wikipedia.org/wiki/Bridge_Pavilion"
+        },
+        "es": {
+          "title": "Pabellón Puente",
+          "url": "https://es.wikipedia.org/wiki/Pabell%C3%B3n_Puente"
+        }
+      },
+      "image": {
+        "file": "Pavillon-Pont_Saragosse.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pavillon-Pont_Saragosse.jpg",
+        "author": "Grez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-puente-de-piedra",
+      "name": "Puente de Piedra",
+      "area": "Zaragoza",
+      "city": "Zaragoza",
+      "wikidata": "Q2638325",
+      "lat": 41.657222,
+      "lon": -0.875278,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Puente de Piedra is a bridge across the river Ebro in Zaragoza, Spain.",
+        "es": "El puente de Piedra y el Pretil de San Lázaro son un conjunto monumental levantado sobre el río Ebro en la ciudad de Zaragoza."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Puente de Piedra (Zaragoza)",
+          "url": "https://en.wikipedia.org/wiki/Puente_de_Piedra_(Zaragoza)"
+        },
+        "es": {
+          "title": "Puente de Piedra (Zaragoza)",
+          "url": "https://es.wikipedia.org/wiki/Puente_de_Piedra_(Zaragoza)"
+        }
+      },
+      "image": {
+        "file": "Puente_de_Piedra_Zaragoza_05.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Puente_de_Piedra_Zaragoza_05.jpg",
+        "author": "Ajzh2074",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-bullring-of-zaragoza",
+      "name": "bullring of Zaragoza",
+      "area": "Zaragoza",
+      "city": "Zaragoza",
+      "wikidata": "Q7203694",
+      "lat": 41.654444,
+      "lon": -0.891575,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Plaza de Toros de Zaragoza is a bullring in Zaragoza, Spain.",
+        "es": "La Plaza de Toros de Zaragoza, también conocida como «La Misericordia» o el «coso Ramón Pignatelli» es el segundo coso taurino de primera categoría más antiguo de España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plaza de Toros de Zaragoza",
+          "url": "https://en.wikipedia.org/wiki/Plaza_de_Toros_de_Zaragoza"
+        },
+        "es": {
+          "title": "Plaza de toros de Zaragoza",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_toros_de_Zaragoza"
+        }
+      },
+      "image": {
+        "file": "Zaragoza_Capital_-_033_(33241305675).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zaragoza_Capital_-_033_(33241305675).jpg",
+        "author": "Luis Rogelio HM",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "es-plaza-de-nuestra-senora-del-pilar",
+      "name": "Plaza de Nuestra Señora del Pilar",
+      "area": "Zaragoza",
+      "city": "Zaragoza",
+      "wikidata": "Q9061008",
+      "lat": 41.656389,
+      "lon": -0.878611,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Plaza of Our Lady of the Pillar is one of the busiest popular places in Zaragoza, Spain.",
+        "es": "La Plaza de Nuestra Señora del Pilar o simplemente Plaza del Pilar es uno de los centros populares más concurridos en Zaragoza, España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plaza of Our Lady of the Pillar",
+          "url": "https://en.wikipedia.org/wiki/Plaza_of_Our_Lady_of_the_Pillar"
+        },
+        "es": {
+          "title": "Plaza de Nuestra Señora del Pilar",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_Nuestra_Se%C3%B1ora_del_Pilar"
+        }
+      },
+      "image": {
+        "file": "Plaza_del_Pilar_(8839794898).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plaza_del_Pilar_(8839794898).jpg",
+        "author": "Juanedc from Zaragoza, España",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "es-roman-theatre-of-zaragoza",
+      "name": "Roman Theatre of Zaragoza",
+      "area": "Zaragoza",
+      "city": "Zaragoza",
+      "wikidata": "Q583459",
+      "lat": 41.652172,
+      "lon": -0.877658,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Roman Theater of Zaragoza is a Roman theatre in the Roman colonia of Caesaraugusta –present-day Zaragoza, Spain–, in the Roman province of Hispania Tarraconensis.",
+        "es": "El teatro romano de Caesaraugusta es un teatro de la época romana construido en la primera mitad del siglo I en Caesar Augusta, actual Zaragoza, España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Roman Theater (Zaragoza)",
+          "url": "https://en.wikipedia.org/wiki/Roman_Theater_(Zaragoza)"
+        },
+        "es": {
+          "title": "Teatro romano de Zaragoza",
+          "url": "https://es.wikipedia.org/wiki/Teatro_romano_de_Zaragoza"
+        }
+      },
+      "image": {
+        "file": "Antiguo_teatro_romano_de_Zaragoza,_España,_Spain.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Antiguo_teatro_romano_de_Zaragoza%2C_Espa%C3%B1a%2C_Spain.jpg",
+        "author": "CARLOS TEIXIDOR CADENAS",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "es-salduie",
+      "name": "Salduie",
+      "area": "Zaragoza",
+      "city": "Zaragoza",
+      "wikidata": "Q3469665",
+      "lat": 41.65,
+      "lon": -0.9,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Caesaraugusta or Caesar Augusta was the name of the Roman city of Zaragoza, founded as a colonia inmunis from Rome in 14 BC, possibly on December 23, on the intensely Romanized Iberian city of Salduie.",
+        "es": "Salduie fue una ciudad ibérica sedetana situada en el solar de la actual Zaragoza desde la segunda mitad del siglo III a."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Caesaraugusta",
+          "url": "https://en.wikipedia.org/wiki/Caesaraugusta"
+        },
+        "es": {
+          "title": "Salduie",
+          "url": "https://es.wikipedia.org/wiki/Salduie"
+        }
+      },
+      "image": {
+        "file": "Salduie.svg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Salduie.svg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-cathedral-basilica-of-the-virgin-of-incarnation",
+      "name": "Cathedral Basilica of the Virgin of Incarnation",
+      "area": "Málaga",
+      "city": "Málaga",
+      "wikidata": "Q1582758",
+      "website": "https://malagacatedral.com",
+      "lat": 36.720042,
+      "lon": -4.42012,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of Málaga is a Roman Catholic church in the city of Málaga in Andalusia in southern Spain.",
+        "es": "La Santa Iglesia Catedral Basílica de la Encarnación es la catedral de Málaga, en España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Málaga Cathedral",
+          "url": "https://en.wikipedia.org/wiki/M%C3%A1laga_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Málaga",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_M%C3%A1laga"
+        }
+      },
+      "image": {
+        "file": "Cathedral_of_Málaga,_2016.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_M%C3%A1laga%2C_2016.jpg",
+        "author": "Euku",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-alcazaba-of-malaga",
+      "name": "Alcazaba of Málaga",
+      "area": "Málaga",
+      "city": "Málaga",
+      "wikidata": "Q3127243",
+      "lat": 36.721181,
+      "lon": -4.415746,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Alcazaba is a palatial fortification in Málaga, Spain, built during the period of Muslim-ruled Al-Andalus.",
+        "es": "La alcazaba de Málaga es una fortificación palaciega de la época islámica, construida sobre una anterior fortificación de origen fenicio-púnico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Alcazaba of Málaga",
+          "url": "https://en.wikipedia.org/wiki/Alcazaba_of_M%C3%A1laga"
+        },
+        "es": {
+          "title": "Alcazaba de Málaga",
+          "url": "https://es.wikipedia.org/wiki/Alcazaba_de_M%C3%A1laga"
+        }
+      },
+      "image": {
+        "file": "Alcazaba_de_Málaga_overview.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alcazaba_de_M%C3%A1laga_overview.jpg",
+        "author": "Fernando",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-museo-picasso-malaga",
+      "name": "Museo Picasso Málaga",
+      "area": "Málaga",
+      "city": "Málaga",
+      "wikidata": "Q1368396",
+      "website": "https://museopicassomalaga.org",
+      "lat": 36.721771,
+      "lon": -4.41847,
+      "phone": "+34 952 127 600",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Museo Picasso Málaga is a museum in Málaga, Andalusia, Spain, the city where artist Pablo Ruiz Picasso was born.",
+        "es": "El Museo Picasso Málaga es una de las dos pinacotecas dedicadas a Pablo Picasso situadas en su ciudad natal Málaga, siendo la otra la Fundación Picasso Museo Casa Natal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museo Picasso Málaga",
+          "url": "https://en.wikipedia.org/wiki/Museo_Picasso_M%C3%A1laga"
+        },
+        "es": {
+          "title": "Museo Picasso Málaga",
+          "url": "https://es.wikipedia.org/wiki/Museo_Picasso_M%C3%A1laga"
+        }
+      },
+      "image": {
+        "file": "MuseoPicassoMalaga.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:MuseoPicassoMalaga.jpg",
+        "author": "Llecco",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-gibralfaro",
+      "name": "Gibralfaro",
+      "area": "Málaga",
+      "city": "Málaga",
+      "wikidata": "Q3751086",
+      "lat": 36.723333,
+      "lon": -4.410833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Gibralfaro is a hill located in Málaga in the south of Spain.",
+        "es": "Gibralfaro es un monte de 130 metros de altitud, situado en la ciudad de española de Málaga, en torno al cual los fenicios fundaron la ciudad de Malaka."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gibralfaro",
+          "url": "https://en.wikipedia.org/wiki/Gibralfaro"
+        },
+        "es": {
+          "title": "Gibralfaro",
+          "url": "https://es.wikipedia.org/wiki/Gibralfaro"
+        }
+      },
+      "image": {
+        "file": "Gibralfaro.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gibralfaro.jpg",
+        "author": "RubiMA1",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "es-plaza-de-toros-de-la-malagueta",
+      "name": "Plaza de toros de la Malagueta",
+      "area": "Málaga",
+      "city": "Málaga",
+      "wikidata": "Q523311",
+      "lat": 36.720385,
+      "lon": -4.410797,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "La Malagueta is a bullring at Málaga, Andalucía, Spain.",
+        "es": "La Malagueta es la plaza de toros de Málaga."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plaza de toros de La Malagueta",
+          "url": "https://en.wikipedia.org/wiki/Plaza_de_toros_de_La_Malagueta"
+        },
+        "es": {
+          "title": "Plaza de toros de La Malagueta",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_toros_de_La_Malagueta"
+        }
+      },
+      "image": {
+        "file": "La_Malagueta,_plaza_de_toros_de_Málaga.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:La_Malagueta%2C_plaza_de_toros_de_M%C3%A1laga.jpg",
+        "author": "Malopez 21",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-museum-jorge-rando",
+      "name": "Museum Jorge Rando",
+      "area": "Málaga",
+      "city": "Málaga",
+      "wikidata": "Q12184921",
+      "website": "https://www.museojorgerando.org/index.html",
+      "lat": 36.726786,
+      "lon": -4.423791,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Museum Jorge Rando is the first expressionist museum in Málaga, Andalusia, Spain.",
+        "es": "El Museum Jorge Rando es el primer museo expresionista en España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museum Jorge Rando",
+          "url": "https://en.wikipedia.org/wiki/Museum_Jorge_Rando"
+        },
+        "es": {
+          "title": "Museum Jorge Rando",
+          "url": "https://es.wikipedia.org/wiki/Museum_Jorge_Rando"
+        }
+      },
+      "image": {
+        "file": "Museumjorgerando.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museumjorgerando.JPG",
+        "author": "ArteNova21",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-museo-de-malaga",
+      "name": "Museo de Málaga",
+      "area": "Málaga",
+      "city": "Málaga",
+      "wikidata": "Q4276495",
+      "lat": 36.719899,
+      "lon": -4.417131,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Museo de Málaga is a museum in Málaga, Andalusia, Spain.",
+        "es": "El Museo de Málaga es un centro expositivo de la ciudad española de Málaga que da cabida a las colecciones de dos instituciones museísticas malacitanas, el Museo de Bellas Artes de Málaga y el Museo Arqueológico…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museo de Málaga",
+          "url": "https://en.wikipedia.org/wiki/Museo_de_M%C3%A1laga"
+        },
+        "es": {
+          "title": "Museo de Málaga",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_M%C3%A1laga"
+        }
+      },
+      "image": {
+        "file": "Palacio_de_la_Aduana,_Málaga_01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palacio_de_la_Aduana%2C_M%C3%A1laga_01.JPG",
+        "author": "Tyk",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-al-andalus-mosque",
+      "name": "Al-Andalus Mosque",
+      "area": "Málaga",
+      "city": "Málaga",
+      "wikidata": "Q11692328",
+      "lat": 36.7192,
+      "lon": -4.43833,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Al-Andalus Mosque is a Sunni Islam mosque in the neighbourhood of Arroyo del Cuarto city of Málaga, Andalusia, Spain.",
+        "es": "La Mezquita de al-Ándalus, también conocida como Mezquita de Málaga, es un templo islámico situado en el barrio de Arroyo del Cuarto de la ciudad de Málaga, en España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Al-Andalus Mosque",
+          "url": "https://en.wikipedia.org/wiki/Al-Andalus_Mosque"
+        },
+        "es": {
+          "title": "Mezquita de al-Ándalus",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_de_al-%C3%81ndalus"
+        }
+      },
+      "image": {
+        "file": "Minaret_Málaga.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Minaret_M%C3%A1laga.jpg",
+        "author": "Tyk",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-castillo-monumento-colomares",
+      "name": "Castillo Monumento Colomares",
+      "area": "Málaga",
+      "city": "Málaga",
+      "wikidata": "Q4141464",
+      "lat": 36.5906,
+      "lon": -4.5725,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Castillo de Colomares is a monument, in the form of a castle, dedicated to the life and adventures of Christopher Columbus.",
+        "es": "La construcción de este castillo tuvo lugar entre los años 1987 y 1994 por el doctor Esteban Martín y Martín, con la ayuda de dos albañiles del cercano pueblo de Mijas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Castillo de Colomares",
+          "url": "https://en.wikipedia.org/wiki/Castillo_de_Colomares"
+        },
+        "es": {
+          "title": "Castillo de Colomares",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Colomares"
+        }
+      },
+      "image": {
+        "file": "Castillo_de_Colomares,_Benalmádena,_Málaga,_España,_2023-05-18,_DD_76.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Castillo_de_Colomares%2C_Benalm%C3%A1dena%2C_M%C3%A1laga%2C_Espa%C3%B1a%2C_2023-05-18%2C_DD_76.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-carmen-thyssen-museum",
+      "name": "Carmen Thyssen Museum",
+      "area": "Málaga",
+      "city": "Málaga",
+      "wikidata": "Q5043601",
+      "lat": 36.721389,
+      "lon": -4.422778,
+      "phone": "+34 902 303 131",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Carmen Thyssen Museum is an art museum in the Spanish city Málaga.",
+        "es": "El Museo Carmen Thyssen Málaga es uno de los principales museos de la ciudad española de Málaga."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Carmen Thyssen Museum",
+          "url": "https://en.wikipedia.org/wiki/Carmen_Thyssen_Museum"
+        },
+        "es": {
+          "title": "Museo Carmen Thyssen Málaga",
+          "url": "https://es.wikipedia.org/wiki/Museo_Carmen_Thyssen_M%C3%A1laga"
+        }
+      },
+      "image": {
+        "file": "Museo_Carmen_Thyssen_-_Palacio_de_Villalón.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museo_Carmen_Thyssen_-_Palacio_de_Villal%C3%B3n.jpg",
+        "author": "Emilio J. Rodríguez Posada",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "es-benalmadena-stupa",
+      "name": "Benalmádena Stupa",
+      "area": "Málaga",
+      "city": "Málaga",
+      "wikidata": "Q1817748",
+      "website": "https://www.stupabenalmadena.org/",
+      "lat": 36.5882,
+      "lon": -4.5812,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Benalmádena Stupa is a stupa in Benalmádena, Málaga in the Andalusian region of southern Spain, overlooking Costa del Sol.",
+        "es": "La Estupa de la Iluminación es una estupa budista tibetana ubicada en la localidad de Benalmádena de la provincia de Málaga, España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Benalmádena Stupa",
+          "url": "https://en.wikipedia.org/wiki/Benalm%C3%A1dena_Stupa"
+        },
+        "es": {
+          "title": "Estupa de la Iluminación",
+          "url": "https://es.wikipedia.org/wiki/Estupa_de_la_Iluminaci%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Benalmadena_Stupa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Benalmadena_Stupa.jpg",
+        "author": "Brian Milnes",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-palma-cathedral",
+      "name": "Palma Cathedral",
+      "area": "Palma",
+      "city": "Palma",
+      "wikidata": "Q1298819",
+      "lat": 39.5675,
+      "lon": 2.648056,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of Santa Maria of Palma, more commonly referred to as La Seu, is a Gothic Roman Catholic cathedral located in Palma, Mallorca, Spain.",
+        "es": "La catedral-basílica de Santa María en Palma, también llamada catedral de Mallorca, es el principal edificio religioso de la isla de Mallorca."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palma Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Palma_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Palma de Mallorca",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Palma_de_Mallorca"
+        }
+      },
+      "image": {
+        "file": "Kathedrale_von_Palma_II.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kathedrale_von_Palma_II.jpg",
+        "author": "Thomas Wolf, www.foto-tw.de",
+        "license": "CC BY-SA 3.0 de"
+      }
+    },
+    {
+      "id": "es-bellver-castle",
+      "name": "Bellver Castle",
+      "area": "Palma",
+      "city": "Palma",
+      "wikidata": "Q261707",
+      "lat": 39.56375,
+      "lon": 2.619339,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bellver Castle is a Gothic-style castle on a hill 3 km to the west of the center of Palma de Mallorca on the island of Mallorca, Balearic Islands, Spain.",
+        "es": "El castillo de Bellver es una fortificación de estilo gótico situada a unos tres kilómetros de la ciudad española de Palma de Mallorca, en Baleares."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bellver Castle",
+          "url": "https://en.wikipedia.org/wiki/Bellver_Castle"
+        },
+        "es": {
+          "title": "Castillo de Bellver",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Bellver"
+        }
+      },
+      "image": {
+        "file": "Castillo_de_Bellver.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Castillo_de_Bellver.jpg",
+        "author": "Poniol60",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "es-royal-palace-of-la-almudaina",
+      "name": "Royal Palace of La Almudaina",
+      "area": "Palma",
+      "city": "Palma",
+      "wikidata": "Q3176377",
+      "lat": 39.5675,
+      "lon": 2.64722,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Royal Palace of La Almudaina is one of the official residences of the Spanish royal family.",
+        "es": "El Palacio Real de la Almudaina es el palacio real o alcázar real de la ciudad de Palma de Mallorca, en España, y una de las residencias de la familia real española, gestionada por el organismo público Patrimonio…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Royal Palace of La Almudaina",
+          "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_La_Almudaina"
+        },
+        "es": {
+          "title": "Palacio Real de la Almudaina",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Real_de_la_Almudaina"
+        }
+      }
+    },
+    {
+      "id": "es-fundacio-miro-mallorca",
+      "name": "Fundació Miró Mallorca",
+      "area": "Palma",
+      "city": "Palma",
+      "wikidata": "Q949576",
+      "lat": 39.555,
+      "lon": 2.609167,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Fundació Pilar i Joan Miró in Mallorca is a museum in Palma de Mallorca, dedicated to the work of the artist Joan Miró.",
+        "es": "La Fundación Pilar y Joan Miró, también denominada Fundació Miró de Mallorca, es una fundación cultural española con sede en la ciudad de Palma de Mallorca, creada por deseo del pintor barcelonés Joan Miró y de su…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fundació Pilar i Joan Miró in Mallorca",
+          "url": "https://en.wikipedia.org/wiki/Fundaci%C3%B3_Pilar_i_Joan_Mir%C3%B3_in_Mallorca"
+        },
+        "es": {
+          "title": "Fundación Pilar y Joan Miró",
+          "url": "https://es.wikipedia.org/wiki/Fundaci%C3%B3n_Pilar_y_Joan_Mir%C3%B3"
+        }
+      },
+      "image": {
+        "file": "Miro's_Studio_Sert_-_Palma_de_Mallorca.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Miro's_Studio_Sert_-_Palma_de_Mallorca.jpg",
+        "author": "AxelBoldt",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "es-valldemossa-charterhouse",
+      "name": "Valldemossa Charterhouse",
+      "area": "Palma",
+      "city": "Palma",
+      "wikidata": "Q1494326",
+      "lat": 39.708889,
+      "lon": 2.621944,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Valldemossa Charterhouse is a palace in Valldemossa, Mallorca that was royal residence of the king Sancho of Majorca and later Royal Charterhouse of the Carthusians.",
+        "es": "La Real Cartuja de Jesús de Nazaret, más conocida como Cartuja de Valldemossa, es un palacio de la localidad de Valldemossa, en la isla de Mallorca, en la comunidad autónoma de Islas Baleares en España, que fue…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Valldemossa Charterhouse",
+          "url": "https://en.wikipedia.org/wiki/Valldemossa_Charterhouse"
+        },
+        "es": {
+          "title": "Cartuja de Valldemossa",
+          "url": "https://es.wikipedia.org/wiki/Cartuja_de_Valldemossa"
+        }
+      },
+      "image": {
+        "file": "Cartuja1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cartuja1.JPG",
+        "author": "Juan Costa",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-alfabia-mountains",
+      "name": "Alfabia Mountains",
+      "area": "Palma",
+      "city": "Palma",
+      "wikidata": "Q4721848",
+      "lat": 39.735278,
+      "lon": 2.712778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Alfabia Mountains are a mountain range in Mallorca located in the municipality of Fornalutx.",
+        "es": "La Sierra de Alfabia es una sierra secundaria enclavada dentro de la mallorquina Sierra de Tramontana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Alfabia Mountains",
+          "url": "https://en.wikipedia.org/wiki/Alfabia_Mountains"
+        },
+        "es": {
+          "title": "Sierra de Alfabia",
+          "url": "https://es.wikipedia.org/wiki/Sierra_de_Alfabia"
+        }
+      },
+      "image": {
+        "file": "Alfabia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alfabia.jpg",
+        "author": "Kaja Miko",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-isla-de-sa-porrassa",
+      "name": "Isla de sa Porrassa",
+      "area": "Palma",
+      "city": "Palma",
+      "wikidata": "Q6081563",
+      "lat": 39.503611,
+      "lon": 2.545,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Illa de sa Porassa is an island located in the bay of the village of Magaluf, Mallorca, Spain.",
+        "es": "La isla de la Porraza es un islote localizado en la bahía de Magaluf."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Illa de sa Porrassa",
+          "url": "https://en.wikipedia.org/wiki/Illa_de_sa_Porrassa"
+        },
+        "es": {
+          "title": "Isla de la Porraza",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_la_Porraza"
+        }
+      }
+    },
+    {
+      "id": "es-portopi-lighthouse",
+      "name": "Portopí Lighthouse",
+      "area": "Palma",
+      "city": "Palma",
+      "wikidata": "Q5856454",
+      "lat": 39.548556,
+      "lon": 2.623383,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Porto Pí Lighthouse is one of the oldest operating lighthouses in the world, and a historic monument.",
+        "es": "El faro de Portopí o Porto Pí, o también Torre de Señales de Portopí, es un faro situado en el barrio de Portopí, en la localidad de Palma de Mallorca."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Porto Pí Lighthouse",
+          "url": "https://en.wikipedia.org/wiki/Porto_P%C3%AD_Lighthouse"
+        },
+        "es": {
+          "title": "Faro de Portopí",
+          "url": "https://es.wikipedia.org/wiki/Faro_de_Portop%C3%AD"
+        }
+      },
+      "image": {
+        "file": "Torre_de_Senyales_-_Porto_Pi_-_Palma_de_Mallorca.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Torre_de_Senyales_-_Porto_Pi_-_Palma_de_Mallorca.jpg",
+        "author": "Javier Perez Montes",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-es-baluard",
+      "name": "Es Baluard",
+      "area": "Palma",
+      "city": "Palma",
+      "wikidata": "Q357917",
+      "lat": 39.57,
+      "lon": 2.641389,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Es Baluard Museu d’Art Modern i Contemporani de Palma, located in Palma and inaugurated on 30 January 2004, has a reserve of more than 700 works of art linked to artists from the Balearic Islands and/or of…",
+        "es": "Es Baluard Museu d’Art Contemporani de Palma, situado en Palma de Mallorca e inaugurado el 30 de enero de 2004, es un museo que cuenta con un fondo de más de 700 obras de arte vinculadas a artistas del ámbito de las…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Es Baluard",
+          "url": "https://en.wikipedia.org/wiki/Es_Baluard"
+        },
+        "es": {
+          "title": "Es Baluard",
+          "url": "https://es.wikipedia.org/wiki/Es_Baluard"
+        }
+      },
+      "image": {
+        "file": "Es_Baluard_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Es_Baluard_01.jpg",
+        "author": "Olaf Tausch",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "es-gran-hotel",
+      "name": "Gran Hotel",
+      "area": "Palma",
+      "city": "Palma",
+      "wikidata": "Q3780261",
+      "lat": 39.57175,
+      "lon": 2.650056,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Gran Hotel is a former historic hotel located in Plaza Weyler, in Palma, the capital of Mallorca, the largest of the Balearic Islands.",
+        "es": "El Gran Hotel de Palma de Mallorca es una construcción modernista del arquitecto Lluís Domènech i Montaner, inaugurada el 9 de febrero de 1903."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gran Hotel (Palma)",
+          "url": "https://en.wikipedia.org/wiki/Gran_Hotel_(Palma)"
+        },
+        "es": {
+          "title": "Gran Hotel (Palma de Mallorca)",
+          "url": "https://es.wikipedia.org/wiki/Gran_Hotel_(Palma_de_Mallorca)"
+        }
+      },
+      "image": {
+        "file": "GranHotelPalma.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:GranHotelPalma.JPG",
+        "author": "Pérez",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-palma-aquarium",
+      "name": "Palma Aquarium",
+      "area": "Palma",
+      "city": "Palma",
+      "wikidata": "Q1656431",
+      "lat": 39.532301,
+      "lon": 2.728348,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Palma Aquarium is a commercial aquarium and park that first opened in 2007 in Palma, Mallorca, Spain.",
+        "es": "Palma Aquarium es un acuario inaugurado en 2007 en Mallorca, España, y propiedad de la empresa Coral World International, especializada en la creación de parques marinos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palma Aquarium",
+          "url": "https://en.wikipedia.org/wiki/Palma_Aquarium"
+        },
+        "es": {
+          "title": "Palma Aquarium",
+          "url": "https://es.wikipedia.org/wiki/Palma_Aquarium"
+        }
+      },
+      "image": {
+        "file": "Tiburón_en_el_Big_Blue.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tibur%C3%B3n_en_el_Big_Blue.jpg",
+        "author": "palma aquarium",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-magaluf-beach",
+      "name": "Magaluf Beach",
+      "area": "Palma",
+      "city": "Palma",
+      "wikidata": "Q6729649",
+      "lat": 39.5081,
+      "lon": 2.53667,
+      "category": "beach",
+      "interests": [
+        "beaches"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Magaluf Beach is the name of the beach in the tourist resort of Magaluf.",
+        "es": "La playa de Magaluf es una playa de la localidad turística de Magaluf, en el municipio de Calviá,."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Magaluf Beach",
+          "url": "https://en.wikipedia.org/wiki/Magaluf_Beach"
+        },
+        "es": {
+          "title": "Playa de Magaluf",
+          "url": "https://es.wikipedia.org/wiki/Playa_de_Magaluf"
+        }
+      },
+      "image": {
+        "file": "Mallorcabeach.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mallorcabeach.png",
+        "author": "Hullernuc",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-palmeral-of-elche",
+      "name": "Palmeral of Elche",
+      "area": "Alicante",
+      "city": "Alicante",
+      "wikidata": "Q930784",
+      "lat": 38.269444,
+      "lon": -0.698333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Palmeral or Palm Grove of Elche is the generic name for a system of date palm orchards in the city of Elche, Spain.",
+        "es": "El Palmeral de Elche, también conocido como Huertos de Palmeras de Elche, es una gran extensión de palmeras dentro de la ciudad española de Elche."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palmeral of Elche",
+          "url": "https://en.wikipedia.org/wiki/Palmeral_of_Elche"
+        },
+        "es": {
+          "title": "Palmeral de Elche",
+          "url": "https://es.wikipedia.org/wiki/Palmeral_de_Elche"
+        }
+      },
+      "image": {
+        "file": "Arcoiris_en_el_Palmeral_de_Elche.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arcoiris_en_el_Palmeral_de_Elche.jpg",
+        "author": "José Carlos Díez",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "es-tabarca",
+      "name": "Tabarca",
+      "area": "Alicante",
+      "city": "Alicante",
+      "wikidata": "Q1548344",
+      "website": "https://alicanteturismo.com/isla-de-tabarca/",
+      "lat": 38.164958,
+      "lon": -0.475267,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tabarca, also known as Nova Tabarca and Illa Plana in Valencian, is an islet located in the Mediterranean Sea, close to the town of Santa Pola, in the province of Alicante, Valencian community, Spain.",
+        "es": "La isla de Tabarca, de Nueva Tabarca o Plana, oficialmente Isla Plana o Nueva Tabarca, es una isla española que se encuentra en el mar Mediterráneo, a unos 22 km de la ciudad española de Alicante, a unos 8 km del…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tabarca",
+          "url": "https://en.wikipedia.org/wiki/Tabarca"
+        },
+        "es": {
+          "title": "Isla de Tabarca",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Tabarca"
+        }
+      },
+      "image": {
+        "file": "Tabarca_Island-Alicante_(Spain)_-_48502403002_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tabarca_Island-Alicante_(Spain)_-_48502403002_(cropped).jpg",
+        "author": "Jose A.",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "es-santa-barbara-castle",
+      "name": "Santa Bárbara Castle",
+      "area": "Alicante",
+      "city": "Alicante",
+      "wikidata": "Q429562",
+      "lat": 38.349,
+      "lon": -0.478,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Santa Bàrbara Castle is a fortification in the center of Alicante, Valencian Community, Spain.",
+        "es": "El castillo de Santa Bárbara es un castillo ubicado en el centro de la ciudad española de Alicante, sobre el monte Benacantil."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Santa Bàrbara Castle",
+          "url": "https://en.wikipedia.org/wiki/Santa_B%C3%A0rbara_Castle"
+        },
+        "es": {
+          "title": "Castillo de Santa Bárbara",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Santa_B%C3%A1rbara"
+        }
+      },
+      "image": {
+        "file": "Alicante_Castillo_de_Santa_Bárbara_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alicante_Castillo_de_Santa_B%C3%A1rbara_01.jpg",
+        "author": "H.Helmlechner",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-archaeological-museum-of-alicante",
+      "name": "Archaeological Museum of Alicante",
+      "area": "Alicante",
+      "city": "Alicante",
+      "wikidata": "Q636891",
+      "lat": 38.35375,
+      "lon": -0.476389,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Archaeological Museum of Alicante is an archaeological museum in Alicante, Spain.",
+        "es": "El Museo Arqueológico de Alicante, llamado anteriormente Museo Arqueológico Provincial de Alicante y conocido por las siglas MARQ, está ubicado en la plaza Doctor Gómez Ulla de la ciudad española de Alicante."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Archaeological Museum of Alicante",
+          "url": "https://en.wikipedia.org/wiki/Archaeological_Museum_of_Alicante"
+        },
+        "es": {
+          "title": "Museo Arqueológico de Alicante",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Alicante"
+        }
+      },
+      "image": {
+        "file": "MARQ_Alacant.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:MARQ_Alacant.JPG",
+        "author": "Joanbanjo",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "es-benacantil",
+      "name": "Benacantil",
+      "area": "Alicante",
+      "city": "Alicante",
+      "wikidata": "Q1123457",
+      "lat": 38.35,
+      "lon": -0.478056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Benacantil is a mount that dominates the urban part of Alicante, and is the characteristic image of the city.",
+        "es": "El Benacantil es una elevación rocosa de 166 metros de altitud, colindante con el mar Mediterráneo, en la ciudad española de Alicante."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Benacantil",
+          "url": "https://en.wikipedia.org/wiki/Mount_Benacantil"
+        },
+        "es": {
+          "title": "Benacantil",
+          "url": "https://es.wikipedia.org/wiki/Benacantil"
+        }
+      },
+      "image": {
+        "file": "Playa_del_Postiguet_4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Playa_del_Postiguet_4.jpg",
+        "author": "kallerna",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-canelobre-caves",
+      "name": "Canelobre Caves",
+      "area": "Alicante",
+      "city": "Alicante",
+      "wikidata": "Q2480874",
+      "lat": 38.510278,
+      "lon": -0.411389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Canalobre Cave is a karst cave located in the small municipality of Busot, Alicante Province, in the Valencian Community of Spain.",
+        "es": "Las cuevas de Canelobre están situadas en Busot, Alicante."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Canelobre Cave",
+          "url": "https://en.wikipedia.org/wiki/Canelobre_Cave"
+        },
+        "es": {
+          "title": "Cuevas de Canelobre",
+          "url": "https://es.wikipedia.org/wiki/Cuevas_de_Canelobre"
+        }
+      },
+      "image": {
+        "file": "La_grotte_de_canelobre_-_panoramio_(6).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:La_grotte_de_canelobre_-_panoramio_(6).jpg",
+        "author": "chisloup",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "es-co-cathedral-of-st-nicholas-of-bari",
+      "name": "Co-Cathedral of St. Nicholas of Bari",
+      "area": "Alicante",
+      "city": "Alicante",
+      "wikidata": "Q2942405",
+      "lat": 38.345417,
+      "lon": -0.4825,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Co-Cathedral of St. Nicholas of Bari is a Catholic co-cathedral located in Alicante, in the Valencian Community of Spain.",
+        "es": "La concatedral de San Nicolás de Bari es una iglesia de la ciudad española de Alicante."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Concatedral de San Nicolás, Alicante",
+          "url": "https://en.wikipedia.org/wiki/Concatedral_de_San_Nicol%C3%A1s%2C_Alicante"
+        },
+        "es": {
+          "title": "Concatedral de San Nicolás de Bari",
+          "url": "https://es.wikipedia.org/wiki/Concatedral_de_San_Nicol%C3%A1s_de_Bari"
+        }
+      },
+      "image": {
+        "file": "Alicante_Cocathedral_2021_-_west_façade.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alicante_Cocathedral_2021_-_west_fa%C3%A7ade.jpg",
+        "author": "Fernando",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-lucentum",
+      "name": "Lucentum",
+      "area": "Alicante",
+      "city": "Alicante",
+      "wikidata": "Q3555926",
+      "website": "https://alicanteturismo.com/fr/museos/site-archeologique-de-lucentum/",
+      "lat": 38.364444,
+      "lon": -0.438333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Lucentum, called Lucentia by Pomponius Mela, is the Roman predecessor of the city of Alicante, Spain.",
+        "es": "Lucentum es el nombre de una ciudad íbero-romana situada en la costa de Alicante, en lugar desconocido, al faltar pruebas documentales concretas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lucentum",
+          "url": "https://en.wikipedia.org/wiki/Lucentum"
+        },
+        "es": {
+          "title": "Lucentum",
+          "url": "https://es.wikipedia.org/wiki/Lucentum"
+        }
+      },
+      "image": {
+        "file": "Tossal-plantagral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tossal-plantagral.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-tibi-reservoir",
+      "name": "Tibi Reservoir",
+      "area": "Alicante",
+      "city": "Alicante",
+      "wikidata": "Q201592",
+      "lat": 38.503097,
+      "lon": -0.56469,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Tibi Dam is a masonry dam on Monegre River about three kilometres south of Tibi in Valencian Community, Spain.",
+        "es": "El embalse de Tibi se encuentra situado sobre el río Monnegre, en los términos municipales de Tibi y Jijona, provincia de Alicante, Comunidad Valenciana, España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tibi Dam",
+          "url": "https://en.wikipedia.org/wiki/Tibi_Dam"
+        },
+        "es": {
+          "title": "Embalse de Tibi",
+          "url": "https://es.wikipedia.org/wiki/Embalse_de_Tibi"
+        }
+      },
+      "image": {
+        "file": "Cola_del_pantano_de_Tibi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cola_del_pantano_de_Tibi.jpg",
+        "author": "No machine-readable author provided. Rodriguillo assumed (based on copyright cla",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "es-basilica-of-saint-mary",
+      "name": "Basilica of Saint Mary",
+      "area": "Alicante",
+      "city": "Alicante",
+      "wikidata": "Q3395771",
+      "lat": 38.346167,
+      "lon": -0.479306,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica of Santa Maria is the oldest active church in Alicante, Spain.",
+        "es": "La basílica de Santa María es un templo católico ubicado en la plaza de Santa María de Alicante."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica of Santa Maria, Alicante",
+          "url": "https://en.wikipedia.org/wiki/Basilica_of_Santa_Maria%2C_Alicante"
+        },
+        "es": {
+          "title": "Basílica de Santa María (Alicante)",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_Santa_Mar%C3%ADa_(Alicante)"
+        }
+      },
+      "image": {
+        "file": "Basilica_of_St_Mary_Alicante.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Basilica_of_St_Mary_Alicante.jpg",
+        "author": "kallerna",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "es-alicante-museum-of-contemporary-art",
+      "name": "Alicante Museum of Contemporary Art",
+      "area": "Alicante",
+      "city": "Alicante",
+      "wikidata": "Q4725678",
+      "lat": 38.34625,
+      "lon": -0.479694,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Alicante Museum of Contemporary Art is a municipal museum in Alicante, Spain.",
+        "es": "El Museo de Arte Contemporáneo de Alicante es un museo municipal de la ciudad de Alicante, España."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Alicante Museum of Contemporary Art",
+          "url": "https://en.wikipedia.org/wiki/Alicante_Museum_of_Contemporary_Art"
+        },
+        "es": {
+          "title": "Museo de Arte Contemporáneo de Alicante",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Arte_Contempor%C3%A1neo_de_Alicante"
+        }
+      },
+      "image": {
+        "file": "Casa_de_l'Assegurada,_Museu_d'Art_Contemporani_d'Alacant.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Casa_de_l'Assegurada%2C_Museu_d'Art_Contemporani_d'Alacant.jpg",
+        "author": "Joanbanjo",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "es-l-alcudia",
+      "name": "L'Alcúdia",
+      "area": "Alicante",
+      "city": "Alicante",
+      "wikidata": "Q4892904",
+      "lat": 38.2397,
+      "lon": -0.695556,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "La Alcudia, also l'Alcúdia, is an archaeological site in the Province of Alicante, Spain, near Elche and the Vinalopó river, corresponding to the ancient city of Ilici.",
+        "es": "El yacimiento arqueológico de La Alcudia se encuentra a 3 km al sur de la ciudad española de Elche, cerca del río Vinalopó."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "La Alcudia",
+          "url": "https://en.wikipedia.org/wiki/La_Alcudia"
+        },
+        "es": {
+          "title": "Yacimiento arqueológico de La Alcudia",
+          "url": "https://es.wikipedia.org/wiki/Yacimiento_arqueol%C3%B3gico_de_La_Alcudia"
+        }
+      },
+      "image": {
+        "file": "Alcudia-casa1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Alcudia-casa1.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
       }
     }
   ]

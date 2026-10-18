@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -66,6 +72,805 @@
       "wikidata": "Q106628284",
       "lat": -13.8397,
       "lon": -171.7629
+    },
+    {
+      "id": "ws-samoa",
+      "name": "Samoa",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q683",
+      "lat": -13.745,
+      "lon": -172.2175,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Samoa, officially the Independent State of Samoa, is an island country in Polynesia, a part of Oceania, which is in the South Pacific Ocean.",
+        "es": "Samoa, oficialmente Estado Independiente de Samoa, es un país soberano insular de Oceanía integrado dentro de la Polinesia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Samoa",
+          "url": "https://en.wikipedia.org/wiki/Samoa"
+        },
+        "es": {
+          "title": "Samoa",
+          "url": "https://es.wikipedia.org/wiki/Samoa"
+        }
+      },
+      "image": {
+        "file": "Beach_on_Upolu_Island,_Samoa,_2009.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Beach_on_Upolu_Island%2C_Samoa%2C_2009.jpg",
+        "author": "Stephen Glauser",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "ws-upolu",
+      "name": "Upolu",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q274569",
+      "lat": -13.916667,
+      "lon": -171.75,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Upolu is an island in Samoa, formed by a massive basaltic shield volcano which rises from the seafloor of the western Pacific Ocean.",
+        "es": "Upolu es una isla de Samoa. Está formada por un volcán que emerge del mar sin constancia histórica de erupciones."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Upolu",
+          "url": "https://en.wikipedia.org/wiki/Upolu"
+        },
+        "es": {
+          "title": "Upolu",
+          "url": "https://es.wikipedia.org/wiki/Upolu"
+        }
+      },
+      "image": {
+        "file": "Samoa_upolu.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Samoa_upolu.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "ws-savai-i",
+      "name": "Savai'i",
+      "area": "Samoa",
+      "city": "Samoa",
+      "wikidata": "Q337519",
+      "lat": -13.583333,
+      "lon": -172.416667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Savaiʻi is the largest and highest island both in Samoa and in the Samoan Islands chain.",
+        "es": "Savaiʻi es la mayor isla de Samoa, es incluso más grande que todas las demás islas del país juntas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Savaiʻi",
+          "url": "https://en.wikipedia.org/wiki/Savai%CA%BBi"
+        },
+        "es": {
+          "title": "Savai'i",
+          "url": "https://es.wikipedia.org/wiki/Savai'i"
+        }
+      },
+      "image": {
+        "file": "Savai'i_OnEarth_WMS.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Savai'i_OnEarth_WMS.png",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ws-manono-island",
+      "name": "Manono Island",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q681871",
+      "lat": -13.85,
+      "lon": -172.111111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Manono is an island of Samoa, situated in the Apolima Strait between the main islands of Savai'i and Upolu, 3.4 kilometres west-northwest off Lefatu Cape, the westernmost point of Upolu.",
+        "es": "Manono es una isla de Samoa, localizada en el estrecho de Apolima, entre las islas principales de Savai'i y Upolu, el punto más al oeste de Upolu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Manono Island",
+          "url": "https://en.wikipedia.org/wiki/Manono_Island"
+        },
+        "es": {
+          "title": "Isla Manono",
+          "url": "https://es.wikipedia.org/wiki/Isla_Manono"
+        }
+      },
+      "image": {
+        "file": "Manono.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Manono.JPG",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ws-apolima",
+      "name": "Apolima",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q618891",
+      "lat": -13.816667,
+      "lon": -172.15,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "ohe four inhabited islands of Samoa, in central South Pacific Ocean.",
+        "es": "La isla de Apolima es la más pequeña de las cuatro islas habitadas de Samoa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Apolima",
+          "url": "https://en.wikipedia.org/wiki/Apolima"
+        },
+        "es": {
+          "title": "Isla Apolima",
+          "url": "https://es.wikipedia.org/wiki/Isla_Apolima"
+        }
+      },
+      "image": {
+        "file": "ApolimafromFerry.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ApolimafromFerry.jpg",
+        "author": "CloudSurfer",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ws-silisili",
+      "name": "Silisili",
+      "area": "Savai'i",
+      "city": "Savai'i",
+      "wikidata": "Q1147814",
+      "lat": -13.618333,
+      "lon": -172.485833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Silisili is the highest peak in Samoa and the Samoa Islands chain.",
+        "es": "El monte Silisili es el pico más alto de Samoa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Silisili",
+          "url": "https://en.wikipedia.org/wiki/Silisili"
+        },
+        "es": {
+          "title": "Monte Silisili",
+          "url": "https://es.wikipedia.org/wiki/Monte_Silisili"
+        }
+      },
+      "image": {
+        "file": "Mauga_Silisili.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mauga_Silisili.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ws-nu-ulopa",
+      "name": "Nu'ulopa",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q2538753",
+      "lat": -13.8424,
+      "lon": -172.1293,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nuʻulopa is a small, uninhabited island in the Apolima Strait between the islands of Upolu and Savaiʻi in Samoa, in central South Pacific Ocean.",
+        "es": "Nu'ulopa es una diminuta isla volcánica deshabitada de Samoa que está situada del lado occidental de la isla Manono y utilizada a veces por empresas turísticas para realizar excursiones y para producir frutas y…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nuʻulopa",
+          "url": "https://en.wikipedia.org/wiki/Nu%CA%BBulopa"
+        },
+        "es": {
+          "title": "Isla Nu'ulopa",
+          "url": "https://es.wikipedia.org/wiki/Isla_Nu'ulopa"
+        }
+      },
+      "image": {
+        "file": "Nu'ulopa_island_beach_-_Samoa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nu'ulopa_island_beach_-_Samoa.jpg",
+        "author": "Neil",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ws-nu-utele",
+      "name": "Nu'utele",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q1218653",
+      "lat": -14.063,
+      "lon": -171.423,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nuʻutele is an island that consists of a volcanic tuff ring.",
+        "es": "Nu'utele o la Nuutele es una isla que se compone de un anillo de tobas volcánicas situada a 1,3 kilómetros del extremo oriental de la isla de Upolu, en el país de Samoa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nuʻutele",
+          "url": "https://en.wikipedia.org/wiki/Nu%CA%BButele"
+        },
+        "es": {
+          "title": "Nu'utele",
+          "url": "https://es.wikipedia.org/wiki/Nu'utele"
+        }
+      },
+      "image": {
+        "file": "Nu'utele_island_-_Samoa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nu'utele_island_-_Samoa.jpg",
+        "author": "Stephen Glauser",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "ws-namua",
+      "name": "Namua",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q1107410",
+      "lat": -14.02069,
+      "lon": -171.41616,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Namu'a is a small, uninhabited island off the east coast of Upolu island in Samoa, in central South Pacific Ocean.",
+        "es": "Namua también escrito Namu'a es una pequeña isla deshabitada de la costa este de la isla de Upolu, en Samoa, en el Océano Pacífico, tiene una superficie de 20 hectáreas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Namua",
+          "url": "https://en.wikipedia.org/wiki/Namua"
+        },
+        "es": {
+          "title": "Namua",
+          "url": "https://es.wikipedia.org/wiki/Namua"
+        }
+      },
+      "image": {
+        "file": "Namua_island_Samoa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Namua_island_Samoa.jpg",
+        "author": "Tmarki",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "ws-mount-matavanu",
+      "name": "Mount Matavanu",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q6922059",
+      "lat": -13.533333,
+      "lon": -172.4,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Matavanu is an active volcano on the island of Savaiʻi in Samoa.",
+        "es": "El Monte Matavanu es un volcán activo en la isla de Savai'i en Samoa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Matavanu",
+          "url": "https://en.wikipedia.org/wiki/Mount_Matavanu"
+        },
+        "es": {
+          "title": "Monte Matavanu",
+          "url": "https://es.wikipedia.org/wiki/Monte_Matavanu"
+        }
+      },
+      "image": {
+        "file": "Volcano,Savaii.(.Photographer’s.Title).Andrew.Thomas_1906.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volcano%2CSavaii.(.Photographer%E2%80%99s.Title).Andrew.Thomas_1906.jpg",
+        "author": "Thomas Andrew (1855-1939)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ws-fanuatapu",
+      "name": "Fanuatapu",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q1107394",
+      "lat": -14.013889,
+      "lon": -171.400278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fanuatapu, an uninhabited island, is a volcanic tuff ring off the eastern tip of Upolu Island, Samoa, in central South Pacific Ocean.",
+        "es": "Fanuatapu es una isla deshabitada, que consiste en un anillo de toba volcánica, situada en el extremo oriental de Upolu, en el país de Samoa en el Océano Pacífico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fanuatapu",
+          "url": "https://en.wikipedia.org/wiki/Fanuatapu"
+        },
+        "es": {
+          "title": "Fanuatapu",
+          "url": "https://es.wikipedia.org/wiki/Fanuatapu"
+        }
+      },
+      "image": {
+        "file": "Aleipata.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aleipata.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ws-nu-ulua",
+      "name": "Nu'ulua",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q1107404",
+      "lat": -14.0728,
+      "lon": -171.4106,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nuʻulua is an island in Samoa. It is located in the Aleipata Islands, somewhat more than 1.3 km from the eastern end of Upolu.",
+        "es": "Nu'ulua o Nuulua es una pequeña isla deshabitada en las Islas Aleipata situada a más de 1,3 km del extremo oriental de Upolu, en Samoa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nuʻulua",
+          "url": "https://en.wikipedia.org/wiki/Nu%CA%BBulua"
+        },
+        "es": {
+          "title": "Nu'ulua",
+          "url": "https://es.wikipedia.org/wiki/Nu'ulua"
+        }
+      }
+    },
+    {
+      "id": "ws-immaculate-conception-cathedral-apia",
+      "name": "Immaculate Conception Cathedral, Apia",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q18416912",
+      "lat": -13.832127,
+      "lon": -171.766533,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Immaculate Conception Cathedral is the Catholic cathedral in Apia, the capital of Samoa, an insular country in Oceania.",
+        "es": "La Catedral de la Inmaculada Concepción también llamada Catedral de Apia o Catedral Mulivai es el nombre que recibe un edificio religioso afiliado a la Iglesia católica que se encuentra en Apia la capital de Samoa un…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Immaculate Conception Cathedral, Apia",
+          "url": "https://en.wikipedia.org/wiki/Immaculate_Conception_Cathedral%2C_Apia"
+        },
+        "es": {
+          "title": "Catedral de la Inmaculada Concepción (Apia)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Inmaculada_Concepci%C3%B3n_(Apia)"
+        }
+      }
+    },
+    {
+      "id": "ws-nu-usafe-e-island",
+      "name": "Nu'usafe'e Island",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q8837663",
+      "lat": -14.04679,
+      "lon": -171.68987,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nuʻusafeʻe Island is a small, uninhabited island in Samoa.",
+        "es": "Nuʻusafeʻe Island is a small, uninhabited island in Samoa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nuʻusafeʻe",
+          "url": "https://en.wikipedia.org/wiki/Nu%CA%BBusafe%CA%BBe"
+        },
+        "es": {
+          "title": "Nuʻusafeʻe",
+          "url": "https://en.wikipedia.org/wiki/Nu%CA%BBusafe%CA%BBe"
+        }
+      }
+    },
+    {
+      "id": "ws-apia-samoa-temple",
+      "name": "Apia Samoa Temple",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q618565",
+      "website": "https://www.churchofjesuschrist.org/temples/details/apia-samoa-temple",
+      "lat": -13.838344,
+      "lon": -171.783586,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Apia Samoa Temple is a temple of the Church of Jesus Christ of Latter-day Saints, located in Pesega, near Apia, Samoa.",
+        "es": "El templo de Apia es uno de los templos construidos y operados por la Iglesia de Jesucristo de los Santos de los Últimos Días, el primero construido en Samoa y el tercer templo en el Pacífico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Apia Samoa Temple",
+          "url": "https://en.wikipedia.org/wiki/Apia_Samoa_Temple"
+        },
+        "es": {
+          "title": "Templo de Apia",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_Apia"
+        }
+      }
+    },
+    {
+      "id": "ws-mount-vaea",
+      "name": "Mount Vaea",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q3322165",
+      "lat": -13.866667,
+      "lon": -171.766667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Vaea is a 472 m summit overlooking Apia, the capital of Samoa located on the north central coast of Upolu island.",
+        "es": "El Monte Vaea tiene una altura de 472 metros con vistas a Apia, la capital de Samoa ubicada en la costa centro-norte de la isla Upolu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Vaea",
+          "url": "https://en.wikipedia.org/wiki/Mount_Vaea"
+        },
+        "es": {
+          "title": "Monte Vaea",
+          "url": "https://es.wikipedia.org/wiki/Monte_Vaea"
+        }
+      },
+      "image": {
+        "file": "Round_Samoan_houses_with_blue_roofs,_Lepea_village_with_Mt_Vaea_beyond.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Round_Samoan_houses_with_blue_roofs%2C_Lepea_village_with_Mt_Vaea_beyond.JPG",
+        "author": "Teinesavaii",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ws-falemauga-caves",
+      "name": "Falemauga Caves",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q5431851",
+      "lat": -13.916111,
+      "lon": -171.822222,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Falemauga Caves are large natural caverns in a series of lava-tunnels situated in the Tuamasaga district along the central ridge of Upolu island in Samoa.",
+        "es": "The Falemauga Caves are large natural caverns in a series of lava-tunnels situated in the Tuamasaga district along the central ridge of Upolu island in Samoa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Falemauga Caves",
+          "url": "https://en.wikipedia.org/wiki/Falemauga_Caves"
+        },
+        "es": {
+          "title": "Falemauga Caves",
+          "url": "https://en.wikipedia.org/wiki/Falemauga_Caves"
+        }
+      },
+      "image": {
+        "file": "F_2_067_155_AK_Uni_Falemauga_Caves_1957_unknown_photographer.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:F_2_067_155_AK_Uni_Falemauga_Caves_1957_unknown_photographer.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ws-lake-lanoto-o",
+      "name": "Lake Lanoto'o",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q27925684",
+      "lat": -13.9102,
+      "lon": -171.827703,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Lanoto'o is a volcanic crater lake on the island of Upolu in Samoa.",
+        "es": "Lake Lanoto'o is a volcanic crater lake on the island of Upolu in Samoa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Lanoto'o",
+          "url": "https://en.wikipedia.org/wiki/Lake_Lanoto'o"
+        },
+        "es": {
+          "title": "Lake Lanoto'o",
+          "url": "https://en.wikipedia.org/wiki/Lake_Lanoto'o"
+        }
+      }
+    },
+    {
+      "id": "ws-mount-fito",
+      "name": "Mount Fito",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q31672770",
+      "lat": -13.951667,
+      "lon": -171.683611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Fito is the second-highest mountain on the island of Upolu in Samoa.",
+        "es": "Mount Fito is the second-highest mountain on the island of Upolu in Samoa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Fito",
+          "url": "https://en.wikipedia.org/wiki/Mount_Fito"
+        },
+        "es": {
+          "title": "Mount Fito",
+          "url": "https://en.wikipedia.org/wiki/Mount_Fito"
+        }
+      }
+    },
+    {
+      "id": "ws-o-le-pupu-pu-e-national-park",
+      "name": "O Le Pupu-Puʿe National Park",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q31979523",
+      "lat": -13.96939,
+      "lon": -171.72352,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "O Le Pupu-Puʿe National Park is the oldest national park in Samoa.",
+        "es": "O Le Pupu-Puʿe National Park is the oldest national park in Samoa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "O Le Pupu-Puʿe National Park",
+          "url": "https://en.wikipedia.org/wiki/O_Le_Pupu-Pu%CA%BFe_National_Park"
+        },
+        "es": {
+          "title": "O Le Pupu-Puʿe National Park",
+          "url": "https://en.wikipedia.org/wiki/O_Le_Pupu-Pu%CA%BFe_National_Park"
+        }
+      },
+      "image": {
+        "file": "Aerial_view_of_the_O_Le_Pupu_Pue_National_Park,_Samoa,_IUCN_BIOPAMA_Photos.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_O_Le_Pupu_Pue_National_Park%2C_Samoa%2C_IUCN_BIOPAMA_Photos.jpg",
+        "author": "BIOPAMA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ws-tafua-upolu",
+      "name": "Tafua-upolu",
+      "area": "Apia",
+      "city": "Apia",
+      "wikidata": "Q31672352",
+      "lat": -13.877703,
+      "lon": -171.963206,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tafua-upolu is an active cinder cone in the Aʻana district of the island of Upolu in Samoa.",
+        "es": "Tafua-upolu is an active cinder cone in the Aʻana district of the island of Upolu in Samoa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tafua-upolu",
+          "url": "https://en.wikipedia.org/wiki/Tafua-upolu"
+        },
+        "es": {
+          "title": "Tafua-upolu",
+          "url": "https://en.wikipedia.org/wiki/Tafua-upolu"
+        }
+      }
     }
   ]
 }

@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -66,6 +72,206 @@
       "wikidata": "Q1960688",
       "lat": 6.13048,
       "lon": 1.21747
+    },
+    {
+      "id": "tg-mount-agou",
+      "name": "Mount Agou",
+      "area": "Kloto",
+      "city": "Kloto",
+      "wikidata": "Q1753509",
+      "lat": 6.870536,
+      "lon": 0.754601,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Agou is the highest mountain in Togo at 986 metres.",
+        "es": "El Monte Agou es la montaña más alta de Togo con 986 metros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Agou",
+          "url": "https://en.wikipedia.org/wiki/Mount_Agou"
+        },
+        "es": {
+          "title": "Monte Agou",
+          "url": "https://es.wikipedia.org/wiki/Monte_Agou"
+        }
+      },
+      "image": {
+        "file": "Mont_agou.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mont_agou.png",
+        "author": "Christophe GUILLOUX",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tg-lake-togo",
+      "name": "Lake Togo",
+      "area": "Lomé",
+      "city": "Lomé",
+      "wikidata": "Q943221",
+      "lat": 6.25,
+      "lon": 1.416667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Togo is the largest part of a lagoon in Togo, separated from the Atlantic Ocean by a narrow coastal strip.",
+        "es": "El lago Togo es un lago de 64 kilómetros cuadrados en el país africano occidental de Togo, separado por una estrecha franja de la costa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Togo",
+          "url": "https://en.wikipedia.org/wiki/Lake_Togo"
+        },
+        "es": {
+          "title": "Lago Togo",
+          "url": "https://es.wikipedia.org/wiki/Lago_Togo"
+        }
+      },
+      "image": {
+        "file": "Lagune_in_Aného.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lagune_in_An%C3%A9ho.jpg",
+        "author": "MaHeHoe",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tg-sacred-heart-cathedral",
+      "name": "Sacred Heart Cathedral",
+      "area": "Lomé",
+      "city": "Lomé",
+      "wikidata": "Q766138",
+      "lat": 6.125042,
+      "lon": 1.226258,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sacred Heart Cathedral is the cathedral of the Roman Catholic Archdiocese of Lomé, one of the seven Catholic church districts of Togo.",
+        "es": "La Catedral del Sagrado Corazón es la iglesia madre de la archidiócesis de Lomé, uno de los siete distritos eclesiásticos católicos de la República africana de Togo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sacred Heart Cathedral, Lomé",
+          "url": "https://en.wikipedia.org/wiki/Sacred_Heart_Cathedral%2C_Lom%C3%A9"
+        },
+        "es": {
+          "title": "Catedral del Sagrado Corazón (Lomé)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Sagrado_Coraz%C3%B3n_(Lom%C3%A9)"
+        }
+      },
+      "image": {
+        "file": "Lomé_Grand_Marché_with_the_Cathédrale_du_Sacré_Coeur_(33592985581).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lom%C3%A9_Grand_March%C3%A9_with_the_Cath%C3%A9drale_du_Sacr%C3%A9_Coeur_(33592985581).jpg",
+        "author": "Dan Sloan",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "tg-beaches-in-lome",
+      "name": "Beaches in Lomé",
+      "area": "Lomé",
+      "city": "Lomé",
+      "wikidata": "Q138028949",
+      "lat": 6.12714,
+      "lon": 1.23664,
+      "category": "beach",
+      "interests": [
+        "beaches"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The beaches of Lomé form the sandy coastline of Lomé, the capital of Togo, on the Gulf of Guinea.",
+        "es": "The beaches of Lomé form the sandy coastline of Lomé, the capital of Togo, on the Gulf of Guinea."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Beaches of Lomé",
+          "url": "https://en.wikipedia.org/wiki/Beaches_of_Lom%C3%A9"
+        },
+        "es": {
+          "title": "Beaches of Lomé",
+          "url": "https://en.wikipedia.org/wiki/Beaches_of_Lom%C3%A9"
+        }
+      },
+      "image": {
+        "file": "Plage_de_Lomé_au_Togo_(Afrique_de_l'Ouest).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plage_de_Lom%C3%A9_au_Togo_(Afrique_de_l'Ouest).jpg",
+        "author": "Harmonide",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tg-independence-monument-lome",
+      "name": "Independence Monument, Lome",
+      "area": "Lomé",
+      "city": "Lomé",
+      "wikidata": "Q39048890",
+      "lat": 6.13,
+      "lon": 1.216,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Independence Monument in Lomé, the capital of Togo, was built as a tribute to the country's independence from France on 27 April 1960.",
+        "es": "The Independence Monument in Lomé, the capital of Togo, was built as a tribute to the country's independence from France on 27 April 1960."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Independence Monument (Togo)",
+          "url": "https://en.wikipedia.org/wiki/Independence_Monument_(Togo)"
+        },
+        "es": {
+          "title": "Independence Monument (Togo)",
+          "url": "https://en.wikipedia.org/wiki/Independence_Monument_(Togo)"
+        }
+      },
+      "image": {
+        "file": "Lomé-Monument_de_l'Indépendance.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lom%C3%A9-Monument_de_l'Ind%C3%A9pendance.jpg",
+        "author": "twohundred 2010",
+        "license": "CC BY-SA 2.0"
+      }
     }
   ]
 }

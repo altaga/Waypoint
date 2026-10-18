@@ -35,6 +35,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -80,6 +86,643 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      }
+    },
+    {
+      "id": "cg-pool-malebo",
+      "name": "Pool Malebo",
+      "area": "Brazzaville",
+      "city": "Brazzaville",
+      "wikidata": "Q750025",
+      "lat": -4.281944,
+      "lon": 15.488611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Pool Malebo, also known historically as Mpumbu, Lake Nkunda, Lake Nkuna, Lake Ntamo, or Lake Ngobila, is a broad, lake-like widening of the lower Congo River in Central Africa that forms a natural basin where the…",
+        "es": "El lago Malebo o directamente Pool Malebo, antiguamente Stanley Pool y lago Ngobila, es un lago natural del centro-oeste de África localizado en el cauce del río Congo, en la frontera entre la República del Congo y…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pool Malebo",
+          "url": "https://en.wikipedia.org/wiki/Pool_Malebo"
+        },
+        "es": {
+          "title": "Pool Malebo",
+          "url": "https://es.wikipedia.org/wiki/Pool_Malebo"
+        }
+      },
+      "image": {
+        "file": "PoolMalebo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:PoolMalebo.jpg",
+        "author": "Valerius Tygart",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cg-livingstone-falls",
+      "name": "Livingstone Falls",
+      "area": "Brazzaville",
+      "city": "Brazzaville",
+      "wikidata": "Q559340",
+      "lat": -4.321944,
+      "lon": 15.207778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Livingstone Falls, named for British explorer David Livingstone, are a succession of enormous rapids on the lower course of the Congo River in west equatorial Africa, downstream from Malebo Pool in the Democratic…",
+        "es": "Las cataratas Livingstone, llamadas así en honor a David Livingstone, son una serie de 32 rápidos y cascadas localizadas en el río Congo, aguas abajo de Malebo Pool hasta terminar casi en la costa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Livingstone Falls",
+          "url": "https://en.wikipedia.org/wiki/Livingstone_Falls"
+        },
+        "es": {
+          "title": "Cataratas Livingstone",
+          "url": "https://es.wikipedia.org/wiki/Cataratas_Livingstone"
+        }
+      },
+      "image": {
+        "file": "Chutes_Livingstone.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chutes_Livingstone.jpg",
+        "author": "User:Vberger",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cg-mbamu",
+      "name": "Mbamu",
+      "area": "Brazzaville",
+      "city": "Brazzaville",
+      "wikidata": "Q1188562",
+      "lat": -4.215278,
+      "lon": 15.414444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mbamu is an island in the Pool Malebo, a large lake formed by a widening of the River Congo.",
+        "es": "La isla Mbamu, también M'Bamou y Bamu, es una isla fluvial de la República del Congo y la más grande del «Pool Malebo», un lago formado por un ensanchamiento del río Congo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mbamu",
+          "url": "https://en.wikipedia.org/wiki/Mbamu"
+        },
+        "es": {
+          "title": "Mbamu",
+          "url": "https://es.wikipedia.org/wiki/Mbamu"
+        }
+      },
+      "image": {
+        "file": "Kinshasa_&_Brazzaville_-_ISS007-E-6305.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kinshasa_%26_Brazzaville_-_ISS007-E-6305.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cg-nabemba-tower",
+      "name": "Nabemba Tower",
+      "area": "Brazzaville",
+      "city": "Brazzaville",
+      "wikidata": "Q302517",
+      "lat": -4.27212,
+      "lon": 15.2891,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Nabemba Tower, also known as Elf Tower, is a skyscraper in Brazzaville, Republic of the Congo, located directly on the Congo River in the south of the city.",
+        "es": "La Torre Nabemba es un rascacielos de oficinas en Brazzaville, República del Congo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nabemba Tower",
+          "url": "https://en.wikipedia.org/wiki/Nabemba_Tower"
+        },
+        "es": {
+          "title": "Tour Nabemba",
+          "url": "https://es.wikipedia.org/wiki/Tour_Nabemba"
+        }
+      },
+      "image": {
+        "file": "FLEUVE_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:FLEUVE_01.jpg",
+        "author": "Leon Bilili",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cg-conkouati-douli-national-park",
+      "name": "Conkouati-Douli National Park",
+      "area": "Kouilou Department",
+      "city": "Kouilou Department",
+      "wikidata": "Q3015338",
+      "lat": -3.905,
+      "lon": 11.47,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Conkouati-Douli National Park is a UNESCO-recognised coastal national park in the Republic of the Congo.",
+        "es": "Parque Nacional de Conkouati-Douli es un parque nacional costero reconocido por la UNESCO en la República del Congo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Conkouati-Douli National Park",
+          "url": "https://en.wikipedia.org/wiki/Conkouati-Douli_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Conkouati-Douli",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Conkouati-Douli"
+        }
+      },
+      "image": {
+        "file": "Couché_du_soleil1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Couch%C3%A9_du_soleil1.jpg",
+        "author": "Kani Beat",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "cg-sacred-heart-cathedral-brazzaville",
+      "name": "Sacred Heart Cathedral, Brazzaville",
+      "area": "Brazzaville",
+      "city": "Brazzaville",
+      "wikidata": "Q2942910",
+      "lat": -4.270228,
+      "lon": 15.273958,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sacred Heart Cathedral or simply Cathedral of Brazzaville, is a religious building belonging to the Catholic Church and is located in the city of Brazzaville in the African country of the Republic of Congo.",
+        "es": "La Catedral del Sagrado Corazón o bien Catedral del Sagrado Corazón de Brazzaville es la catedral de Brazzaville, en el país africano de la República del Congo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sacred Heart Cathedral, Brazzaville",
+          "url": "https://en.wikipedia.org/wiki/Sacred_Heart_Cathedral%2C_Brazzaville"
+        },
+        "es": {
+          "title": "Catedral del Sagrado Corazón (Brazzaville)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Sagrado_Coraz%C3%B3n_(Brazzaville)"
+        }
+      },
+      "image": {
+        "file": "Cathédrale_de_Brazzaville_avant_1926.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_de_Brazzaville_avant_1926.jpg",
+        "author": "Garitan",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cg-palace-of-the-nation",
+      "name": "Palace of the Nation",
+      "area": "Brazzaville",
+      "city": "Brazzaville",
+      "wikidata": "Q2878705",
+      "lat": -4.30248,
+      "lon": 15.2801,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Palace of the Nation is the official residence and principal workplace of the President of the Democratic Republic of the Congo.",
+        "es": "El Palacio de la Nación es un edificio histórico situado en el distrito de La Gombe de la ciudad de Kinsasa, inspirado en el Castillo Real de Laeken y concebido originalmente como residencia del gobernador general…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palais de la Nation (Kinshasa)",
+          "url": "https://en.wikipedia.org/wiki/Palais_de_la_Nation_(Kinshasa)"
+        },
+        "es": {
+          "title": "Palacio de la Nación (Kinsasa)",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_la_Naci%C3%B3n_(Kinsasa)"
+        }
+      },
+      "image": {
+        "file": "Palais_de_la_nation.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palais_de_la_nation.jpg",
+        "author": "Self",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cg-national-museum-of-the-democratic-republic-of-co",
+      "name": "National Museum of the Democratic Republic of Congo",
+      "area": "Brazzaville",
+      "city": "Brazzaville",
+      "wikidata": "Q65600754",
+      "lat": -4.3351,
+      "lon": 15.2994,
+      "phone": "+243 814 932 524",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The National Museum of the Democratic Republic of the Congo is a museum for the cultural history of the numerous ethnic groups and historical epochs of the Democratic Republic of the Congo in the capital Kinshasa.",
+        "es": "The National Museum of the Democratic Republic of the Congo is a museum for the cultural history of the numerous ethnic groups and historical epochs of the Democratic Republic of the Congo in the capital Kinshasa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Museum of the Democratic Republic of the Congo",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_the_Democratic_Republic_of_the_Congo"
+        },
+        "es": {
+          "title": "National Museum of the Democratic Republic of the Congo",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_the_Democratic_Republic_of_the_Congo"
+        }
+      },
+      "image": {
+        "file": "National_Museum_of_RD_Congo_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:National_Museum_of_RD_Congo_01.jpg",
+        "author": "Munfarid1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cg-theatre-de-verdure-de-mont-ngaliema",
+      "name": "Théâtre de Verdure de Mont Ngaliema",
+      "area": "Brazzaville",
+      "city": "Brazzaville",
+      "wikidata": "Q126489205",
+      "lat": -4.32983,
+      "lon": 15.24975,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Théâtre de la Verdure, is an open-air amphitheater situated within the Institute of National Museums of Congo on Mount Ngaliema in the Ngaliema commune of Kinshasa, located in the western region of the Democratic…",
+        "es": "The Théâtre de la Verdure, is an open-air amphitheater situated within the Institute of National Museums of Congo on Mount Ngaliema in the Ngaliema commune of Kinshasa, located in the western region of the Democratic…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Théâtre de Verdure de Mont Ngaliema",
+          "url": "https://en.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_de_Verdure_de_Mont_Ngaliema"
+        },
+        "es": {
+          "title": "Théâtre de Verdure de Mont Ngaliema",
+          "url": "https://en.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_de_Verdure_de_Mont_Ngaliema"
+        }
+      },
+      "image": {
+        "file": "F_Theatre_de_verdure_Ngaliema.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:F_Theatre_de_verdure_Ngaliema.jpg",
+        "author": "Warren Long",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "cg-brazzaville-kinshasa-bridge",
+      "name": "Brazzaville–Kinshasa Bridge",
+      "area": "Brazzaville",
+      "city": "Brazzaville",
+      "wikidata": "Q3397525",
+      "lat": -4.259167,
+      "lon": 15.284722,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Brazzaville–Kinshasa Bridge is a proposed road-rail bridge construction project over the Congo River.",
+        "es": "The Brazzaville–Kinshasa Bridge is a proposed road-rail bridge construction project over the Congo River."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Brazzaville–Kinshasa Bridge",
+          "url": "https://en.wikipedia.org/wiki/Brazzaville%E2%80%93Kinshasa_Bridge"
+        },
+        "es": {
+          "title": "Brazzaville–Kinshasa Bridge",
+          "url": "https://en.wikipedia.org/wiki/Brazzaville%E2%80%93Kinshasa_Bridge"
+        }
+      },
+      "image": {
+        "file": "Kinshasa_&_Brazzaville_-_ISS007-E-6305_lrg.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kinshasa_%26_Brazzaville_-_ISS007-E-6305_lrg.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cg-kinshasa-botanical-garden",
+      "name": "Kinshasa botanical garden",
+      "area": "Brazzaville",
+      "city": "Brazzaville",
+      "wikidata": "Q16645065",
+      "lat": -4.309722,
+      "lon": 15.309472,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Kinshasa Botanical Garden, formerly known as the Fernand De Boeck Park and Parc de la Révolution, is a botanical garden located in Gombe, Kinshasa, in the western part of the Democratic Republic of the Congo.",
+        "es": "El Jardín Botánico de Kinsasa es un jardín botánico de unas 7 hectáreas de extensión que se encuentra en Kinsasa, República Democrática del Congo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kinshasa Botanical Garden",
+          "url": "https://en.wikipedia.org/wiki/Kinshasa_Botanical_Garden"
+        },
+        "es": {
+          "title": "Jardín Botánico de Kinsasa",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_de_Kinsasa"
+        }
+      },
+      "image": {
+        "file": "BOT_039.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BOT_039.jpg",
+        "author": "Leon Bilili",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cg-our-lady-of-the-congo-cathedral",
+      "name": "Our Lady of the Congo Cathedral",
+      "area": "Brazzaville",
+      "city": "Brazzaville",
+      "wikidata": "Q24030906",
+      "lat": -4.323833,
+      "lon": 15.294444,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Our Lady of the Congo Cathedral, or simply Kinshasa Cathedral, is a religious building of the Catholic Church located on Liberation Avenue in the city of Kinshasa, the capital and largest city of the African country…",
+        "es": "La catedral de Nuestra Señora del Congo o simplemente Catedral de Kinsasa es el nombre que recibe un edificio religioso de la Iglesia católica localizado en la Avenida de la Liberación en la ciudad de Kinsasa, la…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Our Lady of the Congo Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Our_Lady_of_the_Congo_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Nuestra Señora del Congo (Kinsasa)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Nuestra_Se%C3%B1ora_del_Congo_(Kinsasa)"
+        }
+      },
+      "image": {
+        "file": "Kasa-Vubu,_Iléo_Government,_and_parliamentary_deputies_at_a_Catholic_ceremony.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kasa-Vubu%2C_Il%C3%A9o_Government%2C_and_parliamentary_deputies_at_a_Catholic_ceremony.jpg",
+        "author": "unknown, Actualités Africaines",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cg-basilique-sainte-anne-du-congo-de-brazzaville",
+      "name": "basilique Sainte-Anne-du-Congo de Brazzaville",
+      "area": "Brazzaville",
+      "city": "Brazzaville",
+      "wikidata": "Q2887058",
+      "lat": -4.268455,
+      "lon": 15.284511,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica of Sainte-Anne-du-Congo is a monumental Catholic church in Brazzaville, Republic of the Congo.",
+        "es": "The Basilica of Sainte-Anne-du-Congo is a monumental Catholic church in Brazzaville, Republic of the Congo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica of Sainte-Anne-du-Congo in Brazzaville",
+          "url": "https://en.wikipedia.org/wiki/Basilica_of_Sainte-Anne-du-Congo_in_Brazzaville"
+        },
+        "es": {
+          "title": "Basilica of Sainte-Anne-du-Congo in Brazzaville",
+          "url": "https://en.wikipedia.org/wiki/Basilica_of_Sainte-Anne-du-Congo_in_Brazzaville"
+        }
+      },
+      "image": {
+        "file": "WPWPCG_08.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:WPWPCG_08.jpg",
+        "author": "NGOULOU BATALA Ryddhel",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cg-jardin-zoologique-de-kinshasa",
+      "name": "Jardin zoologique de Kinshasa",
+      "area": "Brazzaville",
+      "city": "Brazzaville",
+      "wikidata": "Q113557320",
+      "lat": -4.310556,
+      "lon": 15.308056,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Kinshasa Zoological Garden, also known as Kinshasa Zoo, is an animal park located in the Gombe commune, next to the Kinshasa Grand Market and the Kinshasa General Hospital in the Democratic Republic of the Congo.",
+        "es": "The Kinshasa Zoological Garden, also known as Kinshasa Zoo, is an animal park located in the Gombe commune, next to the Kinshasa Grand Market and the Kinshasa General Hospital in the Democratic Republic of the Congo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kinshasa Zoological Garden",
+          "url": "https://en.wikipedia.org/wiki/Kinshasa_Zoological_Garden"
+        },
+        "es": {
+          "title": "Kinshasa Zoological Garden",
+          "url": "https://en.wikipedia.org/wiki/Kinshasa_Zoological_Garden"
+        }
+      },
+      "image": {
+        "file": "Grue_royale_un_oiseau_coloré.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Grue_royale_un_oiseau_color%C3%A9.jpg",
+        "author": "Reshlove",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cg-brazzaville-zoo",
+      "name": "Brazzaville Zoo",
+      "area": "Brazzaville",
+      "city": "Brazzaville",
+      "wikidata": "Q4959034",
+      "website": "https://zoolandia.cg",
+      "lat": -4.2717,
+      "lon": 15.261,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Brazzaville Zoo is a zoo located in Brazzaville, Republic of the Congo.",
+        "es": "The Brazzaville Zoo is a zoo located in Brazzaville, Republic of the Congo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Brazzaville Zoo",
+          "url": "https://en.wikipedia.org/wiki/Brazzaville_Zoo"
+        },
+        "es": {
+          "title": "Brazzaville Zoo",
+          "url": "https://en.wikipedia.org/wiki/Brazzaville_Zoo"
+        }
+      },
+      "image": {
+        "file": "Parc_Zoologie_de_Brazzaville_49.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parc_Zoologie_de_Brazzaville_49.jpg",
+        "author": "Africany",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "cg-st-peter-the-apostle-cathedral-pointe-noire",
+      "name": "St. Peter the Apostle Cathedral, Pointe-Noire",
+      "area": "Pointe-Noire",
+      "city": "Pointe-Noire",
+      "wikidata": "Q21484147",
+      "lat": -4.8025,
+      "lon": 11.8733,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The St. Peter the Apostle Cathedral or Cathedral of St.",
+        "es": "La Catedral de San Pedro Apóstol o bien Catedral de San Pedro Apóstol de Pointe-Noire es un edificio religioso que pertenece a la Iglesia católica y se localiza en Pointe-Noire la segunda ciudad más grande del país…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Peter the Apostle Cathedral, Pointe-Noire",
+          "url": "https://en.wikipedia.org/wiki/St._Peter_the_Apostle_Cathedral%2C_Pointe-Noire"
+        },
+        "es": {
+          "title": "Catedral de San Pedro Apóstol (Pointe-Noire)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Pedro_Ap%C3%B3stol_(Pointe-Noire)"
+        }
       }
     }
   ]

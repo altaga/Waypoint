@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -132,6 +138,503 @@
       "wikidata": "Q5049685",
       "lat": 6.80604,
       "lon": -58.14992
+    },
+    {
+      "id": "gy-kaieteur-falls",
+      "name": "Kaieteur Falls",
+      "area": "Potaro-Siparuni",
+      "city": "Potaro-Siparuni",
+      "wikidata": "Q38120",
+      "lat": 5.178111,
+      "lon": -59.482278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kaieteur Falls is one of the most powerful single-drop waterfalls in the world.",
+        "es": "Las cataratas Kaieteur o Salto Kaiteur es una gran cascada ubicada en la región nororiental de Sudamérica en el país de Guyana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kaieteur Falls",
+          "url": "https://en.wikipedia.org/wiki/Kaieteur_Falls"
+        },
+        "es": {
+          "title": "Cataratas Kaieteur",
+          "url": "https://es.wikipedia.org/wiki/Cataratas_Kaieteur"
+        }
+      },
+      "image": {
+        "file": "GuyanaKaieteurFalls2004.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:GuyanaKaieteurFalls2004.jpg",
+        "author": "Sorenriise at English Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gy-kaieteur-national-park",
+      "name": "Kaieteur National Park",
+      "area": "Potaro-Siparuni",
+      "city": "Potaro-Siparuni",
+      "wikidata": "Q3364456",
+      "lat": 5.216667,
+      "lon": -59.416667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kaieteur National Park is a national park located in the Potaro-Siparuni Region of Guyana, roughly 633 km south of Georgetown, the nation's capital, closer to the border with Brazil than to the Caribbean coast.",
+        "es": "Parque nacional Kaieteur es un parque nacional ubicado en la Región de Potaro-Siparuni en el país suramericano de Guayana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kaieteur National Park",
+          "url": "https://en.wikipedia.org/wiki/Kaieteur_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Kaieteur",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Kaieteur"
+        }
+      },
+      "image": {
+        "file": "Kaieteur_Falls_Guyana_(2)_2007.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaieteur_Falls_Guyana_(2)_2007.jpg",
+        "author": "Bill Cameron",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gy-monte-caburai",
+      "name": "Monte Caburaí",
+      "area": "Georgetown",
+      "city": "Georgetown",
+      "wikidata": "Q2305072",
+      "lat": 5.272222,
+      "lon": -60.211944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Monte Caburaí is a mountain located on the border between Brazil and Guyana standing at 1,465 metres above sea level.",
+        "es": "Monte Caburaí es una montaña situada en la frontera entre los países sudamericanos de Brasil y Guyana que se eleva hasta los 1465 metros sobre el nivel del mar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Monte Caburaí",
+          "url": "https://en.wikipedia.org/wiki/Monte_Cabura%C3%AD"
+        },
+        "es": {
+          "title": "Monte Caburaí",
+          "url": "https://es.wikipedia.org/wiki/Monte_Cabura%C3%AD"
+        }
+      }
+    },
+    {
+      "id": "gy-paramakatoi",
+      "name": "Paramakatoi",
+      "area": "Potaro-Siparuni",
+      "city": "Potaro-Siparuni",
+      "wikidata": "Q3322025",
+      "lat": 4.716667,
+      "lon": -59.7,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Paramakatoi is an Amerindian community in the Potaro-Siparuni Region of Guyana, located in the Pacaraima Mountains.",
+        "es": "Paramakatoi es una comunidad indígena, ubicada en Guyana, en la región de Potaro-Siparuni, en la Sierra de Pacaraima."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Paramakatoi",
+          "url": "https://en.wikipedia.org/wiki/Paramakatoi"
+        },
+        "es": {
+          "title": "Paramakatoi",
+          "url": "https://es.wikipedia.org/wiki/Paramakatoi"
+        }
+      },
+      "image": {
+        "file": "Paramakatoi.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paramakatoi.JPG",
+        "author": "Kevin Gabbert - User: (WT-shared) Kevin James at wts wikivoyage",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gy-corocoro-island",
+      "name": "Corocoro Island",
+      "area": "Georgetown",
+      "city": "Georgetown",
+      "wikidata": "Q384779",
+      "lat": 8.546944,
+      "lon": -60.068611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Corocoro Island is an island near the mouth of the Amacuro River and in the delta of the Barima River in South America.",
+        "es": "La isla Corocoro, es una isla ubicada en el delta del río Barima, en el océano Atlántico entre las costas de Venezuela y Guyana, que en su mayor parte pertenece a Venezuela, que la administra como parte de la…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Corocoro Island",
+          "url": "https://en.wikipedia.org/wiki/Corocoro_Island"
+        },
+        "es": {
+          "title": "Isla Corocoro",
+          "url": "https://es.wikipedia.org/wiki/Isla_Corocoro"
+        }
+      }
+    },
+    {
+      "id": "gy-mount-ayanganna",
+      "name": "Mount Ayanganna",
+      "area": "Cuyuni-Mazaruni",
+      "city": "Cuyuni-Mazaruni",
+      "wikidata": "Q2395928",
+      "lat": 5.383333,
+      "lon": -59.983333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Ayanganna is a sandstone tepui in the Pakaraima Mountains of western Guyana, and located 85 kilometres east of Mount Roraima.",
+        "es": "El Monte Ayanganna es un tepuy de piedra arenisca en la Cordillera o Sierra Pacaraima en el oeste de Guyana, 85 kilómetros al este del Monte Roraima."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Ayanganna",
+          "url": "https://en.wikipedia.org/wiki/Mount_Ayanganna"
+        },
+        "es": {
+          "title": "Monte Ayanganna",
+          "url": "https://es.wikipedia.org/wiki/Monte_Ayanganna"
+        }
+      }
+    },
+    {
+      "id": "gy-leguan-island",
+      "name": "Leguan Island",
+      "area": "Georgetown",
+      "city": "Georgetown",
+      "wikidata": "Q6518695",
+      "lat": 6.916667,
+      "lon": -58.416667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Leguan Island is a small island situated in the delta of the Essequibo River on the coast of Guyana, South America.",
+        "es": "La isla Leguán es una pequeña isla situada en el delta del río Esequibo, en la costa de Guyana, al norte de Sudamérica, posee nueve millas de largo y dos millas de ancho, y una superficie aproximada de 47 km²…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Leguan Island",
+          "url": "https://en.wikipedia.org/wiki/Leguan_Island"
+        },
+        "es": {
+          "title": "Isla Leguan",
+          "url": "https://es.wikipedia.org/wiki/Isla_Leguan"
+        }
+      }
+    },
+    {
+      "id": "gy-brickdam-cathedral",
+      "name": "Brickdam Cathedral",
+      "area": "Georgetown",
+      "city": "Georgetown",
+      "wikidata": "Q4256289",
+      "lat": 6.807456,
+      "lon": -58.16204,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Brickdam Cathedral, more formally known as the Cathedral of Immaculate Conception, is the Roman Catholic cathedral in Georgetown, Guyana, and is the leading Catholic church of the country.",
+        "es": "La Catedral de la Inmaculada Concepción o la Catedral de Brickdam es la catedral católica en Georgetown, Guyana, y es la iglesia católica líder del país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Immaculate Conception Cathedral, Georgetown",
+          "url": "https://en.wikipedia.org/wiki/Immaculate_Conception_Cathedral%2C_Georgetown"
+        },
+        "es": {
+          "title": "Catedral de la Inmaculada Concepción (Georgetown)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Inmaculada_Concepci%C3%B3n_(Georgetown)"
+        }
+      },
+      "image": {
+        "file": "Grey_churh.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Grey_churh.jpg",
+        "author": "Wiko adonayo",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gy-st-george-s-cathedral",
+      "name": "St. George's Cathedral",
+      "area": "Georgetown",
+      "city": "Georgetown",
+      "wikidata": "Q4256302",
+      "lat": 6.8127,
+      "lon": -58.1637,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. George's Cathedral is an Anglican cathedral in Georgetown, Guyana.",
+        "es": "La Catedral de San Jorge es una catedral anglicana situada en Georgetown, Guyana, y es una de los iglesias de madera más altas en el mundo, con una altura de 43,5 metros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. George's Cathedral, Georgetown",
+          "url": "https://en.wikipedia.org/wiki/St._George's_Cathedral%2C_Georgetown"
+        },
+        "es": {
+          "title": "Catedral de San Jorge (Georgetown)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Jorge_(Georgetown)"
+        }
+      },
+      "image": {
+        "file": "20191121_Guyana_0048_Georgetown_sRGB_(49295795336).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20191121_Guyana_0048_Georgetown_sRGB_(49295795336).jpg",
+        "author": "Dan Lundberg",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "gy-demerara-harbour-bridge",
+      "name": "Demerara Harbour Bridge",
+      "area": "Georgetown",
+      "city": "Georgetown",
+      "wikidata": "Q5255163",
+      "lat": 6.77192,
+      "lon": -58.1874,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Demerara Harbour Bridge was a 6,074-foot long floating toll bridge that crossed the Demerara River, joining Peter's Hall to Schoon Ord, Essequibo Islands-West Demerara.",
+        "es": "El Puente del Puerto de Demerara es un puente flotante de 1851 m de largo con un peaje."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Demerara Harbour Bridge",
+          "url": "https://en.wikipedia.org/wiki/Demerara_Harbour_Bridge"
+        },
+        "es": {
+          "title": "Puente del Puerto de Demerara",
+          "url": "https://es.wikipedia.org/wiki/Puente_del_Puerto_de_Demerara"
+        }
+      },
+      "image": {
+        "file": "Demerara_Harbor_Bridge,_Retractable_Section_from_Air_-_panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Demerara_Harbor_Bridge%2C_Retractable_Section_from_Air_-_panoramio.jpg",
+        "author": "Marco Farouk Basir",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gy-st-andrew-s-kirk",
+      "name": "St. Andrew's Kirk",
+      "area": "Georgetown",
+      "city": "Georgetown",
+      "wikidata": "Q4255546",
+      "lat": 6.80952,
+      "lon": -58.1663,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. Andrew's Kirk is one of the oldest buildings in Georgetown, Guyana that has been continually in use for religious purposes.",
+        "es": "La Iglesia de San Andrés es el edificio más antiguo continuamente en uso con fines religiosos de Georgetown en Guyana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Andrew's Kirk, Georgetown",
+          "url": "https://en.wikipedia.org/wiki/St._Andrew's_Kirk%2C_Georgetown"
+        },
+        "es": {
+          "title": "Iglesia de San Andrés (Georgetown)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Andr%C3%A9s_(Georgetown)"
+        }
+      },
+      "image": {
+        "file": "St._Andrew's_Kirk_(22872384204).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St._Andrew's_Kirk_(22872384204).jpg",
+        "author": "Dan Sloan",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "gy-stabroek-market",
+      "name": "Stabroek Market",
+      "area": "Georgetown",
+      "city": "Georgetown",
+      "wikidata": "Q7595794",
+      "lat": 6.80993,
+      "lon": -58.1676,
+      "category": "shopping",
+      "interests": [
+        "markets",
+        "shopping"
+      ],
+      "durationMinutes": 60,
+      "desc": {
+        "en": "Stabroek Market is the largest market of Georgetown, Guyana.",
+        "es": "Stabroek Market is the largest market of Georgetown, Guyana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Stabroek Market",
+          "url": "https://en.wikipedia.org/wiki/Stabroek_Market"
+        },
+        "es": {
+          "title": "Stabroek Market",
+          "url": "https://en.wikipedia.org/wiki/Stabroek_Market"
+        }
+      },
+      "image": {
+        "file": "Starboek_Market_(23132264799).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Starboek_Market_(23132264799).jpg",
+        "author": "Dan Sloan",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "gy-georgetown-lighthouse",
+      "name": "Georgetown Lighthouse",
+      "area": "Georgetown",
+      "city": "Georgetown",
+      "wikidata": "Q5547025",
+      "lat": 6.823697,
+      "lon": -58.164357,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Georgetown Lighthouse was first built by the Dutch in 1817 and then rebuilt in 1830.",
+        "es": "El Faro de Georgetown fue construido por primera vez por los holandeses en 1817 y reconstruido en 1830 para ayudar a los barcos a guiarse en el río Demerara desde el Océano Atlántico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Georgetown Lighthouse, Guyana",
+          "url": "https://en.wikipedia.org/wiki/Georgetown_Lighthouse%2C_Guyana"
+        },
+        "es": {
+          "title": "Faro de Georgetown",
+          "url": "https://es.wikipedia.org/wiki/Faro_de_Georgetown"
+        }
+      },
+      "image": {
+        "file": "Georgetown-Lighthouse.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Georgetown-Lighthouse.jpg",
+        "author": "John+Elaine",
+        "license": "CC BY-SA 2.0"
+      }
     }
   ]
 }

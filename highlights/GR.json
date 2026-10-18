@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -466,6 +472,2694 @@
         "text": "Apr-Oct: Mo-Su 08:00-20:00; Nov-Mar: Mo-Su 08:00-16:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "gr-athens",
+      "name": "Athens",
+      "area": "Athens",
+      "city": "Athens",
+      "wikidata": "Q1524",
+      "website": "https://www.cityofathens.gr",
+      "lat": 37.984167,
+      "lon": 23.728056,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Athens is the capital and largest city of Greece.",
+        "es": "Atenas es la capital de Grecia y actualmente la ciudad más grande, importante y poblada del país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Athens",
+          "url": "https://en.wikipedia.org/wiki/Athens"
+        },
+        "es": {
+          "title": "Atenas",
+          "url": "https://es.wikipedia.org/wiki/Atenas"
+        }
+      },
+      "image": {
+        "file": "Akropolis_2015.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Akropolis_2015.jpg",
+        "author": "Thomas Wolf, www.foto-tw.de",
+        "license": "CC BY-SA 3.0 de"
+      }
+    },
+    {
+      "id": "gr-parthenon",
+      "name": "Parthenon",
+      "area": "Athens",
+      "city": "Athens",
+      "wikidata": "Q10288",
+      "lat": 37.971527,
+      "lon": 23.726601,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Parthenon is a former temple on the Athenian Acropolis, Greece, that was dedicated to the goddess Athena.",
+        "es": "El Partenón es un templo consagrado a la protectora de Atenas, Atenea Pártenos, y uno de los principales templos dóricos octóstilos, algo poco frecuente, hecho de mármol pentélico y cubierto con tejas de mármol de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Parthenon",
+          "url": "https://en.wikipedia.org/wiki/Parthenon"
+        },
+        "es": {
+          "title": "Partenón",
+          "url": "https://es.wikipedia.org/wiki/Parten%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "The_Parthenon_in_Athens.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Parthenon_in_Athens.jpg",
+        "author": "Steve Swayne",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gr-mount-olympus",
+      "name": "Mount Olympus",
+      "area": "Central Macedonia Region",
+      "city": "Central Macedonia Region",
+      "wikidata": "Q80344",
+      "lat": 40.083333,
+      "lon": 22.35,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Olympus is an extensive massif near the Thermaic Gulf of the Aegean Sea, in Greece, located on the border between Thessaly and Macedonia, between the regional units of Larissa and Pieria, about 80 km southwest…",
+        "es": "El Olimpo o monte Olimpo es la montaña más alta de Grecia y la segunda de los montes Balcanes, con 2917 m de altitud."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Olympus",
+          "url": "https://en.wikipedia.org/wiki/Mount_Olympus"
+        },
+        "es": {
+          "title": "Olimpo",
+          "url": "https://es.wikipedia.org/wiki/Olimpo"
+        }
+      },
+      "image": {
+        "file": "Mt_Olympus_aerial_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mt_Olympus_aerial_2.jpg",
+        "author": "kallerna",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gr-sparta",
+      "name": "Sparta",
+      "area": "Sparta Municipality",
+      "city": "Sparta Municipality",
+      "wikidata": "Q5690",
+      "lat": 37.081944,
+      "lon": 22.423611,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Sparta was a prominent ancient Greek polis in Laconia.",
+        "es": "Esparta, Lacedemonia o Lacedemón fue la capital de Laconia y una de las polis griegas más importantes junto con Atenas, Tebas y Corinto."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sparta",
+          "url": "https://en.wikipedia.org/wiki/Sparta"
+        },
+        "es": {
+          "title": "Esparta",
+          "url": "https://es.wikipedia.org/wiki/Esparta"
+        }
+      },
+      "image": {
+        "file": "Sparta.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sparta.jpg",
+        "author": "Napoleon Vier at Dutch Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-corfu",
+      "name": "Corfu",
+      "area": "Ionian Islands",
+      "city": "Ionian Islands",
+      "wikidata": "Q121378",
+      "lat": 39.6,
+      "lon": 19.87,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Corfu or Kerkyra is one of the Ionian Islands in western Greece, and the northernmost island on Greece's west coast except for its satellite Diapontian Islands, which are also the westernmost point of all Greece.",
+        "es": "Corfú es una isla griega del mar Jónico, situada frente a la costa noroeste del Epiro griego y al sur del Epiro albanés."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Corfu",
+          "url": "https://en.wikipedia.org/wiki/Corfu"
+        },
+        "es": {
+          "title": "Corfú",
+          "url": "https://es.wikipedia.org/wiki/Corf%C3%BA"
+        }
+      },
+      "image": {
+        "file": "The_Old_Fortress_and_the_Old_Town_of_Corfu_-_September_2017.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Old_Fortress_and_the_Old_Town_of_Corfu_-_September_2017.jpg",
+        "author": "Martin Falbisoner",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gr-acropolis-of-athens",
+      "name": "Acropolis of Athens",
+      "area": "Athens",
+      "city": "Athens",
+      "wikidata": "Q131013",
+      "lat": 37.971667,
+      "lon": 23.726111,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Acropolis of Athens is an ancient citadel located on a rocky outcrop above the city of Athens, Greece, and contains the remains of several ancient buildings of great architectural and historical significance, the…",
+        "es": "La Acrópolis de Atenas puede considerarse la más representativa de las acrópolis griegas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Acropolis of Athens",
+          "url": "https://en.wikipedia.org/wiki/Acropolis_of_Athens"
+        },
+        "es": {
+          "title": "Acrópolis de Atenas",
+          "url": "https://es.wikipedia.org/wiki/Acr%C3%B3polis_de_Atenas"
+        }
+      },
+      "image": {
+        "file": "Attica_06-13_Athens_50_View_from_Philopappos_-_Acropolis_Hill.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Attica_06-13_Athens_50_View_from_Philopappos_-_Acropolis_Hill.jpg",
+        "author": "A.Savin",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-lesbos",
+      "name": "Lesbos",
+      "area": "North Aegean Region",
+      "city": "North Aegean Region",
+      "wikidata": "Q128087",
+      "lat": 39.21,
+      "lon": 26.28,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lesbos or Lesvos is a Greek island located in the northeastern Aegean Sea.",
+        "es": "Lesbos es una isla griega que forma parte de un gran conjunto de islas cercanas a la costa de Turquía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lesbos",
+          "url": "https://en.wikipedia.org/wiki/Lesbos"
+        },
+        "es": {
+          "title": "Lesbos",
+          "url": "https://es.wikipedia.org/wiki/Lesbos"
+        }
+      },
+      "image": {
+        "file": "Lesvos.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lesvos.jpg",
+        "author": "http://eol.jsc.nasa.gov/",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-mycenae",
+      "name": "Mycenae",
+      "area": "Argos-Mykines Municipality",
+      "city": "Argos-Mykines Municipality",
+      "wikidata": "Q132564",
+      "lat": 37.730833,
+      "lon": 22.756111,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Mycenae is an archaeological site near Mykines in Argolis, north-eastern Peloponnese, Greece.",
+        "es": "Micenas es un yacimiento arqueológico situado en la península del Peloponeso."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mycenae",
+          "url": "https://en.wikipedia.org/wiki/Mycenae"
+        },
+        "es": {
+          "title": "Micenas",
+          "url": "https://es.wikipedia.org/wiki/Micenas"
+        }
+      },
+      "image": {
+        "file": "Lions-Gate-Mycenae.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lions-Gate-Mycenae.jpg",
+        "author": "Andreas Trepte",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "gr-larissa",
+      "name": "Larissa",
+      "area": "Larissa Municipality",
+      "city": "Larissa Municipality",
+      "wikidata": "Q178405",
+      "website": "https://www.larissa-dimos.gr/",
+      "lat": 39.638493,
+      "lon": 22.413061,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Larissa is the capital and largest city of the Thessaly region in Greece.",
+        "es": "Larisa o Lárisa es una ciudad de Grecia, capital de Tesalia y de la unidad periférica de Larisa, y la quinta ciudad más poblada e importante de Grecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Larissa",
+          "url": "https://en.wikipedia.org/wiki/Larissa"
+        },
+        "es": {
+          "title": "Larisa",
+          "url": "https://es.wikipedia.org/wiki/Larisa"
+        }
+      },
+      "image": {
+        "file": "Larissa_City_Montage.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Larissa_City_Montage.jpg",
+        "author": "Self made based upon work by the authors shown above",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "gr-santorini",
+      "name": "Santorini",
+      "area": "Thira Municipality",
+      "city": "Thira Municipality",
+      "wikidata": "Q129296",
+      "website": "https://www.thira.gr",
+      "lat": 36.415,
+      "lon": 25.4325,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Santorini, officially Thira or Thera, is a Greek island in the southern Aegean Sea, about 200 km southeast from the mainland.",
+        "es": "Santorín, Santorini que es el nombre que aparece en los mapas; o Tera, Thera o Thira que es el nombre oficial es un pequeño archipiélago circular formado por islas volcánicas, ubicado en el sur del mar Egeo, a unos…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Santorini",
+          "url": "https://en.wikipedia.org/wiki/Santorini"
+        },
+        "es": {
+          "title": "Santorini",
+          "url": "https://es.wikipedia.org/wiki/Santorini"
+        }
+      },
+      "image": {
+        "file": "Santoríni_aerial.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Santor%C3%ADni_aerial.jpg",
+        "author": "kallerna",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gr-delphi",
+      "name": "Delphi",
+      "area": "Delfi Municipality",
+      "city": "Delfi Municipality",
+      "wikidata": "Q75459",
+      "lat": 38.483333,
+      "lon": 22.5,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Delphi, in legend previously called Pytho, was an ancient sacred precinct in central Greece.",
+        "es": "Delfos es un yacimiento arqueológico —declarado Patrimonio Mundial de la Unesco en 1987— y una moderna ciudad de Grecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Delphi",
+          "url": "https://en.wikipedia.org/wiki/Delphi"
+        },
+        "es": {
+          "title": "Delfos",
+          "url": "https://es.wikipedia.org/wiki/Delfos"
+        }
+      },
+      "image": {
+        "file": "Delfi_Apollons_tempel.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Delfi_Apollons_tempel.jpg",
+        "author": "Helen Simonsson",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-mount-athos",
+      "name": "Mount Athos",
+      "area": "monastic community of Mount Athos",
+      "city": "monastic community of Mount Athos",
+      "wikidata": "Q130321",
+      "lat": 40.158333,
+      "lon": 24.327222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Athos is a mountain on the Athos peninsula in northeastern Greece directly on the Aegean Sea.",
+        "es": "Monte Athos o Monte Atos es el nombre que recibe el área montañosa que conforma la península más oriental de las tres que se extienden hacia el sur desde la península Calcídica, situada en Macedonia Central, al norte…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Athos",
+          "url": "https://en.wikipedia.org/wiki/Mount_Athos"
+        },
+        "es": {
+          "title": "Monte Athos",
+          "url": "https://es.wikipedia.org/wiki/Monte_Athos"
+        }
+      },
+      "image": {
+        "file": "Mt._Athos_(3939757657).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mt._Athos_(3939757657).jpg",
+        "author": "Dave Proffer",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gr-samos",
+      "name": "Samos",
+      "area": "North Aegean Region",
+      "city": "North Aegean Region",
+      "wikidata": "Q156882",
+      "lat": 37.75,
+      "lon": 26.8333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Samos is a Greek island in the eastern Aegean Sea, south of Chios, north of Patmos and the Dodecanese archipelago, and off the coast of western Turkey, from which it is separated by the 1.6-kilometre-wide Mycale Strait.",
+        "es": "Samos es una isla de Grecia perteneciente al grupo de las islas Espóradas Orientales."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Samos",
+          "url": "https://en.wikipedia.org/wiki/Samos"
+        },
+        "es": {
+          "title": "Samos",
+          "url": "https://es.wikipedia.org/wiki/Samos"
+        }
+      },
+      "image": {
+        "file": "Samos_049_2009.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Samos_049_2009.JPG",
+        "author": "Pe-sa",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-chios",
+      "name": "Chios",
+      "area": "Chios Municipality",
+      "city": "Chios Municipality",
+      "wikidata": "Q160483",
+      "website": "https://www.chios.gr/",
+      "lat": 38.4,
+      "lon": 26.016667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Chios, also known as Scio in English, is the fifth largest Greek island, situated in the northern Aegean Sea, and the tenth largest island in the Mediterranean Sea.",
+        "es": "Quíos o Quío es una isla griega en el mar Egeo situada próxima a la costa de la península de Karaburun, en Turquía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chios",
+          "url": "https://en.wikipedia.org/wiki/Chios"
+        },
+        "es": {
+          "title": "Isla de Quíos",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Qu%C3%ADos"
+        }
+      },
+      "image": {
+        "file": "Chios_NASA_satellite_image.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chios_NASA_satellite_image.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-delos",
+      "name": "Delos",
+      "area": "Mykonos Municipality",
+      "city": "Mykonos Municipality",
+      "wikidata": "Q173148",
+      "lat": 37.39121,
+      "lon": 25.27122,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Delos or Dilos, is a small Greek island near Mykonos, close to the centre of the Cyclades archipelago.",
+        "es": "Delos o Delo es una de las islas griegas más pequeñas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Delos",
+          "url": "https://en.wikipedia.org/wiki/Delos"
+        },
+        "es": {
+          "title": "Delos",
+          "url": "https://es.wikipedia.org/wiki/Delos"
+        }
+      },
+      "image": {
+        "file": "Ruines_de_Délos.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ruines_de_D%C3%A9los.jpg",
+        "author": "Romain Delanoë",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gr-naxos-island",
+      "name": "Naxos Island",
+      "area": "Naxos and Lesser Cyclades Municipality",
+      "city": "Naxos and Lesser Cyclades Municipality",
+      "wikidata": "Q188527",
+      "lat": 37.083333,
+      "lon": 25.466667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Naxos is a Greek island belonging to the Cyclades island group.",
+        "es": "Naxos es una isla griega del mar Egeo, que pertenece al archipiélago de las Cícladas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Naxos",
+          "url": "https://en.wikipedia.org/wiki/Naxos"
+        },
+        "es": {
+          "title": "Naxos (isla)",
+          "url": "https://es.wikipedia.org/wiki/Naxos_(isla)"
+        }
+      },
+      "image": {
+        "file": "Naxos-port.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Naxos-port.JPG",
+        "author": "Rol1000",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-euboea",
+      "name": "Euboea",
+      "area": "Euboea regional unit",
+      "city": "Euboea regional unit",
+      "wikidata": "Q173096",
+      "lat": 38.5,
+      "lon": 24,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Euboea, also known as Evia, is the second-largest Greek island in area and population, after Crete, and the sixth largest island in the Mediterranean Sea.",
+        "es": "La isla de Eubea, también llamada Negroponte por los venecianos, es una isla costera de Grecia localizada frente a la costa oriental del mar Egeo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Euboea",
+          "url": "https://en.wikipedia.org/wiki/Euboea"
+        },
+        "es": {
+          "title": "Eubea",
+          "url": "https://es.wikipedia.org/wiki/Eubea"
+        }
+      },
+      "image": {
+        "file": "Euboea_from_space.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Euboea_from_space.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-cephalonia",
+      "name": "Cephalonia",
+      "area": "Kefalonia Prefecture",
+      "city": "Kefalonia Prefecture",
+      "wikidata": "Q178488",
+      "lat": 38.265,
+      "lon": 20.5525,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kefalonia or Cephalonia, formerly also known as Kefallinia or Kephallenia, is the largest of the Ionian Islands in western Greece and the sixth-largest island in Greece after Crete, Euboea, Lesbos, Rhodes and Chios.",
+        "es": "Cefalonia o Cefalenia es una isla del archipiélago de las Islas Jónicas o Heptaneso, perteneciente a Grecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cephalonia",
+          "url": "https://en.wikipedia.org/wiki/Cephalonia"
+        },
+        "es": {
+          "title": "Cefalonia",
+          "url": "https://es.wikipedia.org/wiki/Cefalonia"
+        }
+      },
+      "image": {
+        "file": "Asos,_Kefalonia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Asos%2C_Kefalonia.jpg",
+        "author": "Matt Sims",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gr-ithaca",
+      "name": "Ithaca",
+      "area": "Kefalonia Prefecture",
+      "city": "Kefalonia Prefecture",
+      "wikidata": "Q187471",
+      "lat": 38.416667,
+      "lon": 20.666667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ithaca, also Ithaki or Ithaka, is a Greek island located in the Ionian Sea, off the northeast coast of Kefalonia and to the west of continental Greece.",
+        "es": "La isla de Ítaca es una pequeña isla griega del mar Jónico, perteneciente al grupo de las islas Jónicas y que se encuentra al noreste de la isla de Cefalonia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ithaca (island)",
+          "url": "https://en.wikipedia.org/wiki/Ithaca_(island)"
+        },
+        "es": {
+          "title": "Ítaca",
+          "url": "https://es.wikipedia.org/wiki/%C3%8Dtaca"
+        }
+      },
+      "image": {
+        "file": "On_top_of_the_world_(10445519213).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:On_top_of_the_world_(10445519213).jpg",
+        "author": "Andy / Andrew Fogg from near Cambridge, UK",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gr-zakynthos",
+      "name": "Zakynthos",
+      "area": "Zakynthos Municipality",
+      "city": "Zakynthos Municipality",
+      "wikidata": "Q144880",
+      "lat": 37.8,
+      "lon": 20.75,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Zakynthos, also known as Zante, is a Greek island in the Ionian Sea.",
+        "es": "Zacinto o Zante es una isla griega del grupo de las islas Jónicas y también una de las unidades periféricas de Grecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zakynthos",
+          "url": "https://en.wikipedia.org/wiki/Zakynthos"
+        },
+        "es": {
+          "title": "Zacinto",
+          "url": "https://es.wikipedia.org/wiki/Zacinto"
+        }
+      },
+      "image": {
+        "file": "Zakyntos_city_view.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zakyntos_city_view.jpg",
+        "author": "Σαλαμούρας Σπύρος at Greek Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-patmos",
+      "name": "Patmos",
+      "area": "Dodecanese",
+      "city": "Dodecanese",
+      "wikidata": "Q190053",
+      "lat": 37.325,
+      "lon": 26.541667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Patmos is a Greek island in the Aegean Sea.",
+        "es": "Patmos es una pequeña isla griega del archipiélago del Dodecaneso, en el mar Egeo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Patmos",
+          "url": "https://en.wikipedia.org/wiki/Patmos"
+        },
+        "es": {
+          "title": "Patmos",
+          "url": "https://es.wikipedia.org/wiki/Patmos"
+        }
+      },
+      "image": {
+        "file": "Πάτμος_-_panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%CE%A0%CE%AC%CF%84%CE%BC%CE%BF%CF%82_-_panoramio.jpg",
+        "author": "EntaXoyas",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-mykonos",
+      "name": "Mykonos",
+      "area": "Cyclades Prefecture",
+      "city": "Cyclades Prefecture",
+      "wikidata": "Q190210",
+      "lat": 37.445959,
+      "lon": 25.328619,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mykonos is a Greek island, part of the Cyclades, lying between Tinos, Syros, Paros and Naxos.",
+        "es": "Micоnos, Micona, Micоno o Mykonos es una pequeña isla de Grecia perteneciente a las Cícladas, localizada en aguas del mar Egeo, entre las islas de Tinos, Siros, Paros y Naxos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mykonos",
+          "url": "https://en.wikipedia.org/wiki/Mykonos"
+        },
+        "es": {
+          "title": "Miconos",
+          "url": "https://es.wikipedia.org/wiki/Miconos"
+        }
+      },
+      "image": {
+        "file": "Little_Venice_with_a_view_of_the_ferry_terminal_in_Mykonos,_Greece_-_50661522178.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Little_Venice_with_a_view_of_the_ferry_terminal_in_Mykonos%2C_Greece_-_50661522178.jpg",
+        "author": "dronepicr",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gr-aegina",
+      "name": "Aegina",
+      "area": "Athens",
+      "city": "Athens",
+      "wikidata": "Q191082",
+      "lat": 37.73,
+      "lon": 23.49,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Aegina is one of the Saronic Islands of Greece in the Saronic Gulf, 27 km from Athens.",
+        "es": "La isla de Egina es una de las islas de Grecia situada en medio del golfo Sarónico, entre las islas de Salamina al norte, Angistri al oeste y Poros al sur; se halla a una decena de kilómetros de la costa noreste de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aegina",
+          "url": "https://en.wikipedia.org/wiki/Aegina"
+        },
+        "es": {
+          "title": "Egina",
+          "url": "https://es.wikipedia.org/wiki/Egina"
+        }
+      },
+      "image": {
+        "file": "Ägina_Hafenblick.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%84gina_Hafenblick.jpg",
+        "author": "--Xocolatl 20:16, 10 April 2008 (UTC)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-platonic-academy",
+      "name": "Platonic Academy",
+      "area": "Athens",
+      "city": "Athens",
+      "wikidata": "Q193093",
+      "lat": 37.992359,
+      "lon": 23.708059,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Academy was founded by Plato in ca. 387 BC in Athens.",
+        "es": "La Academia fue la escuela filosófica fundada por Platón alrededor de 387 a."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Platonic Academy",
+          "url": "https://en.wikipedia.org/wiki/Platonic_Academy"
+        },
+        "es": {
+          "title": "Academia de Atenas",
+          "url": "https://es.wikipedia.org/wiki/Academia_de_Atenas"
+        }
+      },
+      "image": {
+        "file": "Plato's_Academy_mosaic_from_Pompeii.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plato's_Academy_mosaic_from_Pompeii.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-lemnos",
+      "name": "Lemnos",
+      "area": "North Aegean Region",
+      "city": "North Aegean Region",
+      "wikidata": "Q192483",
+      "lat": 39.916667,
+      "lon": 25.25,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lemnos or Limnos is a Greek island in the northern Aegean Sea.",
+        "es": "La isla de Lemnos es una isla griega en el mar Egeo, entre el monte Athos y los Dardanelos, al suroeste de la isla turca de Imbros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lemnos",
+          "url": "https://en.wikipedia.org/wiki/Lemnos"
+        },
+        "es": {
+          "title": "Lemnos",
+          "url": "https://es.wikipedia.org/wiki/Lemnos"
+        }
+      },
+      "image": {
+        "file": "MirinaLimnosGreece.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:MirinaLimnosGreece.jpg",
+        "author": "User:Digr",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-paros",
+      "name": "Paros",
+      "area": "Paros Municipality",
+      "city": "Paros Municipality",
+      "wikidata": "Q201272",
+      "website": "https://www.paros.gr",
+      "lat": 37.05,
+      "lon": 25.183333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Paros is a Greek island in the central Aegean Sea and part of the Cyclades island group.",
+        "es": "Paros es una isla griega del archipiélago de las Cícladas, en aguas del mar Egeo, al sur de la isla de Delos y al oeste de la de Naxos, de la que está separada por un canal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Paros",
+          "url": "https://en.wikipedia.org/wiki/Paros"
+        },
+        "es": {
+          "title": "Paros",
+          "url": "https://es.wikipedia.org/wiki/Paros"
+        }
+      },
+      "image": {
+        "file": "Paros_Alyki2_tango7174.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paros_Alyki2_tango7174.jpg",
+        "author": "Tango7174",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gr-mount-parnassus",
+      "name": "Mount Parnassus",
+      "area": "Phthiotis Regional Unit",
+      "city": "Phthiotis Regional Unit",
+      "wikidata": "Q105261",
+      "lat": 38.533,
+      "lon": 22.6167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Parnassus is a mountain range in Central Greece that is, and historically has been, especially culturally and religiously valuable to the Greek nation and the earlier Greek city-states.",
+        "es": "El monte Parnaso es una montaña de piedra caliza y abundante en bauxita situada en el centro de Grecia, que se alza sobre la población de Delfos, al norte del golfo de Corinto."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Parnassus",
+          "url": "https://en.wikipedia.org/wiki/Mount_Parnassus"
+        },
+        "es": {
+          "title": "Monte Parnaso",
+          "url": "https://es.wikipedia.org/wiki/Monte_Parnaso"
+        }
+      },
+      "image": {
+        "file": "Parnassos2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parnassos2.jpg",
+        "author": "Electron08",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-milos",
+      "name": "Milos",
+      "area": "Milos Municipality",
+      "city": "Milos Municipality",
+      "wikidata": "Q203979",
+      "lat": 36.6875,
+      "lon": 24.4325,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Milos or Melos is a volcanic Greek island in the Aegean Sea, just north of the Sea of Crete.",
+        "es": "Milo, Milos o Melos es una pequeña isla volcánica griega del mar Egeo, perteneciente al archipiélago de las Cícladas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Milos",
+          "url": "https://en.wikipedia.org/wiki/Milos"
+        },
+        "es": {
+          "title": "Milo",
+          "url": "https://es.wikipedia.org/wiki/Milo"
+        }
+      },
+      "image": {
+        "file": "Milos-4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Milos-4.jpg",
+        "author": "Oliwan",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-salamis-island",
+      "name": "Salamis Island",
+      "area": "Athens",
+      "city": "Athens",
+      "wikidata": "Q202422",
+      "lat": 37.938056,
+      "lon": 23.485278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Salamis or Salamina is the largest Greek island in the Saronic Gulf, about two kilometres from the coast of Athens' port of Piraeus and about 16 km west of Athens center.",
+        "es": "La isla de Salamina es una isla griega del mar Egeo, la mayor de las islas del golfo Sarónico, localizada a una milla náutica de la costa del Ática y de El Pireo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Salamis Island",
+          "url": "https://en.wikipedia.org/wiki/Salamis_Island"
+        },
+        "es": {
+          "title": "Salamina (isla)",
+          "url": "https://es.wikipedia.org/wiki/Salamina_(isla)"
+        }
+      },
+      "image": {
+        "file": "Kaki_vigla_02.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaki_vigla_02.JPG",
+        "author": "Papatrexas at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-andros",
+      "name": "Andros",
+      "area": "Andros Regional Unit",
+      "city": "Andros Regional Unit",
+      "wikidata": "Q175741",
+      "lat": 37.833333,
+      "lon": 24.933333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Andros is the northernmost island of the Cyclades archipelago in Greece, about 10 km southeast of Euboea, and about 3 km north of Tinos.",
+        "es": "Andros es una isla griega del mar Egeo, la más septentrional del archipiélago de las islas Cícladas, situada entre Eubea, al noroeste, que se halla a unos 10 km, y Tenos al sur, a tan solo 3 km."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Andros, Greece",
+          "url": "https://en.wikipedia.org/wiki/Andros%2C_Greece"
+        },
+        "es": {
+          "title": "Andros",
+          "url": "https://es.wikipedia.org/wiki/Andros"
+        }
+      },
+      "image": {
+        "file": "Andros_town.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Andros_town.JPG",
+        "author": "Vassilis Kyrtatas",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-samothrace",
+      "name": "Samothrace",
+      "area": "Samothraki Municipality",
+      "city": "Samothraki Municipality",
+      "wikidata": "Q203175",
+      "lat": 40.45,
+      "lon": 25.5875,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Samothrace is a Greek island in the northern Aegean Sea.",
+        "es": "La isla de Samotracia es una pequeña isla de Grecia localizada en el norte del mar Egeo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Samothrace",
+          "url": "https://en.wikipedia.org/wiki/Samothrace"
+        },
+        "es": {
+          "title": "Samotracia",
+          "url": "https://es.wikipedia.org/wiki/Samotracia"
+        }
+      },
+      "image": {
+        "file": "Samothraki_island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Samothraki_island.jpg",
+        "author": "No machine-readable author provided. Marsyas assumed (based on copyright claims)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-lefkada",
+      "name": "Lefkada",
+      "area": "Lefkada Municipality",
+      "city": "Lefkada Municipality",
+      "wikidata": "Q190138",
+      "lat": 38.717778,
+      "lon": 20.643889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lefkada, also known as Lefkas or Leukas and Leucadia, is a Greek island in the Ionian Sea on the west coast of Greece, connected to the mainland by a long causeway and floating bridge.",
+        "es": "La isla de Léucade, Leucas o Lefkada es una isla griega situada en el mar Jónico, localizada al norte de las islas de Itaca y Cefalonia y situada frente a la costa de Acarnania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lefkada",
+          "url": "https://en.wikipedia.org/wiki/Lefkada"
+        },
+        "es": {
+          "title": "Léucade",
+          "url": "https://es.wikipedia.org/wiki/L%C3%A9ucade"
+        }
+      },
+      "image": {
+        "file": "LefkadaWW.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:LefkadaWW.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-icaria",
+      "name": "Icaria",
+      "area": "North Aegean Region",
+      "city": "North Aegean Region",
+      "wikidata": "Q209576",
+      "lat": 37.583333,
+      "lon": 26.166667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ikaria, also spelled Icaria, is a Greek island in the Aegean Sea, 10 nautical miles southwest of Samos.",
+        "es": "Icaria o Nicaria es una isla griega ubicada a 19 km al suroeste de Samos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ikaria",
+          "url": "https://en.wikipedia.org/wiki/Ikaria"
+        },
+        "es": {
+          "title": "Icaria",
+          "url": "https://es.wikipedia.org/wiki/Icaria"
+        }
+      },
+      "image": {
+        "file": "Agios_Kirikos,_Ikaria.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agios_Kirikos%2C_Ikaria.jpg",
+        "author": "Stelios Kiousis",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "gr-epidaurus",
+      "name": "Epidaurus",
+      "area": "Epidavros Municipality",
+      "city": "Epidavros Municipality",
+      "wikidata": "Q233576",
+      "lat": 37.597778,
+      "lon": 23.074444,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Epidaurus was a small city in ancient Greece, on the Argolid Peninsula at the Saronic Gulf.",
+        "es": "Epidauro era una pequeña ciudad griega de la Argólida, península al noreste del Peloponeso."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Epidaurus",
+          "url": "https://en.wikipedia.org/wiki/Epidaurus"
+        },
+        "es": {
+          "title": "Epidauro",
+          "url": "https://es.wikipedia.org/wiki/Epidauro"
+        }
+      },
+      "image": {
+        "file": "Epidauros-Theater-1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Epidauros-Theater-1.jpg",
+        "author": "DieBuche",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-lake-prespa",
+      "name": "Lake Prespa",
+      "area": "Resen Municipality",
+      "city": "Resen Municipality",
+      "wikidata": "Q204392",
+      "lat": 40.9,
+      "lon": 21.05,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Lake Prespa is located on the tripoint of North Macedonia, Albania and Greece.",
+        "es": "Los lagos Prespa son dos lagos de agua dulce, Prespa e Madhe y Prespa e Vogël, en Europa suroriental, compartidos entre Albania, Grecia y Macedonia del Norte."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Prespa",
+          "url": "https://en.wikipedia.org/wiki/Lake_Prespa"
+        },
+        "es": {
+          "title": "Lago Prespa",
+          "url": "https://es.wikipedia.org/wiki/Lago_Prespa"
+        }
+      },
+      "image": {
+        "file": "Lake_Prespa_Albania.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Prespa_Albania.jpg",
+        "author": "ILMOTOREDIRICERCA",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gr-ydra",
+      "name": "Ýdra",
+      "area": "Hydra municipality",
+      "city": "Hydra municipality",
+      "wikidata": "Q208319",
+      "lat": 37.335,
+      "lon": 23.4725,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Hydra, or Ydra or Idra, and in antiquity Hydrea, is one of the Saronic Islands of Greece, located in the Aegean Sea between the Myrtoan Sea and the Argolic Gulf.",
+        "es": "La isla de Hidra es una pequeña isla griega localizada en aguas del golfo Sarónico, en el mar Egeo, al sur de Atenas, frente a la península de la Argólida, entre los golfos de Sarónico y Argólico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hydra (island)",
+          "url": "https://en.wikipedia.org/wiki/Hydra_(island)"
+        },
+        "es": {
+          "title": "Hidra (isla)",
+          "url": "https://es.wikipedia.org/wiki/Hidra_(isla)"
+        }
+      },
+      "image": {
+        "file": "Hydra_town_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hydra_town_01.jpg",
+        "author": "Herbert Ortner, Vienna, Austria",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "gr-lamia",
+      "name": "Lamia",
+      "area": "Lamia Municipality",
+      "city": "Lamia Municipality",
+      "wikidata": "Q192980",
+      "website": "https://www.lamia.gr/",
+      "lat": 38.897222,
+      "lon": 22.431111,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Lamia is a city in central Greece. The city dates back to antiquity, and is today the capital of the regional unit of Phthiotis and of the Central Greece region.",
+        "es": "Lamía es una ciudad de Grecia, capital de la periferia de Grecia Central y de la unidad periférica de Ftiótide."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lamia (city)",
+          "url": "https://en.wikipedia.org/wiki/Lamia_(city)"
+        },
+        "es": {
+          "title": "Lamía",
+          "url": "https://es.wikipedia.org/wiki/Lam%C3%ADa"
+        }
+      },
+      "image": {
+        "file": "Lamia_Montage_L.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lamia_Montage_L.png",
+        "author": "SilentResident (compilation, sources to attribute see above; if any of the sourc",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-thermopylae",
+      "name": "Thermopylae",
+      "area": "Lamia Municipality",
+      "city": "Lamia Municipality",
+      "wikidata": "Q194450",
+      "lat": 38.795556,
+      "lon": 22.536667,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Thermopylae is a narrow pass and modern town in Lamia, Phthiotis, Greece.",
+        "es": "Las Termópilas es un desfiladero en Grecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Thermopylae",
+          "url": "https://en.wikipedia.org/wiki/Thermopylae"
+        },
+        "es": {
+          "title": "Termópilas",
+          "url": "https://es.wikipedia.org/wiki/Term%C3%B3pilas"
+        }
+      },
+      "image": {
+        "file": "Thermopylae_04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Thermopylae_04.jpg",
+        "author": "Ronny Siegel",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "gr-syros",
+      "name": "Syros",
+      "area": "South Aegean Region",
+      "city": "South Aegean Region",
+      "wikidata": "Q211230",
+      "lat": 37.45,
+      "lon": 24.9,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Syros, also known as Siros or Syra, is a Greek island in the Cyclades, in the Aegean Sea.",
+        "es": "Siros o Siro es una pequeña isla de Grecia situada en el archipiélago de las Cícladas, en aguas del mar Egeo, y en ella está Hermúpolis, la capital de la periferia de Egeo Meridional y de la antigua prefectura de las…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Syros",
+          "url": "https://en.wikipedia.org/wiki/Syros"
+        },
+        "es": {
+          "title": "Siros",
+          "url": "https://es.wikipedia.org/wiki/Siros"
+        }
+      },
+      "image": {
+        "file": "Syros_Ano_Syros_u_Ermoupolis140707.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Syros_Ano_Syros_u_Ermoupolis140707.jpg",
+        "author": "Hans Peter Schaefer, http://www.reserv-a-rt.de",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-thasos",
+      "name": "Thasos",
+      "area": "Thasos Municipality",
+      "city": "Thasos Municipality",
+      "wikidata": "Q204096",
+      "lat": 40.694167,
+      "lon": 24.661111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Thasos is a Greek island in the northern Aegean Sea.",
+        "es": "Tasos o Taso es una isla griega enclavada en el mar de Tracia, parte más septentrional del mar Egeo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Thasos",
+          "url": "https://en.wikipedia.org/wiki/Thasos"
+        },
+        "es": {
+          "title": "Tasos",
+          "url": "https://es.wikipedia.org/wiki/Tasos"
+        }
+      },
+      "image": {
+        "file": "Thasos.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Thasos.jpg",
+        "author": "NASA/Crew of STS-56",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-kythira",
+      "name": "Kythira",
+      "area": "Kythira Municipality",
+      "city": "Kythira Municipality",
+      "wikidata": "Q207239",
+      "lat": 36.2575,
+      "lon": 22.9975,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kythira, also transliterated as Cythera, Kythera and Kithira, is an island in Greece lying opposite the south-eastern tip of the Peloponnese peninsula.",
+        "es": "Citera es una isla griega localizada al sudeste de la península del Peloponeso, administrativamente perteneciente a la periferia de Ática."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kythira",
+          "url": "https://en.wikipedia.org/wiki/Kythira"
+        },
+        "es": {
+          "title": "Citera",
+          "url": "https://es.wikipedia.org/wiki/Citera"
+        }
+      },
+      "image": {
+        "file": "Kythira_-_Kapsali.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kythira_-_Kapsali.jpg",
+        "author": "Ingo Mehling",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-scyros",
+      "name": "Scyros",
+      "area": "Skyros Municipality",
+      "city": "Skyros Municipality",
+      "wikidata": "Q208566",
+      "website": "https://skyros.gr/",
+      "lat": 38.8725,
+      "lon": 24.525,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Skyros, in some historical contexts Latinized Scyros, is an island in Greece.",
+        "es": "Esciros es una isla griega del mar Egeo una de las Espóradas, al este de Eubea en la ruta hacia el Ponto."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Skyros",
+          "url": "https://en.wikipedia.org/wiki/Skyros"
+        },
+        "es": {
+          "title": "Esciros",
+          "url": "https://es.wikipedia.org/wiki/Esciros"
+        }
+      },
+      "image": {
+        "file": "Skyros-chora.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Skyros-chora.JPG",
+        "author": "Han borg",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-tinos",
+      "name": "Tinos",
+      "area": "Tinos Regional Unit",
+      "city": "Tinos Regional Unit",
+      "wikidata": "Q211285",
+      "lat": 37.602667,
+      "lon": 25.133222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tinos is a Greek island situated in the Aegean Sea.",
+        "es": "Tenos es una isla griega del archipiélago de las Cícladas, en aguas del mar Egeo, así como el nombre de una población de la isla que existe desde la Antigüedad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tinos",
+          "url": "https://en.wikipedia.org/wiki/Tinos"
+        },
+        "es": {
+          "title": "Tenos",
+          "url": "https://es.wikipedia.org/wiki/Tenos"
+        }
+      },
+      "image": {
+        "file": "Tinos_by_Sentinel-2_Cloudless.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tinos_by_Sentinel-2_Cloudless.jpg",
+        "author": "Sentinel-2 cloudless 2016 by EOX IT Services GmbH is licensed under a Creative C",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gr-tiryns",
+      "name": "Tiryns",
+      "area": "Nafplio Municipality",
+      "city": "Nafplio Municipality",
+      "wikidata": "Q217379",
+      "lat": 37.599444,
+      "lon": 22.799722,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Tiryns is a Mycenaean archaeological site in Argolis in the Peloponnese, and the location from which the mythical hero Heracles was said to have performed his Twelve Labours.",
+        "es": "Tirinto o Tirinte es un emplazamiento arqueológico micénico en el nomos griego de la Argólida en la península del Peloponeso, algunos kilómetros al norte de Nauplia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tiryns",
+          "url": "https://en.wikipedia.org/wiki/Tiryns"
+        },
+        "es": {
+          "title": "Tirinto",
+          "url": "https://es.wikipedia.org/wiki/Tirinto"
+        }
+      },
+      "image": {
+        "file": "Passageway_of_the_galleries_within_the_walls_of_Tiryns.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Passageway_of_the_galleries_within_the_walls_of_Tiryns.jpg",
+        "author": "Alun Salt",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "gr-classical-athens",
+      "name": "Classical Athens",
+      "area": "Athens",
+      "city": "Athens",
+      "wikidata": "Q844930",
+      "lat": 37.972222,
+      "lon": 23.722222,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Athens was a prominent polis of ancient Greece, located in the peninsula of Attica.",
+        "es": "La Atenas antigua o antigua Atenas está situada en una península que estuvo ya habitada en el Neolítico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Classical Athens",
+          "url": "https://en.wikipedia.org/wiki/Classical_Athens"
+        },
+        "es": {
+          "title": "Antigua Atenas",
+          "url": "https://es.wikipedia.org/wiki/Antigua_Atenas"
+        }
+      },
+      "image": {
+        "file": "View_of_the_Acropolis_Athens_(pixinn.net).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:View_of_the_Acropolis_Athens_(pixinn.net).jpg",
+        "author": "Christophe Meneboeuf",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-mystras",
+      "name": "Mystras",
+      "area": "Sparta Municipality",
+      "city": "Sparta Municipality",
+      "wikidata": "Q19053",
+      "lat": 37.074,
+      "lon": 22.3673,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Mystras or Mistras, also known in the Chronicle of the Morea as Myzethras or Myzithras, is a fortified town and a former municipality in Laconia, Peloponnese, Greece.",
+        "es": "Mistrá fue una ciudad fortificada en Morea sobre el monte Taigeto, cerca de la antigua Esparta, en Grecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mystras",
+          "url": "https://en.wikipedia.org/wiki/Mystras"
+        },
+        "es": {
+          "title": "Mistrá",
+          "url": "https://es.wikipedia.org/wiki/Mistr%C3%A1"
+        }
+      },
+      "image": {
+        "file": "Palace_at_Mystras_by_Joy_of_Museums.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palace_at_Mystras_by_Joy_of_Museums.jpg",
+        "author": "Joyofmuseums",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gr-ios",
+      "name": "Ios",
+      "area": "Ios Municipality",
+      "city": "Ios Municipality",
+      "wikidata": "Q216993",
+      "lat": 36.716667,
+      "lon": 25.316667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ios is a Greek island in the Cyclades group in the Aegean Sea.",
+        "es": "Íos es una isla griega en el archipiélago de las Cícladas del mar Egeo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ios",
+          "url": "https://en.wikipedia.org/wiki/Ios"
+        },
+        "es": {
+          "title": "Ios",
+          "url": "https://es.wikipedia.org/wiki/Ios"
+        }
+      },
+      "image": {
+        "file": "Íos_aerial.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%8Dos_aerial.jpg",
+        "author": "kallerna",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gr-kea",
+      "name": "Kea",
+      "area": "Kea Municipality",
+      "city": "Kea Municipality",
+      "wikidata": "Q214109",
+      "lat": 37.6125,
+      "lon": 24.34,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kea, also known as Tzia and in antiquity Keos, is a Greek island in the Cyclades archipelago in the Aegean Sea.",
+        "es": "Ceos o Cea es una isla del archipiélago de las islas Cícladas, en el Mar Egeo, en Grecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kea (island)",
+          "url": "https://en.wikipedia.org/wiki/Kea_(island)"
+        },
+        "es": {
+          "title": "Ceos",
+          "url": "https://es.wikipedia.org/wiki/Ceos"
+        }
+      },
+      "image": {
+        "file": "Ioulis_at_Kea_(Tzia)_Island_-_panoramio_(1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ioulis_at_Kea_(Tzia)_Island_-_panoramio_(1).jpg",
+        "author": "Michael Paraskevas",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-amorgos",
+      "name": "Amorgos",
+      "area": "Naxos Regional Unit",
+      "city": "Naxos Regional Unit",
+      "wikidata": "Q208587",
+      "lat": 36.840278,
+      "lon": 25.8875,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Amorgos is the easternmost island of the Cyclades island group and the nearest island to the neighboring Dodecanese island group in Greece.",
+        "es": "La isla de Amorgos es una isla griega del mar Egeo, la más oriental del grupo de las Cícladas y la más cercana al archipiélago vecino del Dodecaneso, situada al sudeste de Naxos, a 138 millas marinas del puerto del…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Amorgos",
+          "url": "https://en.wikipedia.org/wiki/Amorgos"
+        },
+        "es": {
+          "title": "Amorgos",
+          "url": "https://es.wikipedia.org/wiki/Amorgos"
+        }
+      },
+      "image": {
+        "file": "Amorgos-1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amorgos-1.jpg",
+        "author": "Oliwan",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-pella",
+      "name": "Pella",
+      "area": "Thessaloniki",
+      "city": "Thessaloniki",
+      "wikidata": "Q213679",
+      "lat": 40.76,
+      "lon": 22.519167,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Pella was the capital of the ancient Greek kingdom of Macedon from the 4th century BC up until the Roman conquest in 168 BC.",
+        "es": "Pela, o Pella, es una antigua ciudad, que se encuentra en la llanura central de la región de Macedonia en Grecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pella",
+          "url": "https://en.wikipedia.org/wiki/Pella"
+        },
+        "es": {
+          "title": "Pela (Grecia)",
+          "url": "https://es.wikipedia.org/wiki/Pela_(Grecia)"
+        }
+      },
+      "image": {
+        "file": "Pella_House_atrium.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pella_House_atrium.jpg",
+        "author": "Brian Donovan",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-serifos",
+      "name": "Serifos",
+      "area": "Serifos Municipality",
+      "city": "Serifos Municipality",
+      "wikidata": "Q217214",
+      "lat": 37.15,
+      "lon": 24.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Serifos is a Greek island in the Aegean Sea, located in the western Cyclades, south of Kythnos and northwest of Sifnos.",
+        "es": "Serifos, Serifo o Serifa es una pequeña isla griega del mar Egeo, localizada en las Cícladas occidentales, al sur de la isla de Citnos y al noroeste de la de Sifnos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Serifos",
+          "url": "https://en.wikipedia.org/wiki/Serifos"
+        },
+        "es": {
+          "title": "Serifos",
+          "url": "https://es.wikipedia.org/wiki/Serifos"
+        }
+      },
+      "image": {
+        "file": "Chora_of_Serifos,_Cyclades,_152325.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chora_of_Serifos%2C_Cyclades%2C_152325.jpg",
+        "author": "Zde",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gr-erechtheion",
+      "name": "Erechtheion",
+      "area": "Athens",
+      "city": "Athens",
+      "wikidata": "Q242741",
+      "lat": 37.972083,
+      "lon": 23.726528,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Erechtheion or Temple of Athena Polias is an ancient Greek Ionic temple, on the north side of the Acropolis, Athens, that was primarily dedicated to the goddess Athena.",
+        "es": "El Erecteón o Erecteion es un templo griego creado por los arquitectos Mnesicles y Filocles, y Alcámenes como creador de las Cariátides."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Erechtheion",
+          "url": "https://en.wikipedia.org/wiki/Erechtheion"
+        },
+        "es": {
+          "title": "Erecteón",
+          "url": "https://es.wikipedia.org/wiki/Erecte%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Erechtheion_Acropolis_Athens.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Erechtheion_Acropolis_Athens.jpg",
+        "author": "Chepry 💬 (Andrzej Barabasz) 📷 🇵🇱",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gr-panathenaic-stadium",
+      "name": "Panathenaic Stadium",
+      "area": "Athens",
+      "city": "Athens",
+      "wikidata": "Q208811",
+      "lat": 37.968333,
+      "lon": 23.741111,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Panathenaic Stadium or Kallimarmaro is a multi-purpose stadium in Athens, Greece.",
+        "es": "El Estadio Panathinaikó, también conocido como el Kallimármaro, es un estadio de atletismo en Atenas, Grecia, que acogió la primera edición de los Juegos Olímpicos Modernos en Atenas 1896."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Panathenaic Stadium",
+          "url": "https://en.wikipedia.org/wiki/Panathenaic_Stadium"
+        },
+        "es": {
+          "title": "Estadio Panathinaikó",
+          "url": "https://es.wikipedia.org/wiki/Estadio_Panathinaik%C3%B3"
+        }
+      },
+      "image": {
+        "file": "GR-athen-panathinaiko-stadion.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:GR-athen-panathinaiko-stadion.jpg",
+        "author": "Bgabel",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-daphni-monastery",
+      "name": "Daphni Monastery",
+      "area": "Athens",
+      "city": "Athens",
+      "wikidata": "Q500444",
+      "lat": 38.013056,
+      "lon": 23.635833,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Daphni or Dafni is an eleventh-century Byzantine monastery eleven kilometers northwest of central Athens in the suburb of Chaidari, south of Athinon Avenue.",
+        "es": "El monasterio de Dafni o únicamente Dafni se encuentra a 11 kilómetros al noroeste del centro de Atenas, cerca del bosque del mismo nombre, en la vía sagrada que lleva a Eleusis."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Daphni Monastery",
+          "url": "https://en.wikipedia.org/wiki/Daphni_Monastery"
+        },
+        "es": {
+          "title": "Monasterio de Dafni",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_de_Dafni"
+        }
+      },
+      "image": {
+        "file": "Mosaic_from_Daphni_Monastery_in_Greece.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mosaic_from_Daphni_Monastery_in_Greece.jpg",
+        "author": "Originally uploaded to English Wikipedia by User:Ghirlandajo.",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-temple-of-athena-nike",
+      "name": "Temple of Athena Nike",
+      "area": "Athens",
+      "city": "Athens",
+      "wikidata": "Q384813",
+      "lat": 37.9715,
+      "lon": 23.7249,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Temple of Athena Nike , the smallest temple on the Acropolis of Athens, is dedicated to the goddesses Athena and Nike.",
+        "es": "El Templo de Atenea Nike es un templo situado en la Acrópolis de Atenas, dedicado a las diosas Atenea y Nike."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Temple of Athena Nike",
+          "url": "https://en.wikipedia.org/wiki/Temple_of_Athena_Nike"
+        },
+        "es": {
+          "title": "Templo de Atenea Niké",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_Atenea_Nik%C3%A9"
+        }
+      },
+      "image": {
+        "file": "Temple_of_Athena_Nikè_from_Propylaea,_Acropolis,_Athens,_Greece.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Athena_Nik%C3%A8_from_Propylaea%2C_Acropolis%2C_Athens%2C_Greece.jpg",
+        "author": "Jebulon",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "gr-lyceum",
+      "name": "Lyceum",
+      "area": "Athens",
+      "city": "Athens",
+      "wikidata": "Q1160664",
+      "lat": 37.97402,
+      "lon": 23.74334,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Lyceum was a temple in Athens dedicated to Apollo Lyceus.",
+        "es": "El Liceo era el nombre de un jardín y gimnasio situado en las cercanías del templo de Apolo Licio, dentro de las murallas de Atenas, hacia el monte Licabeto."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lyceum (classical)",
+          "url": "https://en.wikipedia.org/wiki/Lyceum_(classical)"
+        },
+        "es": {
+          "title": "Liceo (Antigua Grecia)",
+          "url": "https://es.wikipedia.org/wiki/Liceo_(Antigua_Grecia)"
+        }
+      },
+      "image": {
+        "file": "Athens_Lyceum_Archaeological_Site_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Athens_Lyceum_Archaeological_Site_2.jpg",
+        "author": "Tomisti",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-temple-of-hephaestus",
+      "name": "Temple of Hephaestus",
+      "area": "Athens",
+      "city": "Athens",
+      "wikidata": "Q756824",
+      "lat": 37.975617,
+      "lon": 23.721392,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Temple of Hephaestus or Hephaisteion, is a well-preserved Greek temple dedicated to Hephaestus; it remains standing largely intact today.",
+        "es": "El Hefestión o templo de Hefesto y de Atenea Ergane o Teseion es un templo griego, situado en el noroeste del ágora de Atenas, en la cima de la colina llamada Colonos Agoreo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Temple of Hephaestus",
+          "url": "https://en.wikipedia.org/wiki/Temple_of_Hephaestus"
+        },
+        "es": {
+          "title": "Hefestión (Atenas)",
+          "url": "https://es.wikipedia.org/wiki/Hefesti%C3%B3n_(Atenas)"
+        }
+      },
+      "image": {
+        "file": "Greece-0176_(2215880732).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Greece-0176_(2215880732).jpg",
+        "author": "Dennis G. Jarvis",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "gr-basilica-of-agios-dimitrios-thessaloniki",
+      "name": "Basilica of Agios Dimitrios, Thessaloniki",
+      "area": "Thessaloniki",
+      "city": "Thessaloniki",
+      "wikidata": "Q730019",
+      "website": "https://www.agdimitriosthes.gr",
+      "lat": 40.638822,
+      "lon": 22.947858,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of Saint Demetrius, or Hagios Demetrios, is the main sanctuary dedicated to Saint Demetrius, the patron saint of Thessaloniki, dating from a time when it was the second largest city of the Byzantine Empire.",
+        "es": "La basílica de San Demetrio, o simplemente Hagios Demetrios, es un templo de culto ortodoxo y el más importante santuario dedicado a san Demetrio, santo patrón de Tesalónica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hagios Demetrios",
+          "url": "https://en.wikipedia.org/wiki/Hagios_Demetrios"
+        },
+        "es": {
+          "title": "Basílica de San Demetrio (Tesalónica)",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_San_Demetrio_(Tesal%C3%B3nica)"
+        }
+      },
+      "image": {
+        "file": "Hagios_Demetrios,_Thessaloniki_01-edit.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hagios_Demetrios%2C_Thessaloniki_01-edit.jpg",
+        "author": "DMY, edited by MenkinAlRire",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "gr-hagia-sophia",
+      "name": "Hagia Sophia",
+      "area": "Thessaloniki",
+      "city": "Thessaloniki",
+      "wikidata": "Q1568660",
+      "lat": 40.632844,
+      "lon": 22.947094,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Hagia Sophia is a church located in Thessaloniki, Greece.",
+        "es": "La iglesia de Santa Sofía en Salónica, Grecia, es una de las iglesias más antiguas de la ciudad que aún sigue en pie."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hagia Sophia, Thessaloniki",
+          "url": "https://en.wikipedia.org/wiki/Hagia_Sophia%2C_Thessaloniki"
+        },
+        "es": {
+          "title": "Santa Sofía (Salónica)",
+          "url": "https://es.wikipedia.org/wiki/Santa_Sof%C3%ADa_(Sal%C3%B3nica)"
+        }
+      },
+      "image": {
+        "file": "Thessaloniki_Saint_Sophia_Church_west_wall.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Thessaloniki_Saint_Sophia_Church_west_wall.jpg",
+        "author": "Ymblanter",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gr-arch-of-galerius-and-rotunda",
+      "name": "Arch of Galerius and Rotunda",
+      "area": "Thessaloniki",
+      "city": "Thessaloniki",
+      "wikidata": "Q1258082",
+      "lat": 40.63224,
+      "lon": 22.951737,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Arch of Galerius or Kamara and the Rotunda of Galerius are neighbouring early fourth-century AD monuments in the city of Thessaloniki, in the region of Central Macedonia in northern Greece.",
+        "es": "El Arco de Galerio y la Rotonda de Galerio son monumentos cercanos entre sí de la ciudad de Tesalónica, en la región de Macedonia Central, al norte de Grecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Arch of Galerius and Rotunda",
+          "url": "https://en.wikipedia.org/wiki/Arch_of_Galerius_and_Rotunda"
+        },
+        "es": {
+          "title": "Arco de Galerio",
+          "url": "https://es.wikipedia.org/wiki/Arco_de_Galerio"
+        }
+      },
+      "image": {
+        "file": "Arch_of_Galerius_in_September_(3).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arch_of_Galerius_in_September_(3).jpg",
+        "author": "Armineaghayan",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gr-lake-koroneia",
+      "name": "Lake Koroneia",
+      "area": "Thessaloniki",
+      "city": "Thessaloniki",
+      "wikidata": "Q1472501",
+      "lat": 40.685556,
+      "lon": 23.148333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Koroneia is a lake in the heart of the Thessaloniki regional unit in the Mygdonian basin in Greece.",
+        "es": "El lago Koronia es un lago en el corazón de la unidad regional de Salónica en la cuenca Migdoniana en Grecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Koroneia",
+          "url": "https://en.wikipedia.org/wiki/Lake_Koroneia"
+        },
+        "es": {
+          "title": "Lago Koronia",
+          "url": "https://es.wikipedia.org/wiki/Lago_Koronia"
+        }
+      },
+      "image": {
+        "file": "Koronia_Lake_2008_and_Agios_Vasilios_-_seen_from_Chortiatis,_Greece_-_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Koronia_Lake_2008_and_Agios_Vasilios_-_seen_from_Chortiatis%2C_Greece_-_01.jpg",
+        "author": "Christaras A",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-church-of-the-acheiropoietos",
+      "name": "Church of the Acheiropoietos",
+      "area": "Thessaloniki",
+      "city": "Thessaloniki",
+      "wikidata": "Q1584774",
+      "lat": 40.634974,
+      "lon": 22.947864,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of the Acheiropoietos is a 5th-century Byzantine-era Greek Orthodox church, located in the city of Thessaloniki, Central Macedonia, in northern Greece.",
+        "es": "La Iglesia de los Acheiropoietos es una iglesia bizantina del siglo V situada en la ciudad de Salónica, en el norte de Grecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of the Acheiropoietos",
+          "url": "https://en.wikipedia.org/wiki/Church_of_the_Acheiropoietos"
+        },
+        "es": {
+          "title": "Iglesia de Acheiropoietos",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Acheiropoietos"
+        }
+      },
+      "image": {
+        "file": "Church_of_the_Acheiropoietos.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Church_of_the_Acheiropoietos.JPG",
+        "author": "Knop92",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-church-of-saint-nicholas-orphanos",
+      "name": "Church of Saint Nicholas Orphanos",
+      "area": "Thessaloniki",
+      "city": "Thessaloniki",
+      "wikidata": "Q1504317",
+      "lat": 40.637756,
+      "lon": 22.955989,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of Saint Nicholas Orphanos is an early 14th-century Byzantine church in the northern Greek city of Thessaloniki.",
+        "es": "La Iglesia de San Nicolás Orfanos es una iglesia bizantina de principios del siglo XIV en el norte de la ciudad griega de Salónica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of St. Nicholas Orphanos",
+          "url": "https://en.wikipedia.org/wiki/Church_of_St._Nicholas_Orphanos"
+        },
+        "es": {
+          "title": "Iglesia de San Nicolás el Huérfano",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Nicol%C3%A1s_el_Hu%C3%A9rfano"
+        }
+      },
+      "image": {
+        "file": "Agios_Nikolaos_Orfanos_-_panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Agios_Nikolaos_Orfanos_-_panoramio.jpg",
+        "author": "LucT",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gr-church-of-panagia-chalkeon",
+      "name": "Church of Panagia Chalkeon",
+      "area": "Thessaloniki",
+      "city": "Thessaloniki",
+      "wikidata": "Q1650229",
+      "lat": 40.63679,
+      "lon": 22.943665,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of Panagia Chalkeon is an 11th-century Byzantine-era Greek Orthodox church in the city of Thessaloniki, in the Central Macedonia region of northern Greece.",
+        "es": "La iglesia de la Panagia Chalkeon es una iglesia bizantina en la ciudad septentrional de Grecia de Salónica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of Panagia Chalkeon",
+          "url": "https://en.wikipedia.org/wiki/Church_of_Panagia_Chalkeon"
+        },
+        "es": {
+          "title": "Iglesia de la Panagia Chalkeon",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_la_Panagia_Chalkeon"
+        }
+      },
+      "image": {
+        "file": "THES_Panaghia_Chalkeon_5944.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:THES_Panaghia_Chalkeon_5944.JPG",
+        "author": "Konstantinos Stampoulis (el:User:Geraki)",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "gr-aristotelous-square",
+      "name": "Aristotelous Square",
+      "area": "Thessaloniki",
+      "city": "Thessaloniki",
+      "wikidata": "Q667472",
+      "lat": 40.632458,
+      "lon": 22.941194,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Aristotelous Square, is the main city square of Thessaloniki, Greece, and is located on Nikis avenue, in the city center.",
+        "es": "La plaza de Aristóteles es la principal plaza de la ciudad de Tesalónica, Grecia y está situada en la avenida Nikis, en el centro de la ciudad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aristotelous Square",
+          "url": "https://en.wikipedia.org/wiki/Aristotelous_Square"
+        },
+        "es": {
+          "title": "Plaza de Aristóteles",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_Arist%C3%B3teles"
+        }
+      },
+      "image": {
+        "file": "Aristotelous_Plateia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aristotelous_Plateia.jpg",
+        "author": "User:JFKennedy",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-new-mosque",
+      "name": "New Mosque",
+      "area": "Thessaloniki",
+      "city": "Thessaloniki",
+      "wikidata": "Q1163656",
+      "lat": 40.615459,
+      "lon": 22.956732,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Yeni Mosque is a mosque in the city of Thessaloniki, northern Greece.",
+        "es": "The Yeni Mosque is a mosque in the city of Thessaloniki, northern Greece."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Yeni Mosque, Thessaloniki",
+          "url": "https://en.wikipedia.org/wiki/Yeni_Mosque%2C_Thessaloniki"
+        },
+        "es": {
+          "title": "Yeni Mosque, Thessaloniki",
+          "url": "https://en.wikipedia.org/wiki/Yeni_Mosque%2C_Thessaloniki"
+        }
+      },
+      "image": {
+        "file": "Yeni_Mosque,_Thessaloniki.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yeni_Mosque%2C_Thessaloniki.JPG",
+        "author": "Knop92",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gr-alaca-imaret-mosque",
+      "name": "Alaca Imaret Mosque",
+      "area": "Thessaloniki",
+      "city": "Thessaloniki",
+      "wikidata": "Q12271333",
+      "lat": 40.639171,
+      "lon": 22.949646,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Alaca Imaret Mosque, also known as the Ishak Pasha Mosque, is a mosque in Thessaloniki, Greece.",
+        "es": "La Mezquita Ishak Pasha (en turco: İshak Paşa Camii; en griego: Ισχάκ Πασά Τζαμί, romanizado: Ischák Pachá Tzamí o, es un edificio del periodo de la arquitectura otomana temprana situado en Salónica, en la Periferia…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Alaca Imaret Mosque",
+          "url": "https://en.wikipedia.org/wiki/Alaca_Imaret_Mosque"
+        },
+        "es": {
+          "title": "Mezquita Ishak Pasha",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_Ishak_Pasha"
+        }
+      },
+      "image": {
+        "file": "20121019_Alaca_Imaret_Thessaloniki_Greece_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20121019_Alaca_Imaret_Thessaloniki_Greece_1.jpg",
+        "author": "User:Ggia",
+        "license": "CC BY-SA 3.0"
       }
     }
   ]

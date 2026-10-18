@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -406,6 +412,2429 @@
       "website": "http://www.dmh.org.il/heb/",
       "lat": 32.01096,
       "lon": 34.77761
+    },
+    {
+      "id": "il-dead-sea",
+      "name": "Dead Sea",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q23883",
+      "lat": 31.5207,
+      "lon": 35.4845,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Dead Sea, also known by other names, is a landlocked salt lake bordered by Jordan to the east, the West Bank to the west and Israel to the southwest.",
+        "es": "El mar Muerto es un lago endorreico salado situado en una profunda depresión a 435 metros bajo el nivel del mar, entre Israel, Palestina y Jordania, en la región de Oriente Próximo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dead Sea",
+          "url": "https://en.wikipedia.org/wiki/Dead_Sea"
+        },
+        "es": {
+          "title": "Mar Muerto",
+          "url": "https://es.wikipedia.org/wiki/Mar_Muerto"
+        }
+      },
+      "image": {
+        "file": "Dead_Sea_by_David_Shankbone.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dead_Sea_by_David_Shankbone.jpg",
+        "author": "David Shankbone",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-eilat",
+      "name": "Eilat",
+      "area": "Beersheba Subdistrict",
+      "city": "Beersheba Subdistrict",
+      "wikidata": "Q134762",
+      "lat": 29.55,
+      "lon": 34.95,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Eilat is Israel's southernmost city, with a population of 56,004, a port and popular resort at the northern tip of the Red Sea, on what is known in Israel as the Gulf of Eilat and in Jordan as the Gulf of Aqaba.",
+        "es": "Eilat es una ciudad israelí; concretamente la más meridional del país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Eilat",
+          "url": "https://en.wikipedia.org/wiki/Eilat"
+        },
+        "es": {
+          "title": "Eilat",
+          "url": "https://es.wikipedia.org/wiki/Eilat"
+        }
+      },
+      "image": {
+        "file": "Eilat2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eilat2.jpg",
+        "author": "No machine-readable author provided. Tango7000 assumed (based on copyright claim",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "il-sea-of-galilee",
+      "name": "Sea of Galilee",
+      "area": "Tiberias",
+      "city": "Tiberias",
+      "wikidata": "Q126982",
+      "lat": 32.818906,
+      "lon": 35.590033,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Sea of Galilee, also called Lake Tiberias, Genezareth Lake or Kinneret, is a freshwater lake in northeast Israel.",
+        "es": "El mar de Galilea, también llamado lago de Tiberíades, lago de Genesaret y lago de Kineret, es un lago de agua dulce de Asia Occidental, situado en la región del Oriente Próximo, y perteneciente a Israel, incluida…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sea of Galilee",
+          "url": "https://en.wikipedia.org/wiki/Sea_of_Galilee"
+        },
+        "es": {
+          "title": "Mar de Galilea",
+          "url": "https://es.wikipedia.org/wiki/Mar_de_Galilea"
+        }
+      },
+      "image": {
+        "file": "Lake_Tiberias_(Sea_of_Galilee),_Northern_Israel.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Tiberias_(Sea_of_Galilee)%2C_Northern_Israel.jpg",
+        "author": "This image was taken by the NASA Expedition 20 crew.",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "il-temple-mount",
+      "name": "Temple Mount",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q193163",
+      "lat": 31.777778,
+      "lon": 35.235556,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Temple Mount or al-Haram al-Sharif is an elevated plateau in the Old City of Jerusalem that comprises the Islamic religious compound known as al-Aqsa, which includes the al-Aqsa Mosque and the Dome of the Rock.",
+        "es": "El Monte del Templo o Explanada de las Mezquitas es un lugar religioso considerado sagrado de aproximadamente 15 hectáreas ubicado en la ciudad vieja de Jerusalén, en Palestina."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Temple Mount",
+          "url": "https://en.wikipedia.org/wiki/Temple_Mount"
+        },
+        "es": {
+          "title": "Monte del Templo",
+          "url": "https://es.wikipedia.org/wiki/Monte_del_Templo"
+        }
+      },
+      "image": {
+        "file": "Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013(2)-Aerial-Temple_Mount-(south_exposure).jpg",
+        "author": "Godot13",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "il-the-temple-institute",
+      "name": "The Temple Institute",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q2909160",
+      "lat": 31.775481,
+      "lon": 35.2331,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Temple Institute, known in Hebrew as Machon HaMikdash, is an organization in Israel focusing on establishing the Third Temple.",
+        "es": "El Instituto del Templo es un museo, instituto de investigación y centro educativo israelí dedicado a los dos Templos de Jerusalén y al «futuro Tercer templo de Jerusalén» que algunos judíos proyectan construir en el…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Temple Institute",
+          "url": "https://en.wikipedia.org/wiki/Temple_Institute"
+        },
+        "es": {
+          "title": "Instituto del Templo",
+          "url": "https://es.wikipedia.org/wiki/Instituto_del_Templo"
+        }
+      },
+      "image": {
+        "file": "מכון_המקדש_-_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D7%9E%D7%9B%D7%95%D7%9F_%D7%94%D7%9E%D7%A7%D7%93%D7%A9_-_1.jpg",
+        "author": "פארוק",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "il-masada",
+      "name": "Masada",
+      "area": "Tamar Regional Council",
+      "city": "Tamar Regional Council",
+      "wikidata": "Q186312",
+      "lat": 31.315556,
+      "lon": 35.353889,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Masada is a mountain-top fortress complex in the Judaean Desert, overlooking the western shore of the Dead Sea in southeastern Israel.",
+        "es": "Masada es un yacimiento arqueológico que comprende los restos de varios palacios y fortificaciones que se localizan en la cumbre amesetada de una montaña aislada en la región oriental del desierto de Judea, próxima a…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Masada",
+          "url": "https://en.wikipedia.org/wiki/Masada"
+        },
+        "es": {
+          "title": "Masada",
+          "url": "https://es.wikipedia.org/wiki/Masada"
+        }
+      },
+      "image": {
+        "file": "Israel-2013-Aerial_21-Masada.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Israel-2013-Aerial_21-Masada.jpg",
+        "author": "Godot13",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "il-capernaum",
+      "name": "Capernaum",
+      "area": "Galilee",
+      "city": "Galilee",
+      "wikidata": "Q59174",
+      "lat": 32.881111,
+      "lon": 35.575,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Capernaum was a fishing village established during the time of the Hasmoneans in Israel, located on the northern shore of the Sea of Galilee.",
+        "es": "Cafarnaúm, Cafarnaún, Cafarnaum o Capernaum fue un poblado pesquero israelita de Galilea, a orillas del mar de Galilea, en el norte del actual Israel."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Capernaum",
+          "url": "https://en.wikipedia.org/wiki/Capernaum"
+        },
+        "es": {
+          "title": "Cafarnaúm",
+          "url": "https://es.wikipedia.org/wiki/Cafarna%C3%BAm"
+        }
+      },
+      "image": {
+        "file": "Kafarnaum_BW_7.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kafarnaum_BW_7.JPG",
+        "author": "Berthold Werner",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "il-mount-of-olives",
+      "name": "Mount of Olives",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q205976",
+      "lat": 31.777946,
+      "lon": 35.245686,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Mount of Olives or Mount Olivet is a mountain ridge in East Jerusalem, east of and adjacent to Jerusalem's Old City.",
+        "es": "El monte de los Olivos, también denominado monte Olivete, está ubicado en el valle de Cedrón, al este de Jerusalén."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount of Olives",
+          "url": "https://en.wikipedia.org/wiki/Mount_of_Olives"
+        },
+        "es": {
+          "title": "Monte de los Olivos",
+          "url": "https://es.wikipedia.org/wiki/Monte_de_los_Olivos"
+        }
+      },
+      "image": {
+        "file": "2013-Aerial-Mount_of_Olives.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2013-Aerial-Mount_of_Olives.jpg",
+        "author": "Godot13",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "il-gethsemane",
+      "name": "Gethsemane",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q205333",
+      "lat": 31.779419,
+      "lon": 35.239425,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Gethsemane is a garden as well as a courtyard at the foot of the Mount of Olives in East Jerusalem, where, according to the four Gospels of the New Testament, Jesus Christ underwent the Agony in the Garden and was…",
+        "es": "Getsemaní fue el jardín donde, según el Nuevo Testamento, Jesús oró la última noche antes de ser arrestado."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gethsemane",
+          "url": "https://en.wikipedia.org/wiki/Gethsemane"
+        },
+        "es": {
+          "title": "Getsemaní",
+          "url": "https://es.wikipedia.org/wiki/Getseman%C3%AD"
+        }
+      },
+      "image": {
+        "file": "Getsemane2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Getsemane2.JPG",
+        "author": "Mewasul",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-city-of-david",
+      "name": "City of David",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q1177750",
+      "lat": 31.773037,
+      "lon": 35.234811,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The City of David, known locally mostly in Arabic as Wadi Hilweh, is the name given to an archaeological site considered by most scholars to be the original settlement core of Jerusalem during the Bronze and Iron Ages.",
+        "es": "La Ciudad de David es el nombre dado a un sitio arqueológico considerado por la mayoría de los académicos como el núcleo de asentamiento original de Jerusalén durante la Edad de los Metales."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "City of David (archaeological site)",
+          "url": "https://en.wikipedia.org/wiki/City_of_David_(archaeological_site)"
+        },
+        "es": {
+          "title": "Ciudad de David",
+          "url": "https://es.wikipedia.org/wiki/Ciudad_de_David"
+        }
+      },
+      "image": {
+        "file": "City_of_David,_Southern_Wall_Temple_Mount_Kidron_Valley_Ophel_and_Siloam.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:City_of_David%2C_Southern_Wall_Temple_Mount_Kidron_Valley_Ophel_and_Siloam.jpg",
+        "author": "Matson Collection",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "il-mount-tabor",
+      "name": "Mount Tabor",
+      "area": "Northern District",
+      "city": "Northern District",
+      "wikidata": "Q193785",
+      "lat": 32.68625,
+      "lon": 35.392917,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Tabor, sometimes spelled Mount Thabor, is a large hill of biblical significance in the Lower Galilee, Israel, at the eastern end of the Jezreel Valley, 18 kilometres west of the Sea of Galilee.",
+        "es": "El monte Tabor está localizado en la Baja Galilea, al este del Valle de Jezreel, 17 kilómetros al oeste del Mar de Galilea."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Tabor",
+          "url": "https://en.wikipedia.org/wiki/Mount_Tabor"
+        },
+        "es": {
+          "title": "Monte Tabor",
+          "url": "https://es.wikipedia.org/wiki/Monte_Tabor"
+        }
+      },
+      "image": {
+        "file": "Mount_Tabor4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Tabor4.jpg",
+        "author": "Mount_Tabor3.jpg: Eliot from The Negev derivative work: TheCuriousGnome (talk)",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "il-museum-of-philistine-culture",
+      "name": "Museum of Philistine Culture",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "wikidata": "Q23894294",
+      "website": "https://phcm.co.il/",
+      "lat": 31.799369,
+      "lon": 34.642058,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Museum of Philistine Culture is an archaeological museum in Ashdod.",
+        "es": "Museo de la Cultura Filistea es un museo arqueológico localizado en Asdod, Israel."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museum of Philistine Culture",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Philistine_Culture"
+        },
+        "es": {
+          "title": "Museo de la Cultura Filistea",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Cultura_Filistea"
+        }
+      },
+      "image": {
+        "file": "Museum_of_Philistine_culture_Ashdod_(1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museum_of_Philistine_culture_Ashdod_(1).jpg",
+        "author": "Laliv g",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "il-caesarea-maritima",
+      "name": "Caesarea Maritima",
+      "area": "Caesarea",
+      "city": "Caesarea",
+      "wikidata": "Q319242",
+      "website": "https://www.parks.org.il/en/reserve-park/caesarea-national-park/",
+      "lat": 32.5011,
+      "lon": 34.8923,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Caesarea, also Caesarea Maritima, Caesarea Palaestinae or Caesarea Stratonis, was an ancient and medieval port city on the coast of the eastern Mediterranean, and later a small fishing village.",
+        "es": "Cesarea Marítima, originalmente solo Cesarea, fue una de las cuatro colonias romanas para legionarios veteranos en la región de Siria-Fenicia, creada por el Imperio romano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Caesarea Maritima",
+          "url": "https://en.wikipedia.org/wiki/Caesarea_Maritima"
+        },
+        "es": {
+          "title": "Cesarea Marítima",
+          "url": "https://es.wikipedia.org/wiki/Cesarea_Mar%C3%ADtima"
+        }
+      },
+      "image": {
+        "file": "קיסריה_העתיקה.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D7%A7%D7%99%D7%A1%D7%A8%D7%99%D7%94_%D7%94%D7%A2%D7%AA%D7%99%D7%A7%D7%94.jpg",
+        "author": "Idomeir",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "il-beit-shemesh",
+      "name": "Beit Shemesh",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q152449",
+      "website": "https://www.betshemesh.muni.il/",
+      "lat": 31.751389,
+      "lon": 34.988611,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Beit Shemesh is a city located approximately 30 kilometres west of Jerusalem in Israel's Jerusalem District.",
+        "es": "Bet Shemesh es una ciudad del distrito de Jerusalén, en Israel."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Beit Shemesh",
+          "url": "https://en.wikipedia.org/wiki/Beit_Shemesh"
+        },
+        "es": {
+          "title": "Beit Shemesh",
+          "url": "https://es.wikipedia.org/wiki/Beit_Shemesh"
+        }
+      },
+      "image": {
+        "file": "PikiWiki_Israel_11206_Landscape_view.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_11206_Landscape_view.jpg",
+        "author": "חיים בוזנה",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "il-tel-megiddo",
+      "name": "Tel Megiddo",
+      "area": "Northern District",
+      "city": "Northern District",
+      "wikidata": "Q208379",
+      "lat": 32.585278,
+      "lon": 35.184444,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Tel Megiddo is the site of the ancient city of Megiddo, the remains of which form a tell or archaeological mound, situated in northern Israel at the western edge of the Jezreel Valley.",
+        "es": "Megido, Mageddo o Meguiddó; Tell el-Mutesellim, lit."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tel Megiddo",
+          "url": "https://en.wikipedia.org/wiki/Tel_Megiddo"
+        },
+        "es": {
+          "title": "Megido",
+          "url": "https://es.wikipedia.org/wiki/Megido"
+        }
+      },
+      "image": {
+        "file": "Megido_City_Gate1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Megido_City_Gate1.jpg",
+        "author": "Golf Bravo 12:55, 26 May 2007 (UTC)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-mount-herzl",
+      "name": "Mount Herzl",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q206161",
+      "lat": 31.774117,
+      "lon": 35.180567,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Herzl, also known as Mount of Remembrance, is the site of Israel's national cemetery and other memorial and educational facilities, found on the west side of Jerusalem beside the Jerusalem Forest.",
+        "es": "El Monte Herzl es una colina de Jerusalén, donde está ubicado el cementerio nacional."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Herzl",
+          "url": "https://en.wikipedia.org/wiki/Mount_Herzl"
+        },
+        "es": {
+          "title": "Monte Herzl",
+          "url": "https://es.wikipedia.org/wiki/Monte_Herzl"
+        }
+      },
+      "image": {
+        "file": "ViewOfMountHerzlMar042023_04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ViewOfMountHerzlMar042023_04.jpg",
+        "author": "Hagai Agmon-Snir حچاي اچمون-سنير חגי אגמון-שניר",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "il-mount-scopus",
+      "name": "Mount Scopus",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q312818",
+      "lat": 31.7925,
+      "lon": 35.244167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Scopus is a mountain located in Jerusalem with an elevation of 826 meters above sea level.",
+        "es": "Monte Scopus es una montaña, situada en el nordeste de Jerusalén."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Scopus",
+          "url": "https://en.wikipedia.org/wiki/Mount_Scopus"
+        },
+        "es": {
+          "title": "Monte Scopus",
+          "url": "https://es.wikipedia.org/wiki/Monte_Scopus"
+        }
+      },
+      "image": {
+        "file": "MountScopusDec032022_03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:MountScopusDec032022_03.jpg",
+        "author": "Hagai Agmon-Snir حچاي اچمون-سنير חגי אגמון-שניר",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "il-bethsaida",
+      "name": "Bethsaida",
+      "area": "Galilee",
+      "city": "Galilee",
+      "wikidata": "Q501773",
+      "lat": 32.90995,
+      "lon": 35.630536,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bethsaida, also known as Julias or Julia, is a place mentioned in the New Testament.",
+        "es": "Betsaida, Bethsaida o Betseda es el nombre de una ciudad de la Palestina romana mencionada por Flavio Josefo y en el Nuevo Testamento."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bethsaida",
+          "url": "https://en.wikipedia.org/wiki/Bethsaida"
+        },
+        "es": {
+          "title": "Betsaida",
+          "url": "https://es.wikipedia.org/wiki/Betsaida"
+        }
+      },
+      "image": {
+        "file": "Ruins_of_Bethsaida_village_in_summer_2011_(7).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ruins_of_Bethsaida_village_in_summer_2011_(7).JPG",
+        "author": "Chmee2",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "il-gehenna",
+      "name": "Gehenna",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q558093",
+      "lat": 31.769167,
+      "lon": 35.228056,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Gehenna or Gehinnom is a Biblical toponym that has acquired various theological connotations, including as a place of divine punishment, in Jewish eschatology.",
+        "es": "Gehena (en griego: Geena ; en hebreo: Gai Ben Hinnom En el judaísmo, el infierno es un lugar de purificación para el malvado, en el que la mayoría de los castigados permanecen hasta un año, aunque algunos lo están…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gehenna",
+          "url": "https://en.wikipedia.org/wiki/Gehenna"
+        },
+        "es": {
+          "title": "Gehena",
+          "url": "https://es.wikipedia.org/wiki/Gehena"
+        }
+      },
+      "image": {
+        "file": "11-3000-115_גיא_בן_הינום_5.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:11-3000-115_%D7%92%D7%99%D7%90_%D7%91%D7%9F_%D7%94%D7%99%D7%A0%D7%95%D7%9D_5.jpg",
+        "author": "Michal Levinsky",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-yavne",
+      "name": "Yavne",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "wikidata": "Q167677",
+      "lat": 31.883333,
+      "lon": 34.733333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Yavne is a city in the Central District of Israel.",
+        "es": "Yavne o Jamnia es una ciudad del distrito Central de Israel."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Yavne",
+          "url": "https://en.wikipedia.org/wiki/Yavne"
+        },
+        "es": {
+          "title": "Yavne",
+          "url": "https://es.wikipedia.org/wiki/Yavne"
+        }
+      },
+      "image": {
+        "file": "Yavne_panoramic_view2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yavne_panoramic_view2.JPG",
+        "author": "Municipality of Yavne",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "il-tel-hazor",
+      "name": "Tel Hazor",
+      "area": "Northern District",
+      "city": "Northern District",
+      "wikidata": "Q740138",
+      "lat": 33.018333,
+      "lon": 35.569167,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Tel Hazor, translated in LXX as Hasōr, and in Arabic Tell Waqqas or Tell Qedah el-Gul, is an archaeological tell at the site of ancient Hazor, located in the Upper Galilee, north of the Sea of Galilee, in the…",
+        "es": "Jasor o Hazor era una ciudad antigua ubicada en la parte superior de Galilea, al norte del mar de Galilea, entre Ramah y Kadesh, en los terrenos altos que sobrevuelan el lago Merom."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tel Hazor",
+          "url": "https://en.wikipedia.org/wiki/Tel_Hazor"
+        },
+        "es": {
+          "title": "Jasor",
+          "url": "https://es.wikipedia.org/wiki/Jasor"
+        }
+      },
+      "image": {
+        "file": "Tel_hatzor.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tel_hatzor.JPG",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "il-meron",
+      "name": "Meron",
+      "area": "Safed",
+      "city": "Safed",
+      "wikidata": "Q540520",
+      "lat": 32.9975,
+      "lon": 35.412222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Meron, also known as Mount Jarmaq or Jebel Jarmaq, is a mountain in the Upper Galilee region of Israel.",
+        "es": "El monte Merón es una montaña de Israel, en Oriente Próximo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Meron",
+          "url": "https://en.wikipedia.org/wiki/Mount_Meron"
+        },
+        "es": {
+          "title": "Monte Merón",
+          "url": "https://es.wikipedia.org/wiki/Monte_Mer%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Northern_slope_of_Mount_Meron.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Northern_slope_of_Mount_Meron.jpg",
+        "author": "Lior Golgher • ליאור גולגר",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-western-wall-plaza",
+      "name": "Western Wall Plaza",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q24009481",
+      "lat": 31.776481,
+      "lon": 35.233667,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Western Wall Plaza is a large public square situated adjacent to the Western Wall in the Jewish Quarter of the Old City of Jerusalem, Israel.",
+        "es": "Plaza del Muro de las Lamentaciones es una plaza en el Barrio Judío de la Ciudad vieja de Jerusalén junto al Muro de los Lamentaciones que está situado en el lado oriental de la plaza."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Western Wall Plaza",
+          "url": "https://en.wikipedia.org/wiki/Western_Wall_Plaza"
+        },
+        "es": {
+          "title": "Plaza del Muro de las Lamentaciones",
+          "url": "https://es.wikipedia.org/wiki/Plaza_del_Muro_de_las_Lamentaciones"
+        }
+      },
+      "image": {
+        "file": "Dome_of_the_rock-Wailing_wall.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dome_of_the_rock-Wailing_wall.jpg",
+        "author": "Sustructu stitched by Marku1988 This image was created with Hugin.",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "il-victims-of-acts-of-terror-memorial",
+      "name": "Victims of Acts of Terror Memorial",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q2916616",
+      "lat": 31.774992,
+      "lon": 35.178017,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Victims of Acts of Terror Memorial in Israel is a monument to civilian Jewish and non-Jewish victims of terrorism in modern Israel and the pre-state Land of Israel, from 1851 to the present.",
+        "es": "Monumento a las Víctimas del Terrorismo en Israel es un monumento a todas las víctimas del terrorismo en Israel, de 1851 en adelante."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Victims of Acts of Terror Memorial",
+          "url": "https://en.wikipedia.org/wiki/Victims_of_Acts_of_Terror_Memorial"
+        },
+        "es": {
+          "title": "Monumento a las víctimas del terrorismo en Israel",
+          "url": "https://es.wikipedia.org/wiki/Monumento_a_las_v%C3%ADctimas_del_terrorismo_en_Israel"
+        }
+      },
+      "image": {
+        "file": "אנדרטת_חללי_הטרור_-_הר_הרצל_6.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D7%90%D7%A0%D7%93%D7%A8%D7%98%D7%AA_%D7%97%D7%9C%D7%9C%D7%99_%D7%94%D7%98%D7%A8%D7%95%D7%A8_-_%D7%94%D7%A8_%D7%94%D7%A8%D7%A6%D7%9C_6.jpg",
+        "author": "פארוק",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-white-city",
+      "name": "White City",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "wikidata": "Q159070",
+      "lat": 32.077778,
+      "lon": 34.773889,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The White City is a collection of over 4,000 buildings in Tel Aviv from the 1930s built in a unique form of the International Style, commonly known as Bauhaus, by German Jewish architects who fled to the British…",
+        "es": "La Ciudad Blanca se refiere a un conjunto de más de 4000 edificios de la Bauhaus o en estilo internacional construidos en Tel Aviv desde los años treinta por arquitectos judíos alemanes que emigraron al Mandato…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "White City, Tel Aviv",
+          "url": "https://en.wikipedia.org/wiki/White_City%2C_Tel_Aviv"
+        },
+        "es": {
+          "title": "Ciudad Blanca de Tel Aviv",
+          "url": "https://es.wikipedia.org/wiki/Ciudad_Blanca_de_Tel_Aviv"
+        }
+      },
+      "image": {
+        "file": "Tel_Aviv_Ben_Gurion_-_Emil_Zola_2011.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tel_Aviv_Ben_Gurion_-_Emil_Zola_2011.jpg",
+        "author": "Elekhh",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-ein-gedi",
+      "name": "Ein Gedi",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q1011544",
+      "website": "https://www.parks.org.il/reserve-park/שמורת-טבע-עין-גדי/",
+      "lat": 31.466667,
+      "lon": 35.394444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ein Gedi, also spelled En Gedi, meaning \"spring of the kid\", is an oasis and a nature reserve in Israel, located west of the Dead Sea, near Masada and the Qumran Caves.",
+        "es": "Ein Gedi es un oasis situado en Israel en la ribera oeste del mar Muerto, cerca de Masada y de las cuevas de Qumrán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ein Gedi Nature Reserve",
+          "url": "https://en.wikipedia.org/wiki/Ein_Gedi_Nature_Reserve"
+        },
+        "es": {
+          "title": "Ein Guedi",
+          "url": "https://es.wikipedia.org/wiki/Ein_Guedi"
+        }
+      },
+      "image": {
+        "file": "En_Gedi_Waterfall.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:En_Gedi_Waterfall.jpg",
+        "author": "Grauesel",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-pool-of-bethesda",
+      "name": "Pool of Bethesda",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q831297",
+      "lat": 31.781389,
+      "lon": 35.235833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Pool of Bethesda is referred to in John's Gospel in the Christian New Testament, in an account of Jesus healing a paralyzed man at a pool of water in Jerusalem, described as being near the Sheep Gate and…",
+        "es": "El Estanque de Betesda o de Betzatá es un antiguo conjunto de piscinas situado en Jerusalén conocido por ser el lugar donde Jesús de Nazaret sanó milagrosamente a un paralítico, según se relata en el Evangelio de Juan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pool of Bethesda",
+          "url": "https://en.wikipedia.org/wiki/Pool_of_Bethesda"
+        },
+        "es": {
+          "title": "Estanque de Betesda",
+          "url": "https://es.wikipedia.org/wiki/Estanque_de_Betesda"
+        }
+      },
+      "image": {
+        "file": "Jerusalem_Bethesda_BW_1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem_Bethesda_BW_1.JPG",
+        "author": "Berthold Werner",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "il-aelia-capitolina",
+      "name": "Aelia Capitolina",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q1250874",
+      "lat": 31.775689,
+      "lon": 35.23104,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Aelia Capitolina was a Roman colony founded during the Roman emperor Hadrian's visit to Judaea in 129/130 CE.",
+        "es": "Aelia Capitolina era una ciudad construida por el emperador Adriano en el año 131 para ser ocupada como colonia, posición diferente a la de polis; la levantó sobre la antigua Jerusalén, que estaba en ruinas cuando él…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aelia Capitolina",
+          "url": "https://en.wikipedia.org/wiki/Aelia_Capitolina"
+        },
+        "es": {
+          "title": "Aelia Capitolina",
+          "url": "https://es.wikipedia.org/wiki/Aelia_Capitolina"
+        }
+      },
+      "image": {
+        "file": "Jerusalem_map.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem_map.png",
+        "author": "Dr. Blofeld",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "il-basilica-of-the-annunciation",
+      "name": "Basilica of the Annunciation",
+      "area": "Nazareth",
+      "city": "Nazareth",
+      "wikidata": "Q130815",
+      "website": "https://www.custodia.org/it/santuari/nazaret-basilica-dellannunciazione/",
+      "lat": 32.70214,
+      "lon": 35.29769,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of the Annunciation, sometimes also referred to as the Basilica of the Annunciation, is a Catholic church in Nazareth, in northern Israel.",
+        "es": "La Basílica de la Anunciación es una iglesia católica situada en la ciudad de Nazaret, en el norte de Israel."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica of the Annunciation",
+          "url": "https://en.wikipedia.org/wiki/Basilica_of_the_Annunciation"
+        },
+        "es": {
+          "title": "Basílica de la Anunciación",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_la_Anunciaci%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Nazaret_Verkuendigungsbasilika_BW_16.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nazaret_Verkuendigungsbasilika_BW_16.JPG",
+        "author": "Berthold Werner",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "il-timna-valley",
+      "name": "Timna valley",
+      "area": "Southern District",
+      "city": "Southern District",
+      "wikidata": "Q1973199",
+      "lat": 29.787778,
+      "lon": 34.988889,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Timna Valley is located in southern Israel in the southwestern Arava/Arabah, approximately 30 kilometres north of the Gulf of Aqaba and the city of Eilat.",
+        "es": "El valle de Timna es una zona de alto valor arqueológico situada en el desierto del Néguev, Israel, unos 30 km al norte de Eilat."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Timna Valley",
+          "url": "https://en.wikipedia.org/wiki/Timna_Valley"
+        },
+        "es": {
+          "title": "Valle de Timna",
+          "url": "https://es.wikipedia.org/wiki/Valle_de_Timna"
+        }
+      },
+      "image": {
+        "file": "Mushroom_in_Timna_Park_in_summer_2011_(1).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mushroom_in_Timna_Park_in_summer_2011_(1).JPG",
+        "author": "Chmee2",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "il-mosque-of-omar",
+      "name": "Mosque of Omar",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q2151217",
+      "lat": 31.777836,
+      "lon": 35.229589,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mosque of Omar is a mosque, located inside the Old City of Jerusalem.",
+        "es": "La Mezquita de Omar es un lugar de culto islámico dentro de la Ciudad Vieja de Jerusalén."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mosque of Omar (Jerusalem)",
+          "url": "https://en.wikipedia.org/wiki/Mosque_of_Omar_(Jerusalem)"
+        },
+        "es": {
+          "title": "Mezquita de Omar (Jerusalén)",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_de_Omar_(Jerusal%C3%A9n)"
+        }
+      },
+      "image": {
+        "file": "Umar_Mosque,Jerusalem123.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Umar_Mosque%2CJerusalem123.jpg",
+        "author": "Usmanreddy at en.wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-magdala",
+      "name": "Magdala",
+      "area": "Northern District",
+      "city": "Northern District",
+      "wikidata": "Q4880851",
+      "website": "https://www.magdala.org",
+      "lat": 32.839167,
+      "lon": 35.5075,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Magdala was an ancient Jewish city on the shore of the Sea of Galilee, 5 km north of Tiberias.",
+        "es": "Magdala fue una ciudad judía situada en la orilla occidental del Lago de Genesaret que floreció sobre todo desde el siglo II a."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Magdala",
+          "url": "https://en.wikipedia.org/wiki/Magdala"
+        },
+        "es": {
+          "title": "Magdala",
+          "url": "https://es.wikipedia.org/wiki/Magdala"
+        }
+      },
+      "image": {
+        "file": "Ortsschild_Magdala.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ortsschild_Magdala.jpg",
+        "author": "Giorno2",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-cenacle",
+      "name": "Cenacle",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q318972",
+      "lat": 31.771764,
+      "lon": 35.229167,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cenacle, also known as the Upper Room, is a room in Mount Zion in Jerusalem, just outside the Old City walls, traditionally held to be the site of the Last Supper, the final meal that, in the Gospel accounts,…",
+        "es": "El Cenáculo es el lugar de Jerusalén donde, según el Nuevo Testamento, Jesús celebró con los apóstoles la Institución de la Eucaristía durante la Última Cena de su vida, antes de morir en la cruz, y lugar donde se…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cenacle",
+          "url": "https://en.wikipedia.org/wiki/Cenacle"
+        },
+        "es": {
+          "title": "Cenáculo",
+          "url": "https://es.wikipedia.org/wiki/Cen%C3%A1culo"
+        }
+      },
+      "image": {
+        "file": "PikiWiki_Israel_73793_mount_zion_jerusalem.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_73793_mount_zion_jerusalem.jpg",
+        "author": "אושרה דיין",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "il-sepphoris",
+      "name": "Sepphoris",
+      "area": "Northern District",
+      "city": "Northern District",
+      "wikidata": "Q1132798",
+      "lat": 32.753056,
+      "lon": 35.279167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sepphoris, known in Hebrew as Tzipori and in Arabic as Saffuriya, is one of the most excavated and studied archaeological sites in Israel.",
+        "es": "Séforis, Seforis, Sephoris o Sepforis es una antigua ciudad de Galilea, actualmente en el Estado de Israel."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sepphoris",
+          "url": "https://en.wikipedia.org/wiki/Sepphoris"
+        },
+        "es": {
+          "title": "Séforis",
+          "url": "https://es.wikipedia.org/wiki/S%C3%A9foris"
+        }
+      },
+      "image": {
+        "file": "Face_in_mosaic.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Face_in_mosaic.JPG",
+        "author": "No machine-readable author provided. Bachrach44 assumed (based on copyright clai",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "il-gezer",
+      "name": "Gezer",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "wikidata": "Q1466687",
+      "lat": 31.859872,
+      "lon": 34.919644,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Gezer is an archaeological site in the foothills of the Judaean Mountains at the border of the Shephelah roughly midway between Jerusalem and Tel Aviv in central Israel.",
+        "es": "Gézer fue una ciudad del antiguo Israel. Actualmente se la identifica en general con el Tell Gézer, que se encuentra aproximadamente a mitad de camino entre Jerusalén y Tel Aviv."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gezer",
+          "url": "https://en.wikipedia.org/wiki/Gezer"
+        },
+        "es": {
+          "title": "Gézer",
+          "url": "https://es.wikipedia.org/wiki/G%C3%A9zer"
+        }
+      }
+    },
+    {
+      "id": "il-ekron",
+      "name": "Ekron",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "wikidata": "Q1323557",
+      "lat": 31.778889,
+      "lon": 34.851111,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ekron, in the Hellenistic period known as Accaron was at first a Canaanite, and later more famously a Philistine city, one of the five cities of the Philistine Pentapolis, located in present-day Israel.",
+        "es": "Ecrón fue una de las cinco antiguas ciudades de la Pentápolis filistea ubicada en el suroeste de Canaán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ekron",
+          "url": "https://en.wikipedia.org/wiki/Ekron"
+        },
+        "es": {
+          "title": "Ecrón",
+          "url": "https://es.wikipedia.org/wiki/Ecr%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "PikiWiki_Israel_5617_phillistine_street_in_revadim.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_5617_phillistine_street_in_revadim.jpg",
+        "author": "אבישי טייכר",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "il-gath",
+      "name": "Gath",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q1348441",
+      "lat": 31.69972,
+      "lon": 34.84694,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Gath or Gat was one of the five cities of the Philistine pentapolis during the Iron Age.",
+        "es": "Gat era una de las cinco ciudades estado filisteas, situada al noroeste de la zona controlada por estos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gath (city)",
+          "url": "https://en.wikipedia.org/wiki/Gath_(city)"
+        },
+        "es": {
+          "title": "Gat",
+          "url": "https://es.wikipedia.org/wiki/Gat"
+        }
+      },
+      "image": {
+        "file": "Tel-Tsafit-206.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tel-Tsafit-206.jpg",
+        "author": "Bukvoed",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "il-incense-route-desert-cities-in-the-negev",
+      "name": "Incense Route – Desert Cities in the Negev",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q477578",
+      "lat": 31.0975,
+      "lon": 34.657778,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Incense Route – Desert Cities in the Negev is a World Heritage-designated area near the end of the Incense Route in the Negev, southern Israel, which connected Arabia to the Mediterranean in the Hellenistic-Roman…",
+        "es": "La ruta del incienso – Ciudades del desierto de Néguev es un itinerario declarado Patrimonio de la Humanidad en el Néguev, en el sur de Israel."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Incense Route – Desert Cities in the Negev",
+          "url": "https://en.wikipedia.org/wiki/Incense_Route_%E2%80%93_Desert_Cities_in_the_Negev"
+        },
+        "es": {
+          "title": "Ruta del incienso - Ciudades del desierto de Néguev",
+          "url": "https://es.wikipedia.org/wiki/Ruta_del_incienso_-_Ciudades_del_desierto_de_N%C3%A9guev"
+        }
+      },
+      "image": {
+        "file": "Shivta_ruins_in_the_Negev.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Shivta_ruins_in_the_Negev.jpg",
+        "author": "Urij at English Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-beit-she-arim-national-park",
+      "name": "Beit She'arim National Park",
+      "area": "Kiryat Tiv'on",
+      "city": "Kiryat Tiv'on",
+      "wikidata": "Q830805",
+      "lat": 32.704167,
+      "lon": 35.128056,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Beit She'arim Necropolis is an extensive rock-cut necropolis located near the ancient Jewish town of Beit She'arim, 20 km east of Haifa in the southern foothills of the Lower Galilee.",
+        "es": "El parque nacional Beit She'arim, también conocido como Beth Shearim o Besara, literalmente La Casa de las puertas, es un sitio arqueológico de un pueblo judío y un gran número de antiguas tumbas judías excavadas en…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Beit She'arim necropolis",
+          "url": "https://en.wikipedia.org/wiki/Beit_She'arim_necropolis"
+        },
+        "es": {
+          "title": "Parque nacional Beit She'arim",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Beit_She'arim"
+        }
+      },
+      "image": {
+        "file": "Cave_of_coffins.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cave_of_coffins.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-habima-theatre",
+      "name": "Habima Theatre",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "wikidata": "Q555750",
+      "lat": 32.072694,
+      "lon": 34.779,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Habima Theatre is the national theatre of Israel and one of the first Hebrew language theatres.",
+        "es": "El Teatro Nacional Habima es el teatro nacional de Israel y uno de los primeros teatros que llevó a la escena piezas tanto en idioma ídish como en hebreo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Habima Theatre",
+          "url": "https://en.wikipedia.org/wiki/Habima_Theatre"
+        },
+        "es": {
+          "title": "Teatro Nacional Habima",
+          "url": "https://es.wikipedia.org/wiki/Teatro_Nacional_Habima"
+        }
+      },
+      "image": {
+        "file": "Habima_Theatre_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Habima_Theatre_(cropped).jpg",
+        "author": "StateofIsrael",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "il-abdah",
+      "name": "Abdah",
+      "area": "Southern District",
+      "city": "Southern District",
+      "wikidata": "Q791665",
+      "website": "https://en.parks.org.il/reserve-park/avdat-national-park/",
+      "lat": 30.795,
+      "lon": 34.775,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Avdat or Ovdat, and Abdah or Abde, are the modern names of an archaeological site corresponding to the ancient Nabataean, Roman and Byzantine settlement of Oboda or Eboda in the Negev desert in southern Israel.",
+        "es": "La ciudad de Avdat también conocida como Ovdat, es una de las Ciudades del desierto de Néguev, declaradas Patrimonio de la Humanidad por la Unesco en 2005."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Avdat",
+          "url": "https://en.wikipedia.org/wiki/Avdat"
+        },
+        "es": {
+          "title": "Avdat",
+          "url": "https://es.wikipedia.org/wiki/Avdat"
+        }
+      },
+      "image": {
+        "file": "Aerial_photograph_of_Avdat,_Israel,_Sept._2007.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_Avdat%2C_Israel%2C_Sept._2007.jpg",
+        "author": "Created by משתמש:אסף.צ uploaded Daniel.baranek",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "il-lachish",
+      "name": "Lachish",
+      "area": "Southern District",
+      "city": "Southern District",
+      "wikidata": "Q848509",
+      "lat": 31.565278,
+      "lon": 34.849167,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Lachish was an ancient Canaanite and later Israelite city in the Shephelah region of Canaan on the south bank of the Lakhish River.",
+        "es": "Laquis o Laquís fue una antigua ciudad de Judá, situada en la Sefelá, e identificada en la actualidad con Tell ed-Duweir, un tell rodeado de valles situado unos 24 km al oeste de Hebrón."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tel Lachish",
+          "url": "https://en.wikipedia.org/wiki/Tel_Lachish"
+        },
+        "es": {
+          "title": "Laquis",
+          "url": "https://es.wikipedia.org/wiki/Laquis"
+        }
+      },
+      "image": {
+        "file": "LachishFrontGate.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:LachishFrontGate.jpg",
+        "author": "Wilson44691",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-pool-of-siloam",
+      "name": "Pool of Siloam",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q1483483",
+      "lat": 31.770556,
+      "lon": 35.235,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The term Pool of Siloam refers to several rock-cut pools located southeast of the walls of the Old City of Jerusalem.",
+        "es": "La piscina de Siloé o estanque de Siloé es una piscina excavada en la roca al sur de la zona conocida como Ciudad de David en Jerusalén."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pool of Siloam",
+          "url": "https://en.wikipedia.org/wiki/Pool_of_Siloam"
+        },
+        "es": {
+          "title": "Piscina de Siloé",
+          "url": "https://es.wikipedia.org/wiki/Piscina_de_Silo%C3%A9"
+        }
+      },
+      "image": {
+        "file": "Brockhaus_and_Efron_Jewish_Encyclopedia_e14_213-0.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brockhaus_and_Efron_Jewish_Encyclopedia_e14_213-0.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "il-church-of-all-nations",
+      "name": "Church of All Nations",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q1331689",
+      "website": "https://www.custodia.org/it/santuari/getsemani-basilica-dellagonia/",
+      "lat": 31.779227,
+      "lon": 35.239628,
+      "phone": "+972026266444",
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of All Nations, also known as the Church of Gethsemane or the Basilica of the Agony, is a Catholic church located on the Mount of Olives in East Jerusalem, next to the Garden of Gethsemane.",
+        "es": "La Basílica de Getsemaní, también conocida como Basílica de las Naciones o de la Agonía, es un templo católico situado en el Monte de los Olivos de Jerusalén, junto al jardín de Getsemaní."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of All Nations",
+          "url": "https://en.wikipedia.org/wiki/Church_of_All_Nations"
+        },
+        "es": {
+          "title": "Basílica de Getsemaní",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_Getseman%C3%AD"
+        }
+      },
+      "image": {
+        "file": "Church_of_all_Nations.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Church_of_all_Nations.jpg",
+        "author": "Karsten Müller, User Etc. gamma on de.wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "il-mount-of-olives-jewish-cemetery",
+      "name": "Mount of Olives Jewish Cemetery",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q12404547",
+      "lat": 31.773839,
+      "lon": 35.243069,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Jewish Cemetery on the Mount of Olives is the oldest and most important Jewish cemetery in Jerusalem.",
+        "es": "El Cementerio judío del Monte de los Olivos es el más antiguo y más importante cementerio de Jerusalén."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount of Olives Jewish Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Mount_of_Olives_Jewish_Cemetery"
+        },
+        "es": {
+          "title": "Cementerio judío del Monte de los Olivos",
+          "url": "https://es.wikipedia.org/wiki/Cementerio_jud%C3%ADo_del_Monte_de_los_Olivos"
+        }
+      }
+    },
+    {
+      "id": "il-shivta",
+      "name": "Shivta",
+      "area": "Southern District",
+      "city": "Southern District",
+      "wikidata": "Q2037692",
+      "lat": 30.88,
+      "lon": 34.63,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Shivta, originally Sobata or Subeita, is an ancient city in the Negev Desert of Israel located 43 kilometers southwest of Beersheba.",
+        "es": "Shivta, Sobota, Subeitah o Subaytah, es un sitio arqueológico que se encuentra en el desierto del Néguev, al sur de Israel y al este de Nitzana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shivta",
+          "url": "https://en.wikipedia.org/wiki/Shivta"
+        },
+        "es": {
+          "title": "Shivta",
+          "url": "https://es.wikipedia.org/wiki/Shivta"
+        }
+      }
+    },
+    {
+      "id": "il-church-of-the-pater-noster",
+      "name": "Church of the Pater Noster",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q588849",
+      "website": "https://www.carmeldejerusalem.com/en",
+      "lat": 31.778078,
+      "lon": 35.245192,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of the Pater Noster is a Catholic church located on the Mount of Olives in Jerusalem.",
+        "es": "La Iglesia del Pater Noster también conocido como el santuario de Eleona, es una iglesia católica parcialmente reconstruida ubicada en el Monte de los Olivos, al norte de las tumbas de los profetas, en Jerusalén."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of the Pater Noster",
+          "url": "https://en.wikipedia.org/wiki/Church_of_the_Pater_Noster"
+        },
+        "es": {
+          "title": "Iglesia del Pater Noster",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_del_Pater_Noster"
+        }
+      },
+      "image": {
+        "file": "Eglise_Pater_Noster1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eglise_Pater_Noster1.JPG",
+        "author": "W. Robrecht",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-antipatris",
+      "name": "Antipatris",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "wikidata": "Q682612",
+      "lat": 32.105,
+      "lon": 34.930417,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Antipatris was a city built during the first century BC by Herod the Great, who named it in honour of his father, Antipater.",
+        "es": "Antípatris o Antipatro es uno de los dos lugares conocidos como Tel Afek."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Antipatris",
+          "url": "https://en.wikipedia.org/wiki/Antipatris"
+        },
+        "es": {
+          "title": "Antipatris",
+          "url": "https://es.wikipedia.org/wiki/Antipatris"
+        }
+      },
+      "image": {
+        "file": "Afek_IMG_8217.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Afek_IMG_8217.JPG",
+        "author": "Deror avi",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-acra",
+      "name": "Acra",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q1275701",
+      "lat": 31.772616,
+      "lon": 35.235944,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Acra, meaning \"stronghold\", was a location in Jerusalem thought to have contained a fortified compound built by Antiochus Epiphanes, ruler of the Seleucid Empire, following his sack of the city in 168 BCE.",
+        "es": "El Acra era un recinto fortificado construido en Jerusalén por Antíoco IV Epífanes, rey del Imperio Seléucida, después del saqueo de la ciudad en 168 a."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Acra (fortress)",
+          "url": "https://en.wikipedia.org/wiki/Acra_(fortress)"
+        },
+        "es": {
+          "title": "Acra (fortaleza)",
+          "url": "https://es.wikipedia.org/wiki/Acra_(fortaleza)"
+        }
+      },
+      "image": {
+        "file": "Temple_Mount_southern_wall_200509.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Temple_Mount_southern_wall_200509.jpg",
+        "author": "Oren Rozen",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-dan",
+      "name": "Dan",
+      "area": "Northern District",
+      "city": "Northern District",
+      "wikidata": "Q1346856",
+      "lat": 33.249,
+      "lon": 35.652,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Dan, and older name Laish, is an ancient city mentioned in the Hebrew Bible, described as the northernmost city of the Kingdom of Israel, and belonging to the tribe of Dan, its namesake.",
+        "es": "Tel Dan, también conocida como Tel el-Qadi, es un yacimiento arqueológico en Galilea, Israel, próximo a las alturas del Golán, seguramente sobre la antigua ciudad bíblica de Dan, límite norte del Reino de Israel,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dan (ancient city)",
+          "url": "https://en.wikipedia.org/wiki/Dan_(ancient_city)"
+        },
+        "es": {
+          "title": "Tel Dan",
+          "url": "https://es.wikipedia.org/wiki/Tel_Dan"
+        }
+      },
+      "image": {
+        "file": "Tel_Dan_-_Israelite_Gate.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tel_Dan_-_Israelite_Gate.jpg",
+        "author": "en:User:Adrianlw",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "il-hezekiah-s-tunnel",
+      "name": "Hezekiah's Tunnel",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q1620682",
+      "lat": 31.772358,
+      "lon": 35.235673,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The newer Siloam Tunnel, also known as Hezekiah's Tunnel, is a water tunnel that was carved within the City of David in ancient times, now located in the Arab neighborhood of Silwan in eastern Jerusalem.",
+        "es": "El túnel de Ezequías o túnel de Siloé se encuentra en la ciudad de Jerusalén; lleva el agua de la fuente del Gihón a la piscina de Siloé."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Siloam tunnel",
+          "url": "https://en.wikipedia.org/wiki/Siloam_tunnel"
+        },
+        "es": {
+          "title": "Túnel de Ezequías",
+          "url": "https://es.wikipedia.org/wiki/T%C3%BAnel_de_Ezequ%C3%ADas"
+        }
+      },
+      "image": {
+        "file": "Siloam50.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Siloam50.jpg",
+        "author": "Tamar Hayardeni תמר הירדני",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "il-al-aqsa-mosque",
+      "name": "Al-Aqsa Mosque",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q12192963",
+      "lat": 31.776111,
+      "lon": 35.235833,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Aqsa Mosque, also known as the Qibli Mosque, is the main congregational mosque or prayer hall in the Al-Aqsa mosque compound in the Old City of Jerusalem.",
+        "es": "La mezquita de Al-Aqsa o mezquita de Qibli, también llamada mezquita de Jerusalén[cita requerida] es parte del complejo religioso de la Explanada de las Mezquitas de la ciudad santa de Jerusalén."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Al-Aqsa Mosque",
+          "url": "https://en.wikipedia.org/wiki/Al-Aqsa_Mosque"
+        },
+        "es": {
+          "title": "Mezquita de Al-Aqsa",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_de_Al-Aqsa"
+        }
+      },
+      "image": {
+        "file": "Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_(NE_exposure).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_(NE_exposure).jpg",
+        "author": "Godot13",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "il-dome-of-the-rock",
+      "name": "Dome of the Rock",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q172077",
+      "lat": 31.778056,
+      "lon": 35.235278,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Dome of the Rock is an octagonal Islamic shrine at the center of the Al-Aqsa mosque compound on the Temple Mount in the Old City of Jerusalem.",
+        "es": "La Cúpula de la Roca o el Domo de la Roca es un monumento situado en Jerusalén, en el centro del Monte del Templo o Explanada de las Mezquitas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dome of the Rock",
+          "url": "https://en.wikipedia.org/wiki/Dome_of_the_Rock"
+        },
+        "es": {
+          "title": "Cúpula de la Roca",
+          "url": "https://es.wikipedia.org/wiki/C%C3%BApula_de_la_Roca"
+        }
+      }
+    },
+    {
+      "id": "il-western-wall",
+      "name": "Western Wall",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q134821",
+      "website": "https://thekotel.org/he",
+      "lat": 31.776947,
+      "lon": 35.23425,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Western Wall is an ancient retaining wall of the built-up hill known to Jews and Christians as the Temple Mount of Jerusalem.",
+        "es": "El Muro de las Lamentaciones o Muro de los Lamentos (en hebreo: הַכֹּתֶל הַמַעֲרָבִי‎ [Hakótel Hama'araví], es el lugar más sagrado del judaísmo, vestigio del Templo de Jerusalén."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Western Wall",
+          "url": "https://en.wikipedia.org/wiki/Western_Wall"
+        },
+        "es": {
+          "title": "Muro de las Lamentaciones",
+          "url": "https://es.wikipedia.org/wiki/Muro_de_las_Lamentaciones"
+        }
+      }
+    },
+    {
+      "id": "il-temple-in-jerusalem",
+      "name": "Temple in Jerusalem",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q3906600",
+      "lat": 31.777778,
+      "lon": 35.235556,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Temple in Jerusalem, or alternatively the Holy Temple, refers to the two religious structures that served as the central places of worship for Israelites and Jews on the Temple Mount in the Old City of Jerusalem.",
+        "es": "El templo del Jerusalén se refiere a las dos estructuras religiosas que sirvieron como lugares centrales de culto para los israelitas y los judíos en el Monte del Templo de la Ciudad Vieja de Jerusalén."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Temple in Jerusalem",
+          "url": "https://en.wikipedia.org/wiki/Temple_in_Jerusalem"
+        },
+        "es": {
+          "title": "Templo de Jerusalén",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_Jerusal%C3%A9n"
+        }
+      },
+      "image": {
+        "file": "Israel_Museum_17311_(14262124886).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Israel_Museum_17311_(14262124886).jpg",
+        "author": "Sarah Murray from South Bend, IN, USA",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "il-church-of-the-nativity",
+      "name": "Church of the Nativity",
+      "area": "Jerusalem",
+      "city": "Jerusalem",
+      "wikidata": "Q194504",
+      "website": "https://www.custodia.org/it/santuari/betlemme",
+      "lat": 31.704306,
+      "lon": 35.207583,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of the Nativity, or Basilica of the Nativity, is a basilica located in Bethlehem, West Bank, Palestine.",
+        "es": "La Basílica de la Natividad, también conocida como Iglesia de la Natividad en Belén es uno de los templos cristianos en uso más antiguos del mundo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of the Nativity",
+          "url": "https://en.wikipedia.org/wiki/Church_of_the_Nativity"
+        },
+        "es": {
+          "title": "Basílica de la Natividad",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_la_Natividad"
+        }
+      },
+      "image": {
+        "file": "Church_of_the_Nativity_(7703592746).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Church_of_the_Nativity_(7703592746).jpg",
+        "author": "Neil Ward",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "il-arsuf",
+      "name": "Arsuf",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "wikidata": "Q1024886",
+      "lat": 32.1952,
+      "lon": 34.8068,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Apollonia, known in the Early Islamic period as Arsuf and in the Crusader Kingdom of Jerusalem as Arsur, was an ancient city on the Mediterranean coast of today's Israel.",
+        "es": "Arsuf fue una antigua ciudad y fortaleza situada en Israel, a unos 15 kilómetros al norte de la actual Tel Aviv, en lo alto de un acantilado al Mar Mediterráneo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Apollonia–Arsuf",
+          "url": "https://en.wikipedia.org/wiki/Apollonia%E2%80%93Arsuf"
+        },
+        "es": {
+          "title": "Arsuf",
+          "url": "https://es.wikipedia.org/wiki/Arsuf"
+        }
+      },
+      "image": {
+        "file": "Apollonia_-_wall.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Apollonia_-_wall.JPG",
+        "author": "Gilgamesh",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-hassan-bek-mosque",
+      "name": "Hassan Bek Mosque",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "wikidata": "Q2914593",
+      "lat": 32.066414,
+      "lon": 34.763492,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Hassan Bek Mosque, also known as the Hasan Bey Mosque, is a mosque in Tel Aviv, in the Central district of Israel.",
+        "es": "The Hassan Bek Mosque, also known as the Hasan Bey Mosque, is a mosque in Tel Aviv, in the Central district of Israel."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hassan Bek Mosque",
+          "url": "https://en.wikipedia.org/wiki/Hassan_Bek_Mosque"
+        },
+        "es": {
+          "title": "Hassan Bek Mosque",
+          "url": "https://en.wikipedia.org/wiki/Hassan_Bek_Mosque"
+        }
+      },
+      "image": {
+        "file": "Hassan_Bek_Mosque,_Tel_Aviv-Jaffa,_2005.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hassan_Bek_Mosque%2C_Tel_Aviv-Jaffa%2C_2005.jpg",
+        "author": "Patrick Jayne and Thomas",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "il-moshe-aviv-tower",
+      "name": "Moshe Aviv Tower",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "wikidata": "Q1093913",
+      "website": "https://avivcomp.co.il/en/project/fully-occupied-projects/moshe-aviv-tower/",
+      "lat": 32.083333,
+      "lon": 34.803889,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Moshe Aviv Tower is a 235-metre-tall skyscraper located in the demarcated area of the Diamond Exchange District on Jabotinsky Road in the Tel Aviv District city of Ramat Gan, Israel.",
+        "es": "La Torre Moshé Aviv, conocida popularmente como City Gate, es un rascacielos ubicado en el Distrito de la Bolsa de Diamantes, en la ciudad de Ramat Gan, en Israel."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Moshe Aviv Tower",
+          "url": "https://en.wikipedia.org/wiki/Moshe_Aviv_Tower"
+        },
+        "es": {
+          "title": "Torre Moshe Aviv",
+          "url": "https://es.wikipedia.org/wiki/Torre_Moshe_Aviv"
+        }
+      },
+      "image": {
+        "file": "Hadmo2006_0603_115301.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hadmo2006_0603_115301.JPG",
+        "author": "Unknown",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "il-rabin-square",
+      "name": "Rabin Square",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "wikidata": "Q2915104",
+      "lat": 32.080833,
+      "lon": 34.780556,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Rabin Square, formerly Kings of Israel Square, is a main large public city square in the center of Tel Aviv, Israel.",
+        "es": "La plaza Rabin, anteriormente plaza de los reyes de Israel, es una gran plaza pública en el centro de Tel Aviv, Israel."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rabin Square",
+          "url": "https://en.wikipedia.org/wiki/Rabin_Square"
+        },
+        "es": {
+          "title": "Plaza Rabin",
+          "url": "https://es.wikipedia.org/wiki/Plaza_Rabin"
+        }
+      },
+      "image": {
+        "file": "Rabin_Squre_eco_pool.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rabin_Squre_eco_pool.jpg",
+        "author": "Ron Henzel",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "il-ariel-sharon-park",
+      "name": "Ariel Sharon Park",
+      "area": "Tel Aviv",
+      "city": "Tel Aviv",
+      "wikidata": "Q9504937",
+      "lat": 32.026925,
+      "lon": 34.824086,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ariel Sharon Park is an Israeli environmental park.",
+        "es": "Parque Ariel Sharon es un gran parque público urbano que está previsto que se construirá en el sur del Área Metropolitana de Tel Aviv, en a la llanura de inundación del Río Ayalon."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ariel Sharon Park",
+          "url": "https://en.wikipedia.org/wiki/Ariel_Sharon_Park"
+        },
+        "es": {
+          "title": "Parque Ariel Sharon",
+          "url": "https://es.wikipedia.org/wiki/Parque_Ariel_Sharon"
+        }
+      },
+      "image": {
+        "file": "Park-Sharon-2014-pic001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Park-Sharon-2014-pic001.jpg",
+        "author": "MathKnight",
+        "license": "CC BY 4.0"
+      }
     }
   ]
 }

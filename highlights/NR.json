@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -66,6 +72,240 @@
       "wikidata": "Q106510196",
       "lat": -0.54511,
       "lon": 166.91479
+    },
+    {
+      "id": "nr-nauru",
+      "name": "Nauru",
+      "area": "Yaren District",
+      "city": "Yaren District",
+      "wikidata": "Q697",
+      "lat": -0.5275,
+      "lon": 166.935,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nauru, officially the Republic of Naoero, is an island country and microstate in the South Pacific Ocean.",
+        "es": "Nauru o Naurú, oficialmente conocida como la República de Nauru, es un país de Oceanía, situado en Micronesia, que comprende una sola isla justo al sur de la línea del ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nauru",
+          "url": "https://en.wikipedia.org/wiki/Nauru"
+        },
+        "es": {
+          "title": "Nauru",
+          "url": "https://es.wikipedia.org/wiki/Nauru"
+        }
+      },
+      "image": {
+        "file": "Coral_reef_on_Nauru.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Coral_reef_on_Nauru.jpg",
+        "author": "d-online",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "nr-buada-lagoon",
+      "name": "Buada Lagoon",
+      "area": "Yaren District",
+      "city": "Yaren District",
+      "wikidata": "Q997345",
+      "lat": -0.535064,
+      "lon": 166.922289,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Buada Lagoon is a landlocked, slightly brackish, freshwater lake of Buada district in the island nation of Nauru.",
+        "es": "La laguna de Buada es una pequeña laguna de 12 hectáreas sin conexión con el mar, de agua dulce levemente salobre, en la isla Nauru."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Buada Lagoon",
+          "url": "https://en.wikipedia.org/wiki/Buada_Lagoon"
+        },
+        "es": {
+          "title": "Laguna de Buada",
+          "url": "https://es.wikipedia.org/wiki/Laguna_de_Buada"
+        }
+      },
+      "image": {
+        "file": "Buada_Lagoon,_Nauru_2007.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Buada_Lagoon%2C_Nauru_2007.jpg",
+        "author": "Lorrie Graham/AusAID",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "nr-moqua-well",
+      "name": "Moqua Well",
+      "area": "Yaren District",
+      "city": "Yaren District",
+      "wikidata": "Q249061",
+      "lat": -0.55,
+      "lon": 166.916667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Moqua Well is a small underground lake in Yaren, Nauru.",
+        "es": "El Moqua Well es un pequeño lago subterráneo de aproximadamente 0,2 hectáreas, situado bajo el distrito de Yaren, de la nación insular del Océano Pacífico, Nauru."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Moqua Well",
+          "url": "https://en.wikipedia.org/wiki/Moqua_Well"
+        },
+        "es": {
+          "title": "Moqua Well",
+          "url": "https://es.wikipedia.org/wiki/Moqua_Well"
+        }
+      },
+      "image": {
+        "file": "Karte_Moqua_Well.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Karte_Moqua_Well.png",
+        "author": "Tschubby",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "nr-command-ridge",
+      "name": "Command Ridge",
+      "area": "Yaren District",
+      "city": "Yaren District",
+      "wikidata": "Q2667931",
+      "lat": -0.530552,
+      "lon": 166.916924,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Command Ridge is considered the highest point of Nauru, with an elevation of 65 metres.",
+        "es": "Command Ridge es una montaña y el punto más alto de Nauru, con 71 metros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Command Ridge",
+          "url": "https://en.wikipedia.org/wiki/Command_Ridge"
+        },
+        "es": {
+          "title": "Command Ridge",
+          "url": "https://es.wikipedia.org/wiki/Command_Ridge"
+        }
+      },
+      "image": {
+        "file": "Nauru-WWIIrelic.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nauru-WWIIrelic.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "nr-moqua-caves",
+      "name": "Moqua Caves",
+      "area": "Yaren District",
+      "city": "Yaren District",
+      "wikidata": "Q3489116",
+      "lat": -0.546544,
+      "lon": 166.921,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Moqua Well is a small underground lake in Yaren, Nauru.",
+        "es": "Moqua son una característica geológica en la nación insular del Océano Pacífico de Nauru."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Moqua Well",
+          "url": "https://en.wikipedia.org/wiki/Moqua_Well"
+        },
+        "es": {
+          "title": "Cuevas Moqua",
+          "url": "https://es.wikipedia.org/wiki/Cuevas_Moqua"
+        }
+      }
+    },
+    {
+      "id": "nr-christ-the-king-church-arubo",
+      "name": "Christ the King Church, Arubo",
+      "area": "Yaren District",
+      "city": "Yaren District",
+      "wikidata": "Q28740164",
+      "lat": -0.505878,
+      "lon": 166.931729,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Christ the King Church Also called the Catholic Church of Christ the King or simply Catholic Church of Arubo, is a religious building affiliated with the Catholic Church located in the town of Arubo in the…",
+        "es": "La Iglesia de Cristo Rey también llamada Iglesia Católica de Cristo Rey o simplemente Iglesia Católica de Arubo es el nombre que recibe un edificio religioso afiliado a la Iglesia Católica que se encuentra ubicado en…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Christ the King Church, Arubo",
+          "url": "https://en.wikipedia.org/wiki/Christ_the_King_Church%2C_Arubo"
+        },
+        "es": {
+          "title": "Iglesia de Cristo Rey (Arubo)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Cristo_Rey_(Arubo)"
+        }
+      },
+      "image": {
+        "file": "Catholic_Church_Arubo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catholic_Church_Arubo.jpg",
+        "author": "No machine-readable author provided. Jakub Łuczak assumed (based on copyright cl",
+        "license": "CC BY-SA 2.5"
+      }
     }
   ]
 }

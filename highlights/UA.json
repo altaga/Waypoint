@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -301,6 +307,3839 @@
       "website": "http://truskavets-city.gov.ua/",
       "lat": 49.28056,
       "lon": 23.505
+    },
+    {
+      "id": "ua-chernobyl",
+      "name": "Chernobyl",
+      "area": "Vyshhorod Raion",
+      "city": "Vyshhorod Raion",
+      "wikidata": "Q129677",
+      "lat": 51.266667,
+      "lon": 30.216667,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Chernobyl, also known as Chornobyl, is a partially abandoned city in Vyshhorod Raion, Kyiv Oblast, Ukraine.",
+        "es": "Chernóbil es una ciudad situada al norte de Ucrania, en la óblast de Kiev, cerca de la frontera con Bielorrusia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chernobyl",
+          "url": "https://en.wikipedia.org/wiki/Chernobyl"
+        },
+        "es": {
+          "title": "Chernóbil",
+          "url": "https://es.wikipedia.org/wiki/Chern%C3%B3bil"
+        }
+      },
+      "image": {
+        "file": "Administrative_center,_Radiation_Control_(11383715816).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Administrative_center%2C_Radiation_Control_(11383715816).jpg",
+        "author": "Clay Gilliland",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "ua-pripyat",
+      "name": "Pripyat",
+      "area": "Kyiv Oblast",
+      "city": "Kyiv Oblast",
+      "wikidata": "Q170456",
+      "lat": 51.406111,
+      "lon": 30.057222,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Pripyat, also known as Prypiat, is an abandoned industrial city in Kyiv Oblast, Ukraine, located near the border with Belarus.",
+        "es": "Prípiat es una ciudad fantasma en la zona de exclusión de Chernóbil al norte de Ucrania en la región de Kiev, cercana a la frontera con Bielorrusia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pripyat",
+          "url": "https://en.wikipedia.org/wiki/Pripyat"
+        },
+        "es": {
+          "title": "Prípiat",
+          "url": "https://es.wikipedia.org/wiki/Pr%C3%ADpiat"
+        }
+      },
+      "image": {
+        "file": "Pripyat_montage.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pripyat_montage.jpg",
+        "author": "Wikiwind (montage); (WT-en) RealLeo at English Wikivoyage (Pripyat CentralSquare",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-kyiv-pechersk-lavra",
+      "name": "Kyiv Pechersk Lavra",
+      "area": "Kyiv",
+      "city": "Kyiv",
+      "wikidata": "Q242711",
+      "lat": 50.434148,
+      "lon": 30.558323,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Kyiv Pechersk Lavra, also known as the Kyiv Monastery of the Caves, is a historic lavra or large monastery of Eastern Christianity that gave its name to the Pecherskyi District where it is located in Kyiv.",
+        "es": "El monasterio de las Cuevas de Kiev es un monasterio cristiano ortodoxo en Kiev."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kyiv Pechersk Lavra",
+          "url": "https://en.wikipedia.org/wiki/Kyiv_Pechersk_Lavra"
+        },
+        "es": {
+          "title": "Monasterio de las Cuevas de Kiev",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_de_las_Cuevas_de_Kiev"
+        }
+      },
+      "image": {
+        "file": "Києво-Печерська_лавра,_вид_з_мосту_Патона.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B8%D1%94%D0%B2%D0%BE-%D0%9F%D0%B5%D1%87%D0%B5%D1%80%D1%81%D1%8C%D0%BA%D0%B0_%D0%BB%D0%B0%D0%B2%D1%80%D0%B0%2C_%D0%B2%D0%B8%D0%B4_%D0%B7_%D0%BC%D0%BE%D1%81%D1%82%D1%83_%D0%9F%D0%B0%D1%82%D0%BE%D0%BD%D0%B0.jpg",
+        "author": "Роман Наумов",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-snake-island",
+      "name": "Snake Island",
+      "area": "Vylkove Urban Hromada",
+      "city": "Vylkove Urban Hromada",
+      "wikidata": "Q155868",
+      "lat": 45.255,
+      "lon": 30.204167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Snake Island, also known as Serpent Island, White Island, Island of Achilles or Zmiinyi Island, is a Ukrainian island located in the Black Sea, near the Danube Delta, with an important role in delimiting Ukrainian…",
+        "es": "La isla de las Serpientes es una isla rocosa situada en el mar Negro, a 45 km de las costas de Rumanía y Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Snake Island (Ukraine)",
+          "url": "https://en.wikipedia.org/wiki/Snake_Island_(Ukraine)"
+        },
+        "es": {
+          "title": "Isla de las Serpientes",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_las_Serpientes"
+        }
+      },
+      "image": {
+        "file": "Селище_Біле,_острів_Зміїний_(2008).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B5%D0%BB%D0%B8%D1%89%D0%B5_%D0%91%D1%96%D0%BB%D0%B5%2C_%D0%BE%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%97%D0%BC%D1%96%D1%97%D0%BD%D0%B8%D0%B9_(2008).jpg",
+        "author": "Фотонак",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-chersonesus",
+      "name": "Chersonesus",
+      "area": "Sevastopol",
+      "city": "Sevastopol",
+      "wikidata": "Q638445",
+      "lat": 44.611627,
+      "lon": 33.493302,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Chersonesus, contracted in medieval Greek to Cherson, was an ancient Greek colony founded approximately 2,500 years ago in the southwestern part of the Crimean Peninsula.",
+        "es": "Quersoneso fue una antigua colonia griega fundada aproximadamente hace unos 2500 años en la parte suroeste de Crimea, conocida como Táurica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chersonesus",
+          "url": "https://en.wikipedia.org/wiki/Chersonesus"
+        },
+        "es": {
+          "title": "Quersoneso (ciudad)",
+          "url": "https://es.wikipedia.org/wiki/Quersoneso_(ciudad)"
+        }
+      },
+      "image": {
+        "file": "Chersonesos_ruins.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chersonesos_ruins.jpg",
+        "author": "Dmitry A. Mottl",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-struve-geodetic-arc",
+      "name": "Struve Geodetic Arc",
+      "area": "Jyväskylä",
+      "city": "Jyväskylä",
+      "wikidata": "Q192243",
+      "lat": 52.289444,
+      "lon": 25.649444,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Struve Geodetic Arc is a chain of survey triangulations stretching from Hammerfest in Norway to the Black Sea, through ten countries and over 2,820 kilometres, which yielded the first accurate measurement of a…",
+        "es": "El Arco geodésico de Struve es un conjunto monumental declarado Patrimonio de la Humanidad por la Unesco en 2005, conformado por una serie de 34 hitos o vértices para mediciones geodésicas repartidos por diez países…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Struve Geodetic Arc",
+          "url": "https://en.wikipedia.org/wiki/Struve_Geodetic_Arc"
+        },
+        "es": {
+          "title": "Arco Geodésico de Struve",
+          "url": "https://es.wikipedia.org/wiki/Arco_Geod%C3%A9sico_de_Struve"
+        }
+      },
+      "image": {
+        "file": "Hammerfest,_fuglenes,_memoriale_per_l'arco_geodetico_di_struve,_misurato_a_partire_da_qui,_colonna_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hammerfest%2C_fuglenes%2C_memoriale_per_l'arco_geodetico_di_struve%2C_misurato_a_partire_da_qui%2C_colonna_02.jpg",
+        "author": "Francesco Bini",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-taras-shevchenko-national-university-of-kyiv",
+      "name": "Taras Shevchenko National University of Kyiv",
+      "area": "Kyiv",
+      "city": "Kyiv",
+      "wikidata": "Q84151",
+      "lat": 50.441903,
+      "lon": 30.511314,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Taras Shevchenko National University of Kyiv is a public university in Kyiv, Ukraine.",
+        "es": "La Universidad Nacional Tarás Shevchenko de Kiev es una universidad ubicada en Kiev, Ucrania, fundada en 1834 como Universidad de San Volodýmyr."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taras Shevchenko National University of Kyiv",
+          "url": "https://en.wikipedia.org/wiki/Taras_Shevchenko_National_University_of_Kyiv"
+        },
+        "es": {
+          "title": "Universidad de Kiev",
+          "url": "https://es.wikipedia.org/wiki/Universidad_de_Kiev"
+        }
+      },
+      "image": {
+        "file": "Universidad_Roja_de_Kiev.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Universidad_Roja_de_Kiev.jpg",
+        "author": "Juanedc",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ua-hoverla",
+      "name": "Hoverla",
+      "area": "Zakarpattia Oblast",
+      "city": "Zakarpattia Oblast",
+      "wikidata": "Q627508",
+      "lat": 48.160278,
+      "lon": 24.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Hoverla, at 2,061 metres, is the highest mountain in Ukraine and part of the Ukrainian Carpathians.",
+        "es": "El monte Hoverla es el pico más alto de los Cárpatos Ucranianos y es el punto más alto de Ucrania, con 2061 metros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hoverla",
+          "url": "https://en.wikipedia.org/wiki/Hoverla"
+        },
+        "es": {
+          "title": "Hoverla",
+          "url": "https://es.wikipedia.org/wiki/Hoverla"
+        }
+      },
+      "image": {
+        "file": "Говерла_2015.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D0%B2%D0%B5%D1%80%D0%BB%D0%B0_2015.JPG",
+        "author": "Olexdj",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ua-maidan-nezalezhnosti",
+      "name": "Maidan Nezalezhnosti",
+      "area": "Kyiv",
+      "city": "Kyiv",
+      "wikidata": "Q863759",
+      "lat": 50.45025,
+      "lon": 30.523889,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Maidan Nezalezhnosti, translated as Independence Square, is the central town square of Kyiv, the capital city of Ukraine.",
+        "es": "La plaza de la Independencia es una plaza situada en la calle Jreshchátyk, en el centro de Kiev, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Maidan Nezalezhnosti",
+          "url": "https://en.wikipedia.org/wiki/Maidan_Nezalezhnosti"
+        },
+        "es": {
+          "title": "Plaza de la Independencia (Kiev)",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_la_Independencia_(Kiev)"
+        }
+      },
+      "image": {
+        "file": "Maidan_Nezalezhnosti_view.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Maidan_Nezalezhnosti_view.jpg",
+        "author": "Juan Antonio Segal",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-syvash-bay",
+      "name": "Syvash Bay",
+      "area": "Kherson Oblast",
+      "city": "Kherson Oblast",
+      "wikidata": "Q1130771",
+      "lat": 46.083333,
+      "lon": 34.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Syvash or Sivash, also known as the Putrid Sea or Rotten Sea, is a large area of shallow lagoons on the western edge of the Sea of Azov.",
+        "es": "El mar de Sivash es un conjunto de marismas y lagunas poco profundas localizadas en la costa occidental del mar de Azov y en la costa nordeste de Crimea, y costa sur del óblast de Jersón en Ucrania, separando la…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Syvash",
+          "url": "https://en.wikipedia.org/wiki/Syvash"
+        },
+        "es": {
+          "title": "Mar de Sivash",
+          "url": "https://es.wikipedia.org/wiki/Mar_de_Sivash"
+        }
+      },
+      "image": {
+        "file": "Старое_(озеро,_Крым).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D0%B5_(%D0%BE%D0%B7%D0%B5%D1%80%D0%BE%2C_%D0%9A%D1%80%D1%8B%D0%BC).jpg",
+        "author": "Пользователь Schrodinger Excidium",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-mariinskyi-palace",
+      "name": "Mariinskyi Palace",
+      "area": "Kyiv",
+      "city": "Kyiv",
+      "wikidata": "Q732489",
+      "lat": 50.448333,
+      "lon": 30.5375,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mariinskyi Palace is the official residence of the president of Ukraine.",
+        "es": "El Palacio Mariyinski o Mariinski está situado en Kiev, es un pintoresco palacio barroco emplazado a orillas del río Dniéper."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mariinskyi Palace",
+          "url": "https://en.wikipedia.org/wiki/Mariinskyi_Palace"
+        },
+        "es": {
+          "title": "Palacio Mariyinski",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Mariyinski"
+        }
+      },
+      "image": {
+        "file": "Маріїнський_палац_в_Києві_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%80%D1%96%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%BF%D0%B0%D0%BB%D0%B0%D1%86_%D0%B2_%D0%9A%D0%B8%D1%94%D0%B2%D1%96_(cropped).jpg",
+        "author": "Roman Naumov",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-saint-michael-s-golden-domed-monastery",
+      "name": "Saint Michael's Golden-Domed Monastery",
+      "area": "Kyiv",
+      "city": "Kyiv",
+      "wikidata": "Q1142386",
+      "lat": 50.455556,
+      "lon": 30.522778,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The St. Michael's Golden-Domed Monastery is a monastery in Kyiv, the capital of Ukraine, dedicated to Saint Michael the Archangel.",
+        "es": "El Monasterio de San Miguel de las Cúpulas Doradas es un monasterio de Kiev."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Michael's Golden-Domed Monastery",
+          "url": "https://en.wikipedia.org/wiki/St._Michael's_Golden-Domed_Monastery"
+        },
+        "es": {
+          "title": "Monasterio de San Miguel de las Cúpulas Doradas",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_de_San_Miguel_de_las_C%C3%BApulas_Doradas"
+        }
+      },
+      "image": {
+        "file": "Chrám_svatého_Michala.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chr%C3%A1m_svat%C3%A9ho_Michala.jpg",
+        "author": "Dezidor",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ua-khortytsia",
+      "name": "Khortytsia",
+      "area": "Zaporizhzhia",
+      "city": "Zaporizhzhia",
+      "wikidata": "Q914907",
+      "lat": 47.82,
+      "lon": 35.1,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Khortytsia is the largest island on the Dnieper River, and is 12.5 km long and up to 2.5 km wide.",
+        "es": "Jórtitsia es la isla fluvial más grande sobre el río Dniéper y forma parte de la reserva natural de Jórtitsia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Khortytsia",
+          "url": "https://en.wikipedia.org/wiki/Khortytsia"
+        },
+        "es": {
+          "title": "Jórtitsia",
+          "url": "https://es.wikipedia.org/wiki/J%C3%B3rtitsia"
+        }
+      },
+      "image": {
+        "file": "Khortytsia_Island_from_space.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Khortytsia_Island_from_space.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ua-khotyn-fortress",
+      "name": "Khotyn Fortress",
+      "area": "Khotyn",
+      "city": "Khotyn",
+      "wikidata": "Q141012",
+      "lat": 48.521944,
+      "lon": 26.498333,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Khotyn Fortress is a fortification complex located on the right bank of the Dniester River in Khotyn, Chernivtsi Oblast of southwestern Ukraine.",
+        "es": "La fortaleza de Jotín es un imponente castillo situado en la orilla derecha del río Dniéster y en la ciudad Jotín del óblast de Chernivtsí, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Khotyn Fortress",
+          "url": "https://en.wikipedia.org/wiki/Khotyn_Fortress"
+        },
+        "es": {
+          "title": "Fortaleza de Jotín",
+          "url": "https://es.wikipedia.org/wiki/Fortaleza_de_Jot%C3%ADn"
+        }
+      },
+      "image": {
+        "file": "73-250-0001_Khotyn_Fortress_RB_18.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:73-250-0001_Khotyn_Fortress_RB_18.jpg",
+        "author": "Rbrechko",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-khan-s-palace",
+      "name": "Khan's Palace",
+      "area": "Bakhchysarai",
+      "city": "Bakhchysarai",
+      "wikidata": "Q743881",
+      "lat": 44.748611,
+      "lon": 33.881944,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Khan's Palace is located in the town of Bakhchysarai, Crimea.",
+        "es": "El Palacio del Kan de Bajchisarái se encuentra en la localidad de Bajchisarái, en la República Autónoma de Crimea."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bakhchysarai Palace",
+          "url": "https://en.wikipedia.org/wiki/Bakhchysarai_Palace"
+        },
+        "es": {
+          "title": "Palacio del Kan de Bajchisarái",
+          "url": "https://es.wikipedia.org/wiki/Palacio_del_Kan_de_Bajchisar%C3%A1i"
+        }
+      },
+      "image": {
+        "file": "Bakhchisarai_Palace2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bakhchisarai_Palace2.jpg",
+        "author": "Tiia Monto",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-arabat-spit",
+      "name": "Arabat Spit",
+      "area": "Zaporizhzhia",
+      "city": "Zaporizhzhia",
+      "wikidata": "Q623684",
+      "lat": 45.7,
+      "lon": 35,
+      "category": "beach",
+      "interests": [
+        "beaches"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Arabat Spit, or Arabat Arrow, is a barrier spit that separates the large, shallow, salty Syvash lagoons from the Sea of Azov.",
+        "es": "La punta de tierra de Arabat es un cordón litoral, extensión de tierra, que sale de la villa de Henichesk en Ucrania hasta la península de Kerch en Crimea."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Arabat Spit",
+          "url": "https://en.wikipedia.org/wiki/Arabat_Spit"
+        },
+        "es": {
+          "title": "Punta de tierra de Arabat",
+          "url": "https://es.wikipedia.org/wiki/Punta_de_tierra_de_Arabat"
+        }
+      },
+      "image": {
+        "file": "Arabat_arrow.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arabat_arrow.jpg",
+        "author": "User:Herostratus",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ua-kakhovka-reservoir",
+      "name": "Kakhovka Reservoir",
+      "area": "Kherson Oblast",
+      "city": "Kherson Oblast",
+      "wikidata": "Q1540436",
+      "lat": 47.5,
+      "lon": 34.25,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Kakhovka Reservoir was a water reservoir on the Dnieper River in Ukraine.",
+        "es": "El embalse de Kajovka era un lago artificial formado sobre el curso del río Dniéper, en Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kakhovka Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Kakhovka_Reservoir"
+        },
+        "es": {
+          "title": "Embalse de Kajovka",
+          "url": "https://es.wikipedia.org/wiki/Embalse_de_Kajovka"
+        }
+      },
+      "image": {
+        "file": "Kakhovka_Reservoir_Drys_Up_(MODIS).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kakhovka_Reservoir_Drys_Up_(MODIS).jpg",
+        "author": "MODIS Land Rapid Response Team, NASA GSFC",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ua-mother-ukraine-monument",
+      "name": "Mother Ukraine Monument",
+      "area": "Kyiv",
+      "city": "Kyiv",
+      "wikidata": "Q142917",
+      "website": "https://www.warmuseum.kiev.ua/",
+      "lat": 50.4265,
+      "lon": 30.563111,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Mother Ukraine is a monumental Soviet-era statue in Kyiv, the capital of Ukraine.",
+        "es": "La Estatua de la Madre Ucrania, anteriormente conocida como la Estatua de la Madre Patria, es una estatua monumental que se encuentra en Kiev, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mother Ukraine",
+          "url": "https://en.wikipedia.org/wiki/Mother_Ukraine"
+        },
+        "es": {
+          "title": "Estatua de la Madre Ucrania",
+          "url": "https://es.wikipedia.org/wiki/Estatua_de_la_Madre_Ucrania"
+        }
+      }
+    },
+    {
+      "id": "ua-st-volodymyr-s-cathedral",
+      "name": "St Volodymyr's Cathedral",
+      "area": "Kyiv",
+      "city": "Kyiv",
+      "wikidata": "Q1417441",
+      "website": "https://www.katedral.org.ua/",
+      "lat": 50.444942,
+      "lon": 30.508717,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St Volodymyr's Cathedral is a cathedral in the centre of Kyiv, and one of the city's major landmarks at the intersection of Ivan Franko Street, the Taras Shevchenko Boulevard, and the Botanical Square.",
+        "es": "La catedral de San Volodýmyr es una catedral ortodoxa erigida en el centro de Kiev, capital de Ucrania, dedicada al Gran Príncipe de Kiev Volodýmyr I."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Volodymyr's Cathedral",
+          "url": "https://en.wikipedia.org/wiki/St_Volodymyr's_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de San Vladímir (Kiev)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Vlad%C3%ADmir_(Kiev)"
+        }
+      },
+      "image": {
+        "file": "St._Volodymyr's_Cathedral_in_Kiev.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St._Volodymyr's_Cathedral_in_Kiev.jpg",
+        "author": "Petar Milošević",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-freedom-square",
+      "name": "Freedom Square",
+      "area": "Kharkiv",
+      "city": "Kharkiv",
+      "wikidata": "Q961993",
+      "lat": 50.004444,
+      "lon": 36.234167,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Freedom Square is the largest city square in Kharkiv, Ukraine and one of the largest in Europe.",
+        "es": "La plaza de la Libertad, anteriormente llamada plaza Dzerzhynskoho es una plaza ubicada en la ciudad de Járkov, en Ucrania, siendo la novena plaza más grande del mundo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Freedom Square (Kharkiv)",
+          "url": "https://en.wikipedia.org/wiki/Freedom_Square_(Kharkiv)"
+        },
+        "es": {
+          "title": "Plaza de la Libertad (Járkov)",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_la_Libertad_(J%C3%A1rkov)"
+        }
+      },
+      "image": {
+        "file": "Свободы_пл._Восточная_часть.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D1%8B_%D0%BF%D0%BB._%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D1%87%D0%B0%D1%81%D1%82%D1%8C.jpg",
+        "author": "Кузубов Александр",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ua-intercession-cathedral",
+      "name": "Intercession Cathedral",
+      "area": "Kharkiv",
+      "city": "Kharkiv",
+      "wikidata": "Q4369380",
+      "lat": 49.991689,
+      "lon": 36.22885,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Intercession Cathedral or Pokrovskyi Cathedral is the oldest cathedral in Kharkiv, Ukraine, built in 1689.",
+        "es": "La catedral de la Intercesión es una de las catedrales ortodoxas ucranianas que se sitúan en Járkov, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Intercession Cathedral, Kharkiv",
+          "url": "https://en.wikipedia.org/wiki/Intercession_Cathedral%2C_Kharkiv"
+        },
+        "es": {
+          "title": "Catedral de la Intercesión (Járkov)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Intercesi%C3%B3n_(J%C3%A1rkov)"
+        }
+      },
+      "image": {
+        "file": "Intercession_Cathedral,_Kharkiv_2010_-_03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Intercession_Cathedral%2C_Kharkiv_2010_-_03.jpg",
+        "author": "Serhii BobokIf you have any questions please contact with me. Other photos see h",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-kharkiv-ukrainian-drama-theatre",
+      "name": "Kharkiv Ukrainian Drama Theatre",
+      "area": "Kharkiv",
+      "city": "Kharkiv",
+      "wikidata": "Q4496305",
+      "website": "https://www.theatre-shevchenko.com.ua/",
+      "lat": 49.995,
+      "lon": 36.231667,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Kharkiv Ukrainian Drama Theatre also known as the Taras Shevchenko Kharkiv Academic Ukrainian Drama Theatre is a national theatre founded in 1935 out of remnants of the suppressed Berezil Theatre, which was…",
+        "es": "El teatro dramático nacional de Járkov, también conocido como teatro dramático ucraniano académico Tarás Shevchenko de Járkov, es un teatro nacional ubicado en el centro de Járkiv, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kharkiv Ukrainian Drama Theatre",
+          "url": "https://en.wikipedia.org/wiki/Kharkiv_Ukrainian_Drama_Theatre"
+        },
+        "es": {
+          "title": "Teatro dramático nacional de Járkov",
+          "url": "https://es.wikipedia.org/wiki/Teatro_dram%C3%A1tico_nacional_de_J%C3%A1rkov"
+        }
+      },
+      "image": {
+        "file": "Драматичний_театр.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%94%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9_%D1%82%D0%B5%D0%B0%D1%82%D1%80.jpg",
+        "author": "Vladimir Khalev",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-slovo-building",
+      "name": "Slovo Building",
+      "area": "Kharkiv",
+      "city": "Kharkiv",
+      "wikidata": "Q4423856",
+      "lat": 50.011667,
+      "lon": 36.234167,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Slovo Building is a residential, multi-story building in the Shevchenkivskyi District of Kharkiv.",
+        "es": "El Edificio Slovo es un edificio residencial situado en el distrito de Shevchenko de Járkov."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Slovo Building",
+          "url": "https://en.wikipedia.org/wiki/Slovo_Building"
+        },
+        "es": {
+          "title": "Edificio Slovo",
+          "url": "https://es.wikipedia.org/wiki/Edificio_Slovo"
+        }
+      },
+      "image": {
+        "file": "Slovo3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Slovo3.jpg",
+        "author": "Victor Vizu",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-dormition-cathedral",
+      "name": "Dormition Cathedral",
+      "area": "Kharkiv",
+      "city": "Kharkiv",
+      "wikidata": "Q2381859",
+      "lat": 49.99,
+      "lon": 36.230833,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Dormition Cathedral is a church in Kharkiv, Ukraine.",
+        "es": "La catedral de la Dormición o Asunción es una catedral ortodoxa ucraniana que se sitúa en Járkov, en el óblast de Járkov de Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dormition Cathedral, Kharkiv",
+          "url": "https://en.wikipedia.org/wiki/Dormition_Cathedral%2C_Kharkiv"
+        },
+        "es": {
+          "title": "Catedral de la Dormición (Járkov)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Dormici%C3%B3n_(J%C3%A1rkov)"
+        }
+      },
+      "image": {
+        "file": "Uspensky_Cathedral03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uspensky_Cathedral03.jpg",
+        "author": "EvgenyGenkin",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-annunciation-cathedral",
+      "name": "Annunciation Cathedral",
+      "area": "Kharkiv",
+      "city": "Kharkiv",
+      "wikidata": "Q578671",
+      "lat": 49.990556,
+      "lon": 36.223889,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Annunciation Cathedral is the main Orthodox church of Kharkiv, Ukraine.",
+        "es": "La catedral de la Anunciación es la principal iglesia ortodoxa de Járkov, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Annunciation Cathedral, Kharkiv",
+          "url": "https://en.wikipedia.org/wiki/Annunciation_Cathedral%2C_Kharkiv"
+        },
+        "es": {
+          "title": "Catedral de la Anunciación (Járkov)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Anunciaci%C3%B3n_(J%C3%A1rkov)"
+        }
+      },
+      "image": {
+        "file": "Благовещенский_собор_-_Харьков.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B2%D0%B5%D1%89%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_-_%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2.jpg",
+        "author": "Petar Milošević",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-kharkiv-choral-synagogue",
+      "name": "Kharkiv Choral Synagogue",
+      "area": "Kharkiv",
+      "city": "Kharkiv",
+      "wikidata": "Q4496277",
+      "website": "https://www.jewishkharkov.org/",
+      "lat": 49.992439,
+      "lon": 36.234864,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Kharkiv Choral Synagogue is an Orthodox Jewish synagogue, located at 12 Pushkinska Street, Kharkiv, in the Kharkiv Oblast of Ukraine.",
+        "es": "La Sinagoga Coral de Járkov es un lugar de culto judío ubicado en la ciudad de Járkov, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kharkiv Choral Synagogue",
+          "url": "https://en.wikipedia.org/wiki/Kharkiv_Choral_Synagogue"
+        },
+        "es": {
+          "title": "Sinagoga Coral de Járkov",
+          "url": "https://es.wikipedia.org/wiki/Sinagoga_Coral_de_J%C3%A1rkov"
+        }
+      },
+      "image": {
+        "file": "Kharkov_Synagogue1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kharkov_Synagogue1.jpg",
+        "author": "Ace^eVg",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-m-f-sumtsov-kharkiv-historical-museum",
+      "name": "M. F. Sumtsov Kharkiv Historical Museum",
+      "area": "Kharkiv",
+      "city": "Kharkiv",
+      "wikidata": "Q4496319",
+      "lat": 49.9925,
+      "lon": 36.230556,
+      "phone": "+380-57-731-2094",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The M. F. Sumtsov Kharkiv Historical Museum is a history museum located in Kharkiv, Ukraine.",
+        "es": "The M. F. Sumtsov Kharkiv Historical Museum is a history museum located in Kharkiv, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "M. F. Sumtsov Kharkiv Historical Museum",
+          "url": "https://en.wikipedia.org/wiki/M._F._Sumtsov_Kharkiv_Historical_Museum"
+        },
+        "es": {
+          "title": "M. F. Sumtsov Kharkiv Historical Museum",
+          "url": "https://en.wikipedia.org/wiki/M._F._Sumtsov_Kharkiv_Historical_Museum"
+        }
+      },
+      "image": {
+        "file": "Вид_на_будівлю_Харківського_історичного_музею_з_майдану_Конституції.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%B1%D1%83%D0%B4%D1%96%D0%B2%D0%BB%D1%8E_%D0%A5%D0%B0%D1%80%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D1%96%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BC%D1%83%D0%B7%D0%B5%D1%8E_%D0%B7_%D0%BC%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD%D1%83_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%86%D1%96%D1%97.jpg",
+        "author": "Ivan Shevtsov",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-fine-arts-museum-kharkiv",
+      "name": "Fine Arts Museum Kharkiv",
+      "area": "Kharkiv",
+      "city": "Kharkiv",
+      "wikidata": "Q4496358",
+      "lat": 49.999091,
+      "lon": 36.238543,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Kharkiv Art Museum is one of the largest collections of fine and applied arts in Kharkiv, Ukraine, a state museum.",
+        "es": "The Kharkiv Art Museum is one of the largest collections of fine and applied arts in Kharkiv, Ukraine, a state museum."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kharkiv Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Kharkiv_Art_Museum"
+        },
+        "es": {
+          "title": "Kharkiv Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Kharkiv_Art_Museum"
+        }
+      },
+      "image": {
+        "file": "Kharkov_art_museum.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kharkov_art_museum.jpg",
+        "author": "Ace^eVg",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-kharkiv-cathedral-mosque",
+      "name": "Kharkiv Cathedral Mosque",
+      "area": "Kharkiv",
+      "city": "Kharkiv",
+      "wikidata": "Q6400692",
+      "lat": 49.985278,
+      "lon": 36.220278,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Kharkiv Cathedral Mosque, also known as Khavidrali Mosque, is located in Kharkiv, Ukraine.",
+        "es": "The Kharkiv Cathedral Mosque, also known as Khavidrali Mosque, is located in Kharkiv, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kharkiv Cathedral Mosque",
+          "url": "https://en.wikipedia.org/wiki/Kharkiv_Cathedral_Mosque"
+        },
+        "es": {
+          "title": "Kharkiv Cathedral Mosque",
+          "url": "https://en.wikipedia.org/wiki/Kharkiv_Cathedral_Mosque"
+        }
+      },
+      "image": {
+        "file": "2014._Харьков_047.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2014._%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2_047.jpg",
+        "author": "Vizu",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-kharkiv-tv-tower",
+      "name": "Kharkiv TV Tower",
+      "area": "Kharkiv",
+      "city": "Kharkiv",
+      "wikidata": "Q6400703",
+      "lat": 50.043611,
+      "lon": 36.235278,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kharkiv Television Tower, most commonly known as the Kharkiv TV Tower, is a steel truss television tower for FM-/TV-broadcasting in Kharkiv, Ukraine, which was 240.7-metre-tall.",
+        "es": "La Torre de televisión de Járkov es una torre de telecomunicaciones de celosía y acero, de 240.7m de altura, construida en 1981 en Járkov, Unión Soviética, como repetidor en la región ucraniana de los canales de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kharkiv TV Tower",
+          "url": "https://en.wikipedia.org/wiki/Kharkiv_TV_Tower"
+        },
+        "es": {
+          "title": "Torre de telecomunicaciones de Járkov",
+          "url": "https://es.wikipedia.org/wiki/Torre_de_telecomunicaciones_de_J%C3%A1rkov"
+        }
+      },
+      "image": {
+        "file": "Kharkov_TV_tower.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kharkov_TV_tower.jpg",
+        "author": "Ace^eVg",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-cathedral-of-the-assumption-of-the-blessed-virgi",
+      "name": "Cathedral of the Assumption of the Blessed Virgin Mary, Kharkiv",
+      "area": "Kharkiv",
+      "city": "Kharkiv",
+      "wikidata": "Q4426046",
+      "website": "https://www.catholic-kharkiv.org/",
+      "lat": 49.996416,
+      "lon": 36.235221,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of the Assumption of the Blessed Virgin Mary also called Assumption Cathedral is the name given to a religious building affiliated with the Latin Catholic Church and is located in the city of Kharkiv,…",
+        "es": "La Catedral de la Asunción de la Santísima Virgen María o simplemente Catedral de Járkov es el nombre que recibe un edificio religioso afiliado a la Iglesia Católica que sigue el rito romano o latino y que se…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of the Assumption of the Blessed Virgin Mary, Kharkiv",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_the_Assumption_of_the_Blessed_Virgin_Mary%2C_Kharkiv"
+        },
+        "es": {
+          "title": "Catedral de la Asunción de la Santísima Virgen María (Járkov)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Asunci%C3%B3n_de_la_Sant%C3%ADsima_Virgen_Mar%C3%ADa_(J%C3%A1rkov)"
+        }
+      },
+      "image": {
+        "file": "Католический_собор_Успения_Пресвятой_Девы_Марии.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%A3%D1%81%D0%BF%D0%B5%D0%BD%D0%B8%D1%8F_%D0%9F%D1%80%D0%B5%D1%81%D0%B2%D1%8F%D1%82%D0%BE%D0%B9_%D0%94%D0%B5%D0%B2%D1%8B_%D0%9C%D0%B0%D1%80%D0%B8%D0%B8.jpg",
+        "author": "Валерий Голоха",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-odesa-opera-and-ballet-theater",
+      "name": "Odesa Opera and Ballet Theater",
+      "area": "Odesa",
+      "city": "Odesa",
+      "wikidata": "Q195513",
+      "website": "https://operahouse.od.ua/",
+      "lat": 46.4855,
+      "lon": 30.7413,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Odesa National Academic Opera and Ballet Theatre is the oldest theatre in Odesa, Ukraine.",
+        "es": "El Teatro de Ópera y Ballet de Odesa, cuyo nombre oficial es Teatro Académico Nacional de Opera y Ballet de Odesa, es el teatro más antiguo de Odesa, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Odesa Opera and Ballet Theatre",
+          "url": "https://en.wikipedia.org/wiki/Odesa_Opera_and_Ballet_Theatre"
+        },
+        "es": {
+          "title": "Teatro de Ópera y Ballet de Odesa",
+          "url": "https://es.wikipedia.org/wiki/Teatro_de_%C3%93pera_y_Ballet_de_Odesa"
+        }
+      },
+      "image": {
+        "file": "Украина,_Одесса_-_Оперный_театр_04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0%2C_%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0_-_%D0%9E%D0%BF%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D1%82%D0%B5%D0%B0%D1%82%D1%80_04.jpg",
+        "author": "Alexostrov",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-transfiguration-cathedral",
+      "name": "Transfiguration Cathedral",
+      "area": "Odesa",
+      "city": "Odesa",
+      "wikidata": "Q2299324",
+      "lat": 46.483178,
+      "lon": 30.731042,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Transfiguration Cathedral is the Orthodox Cathedral in Odesa, Ukraine, dedicated to the Transfiguration of Jesus and belongs to the Ukrainian Orthodox Church.",
+        "es": "La catedral de la Transfiguración es la principal catedral ortodoxa que está situada en Odesa, Ucrania.La catedral forma parte del centro histórico de Odesa, inscrito como Patrimonio de la Humanidad por la Unesco el…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Transfiguration Cathedral, Odesa",
+          "url": "https://en.wikipedia.org/wiki/Transfiguration_Cathedral%2C_Odesa"
+        },
+        "es": {
+          "title": "Catedral de la Transfiguración (Odesa)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Transfiguraci%C3%B3n_(Odesa)"
+        }
+      },
+      "image": {
+        "file": "Спасо-Преображенський_собор,_Одеса_DSC8126.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%BF%D0%B0%D1%81%D0%BE-%D0%9F%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80%2C_%D0%9E%D0%B4%D0%B5%D1%81%D0%B0_DSC8126.jpg",
+        "author": "Konstantin Brizhnichenko",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-odesa-fine-arts-museum",
+      "name": "Odesa Fine Arts Museum",
+      "area": "Odesa",
+      "city": "Odesa",
+      "wikidata": "Q4331480",
+      "lat": 46.4934,
+      "lon": 30.7288,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Odesa National Fine Arts Museum or Odesa National Art Museum is one of the principal art galleries of the city of Odesa in Ukraine.",
+        "es": "El Museo Nacional de Bellas Artes de Odesa o, sencillamente, Museo Nacional del Arte de Odesa es uno de los principales museos de arte del sur de Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Odesa Fine Arts Museum",
+          "url": "https://en.wikipedia.org/wiki/Odesa_Fine_Arts_Museum"
+        },
+        "es": {
+          "title": "Museo Nacional del Arte de Odesa",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_del_Arte_de_Odesa"
+        }
+      },
+      "image": {
+        "file": "51-101-1193_Odesa_Sofiivska_5a_DSC_4545.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:51-101-1193_Odesa_Sofiivska_5a_DSC_4545.jpg",
+        "author": "Haidamac",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-odesa-philharmonic-hall",
+      "name": "Odesa Philharmonic Hall",
+      "area": "Odesa",
+      "city": "Odesa",
+      "wikidata": "Q2079479",
+      "website": "https://odessaphil.org/en/",
+      "lat": 46.48055,
+      "lon": 30.743081,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Odesa Philharmonic Theatre is a theater in Odesa, Ukraine.",
+        "es": "El Teatro de la Filarmónica de Odesa, oficialmente la Filarmónica Regional de Odesa, o sencillamente la Filarmónica de Odesa, es el nombre que designa tanto al edificio monumental sede de la orquesta sinfónica de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Odesa Philharmonic Theater",
+          "url": "https://en.wikipedia.org/wiki/Odesa_Philharmonic_Theater"
+        },
+        "es": {
+          "title": "Filarmónica de Odesa",
+          "url": "https://es.wikipedia.org/wiki/Filarm%C3%B3nica_de_Odesa"
+        }
+      },
+      "image": {
+        "file": "Bunina-15-245.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bunina-15-245.jpg",
+        "author": "Alex Levitsky & Dmitry Shamatazhi",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-al-salam-mosque",
+      "name": "Al-Salam Mosque",
+      "area": "Odesa",
+      "city": "Odesa",
+      "wikidata": "Q4068391",
+      "lat": 46.4728,
+      "lon": 30.739511,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Al-Salam Mosque and Arabian Cultural Center are located in Odesa, Ukraine.",
+        "es": "La mezquita de Odesa, conocida como mezquita Al-Salam y Centro Cultural Árabe, es una mezquita construida 2001 en la ciudad de Odesa, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Al-Salam Mosque, Odesa",
+          "url": "https://en.wikipedia.org/wiki/Al-Salam_Mosque%2C_Odesa"
+        },
+        "es": {
+          "title": "Mezquita de Odesa",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_de_Odesa"
+        }
+      },
+      "image": {
+        "file": "Одесса._Арабский_центр.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0._%D0%90%D1%80%D0%B0%D0%B1%D1%81%D0%BA%D0%B8%D0%B9_%D1%86%D0%B5%D0%BD%D1%82%D1%80.jpg",
+        "author": "Борис Мавлютов",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-odesa-zoo",
+      "name": "Odesa Zoo",
+      "area": "Odesa",
+      "city": "Odesa",
+      "wikidata": "Q1974519",
+      "lat": 46.4675,
+      "lon": 30.731667,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Odesa Zoo has the status of a nature reserve of nationwide value, which was granted in 1992.",
+        "es": "El Parque zoológico de Odesa es un jardín zoológico en la ciudad de Odesa en Ucrania, tiene la condición de reserva natural de valor nacional, que le fue concedido en 1992."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Odesa Zoo",
+          "url": "https://en.wikipedia.org/wiki/Odesa_Zoo"
+        },
+        "es": {
+          "title": "Parque zoológico de Odesa",
+          "url": "https://es.wikipedia.org/wiki/Parque_zool%C3%B3gico_de_Odesa"
+        }
+      },
+      "image": {
+        "file": "Odessa_zoo_wiki.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Odessa_zoo_wiki.jpg",
+        "author": "PhotoDoom",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-odesa-museum-of-regional-history",
+      "name": "Odesa Museum of Regional History",
+      "area": "Odesa",
+      "city": "Odesa",
+      "wikidata": "Q15159013",
+      "website": "https://museum-portal.com/ua/museum/odeskij-istoriko-krayeznavchij-muzej",
+      "lat": 46.486264,
+      "lon": 30.735686,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Odesa Museum of Regional History is a historical museum in Odesa, Ukraine.",
+        "es": "El Museo de Historia Regional de Odesa es un museo histórico de Odesa, al sur de Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Odesa Museum of Regional History",
+          "url": "https://en.wikipedia.org/wiki/Odesa_Museum_of_Regional_History"
+        },
+        "es": {
+          "title": "Museo de Historia Regional de Odesa",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Regional_de_Odesa"
+        }
+      },
+      "image": {
+        "file": "Odesa_Gavanna_4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Odesa_Gavanna_4.jpg",
+        "author": "Investigatio",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-odesa-archeological-museum",
+      "name": "Odesa Archeological Museum",
+      "area": "Odesa",
+      "city": "Odesa",
+      "wikidata": "Q7077703",
+      "lat": 46.485036,
+      "lon": 30.743972,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Odesa Archaeological Museum is one of the oldest archaeological museums in Ukraine.",
+        "es": "El Museo Arqueológico de Odesa es uno de los museos arqueológicos más antiguos de Ucrania, fundado en 1825 por Ivan Blaramberg en la ciudad de Odesa, a orillas del mar Negro."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Odesa Archaeological Museum",
+          "url": "https://en.wikipedia.org/wiki/Odesa_Archaeological_Museum"
+        },
+        "es": {
+          "title": "Museo Arqueológico de Odesa",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_de_Odesa"
+        }
+      },
+      "image": {
+        "file": "Одеса_-_Будівля_Археологічного_музею_P1050189.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9E%D0%B4%D0%B5%D1%81%D0%B0_-_%D0%91%D1%83%D0%B4%D1%96%D0%B2%D0%BB%D1%8F_%D0%90%D1%80%D1%85%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%87%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BC%D1%83%D0%B7%D0%B5%D1%8E_P1050189.JPG",
+        "author": "Posterrr",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-vorontsov-lighthouse",
+      "name": "Vorontsov Lighthouse",
+      "area": "Odesa",
+      "city": "Odesa",
+      "wikidata": "Q1976702",
+      "lat": 46.496556,
+      "lon": 30.760056,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Vorontsov Lighthouse is a red-and-white, 27.2-metre-tall lighthouse in the Black Sea port of Odesa, Ukraine.",
+        "es": "El Faro de Vorontsov está ubicado sobre el mar Negro, en puerto de Odesa, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vorontsov Lighthouse",
+          "url": "https://en.wikipedia.org/wiki/Vorontsov_Lighthouse"
+        },
+        "es": {
+          "title": "Faro de Vorontsov",
+          "url": "https://es.wikipedia.org/wiki/Faro_de_Vorontsov"
+        }
+      },
+      "image": {
+        "file": "Воронцовський_маяк_12.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D1%86%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%BC%D0%B0%D1%8F%D0%BA_12.jpg",
+        "author": "Nata Naval",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-assumption-of-the-blessed-virgin-mary-cathedral-",
+      "name": "Assumption of the Blessed Virgin Mary Cathedral, Odesa",
+      "area": "Odesa",
+      "city": "Odesa",
+      "wikidata": "Q11737321",
+      "lat": 46.480397,
+      "lon": 30.739234,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Assumption of the Blessed Virgin Mary Cathedral also called Cathedral of the Blessed Virgin Mary is the name given to a religious building belonging to the Catholic Church and is located in the city of Odesa in…",
+        "es": "La Catedral de la Asunción de la Virgen María o simplemente Catedral de la Santísima Virgen María es el nombre que recibe un edificio religioso que pertenece a la Iglesia católica y se encuentra ubicado en la ciudad…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Assumption of the Blessed Virgin Mary Cathedral, Odesa",
+          "url": "https://en.wikipedia.org/wiki/Assumption_of_the_Blessed_Virgin_Mary_Cathedral%2C_Odesa"
+        },
+        "es": {
+          "title": "Catedral de la Asunción de la Virgen María (Odesa)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Asunci%C3%B3n_de_la_Virgen_Mar%C3%ADa_(Odesa)"
+        }
+      },
+      "image": {
+        "file": "Assumption_Cathedral_in_Odessa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Assumption_Cathedral_in_Odessa.jpg",
+        "author": "Yuriy Kvach",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-darth-vader-statue",
+      "name": "Darth Vader statue",
+      "area": "Odesa",
+      "city": "Odesa",
+      "wikidata": "Q135193592",
+      "lat": 46.469917,
+      "lon": 30.673028,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The statue of Darth Vader is a plaster and titanium alloy statue in Odesa, Ukraine, depicting the Star Wars character Darth Vader.",
+        "es": "La estatua de Darth Vader es una estatua de yeso y aleación de titanio en Odesa, Ucrania, que representa al personaje de Star Wars, Darth Vader."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Statue of Darth Vader",
+          "url": "https://en.wikipedia.org/wiki/Statue_of_Darth_Vader"
+        },
+        "es": {
+          "title": "Estatua de Darth Vader",
+          "url": "https://es.wikipedia.org/wiki/Estatua_de_Darth_Vader"
+        }
+      }
+    },
+    {
+      "id": "ua-odesa-oblast-academic-drama-theater",
+      "name": "Odesa Oblast Academic Drama Theater",
+      "area": "Odesa",
+      "city": "Odesa",
+      "wikidata": "Q4331474",
+      "website": "https://academteatr.od.ua/",
+      "lat": 46.483371,
+      "lon": 30.734183,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Odesa Oblast Academic Drama Theater is the oldest theatre in southern Ukraine.",
+        "es": "El teatro dramático regional académico de Odesa es un teatro dramático ubicado en el centro de Odesa, Ucrania.También se trata del teatro más antiguo del sur de Ucrania y hasta 2022 su nombre era el de teatro…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Odesa Oblast Academic Drama Theater",
+          "url": "https://en.wikipedia.org/wiki/Odesa_Oblast_Academic_Drama_Theater"
+        },
+        "es": {
+          "title": "Teatro dramático regional académico de Odesa",
+          "url": "https://es.wikipedia.org/wiki/Teatro_dram%C3%A1tico_regional_acad%C3%A9mico_de_Odesa"
+        }
+      },
+      "image": {
+        "file": "Вул._Грецька,_48_DSC_0762_stitch.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%92%D1%83%D0%BB._%D0%93%D1%80%D0%B5%D1%86%D1%8C%D0%BA%D0%B0%2C_48_DSC_0762_stitch.jpg",
+        "author": "Сарапулов",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-transfiguration-cathedral-q2015425",
+      "name": "Transfiguration Cathedral",
+      "area": "Dnipro",
+      "city": "Dnipro",
+      "wikidata": "Q2015425",
+      "lat": 48.458253,
+      "lon": 35.066636,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Saviour's Transfiguration Cathedral is the main Orthodox church of Dnipro, Ukraine.",
+        "es": "La catedral de la Transfiguración es una de las catedrales ortodoxas ucranianas situadas en Dnipró, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Transfiguration Cathedral, Dnipro",
+          "url": "https://en.wikipedia.org/wiki/Transfiguration_Cathedral%2C_Dnipro"
+        },
+        "es": {
+          "title": "Catedral de la Transfiguración (Dnipró)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Transfiguraci%C3%B3n_(Dnipr%C3%B3)"
+        }
+      },
+      "image": {
+        "file": "Sviato-Preobrazhenskyi_Cathedral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sviato-Preobrazhenskyi_Cathedral.jpg",
+        "author": "Sergiy Klymenko",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-amur-bridge",
+      "name": "Amur Bridge",
+      "area": "Dnipro",
+      "city": "Dnipro",
+      "wikidata": "Q28669169",
+      "lat": 48.486913,
+      "lon": 35.027139,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Staryi Bridge, formerly known as Amurskyi Bridge, is a combined double-decker bridge across the Dnieper River in the city of Dnipro.",
+        "es": "El puente de Amurski, también conocido como puente Viejo de Dnipró, cruza el río Dniéper en la ciudad de Dnipró del óblast homónimo, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Staryi Bridge",
+          "url": "https://en.wikipedia.org/wiki/Staryi_Bridge"
+        },
+        "es": {
+          "title": "Puente de Amurski",
+          "url": "https://es.wikipedia.org/wiki/Puente_de_Amurski"
+        }
+      },
+      "image": {
+        "file": "Dnipropetrovsk_Amur_Bridge2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dnipropetrovsk_Amur_Bridge2.jpg",
+        "author": "rpchmi",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-kodak-fortress",
+      "name": "Kodak Fortress",
+      "area": "Dnipro",
+      "city": "Dnipro",
+      "wikidata": "Q1778194",
+      "lat": 48.381389,
+      "lon": 35.136694,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Kodak fortress was a fort built in 1635 by the order of Władysław IV Vasa, ruler of the Polish–Lithuanian Commonwealth, and the Commonwealth's Sejm, on the Dnieper river near what would become the town of Stari…",
+        "es": "La fortaleza de Kodak fue un castillo construido en 1635 por el rey polaco Vladislao IV Vasa sobre el río Dniéper, cerca de lo que se convertiría en el pueblo de Stari Kodaki del óblast de Dnipropetrovsk, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kodak fortress",
+          "url": "https://en.wikipedia.org/wiki/Kodak_fortress"
+        },
+        "es": {
+          "title": "Fortaleza de Kodak",
+          "url": "https://es.wikipedia.org/wiki/Fortaleza_de_Kodak"
+        }
+      },
+      "image": {
+        "file": "Kodak_(1635).PNG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kodak_(1635).PNG",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ua-dmytro-yavornytsky-national-historical-museum-of",
+      "name": "Dmytro Yavornytsky National Historical Museum of Dnipro",
+      "area": "Dnipro",
+      "city": "Dnipro",
+      "wikidata": "Q4163238",
+      "lat": 48.455833,
+      "lon": 35.063889,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Dmytro Yavornytsky National Historical Museum of Dnipro is a museum, established in Dnipro in 1848 by Andriy Fabr, local governor.",
+        "es": "El Museo Histórico Nacional Dmytró Yavornytsky de Dnipró, en ucraniano: Дніпровський національний історичний музей імені Дмитра Яворницького, es un museo histórico situado en Dnipró."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dmytro Yavornytsky National Historical Museum of Dnipro",
+          "url": "https://en.wikipedia.org/wiki/Dmytro_Yavornytsky_National_Historical_Museum_of_Dnipro"
+        },
+        "es": {
+          "title": "Museo Histórico Nacional Dmytro Yavornytsky de Dnipró",
+          "url": "https://es.wikipedia.org/wiki/Museo_Hist%C3%B3rico_Nacional_Dmytro_Yavornytsky_de_Dnipr%C3%B3"
+        }
+      },
+      "image": {
+        "file": "Historical_Museum_Dnepropetrovsk.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Historical_Museum_Dnepropetrovsk.jpg",
+        "author": "TheVovaNik",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-merefa-kherson-bridge",
+      "name": "Merefa-Kherson bridge",
+      "area": "Dnipro",
+      "city": "Dnipro",
+      "wikidata": "Q4290838",
+      "lat": 48.467739,
+      "lon": 35.083328,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Merefa-Kherson bridge is a 1,600 m single track railway bridge crossing the Dnieper in Dnipro and part of the railway line between cities of Merefa and Kherson.",
+        "es": "El puente Merefa-Jersón es un puente sobre el río Dniéper en la ciudad de Dnipró, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Merefa-Kherson bridge",
+          "url": "https://en.wikipedia.org/wiki/Merefa-Kherson_bridge"
+        },
+        "es": {
+          "title": "Puente Merefa-Jersón",
+          "url": "https://es.wikipedia.org/wiki/Puente_Merefa-Jers%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Мерефо-Херсонский_мост._Вид_с_колеса_обзрения_-_panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B5%D1%80%D0%B5%D1%84%D0%BE-%D0%A5%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D1%81%D1%82._%D0%92%D0%B8%D0%B4_%D1%81_%D0%BA%D0%BE%D0%BB%D0%B5%D1%81%D0%B0_%D0%BE%D0%B1%D0%B7%D1%80%D0%B5%D0%BD%D0%B8%D1%8F_-_panoramio.jpg",
+        "author": "[Olya Usovaツ]",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ua-holy-trinity-cathedral-dnipro",
+      "name": "Holy Trinity Cathedral, Dnipro",
+      "area": "Dnipro",
+      "city": "Dnipro",
+      "wikidata": "Q4411465",
+      "lat": 48.462944,
+      "lon": 35.045444,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Holy Trinity Cathedral or the Church of the Descent of the Holy Spirit, is a 19th-century Eastern Orthodoxy cathedral of the Ukrainian Orthodox Church in Dnipro, Ukraine.",
+        "es": "La catedral de la Santísima Trinidad es una de las catedrales ortodoxas ucranianas situadas en Dnipró, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Holy Trinity Cathedral, Dnipro",
+          "url": "https://en.wikipedia.org/wiki/Holy_Trinity_Cathedral%2C_Dnipro"
+        },
+        "es": {
+          "title": "Catedral de la Santísima Trinidad (Dnipró)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Sant%C3%ADsima_Trinidad_(Dnipr%C3%B3)"
+        }
+      },
+      "image": {
+        "file": "Троїцька_церква_-1-2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A2%D1%80%D0%BE%D1%97%D1%86%D1%8C%D0%BA%D0%B0_%D1%86%D0%B5%D1%80%D0%BA%D0%B2%D0%B0_-1-2.jpg",
+        "author": "Valentyne Kovalov",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-golden-rose-synagogue",
+      "name": "Golden Rose Synagogue",
+      "area": "Dnipro",
+      "city": "Dnipro",
+      "wikidata": "Q2902090",
+      "website": "https://djc.com.ua/contakts?lang=en",
+      "lat": 48.4639,
+      "lon": 35.0531,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Golden Rose Synagogue is an Orthodox Jewish synagogue, located on Kotsyubinskiy Street/Sholom Aleichem Street, in Dnipro, Ukraine.",
+        "es": "The Golden Rose Synagogue is an Orthodox Jewish synagogue, located on Kotsyubinskiy Street/Sholom Aleichem Street, in Dnipro, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Golden Rose Synagogue (Dnipro)",
+          "url": "https://en.wikipedia.org/wiki/Golden_Rose_Synagogue_(Dnipro)"
+        },
+        "es": {
+          "title": "Golden Rose Synagogue (Dnipro)",
+          "url": "https://en.wikipedia.org/wiki/Golden_Rose_Synagogue_(Dnipro)"
+        }
+      },
+      "image": {
+        "file": "Golden_Rose_Synagogue,_Dnipropetrovsk.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Golden_Rose_Synagogue%2C_Dnipropetrovsk.JPG",
+        "author": "Skoropadsky",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-dnipro-art-museum",
+      "name": "Dnipro Art Museum",
+      "area": "Dnipro",
+      "city": "Dnipro",
+      "wikidata": "Q4163247",
+      "website": "https://artmuseum.dp.ua/",
+      "lat": 48.457107,
+      "lon": 35.055184,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Dnipro Art Museum is a museum of fine arts in the city of Dnipro, Ukraine.",
+        "es": "The Dnipro Art Museum is a museum of fine arts in the city of Dnipro, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dnipro Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Dnipro_Art_Museum"
+        },
+        "es": {
+          "title": "Dnipro Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Dnipro_Art_Museum"
+        }
+      },
+      "image": {
+        "file": "HudMuzeyDnipro.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:HudMuzeyDnipro.jpg",
+        "author": "Дмитро Загорулько",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-monastyrskyi-island",
+      "name": "Monastyrskyi Island",
+      "area": "Dnipro",
+      "city": "Dnipro",
+      "wikidata": "Q4301455",
+      "lat": 48.466261,
+      "lon": 35.074267,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Monastyrskyi Island is a small island in the Sobornyi district of the Ukrainian city of Dnipro.",
+        "es": "Monastyrskyi Island is a small island in the Sobornyi district of the Ukrainian city of Dnipro."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Monastyrskyi Island",
+          "url": "https://en.wikipedia.org/wiki/Monastyrskyi_Island"
+        },
+        "es": {
+          "title": "Monastyrskyi Island",
+          "url": "https://en.wikipedia.org/wiki/Monastyrskyi_Island"
+        }
+      },
+      "image": {
+        "file": "Komsomolsky_Island,_Dnipropetrovsk.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Komsomolsky_Island%2C_Dnipropetrovsk.jpg",
+        "author": "Brian Fink",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ua-dnipro-academic-drama-and-comedy-theatre",
+      "name": "Dnipro Academic Drama and Comedy Theatre",
+      "area": "Dnipro",
+      "city": "Dnipro",
+      "wikidata": "Q4163218",
+      "website": "https://dramicom.dp.ua/",
+      "lat": 48.470556,
+      "lon": 35.033056,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Dnipro Academic Drama and Comedy Theatre is a 19th-century city theatre and an architectural monument in the city of Dnipro, Ukraine.",
+        "es": "The Dnipro Academic Drama and Comedy Theatre is a 19th-century city theatre and an architectural monument in the city of Dnipro, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dnipro Academic Drama and Comedy Theatre",
+          "url": "https://en.wikipedia.org/wiki/Dnipro_Academic_Drama_and_Comedy_Theatre"
+        },
+        "es": {
+          "title": "Dnipro Academic Drama and Comedy Theatre",
+          "url": "https://en.wikipedia.org/wiki/Dnipro_Academic_Drama_and_Comedy_Theatre"
+        }
+      },
+      "image": {
+        "file": "Зимовий_театр.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%97%D0%B8%D0%BC%D0%BE%D0%B2%D0%B8%D0%B9_%D1%82%D0%B5%D0%B0%D1%82%D1%80.jpg",
+        "author": "Alice.mokh",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-bryansk-church-of-saint-nicholas-in-dnipro",
+      "name": "Bryansk Church of Saint Nicholas in Dnipro",
+      "area": "Dnipro",
+      "city": "Dnipro",
+      "wikidata": "Q4163230",
+      "lat": 48.476944,
+      "lon": 34.985833,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Dnipro House of Organ and Chamber Music or the Bryansk Church of Saint Nicholas in Dnipro, is a 20th-century Eastern Orthodox cathedral of the Ukrainian Orthodox Church and concert venue in Dnipro, Ukraine.",
+        "es": "The Dnipro House of Organ and Chamber Music or the Bryansk Church of Saint Nicholas in Dnipro, is a 20th-century Eastern Orthodox cathedral of the Ukrainian Orthodox Church and concert venue in Dnipro, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dnipro House of Organ and Chamber Music",
+          "url": "https://en.wikipedia.org/wiki/Dnipro_House_of_Organ_and_Chamber_Music"
+        },
+        "es": {
+          "title": "Dnipro House of Organ and Chamber Music",
+          "url": "https://en.wikipedia.org/wiki/Dnipro_House_of_Organ_and_Chamber_Music"
+        }
+      },
+      "image": {
+        "file": "BChurch2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BChurch2.JPG",
+        "author": "Skoropadsky",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-ahat-jami-mosque",
+      "name": "Ahat Jami Mosque",
+      "area": "Donetsk",
+      "city": "Donetsk",
+      "wikidata": "Q2306453",
+      "lat": 48.053194,
+      "lon": 37.719722,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Ahat Jami Mosque is a jama masjid located in Donetsk, Ukraine.",
+        "es": "The Ahat Jami Mosque is a jama masjid located in Donetsk, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ahat Jami Mosque",
+          "url": "https://en.wikipedia.org/wiki/Ahat_Jami_Mosque"
+        },
+        "es": {
+          "title": "Ahat Jami Mosque",
+          "url": "https://en.wikipedia.org/wiki/Ahat_Jami_Mosque"
+        }
+      },
+      "image": {
+        "file": "2011-10-30_Ahat_Jami_Mosque_in_Donetsk_-panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2011-10-30_Ahat_Jami_Mosque_in_Donetsk_-panoramio.jpg",
+        "author": "Валерий Дед",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ua-donetsk-state-academic-opera-and-ballet-theatre",
+      "name": "Donetsk State Academic Opera and Ballet Theatre",
+      "area": "Donetsk",
+      "city": "Donetsk",
+      "wikidata": "Q4166241",
+      "website": "https://donbassopera.ru/",
+      "lat": 48.006111,
+      "lon": 37.802778,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Donetsk State Academic Opera and Ballet Theatre named after A.",
+        "es": "Donetsk State Academic Opera and Ballet Theatre named after A."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Donetsk State Academic Opera and Ballet Theatre",
+          "url": "https://en.wikipedia.org/wiki/Donetsk_State_Academic_Opera_and_Ballet_Theatre"
+        },
+        "es": {
+          "title": "Donetsk State Academic Opera and Ballet Theatre",
+          "url": "https://en.wikipedia.org/wiki/Donetsk_State_Academic_Opera_and_Ballet_Theatre"
+        }
+      }
+    },
+    {
+      "id": "ua-lenin-square",
+      "name": "Lenin Square",
+      "area": "Donetsk",
+      "city": "Donetsk",
+      "wikidata": "Q4365630",
+      "lat": 48.002019,
+      "lon": 37.805064,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Lenin Square is the main square in Donetsk, the capital of the Donetsk Oblast in Ukraine.",
+        "es": "Lenin Square is the main square in Donetsk, the capital of the Donetsk Oblast in Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lenin Square, Donetsk",
+          "url": "https://en.wikipedia.org/wiki/Lenin_Square%2C_Donetsk"
+        },
+        "es": {
+          "title": "Lenin Square, Donetsk",
+          "url": "https://en.wikipedia.org/wiki/Lenin_Square%2C_Donetsk"
+        }
+      },
+      "image": {
+        "file": "Lenin_statue_in_Donetsk,_general_view.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lenin_statue_in_Donetsk%2C_general_view.JPG",
+        "author": "Ferran Cornellà",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-transfiguration-cathedral-donetsk",
+      "name": "Transfiguration Cathedral, Donetsk",
+      "area": "Donetsk",
+      "city": "Donetsk",
+      "wikidata": "Q4430832",
+      "lat": 48.010608,
+      "lon": 37.805414,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Spaso-Preobrazhensky Cathedral or the Holy Transfiguration Cathedral, is a 20th-century Eastern Orthodoxy cathedral in Donetsk, Ukraine.",
+        "es": "The Spaso-Preobrazhensky Cathedral or the Holy Transfiguration Cathedral, is a 20th-century Eastern Orthodoxy cathedral in Donetsk, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Transfiguration Cathedral, Donetsk",
+          "url": "https://en.wikipedia.org/wiki/Transfiguration_Cathedral%2C_Donetsk"
+        },
+        "es": {
+          "title": "Transfiguration Cathedral, Donetsk",
+          "url": "https://en.wikipedia.org/wiki/Transfiguration_Cathedral%2C_Donetsk"
+        }
+      },
+      "image": {
+        "file": "DonetskCathedral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DonetskCathedral.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-iverskyi-monastery",
+      "name": "Iverskyi Monastery",
+      "area": "Donetsk",
+      "city": "Donetsk",
+      "wikidata": "Q7211398",
+      "lat": 48.065778,
+      "lon": 37.73225,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Iversky Monastery was a monastery of the Ukrainian Orthodox Church in Donetsk, Ukraine.",
+        "es": "The Iversky Monastery was a monastery of the Ukrainian Orthodox Church in Donetsk, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Iversky Monastery (Donetsk)",
+          "url": "https://en.wikipedia.org/wiki/Iversky_Monastery_(Donetsk)"
+        },
+        "es": {
+          "title": "Iversky Monastery (Donetsk)",
+          "url": "https://en.wikipedia.org/wiki/Iversky_Monastery_(Donetsk)"
+        }
+      },
+      "image": {
+        "file": "Donetsk_iverskiy_monastery_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Donetsk_iverskiy_monastery_01.jpg",
+        "author": "Andrey Butko",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-lenin-comsomol-park",
+      "name": "Lenin Comsomol park",
+      "area": "Donetsk",
+      "city": "Donetsk",
+      "wikidata": "Q1188895",
+      "lat": 48.023672,
+      "lon": 37.815264,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Donetsk Culture and Leisure Park, known by the Russian authorities controlling the area as the Leninist Komsomol Park of Culture and Leisure is a recreational area in the city of Donetsk.",
+        "es": "The Donetsk Culture and Leisure Park, known by the Russian authorities controlling the area as the Leninist Komsomol Park of Culture and Leisure is a recreational area in the city of Donetsk."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Donetsk Culture and Leisure Park",
+          "url": "https://en.wikipedia.org/wiki/Donetsk_Culture_and_Leisure_Park"
+        },
+        "es": {
+          "title": "Donetsk Culture and Leisure Park",
+          "url": "https://en.wikipedia.org/wiki/Donetsk_Culture_and_Leisure_Park"
+        }
+      },
+      "image": {
+        "file": "Парк_у_Донбасс_Арены_-_panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D1%80%D0%BA_%D1%83_%D0%94%D0%BE%D0%BD%D0%B1%D0%B0%D1%81%D1%81_%D0%90%D1%80%D0%B5%D0%BD%D1%8B_-_panoramio.jpg",
+        "author": "Валерий Дед",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ua-to-donbass-liberators",
+      "name": "To Donbass Liberators",
+      "area": "Donetsk",
+      "city": "Donetsk",
+      "wikidata": "Q4453322",
+      "lat": 48.021381,
+      "lon": 37.815672,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "To Donbas Liberators is a monument in Donetsk Culture and Leasure Park, Donetsk, dedicated to military units and formations participating in the ousting of Wehrmacht from Donbas during World War II.",
+        "es": "To Donbas Liberators is a monument in Donetsk Culture and Leasure Park, Donetsk, dedicated to military units and formations participating in the ousting of Wehrmacht from Donbas during World War II."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "To Donbas Liberators",
+          "url": "https://en.wikipedia.org/wiki/To_Donbas_Liberators"
+        },
+        "es": {
+          "title": "To Donbas Liberators",
+          "url": "https://en.wikipedia.org/wiki/To_Donbas_Liberators"
+        }
+      },
+      "image": {
+        "file": "День_Победы_в_Донецке,_2010_036.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%B5%D0%BD%D1%8C_%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B_%D0%B2_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5%2C_2010_036.JPG",
+        "author": "Andrey Butko",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-saint-george-s-cathedral",
+      "name": "Saint George's Cathedral",
+      "area": "Lviv",
+      "city": "Lviv",
+      "wikidata": "Q1774485",
+      "lat": 49.838611,
+      "lon": 24.013056,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. George's Cathedral is a baroque-rococo cathedral located in the city of Lviv, the historic capital of western Ukraine.",
+        "es": "La catedral de San Jorge es un templo catedralicio de la iglesia greco católica ucraniana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. George's Cathedral, Lviv",
+          "url": "https://en.wikipedia.org/wiki/St._George's_Cathedral%2C_Lviv"
+        },
+        "es": {
+          "title": "Catedral de San Jorge (Leópolis)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Jorge_(Le%C3%B3polis)"
+        }
+      },
+      "image": {
+        "file": "Lviv_-_Cathedral_of_Saint_George_01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lviv_-_Cathedral_of_Saint_George_01.JPG",
+        "author": "Lestat (Jan Mehlich)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-lvov-ghetto",
+      "name": "Lvov Ghetto",
+      "area": "Lviv",
+      "city": "Lviv",
+      "wikidata": "Q707561",
+      "lat": 49.839444,
+      "lon": 24.032778,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Lwów Ghetto was a Nazi ghetto in the city of Lwów in the territory of Nazi-administered General Government in German-occupied Poland.",
+        "es": "El gueto de Leópolis fue uno de los mayores guetos establecidos por los nazis en Leópolis, Galitzia entre el 8 de noviembre de 1941 y el 1 de junio de 1943."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lwów Ghetto",
+          "url": "https://en.wikipedia.org/wiki/Lw%C3%B3w_Ghetto"
+        },
+        "es": {
+          "title": "Gueto de Leópolis",
+          "url": "https://es.wikipedia.org/wiki/Gueto_de_Le%C3%B3polis"
+        }
+      },
+      "image": {
+        "file": "Lwow_Ghetto_(spring_1942).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lwow_Ghetto_(spring_1942).jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ua-lviv-theatre-of-opera-and-ballet",
+      "name": "Lviv Theatre of Opera and Ballet",
+      "area": "Lviv",
+      "city": "Lviv",
+      "wikidata": "Q1246092",
+      "website": "https://opera.lviv.ua/",
+      "lat": 49.843989,
+      "lon": 24.026178,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Solomiya Krushelnytska Lviv State Academic Theatre of Opera and Ballet or Lviv Opera is an opera house located in Lviv, designed by Polish architect Zygmunt Gorgolewski.",
+        "es": "El Teatro de Ópera y Ballet Solomiya Krushelnitska, de forma simplificada Ópera de Leópolis es el teatro de ópera más importante y con más tradición en la ciudad de Leópolis, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lviv Theatre of Opera and Ballet",
+          "url": "https://en.wikipedia.org/wiki/Lviv_Theatre_of_Opera_and_Ballet"
+        },
+        "es": {
+          "title": "Teatro de Ópera y Ballet de Leópolis",
+          "url": "https://es.wikipedia.org/wiki/Teatro_de_%C3%93pera_y_Ballet_de_Le%C3%B3polis"
+        }
+      },
+      "image": {
+        "file": "Lviv.Theatre.of.Opera.and.Ballet.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lviv.Theatre.of.Opera.and.Ballet.jpg",
+        "author": "Oleksandr Samoylyk",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ua-latin-cathedral",
+      "name": "Latin Cathedral",
+      "area": "Lviv",
+      "city": "Lviv",
+      "wikidata": "Q122324",
+      "lat": 49.840556,
+      "lon": 24.030556,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Archcathedral Basilica of the Assumption of the Blessed Virgin Mary, usually called simply the Latin Cathedral is a 14th-century Latin Catholic cathedral in Lviv, western Ukraine.",
+        "es": "La Basílica Catedral de la Asunción de la Santísima Virgen María o la Catedral Latina es un catedral católica del siglo XIV situada en Leópolis, en la parte occidental del país europeo de Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral Basilica of the Assumption, Lviv",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_Basilica_of_the_Assumption%2C_Lviv"
+        },
+        "es": {
+          "title": "Catedral basílica de la Asunción de la Santísima Virgen María (Leópolis)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_bas%C3%ADlica_de_la_Asunci%C3%B3n_de_la_Sant%C3%ADsima_Virgen_Mar%C3%ADa_(Le%C3%B3polis)"
+        }
+      },
+      "image": {
+        "file": "Латинський_катедральний_костел.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B0%D1%82%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B0%D1%82%D0%B5%D0%B4%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%BA%D0%BE%D1%81%D1%82%D0%B5%D0%BB.jpg",
+        "author": "Шелест Костянтин",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-armenian-cathedral-of-lviv",
+      "name": "Armenian Cathedral of Lviv",
+      "area": "Lviv",
+      "city": "Lviv",
+      "wikidata": "Q684239",
+      "lat": 49.843333,
+      "lon": 24.030833,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Armenian Cathedral of the Assumption of Mary in Lviv, Ukraine is located in the city's Old Town, north of the market square.",
+        "es": "The Armenian Cathedral of the Assumption of Mary in Lviv, Ukraine is located in the city's Old Town, north of the market square."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Armenian Cathedral of Lviv",
+          "url": "https://en.wikipedia.org/wiki/Armenian_Cathedral_of_Lviv"
+        },
+        "es": {
+          "title": "Armenian Cathedral of Lviv",
+          "url": "https://en.wikipedia.org/wiki/Armenian_Cathedral_of_Lviv"
+        }
+      },
+      "image": {
+        "file": "Lwów_-_Katedra_Ormiańska_01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lw%C3%B3w_-_Katedra_Ormia%C5%84ska_01.JPG",
+        "author": "Lestat (Jan Mehlich)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-lychakiv-cemetery",
+      "name": "Lychakiv Cemetery",
+      "area": "Lviv",
+      "city": "Lviv",
+      "wikidata": "Q1316721",
+      "website": "https://lia.lvivcenter.org/uk/objects/lychakiv-cemetery/",
+      "lat": 49.8325,
+      "lon": 24.056111,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Lychakiv Cemetery, officially titled State History and Culture Museum-Reserve \"Lychakiv Cemetery\", is a historic cemetery in Lviv, Ukraine.",
+        "es": "El cementerio de Lichákiv, de nombre oficial Museo-Reserva Estatal de Historia y Cultura Cementerio de Lichákiv, es un cementerio histórico de Leópolis, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lychakiv Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Lychakiv_Cemetery"
+        },
+        "es": {
+          "title": "Cementerio de Lichákiv",
+          "url": "https://es.wikipedia.org/wiki/Cementerio_de_Lich%C3%A1kiv"
+        }
+      },
+      "image": {
+        "file": "Luetzenhofer_Friedhof_006.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Luetzenhofer_Friedhof_006.JPG",
+        "author": "Gryffindor",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-lviv-national-museum",
+      "name": "Lviv National Museum",
+      "area": "Lviv",
+      "city": "Lviv",
+      "wikidata": "Q2037262",
+      "website": "https://nml.com.ua/en/",
+      "lat": 49.843056,
+      "lon": 24.028056,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Andrey Sheptytsky National Museum of Lviv is one of Ukraine's largest museums, dedicated to Ukrainian culture in all its manifestations.",
+        "es": "El Museo Nacional Andrey Sheptytsky de Lviv es uno de los museos más grandes de Ucrania, dedicado a la cultura ucraniana en todas sus manifestaciones."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Andrey Sheptytsky National Museum of Lviv",
+          "url": "https://en.wikipedia.org/wiki/Andrey_Sheptytsky_National_Museum_of_Lviv"
+        },
+        "es": {
+          "title": "Museo Nacional Andrey Sheptytsky de Leópolis",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_Andrey_Sheptytsky_de_Le%C3%B3polis"
+        }
+      },
+      "image": {
+        "file": "Zabytki_Lwowa_106.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zabytki_Lwowa_106.jpg",
+        "author": "Сергій Криниця (Haidamac)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-dormition-church",
+      "name": "Dormition Church",
+      "area": "Lviv",
+      "city": "Lviv",
+      "wikidata": "Q575468",
+      "lat": 49.842064,
+      "lon": 24.034456,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Dormition or Assumption Church is a Ukrainian Orthodox church in the city of Lviv, Ukraine.",
+        "es": "La iglesia de la Dormición es un templo ortodoxo ucraniano de la ciudad de Leópolis, en Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dormition Church, Lviv",
+          "url": "https://en.wikipedia.org/wiki/Dormition_Church%2C_Lviv"
+        },
+        "es": {
+          "title": "Iglesia de la Dormición (Leópolis)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_la_Dormici%C3%B3n_(Le%C3%B3polis)"
+        }
+      },
+      "image": {
+        "file": "Успенская_церковь_в_Львов.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A3%D1%81%D0%BF%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%86%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D1%8C_%D0%B2_%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2.jpg",
+        "author": "Petar Milošević",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-potocki-palace",
+      "name": "Potocki Palace",
+      "area": "Lviv",
+      "city": "Lviv",
+      "wikidata": "Q1576016",
+      "lat": 49.838056,
+      "lon": 24.026944,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Potocki Palace in Lviv was built in the 1880s as an urban seat of Alfred Józef Potocki, former Minister-President of Austria.",
+        "es": "El palacio Potocki fue construido en la década de 1880 en la ciudad de Leópolis, Ucrania, como residencia urbana de Alfred Józef Potocki, ministro-presidente de Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Potocki Palace, Lviv",
+          "url": "https://en.wikipedia.org/wiki/Potocki_Palace%2C_Lviv"
+        },
+        "es": {
+          "title": "Palacio Potocki (Leópolis)",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Potocki_(Le%C3%B3polis)"
+        }
+      },
+      "image": {
+        "file": "Дворец_Потоцких.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%B2%D0%BE%D1%80%D0%B5%D1%86_%D0%9F%D0%BE%D1%82%D0%BE%D1%86%D0%BA%D0%B8%D1%85.jpg",
+        "author": "Andrey Okhrimets",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-market-square",
+      "name": "Market Square",
+      "area": "Lviv",
+      "city": "Lviv",
+      "wikidata": "Q1980511",
+      "lat": 49.841466,
+      "lon": 24.031265,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Rynok Square is a central square of the city of Lviv, Ukraine.",
+        "es": "La plaza Rynok es una plaza central de la ciudad de Leópolis, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Market Square (Lviv)",
+          "url": "https://en.wikipedia.org/wiki/Market_Square_(Lviv)"
+        },
+        "es": {
+          "title": "Plaza del Mercado (Leópolis)",
+          "url": "https://es.wikipedia.org/wiki/Plaza_del_Mercado_(Le%C3%B3polis)"
+        }
+      },
+      "image": {
+        "file": "Лвов_Галиција.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B2%D0%BE%D0%B2_%D0%93%D0%B0%D0%BB%D0%B8%D1%86%D0%B8%D1%98%D0%B0.jpg",
+        "author": "Petar Milošević",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-dominican-church-and-monastery-in-lviv",
+      "name": "Dominican Church and Monastery in Lviv",
+      "area": "Lviv",
+      "city": "Lviv",
+      "wikidata": "Q2994596",
+      "lat": 49.842778,
+      "lon": 24.034167,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Dominican Church and Monastery in Lviv, Ukraine is located in the city's Old Town, east of the market square.",
+        "es": "La Iglesia del Corpus Christi es una iglesia de culto greco-católico ucraniano que tiene anexo el Monasterio de los Padres dominicanos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dominican Church, Lviv",
+          "url": "https://en.wikipedia.org/wiki/Dominican_Church%2C_Lviv"
+        },
+        "es": {
+          "title": "Iglesia del Corpus Christi y Monasterio de los Dominicos en Lviv",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_del_Corpus_Christi_y_Monasterio_de_los_Dominicos_en_Lviv"
+        }
+      },
+      "image": {
+        "file": "Lwow_Dom.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lwow_Dom.JPG",
+        "author": "Сергій Криниця (Haidamac)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-jesuit-church",
+      "name": "Jesuit Church",
+      "area": "Lviv",
+      "city": "Lviv",
+      "wikidata": "Q2389158",
+      "website": "https://petrapavla.org.ua/",
+      "lat": 49.8415,
+      "lon": 24.0291,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Saints Peter and Paul Garrison Church, known as the Jesuit Church, is an historic church in Lviv, Ukraine, built in years 1610-1630.",
+        "es": "La iglesia de la Guarnición de los Santos Apóstoles Pedro y Pablo, conocida en Leópolis como la Iglesia Jesuita, es la iglesia actual de la Iglesia greco-católica ucraniana en Leópolis, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saints Peter and Paul Garrison Church, Lviv",
+          "url": "https://en.wikipedia.org/wiki/Saints_Peter_and_Paul_Garrison_Church%2C_Lviv"
+        },
+        "es": {
+          "title": "Iglesia de la Guarnición de los Santos Apóstoles Pedro y Pablo (Leópolis)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_la_Guarnici%C3%B3n_de_los_Santos_Ap%C3%B3stoles_Pedro_y_Pablo_(Le%C3%B3polis)"
+        }
+      },
+      "image": {
+        "file": "Jesuit_church,_Lviv_(02).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jesuit_church%2C_Lviv_(02).jpg",
+        "author": "Aeou",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-dnieper-reservoir",
+      "name": "Dnieper Reservoir",
+      "area": "Zaporizhzhia",
+      "city": "Zaporizhzhia",
+      "wikidata": "Q2381584",
+      "lat": 47.96,
+      "lon": 35.114444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Dnieper Reservoir is a reservoir on the Dnieper river in Ukrainian oblasts of Dnipropetrovsk and Zaporizhzhia.",
+        "es": "El embalse del Dniéper es un embalse ubicado en el río Dniéper en Ucrania, que toma su nombre del río."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dnieper Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Dnieper_Reservoir"
+        },
+        "es": {
+          "title": "Embalse del Dniéper",
+          "url": "https://es.wikipedia.org/wiki/Embalse_del_Dni%C3%A9per"
+        }
+      },
+      "image": {
+        "file": "Landsat_Dnieper_Reservoir.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Landsat_Dnieper_Reservoir.JPG",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ua-arcual-bridge-in-zaporizhzhia",
+      "name": "Arcual bridge in Zaporizhzhia",
+      "area": "Zaporizhzhia",
+      "city": "Zaporizhzhia",
+      "wikidata": "Q4069861",
+      "lat": 47.861667,
+      "lon": 35.062222,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Zaporizhzhia Arch Bridge is the longest arch bridge in Ukraine.",
+        "es": "El puente de arco de Zaporiyia cruza el río Dniéper en la ciudad de Zaporiyia del óblast homónimo, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zaporizhzhia Arch Bridge",
+          "url": "https://en.wikipedia.org/wiki/Zaporizhzhia_Arch_Bridge"
+        },
+        "es": {
+          "title": "Puente de arco de Zaporiyia",
+          "url": "https://es.wikipedia.org/wiki/Puente_de_arco_de_Zaporiyia"
+        }
+      },
+      "image": {
+        "file": "Арковий_міст_в_Запоріжжі.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%90%D1%80%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BC%D1%96%D1%81%D1%82_%D0%B2_%D0%97%D0%B0%D0%BF%D0%BE%D1%80%D1%96%D0%B6%D0%B6%D1%96.JPG",
+        "author": "Nekto ZpUa at Ukrainian Wikipedia",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "ua-co-cathedral-of-the-merciful-father-zaporizhia",
+      "name": "Co-Cathedral of the Merciful Father, Zaporizhia",
+      "area": "Zaporizhzhia",
+      "city": "Zaporizhzhia",
+      "wikidata": "Q4380284",
+      "lat": 47.845,
+      "lon": 35.138056,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Co-Cathedral of the Merciful Father, also called the Co-Cathedral of Zaporizhzhia, is a religious building that is affiliated with the Catholic Church and is located in the city of Zaporizhzhia in the European…",
+        "es": "La Concatedral del Padre Misericordioso o simplemente Concatedral de Zaporiyia es el nombre que recibe un edificio religioso que está afiliado a la Iglesia Católica y se encuentra en la localidad de Zaporiyia en el…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Co-Cathedral of the Merciful Father, Zaporizhzhia",
+          "url": "https://en.wikipedia.org/wiki/Co-Cathedral_of_the_Merciful_Father%2C_Zaporizhzhia"
+        },
+        "es": {
+          "title": "Concatedral del Padre Misericordioso (Zaporiyia)",
+          "url": "https://es.wikipedia.org/wiki/Concatedral_del_Padre_Misericordioso_(Zaporiyia)"
+        }
+      },
+      "image": {
+        "file": "Прокафедральный_собор_Бога-Отца_Милосердного_(Запорожье).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%BE%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%91%D0%BE%D0%B3%D0%B0-%D0%9E%D1%82%D1%86%D0%B0_%D0%9C%D0%B8%D0%BB%D0%BE%D1%81%D0%B5%D1%80%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_(%D0%97%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D0%B6%D1%8C%D0%B5).jpg",
+        "author": "Борис Мавлютов",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-preobrazhenskyi-bridges",
+      "name": "Preobrazhenskyi bridges",
+      "area": "Zaporizhzhia",
+      "city": "Zaporizhzhia",
+      "wikidata": "Q4304739",
+      "lat": 47.820278,
+      "lon": 35.074722,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Preobrazhensky Bridge is a two bridge crossing over the Dnipro River in the city of Zaporizhzhia, Ukraine.",
+        "es": "The Preobrazhensky Bridge is a two bridge crossing over the Dnipro River in the city of Zaporizhzhia, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Preobrazhensky Bridge",
+          "url": "https://en.wikipedia.org/wiki/Preobrazhensky_Bridge"
+        },
+        "es": {
+          "title": "Preobrazhensky Bridge",
+          "url": "https://en.wikipedia.org/wiki/Preobrazhensky_Bridge"
+        }
+      },
+      "image": {
+        "file": "Хмаринки_над_мостом.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A5%D0%BC%D0%B0%D1%80%D0%B8%D0%BD%D0%BA%D0%B8_%D0%BD%D0%B0%D0%B4_%D0%BC%D0%BE%D1%81%D1%82%D0%BE%D0%BC.jpg",
+        "author": "Alexey Tolmachov",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-new-bridges-over-the-river-dnieper",
+      "name": "New bridges over the River Dnieper",
+      "area": "Zaporizhzhia",
+      "city": "Zaporizhzhia",
+      "wikidata": "Q56367274",
+      "lat": 47.8425,
+      "lon": 35.085278,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The New Zaporizhzhia Dniper Bridge is a controlled-access highway bridge currently under construction in Zaporizhzhia, Ukraine.",
+        "es": "The New Zaporizhzhia Dniper Bridge is a controlled-access highway bridge currently under construction in Zaporizhzhia, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "New Zaporizhzhia Dniper Bridge",
+          "url": "https://en.wikipedia.org/wiki/New_Zaporizhzhia_Dniper_Bridge"
+        },
+        "es": {
+          "title": "New Zaporizhzhia Dniper Bridge",
+          "url": "https://en.wikipedia.org/wiki/New_Zaporizhzhia_Dniper_Bridge"
+        }
+      },
+      "image": {
+        "file": "Міст_Преображенського_з_висоти.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9C%D1%96%D1%81%D1%82_%D0%9F%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%B7_%D0%B2%D0%B8%D1%81%D0%BE%D1%82%D0%B8.jpg",
+        "author": "Alexey Tolmachov",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-zaporizhzhia-pylon-triples",
+      "name": "Zaporizhzhia Pylon Triples",
+      "area": "Zaporizhzhia",
+      "city": "Zaporizhzhia",
+      "wikidata": "Q1907988",
+      "lat": 47.853611,
+      "lon": 35.078056,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Zaporizhzhia Pylon Triple is a set of two triples of 74.5 metres tall electricity pylons extending over the Dnieper river standing on a 27m rock in Zaporizhzhia, Ukraine.",
+        "es": "The Zaporizhzhia Pylon Triple is a set of two triples of 74.5 metres tall electricity pylons extending over the Dnieper river standing on a 27m rock in Zaporizhzhia, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zaporizhzhia Pylon Triple",
+          "url": "https://en.wikipedia.org/wiki/Zaporizhzhia_Pylon_Triple"
+        },
+        "es": {
+          "title": "Zaporizhzhia Pylon Triple",
+          "url": "https://en.wikipedia.org/wiki/Zaporizhzhia_Pylon_Triple"
+        }
+      },
+      "image": {
+        "file": "Zaporizhzhia_Pylon_Triple_Три_Мачты_ЛЭП_Хортица.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zaporizhzhia_Pylon_Triple_%D0%A2%D1%80%D0%B8_%D0%9C%D0%B0%D1%87%D1%82%D1%8B_%D0%9B%D0%AD%D0%9F_%D0%A5%D0%BE%D1%80%D1%82%D0%B8%D1%86%D0%B0.jpg",
+        "author": "Novoklimov",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "ua-the-church-of-the-nativity-of-the-all-holy-theot",
+      "name": "The church of the Nativity of the All-holy Theotokos (Kryvyi Rih)",
+      "area": "Kryvyi Rih",
+      "city": "Kryvyi Rih",
+      "wikidata": "Q4504934",
+      "lat": 47.913922,
+      "lon": 33.338836,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of the Nativity of the All-holy Theotokos is a Ukrainian Orthodox Church church in the Kryvyi Rih diocese of the Ukrainian Orthodox Church.",
+        "es": "The Church of the Nativity of the All-holy Theotokos is a Ukrainian Orthodox Church church in the Kryvyi Rih diocese of the Ukrainian Orthodox Church."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of the Nativity of the Theotokos, Kryvyi Rih",
+          "url": "https://en.wikipedia.org/wiki/Church_of_the_Nativity_of_the_Theotokos%2C_Kryvyi_Rih"
+        },
+        "es": {
+          "title": "Church of the Nativity of the Theotokos, Kryvyi Rih",
+          "url": "https://en.wikipedia.org/wiki/Church_of_the_Nativity_of_the_Theotokos%2C_Kryvyi_Rih"
+        }
+      },
+      "image": {
+        "file": "Nativity_of_the_Theotokos_Church,_Kryvyi_Rih.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nativity_of_the_Theotokos_Church%2C_Kryvyi_Rih.jpeg",
+        "author": "https://ru.wikipedia.org/w/index.php?title=%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "ua-zarichna",
+      "name": "Zarichna",
+      "area": "Kryvyi Rih",
+      "city": "Kryvyi Rih",
+      "wikidata": "Q4187245",
+      "lat": 48.0032,
+      "lon": 33.4981,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Zarichna is a station of the Kryvyi Rih Metrotram, and is presently the northern terminus of the system.",
+        "es": "Zarichna is a station of the Kryvyi Rih Metrotram, and is presently the northern terminus of the system."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zarichna (Kryvyi Rih Metrotram)",
+          "url": "https://en.wikipedia.org/wiki/Zarichna_(Kryvyi_Rih_Metrotram)"
+        },
+        "es": {
+          "title": "Zarichna (Kryvyi Rih Metrotram)",
+          "url": "https://en.wikipedia.org/wiki/Zarichna_(Kryvyi_Rih_Metrotram)"
+        }
+      },
+      "image": {
+        "file": "KRMetrotram.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:KRMetrotram.jpg",
+        "author": "Andrew J.Kurbiko",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-sonyachna",
+      "name": "Sonyachna",
+      "area": "Kryvyi Rih",
+      "city": "Kryvyi Rih",
+      "wikidata": "Q4200199",
+      "lat": 47.9567,
+      "lon": 33.4564,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Soniachna is a station on the Kryvyi Rih Metro.",
+        "es": "Soniachna is a station on the Kryvyi Rih Metro."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Soniachna (Kryvyi Rih Metrotram)",
+          "url": "https://en.wikipedia.org/wiki/Soniachna_(Kryvyi_Rih_Metrotram)"
+        },
+        "es": {
+          "title": "Soniachna (Kryvyi Rih Metrotram)",
+          "url": "https://en.wikipedia.org/wiki/Soniachna_(Kryvyi_Rih_Metrotram)"
+        }
+      }
+    },
+    {
+      "id": "ua-bug-estuary",
+      "name": "Bug Estuary",
+      "area": "Mykolaiv",
+      "city": "Mykolaiv",
+      "wikidata": "Q2469828",
+      "lat": 46.788889,
+      "lon": 31.906389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Bug estuary is an estuary of the Southern Bug.",
+        "es": "El limán del Bug o también estuario del Bug es un limán o estuario de Ucrania formado en el punto en el que el río Bug Meridional desemboca en la costa septentrional del estuario del Dnieper—con el que forma el limán…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bug estuary",
+          "url": "https://en.wikipedia.org/wiki/Bug_estuary"
+        },
+        "es": {
+          "title": "Limán del Bug",
+          "url": "https://es.wikipedia.org/wiki/Lim%C3%A1n_del_Bug"
+        }
+      },
+      "image": {
+        "file": "Вид_сверху_на_Николаев.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B8%D0%B4_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%83_%D0%BD%D0%B0_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2.jpg",
+        "author": "Original uploader was Водник at ru.wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-mykolaiv-regional-museum-of-local-history",
+      "name": "Mykolaiv Regional Museum of Local History",
+      "area": "Mykolaiv",
+      "city": "Mykolaiv",
+      "wikidata": "Q4320491",
+      "lat": 46.971995,
+      "lon": 32.006714,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mykolaiv Regional Museum of Local History \"Staroflotski Barracks\" is one of the oldest museums in Ukraine.",
+        "es": "El museo regional de Historia Local de Mykolaiv también conocido sencillamente como museo Mykolaiv o museo de Mykolaiv es un museo de tipo regional que guarda la mayor colección de materiales y documentos sobre…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mykolaiv Regional Museum of Local History",
+          "url": "https://en.wikipedia.org/wiki/Mykolaiv_Regional_Museum_of_Local_History"
+        },
+        "es": {
+          "title": "Museo regional de Historia Local de Mykolaiv",
+          "url": "https://es.wikipedia.org/wiki/Museo_regional_de_Historia_Local_de_Mykolaiv"
+        }
+      },
+      "image": {
+        "file": "Николаевский_областной_краеведческий_музей.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%B9_%D0%BA%D1%80%D0%B0%D0%B5%D0%B2%D0%B5%D0%B4%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9.jpg",
+        "author": "Дмитрий Быченко",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-inhul-bridge",
+      "name": "Inhul Bridge",
+      "area": "Mykolaiv",
+      "city": "Mykolaiv",
+      "wikidata": "Q4200658",
+      "lat": 46.979722,
+      "lon": 31.989444,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Inhul Bridge is a moveable bridge over the Inhul River in the city of Mykolaiv, Ukraine.",
+        "es": "El puente del Injul cruza el río Injul en la ciudad de Mikolaiv del óblast homónimo, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Inhul Bridge",
+          "url": "https://en.wikipedia.org/wiki/Inhul_Bridge"
+        },
+        "es": {
+          "title": "Puente del Injul",
+          "url": "https://es.wikipedia.org/wiki/Puente_del_Injul"
+        }
+      },
+      "image": {
+        "file": "Ingulsky_bridge_—_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ingulsky_bridge_%E2%80%94_2.jpg",
+        "author": "Aleksandrit",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ua-the-museum-of-shipbuilding-and-fleet",
+      "name": "The Museum of Shipbuilding and Fleet",
+      "area": "Mykolaiv",
+      "city": "Mykolaiv",
+      "wikidata": "Q4306475",
+      "lat": 46.9781,
+      "lon": 31.9861,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Museum of Shipbuilding and Fleet is a museum dedicated to shipbuilding located in Mykolaiv, Ukraine.",
+        "es": "The Museum of Shipbuilding and Fleet is a museum dedicated to shipbuilding located in Mykolaiv, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museum of Shipbuilding and the Fleet",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Shipbuilding_and_the_Fleet"
+        },
+        "es": {
+          "title": "Museum of Shipbuilding and the Fleet",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Shipbuilding_and_the_Fleet"
+        }
+      },
+      "image": {
+        "file": "Музей_суднобудування_та_флоту,_Миколаїв.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D1%81%D1%83%D0%B4%D0%BD%D0%BE%D0%B1%D1%83%D0%B4%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D1%82%D0%B0_%D1%84%D0%BB%D0%BE%D1%82%D1%83%2C_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2.jpg",
+        "author": "SNCH",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-v-v-vereshchagin-mykolaiv-art-museum",
+      "name": "V. V. Vereshchagin Mykolaiv Art Museum",
+      "area": "Mykolaiv",
+      "city": "Mykolaiv",
+      "wikidata": "Q4320542",
+      "lat": 46.9732,
+      "lon": 31.986,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The V. V. Vereshchagin Mykolaiv Art Museum is the museum of art, which is located in Mykolaiv, Ukraine.",
+        "es": "The V. V. Vereshchagin Mykolaiv Art Museum is the museum of art, which is located in Mykolaiv, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "The V. V. Vereshchagin Mykolaiv Art Museum",
+          "url": "https://en.wikipedia.org/wiki/The_V._V._Vereshchagin_Mykolaiv_Art_Museum"
+        },
+        "es": {
+          "title": "The V. V. Vereshchagin Mykolaiv Art Museum",
+          "url": "https://en.wikipedia.org/wiki/The_V._V._Vereshchagin_Mykolaiv_Art_Museum"
+        }
+      },
+      "image": {
+        "file": "Будівля_громадського_призначення_в_якій_знаходився_штаб_15-ї_Сиваської_дивізії_Миколаїв_вул._Велика_Морська,_47.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D1%83%D0%B4%D1%96%D0%B2%D0%BB%D1%8F_%D0%B3%D1%80%D0%BE%D0%BC%D0%B0%D0%B4%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B2_%D1%8F%D0%BA%D1%96%D0%B9_%D0%B7%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D0%B2%D1%81%D1%8F_%D1%88%D1%82%D0%B0%D0%B1_15-%D1%97_%D0%A1%D0%B8%D0%B2%D0%B0%D1%81%D1%8C%D0%BA%D0%BE%D1%97_%D0%B4%D0%B8%D0%B2%D1%96%D0%B7%D1%96%D1%97_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2_%D0%B2%D1%83%D0%BB._%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0_%D0%9C%D0%BE%D1%80%D1%81%D1%8C%D0%BA%D0%B0%2C_47.JPG",
+        "author": "Prymasal",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-dykyi-sad",
+      "name": "Dykyi Sad",
+      "area": "Mykolaiv",
+      "city": "Mykolaiv",
+      "wikidata": "Q4161504",
+      "lat": 46.981,
+      "lon": 31.983,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Dykyi Sad was a fortified urban settlement of the final Bronze Age, located in the historical center of modern-day Mykolaiv, Ukraine.",
+        "es": "Dykyi Sad was a fortified urban settlement of the final Bronze Age, located in the historical center of modern-day Mykolaiv, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dykyi Sad archaeological site",
+          "url": "https://en.wikipedia.org/wiki/Dykyi_Sad_archaeological_site"
+        },
+        "es": {
+          "title": "Dykyi Sad archaeological site",
+          "url": "https://en.wikipedia.org/wiki/Dykyi_Sad_archaeological_site"
+        }
+      },
+      "image": {
+        "file": "DikijSad1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DikijSad1.jpg",
+        "author": "Кудрявцев Александр мл.",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-aviation-technical-museum-luhansk",
+      "name": "Aviation Technical Museum (Luhansk)",
+      "area": "Luhansk",
+      "city": "Luhansk",
+      "wikidata": "Q4055845",
+      "lat": 48.526723,
+      "lon": 39.382296,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Aviation Technical Museum is a large aviation museum located in Lugansk.",
+        "es": "The Aviation Technical Museum is a large aviation museum located in Lugansk."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aviation Technical Museum (Luhansk)",
+          "url": "https://en.wikipedia.org/wiki/Aviation_Technical_Museum_(Luhansk)"
+        },
+        "es": {
+          "title": "Aviation Technical Museum (Luhansk)",
+          "url": "https://en.wikipedia.org/wiki/Aviation_Technical_Museum_(Luhansk)"
+        }
+      },
+      "image": {
+        "file": "2010-10-09-zag-luhansk-030-central-line.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2010-10-09-zag-luhansk-030-central-line.jpg",
+        "author": "Zag at Ukrainian Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-vladimir-dal-s-literary-museum",
+      "name": "Vladimir Dal's Literary Museum",
+      "area": "Luhansk",
+      "city": "Luhansk",
+      "wikidata": "Q12119954",
+      "lat": 48.578475,
+      "lon": 39.299125,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Vladimir Dal Russian State Literature Museum is the largest museum in Russia of the history of Russian literature, created on the initiative of Vladimir Bonch-Bruyevich.",
+        "es": "The Vladimir Dal Russian State Literature Museum is the largest museum in Russia of the history of Russian literature, created on the initiative of Vladimir Bonch-Bruyevich."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vladimir Dal Russian State Literature Museum",
+          "url": "https://en.wikipedia.org/wiki/Vladimir_Dal_Russian_State_Literature_Museum"
+        },
+        "es": {
+          "title": "Vladimir Dal Russian State Literature Museum",
+          "url": "https://en.wikipedia.org/wiki/Vladimir_Dal_Russian_State_Literature_Museum"
+        }
+      },
+      "image": {
+        "file": "Museum_Dahl.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museum_Dahl.jpg",
+        "author": "Lystopad",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-memorial-for-the-victims-killed-by-oun-upa",
+      "name": "Memorial for the victims killed by OUN-UPA",
+      "area": "Luhansk",
+      "city": "Luhansk",
+      "wikidata": "Q3544302",
+      "lat": 48.571667,
+      "lon": 39.308333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The monument dedicated to the \"Luhansk victims of the OUN-UPA\" is a statue located in Luhansk, Ukraine.",
+        "es": "The monument dedicated to the \"Luhansk victims of the OUN-UPA\" is a statue located in Luhansk, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Memorial for the victims killed by OUN-UPA (Luhansk)",
+          "url": "https://en.wikipedia.org/wiki/Memorial_for_the_victims_killed_by_OUN-UPA_(Luhansk)"
+        },
+        "es": {
+          "title": "Memorial for the victims killed by OUN-UPA (Luhansk)",
+          "url": "https://en.wikipedia.org/wiki/Memorial_for_the_victims_killed_by_OUN-UPA_(Luhansk)"
+        }
+      }
+    },
+    {
+      "id": "ua-pirogov-s-estate-museum-in-vinnytsia",
+      "name": "Pirogov's Estate Museum in Vinnytsia",
+      "area": "Vinnytsia",
+      "city": "Vinnytsia",
+      "wikidata": "Q4306061",
+      "lat": 49.216031,
+      "lon": 28.408375,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The National Museum-Estate of Nikolay Ivanovich Pirogov is a museum in Vinnytsia dedicated to the life and work of Nikolay Ivanovich Pirogov, a prominent Russian scientist, surgeon, and educator.",
+        "es": "La Mansión-Museo Nacional de Nikolái Pirogov es un museo dedicado a la vida y obra del científico, cirujano y educador Nikolái Pirogov en Vínnitsa, Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pirogov's Estate Museum",
+          "url": "https://en.wikipedia.org/wiki/Pirogov's_Estate_Museum"
+        },
+        "es": {
+          "title": "Museo de Nikolái Pirogov",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Nikol%C3%A1i_Pirogov"
+        }
+      },
+      "image": {
+        "file": "Вінниця_-_Садиба_Пирогова_-_Житловий_будинок_2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%92%D1%96%D0%BD%D0%BD%D0%B8%D1%86%D1%8F_-_%D0%A1%D0%B0%D0%B4%D0%B8%D0%B1%D0%B0_%D0%9F%D0%B8%D1%80%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0_-_%D0%96%D0%B8%D1%82%D0%BB%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA_2.JPG",
+        "author": "A-designer",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-vinnytsia-water-tower",
+      "name": "Vinnytsia water tower",
+      "area": "Vinnytsia",
+      "city": "Vinnytsia",
+      "wikidata": "Q12090095",
+      "lat": 49.234969,
+      "lon": 28.469658,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Vinnytsia water tower is a landmark of the city of Vinnytsia, Ukraine, constructed in 1912 and located on European Square.",
+        "es": "The Vinnytsia water tower is a landmark of the city of Vinnytsia, Ukraine, constructed in 1912 and located on European Square."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vinnytsia water tower",
+          "url": "https://en.wikipedia.org/wiki/Vinnytsia_water_tower"
+        },
+        "es": {
+          "title": "Vinnytsia water tower",
+          "url": "https://en.wikipedia.org/wiki/Vinnytsia_water_tower"
+        }
+      },
+      "image": {
+        "file": "Old_tower_2010_G2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Old_tower_2010_G2.jpg",
+        "author": "George Chernilevsky",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ua-transfiguration-cathedral-vinnytsia",
+      "name": "Transfiguration Cathedral, Vinnytsia",
+      "area": "Vinnytsia",
+      "city": "Vinnytsia",
+      "wikidata": "Q4411438",
+      "lat": 49.233167,
+      "lon": 28.475425,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Transfiguration Cathedral or Saviour-Transfiguration Cathedral is an Eastern Orthodox church in Vinnytsia, under the jurisdiction of the Orthodox Church of Ukraine.",
+        "es": "La catedral de la Ascensión es una catedral ortodoxa ucraniana que se sitúa en Vínnitsa, en el óblast homónimo de Ucrania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Transfiguration Cathedral, Vinnytsia",
+          "url": "https://en.wikipedia.org/wiki/Transfiguration_Cathedral%2C_Vinnytsia"
+        },
+        "es": {
+          "title": "Catedral de la Transfiguración (Vínnitsa)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Transfiguraci%C3%B3n_(V%C3%ADnnitsa)"
+        }
+      },
+      "image": {
+        "file": "Vinnytsia-orthodox-church-1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vinnytsia-orthodox-church-1.jpg",
+        "author": "Håkan Henriksson (Narking)",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ua-vynnytsia-fountain-roshen",
+      "name": "Vynnytsia Fountain Roshen",
+      "area": "Vinnytsia",
+      "city": "Vinnytsia",
+      "wikidata": "Q15092053",
+      "lat": 49.232803,
+      "lon": 28.48564,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Multimedia Fountain Roshen was built on the river Southern Buh in Vinnytsia City near Festivalny Isle.",
+        "es": "Multimedia Fountain Roshen was built on the river Southern Buh in Vinnytsia City near Festivalny Isle."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Multimedia Fountain Roshen",
+          "url": "https://en.wikipedia.org/wiki/Multimedia_Fountain_Roshen"
+        },
+        "es": {
+          "title": "Multimedia Fountain Roshen",
+          "url": "https://en.wikipedia.org/wiki/Multimedia_Fountain_Roshen"
+        }
+      },
+      "image": {
+        "file": "Фонтан_Рошен_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%BE%D0%BD%D1%82%D0%B0%D0%BD_%D0%A0%D0%BE%D1%88%D0%B5%D0%BD_2.jpg",
+        "author": "Фонтан Рошен",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ua-church-of-saint-nicholas-in-vinnytsya",
+      "name": "Church of Saint Nicholas in Vinnytsya",
+      "area": "Vinnytsia",
+      "city": "Vinnytsia",
+      "wikidata": "Q4505075",
+      "lat": 49.22605,
+      "lon": 28.47023,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Saint Nicholas Church is an Eastern Orthodox church on the left bank of the Southern Bug river in Vinnytsia, Ukraine.",
+        "es": "Saint Nicholas Church is an Eastern Orthodox church on the left bank of the Southern Bug river in Vinnytsia, Ukraine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saint Nicholas Church, Vinnytsia",
+          "url": "https://en.wikipedia.org/wiki/Saint_Nicholas_Church%2C_Vinnytsia"
+        },
+        "es": {
+          "title": "Saint Nicholas Church, Vinnytsia",
+          "url": "https://en.wikipedia.org/wiki/Saint_Nicholas_Church%2C_Vinnytsia"
+        }
+      },
+      "image": {
+        "file": "St_Nicholas_church_Vin_2010_G1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St_Nicholas_church_Vin_2010_G1.jpg",
+        "author": "George Chernilevsky",
+        "license": "CC BY-SA 3.0"
+      }
     }
   ]
 }

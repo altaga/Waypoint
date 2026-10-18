@@ -35,6 +35,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -82,6 +88,771 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      }
+    },
+    {
+      "id": "gw-bubaque",
+      "name": "Bubaque",
+      "area": "Bubaque",
+      "city": "Bubaque",
+      "wikidata": "Q997407",
+      "lat": 11.283333,
+      "lon": -15.833333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Bubaque is one of the Bijagós Islands in Guinea-Bissau, and is also the name of its main town.",
+        "es": "Isla Bubaque es una de las islas Bijagós en Guinea-Bissau, y es también el nombre de su ciudad principal, Administrativamente depende del Distrito de Bubaque, Región de Bolama."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bubaque",
+          "url": "https://en.wikipedia.org/wiki/Bubaque"
+        },
+        "es": {
+          "title": "Bubaque",
+          "url": "https://es.wikipedia.org/wiki/Bubaque"
+        }
+      },
+      "image": {
+        "file": "Bubaque_port.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bubaque_port.jpg",
+        "author": "Nammarci",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "gw-caravela",
+      "name": "Caravela",
+      "area": "Caravela",
+      "city": "Caravela",
+      "wikidata": "Q767357",
+      "lat": 11.566667,
+      "lon": -16.266667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Caravela is the northernmost island of the Bissagos Islands of Guinea-Bissau, part of the Sector of Caravela, which also includes the islands Carache, Maio, Ponta and Formosa.",
+        "es": "Caravela es el nombre de la isla más septentrional de las islas Bijagós o Bissagos del país africano de Guinea-Bisáu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Caravela",
+          "url": "https://en.wikipedia.org/wiki/Caravela"
+        },
+        "es": {
+          "title": "Caravela (Guinea-Bisáu)",
+          "url": "https://es.wikipedia.org/wiki/Caravela_(Guinea-Bis%C3%A1u)"
+        }
+      },
+      "image": {
+        "file": "CaravelaIvybeach1p.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CaravelaIvybeach1p.jpg",
+        "author": "Dietmar Pabe (DidiPabel at de.wikipedia)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gw-formosa",
+      "name": "Formosa",
+      "area": "Guinea-Bissau",
+      "city": "Guinea-Bissau",
+      "wikidata": "Q996793",
+      "lat": 11.483333,
+      "lon": -15.966667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Formosa is an island in the Bissagos Islands, Guinea-Bissau, part of the sector of Caravela.",
+        "es": "Formosa es una isla en la parte norte de las Islas Bissagos, en el país africano de Guinea-Bisáu, se encuentra al sur de las Isla de Ponta y Maio, al norte de Enu y Edana, junto con todas estas islas forma parte…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Formosa (Guinea-Bissau)",
+          "url": "https://en.wikipedia.org/wiki/Formosa_(Guinea-Bissau)"
+        },
+        "es": {
+          "title": "Formosa (Guinea-Bisáu)",
+          "url": "https://es.wikipedia.org/wiki/Formosa_(Guinea-Bis%C3%A1u)"
+        }
+      }
+    },
+    {
+      "id": "gw-the-cathedral-of-bissau",
+      "name": "The Cathedral of Bissau",
+      "area": "Bissau",
+      "city": "Bissau",
+      "wikidata": "Q10280205",
+      "lat": 11.860075,
+      "lon": -15.5812,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bissau Cathedral, also known as Sé Catedral de Nossa Senhora da Candelária is a Catholic cathedral in Bissau, Guinea-Bissau.",
+        "es": "La Catedral de Bisáu o bien la Catedral de Nuestra Señora de la Candelaria es una catedral católica en Bisáu, la capital del país africano de Guinea-Bisáu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bissau Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Bissau_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Nuestra Señora de la Candelaria (Bisáu)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Nuestra_Se%C3%B1ora_de_la_Candelaria_(Bis%C3%A1u)"
+        }
+      },
+      "image": {
+        "file": "Kathedrale_von_Bissau.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kathedrale_von_Bissau.png",
+        "author": "JNM",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gw-grande-de-buba-river",
+      "name": "Grande de Buba River",
+      "area": "Bissau",
+      "city": "Bissau",
+      "wikidata": "Q10361613",
+      "lat": 11.53333,
+      "lon": -15.41667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Rio Grande de Buba, also called the Rio Buba, Rio Grande, and Grande River, is an estuary of West Africa that is entirely contained within Guinea-Bissau, where it empties into the Atlantic Ocean.",
+        "es": "The Rio Grande de Buba, also called the Rio Buba, Rio Grande, and Grande River, is an estuary of West Africa that is entirely contained within Guinea-Bissau, where it empties into the Atlantic Ocean."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Río Grande de Buba",
+          "url": "https://en.wikipedia.org/wiki/R%C3%ADo_Grande_de_Buba"
+        },
+        "es": {
+          "title": "Río Grande de Buba",
+          "url": "https://en.wikipedia.org/wiki/R%C3%ADo_Grande_de_Buba"
+        }
+      },
+      "image": {
+        "file": "Buba_River_-_123886084.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Buba_River_-_123886084.jpg",
+        "author": "RemusShepherd",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gw-bolama-island",
+      "name": "Bolama Island",
+      "area": "Bissau",
+      "city": "Bissau",
+      "wikidata": "Q12722851",
+      "lat": 11.564162,
+      "lon": -15.529838,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Bolama is the closest of the Bissagos Islands to the mainland of Guinea-Bissau.",
+        "es": "La isla Bolama es la más cercana de las islas Bijagós al territorio continental de Guinea-Bisáu, y es también el nombre de la ciudad principal, además capital de la región de Bolama."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bolama Island",
+          "url": "https://en.wikipedia.org/wiki/Bolama_Island"
+        },
+        "es": {
+          "title": "Bolama",
+          "url": "https://es.wikipedia.org/wiki/Bolama"
+        }
+      },
+      "image": {
+        "file": "Bissagos_250_txu-oclc-6595921-nc28-2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bissagos_250_txu-oclc-6595921-nc28-2.jpg",
+        "author": "Army Map Service, Corps of Engineers, U.S. Army",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gw-roxa",
+      "name": "Roxa",
+      "area": "Bolama region",
+      "city": "Bolama region",
+      "wikidata": "Q1033251",
+      "lat": 11.244411,
+      "lon": -15.723489,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Roxa or Canhabaque is an island in the Bissagos Islands, Guinea-Bissau.",
+        "es": "Canhabaque también llamada Roxa, es una isla en el este del archipiélago de Bissagos que pertenece a Guinea-Bissau."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Roxa",
+          "url": "https://en.wikipedia.org/wiki/Roxa"
+        },
+        "es": {
+          "title": "Canhabaque",
+          "url": "https://es.wikipedia.org/wiki/Canhabaque"
+        }
+      },
+      "image": {
+        "file": "Insula_Roxa.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Insula_Roxa.png",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gw-uno",
+      "name": "Uno",
+      "area": "Uno",
+      "city": "Uno",
+      "wikidata": "Q2296509",
+      "lat": 11.27,
+      "lon": -16.23,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Uno is an island in the Bissagos archipelago off the coast of Guinea-Bissau, in the Atlantic Ocean.",
+        "es": "La Isla de Uno es una isla del archipiélago de Bissagos frente a la costa del país africano de Guinea-Bisáu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Uno (Guinea-Bissau)",
+          "url": "https://en.wikipedia.org/wiki/Uno_(Guinea-Bissau)"
+        },
+        "es": {
+          "title": "Isla de Uno",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Uno"
+        }
+      }
+    },
+    {
+      "id": "gw-cacheu-mangroves-natural-park",
+      "name": "Cacheu Mangroves Natural Park",
+      "area": "Cacheu Region",
+      "city": "Cacheu Region",
+      "wikidata": "Q3364592",
+      "lat": 12.3,
+      "lon": -16.179444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Cacheu River Mangroves Natural Park is a national park situated on the Cacheu River in Guinea-Bissau.",
+        "es": "The Cacheu River Mangroves Natural Park is a national park situated on the Cacheu River in Guinea-Bissau."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cacheu River Mangroves Natural Park",
+          "url": "https://en.wikipedia.org/wiki/Cacheu_River_Mangroves_Natural_Park"
+        },
+        "es": {
+          "title": "Cacheu River Mangroves Natural Park",
+          "url": "https://en.wikipedia.org/wiki/Cacheu_River_Mangroves_Natural_Park"
+        }
+      },
+      "image": {
+        "file": "Parque_Natural_dos_Tarrafes_do_Rio_Cacheu_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parque_Natural_dos_Tarrafes_do_Rio_Cacheu_02.jpg",
+        "author": "Joehawkins",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gw-pecixe",
+      "name": "Pecixe",
+      "area": "Cacheu Region",
+      "city": "Cacheu Region",
+      "wikidata": "Q475307",
+      "lat": 11.806189,
+      "lon": -16.088789,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pecixe is a coastal island in Guinea-Bissau, belonging to the Cacheu Region and the Caió sector.",
+        "es": "La isla de Pecixe es una de las islas costeras del país del oeste africano de Guinea-Bisáu, en el océano Atlántico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pecixe",
+          "url": "https://en.wikipedia.org/wiki/Pecixe"
+        },
+        "es": {
+          "title": "Isla de Pecixe",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Pecixe"
+        }
+      },
+      "image": {
+        "file": "Bissagos_250_txu-oclc-6595921-nc28-2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bissagos_250_txu-oclc-6595921-nc28-2.jpg",
+        "author": "Army Map Service, Corps of Engineers, U.S. Army",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gw-cantanhez-forest-national-park",
+      "name": "Cantanhez Forest National Park",
+      "area": "Tombali Region",
+      "city": "Tombali Region",
+      "wikidata": "Q5033548",
+      "lat": 11.26461,
+      "lon": -15.0293,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Cantanhez Forests National Park is a 1,057 km2 national park in southern Guinea-Bissau, lying close to the international border with Guinea.",
+        "es": "El Parque Nacional de los Bosques de Cantanhez es un espacio protegido creado en marzo de 2007 por el gobierno del país africano de Guinea-Bisáu, específicamente al sur de su territorio cerca de la frontera con Guinea."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cantanhez Forests National Park",
+          "url": "https://en.wikipedia.org/wiki/Cantanhez_Forests_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de los Bosques de Cantanhez",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_los_Bosques_de_Cantanhez"
+        }
+      }
+    },
+    {
+      "id": "gw-orango",
+      "name": "Orango",
+      "area": "Uno",
+      "city": "Uno",
+      "wikidata": "Q1571162",
+      "lat": 11.249417,
+      "lon": -16.221167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Orango is one of the Bijagós Islands, located 60 kilometres off the coast of mainland Guinea-Bissau.",
+        "es": "Orango es una isla del Archipiélago de Bijagós, localizada a 60 kilómetros de la costa del país africano de Guinea-Bisáu y que constituye el centro del parque nacional Islas de Orango, posee solo un pueblo, llamado…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Orango",
+          "url": "https://en.wikipedia.org/wiki/Orango"
+        },
+        "es": {
+          "title": "Orango",
+          "url": "https://es.wikipedia.org/wiki/Orango"
+        }
+      },
+      "image": {
+        "file": "Bissagos_250_txu-oclc-6595921-nc28-2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bissagos_250_txu-oclc-6595921-nc28-2.jpg",
+        "author": "Army Map Service, Corps of Engineers, U.S. Army",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gw-orango-islands-national-park",
+      "name": "Orango Islands National Park",
+      "area": "Bolama region",
+      "city": "Bolama region",
+      "wikidata": "Q7099832",
+      "lat": 11.12,
+      "lon": -16.05,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Orango National Park is a protected area in Guinea-Bissau.",
+        "es": "The Orango National Park is a protected area in Guinea-Bissau."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Orango National Park",
+          "url": "https://en.wikipedia.org/wiki/Orango_National_Park"
+        },
+        "es": {
+          "title": "Orango National Park",
+          "url": "https://en.wikipedia.org/wiki/Orango_National_Park"
+        }
+      },
+      "image": {
+        "file": "Lagoa_com_hipopótamos_03_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lagoa_com_hipop%C3%B3tamos_03_(cropped).jpg",
+        "author": "Joehawkins",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gw-carache",
+      "name": "Carache",
+      "area": "Caravela",
+      "city": "Caravela",
+      "wikidata": "Q1035315",
+      "lat": 11.419631,
+      "lon": -16.314531,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Carache is an island in the northwestern part of the Bissagos Islands group, Guinea-Bissau.",
+        "es": "Carache también escrito como Caraxe es una isla del océano Atlántico que geográficamente está incluida en las Islas Bijagós, en el país africano de Guinea-Bisáu, entre la Isla Caravela al noroeste, y la Isla de Enu…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Carache",
+          "url": "https://en.wikipedia.org/wiki/Carache"
+        },
+        "es": {
+          "title": "Isla de Carache",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Carache"
+        }
+      },
+      "image": {
+        "file": "Bissagos_250_txu-oclc-6595921-nc28-2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bissagos_250_txu-oclc-6595921-nc28-2.jpg",
+        "author": "Army Map Service, Corps of Engineers, U.S. Army",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gw-orangozinho",
+      "name": "Orangozinho",
+      "area": "Bolama region",
+      "city": "Bolama region",
+      "wikidata": "Q1107115",
+      "lat": 11.119789,
+      "lon": -15.93155,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Orangozinho is an island in the southern part of the Bijagos Archipelago, in Guinea-Bissau.",
+        "es": "Isla de Orangozinho es una isla habitada del archipiélago Bissagos que pertenece al país africano de Guinea-Bisáu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Orangozinho",
+          "url": "https://en.wikipedia.org/wiki/Orangozinho"
+        },
+        "es": {
+          "title": "Orangozinho",
+          "url": "https://es.wikipedia.org/wiki/Orangozinho"
+        }
+      },
+      "image": {
+        "file": "Femmes_bijago-Orangozinho.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Femmes_bijago-Orangozinho.jpg",
+        "author": "Ian",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gw-jeta",
+      "name": "Jeta",
+      "area": "Bissau",
+      "city": "Bissau",
+      "wikidata": "Q6188965",
+      "lat": 11.86735,
+      "lon": -16.25977,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Jeta is a coastal island in Guinea-Bissau.",
+        "es": "Jeta is a coastal island in Guinea-Bissau."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jeta (Guinea-Bissau)",
+          "url": "https://en.wikipedia.org/wiki/Jeta_(Guinea-Bissau)"
+        },
+        "es": {
+          "title": "Jeta (Guinea-Bissau)",
+          "url": "https://en.wikipedia.org/wiki/Jeta_(Guinea-Bissau)"
+        }
+      }
+    },
+    {
+      "id": "gw-joao-vieira-and-poilao-marine-national-park",
+      "name": "João Vieira and Poilão Marine National Park",
+      "area": "Bolama region",
+      "city": "Bolama region",
+      "wikidata": "Q6206287",
+      "lat": 10.95063,
+      "lon": -15.71182,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "João Vieira and Poilão Marine National Park is a national park in Guinea-Bissau.",
+        "es": "El Parque nacional marino João Vieira y Poilão es el nombre que recibe una espacio protegido en el sur del país africano de Guinea-Bisáu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "João Vieira and Poilão Marine National Park",
+          "url": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Vieira_and_Poil%C3%A3o_Marine_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional marino João Vieira y Poilão",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_marino_Jo%C3%A3o_Vieira_y_Poil%C3%A3o"
+        }
+      }
+    },
+    {
+      "id": "gw-poilao",
+      "name": "Poilão",
+      "area": "Bolama region",
+      "city": "Bolama region",
+      "wikidata": "Q11699892",
+      "lat": 10.866667,
+      "lon": -15.716667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Poilão is a small uninhabited island in the Bijagós Archipelago of Guinea-Bissau.",
+        "es": "La Isla de Poilao es una de las islas del Archipiélago de Bijagos en el país africano de Guinea-Bisáu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Poilão",
+          "url": "https://en.wikipedia.org/wiki/Poil%C3%A3o"
+        },
+        "es": {
+          "title": "Poilão",
+          "url": "https://es.wikipedia.org/wiki/Poil%C3%A3o"
+        }
+      }
+    },
+    {
+      "id": "gw-presidential-palace-bissau",
+      "name": "Presidential Palace, Bissau",
+      "area": "Bissau",
+      "city": "Bissau",
+      "wikidata": "Q20716917",
+      "lat": 11.86399,
+      "lon": -15.58496,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Presidential Palace is the residence of the President of Guinea-Bissau, situated in the capital city of Bissau.",
+        "es": "El Palacio Presidencial de Guinea-Bisáu o Palacio de la República es la residencia oficial del Presidente de Guinea-Bisáu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Presidential Palace, Bissau",
+          "url": "https://en.wikipedia.org/wiki/Presidential_Palace%2C_Bissau"
+        },
+        "es": {
+          "title": "Palacio Presidencial de Guinea-Bisáu",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Presidencial_de_Guinea-Bis%C3%A1u"
+        }
+      },
+      "image": {
+        "file": "Palácio_Presidencial_em_Bissau_(2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Presidencial_em_Bissau_(2).jpg",
+        "author": "Joehawkins",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gw-museu-etnografico-nacional-da-guine-bissau",
+      "name": "Museu Etnográfico Nacional da Guiné-Bissau",
+      "area": "Bissau",
+      "city": "Bissau",
+      "wikidata": "Q20065189",
+      "lat": 11.856861,
+      "lon": -15.610806,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "National Ethnographic Museum is the national ethnographic museum of Guinea-Bissau.",
+        "es": "National Ethnographic Museum is the national ethnographic museum of Guinea-Bissau."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Ethnographic Museum (Guinea-Bissau)",
+          "url": "https://en.wikipedia.org/wiki/National_Ethnographic_Museum_(Guinea-Bissau)"
+        },
+        "es": {
+          "title": "National Ethnographic Museum (Guinea-Bissau)",
+          "url": "https://en.wikipedia.org/wiki/National_Ethnographic_Museum_(Guinea-Bissau)"
+        }
+      },
+      "image": {
+        "file": "Museu_Etnográfico_Nacional,_Bissau.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museu_Etnogr%C3%A1fico_Nacional%2C_Bissau.jpg",
+        "author": "Joehawkins",
+        "license": "CC BY-SA 4.0"
       }
     }
   ]

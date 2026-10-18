@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -106,6 +112,348 @@
       "website": "https://musokunda.org/",
       "lat": 12.66895,
       "lon": -7.9529
+    },
+    {
+      "id": "ml-boucle-du-baoule-national-park",
+      "name": "Boucle du Baoulé National Park",
+      "area": "Bamako",
+      "city": "Bamako",
+      "wikidata": "Q894983",
+      "lat": 14.0833,
+      "lon": -8.8833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Boucle du Baoulé National Park lies in western Mali, in Kayes Region and Koulikoro Region, set up in 1982.",
+        "es": "Parque nacional Boucle du Baoulé es un espacio protegido que se encuentra en el oeste del país africano de Malí, en las regiones de Kayes y Kulikoró, fue establecido en 1982."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Boucle du Baoulé National Park",
+          "url": "https://en.wikipedia.org/wiki/Boucle_du_Baoul%C3%A9_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Boucle du Baoulé",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Boucle_du_Baoul%C3%A9"
+        }
+      }
+    },
+    {
+      "id": "ml-bamako-grand-mosque",
+      "name": "Bamako Grand Mosque",
+      "area": "Bamako",
+      "city": "Bamako",
+      "wikidata": "Q2477311",
+      "lat": 12.646944,
+      "lon": -7.993056,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bamako Grand Mosque is a mosque in the city centre of Bamako, Mali.",
+        "es": "La Gran Mezquita de Bamako es una mezquita en el centro de la ciudad de Bamako, Malí."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grand Mosque of Bamako",
+          "url": "https://en.wikipedia.org/wiki/Grand_Mosque_of_Bamako"
+        },
+        "es": {
+          "title": "Gran Mezquita de Bamako",
+          "url": "https://es.wikipedia.org/wiki/Gran_Mezquita_de_Bamako"
+        }
+      },
+      "image": {
+        "file": "Mosque-maison-guide.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mosque-maison-guide.jpg",
+        "author": "FADI-BUREAU-FRANCE",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ml-lake-selingue",
+      "name": "Lake Sélingué",
+      "area": "Sikasso Region",
+      "city": "Sikasso Region",
+      "wikidata": "Q2723824",
+      "lat": 11.616667,
+      "lon": -8.233333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Sélingué is a 409 km2 artificial lake in Mali's Sikasso Region, formed by the Sélingué Hydroelectric dam on the Sankarani River.",
+        "es": "El lago de Sélingué es un lago artificial o embalse formado en el río Sankarani por la represa hidroeléctrica de Sélingué."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Sélingué",
+          "url": "https://en.wikipedia.org/wiki/Lake_S%C3%A9lingu%C3%A9"
+        },
+        "es": {
+          "title": "Lago de Sélingué",
+          "url": "https://es.wikipedia.org/wiki/Lago_de_S%C3%A9lingu%C3%A9"
+        }
+      },
+      "image": {
+        "file": "Lac_Sélingué2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lac_S%C3%A9lingu%C3%A92.jpg",
+        "author": "Olivier EPRON",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "ml-lake-manantali",
+      "name": "Lake Manantali",
+      "area": "Bamako",
+      "city": "Bamako",
+      "wikidata": "Q3658491",
+      "lat": 13.158,
+      "lon": -10.344,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Manantali is a large artificial lake, formed by the 1989 construction of the Manantali Dam, on the Bafing River in Mali.",
+        "es": "El lago Manantali es un gran lago artificial de Malí de la cuenca del río Senegal formado por la construcción en el río Bafing, en 1989, de la presa de Manantali."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Manantali",
+          "url": "https://en.wikipedia.org/wiki/Lake_Manantali"
+        },
+        "es": {
+          "title": "Lago Manantali",
+          "url": "https://es.wikipedia.org/wiki/Lago_Manantali"
+        }
+      },
+      "image": {
+        "file": "10.34748W_13.10430N.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:10.34748W_13.10430N.png",
+        "author": "Photograph: NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ml-sacred-heart-cathedral",
+      "name": "Sacred Heart Cathedral",
+      "area": "Bamako",
+      "city": "Bamako",
+      "wikidata": "Q2942903",
+      "lat": 12.6435,
+      "lon": -7.99964,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sacred Heart Cathedral is located in Bamako, the capital of Mali, and serves as the cathedral of the Archdiocese of Bamako.",
+        "es": "La Catedral del Sagrado Corazón de Jesús se localiza en Bamako es la catedral católica de la arquidiócesis de Bamako."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sacred Heart Cathedral, Bamako",
+          "url": "https://en.wikipedia.org/wiki/Sacred_Heart_Cathedral%2C_Bamako"
+        },
+        "es": {
+          "title": "Catedral del Sagrado Corazón (Bamako)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Sagrado_Coraz%C3%B3n_(Bamako)"
+        }
+      },
+      "image": {
+        "file": "Bamako_Cathedral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bamako_Cathedral.jpg",
+        "author": "Upyernoz",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ml-bceao-tower",
+      "name": "BCEAO Tower",
+      "area": "Bamako",
+      "city": "Bamako",
+      "wikidata": "Q39087",
+      "lat": 12.632476,
+      "lon": -7.998379,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The BCEAO Tower is a building in Bamako, Mali.",
+        "es": "The BCEAO Tower is a building in Bamako, Mali."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "BCEAO Tower (Bamako)",
+          "url": "https://en.wikipedia.org/wiki/BCEAO_Tower_(Bamako)"
+        },
+        "es": {
+          "title": "BCEAO Tower (Bamako)",
+          "url": "https://en.wikipedia.org/wiki/BCEAO_Tower_(Bamako)"
+        }
+      }
+    },
+    {
+      "id": "ml-martyrs-bridge",
+      "name": "Martyrs Bridge",
+      "area": "Bamako",
+      "city": "Bamako",
+      "wikidata": "Q3397394",
+      "lat": 12.629869,
+      "lon": -7.991831,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Martyrs Bridge of Bamako, Mali connects the older sections of the city to its suburbs on the south shore of the Niger River.",
+        "es": "El Puente de los Mártires se localiza en la ciudad de Bamako la capital de Malí, conecta las secciones más antiguas de la capital maliense a sus grandes suburbios en la orilla sur del río Níger."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Martyrs Bridge (Bamako)",
+          "url": "https://en.wikipedia.org/wiki/Martyrs_Bridge_(Bamako)"
+        },
+        "es": {
+          "title": "Puente de los Mártires",
+          "url": "https://es.wikipedia.org/wiki/Puente_de_los_M%C3%A1rtires"
+        }
+      },
+      "image": {
+        "file": "Bamako_bridge_crop_enh.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bamako_bridge_crop_enh.jpg",
+        "author": "original: robin.elaine, derivation made by Radosław Botev",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "ml-king-fahd-bridge",
+      "name": "King Fahd Bridge",
+      "area": "Bamako",
+      "city": "Bamako",
+      "wikidata": "Q3397513",
+      "lat": 12.623611,
+      "lon": -8.004778,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The King Fahd Bridge of Bamako, Mali connects the older sections of the Malian capital to its broad suburbs on the south shore of the Niger River.",
+        "es": "El Puente del Rey Fahd es una estructura en Bamako la capital del país africano de Malí, conecta las secciones más antiguas de la capital maliense a sus grandes suburbios en la orilla sur del río Níger."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "King Fahd Bridge",
+          "url": "https://en.wikipedia.org/wiki/King_Fahd_Bridge"
+        },
+        "es": {
+          "title": "Puente del Rey Fahd",
+          "url": "https://es.wikipedia.org/wiki/Puente_del_Rey_Fahd"
+        }
+      },
+      "image": {
+        "file": "Dan_Flore_Bamako-Mali-Boat-on-the-Niger-River-and-King-Fahd-Bridge.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dan_Flore_Bamako-Mali-Boat-on-the-Niger-River-and-King-Fahd-Bridge.jpg",
+        "author": "Dan Flore",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ml-patrice-lumumba-square",
+      "name": "Patrice Lumumba Square",
+      "area": "Bamako",
+      "city": "Bamako",
+      "wikidata": "Q25100141",
+      "lat": 12.6349,
+      "lon": -7.9966,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Patrice Lumumba Square is a large central plaza in Bamako, the capital and largest city of Mali.",
+        "es": "Patrice Lumumba Square is a large central plaza in Bamako, the capital and largest city of Mali."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Patrice Lumumba Square",
+          "url": "https://en.wikipedia.org/wiki/Patrice_Lumumba_Square"
+        },
+        "es": {
+          "title": "Patrice Lumumba Square",
+          "url": "https://en.wikipedia.org/wiki/Patrice_Lumumba_Square"
+        }
+      }
     }
   ]
 }

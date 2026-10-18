@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -67,6 +73,469 @@
       "website": "http://www.grenadamuseum.org",
       "lat": 12.05,
       "lon": -61.75
+    },
+    {
+      "id": "gd-grenada",
+      "name": "Grenada",
+      "area": "St. George's",
+      "city": "St. George's",
+      "wikidata": "Q769",
+      "website": "https://www.gov.gd/",
+      "lat": 12.1,
+      "lon": -61.7,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Grenada is an archipelagic country of the West Indies in the eastern Caribbean Sea.",
+        "es": "Grenada is an archipelagic country of the West Indies in the eastern Caribbean Sea."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grenada",
+          "url": "https://en.wikipedia.org/wiki/Grenada"
+        },
+        "es": {
+          "title": "Grenada",
+          "url": "https://en.wikipedia.org/wiki/Grenada"
+        }
+      },
+      "image": {
+        "file": "StGeorgesGrenada2000.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:StGeorgesGrenada2000.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gd-carriacou-island",
+      "name": "Carriacou Island",
+      "area": "Grenada",
+      "city": "Grenada",
+      "wikidata": "Q795647",
+      "lat": 12.466667,
+      "lon": -61.45,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Carriacou is an island of the Grenadine Islands.",
+        "es": "Carriacou is an island of the Grenadine Islands."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Carriacou",
+          "url": "https://en.wikipedia.org/wiki/Carriacou"
+        },
+        "es": {
+          "title": "Carriacou",
+          "url": "https://en.wikipedia.org/wiki/Carriacou"
+        }
+      },
+      "image": {
+        "file": "Hillsborough_Carriacou.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hillsborough_Carriacou.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gd-mount-saint-catherine",
+      "name": "Mount Saint Catherine",
+      "area": "St. George's",
+      "city": "St. George's",
+      "wikidata": "Q525281",
+      "lat": 12.162222,
+      "lon": -61.675278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Saint Catherine is an extensively weathered stratovolcano mountain and tallest peak on the Caribbean island of Grenada.",
+        "es": "Monte Saint Catherine o Monte Santa Catalina es un estratovolcán y la montaña más alta de la isla caribeña y nación de Granada."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Saint Catherine (Grenada)",
+          "url": "https://en.wikipedia.org/wiki/Mount_Saint_Catherine_(Grenada)"
+        },
+        "es": {
+          "title": "Monte Saint Catherine",
+          "url": "https://es.wikipedia.org/wiki/Monte_Saint_Catherine"
+        }
+      },
+      "image": {
+        "file": "Mount_Saint_Catherine_Summit.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Saint_Catherine_Summit.jpg",
+        "author": "Tranquilometro",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gd-ronde-island",
+      "name": "Ronde Island",
+      "area": "St. George's",
+      "city": "St. George's",
+      "wikidata": "Q389978",
+      "lat": 12.304,
+      "lon": -61.5865,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ronde Island, Grenada is a 2,000-acre private island in the Lesser Antilles chain of the Caribbean Sea.",
+        "es": "La Isla Ronde es una pequeña isla del sureste del mar Caribe que geográficamente pertenece a las Pequeñas Antillas y al archipiélago de las Granadinas y administrativamente al país insular de Granada."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ronde Island",
+          "url": "https://en.wikipedia.org/wiki/Ronde_Island"
+        },
+        "es": {
+          "title": "Isla Ronde",
+          "url": "https://es.wikipedia.org/wiki/Isla_Ronde"
+        }
+      },
+      "image": {
+        "file": "ISS036-E-10080_-_View_of_the_Lesser_Antilles_(cropped_to_Ronde_area).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ISS036-E-10080_-_View_of_the_Lesser_Antilles_(cropped_to_Ronde_area).jpg",
+        "author": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gd-kick-em-jenny",
+      "name": "Kick-'em-Jenny",
+      "area": "St. George's",
+      "city": "St. George's",
+      "wikidata": "Q1740807",
+      "lat": 12.3,
+      "lon": -61.64,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kick 'em Jenny is an active submarine volcano or seamount on the Caribbean Sea floor, located 8 km north of the island of Grenada and about 8 km west of Ronde Island in the Grenadines.",
+        "es": "Kick-'Em-Jenny es un volcán submarino activo, ubicado a 8 kilómetros de la costa norte de la isla de Granada, al oeste de las islas Ronde y Caille."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kick 'em Jenny",
+          "url": "https://en.wikipedia.org/wiki/Kick_'em_Jenny"
+        },
+        "es": {
+          "title": "Kick-'Em-Jenny",
+          "url": "https://es.wikipedia.org/wiki/Kick-'Em-Jenny"
+        }
+      },
+      "image": {
+        "file": "Kick-'em-JennySONAR.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kick-'em-JennySONAR.jpg",
+        "author": "Doug Wilson, NOAA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gd-grenada-q3116419",
+      "name": "Grenada",
+      "area": "St. George's",
+      "city": "St. George's",
+      "wikidata": "Q3116419",
+      "lat": 12.128611,
+      "lon": -61.686944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Grenada is an island country located between the Caribbean Sea and Atlantic Ocean, north of Trinidad and Tobago.",
+        "es": "Grenada is an island country located between the Caribbean Sea and Atlantic Ocean, north of Trinidad and Tobago."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Geography of Grenada",
+          "url": "https://en.wikipedia.org/wiki/Geography_of_Grenada"
+        },
+        "es": {
+          "title": "Geography of Grenada",
+          "url": "https://en.wikipedia.org/wiki/Geography_of_Grenada"
+        }
+      },
+      "image": {
+        "file": "Grenada_Almost_Paradise_-_panoramio_-_Stefan_und_Bille.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Grenada_Almost_Paradise_-_panoramio_-_Stefan_und_Bille.jpg",
+        "author": "Stefan_und_Bille",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gd-grand-etang-lake",
+      "name": "Grand Etang Lake",
+      "area": "St. George's",
+      "city": "St. George's",
+      "wikidata": "Q5594534",
+      "lat": 12.083333,
+      "lon": -61.7,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Grand Etang Lake is a crater lake in a volcano on the island of Grenada.",
+        "es": "El Lago Grand Etang es un lago de cráter en un volcán extinto."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grand Etang (Grenada)",
+          "url": "https://en.wikipedia.org/wiki/Grand_Etang_(Grenada)"
+        },
+        "es": {
+          "title": "Lago Grand Etang",
+          "url": "https://es.wikipedia.org/wiki/Lago_Grand_Etang"
+        }
+      },
+      "image": {
+        "file": "GREN-grand-etang-see.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:GREN-grand-etang-see.jpg",
+        "author": "Bgabel",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gd-caille-island",
+      "name": "Caille Island",
+      "area": "St. George's",
+      "city": "St. George's",
+      "wikidata": "Q5017538",
+      "lat": 12.286111,
+      "lon": -61.581944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Caille Island is a 155-acre private island situated 4 miles off the northern end of the Caribbean island of Grenada.",
+        "es": "La Isla Caille es un pequeño islote localizado en el mar Caribe, entre las islas de Granada y Carriacou, del grupo de las Granadinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Caille Island",
+          "url": "https://en.wikipedia.org/wiki/Caille_Island"
+        },
+        "es": {
+          "title": "Isla Caille",
+          "url": "https://es.wikipedia.org/wiki/Isla_Caille"
+        }
+      }
+    },
+    {
+      "id": "gd-saline-island",
+      "name": "Saline Island",
+      "area": "St. George's",
+      "city": "St. George's",
+      "wikidata": "Q3469809",
+      "lat": 12.433333,
+      "lon": -61.466667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Saline Island is a small, 64 acre islet between Grenada and Carriacou.",
+        "es": "Isla Saline es una pequeña isla en el sur del archipiélago de las Islas Granadinas, cerca de la isla de Carriacou y que pertenece al país caribeño de Granada, en las coordenadas geográficas 12°26′N 61°28′O"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saline Island",
+          "url": "https://en.wikipedia.org/wiki/Saline_Island"
+        },
+        "es": {
+          "title": "Isla Saline",
+          "url": "https://es.wikipedia.org/wiki/Isla_Saline"
+        }
+      }
+    },
+    {
+      "id": "gd-immaculate-conception-cathedral",
+      "name": "Immaculate Conception Cathedral",
+      "area": "St. George's",
+      "city": "St. George's",
+      "wikidata": "Q23831971",
+      "lat": 12.053422,
+      "lon": -61.752123,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Immaculate Conception Cathedral is a religious building belonging to the Catholic Church and is located on Church Street beside York House in the town of Saint George, capital of the Caribbean island nation of…",
+        "es": "La Catedral de la Inmaculada Concepción es el nombre que recibe un edificio religioso que pertenece a la Iglesia católica y se encuentra ubicado en la calle Church en localidad de Saint George la capital del pequeño…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Immaculate Conception Cathedral, St. George's",
+          "url": "https://en.wikipedia.org/wiki/Immaculate_Conception_Cathedral%2C_St._George's"
+        },
+        "es": {
+          "title": "Catedral de la Inmaculada Concepción (Saint George)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Inmaculada_Concepci%C3%B3n_(Saint_George)"
+        }
+      },
+      "image": {
+        "file": "Cathedral_of_the_Immaculate_Conception_C_IMG_0519.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Immaculate_Conception_C_IMG_0519.JPG",
+        "author": "Anneli Salo",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gd-tufton-hall-waterfall",
+      "name": "Tufton Hall Waterfall",
+      "area": "St. George's",
+      "city": "St. George's",
+      "wikidata": "Q7851528",
+      "lat": 12.171333,
+      "lon": -61.692748,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Tufton Hall Waterfall is located in St.",
+        "es": "The Tufton Hall Waterfall is located in St."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tufton Hall Waterfall",
+          "url": "https://en.wikipedia.org/wiki/Tufton_Hall_Waterfall"
+        },
+        "es": {
+          "title": "Tufton Hall Waterfall",
+          "url": "https://en.wikipedia.org/wiki/Tufton_Hall_Waterfall"
+        }
+      },
+      "image": {
+        "file": "TuftonFalls_Grenada.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:TuftonFalls_Grenada.JPG",
+        "author": "J. Hanna",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gd-glover-island",
+      "name": "Glover Island",
+      "area": "St. George's",
+      "city": "St. George's",
+      "wikidata": "Q24679916",
+      "lat": 11.98698,
+      "lon": -61.78651,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Glover Island is a small islet off the southern peninsula of Grenada.",
+        "es": "Glover Island is a small islet off the southern peninsula of Grenada."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Glover Island, Grenada",
+          "url": "https://en.wikipedia.org/wiki/Glover_Island%2C_Grenada"
+        },
+        "es": {
+          "title": "Glover Island, Grenada",
+          "url": "https://en.wikipedia.org/wiki/Glover_Island%2C_Grenada"
+        }
+      }
     }
   ]
 }

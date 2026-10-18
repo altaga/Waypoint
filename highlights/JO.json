@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -322,6 +328,2321 @@
       "website": "http://www.royalautomuseum.jo/default.aspx?id=4&fl=4_2&lang=en",
       "lat": 31.98411,
       "lon": 35.82597
+    },
+    {
+      "id": "jo-dead-sea",
+      "name": "Dead Sea",
+      "area": "Israel",
+      "city": "Israel",
+      "wikidata": "Q23883",
+      "lat": 31.5207,
+      "lon": 35.4845,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Dead Sea, also known by other names, is a landlocked salt lake bordered by Jordan to the east, the West Bank to the west and Israel to the southwest.",
+        "es": "El mar Muerto es un lago endorreico salado situado en una profunda depresión a 435 metros bajo el nivel del mar, entre Israel, Palestina y Jordania, en la región de Oriente Próximo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dead Sea",
+          "url": "https://en.wikipedia.org/wiki/Dead_Sea"
+        },
+        "es": {
+          "title": "Mar Muerto",
+          "url": "https://es.wikipedia.org/wiki/Mar_Muerto"
+        }
+      },
+      "image": {
+        "file": "Dead_Sea_by_David_Shankbone.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dead_Sea_by_David_Shankbone.jpg",
+        "author": "David Shankbone",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-petra",
+      "name": "Petra",
+      "area": "Ma'an Governorate",
+      "city": "Ma'an Governorate",
+      "wikidata": "Q5788",
+      "lat": 30.328889,
+      "lon": 35.440278,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Petra, originally known to its inhabitants as Raqmu, is an ancient city and archaeological site in southern Jordan.",
+        "es": "Petra es un importante enclave arqueológico en Jordania y la capital del antiguo reino nabateo, cuyos pobladores la llamaban Raqmu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Petra",
+          "url": "https://en.wikipedia.org/wiki/Petra"
+        },
+        "es": {
+          "title": "Petra",
+          "url": "https://es.wikipedia.org/wiki/Petra"
+        }
+      },
+      "image": {
+        "file": "The_Treasury,_Petra,_Jordan5.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Treasury%2C_Petra%2C_Jordan5.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-salt",
+      "name": "Salt",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q867586",
+      "lat": 32.039167,
+      "lon": 35.727222,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "As-Salt, also known as Salt, is an ancient trading city and administrative centre in west-central Jordan.",
+        "es": "As-Salt es una ciudad en la gobernación de Balqa', en Jordania .Se encuentra en la antigua carretera entre Amán y Jerusalén, a 28 km al oeste de Amán, en la meseta de Balqa entre tres cerros uno de los cuales es el…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "As-Salt",
+          "url": "https://en.wikipedia.org/wiki/As-Salt"
+        },
+        "es": {
+          "title": "As-Salt",
+          "url": "https://es.wikipedia.org/wiki/As-Salt"
+        }
+      },
+      "image": {
+        "file": "As-salt.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:As-salt.jpg",
+        "author": "Created by en:user:Omernos",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "jo-mount-nebo",
+      "name": "Mount Nebo",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q680161",
+      "lat": 31.767778,
+      "lon": 35.725556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Nebo is an elevated ridge located in Jordan, approximately 700 metres above sea level.",
+        "es": "El monte Nebo es un pico de 817 metros situado en el oeste de la Jordania actual, en la cordillera de Abarim."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Nebo",
+          "url": "https://en.wikipedia.org/wiki/Mount_Nebo"
+        },
+        "es": {
+          "title": "Monte Nebo",
+          "url": "https://es.wikipedia.org/wiki/Monte_Nebo"
+        }
+      },
+      "image": {
+        "file": "Mount_Nebo_BW_6.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Nebo_BW_6.JPG",
+        "author": "Berthold Werner",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "jo-ajloun",
+      "name": "Ajloun",
+      "area": "Irbid",
+      "city": "Irbid",
+      "wikidata": "Q1141858",
+      "lat": 32.3325,
+      "lon": 35.751667,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ajloun, also spelled Ajlun, is the capital town of the Ajloun Governorate, a hilly town in the north of Jordan, located 76 kilometers north west of Amman.",
+        "es": "Ajlun o Ayilun es una ciudad en la gobernación de Ajlun, en Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ajloun",
+          "url": "https://en.wikipedia.org/wiki/Ajloun"
+        },
+        "es": {
+          "title": "Ajlun",
+          "url": "https://es.wikipedia.org/wiki/Ajlun"
+        }
+      },
+      "image": {
+        "file": "Ajlun_from_Ajlun_Castle.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ajlun_from_Ajlun_Castle.jpg",
+        "author": "Daniel Case",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-al-maghtas",
+      "name": "Al Maghtas",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q12193567",
+      "lat": 31.837222,
+      "lon": 35.550278,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Al-Maghtas, officially known as Baptism Site \"Bethany Beyond the Jordan\", is an archaeological World Heritage Site in Jordan, on the east bank of the Jordan River, reputed to be the location of the Baptism of Jesus…",
+        "es": "Al-Maghtas, que significa «bautismo» o «inmersión» en árabe, es un yacimiento arqueológico del patrimonio mundial en Jordania en la orilla este del río Jordán, oficialmente conocido como «Betania más allá del Jordán»."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Al-Maghtas",
+          "url": "https://en.wikipedia.org/wiki/Al-Maghtas"
+        },
+        "es": {
+          "title": "Al-Maghtas",
+          "url": "https://es.wikipedia.org/wiki/Al-Maghtas"
+        }
+      },
+      "image": {
+        "file": "Bethany_(5).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bethany_(5).JPG",
+        "author": "Producer (talk)",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "jo-umm-ar-rasas",
+      "name": "Umm ar-Rasas",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q822842",
+      "lat": 31.499722,
+      "lon": 35.919722,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Umm ar-Rasas is located 30 km southeast of Madaba in the Amman Governorate in central Jordan.",
+        "es": "Um er-Rasas, también llamado Kastrom Mefa'a es un sitio arqueológico jordano que contiene ruinas de las civilizaciones romana, bizantina y proto-musulmana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Umm ar-Rasas",
+          "url": "https://en.wikipedia.org/wiki/Umm_ar-Rasas"
+        },
+        "es": {
+          "title": "Um er-Rasas",
+          "url": "https://es.wikipedia.org/wiki/Um_er-Rasas"
+        }
+      },
+      "image": {
+        "file": "Umm_Rasas_House_ruins.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Umm_Rasas_House_ruins.JPG",
+        "author": "Daniel Kirk",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "jo-mesha-stele",
+      "name": "Mesha Stele",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q724954",
+      "lat": 31.498889,
+      "lon": 35.785556,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mesha Stele, also known as the Moabite Stone, is a stele dated around 840 BCE containing a significant Canaanite inscription in the name of King Mesha of Moab.",
+        "es": "La Estela de Mesa es una piedra de basalto negro, que muestra una inscripción de Mesa, rey moabita del siglo IX a."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mesha Stele",
+          "url": "https://en.wikipedia.org/wiki/Mesha_Stele"
+        },
+        "es": {
+          "title": "Estela de Mesa",
+          "url": "https://es.wikipedia.org/wiki/Estela_de_Mesa"
+        }
+      },
+      "image": {
+        "file": "F4171_Louvre_stele_de_Mesha_AO5066_rwk.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:F4171_Louvre_stele_de_Mesha_AO5066_rwk.jpg",
+        "author": "Mbzt",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "jo-al-khazneh",
+      "name": "Al Khazneh",
+      "area": "Al-Betrā'",
+      "city": "Al-Betrā'",
+      "wikidata": "Q1259626",
+      "lat": 30.32206,
+      "lon": 35.45145,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Al-Khazneh, also known as Khaznat el-Far'oun, is one of the most elaborate rock-cut tombs in Petra, a city of the Nabatean Kingdom inhabited by the Arabs in ancient times.",
+        "es": "El Tesoro de Petra es la primera construcción de cierta entidad que encuentra el viajero cuando emerge del Siq, el desfiladero de 1.5 km que hay que recorrer para llegar a la ciudad escondida de Petra, en Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Al-Khazneh",
+          "url": "https://en.wikipedia.org/wiki/Al-Khazneh"
+        },
+        "es": {
+          "title": "Tesoro de Petra",
+          "url": "https://es.wikipedia.org/wiki/Tesoro_de_Petra"
+        }
+      },
+      "image": {
+        "file": "Al_Khazneh_Petra_edit_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Al_Khazneh_Petra_edit_2.jpg",
+        "author": "Al_Khazneh_Petra.jpg: Graham Racher from London, UK derivative work: MrPanyGoff",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "jo-king-abdullah-i-mosque",
+      "name": "King Abdullah I Mosque",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q1574587",
+      "lat": 31.96158,
+      "lon": 35.91312,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The King Abdullah I Mosque is a mosque, located in Amman, Jordan.",
+        "es": "La mezquita del Rey Abdalá I es una mezquita en Amán la capital de Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "King Abdullah I Mosque",
+          "url": "https://en.wikipedia.org/wiki/King_Abdullah_I_Mosque"
+        },
+        "es": {
+          "title": "Mezquita del Rey Abdalá I",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_del_Rey_Abdal%C3%A1_I"
+        }
+      },
+      "image": {
+        "file": "Amman_BW_29.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amman_BW_29.JPG",
+        "author": "Berthold Werner",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "jo-pella",
+      "name": "Pella",
+      "area": "Irbid",
+      "city": "Irbid",
+      "wikidata": "Q167993",
+      "lat": 32.450001,
+      "lon": 35.616669,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Pella was an ancient city in what is now northwest Jordan, and contains ruins from the Neolithic, Chalcolithic, Bronze Age, Iron Age, Canaanite, Hellenistic and Islamic periods.",
+        "es": "Pella was an ancient city in what is now northwest Jordan, and contains ruins from the Neolithic, Chalcolithic, Bronze Age, Iron Age, Canaanite, Hellenistic and Islamic periods."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pella, Jordan",
+          "url": "https://en.wikipedia.org/wiki/Pella%2C_Jordan"
+        },
+        "es": {
+          "title": "Pella, Jordan",
+          "url": "https://en.wikipedia.org/wiki/Pella%2C_Jordan"
+        }
+      },
+      "image": {
+        "file": "Byzantine_Basilica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Byzantine_Basilica.jpg",
+        "author": "Ben Churcher, Pella Project, University of Sydney, Australia",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "jo-montreal-castle",
+      "name": "Montréal Castle",
+      "area": "Idumea",
+      "city": "Idumea",
+      "wikidata": "Q1362749",
+      "lat": 30.531389,
+      "lon": 35.560833,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Montreal, or Qal'at ash-Shawbak in Arabic, is a castle built by the Crusaders and expanded by the Mamluks, nestled amid the mountains of Edom just east of the Arabah Valley, perched on the side of a rocky, conical…",
+        "es": "El castillo de Shawbak o Qal'at ash-Shawbak es una fortaleza de los cruzados ubicada al oriente del valle del Aravá, con una espléndida vista de este, sobre una montaña cónica y junto a la moderna ciudad de Shawbak,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Montreal (castle)",
+          "url": "https://en.wikipedia.org/wiki/Montreal_(castle)"
+        },
+        "es": {
+          "title": "Castillo de Shawbak",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Shawbak"
+        }
+      }
+    },
+    {
+      "id": "jo-dana-biosphere-reserve",
+      "name": "Dana Biosphere Reserve",
+      "area": "Tafilah Governorate",
+      "city": "Tafilah Governorate",
+      "wikidata": "Q864750",
+      "lat": 30.6875,
+      "lon": 35.575278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Dana Biosphere Reserve is Jordan's largest nature reserve, located in south-central Jordan.",
+        "es": "La Reserva de la Biosfera de Dana, fundada en 1989, es la reserva natural más grande de Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dana Biosphere Reserve",
+          "url": "https://en.wikipedia.org/wiki/Dana_Biosphere_Reserve"
+        },
+        "es": {
+          "title": "Reserva de la biosfera de Dana",
+          "url": "https://es.wikipedia.org/wiki/Reserva_de_la_biosfera_de_Dana"
+        }
+      },
+      "image": {
+        "file": "Dana_Reserve_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dana_Reserve_02.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-machaerus",
+      "name": "Machaerus",
+      "area": "Madaba Governorate",
+      "city": "Madaba Governorate",
+      "wikidata": "Q1549278",
+      "lat": 31.56694,
+      "lon": 35.63361,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Machaerus was a Hasmonean hilltop palace and desert fortress, rebuilt by Herod and now in ruins, near the village of Mukawir in modern-day Jordan.",
+        "es": "Maqueronte es el nombre de una antigua fortaleza ubicada en la cumbre de una colina en la antigua Perea, en la actual Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Machaerus",
+          "url": "https://en.wikipedia.org/wiki/Machaerus"
+        },
+        "es": {
+          "title": "Maqueronte",
+          "url": "https://es.wikipedia.org/wiki/Maqueronte"
+        }
+      },
+      "image": {
+        "file": "Machaerus_Panorama.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Machaerus_Panorama.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "jo-qasr-kharana",
+      "name": "Qasr Kharana",
+      "area": "Amman Governorate",
+      "city": "Amman Governorate",
+      "wikidata": "Q537641",
+      "lat": 31.728889,
+      "lon": 36.462778,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Qasr al-Harrana, sometimes Qasr Harrana, Qasr al-Haranah, Haraneh, Hraneh, Harana, Qasr al-Kharana or Khauranee, is one of the best-known of the desert castles located in present-day eastern Jordan, about 60…",
+        "es": "El Qasr Kharana, también llamado Qasr al Harrana, Qasr al-Jarana, Kharanah, Kharaneh o Hraneh es uno de los llamados castillos del desierto que hay al este de Amán, en Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Qasr Kharana",
+          "url": "https://en.wikipedia.org/wiki/Qasr_Kharana"
+        },
+        "es": {
+          "title": "Qasr Kharana",
+          "url": "https://es.wikipedia.org/wiki/Qasr_Kharana"
+        }
+      },
+      "image": {
+        "file": "Qasr_Kharana_in_Jordan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Qasr_Kharana_in_Jordan.jpg",
+        "author": "High Contrast",
+        "license": "CC BY 3.0 de"
+      }
+    },
+    {
+      "id": "jo-ayn-ghazal",
+      "name": "Ayn Ghazal",
+      "area": "Russeifa",
+      "city": "Russeifa",
+      "wikidata": "Q423625",
+      "lat": 31.988,
+      "lon": 35.976,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ayn Ghazal is a Neolithic archaeological site located in Amman, Jordan, about 2 km north-west of Amman Civil Airport.",
+        "es": "Ain Ghazal es un importante yacimiento arqueológico del Neolítico situado en la periferia de la ciudad de Amán, Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ayn Ghazal (archaeological site)",
+          "url": "https://en.wikipedia.org/wiki/Ayn_Ghazal_(archaeological_site)"
+        },
+        "es": {
+          "title": "'Ain Ghazal",
+          "url": "https://es.wikipedia.org/wiki/'Ain_Ghazal"
+        }
+      },
+      "image": {
+        "file": "20100923_amman40.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20100923_amman40.JPG",
+        "author": "Jeanhousen",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-jabal-umm-ad-dami",
+      "name": "Jabal Umm ad Dami",
+      "area": "Aqaba Governorate",
+      "city": "Aqaba Governorate",
+      "wikidata": "Q1261902",
+      "lat": 29.308333,
+      "lon": 35.429167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Jabal Umm ad Dami, in historic Wadi Rum, is the highest mountain in Jordan.",
+        "es": "El Jabal Umm al Dami es la montaña más alta de Jordania con 1854 m, según la SRTM."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jabal Umm ad Dami",
+          "url": "https://en.wikipedia.org/wiki/Jabal_Umm_ad_Dami"
+        },
+        "es": {
+          "title": "Jabal Umm al Dami",
+          "url": "https://es.wikipedia.org/wiki/Jabal_Umm_al_Dami"
+        }
+      },
+      "image": {
+        "file": "Djebel_Umm_ad_Dami.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Djebel_Umm_ad_Dami.jpg",
+        "author": "Roupicou",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "jo-heshbon",
+      "name": "Heshbon",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q1615584",
+      "lat": 31.818611,
+      "lon": 35.798889,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Heshbon were at least two different ancient towns located east of the Jordan River in what is now the Kingdom of Jordan, historically within the territories of ancient Ammon.",
+        "es": "Heshbon were at least two different ancient towns located east of the Jordan River in what is now the Kingdom of Jordan, historically within the territories of ancient Ammon."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Heshbon",
+          "url": "https://en.wikipedia.org/wiki/Heshbon"
+        },
+        "es": {
+          "title": "Heshbon",
+          "url": "https://en.wikipedia.org/wiki/Heshbon"
+        }
+      },
+      "image": {
+        "file": "Tell_Hesban_(Column).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tell_Hesban_(Column).jpg",
+        "author": "Bashar Tabbah",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "jo-allenby-bridge",
+      "name": "Allenby Bridge",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q712133",
+      "lat": 31.874167,
+      "lon": 35.540833,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Allenby Bridge, known officially in Jordan as the King Hussein Bridge, is a bridge that crosses the Jordan River near the city of Jericho in the West Bank and the town of Al-Karameh in Jordan.",
+        "es": "El puente Allenby o puente del Rey Hussein es un puente sobre el río Jordán, que conecta Jericó en Cisjordania con Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Allenby Bridge",
+          "url": "https://en.wikipedia.org/wiki/Allenby_Bridge"
+        },
+        "es": {
+          "title": "Puente Allenby",
+          "url": "https://es.wikipedia.org/wiki/Puente_Allenby"
+        }
+      },
+      "image": {
+        "file": "Allenby-Brücke.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Allenby-Br%C3%BCcke.jpg",
+        "author": "Abutoum",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "jo-qasr-mshatta",
+      "name": "Qasr Mshatta",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q1636168",
+      "lat": 31.7375,
+      "lon": 36.010278,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Mshatta, also known as Qasr al-Mushatta, is the ruin of an Umayyad winter palace, probably commissioned by Caliph Al-Walid II during his brief reign.",
+        "es": "El Qusair Mushatta o Mshatta, es un palacio de invierno omeya, hoy en ruinas, probablemente construido por el califa Walid II entre 743 y 744."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mshatta",
+          "url": "https://en.wikipedia.org/wiki/Mshatta"
+        },
+        "es": {
+          "title": "Qusair Mushatta",
+          "url": "https://es.wikipedia.org/wiki/Qusair_Mushatta"
+        }
+      },
+      "image": {
+        "file": "Mschatta-Fassade_(Pergamonmuseum).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mschatta-Fassade_(Pergamonmuseum).jpg",
+        "author": "Raimond Spekking",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "jo-amman-citadel",
+      "name": "Amman Citadel",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q3157009",
+      "lat": 31.9547,
+      "lon": 35.9343,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Amman Citadel on Citadel Hill is an archaeological site on an L-shaped hill towering over Downtown Amman, in the central part of the capital of Jordan.",
+        "es": "La Ciudadela de Amán es un lugar histórico nacional situado en el centro de Amán, Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Amman Citadel",
+          "url": "https://en.wikipedia.org/wiki/Amman_Citadel"
+        },
+        "es": {
+          "title": "Ciudadela de Amán",
+          "url": "https://es.wikipedia.org/wiki/Ciudadela_de_Am%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Amman_Citadel.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amman_Citadel.jpg",
+        "author": "David Bjorgen",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "jo-kerak-castle",
+      "name": "Kerak Castle",
+      "area": "Al-Karak",
+      "city": "Al-Karak",
+      "wikidata": "Q844694",
+      "lat": 31.180556,
+      "lon": 35.701389,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kerak Castle is a large medieval castle located in al-Karak, Jordan.",
+        "es": "El castillo de Karak está situado en Al Karak, Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kerak Castle",
+          "url": "https://en.wikipedia.org/wiki/Kerak_Castle"
+        },
+        "es": {
+          "title": "Castillo de Karak",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Karak"
+        }
+      },
+      "image": {
+        "file": "Kerak_BW_1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kerak_BW_1.JPG",
+        "author": "Berthold Werner",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "jo-mount-hor",
+      "name": "Mount Hor",
+      "area": "Ma'an Governorate",
+      "city": "Ma'an Governorate",
+      "wikidata": "Q2915115",
+      "lat": 30.316777,
+      "lon": 35.406538,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Hor is the name given in the Hebrew Bible to two distinct mountains.",
+        "es": "El monte Hor es el nombre dado en el Antiguo Testamento a dos montañas distintas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Hor",
+          "url": "https://en.wikipedia.org/wiki/Mount_Hor"
+        },
+        "es": {
+          "title": "Monte Hor",
+          "url": "https://es.wikipedia.org/wiki/Monte_Hor"
+        }
+      },
+      "image": {
+        "file": "Mthor.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mthor.jpeg",
+        "author": "Mlynn927",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-tomb-of-aaron",
+      "name": "Tomb of Aaron",
+      "area": "Al-Betrā'",
+      "city": "Al-Betrā'",
+      "wikidata": "Q4165296",
+      "lat": 30.318886,
+      "lon": 35.407338,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Tomb of Aaron is the purported burial site of Aaron, the brother of Moses, according to Jewish, Christian, and local Muslim traditions.",
+        "es": "La tumba de Aarón es el nombre del supuesto lugar de sepultura de Aarón, el hermano de Moisés."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tomb of Aaron (Jordan)",
+          "url": "https://en.wikipedia.org/wiki/Tomb_of_Aaron_(Jordan)"
+        },
+        "es": {
+          "title": "Tumba de Aarón",
+          "url": "https://es.wikipedia.org/wiki/Tumba_de_Aar%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Aaron's_tomb.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aaron's_tomb.jpg",
+        "author": "Joneikifi",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-ad-deir",
+      "name": "Ad Deir",
+      "area": "Al-Betrā'",
+      "city": "Al-Betrā'",
+      "wikidata": "Q345467",
+      "lat": 30.338228,
+      "lon": 35.430927,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ed-Deir, also spelled el-Deir and ad-Deir/ad-Dayr, is a monumental building carved out of rock in the ancient city of Petra in southern Jordan.",
+        "es": "Deir es un edificio monumental excavado y esculpido en piedra en la antigua ciudad jordana de Petra."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ed-Deir, Petra",
+          "url": "https://en.wikipedia.org/wiki/Ed-Deir%2C_Petra"
+        },
+        "es": {
+          "title": "Deir",
+          "url": "https://es.wikipedia.org/wiki/Deir"
+        }
+      },
+      "image": {
+        "file": "Petra_Jordan_BW_36.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Petra_Jordan_BW_36.JPG",
+        "author": "Berthold Werner",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "jo-qasr-azraq",
+      "name": "Qasr Azraq",
+      "area": "Zarqa Governorate",
+      "city": "Zarqa Governorate",
+      "wikidata": "Q2121495",
+      "lat": 31.879964,
+      "lon": 36.827428,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Qasr al-Azraq is a large fortress located in present-day eastern Jordan.",
+        "es": "El castillo de Qasr Al Azraq o simplemente Qasr Azraq, la \"fortaleza azul\" en árabe, está situado a unos 100 km al este de Amán, en las afueras de la ciudad de Azraq."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Qasr al-Azraq",
+          "url": "https://en.wikipedia.org/wiki/Qasr_al-Azraq"
+        },
+        "es": {
+          "title": "Qasr Al Azraq",
+          "url": "https://es.wikipedia.org/wiki/Qasr_Al_Azraq"
+        }
+      },
+      "image": {
+        "file": "QasrAlAzraq.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:QasrAlAzraq.jpg",
+        "author": "Steffen Sledz (Zone42)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-roman-theatre-of-amman",
+      "name": "Roman Theatre of Amman",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q2634316",
+      "lat": 31.951673,
+      "lon": 35.939363,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Roman Theatre of Amman is a 6,000-seat, 2nd-century Roman theatre.",
+        "es": "El teatro Romano de Amán es un monumento construido en el siglo II."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Roman Theatre (Amman)",
+          "url": "https://en.wikipedia.org/wiki/Roman_Theatre_(Amman)"
+        },
+        "es": {
+          "title": "Teatro romano de Amán",
+          "url": "https://es.wikipedia.org/wiki/Teatro_romano_de_Am%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Roman_theater_of_Amman_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Roman_theater_of_Amman_01.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "jo-zoara",
+      "name": "Zoara",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q218016",
+      "lat": 31.046944,
+      "lon": 35.5025,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bela, also called Zoar or Tzoar, in the Hebrew Bible, Segor in the Septuagint, and Zughar by medieval Arabs, was an ancient city located in the Dead Sea basin in the Transjordan.",
+        "es": "Zóar o Segor, anteriormente llamada Bela según el Antiguo Testamento de la Biblia, fue una de las cinco \"ciudades de la llanura\": una pentápolis ubicada a lo largo del valle del río Jordán inferior y la llanura…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zoara",
+          "url": "https://en.wikipedia.org/wiki/Zoara"
+        },
+        "es": {
+          "title": "Zóar",
+          "url": "https://es.wikipedia.org/wiki/Z%C3%B3ar"
+        }
+      }
+    },
+    {
+      "id": "jo-gadara",
+      "name": "Gadara",
+      "area": "Irbid",
+      "city": "Irbid",
+      "wikidata": "Q56322109",
+      "lat": 32.655548,
+      "lon": 35.677841,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Gadara, in some texts Gedaris, was an ancient Hellenistic city in what is now Jordan, for a long time member of the Decapolis city league, a former bishopric and present Latin Catholic titular see.",
+        "es": "Gadara, in some texts Gedaris, was an ancient Hellenistic city in what is now Jordan, for a long time member of the Decapolis city league, a former bishopric and present Latin Catholic titular see."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gadara",
+          "url": "https://en.wikipedia.org/wiki/Gadara"
+        },
+        "es": {
+          "title": "Gadara",
+          "url": "https://en.wikipedia.org/wiki/Gadara"
+        }
+      },
+      "image": {
+        "file": "Umm_Qais_25.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Umm_Qais_25.JPG",
+        "author": "Samir I. Sharbaty",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-raphana",
+      "name": "Raphana",
+      "area": "Irbid",
+      "city": "Irbid",
+      "wikidata": "Q247552",
+      "lat": 32.683056,
+      "lon": 35.87,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Raphana, was one of the Decapolis cities mentioned by Pliny the Elder, within his Naturalis Historia.",
+        "es": "Ráfana o Raphana, situada al norte de Jordania, fue una de las ciudades que conformaban la confederación de la Decápolis."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Raphana",
+          "url": "https://en.wikipedia.org/wiki/Raphana"
+        },
+        "es": {
+          "title": "Ráfana",
+          "url": "https://es.wikipedia.org/wiki/R%C3%A1fana"
+        }
+      }
+    },
+    {
+      "id": "jo-azraq-wetland-reserve",
+      "name": "Azraq Wetland Reserve",
+      "area": "Zarqa Governorate",
+      "city": "Zarqa Governorate",
+      "wikidata": "Q11202572",
+      "lat": 31.82909,
+      "lon": 36.83857,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Azraq Wetland Reserve is a nature reserve located in the town of Azraq in the eastern desert of Jordan.",
+        "es": "La Reserva de los Humedales de Azraq es una reserva natural ubicada cerca de la ciudad de Azraq en el desierto oriental de Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Azraq Wetland Reserve",
+          "url": "https://en.wikipedia.org/wiki/Azraq_Wetland_Reserve"
+        },
+        "es": {
+          "title": "Reserva de los Humedales de Azraq",
+          "url": "https://es.wikipedia.org/wiki/Reserva_de_los_Humedales_de_Azraq"
+        }
+      },
+      "image": {
+        "file": "Azraq_view.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Azraq_view.jpg",
+        "author": "Ldud at English Wikipedia",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "jo-capitolias",
+      "name": "Capitolias",
+      "area": "Irbid",
+      "city": "Irbid",
+      "wikidata": "Q1226916",
+      "lat": 32.598593,
+      "lon": 35.858417,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Capitolias was an ancient city east of the Jordan River, and is identified with the modern village of Beit Ras in the Irbid Governorate in northern Jordan.",
+        "es": "Capitolias fue una antigua ciudad al este del río Jordán, identificada con la actual aldea de Beit Ras en la gobernación de Irbid en el norte de Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Capitolias",
+          "url": "https://en.wikipedia.org/wiki/Capitolias"
+        },
+        "es": {
+          "title": "Capitolias",
+          "url": "https://es.wikipedia.org/wiki/Capitolias"
+        }
+      },
+      "image": {
+        "file": "Capitolas_theater_3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Capitolas_theater_3.jpg",
+        "author": "Zachchan2015",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "jo-beidha",
+      "name": "Beidha",
+      "area": "Ma'an Governorate",
+      "city": "Ma'an Governorate",
+      "wikidata": "Q2677032",
+      "lat": 30.37078,
+      "lon": 35.447756,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Beidha, also sometimes Bayda, is a major Neolithic archaeological site a few kilometres north of Petra near Siq al-Barid in Jordan.",
+        "es": "Beidha, a veces Bayda, es un sitio arqueológico del Neolítico ubicado a unos tres kilómetros al norte de la ciudad jordana de Petra, próxima al también sitio arqueológico de Siq al-Barid."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Beidha (archaeological site)",
+          "url": "https://en.wikipedia.org/wiki/Beidha_(archaeological_site)"
+        },
+        "es": {
+          "title": "Sitio arqueológico de Beidha",
+          "url": "https://es.wikipedia.org/wiki/Sitio_arqueol%C3%B3gico_de_Beidha"
+        }
+      },
+      "image": {
+        "file": "Baydha_Jordanie_258.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Baydha_Jordanie_258.JPG",
+        "author": "Odilia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-abila",
+      "name": "Abila",
+      "area": "Irbid",
+      "city": "Irbid",
+      "wikidata": "Q1314033",
+      "website": "https://www.jbu.edu/abila/",
+      "lat": 32.683056,
+      "lon": 35.87,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Abila, distinguished as Abila in the Decapolis, and also known for a time as Seleucia, and Abila Viniferos, was a city in the Decapolis; the site, now referred to as Qweilbeh, occupies two tells, Tell al-Abila and…",
+        "es": "Abila, distinguished as Abila in the Decapolis, and also known for a time as Seleucia, and Abila Viniferos, was a city in the Decapolis; the site, now referred to as Qweilbeh, occupies two tells, Tell al-Abila and…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Abila (Decapolis)",
+          "url": "https://en.wikipedia.org/wiki/Abila_(Decapolis)"
+        },
+        "es": {
+          "title": "Abila (Decapolis)",
+          "url": "https://en.wikipedia.org/wiki/Abila_(Decapolis)"
+        }
+      },
+      "image": {
+        "file": "The-Decapolis-map.svg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The-Decapolis-map.svg",
+        "author": "Nichalp",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "jo-abdoun-bridge",
+      "name": "Abdoun Bridge",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q308447",
+      "lat": 31.951333,
+      "lon": 35.893911,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Wadi Abdoun Bridge or the Kamal Al-Shair Bridge is a bridge in Amman, Jordan.",
+        "es": "El Puente Wadi Abdoun es un puente en Amán, Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Abdoun Bridge",
+          "url": "https://en.wikipedia.org/wiki/Abdoun_Bridge"
+        },
+        "es": {
+          "title": "Puente Wadi Abdoun",
+          "url": "https://es.wikipedia.org/wiki/Puente_Wadi_Abdoun"
+        }
+      },
+      "image": {
+        "file": "WadiAbdoun1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:WadiAbdoun1.jpg",
+        "author": "The original uploader was Ldud at English Wikipedia.",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "jo-temple-of-artemis",
+      "name": "Temple of Artemis",
+      "area": "Zarqa",
+      "city": "Zarqa",
+      "wikidata": "Q2527347",
+      "lat": 32.28185,
+      "lon": 35.89107,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Temple of Artemis at Gerasa is a Roman peripteral temple in Jerash, Jordan.",
+        "es": "The Temple of Artemis at Gerasa is a Roman peripteral temple in Jerash, Jordan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Temple of Artemis, Jerash",
+          "url": "https://en.wikipedia.org/wiki/Temple_of_Artemis%2C_Jerash"
+        },
+        "es": {
+          "title": "Temple of Artemis, Jerash",
+          "url": "https://en.wikipedia.org/wiki/Temple_of_Artemis%2C_Jerash"
+        }
+      },
+      "image": {
+        "file": "Artemis_Temple_Pan_2_touched.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Artemis_Temple_Pan_2_touched.jpg",
+        "author": "Askii",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "jo-jabal-ram",
+      "name": "Jabal Ram",
+      "area": "Aqaba Governorate",
+      "city": "Aqaba Governorate",
+      "wikidata": "Q541800",
+      "lat": 29.58333,
+      "lon": 35.4,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Jabal Ram is a mountain in Jordan. Most authorities give its elevation as 1,734 m above sea level.",
+        "es": "Jabal Ram is a mountain in Jordan. Most authorities give its elevation as 1,734 m above sea level."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jabal Ram",
+          "url": "https://en.wikipedia.org/wiki/Jabal_Ram"
+        },
+        "es": {
+          "title": "Jabal Ram",
+          "url": "https://en.wikipedia.org/wiki/Jabal_Ram"
+        }
+      },
+      "image": {
+        "file": "Jabal_Ram_Peak.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jabal_Ram_Peak.JPG",
+        "author": "Tatapcku at English Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-tell-el-hammam",
+      "name": "Tell el-Hammam",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q55634648",
+      "lat": 31.84018,
+      "lon": 35.67368,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Tell el-Hammam is an archaeological site in the Amman Governorate of Jordan, in the eastern part of the lower Jordan Valley 11.7 kilometers east of the Jordan River and not far from its mouth.",
+        "es": "Tell el-Hammam es un yacimiento arqueológico ubicado en la Gobernación de Amán, Jordania, en la parte oriental del valle bajo del Jordán, a 11,7 kilómetros al este del río Jordán y no lejos de su desembocadura."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tell el-Hammam",
+          "url": "https://en.wikipedia.org/wiki/Tell_el-Hammam"
+        },
+        "es": {
+          "title": "Tell el-Hammam",
+          "url": "https://es.wikipedia.org/wiki/Tell_el-Hammam"
+        }
+      },
+      "image": {
+        "file": "Tall_el-Hammam_overlooking_the_Jordan_Valley_2007.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tall_el-Hammam_overlooking_the_Jordan_Valley_2007.jpg",
+        "author": "Deg777",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "jo-jisr-ed-damiye",
+      "name": "Jisr ed Damiye",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q2916379",
+      "lat": 32.102625,
+      "lon": 35.535053,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Damiyah Bridge, known as Prince Muhammad Bridge in Jordan, and as Gesher Adam in Israel, is a historical bridge that crosses the Jordan River and located between the Palestinian territories and the town of Damia…",
+        "es": "The Damiyah Bridge, known as Prince Muhammad Bridge in Jordan, and as Gesher Adam in Israel, is a historical bridge that crosses the Jordan River and located between the Palestinian territories and the town of Damia…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Damiyah Bridge",
+          "url": "https://en.wikipedia.org/wiki/Damiyah_Bridge"
+        },
+        "es": {
+          "title": "Damiyah Bridge",
+          "url": "https://en.wikipedia.org/wiki/Damiyah_Bridge"
+        }
+      }
+    },
+    {
+      "id": "jo-bab-edh-dhra",
+      "name": "Bab edh-Dhra",
+      "area": "Jordan",
+      "city": "Jordan",
+      "wikidata": "Q797529",
+      "lat": 31.253928,
+      "lon": 35.534183,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bab edh-Dhra is the site of an Early Bronze Age city located near the Dead Sea on the south bank of the wadi of al-Karak with dates in the EB IB, EB II, EB III, and EB IVA.",
+        "es": "Bab edh-Dhra es el sitio de una ciudad de la Edad del Bronce Antiguo ubicada cerca del mar Muerto, en la orilla sur del uadi Kerak."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bab edh-Dhra",
+          "url": "https://en.wikipedia.org/wiki/Bab_edh-Dhra"
+        },
+        "es": {
+          "title": "Bab edh-Dhra",
+          "url": "https://es.wikipedia.org/wiki/Bab_edh-Dhra"
+        }
+      },
+      "image": {
+        "file": "Bab_edh-Dhra_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bab_edh-Dhra_02.jpg",
+        "author": "Ana al'ain",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-aqaba-fortress",
+      "name": "Aqaba Fortress",
+      "area": "Aqaba",
+      "city": "Aqaba",
+      "wikidata": "Q4782454",
+      "lat": 29.521465,
+      "lon": 35.002047,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Aqaba Castle or Aqaba Fort, also known as the Mamluk Castle of Aqaba, Jordan, is a Mamluk and Ottoman fortified caravanserai on the pilgrimage route to Mecca and Medina which, in its current form, dates back…",
+        "es": "El Castillo de Áqaba, también conocido como Castillo mameluco o Fuerte de Áqaba es una fortaleza situada en Áqaba."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aqaba Fortress",
+          "url": "https://en.wikipedia.org/wiki/Aqaba_Fortress"
+        },
+        "es": {
+          "title": "Castillo de Áqaba",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_%C3%81qaba"
+        }
+      },
+      "image": {
+        "file": "Aqaba-fort-flickr01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aqaba-fort-flickr01.jpg",
+        "author": "watchsmart",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "jo-odeon-of-amman",
+      "name": "Odeon of Amman",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q20422619",
+      "lat": 31.952333,
+      "lon": 35.939889,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Odeon is a small 500-seat theatre in Amman, Jordan.",
+        "es": "El Teatro Odeon es un pequeño teatro de 500 asientos en Amán, Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Odeon Theater (Amman)",
+          "url": "https://en.wikipedia.org/wiki/Odeon_Theater_(Amman)"
+        },
+        "es": {
+          "title": "Teatro Odeon (Amán)",
+          "url": "https://es.wikipedia.org/wiki/Teatro_Odeon_(Am%C3%A1n)"
+        }
+      },
+      "image": {
+        "file": "Amman-Odeon(js).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amman-Odeon(js).jpg",
+        "author": "Jerzy Strzelecki",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-aqaba-marine-reserve",
+      "name": "Aqaba Marine Reserve",
+      "area": "Aqaba Governorate",
+      "city": "Aqaba Governorate",
+      "wikidata": "Q31866622",
+      "lat": 29.430702,
+      "lon": 34.971843,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Aqaba Marine Reserve is a nature reserve located in the Aqaba Governorate, Jordan, established in 1997, covers an area of 2.8 square kilometers.",
+        "es": "Aqaba Marine Reserve is a nature reserve located in the Aqaba Governorate, Jordan, established in 1997, covers an area of 2.8 square kilometers."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aqaba Marine Reserve",
+          "url": "https://en.wikipedia.org/wiki/Aqaba_Marine_Reserve"
+        },
+        "es": {
+          "title": "Aqaba Marine Reserve",
+          "url": "https://en.wikipedia.org/wiki/Aqaba_Marine_Reserve"
+        }
+      }
+    },
+    {
+      "id": "jo-al-husseini-mosque",
+      "name": "Al Husseini Mosque",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q12192959",
+      "lat": 31.949722,
+      "lon": 35.934722,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Grand Husseini Mosque is a Friday mosque, located in downtown Amman, Jordan.",
+        "es": "The Grand Husseini Mosque is a Friday mosque, located in downtown Amman, Jordan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grand Husseini Mosque",
+          "url": "https://en.wikipedia.org/wiki/Grand_Husseini_Mosque"
+        },
+        "es": {
+          "title": "Grand Husseini Mosque",
+          "url": "https://en.wikipedia.org/wiki/Grand_Husseini_Mosque"
+        }
+      },
+      "image": {
+        "file": "Husseini_Mosque_Down_Town_Amman.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Husseini_Mosque_Down_Town_Amman.jpg",
+        "author": "Freedom's Falcon at Arabic Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "jo-arch-of-hadrian",
+      "name": "Arch of Hadrian",
+      "area": "Zarqa",
+      "city": "Zarqa",
+      "wikidata": "Q16206680",
+      "lat": 32.2723,
+      "lon": 35.891269,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Arch of Hadrian is an ancient Roman structure in Jerash, Jordan.",
+        "es": "El Arco de Adriano es una antigua estructura romana en Gerasa, Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Arch of Hadrian (Jerash)",
+          "url": "https://en.wikipedia.org/wiki/Arch_of_Hadrian_(Jerash)"
+        },
+        "es": {
+          "title": "Arco de Adriano (Gerasa)",
+          "url": "https://es.wikipedia.org/wiki/Arco_de_Adriano_(Gerasa)"
+        }
+      },
+      "image": {
+        "file": "Hadrian_Arc_Pan-2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hadrian_Arc_Pan-2.jpg",
+        "author": "Askii",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "jo-jebel-al-madhbah",
+      "name": "Jebel al-Madhbah",
+      "area": "Ma'an Governorate",
+      "city": "Ma'an Governorate",
+      "wikidata": "Q16849904",
+      "lat": 30.321944,
+      "lon": 35.4475,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Jebel al-Madhbah is a mountain at Petra, Jordan, at whose peak there is a large Nabataean ritual site centered around an altar.",
+        "es": "Jebel al-Madhbah es una montaña en Petra, en la actual Jordania, que varios eruditos han propuesto como el Monte Sinaí bíblico, comenzando con Ditlef Nielsen en 1927."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jebel al-Madhbah",
+          "url": "https://en.wikipedia.org/wiki/Jebel_al-Madhbah"
+        },
+        "es": {
+          "title": "Jebel al-Madhbah",
+          "url": "https://es.wikipedia.org/wiki/Jebel_al-Madhbah"
+        }
+      },
+      "image": {
+        "file": "20100926_petra084.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20100926_petra084.JPG",
+        "author": "Jean Housen",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-gerasa",
+      "name": "Gerasa",
+      "area": "Zarqa",
+      "city": "Zarqa",
+      "wikidata": "Q56072866",
+      "lat": 32.2725,
+      "lon": 35.8942,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Jerash or Jarash is a city in northern Jordan.",
+        "es": "Gerasa, ahora más conocida como Jerash, es el nombre de una antigua ciudad de la Decápolis."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jerash",
+          "url": "https://en.wikipedia.org/wiki/Jerash"
+        },
+        "es": {
+          "title": "Gerasa",
+          "url": "https://es.wikipedia.org/wiki/Gerasa"
+        }
+      },
+      "image": {
+        "file": "General_View_of_Jerash.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:General_View_of_Jerash.jpg",
+        "author": "JoTB",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-jabesh-gilead",
+      "name": "Jabesh-Gilead",
+      "area": "Irbid",
+      "city": "Irbid",
+      "wikidata": "Q2905361",
+      "lat": 32.398983,
+      "lon": 35.595106,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Jabesh-Gilead, sometimes shortened to Jabesh, was an ancient Israelite town in Gilead, in northwest Jordan.",
+        "es": "Jabes de Galaad es un lugar bíblico, mencionado en el Libro Génesis 31:43-47 del Antiguo Testamento, que relata como este término se deriva de dos palabras: Labán y Jacob, tío y sobrino, respectivamente, se…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jabesh-Gilead",
+          "url": "https://en.wikipedia.org/wiki/Jabesh-Gilead"
+        },
+        "es": {
+          "title": "Jabes de Galaad",
+          "url": "https://es.wikipedia.org/wiki/Jabes_de_Galaad"
+        }
+      }
+    },
+    {
+      "id": "jo-qasr-al-bint",
+      "name": "Qasr al-Bint",
+      "area": "Ma'an Governorate",
+      "city": "Ma'an Governorate",
+      "wikidata": "Q3412437",
+      "lat": 30.3297,
+      "lon": 35.4403,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Qasr al-Bint is a religious temple in the Nabataean city of Petra.",
+        "es": "The Qasr al-Bint is a religious temple in the Nabataean city of Petra."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Qasr al-Bint",
+          "url": "https://en.wikipedia.org/wiki/Qasr_al-Bint"
+        },
+        "es": {
+          "title": "Qasr al-Bint",
+          "url": "https://en.wikipedia.org/wiki/Qasr_al-Bint"
+        }
+      },
+      "image": {
+        "file": "Jordan-18C-108.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jordan-18C-108.jpg",
+        "author": "Dennis G. Jarvis",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "jo-little-petra",
+      "name": "Little Petra",
+      "area": "Ma'an Governorate",
+      "city": "Ma'an Governorate",
+      "wikidata": "Q2284751",
+      "lat": 30.375278,
+      "lon": 35.451389,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Little Petra, also known as Siq al-Barid, is an archaeological site located north of Petra and the town of Wadi Musa in the Ma'an Governorate of Jordan.",
+        "es": "La Pequeña Petra conocida también como Siq al-Barid es un yacimiento arqueológico en Jordania, a 14 km al norte de la más conocida Petra, —con la que ha sido identificada— y la ciudad de Wadi Musa en la gobernación…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Little Petra",
+          "url": "https://en.wikipedia.org/wiki/Little_Petra"
+        },
+        "es": {
+          "title": "Pequeña Petra",
+          "url": "https://es.wikipedia.org/wiki/Peque%C3%B1a_Petra"
+        }
+      },
+      "image": {
+        "file": "05_Little_Petra_Canyon_Trail_-_The_Trail_Starts_at_the_End_of_Little_Petra_-_panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:05_Little_Petra_Canyon_Trail_-_The_Trail_Starts_at_the_End_of_Little_Petra_-_panoramio.jpg",
+        "author": "hikinginjordan",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-wadi-araba-crossing",
+      "name": "Wadi Araba Crossing",
+      "area": "Eilat",
+      "city": "Eilat",
+      "wikidata": "Q2559756",
+      "lat": 29.575,
+      "lon": 34.978056,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Wadi Araba Crossing or Yitzhak Rabin Crossing is an international border crossing between Aqaba, Jordan and Eilat, Israel.",
+        "es": "The Wadi Araba Crossing or Yitzhak Rabin Crossing is an international border crossing between Aqaba, Jordan and Eilat, Israel."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wadi Araba Crossing",
+          "url": "https://en.wikipedia.org/wiki/Wadi_Araba_Crossing"
+        },
+        "es": {
+          "title": "Wadi Araba Crossing",
+          "url": "https://en.wikipedia.org/wiki/Wadi_Araba_Crossing"
+        }
+      },
+      "image": {
+        "file": "Wadi_Araba_Border_Terminal_(Israel).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wadi_Araba_Border_Terminal_(Israel).JPG",
+        "author": "NYC2TLV",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "jo-bethabara",
+      "name": "Bethabara",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q2617848",
+      "lat": 31.836944,
+      "lon": 35.547222,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Al-Maghtas, officially known as Baptism Site \"Bethany Beyond the Jordan\", is an archaeological World Heritage Site in Jordan, on the east bank of the Jordan River, reputed to be the location of the Baptism of Jesus…",
+        "es": "Al-Maghtas, officially known as Baptism Site \"Bethany Beyond the Jordan\", is an archaeological World Heritage Site in Jordan, on the east bank of the Jordan River, reputed to be the location of the Baptism of Jesus…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Al-Maghtas",
+          "url": "https://en.wikipedia.org/wiki/Al-Maghtas"
+        },
+        "es": {
+          "title": "Al-Maghtas",
+          "url": "https://en.wikipedia.org/wiki/Al-Maghtas"
+        }
+      }
+    },
+    {
+      "id": "jo-rajib",
+      "name": "Rajib",
+      "area": "Amman",
+      "city": "Amman",
+      "wikidata": "Q759521",
+      "lat": 31.9,
+      "lon": 35.983333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Al-Rajib or simply Rajib is a town in Qweismeh area of Greater Amman Municipality in northwest Jordan.",
+        "es": "Al-Rajib or simply Rajib is a town in Qweismeh area of Greater Amman Municipality in northwest Jordan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Al-Rajib",
+          "url": "https://en.wikipedia.org/wiki/Al-Rajib"
+        },
+        "es": {
+          "title": "Al-Rajib",
+          "url": "https://en.wikipedia.org/wiki/Al-Rajib"
+        }
+      }
+    },
+    {
+      "id": "jo-dion",
+      "name": "Dion",
+      "area": "Irbid",
+      "city": "Irbid",
+      "wikidata": "Q3052638",
+      "lat": 32.598611,
+      "lon": 35.858333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Dium or Dion or Dia was a city in ancient Coele-Syria mentioned by numerous ancient writers.",
+        "es": "Dium or Dion or Dia was a city in ancient Coele-Syria mentioned by numerous ancient writers."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dium (Coele-Syria)",
+          "url": "https://en.wikipedia.org/wiki/Dium_(Coele-Syria)"
+        },
+        "es": {
+          "title": "Dium (Coele-Syria)",
+          "url": "https://en.wikipedia.org/wiki/Dium_(Coele-Syria)"
+        }
+      },
+      "image": {
+        "file": "Sediments-Theater-BeitRas.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sediments-Theater-BeitRas.jpg",
+        "author": "Bernhard Lucke",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "jo-museum-of-jordanian-heritage",
+      "name": "Museum of Jordanian Heritage",
+      "area": "Irbid",
+      "city": "Irbid",
+      "wikidata": "Q12238591",
+      "lat": 32.535578,
+      "lon": 35.853599,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Museum of Jordanian Heritage is part of the Faculty of Archeology and Anthropology at Yarmouk University.",
+        "es": "The Museum of Jordanian Heritage is part of the Faculty of Archeology and Anthropology at Yarmouk University."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museum of Jordanian Heritage",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Jordanian_Heritage"
+        },
+        "es": {
+          "title": "Museum of Jordanian Heritage",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Jordanian_Heritage"
+        }
+      }
+    },
+    {
+      "id": "jo-raghadan-palace",
+      "name": "Raghadan Palace",
+      "area": "Zarqa",
+      "city": "Zarqa",
+      "wikidata": "Q3564933",
+      "lat": 31.956111,
+      "lon": 35.949444,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Raghadan Palace, the first Hashemite structure in Jordan, was built by King Abdullah I, the founding monarch of the country.",
+        "es": "El Palacio de Raghadan es un palacio real situado en el complejo de la Corte Real de Al-Maquar en Amán, Jordania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Raghadan Palace",
+          "url": "https://en.wikipedia.org/wiki/Raghadan_Palace"
+        },
+        "es": {
+          "title": "Palacio de Raghadan",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Raghadan"
+        }
+      },
+      "image": {
+        "file": "President_George_W._Bush_and_Jordan's_King_Abdullah_II_meet_Wednesday,_Nov._29,_2006,_at_Raghadan_Palace_in_Amman.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:President_George_W._Bush_and_Jordan's_King_Abdullah_II_meet_Wednesday%2C_Nov._29%2C_2006%2C_at_Raghadan_Palace_in_Amman.jpg",
+        "author": "Eric Draper",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "jo-ten-arches-bridge",
+      "name": "Ten Arches bridge",
+      "area": "Zarqa",
+      "city": "Zarqa",
+      "wikidata": "Q16119924",
+      "lat": 31.939333,
+      "lon": 35.956056,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ten Arches Bridge is a viaduct in Amman, Jordan, that was built as part of the Hejaz Railway during the Ottoman Empire.",
+        "es": "Ten Arches Bridge is a viaduct in Amman, Jordan, that was built as part of the Hejaz Railway during the Ottoman Empire."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ten Arches Bridge",
+          "url": "https://en.wikipedia.org/wiki/Ten_Arches_Bridge"
+        },
+        "es": {
+          "title": "Ten Arches Bridge",
+          "url": "https://en.wikipedia.org/wiki/Ten_Arches_Bridge"
+        }
+      },
+      "image": {
+        "file": "082-A2_33_Amman_20000910.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:082-A2_33_Amman_20000910.jpg",
+        "author": "MaltaGC (Nigel Tout)",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "jo-nymphaeum",
+      "name": "Nymphaeum",
+      "area": "Zarqa",
+      "city": "Zarqa",
+      "wikidata": "Q22948574",
+      "lat": 31.950456,
+      "lon": 35.936094,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Nymphaeum is a partially preserved Roman public fountain in Amman, Jordan.",
+        "es": "The Nymphaeum is a partially preserved Roman public fountain in Amman, Jordan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nymphaeum (Amman)",
+          "url": "https://en.wikipedia.org/wiki/Nymphaeum_(Amman)"
+        },
+        "es": {
+          "title": "Nymphaeum (Amman)",
+          "url": "https://en.wikipedia.org/wiki/Nymphaeum_(Amman)"
+        }
+      },
+      "image": {
+        "file": "Roman_Nymphaeum_at_Philadelphia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Roman_Nymphaeum_at_Philadelphia.jpg",
+        "author": "Ken and Nyetta",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "jo-umayyad-palace",
+      "name": "Umayyad Palace",
+      "area": "Zarqa",
+      "city": "Zarqa",
+      "wikidata": "Q21188319",
+      "lat": 31.9555,
+      "lon": 35.9342,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Amman Citadel on Citadel Hill is an archaeological site on an L-shaped hill towering over Downtown Amman, in the central part of the capital of Jordan.",
+        "es": "The Amman Citadel on Citadel Hill is an archaeological site on an L-shaped hill towering over Downtown Amman, in the central part of the capital of Jordan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Amman Citadel",
+          "url": "https://en.wikipedia.org/wiki/Amman_Citadel"
+        },
+        "es": {
+          "title": "Amman Citadel",
+          "url": "https://en.wikipedia.org/wiki/Amman_Citadel"
+        }
+      },
+      "image": {
+        "file": "Amman_Citadel_49.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amman_Citadel_49.jpg",
+        "author": "Jean Housen",
+        "license": "CC BY-SA 3.0"
+      }
     }
   ]
 }

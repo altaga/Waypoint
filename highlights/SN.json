@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -209,6 +215,1071 @@
       "wikidata": "Q110682482",
       "lat": 14.12105,
       "lon": -16.66017
+    },
+    {
+      "id": "sn-goree",
+      "name": "Gorée",
+      "area": "Dakar",
+      "city": "Dakar",
+      "wikidata": "Q244347",
+      "website": "https://www.iledegoree.org/",
+      "lat": 14.666944,
+      "lon": -17.398333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Île de Gorée is one of the 19 communes d'arrondissement of the city of Dakar, Senegal.",
+        "es": "La Isla de Gorea es una isla de Senegal. Tiene una superficie de 17 hectáreas y está situada cerca de la costa, a tres kilómetros frente a Dakar, la capital."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gorée",
+          "url": "https://en.wikipedia.org/wiki/Gor%C3%A9e"
+        },
+        "es": {
+          "title": "Isla de Gorea",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Gorea"
+        }
+      },
+      "image": {
+        "file": "Senegal_Gorée_island_harbor.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Senegal_Gor%C3%A9e_island_harbor.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "sn-djoudj-national-bird-sanctuary",
+      "name": "Djoudj National Bird Sanctuary",
+      "area": "Saint-Louis",
+      "city": "Saint-Louis",
+      "wikidata": "Q733676",
+      "lat": 16.358495,
+      "lon": -16.274102,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Djoudj National Bird Sanctuary lies on the southeast bank of the Senegal River in Senegal, in northern Biffeche, north east of St-Louis.",
+        "es": "El Parque Nacional de las Aves del Djoudj está situado a unos sesenta kilómetros al norte de Saint-Louis, en la región de Saint-Louis, en la frontera con Mauritania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Djoudj National Bird Sanctuary",
+          "url": "https://en.wikipedia.org/wiki/Djoudj_National_Bird_Sanctuary"
+        },
+        "es": {
+          "title": "Parque nacional de las Aves del Djoudj",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_las_Aves_del_Djoudj"
+        }
+      },
+      "image": {
+        "file": "CormoransDjoudj.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CormoransDjoudj.JPG",
+        "author": "Ji-Elle",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "sn-lake-retba",
+      "name": "Lake Retba",
+      "area": "Pikine",
+      "city": "Pikine",
+      "wikidata": "Q1522557",
+      "lat": 14.838889,
+      "lon": -17.234444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Retba, also known as Lac Rose, lies north of the Cape Verde peninsula in Senegal, some 35 km north-east of the capital, Dakar.",
+        "es": "El lago Rosa se encuentra al norte de la península senegalesa de Cabo Verde, al noreste del país africano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Retba",
+          "url": "https://en.wikipedia.org/wiki/Lake_Retba"
+        },
+        "es": {
+          "title": "Lago Rosa",
+          "url": "https://es.wikipedia.org/wiki/Lago_Rosa"
+        }
+      },
+      "image": {
+        "file": "Lac_Rose_in_Senegal.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lac_Rose_in_Senegal.jpg",
+        "author": "Arnault",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "sn-senegambian-stone-circles",
+      "name": "Senegambian stone circles",
+      "area": "Touba",
+      "city": "Touba",
+      "wikidata": "Q846901",
+      "lat": 13.691111,
+      "lon": -15.5225,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Senegambian stone circles, or the Wassu stone circles, are groups of megalithic stone circles located in the Gambia north of Janjanbureh and in central Senegal.",
+        "es": "Los círculos megalíticos de Senegambia o círculos de piedra de Senegambia se localizan en la División Central River de Gambia y la Región de Kaolack de Senegal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Senegambian stone circles",
+          "url": "https://en.wikipedia.org/wiki/Senegambian_stone_circles"
+        },
+        "es": {
+          "title": "Círculos megalíticos de Senegambia",
+          "url": "https://es.wikipedia.org/wiki/C%C3%ADrculos_megal%C3%ADticos_de_Senegambia"
+        }
+      },
+      "image": {
+        "file": "Wassu_Stone_Cirles_shaunamullally_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wassu_Stone_Cirles_shaunamullally_02.jpg",
+        "author": "shaunamullally",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "sn-african-renaissance-monument",
+      "name": "African Renaissance Monument",
+      "area": "Dakar",
+      "city": "Dakar",
+      "wikidata": "Q470763",
+      "website": "https://monuraf.net",
+      "lat": 14.722222,
+      "lon": -17.495,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The African Renaissance Monument is a 50-metre tall bronze statue located on top of one of the twin hills known as Collines des Mamelles, outside Dakar, Senegal.",
+        "es": "El Monumento al Renacimiento Africano es una escultura de bronce de 49 metros de altura situada en las afueras de Dakar, Senegal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "African Renaissance Monument",
+          "url": "https://en.wikipedia.org/wiki/African_Renaissance_Monument"
+        },
+        "es": {
+          "title": "Monumento al Renacimiento Africano",
+          "url": "https://es.wikipedia.org/wiki/Monumento_al_Renacimiento_Africano"
+        }
+      },
+      "image": {
+        "file": "The_African_Renaissance_Monument.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_African_Renaissance_Monument.jpg",
+        "author": "Richard N Horne",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "sn-saloum-delta-national-park",
+      "name": "Saloum Delta National Park",
+      "area": "Foundiougne Department",
+      "city": "Foundiougne Department",
+      "wikidata": "Q390208",
+      "lat": 13.80566,
+      "lon": -16.757233,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Saloum Delta National Park or Parc National du Delta du Saloum in Senegal, is a 760-square-kilometre national park.",
+        "es": "El Parque nacional del Delta del Salum es uno de los seis parques nacionales de Senegal -el segundo en extensión después del Niokolo-Koba, con una superficie de 76.000 hectáreas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saloum Delta National Park",
+          "url": "https://en.wikipedia.org/wiki/Saloum_Delta_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional del Delta del Salum",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_Delta_del_Salum"
+        }
+      },
+      "image": {
+        "file": "Saloum.gif",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Saloum.gif",
+        "author": "USGS",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "sn-saloum-delta",
+      "name": "Saloum Delta",
+      "area": "Thiès",
+      "city": "Thiès",
+      "wikidata": "Q559363",
+      "lat": 13.835278,
+      "lon": -16.498611,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Saloum Delta or Sine-Saloum Delta is a river delta in Senegal at the mouth of the Saloum River where it flows into the North Atlantic Ocean.",
+        "es": "El delta del Salum o delta de Sine-Salum es un delta fluvial en Senegal en la desembocadura del río Salum desde donde fluye hacia el Océano Atlántico Norte."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saloum Delta",
+          "url": "https://en.wikipedia.org/wiki/Saloum_Delta"
+        },
+        "es": {
+          "title": "Delta del Salum",
+          "url": "https://es.wikipedia.org/wiki/Delta_del_Salum"
+        }
+      },
+      "image": {
+        "file": "Saloum.gif",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Saloum.gif",
+        "author": "USGS",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "sn-ferlo-desert",
+      "name": "Ferlo Desert",
+      "area": "Matam",
+      "city": "Matam",
+      "wikidata": "Q29869",
+      "lat": 15.880888,
+      "lon": -15.250403,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Ferlo Desert, also known as the Ferio Desert, is a desert in northern-central Senegal.",
+        "es": "Desierto de Ferlo es un desierto en el África occidental parte de la república de Senegal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ferlo Desert",
+          "url": "https://en.wikipedia.org/wiki/Ferlo_Desert"
+        },
+        "es": {
+          "title": "Desierto de Ferlo",
+          "url": "https://es.wikipedia.org/wiki/Desierto_de_Ferlo"
+        }
+      }
+    },
+    {
+      "id": "sn-lac-de-guiers",
+      "name": "Lac de Guiers",
+      "area": "Dagana Department",
+      "city": "Dagana Department",
+      "wikidata": "Q1553762",
+      "lat": 16.25,
+      "lon": -15.833333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Lac de Guiers or Lake Guiers is a lake in northern Senegal, south of the city of Richard-Toll and in the Louga and Saint-Louis regions.",
+        "es": "El lago de Guiers es un lago africano localizado en el norte de Senegal, al sur de la ciudad de Richard Toll y en las regiones de Louga y Saint-Louis."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lac de Guiers",
+          "url": "https://en.wikipedia.org/wiki/Lac_de_Guiers"
+        },
+        "es": {
+          "title": "Lago de Guiers",
+          "url": "https://es.wikipedia.org/wiki/Lago_de_Guiers"
+        }
+      },
+      "image": {
+        "file": "Lac_de_Guiers_2017_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lac_de_Guiers_2017_01.jpg",
+        "author": "chelsealwood",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "sn-magdalen-islands",
+      "name": "Magdalen Islands",
+      "area": "Dakar",
+      "city": "Dakar",
+      "wikidata": "Q292411",
+      "lat": 14.65374,
+      "lon": -17.47108,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Îles de la Madeleine lie west of Dakar in Senegal.",
+        "es": "The Îles de la Madeleine lie west of Dakar in Senegal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Îles de la Madeleine (Senegal)",
+          "url": "https://en.wikipedia.org/wiki/%C3%8Eles_de_la_Madeleine_(Senegal)"
+        },
+        "es": {
+          "title": "Îles de la Madeleine (Senegal)",
+          "url": "https://en.wikipedia.org/wiki/%C3%8Eles_de_la_Madeleine_(Senegal)"
+        }
+      },
+      "image": {
+        "file": "Îles_de_la_Madeleine,_Dakar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%8Eles_de_la_Madeleine%2C_Dakar.jpg",
+        "author": "KaBa (KaaBaa)",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "sn-morfil",
+      "name": "Morfil",
+      "area": "Podor Department",
+      "city": "Podor Department",
+      "wikidata": "Q1456534",
+      "lat": 16.583561,
+      "lon": -14.583836,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Morfil Island is an island lying between the River Senegal and the Doué River in northern Senegal.",
+        "es": "Isla Morfil es una isla africana que se encuentra entre el río Senegal y el río Doué en el norte de Senegal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Morfil Island",
+          "url": "https://en.wikipedia.org/wiki/Morfil_Island"
+        },
+        "es": {
+          "title": "Morfil",
+          "url": "https://es.wikipedia.org/wiki/Morfil"
+        }
+      }
+    },
+    {
+      "id": "sn-island-of-saint-louis",
+      "name": "Island of Saint-Louis",
+      "area": "Saint-Louis",
+      "city": "Saint-Louis",
+      "wikidata": "Q1114640",
+      "lat": 16.014796,
+      "lon": -16.488762,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Island of Saint-Louis is the historic part of the city of Saint-Louis in Senegal.",
+        "es": "The Island of Saint-Louis is the historic part of the city of Saint-Louis in Senegal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Island of Saint-Louis",
+          "url": "https://en.wikipedia.org/wiki/Island_of_Saint-Louis"
+        },
+        "es": {
+          "title": "Island of Saint-Louis",
+          "url": "https://en.wikipedia.org/wiki/Island_of_Saint-Louis"
+        }
+      },
+      "image": {
+        "file": "Island_of_Saint-Louis-113799.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Island_of_Saint-Louis-113799.jpg",
+        "author": "Jim Williams",
+        "license": "CC BY-SA 3.0 igo"
+      }
+    },
+    {
+      "id": "sn-great-mosque-of-touba",
+      "name": "Great Mosque of Touba",
+      "area": "Touba",
+      "city": "Touba",
+      "wikidata": "Q3114987",
+      "lat": 14.863472,
+      "lon": -15.87475,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Great Mosque of Touba is a mosque in Touba, Senegal.",
+        "es": "The Great Mosque of Touba is a mosque in Touba, Senegal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Great Mosque of Touba",
+          "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Touba"
+        },
+        "es": {
+          "title": "Great Mosque of Touba",
+          "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Touba"
+        }
+      },
+      "image": {
+        "file": "Touba_034_(45718877585).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Touba_034_(45718877585).jpg",
+        "author": "John Crane from Prague, Czech Republic",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "sn-dakar-grand-mosque",
+      "name": "Dakar Grand Mosque",
+      "area": "Dakar",
+      "city": "Dakar",
+      "wikidata": "Q2477297",
+      "lat": 14.678222,
+      "lon": -17.442194,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Grand Mosque of Dakar is a mosque in Dakar, Senegal, situated on Allée Pape Gueye Fall, in the Dakar médina.",
+        "es": "The Grand Mosque of Dakar is a mosque in Dakar, Senegal, situated on Allée Pape Gueye Fall, in the Dakar médina."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grand Mosque of Dakar",
+          "url": "https://en.wikipedia.org/wiki/Grand_Mosque_of_Dakar"
+        },
+        "es": {
+          "title": "Grand Mosque of Dakar",
+          "url": "https://en.wikipedia.org/wiki/Grand_Mosque_of_Dakar"
+        }
+      },
+      "image": {
+        "file": "Grande_Mosqué_de_dakar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Grande_Mosqu%C3%A9_de_dakar.jpg",
+        "author": "Rignese",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "sn-faidherbe-bridge",
+      "name": "Faidherbe Bridge",
+      "area": "Saint-Louis",
+      "city": "Saint-Louis",
+      "wikidata": "Q2920610",
+      "lat": 16.025833,
+      "lon": -16.501111,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Faidherbe Bridge is a road bridge over the Senegal River which links the island of the city of Saint-Louis in Senegal to the African mainland.",
+        "es": "El Puente Faidherbe es un puente sobre el río Senegal que une la isla de la ciudad de Saint-Louis en Senegal con el continente africano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Faidherbe Bridge",
+          "url": "https://en.wikipedia.org/wiki/Faidherbe_Bridge"
+        },
+        "es": {
+          "title": "Puente Faidherbe",
+          "url": "https://es.wikipedia.org/wiki/Puente_Faidherbe"
+        }
+      },
+      "image": {
+        "file": "PontFaidherbe.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:PontFaidherbe.JPG",
+        "author": "Ji-Elle",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "sn-massalikoul-djinane-mosque",
+      "name": "Massalikoul Djinane Mosque",
+      "area": "Dakar",
+      "city": "Dakar",
+      "wikidata": "Q86670502",
+      "lat": 14.700944,
+      "lon": -17.449361,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Massalikoul Djinane Mosque is a mosque in Dakar, Senegal.",
+        "es": "The Massalikoul Djinane Mosque is a mosque in Dakar, Senegal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Massalikoul Djinane Mosque",
+          "url": "https://en.wikipedia.org/wiki/Massalikoul_Djinane_Mosque"
+        },
+        "es": {
+          "title": "Massalikoul Djinane Mosque",
+          "url": "https://en.wikipedia.org/wiki/Massalikoul_Djinane_Mosque"
+        }
+      },
+      "image": {
+        "file": "Massalikul.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Massalikul.jpg",
+        "author": "Malickdieye38",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "sn-barrakunda-falls",
+      "name": "Barrakunda Falls",
+      "area": "Touba",
+      "city": "Touba",
+      "wikidata": "Q808810",
+      "lat": 13.543206,
+      "lon": -13.822971,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Barrakunda Falls or Barra Kunda Falls is a waterfall located in the Tambacounda region of Senegal, 500 kilometres upstream from the mouth of the Gambia River.",
+        "es": "The Barrakunda Falls or Barra Kunda Falls is a waterfall located in the Tambacounda region of Senegal, 500 kilometres upstream from the mouth of the Gambia River."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Barrakunda Falls",
+          "url": "https://en.wikipedia.org/wiki/Barrakunda_Falls"
+        },
+        "es": {
+          "title": "Barrakunda Falls",
+          "url": "https://en.wikipedia.org/wiki/Barrakunda_Falls"
+        }
+      }
+    },
+    {
+      "id": "sn-ngor",
+      "name": "Ngor",
+      "area": "Pikine",
+      "city": "Pikine",
+      "wikidata": "Q1330062",
+      "lat": 14.756125,
+      "lon": -17.514439,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ngor is an island off the coast of Dakar, Senegal.",
+        "es": "La Isla Ngor es una pequeña isla en el país africano de Senegal, que se encuentra fuera de la península de Cabo Verde, a 400 m de distancia del pueblo de Ngor en la punta de Almadies, cerca de Dakar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ngor (island)",
+          "url": "https://en.wikipedia.org/wiki/Ngor_(island)"
+        },
+        "es": {
+          "title": "Isla Ngor",
+          "url": "https://es.wikipedia.org/wiki/Isla_Ngor"
+        }
+      },
+      "image": {
+        "file": "NgorIsland.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NgorIsland.JPG",
+        "author": "MyriamLouviot",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "sn-basse-casamance-national-park",
+      "name": "Basse Casamance National Park",
+      "area": "Ziguinchor Region",
+      "city": "Ziguinchor Region",
+      "wikidata": "Q1574109",
+      "lat": 12.379444,
+      "lon": -16.563889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Basse Casamance National Park, located near Oussouye in Ziguinchor, is one of six national parks in Senegal.",
+        "es": "Basse Casamance National Park, located near Oussouye in Ziguinchor, is one of six national parks in Senegal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basse Casamance National Park",
+          "url": "https://en.wikipedia.org/wiki/Basse_Casamance_National_Park"
+        },
+        "es": {
+          "title": "Basse Casamance National Park",
+          "url": "https://en.wikipedia.org/wiki/Basse_Casamance_National_Park"
+        }
+      },
+      "image": {
+        "file": "Parc_national_Basse_Casamance.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parc_national_Basse_Casamance.jpg",
+        "author": "Seydirappa",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "sn-our-lady-of-victories-cathedral-dakar",
+      "name": "Our Lady of Victories Cathedral, Dakar",
+      "area": "Dakar",
+      "city": "Dakar",
+      "wikidata": "Q1670193",
+      "lat": 14.665278,
+      "lon": -17.437778,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Our Lady of Victories Cathedral or Cathedral of Dakar, is a religious building that serves as the Catholic cathedral in the city of Dakar, the capital of the African country of Senegal, which is the seat of the…",
+        "es": "La Catedral de Nuestra Señora de las Victorias o bien Catedral de Dakar es la catedral católica en la ciudad de Dakar, la capital del país africano de Senegal, y que funciona como la sede de la archidiócesis de Dakar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Our Lady of Victories Cathedral, Dakar",
+          "url": "https://en.wikipedia.org/wiki/Our_Lady_of_Victories_Cathedral%2C_Dakar"
+        },
+        "es": {
+          "title": "Catedral de Nuestra Señora de las Victorias (Dakar)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Nuestra_Se%C3%B1ora_de_las_Victorias_(Dakar)"
+        }
+      },
+      "image": {
+        "file": "Dakar-cathedrale.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dakar-cathedrale.JPG",
+        "author": "No machine-readable author provided. Vincent Ricci assumed (based on copyright c",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "sn-deux-mamelles",
+      "name": "Deux Mamelles",
+      "area": "Dakar",
+      "city": "Dakar",
+      "wikidata": "Q3284974",
+      "lat": 14.723694,
+      "lon": -17.502139,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Deux Mamelles, Collines des Mamelles, or simply Mamelles are twin hills located in Ouakam, a suburban commune of Dakar, in the Cap-Vert peninsula, Senegal.",
+        "es": "Deux Mamelles, Collines des Mamelles, or simply Mamelles are twin hills located in Ouakam, a suburban commune of Dakar, in the Cap-Vert peninsula, Senegal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Deux Mamelles",
+          "url": "https://en.wikipedia.org/wiki/Deux_Mamelles"
+        },
+        "es": {
+          "title": "Deux Mamelles",
+          "url": "https://en.wikipedia.org/wiki/Deux_Mamelles"
+        }
+      },
+      "image": {
+        "file": "Dakar-Collines_des_Mamelles.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dakar-Collines_des_Mamelles.jpg",
+        "author": "Dorothy Voorhees",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "sn-mosquee-de-la-divinite",
+      "name": "Mosquée de la Divinité",
+      "area": "Dakar",
+      "city": "Dakar",
+      "wikidata": "Q3324921",
+      "lat": 14.715694,
+      "lon": -17.4905,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mosque of Divinity is a mosque located in Ouakam, Senegal.",
+        "es": "The Mosque of Divinity is a mosque located in Ouakam, Senegal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mosque of Divinity",
+          "url": "https://en.wikipedia.org/wiki/Mosque_of_Divinity"
+        },
+        "es": {
+          "title": "Mosque of Divinity",
+          "url": "https://en.wikipedia.org/wiki/Mosque_of_Divinity"
+        }
+      },
+      "image": {
+        "file": "Fin_de_la_prière_de_salatul_fayfaat.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fin_de_la_pri%C3%A8re_de_salatul_fayfaat.jpg",
+        "author": "Laminegueye36",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "sn-biffeche",
+      "name": "Biffeche",
+      "area": "Dagana Department",
+      "city": "Dagana Department",
+      "wikidata": "Q858269",
+      "lat": 16.183333,
+      "lon": -16.383333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Biffeche or Bifeche is an area of Senegal centred on the town of Savoigne, around 30 kilometres north-east of the major coastal city of Saint-Louis.",
+        "es": "Biffeche es, desde el siglo XVII, el nombre de una isla de tamaño medio en el delta del río Senegal, aproximadamente dos kilómetros río arriba de la isla de N'Dar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Biffeche",
+          "url": "https://en.wikipedia.org/wiki/Biffeche"
+        },
+        "es": {
+          "title": "Biffeche",
+          "url": "https://es.wikipedia.org/wiki/Biffeche"
+        }
+      },
+      "image": {
+        "file": "Bifeche.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bifeche.jpg",
+        "author": "F. Baillieul l'Ainé, grav.",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "sn-les-mamelles-lighthouse",
+      "name": "Les Mamelles Lighthouse",
+      "area": "Dakar",
+      "city": "Dakar",
+      "wikidata": "Q1567959",
+      "lat": 14.723807,
+      "lon": -17.501771,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Les Mamelles Lighthouse is a strategically important lighthouse situated near Cap Vert, the westernmost point of Africa, on the outskirts of Dakar the capital of Senegal.",
+        "es": "El Faro Mamelles es un faro situado en la península de Cabo Verde, a unos 4 km al sureste de la punta Almadies, el extremo occidental del continente africano y a 9 km al noroeste de Dakar la capital de Senegal, en la…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Les Mamelles Lighthouse",
+          "url": "https://en.wikipedia.org/wiki/Les_Mamelles_Lighthouse"
+        },
+        "es": {
+          "title": "Faro Mamelles",
+          "url": "https://es.wikipedia.org/wiki/Faro_Mamelles"
+        }
+      },
+      "image": {
+        "file": "PhareMamelles4.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:PhareMamelles4.JPG",
+        "author": "Ji-Elle",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "sn-cekeen-tumulus",
+      "name": "Cekeen Tumulus",
+      "area": "Touba",
+      "city": "Touba",
+      "wikidata": "Q5057400",
+      "lat": 14.700808,
+      "lon": -15.952853,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The tumuli of Cekeen are ancient burial mounds located in the Diourbel Department of the Diourbel Region, in Senegal.",
+        "es": "The tumuli of Cekeen are ancient burial mounds located in the Diourbel Department of the Diourbel Region, in Senegal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cekeen Tumuli",
+          "url": "https://en.wikipedia.org/wiki/Cekeen_Tumuli"
+        },
+        "es": {
+          "title": "Cekeen Tumuli",
+          "url": "https://en.wikipedia.org/wiki/Cekeen_Tumuli"
+        }
+      },
+      "image": {
+        "file": "Stonehenge_-_Burial_Mound_-_geograph.org.uk_-_1824201d.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Stonehenge_-_Burial_Mound_-_geograph.org.uk_-_1824201d.jpg",
+        "author": "Chris Talbot",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "sn-keur-moussa-abbey",
+      "name": "Keur Moussa abbey",
+      "area": "Thiès",
+      "city": "Thiès",
+      "wikidata": "Q79216",
+      "website": "https://www.abbaye-keur-moussa.com/",
+      "lat": 14.777778,
+      "lon": -17.124167,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Abbaye de Keur Moussa or simply Keur Mousa, near Dakar, the capital city of the Western African nation of Senegal, is a Benedictine monastery of the Solesmes Congregation.",
+        "es": "Abbaye de Keur Moussa or simply Keur Mousa, near Dakar, the capital city of the Western African nation of Senegal, is a Benedictine monastery of the Solesmes Congregation."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Abbaye de Keur Moussa",
+          "url": "https://en.wikipedia.org/wiki/Abbaye_de_Keur_Moussa"
+        },
+        "es": {
+          "title": "Abbaye de Keur Moussa",
+          "url": "https://en.wikipedia.org/wiki/Abbaye_de_Keur_Moussa"
+        }
+      },
+      "image": {
+        "file": "KeurMoussaAbbaye.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:KeurMoussaAbbaye.jpg",
+        "author": "Jonas Roux",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "sn-musee-regional-de-thies",
+      "name": "Musée Régional de Thiès",
+      "area": "Thiès",
+      "city": "Thiès",
+      "wikidata": "Q15260423",
+      "lat": 14.796056,
+      "lon": -16.933111,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Musée Régional de Thiès is a museum located in Senegal.",
+        "es": "The Musée Régional de Thiès is a museum located in Senegal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Musée Régional de Thiès",
+          "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_R%C3%A9gional_de_Thi%C3%A8s"
+        },
+        "es": {
+          "title": "Musée Régional de Thiès",
+          "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_R%C3%A9gional_de_Thi%C3%A8s"
+        }
+      },
+      "image": {
+        "file": "Musée_régional_de_Thiès_-_Bâtiment_du_chemin_de_fer.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_r%C3%A9gional_de_Thi%C3%A8s_-_B%C3%A2timent_du_chemin_de_fer.jpg",
+        "author": "Zythème",
+        "license": "CC0"
+      }
     }
   ]
 }

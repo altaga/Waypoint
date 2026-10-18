@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -418,6 +424,1055 @@
         "text": "Tu,We 09:00-17:00; Th,Fr 09:00-19:00; Sa,Su 10:00-17:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "fi-saimaa",
+      "name": "Saimaa",
+      "area": "South Karelia",
+      "city": "South Karelia",
+      "wikidata": "Q192770",
+      "lat": 61.25,
+      "lon": 28.25,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Saimaa is a lake located in the Finnish Lakeland area in southeastern Finland.",
+        "es": "El lago Saimaa es el mayor lago de Finlandia y el quinto de Europa, con una superficie de 4.377 km²."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saimaa",
+          "url": "https://en.wikipedia.org/wiki/Saimaa"
+        },
+        "es": {
+          "title": "Lago Saimaa",
+          "url": "https://es.wikipedia.org/wiki/Lago_Saimaa"
+        }
+      },
+      "image": {
+        "file": "Luonteri_Neitvuori.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Luonteri_Neitvuori.jpg",
+        "author": "Adrián Pérez from Helsinki, Finland",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "fi-suomenlinna",
+      "name": "Suomenlinna",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "wikidata": "Q1292442",
+      "website": "https://www.suomenlinna.fi/",
+      "lat": 60.143611,
+      "lon": 24.984444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Suomenlinna, or Sveaborg, is a sea fortress composed of eight islands, of which six have been fortified.",
+        "es": "Suomenlinna, o Sveaborg, es una fortaleza construida sobre seis islas, en Helsinki, la capital de Finlandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Suomenlinna",
+          "url": "https://en.wikipedia.org/wiki/Suomenlinna"
+        },
+        "es": {
+          "title": "Suomenlinna",
+          "url": "https://es.wikipedia.org/wiki/Suomenlinna"
+        }
+      },
+      "image": {
+        "file": "Suomenlinna.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Suomenlinna.jpg",
+        "author": "Michal Pise, Michal.Pise",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "fi-helsinki-cathedral",
+      "name": "Helsinki Cathedral",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "wikidata": "Q738015",
+      "website": "https://helsingintuomiokirkko.fi/",
+      "lat": 60.170388,
+      "lon": 24.952124,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Helsinki Cathedral is the Finnish Evangelical Lutheran cathedral of the Diocese of Helsinki, located in the neighborhood of Kruununhaka in the centre of Helsinki, Finland, at the Senate Square.",
+        "es": "La Catedral luterana de Helsinki es una catedral de culto evangélico localizada en la plaza del Senado, en el centro de la capital de Finlandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Helsinki Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Helsinki_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Helsinki",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Helsinki"
+        }
+      },
+      "image": {
+        "file": "Lutheran_Cathedral_Helsinki.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lutheran_Cathedral_Helsinki.jpg",
+        "author": "Hans Hillewaert",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-paijanne",
+      "name": "Päijänne",
+      "area": "Jyväskylä",
+      "city": "Jyväskylä",
+      "wikidata": "Q213769",
+      "lat": 61.508119,
+      "lon": 25.379106,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Päijänne is the second largest lake in Finland.",
+        "es": "El lago Päijänne es el segundo mayor lago de toda Finlandia, con 1.118 km² de superficie."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Päijänne",
+          "url": "https://en.wikipedia.org/wiki/P%C3%A4ij%C3%A4nne"
+        },
+        "es": {
+          "title": "Lago Päijänne",
+          "url": "https://es.wikipedia.org/wiki/Lago_P%C3%A4ij%C3%A4nne"
+        }
+      },
+      "image": {
+        "file": "Päijänne_aerial_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:P%C3%A4ij%C3%A4nne_aerial_2.jpg",
+        "author": "kallerna",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "fi-petajavesi-old-church",
+      "name": "Petäjävesi Old Church",
+      "area": "Petäjävesi",
+      "city": "Petäjävesi",
+      "wikidata": "Q435829",
+      "website": "https://www.petajavedenseurakunta.fi/kirkot-ja-tilat/petajaveden-vanha-kirkko",
+      "lat": 62.250137,
+      "lon": 25.183945,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Petäjävesi Old Church is a wooden church located in Petäjävesi, Finland.",
+        "es": "El Iglesia vieja de Petäjävesi es una iglesia luterana finlandesa inscrita en la lista del patrimonio de la Humanidad de la Unesco desde 1994."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Petäjävesi Old Church",
+          "url": "https://en.wikipedia.org/wiki/Pet%C3%A4j%C3%A4vesi_Old_Church"
+        },
+        "es": {
+          "title": "Iglesia vieja de Petäjävesi",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_vieja_de_Pet%C3%A4j%C3%A4vesi"
+        }
+      },
+      "image": {
+        "file": "Petäjävesi_Old_Church_2018.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pet%C3%A4j%C3%A4vesi_Old_Church_2018.jpg",
+        "author": "Tiia Monto",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "fi-mannerheim-line",
+      "name": "Mannerheim Line",
+      "area": "Leningrad Oblast",
+      "city": "Leningrad Oblast",
+      "wikidata": "Q155093",
+      "lat": 60.5,
+      "lon": 29.416667,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mannerheim Line was a defensive fortification line on the Karelian Isthmus built by Finland against the Soviet Union.",
+        "es": "La Línea Mannerheim fue un sistema defensivo de fortificaciones que se extendía a lo largo del Istmo de Carelia, construido antes de la guerra de Invierno por Finlandia para defenderse de la Unión Soviética."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mannerheim Line",
+          "url": "https://en.wikipedia.org/wiki/Mannerheim_Line"
+        },
+        "es": {
+          "title": "Línea Mannerheim",
+          "url": "https://es.wikipedia.org/wiki/L%C3%ADnea_Mannerheim"
+        }
+      },
+      "image": {
+        "file": "Mannerheim-line.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mannerheim-line.png",
+        "author": "User Jniemenmaa on en.wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-sammallahdenmaki",
+      "name": "Sammallahdenmäki",
+      "area": "Rauma",
+      "city": "Rauma",
+      "wikidata": "Q239748",
+      "lat": 61.117674,
+      "lon": 21.775169,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Sammallahdenmäki is a Bronze Age burial site in Finland in Rauma, in the region of Satakunta.",
+        "es": "El sitio funerario de Sammallahdenmäki es un sitio arqueológico situado al suroeste de Finlandia en la región de Satakunta y en el municipio de Rauma."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sammallahdenmäki",
+          "url": "https://en.wikipedia.org/wiki/Sammallahdenm%C3%A4ki"
+        },
+        "es": {
+          "title": "Sammallahdenmäki",
+          "url": "https://es.wikipedia.org/wiki/Sammallahdenm%C3%A4ki"
+        }
+      },
+      "image": {
+        "file": "Sammallahdenmäki_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sammallahdenm%C3%A4ki_1.jpg",
+        "author": "kallerna",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-verla",
+      "name": "Verla",
+      "area": "Kouvola",
+      "city": "Kouvola",
+      "wikidata": "Q217447",
+      "lat": 61.061992,
+      "lon": 26.640016,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Verla at Jaala, Kouvola, Finland, is a well-preserved 19th-century mill village.",
+        "es": "Verla es una antigua fábrica de tratamiento de madera y cartón cerca de Jaala, al sureste de Finlandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Verla",
+          "url": "https://en.wikipedia.org/wiki/Verla"
+        },
+        "es": {
+          "title": "Verla",
+          "url": "https://es.wikipedia.org/wiki/Verla"
+        }
+      },
+      "image": {
+        "file": "Verla.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Verla.JPG",
+        "author": "Picture taken by user:michaelXXLF, August 1997",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-nasijarvi",
+      "name": "Näsijärvi",
+      "area": "Tampere",
+      "city": "Tampere",
+      "wikidata": "Q824371",
+      "lat": 61.566667,
+      "lon": 23.766667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Näsijärvi is a lake 95 metres above sea level, in the Pirkanmaa region of southern Finland.",
+        "es": "El lago Näsi o Näsijärvi es un destacado lago de Finlandia localizado en el sur del país, en la región de Pirkanmaa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Näsijärvi",
+          "url": "https://en.wikipedia.org/wiki/N%C3%A4sij%C3%A4rvi"
+        },
+        "es": {
+          "title": "Lago Näsi",
+          "url": "https://es.wikipedia.org/wiki/Lago_N%C3%A4si"
+        }
+      },
+      "image": {
+        "file": "Tampere5.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tampere5.jpg",
+        "author": "Tiia Monto",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-turku-cathedral",
+      "name": "Turku Cathedral",
+      "area": "Turku",
+      "city": "Turku",
+      "wikidata": "Q1187606",
+      "website": "https://www.turunseurakunnat.fi/kirkot-ja-kappelit/turun-tuomiokirkko",
+      "lat": 60.452461,
+      "lon": 22.278529,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Turku Cathedral is the only medieval basilica in Finland and the Mother Church of the Evangelical Lutheran Church of Finland.",
+        "es": "La catedral de Turku está ubicada en Turku, Finlandia, y es la sede de la Iglesia evangélica luterana de Finlandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Turku Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Turku_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Turku",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Turku"
+        }
+      },
+      "image": {
+        "file": "Turun_tuomiokirkko_20091011.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Turun_tuomiokirkko_20091011.jpg",
+        "author": "Otto Jula",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-lake-bodom",
+      "name": "Lake Bodom",
+      "area": "Espoo",
+      "city": "Espoo",
+      "wikidata": "Q826447",
+      "lat": 60.256389,
+      "lon": 24.666667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Bodom is a Finnish lake located in the city of Espoo, not far from Helsinki.",
+        "es": "El lago Bodom es un lago de Finlandia localizado a las afueras de la ciudad de Espoo, no lejos de Helsinki."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Bodom",
+          "url": "https://en.wikipedia.org/wiki/Lake_Bodom"
+        },
+        "es": {
+          "title": "Lago Bodom",
+          "url": "https://es.wikipedia.org/wiki/Lago_Bodom"
+        }
+      },
+      "image": {
+        "file": "Bodomjarvi_talvella.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bodomjarvi_talvella.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-finlandia-hall",
+      "name": "Finlandia Hall",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "wikidata": "Q1142522",
+      "website": "https://www.finlandiatalo.fi/",
+      "lat": 60.176057,
+      "lon": 24.933465,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Finlandia Hall is a congress and event venue in the centre of Helsinki on the Töölönlahti Bay, owned by the City of Helsinki.",
+        "es": "La Sala Finlandia es un lugar de congresos y eventos en el centro de Helsinki, en la bahía Töölönlahti, en Finlandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Finlandia Hall",
+          "url": "https://en.wikipedia.org/wiki/Finlandia_Hall"
+        },
+        "es": {
+          "title": "Sala Finlandia",
+          "url": "https://es.wikipedia.org/wiki/Sala_Finlandia"
+        }
+      },
+      "image": {
+        "file": "Finlandia_Wiki.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Finlandia_Wiki.jpg",
+        "author": "Thermos",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "fi-senate-square",
+      "name": "Senate Square",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "wikidata": "Q1329554",
+      "lat": 60.169472,
+      "lon": 24.952278,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Senate Square presents Carl Ludvig Engel's architecture as a unique allegory of political, religious, scientific and commercial powers in the centre of Helsinki, Finland.",
+        "es": "La plaza del Senado es una explanada y un complejo arquitectónico en la ciudad de Helsinki, en Finlandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Senate Square, Helsinki",
+          "url": "https://en.wikipedia.org/wiki/Senate_Square%2C_Helsinki"
+        },
+        "es": {
+          "title": "Plaza del Senado (Helsinki)",
+          "url": "https://es.wikipedia.org/wiki/Plaza_del_Senado_(Helsinki)"
+        }
+      },
+      "image": {
+        "file": "Senaatintori_joulukuisena_aamuna_2004.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Senaatintori_joulukuisena_aamuna_2004.jpg",
+        "author": "Photographed by Jonik.",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "fi-temppeliaukio-church",
+      "name": "Temppeliaukio Church",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "wikidata": "Q1132809",
+      "website": "https://www.temppeliaukionkirkko.fi/",
+      "lat": 60.172985,
+      "lon": 24.925238,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Temppeliaukio Church, also known as the Church of the Rock or Rock Church, is an Evangelical Lutheran church in the Töölö district of Helsinki, Finland.",
+        "es": "La Iglesia de Temppeliaukio es una iglesia luterana localizada en el distrito de Töölö, en Helsinki."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Temppeliaukio Church",
+          "url": "https://en.wikipedia.org/wiki/Temppeliaukio_Church"
+        },
+        "es": {
+          "title": "Iglesia de Temppeliaukio",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Temppeliaukio"
+        }
+      },
+      "image": {
+        "file": "Temppeliaukio_Church_3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Temppeliaukio_Church_3.jpg",
+        "author": "Pertsaboy",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-havis-amanda",
+      "name": "Havis Amanda",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "wikidata": "Q523268",
+      "lat": 60.167576,
+      "lon": 24.9515,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Havis Amanda is a fountain and a statue in Helsinki, Finland by the sculptor Ville Vallgren.",
+        "es": "La Havis Amanda es una estatua de mujer desnuda en una fuente en Helsinki, la capital de Finlandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Havis Amanda",
+          "url": "https://en.wikipedia.org/wiki/Havis_Amanda"
+        },
+        "es": {
+          "title": "Havis Amanda",
+          "url": "https://es.wikipedia.org/wiki/Havis_Amanda"
+        }
+      },
+      "image": {
+        "file": "\"Havis_Amanda\",_la_statue_de_la_fontaine_de_Vallgren_(Helsinki)_(2744386193).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%22Havis_Amanda%22%2C_la_statue_de_la_fontaine_de_Vallgren_(Helsinki)_(2744386193).jpg",
+        "author": "Jean-Pierre Dalbéra from Paris, France",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "fi-uspenski-cathedral",
+      "name": "Uspenski Cathedral",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "wikidata": "Q1355001",
+      "website": "https://www.hos.fi/kirkot/uspenskin-katedraali/",
+      "lat": 60.168333,
+      "lon": 24.96,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Uspenski Cathedral is a Greek Orthodox or Eastern Orthodox cathedral in Helsinki, Finland, and main cathedral of the Orthodox Church of Finland, dedicated to the Dormition of the Theotokos.",
+        "es": "La catedral de la Dormición de María es una catedral ortodoxa en Helsinki."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Uspenski Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Uspenski_Cathedral"
+        },
+        "es": {
+          "title": "Catedral ortodoxa Uspenski",
+          "url": "https://es.wikipedia.org/wiki/Catedral_ortodoxa_Uspenski"
+        }
+      }
+    },
+    {
+      "id": "fi-kauhaneva-pohjankangas-national-park",
+      "name": "Kauhaneva–Pohjankangas National Park",
+      "area": "Kauhajoki",
+      "city": "Kauhajoki",
+      "wikidata": "Q1737079",
+      "website": "https://www.luontoon.fi/fi/kohteet/kauhanevan-pohjankankaan-kansallispuisto",
+      "lat": 62.177278,
+      "lon": 22.412583,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kauhaneva–Pohjankangas National Park is a national park in the municipalities of Kauhajoki and Karvia in the South Ostrobothnia and Satakunta regions of Finland.",
+        "es": "El Parque nacional de Kauhaneva–Pohjankangas es un parque nacional en los municipios de Kauhajoki y Karvia en las regiones de Ostrobotnia del Sur y Satakunta de Finlandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kauhaneva–Pohjankangas National Park",
+          "url": "https://en.wikipedia.org/wiki/Kauhaneva%E2%80%93Pohjankangas_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Kauhaneva-Pohjankangas",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Kauhaneva-Pohjankangas"
+        }
+      },
+      "image": {
+        "file": "Kauhaneva.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kauhaneva.jpg",
+        "author": "Clem23",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-pyhajarvi",
+      "name": "Pyhäjärvi",
+      "area": "Tampere",
+      "city": "Tampere",
+      "wikidata": "Q545559",
+      "lat": 61.483333,
+      "lon": 23.666667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pyhäjärvi is a lake in southern Finland. Although the name means \"holy lake\" in modern Finnish, it probably originally meant \"border lake\".",
+        "es": "El lago Pyhä o Pyhäjärvi es un importante lago de Finlandia localizado en el sur del país, en la región de Pirkanmaa, en las inmediaciones de la ciudad de Tampere."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pyhäjärvi (Tampere region)",
+          "url": "https://en.wikipedia.org/wiki/Pyh%C3%A4j%C3%A4rvi_(Tampere_region)"
+        },
+        "es": {
+          "title": "Lago Pyhä (Pirkanmaa)",
+          "url": "https://es.wikipedia.org/wiki/Lago_Pyh%C3%A4_(Pirkanmaa)"
+        }
+      },
+      "image": {
+        "file": "Pyhäjärvi_Nokialla.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pyh%C3%A4j%C3%A4rvi_Nokialla.jpg",
+        "author": "Vnnen",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-nuuksio-national-park",
+      "name": "Nuuksio National Park",
+      "area": "Espoo",
+      "city": "Espoo",
+      "wikidata": "Q1815268",
+      "lat": 60.316667,
+      "lon": 24.466667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nuuksio National Park is one of Finland's 40 national parks.",
+        "es": "El Parque Nacional de Nuuksio es uno de los 35 parques nacionales de Finlandia y el más cercano a Helsinki."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nuuksio National Park",
+          "url": "https://en.wikipedia.org/wiki/Nuuksio_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Nuuksio",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Nuuksio"
+        }
+      },
+      "image": {
+        "file": "Nuuksio_National_Park.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nuuksio_National_Park.JPG",
+        "author": "Christophe Badoux",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-pyhan-henrikin-katedraali",
+      "name": "Pyhän Henrikin katedraali",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "wikidata": "Q31204",
+      "website": "https://henrik.katolinen.fi/",
+      "lat": 60.159194,
+      "lon": 24.95432,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. Henry's Cathedral is a Catholic cathedral in Helsinki, Finland, dedicated in honor of Bishop Henrik, a 12th-century Bishop of Turku.",
+        "es": "La Catedral de San Enrique en Helsinki, Finlandia, es la principal iglesia católica de la capital finlandesa y está dedicada a san Enrique de Upsala, obispo medieval de Upsala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Henry's Cathedral",
+          "url": "https://en.wikipedia.org/wiki/St._Henry's_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de San Enrique (Helsinki)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Enrique_(Helsinki)"
+        }
+      },
+      "image": {
+        "file": "Saint_Henry's_Cathedral_Helsinki_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Saint_Henry's_Cathedral_Helsinki_2.jpg",
+        "author": "Saint_Henry's_Cathedral_Helsinki.jpg: Tomisti derivative work: Rabanus Flavus (t",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-tampere-cathedral",
+      "name": "Tampere Cathedral",
+      "area": "Tampere",
+      "city": "Tampere",
+      "wikidata": "Q1236638",
+      "website": "https://www.tampereenseurakunnat.fi/kirkot/tuomiokirkko",
+      "lat": 61.5025,
+      "lon": 23.769722,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Tampere Cathedral is a Lutheran church in Tampere, Finland, and the seat of the Diocese of Tampere.",
+        "es": "La catedral de Tampere es una iglesia situada en la ciudad finlandesa de Tampere, y es la sede de la Diócesis de Tampere de la Iglesia Evangélica Luterana de Finlandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tampere Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Tampere_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Tampere",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Tampere"
+        }
+      },
+      "image": {
+        "file": "Tampereen_tuomiokirkko_(T03).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tampereen_tuomiokirkko_(T03).jpg",
+        "author": "Old Pionear",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "fi-presidential-palace",
+      "name": "Presidential Palace",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "wikidata": "Q608346",
+      "website": "https://www.presidentti.fi/presidentin-toimi/virka-asunnot/presidentinlinna/",
+      "lat": 60.168361,
+      "lon": 24.95632,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Presidential Palace is one of the three official residences of the president of the Republic of Finland.",
+        "es": "El Palacio Presidencial en Helsinki es una de las residencias oficiales del presidente de Finlandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Presidential Palace, Helsinki",
+          "url": "https://en.wikipedia.org/wiki/Presidential_Palace%2C_Helsinki"
+        },
+        "es": {
+          "title": "Palacio Presidencial (Finlandia)",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Presidencial_(Finlandia)"
+        }
+      },
+      "image": {
+        "file": "Helsinki_Presidential_Palace_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Helsinki_Presidential_Palace_02.jpg",
+        "author": "Ad Meskens",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "fi-archipelago-national-park",
+      "name": "Archipelago National Park",
+      "area": "Kimitoön",
+      "city": "Kimitoön",
+      "wikidata": "Q594263",
+      "website": "https://www.luontoon.fi/fi/kohteet/saaristomeren-kansallispuisto",
+      "lat": 60,
+      "lon": 22,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Archipelago National Park is a national park in Southwest Finland.",
+        "es": "El parque nacional del Archipiélago Marino es un parque nacional en Finlandia Propia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Archipelago National Park",
+          "url": "https://en.wikipedia.org/wiki/Archipelago_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional del Archipiélago Marino",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_Archipi%C3%A9lago_Marino"
+        }
+      },
+      "image": {
+        "file": "Gullkrona-överblick.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gullkrona-%C3%B6verblick.jpg",
+        "author": "Kristian Bäckström",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-kurjenrahka-national-park",
+      "name": "Kurjenrahka National Park",
+      "area": "Turku",
+      "city": "Turku",
+      "wikidata": "Q2398213",
+      "website": "https://www.luontoon.fi/kurjenrahka",
+      "lat": 60.720556,
+      "lon": 22.383611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kurjenrahka National Park is a national park in Southwest Finland.",
+        "es": "El Parque nacional de Kurjenrahka se encuentra en el suroeste de Finlandia, en la región de Finlandia Propia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kurjenrahka National Park",
+          "url": "https://en.wikipedia.org/wiki/Kurjenrahka_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Kurjenrahka",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Kurjenrahka"
+        }
+      },
+      "image": {
+        "file": "Mosse_från_bergsknall_Kurjenrahka_nationalpark_mars_2010.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mosse_fr%C3%A5n_bergsknall_Kurjenrahka_nationalpark_mars_2010.jpg",
+        "author": "Användare LPfi på Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-helvetinjarvi-national-park",
+      "name": "Helvetinjärvi National Park",
+      "area": "Ruovesi",
+      "city": "Ruovesi",
+      "wikidata": "Q937131",
+      "website": "https://www.luontoon.fi/fi/kohteet/helvetinjarven-kansallispuisto",
+      "lat": 62.033333,
+      "lon": 23.85,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Helvetinjärvi National Park is a national park in the Pirkanmaa region in Finland.",
+        "es": "El Parque nacional de Helvetinjärvi es un parque nacional en la región de Pirkanmaa en Finlandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Helvetinjärvi National Park",
+          "url": "https://en.wikipedia.org/wiki/Helvetinj%C3%A4rvi_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Helvetinjärvi",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Helvetinj%C3%A4rvi"
+        }
+      },
+      "image": {
+        "file": "Helvetinkolu.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Helvetinkolu.jpg",
+        "author": "The original uploader was Steffen M. at German Wikipedia.",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fi-sibelius-monument",
+      "name": "Sibelius Monument",
+      "area": "Helsinki",
+      "city": "Helsinki",
+      "wikidata": "Q2584017",
+      "lat": 60.18206,
+      "lon": 24.913342,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sibelius Monument is a public art memorial to the Finnish composer Jean Sibelius, who died in 1957.",
+        "es": "El Monumento a Sibelius está dedicado al compositor finlandés Jean Sibelius."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sibelius Monument",
+          "url": "https://en.wikipedia.org/wiki/Sibelius_Monument"
+        },
+        "es": {
+          "title": "Monumento a Sibelius",
+          "url": "https://es.wikipedia.org/wiki/Monumento_a_Sibelius"
+        }
+      },
+      "image": {
+        "file": "Sibelius-monumentin-paljastus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sibelius-monumentin-paljastus.jpg",
+        "author": "Aarne Tynnilä / Pietinen Mainosvalokuvaamo",
+        "license": "Public domain"
       }
     }
   ]

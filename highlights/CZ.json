@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -258,6 +264,1014 @@
         "text": "Mo 11:00-22:00; Tu-Su 09:00-22:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "cz-prague-castle",
+      "name": "Prague Castle",
+      "area": "Prague",
+      "city": "Prague",
+      "wikidata": "Q193369",
+      "website": "https://www.hrad.cz/",
+      "lat": 50.09,
+      "lon": 14.4,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Prague Castle is a castle complex in Prague, Czech Republic serving as the official residence and workplace of the president of the Czech Republic.",
+        "es": "El castillo de Praga es un castillo situado en Praga que sirve como la residencia y el lugar de trabajo oficial del presidente de la República Checa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Prague Castle",
+          "url": "https://en.wikipedia.org/wiki/Prague_Castle"
+        },
+        "es": {
+          "title": "Castillo de Praga",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Praga"
+        }
+      },
+      "image": {
+        "file": "Castillo_de_Praga,_Praga,_República_Checa,_2022-07-02,_DD_209.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Castillo_de_Praga%2C_Praga%2C_Rep%C3%BAblica_Checa%2C_2022-07-02%2C_DD_209.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cz-charles-bridge",
+      "name": "Charles Bridge",
+      "area": "Prague",
+      "city": "Prague",
+      "wikidata": "Q204871",
+      "lat": 50.086389,
+      "lon": 14.411944,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Charles Bridge is a medieval stone arch bridge that crosses the Vltava river in Prague, Czech Republic.",
+        "es": "El puente de Carlos es el puente más viejo de Praga y atraviesa el río Moldava de la Ciudad Vieja a la Ciudad Pequeña."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Charles Bridge",
+          "url": "https://en.wikipedia.org/wiki/Charles_Bridge"
+        },
+        "es": {
+          "title": "Puente Carlos",
+          "url": "https://es.wikipedia.org/wiki/Puente_Carlos"
+        }
+      }
+    },
+    {
+      "id": "cz-st-vitus-cathedral",
+      "name": "St. Vitus Cathedral",
+      "area": "Prague",
+      "city": "Prague",
+      "wikidata": "Q5949",
+      "lat": 50.090833,
+      "lon": 14.400556,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Metropolitan Cathedral of Saints Vitus, Wenceslaus and Adalbert is a Catholic metropolitan cathedral in Prague, and the seat of the Archbishop of Prague.",
+        "es": "La catedral de San Vito es un templo dedicado al culto católico situado en la ciudad de Praga."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Vitus Cathedral",
+          "url": "https://en.wikipedia.org/wiki/St._Vitus_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de San Vito (Praga)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Vito_(Praga)"
+        }
+      },
+      "image": {
+        "file": "Praha,_Katedrála,_JV_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Praha%2C_Katedr%C3%A1la%2C_JV_01.jpg",
+        "author": "o¬.",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "cz-snezka",
+      "name": "Sněžka",
+      "area": "Lower Silesian Voivodeship",
+      "city": "Lower Silesian Voivodeship",
+      "wikidata": "Q617511",
+      "lat": 50.736111,
+      "lon": 15.740278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sněžka or Śnieżka is a mountain on the border between the Czech Republic and Poland, the most prominent point of the Silesian Ridge in the Giant Mountains.",
+        "es": "Sněžka es el punto más elevado de las montañas de los Gigantes, que es a su vez parte de la cordillera de los Sudetes."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sněžka",
+          "url": "https://en.wikipedia.org/wiki/Sn%C4%9B%C5%BEka"
+        },
+        "es": {
+          "title": "Sněžka",
+          "url": "https://es.wikipedia.org/wiki/Sn%C4%9B%C5%BEka"
+        }
+      },
+      "image": {
+        "file": "Śnieżka_z_zachodu.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C5%9Anie%C5%BCka_z_zachodu.jpg",
+        "author": "Derbeth",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "cz-ancient-and-primeval-beech-forests-of-the-carpat",
+      "name": "Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe",
+      "area": "Podkarpackie Voivodeship",
+      "city": "Podkarpackie Voivodeship",
+      "wikidata": "Q156011",
+      "lat": 49,
+      "lon": 15,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe is a transnational serial nature UNESCO World Heritage Site, encompassing 93 component parts in 18 European countries.",
+        "es": "Los Bosques antiguos y primarios de hayas de los Cárpatos y otras regiones de Europa son un bien natural transnacional inscrito en la Lista del Patrimonio de la Humanidad de la Unesco desde 2007."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe",
+          "url": "https://en.wikipedia.org/wiki/Ancient_and_Primeval_Beech_Forests_of_the_Carpathians_and_Other_Regions_of_Europe"
+        },
+        "es": {
+          "title": "Bosques antiguos y primarios de hayas de los Cárpatos y otras regiones de Europa",
+          "url": "https://es.wikipedia.org/wiki/Bosques_antiguos_y_primarios_de_hayas_de_los_C%C3%A1rpatos_y_otras_regiones_de_Europa"
+        }
+      },
+      "image": {
+        "file": "Tysa_Rakhiv.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tysa_Rakhiv.jpg",
+        "author": "Varga Attila",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cz-karlstejn-castle",
+      "name": "Karlštejn Castle",
+      "area": "Prague",
+      "city": "Prague",
+      "wikidata": "Q266698",
+      "website": "https://www.hrad-karlstejn.cz/",
+      "lat": 49.93955,
+      "lon": 14.187933,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Karlštejn Castle is a large Gothic castle in Czechia, founded in 1348 by King Charles IV.",
+        "es": "El castillo de Karlštejn es un castillo gótico construido en 1348 por encargo de Carlos IV, emperador del Sacro Imperio Romano Germánico y rey de Bohemia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Karlštejn",
+          "url": "https://en.wikipedia.org/wiki/Karl%C5%A1tejn"
+        },
+        "es": {
+          "title": "Castillo de Karlštejn",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Karl%C5%A1tejn"
+        }
+      },
+      "image": {
+        "file": "Burg_Karlstein_-_Karlštejn_-_panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Burg_Karlstein_-_Karl%C5%A1tejn_-_panoramio.jpg",
+        "author": "Jürgen Regel, Marian…",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "cz-wenceslas-square",
+      "name": "Wenceslas Square",
+      "area": "Prague",
+      "city": "Prague",
+      "wikidata": "Q847613",
+      "lat": 50.082308,
+      "lon": 14.426141,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Wenceslas Square is one of the main city squares and the centre of the business and cultural communities in the New Town of Prague, Czech Republic.",
+        "es": "La Plaza de Venceslao es una de las plazas más importantes de Praga, República Checa, y el centro cultural y financiero de la Ciudad Nueva."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wenceslas Square",
+          "url": "https://en.wikipedia.org/wiki/Wenceslas_Square"
+        },
+        "es": {
+          "title": "Plaza de Wenceslao",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_Wenceslao"
+        }
+      },
+      "image": {
+        "file": "Václavské_náměstí_z_půlky.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A1clavsk%C3%A9_n%C3%A1m%C4%9Bst%C3%AD_z_p%C5%AFlky.jpg",
+        "author": "VitVit",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cz-national-museum-in-prague",
+      "name": "National Museum in Prague",
+      "area": "Prague",
+      "city": "Prague",
+      "wikidata": "Q188112",
+      "website": "https://www.nm.cz/",
+      "lat": 50.079843,
+      "lon": 14.430417,
+      "phone": "+420-224-497-111",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The National Museum is a public museum dedicated to natural scientific and historical collections of the Czech Republic, its history, culture and people, among others.",
+        "es": "El Museo Nacional de Praga es uno de los principales museos de Praga."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Museum (Prague)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_(Prague)"
+        },
+        "es": {
+          "title": "Museo Nacional de Praga",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_de_Praga"
+        }
+      },
+      "image": {
+        "file": "Museo_Nacional,_Praga,_República_Checa,_2022-07-02,_DD_265-267_HDR.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museo_Nacional%2C_Praga%2C_Rep%C3%BAblica_Checa%2C_2022-07-02%2C_DD_265-267_HDR.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cz-old-town-square",
+      "name": "Old Town Square",
+      "area": "Prague",
+      "city": "Prague",
+      "wikidata": "Q421678",
+      "lat": 50.0875,
+      "lon": 14.421389,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Old Town Square is a historic square in the Old Town quarter of Prague, the capital of the Czech Republic.",
+        "es": "La Plaza de la Ciudad Vieja es una plaza histórica situada en la Ciudad Vieja de Praga en la República Checa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Old Town Square",
+          "url": "https://en.wikipedia.org/wiki/Old_Town_Square"
+        },
+        "es": {
+          "title": "Plaza de la Ciudad Vieja (Praga)",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_la_Ciudad_Vieja_(Praga)"
+        }
+      }
+    },
+    {
+      "id": "cz-church-of-our-lady-before-tyn",
+      "name": "Church of Our Lady before Týn",
+      "area": "Prague",
+      "city": "Prague",
+      "wikidata": "Q1453427",
+      "lat": 50.08771,
+      "lon": 14.4227,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of the Mother of God before Týn, or Church of Our Lady before Týn, is a Gothic church and a dominant feature of the Old Town of Prague, Czech Republic.",
+        "es": "La iglesia de Nuestra Señora de Týn, a menudo traducido como iglesia de Nuestra Señora ante Týn, es una iglesia gótica y un rasgo dominante de la Ciudad antigua de Praga, República Checa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of Our Lady before Týn",
+          "url": "https://en.wikipedia.org/wiki/Church_of_Our_Lady_before_T%C3%BDn"
+        },
+        "es": {
+          "title": "Iglesia de Nuestra Señora ante Týn",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Nuestra_Se%C3%B1ora_ante_T%C3%BDn"
+        }
+      }
+    },
+    {
+      "id": "cz-strahov-monastery",
+      "name": "Strahov Monastery",
+      "area": "Prague",
+      "city": "Prague",
+      "wikidata": "Q969482",
+      "website": "https://www.strahovskyklaster.cz/",
+      "lat": 50.085963,
+      "lon": 14.389282,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Strahov Monastery is a Premonstratensian abbey founded in 1143 by Jindřich Zdík, Bishop John of Prague, and Vladislaus II, Duke of Bohemia.",
+        "es": "El monasterio de Strahov es una abadía premonstratense fundada en 1143 por el obispo Jindřich Zdík, el obispo Juan de Praga, y el Duque Ladislao II."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Strahov Monastery",
+          "url": "https://en.wikipedia.org/wiki/Strahov_Monastery"
+        },
+        "es": {
+          "title": "Monasterio de Strahov",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_de_Strahov"
+        }
+      },
+      "image": {
+        "file": "Praha,_Hradcany_-_Strahovsky_klaster_(pohled_z_ulice_Uvoz).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Praha%2C_Hradcany_-_Strahovsky_klaster_(pohled_z_ulice_Uvoz).jpg",
+        "author": "Matěj Baťha",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "cz-old-new-synagogue",
+      "name": "Old New Synagogue",
+      "area": "Prague",
+      "city": "Prague",
+      "wikidata": "Q443107",
+      "lat": 50.09,
+      "lon": 14.418611,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Old New Synagogue, also called the Altneuschul, is an Orthodox Jewish congregation and synagogue, located in Josefov, Prague, in the Czech Republic.",
+        "es": "La Sinagoga Staronová o Sinagoga Vieja-Nueva, en Praga, es una de las sinagogas más antiguas de Europa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Old New Synagogue",
+          "url": "https://en.wikipedia.org/wiki/Old_New_Synagogue"
+        },
+        "es": {
+          "title": "Sinagoga Vieja-Nueva",
+          "url": "https://es.wikipedia.org/wiki/Sinagoga_Vieja-Nueva"
+        }
+      },
+      "image": {
+        "file": "Old_New_Synagogue_01(js).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Old_New_Synagogue_01(js).jpg",
+        "author": "Jerzy Strzelecki",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cz-old-jewish-cemetery",
+      "name": "Old Jewish Cemetery",
+      "area": "Prague",
+      "city": "Prague",
+      "wikidata": "Q438026",
+      "website": "https://www.jewishmuseum.cz/pamatky-a-expozice/pamatky/stary-zidovsky-hrbitov/",
+      "lat": 50.089722,
+      "lon": 14.417222,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Old Jewish Cemetery is a Jewish cemetery in Prague, Czech Republic, which is one of the largest of its kind in Europe and one of the most important Jewish historical monuments in Prague.",
+        "es": "El antiguo cementerio judío de Praga se encuentra en el barrio judío de Praga, el Josefov."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Old Jewish Cemetery, Prague",
+          "url": "https://en.wikipedia.org/wiki/Old_Jewish_Cemetery%2C_Prague"
+        },
+        "es": {
+          "title": "Antiguo cementerio judío de Praga",
+          "url": "https://es.wikipedia.org/wiki/Antiguo_cementerio_jud%C3%ADo_de_Praga"
+        }
+      },
+      "image": {
+        "file": "Praha_Jewish_Cemetery_2003.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Praha_Jewish_Cemetery_2003.jpg",
+        "author": "Photo: Andreas Praefcke",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "cz-cathedral-of-st-peter-and-paul",
+      "name": "cathedral of St. Peter and Paul",
+      "area": "Brno",
+      "city": "Brno",
+      "wikidata": "Q45033",
+      "website": "https://www.katedrala-petrov.cz/",
+      "lat": 49.190972,
+      "lon": 16.607361,
+      "phone": "+420 543 235 031",
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of Saints Peter and Paul is a Roman Catholic cathedral located on the Petrov hill in the Brno-střed district of the city of Brno in the Czech Republic.",
+        "es": "La Catedral de San Pedro y San Pablo se halla en la colina de Petrov, en el centro de la ciudad de Brno, en la República Checa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of St. Peter and Paul, Brno",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_St._Peter_and_Paul%2C_Brno"
+        },
+        "es": {
+          "title": "Catedral de San Pedro y San Pablo (Brno)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Pedro_y_San_Pablo_(Brno)"
+        }
+      },
+      "image": {
+        "file": "Brno,_katedrála_sv._Petra_a_Pavla.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brno%2C_katedr%C3%A1la_sv._Petra_a_Pavla.jpg",
+        "author": "Michal Klajban",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cz-spilberk-castle",
+      "name": "Špilberk Castle",
+      "area": "Brno",
+      "city": "Brno",
+      "wikidata": "Q118256",
+      "website": "https://www.spilberk.cz/",
+      "lat": 49.194444,
+      "lon": 16.598889,
+      "phone": "+420 542 123 611",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Špilberk Castle is a castle on the hilltop in Brno, Southern Moravia.",
+        "es": "El castillo Špilberk es un antiguo castillo situado en la cima de la colina de Brno, Moravia Meridional, República Checa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Špilberk Castle",
+          "url": "https://en.wikipedia.org/wiki/%C5%A0pilberk_Castle"
+        },
+        "es": {
+          "title": "Castillo Špilberk",
+          "url": "https://es.wikipedia.org/wiki/Castillo_%C5%A0pilberk"
+        }
+      },
+      "image": {
+        "file": "Hrad_Špilberk_(Brno),_Brno_-_střed_208,_Brno.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hrad_%C5%A0pilberk_(Brno)%2C_Brno_-_st%C5%99ed_208%2C_Brno.JPG",
+        "author": "Michal Kmínek",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cz-moravian-karst",
+      "name": "Moravian Karst",
+      "area": "Brno",
+      "city": "Brno",
+      "wikidata": "Q1957269",
+      "lat": 49.278056,
+      "lon": 16.734167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Moravian Karst is a karst landscape and protected landscape area to the north of Brno in the South Moravian Region of the Czech Republic.",
+        "es": "El karst de Moravia es un karst que forma una reserva natural protegida al norte de Brno en la zona este de la República Checa, cerca de la localidad de Blansko."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Moravian Karst",
+          "url": "https://en.wikipedia.org/wiki/Moravian_Karst"
+        },
+        "es": {
+          "title": "Karst de Moravia",
+          "url": "https://es.wikipedia.org/wiki/Karst_de_Moravia"
+        }
+      },
+      "image": {
+        "file": "Jakubovo_jezero_(Moravsky_kras).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jakubovo_jezero_(Moravsky_kras).JPG",
+        "author": "Lukáš Malý",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cz-museum-of-romani-culture",
+      "name": "Museum of Romani Culture",
+      "area": "Brno",
+      "city": "Brno",
+      "wikidata": "Q1570294",
+      "website": "https://www.rommuz.cz/",
+      "lat": 49.200586,
+      "lon": 16.62338,
+      "phone": "+420 545581206",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Museum of Romani Culture is an institution dedicated to the history and culture of the Romani people.",
+        "es": "El Museo de la Cultura Romaní o Museo de la Cultura Gitana es una institución dedicada a la historia y cultura del pueblo gitano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museum of Romani Culture",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Romani_Culture"
+        },
+        "es": {
+          "title": "Museo de la Cultura Romaní",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Cultura_Roman%C3%AD"
+        }
+      },
+      "image": {
+        "file": "Brno-Muzeum-romské-kultury2013.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brno-Muzeum-romsk%C3%A9-kultury2013.jpg",
+        "author": "Ben Skála, Benfoto",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cz-macocha-gorge",
+      "name": "Macocha Gorge",
+      "area": "Brno",
+      "city": "Brno",
+      "wikidata": "Q673317",
+      "lat": 49.373236,
+      "lon": 16.729817,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Macocha Abyss, also known as the Macocha Gorge, is a sinkhole in the Moravian Karst cave system of the Czech Republic.",
+        "es": "El abismo de Macocha, también conocido como la garganta de Macocha, es una profunda dolina localizada en el sistema de cuevas del karst de Moravia en la República Checa, que se encuentra ubicada al norte de la ciudad…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Macocha Gorge",
+          "url": "https://en.wikipedia.org/wiki/Macocha_Gorge"
+        },
+        "es": {
+          "title": "Abismo de Macocha",
+          "url": "https://es.wikipedia.org/wiki/Abismo_de_Macocha"
+        }
+      },
+      "image": {
+        "file": "Propast_Macocha_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Propast_Macocha_01.jpg",
+        "author": "Doronenko",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cz-az-tower",
+      "name": "AZ Tower",
+      "area": "Brno",
+      "city": "Brno",
+      "wikidata": "Q3495648",
+      "website": "https://www.aztower.org",
+      "lat": 49.175833,
+      "lon": 16.605556,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The AZ Tower is a skyscraper in the city of Brno, Czech Republic.",
+        "es": "La Torre AZ es un rascacielos en la ciudad de Brno, República Checa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "AZ Tower",
+          "url": "https://en.wikipedia.org/wiki/AZ_Tower"
+        },
+        "es": {
+          "title": "AZ Tower",
+          "url": "https://es.wikipedia.org/wiki/AZ_Tower"
+        }
+      },
+      "image": {
+        "file": "Brno,_Štýřice,_Pražákova,_AZ_Tower_(2013-05-21;_09).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brno%2C_%C5%A0t%C3%BD%C5%99ice%2C_Pra%C5%BE%C3%A1kova%2C_AZ_Tower_(2013-05-21%3B_09).jpg",
+        "author": "Harold",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cz-veveri-castle",
+      "name": "Veveří Castle",
+      "area": "Brno",
+      "city": "Brno",
+      "wikidata": "Q921344",
+      "website": "https://www.hrad-veveri.cz",
+      "lat": 49.256667,
+      "lon": 16.461667,
+      "phone": "+420 549 420 164",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Veveří is an originally ducal and royal castle in Brno in the Czech Republic.",
+        "es": "Veveří is an originally ducal and royal castle in Brno in the Czech Republic."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Veveří Castle",
+          "url": "https://en.wikipedia.org/wiki/Veve%C5%99%C3%AD_Castle"
+        },
+        "es": {
+          "title": "Veveří Castle",
+          "url": "https://en.wikipedia.org/wiki/Veve%C5%99%C3%AD_Castle"
+        }
+      },
+      "image": {
+        "file": "Hrad_Veveří_-_panorama.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hrad_Veve%C5%99%C3%AD_-_panorama.JPG",
+        "author": "Michal Klajban",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "cz-moravian-museum",
+      "name": "Moravian Museum",
+      "area": "Brno",
+      "city": "Brno",
+      "wikidata": "Q1348579",
+      "website": "https://www.mzm.cz/",
+      "lat": 49.191417,
+      "lon": 16.608333,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Moravské zemské muzeum is a museum in Brno in the Czech Republic.",
+        "es": "El Museo de Moravia es un museo ubicado en la ciudad checa de Brno, capital de la Región de Moravia Meridional."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Moravské zemské muzeum",
+          "url": "https://en.wikipedia.org/wiki/Moravsk%C3%A9_zemsk%C3%A9_muzeum"
+        },
+        "es": {
+          "title": "Museo de Moravia",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Moravia"
+        }
+      },
+      "image": {
+        "file": "Moravian_Museum_-_main_house,_Brno.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Moravian_Museum_-_main_house%2C_Brno.jpg",
+        "author": "Jan Sapák",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cz-janacek-theatre",
+      "name": "Janáček Theatre",
+      "area": "Brno",
+      "city": "Brno",
+      "wikidata": "Q3511873",
+      "website": "https://www.ndbrno.cz/",
+      "lat": 49.198056,
+      "lon": 16.610833,
+      "phone": "+420 542 158 111",
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Janáček Theatre is an opera house in the city of Brno, Czech Republic.",
+        "es": "Janáček Theatre is an opera house in the city of Brno, Czech Republic."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Janáček Theatre",
+          "url": "https://en.wikipedia.org/wiki/Jan%C3%A1%C4%8Dek_Theatre"
+        },
+        "es": {
+          "title": "Janáček Theatre",
+          "url": "https://en.wikipedia.org/wiki/Jan%C3%A1%C4%8Dek_Theatre"
+        }
+      },
+      "image": {
+        "file": "Brno,_Janáčkovo_divadlo,_park_před_divadlem_(6913).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brno%2C_Jan%C3%A1%C4%8Dkovo_divadlo%2C_park_p%C5%99ed_divadlem_(6913).jpg",
+        "author": "Martin Strachoň",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cz-reduta-theatre",
+      "name": "Reduta Theatre",
+      "area": "Brno",
+      "city": "Brno",
+      "wikidata": "Q660777",
+      "website": "https://www.ndbrno.cz/o-divadle/budovy/divadlo-reduta/",
+      "lat": 49.192139,
+      "lon": 16.609611,
+      "phone": "+420 542 158 111",
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Reduta Theatre is a theatre in Brno, Czech Republic.",
+        "es": "The Reduta Theatre is a theatre in Brno, Czech Republic."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Reduta Theatre",
+          "url": "https://en.wikipedia.org/wiki/Reduta_Theatre"
+        },
+        "es": {
+          "title": "Reduta Theatre",
+          "url": "https://en.wikipedia.org/wiki/Reduta_Theatre"
+        }
+      },
+      "image": {
+        "file": "Reduta_Theatre_-_Brno.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Reduta_Theatre_-_Brno.jpg",
+        "author": "MrPanyGoff, attribution: Plamen Agov - studiolemontree.com",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "cz-st-thomas-s-abbey-in-brno",
+      "name": "St Thomas's Abbey in Brno",
+      "area": "Brno",
+      "city": "Brno",
+      "wikidata": "Q334311",
+      "website": "https://www.opatstvibrno.cz/",
+      "lat": 49.191775,
+      "lon": 16.593761,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St Thomas's Abbey is an Augustinian abbey and church located in Brno in the Czech Republic.",
+        "es": "La abadía de Santo Tomás es un monasterio de los agustinos, situado en Brno, en la República Checa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Thomas's Abbey, Brno",
+          "url": "https://en.wikipedia.org/wiki/St_Thomas's_Abbey%2C_Brno"
+        },
+        "es": {
+          "title": "Abadía de Santo Tomás de Brno",
+          "url": "https://es.wikipedia.org/wiki/Abad%C3%ADa_de_Santo_Tom%C3%A1s_de_Brno"
+        }
+      },
+      "image": {
+        "file": "Zahrada_kláštera.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zahrada_kl%C3%A1%C5%A1tera.JPG",
+        "author": "zarco",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "cz-basilica-of-the-assumption-of-our-lady",
+      "name": "Basilica of the Assumption of Our Lady",
+      "area": "Brno",
+      "city": "Brno",
+      "wikidata": "Q11062049",
+      "website": "https://www.opatstvibrno.cz/bazilika.html",
+      "lat": 49.191908,
+      "lon": 16.594425,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica of the Assumption of Our Lady in Old Brno Abbey is a high Gothic, monumental convent temple.",
+        "es": "La basílica de la Asunción de Nuestra Señora en la antigua abadía de Brno es un templo conventual monumental de estilo gótico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica of the Assumption of Our Lady, Brno",
+          "url": "https://en.wikipedia.org/wiki/Basilica_of_the_Assumption_of_Our_Lady%2C_Brno"
+        },
+        "es": {
+          "title": "Basílica de la Asunción de Nuestra Señora",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_la_Asunci%C3%B3n_de_Nuestra_Se%C3%B1ora"
+        }
+      },
+      "image": {
+        "file": "Брно_Базиліка_Вознесіння_Діви_Марії.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D1%80%D0%BD%D0%BE_%D0%91%D0%B0%D0%B7%D0%B8%D0%BB%D1%96%D0%BA%D0%B0_%D0%92%D0%BE%D0%B7%D0%BD%D0%B5%D1%81%D1%96%D0%BD%D0%BD%D1%8F_%D0%94%D1%96%D0%B2%D0%B8_%D0%9C%D0%B0%D1%80%D1%96%D1%97.jpg",
+        "author": "СЕРП75ДНІПРО",
+        "license": "CC BY-SA 4.0"
       }
     }
   ]

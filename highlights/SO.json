@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -67,6 +73,469 @@
       "wikidata": "Q2033310",
       "lat": 2.0375,
       "lon": 45.3381
+    },
+    {
+      "id": "so-shimbiris",
+      "name": "Shimbiris",
+      "area": "Sanaag Region",
+      "city": "Sanaag Region",
+      "wikidata": "Q649162",
+      "lat": 10.735833,
+      "lon": 47.245,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Shimbiris is the highest peak in Somaliland and Somalia.",
+        "es": "Shimbiris es el pico más alto de Somalia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Shimbiris",
+          "url": "https://en.wikipedia.org/wiki/Mount_Shimbiris"
+        },
+        "es": {
+          "title": "Shimbiris",
+          "url": "https://es.wikipedia.org/wiki/Shimbiris"
+        }
+      },
+      "image": {
+        "file": "Somalia_Topography_en.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Somalia_Topography_en.png",
+        "author": "Sadalmelik",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "so-mogadishu-cathedral",
+      "name": "Mogadishu Cathedral",
+      "area": "Mogadishu",
+      "city": "Mogadishu",
+      "wikidata": "Q962672",
+      "lat": 2.035736,
+      "lon": 45.341614,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Mogadishu Cathedral is a ruined Catholic cathedral located in Mogadishu, Somalia.",
+        "es": "La catedral de Mogadiscio fue una catedral católica ubicada en Mogadiscio, Somalia, sede de la diócesis de Mogadiscio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mogadishu Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Mogadishu_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Mogadiscio",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Mogadiscio"
+        }
+      },
+      "image": {
+        "file": "Cattedrale_di_Mogadiscio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cattedrale_di_Mogadiscio.jpg",
+        "author": "Mar Sharb",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "so-mosque-of-islamic-solidarity",
+      "name": "Mosque of Islamic Solidarity",
+      "area": "Mogadishu",
+      "city": "Mogadishu",
+      "wikidata": "Q2474798",
+      "lat": 2.03583,
+      "lon": 45.3308,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mosque of Islamic Solidarity is a mosque located in Mogadishu, Banaadir, Somalia, overlooking the Somali Sea.",
+        "es": "La Mezquita de la Solidaridad Islámica es una mezquita ubicada en Mogadiscio, Somalia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mosque of Islamic Solidarity",
+          "url": "https://en.wikipedia.org/wiki/Mosque_of_Islamic_Solidarity"
+        },
+        "es": {
+          "title": "Mezquita de la Solidaridad Islámica",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_de_la_Solidaridad_Isl%C3%A1mica"
+        }
+      },
+      "image": {
+        "file": "Mosque_of_Islamic_Solidarity.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mosque_of_Islamic_Solidarity.jpeg",
+        "author": "Welimo28",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "so-fakr-ad-din-mosque",
+      "name": "Fakr ad-Din Mosque",
+      "area": "Mogadishu",
+      "city": "Mogadishu",
+      "wikidata": "Q186169",
+      "lat": 2.033465,
+      "lon": 45.342948,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Fakhr al-Din Mosque is a mosque located in the historical Hamar Weyne district of Mogadishu, Banaadir, Somalia.",
+        "es": "La mezquita de Fakr ad-Din es la más antigua de todas las existentes en Mogadiscio, Somalia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fakhr al-Din Mosque",
+          "url": "https://en.wikipedia.org/wiki/Fakhr_al-Din_Mosque"
+        },
+        "es": {
+          "title": "Mezquita de Fakr ad-Din",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_de_Fakr_ad-Din"
+        }
+      },
+      "image": {
+        "file": "Fakr_Ud_Din_Mosque.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fakr_Ud_Din_Mosque.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "so-arba-a-rukun-mosque",
+      "name": "Arba'a Rukun Mosque",
+      "area": "Mogadishu",
+      "city": "Mogadishu",
+      "wikidata": "Q15186773",
+      "lat": 2.0351,
+      "lon": 45.3425,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Arba'a Rukun Mosque, also known as Arba Rucun, is a mosque in the Shangani medieval district of Mogadishu, Banaadir, Somalia.",
+        "es": "The Arba'a Rukun Mosque, also known as Arba Rucun, is a mosque in the Shangani medieval district of Mogadishu, Banaadir, Somalia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Arba'a Rukun Mosque",
+          "url": "https://en.wikipedia.org/wiki/Arba'a_Rukun_Mosque"
+        },
+        "es": {
+          "title": "Arba'a Rukun Mosque",
+          "url": "https://en.wikipedia.org/wiki/Arba'a_Rukun_Mosque"
+        }
+      },
+      "image": {
+        "file": "Mogadishu1936.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mogadishu1936.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "so-national-theatre-of-somalia",
+      "name": "National Theatre of Somalia",
+      "area": "Mogadishu",
+      "city": "Mogadishu",
+      "wikidata": "Q17068907",
+      "lat": 2.037351,
+      "lon": 45.337457,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The National Theatre of Somalia is located in central Mogadishu, Somalia.",
+        "es": "El teatro nacional de Somalia se encuentra ubicado en el centro de Mogadiscio, Somalia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Theatre of Somalia",
+          "url": "https://en.wikipedia.org/wiki/National_Theatre_of_Somalia"
+        },
+        "es": {
+          "title": "Teatro Nacional de Somalia",
+          "url": "https://es.wikipedia.org/wiki/Teatro_Nacional_de_Somalia"
+        }
+      }
+    },
+    {
+      "id": "so-governor-s-palace-of-mogadishu",
+      "name": "Governor's Palace of Mogadishu",
+      "area": "Mogadishu",
+      "city": "Mogadishu",
+      "wikidata": "Q2047637",
+      "lat": 2.03482,
+      "lon": 45.34205,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Governor's Palace was the seat of the governor of Italian Somaliland, and then the administrator of the Trust Territory of Somaliland.",
+        "es": "The Governor's Palace was the seat of the governor of Italian Somaliland, and then the administrator of the Trust Territory of Somaliland."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Governor's Palace of Mogadishu",
+          "url": "https://en.wikipedia.org/wiki/Governor's_Palace_of_Mogadishu"
+        },
+        "es": {
+          "title": "Governor's Palace of Mogadishu",
+          "url": "https://en.wikipedia.org/wiki/Governor's_Palace_of_Mogadishu"
+        }
+      },
+      "image": {
+        "file": "1931-quaderno-Mogadiscio-palazzo-del-governatore.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:1931-quaderno-Mogadiscio-palazzo-del-governatore.jpg",
+        "author": "Albertomos",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "so-ali-jimale-mosque",
+      "name": "Ali Jimale Mosque",
+      "area": "Mogadishu",
+      "city": "Mogadishu",
+      "wikidata": "Q124150652",
+      "lat": 2.035833,
+      "lon": 45.330833,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ali Jimale Mosque is a mosque located in Mogadishu, the capital city of Somalia.",
+        "es": "Ali Jimale Mosque is a mosque located in Mogadishu, the capital city of Somalia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ali Jimale Mosque",
+          "url": "https://en.wikipedia.org/wiki/Ali_Jimale_Mosque"
+        },
+        "es": {
+          "title": "Ali Jimale Mosque",
+          "url": "https://en.wikipedia.org/wiki/Ali_Jimale_Mosque"
+        }
+      },
+      "image": {
+        "file": "مسجد_علي_جمعالي_5_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%B3%D8%AC%D8%AF_%D8%B9%D9%84%D9%8A_%D8%AC%D9%85%D8%B9%D8%A7%D9%84%D9%8A_5_(cropped).jpg",
+        "author": "Omar Gadood",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "so-lido-beach-mogadishu",
+      "name": "Lido Beach, Mogadishu",
+      "area": "Mogadishu",
+      "city": "Mogadishu",
+      "wikidata": "Q25108684",
+      "lat": 2.039751,
+      "lon": 45.363723,
+      "category": "beach",
+      "interests": [
+        "beaches"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Lido Beach is a beach in Somalia's capital, Mogadishu, which overlooks the Somali Sea.",
+        "es": "Lido Beach is a beach in Somalia's capital, Mogadishu, which overlooks the Somali Sea."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lido Beach, Mogadishu",
+          "url": "https://en.wikipedia.org/wiki/Lido_Beach%2C_Mogadishu"
+        },
+        "es": {
+          "title": "Lido Beach, Mogadishu",
+          "url": "https://en.wikipedia.org/wiki/Lido_Beach%2C_Mogadishu"
+        }
+      }
+    },
+    {
+      "id": "so-daljirka-dahsoon",
+      "name": "Daljirka Dahsoon",
+      "area": "Mogadishu",
+      "city": "Mogadishu",
+      "wikidata": "Q55608871",
+      "lat": 2.039137,
+      "lon": 45.342038,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Daljirka Dahsoon is a Tomb of the Unknown Soldier memorial located in Mogadishu, Somalia.",
+        "es": "Daljirka Dahsoon is a Tomb of the Unknown Soldier memorial located in Mogadishu, Somalia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Daljirka Dahsoon",
+          "url": "https://en.wikipedia.org/wiki/Daljirka_Dahsoon"
+        },
+        "es": {
+          "title": "Daljirka Dahsoon",
+          "url": "https://en.wikipedia.org/wiki/Daljirka_Dahsoon"
+        }
+      },
+      "image": {
+        "file": "Tomb_of_the_Unknown_Soldier,_Mogadishu_Somalia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tomb_of_the_Unknown_Soldier%2C_Mogadishu_Somalia.jpg",
+        "author": "Axmadyare",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "so-grand-mosque-of-shangani",
+      "name": "Grand Mosque of Shangani",
+      "area": "Mogadishu",
+      "city": "Mogadishu",
+      "wikidata": "Q96384082",
+      "lat": 2.0333,
+      "lon": 45.3416,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Jama'a Shingani is a Friday mosque located in the Shangani District of Mogadishu, Banaadir, in Somalia.",
+        "es": "The Jama'a Shingani is a Friday mosque located in the Shangani District of Mogadishu, Banaadir, in Somalia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jama'a Shingani, Shingani",
+          "url": "https://en.wikipedia.org/wiki/Jama'a_Shingani%2C_Shingani"
+        },
+        "es": {
+          "title": "Jama'a Shingani, Shingani",
+          "url": "https://en.wikipedia.org/wiki/Jama'a_Shingani%2C_Shingani"
+        }
+      }
+    },
+    {
+      "id": "so-grand-mosque-of-hamar-weyne",
+      "name": "Grand Mosque of Hamar Weyne",
+      "area": "Mogadishu",
+      "city": "Mogadishu",
+      "wikidata": "Q96384085",
+      "lat": 2.032516,
+      "lon": 45.342092,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Jama'a Xamar Weyne, also known as the Jama'a Hamar Weyne, is a Friday mosque, located in the historical Hamar Weyne district of Mogadishu, Banaadir, in Somalia.",
+        "es": "The Jama'a Xamar Weyne, also known as the Jama'a Hamar Weyne, is a Friday mosque, located in the historical Hamar Weyne district of Mogadishu, Banaadir, in Somalia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jama'a Xamar Weyne, Xamar Weyne",
+          "url": "https://en.wikipedia.org/wiki/Jama'a_Xamar_Weyne%2C_Xamar_Weyne"
+        },
+        "es": {
+          "title": "Jama'a Xamar Weyne, Xamar Weyne",
+          "url": "https://en.wikipedia.org/wiki/Jama'a_Xamar_Weyne%2C_Xamar_Weyne"
+        }
+      },
+      "image": {
+        "file": "Jama'a_Xamar_Weyne.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jama'a_Xamar_Weyne.jpg",
+        "author": "La_Lomia, M., 1982. Antiche Moschee Di Mogadiscio. Palermo: ILA Palma.",
+        "license": "CC BY-SA 4.0"
+      }
     }
   ]
 }

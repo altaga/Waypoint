@@ -116,7 +116,12 @@ export function verifyPlan(input: {
   if (blocks.length > 1) {
     // The least days a city needs at this pace: from all the places the list has in it (not only the planned ones).
     const pack = highlights.forCountry(destinationIso);
-    const minutesIn = (city: string) => Math.max((pack?.places ?? []).filter((p) => cityOf(p) === city).reduce((m, p) => m + p.durationMinutes, 0), input.cityMinutes?.(city) ?? 0);
+    const minutesIn = (city: string) => {
+      const listed = (pack?.places ?? []).filter((p) => cityOf(p) === city).reduce((m, p) => m + p.durationMinutes, 0);
+      const size = input.cityMinutes?.(city) ?? 0;
+      // A long list never asks for more than half again what the city's size gives.
+      return size > 0 ? Math.min(Math.max(listed, size), size * 1.5) : listed;
+    };
     const need = (city: string) => Math.max(STYLES[pace].floor, minDays(minutesIn(city), pace));
     blocks.forEach((b, i) => {
       const least = need(b.city);

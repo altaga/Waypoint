@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -67,6 +73,423 @@
       "website": "http://www.barbmuse.org.bb",
       "lat": 13.08222,
       "lon": -59.6025
+    },
+    {
+      "id": "bb-barbados",
+      "name": "Barbados",
+      "area": "Bridgetown",
+      "city": "Bridgetown",
+      "wikidata": "Q244",
+      "website": "https://www.gov.bb/",
+      "lat": 13.17,
+      "lon": -59.5525,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Barbados is an island nation in the Caribbean Sea.",
+        "es": "Barbados es un país insular de las Antillas cuya forma de gobierno es una república parlamentaria compuesta por once parroquias."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Barbados",
+          "url": "https://en.wikipedia.org/wiki/Barbados"
+        },
+        "es": {
+          "title": "Barbados",
+          "url": "https://es.wikipedia.org/wiki/Barbados"
+        }
+      },
+      "image": {
+        "file": "Barbados_(50).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Barbados_(50).jpg",
+        "author": "Patdoy at en.wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bb-mount-hillaby",
+      "name": "Mount Hillaby",
+      "area": "Bridgetown",
+      "city": "Bridgetown",
+      "wikidata": "Q1854502",
+      "lat": 13.211111,
+      "lon": -59.583333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The peak of Mount Hillaby is the highest point on the Eastern Caribbean island of Barbados.",
+        "es": "El Monte Hillaby está situado en el centro de la isla de Barbados que, con sus 340 metros de altura, representa el punto más alto de toda la isla."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Hillaby",
+          "url": "https://en.wikipedia.org/wiki/Mount_Hillaby"
+        },
+        "es": {
+          "title": "Monte Hillaby",
+          "url": "https://es.wikipedia.org/wiki/Monte_Hillaby"
+        }
+      }
+    },
+    {
+      "id": "bb-nidhe-israel-synagogue",
+      "name": "Nidhe Israel Synagogue",
+      "area": "Bridgetown",
+      "city": "Bridgetown",
+      "wikidata": "Q2975704",
+      "lat": 13.099417,
+      "lon": -59.615222,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Nidḥe Israel Synagogue is a Conservative Jewish congregation and synagogue, located on Synagogue Lane in Bridgetown, Barbados.",
+        "es": "La Sinagoga Nidhe Israel es la única sinagoga en Bridgetown, la capital de la nación antillana de Barbados."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nidhe Israel Synagogue",
+          "url": "https://en.wikipedia.org/wiki/Nidhe_Israel_Synagogue"
+        },
+        "es": {
+          "title": "Sinagoga Nidhe Israel",
+          "url": "https://es.wikipedia.org/wiki/Sinagoga_Nidhe_Israel"
+        }
+      },
+      "image": {
+        "file": "Nidhe_Israel_Synagogue.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nidhe_Israel_Synagogue.JPG",
+        "author": "NYC2TLV",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bb-harrison-s-cave",
+      "name": "Harrison's Cave",
+      "area": "Bridgetown",
+      "city": "Bridgetown",
+      "wikidata": "Q5665387",
+      "lat": 13.18517,
+      "lon": -59.57453,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Harrison's Cave is a tourist attraction in the country of Barbados, first mentioned in 1795.",
+        "es": "Cueva de Harrison es una atracción turística en el país caribeño de Barbados, mencionada por primera vez en 1795."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Harrison's Cave",
+          "url": "https://en.wikipedia.org/wiki/Harrison's_Cave"
+        },
+        "es": {
+          "title": "Cueva de Harrison",
+          "url": "https://es.wikipedia.org/wiki/Cueva_de_Harrison"
+        }
+      },
+      "image": {
+        "file": "Harrisons_Cave_(6976862065).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Harrisons_Cave_(6976862065).jpg",
+        "author": "Berit from Redhill/Surrey, UK",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "bb-south-point-lighthouse",
+      "name": "South Point Lighthouse",
+      "area": "Bridgetown",
+      "city": "Bridgetown",
+      "wikidata": "Q7568250",
+      "lat": 13.04713,
+      "lon": -59.52941,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "South Point Lighthouse is a lighthouse located in the south of Barbados.",
+        "es": "El Faro de Punta Sur está ubicado sobre la costa del Océano Atlántico, al sur de Barbados."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "South Point Lighthouse",
+          "url": "https://en.wikipedia.org/wiki/South_Point_Lighthouse"
+        },
+        "es": {
+          "title": "Faro de Punta Sur",
+          "url": "https://es.wikipedia.org/wiki/Faro_de_Punta_Sur"
+        }
+      },
+      "image": {
+        "file": "Cast_iron_lighthouse_(375211909).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cast_iron_lighthouse_(375211909).jpg",
+        "author": "gemteck1 from Seattle, Washington, USA",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "bb-bussa-emancipation-statue",
+      "name": "Bussa Emancipation Statue",
+      "area": "Bridgetown",
+      "city": "Bridgetown",
+      "wikidata": "Q5002016",
+      "lat": 13.105033,
+      "lon": -59.580089,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Emancipation Statue is a public sculpture symbolising the \"breaking of the chains\" of slavery at Emancipation.",
+        "es": "La Estatua de la Emancipación de busas es una escultura pública realizada en honor del líder de una rebelión de esclavos en Barbados, y que está localizada al este de la ciudad de Bridgetown."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Emancipation Statue",
+          "url": "https://en.wikipedia.org/wiki/Emancipation_Statue"
+        },
+        "es": {
+          "title": "Estatua de la Emancipación de Bussa",
+          "url": "https://es.wikipedia.org/wiki/Estatua_de_la_Emancipaci%C3%B3n_de_Bussa"
+        }
+      },
+      "image": {
+        "file": "Bussa_statue.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bussa_statue.png",
+        "author": "Dogfacebob",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "bb-pelican-island-bridgetown",
+      "name": "Pelican Island, Bridgetown",
+      "area": "Bridgetown",
+      "city": "Bridgetown",
+      "wikidata": "Q7161401",
+      "lat": 13.1,
+      "lon": -59.633333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pelican Island was a small uninhabited island that once existed off the west coast of Bridgetown and Fontabelle, in St.",
+        "es": "Pelican Island was a small uninhabited island that once existed off the west coast of Bridgetown and Fontabelle, in St."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pelican Island (Barbados)",
+          "url": "https://en.wikipedia.org/wiki/Pelican_Island_(Barbados)"
+        },
+        "es": {
+          "title": "Pelican Island (Barbados)",
+          "url": "https://en.wikipedia.org/wiki/Pelican_Island_(Barbados)"
+        }
+      }
+    },
+    {
+      "id": "bb-needham-s-point-lighthouse",
+      "name": "Needham's Point Lighthouse",
+      "area": "Bridgetown",
+      "city": "Bridgetown",
+      "wikidata": "Q14519408",
+      "lat": 13.078611,
+      "lon": -59.610944,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Needham's Point Lighthouse is a lighthouse located in the southwest coast of Barbados.",
+        "es": "El Faro de Punta Needhams está ubicado sobre la costa del Mar Caribe, al suroeste de Barbados."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Needham's Point Lighthouse",
+          "url": "https://en.wikipedia.org/wiki/Needham's_Point_Lighthouse"
+        },
+        "es": {
+          "title": "Faro de Punta Needhams",
+          "url": "https://es.wikipedia.org/wiki/Faro_de_Punta_Needhams"
+        }
+      },
+      "image": {
+        "file": "NEEDHAM'S_POINT_LIGHTHOUSE_-_BARBADOS.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NEEDHAM'S_POINT_LIGHTHOUSE_-_BARBADOS.jpg",
+        "author": "JERRYE AND ROY KLOTZ MD",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bb-st-patrick-s-cathedral-bridgetown",
+      "name": "St. Patrick's Cathedral, Bridgetown",
+      "area": "Bridgetown",
+      "city": "Bridgetown",
+      "wikidata": "Q21003601",
+      "lat": 13.091652,
+      "lon": -59.609162,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. Patrick's Cathedral, located in Bridgetown, Barbados, is the seat of the Roman Catholic Diocese of Bridgetown.",
+        "es": "La Catedral de San Patricio es el nombre que recibe un edificio de la Iglesia católica en el país caribeño e insular de Barbados se localiza específicamente en la ciudad capital de Bridgetown."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Patrick's Cathedral, Bridgetown",
+          "url": "https://en.wikipedia.org/wiki/St._Patrick's_Cathedral%2C_Bridgetown"
+        },
+        "es": {
+          "title": "Catedral de San Patricio (Bridgetown)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Patricio_(Bridgetown)"
+        }
+      }
+    },
+    {
+      "id": "bb-jama-mosque",
+      "name": "Jama Mosque",
+      "area": "Bridgetown",
+      "city": "Bridgetown",
+      "wikidata": "Q108619529",
+      "lat": 13.102028,
+      "lon": -59.622556,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Jama Mosque or Jumma Mosque is a mosque in Bridgetown, Barbados.",
+        "es": "The Jama Mosque or Jumma Mosque is a mosque in Bridgetown, Barbados."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jama Mosque, Barbados",
+          "url": "https://en.wikipedia.org/wiki/Jama_Mosque%2C_Barbados"
+        },
+        "es": {
+          "title": "Jama Mosque, Barbados",
+          "url": "https://en.wikipedia.org/wiki/Jama_Mosque%2C_Barbados"
+        }
+      },
+      "image": {
+        "file": "Jama_Mosque_(Barbados).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jama_Mosque_(Barbados).jpg",
+        "author": "LittleT889",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "bb-culpepper-island",
+      "name": "Culpepper Island",
+      "area": "Bridgetown",
+      "city": "Bridgetown",
+      "wikidata": "Q1143499",
+      "lat": 13.165833,
+      "lon": -59.443333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Culpepper Island is an uninhabited islet in the Atlantic Ocean located 30 metres off the coast of Barbados.",
+        "es": "Isla Culpepper es una roca pequeña en el océano Atlántico cerca de Bayfield y Ragged Point en Saint Philip, Barbados."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Culpepper Island",
+          "url": "https://en.wikipedia.org/wiki/Culpepper_Island"
+        },
+        "es": {
+          "title": "Isla Culpepper",
+          "url": "https://es.wikipedia.org/wiki/Isla_Culpepper"
+        }
+      }
     }
   ]
 }

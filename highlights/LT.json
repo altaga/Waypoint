@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -341,6 +347,2129 @@
         "text": "Tu-Su 11:00-17:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "lt-curonian-spit",
+      "name": "Curonian Spit",
+      "area": "Kaliningrad Oblast",
+      "city": "Kaliningrad Oblast",
+      "wikidata": "Q5595",
+      "lat": 55.274444,
+      "lon": 20.970833,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Curonian Spit, sometimes called Courish Split, is a 98-kilometre-long, thin, curved sand-dune spit that separates the Curonian Lagoon from the Baltic Sea.",
+        "es": "El istmo de Curlandia es un estrecho istmo de arena de forma curva que separa el lago de Curlandia del mar Báltico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Curonian Spit",
+          "url": "https://en.wikipedia.org/wiki/Curonian_Spit"
+        },
+        "es": {
+          "title": "Istmo de Curlandia",
+          "url": "https://es.wikipedia.org/wiki/Istmo_de_Curlandia"
+        }
+      }
+    },
+    {
+      "id": "lt-struve-geodetic-arc",
+      "name": "Struve Geodetic Arc",
+      "area": "Jyväskylä",
+      "city": "Jyväskylä",
+      "wikidata": "Q192243",
+      "lat": 52.289444,
+      "lon": 25.649444,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Struve Geodetic Arc is a chain of survey triangulations stretching from Hammerfest in Norway to the Black Sea, through ten countries and over 2,820 kilometres, which yielded the first accurate measurement of a…",
+        "es": "El Arco geodésico de Struve es un conjunto monumental declarado Patrimonio de la Humanidad por la Unesco en 2005, conformado por una serie de 34 hitos o vértices para mediciones geodésicas repartidos por diez países…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Struve Geodetic Arc",
+          "url": "https://en.wikipedia.org/wiki/Struve_Geodetic_Arc"
+        },
+        "es": {
+          "title": "Arco Geodésico de Struve",
+          "url": "https://es.wikipedia.org/wiki/Arco_Geod%C3%A9sico_de_Struve"
+        }
+      },
+      "image": {
+        "file": "Hammerfest,_fuglenes,_memoriale_per_l'arco_geodetico_di_struve,_misurato_a_partire_da_qui,_colonna_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hammerfest%2C_fuglenes%2C_memoriale_per_l'arco_geodetico_di_struve%2C_misurato_a_partire_da_qui%2C_colonna_02.jpg",
+        "author": "Francesco Bini",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lt-kernave",
+      "name": "Kernavė",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q215315",
+      "website": "https://www.kernave.org/",
+      "lat": 54.883333,
+      "lon": 24.85,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kernavė was a medieval capital of the Grand Duchy of Lithuania and today is a tourist attraction and an archeological site.",
+        "es": "Kernavė es una localidad situada en el municipio de Širvintos, Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kernavė",
+          "url": "https://en.wikipedia.org/wiki/Kernav%C4%97"
+        },
+        "es": {
+          "title": "Kernavė",
+          "url": "https://es.wikipedia.org/wiki/Kernav%C4%97"
+        }
+      },
+      "image": {
+        "file": "Kernavė_-_Hill_forts_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kernav%C4%97_-_Hill_forts_01.jpg",
+        "author": "Lestat (Jan Mehlich)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-trakai-island-castle",
+      "name": "Trakai Island Castle",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q1482013",
+      "lat": 54.6525,
+      "lon": 24.933056,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Trakai Island Castle is an island castle located in Trakai, Lithuania, on an island in Lake Galvė.",
+        "es": "El castillo de Trakai se encuentra situado en la población de Trakai, en Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Trakai Island Castle",
+          "url": "https://en.wikipedia.org/wiki/Trakai_Island_Castle"
+        },
+        "es": {
+          "title": "Castillo de Trakai",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Trakai"
+        }
+      },
+      "image": {
+        "file": "Trakai_Island_Castle,_2007.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Trakai_Island_Castle%2C_2007.jpg",
+        "author": "Ana",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "lt-vilnius-cathedral",
+      "name": "Vilnius Cathedral",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q1281237",
+      "lat": 54.685889,
+      "lon": 25.287878,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Vilnius Cathedral, formally the Archcathedral Basilica of St.",
+        "es": "La catedral de Vilna es la principal iglesia católica de Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vilnius Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Vilnius_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Vilna",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Vilna"
+        }
+      },
+      "image": {
+        "file": "Vilnius_-_Cathedral_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vilnius_-_Cathedral_01.jpg",
+        "author": "Lestat (Jan Mehlich)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-trakai-historical-national-park",
+      "name": "Trakai Historical National Park",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q1539772",
+      "website": "https://tinp.lt/index.html/",
+      "lat": 54.639,
+      "lon": 24.9361,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Trakai Historical National Park is a national park in Lithuania.",
+        "es": "El Parque nacional histórico de Trakai es un parque nacional en la parte meridional de Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Trakai Historical National Park",
+          "url": "https://en.wikipedia.org/wiki/Trakai_Historical_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional histórico de Trakai",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_hist%C3%B3rico_de_Trakai"
+        }
+      },
+      "image": {
+        "file": "Trakai-castle-A.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Trakai-castle-A.jpg",
+        "author": "No machine-readable author provided. Jakro64 assumed (based on copyright claims)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-aukstaitija-national-park",
+      "name": "Aukštaitija National Park",
+      "area": "Ignalina District Municipality",
+      "city": "Ignalina District Municipality",
+      "wikidata": "Q400200",
+      "website": "https://www.aparkai.lt/",
+      "lat": 55.344,
+      "lon": 26.057,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Aukštaitija National Park is a national park in north-eastern Lithuania, about 100 km north of Vilnius.",
+        "es": "El Parque Nacional Aukštaitija es un parque nacional en el noreste de Lituania, unos 100 km al norte de Vilna."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aukštaitija National Park",
+          "url": "https://en.wikipedia.org/wiki/Auk%C5%A1taitija_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Aukštaitija",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Auk%C5%A1taitija"
+        }
+      },
+      "image": {
+        "file": "Lithuania_Ladakalnis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lithuania_Ladakalnis.jpg",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-aukstojas-hill",
+      "name": "Aukštojas Hill",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q771431",
+      "lat": 54.529444,
+      "lon": 25.634444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Aukštojas Hill is the highest point of Lithuania.",
+        "es": "La colina Aukštojas es el punto más alto de toda Lituania; se encuentra en las Tierras Altas de Medininkai, bosque de Migūnai, aproximadamente a 24 kilómetros al sureste de la capital, Vilna."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aukštojas Hill",
+          "url": "https://en.wikipedia.org/wiki/Auk%C5%A1tojas_Hill"
+        },
+        "es": {
+          "title": "Colina Aukštojas",
+          "url": "https://es.wikipedia.org/wiki/Colina_Auk%C5%A1tojas"
+        }
+      },
+      "image": {
+        "file": "Aukstojo_kalnas.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aukstojo_kalnas.JPG",
+        "author": "No machine-readable author provided. Resutas assumed (based on copyright claims)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "lt-gediminas-tower",
+      "name": "Gediminas' Tower",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q1497616",
+      "website": "https://lnm.lt/en/museums/gediminas-castle-tower/",
+      "lat": 54.686759,
+      "lon": 25.290685,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Gediminas's Tower is the remaining part of the Upper Castle on top of the Gediminas Hill in Vilnius, Lithuania.",
+        "es": "La torre de Gediminas es una atalaya situada sobre la colina homónima, que domina la ciudad de Vilna, capital de Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gediminas's Tower",
+          "url": "https://en.wikipedia.org/wiki/Gediminas's_Tower"
+        },
+        "es": {
+          "title": "Torre de Gediminas",
+          "url": "https://es.wikipedia.org/wiki/Torre_de_Gediminas"
+        }
+      },
+      "image": {
+        "file": "Gedimino_pilis_by_Augustas_Didzgalvis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gedimino_pilis_by_Augustas_Didzgalvis.jpg",
+        "author": "BigHead",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lt-ninth-fort",
+      "name": "Ninth Fort",
+      "area": "Kaunas",
+      "city": "Kaunas",
+      "wikidata": "Q665266",
+      "lat": 54.944722,
+      "lon": 23.870556,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Ninth Fort is a stronghold in the northern part of Šilainiai elderate, Kaunas, Lithuania.",
+        "es": "Fuerte Noveno es una fortaleza situada en el norte del seniūnija de Kaunas en Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ninth Fort",
+          "url": "https://en.wikipedia.org/wiki/Ninth_Fort"
+        },
+        "es": {
+          "title": "Fuerte Noveno",
+          "url": "https://es.wikipedia.org/wiki/Fuerte_Noveno"
+        }
+      },
+      "image": {
+        "file": "Kaunas_Fortress.Ninth_Fort_3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaunas_Fortress.Ninth_Fort_3.jpg",
+        "author": "Creative at lt.wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-dzukija-national-park",
+      "name": "Dzūkija National Park",
+      "area": "Alytus County",
+      "city": "Alytus County",
+      "wikidata": "Q738428",
+      "lat": 54.081944,
+      "lon": 24.376667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Dzūkija National Park is a national park in Dzūkija, Lithuania, located 100 kilometers southwest from the capital, Vilnius, and 100 kilometers south from Kaunas.",
+        "es": "El parque nacional Dzūkijos es un parque nacional en Dzūkija, Lituania, fue establecido en el año 1991 para conservar los bosques de pino, el paisaje y los pueblos de la región."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dzūkija National Park",
+          "url": "https://en.wikipedia.org/wiki/Dz%C5%ABkija_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Dzūkija",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Dz%C5%ABkija"
+        }
+      },
+      "image": {
+        "file": "Ulos_akies_laukyme.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ulos_akies_laukyme.jpg",
+        "author": "JonasS at Lithuanian Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-church-of-st-anne-vilnius",
+      "name": "Church of St. Anne, Vilnius",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q937290",
+      "lat": 54.683056,
+      "lon": 25.293333,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. Anne's Church is a Roman Catholic church in Vilnius' Old Town, on the right bank of the Vilnia river established circa 1495–1500.",
+        "es": "La iglesia de Santa Ana es un templo católico, ubicado en el centro histórico de la ciudad de Vilna, declarado Patrimonio de la Humanidad por la Unesco, es uno de los monumentos más representativos de la ciudad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of St. Anne, Vilnius",
+          "url": "https://en.wikipedia.org/wiki/Church_of_St._Anne%2C_Vilnius"
+        },
+        "es": {
+          "title": "Iglesia de Santa Ana (Vilna)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Vilna)"
+        }
+      },
+      "image": {
+        "file": "St._Anne's_Church_Exterior_3,_Vilnius,_Lithuania_-_Diliff.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St._Anne's_Church_Exterior_3%2C_Vilnius%2C_Lithuania_-_Diliff.jpg",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-presidential-palace-of-lithuania",
+      "name": "Presidential Palace of Lithuania",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q1577652",
+      "lat": 54.68316,
+      "lon": 25.285871,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Presidential Palace is the official residence and workplace of the president of Lithuania.",
+        "es": "El Palacio Presidencial, situado en el centro histórico de Vilna, es la sede oficial y ocasional residencia oficial del Presidente de Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Presidential Palace, Vilnius",
+          "url": "https://en.wikipedia.org/wiki/Presidential_Palace%2C_Vilnius"
+        },
+        "es": {
+          "title": "Palacio Presidencial (Vilna)",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Presidencial_(Vilna)"
+        }
+      },
+      "image": {
+        "file": "Vilnius_presidential_palace.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vilnius_presidential_palace.jpg",
+        "author": "Marcin Białek",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-curonian-spit-national-park",
+      "name": "Curonian Spit National Park",
+      "area": "Klaipėda County",
+      "city": "Klaipėda County",
+      "wikidata": "Q1520511",
+      "lat": 55.481,
+      "lon": 21.097,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Curonian Spit National Park is one of the five national parks in Lithuania.",
+        "es": "El parque nacional del Kuršių Nerija, es decir, del Istmo de Curlandia es uno de los cinco parques nacionales en Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Curonian Spit National Park (Lithuania)",
+          "url": "https://en.wikipedia.org/wiki/Curonian_Spit_National_Park_(Lithuania)"
+        },
+        "es": {
+          "title": "Parque nacional del Istmo de Curlandia",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_Istmo_de_Curlandia"
+        }
+      },
+      "image": {
+        "file": "Lithuania_Juodkrante_sand_dunes.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lithuania_Juodkrante_sand_dunes.jpg",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-cathedral-square",
+      "name": "Cathedral Square",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q1988837",
+      "lat": 54.685278,
+      "lon": 25.2875,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral Square in Vilnius is the main square of the Vilnius Old Town, right in front of the neo-classical Vilnius Cathedral.",
+        "es": "La plaza de la Catedral es la plaza principal del centro histórico de Vilna, justo en frente de la Catedral de estilo neoclásico de esa ciudad de Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral Square, Vilnius",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_Square%2C_Vilnius"
+        },
+        "es": {
+          "title": "Plaza de la Catedral (Vilna)",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_la_Catedral_(Vilna)"
+        }
+      },
+      "image": {
+        "file": "Gedimino_kalnas_88.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gedimino_kalnas_88.jpg",
+        "author": "Gytis Grižas https://www.wikidata.org/wiki/Q16452479",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lt-zemaitija-national-park",
+      "name": "Žemaitija National Park",
+      "area": "Skuodas District Municipality",
+      "city": "Skuodas District Municipality",
+      "wikidata": "Q268533",
+      "website": "https://zemaitijosnp.lt/",
+      "lat": 56.044,
+      "lon": 21.889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Samogitia National Park or Žemaitija National Park is a national park in Lithuania.",
+        "es": "El Parque nacional de Samogitia o Parque nacional de Samogicia es un parque nacional de Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Žemaitija National Park",
+          "url": "https://en.wikipedia.org/wiki/%C5%BDemaitija_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Žemaitija",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_%C5%BDemaitija"
+        }
+      },
+      "image": {
+        "file": "Lithuania_Plateliai_lake.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lithuania_Plateliai_lake.jpg",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-church-of-st-peter-and-st-paul-vilnius",
+      "name": "Church of St. Peter and St. Paul, Vilnius",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q1283798",
+      "lat": 54.694167,
+      "lon": 25.306389,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of St. Peter and St. Paul is a Roman Catholic church located in the Antakalnis neighbourhood of Vilnius, Lithuania, designed and built by Jan Zaor of Kraków.",
+        "es": "La iglesia de San Pedro y San Pablo es una iglesia católica romana ubicada en el barrio de Antakalnis, en Vilna, Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of St. Peter and St. Paul, Vilnius",
+          "url": "https://en.wikipedia.org/wiki/Church_of_St._Peter_and_St._Paul%2C_Vilnius"
+        },
+        "es": {
+          "title": "Iglesia de San Pedro y San Pablo (Vilna)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Pedro_y_San_Pablo_(Vilna)"
+        }
+      },
+      "image": {
+        "file": "Vilnius_Sts_Peter_et_Paul_Church_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vilnius_Sts_Peter_et_Paul_Church_01.jpg",
+        "author": "Scotch Mist",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lt-vilnius-tv-tower",
+      "name": "Vilnius TV Tower",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q1407353",
+      "lat": 54.687111,
+      "lon": 25.214611,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Vilnius TV Tower is a 326.5 m high tower in the Karoliniškės residential district of Vilnius, Lithuania.",
+        "es": "La Torre de TV de Vilna es una torre de radiodifusión de 326,5 metros en la microrregión de Karoliniškės de Vilna, la capital del país europeo de Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vilnius TV Tower",
+          "url": "https://en.wikipedia.org/wiki/Vilnius_TV_Tower"
+        },
+        "es": {
+          "title": "Torre de televisión de Vilna",
+          "url": "https://es.wikipedia.org/wiki/Torre_de_televisi%C3%B3n_de_Vilna"
+        }
+      },
+      "image": {
+        "file": "Lazdynai_-_panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lazdynai_-_panoramio.jpg",
+        "author": "Darius Smalskys",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-vilna-ghetto",
+      "name": "Vilna Ghetto",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q707539",
+      "lat": 54.683333,
+      "lon": 25.316667,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Vilna Ghetto was a World War II Jewish ghetto established and operated by Nazi Germany in the city of Vilnius in the modern country of Lithuania, at the time part of the Nazi-administered Reichskommissariat Ostland.",
+        "es": "El gueto de Vilna fue un gueto judío de la Segunda Guerra Mundial establecido y operado por la Alemania nazi en la ciudad de Vilna dentro del territorio del Reichskommissariat Ostland, administrado por los nazis."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vilna Ghetto",
+          "url": "https://en.wikipedia.org/wiki/Vilna_Ghetto"
+        },
+        "es": {
+          "title": "Gueto de Vilna",
+          "url": "https://es.wikipedia.org/wiki/Gueto_de_Vilna"
+        }
+      },
+      "image": {
+        "file": "Memorial_to_the_Jews_victims_of_Nazi_Germany_in_Vilnius2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Memorial_to_the_Jews_victims_of_Nazi_Germany_in_Vilnius2.JPG",
+        "author": "Alma Pater",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-three-crosses",
+      "name": "Three Crosses",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q83238",
+      "lat": 54.686736,
+      "lon": 25.297546,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Three Crosses is a prominent monument in Vilnius, Lithuania, on the Hill of Three Crosses, also known as the Bald Hill or Crooked Hill, in Kalnai Park.",
+        "es": "Las Tres Cruces es un monumento en Vilna, Lituania, diseñado por el arquitecto y escultor polaco-lituano Antoni Wiwulski en 1916."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Three Crosses",
+          "url": "https://en.wikipedia.org/wiki/Three_Crosses"
+        },
+        "es": {
+          "title": "Tres Cruces (Vilna)",
+          "url": "https://es.wikipedia.org/wiki/Tres_Cruces_(Vilna)"
+        }
+      },
+      "image": {
+        "file": "Three_Crosses_monument_at_sunset_(8178265580).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Three_Crosses_monument_at_sunset_(8178265580).jpg",
+        "author": "Guillaume Speurt from Vilnius, Lithuania",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "lt-europa-tower",
+      "name": "Europa Tower",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q1345944",
+      "lat": 54.696,
+      "lon": 25.278,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Europa Tower is a skyscraper located in Vilnius CBD, Lithuania.",
+        "es": "La Torre Europa es el rascacielos más alto de los países bálticos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Europa Tower",
+          "url": "https://en.wikipedia.org/wiki/Europa_Tower"
+        },
+        "es": {
+          "title": "Torre Europa (Vilna)",
+          "url": "https://es.wikipedia.org/wiki/Torre_Europa_(Vilna)"
+        }
+      }
+    },
+    {
+      "id": "lt-kaunas-cathedral-basilica",
+      "name": "Kaunas Cathedral Basilica",
+      "area": "Kaunas",
+      "city": "Kaunas",
+      "wikidata": "Q1686988",
+      "lat": 54.897,
+      "lon": 23.889,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Archcathedral Basilica of Apostles St. Peter and St.",
+        "es": "La Catedral Basílica de San Pedro y San Pablo es una basílica catedral católica en la ciudad de Kaunas, en Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kaunas Archcathedral Basilica",
+          "url": "https://en.wikipedia.org/wiki/Kaunas_Archcathedral_Basilica"
+        },
+        "es": {
+          "title": "Catedral basílica de San Pedro y San Pablo (Kaunas)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_bas%C3%ADlica_de_San_Pedro_y_San_Pablo_(Kaunas)"
+        }
+      },
+      "image": {
+        "file": "Kaunas_Cathedral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaunas_Cathedral.jpg",
+        "author": "Kaunas-City_Hall_Square_1.jpg: Flickr upload bot derivative work: Rabanus Flavus",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "lt-asveja",
+      "name": "Asveja",
+      "area": "Vilnius District Municipality",
+      "city": "Vilnius District Municipality",
+      "wikidata": "Q2453410",
+      "lat": 55.040516,
+      "lon": 25.509396,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Asveja or Dubingiai Lake is the longest lake in Lithuania.",
+        "es": "Lake Asveja or Dubingiai Lake is the longest lake in Lithuania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Asveja",
+          "url": "https://en.wikipedia.org/wiki/Asveja"
+        },
+        "es": {
+          "title": "Asveja",
+          "url": "https://en.wikipedia.org/wiki/Asveja"
+        }
+      },
+      "image": {
+        "file": "Hillfort_Dubingiai_20200614_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hillfort_Dubingiai_20200614_01.jpg",
+        "author": "Gytis Grižas https://www.wikidata.org/wiki/Q16452479",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lt-kaunas-castle",
+      "name": "Kaunas Castle",
+      "area": "Kaunas",
+      "city": "Kaunas",
+      "wikidata": "Q2468497",
+      "website": "https://kaunomuziejus.lt/en/plan-your-visit-to-kaunas-castle/kaunas-castle/",
+      "lat": 54.898889,
+      "lon": 23.885,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kaunas Castle is a medieval castle in Kaunas, the second-largest city in Lithuania.",
+        "es": "Castillo de Kaunas se encuentra en Kaunas, una ciudad del país europeo de Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kaunas Castle",
+          "url": "https://en.wikipedia.org/wiki/Kaunas_Castle"
+        },
+        "es": {
+          "title": "Castillo de Kaunas",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Kaunas"
+        }
+      },
+      "image": {
+        "file": "Kaunas_Castle_in_2011.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaunas_Castle_in_2011.JPG",
+        "author": "Pudelek (Marcin Szala)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-vilnius-castle-complex",
+      "name": "Vilnius Castle Complex",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q6598101",
+      "lat": 54.686667,
+      "lon": 25.290833,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Vilnius Castle Complex is a group of cultural, and historic structures on the left bank of the Neris River, near its confluence with the Vilnia River, in Vilnius, Lithuania.",
+        "es": "El complejo de castillos de Vilna es un grupo de estructuras culturales e históricas en la margen izquierda del río Neris, cerca de su confluencia con el río Vilnia, en Vilna, la capital de Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vilnius Castle Complex",
+          "url": "https://en.wikipedia.org/wiki/Vilnius_Castle_Complex"
+        },
+        "es": {
+          "title": "Complejo de castillos de Vilna",
+          "url": "https://es.wikipedia.org/wiki/Complejo_de_castillos_de_Vilna"
+        }
+      },
+      "image": {
+        "file": "Gedimino_kalnas_by_Augustas_Didzgalvis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gedimino_kalnas_by_Augustas_Didzgalvis.jpg",
+        "author": "BigHead",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lt-galve",
+      "name": "Galvė",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q2579161",
+      "lat": 54.661111,
+      "lon": 24.933333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Galvė is a lake in Trakai, Lithuania.",
+        "es": "Lake Galvė is a lake in Trakai, Lithuania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Galvė",
+          "url": "https://en.wikipedia.org/wiki/Galv%C4%97"
+        },
+        "es": {
+          "title": "Galvė",
+          "url": "https://en.wikipedia.org/wiki/Galv%C4%97"
+        }
+      },
+      "image": {
+        "file": "Trakai_linnus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Trakai_linnus.jpg",
+        "author": "Metsavend",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lt-plateliai",
+      "name": "Plateliai",
+      "area": "Plateliai Eldership",
+      "city": "Plateliai Eldership",
+      "wikidata": "Q2464737",
+      "lat": 56.047222,
+      "lon": 21.873056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Plateliai is the biggest lake in Samogitia and 9th biggest in Lithuania.",
+        "es": "Lake Plateliai is the biggest lake in Samogitia and 9th biggest in Lithuania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plateliai Lake",
+          "url": "https://en.wikipedia.org/wiki/Plateliai_Lake"
+        },
+        "es": {
+          "title": "Plateliai Lake",
+          "url": "https://en.wikipedia.org/wiki/Plateliai_Lake"
+        }
+      },
+      "image": {
+        "file": "Lithuania_Plateliai_lake.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lithuania_Plateliai_lake.jpg",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-medininkai-castle",
+      "name": "Medininkai Castle",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q2652794",
+      "lat": 54.53942,
+      "lon": 25.64997,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Medininkai Castle, a medieval castle in Vilnius district, eastern Lithuania.",
+        "es": "Medininkai Castle, a medieval castle in Vilnius district, eastern Lithuania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Medininkai Castle",
+          "url": "https://en.wikipedia.org/wiki/Medininkai_Castle"
+        },
+        "es": {
+          "title": "Medininkai Castle",
+          "url": "https://en.wikipedia.org/wiki/Medininkai_Castle"
+        }
+      },
+      "image": {
+        "file": "Medininkų_pilis_iš_dangaus_-_www.aerialmedia.tv_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Medinink%C5%B3_pilis_i%C5%A1_dangaus_-_www.aerialmedia.tv_01.jpg",
+        "author": "AerialmediaTV",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-palace-of-the-grand-dukes-of-lithuania",
+      "name": "Palace of the Grand Dukes of Lithuania",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q1284847",
+      "website": "https://www.valdovurumai.lt/",
+      "lat": 54.685851,
+      "lon": 25.288963,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Palace of the Grand Dukes of Lithuania is a palace in Vilnius, Lithuania.",
+        "es": "El palacio de los Grandes Duques de Lituania es un palacio en Vilna, Lituania, construido originalmente en el siglo XV por los gobernantes del Gran Ducado de Lituania y los futuros reyes de Polonia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palace of the Grand Dukes of Lithuania",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_the_Grand_Dukes_of_Lithuania"
+        },
+        "es": {
+          "title": "Palacio de los Grandes Duques de Lituania",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_los_Grandes_Duques_de_Lituania"
+        }
+      },
+      "image": {
+        "file": "Valdovu_by_Augustas_Didzgalvis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Valdovu_by_Augustas_Didzgalvis.jpg",
+        "author": "Augustas Didžgalvis",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lt-mindaugas-bridge",
+      "name": "Mindaugas Bridge",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q2657645",
+      "lat": 54.688889,
+      "lon": 25.288333,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mindaugas Bridge is a bridge in Vilnius, Lithuania.",
+        "es": "El Puente Mindaugas es una estructura que cruza el río Neris y conecta Zirmunai elderate con el casco antiguo de Vilna, la capital de Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mindaugas Bridge",
+          "url": "https://en.wikipedia.org/wiki/Mindaugas_Bridge"
+        },
+        "es": {
+          "title": "Puente Mindaugas",
+          "url": "https://es.wikipedia.org/wiki/Puente_Mindaugas"
+        }
+      },
+      "image": {
+        "file": "Mindaugo_tiltas_by_Augustas_Didzgalvis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mindaugo_tiltas_by_Augustas_Didzgalvis.jpg",
+        "author": "BigHead",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lt-tauragnas",
+      "name": "Tauragnas",
+      "area": "Utena District Municipality",
+      "city": "Utena District Municipality",
+      "wikidata": "Q1187891",
+      "lat": 55.4475,
+      "lon": 25.890833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tauragnas is the deepest lake in Lithuania reaching 62.5 metres of depth.",
+        "es": "Tauragnas is the deepest lake in Lithuania reaching 62.5 metres of depth."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tauragnas",
+          "url": "https://en.wikipedia.org/wiki/Tauragnas"
+        },
+        "es": {
+          "title": "Tauragnas",
+          "url": "https://en.wikipedia.org/wiki/Tauragnas"
+        }
+      },
+      "image": {
+        "file": "TauragnasLake001.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:TauragnasLake001.JPG",
+        "author": "Hugo.arg",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-cepkeliai-marsh",
+      "name": "Čepkeliai Marsh",
+      "area": "Varėna District Municipality",
+      "city": "Varėna District Municipality",
+      "wikidata": "Q3287428",
+      "lat": 54,
+      "lon": 24.517,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Čepkeliai Marsh is the largest bog in Lithuania.",
+        "es": "The Čepkeliai Marsh is the largest bog in Lithuania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Čepkeliai Marsh",
+          "url": "https://en.wikipedia.org/wiki/%C4%8Cepkeliai_Marsh"
+        },
+        "es": {
+          "title": "Čepkeliai Marsh",
+          "url": "https://en.wikipedia.org/wiki/%C4%8Cepkeliai_Marsh"
+        }
+      },
+      "image": {
+        "file": "Cepkeliu_marsh.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cepkeliu_marsh.jpg",
+        "author": "Wojsyl",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-voruta",
+      "name": "Voruta",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q2007516",
+      "lat": 55.545556,
+      "lon": 25.138611,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Voruta may have been the capital city of the Grand Duchy of Lithuania and the Kingdom of Lithuania during the reign of king Mindaugas in the 13th century.",
+        "es": "Voruta pudo haber sido la capital del Gran Ducado de Lituania y del Reino de Lituania durante el reinado del rey Mindaugas en el siglo XIII."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Voruta",
+          "url": "https://en.wikipedia.org/wiki/Voruta"
+        },
+        "es": {
+          "title": "Voruta",
+          "url": "https://es.wikipedia.org/wiki/Voruta"
+        }
+      }
+    },
+    {
+      "id": "lt-kaunas-reservoir",
+      "name": "Kaunas Reservoir",
+      "area": "Kaunas",
+      "city": "Kaunas",
+      "wikidata": "Q1737137",
+      "lat": 54.852778,
+      "lon": 24.167222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kaunas Reservoir is the largest Lithuanian artificial lake, created in 1959 by damming the Nemunas River near Kaunas and Rumšiškės.",
+        "es": "El Embalse de Kaunas es el embalse y el lago artificial más grande de Lituania, creado en 1959 para crear una presa en el río Niemen cerca de Kaunas y Rumšiškės."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kaunas Reservoir",
+          "url": "https://en.wikipedia.org/wiki/Kaunas_Reservoir"
+        },
+        "es": {
+          "title": "Embalse de Kaunas",
+          "url": "https://es.wikipedia.org/wiki/Embalse_de_Kaunas"
+        }
+      },
+      "image": {
+        "file": "Kauno_Marios.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kauno_Marios.jpg",
+        "author": "Watas Arunas Gineitis",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lt-kaunas-fortress",
+      "name": "Kaunas Fortress",
+      "area": "Kaunas",
+      "city": "Kaunas",
+      "wikidata": "Q2478089",
+      "lat": 54.8989,
+      "lon": 23.8854,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kaunas Fortress is the remains of a fortress complex in Kaunas, Lithuania.",
+        "es": "La fortaleza de Kaunas son los restos de un complejo fortificado en Kaunas, Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kaunas Fortress",
+          "url": "https://en.wikipedia.org/wiki/Kaunas_Fortress"
+        },
+        "es": {
+          "title": "Fortaleza de Kaunas",
+          "url": "https://es.wikipedia.org/wiki/Fortaleza_de_Kaunas"
+        }
+      },
+      "image": {
+        "file": "Kauno_tvirtove.Kaunas_Fortress.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kauno_tvirtove.Kaunas_Fortress.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "lt-kovno-ghetto",
+      "name": "Kovno Ghetto",
+      "area": "Kaunas",
+      "city": "Kaunas",
+      "wikidata": "Q700112",
+      "lat": 54.906,
+      "lon": 23.889,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Kovno Ghetto was a ghetto established by Nazi Germany to hold the Lithuanian Jews of Kaunas during the Holocaust.",
+        "es": "El Gueto de Kovno o Kaunas fue un gueto construido en Kaunas, RSS de Lituania durante la ocupación nazi en la Unión Soviética."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kovno Ghetto",
+          "url": "https://en.wikipedia.org/wiki/Kovno_Ghetto"
+        },
+        "es": {
+          "title": "Gueto de Kaunas",
+          "url": "https://es.wikipedia.org/wiki/Gueto_de_Kaunas"
+        }
+      },
+      "image": {
+        "file": "Kauno_getas_2007-06-08.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kauno_getas_2007-06-08.jpg",
+        "author": "Creative at Lithuanian Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-choral-synagogue-of-vilnius",
+      "name": "Choral Synagogue of Vilnius",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q1076328",
+      "website": "https://www.lzb.lt/",
+      "lat": 54.676111,
+      "lon": 25.281389,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Choral Synagogue of Vilnius, officially, Taharat Ha-Kodesh Choral Synagogue in Vilnius, is an Orthodox Jewish congregation and synagogue, located at 39 Pylimo Street, in the Old Town of Vilnius, in the Vilnius…",
+        "es": "La sinagoga Coral de Vilna es la única sinagoga de Vilna en Lituania que todavía está en uso."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Choral Synagogue (Vilnius)",
+          "url": "https://en.wikipedia.org/wiki/Choral_Synagogue_(Vilnius)"
+        },
+        "es": {
+          "title": "Sinagoga Coral de Vilna",
+          "url": "https://es.wikipedia.org/wiki/Sinagoga_Coral_de_Vilna"
+        }
+      },
+      "image": {
+        "file": "Vilniaus_sinagoga.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vilniaus_sinagoga.jpg",
+        "author": "Kontis Šatūnas",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "lt-sartai",
+      "name": "Sartai",
+      "area": "Zarasai District Municipality",
+      "city": "Zarasai District Municipality",
+      "wikidata": "Q1093648",
+      "lat": 55.814167,
+      "lon": 25.819444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sartai is a lake located in Rokiškis and Zarasai municipalities, northeastern Lithuania.",
+        "es": "Sartai is a lake located in Rokiškis and Zarasai municipalities, northeastern Lithuania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sartai",
+          "url": "https://en.wikipedia.org/wiki/Sartai"
+        },
+        "es": {
+          "title": "Sartai",
+          "url": "https://en.wikipedia.org/wiki/Sartai"
+        }
+      },
+      "image": {
+        "file": "Sartai.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sartai.jpg",
+        "author": "The original uploader was Qwarc at Lithuanian Wikipedia.",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "lt-pazaislis-monastery",
+      "name": "Pažaislis Monastery",
+      "area": "Kaunas",
+      "city": "Kaunas",
+      "wikidata": "Q1775811",
+      "lat": 54.876,
+      "lon": 24.022,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Pažaislis Monastery and the Church of the Visitation form the largest monastery complex in Lithuania, and the most renowned example of Baroque architecture in the country.",
+        "es": "El monasterio de Pažaislis es un complejo que incluye un monasterio y una iglesia en Lituania, y el más magnífico ejemplo de la arquitectura barroca de inspiración italiana en el país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pažaislis Monastery",
+          "url": "https://en.wikipedia.org/wiki/Pa%C5%BEaislis_Monastery"
+        },
+        "es": {
+          "title": "Monasterio de Pažaislis",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_de_Pa%C5%BEaislis"
+        }
+      },
+      "image": {
+        "file": "Pazaislis_by_Augustas_Didzgalvis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pazaislis_by_Augustas_Didzgalvis.jpg",
+        "author": "Augustas Didžgalvis",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lt-siauliai-cathedral",
+      "name": "Šiauliai Cathedral",
+      "area": "Šiauliai",
+      "city": "Šiauliai",
+      "wikidata": "Q1736144",
+      "website": "https://siauliukatedra.lt",
+      "lat": 55.93271,
+      "lon": 23.31997,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sts. Peter and Paul Cathedral also called Šiauliai Cathedral is a religious building of the Catholic Church that serves as the cathedral in Šiauliai, a city in northern Lithuania, and the seat of the Roman…",
+        "es": "La Catedral de San Pedro y San Pablo o simplemente Catedral de Šiauliai es un edificio religioso de la Iglesia católica que sirve como la catedral en Šiauliai, una ciudad en el país europeo de Lituania, y la sede de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Šiauliai Cathedral",
+          "url": "https://en.wikipedia.org/wiki/%C5%A0iauliai_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de San Pedro y San Pablo (Šiauliai)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Pedro_y_San_Pablo_(%C5%A0iauliai)"
+        }
+      },
+      "image": {
+        "file": "Szawle_katedra.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Szawle_katedra.jpg",
+        "author": "mzopw",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-cathedral-of-the-theotokos-vilnius",
+      "name": "Cathedral of the Theotokos, Vilnius",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q1736161",
+      "lat": 54.681111,
+      "lon": 25.292222,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of the Theotokos in Vilnius is the episcopal see of the Russian Orthodox Diocese of Lithuania.",
+        "es": "The Cathedral of the Theotokos in Vilnius is the episcopal see of the Russian Orthodox Diocese of Lithuania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of the Theotokos, Vilnius",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_the_Theotokos%2C_Vilnius"
+        },
+        "es": {
+          "title": "Cathedral of the Theotokos, Vilnius",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_the_Theotokos%2C_Vilnius"
+        }
+      },
+      "image": {
+        "file": "Cathedral_of_the_Theotokos_by_Augustas_Didzgalvis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Theotokos_by_Augustas_Didzgalvis.jpg",
+        "author": "BigHead",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lt-green-bridge",
+      "name": "Green Bridge",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q2029084",
+      "lat": 54.691389,
+      "lon": 25.28,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Green Bridge is a bridge over the Neris River in Vilnius, Lithuania, that connects the city center with the district of Šnipiškės.",
+        "es": "The Green Bridge is a bridge over the Neris River in Vilnius, Lithuania, that connects the city center with the district of Šnipiškės."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Green Bridge (Vilnius)",
+          "url": "https://en.wikipedia.org/wiki/Green_Bridge_(Vilnius)"
+        },
+        "es": {
+          "title": "Green Bridge (Vilnius)",
+          "url": "https://en.wikipedia.org/wiki/Green_Bridge_(Vilnius)"
+        }
+      },
+      "image": {
+        "file": "Green_Bridge_of_Vilnius_2015.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Green_Bridge_of_Vilnius_2015.JPG",
+        "author": "Barzdonas",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-dusia",
+      "name": "Dusia",
+      "area": "Lazdijai District Municipality",
+      "city": "Lazdijai District Municipality",
+      "wikidata": "Q2371127",
+      "lat": 54.2975,
+      "lon": 23.695278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Dusia lake is the largest lake in Southern Lithuania, Lazdijai district and is part of the Dovinė River basin.",
+        "es": "The Dusia lake is the largest lake in Southern Lithuania, Lazdijai district and is part of the Dovinė River basin."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dusia",
+          "url": "https://en.wikipedia.org/wiki/Dusia"
+        },
+        "es": {
+          "title": "Dusia",
+          "url": "https://en.wikipedia.org/wiki/Dusia"
+        }
+      },
+      "image": {
+        "file": "Dusios_ežeras.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dusios_e%C5%BEeras.JPG",
+        "author": "Hugo.arg (talk)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "lt-birzai-castle",
+      "name": "Biržai Castle",
+      "area": "Biržai",
+      "city": "Biržai",
+      "wikidata": "Q2659104",
+      "lat": 56.2,
+      "lon": 24.75,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Biržai Castle is a 16th century castle in Biržai, northern Lithuania.",
+        "es": "El castillo de Biržai es un castillo ubicado en la ciudad de Biržai, en Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Biržai Castle",
+          "url": "https://en.wikipedia.org/wiki/Bir%C5%BEai_Castle"
+        },
+        "es": {
+          "title": "Castillo de Biržai",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Bir%C5%BEai"
+        }
+      },
+      "image": {
+        "file": "2006Birzupilis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2006Birzupilis.jpg",
+        "author": "Lazdynas at Lithuanian Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-church-of-vytautas-the-great-kaunas",
+      "name": "Church of Vytautas the Great, Kaunas",
+      "area": "Kaunas",
+      "city": "Kaunas",
+      "wikidata": "Q3444101",
+      "lat": 54.895022,
+      "lon": 23.886608,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Church of Vytautas the Great or the Church of the Assumption of the Blessed Virgin Mary is a Roman Catholic church in the Old Town of Kaunas, Lithuania, and is the oldest church in the city and an important example…",
+        "es": "Church of Vytautas the Great or the Church of the Assumption of the Blessed Virgin Mary is a Roman Catholic church in the Old Town of Kaunas, Lithuania, and is the oldest church in the city and an important example…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of Vytautas the Great",
+          "url": "https://en.wikipedia.org/wiki/Church_of_Vytautas_the_Great"
+        },
+        "es": {
+          "title": "Church of Vytautas the Great",
+          "url": "https://en.wikipedia.org/wiki/Church_of_Vytautas_the_Great"
+        }
+      },
+      "image": {
+        "file": "VytautoDidžiojoBažnyčia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:VytautoDid%C5%BEiojoBa%C5%BEny%C4%8Dia.jpg",
+        "author": "Monro at Lithuanian Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "lt-zuvintas-lake",
+      "name": "Žuvintas Lake",
+      "area": "Alytus District Municipality",
+      "city": "Alytus District Municipality",
+      "wikidata": "Q3504077",
+      "lat": 54.470833,
+      "lon": 23.628611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Žuvintas is a shallow lake in Alytus district, central Lithuania.",
+        "es": "Lake Žuvintas is a shallow lake in Alytus district, central Lithuania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Žuvintas",
+          "url": "https://en.wikipedia.org/wiki/%C5%BDuvintas"
+        },
+        "es": {
+          "title": "Žuvintas",
+          "url": "https://en.wikipedia.org/wiki/%C5%BDuvintas"
+        }
+      },
+      "image": {
+        "file": "Zuvintas_2022a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zuvintas_2022a.jpg",
+        "author": "user:CD",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "lt-st-michael-the-archangel-church",
+      "name": "St. Michael the Archangel Church",
+      "area": "Kaunas",
+      "city": "Kaunas",
+      "wikidata": "Q3325",
+      "lat": 54.896667,
+      "lon": 23.921111,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. Michael the Archangel's Church, also known as the Garrison Church, is a Roman Catholic church in the city of Kaunas, Lithuania, closing the perspective of the Laisvės alėja, the main pedestrian street.",
+        "es": "La Iglesia de San Miguel Arcángel es una iglesia católica en la ciudad de Kaunas, Lituania, que cierra la perspectiva de la Alėja Laisvės, la calle peatonal principal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of St. Michael the Archangel, Kaunas",
+          "url": "https://en.wikipedia.org/wiki/Church_of_St._Michael_the_Archangel%2C_Kaunas"
+        },
+        "es": {
+          "title": "Iglesia de San Miguel Arcángel (Kaunas)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Miguel_Arc%C3%A1ngel_(Kaunas)"
+        }
+      },
+      "image": {
+        "file": "Kauno_soboras._2007-04-06.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kauno_soboras._2007-04-06.jpg",
+        "author": "Original uploader was Algirdas at lt.wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-queen-louise-bridge",
+      "name": "Queen Louise Bridge",
+      "area": "Sovetsk",
+      "city": "Sovetsk",
+      "wikidata": "Q530858",
+      "lat": 55.083611,
+      "lon": 21.905556,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Queen Louise Bridge is a bridge over the Neman River on the Lithuania–Russia border, that connects the Lithuanian town of Panemunė and the Russian city of Sovetsk, historically Tilsit.",
+        "es": "The Queen Louise Bridge is a bridge over the Neman River on the Lithuania–Russia border, that connects the Lithuanian town of Panemunė and the Russian city of Sovetsk, historically Tilsit."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Queen Louise Bridge",
+          "url": "https://en.wikipedia.org/wiki/Queen_Louise_Bridge"
+        },
+        "es": {
+          "title": "Queen Louise Bridge",
+          "url": "https://en.wikipedia.org/wiki/Queen_Louise_Bridge"
+        }
+      },
+      "image": {
+        "file": "Koenigin_Luise_bruecke_Tilsit_2008.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Koenigin_Luise_bruecke_Tilsit_2008.jpg",
+        "author": "Metastabil01 at German Wikipedia",
+        "license": "CC BY-SA 3.0 de"
+      }
+    },
+    {
+      "id": "lt-church-of-st-johns-vilnius",
+      "name": "Church of St. Johns, Vilnius",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q2994043",
+      "lat": 54.682778,
+      "lon": 25.288333,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of St. Johns, officially named St.",
+        "es": "La iglesia de San Juan Bautista y San Juan Apóstol y Evangelista es un edificio religioso católico que se localiza en Vilna, Lituania, consagrado tanto a San Juan Bautista como a San Juan Evangelista."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of St. Johns, Vilnius",
+          "url": "https://en.wikipedia.org/wiki/Church_of_St._Johns%2C_Vilnius"
+        },
+        "es": {
+          "title": "Iglesia de San Juan (Vilna)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Juan_(Vilna)"
+        }
+      },
+      "image": {
+        "file": "Vilnius_University_Great_Courtyard_1,_Vilnius,_Lithuania_-_Diliff.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vilnius_University_Great_Courtyard_1%2C_Vilnius%2C_Lithuania_-_Diliff.jpg",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-panevezys-cathedral",
+      "name": "Panevėžys Cathedral",
+      "area": "Panevėžys",
+      "city": "Panevėžys",
+      "wikidata": "Q1077949",
+      "website": "https://www.paneveziokatedra.lt",
+      "lat": 55.722796,
+      "lon": 24.356237,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of Christ the King in Panevėžys, Lithuania, is a Roman Catholic cathedral, seat of the Roman Catholic Diocese of Panevėžys.",
+        "es": "La Catedral de Cristo Rey o simplemente Catedral de Panevėžys es un templo católico en Panevėžys, Lituania, que funciona como la catedral y sede de la diócesis de Panevėžys."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Panevėžys Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Panev%C4%97%C5%BEys_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Cristo Rey (Panevėžys)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Cristo_Rey_(Panev%C4%97%C5%BEys)"
+        }
+      },
+      "image": {
+        "file": "BZN_Cathedral_of_King_Jesus_in_Panevezys.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BZN_Cathedral_of_King_Jesus_in_Panevezys.jpg",
+        "author": "Cajeton",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-luodis",
+      "name": "Luodis",
+      "area": "Zarasai District Municipality",
+      "city": "Zarasai District Municipality",
+      "wikidata": "Q1093664",
+      "lat": 55.58436,
+      "lon": 26.212349,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Luodis Lake is a lake situated in the Zarasai district municipality of Lithuania.",
+        "es": "Luodis Lake is a lake situated in the Zarasai district municipality of Lithuania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Luodis",
+          "url": "https://en.wikipedia.org/wiki/Luodis"
+        },
+        "es": {
+          "title": "Luodis",
+          "url": "https://en.wikipedia.org/wiki/Luodis"
+        }
+      },
+      "image": {
+        "file": "Luodis-2011.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Luodis-2011.jpg",
+        "author": "Indraja",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-church-of-st-casimir-vilnius",
+      "name": "Church of St. Casimir, Vilnius",
+      "area": "Vilnius",
+      "city": "Vilnius",
+      "wikidata": "Q1539380",
+      "lat": 54.677647,
+      "lon": 25.288542,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of St. Casimir is a Roman Catholic church in Vilnius' Old Town, close to the Vilnius' Town Hall.",
+        "es": "La iglesia de San Casimiro es una iglesia católica en el casco antiguo de Vilnius, cerca del Ayuntamiento de Vilnius."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of St. Casimir, Vilnius",
+          "url": "https://en.wikipedia.org/wiki/Church_of_St._Casimir%2C_Vilnius"
+        },
+        "es": {
+          "title": "Iglesia de San Casimiro (Vilnius)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Casimiro_(Vilnius)"
+        }
+      },
+      "image": {
+        "file": "Church_of_St._Casimir_in_Vilnius_(Wilno).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Church_of_St._Casimir_in_Vilnius_(Wilno).JPG",
+        "author": "Pudelek (Marcin Szala)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "lt-vytautas-magnus-university-botanical-garden",
+      "name": "Vytautas Magnus University Botanical Garden",
+      "area": "Kaunas",
+      "city": "Kaunas",
+      "wikidata": "Q3443536",
+      "lat": 54.870556,
+      "lon": 23.911111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vytautas Magnus University Botanical Garden, also known as the Kaunas Botanical Garden, is a university-affiliated botanical garden located in the south of the Freda district, in the southern part of central Kaunas,…",
+        "es": "El Jardín Botánico de la Universidad Vytautas Magnus es un jardín botánico de unas 62,5 hectáreas de extensión, que se encuentra en Kaunas, Lituania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vytautas Magnus University Botanical Garden",
+          "url": "https://en.wikipedia.org/wiki/Vytautas_Magnus_University_Botanical_Garden"
+        },
+        "es": {
+          "title": "Jardín Botánico de Kaunas de la Universidad Vytautas Magnus",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_de_Kaunas_de_la_Universidad_Vytautas_Magnus"
+        }
+      },
+      "image": {
+        "file": "VMU_Botanical_Garden_in_Kaunas_2019-07-15.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:VMU_Botanical_Garden_in_Kaunas_2019-07-15.jpg",
+        "author": "SUJIRENas",
+        "license": "CC BY-SA 4.0"
       }
     }
   ]

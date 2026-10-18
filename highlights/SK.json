@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -393,6 +399,980 @@
         "text": "Tu-Su 10:00-18:00; Th 12:00-20:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "sk-rysy",
+      "name": "Rysy",
+      "area": "Poprad District",
+      "city": "Poprad District",
+      "wikidata": "Q672936",
+      "lat": 49.179444,
+      "lon": 20.088056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rysy is a mountain in the crest of the High Tatras, eastern part of the Tatra Mountains, located on the border between Poland and Slovakia.",
+        "es": "El monte Rysy es una montaña de la sierra del Alto Tatra."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rysy",
+          "url": "https://en.wikipedia.org/wiki/Rysy"
+        },
+        "es": {
+          "title": "Rysy",
+          "url": "https://es.wikipedia.org/wiki/Rysy"
+        }
+      },
+      "image": {
+        "file": "Rysy,_szczyt.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rysy%2C_szczyt.jpg",
+        "author": "Andrzej Makarczuk,",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "sk-gerlachovsky-stit",
+      "name": "Gerlachovský štít",
+      "area": "Vysoké Tatry",
+      "city": "Vysoké Tatry",
+      "wikidata": "Q81213",
+      "lat": 49.164167,
+      "lon": 20.133889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Gerlachovský štít, informally referred to as Gerlach, is the highest peak in the High Tatras, in Slovakia, and in the Carpathian Mountains.",
+        "es": "Gerlachovský štít es el pico más alto de los Montes Tatras, está situado en el parque nacional Tatra, en la región de Prešov, en Eslovaquia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gerlachovský štít",
+          "url": "https://en.wikipedia.org/wiki/Gerlachovsk%C3%BD_%C5%A1t%C3%ADt"
+        },
+        "es": {
+          "title": "Gerlachovský štít",
+          "url": "https://es.wikipedia.org/wiki/Gerlachovsk%C3%BD_%C5%A1t%C3%ADt"
+        }
+      },
+      "image": {
+        "file": "Gerlachovsky_stit_from_Velicka_dolina.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gerlachovsky_stit_from_Velicka_dolina.jpg",
+        "author": "Kristo",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "sk-ancient-and-primeval-beech-forests-of-the-carpat",
+      "name": "Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe",
+      "area": "Podkarpackie Voivodeship",
+      "city": "Podkarpackie Voivodeship",
+      "wikidata": "Q156011",
+      "lat": 49,
+      "lon": 15,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe is a transnational serial nature UNESCO World Heritage Site, encompassing 93 component parts in 18 European countries.",
+        "es": "Los Bosques antiguos y primarios de hayas de los Cárpatos y otras regiones de Europa son un bien natural transnacional inscrito en la Lista del Patrimonio de la Humanidad de la Unesco desde 2007."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe",
+          "url": "https://en.wikipedia.org/wiki/Ancient_and_Primeval_Beech_Forests_of_the_Carpathians_and_Other_Regions_of_Europe"
+        },
+        "es": {
+          "title": "Bosques antiguos y primarios de hayas de los Cárpatos y otras regiones de Europa",
+          "url": "https://es.wikipedia.org/wiki/Bosques_antiguos_y_primarios_de_hayas_de_los_C%C3%A1rpatos_y_otras_regiones_de_Europa"
+        }
+      },
+      "image": {
+        "file": "Tysa_Rakhiv.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tysa_Rakhiv.jpg",
+        "author": "Varga Attila",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "sk-spis-castle",
+      "name": "Spiš Castle",
+      "area": "Žehra",
+      "city": "Žehra",
+      "wikidata": "Q205558",
+      "website": "https://www.spisskyhrad.com/lokalita/spissky-hrad/",
+      "lat": 49.000556,
+      "lon": 20.768333,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The ruins of Spiš Castle in eastern Slovakia form one of the six largest castle sites in Slovakia.",
+        "es": "Las ruinas del Castillo de Spiš están situadas en el este de Eslovaquia siendo uno de los mayores castillos en Centroeuropa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Spiš Castle",
+          "url": "https://en.wikipedia.org/wiki/Spi%C5%A1_Castle"
+        },
+        "es": {
+          "title": "Castillo de Spiš",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Spi%C5%A1"
+        }
+      },
+      "image": {
+        "file": "SK_SN_Spis_castle_2024_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:SK_SN_Spis_castle_2024_1.jpg",
+        "author": "Andrei Stroe",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "sk-bratislava-castle",
+      "name": "Bratislava Castle",
+      "area": "Bratislava",
+      "city": "Bratislava",
+      "wikidata": "Q593311",
+      "lat": 48.142222,
+      "lon": 17.1,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bratislava Castle is the main castle of Bratislava, the capital of Slovakia.",
+        "es": "El castillo de Bratislava se sitúa en el centro histórico de la ciudad homónima, la capital de Eslovaquia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bratislava Castle",
+          "url": "https://en.wikipedia.org/wiki/Bratislava_Castle"
+        },
+        "es": {
+          "title": "Castillo de Bratislava",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Bratislava"
+        }
+      },
+      "image": {
+        "file": "Bratislava_-_Burg_(a).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bratislava_-_Burg_(a).JPG",
+        "author": "C.Stadler/Bwag",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "sk-tatra-national-park",
+      "name": "Tatra National Park",
+      "area": "Tatranská Lomnica",
+      "city": "Tatranská Lomnica",
+      "wikidata": "Q1080683",
+      "lat": 49.180278,
+      "lon": 19.919444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tatra National Park is one of the nine national parks in Slovakia.",
+        "es": "El parque nacional Tatra es uno de los nueve parques nacionales de Eslovaquia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tatra National Park, Slovakia",
+          "url": "https://en.wikipedia.org/wiki/Tatra_National_Park%2C_Slovakia"
+        },
+        "es": {
+          "title": "Parque nacional Tatra",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Tatra"
+        }
+      },
+      "image": {
+        "file": "Tatra_mountains_western_side_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tatra_mountains_western_side_2.jpg",
+        "author": "Piotr J",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "sk-slovak-paradise-national-park",
+      "name": "Slovak Paradise National Park",
+      "area": "Rožňava District",
+      "city": "Rožňava District",
+      "wikidata": "Q1507799",
+      "lat": 48.908333,
+      "lon": 20.4,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Slovak Paradise National Park is one of the nine national parks in Slovakia, situated in East Slovakia.",
+        "es": "El Parque nacional del Paraíso Eslovaco es uno de los nueve parques nacionales de Eslovaquia, situado en el este de este país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Slovak Paradise National Park",
+          "url": "https://en.wikipedia.org/wiki/Slovak_Paradise_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional del Paraíso Eslovaco",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_Para%C3%ADso_Eslovaco"
+        }
+      },
+      "image": {
+        "file": "Slovensky_raj_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Slovensky_raj_02.jpg",
+        "author": "Zdenek Svoboda from Prague, Czech Republic",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "sk-krivan",
+      "name": "Kriváň",
+      "area": "Vysoké Tatry",
+      "city": "Vysoké Tatry",
+      "wikidata": "Q845990",
+      "lat": 49.162834,
+      "lon": 20.000047,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kriváň is a mountain in the High Tatras, Slovakia, that dominates the upper part of the former Liptov County.",
+        "es": "Kriváň es una montaña de Eslovaquia que se encuentra en los Altos Tatras, cerca de Poprad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kriváň (peak)",
+          "url": "https://en.wikipedia.org/wiki/Kriv%C3%A1%C5%88_(peak)"
+        },
+        "es": {
+          "title": "Kriváň",
+          "url": "https://es.wikipedia.org/wiki/Kriv%C3%A1%C5%88"
+        }
+      },
+      "image": {
+        "file": "Kriváň.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kriv%C3%A1%C5%88.JPG",
+        "author": "Achernar",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "sk-devin-castle",
+      "name": "Devín Castle",
+      "area": "Bratislava",
+      "city": "Bratislava",
+      "wikidata": "Q830976",
+      "website": "https://muzeumbratislava.sk/hrad-devin",
+      "lat": 48.173889,
+      "lon": 16.978056,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Devín Castle is a castle in Devín, which is a borough of Bratislava, the capital of Slovakia.",
+        "es": "El castillo de Devín es un castillo situado en Devín, una parte de Bratislava, la capital de Eslovaquia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Devín Castle",
+          "url": "https://en.wikipedia.org/wiki/Dev%C3%ADn_Castle"
+        },
+        "es": {
+          "title": "Castillo de Devín",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Dev%C3%ADn"
+        }
+      },
+      "image": {
+        "file": "Devin02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Devin02.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "sk-st-martin-s-cathedral-bratislava",
+      "name": "St. Martin's Cathedral, Bratislava",
+      "area": "Bratislava",
+      "city": "Bratislava",
+      "wikidata": "Q239560",
+      "website": "https://dom.fara.sk",
+      "lat": 48.141944,
+      "lon": 17.104722,
+      "phone": "+421 2 544 313 59",
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St Martin's Cathedral is a church in Bratislava, Slovakia, and the cathedral of the Archdiocese of Bratislava.",
+        "es": "La Catedral de San Martín es una iglesia en la ciudad de Bratislava, en el país europeo de Eslovaquia, y la catedral de la arquidiócesis de Bratislava."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Martin's Cathedral, Bratislava",
+          "url": "https://en.wikipedia.org/wiki/St_Martin's_Cathedral%2C_Bratislava"
+        },
+        "es": {
+          "title": "Catedral de San Martín (Bratislava)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Mart%C3%ADn_(Bratislava)"
+        }
+      },
+      "image": {
+        "file": "Bratislava-Dom-sv-Martina.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bratislava-Dom-sv-Martina.jpg",
+        "author": "Helix84",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "sk-babia-gora",
+      "name": "Babia Góra",
+      "area": "Námestovo District",
+      "city": "Námestovo District",
+      "wikidata": "Q595780",
+      "lat": 49.573056,
+      "lon": 19.530556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Babia Góra, or Babia hora is a massif situated on the border between Poland and Slovakia in the Western Beskid Mountains.",
+        "es": "Babia Gora, literalmente 'montaña de las antiguas esposas o de las brujas', es un macizo situado en la frontera entre Polonia y Eslovaquia en las montañas Beskides occidentales."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Babia Góra",
+          "url": "https://en.wikipedia.org/wiki/Babia_G%C3%B3ra"
+        },
+        "es": {
+          "title": "Babia Góra",
+          "url": "https://es.wikipedia.org/wiki/Babia_G%C3%B3ra"
+        }
+      },
+      "image": {
+        "file": "Babia_Gora.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Babia_Gora.jpg",
+        "author": "Rafał Kozubek",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "sk-low-tatras-national-park",
+      "name": "Low Tatras National Park",
+      "area": "Banská Bystrica Region",
+      "city": "Banská Bystrica Region",
+      "wikidata": "Q1767601",
+      "website": "https://www.napant.sk/",
+      "lat": 48.925556,
+      "lon": 19.6325,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Low Tatras National Park is a national park in Central Slovakia, between the Váh River and the Hron River valleys.",
+        "es": "El Parque nacional de la Baja Tatra es un parque nacional en el centro de Eslovaquia, entre el río Vah y los valles del río Hron."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Low Tatras National Park",
+          "url": "https://en.wikipedia.org/wiki/Low_Tatras_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de la Baja Tatra",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_la_Baja_Tatra"
+        }
+      },
+      "image": {
+        "file": "Low_tatra_dumbier.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Low_tatra_dumbier.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "sk-zitny-ostrov",
+      "name": "Žitný ostrov",
+      "area": "Bratislava",
+      "city": "Bratislava",
+      "wikidata": "Q870387",
+      "lat": 47.9009,
+      "lon": 17.4756,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Žitný ostrov, also called Veľký Žitný ostrov to differentiate it from Malý Žitný ostrov, is a river island in southwestern Slovakia, extending from Bratislava to Komárno.",
+        "es": "Žitný ostrov también conocida como Veľký Žitný ostrov para diferenciarla de Malý Žitný Ostrov, es una isla fluvial en el suroeste de Eslovaquia, que se extiende desde Bratislava a Komárno."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Žitný ostrov",
+          "url": "https://en.wikipedia.org/wiki/%C5%BDitn%C3%BD_ostrov"
+        },
+        "es": {
+          "title": "Žitný ostrov",
+          "url": "https://es.wikipedia.org/wiki/%C5%BDitn%C3%BD_ostrov"
+        }
+      },
+      "image": {
+        "file": "Malý_Dunaj.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mal%C3%BD_Dunaj.jpg",
+        "author": "Plepo",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "sk-strbske-pleso",
+      "name": "Štrbské pleso",
+      "area": "Štrba",
+      "city": "Štrba",
+      "wikidata": "Q392489",
+      "lat": 49.1225,
+      "lon": 20.058333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Štrbské pleso is a picturesque mountain lake of glacial origin and a top tourist destination in the High Tatras, Slovakia.",
+        "es": "Štrbské pleso es un lago glaciar de montaña en los Altos Tatras en el Parque nacional Tatra, concretamente en el pueblo de Štrbské Pleso, que deriva su nombre del lago."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Štrbské pleso",
+          "url": "https://en.wikipedia.org/wiki/%C5%A0trbsk%C3%A9_pleso"
+        },
+        "es": {
+          "title": "Štrbské pleso",
+          "url": "https://es.wikipedia.org/wiki/%C5%A0trbsk%C3%A9_pleso"
+        }
+      },
+      "image": {
+        "file": "STRBSKE_PLESO.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:STRBSKE_PLESO.jpg",
+        "author": "Ján Ťažký",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "sk-lomnicky-stit",
+      "name": "Lomnický štít",
+      "area": "Poprad District",
+      "city": "Poprad District",
+      "wikidata": "Q1072105",
+      "lat": 49.2,
+      "lon": 20.212778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lomnický štít is one of the highest and most visited mountain peaks in the High Tatras mountains of Slovakia.",
+        "es": "Lomnický štít es uno de los picos más altos y visitados de los Altos Tatras de Eslovaquia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lomnický štít",
+          "url": "https://en.wikipedia.org/wiki/Lomnick%C3%BD_%C5%A1t%C3%ADt"
+        },
+        "es": {
+          "title": "Lomnický štít",
+          "url": "https://es.wikipedia.org/wiki/Lomnick%C3%BD_%C5%A1t%C3%ADt"
+        }
+      },
+      "image": {
+        "file": "Observatory_Skalnate_pleso.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Observatory_Skalnate_pleso.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "sk-maria-valeria-bridge",
+      "name": "Mária Valéria Bridge",
+      "area": "Štúrovo",
+      "city": "Štúrovo",
+      "wikidata": "Q1089516",
+      "lat": 47.79528,
+      "lon": 18.73028,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mária Valéria Bridge joins Esztergom in Hungary and Štúrovo in Slovakia, across the River Danube.",
+        "es": "El puente María Valeria une Esztergom en Hungría y Štúrovo en Eslovaquia, a través del río Danubio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mária Valéria Bridge",
+          "url": "https://en.wikipedia.org/wiki/M%C3%A1ria_Val%C3%A9ria_Bridge"
+        },
+        "es": {
+          "title": "Puente María Valeria",
+          "url": "https://es.wikipedia.org/wiki/Puente_Mar%C3%ADa_Valeria"
+        }
+      },
+      "image": {
+        "file": "Maria-Valeria-Brücke,_Esztergom_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Maria-Valeria-Br%C3%BCcke%2C_Esztergom_01.jpg",
+        "author": "Pudelek",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "sk-devin",
+      "name": "Devín",
+      "area": "Bratislava",
+      "city": "Bratislava",
+      "wikidata": "Q661046",
+      "website": "https://www.devin.sk/",
+      "lat": 48.173889,
+      "lon": 16.983333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Devín is a borough of Bratislava, the capital of Slovakia, located in the Bratislava IV district.",
+        "es": "Devín is a borough of Bratislava, the capital of Slovakia, located in the Bratislava IV district."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Devín",
+          "url": "https://en.wikipedia.org/wiki/Dev%C3%ADn"
+        },
+        "es": {
+          "title": "Devín",
+          "url": "https://en.wikipedia.org/wiki/Dev%C3%ADn"
+        }
+      },
+      "image": {
+        "file": "Devin_village.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Devin_village.JPG",
+        "author": "No machine-readable author provided. Murli assumed (based on copyright claims).",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "sk-grassalkovich-palace",
+      "name": "Grassalkovich Palace",
+      "area": "Bratislava",
+      "city": "Bratislava",
+      "wikidata": "Q568640",
+      "lat": 48.149444,
+      "lon": 17.107778,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Grassalkovich Palace is a palace in Bratislava, Slovakia, and the residence of the President of Slovakia.",
+        "es": "El palacio Grassalkovich es un palacio situado en Bratislava, Eslovaquia, y residencia del Presidente de Eslovaquia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grassalkovich Palace",
+          "url": "https://en.wikipedia.org/wiki/Grassalkovich_Palace"
+        },
+        "es": {
+          "title": "Palacio Grassalkovich",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Grassalkovich"
+        }
+      },
+      "image": {
+        "file": "Palacio_Grassalkovich,_Bratislava,_Eslovaquia,_2020-02-01,_DD_24.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palacio_Grassalkovich%2C_Bratislava%2C_Eslovaquia%2C_2020-02-01%2C_DD_24.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "sk-trencin-castle",
+      "name": "Trenčín Castle",
+      "area": "Trenčín",
+      "city": "Trenčín",
+      "wikidata": "Q678465",
+      "website": "https://www.muzeumtn.sk/hlavna-stranka/trenciansky-hrad.html?page_id=297",
+      "lat": 48.894167,
+      "lon": 18.044722,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Trenčín Castle is a castle above the town of Trenčín in western Slovakia.",
+        "es": "El castillo de Trenčín domina la ciudad de Trenčín, al oeste de Eslovaquia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Trenčín Castle",
+          "url": "https://en.wikipedia.org/wiki/Tren%C4%8D%C3%ADn_Castle"
+        },
+        "es": {
+          "title": "Castillo de Trenčín",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Tren%C4%8D%C3%ADn"
+        }
+      },
+      "image": {
+        "file": "Trencin_Castle_030.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Trencin_Castle_030.jpg",
+        "author": "Ingo Mehling",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "sk-orava-castle",
+      "name": "Orava Castle",
+      "area": "Oravský Podzámok",
+      "city": "Oravský Podzámok",
+      "wikidata": "Q29894",
+      "lat": 49.261667,
+      "lon": 19.358056,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Orava Castle is a castle situated on a high rock above Orava river in the village of Oravský Podzámok, Slovakia.",
+        "es": "El Castillo de Orava es una fortaleza situada en el municipio de Oravský Podzámok, en Eslovaquia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Orava Castle",
+          "url": "https://en.wikipedia.org/wiki/Orava_Castle"
+        },
+        "es": {
+          "title": "Castillo de Orava",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Orava"
+        }
+      },
+      "image": {
+        "file": "JBZamekOrawski_v2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:JBZamekOrawski_v2.jpg",
+        "author": "The original uploader was Jurbox at Polish Wikipedia.",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "sk-carnuntum",
+      "name": "Carnuntum",
+      "area": "Bratislava",
+      "city": "Bratislava",
+      "wikidata": "Q508815",
+      "website": "https://www.carnuntum.at/",
+      "lat": 48.113333,
+      "lon": 16.861389,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Carnuntum was a Roman legionary fortress and headquarters of the Pannonian fleet from 50 AD.",
+        "es": "Carnuntum a veces castellanizada como Carnunto, fue la capital de la provincia romana de Panonia, cerca de la frontera con el Noricum, en lo que había sido en origen un importante fuerte romano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Carnuntum",
+          "url": "https://en.wikipedia.org/wiki/Carnuntum"
+        },
+        "es": {
+          "title": "Carnuntum",
+          "url": "https://es.wikipedia.org/wiki/Carnuntum"
+        }
+      },
+      "image": {
+        "file": "Aerial_image_of_Carnuntum_(view_from_the_southeast).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Carnuntum_(view_from_the_southeast).jpg",
+        "author": "Carsten Steger",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "sk-church-of-st-elisabeth",
+      "name": "Church of St. Elisabeth",
+      "area": "Bratislava",
+      "city": "Bratislava",
+      "wikidata": "Q579043",
+      "lat": 48.143389,
+      "lon": 17.116833,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of St. Elizabeth, commonly known as Blue Church, is a Hungarian-Secessionist Catholic church located in the eastern part of the Old Town in Bratislava, present-day Slovakia.",
+        "es": "La iglesia de Santa Isabel es un edificio modernista en el casco antiguo de Bratislava."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Blue Church",
+          "url": "https://en.wikipedia.org/wiki/Blue_Church"
+        },
+        "es": {
+          "title": "Iglesia de Santa Isabel (Bratislava)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Santa_Isabel_(Bratislava)"
+        }
+      },
+      "image": {
+        "file": "Blue_Church,_Bratislava_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_Church%2C_Bratislava_02.jpg",
+        "author": "Thomas Ledl",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "sk-apollo-bridge",
+      "name": "Apollo Bridge",
+      "area": "Bratislava",
+      "city": "Bratislava",
+      "wikidata": "Q618937",
+      "lat": 48.1375,
+      "lon": 17.128056,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Apollo Bridge, provisionally known as Most Košická during construction after the street leading to it, in Bratislava is a road bridge over the Danube in the capital of Slovakia.",
+        "es": "El Puente Apollo es una estructura situada en Bratislava, sobre el río Danubio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Apollo Bridge",
+          "url": "https://en.wikipedia.org/wiki/Apollo_Bridge"
+        },
+        "es": {
+          "title": "Puente Apollo",
+          "url": "https://es.wikipedia.org/wiki/Puente_Apollo"
+        }
+      },
+      "image": {
+        "file": "Apollo_bridge_at_night.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Apollo_bridge_at_night.JPG",
+        "author": "Fenos",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "sk-michael-s-gate",
+      "name": "Michael's Gate",
+      "area": "Bratislava",
+      "city": "Bratislava",
+      "wikidata": "Q1717975",
+      "lat": 48.1451,
+      "lon": 17.1068,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "In Bratislava, Slovakia, Michael's Gate is the only city gate that has been preserved of the medieval fortifications and ranks among the oldest town buildings in Bratislava, Slovakia.",
+        "es": "En Bratislava, la Puerta de Miguel es la única puerta de la ciudad que se ha conservado de las fortificaciones medievales y figura entre los edificios más antiguos de la ciudad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Michael's Gate",
+          "url": "https://en.wikipedia.org/wiki/Michael's_Gate"
+        },
+        "es": {
+          "title": "Puerta de Miguel",
+          "url": "https://es.wikipedia.org/wiki/Puerta_de_Miguel"
+        }
+      },
+      "image": {
+        "file": "Bratislava,_Michalská_veža,_Slovensko.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bratislava%2C_Michalsk%C3%A1_ve%C5%BEa%2C_Slovensko.jpg",
+        "author": "LMih",
+        "license": "CC BY-SA 3.0"
       }
     }
   ]

@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -383,6 +389,1702 @@
         "text": "Th-Mo 09:00-18:30; We 09:00-21:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "at-neusiedl-lake",
+      "name": "Neusiedl Lake",
+      "area": "Burgenland",
+      "city": "Burgenland",
+      "wikidata": "Q6396",
+      "lat": 47.833333,
+      "lon": 16.75,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Neusiedl or Lake Fertő, is the largest endorheic lake in Central and Western Europe, as well as the second largest in Europe after The Caspian Sea, straddling Austria and Hungary.",
+        "es": "El lago Neusiedl o lago Fertő es el segundo lago endorreico en extensión de Europa central."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Neusiedl",
+          "url": "https://en.wikipedia.org/wiki/Lake_Neusiedl"
+        },
+        "es": {
+          "title": "Lago Neusiedl",
+          "url": "https://es.wikipedia.org/wiki/Lago_Neusiedl"
+        }
+      },
+      "image": {
+        "file": "Neusiedler_See_im_Winter.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Neusiedler_See_im_Winter.jpg",
+        "author": "Lutz Fischer-Lamprecht",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-grossglockner",
+      "name": "Grossglockner",
+      "area": "Kals am Großglockner",
+      "city": "Kals am Großglockner",
+      "wikidata": "Q3388",
+      "lat": 47.074528,
+      "lon": 12.69385,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Großglockner, or just Glockner, is, at 3,798 metres above the Adriatic, the highest mountain in Austria and highest mountain in the Alps east of the Brenner Pass.",
+        "es": "El monte Grossglockner es, con 3800 m.s.n.m., la montaña más alta de Austria y la mayor montaña de los Alpes al este del Paso del Brennero, entre los estados federados de Carintia y Tirol."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grossglockner",
+          "url": "https://en.wikipedia.org/wiki/Grossglockner"
+        },
+        "es": {
+          "title": "Grossglockner",
+          "url": "https://es.wikipedia.org/wiki/Grossglockner"
+        }
+      },
+      "image": {
+        "file": "Großglockner1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fglockner1.jpg",
+        "author": "DennisPeeters",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "at-belvedere",
+      "name": "Belvedere",
+      "area": "Vienna",
+      "city": "Vienna",
+      "wikidata": "Q211818",
+      "website": "https://www.belvedere.at/",
+      "lat": 48.1934,
+      "lon": 16.380519,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Belvedere is a historic building complex and art museum in Vienna, Austria.",
+        "es": "El palacio [del] Belvedere es un conjunto palaciego de estilo barroco situado en la calle Príncipe Eugenio, 27 de Viena."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Belvedere, Vienna",
+          "url": "https://en.wikipedia.org/wiki/Belvedere%2C_Vienna"
+        },
+        "es": {
+          "title": "Palacio Belvedere",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Belvedere"
+        }
+      },
+      "image": {
+        "file": "Wien_-_Schloss_Belvedere,_oberes_(2).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wien_-_Schloss_Belvedere%2C_oberes_(2).JPG",
+        "author": "C.Stadler/Bwag",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-st-stephen-s-cathedral",
+      "name": "St. Stephen's Cathedral",
+      "area": "Vienna",
+      "city": "Vienna",
+      "wikidata": "Q5943",
+      "website": "https://stephanskirche.at/",
+      "lat": 48.208427,
+      "lon": 16.373256,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. Stephen's Cathedral is a Roman Catholic church in Vienna, Austria, and the mother church of the Archdiocese of Vienna.",
+        "es": "La catedral de San Esteban es la iglesia principal de la arquidiócesis de Viena y la sede de su arzobispo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Stephen's Cathedral, Vienna",
+          "url": "https://en.wikipedia.org/wiki/St._Stephen's_Cathedral%2C_Vienna"
+        },
+        "es": {
+          "title": "Catedral de San Esteban (Viena)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Esteban_(Viena)"
+        }
+      },
+      "image": {
+        "file": "Wien_-_Stephansdom_(1).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wien_-_Stephansdom_(1).JPG",
+        "author": "C.Stadler/Bwag",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-ancient-and-primeval-beech-forests-of-the-carpat",
+      "name": "Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe",
+      "area": "Podkarpackie Voivodeship",
+      "city": "Podkarpackie Voivodeship",
+      "wikidata": "Q156011",
+      "lat": 49,
+      "lon": 15,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe is a transnational serial nature UNESCO World Heritage Site, encompassing 93 component parts in 18 European countries.",
+        "es": "Los Bosques antiguos y primarios de hayas de los Cárpatos y otras regiones de Europa son un bien natural transnacional inscrito en la Lista del Patrimonio de la Humanidad de la Unesco desde 2007."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe",
+          "url": "https://en.wikipedia.org/wiki/Ancient_and_Primeval_Beech_Forests_of_the_Carpathians_and_Other_Regions_of_Europe"
+        },
+        "es": {
+          "title": "Bosques antiguos y primarios de hayas de los Cárpatos y otras regiones de Europa",
+          "url": "https://es.wikipedia.org/wiki/Bosques_antiguos_y_primarios_de_hayas_de_los_C%C3%A1rpatos_y_otras_regiones_de_Europa"
+        }
+      },
+      "image": {
+        "file": "Tysa_Rakhiv.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tysa_Rakhiv.jpg",
+        "author": "Varga Attila",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "at-vienna-state-opera-house",
+      "name": "Vienna State Opera house",
+      "area": "Vienna",
+      "city": "Vienna",
+      "wikidata": "Q209937",
+      "website": "https://www.wiener-staatsoper.at/",
+      "lat": 48.203333,
+      "lon": 16.369167,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Vienna State Opera is an opera house and opera company located in Vienna, Austria.",
+        "es": "La Ópera Estatal de Viena, ubicada en la ciudad austriaca de Viena, es una de las más importantes compañías de ópera mundiales."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vienna State Opera",
+          "url": "https://en.wikipedia.org/wiki/Vienna_State_Opera"
+        },
+        "es": {
+          "title": "Ópera Estatal de Viena",
+          "url": "https://es.wikipedia.org/wiki/%C3%93pera_Estatal_de_Viena"
+        }
+      },
+      "image": {
+        "file": "Staatsoper_Wien_DSC_5273w.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Staatsoper_Wien_DSC_5273w.jpg",
+        "author": "P e z i",
+        "license": "CC BY-SA 3.0 at"
+      }
+    },
+    {
+      "id": "at-hoher-dachstein",
+      "name": "Hoher Dachstein",
+      "area": "Hallstatt",
+      "city": "Hallstatt",
+      "wikidata": "Q686841",
+      "lat": 47.475168,
+      "lon": 13.605735,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Hoher Dachstein is a strongly karstic mountain in central Austria and the second-highest mountain in the Northern Limestone Alps.",
+        "es": "Hoher Dachstein es una montaña austriaca fuertemente kárstica, y la cima más alta de los Alpes del Salzkammergut y de Alta Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hoher Dachstein",
+          "url": "https://en.wikipedia.org/wiki/Hoher_Dachstein"
+        },
+        "es": {
+          "title": "Hoher Dachstein",
+          "url": "https://es.wikipedia.org/wiki/Hoher_Dachstein"
+        }
+      },
+      "image": {
+        "file": "Dachstein_0309_2011-09-26.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dachstein_0309_2011-09-26.JPG",
+        "author": "Ewald Gabardi",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "at-burgtheater",
+      "name": "Burgtheater",
+      "area": "Vienna",
+      "city": "Vienna",
+      "wikidata": "Q308720",
+      "lat": 48.210278,
+      "lon": 16.361389,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Burgtheater (German: [ˈbʊʁk.teˌaːtɐ]; literally: \"Castle Theater\" but alternatively translated as \" Court Theater\", originally known as K.K.",
+        "es": "El Burgtheater, originalmente llamado K.K."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Burgtheater",
+          "url": "https://en.wikipedia.org/wiki/Burgtheater"
+        },
+        "es": {
+          "title": "Burgtheater",
+          "url": "https://es.wikipedia.org/wiki/Burgtheater"
+        }
+      },
+      "image": {
+        "file": "Wien_-_Burgtheater.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wien_-_Burgtheater.JPG",
+        "author": "C.Stadler/Bwag",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-bad-voslau",
+      "name": "Bad Vöslau",
+      "area": "Vienna",
+      "city": "Vienna",
+      "wikidata": "Q798800",
+      "website": "https://www.badvoeslau.at",
+      "lat": 47.966944,
+      "lon": 16.214444,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bad Vöslau is a spa town and municipality in the state of Lower Austria.",
+        "es": "Bad Vöslau es una localidad balneario austriaca localizada en Baja Austria, a 35 km al sur de Viena."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bad Vöslau",
+          "url": "https://en.wikipedia.org/wiki/Bad_V%C3%B6slau"
+        },
+        "es": {
+          "title": "Bad Vöslau",
+          "url": "https://es.wikipedia.org/wiki/Bad_V%C3%B6slau"
+        }
+      },
+      "image": {
+        "file": "BadVoeslau_Thermalbad01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BadVoeslau_Thermalbad01.jpg",
+        "author": "Wolfgang Glock",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "at-melk-abbey",
+      "name": "Melk Abbey",
+      "area": "Melk",
+      "city": "Melk",
+      "wikidata": "Q660082",
+      "lat": 48.22843,
+      "lon": 15.33123,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Melk Abbey is a Benedictine abbey above the town of Melk, Lower Austria, on a rocky outcrop overlooking the Danube river, adjoining the Wachau valley, that belongs to the Austrian Congregation.",
+        "es": "La Abadía de Melk o Stift Melk es una abadía benedictina sita en Melk, Austria, uno de los monasterios cristianos más famosos del mundo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Melk Abbey",
+          "url": "https://en.wikipedia.org/wiki/Melk_Abbey"
+        },
+        "es": {
+          "title": "Abadía de Melk",
+          "url": "https://es.wikipedia.org/wiki/Abad%C3%ADa_de_Melk"
+        }
+      },
+      "image": {
+        "file": "Stift_Melk,_Westansicht.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Stift_Melk%2C_Westansicht.jpg",
+        "author": "Thomas Ledl",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-karlskirche",
+      "name": "Karlskirche",
+      "area": "Vienna",
+      "city": "Vienna",
+      "wikidata": "Q408847",
+      "lat": 48.198281,
+      "lon": 16.371881,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Karlskirche is a Baroque church in the Karlsplatz in Vienna, Austria.",
+        "es": "La iglesia de San Carlos Borromeo es una iglesia de estilo barroco de Viena, situada en Kreuzherrengasse, 1, en la parte sur de Karlsplatz, al borde del primer distrito, y doscientos metros por fuera de la Ringstrasse."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Karlskirche",
+          "url": "https://en.wikipedia.org/wiki/Karlskirche"
+        },
+        "es": {
+          "title": "Iglesia de San Carlos Borromeo (Viena)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Carlos_Borromeo_(Viena)"
+        }
+      },
+      "image": {
+        "file": "Wien_-_Karlskirche_(1).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wien_-_Karlskirche_(1).JPG",
+        "author": "C.Stadler/Bwag",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-bad-aussee",
+      "name": "Bad Aussee",
+      "area": "Liezen District",
+      "city": "Liezen District",
+      "wikidata": "Q251065",
+      "lat": 47.61,
+      "lon": 13.782778,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bad Aussee is a town in the Austrian state of Styria, located at the confluence of the three sources of the Traun River in the Ausseerland region.",
+        "es": "Bad Aussee es una localidad del distrito de Liezen, en el estado de Estiria, Austria, con una población estimada a principio del año 2018 de 4833 habitantes."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bad Aussee",
+          "url": "https://en.wikipedia.org/wiki/Bad_Aussee"
+        },
+        "es": {
+          "title": "Bad Aussee",
+          "url": "https://es.wikipedia.org/wiki/Bad_Aussee"
+        }
+      },
+      "image": {
+        "file": "Bad_Aussee_-_Mercedes-Brücke.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bad_Aussee_-_Mercedes-Br%C3%BCcke.JPG",
+        "author": "C.Stadler/Bwag",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-hohensalzburg-fortress",
+      "name": "Hohensalzburg Fortress",
+      "area": "Salzburg",
+      "city": "Salzburg",
+      "wikidata": "Q679292",
+      "website": "https://www.salzburg-burgen.at/de/hohensalzburg-castle/",
+      "lat": 47.795,
+      "lon": 13.0473,
+      "phone": "+43 662 84243011",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Hohensalzburg Fortress is a large medieval fortress in the city of Salzburg, Austria.",
+        "es": "La Fortaleza de Hohensalzburg, monumento característico de la ciudad de Salzburgo, es la más grande y mejor conservada en Europa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hohensalzburg Fortress",
+          "url": "https://en.wikipedia.org/wiki/Hohensalzburg_Fortress"
+        },
+        "es": {
+          "title": "Fortaleza de Hohensalzburg",
+          "url": "https://es.wikipedia.org/wiki/Fortaleza_de_Hohensalzburg"
+        }
+      },
+      "image": {
+        "file": "Salzburg_-_Festung_Hohensalzburg.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Salzburg_-_Festung_Hohensalzburg.JPG",
+        "author": "C.Stadler/Bwag",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-eggenberg-castle-graz",
+      "name": "Eggenberg Castle, Graz",
+      "area": "Graz",
+      "city": "Graz",
+      "wikidata": "Q203797",
+      "website": "https://www.museum-joanneum.at/en/palace-and-gardens-schloss-eggenberg",
+      "lat": 47.0739,
+      "lon": 15.3913,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Eggenberg Palace in Graz, is the most significant Baroque palace complex in the Austrian state of Styria.",
+        "es": "El palacio de Eggenberg es el más significativo complejo de palacios de estilo gótico de Graz."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Eggenberg Palace, Graz",
+          "url": "https://en.wikipedia.org/wiki/Eggenberg_Palace%2C_Graz"
+        },
+        "es": {
+          "title": "Palacio de Eggenberg",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Eggenberg"
+        }
+      }
+    },
+    {
+      "id": "at-worthersee",
+      "name": "Wörthersee",
+      "area": "Velden am Wörther See",
+      "city": "Velden am Wörther See",
+      "wikidata": "Q546146",
+      "lat": 46.625,
+      "lon": 14.15,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Wörthersee is a lake in the southern Austrian state of Carinthia.",
+        "es": "El Wörthersee es el lago más grande del Bundesland de Carintia, y al mismo tiempo, debido a su situación, es el lago alpino con unas de las aguas más templadas de todos los Alpes."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wörthersee",
+          "url": "https://en.wikipedia.org/wiki/W%C3%B6rthersee"
+        },
+        "es": {
+          "title": "Wörthersee",
+          "url": "https://es.wikipedia.org/wiki/W%C3%B6rthersee"
+        }
+      },
+      "image": {
+        "file": "Aerial_image_of_Wörthersee_(view_from_the_southeast).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_W%C3%B6rthersee_(view_from_the_southeast).jpg",
+        "author": "Carsten Steger",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-academy-of-fine-arts-vienna",
+      "name": "Academy of Fine Arts Vienna",
+      "area": "Vienna",
+      "city": "Vienna",
+      "wikidata": "Q414219",
+      "website": "https://www.akbild.ac.at/",
+      "lat": 48.201389,
+      "lon": 16.365278,
+      "phone": "+43 1 588161818",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Academy of Fine Arts Vienna is a public art school in Vienna, Austria.",
+        "es": "La Academia de Bellas Artes de Viena es una institución de educación superior artística en Viena, Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Academy of Fine Arts Vienna",
+          "url": "https://en.wikipedia.org/wiki/Academy_of_Fine_Arts_Vienna"
+        },
+        "es": {
+          "title": "Academia de Bellas Artes de Viena",
+          "url": "https://es.wikipedia.org/wiki/Academia_de_Bellas_Artes_de_Viena"
+        }
+      },
+      "image": {
+        "file": "Akademie_der_bildenden_Kuenste_DSC_2400w.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Akademie_der_bildenden_Kuenste_DSC_2400w.jpg",
+        "author": "P e z i",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "at-lake-zell",
+      "name": "Lake Zell",
+      "area": "Zell am See",
+      "city": "Zell am See",
+      "wikidata": "Q187763",
+      "lat": 47.316667,
+      "lon": 12.8,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Zell is a small freshwater lake in the Austrian Alps.",
+        "es": "Lake Zell is a small freshwater lake in the Austrian Alps."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Zell",
+          "url": "https://en.wikipedia.org/wiki/Lake_Zell"
+        },
+        "es": {
+          "title": "Lake Zell",
+          "url": "https://en.wikipedia.org/wiki/Lake_Zell"
+        }
+      },
+      "image": {
+        "file": "Zell_am_See.Wiki.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zell_am_See.Wiki.jpeg",
+        "author": "Bestzeller",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "at-krimml-waterfalls",
+      "name": "Krimml Waterfalls",
+      "area": "Krimml",
+      "city": "Krimml",
+      "wikidata": "Q639731",
+      "website": "https://www.wasserfaelle-krimml.at/",
+      "lat": 47.198056,
+      "lon": 12.171389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Krimml Waterfalls, with a total height of 380 metres, are the highest waterfall in Austria.",
+        "es": "Las cataratas o cascadas Krimml, con una altura total de 380 metros, forman la cascada más alta de Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Krimml Waterfalls",
+          "url": "https://en.wikipedia.org/wiki/Krimml_Waterfalls"
+        },
+        "es": {
+          "title": "Cataratas Krimml",
+          "url": "https://es.wikipedia.org/wiki/Cataratas_Krimml"
+        }
+      },
+      "image": {
+        "file": "1444_-_Nationalpark_Hohe_Tauern_-_Krimmler_Wasserfälle.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:1444_-_Nationalpark_Hohe_Tauern_-_Krimmler_Wasserf%C3%A4lle.JPG",
+        "author": "Andrew Bossi",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "at-altaussee",
+      "name": "Altaussee",
+      "area": "Liezen District",
+      "city": "Liezen District",
+      "wikidata": "Q262951",
+      "lat": 47.639444,
+      "lon": 13.763333,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Altaussee is a municipality and spa town in the district of Liezen in Styria, Austria.",
+        "es": "Altaussee es una localidad del distrito de Liezen, en el estado de Estiria, Austria, con una población estimada a principio del año 2025 de 1913 habitantes."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Altaussee",
+          "url": "https://en.wikipedia.org/wiki/Altaussee"
+        },
+        "es": {
+          "title": "Altaussee",
+          "url": "https://es.wikipedia.org/wiki/Altaussee"
+        }
+      },
+      "image": {
+        "file": "Altaussee_vom_Loser.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Altaussee_vom_Loser.JPG",
+        "author": "Svíčková",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "at-attersee",
+      "name": "Attersee",
+      "area": "Vöcklabruck District",
+      "city": "Vöcklabruck District",
+      "wikidata": "Q698516",
+      "lat": 47.86583,
+      "lon": 13.545,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Attersee is a lake in the Upper Austrian part of the Salzkammergut, in the district of Vöcklabruck, and lies at an elevation of 469 metres above the Adriatic.",
+        "es": "El lago Atter es un lago situado en el distrito de Vöcklabruck, al sureste del estado de Alta Austria, Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Attersee (lake)",
+          "url": "https://en.wikipedia.org/wiki/Attersee_(lake)"
+        },
+        "es": {
+          "title": "Lago Atter",
+          "url": "https://es.wikipedia.org/wiki/Lago_Atter"
+        }
+      },
+      "image": {
+        "file": "Attersee_-_Südostansicht.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Attersee_-_S%C3%BCdostansicht.JPG",
+        "author": "C.Stadler/Bwag",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-schonbrunn-zoo",
+      "name": "Schönbrunn Zoo",
+      "area": "Vienna",
+      "city": "Vienna",
+      "wikidata": "Q752283",
+      "website": "https://www.zoovienna.at",
+      "lat": 48.182222,
+      "lon": 16.3025,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Schönbrunn Zoo is a 17-hectare zoo in the city of Vienna, Austria.",
+        "es": "El Zoológico de Schönbrunn es un jardín zoológico ubicado en los terrenos del Palacio de Schönbrunn en Viena, la capital de Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Schönbrunn Zoo",
+          "url": "https://en.wikipedia.org/wiki/Sch%C3%B6nbrunn_Zoo"
+        },
+        "es": {
+          "title": "Zoológico de Schönbrunn",
+          "url": "https://es.wikipedia.org/wiki/Zool%C3%B3gico_de_Sch%C3%B6nbrunn"
+        }
+      },
+      "image": {
+        "file": "Tiergarten_Schoenbrunn_Koala_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tiergarten_Schoenbrunn_Koala_1.jpg",
+        "author": "Aconcagua",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "at-prater",
+      "name": "Prater",
+      "area": "Vienna",
+      "city": "Vienna",
+      "wikidata": "Q264752",
+      "lat": 48.216111,
+      "lon": 16.395556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Prater is a 6 km² public park in Vienna's 2nd district, Leopoldstadt.",
+        "es": "El Wiener Prater, conocido simplemente como Prater, es un gran parque público en Leopoldstadt, el segundo distrito de la ciudad de Viena."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Prater",
+          "url": "https://en.wikipedia.org/wiki/Prater"
+        },
+        "es": {
+          "title": "Prater",
+          "url": "https://es.wikipedia.org/wiki/Prater"
+        }
+      },
+      "image": {
+        "file": "13-05-24-wien-RalfR-200.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:13-05-24-wien-RalfR-200.jpg",
+        "author": "Ralf Roletschek",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "at-salzburg-cathedral",
+      "name": "Salzburg Cathedral",
+      "area": "Salzburg",
+      "city": "Salzburg",
+      "wikidata": "Q258908",
+      "lat": 47.797778,
+      "lon": 13.046944,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Salzburg Cathedral is the seventeenth-century Baroque cathedral of the Roman Catholic Archdiocese of Salzburg in the city of Salzburg, Austria, dedicated to Saint Rupert and Saint Vergilius.",
+        "es": "La catedral de Salzburgo es un edificio barroco del siglo XVII situado en el centro de la denominada ciudad vieja, diseñada al alero del estilo italiano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Salzburg Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Salzburg_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Salzburgo",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Salzburgo"
+        }
+      },
+      "image": {
+        "file": "Salzburg_cathedral_frontview01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Salzburg_cathedral_frontview01.jpg",
+        "author": "No machine-readable author provided. Sir James assumed (based on copyright claim",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "at-millstatter-see",
+      "name": "Millstätter See",
+      "area": "Carinthia",
+      "city": "Carinthia",
+      "wikidata": "Q220241",
+      "lat": 46.795,
+      "lon": 13.579722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Millstatt is a lake in Carinthia, Austria.",
+        "es": "Lake Millstatt is a lake in Carinthia, Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Millstätter See",
+          "url": "https://en.wikipedia.org/wiki/Millst%C3%A4tter_See"
+        },
+        "es": {
+          "title": "Millstätter See",
+          "url": "https://en.wikipedia.org/wiki/Millst%C3%A4tter_See"
+        }
+      },
+      "image": {
+        "file": "Aerial_image_of_Millstätter_See_(view_from_the_south).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Millst%C3%A4tter_See_(view_from_the_south).jpg",
+        "author": "Carsten Steger",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-traunsee",
+      "name": "Traunsee",
+      "area": "Gmunden",
+      "city": "Gmunden",
+      "wikidata": "Q250907",
+      "lat": 47.866667,
+      "lon": 13.8,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Traunsee is a lake in the Salzkammergut, Upper Austria, Austria.",
+        "es": "Traunsee is a lake in the Salzkammergut, Upper Austria, Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Traunsee",
+          "url": "https://en.wikipedia.org/wiki/Traunsee"
+        },
+        "es": {
+          "title": "Traunsee",
+          "url": "https://en.wikipedia.org/wiki/Traunsee"
+        }
+      },
+      "image": {
+        "file": "Aerial_image_of_the_Traunsee_(view_from_the_south).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_Traunsee_(view_from_the_south).jpg",
+        "author": "Carsten Steger",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-eisriesenwelt",
+      "name": "Eisriesenwelt",
+      "area": "Werfen",
+      "city": "Werfen",
+      "wikidata": "Q254117",
+      "lat": 47.502778,
+      "lon": 13.189722,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Eisriesenwelt is a natural limestone and ice cave located in Werfen, Austria, about 40 km south of Salzburg.",
+        "es": "Eisriesenwelt es un sistema de cuevas situado en los macizos de Tennen, cerca de Werfen."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Eisriesenwelt",
+          "url": "https://en.wikipedia.org/wiki/Eisriesenwelt"
+        },
+        "es": {
+          "title": "Eisriesenwelt",
+          "url": "https://es.wikipedia.org/wiki/Eisriesenwelt"
+        }
+      },
+      "image": {
+        "file": "Eisriesenwelt_Werfen_Austria_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eisriesenwelt_Werfen_Austria_02.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "at-bad-kleinkirchheim",
+      "name": "Bad Kleinkirchheim",
+      "area": "Spittal an der Drau District",
+      "city": "Spittal an der Drau District",
+      "wikidata": "Q649069",
+      "lat": 46.813611,
+      "lon": 13.792778,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bad Kleinkirchheim is a municipality and spa town in the district of Spittal an der Drau, in Carinthia, Austria.",
+        "es": "Bad Kleinkirchheim es una localidad del distrito de Spittal an der Drau, en el estado de Carintia, Austria, con una población estimada a principio del año 2018 de 1723 habitantes."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bad Kleinkirchheim",
+          "url": "https://en.wikipedia.org/wiki/Bad_Kleinkirchheim"
+        },
+        "es": {
+          "title": "Bad Kleinkirchheim",
+          "url": "https://es.wikipedia.org/wiki/Bad_Kleinkirchheim"
+        }
+      },
+      "image": {
+        "file": "Bkk_from_east.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bkk_from_east.jpg",
+        "author": "User:Popie",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "at-musikverein",
+      "name": "Musikverein",
+      "area": "Vienna",
+      "city": "Vienna",
+      "wikidata": "Q686720",
+      "website": "https://musikverein.at/",
+      "lat": 48.200489,
+      "lon": 16.372739,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Wiener Musikverein, commonly shortened to Musikverein, is a concert hall in Vienna, Austria, which is located in the Innere Stadt district.",
+        "es": "El Wiener Musikverein es un edificio situado en Viena, Austria, que alberga varias salas de conciertos y otras instituciones musicales, y que se abrió al público el 6 de enero de 1870."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Musikverein",
+          "url": "https://en.wikipedia.org/wiki/Musikverein"
+        },
+        "es": {
+          "title": "Musikverein",
+          "url": "https://es.wikipedia.org/wiki/Musikverein"
+        }
+      },
+      "image": {
+        "file": "Wien_-_Haus_des_Wiener_Musikvereins_(1).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wien_-_Haus_des_Wiener_Musikvereins_(1).JPG",
+        "author": "C.Stadler/Bwag",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-donauinsel",
+      "name": "Donauinsel",
+      "area": "Vienna",
+      "city": "Vienna",
+      "wikidata": "Q23249",
+      "lat": 48.229,
+      "lon": 16.40884,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Donauinsel is a long, narrow artificial island in central Vienna, Austria, lying between the Danube and the New Danube.",
+        "es": "Isla del Danubio es una isla artificial larga y estrecha, creada en el río Danubio a su paso por Viena, en Austria, entre el nuevo cauce del río y un canal paralelo denominado Neue Donau."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Donauinsel",
+          "url": "https://en.wikipedia.org/wiki/Donauinsel"
+        },
+        "es": {
+          "title": "Isla del Danubio",
+          "url": "https://es.wikipedia.org/wiki/Isla_del_Danubio"
+        }
+      },
+      "image": {
+        "file": "Wien_-_Donauinsel_mit_den_Donaubrücken.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wien_-_Donauinsel_mit_den_Donaubr%C3%BCcken.JPG",
+        "author": "C.Stadler/Bwag",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-achensee",
+      "name": "Achensee",
+      "area": "Achenkirch",
+      "city": "Achenkirch",
+      "wikidata": "Q615711",
+      "lat": 47.433333,
+      "lon": 11.716667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Achen is a lake in Austria, north of Jenbach in Tyrol.",
+        "es": "El Achensee es un lago ubicado en el estado de Tirol, Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Achen Lake",
+          "url": "https://en.wikipedia.org/wiki/Achen_Lake"
+        },
+        "es": {
+          "title": "Lago Achen",
+          "url": "https://es.wikipedia.org/wiki/Lago_Achen"
+        }
+      },
+      "image": {
+        "file": "380_m_über_dem_Inntal_liegt_der_Achensee._14.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:380_m_%C3%BCber_dem_Inntal_liegt_der_Achensee._14.jpg",
+        "author": "Holger Uwe Schmitt",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-votive-church",
+      "name": "Votive Church",
+      "area": "Vienna",
+      "city": "Vienna",
+      "wikidata": "Q254476",
+      "website": "https://www.votivkirche.at/",
+      "lat": 48.21545,
+      "lon": 16.3591,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Votivkirche is a neo-Gothic style church located on the Ringstraße in Vienna, Austria.",
+        "es": "La iglesia Votiva del Divino Salvador, conocida más simplemente como Iglesia Votiva es un templo de culto católico situado en Viena, Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Votivkirche, Vienna",
+          "url": "https://en.wikipedia.org/wiki/Votivkirche%2C_Vienna"
+        },
+        "es": {
+          "title": "Iglesia votiva (Viena)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_votiva_(Viena)"
+        }
+      },
+      "image": {
+        "file": "Wien_-_Votivkirche_(a).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wien_-_Votivkirche_(a).JPG",
+        "author": "C.Stadler/Bwag",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-vindobona",
+      "name": "Vindobona",
+      "area": "Vienna",
+      "city": "Vienna",
+      "wikidata": "Q871525",
+      "lat": 48.210833,
+      "lon": 16.370278,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Vindobona was a Roman military camp in the province of Pannonia, located on the site of the modern city of Vienna in Austria.",
+        "es": "Vindobona fue un campamento militar romano de la provincia de Panonia, localizado en el sitio de la moderna ciudad de Viena en Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vindobona",
+          "url": "https://en.wikipedia.org/wiki/Vindobona"
+        },
+        "es": {
+          "title": "Vindobona",
+          "url": "https://es.wikipedia.org/wiki/Vindobona"
+        }
+      },
+      "image": {
+        "file": "Wien.Hofburg10.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wien.Hofburg10.jpg",
+        "author": "Georges Jansoone",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "at-graz-cathedral",
+      "name": "Graz Cathedral",
+      "area": "Graz",
+      "city": "Graz",
+      "wikidata": "Q262563",
+      "website": "https://www.katholische-kirche-steiermark.at/portal/pfarren",
+      "lat": 47.071944,
+      "lon": 15.442222,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Graz Cathedral, also called St. Giles' Cathedral, is the Roman Catholic cathedral of the Diocese of Graz–Seckau in Graz, Austria.",
+        "es": "La catedral de San Gil o simplemente catedral de Graz es el nombre que recibe un edificio religioso afiliado a la Iglesia católica que constituye uno de los monumentos más importantes, tanto histórico como cultural y…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Graz Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Graz_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de San Gil (Graz)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Gil_(Graz)"
+        }
+      },
+      "image": {
+        "file": "Graz_Dom_und_Mausoleum_20061126.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Graz_Dom_und_Mausoleum_20061126.jpg",
+        "author": "Marion Schneider & Christoph Aistleitner",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "at-schlossberg",
+      "name": "Schlossberg",
+      "area": "Graz",
+      "city": "Graz",
+      "wikidata": "Q264176",
+      "lat": 47.076111,
+      "lon": 15.437222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Schlossberg is a tree-clad hill and the site of a fortress in the centre of the city of Graz, Austria.",
+        "es": "El Schloßberg o Schlossberg se trata de una colina revestida de árboles, y es el sitio de una fortaleza realizada en dolomía en el centro de la ciudad de Graz, en Estiria, Austria a orillas del río Mur, extendiéndose…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Schlossberg (Graz)",
+          "url": "https://en.wikipedia.org/wiki/Schlossberg_(Graz)"
+        },
+        "es": {
+          "title": "Schloßberg",
+          "url": "https://es.wikipedia.org/wiki/Schlo%C3%9Fberg"
+        }
+      },
+      "image": {
+        "file": "16-07-06-Rathaus_Graz_Turmblick-RR2_0275.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:16-07-06-Rathaus_Graz_Turmblick-RR2_0275.jpg",
+        "author": "Ralf Roletschek",
+        "license": "CC BY-SA 3.0 at"
+      }
+    },
+    {
+      "id": "at-kunsthaus-graz",
+      "name": "Kunsthaus Graz",
+      "area": "Graz",
+      "city": "Graz",
+      "wikidata": "Q597137",
+      "website": "https://www.museum-joanneum.at/en/kunsthaus-graz",
+      "lat": 47.0714,
+      "lon": 15.434,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Kunsthaus Graz, Grazer Kunsthaus, or Graz Art Museum was built as part of the European Capital of Culture celebrations in 2003 and has since become an architectural landmark in Graz, Austria.",
+        "es": "La Kunsthaus Graz es un museo austríaco obra de Spacelab."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kunsthaus Graz",
+          "url": "https://en.wikipedia.org/wiki/Kunsthaus_Graz"
+        },
+        "es": {
+          "title": "Kunsthaus Graz",
+          "url": "https://es.wikipedia.org/wiki/Kunsthaus_Graz"
+        }
+      },
+      "image": {
+        "file": "Graz_Kunsthaus_vom_Schlossberg_20061126.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Graz_Kunsthaus_vom_Schlossberg_20061126.jpg",
+        "author": "Marion Schneider & Christoph Aistleitner",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "at-mariatrost-basilica",
+      "name": "Mariatrost Basilica",
+      "area": "Graz",
+      "city": "Graz",
+      "wikidata": "Q675795",
+      "website": "https://www.katholische-kirche-steiermark.at/goto/instvisitenkarte/1479/Pfarre_Graz_Mariahilf",
+      "lat": 47.107222,
+      "lon": 15.491389,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Baroque Mariatrost Basilica on top of the Purberg hill in Mariatrost, a district of Graz, is one of the most famous pilgrimage sites of Styria in Austria.",
+        "es": "La Basílica de Mariatrost, situada en la cima de la colina Purberg en el distrito Mariatrost de Graz, Austria, es uno de los lugares de peregrinación más importantes de Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mariatrost Basilica",
+          "url": "https://en.wikipedia.org/wiki/Mariatrost_Basilica"
+        },
+        "es": {
+          "title": "Basílica de Mariatrost",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_Mariatrost"
+        }
+      },
+      "image": {
+        "file": "Basilika-mariatrost-hoch-10-2021.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Basilika-mariatrost-hoch-10-2021.jpg",
+        "author": "Strohmi93",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-murinsel",
+      "name": "Murinsel",
+      "area": "Graz",
+      "city": "Graz",
+      "wikidata": "Q872931",
+      "lat": 47.073056,
+      "lon": 15.434444,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Murinsel in Graz, Austria, is an artificial floating \"island\" in the middle of the river Mur and links the two banks on both sides.",
+        "es": "Murinsel es una plataforma construida sobre el río Mura y que conecta sus dos orillas con sendas pasarelas peatonales, a modo de puente, en la ciudad austriaca de Graz."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Murinsel",
+          "url": "https://en.wikipedia.org/wiki/Murinsel"
+        },
+        "es": {
+          "title": "Murinsel",
+          "url": "https://es.wikipedia.org/wiki/Murinsel"
+        }
+      },
+      "image": {
+        "file": "Murinsel_nah.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Murinsel_nah.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "at-graz-opera",
+      "name": "Graz Opera",
+      "area": "Graz",
+      "city": "Graz",
+      "wikidata": "Q618239",
+      "lat": 47.069,
+      "lon": 15.4456,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Graz Opera is an Austrian opera house and opera company based in Graz.",
+        "es": "La Ópera de Graz se erigió como un teatro de estilo neobarroco y está situado en el centro de la ciudad de Graz, en el llamado \"anillo de óperas\"."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Graz Opera",
+          "url": "https://en.wikipedia.org/wiki/Graz_Opera"
+        },
+        "es": {
+          "title": "Ópera de Graz",
+          "url": "https://es.wikipedia.org/wiki/%C3%93pera_de_Graz"
+        }
+      },
+      "image": {
+        "file": "Graz_-_Opernhaus_(a).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Graz_-_Opernhaus_(a).JPG",
+        "author": "C.Stadler/Bwag",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-synagoge-graz",
+      "name": "Synagoge, Graz",
+      "area": "Graz",
+      "city": "Graz",
+      "wikidata": "Q681038",
+      "lat": 47.0641,
+      "lon": 15.4337,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The New Synagogue of Graz is a Jewish congregation and synagogue, located on David-Herzog-Place, on the right bank of the Mur River in the Gries neighborhood, in the city of Graz, Austria.",
+        "es": "La Sinagoga de Graz es una congregación y sinagoga ubicada en la plaza David-Herzog, en la margen derecha del río Mur, en el distrito de Gries, en la ciudad de Graz, Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "New Synagogue of Graz",
+          "url": "https://en.wikipedia.org/wiki/New_Synagogue_of_Graz"
+        },
+        "es": {
+          "title": "Sinagoga de Graz",
+          "url": "https://es.wikipedia.org/wiki/Sinagoga_de_Graz"
+        }
+      },
+      "image": {
+        "file": "WRBaier11_1096.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:WRBaier11_1096.jpg",
+        "author": "Willard (talk)",
+        "license": "CC BY-SA 3.0 at"
+      }
+    },
+    {
+      "id": "at-rein-abbey",
+      "name": "Rein Abbey",
+      "area": "Graz",
+      "city": "Graz",
+      "wikidata": "Q385567",
+      "website": "https://www.stift-rein.at",
+      "lat": 47.1351,
+      "lon": 15.2851,
+      "phone": "+43 3124 51621",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rein Abbey is a Cistercian monastery in Rein near Gratwein, Styria, in Austria.",
+        "es": "Rein Abbey is a Cistercian monastery in Rein near Gratwein, Styria, in Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rein Abbey, Austria",
+          "url": "https://en.wikipedia.org/wiki/Rein_Abbey%2C_Austria"
+        },
+        "es": {
+          "title": "Rein Abbey, Austria",
+          "url": "https://en.wikipedia.org/wiki/Rein_Abbey%2C_Austria"
+        }
+      },
+      "image": {
+        "file": "Stiftskirche_Rein_Winter_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Stiftskirche_Rein_Winter_01.jpg",
+        "author": "Nxr-at",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "at-universalmuseum-joanneum",
+      "name": "Universalmuseum Joanneum",
+      "area": "Graz",
+      "city": "Graz",
+      "wikidata": "Q623017",
+      "lat": 47.068611,
+      "lon": 15.4375,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Universalmuseum Joanneum is a multidisciplinary museum with buildings in several locations in the state of Styria, Austria.",
+        "es": "El Museo Universal Joanneum tiene su sede principal en Graz, la capital del Estado Federado de Estiria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Universalmuseum Joanneum",
+          "url": "https://en.wikipedia.org/wiki/Universalmuseum_Joanneum"
+        },
+        "es": {
+          "title": "Museo Universal Joanneum",
+          "url": "https://es.wikipedia.org/wiki/Museo_Universal_Joanneum"
+        }
+      },
+      "image": {
+        "file": "Graz_Altes_Joanneum.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Graz_Altes_Joanneum.jpg",
+        "author": "Photo: Andreas Praefcke",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "at-lurgrotte",
+      "name": "Lurgrotte",
+      "area": "Graz",
+      "city": "Graz",
+      "wikidata": "Q1275277",
+      "lat": 47.227,
+      "lon": 15.3796,
+      "phone": "+43 3127 2580",
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Lurgrotte karst cave is the largest cave in the Eastern Alps of Styria, Austria.",
+        "es": "La Lurgrotte es una cueva kárstica, la cueva más grande de los Alpes orientales de Estiria, Austria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lurgrotte",
+          "url": "https://en.wikipedia.org/wiki/Lurgrotte"
+        },
+        "es": {
+          "title": "Lurgrotte",
+          "url": "https://es.wikipedia.org/wiki/Lurgrotte"
+        }
+      },
+      "image": {
+        "file": "Graz_Umgebung_Lurgrotte2836_1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Graz_Umgebung_Lurgrotte2836_1.JPG",
+        "author": "Christian Pirkl",
+        "license": "CC BY-SA 3.0 at"
       }
     }
   ]

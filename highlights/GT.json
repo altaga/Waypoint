@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -211,6 +217,2271 @@
       "website": "https://www.aurorazoo.org.gt/",
       "lat": 14.60001,
       "lon": -90.52666
+    },
+    {
+      "id": "gt-quirigua",
+      "name": "Quiriguá",
+      "area": "Izabal Department",
+      "city": "Izabal Department",
+      "wikidata": "Q318422",
+      "lat": 15.269444,
+      "lon": -89.040278,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Quiriguá is an ancient Maya archaeological site in the department of Izabal in south-eastern Guatemala.",
+        "es": "Quiriguá, cuyo nombre original fue Ihk' Way Nal, es un yacimiento arqueológico perteneciente a la antigua civilización maya, ubicado en el departamento de Izabal en el noreste de Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Quiriguá",
+          "url": "https://en.wikipedia.org/wiki/Quirigu%C3%A1"
+        },
+        "es": {
+          "title": "Quiriguá",
+          "url": "https://es.wikipedia.org/wiki/Quirigu%C3%A1"
+        }
+      },
+      "image": {
+        "file": "Escultura_de_Quiriguá.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Escultura_de_Quirigu%C3%A1.jpg",
+        "author": "S2RD2",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gt-volcan-de-fuego",
+      "name": "Volcán de Fuego",
+      "area": "Villa Nueva",
+      "city": "Villa Nueva",
+      "wikidata": "Q859376",
+      "lat": 14.474722,
+      "lon": -90.880833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Volcán de Fuego or Chi Q'aq' is an active stratovolcano in Guatemala, on the borders of Chimaltenango, Escuintla and Sacatepéquez departments.",
+        "es": "El volcán de Fuego es a lo que se le conoce como un estratovolcán activo situado entre los departamentos de Sacatepéquez, Escuintla y Chimaltenango, al centro-sur de Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Volcán de Fuego",
+          "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_de_Fuego"
+        },
+        "es": {
+          "title": "Volcán de Fuego",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_de_Fuego"
+        }
+      },
+      "image": {
+        "file": "Volcán_de_Fuego_and_Acatenango.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volc%C3%A1n_de_Fuego_and_Acatenango.jpg",
+        "author": "Scottydude",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gt-lago-de-atitlan",
+      "name": "Lago de Atitlán",
+      "area": "Sololá Department",
+      "city": "Sololá Department",
+      "wikidata": "Q273276",
+      "website": "https://atitlan.gt/",
+      "lat": 14.7,
+      "lon": -91.2,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Atitlán is a large natural lake in the Guatemalan Highlands of the Sierra Madre mountain range.",
+        "es": "El Lago de Atitlán es el lago más profundo de Centroamérica y es el segundo lago más grande por superficie de Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Atitlán",
+          "url": "https://en.wikipedia.org/wiki/Lake_Atitl%C3%A1n"
+        },
+        "es": {
+          "title": "Lago de Atitlán",
+          "url": "https://es.wikipedia.org/wiki/Lago_de_Atitl%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Lago_de_Atitlan_seen_from_orbit.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lago_de_Atitlan_seen_from_orbit.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gt-volcan-tajumulco",
+      "name": "Volcán Tajumulco",
+      "area": "San Marcos Department",
+      "city": "San Marcos Department",
+      "wikidata": "Q818467",
+      "lat": 15.033333,
+      "lon": -91.9,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Volcán Tajumulco is a large stratovolcano in the department of San Marcos in western Guatemala.",
+        "es": "El Volcán Tajumulco es el volcán más alto de Guatemala, con una altura de 4.222 m s.n.m es el punto más elevado de Guatemala y de toda América Central."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Volcán Tajumulco",
+          "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Tajumulco"
+        },
+        "es": {
+          "title": "Volcán Tajumulco",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Tajumulco"
+        }
+      },
+      "image": {
+        "file": "Tajumulco_volcano_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tajumulco_volcano_01.jpg",
+        "author": "JoePhoto",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gt-santa-maria",
+      "name": "Santa María",
+      "area": "Quetzaltenango Department",
+      "city": "Quetzaltenango Department",
+      "wikidata": "Q204657",
+      "lat": 14.755833,
+      "lon": -91.551944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Santa María Volcano is a large active volcano in the western highlands of Guatemala, in the Quetzaltenango Department near the city of Quetzaltenango.",
+        "es": "El volcán Santa María es un gran volcán activo en la zona montañosa del occidente de Guatemala, cerca de la ciudad de Quetzaltenango."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Santa María (volcano)",
+          "url": "https://en.wikipedia.org/wiki/Santa_Mar%C3%ADa_(volcano)"
+        },
+        "es": {
+          "title": "Volcán Santa María",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Santa_Mar%C3%ADa"
+        }
+      },
+      "image": {
+        "file": "Santiaguito_from_Santamaria.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Santiaguito_from_Santamaria.jpg",
+        "author": "The original uploader was Worldtraveller at English Wikipedia.",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-pacaya",
+      "name": "Pacaya",
+      "area": "Villa Nueva",
+      "city": "Villa Nueva",
+      "wikidata": "Q753924",
+      "lat": 14.380833,
+      "lon": -90.601111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pacaya is an active complex volcano in Guatemala, which first erupted approximately 23,000 years ago and has erupted at least 23 times since the Spanish conquest of Guatemala.",
+        "es": "El Volcán de Pacaya es un volcán activo ubicado en el municipio de Amatitlán en el departamento de Guatemala y en el municipio de San Vicente Pacaya en el departamento de Escuintla, en Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pacaya",
+          "url": "https://en.wikipedia.org/wiki/Pacaya"
+        },
+        "es": {
+          "title": "Volcán de Pacaya",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_de_Pacaya"
+        }
+      },
+      "image": {
+        "file": "Pacaya_erupting_in_1976.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pacaya_erupting_in_1976.jpg",
+        "author": "USGS",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gt-lake-izabal",
+      "name": "Lake Izabal",
+      "area": "Izabal Department",
+      "city": "Izabal Department",
+      "wikidata": "Q138637",
+      "lat": 15.5,
+      "lon": -89.166667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Izabal, also known as the Golfo Dulce, is the largest lake in Guatemala with a surface area of 672 km2 and a maximum depth of 18 m.",
+        "es": "El lago de Izabal, también conocido como golfo Dulce, es un lago que se encuentra en el departamento de Izabal, cerca de la costa del mar Caribe de Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Izabal",
+          "url": "https://en.wikipedia.org/wiki/Lake_Izabal"
+        },
+        "es": {
+          "title": "Lago de Izabal",
+          "url": "https://es.wikipedia.org/wiki/Lago_de_Izabal"
+        }
+      },
+      "image": {
+        "file": "Festung_am_Lago_Izabal,Guatemala.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Festung_am_Lago_Izabal%2CGuatemala.JPG",
+        "author": "Willyman",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gt-takalik-abaj",
+      "name": "Takalik Abaj",
+      "area": "El Asintal",
+      "city": "El Asintal",
+      "wikidata": "Q1509537",
+      "lat": 14.645833,
+      "lon": -91.736111,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Tak'alik Ab'aj is a pre-Columbian archaeological site in Guatemala.",
+        "es": "El Parque Arqueológico Nacional Takalik Abaj es un yacimiento arqueológico de la cultura maya prehispánica con influencia olmeca durante el período preclásico medio y se cree que su nombre original habría sido Kooja."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Takalik Abaj",
+          "url": "https://en.wikipedia.org/wiki/Takalik_Abaj"
+        },
+        "es": {
+          "title": "Takalik Abaj",
+          "url": "https://es.wikipedia.org/wiki/Takalik_Abaj"
+        }
+      },
+      "image": {
+        "file": "ESTRUCTURA_12_MUSEO_AL_AIRE_LIBRE_FACHADA_OESTE_-_TAKALIK_ABAJ.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ESTRUCTURA_12_MUSEO_AL_AIRE_LIBRE_FACHADA_OESTE_-_TAKALIK_ABAJ.png",
+        "author": "Gobierno de Guatemala",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gt-acatenango",
+      "name": "Acatenango",
+      "area": "Villa Nueva",
+      "city": "Villa Nueva",
+      "wikidata": "Q338192",
+      "lat": 14.500833,
+      "lon": -90.875833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Acatenango is a stratovolcano in Guatemala, close to the city of Antigua.",
+        "es": "El Acatenango es un estratovolcán de Guatemala, el tercer volcán más alto del país, Acatenango se encuentra unido al volcán de Fuego, y la unión de ambos, es conocida como «La Horqueta»; de hecho, el macizo de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Acatenango",
+          "url": "https://en.wikipedia.org/wiki/Acatenango"
+        },
+        "es": {
+          "title": "Volcán Acatenango",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Acatenango"
+        }
+      },
+      "image": {
+        "file": "Volcan_de_Fuego_y_Acatenango.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volcan_de_Fuego_y_Acatenango.jpg",
+        "author": "Javier Ruata",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gt-volcan-tacana",
+      "name": "Volcán Tacaná",
+      "area": "San Marcos Department",
+      "city": "San Marcos Department",
+      "wikidata": "Q1752870",
+      "lat": 15.1334,
+      "lon": -92.1058,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The volcano Tacaná is the second highest peak in Central America at 4,060 metres, located in the Sierra Madre de Chiapas of western Guatemala and southern Mexico.",
+        "es": "El volcán Tacaná es un volcán de América Central, que se ubica en el límite entre Guatemala y México."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Volcán Tacaná",
+          "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Tacan%C3%A1"
+        },
+        "es": {
+          "title": "Volcán Tacaná",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Tacan%C3%A1"
+        }
+      },
+      "image": {
+        "file": "Volcal-tucan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volcal-tucan.jpg",
+        "author": "v. hess, photographer, editor Uploaded by Victrav at en.wikipedia",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "gt-volcan-de-agua",
+      "name": "Volcán de Agua",
+      "area": "Villa Nueva",
+      "city": "Villa Nueva",
+      "wikidata": "Q1327687",
+      "lat": 14.465,
+      "lon": -90.742778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Volcán de Agua is an extinct stratovolcano located in the departments of Sacatepéquez and Escuintla in Guatemala.",
+        "es": "El Volcán de Agua, también conocido como Hunahpú por los mayas, es un volcán inactivo situado entre los municipios de Santa María de Jesús y Ciudad Vieja, en el departamento de Sacatepéquez; y los municipios de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Volcán de Agua",
+          "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_de_Agua"
+        },
+        "es": {
+          "title": "Volcán de Agua",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_de_Agua"
+        }
+      },
+      "image": {
+        "file": "VolcanAguaPascuas.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:VolcanAguaPascuas.jpg",
+        "author": "Photo by Infrogmation, 1980.",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-volcan-atitlan",
+      "name": "Volcán Atitlán",
+      "area": "Sololá Department",
+      "city": "Sololá Department",
+      "wikidata": "Q377571",
+      "lat": 14.583333,
+      "lon": -91.186111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Volcán Atitlán is a large, conical, active stratovolcano adjacent to the caldera of Lake Atitlán in the Guatemalan Highlands of the Sierra Madre de Chiapas range.",
+        "es": "El volcán de Atitlán es un estratovolcán ubicado al lado sur de la caldera del lago de Atitlán en Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Volcán Atitlán",
+          "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Atitl%C3%A1n"
+        },
+        "es": {
+          "title": "Volcán de Atitlán",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_de_Atitl%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Atitlan-desde-toliman.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Atitlan-desde-toliman.jpg",
+        "author": "Sergio Ovalle",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "gt-lake-peten-itza",
+      "name": "Lake Petén Itzá",
+      "area": "Guatemala City",
+      "city": "Guatemala City",
+      "wikidata": "Q1347461",
+      "lat": 16.983333,
+      "lon": -89.8,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Petén Itzá is a lake in the northern Petén Department in Guatemala.",
+        "es": "El Lago Petén Itzá es un lago en el departamento de Petén al norte de Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Petén Itzá",
+          "url": "https://en.wikipedia.org/wiki/Lake_Pet%C3%A9n_Itz%C3%A1"
+        },
+        "es": {
+          "title": "Lago Petén Itzá",
+          "url": "https://es.wikipedia.org/wiki/Lago_Pet%C3%A9n_Itz%C3%A1"
+        }
+      },
+      "image": {
+        "file": "Lake_Peten_Itza_NASA.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Peten_Itza_NASA.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gt-piedras-negras",
+      "name": "Piedras Negras",
+      "area": "Mixco",
+      "city": "Mixco",
+      "wikidata": "Q2031261",
+      "lat": 17.166667,
+      "lon": -91.2625,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Piedras Negras is the modern name for an ancient, ruined city of the pre-Columbian Maya civilization located on the north bank of the Usumacinta River in the Petén department of northwestern Guatemala.",
+        "es": "Piedras Negras cuyo nombre original fue Yo’ki’b, es un sitio arqueológico prehispánico de la civilización maya situado en la cuenca del Usumacinta, dentro del parque nacional Sierra del Lacandón."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Piedras Negras (Maya site)",
+          "url": "https://en.wikipedia.org/wiki/Piedras_Negras_(Maya_site)"
+        },
+        "es": {
+          "title": "Piedras Negras (sitio arqueológico)",
+          "url": "https://es.wikipedia.org/wiki/Piedras_Negras_(sitio_arqueol%C3%B3gico)"
+        }
+      },
+      "image": {
+        "file": "Piedrasnegrastrono.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Piedrasnegrastrono.jpg",
+        "author": "No machine-readable author provided. Authenticmaya~commonswiki assumed (based on",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "gt-lake-amatitlan",
+      "name": "Lake Amatitlán",
+      "area": "Villa Nueva",
+      "city": "Villa Nueva",
+      "wikidata": "Q258397",
+      "lat": 14.4527,
+      "lon": -90.5659,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Amatitlán is a lake located within the Amatitlán caldera in south-central Guatemala, fairly close to Guatemala City.",
+        "es": "El lago de Amatitlán es un lago de origen volcánico ubicado en Guatemala a 26 km de la Ciudad de Guatemala, a una altitud de 1188 m s."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Amatitlán",
+          "url": "https://en.wikipedia.org/wiki/Lake_Amatitl%C3%A1n"
+        },
+        "es": {
+          "title": "Lago Amatitlán",
+          "url": "https://es.wikipedia.org/wiki/Lago_Amatitl%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Pacaya-09.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pacaya-09.JPG",
+        "author": "Rolf Cosar",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "gt-iximche",
+      "name": "Iximche",
+      "area": "Tecpán Guatemala",
+      "city": "Tecpán Guatemala",
+      "wikidata": "Q263509",
+      "lat": 14.7358,
+      "lon": -90.9962,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Iximcheʼ is a Pre-Columbian Mesoamerican archaeological site in the western highlands of Guatemala.",
+        "es": "Iximché, es un sitio arqueológico maya precolombino en Chimaltenango, Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Iximche",
+          "url": "https://en.wikipedia.org/wiki/Iximche"
+        },
+        "es": {
+          "title": "Iximché",
+          "url": "https://es.wikipedia.org/wiki/Iximch%C3%A9"
+        }
+      },
+      "image": {
+        "file": "Iximché.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iximch%C3%A9.JPG",
+        "author": "Colocho",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gt-volcan-toliman",
+      "name": "Volcán Tolimán",
+      "area": "Sololá Department",
+      "city": "Sololá Department",
+      "wikidata": "Q1880965",
+      "lat": 14.6125,
+      "lon": -91.189167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tolimán, also known as Volcán Tolimán, is a stratovolcano in Guatemala, on the southern shores of Lake Atitlán.",
+        "es": "El volcán Tolimán es un estratovolcán de Guatemala situado a orillas del lago de Atitlán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tolimán (volcano)",
+          "url": "https://en.wikipedia.org/wiki/Tolim%C3%A1n_(volcano)"
+        },
+        "es": {
+          "title": "Volcán Tolimán",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Tolim%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Toliman_Volcano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Toliman_Volcano.jpg",
+        "author": "gringologue from Antigua, Guatemala",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "gt-dulce-river",
+      "name": "Dulce River",
+      "area": "Izabal Department",
+      "city": "Izabal Department",
+      "wikidata": "Q2048161",
+      "lat": 15.7475,
+      "lon": -88.872222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Dulce River is a river in Guatemala, completely contained within the department of Izabal.",
+        "es": "El río Dulce se encuentra en el departamento de Izabal, Guatemala, entre el lago de Izabal y la bahía de Amatique de alrededor de 43 km de largo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dulce River (Guatemala)",
+          "url": "https://en.wikipedia.org/wiki/Dulce_River_(Guatemala)"
+        },
+        "es": {
+          "title": "Río Dulce (Guatemala)",
+          "url": "https://es.wikipedia.org/wiki/R%C3%ADo_Dulce_(Guatemala)"
+        }
+      },
+      "image": {
+        "file": "Rio_Dulce_Guatemala02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rio_Dulce_Guatemala02.jpg",
+        "author": "MacAllenBrothers'",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "gt-dos-pilas",
+      "name": "Dos Pilas",
+      "area": "Petén Department",
+      "city": "Petén Department",
+      "wikidata": "Q909286",
+      "lat": 16.445833,
+      "lon": -90.295833,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Dos Pilas is a Pre-Columbian site of the Maya civilization located in what is now the department of Petén, Guatemala.",
+        "es": "Dos Pilas antiguamente llamada Mutul es un sitio precolombino de la civilización maya ubicado en lo que hoy es el departamento de Petén, al norte de Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dos Pilas",
+          "url": "https://en.wikipedia.org/wiki/Dos_Pilas"
+        },
+        "es": {
+          "title": "Dos Pilas",
+          "url": "https://es.wikipedia.org/wiki/Dos_Pilas"
+        }
+      },
+      "image": {
+        "file": "Dos_Pilas_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dos_Pilas_1.jpg",
+        "author": "Simon Burchell",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-quiche-kingdom-of-q-umarkaj",
+      "name": "Quiché' Kingdom of Q'umarkaj",
+      "area": "Quiché Department",
+      "city": "Quiché Department",
+      "wikidata": "Q2121220",
+      "lat": 15.023528,
+      "lon": -91.171989,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Kʼicheʼ kingdom of Qʼumarkaj was a state in the highlands of modern-day Guatemala which was founded by the Kʼicheʼ Maya in the thirteenth century, and which expanded through the fifteenth century until it was…",
+        "es": "El reino quiché fue un Estado en el altiplano de Guatemala, establecido por los maya quiché a inicios del siglo XIII."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kʼicheʼ kingdom of Qʼumarkaj",
+          "url": "https://en.wikipedia.org/wiki/K%CA%BCiche%CA%BC_kingdom_of_Q%CA%BCumarkaj"
+        },
+        "es": {
+          "title": "Reino quiché de Q'umarkaj",
+          "url": "https://es.wikipedia.org/wiki/Reino_quich%C3%A9_de_Q'umarkaj"
+        }
+      },
+      "image": {
+        "file": "Utatlan1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Utatlan1.jpg",
+        "author": "HJPD",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-kaminaljuyu",
+      "name": "Kaminaljuyu",
+      "area": "Guatemala City",
+      "city": "Guatemala City",
+      "wikidata": "Q1081581",
+      "lat": 14.6328,
+      "lon": -90.5491,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kaminaljuyu is a Pre-Columbian site of the Maya civilization located in Guatemala City.",
+        "es": "Kaminaljuyú, es un sitio arqueológico prehispánico de la cultura maya ubicado en las tierras bajas mayas de Guatemala a orillas del extinto Lago Miraflores, dentro del área de la actual Ciudad de Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kaminaljuyu",
+          "url": "https://en.wikipedia.org/wiki/Kaminaljuyu"
+        },
+        "es": {
+          "title": "Kaminaljuyú",
+          "url": "https://es.wikipedia.org/wiki/Kaminaljuy%C3%BA"
+        }
+      },
+      "image": {
+        "file": "Kaminaljuyu_11.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaminaljuyu_11.jpg",
+        "author": "Simon Burchell",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-zaculeu",
+      "name": "Zaculeu",
+      "area": "Mixco",
+      "city": "Mixco",
+      "wikidata": "Q139979",
+      "lat": 15.333794,
+      "lon": -91.492744,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Zaculeu or Saqulew is a pre-Columbian Maya archaeological site in the highlands of western Guatemala, about 3.7 kilometres outside the modern city of Huehuetenango.",
+        "es": "Zaculeu o Saqulew del maya quiché que significa «Tierra blanca», su nombre original fue Chnab' jul del maya mam que significa «Entre barrancos», es un sitio arqueológico maya precolombino ubicado en Huehuetenango, en…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zaculeu",
+          "url": "https://en.wikipedia.org/wiki/Zaculeu"
+        },
+        "es": {
+          "title": "Zaculeu",
+          "url": "https://es.wikipedia.org/wiki/Zaculeu"
+        }
+      },
+      "image": {
+        "file": "Zaculeu_Temple_House_1979.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zaculeu_Temple_House_1979.jpg",
+        "author": "Infrogmation of New Orleans",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-aguateca",
+      "name": "Aguateca",
+      "area": "Sayaxché",
+      "city": "Sayaxché",
+      "wikidata": "Q398094",
+      "lat": 16.411944,
+      "lon": -90.188333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Aguateca is a Maya site located in northern Guatemala's Petexbatun Basin, in the department of Petén.",
+        "es": "Aguateca o por su nombre original K'inich Pa' Wits es un sitio arqueológico del clásico tardío de los mayas, y pertenece a las ciudades de la cuenca del Usumacinta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aguateca",
+          "url": "https://en.wikipedia.org/wiki/Aguateca"
+        },
+        "es": {
+          "title": "Aguateca",
+          "url": "https://es.wikipedia.org/wiki/Aguateca"
+        }
+      },
+      "image": {
+        "file": "Aguateca-plaza.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aguateca-plaza.jpg",
+        "author": "Sébastian Homberger",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "gt-mixco-viejo",
+      "name": "Mixco Viejo",
+      "area": "Mixco",
+      "city": "Mixco",
+      "wikidata": "Q652792",
+      "lat": 14.871667,
+      "lon": -90.664167,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Mixco Viejo, occasionally called Jilotepeque Viejo, is an archaeological site in the north east of the Chimaltenango department of Guatemala, some 50 kilometres to the north of Guatemala City and 4 kilometres from…",
+        "es": "Mixco Viejo, del náhuatl también conocido como Jilotepeque Viejo, sin embargo su nombre original fue Chuwa Nima 'Ab' Äj' del Kaqchikel que significa, es un sitio arqueológico situado en el nororiente del departamento…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mixco Viejo",
+          "url": "https://en.wikipedia.org/wiki/Mixco_Viejo"
+        },
+        "es": {
+          "title": "Mixco Viejo",
+          "url": "https://es.wikipedia.org/wiki/Mixco_Viejo"
+        }
+      },
+      "image": {
+        "file": "Mixco_Viejo_1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mixco_Viejo_1.JPG",
+        "author": "Simon Burchell",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-volcan-san-pedro",
+      "name": "Volcán San Pedro",
+      "area": "Sololá Department",
+      "city": "Sololá Department",
+      "wikidata": "Q1575468",
+      "lat": 14.655833,
+      "lon": -91.265833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Volcán San Pedro is a 3,020-metre stratovolcano on the shores of Lago de Atitlán, in the Sololá Department of southern Guatemala.",
+        "es": "Volcán San Pedro is a 3,020-metre stratovolcano on the shores of Lago de Atitlán, in the Sololá Department of southern Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Volcán San Pedro",
+          "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_San_Pedro"
+        },
+        "es": {
+          "title": "Volcán San Pedro",
+          "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_San_Pedro"
+        }
+      },
+      "image": {
+        "file": "Atitlan-Volcan-San-Pedro.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Atitlan-Volcan-San-Pedro.jpg",
+        "author": "Uspn",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-chingo",
+      "name": "Chingo",
+      "area": "Jutiapa Department",
+      "city": "Jutiapa Department",
+      "wikidata": "Q1809388",
+      "lat": 14.12,
+      "lon": -89.73,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Volcán Chingo is a stratovolcano on the border between Guatemala and El Salvador.",
+        "es": "Volcán Chingo is a stratovolcano on the border between Guatemala and El Salvador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chingo",
+          "url": "https://en.wikipedia.org/wiki/Chingo"
+        },
+        "es": {
+          "title": "Chingo",
+          "url": "https://en.wikipedia.org/wiki/Chingo"
+        }
+      },
+      "image": {
+        "file": "Chingo_volcano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chingo_volcano.jpg",
+        "author": "Giuseppina Kysar",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gt-peten-basin",
+      "name": "Petén Basin",
+      "area": "Flores",
+      "city": "Flores",
+      "wikidata": "Q2164403",
+      "lat": 16.9,
+      "lon": -89.9,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Petén Basin is a geographical subregion of the Maya Lowlands, primarily located in northern Guatemala within the Department of El Petén, and into the state of Campeche in southeastern Mexico.",
+        "es": "La Cuenca del Petén es una subregión de Mesoamérica, identificada para fines arqueológicos, localizada principalmente en el Departamento del Petén, Guatemala, y partes de Campeche, México, y Belice."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Petén Basin",
+          "url": "https://en.wikipedia.org/wiki/Pet%C3%A9n_Basin"
+        },
+        "es": {
+          "title": "Cuenca del Petén",
+          "url": "https://es.wikipedia.org/wiki/Cuenca_del_Pet%C3%A9n"
+        }
+      },
+      "image": {
+        "file": "Nakbe_str.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nakbe_str.JPG",
+        "author": "No machine-readable author provided. Authenticmaya~commonswiki assumed (based on",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "gt-yaxha",
+      "name": "Yaxha",
+      "area": "Petén Department",
+      "city": "Petén Department",
+      "wikidata": "Q1540906",
+      "lat": 17.072222,
+      "lon": -89.4,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Yaxha is a Mesoamerican archaeological site in the northeast of the Petén Basin in modern-day Guatemala.",
+        "es": "Yaxhá es uno de los pocos sitios arqueológicos que aún conserva su nombre original, es un sitio arqueológico y una antigua ciudad y centro ceremonial de la civilización maya situado en el norte de Guatemala en el…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Yaxha",
+          "url": "https://en.wikipedia.org/wiki/Yaxha"
+        },
+        "es": {
+          "title": "Yaxhá",
+          "url": "https://es.wikipedia.org/wiki/Yaxh%C3%A1"
+        }
+      },
+      "image": {
+        "file": "Yaxhatemplo216.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yaxhatemplo216.jpg",
+        "author": "No machine-readable author provided. Authenticmaya~commonswiki assumed (based on",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "gt-cancuen",
+      "name": "Cancuén",
+      "area": "Sayaxché",
+      "city": "Sayaxché",
+      "wikidata": "Q2591884",
+      "lat": 16.014183,
+      "lon": -90.039039,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Cancuén is an archaeological site of the pre-Columbian Maya civilization, located in the Pasión subregion of the central Maya lowlands in the present-day Guatemalan Department of Petén.",
+        "es": "Cancuén del maya clásico, Kan Chuwen: que significa «nudo de serpientes o lugar de serpientes»,originalmente llamado Yahk K'in, es un sitio arqueológico maya del período clásico mesoamericano, que se localiza al sur…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cancuén",
+          "url": "https://en.wikipedia.org/wiki/Cancu%C3%A9n"
+        },
+        "es": {
+          "title": "Cancuén",
+          "url": "https://es.wikipedia.org/wiki/Cancu%C3%A9n"
+        }
+      },
+      "image": {
+        "file": "Cancuenpanel3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cancuenpanel3.jpg",
+        "author": "User:Authenticmaya~commonswiki",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "gt-seibal",
+      "name": "Seibal",
+      "area": "Petén Department",
+      "city": "Petén Department",
+      "wikidata": "Q1534212",
+      "lat": 16.511667,
+      "lon": -90.061111,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Seibal, known as El Ceibal in Spanish, is a Classic Period archaeological site of the Maya civilization located in the northern Petén Department of Guatemala, about 100 km SW of Tikal.",
+        "es": "El Ceibal, también conocido simplemente como Ceibal, es un sitio arqueológico de la civilización maya del Período Clásico, situado a orillas del río La Pasión en el departamento de Petén en Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Seibal",
+          "url": "https://en.wikipedia.org/wiki/Seibal"
+        },
+        "es": {
+          "title": "Ceibal",
+          "url": "https://es.wikipedia.org/wiki/Ceibal"
+        }
+      },
+      "image": {
+        "file": "Dos_Pilas_Stela_16_detail.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dos_Pilas_Stela_16_detail.jpg",
+        "author": "Bob King",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gt-tecuamburro",
+      "name": "Tecuamburro",
+      "area": "Santa Rosa Department",
+      "city": "Santa Rosa Department",
+      "wikidata": "Q2661998",
+      "lat": 14.156111,
+      "lon": -90.406944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tecuamburro is a stratovolcano in southern Guatemala, roughly 50 kilometres south east of Guatemala City.",
+        "es": "El Volcán Tecuamburro es un estratovolcán ubicado en departamento de Santa Rosa, en el suroriente de Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tecuamburro",
+          "url": "https://en.wikipedia.org/wiki/Tecuamburro"
+        },
+        "es": {
+          "title": "Volcán Tecuamburro",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Tecuamburro"
+        }
+      },
+      "image": {
+        "file": "Tecuamburro.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tecuamburro.jpg",
+        "author": "Lee Siebert, Smithsonian Institution",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gt-lake-guija",
+      "name": "Lake Güija",
+      "area": "Santa Ana Department",
+      "city": "Santa Ana Department",
+      "wikidata": "Q1800414",
+      "lat": 14.266667,
+      "lon": -89.516667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Güija is a lake in Central America. The lake is situated on the border between Guatemala and El Salvador and has an area of 45 km2, of which approximately 32 km2 lies in El Salvador.",
+        "es": "El Lago de Güija es un lago de América Central cuya superficie es compartida por El Salvador y Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Güija",
+          "url": "https://en.wikipedia.org/wiki/Lake_G%C3%BCija"
+        },
+        "es": {
+          "title": "Lago de Güija",
+          "url": "https://es.wikipedia.org/wiki/Lago_de_G%C3%BCija"
+        }
+      },
+      "image": {
+        "file": "San_Diego_volcano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:San_Diego_volcano.jpg",
+        "author": "Giuseppina Kysar, Smithsonian Institution",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gt-volcan-ipala",
+      "name": "Volcán Ipala",
+      "area": "Guatemala",
+      "city": "Guatemala",
+      "wikidata": "Q3116749",
+      "lat": 14.55,
+      "lon": -89.63,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Volcán Ipala is a stratovolcano that lies at an elevation of 1,650 m above sea level in south-eastern Guatemala.",
+        "es": "El Volcán Ipala es un estratovolcán ubicado en el límite entre los departamentos Chiquimula y Jutiapa, Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Volcán Ipala",
+          "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Ipala"
+        },
+        "es": {
+          "title": "Volcán de Ipala",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_de_Ipala"
+        }
+      },
+      "image": {
+        "file": "Ipala.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ipala.jpg",
+        "author": "Lee Siebert, Smithsonian Institution",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gt-el-peru",
+      "name": "El Perú",
+      "area": "San Andrés",
+      "city": "San Andrés",
+      "wikidata": "Q532534",
+      "lat": 17.278341,
+      "lon": -90.380587,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "El Perú, is a pre-Columbian Maya archeological site occupied during the Preclassic and Classic cultural chronology periods.",
+        "es": "El Perú, cuyo nombre en la época precolombina fue Waka', qué significa «Agua de ciempiés,», es un sitio arqueológico de la cultura maya que se encuentra cerca de las márgenes del río San Pedro, en el departamento del…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "El Perú (Maya site)",
+          "url": "https://en.wikipedia.org/wiki/El_Per%C3%BA_(Maya_site)"
+        },
+        "es": {
+          "title": "El Perú (sitio arqueológico)",
+          "url": "https://es.wikipedia.org/wiki/El_Per%C3%BA_(sitio_arqueol%C3%B3gico)"
+        }
+      },
+      "image": {
+        "file": "Waka_altar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Waka_altar.jpg",
+        "author": "No machine-readable author provided. Authenticmaya~commonswiki assumed (based on",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "gt-petexbatun",
+      "name": "Petexbatún",
+      "area": "Sayaxché",
+      "city": "Sayaxché",
+      "wikidata": "Q973897",
+      "lat": 16.432381,
+      "lon": -90.187283,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Petexbatún is a small lake formed by a river of the same name, which is a tributary of the Pasión River.",
+        "es": "Petexbatún es una laguna que da lugar al río del mismo nombre, tributario del río La Pasión, en el sur del departamento del Petén cerca de Sayaxché, en Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Petexbatún Lake",
+          "url": "https://en.wikipedia.org/wiki/Petexbat%C3%BAn_Lake"
+        },
+        "es": {
+          "title": "Petexbatún",
+          "url": "https://es.wikipedia.org/wiki/Petexbat%C3%BAn"
+        }
+      },
+      "image": {
+        "file": "Rio_Petexbatun.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rio_Petexbatun.JPG",
+        "author": "Clemens Schmillen",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gt-moyuta",
+      "name": "Moyuta",
+      "area": "Jutiapa Department",
+      "city": "Jutiapa Department",
+      "wikidata": "Q2661993",
+      "lat": 14.03,
+      "lon": -90.1,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Moyuta is a stratovolcano in southern Guatemala.",
+        "es": "El volcán Moyuta está ubicado en el municipio de Moyuta, departamento de Jutiapa al oriente de Guatemala y tiene una altura de 1662 metros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Moyuta (volcano)",
+          "url": "https://en.wikipedia.org/wiki/Moyuta_(volcano)"
+        },
+        "es": {
+          "title": "Volcán Moyuta",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Moyuta"
+        }
+      },
+      "image": {
+        "file": "Moyuta.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Moyuta.jpg",
+        "author": "Lee Siebert Smithsonian Institution",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gt-naj-tunich",
+      "name": "Naj Tunich",
+      "area": "Poptún",
+      "city": "Poptún",
+      "wikidata": "Q2985049",
+      "lat": 16.275556,
+      "lon": -89.275592,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Naj Tunich is a series of pre-Columbian era natural caves outside the village of La Compuerta, roughly 35 km east of Poptún in Guatemala.",
+        "es": "La cueva de Naj Tunich se encuentra en Guatemala, en el sureste de Petén, a 35 km del municipio de Poptún, en la región llamada Las Montañas Mayas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Naj Tunich",
+          "url": "https://en.wikipedia.org/wiki/Naj_Tunich"
+        },
+        "es": {
+          "title": "Naj Tunich",
+          "url": "https://es.wikipedia.org/wiki/Naj_Tunich"
+        }
+      },
+      "image": {
+        "file": "Najtunich_p20.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Najtunich_p20.png",
+        "author": "Authenticmaya",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "gt-laguna-lachua",
+      "name": "Laguna Lachuá",
+      "area": "Alta Verapaz Department",
+      "city": "Alta Verapaz Department",
+      "wikidata": "Q3308988",
+      "lat": 15.916667,
+      "lon": -90.666667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lachuá Lake is a karstic lake in Guatemala.",
+        "es": "La Laguna Lachuá es una laguna en Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lachuá Lake",
+          "url": "https://en.wikipedia.org/wiki/Lachu%C3%A1_Lake"
+        },
+        "es": {
+          "title": "Laguna Lachuá",
+          "url": "https://es.wikipedia.org/wiki/Laguna_Lachu%C3%A1"
+        }
+      },
+      "image": {
+        "file": "Lagunalachuà.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lagunalachu%C3%A0.JPG",
+        "author": "No machine-readable author provided. Chixoy assumed (based on copyright claims).",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-motul-de-san-jose",
+      "name": "Motul de San José",
+      "area": "San José",
+      "city": "San José",
+      "wikidata": "Q1773722",
+      "lat": 17.0264,
+      "lon": -89.9014,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Motul de San José is an ancient Maya site located just north of Lake Petén Itzá in the Petén Basin region of the southern Maya lowlands.",
+        "es": "Motul de San José es un sitio arqueológico maya situado a tres kilómetros al norte del lago Petén Itzá en Guatemala que data del preclásico tardío."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Motul de San José",
+          "url": "https://en.wikipedia.org/wiki/Motul_de_San_Jos%C3%A9"
+        },
+        "es": {
+          "title": "Motul de San José",
+          "url": "https://es.wikipedia.org/wiki/Motul_de_San_Jos%C3%A9"
+        }
+      },
+      "image": {
+        "file": "Yaxchilan_Lintel_15.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yaxchilan_Lintel_15.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-topoxte",
+      "name": "Topoxte",
+      "area": "Petén Department",
+      "city": "Petén Department",
+      "wikidata": "Q1438240",
+      "lat": 17.065975,
+      "lon": -89.419617,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Topoxte is a pre-Columbian Maya archaeological site in the Petén Basin in northern Guatemala with a long occupational history dating as far back as the Middle Preclassic.",
+        "es": "Topoxté es un yacimiento arqueológico maya precolombino localizado en Petén, en el norte de Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Topoxte",
+          "url": "https://en.wikipedia.org/wiki/Topoxte"
+        },
+        "es": {
+          "title": "Topoxté",
+          "url": "https://es.wikipedia.org/wiki/Topoxt%C3%A9"
+        }
+      },
+      "image": {
+        "file": "Parque_Yaxha_Nakum_Naranjo_Sitio_Topoxte_2015-01-21-03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parque_Yaxha_Nakum_Naranjo_Sitio_Topoxte_2015-01-21-03.jpg",
+        "author": "Jorge Antonio Leoni de León",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gt-machaquila",
+      "name": "Machaquila",
+      "area": "Petén Department",
+      "city": "Petén Department",
+      "wikidata": "Q2717819",
+      "lat": 16.32,
+      "lon": -89.86,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Machaquila is a major ruined city of the Maya civilization in what is now the El Peten department of Guatemala.",
+        "es": "Machaquilá es un sitio arqueológico maya del Período Clásico, que alcanzó su máximo esplendor en el siglo IX localizado 45 km al noreste de Cancuén y 30 km al este de Ceibal, del departamento de Petén al norte de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Machaquila",
+          "url": "https://en.wikipedia.org/wiki/Machaquila"
+        },
+        "es": {
+          "title": "Machaquilá",
+          "url": "https://es.wikipedia.org/wiki/Machaquil%C3%A1"
+        }
+      },
+      "image": {
+        "file": "Machaquilast3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Machaquilast3.jpg",
+        "author": "No machine-readable author provided. Authenticmaya~commonswiki assumed (based on",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "gt-lake-ipala",
+      "name": "Lake Ipala",
+      "area": "Ipala",
+      "city": "Ipala",
+      "wikidata": "Q3182080",
+      "lat": 14.555556,
+      "lon": -89.638889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Laguna de Ipala is a crater lake in Guatemala.",
+        "es": "La laguna de Ipala es un lago de cráter que se localiza entre los departamentos de Chiquimula y Jutiapa en Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Ipala",
+          "url": "https://en.wikipedia.org/wiki/Lake_Ipala"
+        },
+        "es": {
+          "title": "Laguna de Ipala",
+          "url": "https://es.wikipedia.org/wiki/Laguna_de_Ipala"
+        }
+      },
+      "image": {
+        "file": "Laguna_de_Ipala_en_Guatemala.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Laguna_de_Ipala_en_Guatemala.jpg",
+        "author": "N3D1O",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "gt-semuc-champey",
+      "name": "Semuc Champey",
+      "area": "Alta Verapaz Department",
+      "city": "Alta Verapaz Department",
+      "wikidata": "Q1850670",
+      "lat": 15.533333,
+      "lon": -89.961111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Semuc Champey is a natural enclave in the department of Alta Verapaz, Guatemala, it consists of a natural 300-metre karst landbridge formed by travertine limestone deposits, beneath which the main flow of the Cahabón…",
+        "es": "Semuc Champey es un enclave natural localizado en el municipio guatemalteco de Lanquín, en el departamento de Alta Verapaz, Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Semuc Champey",
+          "url": "https://en.wikipedia.org/wiki/Semuc_Champey"
+        },
+        "es": {
+          "title": "Semuc Champey",
+          "url": "https://es.wikipedia.org/wiki/Semuc_Champey"
+        }
+      },
+      "image": {
+        "file": "Semuc_Champey_natural_wonder.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Semuc_Champey_natural_wonder.jpg",
+        "author": "Lucía García González",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "gt-ixkun",
+      "name": "Ixkun",
+      "area": "Petén Department",
+      "city": "Petén Department",
+      "wikidata": "Q1410761",
+      "lat": 16.573611,
+      "lon": -89.411111,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ixkun is a pre-Columbian Maya archaeological site, situated in the Petén Basin region of the southern Maya lowlands.",
+        "es": "Ixkún o por su nombre original Julpi, es un sitio arqueológico maya precolombino ubicado en el departamento del Petén, en Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ixkun",
+          "url": "https://en.wikipedia.org/wiki/Ixkun"
+        },
+        "es": {
+          "title": "Ixkún",
+          "url": "https://es.wikipedia.org/wiki/Ixk%C3%BAn"
+        }
+      },
+      "image": {
+        "file": "Ixkun_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ixkun_1.jpg",
+        "author": "Simon Burchell",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-volcan-santo-tomas",
+      "name": "Volcán Santo Tomás",
+      "area": "Sololá Department",
+      "city": "Sololá Department",
+      "wikidata": "Q2672141",
+      "lat": 14.710278,
+      "lon": -91.478611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Volcán Santo Tomás is a stratovolcano in southern Guatemala.",
+        "es": "Volcán Santo Tomás is a stratovolcano in southern Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Volcán Santo Tomás",
+          "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Santo_Tom%C3%A1s"
+        },
+        "es": {
+          "title": "Volcán Santo Tomás",
+          "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_Santo_Tom%C3%A1s"
+        }
+      }
+    },
+    {
+      "id": "gt-cathedral-of-guatemala-city",
+      "name": "Cathedral of Guatemala City",
+      "area": "Guatemala City",
+      "city": "Guatemala City",
+      "wikidata": "Q2942341",
+      "lat": 14.641686,
+      "lon": -90.512029,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Holy Church Cathedral Metropolitan Basilica of Santiago de Guatemala also Metropolitan Cathedral, officially Catedral Primada Metropolitana de Santiago, is the main church of Guatemala City and of the Archdiocese…",
+        "es": "La Catedral Metropolitana de Santiago de Guatemala es la principal catedral del país, y está ubicada en la Nueva Guatemala de la Asunción, capital de Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of Guatemala City",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_Guatemala_City"
+        },
+        "es": {
+          "title": "Catedral de Ciudad de Guatemala",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Ciudad_de_Guatemala"
+        }
+      },
+      "image": {
+        "file": "CatedralGuatemala.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CatedralGuatemala.jpg",
+        "author": "Fernando Reyes Palencia from Guatemala, Guatemala",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "gt-el-baul",
+      "name": "El Baúl",
+      "area": "Escuintla Department",
+      "city": "Escuintla Department",
+      "wikidata": "Q1323914",
+      "lat": 14.358333,
+      "lon": -91.022222,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "El Baúl is a Pre-Columbian archaeological site in present-day Escuintla Department, Guatemala.",
+        "es": "El Baúl es un yacimiento arqueológico de la cultura cozumalhuapa precolombino ubicado en Escuintla en el sur de Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "El Baúl",
+          "url": "https://en.wikipedia.org/wiki/El_Ba%C3%BAl"
+        },
+        "es": {
+          "title": "El Baúl (sitio arqueológico)",
+          "url": "https://es.wikipedia.org/wiki/El_Ba%C3%BAl_(sitio_arqueol%C3%B3gico)"
+        }
+      },
+      "image": {
+        "file": "El_Baúl_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:El_Ba%C3%BAl_1.jpg",
+        "author": "Simon Burchell",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-altar-de-sacrificios",
+      "name": "Altar de Sacrificios",
+      "area": "Petén Department",
+      "city": "Petén Department",
+      "wikidata": "Q2303546",
+      "lat": 16.467,
+      "lon": -90.533,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Altar de Sacrificios is a ceremonial center and archaeological site of the pre-Columbian Maya civilization, situated near the confluence of the Pasión and Salinas Rivers, in the present-day department of Petén,…",
+        "es": "El Altar de los Sacrificios es un yacimiento arqueológico maya en Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Altar de Sacrificios",
+          "url": "https://en.wikipedia.org/wiki/Altar_de_Sacrificios"
+        },
+        "es": {
+          "title": "Altar de los Sacrificios",
+          "url": "https://es.wikipedia.org/wiki/Altar_de_los_Sacrificios"
+        }
+      },
+      "image": {
+        "file": "Image_of_Altar_de_Sacrificios,GroupA,Late_Pasion_Phase.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Image_of_Altar_de_Sacrificios%2CGroupA%2CLate_Pasion_Phase.jpg",
+        "author": "Siyajkak",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-tikal-futura",
+      "name": "Tikal Futura",
+      "area": "Guatemala City",
+      "city": "Guatemala City",
+      "wikidata": "Q7801872",
+      "lat": 14.6225,
+      "lon": -90.5539,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Tikal Futura, formally Gran Tikal Futura Torres Sol y Luna is a modern shopping and business complex and hotel in Guatemala City, Guatemala.",
+        "es": "Tikal Futura Hotel & Convention Center ha sido un ícono de la industria hotelera en Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tikal Futura",
+          "url": "https://en.wikipedia.org/wiki/Tikal_Futura"
+        },
+        "es": {
+          "title": "Tikal Futura",
+          "url": "https://es.wikipedia.org/wiki/Tikal_Futura"
+        }
+      }
+    },
+    {
+      "id": "gt-da-wah-mosque-of-guatemala",
+      "name": "Da'wah Mosque of Guatemala",
+      "area": "Guatemala City",
+      "city": "Guatemala City",
+      "wikidata": "Q5207163",
+      "lat": 14.610306,
+      "lon": -90.5155,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Da'wah Mosque of Guatemala, officially the Islamic Da'wah Mosque of Guatemala, is a mosque in Guatemala City, Guatemala.",
+        "es": "The Da'wah Mosque of Guatemala, officially the Islamic Da'wah Mosque of Guatemala, is a mosque in Guatemala City, Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Da'wah Mosque of Guatemala",
+          "url": "https://en.wikipedia.org/wiki/Da'wah_Mosque_of_Guatemala"
+        },
+        "es": {
+          "title": "Da'wah Mosque of Guatemala",
+          "url": "https://en.wikipedia.org/wiki/Da'wah_Mosque_of_Guatemala"
+        }
+      }
+    },
+    {
+      "id": "gt-naciones-unidas-national-park",
+      "name": "Naciones Unidas National Park",
+      "area": "Guatemala City",
+      "city": "Guatemala City",
+      "wikidata": "Q11697908",
+      "lat": 14.4994,
+      "lon": -90.6075,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Naciones Unidas National Park is a forested park area of 4.91 km2, located 21 km south of Guatemala City, just north of Lake Amatitlán in the municipality of Villa Nueva.",
+        "es": "El Parque nacional Naciones Unidas es un área protegida situada en la zona 10 de Villa Nueva."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Naciones Unidas National Park",
+          "url": "https://en.wikipedia.org/wiki/Naciones_Unidas_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Naciones Unidas",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Naciones_Unidas"
+        }
+      },
+      "image": {
+        "file": "P_naciones_unidas_01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:P_naciones_unidas_01.JPG",
+        "author": "Jorgemc2",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gt-guatemala-city-guatemala-temple",
+      "name": "Guatemala City Guatemala Temple",
+      "area": "Guatemala City",
+      "city": "Guatemala City",
+      "wikidata": "Q964934",
+      "website": "https://www.churchofjesuschrist.org/temples/details/guatemala-city-guatemala-temple?lang=eng",
+      "lat": 14.583389,
+      "lon": -90.485602,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Guatemala City Guatemala Temple is a temple of the Church of Jesus Christ of Latter-day Saints in Guatemala City, Guatemala.",
+        "es": "El Templo de la Ciudad de Guatemala, Guatemala, es el nombre oficial de uno de los templos construidos y operados por la Iglesia de Jesucristo de los Santos de los Últimos Días, el número 32 construido por la iglesia…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Guatemala City Guatemala Temple",
+          "url": "https://en.wikipedia.org/wiki/Guatemala_City_Guatemala_Temple"
+        },
+        "es": {
+          "title": "Templo de la Ciudad de Guatemala",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_la_Ciudad_de_Guatemala"
+        }
+      },
+      "image": {
+        "file": "Guatemala_City_Temple_by_rkuhnau.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Guatemala_City_Temple_by_rkuhnau.jpg",
+        "author": "ruthie",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "gt-antigua-guatemala-cathedral",
+      "name": "Antigua Guatemala Cathedral",
+      "area": "Mixco",
+      "city": "Mixco",
+      "wikidata": "Q2942367",
+      "lat": 14.556733,
+      "lon": -90.73292,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Parish of San José, located in the city of Antigua Guatemala, is part of the Archdiocese of Santiago de Guatemala and is located in a section of the old Primate Cathedral of Antigua Guatemala, which was destroyed by…",
+        "es": "La Parroquia de San José, ubicada en la ciudad de Antigua Guatemala, forma parte de la arquidiócesis de Guatemala y está ubicada en una sección de la antigua Catedral Primada de Santiago de los Caballeros, que fue…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Antigua Guatemala Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Antigua_Guatemala_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de San José (Antigua Guatemala)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Jos%C3%A9_(Antigua_Guatemala)"
+        }
+      },
+      "image": {
+        "file": "Guatemala_176.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Guatemala_176.jpg",
+        "author": "Rialfver at Dutch Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-santa-catalina-arch",
+      "name": "Santa Catalina Arch",
+      "area": "Mixco",
+      "city": "Mixco",
+      "wikidata": "Q7419266",
+      "lat": 14.559611,
+      "lon": -90.734139,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Santa Catalina Arch is one of the distinguishable landmarks in Antigua Guatemala, Guatemala, located on 5th Avenue North.",
+        "es": "El Arco de Santa Catalina es uno de los lugares más reconocidos de la ciudad de Antigua Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Arco de Santa Catalina",
+          "url": "https://en.wikipedia.org/wiki/Arco_de_Santa_Catalina"
+        },
+        "es": {
+          "title": "Arco de Santa Catalina",
+          "url": "https://es.wikipedia.org/wiki/Arco_de_Santa_Catalina"
+        }
+      },
+      "image": {
+        "file": "GT056-Antigua_ArchHorz.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:GT056-Antigua_ArchHorz.jpeg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "gt-la-merced-church",
+      "name": "La Merced Church",
+      "area": "Mixco",
+      "city": "Mixco",
+      "wikidata": "Q6446470",
+      "lat": 14.561671,
+      "lon": -90.734347,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church and Convent of La Merced is a Catholic church located in the city of Antigua Guatemala in Guatemala.",
+        "es": "La Iglesia de la Merced es un templo católico ubicado en la ciudad de la Antigua Guatemala en Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Iglesia de La Merced, Antigua Guatemala",
+          "url": "https://en.wikipedia.org/wiki/Iglesia_de_La_Merced%2C_Antigua_Guatemala"
+        },
+        "es": {
+          "title": "Iglesia de La Merced (Antigua Guatemala)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_La_Merced_(Antigua_Guatemala)"
+        }
+      },
+      "image": {
+        "file": "La_Merced_Church_Antigua_Guatemala_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:La_Merced_Church_Antigua_Guatemala_2.jpg",
+        "author": "Rambling Traveler derivative work: MrPanyGoff",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gt-san-francisco-church",
+      "name": "San Francisco Church",
+      "area": "Mixco",
+      "city": "Mixco",
+      "wikidata": "Q3670022",
+      "website": "https://m.facebook.com/profile.php/?id=100064597425775",
+      "lat": 14.553889,
+      "lon": -90.729444,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "San Francisco el Grande is a church in Antigua Guatemala, Guatemala and one of the sanctuaries most frequented by the local population because of the shrine of Peter of Saint Joseph Betancur.",
+        "es": "El Santuario de San Francisco el Grande está localizado en la ciudad de La Antigua Guatemala."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Iglesia de San Francisco, Antigua Guatemala",
+          "url": "https://en.wikipedia.org/wiki/Iglesia_de_San_Francisco%2C_Antigua_Guatemala"
+        },
+        "es": {
+          "title": "Iglesia de San Francisco (La Antigua Guatemala)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Francisco_(La_Antigua_Guatemala)"
+        }
+      },
+      "image": {
+        "file": "Antigua_-_Iglesia_de_San_Francisco.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Antigua_-_Iglesia_de_San_Francisco.jpg",
+        "author": "g.bertschinger",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "gt-los-aposentos",
+      "name": "Los Aposentos",
+      "area": "Mixco",
+      "city": "Mixco",
+      "wikidata": "Q3373461",
+      "lat": 14.635556,
+      "lon": -90.815556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Los Aposentos is a small forested park area with a number of springs and two small lakes.",
+        "es": "El Parque nacional Los Aposentos es un pequeño parque de zonas boscosas con una serie de manantiales y dos pequeños lagos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Los Aposentos",
+          "url": "https://en.wikipedia.org/wiki/Los_Aposentos"
+        },
+        "es": {
+          "title": "Parque nacional Los Aposentos",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Los_Aposentos"
+        }
+      },
+      "image": {
+        "file": "Parque_Los_Aposentos_en_Chimaltenango.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parque_Los_Aposentos_en_Chimaltenango.jpg",
+        "author": "Fernando Reyes Palencia",
+        "license": "CC BY-SA 2.0"
+      }
     }
   ]
 }

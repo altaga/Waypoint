@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -135,6 +141,804 @@
       "wikidata": "Q27576370",
       "lat": -12.23769,
       "lon": 49.01357
+    },
+    {
+      "id": "mg-madagascar",
+      "name": "Madagascar",
+      "area": "Antananarivo",
+      "city": "Antananarivo",
+      "wikidata": "Q1019",
+      "lat": -20,
+      "lon": 47,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Madagascar, officially the Republic of Madagascar, is an island country in the Indian Ocean that includes the island of Madagascar and numerous smaller peripheral islands.",
+        "es": "Madagascar, oficialmente República de Madagascar, es un país insular situado en el océano Índico, frente a la costa sureste del continente africano, al este de Mozambique."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Madagascar",
+          "url": "https://en.wikipedia.org/wiki/Madagascar"
+        },
+        "es": {
+          "title": "Madagascar",
+          "url": "https://es.wikipedia.org/wiki/Madagascar"
+        }
+      },
+      "image": {
+        "file": "Satellite_image_of_Madagascar_in_September_2003.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Satellite_image_of_Madagascar_in_September_2003.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mg-tsingy-de-bemaraha-strict-nature-reserve",
+      "name": "Tsingy de Bemaraha Strict Nature Reserve",
+      "area": "Mahajanga",
+      "city": "Mahajanga",
+      "wikidata": "Q1405154",
+      "lat": -18.66667,
+      "lon": 44.75,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tsingy de Bemaraha Strict Nature Reserve is a nature reserve located near the western coast of Madagascar in Melaky Region.",
+        "es": "La Reserva natural integral de Tsingy de Bemaraha se localiza en el centro oeste de la Provincia de Mahajanga, Madagascar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tsingy de Bemaraha Strict Nature Reserve",
+          "url": "https://en.wikipedia.org/wiki/Tsingy_de_Bemaraha_Strict_Nature_Reserve"
+        },
+        "es": {
+          "title": "Reserva natural integral de Tsingy de Bemaraha",
+          "url": "https://es.wikipedia.org/wiki/Reserva_natural_integral_de_Tsingy_de_Bemaraha"
+        }
+      },
+      "image": {
+        "file": "Tsingy_de_Bemaraha.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tsingy_de_Bemaraha.jpg",
+        "author": "My father (who approves of its use)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mg-ambohimanga",
+      "name": "Ambohimanga",
+      "area": "Antananarivo",
+      "city": "Antananarivo",
+      "wikidata": "Q458167",
+      "lat": -18.759167,
+      "lon": 47.562778,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ambohimanga is a hill and traditional fortified royal settlement in Madagascar, located approximately 24 kilometers northeast of the capital city of Antananarivo.",
+        "es": "La Colina real de Ambohimanga es un sitio arqueológico en el lugar de Ambohimanga Rova, comuna de Antananarivo Avaradrano, provincia de Antananarivo, Madagascar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ambohimanga",
+          "url": "https://en.wikipedia.org/wiki/Ambohimanga"
+        },
+        "es": {
+          "title": "Colina real de Ambohimanga",
+          "url": "https://es.wikipedia.org/wiki/Colina_real_de_Ambohimanga"
+        }
+      },
+      "image": {
+        "file": "Ambohimanga_14.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ambohimanga_14.jpg",
+        "author": "Olivier Lejade",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "mg-lake-alaotra",
+      "name": "Lake Alaotra",
+      "area": "Toamasina Province",
+      "city": "Toamasina Province",
+      "wikidata": "Q575679",
+      "lat": -17.5,
+      "lon": 48.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Alaotra is the largest lake in Madagascar, located in Alaotra-Mangoro Region and on the island's northern central plateau.",
+        "es": "El lago Alaotra es el lago más grande de Madagascar, ubicado en la provincia de Toamasina, en la meseta central septentrional, al noroeste de Tamatave."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Alaotra",
+          "url": "https://en.wikipedia.org/wiki/Lake_Alaotra"
+        },
+        "es": {
+          "title": "Lago Alaotra",
+          "url": "https://es.wikipedia.org/wiki/Lago_Alaotra"
+        }
+      },
+      "image": {
+        "file": "Lake_Alaotra_NASA.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Alaotra_NASA.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mg-ranomafana-national-park",
+      "name": "Ranomafana National Park",
+      "area": "Antananarivo",
+      "city": "Antananarivo",
+      "wikidata": "Q1498242",
+      "lat": -21.22,
+      "lon": 47.43,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ranomafana National Park is a national park in southeastern Madagascar, in the Haute Matsiatra and Vatovavy regions.",
+        "es": "El parque nacional de Ranomafana se localiza al sudeste de Madagascar en la provincia de Fianarantsoa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ranomafana National Park",
+          "url": "https://en.wikipedia.org/wiki/Ranomafana_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Ranomafana",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Ranomafana"
+        }
+      },
+      "image": {
+        "file": "Ranomafana_-_burial_site.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ranomafana_-_burial_site.jpg",
+        "author": "User:Hardscarf",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mg-andasibe-mantadia-national-park",
+      "name": "Andasibe-Mantadia National Park",
+      "area": "Toamasina Province",
+      "city": "Toamasina Province",
+      "wikidata": "Q2519690",
+      "lat": -18.826667,
+      "lon": 48.447778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Andasibe-Mantadia National Park is a 155 square kilometre protected area, located about 150 km east of Antananarivo, consisting principally of primary growth forest in the Alaotra-Mangoro Region in eastern Madagascar.",
+        "es": "El Parque Nacional de Andasibe-Mantadia es un área protegida de 155 kilómetros cuadrados que consiste principalmente de bosque primario que se encuentra en la región de Alaotra-Mangoro en el este de Madagascar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Andasibe-Mantadia National Park",
+          "url": "https://en.wikipedia.org/wiki/Andasibe-Mantadia_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Andasibe-Mantadia",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Andasibe-Mantadia"
+        }
+      },
+      "image": {
+        "file": "Lohasahan'ny-Vakoana.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lohasahan'ny-Vakoana.JPG",
+        "author": "Iraiidh",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mg-rova-of-antananarivo",
+      "name": "Rova of Antananarivo",
+      "area": "Antananarivo",
+      "city": "Antananarivo",
+      "wikidata": "Q1290337",
+      "lat": -18.923611,
+      "lon": 47.532222,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Rova of Antananarivo is a royal palace complex in Madagascar that was the home of the sovereigns of the Kingdom of Imerina in the 17th and 18th centuries, as well as of the rulers of the Kingdom of Madagascar in…",
+        "es": "El Rova es un complejo palaciego en Antananarivo, capital de Madagascar, que sirvió como la residencia de los soberanos del reino de Imerina en los siglos XVII y XVIII, así como los gobernantes del reino de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rova of Antananarivo",
+          "url": "https://en.wikipedia.org/wiki/Rova_of_Antananarivo"
+        },
+        "es": {
+          "title": "Rova",
+          "url": "https://es.wikipedia.org/wiki/Rova"
+        }
+      },
+      "image": {
+        "file": "Palais_royal_Rova_Manjakamiadana_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palais_royal_Rova_Manjakamiadana_2.jpg",
+        "author": "Dalbergiaada",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mg-ankaratra",
+      "name": "Ankaratra",
+      "area": "Antananarivo",
+      "city": "Antananarivo",
+      "wikidata": "Q556594",
+      "lat": -19.349778,
+      "lon": 47.243342,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ankaratra is a cinder cone volcanic range located about 50 km southwest of Antananarivo, the capital city of Madagascar.",
+        "es": "Ankaratra es un volcán inactivo ubicado cerca de 50 kilómetros al suroeste de Antananarivo, la capital de Madagascar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ankaratra",
+          "url": "https://en.wikipedia.org/wiki/Ankaratra"
+        },
+        "es": {
+          "title": "Ankaratra",
+          "url": "https://es.wikipedia.org/wiki/Ankaratra"
+        }
+      },
+      "image": {
+        "file": "Ankaratra.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ankaratra.jpg",
+        "author": "NASA Landsat7 image (worldwind.arc.nasa.gov)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mg-lake-tritriva",
+      "name": "Lake Tritriva",
+      "area": "Antananarivo",
+      "city": "Antananarivo",
+      "wikidata": "Q1250102",
+      "lat": -19.929,
+      "lon": 46.9247,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Tritriva is a volcanic lake in southwest-central Madagascar, in the region of Vàkinankàratra, located near the village of Belazao.",
+        "es": "El lago Tritriva es un lago de cráter ubicado al suroeste de Madagascar, en la región de Vàkinankàratra, cerca de las localidades de Belazao y Antsirabe."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Tritriva",
+          "url": "https://en.wikipedia.org/wiki/Lake_Tritriva"
+        },
+        "es": {
+          "title": "Lago Tritriva",
+          "url": "https://es.wikipedia.org/wiki/Lago_Tritriva"
+        }
+      },
+      "image": {
+        "file": "Lake_Tritriva_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Tritriva_02.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mg-madagascar-q7463928",
+      "name": "Madagascar",
+      "area": "Antananarivo",
+      "city": "Antananarivo",
+      "wikidata": "Q7463928",
+      "lat": -19.333333,
+      "lon": 47.066667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Madagascar is a large island in the Indian Ocean located 400 kilometres off the eastern coast of Southern Africa, east of Mozambique.",
+        "es": "Madagascar is a large island in the Indian Ocean located 400 kilometres off the eastern coast of Southern Africa, east of Mozambique."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Geography of Madagascar",
+          "url": "https://en.wikipedia.org/wiki/Geography_of_Madagascar"
+        },
+        "es": {
+          "title": "Geography of Madagascar",
+          "url": "https://en.wikipedia.org/wiki/Geography_of_Madagascar"
+        }
+      },
+      "image": {
+        "file": "Satellite_image_of_Madagascar_in_September_2003.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Satellite_image_of_Madagascar_in_September_2003.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mg-nosy-alanana-light",
+      "name": "Nosy Alañaña Light",
+      "area": "Toamasina Province",
+      "city": "Toamasina Province",
+      "wikidata": "Q3378451",
+      "lat": -18.048736,
+      "lon": 49.460042,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Nosy Alañaña Light, also known as Île aux Prunes Light, is an active lighthouse in Île aux Prunes, Toamasina Province, Madagascar.",
+        "es": "El Faro de la isla Alañaña o faro de la isla aux Prunes es un faro activo en Île aux Prunes, Provincia de Toamasina, Madagascar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nosy Alañaña Light",
+          "url": "https://en.wikipedia.org/wiki/Nosy_Ala%C3%B1a%C3%B1a_Light"
+        },
+        "es": {
+          "title": "Faro de la isla Alañaña",
+          "url": "https://es.wikipedia.org/wiki/Faro_de_la_isla_Ala%C3%B1a%C3%B1a"
+        }
+      },
+      "image": {
+        "file": "Phare_de_l'Ile_aux_Prunes.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Phare_de_l'Ile_aux_Prunes.jpg",
+        "author": "maxsnet",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "mg-lake-itasy",
+      "name": "Lake Itasy",
+      "area": "Antananarivo Province",
+      "city": "Antananarivo Province",
+      "wikidata": "Q3214947",
+      "lat": -19.0667,
+      "lon": 46.7833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Itasy also known as Itasianaka is a lake in central Madagascar.",
+        "es": "Lake Itasy also known as Itasianaka is a lake in central Madagascar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Itasy",
+          "url": "https://en.wikipedia.org/wiki/Lake_Itasy"
+        },
+        "es": {
+          "title": "Lake Itasy",
+          "url": "https://en.wikipedia.org/wiki/Lake_Itasy"
+        }
+      },
+      "image": {
+        "file": "Itasy_lake.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Itasy_lake.jpg",
+        "author": "NASA Landsat7 image (worldwind.arc.nasa.gov)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mg-lake-anosy",
+      "name": "Lake Anosy",
+      "area": "Antananarivo",
+      "city": "Antananarivo",
+      "wikidata": "Q15278794",
+      "lat": -18.9152,
+      "lon": 47.5216,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Anosy [anˈuːsi] is an artificial lake in the southern part of the capital city of Madagascar, Antananarivo, about two miles south of Haute-Ville.",
+        "es": "Lake Anosy [anˈuːsi] is an artificial lake in the southern part of the capital city of Madagascar, Antananarivo, about two miles south of Haute-Ville."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Anosy",
+          "url": "https://en.wikipedia.org/wiki/Lake_Anosy"
+        },
+        "es": {
+          "title": "Lake Anosy",
+          "url": "https://en.wikipedia.org/wiki/Lake_Anosy"
+        }
+      },
+      "image": {
+        "file": "Lake_Anosy,_Central_Antananarivo,_Capital_of_Madagascar,_Photo_by_Sascha_Grabow.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Anosy%2C_Central_Antananarivo%2C_Capital_of_Madagascar%2C_Photo_by_Sascha_Grabow.jpg",
+        "author": "Sascha Grabow www.saschagrabow.com",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mg-betampona-strict-nature-reserve",
+      "name": "Betampona Strict Nature Reserve",
+      "area": "Betampona",
+      "city": "Betampona",
+      "wikidata": "Q521309",
+      "website": "https://protectedareas.mg/fr/landscape/show/54?geoShapeFilterField=location&location=49.1953415538225%2C-17.9304000220803%2C49.2475349495866%2C-17.9304000220803%2C49.2475349495866%2C-17.8742464165419%2C49.1953415538225%2C-17.8742464165419%2C49.1953415538225%2C-17.9304000220803&max=8&mediaFilter=no_of_images%2Cno_of_videos%2Cno_of_audio&offset=0&sort=created_on&view=stats",
+      "lat": -17.8883,
+      "lon": 49.225,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Betampona Reserve is a nature reserve in the Atsinanana Region of Madagascar.",
+        "es": "Betampona Reserve is a nature reserve in the Atsinanana Region of Madagascar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Betampona Reserve",
+          "url": "https://en.wikipedia.org/wiki/Betampona_Reserve"
+        },
+        "es": {
+          "title": "Betampona Reserve",
+          "url": "https://en.wikipedia.org/wiki/Betampona_Reserve"
+        }
+      },
+      "image": {
+        "file": "INDRI-2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:INDRI-2.JPG",
+        "author": "Adam Britt",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "mg-andafiavaratra-palace",
+      "name": "Andafiavaratra Palace",
+      "area": "Antananarivo",
+      "city": "Antananarivo",
+      "wikidata": "Q181663",
+      "lat": -18.920817,
+      "lon": 47.533003,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Andafiavaratra Palace, located on the highest hilltop of the capital city of Antananarivo, was the residence of Prime Minister Rainilaiarivony of Madagascar, who governed the island kingdom in the late 19th century.",
+        "es": "El Palacio de Andafiavaratra está situado en la colina más alta de la ciudad capital de Antananarivo, fue la residencia del primer ministro de Madagascar Rainilaiarivony, quien gobernó durante la etapa del reino en…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Andafiavaratra Palace",
+          "url": "https://en.wikipedia.org/wiki/Andafiavaratra_Palace"
+        },
+        "es": {
+          "title": "Palacio de Andafiavaratra",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Andafiavaratra"
+        }
+      },
+      "image": {
+        "file": "Palais_d'Andafiavaratra_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palais_d'Andafiavaratra_01.jpg",
+        "author": "Maky (Alex Dunkel)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mg-iavoloha-palace",
+      "name": "Iavoloha Palace",
+      "area": "Antananarivo",
+      "city": "Antananarivo",
+      "wikidata": "Q13107038",
+      "lat": -19.0034,
+      "lon": 47.5286,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Iavoloha Palace is the official residence of the President of Madagascar.",
+        "es": "El Palacio de Iavoloha es la residencia oficial del presidente de Madagascar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Iavoloha Palace",
+          "url": "https://en.wikipedia.org/wiki/Iavoloha_Palace"
+        },
+        "es": {
+          "title": "Palacio de Iavoloha",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Iavoloha"
+        }
+      },
+      "image": {
+        "file": "Iavoloha_palace_2023.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iavoloha_palace_2023.jpg",
+        "author": "CrabeXBug",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "mg-sakaleona-falls",
+      "name": "Sakaleona Falls",
+      "area": "Ampasinambo",
+      "city": "Ampasinambo",
+      "wikidata": "Q2940854",
+      "lat": -20.5272,
+      "lon": 47.9964,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Sakaleona Falls are the highest waterfalls of Madagascar, with a height of 200 metres.",
+        "es": "The Sakaleona Falls are the highest waterfalls of Madagascar, with a height of 200 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sakaleona Falls",
+          "url": "https://en.wikipedia.org/wiki/Sakaleona_Falls"
+        },
+        "es": {
+          "title": "Sakaleona Falls",
+          "url": "https://en.wikipedia.org/wiki/Sakaleona_Falls"
+        }
+      },
+      "image": {
+        "file": "Sakaleona.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sakaleona.jpg",
+        "author": "Madamax",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mg-mandraka-falls",
+      "name": "Mandraka Falls",
+      "area": "Antananarivo",
+      "city": "Antananarivo",
+      "wikidata": "Q6748186",
+      "lat": -18.921111,
+      "lon": 47.929444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Mandraka Falls are a small set of waterfalls on the Mandraka River, approximately 65 kilometres from Antananarivo, the capital of Madagascar.",
+        "es": "Las cataratas Mandraka son unas cascadas situadas cerca de Antananarivo, la capital de Madagascar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mandraka Falls",
+          "url": "https://en.wikipedia.org/wiki/Mandraka_Falls"
+        },
+        "es": {
+          "title": "Cataratas Mandraka",
+          "url": "https://es.wikipedia.org/wiki/Cataratas_Mandraka"
+        }
+      }
+    },
+    {
+      "id": "mg-immaculate-conception-cathedral-antananarivo",
+      "name": "Immaculate Conception Cathedral, Antananarivo",
+      "area": "Antananarivo",
+      "city": "Antananarivo",
+      "wikidata": "Q20725766",
+      "lat": -18.917852,
+      "lon": 47.530654,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Immaculate Conception Cathedral is a religious building that serves as a Catholic cathedral located in the district of Antananarivo Renivohitra in the region of Analamanga, specifically in Antananarivo, the…",
+        "es": "La Catedral de la Inmaculada Concepción es el nombre que recibe un edificio religioso que sirve como una catedral católica que ubicada en el distrito de Antananarivo Renivohitra de la región de Analamanga,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Immaculate Conception Cathedral, Antananarivo",
+          "url": "https://en.wikipedia.org/wiki/Immaculate_Conception_Cathedral%2C_Antananarivo"
+        },
+        "es": {
+          "title": "Catedral de la Inmaculada Concepción (Antananarivo)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Inmaculada_Concepci%C3%B3n_(Antananarivo)"
+        }
+      },
+      "image": {
+        "file": "Cathédrale_Andohalo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Andohalo.jpg",
+        "author": "HoneyGaLe",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mg-saint-laurent-s-cathedral-ambohimanoro",
+      "name": "Saint Laurent's Cathedral, Ambohimanoro",
+      "area": "Antananarivo",
+      "city": "Antananarivo",
+      "wikidata": "Q24556604",
+      "lat": -18.917778,
+      "lon": 47.532472,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. Lawrence Anglican Cathedral Ambohimanoro is an Anglican cathedral in Madagascar's capital of Antananarivo.",
+        "es": "St. Lawrence Anglican Cathedral Ambohimanoro is an Anglican cathedral in Madagascar's capital of Antananarivo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Lawrence Anglican Cathedral Ambohimanoro",
+          "url": "https://en.wikipedia.org/wiki/St._Lawrence_Anglican_Cathedral_Ambohimanoro"
+        },
+        "es": {
+          "title": "St. Lawrence Anglican Cathedral Ambohimanoro",
+          "url": "https://en.wikipedia.org/wiki/St._Lawrence_Anglican_Cathedral_Ambohimanoro"
+        }
+      },
+      "image": {
+        "file": "Cathédrale_St_Laurent_Ambohimanoro.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_St_Laurent_Ambohimanoro.jpg",
+        "author": "M.ranarivelo",
+        "license": "CC BY-SA 4.0"
+      }
     }
   ]
 }

@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -456,6 +462,726 @@
       "website": "https://www.uib.no/en/universitymuseum",
       "lat": 60.38762,
       "lon": 5.32158
+    },
+    {
+      "id": "no-ut-ya",
+      "name": "Utøya",
+      "area": "Oslo",
+      "city": "Oslo",
+      "wikidata": "Q106357",
+      "website": "https://utoya.no/",
+      "lat": 60.023611,
+      "lon": 10.248056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Utøya is an island in the Tyrifjorden lake in Hole municipality, in the county of Buskerud, Norway.",
+        "es": "Utøya es una pequeña isla lacustre de Noruega de 0,14 km² situada en el lago Tyrifjorden, en el municipio de Hole."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Utøya",
+          "url": "https://en.wikipedia.org/wiki/Ut%C3%B8ya"
+        },
+        "es": {
+          "title": "Utøya",
+          "url": "https://es.wikipedia.org/wiki/Ut%C3%B8ya"
+        }
+      },
+      "image": {
+        "file": "Utøya_from_Utstranda.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ut%C3%B8ya_from_Utstranda.jpg",
+        "author": "decltype",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "no-galdh-piggen",
+      "name": "Galdhøpiggen",
+      "area": "Lom Municipality",
+      "city": "Lom Municipality",
+      "wikidata": "Q203942",
+      "lat": 61.633333,
+      "lon": 8.3,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Galdhøpiggen is the highest mountain in Norway, Scandinavia, and Northern Europe.",
+        "es": "Galdhøpiggen es la montaña más alta de Noruega y Europa del Norte, con 2469 metros de altitud, situada en el parque nacional de Jotunheimen, en el municipio de Lom, condado de Innlandet."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Galdhøpiggen",
+          "url": "https://en.wikipedia.org/wiki/Galdh%C3%B8piggen"
+        },
+        "es": {
+          "title": "Galdhøpiggen",
+          "url": "https://es.wikipedia.org/wiki/Galdh%C3%B8piggen"
+        }
+      },
+      "image": {
+        "file": "Galdhopiggen_2004.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Galdhopiggen_2004.jpg",
+        "author": "Jojo",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "no-urnes-stave-church",
+      "name": "Urnes Stave Church",
+      "area": "Luster Municipality",
+      "city": "Luster Municipality",
+      "wikidata": "Q210678",
+      "lat": 61.298056,
+      "lon": 7.3225,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Urnes Stave Church is a 12th-century stave church at Ornes, along the Lustrafjorden, in Luster Municipality in Vestland county, Norway.",
+        "es": "La iglesia de madera de Urnes, declarada Patrimonio de la Humanidad por la Unesco, es una stavkirke del siglo XII, una de las más antiguas de las 28 que se conservan en Noruega."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Urnes Stave Church",
+          "url": "https://en.wikipedia.org/wiki/Urnes_Stave_Church"
+        },
+        "es": {
+          "title": "Iglesia de madera de Urnes",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_madera_de_Urnes"
+        }
+      },
+      "image": {
+        "file": "2023-07-04-Stabkirche_Urnes-6781.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2023-07-04-Stabkirche_Urnes-6781.jpg",
+        "author": "Superbass",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "no-mj-sa",
+      "name": "Mjøsa",
+      "area": "Stange Municipality",
+      "city": "Stange Municipality",
+      "wikidata": "Q212209",
+      "lat": 60.666667,
+      "lon": 11,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mjøsa is the largest lake in Norway and the fourth deepest in Norway and Europe.",
+        "es": "El lago Mjøsa, también conocido en español como lago mosa es el lago más grande de Noruega, así como uno de los más profundos del país y de Europa, después del Hornindalsvatnet."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mjøsa",
+          "url": "https://en.wikipedia.org/wiki/Mj%C3%B8sa"
+        },
+        "es": {
+          "title": "Mjøsa",
+          "url": "https://es.wikipedia.org/wiki/Mj%C3%B8sa"
+        }
+      },
+      "image": {
+        "file": "Mjøsa_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mj%C3%B8sa_1.jpg",
+        "author": "kallerna",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "no-oslo-opera-house",
+      "name": "Oslo Opera House",
+      "area": "Oslo",
+      "city": "Oslo",
+      "wikidata": "Q43280",
+      "website": "https://www.operaen.no/",
+      "lat": 59.906944,
+      "lon": 10.753611,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Oslo Opera House is the home of the Norwegian National Opera and Ballet, and the national opera house in Norway.",
+        "es": "La Ópera de Oslo fue erigida frente al fiordo de Oslo, en la ciudad homónima de Noruega, es el centro de artes escénicas más importante de ese país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Oslo Opera House",
+          "url": "https://en.wikipedia.org/wiki/Oslo_Opera_House"
+        },
+        "es": {
+          "title": "Ópera de Oslo",
+          "url": "https://es.wikipedia.org/wiki/%C3%93pera_de_Oslo"
+        }
+      },
+      "image": {
+        "file": "Full_Opera_by_night.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Full_Opera_by_night.jpg",
+        "author": "Rafał Konieczny",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "no-borgund-stave-church",
+      "name": "Borgund Stave Church",
+      "area": "Lærdal Municipality",
+      "city": "Lærdal Municipality",
+      "wikidata": "Q755010",
+      "lat": 61.04724,
+      "lon": 7.81224,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Borgund Stave Church is a former parish church initially of the Catholic Church and later the Church of Norway in Lærdal Municipality in Vestland county, Norway.",
+        "es": "La Iglesia de madera de Borgund es un antiguo templo del tipo stavkirke de la localidad de Borgund, en Noruega."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Borgund Stave Church",
+          "url": "https://en.wikipedia.org/wiki/Borgund_Stave_Church"
+        },
+        "es": {
+          "title": "Iglesia de madera de Borgund",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_madera_de_Borgund"
+        }
+      },
+      "image": {
+        "file": "2018_Borgund_Stave_Church.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2018_Borgund_Stave_Church.jpg",
+        "author": "mendhak",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "no-oslo-cathedral",
+      "name": "Oslo Cathedral",
+      "area": "Oslo",
+      "city": "Oslo",
+      "wikidata": "Q1063209",
+      "lat": 59.912319,
+      "lon": 10.746958,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Oslo Cathedral — formerly Our Savior's Church — is the main church for the Church of Norway Diocese of Oslo, as well as the parish church for downtown Oslo.",
+        "es": "La Catedral de Oslo, históricamente conocida como catedral de Nuestro Salvador, es la catedral de la diócesis luterana del mismo nombre, perteneciente a la Iglesia de Noruega, y la catedral nacional de Noruega."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Oslo Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Oslo_Cathedral"
+        },
+        "es": {
+          "title": "Catedral del Salvador (Oslo)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Salvador_(Oslo)"
+        }
+      },
+      "image": {
+        "file": "2012.11.09.Oslodomkirke.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2012.11.09.Oslodomkirke.jpg",
+        "author": "Nina-no This photo was taken by Nina-no. Please credit this photo Nina Aldin Thu",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "no-royal-palace-oslo",
+      "name": "Royal Palace, Oslo",
+      "area": "Oslo",
+      "city": "Oslo",
+      "wikidata": "Q863932",
+      "lat": 59.917222,
+      "lon": 10.7275,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Royal Palace in Oslo is the official residence of the Norwegian monarch.",
+        "es": "El Palacio Real es la residencia oficial de los reyes de Noruega en Oslo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Royal Palace, Oslo",
+          "url": "https://en.wikipedia.org/wiki/Royal_Palace%2C_Oslo"
+        },
+        "es": {
+          "title": "Palacio Real de Oslo",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Real_de_Oslo"
+        }
+      },
+      "image": {
+        "file": "00_7737_Royal_Palace,_Oslo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:00_7737_Royal_Palace%2C_Oslo.jpg",
+        "author": "W. Bulach",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "no-tyrifjorden",
+      "name": "Tyrifjorden",
+      "area": "Oslo",
+      "city": "Oslo",
+      "wikidata": "Q696445",
+      "lat": 60.033333,
+      "lon": 10.133333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tyrifjorden is a lake in Norway. It lies 40 kilometres northwest of Oslo and is the nation's fifth largest lake with an area of 138.56 km2.",
+        "es": "El fiordo de Tyri, a veces lago Tyrifjorden es realmente un importante lago de agua dulce de Noruega, con 138,56 km², el quinto más extenso del país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tyrifjorden",
+          "url": "https://en.wikipedia.org/wiki/Tyrifjorden"
+        },
+        "es": {
+          "title": "Tyrifjorden",
+          "url": "https://es.wikipedia.org/wiki/Tyrifjorden"
+        }
+      },
+      "image": {
+        "file": "Holsfjorden,_Hole.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Holsfjorden%2C_Hole.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "no-bislett-stadion",
+      "name": "Bislett Stadion",
+      "area": "Oslo",
+      "city": "Oslo",
+      "wikidata": "Q866409",
+      "website": "https://www.oslo.kommune.no/natur-kultur-og-fritid/idrettsanlegg/bislett-stadion/",
+      "lat": 59.924722,
+      "lon": 10.733333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bislett Stadium is a sports stadium in Oslo, Norway.",
+        "es": "Estadio Bislett es un estadio deportivo situado en Oslo, Noruega."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bislett Stadium",
+          "url": "https://en.wikipedia.org/wiki/Bislett_Stadium"
+        },
+        "es": {
+          "title": "Estadio Bislett",
+          "url": "https://es.wikipedia.org/wiki/Estadio_Bislett"
+        }
+      },
+      "image": {
+        "file": "Bislett_panorama.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bislett_panorama.jpg",
+        "author": "Kjetil Ree",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "no-rondane-national-park",
+      "name": "Rondane National Park",
+      "area": "Stor-Elvdal Municipality",
+      "city": "Stor-Elvdal Municipality",
+      "wikidata": "Q955861",
+      "lat": 61.833333,
+      "lon": 9.833333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rondane National Park is the oldest national park in Norway, established on 21 December 1962.",
+        "es": "El parque nacional Rondane es el parque nacional más antiguo de Noruega."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rondane National Park",
+          "url": "https://en.wikipedia.org/wiki/Rondane_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Rondane",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Rondane"
+        }
+      },
+      "image": {
+        "file": "DigerMidtHøgrondenFromVeslesmeden.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DigerMidtH%C3%B8grondenFromVeslesmeden.jpg",
+        "author": "Håvard Berland",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "no-femund",
+      "name": "Femund",
+      "area": "Engerdal Municipality",
+      "city": "Engerdal Municipality",
+      "wikidata": "Q1324437",
+      "lat": 62.183333,
+      "lon": 11.9,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Femunden is Norway's third largest lake and the second largest natural lake in Norway.",
+        "es": "El lago Femund es el tercer lago de Noruega —el segundo natural—, y se encuentra en los municipios de Os y Engerdal —condado de Innlandet— y de Røros —condado de Trøndelag."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Femunden",
+          "url": "https://en.wikipedia.org/wiki/Femunden"
+        },
+        "es": {
+          "title": "Femund",
+          "url": "https://es.wikipedia.org/wiki/Femund"
+        }
+      },
+      "image": {
+        "file": "Engerdal_Femunden.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Engerdal_Femunden.jpg",
+        "author": "Mahlum",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "no-glittertind",
+      "name": "Glittertind",
+      "area": "Lom Municipality",
+      "city": "Lom Municipality",
+      "wikidata": "Q397876",
+      "lat": 61.651944,
+      "lon": 8.554444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Glittertinden is a mountain in Lom Municipality in Innlandet county, Norway.",
+        "es": "Glittertind es la segunda montaña más alta de Noruega y segundo también de la cordillera a la que pertenece, a 2.465 m sobre el nivel del mar, incluyendo el glaciar en su punto máximo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Glittertind",
+          "url": "https://en.wikipedia.org/wiki/Glittertind"
+        },
+        "es": {
+          "title": "Glittertind",
+          "url": "https://es.wikipedia.org/wiki/Glittertind"
+        }
+      },
+      "image": {
+        "file": "Glittertind.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Glittertind.jpg",
+        "author": "Sigmund",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "no-randsfjorden",
+      "name": "Randsfjorden",
+      "area": "Søndre Land Municipality",
+      "city": "Søndre Land Municipality",
+      "wikidata": "Q545033",
+      "lat": 60.390278,
+      "lon": 10.394167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Randsfjorden is Norway's fourth-largest lake with an area of 140.7 square kilometres.",
+        "es": "El fiordo de Rand, a veces lago Randsfjorden es realmente un importante lago de agua dulce de Noruega, con 139,23 km², el cuarto más extenso del país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Randsfjorden",
+          "url": "https://en.wikipedia.org/wiki/Randsfjorden"
+        },
+        "es": {
+          "title": "Randsfjorden",
+          "url": "https://es.wikipedia.org/wiki/Randsfjorden"
+        }
+      },
+      "image": {
+        "file": "Grimsrud,_Randsfjorden.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Grimsrud%2C_Randsfjorden.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "no-national-theatre-oslo",
+      "name": "National Theatre Oslo",
+      "area": "Oslo",
+      "city": "Oslo",
+      "wikidata": "Q565382",
+      "website": "https://www.nationaltheatret.no",
+      "lat": 59.914303,
+      "lon": 10.73425,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The National Theatre in Oslo is one of Norway's largest and most prominent venues for performance of dramatic arts.",
+        "es": "El Teatro nacional es uno de los lugares más grandes e importantes de Noruega para el desempeño de las artes dramáticas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Theatre (Oslo)",
+          "url": "https://en.wikipedia.org/wiki/National_Theatre_(Oslo)"
+        },
+        "es": {
+          "title": "Teatro nacional (Oslo)",
+          "url": "https://es.wikipedia.org/wiki/Teatro_nacional_(Oslo)"
+        }
+      },
+      "image": {
+        "file": "NOR-2016-Oslo-National_Theatre.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NOR-2016-Oslo-National_Theatre.jpg",
+        "author": "Godot13",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "no-dovrefjell-sunndalsfjella-national-park",
+      "name": "Dovrefjell–Sunndalsfjella National Park",
+      "area": "Sunndal Municipality",
+      "city": "Sunndal Municipality",
+      "wikidata": "Q1109724",
+      "lat": 62.396667,
+      "lon": 9.173056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Dovrefjell–Sunndalsfjella National Park is a National Park in Norway.",
+        "es": "El parque nacional Dovrefjell-Sunndalsfjella es un parque nacional de Noruega, fundado en 2003 para reemplazar y ampliar el anterior parque Dovrefjell, fundado originalmente en 1974."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dovrefjell–Sunndalsfjella National Park",
+          "url": "https://en.wikipedia.org/wiki/Dovrefjell%E2%80%93Sunndalsfjella_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Dovrefjell-Sunndalsfjella",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Dovrefjell-Sunndalsfjella"
+        }
+      },
+      "image": {
+        "file": "Snohetta.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Snohetta.jpg",
+        "author": "Kjetil Kjernsmo",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "no-heddal-stave-church",
+      "name": "Heddal stave church",
+      "area": "Notodden Municipality",
+      "city": "Notodden Municipality",
+      "wikidata": "Q852020",
+      "website": "https://www.heddalstavkirke.no",
+      "lat": 59.57956,
+      "lon": 9.17625,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Heddal Stave Church is a parish church of the Church of Norway in Notodden Municipality in Telemark county, Norway.",
+        "es": "La iglesia de madera de Heddal es una stavkirke —una iglesia medieval cristiana de Noruega construida en madera— de la primera mitad del siglo XIII en el municipio de Notodden, en Telemark."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Heddal Stave Church",
+          "url": "https://en.wikipedia.org/wiki/Heddal_Stave_Church"
+        },
+        "es": {
+          "title": "Iglesia de madera de Heddal",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_madera_de_Heddal"
+        }
+      }
+    },
+    {
+      "id": "no-v-ringfossen",
+      "name": "Vøringfossen",
+      "area": "Eidfjord Municipality",
+      "city": "Eidfjord Municipality",
+      "wikidata": "Q38588",
+      "website": "https://www.visitnorway.com/places-to-go/fjord-norway/the-hardangerfjord-region/listings-hardanger-fjord/v%c3%b8ringsfossen/158463/",
+      "lat": 60.426889,
+      "lon": 7.251139,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vøringsfossen or Vøringen is the 83rd highest waterfall in Norway on the basis of total fall.",
+        "es": "El Vøringfossen es una cascada de Noruega."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vøringsfossen",
+          "url": "https://en.wikipedia.org/wiki/V%C3%B8ringsfossen"
+        },
+        "es": {
+          "title": "Vøringfossen",
+          "url": "https://es.wikipedia.org/wiki/V%C3%B8ringfossen"
+        }
+      },
+      "image": {
+        "file": "Vøringfossen.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:V%C3%B8ringfossen.jpg",
+        "author": "Kenny Louie",
+        "license": "CC BY 2.0"
+      }
     }
   ]
 }

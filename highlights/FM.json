@@ -35,6 +35,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -81,6 +87,490 @@
       "descBy": {
         "en": "curated",
         "es": "curated"
+      }
+    },
+    {
+      "id": "fm-federated-states-of-micronesia",
+      "name": "Federated States of Micronesia",
+      "area": "Palikir",
+      "city": "Palikir",
+      "wikidata": "Q702",
+      "lat": 6.916667,
+      "lon": 158.183333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Federated States of Micronesia, or simply Micronesia, is an island country in Micronesia, a region of Oceania.",
+        "es": "Los Estados Federados de Micronesia, o simplemente Micronesia, son un Estado soberano insular en la región de Micronesia, cuya forma de gobierno es la república federal democrática."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Federated States of Micronesia",
+          "url": "https://en.wikipedia.org/wiki/Federated_States_of_Micronesia"
+        },
+        "es": {
+          "title": "Estados Federados de Micronesia",
+          "url": "https://es.wikipedia.org/wiki/Estados_Federados_de_Micronesia"
+        }
+      }
+    },
+    {
+      "id": "fm-pohnpei",
+      "name": "Pohnpei",
+      "area": "Palikir",
+      "city": "Palikir",
+      "wikidata": "Q319836",
+      "lat": 6.9,
+      "lon": 158.225,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pohnpei is an island of the Senyavin Islands which are part of the larger Caroline Islands group.",
+        "es": "Pohnpei es una isla de las Islas Senyavin que forman parte de las Islas Carolinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pohnpei",
+          "url": "https://en.wikipedia.org/wiki/Pohnpei"
+        },
+        "es": {
+          "title": "Pohnpei",
+          "url": "https://es.wikipedia.org/wiki/Pohnpei"
+        }
+      },
+      "image": {
+        "file": "Pohnpei_International_Airport.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pohnpei_International_Airport.jpg",
+        "author": "Gargoylepni",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fm-pingelap",
+      "name": "Pingelap",
+      "area": "Pohnpei State",
+      "city": "Pohnpei State",
+      "wikidata": "Q576348",
+      "lat": 6.218056,
+      "lon": 160.702778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pingelap is an atoll in the Pacific Ocean, part of Pohnpei State of the Federated States of Micronesia, consisting of three islands: Pingelap Island, Sukoru and Daekae, linked by a reef system and surrounding a…",
+        "es": "Pingelap es un atolón en el océano Pacífico, parte de Pohnpei, perteneciente a los Estados Federados de Micronesia, que consiste en tres islas: isla Pingelap, Deke y Takai, unidos a un sistema de arrecifes y rodeando…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pingelap",
+          "url": "https://en.wikipedia.org/wiki/Pingelap"
+        },
+        "es": {
+          "title": "Pingelap",
+          "url": "https://es.wikipedia.org/wiki/Pingelap"
+        }
+      },
+      "image": {
+        "file": "Pingelap.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pingelap.png",
+        "author": "Smurrayinchester",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fm-ant-atoll",
+      "name": "Ant Atoll",
+      "area": "Palikir",
+      "city": "Palikir",
+      "wikidata": "Q570479",
+      "lat": 6.783333,
+      "lon": 157.966667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ant Atoll is a small atoll lying off the west coast of Pohnpei in the Federated States of Micronesia.",
+        "es": "Atolón Ant es un pequeño atolón situado frente a la costa oeste de Pohnpei en los Estados Federados de Micronesia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ant Atoll",
+          "url": "https://en.wikipedia.org/wiki/Ant_Atoll"
+        },
+        "es": {
+          "title": "Atolón Ant",
+          "url": "https://es.wikipedia.org/wiki/Atol%C3%B3n_Ant"
+        }
+      },
+      "image": {
+        "file": "Ant_Atoll_NASA_157.96133E_6.77666N.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ant_Atoll_NASA_157.96133E_6.77666N.png",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fm-sapwuahfik",
+      "name": "Sapwuahfik",
+      "area": "Pohnpei State",
+      "city": "Pohnpei State",
+      "wikidata": "Q1313806",
+      "lat": 5.813056,
+      "lon": 157.276667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sapwuahfik, formerly Ngatik, or the Raven Islands is a 110-square-kilometer atoll in Pohnpei state of the Federated States of Micronesia.",
+        "es": "Sapwuahfik antes Ngatik, es un atolón que pertenece al Estado de Pohnpei, en los Estados Federados de Micronesia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sapwuahfik",
+          "url": "https://en.wikipedia.org/wiki/Sapwuahfik"
+        },
+        "es": {
+          "title": "Sapwuahfik",
+          "url": "https://es.wikipedia.org/wiki/Sapwuahfik"
+        }
+      },
+      "image": {
+        "file": "Ngatik_Atoll.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ngatik_Atoll.jpg",
+        "author": "NASA Johnson Space Center",
+        "license": "CC BY-SA 3.0 de"
+      }
+    },
+    {
+      "id": "fm-mokil-atoll",
+      "name": "Mokil Atoll",
+      "area": "Pohnpei State",
+      "city": "Pohnpei State",
+      "wikidata": "Q518320",
+      "lat": 6.666667,
+      "lon": 159.766667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mwoakilloa is an inhabited atoll in the central Pacific Ocean.",
+        "es": "El atolón Mokil es un atolón y una isla habitada en el Océano Pacífico central."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mokil Atoll",
+          "url": "https://en.wikipedia.org/wiki/Mokil_Atoll"
+        },
+        "es": {
+          "title": "Atolón Mokil",
+          "url": "https://es.wikipedia.org/wiki/Atol%C3%B3n_Mokil"
+        }
+      }
+    },
+    {
+      "id": "fm-pakin-atoll",
+      "name": "Pakin Atoll",
+      "area": "Pohnpei State",
+      "city": "Pohnpei State",
+      "wikidata": "Q1986725",
+      "lat": 7.066667,
+      "lon": 157.8,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pakin Atoll is a small atoll lying off the northwest coast of Pohnpei in the Federated States of Micronesia.",
+        "es": "El atolón Pakin es un pequeño atolón, ubicado cerca de la costa noroeste de Pohnpei, en los Estados Federados de Micronesia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pakin Atoll",
+          "url": "https://en.wikipedia.org/wiki/Pakin_Atoll"
+        },
+        "es": {
+          "title": "Atolón Pakin",
+          "url": "https://es.wikipedia.org/wiki/Atol%C3%B3n_Pakin"
+        }
+      },
+      "image": {
+        "file": "Pakin_NASA_157.80208E_7.04910N.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pakin_NASA_157.80208E_7.04910N.png",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fm-temwen-island",
+      "name": "Temwen Island",
+      "area": "Palikir",
+      "city": "Palikir",
+      "wikidata": "Q1115001",
+      "lat": 6.85,
+      "lon": 158.316667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Temwen Island is a small island of 3 square kilometers off the southeastern coast off the island of Pohnpei in the Federated States of Micronesia.",
+        "es": "Temwen es una pequeña isla en la costa sureste de la isla de Pohnpei, en los Estados Federados de Micronesia en el océano Pacífico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Temwen Island",
+          "url": "https://en.wikipedia.org/wiki/Temwen_Island"
+        },
+        "es": {
+          "title": "Isla Temwen",
+          "url": "https://es.wikipedia.org/wiki/Isla_Temwen"
+        }
+      },
+      "image": {
+        "file": "Nan_Madol_5.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nan_Madol_5.jpg",
+        "author": "CT Snow from Hsinchu, Taiwan",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "fm-dolohmwar",
+      "name": "Dolohmwar",
+      "area": "Palikir",
+      "city": "Palikir",
+      "wikidata": "Q1236265",
+      "lat": 6.855278,
+      "lon": 158.236667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Dolohmwar or Totolom is the third highest point of the Federated States of Micronesia, with an altitude of 760 metres.",
+        "es": "Dolohmwar o Monte Dolohmwar también llamado a veces Totolom es el punto más alto de los Estados Federados de Micronesia, al norte de Oceanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dolohmwar",
+          "url": "https://en.wikipedia.org/wiki/Dolohmwar"
+        },
+        "es": {
+          "title": "Dolohmwar",
+          "url": "https://es.wikipedia.org/wiki/Dolohmwar"
+        }
+      }
+    },
+    {
+      "id": "fm-mount-nanlaud",
+      "name": "Mount Nanlaud",
+      "area": "Palikir",
+      "city": "Palikir",
+      "wikidata": "Q15256944",
+      "lat": 6.875556,
+      "lon": 158.227778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Nanlaud is the highest point of the Federated States of Micronesia and of the Micronesian island of Pohnpei at 2,566 feet as indicated on the definitive USGS 1:25,000 scale topographic survey.",
+        "es": "Mount Nanlaud is the highest point of the Federated States of Micronesia and of the Micronesian island of Pohnpei at 2,566 feet as indicated on the definitive USGS 1:25,000 scale topographic survey."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Nanlaud",
+          "url": "https://en.wikipedia.org/wiki/Mount_Nanlaud"
+        },
+        "es": {
+          "title": "Mount Nanlaud",
+          "url": "https://en.wikipedia.org/wiki/Mount_Nanlaud"
+        }
+      }
+    },
+    {
+      "id": "fm-deke-sokehs",
+      "name": "Deke Sokehs",
+      "area": "Palikir",
+      "city": "Palikir",
+      "wikidata": "Q2623745",
+      "lat": 6.966667,
+      "lon": 158.183333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Deke Sokehs, or Sokehs Peninsula, is a mountainous peninsula on the north coast of Pohnpei in the Federated States of Micronesia.",
+        "es": "Sokehs o Deke Sokehs es una pequeña isla cercana a la costa norte de la isla de Pohnpei en los Estados Federados de Micronesia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Deke Sokehs",
+          "url": "https://en.wikipedia.org/wiki/Deke_Sokehs"
+        },
+        "es": {
+          "title": "Isla Sokehs",
+          "url": "https://es.wikipedia.org/wiki/Isla_Sokehs"
+        }
+      }
+    },
+    {
+      "id": "fm-catholic-belltower",
+      "name": "Catholic Belltower",
+      "area": "Palikir",
+      "city": "Palikir",
+      "wikidata": "Q5053074",
+      "lat": 6.968417,
+      "lon": 158.211472,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Catholic Belltower is a historic tower at the Catholic Mission in Kolonia, on the island of Pohnpei in the Federated States of Micronesia.",
+        "es": "La catedral del Campanario de Ponapé también conocida como el Campanario católico o el Campanario de Ponapé es una torre histórica en la Misión Católica en Kolonia, parte de los Estados Federados de Micronesia, un…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Catholic Belltower",
+          "url": "https://en.wikipedia.org/wiki/Catholic_Belltower"
+        },
+        "es": {
+          "title": "Catedral del Campanario (Ponapé)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Campanario_(Ponap%C3%A9)"
+        }
+      },
+      "image": {
+        "file": "Pohnpei's_Bell_Tower.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pohnpei's_Bell_Tower.jpg",
+        "author": "Ameliaamy1",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fm-japanese-shrine",
+      "name": "Japanese Shrine",
+      "area": "Palikir",
+      "city": "Palikir",
+      "wikidata": "Q23581242",
+      "lat": 6.964167,
+      "lon": 158.2125,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Japanese Shrine is a Shinto shrine in Kolonia, the capital of Pohnpei State in the Federated States of Micronesia.",
+        "es": "The Japanese Shrine is a Shinto shrine in Kolonia, the capital of Pohnpei State in the Federated States of Micronesia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Japanese Shrine (Pohnpei)",
+          "url": "https://en.wikipedia.org/wiki/Japanese_Shrine_(Pohnpei)"
+        },
+        "es": {
+          "title": "Japanese Shrine (Pohnpei)",
+          "url": "https://en.wikipedia.org/wiki/Japanese_Shrine_(Pohnpei)"
+        }
       }
     }
   ]

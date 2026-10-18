@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -122,6 +128,794 @@
       "website": "https://www.lavanille-naturepark.com/",
       "lat": -20.48528,
       "lon": 57.55083
+    },
+    {
+      "id": "mu-mauritius",
+      "name": "Mauritius",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q1027",
+      "lat": -20.2,
+      "lon": 57.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mauritius, officially the Republic of Mauritius, is an island country in the Indian Ocean, located about 1,100 nautical miles off the southeastern coast of Africa, east of Madagascar.",
+        "es": "Mauricio —oficialmente en español, República de Mauricio — es un país soberano insular ubicado al suroeste del océano Índico, a unos novecientos kilómetros de Toamasina, ciudad en la costa oriental más cercana de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mauritius",
+          "url": "https://en.wikipedia.org/wiki/Mauritius"
+        },
+        "es": {
+          "title": "Mauricio",
+          "url": "https://es.wikipedia.org/wiki/Mauricio"
+        }
+      },
+      "image": {
+        "file": "Mauritius_23.08.2009_11-42-31.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mauritius_23.08.2009_11-42-31.jpg",
+        "author": "Simisa (talk · contribs)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mu-le-morne-brabant",
+      "name": "Le Morne Brabant",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q1129992",
+      "lat": -20.460556,
+      "lon": 57.313611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Le Morne Brabant is a peninsula at the extreme southwestern tip of the Indian Ocean island of Mauritius.",
+        "es": "Le Morne Brabant es una península en el extremo sudoeste de Isla Mauricio y el lado más a barlovento de la isla."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Le Morne Brabant",
+          "url": "https://en.wikipedia.org/wiki/Le_Morne_Brabant"
+        },
+        "es": {
+          "title": "Morne Brabant",
+          "url": "https://es.wikipedia.org/wiki/Morne_Brabant"
+        }
+      },
+      "image": {
+        "file": "Le_Morne_Peninsula_in_Mauritius_(53697779236).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Le_Morne_Peninsula_in_Mauritius_(53697779236).jpg",
+        "author": "\"dronepicr\"",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "mu-piton-de-la-petite-riviere-noire",
+      "name": "Piton de la Petite Rivière Noire",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q1760978",
+      "lat": -20.408795,
+      "lon": 57.407692,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Piton de la Petite Rivière Noire is the highest mountain on the island of Mauritius, in the Indian Ocean.",
+        "es": "Piton de la Petite Rivière Noire es la montaña más alta de la isla de Mauricio, en el Océano Índico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Piton de la Petite Rivière Noire",
+          "url": "https://en.wikipedia.org/wiki/Piton_de_la_Petite_Rivi%C3%A8re_Noire"
+        },
+        "es": {
+          "title": "Piton de la Petite Rivière Noire",
+          "url": "https://es.wikipedia.org/wiki/Piton_de_la_Petite_Rivi%C3%A8re_Noire"
+        }
+      },
+      "image": {
+        "file": "Rempart_Mt..jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rempart_Mt..jpg",
+        "author": "Yann Crettaz",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mu-ile-ronde",
+      "name": "Île Ronde",
+      "area": "Rivière du Rempart District",
+      "city": "Rivière du Rempart District",
+      "wikidata": "Q1087761",
+      "lat": -19.850036,
+      "lon": 57.783333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Round Island is an uninhabited islet 22.5 kilometres north of Mauritius.",
+        "es": "Isla Redonda, es una isla deshabitada que se encuentra a 22,5 kilómetros al norte de Mauricio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Île Ronde, Mauritius",
+          "url": "https://en.wikipedia.org/wiki/%C3%8Ele_Ronde%2C_Mauritius"
+        },
+        "es": {
+          "title": "Isla Redonda (Mauricio)",
+          "url": "https://es.wikipedia.org/wiki/Isla_Redonda_(Mauricio)"
+        }
+      },
+      "image": {
+        "file": "Round_Island_and_Serpent_Island_-_Mauritius.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Round_Island_and_Serpent_Island_-_Mauritius.jpg",
+        "author": "Algonkins (https://lv.wikipedia.org/wiki/Dalībnieks:Algonkins)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mu-mauritius-island",
+      "name": "Mauritius Island",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q2656389",
+      "lat": -20.3,
+      "lon": 57.583333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mauritius, officially the Republic of Mauritius, is an island country in the Indian Ocean, located about 1,100 nautical miles off the southeastern coast of Africa, east of Madagascar.",
+        "es": "La isla Mauricio es una isla del océano Índico, al este de Madagascar, incluida en el grupo de las Mascareñas, junto con la isla de La Reunión, Departamento de ultramar francés."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mauritius",
+          "url": "https://en.wikipedia.org/wiki/Mauritius"
+        },
+        "es": {
+          "title": "Isla de Mauricio",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Mauricio"
+        }
+      },
+      "image": {
+        "file": "Mont-piton-1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mont-piton-1.jpg",
+        "author": "Kikibelux",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mu-black-river-gorges-national-park",
+      "name": "Black River Gorges National Park",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q2421766",
+      "lat": -20.416667,
+      "lon": 57.416667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Black River Gorges National Park is a national park in the hilly south-western part of Mauritius.",
+        "es": "Parque Nacional Gargantas del Río Negro es un parque nacional en las colinas al suroeste de Mauricio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Black River Gorges National Park",
+          "url": "https://en.wikipedia.org/wiki/Black_River_Gorges_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Gargantas del Río Negro",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Gargantas_del_R%C3%ADo_Negro"
+        }
+      },
+      "image": {
+        "file": "BlackRiverGorges.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BlackRiverGorges.jpg",
+        "author": "Mauritiustrip",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mu-trou-aux-cerfs",
+      "name": "Trou aux Cerfs",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q429442",
+      "lat": -20.318119,
+      "lon": 57.511532,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Trou aux Cerfs is a dormant, crater lake, cinder cone volcano with a well-defined cone and crater.",
+        "es": "Trou aux Cerfs es un volcán inactivo con un cono bien definido y un cráter."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Trou aux Cerfs",
+          "url": "https://en.wikipedia.org/wiki/Trou_aux_Cerfs"
+        },
+        "es": {
+          "title": "Trou aux Cerfs",
+          "url": "https://es.wikipedia.org/wiki/Trou_aux_Cerfs"
+        }
+      },
+      "image": {
+        "file": "Mauritius_trou_aux_cerfs_volcano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mauritius_trou_aux_cerfs_volcano.jpg",
+        "author": "Arne Müseler",
+        "license": "CC BY-SA 3.0 de"
+      }
+    },
+    {
+      "id": "mu-ganga-talao",
+      "name": "Ganga Talao",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q2338515",
+      "lat": -20.418056,
+      "lon": 57.491944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ganga Talao is considered a sacred lake among Hindus, located in a volcanic crater situated in a secluded mountain area, high above the Indian Ocean in the district of Savanne on the island of Mauritius.",
+        "es": "Lago Ganga Talao o Grand Bassin es un lago de cráter situado en una zona aislada de montaña en el distrito de Savanne, en el corazón de Mauricio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ganga Talao",
+          "url": "https://en.wikipedia.org/wiki/Ganga_Talao"
+        },
+        "es": {
+          "title": "Lago Ganga Talao",
+          "url": "https://es.wikipedia.org/wiki/Lago_Ganga_Talao"
+        }
+      }
+    },
+    {
+      "id": "mu-sir-seewoosagur-ramgoolam-botanical-garden",
+      "name": "Sir Seewoosagur Ramgoolam Botanical Garden",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q931430",
+      "lat": -20.108153,
+      "lon": 57.577253,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Sir Seewoosagur Ramgoolam Botanic Garden, commonly known as the Pamplemousses Botanic Garden, is a popular tourist attraction in Pamplemousses, near Port Louis, Mauritius, and the oldest botanical garden in the…",
+        "es": "El Jardín Botánico de Pamplemousses es un jardín botánico que se encuentra situado en el «Distrito Concejo de Pamplemousses», en la parte norte de la isla de Mauricio cerca de Port Louis, y anteriormente era conocido…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sir Seewoosagur Ramgoolam Botanical Garden",
+          "url": "https://en.wikipedia.org/wiki/Sir_Seewoosagur_Ramgoolam_Botanical_Garden"
+        },
+        "es": {
+          "title": "Jardín Botánico de Pamplemousses",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_de_Pamplemousses"
+        }
+      },
+      "image": {
+        "file": "Mon_Plaisir_im_Sir_Seewoosagur_Ramgoolam_Botanical_Garden.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mon_Plaisir_im_Sir_Seewoosagur_Ramgoolam_Botanical_Garden.jpg",
+        "author": "Lonelyplanet",
+        "license": "CC BY-SA 3.0 de"
+      }
+    },
+    {
+      "id": "mu-ile-de-la-passe",
+      "name": "Île de la Passe",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q292422",
+      "lat": -20.398889,
+      "lon": 57.767222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Île de la Passe is a rocky islet in the bay off Grand Port on the island of Mauritius.",
+        "es": "Île de la Passe es una isla rocosa en la bahía de Grand Port en la isla de Mauricio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Île de la Passe (Mauritius)",
+          "url": "https://en.wikipedia.org/wiki/%C3%8Ele_de_la_Passe_(Mauritius)"
+        },
+        "es": {
+          "title": "Île de la Passe",
+          "url": "https://es.wikipedia.org/wiki/%C3%8Ele_de_la_Passe"
+        }
+      },
+      "image": {
+        "file": "Ile-de-la-Passe.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ile-de-la-Passe.jpg",
+        "author": "Cniessen",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mu-pieter-both",
+      "name": "Pieter Both",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q260580",
+      "lat": -20.192271,
+      "lon": 57.555172,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pieter Both, sometimes referred to as Peter Botte Mountain, is the second highest mountain of Mauritius, at 820 metres tall.",
+        "es": "Pieter Both, sometimes referred to as Peter Botte Mountain, is the second highest mountain of Mauritius, at 820 metres tall."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pieter Both (mountain)",
+          "url": "https://en.wikipedia.org/wiki/Pieter_Both_(mountain)"
+        },
+        "es": {
+          "title": "Pieter Both (mountain)",
+          "url": "https://en.wikipedia.org/wiki/Pieter_Both_(mountain)"
+        }
+      },
+      "image": {
+        "file": "Pieter_Both,_mountain.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pieter_Both%2C_mountain.jpg",
+        "author": "Avinash Meetoo from Quatre-Bornes, Mauritius",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "mu-le-pouce",
+      "name": "Le Pouce",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q2398604",
+      "lat": -20.197222,
+      "lon": 57.5285,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Le Pouce is the third highest mountain in Mauritius, at 812 meters.",
+        "es": "Le Pouce is the third highest mountain in Mauritius, at 812 meters."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Le Pouce",
+          "url": "https://en.wikipedia.org/wiki/Le_Pouce"
+        },
+        "es": {
+          "title": "Le Pouce",
+          "url": "https://en.wikipedia.org/wiki/Le_Pouce"
+        }
+      },
+      "image": {
+        "file": "Le_Pouce2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Le_Pouce2.jpg",
+        "author": "carrotmadman6",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "mu-ile-aux-aigrettes",
+      "name": "Île aux Aigrettes",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q292203",
+      "lat": -20.42,
+      "lon": 57.733056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ile aux Aigrettes is an islet off the south-east coast of Mauritius.",
+        "es": "Île aux Aigrettes es la isla más grande en la bahía de Grand Port, situada al este de la isla principal de la República de Mauricio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Île aux Aigrettes",
+          "url": "https://en.wikipedia.org/wiki/%C3%8Ele_aux_Aigrettes"
+        },
+        "es": {
+          "title": "Île aux Aigrettes",
+          "url": "https://es.wikipedia.org/wiki/%C3%8Ele_aux_Aigrettes"
+        }
+      },
+      "image": {
+        "file": "Ile_aux_Aigrettes_Nature_Reserve_from_offshore,_Mauritius.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ile_aux_Aigrettes_Nature_Reserve_from_offshore%2C_Mauritius.JPG",
+        "author": "User: (WT-shared) Shoestring at wts wikivoyage",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mu-ile-aux-cerfs",
+      "name": "Île aux Cerfs",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q292217",
+      "lat": -20.2724,
+      "lon": 57.8041,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Île aux Cerfs is a privately owned island near the east coast of Mauritius in the Flacq District.",
+        "es": "Île aux Cerfs is a privately owned island near the east coast of Mauritius in the Flacq District."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Île aux Cerfs",
+          "url": "https://en.wikipedia.org/wiki/%C3%8Ele_aux_Cerfs"
+        },
+        "es": {
+          "title": "Île aux Cerfs",
+          "url": "https://en.wikipedia.org/wiki/%C3%8Ele_aux_Cerfs"
+        }
+      },
+      "image": {
+        "file": "Mauritius_Île_aux_Cerfs.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mauritius_%C3%8Ele_aux_Cerfs.jpg",
+        "author": "Arne Müseler",
+        "license": "CC BY-SA 3.0 de"
+      }
+    },
+    {
+      "id": "mu-st-louis-cathedral-port-louis",
+      "name": "St. Louis Cathedral, Port-Louis",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q2942379",
+      "lat": -20.1645,
+      "lon": 57.5065,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. Louis Cathedral is a Roman Catholic cathedral in Port Louis, Mauritius, the seat of the bishop of Port-Louis.",
+        "es": "La Catedral de San Luis situado en Port Louis, capital del país africano de Mauricio, es la sede del obispo de la diócesis de Port Louis."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Louis Cathedral, Port-Louis",
+          "url": "https://en.wikipedia.org/wiki/St._Louis_Cathedral%2C_Port-Louis"
+        },
+        "es": {
+          "title": "Catedral de San Luis (Port Louis)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Luis_(Port_Louis)"
+        }
+      },
+      "image": {
+        "file": "Port_Louis,_Saint_Louis_Cathedral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Port_Louis%2C_Saint_Louis_Cathedral.jpg",
+        "author": "Karsten Ratzke",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "mu-tamarind-falls",
+      "name": "Tamarind Falls",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q2967742",
+      "lat": -20.344444,
+      "lon": 57.466389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Tamarind Falls or Tamarin Falls are a scenic attraction of southwest Mauritius.",
+        "es": "Cascadas de Tamarin son unas caídas de agua del río Tamarin en el país africano de Mauricio, están al noroeste de la meseta más alta de esa isla, conocida como «Planicie de Wilhems»."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tamarind Falls",
+          "url": "https://en.wikipedia.org/wiki/Tamarind_Falls"
+        },
+        "es": {
+          "title": "Cascadas de Tamarin",
+          "url": "https://es.wikipedia.org/wiki/Cascadas_de_Tamarin"
+        }
+      },
+      "image": {
+        "file": "Tamarind_falls.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tamarind_falls.jpg",
+        "author": "Mip130916",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mu-mangal-mahadev",
+      "name": "Mangal Mahadev",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q19899414",
+      "lat": -20.4164,
+      "lon": 57.4924,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Mangal Mahadev is a 33 m tall sculpture of the Hindu god Shiva standing with his Trishula at the entrance of Ganga Talao, a crater lake situated in the district of Savanne district, Mauritius.",
+        "es": "Mangal Mahadev is a 33 m tall sculpture of the Hindu god Shiva standing with his Trishula at the entrance of Ganga Talao, a crater lake situated in the district of Savanne district, Mauritius."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mangal Mahadev",
+          "url": "https://en.wikipedia.org/wiki/Mangal_Mahadev"
+        },
+        "es": {
+          "title": "Mangal Mahadev",
+          "url": "https://en.wikipedia.org/wiki/Mangal_Mahadev"
+        }
+      },
+      "image": {
+        "file": "DSCN1121_2_(5488435679).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DSCN1121_2_(5488435679).jpg",
+        "author": "carrotmadman6 from Mauritius",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "mu-mare-aux-vacoas",
+      "name": "Mare aux Vacoas",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q936834",
+      "lat": -20.366667,
+      "lon": 57.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mare aux Vacoas is the largest reservoir in Mauritius.",
+        "es": "Mare aux Vacoas es la mayor reserva de agua en la Isla y nación del océano Índico de Mauricio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mare aux Vacoas",
+          "url": "https://en.wikipedia.org/wiki/Mare_aux_Vacoas"
+        },
+        "es": {
+          "title": "Mare aux Vacoas",
+          "url": "https://es.wikipedia.org/wiki/Mare_aux_Vacoas"
+        }
+      },
+      "image": {
+        "file": "Mare_aux_vacoas.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mare_aux_vacoas.jpg",
+        "author": "Mip130916",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mu-bank-of-mauritius-tower",
+      "name": "Bank of Mauritius Tower",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q2882647",
+      "lat": -20.16184,
+      "lon": 57.503752,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Bank of Mauritius Tower is a skyscraper in Port Louis, the capital of Mauritius, and a home to the Bank of Mauritius.",
+        "es": "La Bank of Mauritius Tower es un rascacielos en Port Louis, la capital de Mauricio, y el hogar del Banco de Mauricio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bank of Mauritius Tower",
+          "url": "https://en.wikipedia.org/wiki/Bank_of_Mauritius_Tower"
+        },
+        "es": {
+          "title": "Bank of Mauritius Tower",
+          "url": "https://es.wikipedia.org/wiki/Bank_of_Mauritius_Tower"
+        }
+      },
+      "image": {
+        "file": "The_Bank_of_Mauritius_tower_(in_the_centre).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Bank_of_Mauritius_tower_(in_the_centre).jpg",
+        "author": "Thierry",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mu-corps-de-garde",
+      "name": "Corps de Garde",
+      "area": "Port Louis",
+      "city": "Port Louis",
+      "wikidata": "Q2997727",
+      "lat": -20.252222,
+      "lon": 57.450556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Corps de Garde is a 720-metre-high mountain of volcanic origin, in the area Palma in the Black River district of Mauritius.",
+        "es": "Corps de Garde is a 720-metre-high mountain of volcanic origin, in the area Palma in the Black River district of Mauritius."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Corps de Garde",
+          "url": "https://en.wikipedia.org/wiki/Corps_de_Garde"
+        },
+        "es": {
+          "title": "Corps de Garde",
+          "url": "https://en.wikipedia.org/wiki/Corps_de_Garde"
+        }
+      }
     }
   ]
 }

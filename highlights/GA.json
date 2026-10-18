@@ -35,6 +35,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -106,6 +112,148 @@
       },
       "lat": 0.24,
       "lon": 9.51
+    },
+    {
+      "id": "ga-akanda-national-park",
+      "name": "Akanda National Park",
+      "area": "Libreville",
+      "city": "Libreville",
+      "wikidata": "Q3105583",
+      "lat": 0.616667,
+      "lon": 9.55,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Akanda National Park is located just north of Libreville, Gabon's capital city.",
+        "es": "El Parque nacional de Akanda es uno de los 13 parques nacionales en Gabón creado en 2002 por el presidente Omar Bongo, tras un estudio de dos años."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Akanda National Park",
+          "url": "https://en.wikipedia.org/wiki/Akanda_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Akanda",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Akanda"
+        }
+      }
+    },
+    {
+      "id": "ga-pongara-national-park",
+      "name": "Pongara National Park",
+      "area": "Libreville",
+      "city": "Libreville",
+      "wikidata": "Q7227798",
+      "lat": 0.12453,
+      "lon": 9.53905,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pongara National Park is a national park in Gabon, located near the capital, Libreville, on the south side of the Gabon Estuary and the Atlantic Ocean.",
+        "es": "El Parque nacional de Pongara es un espacio protegido con el estatus de parque nacional en la parte noroeste del país africano de Gabón."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pongara National Park",
+          "url": "https://en.wikipedia.org/wiki/Pongara_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Pongara",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Pongara"
+        }
+      },
+      "image": {
+        "file": "Lance_Cpl._Justin_Forrester_teaches_immediate_action_drills_to_a_park_ranger_with_the_Agence_Nationale_des_Parcs_Nationaux_at_the_Pongara_National_Forest_in_Pongara,_Gabon,_Sept._17,_2015.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lance_Cpl._Justin_Forrester_teaches_immediate_action_drills_to_a_park_ranger_with_the_Agence_Nationale_des_Parcs_Nationaux_at_the_Pongara_National_Forest_in_Pongara%2C_Gabon%2C_Sept._17%2C_2015.jpg",
+        "author": "Staff Sgt. Ryan Nikzad",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ga-waka-national-park",
+      "name": "Waka National Park",
+      "area": "Libreville",
+      "city": "Libreville",
+      "wikidata": "Q1101416",
+      "lat": -1.27088,
+      "lon": 11.0392,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Waka National Park is a national park in central Gabon.",
+        "es": "El Parque nacional de la Waka es un espacio protegido con el estatus de parque nacional en la parte central del país africano de Gabón."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Waka National Park",
+          "url": "https://en.wikipedia.org/wiki/Waka_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de la Waka",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_la_Waka"
+        }
+      }
+    },
+    {
+      "id": "ga-crystal-mountains-national-park",
+      "name": "Crystal Mountains National Park",
+      "area": "Libreville",
+      "city": "Libreville",
+      "wikidata": "Q5191298",
+      "lat": 0.805,
+      "lon": 10.16,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Crystal Mountains National Park is a twin park and one of the 13 national parks of Gabon.",
+        "es": "El parque nacional de los Montes de Cristal es un parque de dos partes individuales y uno de los 13 parques nacionales del país africano de Gabón."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Crystal Mountains National Park",
+          "url": "https://en.wikipedia.org/wiki/Crystal_Mountains_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de los Montes de Cristal",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_los_Montes_de_Cristal"
+        }
+      }
     }
   ]
 }

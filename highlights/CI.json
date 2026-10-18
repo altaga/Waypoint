@@ -35,6 +35,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -105,6 +111,703 @@
       },
       "lat": 5.394539,
       "lon": -4.051981
+    },
+    {
+      "id": "ci-comoe-national-park",
+      "name": "Comoé National Park",
+      "area": "Zanzan Region",
+      "city": "Zanzan Region",
+      "wikidata": "Q501344",
+      "lat": 9.163611,
+      "lon": -3.7725,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Comoé National Park is a Biosphere Reserve and UNESCO World Heritage Site in the Zanzan and Savanes districts of north-eastern Ivory Coast.",
+        "es": "El Parque Nacional del Comoé, región nororiental de Costa de Marfil, entre los ríos Comoé y Volta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Comoé National Park",
+          "url": "https://en.wikipedia.org/wiki/Como%C3%A9_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional del Comoé",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_Como%C3%A9"
+        }
+      },
+      "image": {
+        "file": "NationalparkComoe4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NationalparkComoe4.jpg",
+        "author": "Albert Backer",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ci-tai-national-park",
+      "name": "Taï National Park",
+      "area": "Bas-Sassandra District",
+      "city": "Bas-Sassandra District",
+      "wikidata": "Q328577",
+      "website": "https://www.parc-national-de-tai.org/",
+      "lat": 5.75,
+      "lon": -7.12,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Taï National Park is a national park in Ivory Coast that contains one of the last areas of primary rainforest in West Africa.",
+        "es": "El parque nacional de Tai, en el suroeste de Costa de Marfil, cerca de la frontera con Guinea y Liberia, cubre 3500 km² alrededor del monte Nienokoue, en los departamentos de Guiglo y Sassandra."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taï National Park",
+          "url": "https://en.wikipedia.org/wiki/Ta%C3%AF_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Tai",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Tai"
+        }
+      },
+      "image": {
+        "file": "Taï_National_Park_(24148248710).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ta%C3%AF_National_Park_(24148248710).jpg",
+        "author": "yakovlev.alexey from Moscow, Russia",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "ci-lake-kossou",
+      "name": "Lake Kossou",
+      "area": "Yamoussoukro",
+      "city": "Yamoussoukro",
+      "wikidata": "Q267679",
+      "lat": 7.15,
+      "lon": -5.59,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Kossou is Côte d'Ivoire's largest lake.",
+        "es": "Lake Kossou is Côte d'Ivoire's largest lake."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Kossou",
+          "url": "https://en.wikipedia.org/wiki/Lake_Kossou"
+        },
+        "es": {
+          "title": "Lake Kossou",
+          "url": "https://en.wikipedia.org/wiki/Lake_Kossou"
+        }
+      },
+      "image": {
+        "file": "Fishers_boats_on_Lake_Kossou_near_Kousso_in_Côte_d'Ivoire_(3).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fishers_boats_on_Lake_Kossou_near_Kousso_in_C%C3%B4te_d'Ivoire_(3).JPG",
+        "author": "Hanay",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ci-assagny-national-park",
+      "name": "Assagny National Park",
+      "area": "Abidjan",
+      "city": "Abidjan",
+      "wikidata": "Q3091738",
+      "lat": 5.2,
+      "lon": -4.883333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Assagny National Park or Azagny National Park is a national park in the south of Ivory Coast.",
+        "es": "El Parque nacional de Azagny en francés: Parc national d'Azagny o bien Parc national d'Assagny) es una reserva natural con una superficie de 19.400 hectáreas, ubicada en Costa de Marfil, a 130 km de Abiyán, en la…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Assagny National Park",
+          "url": "https://en.wikipedia.org/wiki/Assagny_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Azagny",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Azagny"
+        }
+      }
+    },
+    {
+      "id": "ci-ebrie-lagoon",
+      "name": "Ébrié Lagoon",
+      "area": "Abidjan",
+      "city": "Abidjan",
+      "wikidata": "Q273288",
+      "lat": 5.271861,
+      "lon": -4.339247,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Ébrié Lagoon lies in Ivory Coast, separated for almost all of its length from the Atlantic Ocean by a narrow coastal strip.",
+        "es": "La laguna Ébrié es una laguna costera o lagoon que se encuentra en la costa atlántica de Costa de Marfil, separada del océano por un largo y estrecho cordón litoral."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ébrié Lagoon",
+          "url": "https://en.wikipedia.org/wiki/%C3%89bri%C3%A9_Lagoon"
+        },
+        "es": {
+          "title": "Laguna Ébrié",
+          "url": "https://es.wikipedia.org/wiki/Laguna_%C3%89bri%C3%A9"
+        }
+      },
+      "image": {
+        "file": "Abidjan_des_Lagune.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Abidjan_des_Lagune.jpg",
+        "author": "Aman ADO",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ci-iles-ehotiles-national-park",
+      "name": "Îles Ehotilés National Park",
+      "area": "Sud-Comoé",
+      "city": "Sud-Comoé",
+      "wikidata": "Q2749744",
+      "lat": 5.17699,
+      "lon": -3.22902,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Îles Ehotilé National Park is a national park of the Ivory Coast in the Sud-Comoé region.",
+        "es": "El Parque Nacional Islas Ehotilé es un parque natural y archipiélago situado en el este del país africano de Costa de Marfil cerca de Assinie."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Îles Ehotilé National Park",
+          "url": "https://en.wikipedia.org/wiki/%C3%8Eles_Ehotil%C3%A9_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de las Islas Ehotilé",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_las_Islas_Ehotil%C3%A9"
+        }
+      },
+      "image": {
+        "file": "Parc_National_des_Iles_Ehotilé_.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parc_National_des_Iles_Ehotil%C3%A9_.jpg",
+        "author": "Azigopriv",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ci-mont-peko-national-park",
+      "name": "Mont Péko National Park",
+      "area": "Yamoussoukro",
+      "city": "Yamoussoukro",
+      "wikidata": "Q370370",
+      "lat": 7.025,
+      "lon": -7.238889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mont Péko National Park is a national park in Ivory Coast.",
+        "es": "El Parque nacional del Monte Péko es un área protegida en el país africano de Costa de Marfil."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mont Péko National Park",
+          "url": "https://en.wikipedia.org/wiki/Mont_P%C3%A9ko_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional del Monte Péko",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_Monte_P%C3%A9ko"
+        }
+      }
+    },
+    {
+      "id": "ci-marahoue-national-park",
+      "name": "Marahoué National Park",
+      "area": "Yamoussoukro",
+      "city": "Yamoussoukro",
+      "wikidata": "Q1668658",
+      "lat": 7.1,
+      "lon": -6.025,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Marahoué National Park is a national park in Ivory Coast.",
+        "es": "El parque nacional de Marahoué es un área protegida de Costa de Marfil."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Marahoué National Park",
+          "url": "https://en.wikipedia.org/wiki/Marahou%C3%A9_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Marahoué",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Marahou%C3%A9"
+        }
+      },
+      "image": {
+        "file": "Le_fleuve_Bandama_à_Zuénoula_en_2023_03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Le_fleuve_Bandama_%C3%A0_Zu%C3%A9noula_en_2023_03.jpg",
+        "author": "Dadrik",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "ci-lake-buyo",
+      "name": "Lake Buyo",
+      "area": "San-Pédro",
+      "city": "San-Pédro",
+      "wikidata": "Q4809051",
+      "lat": 6.3,
+      "lon": -7.1,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Buyo is an artificial lake in western Ivory Coast on the Sassandra River.",
+        "es": "El lago de Buyo es un lago artificial en el oeste del país africano de Costa de Marfil, específicamente en aguas del río Sassandra."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Buyo",
+          "url": "https://en.wikipedia.org/wiki/Lake_Buyo"
+        },
+        "es": {
+          "title": "Lago de Buyo",
+          "url": "https://es.wikipedia.org/wiki/Lago_de_Buyo"
+        }
+      }
+    },
+    {
+      "id": "ci-st-paul-s-cathedral",
+      "name": "St. Paul's Cathedral",
+      "area": "Abidjan",
+      "city": "Abidjan",
+      "wikidata": "Q2441417",
+      "lat": 5.33291,
+      "lon": -4.02008,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St Paul's Cathedral is a Roman Catholic cathedral located in the city of Abidjan, Côte d'Ivoire.",
+        "es": "La catedral de San Pablo de Abiyán es una catedral católica ubicada en la ciudad de Abiyán, Costa de Marfil."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Paul's Cathedral, Abidjan",
+          "url": "https://en.wikipedia.org/wiki/St._Paul's_Cathedral%2C_Abidjan"
+        },
+        "es": {
+          "title": "Catedral de San Pablo (Abiyán)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Pablo_(Abiy%C3%A1n)"
+        }
+      },
+      "image": {
+        "file": "StPaulusAbidjanOverview.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:StPaulusAbidjanOverview.jpg",
+        "author": "Chescargot",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ci-mont-sangbe-national-park",
+      "name": "Mont Sângbé National Park",
+      "area": "Korhogo",
+      "city": "Korhogo",
+      "wikidata": "Q3364520",
+      "lat": 7.983333,
+      "lon": -7.25,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mont Sângbé National Park is a national park in Ivory Coast.",
+        "es": "El Parque nacional del Monte Sangbé es un parque nacional en el país africano de Costa de Marfil, considerado como uno de los principales parques nacionales del mundo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mont Sângbé National Park",
+          "url": "https://en.wikipedia.org/wiki/Mont_S%C3%A2ngb%C3%A9_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional del Monte Sangbé",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_Monte_Sangb%C3%A9"
+        }
+      }
+    },
+    {
+      "id": "ci-aby-lagoon",
+      "name": "Aby Lagoon",
+      "area": "Abidjan",
+      "city": "Abidjan",
+      "wikidata": "Q3216284",
+      "lat": 5.279444,
+      "lon": -3.224722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Aby Lagoon complex is the second largest lagoon in Ivory Coast, after Ébrié Lagoon.",
+        "es": "The Aby Lagoon complex is the second largest lagoon in Ivory Coast, after Ébrié Lagoon."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aby Lagoon",
+          "url": "https://en.wikipedia.org/wiki/Aby_Lagoon"
+        },
+        "es": {
+          "title": "Aby Lagoon",
+          "url": "https://en.wikipedia.org/wiki/Aby_Lagoon"
+        }
+      },
+      "image": {
+        "file": "Lagune_Aby.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lagune_Aby.JPG",
+        "author": "Kantiono valerie pascal",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ci-ile-boulay",
+      "name": "Île Boulay",
+      "area": "Abidjan",
+      "city": "Abidjan",
+      "wikidata": "Q3593025",
+      "lat": 5.2791,
+      "lon": -4.1155,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Île Boulay is an island in the Ébrié Lagoon in Ivory Coast.",
+        "es": "Boulay es el nombre de una isla en la Laguna Ébrié, en Costa de Marfil,."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Île Boulay",
+          "url": "https://en.wikipedia.org/wiki/%C3%8Ele_Boulay"
+        },
+        "es": {
+          "title": "Isla Boulay",
+          "url": "https://es.wikipedia.org/wiki/Isla_Boulay"
+        }
+      },
+      "image": {
+        "file": "Matelot_ivoirien.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Matelot_ivoirien.jpg",
+        "author": "Aman ADO",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ci-houphouet-boigny-bridge",
+      "name": "Houphouët-Boigny Bridge",
+      "area": "Abidjan",
+      "city": "Abidjan",
+      "wikidata": "Q3396536",
+      "lat": 5.312083,
+      "lon": -4.019306,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Houphouët-Boigny Bridge is a road and rail bridge over the Ébrié Lagoon which links the two halves of the city of Abidjan in Ivory Coast.",
+        "es": "El Puente Félix-Houphouët-Boigny es una carretera y un puente ferroviario sobre la Laguna Ébrié que une las dos mitades de la ciudad de Abiyán, en el país africano de Costa de Marfil."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Houphouët-Boigny Bridge",
+          "url": "https://en.wikipedia.org/wiki/Houphou%C3%ABt-Boigny_Bridge"
+        },
+        "es": {
+          "title": "Puente Félix-Houphouët-Boigny",
+          "url": "https://es.wikipedia.org/wiki/Puente_F%C3%A9lix-Houphou%C3%ABt-Boigny"
+        }
+      },
+      "image": {
+        "file": "Pont_Felix_Houphouet-Boigny.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pont_Felix_Houphouet-Boigny.jpg",
+        "author": "Sebyao",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ci-museum-of-civilizations-in-ivory-coast",
+      "name": "Museum of Civilizations in Ivory Coast",
+      "area": "Abidjan",
+      "city": "Abidjan",
+      "wikidata": "Q16888110",
+      "lat": 5.333538,
+      "lon": -4.024141,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Musée des Civilisations de Côte d'Ivoire is a state museum located in Ivory Coast.",
+        "es": "The Musée des Civilisations de Côte d'Ivoire is a state museum located in Ivory Coast."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Musée des Civilisations de Côte d'Ivoire",
+          "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_des_Civilisations_de_C%C3%B4te_d'Ivoire"
+        },
+        "es": {
+          "title": "Musée des Civilisations de Côte d'Ivoire",
+          "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_des_Civilisations_de_C%C3%B4te_d'Ivoire"
+        }
+      },
+      "image": {
+        "file": "Musee_civilisations_Abidjan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Musee_civilisations_Abidjan.jpg",
+        "author": "ATV",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ci-second-abidjan-bridge",
+      "name": "Second Abidjan Bridge",
+      "area": "Abidjan",
+      "city": "Abidjan",
+      "wikidata": "Q4274688",
+      "lat": 5.315845,
+      "lon": -4.010224,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Second Abidjan Bridge is a road bridge over the Ébrié Lagoon which links the two halves of the city of Abidjan in Côte d'Ivoire.",
+        "es": "El Segundo puente de Abiyán es un puente sobre la Laguna Ébrié que une las dos mitades de la ciudad de Abiyán, en el país africano de Costa de Marfil."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Second Abidjan Bridge",
+          "url": "https://en.wikipedia.org/wiki/Second_Abidjan_Bridge"
+        },
+        "es": {
+          "title": "Segundo puente de Abiyán",
+          "url": "https://es.wikipedia.org/wiki/Segundo_puente_de_Abiy%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Pont_de_Gaulle_et_Treichville,_Abidjan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pont_de_Gaulle_et_Treichville%2C_Abidjan.jpg",
+        "author": "abdallahh",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ci-henri-konan-bedie-bridge",
+      "name": "Henri Konan Bédié Bridge",
+      "area": "Abidjan",
+      "city": "Abidjan",
+      "wikidata": "Q3396565",
+      "lat": 5.32201,
+      "lon": -3.98061,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Henri Konan Bédié Bridge, also known as the HKB Bridge or Third Bridge, is a road bridge and expressway linking the north and south of Abidjan.",
+        "es": "Henri Konan Bédié Bridge, also known as the HKB Bridge or Third Bridge, is a road bridge and expressway linking the north and south of Abidjan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Henri Konan Bédié Bridge",
+          "url": "https://en.wikipedia.org/wiki/Henri_Konan_B%C3%A9di%C3%A9_Bridge"
+        },
+        "es": {
+          "title": "Henri Konan Bédié Bridge",
+          "url": "https://en.wikipedia.org/wiki/Henri_Konan_B%C3%A9di%C3%A9_Bridge"
+        }
+      },
+      "image": {
+        "file": "Pont_HKB_panorama_Plateau.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pont_HKB_panorama_Plateau.jpg",
+        "author": "Skiper",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ci-musee-regional-peleforo-gbon-coulibaly",
+      "name": "Musée Régional Peleforo Gbon Coulibaly",
+      "area": "Korhogo",
+      "city": "Korhogo",
+      "wikidata": "Q16887597",
+      "lat": 9.455932,
+      "lon": -5.627319,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Musée Péléféro Gbon Coulibaly is a museum located in Ivory Coast.",
+        "es": "The Musée Péléféro Gbon Coulibaly is a museum located in Ivory Coast."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Musée Péléféro Gbon Coulibaly",
+          "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_P%C3%A9l%C3%A9f%C3%A9ro_Gbon_Coulibaly"
+        },
+        "es": {
+          "title": "Musée Péléféro Gbon Coulibaly",
+          "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_P%C3%A9l%C3%A9f%C3%A9ro_Gbon_Coulibaly"
+        }
+      },
+      "image": {
+        "file": "Musée_Péléforo_de_Korhogo_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_P%C3%A9l%C3%A9foro_de_Korhogo_01.jpg",
+        "author": "Manouka",
+        "license": "CC BY-SA 4.0"
+      }
     }
   ]
 }

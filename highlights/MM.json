@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -281,6 +287,2394 @@
         "text": "Mo-Su 09:30-16:30",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "mm-bagan",
+      "name": "Bagan",
+      "area": "Mandalay Region",
+      "city": "Mandalay Region",
+      "wikidata": "Q29317",
+      "lat": 21.1725,
+      "lon": 94.86,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bagan is a medieval city and a UNESCO World Heritage Site in the Mandalay Region of Myanmar.",
+        "es": "Bagan es la antigua capital de varios reinos en Birmania, en especial el Reino de Pagan, primer Estado birmano de la historia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bagan",
+          "url": "https://en.wikipedia.org/wiki/Bagan"
+        },
+        "es": {
+          "title": "Bagan",
+          "url": "https://es.wikipedia.org/wiki/Bagan"
+        }
+      },
+      "image": {
+        "file": "Old_Bagan,_Myanmar,_Bagan_plains_at_sunset.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Old_Bagan%2C_Myanmar%2C_Bagan_plains_at_sunset.jpg",
+        "author": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "mm-shwedagon-pagoda",
+      "name": "Shwedagon Pagoda",
+      "area": "Yangon",
+      "city": "Yangon",
+      "wikidata": "Q464535",
+      "lat": 16.798333,
+      "lon": 96.149444,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Shwedagon Pagoda, officially named Shwedagon Zedi Daw, and also known as the Great Dagon Pagoda and the Golden Pagoda, Kyaik Dagon is a gilded stupa located in Yangon, Myanmar.",
+        "es": "Shwedagon es un complejo religioso situado en Rangún, antigua capital de Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shwedagon Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Shwedagon_Pagoda"
+        },
+        "es": {
+          "title": "Shwedagon",
+          "url": "https://es.wikipedia.org/wiki/Shwedagon"
+        }
+      },
+      "image": {
+        "file": "Shwedagon_Pagoda,_Golden_stupa_2,_Yangon,_Myanmar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Shwedagon_Pagoda%2C_Golden_stupa_2%2C_Yangon%2C_Myanmar.jpg",
+        "author": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "mm-inle-lake",
+      "name": "Inle Lake",
+      "area": "Nyaungshwe Township",
+      "city": "Nyaungshwe Township",
+      "wikidata": "Q1043461",
+      "lat": 20.55,
+      "lon": 96.916667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Inle Lake is a freshwater lake located in the Nyaungshwe Township of Shan State, part of Shan Hills in Myanmar.",
+        "es": "El Inle es un lago de agua dulce situado en las montañas Shan del estado homónimo, al este de Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Inle Lake",
+          "url": "https://en.wikipedia.org/wiki/Inle_Lake"
+        },
+        "es": {
+          "title": "Lago Inle",
+          "url": "https://es.wikipedia.org/wiki/Lago_Inle"
+        }
+      },
+      "image": {
+        "file": "Inle_lake,_Myanmar._III.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Inle_lake%2C_Myanmar._III.jpg",
+        "author": "Shelly Zohar",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-popa-hill",
+      "name": "Popa Hill",
+      "area": "Mandalay Region",
+      "city": "Mandalay Region",
+      "wikidata": "Q1150764",
+      "lat": 20.920278,
+      "lon": 95.253889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Popa is a dormant volcano 1518 metres above sea level, and located in central Myanmar in the region of Mandalay about 50 km southeast of Bagan in the Pegu Range.",
+        "es": "El monte Popa es un volcán a 1518 metros sobre el nivel del mar, y situado en el centro de Birmania a unos 50 km al sureste de Bagan en la cordillera de Pegu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Popa",
+          "url": "https://en.wikipedia.org/wiki/Mount_Popa"
+        },
+        "es": {
+          "title": "Monte Popa",
+          "url": "https://es.wikipedia.org/wiki/Monte_Popa"
+        }
+      },
+      "image": {
+        "file": "20200217_112000_Mount_Popa_Mandalay_Region_Myanmar_anagoria.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20200217_112000_Mount_Popa_Mandalay_Region_Myanmar_anagoria.JPG",
+        "author": "Anagoria",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "mm-kyaiktiyo-pagoda",
+      "name": "Kyaiktiyo Pagoda",
+      "area": "Hpa-An",
+      "city": "Hpa-An",
+      "wikidata": "Q1192804",
+      "lat": 17.48358,
+      "lon": 97.09843,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kyaiktiyo Pagoda is a well-known Buddhist pilgrimage site in Mon State, Myanmar.",
+        "es": "Kyaiktiyo Pagoda is a well-known Buddhist pilgrimage site in Mon State, Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kyaiktiyo Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Kyaiktiyo_Pagoda"
+        },
+        "es": {
+          "title": "Kyaiktiyo Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Kyaiktiyo_Pagoda"
+        }
+      }
+    },
+    {
+      "id": "mm-laykyun-sekkya",
+      "name": "Laykyun Sekkya",
+      "area": "Sagaing Region",
+      "city": "Sagaing Region",
+      "wikidata": "Q1809404",
+      "lat": 22.080206,
+      "lon": 95.289358,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Laykyun Sekkya Buddha is a colossal statue depicting the Buddha which is located at the Monywa town of Sagaing Region.",
+        "es": "Laykyun Setkyar es una estatua monumental de Buda Gautama en Birmania que, desde 2018, con una altura de 116 metros, es la tercera estatua más alta del mundo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Laykyun Sekkya",
+          "url": "https://en.wikipedia.org/wiki/Laykyun_Sekkya"
+        },
+        "es": {
+          "title": "Laykyun Setkyar",
+          "url": "https://es.wikipedia.org/wiki/Laykyun_Setkyar"
+        }
+      },
+      "image": {
+        "file": "Laykyun_Setkyar_01_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Laykyun_Setkyar_01_(cropped).jpg",
+        "author": "LBM1948",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-ramree-island",
+      "name": "Ramree Island",
+      "area": "Rakhine State",
+      "city": "Rakhine State",
+      "wikidata": "Q2528002",
+      "lat": 19.066667,
+      "lon": 93.833333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ramree Island, also known has Crocodile island is an island off the coast of Rakhine State, Myanmar.",
+        "es": "La Isla Ramree es una isla situada frente a las costas del estado de Rakáin, en Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ramree Island",
+          "url": "https://en.wikipedia.org/wiki/Ramree_Island"
+        },
+        "es": {
+          "title": "Isla Ramree",
+          "url": "https://es.wikipedia.org/wiki/Isla_Ramree"
+        }
+      },
+      "image": {
+        "file": "View_of_Thun_Site_River_from_Ramree_Island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:View_of_Thun_Site_River_from_Ramree_Island.jpg",
+        "author": "Arezarni1",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mm-ananda-temple",
+      "name": "Ananda Temple",
+      "area": "Bagan",
+      "city": "Bagan",
+      "wikidata": "Q485727",
+      "lat": 21.170903,
+      "lon": 94.867713,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Ananda Temple, located in Bagan, Myanmar is a Buddhist temple built in 1105 AD during the reign of King Kyansittha of the Pagan Dynasty.",
+        "es": "El Templo de Ananda es un templo budista en Bagan, Birmania, construido en 1091, fundado por Kyansittha en 1105 durante la dinastía Pagan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ananda Temple",
+          "url": "https://en.wikipedia.org/wiki/Ananda_Temple"
+        },
+        "es": {
+          "title": "Templo Ananda",
+          "url": "https://es.wikipedia.org/wiki/Templo_Ananda"
+        }
+      },
+      "image": {
+        "file": "Bagan,_Myanmar,_Ananda_Temple.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bagan%2C_Myanmar%2C_Ananda_Temple.jpg",
+        "author": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "mm-manaung-island",
+      "name": "Manaung Island",
+      "area": "Rakhine State",
+      "city": "Rakhine State",
+      "wikidata": "Q1068826",
+      "lat": 18.8,
+      "lon": 93.633333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cheduba Island is an island of Myanmar in the Bay of Bengal close to Ramree Island.",
+        "es": "Cheduba es una isla de la bahía de Bengala cercana a Ramree, perteneciente a Birmania es poblada por bamar y arakanese."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cheduba Island",
+          "url": "https://en.wikipedia.org/wiki/Cheduba_Island"
+        },
+        "es": {
+          "title": "Cheduba",
+          "url": "https://es.wikipedia.org/wiki/Cheduba"
+        }
+      },
+      "image": {
+        "file": "Manaung_Township_Goods_Transportation.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Manaung_Township_Goods_Transportation.jpg",
+        "author": "Ekyaw (talk)",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "mm-nat-ma-taung",
+      "name": "Nat Ma Taung",
+      "area": "Chin State",
+      "city": "Chin State",
+      "wikidata": "Q3495742",
+      "lat": 21.233594,
+      "lon": 93.903061,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nat Ma Taung, also known as Mount Victoria, is the highest mountain in Chin State of Northwestern Myanmar.",
+        "es": "Nat Ma Tung, también conocido como monte Victoria y Khaw-nu-soum o Khonuamthung, en idioma chin, es la montaña más alta del estado de Chin, en Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nat Ma Taung",
+          "url": "https://en.wikipedia.org/wiki/Nat_Ma_Taung"
+        },
+        "es": {
+          "title": "Nat Ma Taung",
+          "url": "https://es.wikipedia.org/wiki/Nat_Ma_Taung"
+        }
+      },
+      "image": {
+        "file": "Nat_Ma_Taung,_Mount_Victoria_between_the_trees.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nat_Ma_Taung%2C_Mount_Victoria_between_the_trees.JPG",
+        "author": "Lionslayer",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-u-bein-bridge",
+      "name": "U Bein Bridge",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q2157246",
+      "lat": 21.8915,
+      "lon": 96.0572,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "U Bein Bridge is a crossing that spans the Taungthaman Lake near Amarapura in Myanmar.",
+        "es": "El puente U Bein es un viaducto singular que cruza el lago Taungthaman cerca de la ciudad de Amarapura en Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "U Bein Bridge",
+          "url": "https://en.wikipedia.org/wiki/U_Bein_Bridge"
+        },
+        "es": {
+          "title": "Puente U Bein",
+          "url": "https://es.wikipedia.org/wiki/Puente_U_Bein"
+        }
+      }
+    },
+    {
+      "id": "mm-chin-hills",
+      "name": "Chin Hills",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q2597340",
+      "lat": 22.5,
+      "lon": 93.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Chin Hills are a range of mountains in Chin State, northwestern Myanmar, that extends northward into India's Manipur state.",
+        "es": "Los montes Chin son un macizo montañoso al sudeste del Himalaya que conforma la frontera natural entre el noroeste de Birmania y el este de India."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chin Hills",
+          "url": "https://en.wikipedia.org/wiki/Chin_Hills"
+        },
+        "es": {
+          "title": "Montes Chin",
+          "url": "https://es.wikipedia.org/wiki/Montes_Chin"
+        }
+      }
+    },
+    {
+      "id": "mm-mandalay-palace",
+      "name": "Mandalay Palace",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q2655670",
+      "lat": 21.992942,
+      "lon": 96.095911,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mandalay Palace, located in Mandalay, Myanmar, is the last royal palace of the last Burmese monarchy.",
+        "es": "El Palacio de Mandalay ubicado en Mandalay, Birmania, es el último palacio real de la última monarquía de Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mandalay Palace",
+          "url": "https://en.wikipedia.org/wiki/Mandalay_Palace"
+        },
+        "es": {
+          "title": "Palacio de Mandalay",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Mandalay"
+        }
+      },
+      "image": {
+        "file": "Mandalay_Palace,_Myanmar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mandalay_Palace%2C_Myanmar.jpg",
+        "author": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "mm-sri-ksetra-kingdom",
+      "name": "Sri Ksetra Kingdom",
+      "area": "Naypyidaw",
+      "city": "Naypyidaw",
+      "wikidata": "Q1535245",
+      "lat": 18.816667,
+      "lon": 95.316667,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Sri Ksetra, located along the Irrawaddy River at present-day Hmawza, Myanmar, was once a prominent Pyu settlement.",
+        "es": "Sri Ksetra, located along the Irrawaddy River at present-day Hmawza, Myanmar, was once a prominent Pyu settlement."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sri Ksetra kingdom",
+          "url": "https://en.wikipedia.org/wiki/Sri_Ksetra_kingdom"
+        },
+        "es": {
+          "title": "Sri Ksetra kingdom",
+          "url": "https://en.wikipedia.org/wiki/Sri_Ksetra_kingdom"
+        }
+      },
+      "image": {
+        "file": "20160810_-_Sri_Ksetra_-_East_Zegu_Temple_-_9315.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20160810_-_Sri_Ksetra_-_East_Zegu_Temple_-_9315.jpg",
+        "author": "Jakub Hałun",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-goteik-viaduct",
+      "name": "Goteik viaduct",
+      "area": "Shan State",
+      "city": "Shan State",
+      "wikidata": "Q1953756",
+      "lat": 22.343056,
+      "lon": 96.859722,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Goteik viaduct was a railway trestle over the Goteik Gorge of the Myitnge River in western Shan State, Myanmar.",
+        "es": "El Viaducto de Goteik es un puente de ferrocarril en Nawnghkio, en la parte occidental en el estado de Shan, Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Goteik viaduct",
+          "url": "https://en.wikipedia.org/wiki/Goteik_viaduct"
+        },
+        "es": {
+          "title": "Viaducto de Goteik",
+          "url": "https://es.wikipedia.org/wiki/Viaducto_de_Goteik"
+        }
+      },
+      "image": {
+        "file": "8_Goteik_(2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:8_Goteik_(2).jpg",
+        "author": "Gerhard Haubold",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mm-ava-bridge",
+      "name": "Ava Bridge",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q4827383",
+      "lat": 21.871111,
+      "lon": 95.9925,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Ava Bridge was a 16-span simply supported bridge between Ava and Sagaing, Mandalay Division, Burma.",
+        "es": "El Puente Ava fue un puente de 16 tramos entre Ava y Sagaing, en la división de Mandalay, Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ava Bridge",
+          "url": "https://en.wikipedia.org/wiki/Ava_Bridge"
+        },
+        "es": {
+          "title": "Puente Ava",
+          "url": "https://es.wikipedia.org/wiki/Puente_Ava"
+        }
+      },
+      "image": {
+        "file": "Ava_Bridge_(12049621654).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ava_Bridge_(12049621654).jpg",
+        "author": "Mark Koester",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "mm-ngapali-beach",
+      "name": "Ngapali Beach",
+      "area": "Ngapali",
+      "city": "Ngapali",
+      "wikidata": "Q13064270",
+      "lat": 18.44497,
+      "lon": 94.31457,
+      "category": "beach",
+      "interests": [
+        "beaches"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Ngapali Beach is a coastal beach located in Rakhine State, western Myanmar, approximately 7 kilometers from the town of Thandwe.",
+        "es": "Ngapali Beach is a coastal beach located in Rakhine State, western Myanmar, approximately 7 kilometers from the town of Thandwe."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ngapali Beach",
+          "url": "https://en.wikipedia.org/wiki/Ngapali_Beach"
+        },
+        "es": {
+          "title": "Ngapali Beach",
+          "url": "https://en.wikipedia.org/wiki/Ngapali_Beach"
+        }
+      },
+      "image": {
+        "file": "Ngapali_Beach,_Myanmar_(11007417563).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ngapali_Beach%2C_Myanmar_(11007417563).jpg",
+        "author": "ReflectedSerendipity from United Kingdom",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "mm-uppatasanti-pagoda",
+      "name": "Uppatasanti Pagoda",
+      "area": "Naypyidaw",
+      "city": "Naypyidaw",
+      "wikidata": "Q608474",
+      "lat": 19.77115,
+      "lon": 96.182989,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Uppātasanti Pagoda is a prominent landmark in Naypyidaw, the capital of Myanmar.",
+        "es": "La Pagoda Uppatasanti es un hito importante en Naipyidó, la nueva capital del país asiático de Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Uppatasanti Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Uppatasanti_Pagoda"
+        },
+        "es": {
+          "title": "Pagoda Uppatasanti",
+          "url": "https://es.wikipedia.org/wiki/Pagoda_Uppatasanti"
+        }
+      }
+    },
+    {
+      "id": "mm-inya-lake",
+      "name": "Inya Lake",
+      "area": "Yangon",
+      "city": "Yangon",
+      "wikidata": "Q864297",
+      "lat": 16.836772,
+      "lon": 96.145217,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Inya Lake is the largest lake in Yangon, Burma, a popular recreational area for Yangonites, and a famous location for romance in popular culture.",
+        "es": "Inya Lake is the largest lake in Yangon, Burma, a popular recreational area for Yangonites, and a famous location for romance in popular culture."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Inya Lake",
+          "url": "https://en.wikipedia.org/wiki/Inya_Lake"
+        },
+        "es": {
+          "title": "Inya Lake",
+          "url": "https://en.wikipedia.org/wiki/Inya_Lake"
+        }
+      },
+      "image": {
+        "file": "Inya_Lake_park_grounds,_Yangon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Inya_Lake_park_grounds%2C_Yangon.jpg",
+        "author": "User:Hintha",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mm-shwezigon-pagoda",
+      "name": "Shwezigon Pagoda",
+      "area": "Nyaung-U",
+      "city": "Nyaung-U",
+      "wikidata": "Q2747222",
+      "lat": 21.190278,
+      "lon": 94.894722,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The royal Shwezigon Pagoda or Shwezigon Paya is a Buddhist stupa located in Nyaung-U, Myanmar.",
+        "es": "The royal Shwezigon Pagoda or Shwezigon Paya is a Buddhist stupa located in Nyaung-U, Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shwezigon Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Shwezigon_Pagoda"
+        },
+        "es": {
+          "title": "Shwezigon Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Shwezigon_Pagoda"
+        }
+      },
+      "image": {
+        "file": "Shwezigon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Shwezigon.jpg",
+        "author": "DIMMIS",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mm-mahamuni-buddha-temple",
+      "name": "Mahamuni Buddha Temple",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q946518",
+      "lat": 21.951878,
+      "lon": 96.078625,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mahamuni Buddha Temple is a Buddhist temple and major pilgrimage site, located southwest of Mandalay, Myanmar.",
+        "es": "El templo Mahamuni, también conocido como pagoda Mahamuni, es un templo budista de la ciudad de Mandalay en Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mahamuni Buddha Temple",
+          "url": "https://en.wikipedia.org/wiki/Mahamuni_Buddha_Temple"
+        },
+        "es": {
+          "title": "Templo Mahamuni",
+          "url": "https://es.wikipedia.org/wiki/Templo_Mahamuni"
+        }
+      },
+      "image": {
+        "file": "Mahamuni_Image.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mahamuni_Image.JPG",
+        "author": "Wagaung (talk)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mm-nathlaung-kyaung-temple",
+      "name": "Nathlaung Kyaung Temple",
+      "area": "Mandalay Region",
+      "city": "Mandalay Region",
+      "wikidata": "Q3336294",
+      "lat": 21.168965,
+      "lon": 94.862738,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Nathlaung Kyaung Temple ; is a Hindu temple located within the ancient city walls of Bagan, Myanmar.",
+        "es": "El Nat Hlaung Kyaung es un templo hindú hecho en ladrillo dedicado a Visnú que se encuentra en Bagan, Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nathlaung Kyaung Temple",
+          "url": "https://en.wikipedia.org/wiki/Nathlaung_Kyaung_Temple"
+        },
+        "es": {
+          "title": "Templo Nat Hlaung Kyaung",
+          "url": "https://es.wikipedia.org/wiki/Templo_Nat_Hlaung_Kyaung"
+        }
+      },
+      "image": {
+        "file": "Nathlaung_Kyaung_Hindu_Temple_in_Bagan_Myanmar_(Burma).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nathlaung_Kyaung_Hindu_Temple_in_Bagan_Myanmar_(Burma).jpg",
+        "author": "amanderson2",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "mm-sulamani-temple",
+      "name": "Sulamani Temple",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q1750928",
+      "lat": 21.164861,
+      "lon": 94.881528,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sulamani Temple is a Buddhist temple located in the village of Minnanthu in Myanmar.",
+        "es": "The Sulamani Temple is a Buddhist temple located in the village of Minnanthu in Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sulamani Temple",
+          "url": "https://en.wikipedia.org/wiki/Sulamani_Temple"
+        },
+        "es": {
+          "title": "Sulamani Temple",
+          "url": "https://en.wikipedia.org/wiki/Sulamani_Temple"
+        }
+      },
+      "image": {
+        "file": "Bagan,_Myanmar,_Sulamani_Temple.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bagan%2C_Myanmar%2C_Sulamani_Temple.jpg",
+        "author": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "mm-thanlwin-bridge",
+      "name": "Thanlwin Bridge",
+      "area": "Mawlamyine",
+      "city": "Mawlamyine",
+      "wikidata": "Q1753493",
+      "lat": 16.5111,
+      "lon": 97.6178,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Thanlwin Bridge was the longest bridge in Myanmar before the construction of the Pakouku Bridge and it connects the city of Mawlamyaing with Mottama.",
+        "es": "Thanlwin Bridge was the longest bridge in Myanmar before the construction of the Pakouku Bridge and it connects the city of Mawlamyaing with Mottama."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Thanlwin Bridge (Mawlamyine)",
+          "url": "https://en.wikipedia.org/wiki/Thanlwin_Bridge_(Mawlamyine)"
+        },
+        "es": {
+          "title": "Thanlwin Bridge (Mawlamyine)",
+          "url": "https://en.wikipedia.org/wiki/Thanlwin_Bridge_(Mawlamyine)"
+        }
+      },
+      "image": {
+        "file": "Tanlwen.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tanlwen.jpg",
+        "author": "joina",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "mm-dhammayazika-pagoda",
+      "name": "Dhammayazika Pagoda",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q3025684",
+      "lat": 21.145071,
+      "lon": 94.883451,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Dhammayazika Pagoda is a Buddhist temple located in the village of Pwasaw, in Mandalay Region, Myanmar.",
+        "es": "The Dhammayazika Pagoda is a Buddhist temple located in the village of Pwasaw, in Mandalay Region, Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dhammayazika Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Dhammayazika_Pagoda"
+        },
+        "es": {
+          "title": "Dhammayazika Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Dhammayazika_Pagoda"
+        }
+      },
+      "image": {
+        "file": "Dhamma-Yazaka.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dhamma-Yazaka.JPG",
+        "author": "Hybernator",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mm-kuthodaw-pagoda",
+      "name": "Kuthodaw Pagoda",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q949750",
+      "lat": 22.0046,
+      "lon": 96.1128,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kuthodaw Pagoda is a Buddhist stupa, located in Mandalay, Burma, that contains the world's largest book.",
+        "es": "Kuthodaw Pagoda is a Buddhist stupa, located in Mandalay, Burma, that contains the world's largest book."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kuthodaw Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Kuthodaw_Pagoda"
+        },
+        "es": {
+          "title": "Kuthodaw Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Kuthodaw_Pagoda"
+        }
+      },
+      "image": {
+        "file": "Kuthodaw_alt_view.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kuthodaw_alt_view.JPG",
+        "author": "Wagaung at English Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mm-dhammayangyi-temple",
+      "name": "Dhammayangyi Temple",
+      "area": "Bagan",
+      "city": "Bagan",
+      "wikidata": "Q1207545",
+      "lat": 21.15925,
+      "lon": 94.871111,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Dhammayangyi Temple is a Buddhist temple located in Bagan, Myanmar.",
+        "es": "Dhammayangyi Temple is a Buddhist temple located in Bagan, Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dhammayangyi Temple",
+          "url": "https://en.wikipedia.org/wiki/Dhammayangyi_Temple"
+        },
+        "es": {
+          "title": "Dhammayangyi Temple",
+          "url": "https://en.wikipedia.org/wiki/Dhammayangyi_Temple"
+        }
+      },
+      "image": {
+        "file": "Dhammayangyi_Temple_at_Bagan,Myanmar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dhammayangyi_Temple_at_Bagan%2CMyanmar.jpg",
+        "author": "Justin Vidamo",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "mm-thatbyinnyu-temple",
+      "name": "Thatbyinnyu Temple",
+      "area": "Bagan",
+      "city": "Bagan",
+      "wikidata": "Q2093752",
+      "lat": 21.16875,
+      "lon": 94.862944,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Thatbyinnyu Temple is a Theravadin Buddhist temple in Bagan, Myanmar.",
+        "es": "El Thatbyinnyu es un templo budista en Bagan, Birmania de unos 66 metros de alto."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Thatbyinnyu Temple",
+          "url": "https://en.wikipedia.org/wiki/Thatbyinnyu_Temple"
+        },
+        "es": {
+          "title": "Thatbyinnyu",
+          "url": "https://es.wikipedia.org/wiki/Thatbyinnyu"
+        }
+      },
+      "image": {
+        "file": "Bagan,_Myanmar,_Thatbyinnyu_Temple.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bagan%2C_Myanmar%2C_Thatbyinnyu_Temple.jpg",
+        "author": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "mm-alaungdaw-kathapa-national-park",
+      "name": "Alaungdaw Kathapa National Park",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q4708857",
+      "lat": 23.6,
+      "lon": 95.533333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Alaungdaw Kathapa National Park is a national park in Myanmar covering 541.6 mi2.",
+        "es": "El parque nacional Alaungdaw Kathapa posee una superficie de 1.605 kilómetros cuadrados, y es el parque nacional más grande de Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Alaungdaw Kathapa National Park",
+          "url": "https://en.wikipedia.org/wiki/Alaungdaw_Kathapa_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Alaungdaw Kathapa",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Alaungdaw_Kathapa"
+        }
+      },
+      "image": {
+        "file": "Ahlongtawkatapha.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ahlongtawkatapha.jpg",
+        "author": "Aung Myint Htwe",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-botataung-pagoda",
+      "name": "Botataung Pagoda",
+      "area": "Yangon",
+      "city": "Yangon",
+      "wikidata": "Q4948533",
+      "lat": 16.768494,
+      "lon": 96.171981,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Botataung Kyaik De Att Pagoda is a famous pagoda located in downtown Yangon, Myanmar, near the Yangon river.",
+        "es": "The Botataung Kyaik De Att Pagoda is a famous pagoda located in downtown Yangon, Myanmar, near the Yangon river."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Botataung Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Botataung_Pagoda"
+        },
+        "es": {
+          "title": "Botataung Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Botataung_Pagoda"
+        }
+      },
+      "image": {
+        "file": "Botataung_Pagoda_stupa_with_flags_Yangon_Myanmar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Botataung_Pagoda_stupa_with_flags_Yangon_Myanmar.jpg",
+        "author": "Jasoneppink",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "mm-chaukhtatgyi-buddha-temple",
+      "name": "Chaukhtatgyi Buddha Temple",
+      "area": "Yangon",
+      "city": "Yangon",
+      "wikidata": "Q20683398",
+      "lat": 16.811758,
+      "lon": 96.163814,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Chaukhtatgyi Buddha Temple is the most well-known Buddhist temple in Bahan Township, Yangon, Yangon Region, Myanmar.",
+        "es": "La Chaukhtatgyi Paya es una paya o pagoda de seis pisos de altura situada en la localidad de Rangún, antigua capital de Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chaukhtatgyi Buddha Temple",
+          "url": "https://en.wikipedia.org/wiki/Chaukhtatgyi_Buddha_Temple"
+        },
+        "es": {
+          "title": "Pagoda Chaukhtatgyi",
+          "url": "https://es.wikipedia.org/wiki/Pagoda_Chaukhtatgyi"
+        }
+      },
+      "image": {
+        "file": "01-yangon-chaukhtatgyi-paya-d01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:01-yangon-chaukhtatgyi-paya-d01.jpg",
+        "author": "Colegota",
+        "license": "CC BY-SA 2.5 es"
+      }
+    },
+    {
+      "id": "mm-pindaya-caves",
+      "name": "Pindaya Caves",
+      "area": "Pindaya",
+      "city": "Pindaya",
+      "wikidata": "Q864504",
+      "lat": 20.925,
+      "lon": 96.650997,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Pindaya Caves, located next to the town of Pindaya, Shan State, Burma are a Buddhist pilgrimage site and a tourist attraction located on a limestone ridge in the Myelat region.",
+        "es": "Cuevas de Pindaya son un sistema de cuevas situado junto a la ciudad de Pindaya, estado de Shan, en Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pindaya Caves",
+          "url": "https://en.wikipedia.org/wiki/Pindaya_Caves"
+        },
+        "es": {
+          "title": "Cuevas de Pindaya",
+          "url": "https://es.wikipedia.org/wiki/Cuevas_de_Pindaya"
+        }
+      },
+      "image": {
+        "file": "Pindaya-Hoehlen-10-gje.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pindaya-Hoehlen-10-gje.jpg",
+        "author": "Gerd Eichmann",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-halin",
+      "name": "Halin",
+      "area": "Shwebo District",
+      "city": "Shwebo District",
+      "wikidata": "Q1571159",
+      "lat": 22.483333,
+      "lon": 95.85,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Hanlin is a village near Shwebo in the Sagaing Division of Myanmar.",
+        "es": "Hanlin is a village near Shwebo in the Sagaing Division of Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hanlin, Burma",
+          "url": "https://en.wikipedia.org/wiki/Hanlin%2C_Burma"
+        },
+        "es": {
+          "title": "Hanlin, Burma",
+          "url": "https://en.wikipedia.org/wiki/Hanlin%2C_Burma"
+        }
+      }
+    },
+    {
+      "id": "mm-mingun-pahtodawgyi",
+      "name": "Mingun Pahtodawgyi",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q1936704",
+      "lat": 22.050959,
+      "lon": 96.017311,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mingun Pahtodawgyi is an incomplete monument stupa in Mingun, approximately 10 kilometres northwest of Mandalay in Sagaing Region in central Myanmar.",
+        "es": "The Mingun Pahtodawgyi is an incomplete monument stupa in Mingun, approximately 10 kilometres northwest of Mandalay in Sagaing Region in central Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mingun Pahtodawgyi",
+          "url": "https://en.wikipedia.org/wiki/Mingun_Pahtodawgyi"
+        },
+        "es": {
+          "title": "Mingun Pahtodawgyi",
+          "url": "https://en.wikipedia.org/wiki/Mingun_Pahtodawgyi"
+        }
+      },
+      "image": {
+        "file": "Mingun_Pahtodawgyi_from_the_southeast.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mingun_Pahtodawgyi_from_the_southeast.JPG",
+        "author": "Movingsaletoday, Rich Torres, Burlingame, California, USA",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-musmeah-yeshua-synagogue",
+      "name": "Musmeah Yeshua Synagogue",
+      "area": "Yangon",
+      "city": "Yangon",
+      "wikidata": "Q4419997",
+      "lat": 16.774274,
+      "lon": 96.153978,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Musmeah Yeshua Synagogue is a synagogue, located in downtown Yangon, Myanmar.",
+        "es": "The Musmeah Yeshua Synagogue is a synagogue, located in downtown Yangon, Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Musmeah Yeshua Synagogue",
+          "url": "https://en.wikipedia.org/wiki/Musmeah_Yeshua_Synagogue"
+        },
+        "es": {
+          "title": "Musmeah Yeshua Synagogue",
+          "url": "https://en.wikipedia.org/wiki/Musmeah_Yeshua_Synagogue"
+        }
+      },
+      "image": {
+        "file": "Musmeah_Yeshua_synagogue_altar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Musmeah_Yeshua_synagogue_altar.jpg",
+        "author": "Esme Vos",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "mm-saint-mary-s-cathedral-yangon",
+      "name": "Saint Mary's Cathedral, Yangon",
+      "area": "Yangon",
+      "city": "Yangon",
+      "wikidata": "Q7401804",
+      "lat": 16.778558,
+      "lon": 96.165444,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Saint Mary's Cathedral or Immaculate Conception Cathedral is a Catholic cathedral located on the corner of Bogyoke Aung San Road and Bo Aung Kyaw Street in Botahtaung Township, Yangon, Myanmar.",
+        "es": "La Catedral de la Inmaculada Concepción o bien Catedral de Santa María es una catedral católica ubicada en la calle Bo Aung Kyaw en Botahtaung, Rangún, Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Mary's Cathedral, Yangon",
+          "url": "https://en.wikipedia.org/wiki/St._Mary's_Cathedral%2C_Yangon"
+        },
+        "es": {
+          "title": "Catedral de la Inmaculada Concepción (Rangún)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Inmaculada_Concepci%C3%B3n_(Rang%C3%BAn)"
+        }
+      },
+      "image": {
+        "file": "2016_Rangun,_Katedra_Najświętszej_Maryi_Panny_(01).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2016_Rangun%2C_Katedra_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_(01).jpg",
+        "author": "Marcin Konsek",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-mount-zwegabin",
+      "name": "Mount Zwegabin",
+      "area": "Hpa-An",
+      "city": "Hpa-An",
+      "wikidata": "Q27701173",
+      "lat": 16.82426,
+      "lon": 97.66841,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Zwegabin is a mountain in Myanmar. It is located in Kayin State, in the southern part of the country, around 450 km south of the capital Naypyidaw.",
+        "es": "Mount Zwegabin is a mountain in Myanmar. It is located in Kayin State, in the southern part of the country, around 450 km south of the capital Naypyidaw."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Zwegabin",
+          "url": "https://en.wikipedia.org/wiki/Mount_Zwegabin"
+        },
+        "es": {
+          "title": "Mount Zwegabin",
+          "url": "https://en.wikipedia.org/wiki/Mount_Zwegabin"
+        }
+      },
+      "image": {
+        "file": "Mount_Zwegabin_from_Bat_Cave.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Zwegabin_from_Bat_Cave.jpg",
+        "author": "Christophe95",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-hsinbyume-pagoda",
+      "name": "Hsinbyume Pagoda",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q1632647",
+      "lat": 22.055833,
+      "lon": 96.016667,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Hsinbyume Pagoda, also known as Myatheindan Pagoda, is a large pagoda on the northern side of Mingun in Sagaing Region, Myanmar, on the western bank of the Irrawaddy River.",
+        "es": "The Hsinbyume Pagoda, also known as Myatheindan Pagoda, is a large pagoda on the northern side of Mingun in Sagaing Region, Myanmar, on the western bank of the Irrawaddy River."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hsinbyume Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Hsinbyume_Pagoda"
+        },
+        "es": {
+          "title": "Hsinbyume Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Hsinbyume_Pagoda"
+        }
+      },
+      "image": {
+        "file": "Hsinbyume-Mingun-Myamar-01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hsinbyume-Mingun-Myamar-01.jpg",
+        "author": "Gerd Eichmann",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mm-mount-victoria-national-park",
+      "name": "Mount Victoria National Park",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q6924442",
+      "lat": 21.233333,
+      "lon": 93.9,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Natmataung National Park is a national park in Myanmar covering 723 km2.",
+        "es": "El Parque nacional de Nat Ma Taung es un espacio protegido con el estatus de parque nacional en el país asiático de Birmania Se encuentra ubicado en el estado de Chin."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Natmataung National Park",
+          "url": "https://en.wikipedia.org/wiki/Natmataung_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Nat Ma Taung",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Nat_Ma_Taung"
+        }
+      }
+    },
+    {
+      "id": "mm-lower-chindwin",
+      "name": "Lower Chindwin",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q3264379",
+      "lat": 22.3705,
+      "lon": 95.0185,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Lower Chindwin is an area of around seven or eight explosion craters, located some 30 km northwest of the town of Monywa in the Sagaing Region, Burma.",
+        "es": "The Lower Chindwin is an area of around seven or eight explosion craters, located some 30 km northwest of the town of Monywa in the Sagaing Region, Burma."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lower Chindwin",
+          "url": "https://en.wikipedia.org/wiki/Lower_Chindwin"
+        },
+        "es": {
+          "title": "Lower Chindwin",
+          "url": "https://en.wikipedia.org/wiki/Lower_Chindwin"
+        }
+      },
+      "image": {
+        "file": "Aerial_view_of_lower_Chindwin_River_and_Twin_Taung_(1980).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_lower_Chindwin_River_and_Twin_Taung_(1980).JPG",
+        "author": "Ion Tichy",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-shwenandaw-monastery",
+      "name": "Shwenandaw Monastery",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q3320246",
+      "lat": 22.000675,
+      "lon": 96.113722,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Shwenandaw Monastery is a historic Buddhist monastery located near Mandalay Hill, Mandalay Region, Myanmar.",
+        "es": "El Monasterio de Shwenandaw es un monasterio budista localizado cerca de Cerro Mandalay, Región de Mandalay, Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shwenandaw Monastery",
+          "url": "https://en.wikipedia.org/wiki/Shwenandaw_Monastery"
+        },
+        "es": {
+          "title": "Monasterio de Shwenandaw",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_de_Shwenandaw"
+        }
+      },
+      "image": {
+        "file": "Shwe_Nandaw_kyaung.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Shwe_Nandaw_kyaung.jpg",
+        "author": "Kotraveller",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mm-padah-lin-caves",
+      "name": "Padah-Lin Caves",
+      "area": "Ywangan Township",
+      "city": "Ywangan Township",
+      "wikidata": "Q7123188",
+      "lat": 21.1,
+      "lon": 96.3,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Padah-Lin Caves are limestone caves located in Taunggyi District, Shan State, Burma.",
+        "es": "The Padah-Lin Caves are limestone caves located in Taunggyi District, Shan State, Burma."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Padah-Lin Caves",
+          "url": "https://en.wikipedia.org/wiki/Padah-Lin_Caves"
+        },
+        "es": {
+          "title": "Padah-Lin Caves",
+          "url": "https://en.wikipedia.org/wiki/Padah-Lin_Caves"
+        }
+      },
+      "image": {
+        "file": "Padah-Lin_Cave_1_sign.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Padah-Lin_Cave_1_sign.jpg",
+        "author": "Comtebenoit",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mm-shwemawdaw-paya",
+      "name": "Shwemawdaw Paya",
+      "area": "Yangon",
+      "city": "Yangon",
+      "wikidata": "Q4925986",
+      "lat": 17.336874,
+      "lon": 96.496954,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Shwemawdaw Pagoda is a Buddhist stupa located in Bago, Myanmar.",
+        "es": "The Shwemawdaw Pagoda is a Buddhist stupa located in Bago, Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shwemawdaw Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Shwemawdaw_Pagoda"
+        },
+        "es": {
+          "title": "Shwemawdaw Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Shwemawdaw_Pagoda"
+        }
+      },
+      "image": {
+        "file": "Shwemawdaw_Pagoda,_Bago.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Shwemawdaw_Pagoda%2C_Bago.jpg",
+        "author": "Vera & Jean-Christophe from Europe",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "mm-beikthano",
+      "name": "Beikthano",
+      "area": "Magway Region",
+      "city": "Magway Region",
+      "wikidata": "Q814730",
+      "lat": 20,
+      "lon": 95.383333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Beikthano, is situated in the irrigated Magway Region, near present-day Taungdwingyi.",
+        "es": "Beikthano, is situated in the irrigated Magway Region, near present-day Taungdwingyi."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Beikthano",
+          "url": "https://en.wikipedia.org/wiki/Beikthano"
+        },
+        "es": {
+          "title": "Beikthano",
+          "url": "https://en.wikipedia.org/wiki/Beikthano"
+        }
+      },
+      "image": {
+        "file": "Gate_of_Beikthano_Historical_Sites.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gate_of_Beikthano_Historical_Sites.jpg",
+        "author": "Yarzaryeni",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-naypyidaw-zoological-gardens",
+      "name": "Naypyidaw Zoological Gardens",
+      "area": "Naypyidaw",
+      "city": "Naypyidaw",
+      "wikidata": "Q862533",
+      "lat": 19.863937,
+      "lon": 96.255815,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Naypyidaw Zoological Gardens located in Naypyidaw is the largest zoo in South East Asia.",
+        "es": "El Jardín zoológico de Naipyidó está situado en la ciudad de Naipyidó se trata del parque zoológico más grande de Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Naypyidaw Zoological Gardens",
+          "url": "https://en.wikipedia.org/wiki/Naypyidaw_Zoological_Gardens"
+        },
+        "es": {
+          "title": "Jardín zoológico de Naipyidó",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_zool%C3%B3gico_de_Naipyid%C3%B3"
+        }
+      },
+      "image": {
+        "file": "Naypyidaw_--_Zoo.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Naypyidaw_--_Zoo.JPG",
+        "author": "Hybernator",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mm-htilominlo-temple",
+      "name": "Htilominlo Temple",
+      "area": "Bagan",
+      "city": "Bagan",
+      "wikidata": "Q1571606",
+      "lat": 21.178611,
+      "lon": 94.879167,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Htilominlo Temple is a Buddhist temple located in Bagan, in Burma/Myanmar, built during the reign of King Htilominlo, 1211–1231.",
+        "es": "Htilominlo Temple is a Buddhist temple located in Bagan, in Burma/Myanmar, built during the reign of King Htilominlo, 1211–1231."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Htilominlo Temple",
+          "url": "https://en.wikipedia.org/wiki/Htilominlo_Temple"
+        },
+        "es": {
+          "title": "Htilominlo Temple",
+          "url": "https://en.wikipedia.org/wiki/Htilominlo_Temple"
+        }
+      },
+      "image": {
+        "file": "20160801_-_Htilominlo_Temple,_Bagan,_Myanmar_-_6718.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20160801_-_Htilominlo_Temple%2C_Bagan%2C_Myanmar_-_6718.jpg",
+        "author": "Jakub Hałun",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-bupaya-pagoda",
+      "name": "Bupaya Pagoda",
+      "area": "Bagan",
+      "city": "Bagan",
+      "wikidata": "Q1010128",
+      "lat": 21.176111,
+      "lon": 94.857917,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bupaya Pagoda is a notable Buddhist pagoda located in Bagan, in Mandalay Region, Myanmar, at a bend on the right bank of the Irrawaddy River.",
+        "es": "Bupaya Pagoda is a notable Buddhist pagoda located in Bagan, in Mandalay Region, Myanmar, at a bend on the right bank of the Irrawaddy River."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bupaya Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Bupaya_Pagoda"
+        },
+        "es": {
+          "title": "Bupaya Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Bupaya_Pagoda"
+        }
+      },
+      "image": {
+        "file": "Bupaya-Bagan-Myanmar-04-gje.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bupaya-Bagan-Myanmar-04-gje.jpg",
+        "author": "Gerd Eichmann",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-kandawgyi-lake",
+      "name": "Kandawgyi Lake",
+      "area": "Yangon",
+      "city": "Yangon",
+      "wikidata": "Q385991",
+      "lat": 16.795486,
+      "lon": 96.166561,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kandawgyi Lake is one of two major lakes in Yangon, Myanmar.",
+        "es": "Lago Kandawgyi es uno de los dos grandes lagos en Rangún, Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kandawgyi Lake",
+          "url": "https://en.wikipedia.org/wiki/Kandawgyi_Lake"
+        },
+        "es": {
+          "title": "Lago Kandawgyi",
+          "url": "https://es.wikipedia.org/wiki/Lago_Kandawgyi"
+        }
+      },
+      "image": {
+        "file": "Kandawgyi_Lake,_Yangon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kandawgyi_Lake%2C_Yangon.jpg",
+        "author": "User:Hintha",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mm-shri-kali-temple-burma",
+      "name": "Shri Kali Temple, Burma",
+      "area": "Yangon",
+      "city": "Yangon",
+      "wikidata": "Q7503799",
+      "lat": 16.777244,
+      "lon": 96.154467,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Shri Kali Temple is a Hindu temple located in the undefined Little India in downtown Yangon, Burma.",
+        "es": "Shri Kali Temple is a Hindu temple located in the undefined Little India in downtown Yangon, Burma."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shri Kali Temple, Burma",
+          "url": "https://en.wikipedia.org/wiki/Shri_Kali_Temple%2C_Burma"
+        },
+        "es": {
+          "title": "Shri Kali Temple, Burma",
+          "url": "https://en.wikipedia.org/wiki/Shri_Kali_Temple%2C_Burma"
+        }
+      },
+      "image": {
+        "file": "Hindutempleyangon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hindutempleyangon.jpg",
+        "author": "Xianzi Tan",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "mm-maha-bandula-park",
+      "name": "Maha Bandula Park",
+      "area": "Yangon",
+      "city": "Yangon",
+      "wikidata": "Q5371664",
+      "lat": 16.773022,
+      "lon": 96.159519,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Maha Bandula Park or Maha Bandula Garden is a public park located in downtown Yangon, Burma.",
+        "es": "The Maha Bandula Park or Maha Bandula Garden is a public park located in downtown Yangon, Burma."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Maha Bandula Park",
+          "url": "https://en.wikipedia.org/wiki/Maha_Bandula_Park"
+        },
+        "es": {
+          "title": "Maha Bandula Park",
+          "url": "https://en.wikipedia.org/wiki/Maha_Bandula_Park"
+        }
+      }
+    },
+    {
+      "id": "mm-national-theatre-of-yangon",
+      "name": "National Theatre of Yangon",
+      "area": "Yangon",
+      "city": "Yangon",
+      "wikidata": "Q596663",
+      "lat": 16.7839,
+      "lon": 96.1493,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The National Theatre of Yangon, located in Yangon, is a national theatre of Myanmar.",
+        "es": "El Teatro nacional de Rangún se localizado en la ciudad de Rangún, y constituye el teatro nacional de Birmania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Theatre of Yangon",
+          "url": "https://en.wikipedia.org/wiki/National_Theatre_of_Yangon"
+        },
+        "es": {
+          "title": "Teatro nacional de Rangún",
+          "url": "https://es.wikipedia.org/wiki/Teatro_nacional_de_Rang%C3%BAn"
+        }
+      },
+      "image": {
+        "file": "National_Theatre_of_Yangon.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:National_Theatre_of_Yangon.JPG",
+        "author": "Phyo WP",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mm-atumashi-monastery",
+      "name": "Atumashi Monastery",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q4072297",
+      "lat": 22.0008,
+      "lon": 96.1125,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Atumashi Monastery is a Buddhist monastery located in Mandalay, Myanmar.",
+        "es": "El Monasterio Atumashi es un monasterio budista ubicado en Mandalay, Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Atumashi Monastery",
+          "url": "https://en.wikipedia.org/wiki/Atumashi_Monastery"
+        },
+        "es": {
+          "title": "Monasterio Atumashi",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_Atumashi"
+        }
+      },
+      "image": {
+        "file": "Atumashi_monastery.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Atumashi_monastery.JPG",
+        "author": "The original uploader was Wagaung at English Wikipedia.",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mm-sacred-heart-cathedral-mandalay",
+      "name": "Sacred Heart Cathedral, Mandalay",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q23760608",
+      "lat": 21.983826,
+      "lon": 96.079882,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sacred Heart Cathedral is a Roman Catholic cathedral in Mandalay, Myanmar.",
+        "es": "La Catedral del Sagrado Corazón es el nombre que recibe un templo que pertenece a la Iglesia católica y se encuentra ubicada en la calle 81 entre las calles 25 y 26 en la localidad de Mandalay la segunda ciudad más…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sacred Heart Cathedral, Mandalay",
+          "url": "https://en.wikipedia.org/wiki/Sacred_Heart_Cathedral%2C_Mandalay"
+        },
+        "es": {
+          "title": "Catedral del Sagrado Corazón (Mandalay)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Sagrado_Coraz%C3%B3n_(Mandalay)"
+        }
+      },
+      "image": {
+        "file": "Church_in_Mandalay,_Myanmar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Church_in_Mandalay%2C_Myanmar.jpg",
+        "author": "Bessie and Kyle",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "mm-shweinbin-monastery",
+      "name": "Shweinbin Monastery",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q20992080",
+      "lat": 21.96628,
+      "lon": 96.065954,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Shweinbin Monastery is a Buddhist monastery in Mandalay, Burma, built in the tradition of Burmese teak architecture.",
+        "es": "El Monasterio de Shweinbin es un monasterio budista en Mandalay, Birmania, construido según la tradición de la arquitectura de teca birmana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shweinbin Monastery",
+          "url": "https://en.wikipedia.org/wiki/Shweinbin_Monastery"
+        },
+        "es": {
+          "title": "Monasterio de Shweinbin",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_de_Shweinbin"
+        }
+      },
+      "image": {
+        "file": "Mandalay-Shwe_Inn_Bin-10-gje.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mandalay-Shwe_Inn_Bin-10-gje.jpg",
+        "author": "Gerd Eichmann",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-eindawya-pagoda",
+      "name": "Eindawya Pagoda",
+      "area": "Mandalay",
+      "city": "Mandalay",
+      "wikidata": "Q19738093",
+      "lat": 21.981625,
+      "lon": 96.072465,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Eindawya Pagoda is a Buddhist stupa located in Mandalay, Myanmar.",
+        "es": "Eindawya Pagoda is a Buddhist stupa located in Mandalay, Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Eindawya Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Eindawya_Pagoda"
+        },
+        "es": {
+          "title": "Eindawya Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Eindawya_Pagoda"
+        }
+      },
+      "image": {
+        "file": "Felice_Beato_(British,_born_Italy_-_Eindawya_Pagoda_-_Mandalay_-_Google_Art_Project.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Felice_Beato_(British%2C_born_Italy_-_Eindawya_Pagoda_-_Mandalay_-_Google_Art_Project.jpg",
+        "author": "Felice Beato",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mm-presidential-palace-naypyidaw",
+      "name": "Presidential Palace, Naypyidaw",
+      "area": "Naypyidaw",
+      "city": "Naypyidaw",
+      "wikidata": "Q24038037",
+      "lat": 19.7675,
+      "lon": 96.118611,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Presidential Palace is the executive office and official residence of the Myanmar head of state and government, the President of Myanmar as well as the Vice-President of Myanmar.",
+        "es": "The Presidential Palace is the executive office and official residence of the Myanmar head of state and government, the President of Myanmar as well as the Vice-President of Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Presidential Palace, Naypyidaw",
+          "url": "https://en.wikipedia.org/wiki/Presidential_Palace%2C_Naypyidaw"
+        },
+        "es": {
+          "title": "Presidential Palace, Naypyidaw",
+          "url": "https://en.wikipedia.org/wiki/Presidential_Palace%2C_Naypyidaw"
+        }
+      },
+      "image": {
+        "file": "Secretary_Clinton_with_Burmese_First_Lady_in_Nay_Pyi_Taw_(6464632633).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Secretary_Clinton_with_Burmese_First_Lady_in_Nay_Pyi_Taw_(6464632633).jpg",
+        "author": "East Asia and Pacific Media Hub U.S. Department of State",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mm-naypyidaw-water-fountain-garden",
+      "name": "Naypyidaw Water Fountain Garden",
+      "area": "Naypyidaw",
+      "city": "Naypyidaw",
+      "wikidata": "Q6983180",
+      "lat": 19.747222,
+      "lon": 96.123611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Naypyidaw Water Fountain Garden is a garden in Naypyidaw, Myanmar.",
+        "es": "The Naypyidaw Water Fountain Garden is a garden in Naypyidaw, Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Naypyidaw Water Fountain Garden",
+          "url": "https://en.wikipedia.org/wiki/Naypyidaw_Water_Fountain_Garden"
+        },
+        "es": {
+          "title": "Naypyidaw Water Fountain Garden",
+          "url": "https://en.wikipedia.org/wiki/Naypyidaw_Water_Fountain_Garden"
+        }
+      },
+      "image": {
+        "file": "Naypyidaw_--_Water_Fountain_Garden.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Naypyidaw_--_Water_Fountain_Garden.JPG",
+        "author": "Hybernator",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mm-kaw-goon-cave",
+      "name": "Kaw Goon Cave",
+      "area": "Hpa-An",
+      "city": "Hpa-An",
+      "wikidata": "Q19696742",
+      "lat": 16.822222,
+      "lon": 97.586667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Kawgun Cave is a Buddhist cave temple, located in Kawgun Village, Hpa-An, Kayin State, Myanmar.",
+        "es": "The Kawgun Cave is a Buddhist cave temple, located in Kawgun Village, Hpa-An, Kayin State, Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kawgun Cave",
+          "url": "https://en.wikipedia.org/wiki/Kawgun_Cave"
+        },
+        "es": {
+          "title": "Kawgun Cave",
+          "url": "https://en.wikipedia.org/wiki/Kawgun_Cave"
+        }
+      },
+      "image": {
+        "file": "7th_Century_Buddha_Carvings.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:7th_Century_Buddha_Carvings.jpg",
+        "author": "Adam Jones",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "mm-saddan-cave",
+      "name": "Saddan Cave",
+      "area": "Hpa-An",
+      "city": "Hpa-An",
+      "wikidata": "Q31755059",
+      "lat": 16.74005,
+      "lon": 97.71845,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Saddan Cave ထိုင့်မာ့ခၟါ်) is a major Buddhist cave temple with hundreds of small Buddha statues.",
+        "es": "Saddan Cave ထိုင့်မာ့ခၟါ်) is a major Buddhist cave temple with hundreds of small Buddha statues."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saddan Cave",
+          "url": "https://en.wikipedia.org/wiki/Saddan_Cave"
+        },
+        "es": {
+          "title": "Saddan Cave",
+          "url": "https://en.wikipedia.org/wiki/Saddan_Cave"
+        }
+      },
+      "image": {
+        "file": "Mahar_Sadan_Cave_5.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mahar_Sadan_Cave_5.jpg",
+        "author": "kallerna",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mm-kan-thar-yar-lake",
+      "name": "Kan Thar Yar Lake",
+      "area": "Hpa-An",
+      "city": "Hpa-An",
+      "wikidata": "Q115111144",
+      "lat": 16.88,
+      "lon": 97.634167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kan Thar Yar Lake is the largest lake in Kayin State, Myanmar.",
+        "es": "Kan Thar Yar Lake is the largest lake in Kayin State, Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kan Thar Yar Lake",
+          "url": "https://en.wikipedia.org/wiki/Kan_Thar_Yar_Lake"
+        },
+        "es": {
+          "title": "Kan Thar Yar Lake",
+          "url": "https://en.wikipedia.org/wiki/Kan_Thar_Yar_Lake"
+        }
+      }
+    },
+    {
+      "id": "mm-mount-taung-wine",
+      "name": "Mount Taung Wine",
+      "area": "Hpa-An",
+      "city": "Hpa-An",
+      "wikidata": "Q115804124",
+      "lat": 16.905278,
+      "lon": 97.750278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Taung Wine Eastern Pwo Karen:လါင့်တၟိုဝ်ဝါန်ႋ is a mountain in Myanmar.",
+        "es": "Mount Taung Wine Eastern Pwo Karen:လါင့်တၟိုဝ်ဝါန်ႋ is a mountain in Myanmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Taung Wine",
+          "url": "https://en.wikipedia.org/wiki/Mount_Taung_Wine"
+        },
+        "es": {
+          "title": "Mount Taung Wine",
+          "url": "https://en.wikipedia.org/wiki/Mount_Taung_Wine"
+        }
       }
     }
   ]

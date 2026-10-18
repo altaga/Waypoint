@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -369,6 +375,2360 @@
         "text": "Mar-May: Tu-Su 10:00-16:00; Jun-Aug: Mo-Su 10:00-17:00; Sep-Oct: Tu-Su 10:00-16:00; Nov-Feb: Tu-Fr 10:00-16:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "is-iceland",
+      "name": "Iceland",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q189",
+      "lat": 65,
+      "lon": -19,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Iceland is a Nordic island country between the Arctic Ocean and the North Atlantic Ocean, located on the Mid-Atlantic Ridge between Europe and North America.",
+        "es": "Islandia es un país insular europeo, cuyo territorio abarca la isla homónima y algunas pequeñas islas e islotes adyacentes en el océano Atlántico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Iceland",
+          "url": "https://en.wikipedia.org/wiki/Iceland"
+        },
+        "es": {
+          "title": "Islandia",
+          "url": "https://es.wikipedia.org/wiki/Islandia"
+        }
+      }
+    },
+    {
+      "id": "is-surtsey",
+      "name": "Surtsey",
+      "area": "Vestmannaeyjar",
+      "city": "Vestmannaeyjar",
+      "wikidata": "Q178124",
+      "website": "https://surtsey.is/",
+      "lat": 63.304026,
+      "lon": -20.604714,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Surtsey is an uninhabited volcanic island located in the Vestmannaeyjar archipelago off the southern coast of Iceland.",
+        "es": "Surtsey es una isla volcánica situada a aproximadamente 32 kilómetros de la costa meridional de Islandia, cerca del archipiélago de Vestmannaeyjar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Surtsey",
+          "url": "https://en.wikipedia.org/wiki/Surtsey"
+        },
+        "es": {
+          "title": "Surtsey",
+          "url": "https://es.wikipedia.org/wiki/Surtsey"
+        }
+      },
+      "image": {
+        "file": "Surtsey_by_Brian_Gratwicke.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Surtsey_by_Brian_Gratwicke.jpg",
+        "author": "Brian Gratwicke",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "is-thingvellir-national-park",
+      "name": "Thingvellir National Park",
+      "area": "Bláskógabyggð",
+      "city": "Bláskógabyggð",
+      "wikidata": "Q107370",
+      "website": "https://www.thingvellir.is/en",
+      "lat": 64.258056,
+      "lon": -21.125,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Þingvellir was the site of the Alþing, the annual parliament of Iceland from the year 930 until the last session held at Þingvellir in 1798.",
+        "es": "Þingvellir, también transcrito como Thingvellir, es un valle y parque nacional situado en el suroeste de Islandia, cercano a la península de Reykjanes y a la zona volcánica de Hengill."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Þingvellir",
+          "url": "https://en.wikipedia.org/wiki/%C3%9Eingvellir"
+        },
+        "es": {
+          "title": "Þingvellir",
+          "url": "https://es.wikipedia.org/wiki/%C3%9Eingvellir"
+        }
+      },
+      "image": {
+        "file": "Thingvellir.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Thingvellir.jpg",
+        "author": "Andreas Tille",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-hekla",
+      "name": "Hekla",
+      "area": "Rangárþing ytra",
+      "city": "Rangárþing ytra",
+      "wikidata": "Q184975",
+      "lat": 63.992222,
+      "lon": -19.665833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Hekla, or Hecla, is an active stratovolcano in the south of Iceland with a height of 1,491 m.",
+        "es": "El Hekla es un estratovolcán situado al suroeste de Islandia, en la región de Suðurland."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hekla",
+          "url": "https://en.wikipedia.org/wiki/Hekla"
+        },
+        "es": {
+          "title": "Hekla",
+          "url": "https://es.wikipedia.org/wiki/Hekla"
+        }
+      },
+      "image": {
+        "file": "2006-05-21-153901_Iceland_Stórinúpur.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2006-05-21-153901_Iceland_St%C3%B3rin%C3%BApur.jpg",
+        "author": "Hansueli Krapf",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-laki",
+      "name": "Laki",
+      "area": "Skaftárhreppur",
+      "city": "Skaftárhreppur",
+      "wikidata": "Q203726",
+      "lat": 64.0675,
+      "lon": -18.23,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Laki or Lakagígar is a volcanic fissure in the western part of Vatnajökull National Park, Iceland, not far from the volcanic fissure of Eldgjá and the small village of Kirkjubæjarklaustur.",
+        "es": "El Laki o Lakagígar es una fisura volcánica situada en el sur de Islandia, cerca del cañón del Eldgjá y el pequeño pueblo de Kirkjubæjarklaustur, en el parque nacional de Skaftafell."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Laki",
+          "url": "https://en.wikipedia.org/wiki/Laki"
+        },
+        "es": {
+          "title": "Laki",
+          "url": "https://es.wikipedia.org/wiki/Laki"
+        }
+      },
+      "image": {
+        "file": "Lakagigar.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lakagigar.JPG",
+        "author": "HansOosting at Dutch Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-grimsvotn",
+      "name": "Grímsvötn",
+      "area": "Þingeyjarsveit",
+      "city": "Þingeyjarsveit",
+      "wikidata": "Q182913",
+      "lat": 64.42,
+      "lon": -17.33,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Grímsvötn is an active volcano with a fissure system located in Vatnajökull National Park, Iceland.",
+        "es": "El Grímsvötn es un sistema lacustre-volcánico de Islandia, de unos 100 km de largo y 15 km de ancho."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grímsvötn",
+          "url": "https://en.wikipedia.org/wiki/Gr%C3%ADmsv%C3%B6tn"
+        },
+        "es": {
+          "title": "Grímsvötn",
+          "url": "https://es.wikipedia.org/wiki/Gr%C3%ADmsv%C3%B6tn"
+        }
+      },
+      "image": {
+        "file": "Iceland_Grimsvoetn_1972-B.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iceland_Grimsvoetn_1972-B.jpg",
+        "author": "Roger McLassus",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-katla",
+      "name": "Katla",
+      "area": "Mýrdalshreppur",
+      "city": "Mýrdalshreppur",
+      "wikidata": "Q201914",
+      "lat": 63.633333,
+      "lon": -19.05,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Katla is an active subglacial volcano in southern Iceland.",
+        "es": "El volcán Katla es uno de los volcanes más poderosos del sur de Islandia, localizado bajo el glaciar Mýrdalsjökull."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Katla (volcano)",
+          "url": "https://en.wikipedia.org/wiki/Katla_(volcano)"
+        },
+        "es": {
+          "title": "Katla",
+          "url": "https://es.wikipedia.org/wiki/Katla"
+        }
+      },
+      "image": {
+        "file": "Katla_1918.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Katla_1918.jpg",
+        "author": "The original uploader was RicHard-59 at Finnish Wikipedia.",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "is-vatnajokull-national-park",
+      "name": "Vatnajökull National Park",
+      "area": "Southern Region",
+      "city": "Southern Region",
+      "wikidata": "Q1353292",
+      "website": "https://www.vatnajokulsthjodgardur.is/",
+      "lat": 64.5,
+      "lon": -17,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vatnajökull National Park is one of three national parks in Iceland, and is the largest one.",
+        "es": "El parque nacional Vatnajökull es uno de los tres parques nacionales de Islandia y el más extenso de Europa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vatnajökull National Park",
+          "url": "https://en.wikipedia.org/wiki/Vatnaj%C3%B6kull_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Vatnajökull",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Vatnaj%C3%B6kull"
+        }
+      },
+      "image": {
+        "file": "Skaftafellsjökull_2010.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Skaftafellsj%C3%B6kull_2010.jpg",
+        "author": "Justraveling.com",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-gullfoss",
+      "name": "Gullfoss",
+      "area": "Bláskógabyggð",
+      "city": "Bláskógabyggð",
+      "wikidata": "Q38519",
+      "website": "https://gullfoss.is/",
+      "lat": 64.326111,
+      "lon": -20.121111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Gullfoss is a waterfall located in the canyon of the Hvítá river in southwest Iceland, between the municipalities of Bláskógabyggð and Hrunamannahreppur.",
+        "es": "Gullfoss es una catarata situada en el cañón del río Hvitá en el sureste de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gullfoss",
+          "url": "https://en.wikipedia.org/wiki/Gullfoss"
+        },
+        "es": {
+          "title": "Gullfoss",
+          "url": "https://es.wikipedia.org/wiki/Gullfoss"
+        }
+      },
+      "image": {
+        "file": "GullfossOverview.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:GullfossOverview.jpg",
+        "author": "Andreas Tille",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-sn-fellsjokull",
+      "name": "Snæfellsjökull",
+      "area": "Snæfellsbær",
+      "city": "Snæfellsbær",
+      "wikidata": "Q1315012",
+      "lat": 64.80712,
+      "lon": -23.776228,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Snæfellsjökull is a 700,000-year-old glacier-capped stratovolcano in western Iceland.",
+        "es": "Snæfellsjökull es un glaciar y un estratovolcán situado en el oeste de Islandia, en el extremo oeste de la península de Snæfellsnes."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Snæfellsjökull",
+          "url": "https://en.wikipedia.org/wiki/Sn%C3%A6fellsj%C3%B6kull"
+        },
+        "es": {
+          "title": "Snæfellsjökull",
+          "url": "https://es.wikipedia.org/wiki/Sn%C3%A6fellsj%C3%B6kull"
+        }
+      },
+      "image": {
+        "file": "Snæfellsjökull_in_the_Morning_(7622876302)_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sn%C3%A6fellsj%C3%B6kull_in_the_Morning_(7622876302)_(cropped).jpg",
+        "author": "Axel Kristinsson from Reykjavík, Iceland",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "is-myvatn",
+      "name": "Mývatn",
+      "area": "Þingeyjarsveit",
+      "city": "Þingeyjarsveit",
+      "wikidata": "Q212051",
+      "lat": 65.6,
+      "lon": -17,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mývatn is a shallow lake situated in an area of active volcanism in the north of Iceland, near Krafla volcano.",
+        "es": "El lago Mývatn se encuentra situado en el norte de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mývatn",
+          "url": "https://en.wikipedia.org/wiki/M%C3%BDvatn"
+        },
+        "es": {
+          "title": "Myvatn",
+          "url": "https://es.wikipedia.org/wiki/Myvatn"
+        }
+      },
+      "image": {
+        "file": "Myvatn-Skutustathagigar-26-2018-gje.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Myvatn-Skutustathagigar-26-2018-gje.jpg",
+        "author": "Gerd Eichmann",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-heimaey",
+      "name": "Heimaey",
+      "area": "Vestmannaeyjabær",
+      "city": "Vestmannaeyjabær",
+      "wikidata": "Q211182",
+      "lat": 63.426967,
+      "lon": -20.269315,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Heimaey, is an Icelandic island. At 13.4 square kilometres, it is the largest island in the Vestmannaeyjar archipelago, and the largest and most populated island off the Icelandic coast.",
+        "es": "Heimaey es una isla de Islandia. Se encuentra a 7,4 kilómetros al sur de la costa de Islandia y es la mayor isla en el archipiélago de Vestmannaeyjar y de todo el país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Heimaey",
+          "url": "https://en.wikipedia.org/wiki/Heimaey"
+        },
+        "es": {
+          "title": "Heimaey",
+          "url": "https://es.wikipedia.org/wiki/Heimaey"
+        }
+      },
+      "image": {
+        "file": "Aerial_view_of_Heimaey,_2009-02-01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Heimaey%2C_2009-02-01.jpg",
+        "author": "Aerial_view_of_the_Westmen_Isles,_2009-02-01.jpg: Bruce McAdam Camera location62",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "is-hallgrimskirkja",
+      "name": "Hallgrímskirkja",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q271466",
+      "lat": 64.141944,
+      "lon": -21.926944,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Hallgrímskirkja is a Protestant Lutheran parish church in Reykjavík, Iceland.",
+        "es": "La Hallgrímskirkja es una iglesia de rito luterano situada en Reikiavik, capital de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hallgrímskirkja",
+          "url": "https://en.wikipedia.org/wiki/Hallgr%C3%ADmskirkja"
+        },
+        "es": {
+          "title": "Hallgrímskirkja",
+          "url": "https://es.wikipedia.org/wiki/Hallgr%C3%ADmskirkja"
+        }
+      },
+      "image": {
+        "file": "Hallgrimskirkja_mai_2026.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hallgrimskirkja_mai_2026.jpg",
+        "author": "Steinninn",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "is-icelandic-phallological-museum",
+      "name": "Icelandic Phallological Museum",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q177174",
+      "website": "https://www.phallus.is/",
+      "lat": 64.148497,
+      "lon": -21.93578,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Icelandic Phallological Museum, located in Reykjavík, Iceland, houses the world's largest display of penises and penile parts.",
+        "es": "La Faloteca islandesa se encuentra en Reykjavík, la capital de Islandia, y se caracteriza por poseer la más extensa colección de penes de diferentes especies."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Icelandic Phallological Museum",
+          "url": "https://en.wikipedia.org/wiki/Icelandic_Phallological_Museum"
+        },
+        "es": {
+          "title": "Faloteca islandesa",
+          "url": "https://es.wikipedia.org/wiki/Faloteca_islandesa"
+        }
+      },
+      "image": {
+        "file": "Icelandic_Phallological_Museum,_Reykjavík.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Icelandic_Phallological_Museum%2C_Reykjav%C3%ADk.JPG",
+        "author": "Witho F.",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-seljalandsfoss",
+      "name": "Seljalandsfoss",
+      "area": "Rangárþing eystra",
+      "city": "Rangárþing eystra",
+      "wikidata": "Q777882",
+      "lat": 63.615833,
+      "lon": -19.992778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Seljalandsfoss is a waterfall in Iceland.",
+        "es": "Seljalandsfoss es una cascada de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Seljalandsfoss",
+          "url": "https://en.wikipedia.org/wiki/Seljalandsfoss"
+        },
+        "es": {
+          "title": "Seljalandsfoss",
+          "url": "https://es.wikipedia.org/wiki/Seljalandsfoss"
+        }
+      },
+      "image": {
+        "file": "Seljalandsfoss_-_panoramio_(7).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Seljalandsfoss_-_panoramio_(7).jpg",
+        "author": "Zoran Kurelić Rabko",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-ingvallavatn",
+      "name": "Þingvallavatn",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q335432",
+      "lat": 64.1875,
+      "lon": -21.135,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Þingvallavatn, anglicised as Thingvallavatn, is a rift valley lake in southwestern Iceland.",
+        "es": "Þingvallavatn es un lago de origen volcánico en el suroeste de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Þingvallavatn",
+          "url": "https://en.wikipedia.org/wiki/%C3%9Eingvallavatn"
+        },
+        "es": {
+          "title": "Þingvallavatn",
+          "url": "https://es.wikipedia.org/wiki/%C3%9Eingvallavatn"
+        }
+      },
+      "image": {
+        "file": "2008-05-25_13_34_17_Iceland-Þingvellir.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2008-05-25_13_34_17_Iceland-%C3%9Eingvellir.jpg",
+        "author": "Hansueli Krapf This file was uploaded with Commonist.",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-blue-lagoon",
+      "name": "Blue Lagoon",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q886946",
+      "lat": 63.879199,
+      "lon": -22.445523,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Blue Lagoon is a geothermal spa in southwestern Iceland.",
+        "es": "La Laguna Azul en es un balneario geotermal situado al suroeste de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Blue Lagoon (geothermal spa)",
+          "url": "https://en.wikipedia.org/wiki/Blue_Lagoon_(geothermal_spa)"
+        },
+        "es": {
+          "title": "Laguna Azul (Islandia)",
+          "url": "https://es.wikipedia.org/wiki/Laguna_Azul_(Islandia)"
+        }
+      },
+      "image": {
+        "file": "Blue_Lagoon_2012-08-23_(4).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_Lagoon_2012-08-23_(4).JPG",
+        "author": "Bloody-libu",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-askja",
+      "name": "Askja",
+      "area": "Þingeyjarsveit",
+      "city": "Þingeyjarsveit",
+      "wikidata": "Q211665",
+      "lat": 65.03,
+      "lon": -16.75,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Askja is an active volcano situated in a remote part of the central highlands of Iceland.",
+        "es": "Askja es un volcán de Islandia. Es el cráter más grande de la caldera volcánica de Dyngjufjöl ubicado en las Tierras Altas de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Askja",
+          "url": "https://en.wikipedia.org/wiki/Askja"
+        },
+        "es": {
+          "title": "Askja",
+          "url": "https://es.wikipedia.org/wiki/Askja"
+        }
+      },
+      "image": {
+        "file": "Island_Askja.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Island_Askja.jpg",
+        "author": "User Wolfgangbeyer on de.wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-bar-arbunga",
+      "name": "Bárðarbunga",
+      "area": "Þingeyjarsveit",
+      "city": "Þingeyjarsveit",
+      "wikidata": "Q1018862",
+      "lat": 64.640833,
+      "lon": -17.527778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Bárðarbunga, is an active and productive stratovolcano located under Vatnajökull, which is Iceland's most extensive glacier, in Vatnajökull National Park.",
+        "es": "Bárðarbunga es un estratovolcán activo situado bajo la capa de hielo del glaciar Vatnajökull, el más extenso de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bárðarbunga",
+          "url": "https://en.wikipedia.org/wiki/B%C3%A1r%C3%B0arbunga"
+        },
+        "es": {
+          "title": "Bárðarbunga",
+          "url": "https://es.wikipedia.org/wiki/B%C3%A1r%C3%B0arbunga"
+        }
+      },
+      "image": {
+        "file": "Vatnajökull.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vatnaj%C3%B6kull.jpeg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "is-strokkur",
+      "name": "Strokkur",
+      "area": "Bláskógabyggð",
+      "city": "Bláskógabyggð",
+      "wikidata": "Q1128186",
+      "lat": 64.312679,
+      "lon": -20.30075,
+      "category": "experience",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Strokkur is a fountain-type geyser located in a geothermal area beside the Hvítá River in Iceland in the southwest part of the country, east of Reykjavík.",
+        "es": "Strokkur es un géiser en la región geotérmica cercana al río Hvitá y de la ciudad de Reikiavik, es considerado uno de los géiseres más famosos de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Strokkur",
+          "url": "https://en.wikipedia.org/wiki/Strokkur"
+        },
+        "es": {
+          "title": "Strokkur",
+          "url": "https://es.wikipedia.org/wiki/Strokkur"
+        }
+      },
+      "image": {
+        "file": "Strokkur_Geysir_(14135319580)_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Strokkur_Geysir_(14135319580)_(cropped).jpg",
+        "author": "Christoph Strässler from Oberdorf BL, Schweiz",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "is-eldfell",
+      "name": "Eldfell",
+      "area": "Vestmannaeyjabær",
+      "city": "Vestmannaeyjabær",
+      "wikidata": "Q217274",
+      "lat": 63.433301,
+      "lon": -20.248769,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Eldfell is a volcanic cone just over 200 metres high on the Icelandic island of Heimaey in the Westman Islands.",
+        "es": "Eldfell es un cono volcánico compuesto de unos 200 m de altura que se encuentra en la isla de Heimaey, Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Eldfell",
+          "url": "https://en.wikipedia.org/wiki/Eldfell"
+        },
+        "es": {
+          "title": "Eldfell",
+          "url": "https://es.wikipedia.org/wiki/Eldfell"
+        }
+      },
+      "image": {
+        "file": "Eldfell_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eldfell_01.jpg",
+        "author": "michael clarke stuff",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "is-go-afoss",
+      "name": "Goðafoss",
+      "area": "Þingeyjarsveit",
+      "city": "Þingeyjarsveit",
+      "wikidata": "Q1137629",
+      "lat": 65.68313,
+      "lon": -17.550377,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Goðafoss is a waterfall in northern Iceland.",
+        "es": "Goðafoss es una cascada ubicada en Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Goðafoss",
+          "url": "https://en.wikipedia.org/wiki/Go%C3%B0afoss"
+        },
+        "es": {
+          "title": "Goðafoss",
+          "url": "https://es.wikipedia.org/wiki/Go%C3%B0afoss"
+        }
+      },
+      "image": {
+        "file": "Goðafoss_Island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Go%C3%B0afoss_Island.jpg",
+        "author": "Superbass",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-great-geysir",
+      "name": "Great Geysir",
+      "area": "Bláskógabyggð",
+      "city": "Bláskógabyggð",
+      "wikidata": "Q216846",
+      "lat": 64.313834,
+      "lon": -20.299494,
+      "category": "experience",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Geysir, sometimes known as The Great Geysir, is a geyser in south-western Iceland that geological studies suggest started forming about 1150 CE.",
+        "es": "El Geysir, también conocido como El Gran Geysir, es el géiser más antiguamente conocido y uno de los ejemplos más impresionantes de este fenómeno en todo el mundo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Geysir",
+          "url": "https://en.wikipedia.org/wiki/Geysir"
+        },
+        "es": {
+          "title": "Geysir",
+          "url": "https://es.wikipedia.org/wiki/Geysir"
+        }
+      },
+      "image": {
+        "file": "Geysir-22-Great_Geysir-2018-gje.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Geysir-22-Great_Geysir-2018-gje.jpg",
+        "author": "Gerd Eichmann",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-jokulsarlon",
+      "name": "Jökulsárlón",
+      "area": "Sveitarfélagið Hornafjörður",
+      "city": "Sveitarfélagið Hornafjörður",
+      "wikidata": "Q511933",
+      "lat": 64.070278,
+      "lon": -16.211667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Jökulsárlón is a large glacial lake in the southern part of Vatnajökull National Park, Iceland.",
+        "es": "Jökulsárlón es el mayor y más conocido lago glaciar de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jökulsárlón",
+          "url": "https://en.wikipedia.org/wiki/J%C3%B6kuls%C3%A1rl%C3%B3n"
+        },
+        "es": {
+          "title": "Jökulsárlón",
+          "url": "https://es.wikipedia.org/wiki/J%C3%B6kuls%C3%A1rl%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Jökulsárlón_(3587109332).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:J%C3%B6kuls%C3%A1rl%C3%B3n_(3587109332).jpg",
+        "author": "Ulrich Latzenhofer from Perchtoldsdorf, Österreich",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "is-skogafoss",
+      "name": "Skógafoss",
+      "area": "Southern Region",
+      "city": "Southern Region",
+      "wikidata": "Q1130718",
+      "lat": 63.529722,
+      "lon": -19.513889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Skógafoss is a waterfall on the Skógá River in the south of Iceland at the cliff marking the former coastline.",
+        "es": "Skógafoss es una cascada situada en el recorrido del río Skógá, en el sur de Islandia en los acantilados del anterior litoral."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Skógafoss",
+          "url": "https://en.wikipedia.org/wiki/Sk%C3%B3gafoss"
+        },
+        "es": {
+          "title": "Skógafoss",
+          "url": "https://es.wikipedia.org/wiki/Sk%C3%B3gafoss"
+        }
+      },
+      "image": {
+        "file": "Skogafoss-02-2018-gje.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Skogafoss-02-2018-gje.jpg",
+        "author": "Gerd Eichmann",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-or-fajokull",
+      "name": "Öræfajökull",
+      "area": "Sveitarfélagið Hornafjörður",
+      "city": "Sveitarfélagið Hornafjörður",
+      "wikidata": "Q298119",
+      "lat": 64.025436,
+      "lon": -16.642064,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Öræfajökull is an ice-covered volcano in south-east Iceland.",
+        "es": "Öræfajökull es un volcán cubierto de hielo de la región de Austurland, en el sudeste de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Öræfajökull",
+          "url": "https://en.wikipedia.org/wiki/%C3%96r%C3%A6faj%C3%B6kull"
+        },
+        "es": {
+          "title": "Öræfajökull",
+          "url": "https://es.wikipedia.org/wiki/%C3%96r%C3%A6faj%C3%B6kull"
+        }
+      },
+      "image": {
+        "file": "Öræfajökull_-_Mapillary_(520905752282052).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%96r%C3%A6faj%C3%B6kull_-_Mapillary_(520905752282052).jpg",
+        "author": "24dakenlo @ Mapillary",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-krafla",
+      "name": "Krafla",
+      "area": "Þingeyjarsveit",
+      "city": "Þingeyjarsveit",
+      "wikidata": "Q752994",
+      "lat": 65.733333,
+      "lon": -16.783333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Krafla is a volcanic caldera of about 10 km in diameter with a 90 km long fissure zone.",
+        "es": "Kraflaes una caldera volcánica de aproximadamente 10 km de diámetro con una larga zona de fisuras de 90 km, situada en el norte de Islandia en la región de Mývatn."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Krafla",
+          "url": "https://en.wikipedia.org/wiki/Krafla"
+        },
+        "es": {
+          "title": "Krafla",
+          "url": "https://es.wikipedia.org/wiki/Krafla"
+        }
+      },
+      "image": {
+        "file": "KraflaViti.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:KraflaViti.jpg",
+        "author": "Andreas Tille",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-tjornin",
+      "name": "Tjörnin",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q945753",
+      "lat": 64.144531,
+      "lon": -21.942633,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tjörnin is a small, prominent lake in central Reykjavík, the capital of Iceland.",
+        "es": "El Tjörnin es un pequeño lago situado al oriente de Reikiavik, en su centro histórico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tjörnin",
+          "url": "https://en.wikipedia.org/wiki/Tj%C3%B6rnin"
+        },
+        "es": {
+          "title": "Tjörnin",
+          "url": "https://es.wikipedia.org/wiki/Tj%C3%B6rnin"
+        }
+      },
+      "image": {
+        "file": "Tjörnin,_Reykjavik.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tj%C3%B6rnin%2C_Reykjavik.jpg",
+        "author": "Helgi Hall from Reykjavík, Iceland",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "is-orisvatn",
+      "name": "Þórisvatn",
+      "area": "Ásahreppur",
+      "city": "Ásahreppur",
+      "wikidata": "Q335940",
+      "lat": 64.300278,
+      "lon": -18.822222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Þórisvatn is the largest lake of Iceland, situated at the south end of the Sprengisandur plateau within the highlands of Iceland.",
+        "es": "Þórisvatn es un lago situado en la región de Suðurland de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Þórisvatn",
+          "url": "https://en.wikipedia.org/wiki/%C3%9E%C3%B3risvatn"
+        },
+        "es": {
+          "title": "Þórisvatn",
+          "url": "https://es.wikipedia.org/wiki/%C3%9E%C3%B3risvatn"
+        }
+      },
+      "image": {
+        "file": "Hofsjökull_1_Iceland.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hofsj%C3%B6kull_1_Iceland.JPG",
+        "author": "TommyBee",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "is-glymur",
+      "name": "Glymur",
+      "area": "Hvalfjarðarsveit",
+      "city": "Hvalfjarðarsveit",
+      "wikidata": "Q38577",
+      "lat": 64.395833,
+      "lon": -21.241111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Glymur is a waterfall in Hvalfjarðarsveit, Vesturland, Iceland.",
+        "es": "Glymur es una cascada situada al occidente de Islandia, al nororiente de Reikiavik."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Glymur",
+          "url": "https://en.wikipedia.org/wiki/Glymur"
+        },
+        "es": {
+          "title": "Glymur",
+          "url": "https://es.wikipedia.org/wiki/Glymur"
+        }
+      },
+      "image": {
+        "file": "Glymur_pan_1-10-08.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Glymur_pan_1-10-08.JPG",
+        "author": "Jabbi",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "is-skaftafell-national-park",
+      "name": "Skaftafell National Park",
+      "area": "Sveitarfélagið Hornafjörður",
+      "city": "Sveitarfélagið Hornafjörður",
+      "wikidata": "Q1133116",
+      "lat": 64.015556,
+      "lon": -16.971667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Skaftafell is a preservation area in Öræfi, southeast Iceland.",
+        "es": "El parque nacional de Skaftafell es un área de preservación en Öræfasveit situado en la región de Austurland, en el centro sudeste de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Skaftafell",
+          "url": "https://en.wikipedia.org/wiki/Skaftafell"
+        },
+        "es": {
+          "title": "Parque nacional Skaftafell",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Skaftafell"
+        }
+      },
+      "image": {
+        "file": "Skaftafell_Aerial_Panorama_2023.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Skaftafell_Aerial_Panorama_2023.jpg",
+        "author": "Eysteinn Guðni Guðnason",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-elli-aey",
+      "name": "Elliðaey",
+      "area": "Vestmannaeyjar",
+      "city": "Vestmannaeyjar",
+      "wikidata": "Q1332540",
+      "lat": 63.465045,
+      "lon": -20.174503,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Elliðaey is a small, uninhabited island south of Iceland.",
+        "es": "Elliðaey es la tercera isla más grande de las Islas Vestman, ubicada al sur de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Elliðaey",
+          "url": "https://en.wikipedia.org/wiki/Elli%C3%B0aey"
+        },
+        "es": {
+          "title": "Elliðaey",
+          "url": "https://es.wikipedia.org/wiki/Elli%C3%B0aey"
+        }
+      },
+      "image": {
+        "file": "Isla_Elliðaey,_Islas_Vestman,_Suðurland,_Islandia,_2014-08-17,_DD_106.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Isla_Elli%C3%B0aey%2C_Islas_Vestman%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-17%2C_DD_106.JPG",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-esja",
+      "name": "Esja",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q116693",
+      "lat": 64.259993,
+      "lon": -21.65153,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Esja is a 914 m mountain situated in the south-west of Iceland, about ten kilometres north of Iceland's capital city Reykjavík.",
+        "es": "El Esja es una montaña de Islandia. Se extiende a lo largo del distrito de Kjalarnes en Reikiavik y es una de las montañas que caracterizan a Höfuðborgarsvæði, la región de la zona metropolitana de la capital islandesa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Esja",
+          "url": "https://en.wikipedia.org/wiki/Esja"
+        },
+        "es": {
+          "title": "Esja",
+          "url": "https://es.wikipedia.org/wiki/Esja"
+        }
+      },
+      "image": {
+        "file": "Esja_(2571116699).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Esja_(2571116699).jpg",
+        "author": "Axel Kristinsson from Reykjavík, Iceland",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "is-eldgja",
+      "name": "Eldgjá",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q388641",
+      "lat": 63.966667,
+      "lon": -18.609167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Eldgjá is a volcano and a canyon in Iceland.",
+        "es": "Eldgjá es un volcán y un cañón en Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Eldgjá",
+          "url": "https://en.wikipedia.org/wiki/Eldgj%C3%A1"
+        },
+        "es": {
+          "title": "Eldgjá",
+          "url": "https://es.wikipedia.org/wiki/Eldgj%C3%A1"
+        }
+      },
+      "image": {
+        "file": "Эльдгьяу.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%AD%D0%BB%D1%8C%D0%B4%D0%B3%D1%8C%D1%8F%D1%83.jpg",
+        "author": "Илья Григорик",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-svartifoss",
+      "name": "Svartifoss",
+      "area": "Sveitarfélagið Hornafjörður",
+      "city": "Sveitarfélagið Hornafjörður",
+      "wikidata": "Q1145786",
+      "lat": 64.027698,
+      "lon": -16.975248,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Svartifoss is a waterfall in Skaftafell in Vatnajökull National Park in Iceland, and is one of the most popular sights in the park.",
+        "es": "Svartifoss es una cascada en el Parque nacional Skaftafell en Islandia y una de sus atracciones más populares."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Svartifoss",
+          "url": "https://en.wikipedia.org/wiki/Svartifoss"
+        },
+        "es": {
+          "title": "Svartifoss",
+          "url": "https://es.wikipedia.org/wiki/Svartifoss"
+        }
+      },
+      "image": {
+        "file": "SvartifossSummer.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:SvartifossSummer.jpg",
+        "author": "Andreas Tille",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-hengill",
+      "name": "Hengill",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q1413846",
+      "lat": 64.085556,
+      "lon": -21.313611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Hengill is a volcanic table mountain situated in the south-west of Iceland, to the south of Þingvellir.",
+        "es": "El Hengill es un volcán activo situado al sudoeste de Islandia, al sur de Þingvellir."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hengill",
+          "url": "https://en.wikipedia.org/wiki/Hengill"
+        },
+        "es": {
+          "title": "Hengill",
+          "url": "https://es.wikipedia.org/wiki/Hengill"
+        }
+      },
+      "image": {
+        "file": "Hengill_behind_Hveragerdi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hengill_behind_Hveragerdi.jpg",
+        "author": "No machine-readable author provided. Reykholt assumed (based on copyright claims",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-vi-ey",
+      "name": "Viðey",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q116492",
+      "lat": 64.166088,
+      "lon": -21.853785,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Viðey is the largest island of the Kollafjörður Bay in Iceland, just outside the capital of Reykjavík.",
+        "es": "Viðey es la mayor de las islas del fiordo Kollafjörður en Islandia, cerca de la capital Reikiavik."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Viðey",
+          "url": "https://en.wikipedia.org/wiki/Vi%C3%B0ey"
+        },
+        "es": {
+          "title": "Viðey",
+          "url": "https://es.wikipedia.org/wiki/Vi%C3%B0ey"
+        }
+      },
+      "image": {
+        "file": "Videy_085.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Videy_085.jpg",
+        "author": "No machine-readable author provided. Akigka assumed (based on copyright claims).",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-her-ubrei",
+      "name": "Herðubreið",
+      "area": "Þingeyjarsveit",
+      "city": "Þingeyjarsveit",
+      "wikidata": "Q961546",
+      "lat": 65.183333,
+      "lon": -16.35,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Herðubreið is a tuya in the northern part of Vatnajökull National Park, Iceland.",
+        "es": "El Herðubreið es un tuya situado en la región de Norðurland Eystra, el noreste de las Tierras Altas de Islandia y en el desierto del campo de lava de Ódáðahraun, a lo largo de la Öskjuleið y en las cercanías del Askja."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Herðubreið",
+          "url": "https://en.wikipedia.org/wiki/Her%C3%B0ubrei%C3%B0"
+        },
+        "es": {
+          "title": "Herðubreið",
+          "url": "https://es.wikipedia.org/wiki/Her%C3%B0ubrei%C3%B0"
+        }
+      },
+      "image": {
+        "file": "Herðubreið-Iceland-2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Her%C3%B0ubrei%C3%B0-Iceland-2.jpg",
+        "author": "User en:User:Icemuon, cropped by User:Seattle Skier",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-fagradalsfjall",
+      "name": "Fagradalsfjall",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q27015522",
+      "lat": 63.905,
+      "lon": -22.2725,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fagradalsfjall is an active tuya volcano formed in the Last Glacial Period on the Reykjanes Peninsula, around 40 kilometres from Reykjavík, Iceland.",
+        "es": "Fagradalsfjall es un respiradero de fisura volcánica y un volcán en escudo subglacial localizado en la península de Reykjanes, en Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fagradalsfjall",
+          "url": "https://en.wikipedia.org/wiki/Fagradalsfjall"
+        },
+        "es": {
+          "title": "Fagradalsfjall",
+          "url": "https://es.wikipedia.org/wiki/Fagradalsfjall"
+        }
+      },
+      "image": {
+        "file": "Fagradalsfjall_194309.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fagradalsfjall_194309.jpg",
+        "author": "Steinninn",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "is-eldey",
+      "name": "Eldey",
+      "area": "Southern Peninsula Region",
+      "city": "Southern Peninsula Region",
+      "wikidata": "Q324541",
+      "lat": 63.740889,
+      "lon": -22.957556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Eldey is a small, uninhabited island about 13 kilometres off the coast of the Reykjanes Peninsula in southwest Iceland.",
+        "es": "Eldey es un islote deshabitado a 16 km de la costa de la península Reykjanes, al suroeste de Islandia, al oesudoeste de Reikiavik en la región de Suðurnes."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Eldey",
+          "url": "https://en.wikipedia.org/wiki/Eldey"
+        },
+        "es": {
+          "title": "Eldey",
+          "url": "https://es.wikipedia.org/wiki/Eldey"
+        }
+      },
+      "image": {
+        "file": "Eldey_close.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eldey_close.jpg",
+        "author": "Dagur Brynjólfsson from Hafnarfjordur, Iceland",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "is-hrisey",
+      "name": "Hrísey",
+      "area": "Akureyrarbær",
+      "city": "Akureyrarbær",
+      "wikidata": "Q631719",
+      "lat": 66.00336,
+      "lon": -18.384748,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Hrísey is a small island off the north coast of Iceland, situated approximately 35 kilometres north of Akureyri, in Eyjafjörður, at 66°00′N 18°23′W.",
+        "es": "Hrísey es una isla de la costa norte de Islandia, situada a unos 35 kilómetros al norte de Akureyri, en Eyjafjörður."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hrísey",
+          "url": "https://en.wikipedia.org/wiki/Hr%C3%ADsey"
+        },
+        "es": {
+          "title": "Hrísey",
+          "url": "https://es.wikipedia.org/wiki/Hr%C3%ADsey"
+        }
+      },
+      "image": {
+        "file": "Hrísey_0067.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hr%C3%ADsey_0067.jpg",
+        "author": "Steinninn",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "is-dynjandi",
+      "name": "Dynjandi",
+      "area": "Westfjords",
+      "city": "Westfjords",
+      "wikidata": "Q281535",
+      "lat": 65.7325,
+      "lon": -23.198056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Dynjandi is a waterfall located in Arnarfjörður in the Westfjords region of Iceland.",
+        "es": "Dynjandi es una cascada situada en el fiordo Arnarfjörður de la región de Vestfirðir, al noroeste de Islandia, También se le conoce como Fjallfoss y es la más grande de los Fiordos del Oeste."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dynjandi",
+          "url": "https://en.wikipedia.org/wiki/Dynjandi"
+        },
+        "es": {
+          "title": "Dynjandi",
+          "url": "https://es.wikipedia.org/wiki/Dynjandi"
+        }
+      },
+      "image": {
+        "file": "Cascada_Dynjandi,_Vestfirðir,_Islandia,_2014-08-14,_DD_148-150_HDR.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cascada_Dynjandi%2C_Vestfir%C3%B0ir%2C_Islandia%2C_2014-08-14%2C_DD_148-150_HDR.JPG",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-aldeyjarfoss",
+      "name": "Aldeyjarfoss",
+      "area": "Northeastern Region",
+      "city": "Northeastern Region",
+      "wikidata": "Q1827108",
+      "lat": 65.366,
+      "lon": -17.348,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Aldeyjarfoss waterfall is situated in the Highlands of Iceland at the northern part of the Sprengisandur Highland Road.",
+        "es": "Aldeyjarfoss es una cascada situada al norte de Islandia, en la parte más septentrional de la carretera Sprengisandur, en las Tierras Altas de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aldeyjarfoss",
+          "url": "https://en.wikipedia.org/wiki/Aldeyjarfoss"
+        },
+        "es": {
+          "title": "Aldeyjarfoss",
+          "url": "https://es.wikipedia.org/wiki/Aldeyjarfoss"
+        }
+      },
+      "image": {
+        "file": "Aldeyjarfoss.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aldeyjarfoss.jpg",
+        "author": "Andreas Tille",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-oxararfoss",
+      "name": "Öxarárfoss",
+      "area": "Bláskógabyggð",
+      "city": "Bláskógabyggð",
+      "wikidata": "Q307675",
+      "lat": 64.26582,
+      "lon": -21.11804,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Öxarárfoss is a waterfall in Þingvellir National Park, Iceland.",
+        "es": "Öxarárfoss es una pequeña cascada en el parque nacional Þingvellir, en Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Öxarárfoss",
+          "url": "https://en.wikipedia.org/wiki/%C3%96xar%C3%A1rfoss"
+        },
+        "es": {
+          "title": "Öxarárfoss",
+          "url": "https://es.wikipedia.org/wiki/%C3%96xar%C3%A1rfoss"
+        }
+      },
+      "image": {
+        "file": "Öxarárfoss,_Parque_Nacional_de_Þingvellir,_Suðurland,_Islandia,_2014-08-16,_DD_029.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%96xar%C3%A1rfoss%2C_Parque_Nacional_de_%C3%9Eingvellir%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-16%2C_DD_029.JPG",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-hop",
+      "name": "Hóp",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q1124746",
+      "lat": 65.533333,
+      "lon": -20.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The lake Hóp is situated in the north of Iceland near Blönduós at the Húnafjörður.",
+        "es": "Para la película de Universal Studios de 2011, véase Hop"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hóp (Iceland)",
+          "url": "https://en.wikipedia.org/wiki/H%C3%B3p_(Iceland)"
+        },
+        "es": {
+          "title": "Hóp",
+          "url": "https://es.wikipedia.org/wiki/H%C3%B3p"
+        }
+      },
+      "image": {
+        "file": "Hópið_775.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B3pi%C3%B0_775.jpg",
+        "author": "Steinninn",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "is-tindfjallajokull",
+      "name": "Tindfjallajökull",
+      "area": "Southern Region",
+      "city": "Southern Region",
+      "wikidata": "Q1432927",
+      "lat": 63.792778,
+      "lon": -19.580556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tindfjallajökull is a glacier in the south of Iceland whose name is also given to the underlying stratovolcano.",
+        "es": "Tindfjallajökull es el nombre del glaciar del monte Tindfjöll, en la región de Suðurland, al sur de Islandia"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tindfjallajökull",
+          "url": "https://en.wikipedia.org/wiki/Tindfjallaj%C3%B6kull"
+        },
+        "es": {
+          "title": "Tindfjallajökull",
+          "url": "https://es.wikipedia.org/wiki/Tindfjallaj%C3%B6kull"
+        }
+      },
+      "image": {
+        "file": "Tindfjallajökull_from_aeroplane.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tindfjallaj%C3%B6kull_from_aeroplane.jpg",
+        "author": "Martin Barth",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-kverkfjoll",
+      "name": "Kverkfjöll",
+      "area": "Fljótsdalshérað",
+      "city": "Fljótsdalshérað",
+      "wikidata": "Q1435038",
+      "lat": 64.661112,
+      "lon": -16.665428,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kverkfjöll is a potentially active central volcano, fissure swarm, and associated mountain range situated on the northern border of the glacier Vatnajökull in Iceland.",
+        "es": "El Kverkfjöll es un volcán activo islandés situado en el límite del glaciar Vatnajökull."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kverkfjöll",
+          "url": "https://en.wikipedia.org/wiki/Kverkfj%C3%B6ll"
+        },
+        "es": {
+          "title": "Kverkfjöll",
+          "url": "https://es.wikipedia.org/wiki/Kverkfj%C3%B6ll"
+        }
+      },
+      "image": {
+        "file": "Kverkfjöll_@_Langihnjúkur_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kverkfj%C3%B6ll_%40_Langihnj%C3%BAkur_02.jpg",
+        "author": "Rémih",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-kleifarvatn",
+      "name": "Kleifarvatn",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q574165",
+      "lat": 63.926833,
+      "lon": -21.970223,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kleifarvatn is the largest lake on the Reykjanes Peninsula in Iceland, situated in the southern part of the peninsula.",
+        "es": "Kleifarvatn es el lago más grande de la península de Reykjanes en Islandia, situada en la parte meridional de la península en la zona de fisuras de la dorsal mesoatlántica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kleifarvatn",
+          "url": "https://en.wikipedia.org/wiki/Kleifarvatn"
+        },
+        "es": {
+          "title": "Kleifarvatn",
+          "url": "https://es.wikipedia.org/wiki/Kleifarvatn"
+        }
+      },
+      "image": {
+        "file": "Lake_Kleifarvatn,_Iceland_(41495264840).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Kleifarvatn%2C_Iceland_(41495264840).jpg",
+        "author": "Joe deSousa",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "is-brennisteinsalda",
+      "name": "Brennisteinsalda",
+      "area": "Rangárþing ytra",
+      "city": "Rangárþing ytra",
+      "wikidata": "Q280822",
+      "lat": 63.980833,
+      "lon": -19.145833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Brennisteinsalda is a volcano in the south of Iceland.",
+        "es": "El Brennisteinsalda es un volcán en el sur de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Brennisteinsalda",
+          "url": "https://en.wikipedia.org/wiki/Brennisteinsalda"
+        },
+        "es": {
+          "title": "Brennisteinsalda",
+          "url": "https://es.wikipedia.org/wiki/Brennisteinsalda"
+        }
+      },
+      "image": {
+        "file": "Landmannalaugar_Iceland_2005_2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Landmannalaugar_Iceland_2005_2.JPG",
+        "author": "User:Chris 73",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-apavatn",
+      "name": "Apavatn",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q388709",
+      "lat": 64.174906,
+      "lon": -20.656054,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Apavatn is a lake in southwest Iceland. With a surface area of around 13 km2 it is much larger than the neighbouring lake of Laugarvatn, which lies to the north of Apavatn.",
+        "es": "Apavatn is a lake in southwest Iceland. With a surface area of around 13 km2 it is much larger than the neighbouring lake of Laugarvatn, which lies to the north of Apavatn."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Apavatn",
+          "url": "https://en.wikipedia.org/wiki/Apavatn"
+        },
+        "es": {
+          "title": "Apavatn",
+          "url": "https://en.wikipedia.org/wiki/Apavatn"
+        }
+      },
+      "image": {
+        "file": "Laugarvatn01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Laugarvatn01.jpg",
+        "author": "Christian Bickel",
+        "license": "CC BY-SA 2.0 de"
+      }
+    },
+    {
+      "id": "is-keri",
+      "name": "Kerið",
+      "area": "Grímsnes- og Grafningshreppur",
+      "city": "Grímsnes- og Grafningshreppur",
+      "wikidata": "Q1435393",
+      "lat": 64.04098,
+      "lon": -20.882654,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kerið is a volcanic crater lake located in the Grímsnes area in south Iceland, along the Golden Circle.",
+        "es": "Kerið es un lago de cráter volcánico ubicado en el área de Grímsnes, en el sur de Islandia, en la popular ruta turística conocida como el Círculo Dorado."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kerið",
+          "url": "https://en.wikipedia.org/wiki/Keri%C3%B0"
+        },
+        "es": {
+          "title": "Kerið",
+          "url": "https://es.wikipedia.org/wiki/Keri%C3%B0"
+        }
+      },
+      "image": {
+        "file": "Kerid-08-Krater-1980-gje.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kerid-08-Krater-1980-gje.jpg",
+        "author": "Gerd Eichmann",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-torfajokull",
+      "name": "Torfajökull",
+      "area": "Rangárþing ytra",
+      "city": "Rangárþing ytra",
+      "wikidata": "Q1474799",
+      "lat": 63.894167,
+      "lon": -19.010278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Torfajökull is a rhyolitic stratovolcano, with a large caldera capped by a glacier of the same name and associated with a complex of subglacial volcanoes.",
+        "es": "Torfajökull es un volcán y glaciar ubicado en la región de Suðurland, al sur de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Torfajökull",
+          "url": "https://en.wikipedia.org/wiki/Torfaj%C3%B6kull"
+        },
+        "es": {
+          "title": "Torfajökull",
+          "url": "https://es.wikipedia.org/wiki/Torfaj%C3%B6kull"
+        }
+      },
+      "image": {
+        "file": "Landmannalaugar_1_Iceland_zoom.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Landmannalaugar_1_Iceland_zoom.jpg",
+        "author": "TommyBee",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "is-imagine-peace-tower",
+      "name": "Imagine Peace Tower",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q116484",
+      "lat": 64.163239,
+      "lon": -21.859467,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Imagine Peace Tower is a memorial to John Lennon from his widow, Yoko Ono, located on Viðey Island in Kollafjörður Bay near Reykjavík, Iceland.",
+        "es": "La Torre Imagina la Paz es un monumento en la isla de Viðey en la bahía de Kollafjörður, en el área de Reikiavik, la capital de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Imagine Peace Tower",
+          "url": "https://en.wikipedia.org/wiki/Imagine_Peace_Tower"
+        },
+        "es": {
+          "title": "Torre Imagina la Paz",
+          "url": "https://es.wikipedia.org/wiki/Torre_Imagina_la_Paz"
+        }
+      },
+      "image": {
+        "file": "Iceland_-_Peace_Tower_28_(6571385177).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iceland_-_Peace_Tower_28_(6571385177).jpg",
+        "author": "McKay Savage from London, UK",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "is-langisjor",
+      "name": "Langisjór",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q283536",
+      "lat": 64.183333,
+      "lon": -18.25,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Langisjór is a lake in the western part of Vatnajökull National Park, Iceland.",
+        "es": "Langisjór is a lake in the western part of Vatnajökull National Park, Iceland."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Langisjór",
+          "url": "https://en.wikipedia.org/wiki/Langisj%C3%B3r"
+        },
+        "es": {
+          "title": "Langisjór",
+          "url": "https://en.wikipedia.org/wiki/Langisj%C3%B3r"
+        }
+      },
+      "image": {
+        "file": "Langisjor_2006.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Langisjor_2006.jpg",
+        "author": "No machine-readable author provided. Gumol assumed (based on copyright claims).",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-elli-avatn",
+      "name": "Elliðavatn",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q1332555",
+      "lat": 64.083333,
+      "lon": -21.783333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Elliðavatn is a lake in Iceland. It is situated in the area of Reykjavík.",
+        "es": "Elliðavatn is a lake in Iceland. It is situated in the area of Reykjavík."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Elliðavatn",
+          "url": "https://en.wikipedia.org/wiki/Elli%C3%B0avatn"
+        },
+        "es": {
+          "title": "Elliðavatn",
+          "url": "https://en.wikipedia.org/wiki/Elli%C3%B0avatn"
+        }
+      },
+      "image": {
+        "file": "Ellidavatn.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ellidavatn.JPG",
+        "author": "Bromr",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "is-landakotskirkja",
+      "name": "Landakotskirkja",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q794242",
+      "lat": 64.14744,
+      "lon": -21.94855,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Landakotskirkja, officially named Basilika Krists konungs and often referred to as Kristskirkja, is a Catholic basilica in the western part of the Icelandic capital of Reykjavík and is the cathedral of the Diocese of…",
+        "es": "La Catedral de Cristo Rey de Reikiavik o Basílica de Cristo Rey es la catedral católica de toda Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Christ the King Cathedral (Reykjavík)",
+          "url": "https://en.wikipedia.org/wiki/Christ_the_King_Cathedral_(Reykjav%C3%ADk)"
+        },
+        "es": {
+          "title": "Catedral de Cristo Rey (Reikiavik)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Cristo_Rey_(Reikiavik)"
+        }
+      },
+      "image": {
+        "file": "Basílica_de_Cristo_el_Rey,_Reikiavik,_Distrito_de_la_Capital,_Islandia,_2014-08-13,_DD_093.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Cristo_el_Rey%2C_Reikiavik%2C_Distrito_de_la_Capital%2C_Islandia%2C_2014-08-13%2C_DD_093.JPG",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-harpa",
+      "name": "Harpa",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q1783706",
+      "website": "https://www.harpa.is/",
+      "lat": 64.150278,
+      "lon": -21.9325,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Harpa is a concert hall and conference centre in Reykjavík, Iceland.",
+        "es": "El edificio Harpa es un centro de conciertos y conferencias de Reikiavik, la capital de Islandia, en el distrito occidental de Miðborg."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Harpa (concert hall)",
+          "url": "https://en.wikipedia.org/wiki/Harpa_(concert_hall)"
+        },
+        "es": {
+          "title": "Harpa (Reikiavik)",
+          "url": "https://es.wikipedia.org/wiki/Harpa_(Reikiavik)"
+        }
+      }
+    },
+    {
+      "id": "is-reykjavik-cathedral",
+      "name": "Reykjavík Cathedral",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q1270853",
+      "lat": 64.14666,
+      "lon": -21.93936,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Reykjavík Cathedral is a cathedral church in Reykjavík, Iceland, the seat of the Bishop of Iceland and mother church of the Evangelical Lutheran Church of Iceland, as well as the parish church of the old city centre…",
+        "es": "La Catedral de Reikiavik es uno de los edificios más antiguos de la ciudad del mismo nombre y la sede del único obispo de la Iglesia de Islandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Reykjavík Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Reykjav%C3%ADk_Cathedral"
+        },
+        "es": {
+          "title": "Catedral luterana de Reikiavik",
+          "url": "https://es.wikipedia.org/wiki/Catedral_luterana_de_Reikiavik"
+        }
+      },
+      "image": {
+        "file": "Dómkirkjan_í_Reykjavík_2023.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:D%C3%B3mkirkjan_%C3%AD_Reykjav%C3%ADk_2023.jpg",
+        "author": "APK",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "is-alafoss",
+      "name": "Álafoss",
+      "area": "Reykjavík",
+      "city": "Reykjavík",
+      "wikidata": "Q1890166",
+      "lat": 64.1666,
+      "lon": -21.6758,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Álafoss is a waterfall on the river Varmá in Mosfellsbær, Iceland.",
+        "es": "Álafoss is a waterfall on the river Varmá in Mosfellsbær, Iceland."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Álafoss",
+          "url": "https://en.wikipedia.org/wiki/%C3%81lafoss"
+        },
+        "es": {
+          "title": "Álafoss",
+          "url": "https://en.wikipedia.org/wiki/%C3%81lafoss"
+        }
+      },
+      "image": {
+        "file": "Álafoss2011.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%81lafoss2011.jpg",
+        "author": "Bromr",
+        "license": "CC BY-SA 3.0"
       }
     }
   ]

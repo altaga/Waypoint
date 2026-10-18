@@ -70,7 +70,8 @@ export function cityStays(places: Place[], cities: WorldCity[], iso: string, tab
     // The list holds few places per country, so a big city never gets fewer minutes than its size gives.
     const listed = ps.reduce((m, p) => m + p.durationMinutes, 0);
     const size = fromTable(city)?.minutes ?? 0;
-    const minutes = Math.max(listed, size);
+    // A long list never asks for more than half again what the city's size gives.
+    const minutes = size > 0 ? Math.min(Math.max(listed, size), size * 1.5) : listed;
     return { city, basis: listed >= size ? "places" : "population", places: ps.length, minutes, minDays: { express: minDays(minutes, "packed"), classic: minDays(minutes, "balanced"), slow: minDays(minutes, "relaxed") } };
   });
   // Every other city of the country, from the worldwide table, so each city has a minimum even where the list has no place.

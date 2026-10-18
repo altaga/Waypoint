@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -412,6 +418,1934 @@
         "text": "Mo-Sa 10:00-16:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "mt-gozo",
+      "name": "Gozo",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q170488",
+      "lat": 36.045,
+      "lon": 14.258889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Gozo, known in antiquity as Gaulos, is an island in the Maltese archipelago in the Mediterranean Sea.",
+        "es": "Gozo es una isla del archipiélago de Malta, en el mar Mediterráneo, y pertenece a la República de Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gozo",
+          "url": "https://en.wikipedia.org/wiki/Gozo"
+        },
+        "es": {
+          "title": "Gozo",
+          "url": "https://es.wikipedia.org/wiki/Gozo"
+        }
+      },
+      "image": {
+        "file": "Gozo_from_space_via_laser_ESA378503_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gozo_from_space_via_laser_ESA378503_(cropped).jpg",
+        "author": "European Space Agency",
+        "license": "CC BY-SA 3.0 igo"
+      }
+    },
+    {
+      "id": "mt-comino",
+      "name": "Comino",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q191098",
+      "lat": 36.0125,
+      "lon": 14.3365,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Comino is a small island of the Maltese archipelago between the islands of Malta and Gozo in the Mediterranean Sea, measuring 3.5 square kilometres in area.",
+        "es": "Comino es una isla del archipiélago maltés de 3,5 km² de superficie situada entre la isla de Malta y la de Gozo, en el mar Mediterráneo, y pertenece a la República de Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Comino",
+          "url": "https://en.wikipedia.org/wiki/Comino"
+        },
+        "es": {
+          "title": "Comino (Malta)",
+          "url": "https://es.wikipedia.org/wiki/Comino_(Malta)"
+        }
+      },
+      "image": {
+        "file": "BirdsEyeView_of_Comino.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BirdsEyeView_of_Comino.jpg",
+        "author": "Martin Galea De Giovanni",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-malta",
+      "name": "Malta",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q193896",
+      "lat": 35.9,
+      "lon": 14.45,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Malta is an island in Southern Europe. It is the largest and most populous of the three major islands that constitute the Maltese Archipelago and the country of Malta.",
+        "es": "La isla de Malta es la mayor de las tres islas principales que constituyen el archipiélago de Malta, y pertenece a la República de Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Malta (island)",
+          "url": "https://en.wikipedia.org/wiki/Malta_(island)"
+        },
+        "es": {
+          "title": "Isla de Malta",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Malta"
+        }
+      },
+      "image": {
+        "file": "Malta_ali_2009224_lrg.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta_ali_2009224_lrg.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mt-ggantija",
+      "name": "Ġgantija",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q216862",
+      "lat": 36.047265,
+      "lon": 14.269095,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ġgantija is a megalithic temple complex from the Neolithic era, on the Mediterranean island of Gozo in Malta.",
+        "es": "Los templos de Ġgantija o Ggantija, y también Ggantia, es el nombre de un conjunto de dos templos megalíticos de Malta situados en Xaghra."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ġgantija",
+          "url": "https://en.wikipedia.org/wiki/%C4%A0gantija"
+        },
+        "es": {
+          "title": "Ġgantija",
+          "url": "https://es.wikipedia.org/wiki/%C4%A0gantija"
+        }
+      },
+      "image": {
+        "file": "Ggantija_Temple_on_Gozo_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ggantija_Temple_on_Gozo_(cropped).jpg",
+        "author": "FritzPhotography",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-filfla",
+      "name": "Filfla",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q743970",
+      "lat": 35.7883,
+      "lon": 14.4106,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Filfla is a mostly barren, uninhabited islet 4.5 kilometres south of Malta, and is the most southerly point of the Maltese Archipelago.",
+        "es": "Filfla o Filfola es un islote semiárido maltés situado a 5 km de la isla principal del archipiélago maltés, constituyendo el extremo sur de éste."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Filfla",
+          "url": "https://en.wikipedia.org/wiki/Filfla"
+        },
+        "es": {
+          "title": "Filfla",
+          "url": "https://es.wikipedia.org/wiki/Filfla"
+        }
+      },
+      "image": {
+        "file": "Filfla_Island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Filfla_Island.jpg",
+        "author": "Godmus",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-hypogeum-of-al-saflieni",
+      "name": "Hypogeum of Ħal Saflieni",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q755514",
+      "website": "https://heritagemalta.org/hal-saflieni-hypogeum/",
+      "lat": 35.869558,
+      "lon": 14.506883,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Hypogeum of Ħal Saflieni is a Neolithic subterranean structure dating to the Saflieni phase in Maltese prehistory, located in Paola, Malta.",
+        "es": "El Hipogeo de Hal Saflieni es el único templo subterráneo prehistórico conocido; fue excavado hacia el 2500 a."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ħal Saflieni Hypogeum",
+          "url": "https://en.wikipedia.org/wiki/%C4%A6al_Saflieni_Hypogeum"
+        },
+        "es": {
+          "title": "Hipogeo de Hal Saflieni",
+          "url": "https://es.wikipedia.org/wiki/Hipogeo_de_Hal_Saflieni"
+        }
+      },
+      "image": {
+        "file": "Malta_Hypogeum_Modell.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta_Hypogeum_Modell.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-megalithic-temples-of-malta",
+      "name": "Megalithic Temples of Malta",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q753383",
+      "lat": 36.049167,
+      "lon": 14.269444,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Megalithic Temples of Malta are several prehistoric temples, some of which are UNESCO World Heritage Sites, built during three distinct periods approximately between 3600 BC and 2500 BC on the island country of…",
+        "es": "Los templos megalíticos de Malta constituyen la manifestación de una cultura megalítica singular que se desarrolló en las islas de Malta y Gozo entre los años 5.000 a."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Megalithic Temples of Malta",
+          "url": "https://en.wikipedia.org/wiki/Megalithic_Temples_of_Malta"
+        },
+        "es": {
+          "title": "Templos megalíticos de Malta",
+          "url": "https://es.wikipedia.org/wiki/Templos_megal%C3%ADticos_de_Malta"
+        }
+      },
+      "image": {
+        "file": "Central_Temple,_Tarxien_ta17.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Central_Temple%2C_Tarxien_ta17.png",
+        "author": "Georg Karl Ell",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-cominotto",
+      "name": "Cominotto",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q828250",
+      "lat": 36.013333,
+      "lon": 14.319722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cominotto, sometimes referred to as Cominetto, is an uninhabited Mediterranean island off the northwestern coast of Comino, itself located between the two main Maltese islands of Gozo and Malta.",
+        "es": "Cominotto, también conocida como Cominetto es un islote deshabitado del archipiélago de Malta, en el mar Mediterráneo, y pertenece a la República de Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cominotto",
+          "url": "https://en.wikipedia.org/wiki/Cominotto"
+        },
+        "es": {
+          "title": "Cominotto",
+          "url": "https://es.wikipedia.org/wiki/Cominotto"
+        }
+      },
+      "image": {
+        "file": "Blue_Lagoon_and_Cominotto.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_Lagoon_and_Cominotto.JPG",
+        "author": "Erik1980",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-fungus-rock",
+      "name": "Fungus Rock",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q537627",
+      "lat": 36.046667,
+      "lon": 14.188611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fungus Rock, sometimes known as Mushroom Rock, and among the Maltese as Il-Ġebla tal-Ġeneral, is a small islet in the form of a 60-metre-high massive lump of limestone at the entrance to an almost circular black…",
+        "es": "Roca Fungus, también conocida en maltés como Il-Ġebla tal-Ġeneral, es un islote de piedra caliza con 60 metros de altura situada a la entrada de una laguna circular en Dwejra, en la isla de Gozo, Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fungus Rock",
+          "url": "https://en.wikipedia.org/wiki/Fungus_Rock"
+        },
+        "es": {
+          "title": "Roca Fungus",
+          "url": "https://es.wikipedia.org/wiki/Roca_Fungus"
+        }
+      },
+      "image": {
+        "file": "Fungus_Rock.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fungus_Rock.jpeg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mt-st-paul-s-island",
+      "name": "St Paul's Island",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q755984",
+      "lat": 35.966944,
+      "lon": 14.402222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "St Paul's Island, also known as Selmunett, is a small island off Selmun, Mellieħa near the north of the island of Malta.",
+        "es": "Las Islas de San Pablo son unos islotes planos y bajos que se encuentran en la Bahía de San Pablo en la Isla de Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Paul's Island",
+          "url": "https://en.wikipedia.org/wiki/St_Paul's_Island"
+        },
+        "es": {
+          "title": "Islas de San Pablo (Malta)",
+          "url": "https://es.wikipedia.org/wiki/Islas_de_San_Pablo_(Malta)"
+        }
+      },
+      "image": {
+        "file": "Selmunett_Island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Selmunett_Island.jpg",
+        "author": "Jeffrey Sciberras",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "mt-st-john-s-co-cathedral",
+      "name": "St. John's Co-Cathedral",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q613619",
+      "lat": 35.897778,
+      "lon": 14.512778,
+      "phone": "+356 2122 0536",
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St John's Co-Cathedral is a Catholic co-cathedral in Valletta, Malta, dedicated to Saint John the Baptist.",
+        "es": "La Concatedral de San Juan, es una concatedral dedicada a San Juan Bautista, ubicada en La Valeta, Malta, que forma parte de la arquidiócesis de Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St John's Co-Cathedral",
+          "url": "https://en.wikipedia.org/wiki/St_John's_Co-Cathedral"
+        },
+        "es": {
+          "title": "Concatedral de San Juan (La Valeta)",
+          "url": "https://es.wikipedia.org/wiki/Concatedral_de_San_Juan_(La_Valeta)"
+        }
+      },
+      "image": {
+        "file": "Concatedral_de_San_Juan,_La_Valeta,_isla_de_Malta,_Malta,_2021-08-25,_DD_246-248_HDR.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Concatedral_de_San_Juan%2C_La_Valeta%2C_isla_de_Malta%2C_Malta%2C_2021-08-25%2C_DD_246-248_HDR.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-mnajdra",
+      "name": "Mnajdra",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q584366",
+      "lat": 35.826667,
+      "lon": 14.436389,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Mnajdra is a megalithic temple complex found on the southern coast of the Mediterranean island of Malta.",
+        "es": "Mnajdra es un templo megalítico que se encuentra en la costa sur de Malta, a 500 m de la estructura homóloga de Ħaġar Qim."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mnajdra",
+          "url": "https://en.wikipedia.org/wiki/Mnajdra"
+        },
+        "es": {
+          "title": "Mnajdra",
+          "url": "https://es.wikipedia.org/wiki/Mnajdra"
+        }
+      },
+      "image": {
+        "file": "Mnajdra_Filfla.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mnajdra_Filfla.jpg",
+        "author": "Hamelin de Guettelet",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-manoel-island",
+      "name": "Manoel Island",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q949457",
+      "lat": 35.9037,
+      "lon": 14.5021,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Manoel Island, formerly known as Bishop's Island or the Isolotto, is a small island which forms part of the municipality of Gżira in Marsamxett Harbour, Malta.",
+        "es": "Isla Manoel es un islote de Malta que se encuentra cerca de la ciudad de Gżira."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Manoel Island",
+          "url": "https://en.wikipedia.org/wiki/Manoel_Island"
+        },
+        "es": {
+          "title": "Isla Manoel",
+          "url": "https://es.wikipedia.org/wiki/Isla_Manoel"
+        }
+      },
+      "image": {
+        "file": "Aerial_view_of_Manoel_Island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Manoel_Island.jpg",
+        "author": "Matthew Benn",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-agar-qim",
+      "name": "Ħaġar Qim",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q343053",
+      "lat": 35.827778,
+      "lon": 14.442222,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ħaġar Qim is a megalithic temple complex found on the Mediterranean island of Malta, dating from the Ġgantija phase.",
+        "es": "Hagar Qim es un templo megalítico de Malta que data del período Ġgantija."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ħaġar Qim",
+          "url": "https://en.wikipedia.org/wiki/%C4%A6a%C4%A1ar_Qim"
+        },
+        "es": {
+          "title": "Ħaġar Qim",
+          "url": "https://es.wikipedia.org/wiki/%C4%A6a%C4%A1ar_Qim"
+        }
+      },
+      "image": {
+        "file": "Facade_Hagar_Qim.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Facade_Hagar_Qim.jpg",
+        "author": "Hamelin de Guettelet",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-tarxien-temples",
+      "name": "Tarxien Temples",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q1064331",
+      "lat": 35.869167,
+      "lon": 14.511944,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Ħal Tarxien Prehistoric Complex is an archaeological complex in Tarxien, within the Port region of Malta.",
+        "es": "Los templos de Tarxien en Tarxien en Malta, son un complejo megalítico construido aproximadamente en 2800 a."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tarxien Temples",
+          "url": "https://en.wikipedia.org/wiki/Tarxien_Temples"
+        },
+        "es": {
+          "title": "Templos de Tarxien",
+          "url": "https://es.wikipedia.org/wiki/Templos_de_Tarxien"
+        }
+      },
+      "image": {
+        "file": "Tarxien_temple.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tarxien_temple.jpg",
+        "author": "Joonas L.",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "mt-grandmaster-s-palace",
+      "name": "Grandmaster's Palace",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q1368885",
+      "lat": 35.898833,
+      "lon": 14.514056,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Grandmaster's Palace, officially known as The Palace, is a palace in Valletta, Malta.",
+        "es": "El Palacio del Gran Maestre se encuentra en la calle del Antiguo Teatro, entre las calles de los Comerciante y de la República en La Valeta, la capital de Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grandmaster's Palace, Valletta",
+          "url": "https://en.wikipedia.org/wiki/Grandmaster's_Palace%2C_Valletta"
+        },
+        "es": {
+          "title": "Palacio del Gran Maestre (La Valeta)",
+          "url": "https://es.wikipedia.org/wiki/Palacio_del_Gran_Maestre_(La_Valeta)"
+        }
+      },
+      "image": {
+        "file": "Valletta_St_Johns_square_Malta_2014_3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Valletta_St_Johns_square_Malta_2014_3.jpg",
+        "author": "Karelj",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mt-st-paul-s-cathedral-mdina",
+      "name": "St. Paul's Cathedral, Mdina",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q1630170",
+      "lat": 35.886389,
+      "lon": 14.403889,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Metropolitan Cathedral of Saint Paul, commonly known as St Paul's Cathedral or the Mdina Cathedral, is a Catholic cathedral in Mdina, Malta, dedicated to St.",
+        "es": "La catedral de San Pablo, también conocida como catedral de Medina, es una catedral católica de Medina, Malta, dedicada al apóstol Pablo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Paul's Cathedral, Mdina",
+          "url": "https://en.wikipedia.org/wiki/St_Paul's_Cathedral%2C_Mdina"
+        },
+        "es": {
+          "title": "Catedral de San Pablo (Medina)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Pablo_(Medina)"
+        }
+      },
+      "image": {
+        "file": "Catedral_de_San_Pablo,_Mdina,_isla_de_Malta,_Malta,_2021-08-25,_DD_137.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_San_Pablo%2C_Mdina%2C_isla_de_Malta%2C_Malta%2C_2021-08-25%2C_DD_137.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-dwejra-tower",
+      "name": "Dwejra Tower",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q19401632",
+      "lat": 36.049444,
+      "lon": 14.192222,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Dwejra Tower is a small watchtower in Dwejra Bay, San Lawrenz, which is on the island of Gozo in Malta.",
+        "es": "La Torre de Dwejra es una pequeña torre de vigilancia situada en la bahía de Dwejra, San Lawrenz, isla de Gozo en Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dwejra Tower",
+          "url": "https://en.wikipedia.org/wiki/Dwejra_Tower"
+        },
+        "es": {
+          "title": "Torre de Dwejra",
+          "url": "https://es.wikipedia.org/wiki/Torre_de_Dwejra"
+        }
+      },
+      "image": {
+        "file": "Torre_de_Dwejra,_isla_de_Gozo,_Malta,_2021-08-22,_DD_38.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Torre_de_Dwejra%2C_isla_de_Gozo%2C_Malta%2C_2021-08-22%2C_DD_38.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-blue-grotto",
+      "name": "Blue Grotto",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q882491",
+      "lat": 35.821389,
+      "lon": 14.456667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Blue Grotto refers to a number of sea caverns on the south east coast of Malta, a short distance from the fishing harbour limits of Wied iż-Żurrieq, Malta.",
+        "es": "La gruta Azul se trata en realidad de una serie de cavernas marinas en la costa sur del país europeo de Malta, al oeste del puerto Wied iz-Żurrieq, cerca del pueblo de Zurrieq."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Blue Grotto (Malta)",
+          "url": "https://en.wikipedia.org/wiki/Blue_Grotto_(Malta)"
+        },
+        "es": {
+          "title": "Gruta Azul (Malta)",
+          "url": "https://es.wikipedia.org/wiki/Gruta_Azul_(Malta)"
+        }
+      },
+      "image": {
+        "file": "Grotto0287.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Grotto0287.JPG",
+        "author": "Ninaeva Нина Силаева",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-ta-agrat",
+      "name": "Ta' Ħaġrat",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q991637",
+      "lat": 35.918551,
+      "lon": 14.368563,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Ta' Ħaġrat temples in Mġarr, Malta are recognized as a UNESCO World Heritage Site, along with several other Megalithic temples.",
+        "es": "Los templos Ta' Ħaġrat en Mġarr, Malta son reconocidos por Unesco como Patrimonio de la Humanidad, junto con otros templos megalíticos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ta' Ħaġrat Temples",
+          "url": "https://en.wikipedia.org/wiki/Ta'_%C4%A6a%C4%A1rat_Temples"
+        },
+        "es": {
+          "title": "Ta' Ħaġrat",
+          "url": "https://es.wikipedia.org/wiki/Ta'_%C4%A6a%C4%A1rat"
+        }
+      },
+      "image": {
+        "file": "Ta'Hagrat2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ta'Hagrat2.jpg",
+        "author": "Ed88",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-our-lady-of-victory-church",
+      "name": "Our Lady of Victory Church",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q1280925",
+      "lat": 35.896014,
+      "lon": 14.510694,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Our Lady of Victory Church, formerly known as the Saint Anthony the Abbot Church, was the first church and building completed in Valletta, Malta.",
+        "es": "La Iglesia de Nuestra Señora de la Victoria, anteriormente conocida como la Iglesia de San Antonio Abad, fue la primera iglesia y edificio terminado en La Valeta, la capital de Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of Our Lady of Victory, Valletta",
+          "url": "https://en.wikipedia.org/wiki/Church_of_Our_Lady_of_Victory%2C_Valletta"
+        },
+        "es": {
+          "title": "Iglesia de Nuestra Señora de la Victoria (La Valeta)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Victoria_(La_Valeta)"
+        }
+      },
+      "image": {
+        "file": "Victoria_Church,_Valletta.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Victoria_Church%2C_Valletta.jpg",
+        "author": "Continentaleurope",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-royal-opera-house",
+      "name": "Royal Opera House",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q576808",
+      "website": "https://culture.gov.mt/en/pjazzateatrurjal/Pages/main.aspx",
+      "lat": 35.89644,
+      "lon": 14.51034,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Royal Opera House, also known as the Royal Theatre, was an opera house and performing arts venue in Valletta, Malta.",
+        "es": "La Ópera Real de La Valeta era un teatro de ópera y sede de las artes escénicas en La Valeta, la capital de Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Royal Opera House, Valletta",
+          "url": "https://en.wikipedia.org/wiki/Royal_Opera_House%2C_Valletta"
+        },
+        "es": {
+          "title": "Ópera Real de La Valeta",
+          "url": "https://es.wikipedia.org/wiki/%C3%93pera_Real_de_La_Valeta"
+        }
+      },
+      "image": {
+        "file": "Malta_Opera_House.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta_Opera_House.jpg",
+        "author": "D.G. Elliot and Carl Akeley",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "mt-rotunda-of-mosta",
+      "name": "Rotunda of Mosta",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q153816",
+      "lat": 35.910081,
+      "lon": 14.4259,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sanctuary Basilica of the Assumption of Our Lady, commonly known as the Rotunda of Mosta or the Mosta Dome, is a Roman Catholic parish church and basilica in Mosta, Malta, dedicated to the Assumption of Mary.",
+        "es": "La iglesia parroquial de la Asunción, comúnmente conocida como la Rotonda de Mosta o la Cúpula de Mosta, es una iglesia parroquial católica situada en Mosta, Malta, y dedicada a la Asunción de María."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rotunda of Mosta",
+          "url": "https://en.wikipedia.org/wiki/Rotunda_of_Mosta"
+        },
+        "es": {
+          "title": "Rotonda de Mosta",
+          "url": "https://es.wikipedia.org/wiki/Rotonda_de_Mosta"
+        }
+      },
+      "image": {
+        "file": "Rotonda_de_Mosta,_isla_de_Malta,_Malta,_2021-08-25,_DD_84.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rotonda_de_Mosta%2C_isla_de_Malta%2C_Malta%2C_2021-08-25%2C_DD_84.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-skorba-temples",
+      "name": "Skorba Temples",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q672456",
+      "lat": 35.920833,
+      "lon": 14.377778,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Skorba temples are megalithic remains on the northern edge of Żebbiegħ, in the Northern Region of Malta, which have provided detailed and informative insight into the earliest periods of Malta's neolithic culture.",
+        "es": "Los templos de Skorba son restos megalíticos del extremo norte de Żebbiegħ, en Malta, que han proporcionado detalles de los períodos más tempranos de la cultura neolítica de Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Skorba Temples",
+          "url": "https://en.wikipedia.org/wiki/Skorba_Temples"
+        },
+        "es": {
+          "title": "Skorba",
+          "url": "https://es.wikipedia.org/wiki/Skorba"
+        }
+      },
+      "image": {
+        "file": "Templos_de_Skorba,_Mġarr,_isla_de_Malta,_Malta,_2021-08-25,_DD_173.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Templos_de_Skorba%2C_M%C4%A1arr%2C_isla_de_Malta%2C_Malta%2C_2021-08-25%2C_DD_173.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-san-anton-palace",
+      "name": "San Anton Palace",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q1549852",
+      "lat": 35.896389,
+      "lon": 14.446944,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "San Anton Palace is a palace in Attard, Malta, that currently serves as the official residence of the president of Malta.",
+        "es": "El palacio de San Antón es un palacio situado en Attard, Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "San Anton Palace",
+          "url": "https://en.wikipedia.org/wiki/San_Anton_Palace"
+        },
+        "es": {
+          "title": "Palacio de San Antón",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_San_Ant%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Malta_Attard_San_Anton_Palace_BW_2011-10-09_10-06-16.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta_Attard_San_Anton_Palace_BW_2011-10-09_10-06-16.jpg",
+        "author": "Berthold Werner",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-basilica-of-our-lady-of-mount-carmel",
+      "name": "Basilica of Our Lady of Mount Carmel",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q1734062",
+      "lat": 35.90027,
+      "lon": 14.51227,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica of Our Lady of Mount Carmel is a Carmelite Roman Catholic minor basilica dedicated to Our Lady of Mount Carmel, located in Valletta, Malta.",
+        "es": "La basílica de Nuestra Señora del Monte Carmelo es una iglesia católica erigida en la capital de Malta, La Valeta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica of Our Lady of Mount Carmel, Valletta",
+          "url": "https://en.wikipedia.org/wiki/Basilica_of_Our_Lady_of_Mount_Carmel%2C_Valletta"
+        },
+        "es": {
+          "title": "Basílica de Nuestra Señora del Monte Carmelo (La Valeta)",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora_del_Monte_Carmelo_(La_Valeta)"
+        }
+      },
+      "image": {
+        "file": "Basilica_Our_Lady_of_Mount_Carmel_(Valletta).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Basilica_Our_Lady_of_Mount_Carmel_(Valletta).jpg",
+        "author": "This photo was taken by Anton Zelenov. Please credit this with : Photo : Anton Z",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-verdala-palace",
+      "name": "Verdala Palace",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q991665",
+      "lat": 35.861531,
+      "lon": 14.400614,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Verdala Palace is a palace in the Buskett Gardens, limits of Siġġiewi, Malta.",
+        "es": "El Palacio Verdala es un palacio en los Jardines Buskett, límites de la localidad de Siġġiewi, en Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Verdala Palace",
+          "url": "https://en.wikipedia.org/wiki/Verdala_Palace"
+        },
+        "es": {
+          "title": "Palacio Verdala",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Verdala"
+        }
+      },
+      "image": {
+        "file": "Malta-Schloss.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta-Schloss.JPG",
+        "author": "Tomsen II",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "mt-st-paul-s-pro-cathedral",
+      "name": "St Paul's Pro-Cathedral",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q1280848",
+      "lat": 35.900333,
+      "lon": 14.511528,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St Paul's Pro-Cathedral, officially The Pro-Cathedral and Collegiate Church of Saint Paul, is an Anglican pro-cathedral of the Diocese in Europe situated in Independence Square, Valletta, Malta.",
+        "es": "La procatedral de San Pablo es una procatedral anglicana situada en la Plaza Independencia, en la ciudad de La Valeta, la capital de Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Paul's Pro-Cathedral, Valletta",
+          "url": "https://en.wikipedia.org/wiki/St_Paul's_Pro-Cathedral%2C_Valletta"
+        },
+        "es": {
+          "title": "Procatedral de San Pablo",
+          "url": "https://es.wikipedia.org/wiki/Procatedral_de_San_Pablo"
+        }
+      },
+      "image": {
+        "file": "Malta_250915_Triq_Marsamxett_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta_250915_Triq_Marsamxett_02.jpg",
+        "author": "Oren Rozen",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-palazzo-ferreria",
+      "name": "Palazzo Ferreria",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q20949683",
+      "lat": 35.896833,
+      "lon": 14.51,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Palazzo Ferreria, officially Palazzo Buttiġieġ-Francia, is a palace found near the entrance of Valletta, the capital city of Malta.",
+        "es": "Palazzo Ferreria, oficialmente Palazzo Buttiġieġ-Francia, es un palacio que se encuentra cerca de la entrada de La Valeta, capital de Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palazzo Ferreria",
+          "url": "https://en.wikipedia.org/wiki/Palazzo_Ferreria"
+        },
+        "es": {
+          "title": "Palacio Ferreria",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Ferreria"
+        }
+      },
+      "image": {
+        "file": "Palacio_Ferreria,_La_Valeta,_isla_de_Malta,_Malta,_2021-08-25,_DD_231-233_HDR.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palacio_Ferreria%2C_La_Valeta%2C_isla_de_Malta%2C_Malta%2C_2021-08-25%2C_DD_231-233_HDR.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-triq-il-wiesg-a-tower",
+      "name": "Triq il-Wiesgħa Tower",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q19726688",
+      "lat": 35.878,
+      "lon": 14.56425,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Triq il-Wiesgħa Tower, originally known as Torre della Giddida and also called Mwejġel Tower, is a small watchtower near Żabbar, Malta.",
+        "es": "La Torre Triq il-Wiesgha, originalmente conocida como Torre della Giddida y también llamada Torre Mwejġel, es una pequeña torre de vigilancia cerca de Żabbar, Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Triq il-Wiesgħa Tower",
+          "url": "https://en.wikipedia.org/wiki/Triq_il-Wiesg%C4%A7a_Tower"
+        },
+        "es": {
+          "title": "Torre Triq il-Wiesgha",
+          "url": "https://es.wikipedia.org/wiki/Torre_Triq_il-Wiesgha"
+        }
+      },
+      "image": {
+        "file": "Sudika_Xghajra_towers.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sudika_Xghajra_towers.jpg",
+        "author": "Balazs Sudar",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-ramla-bay",
+      "name": "Ramla Bay",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q909059",
+      "lat": 36.062,
+      "lon": 14.283,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ramla Bay is a bay with a beach of reddish-coloured sand in Gozo, in the Maltese Islands.",
+        "es": "Bahía de pitula es una bahía con una playa de arena de color rojizo en Gozo, en Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ramla Bay",
+          "url": "https://en.wikipedia.org/wiki/Ramla_Bay"
+        },
+        "es": {
+          "title": "Bahía de Ramla",
+          "url": "https://es.wikipedia.org/wiki/Bah%C3%ADa_de_Ramla"
+        }
+      },
+      "image": {
+        "file": "2022-01-01_12-16-38_Malta_DSF0005_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2022-01-01_12-16-38_Malta_DSF0005_2.jpg",
+        "author": "Ralf Roletschek",
+        "license": "CC BY-SA 1.0 fi"
+      }
+    },
+    {
+      "id": "mt-buskett-gardens",
+      "name": "Buskett Gardens",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q1017641",
+      "website": "https://www.malta.com/en/attraction/culture/garden-park/buskett-garden",
+      "lat": 35.8591,
+      "lon": 14.3989,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Buskett Gardens, forming one of the few woodland areas in Malta, are located in the fertile valley of Wied il-Luq in Rabat, Malta.",
+        "es": "The Buskett Gardens, forming one of the few woodland areas in Malta, are located in the fertile valley of Wied il-Luq in Rabat, Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Buskett Gardens",
+          "url": "https://en.wikipedia.org/wiki/Buskett_Gardens"
+        },
+        "es": {
+          "title": "Buskett Gardens",
+          "url": "https://en.wikipedia.org/wiki/Buskett_Gardens"
+        }
+      },
+      "image": {
+        "file": "Buskett_and_Verdala.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Buskett_and_Verdala.jpg",
+        "author": "EM21869",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-misra-g-ar-il-kbir",
+      "name": "Misraħ Għar il-Kbir",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q1760477",
+      "lat": 35.852244,
+      "lon": 14.396899,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Misrah Ghar il-Kbir is a prehistoric site in Siġġiewi, in the south of the Island of Malta, near the Dingli Cliffs.",
+        "es": "Misrah Ghar il-Kbir es un sitio prehistórico situado en el término de Siġġiewi, en el sur de la isla de Malta, cerca de los acantilados de Dingli."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Misraħ Għar il-Kbir",
+          "url": "https://en.wikipedia.org/wiki/Misra%C4%A7_G%C4%A7ar_il-Kbir"
+        },
+        "es": {
+          "title": "Misraħ Għar il-Kbir",
+          "url": "https://es.wikipedia.org/wiki/Misra%C4%A7_G%C4%A7ar_il-Kbir"
+        }
+      },
+      "image": {
+        "file": "Misrah_Ghar_il-Kbir_5.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Misrah_Ghar_il-Kbir_5.jpg",
+        "author": "Lysy",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-ta-pinu",
+      "name": "Ta' Pinu",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q248511",
+      "lat": 36.061778,
+      "lon": 14.214833,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica of the National Shrine of the Blessed Virgin of Ta' Pinu is a Roman Catholic minor basilica and national shrine located some 700 metres from the village of Għarb on the island of Gozo, the sister island…",
+        "es": "El Santuario Nacional de la Virgen de Ta 'Pinu es una iglesia parroquial católica y basílica menor situada a unos 700 metros de la aldea de Gharb en la isla de Gozo, la isla hermana de Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ta' Pinu",
+          "url": "https://en.wikipedia.org/wiki/Ta'_Pinu"
+        },
+        "es": {
+          "title": "Santuario Nacional de la Virgen de Ta 'Pinu",
+          "url": "https://es.wikipedia.org/wiki/Santuario_Nacional_de_la_Virgen_de_Ta_'Pinu"
+        }
+      },
+      "image": {
+        "file": "Malta_Gozo_Ta_Pinu_BW_2011-10-08_10-18-54.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta_Gozo_Ta_Pinu_BW_2011-10-08_10-18-54.JPG",
+        "author": "Berthold Werner",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-cathedral-of-the-assumption-of-the-madonna",
+      "name": "Cathedral of the Assumption of the Madonna",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q1736126",
+      "lat": 36.0462,
+      "lon": 14.2396,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of the Assumption of the Blessed Virgin Mary into Heaven is a Roman Catholic cathedral in the Cittadella of Victoria in Gozo, Malta.",
+        "es": "La catedral de la Asunción de la Santísima Virgen María al Cielo, es una catedral católica romana ubicada en la Ciudadela de Victoria, en Gozo, Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of the Assumption, Victoria",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_the_Assumption%2C_Victoria"
+        },
+        "es": {
+          "title": "Catedral de la Asunción, Victoria",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Asunci%C3%B3n%2C_Victoria"
+        }
+      },
+      "image": {
+        "file": "Cathedral_of_St.Mary_-_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_St.Mary_-_01.jpg",
+        "author": "Laredawg",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-st-agatha-s-tower",
+      "name": "St. Agatha's Tower",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q1738896",
+      "lat": 35.974722,
+      "lon": 14.3425,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Saint Agatha's Tower, also known as the Red Tower, Mellieħa Tower or Fort Saint Agatha, is a large bastioned watchtower in Mellieħa, Malta.",
+        "es": "La torre de Santa Águeda, o la Torre Roja como se conoce popularmente, es una gran torre de vigilancia situada en Mellieħa, Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saint Agatha's Tower",
+          "url": "https://en.wikipedia.org/wiki/Saint_Agatha's_Tower"
+        },
+        "es": {
+          "title": "Torre de Santa Águeda",
+          "url": "https://es.wikipedia.org/wiki/Torre_de_Santa_%C3%81gueda"
+        }
+      },
+      "image": {
+        "file": "Red_Tower_2_(6810149614).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Red_Tower_2_(6810149614).jpg",
+        "author": "Tony Hisgett from Birmingham, UK",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "mt-mariam-al-batool-mosque",
+      "name": "Mariam Al-Batool Mosque",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q21476646",
+      "lat": 35.875897,
+      "lon": 14.508822,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Mariam Al-Batool Mosque is a mosque located in Paola, Malta.",
+        "es": "Mariam Al-Batool Mosque is a mosque located in Paola, Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mariam Al-Batool Mosque",
+          "url": "https://en.wikipedia.org/wiki/Mariam_Al-Batool_Mosque"
+        },
+        "es": {
+          "title": "Mariam Al-Batool Mosque",
+          "url": "https://en.wikipedia.org/wiki/Mariam_Al-Batool_Mosque"
+        }
+      },
+      "image": {
+        "file": "Malta_-_Paola_-_Triq_Kordin_-_Mosque_01_ies.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta_-_Paola_-_Triq_Kordin_-_Mosque_01_ies.jpg",
+        "author": "Frank Vincentz",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-church-of-the-jesuits",
+      "name": "Church of the Jesuits",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q4505301",
+      "lat": 35.899583,
+      "lon": 14.516639,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of the Circumcision of Our Lord, also known as the Church of the Jesuits or the Church of the University, is one of the oldest and largest churches in Valletta, Malta.",
+        "es": "La Iglesia de los Jesuitas es una de las iglesias más antiguas de La Valeta, en Malta, ubicada en la calle il-Merkanti."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of the Jesuits, Valletta",
+          "url": "https://en.wikipedia.org/wiki/Church_of_the_Jesuits%2C_Valletta"
+        },
+        "es": {
+          "title": "Iglesia de los Jesuitas (La Valeta)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_los_Jesuitas_(La_Valeta)"
+        }
+      },
+      "image": {
+        "file": "Malta_-_Valletta_-_Triq_il-Merkanti_07_ies.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta_-_Valletta_-_Triq_il-Merkanti_07_ies.jpg",
+        "author": "Frank Vincentz",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-upper-barrakka-gardens",
+      "name": "Upper Barrakka Gardens",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q7898477",
+      "lat": 35.894983,
+      "lon": 14.512019,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Upper Barrakka Gardens are a public garden in Valletta, Malta.",
+        "es": "Los jardines superiores de Barrakka es un jardín público situado en Valletta, Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Upper Barrakka Gardens",
+          "url": "https://en.wikipedia.org/wiki/Upper_Barrakka_Gardens"
+        },
+        "es": {
+          "title": "Jardines superiores de Barrakka",
+          "url": "https://es.wikipedia.org/wiki/Jardines_superiores_de_Barrakka"
+        }
+      },
+      "image": {
+        "file": "Upper_barrakka_gardens-IMG_1669.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Upper_barrakka_gardens-IMG_1669.jpg",
+        "author": "C T Johansson",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-g-ajn-tuffie-a",
+      "name": "Għajn Tuffieħa",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q2005526",
+      "lat": 35.932222,
+      "lon": 14.347222,
+      "category": "beach",
+      "interests": [
+        "beaches"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Għajn Tuffieħa, commonly called Riviera and frequently mistranslated as Apple's Eye in English, is a bay and sandy, red beach which is located in Mġarr, Malta.",
+        "es": "Għajn Tuffieħa, en español, «Playa de Riviera», es una playa de arena roja que se encuentra en Mġarr, Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Għajn Tuffieħa",
+          "url": "https://en.wikipedia.org/wiki/G%C4%A7ajn_Tuffie%C4%A7a"
+        },
+        "es": {
+          "title": "Għajn Tuffieħa",
+          "url": "https://es.wikipedia.org/wiki/G%C4%A7ajn_Tuffie%C4%A7a"
+        }
+      },
+      "image": {
+        "file": "Playa_de_Riviera,_isla_de_Malta,_Malta,_2021-08-23,_DD_66-68_HDR.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Playa_de_Riviera%2C_isla_de_Malta%2C_Malta%2C_2021-08-23%2C_DD_66-68_HDR.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-tal-qadi-temple",
+      "name": "Tal-Qadi Temple",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q3514403",
+      "lat": 35.936667,
+      "lon": 14.420556,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Tal-Qadi Temple is a megalithic temple in Salina, limits of Naxxar, Malta.",
+        "es": "El templo Tal-Qadi es un templo megalítico en Salina, límites de Naxxar, Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tal-Qadi Temple",
+          "url": "https://en.wikipedia.org/wiki/Tal-Qadi_Temple"
+        },
+        "es": {
+          "title": "Templo Tal-Qadi",
+          "url": "https://es.wikipedia.org/wiki/Templo_Tal-Qadi"
+        }
+      },
+      "image": {
+        "file": "Malta_-_Naxxar_-_Triq_l-Imdawra_-_Tal-Qadi_Temple_09_ies.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta_-_Naxxar_-_Triq_l-Imdawra_-_Tal-Qadi_Temple_09_ies.jpg",
+        "author": "Frank Vincentz",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-st-elmo-bridge",
+      "name": "St. Elmo Bridge",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q39487250",
+      "lat": 35.90285,
+      "lon": 14.52102,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The St Elmo Bridge is a single-span arched truss steel footbridge leading from the foreshore of Fort Saint Elmo in Valletta, Malta, to the breakwater at the entrance of the Grand Harbour.",
+        "es": "The St Elmo Bridge is a single-span arched truss steel footbridge leading from the foreshore of Fort Saint Elmo in Valletta, Malta, to the breakwater at the entrance of the Grand Harbour."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Elmo Bridge",
+          "url": "https://en.wikipedia.org/wiki/St_Elmo_Bridge"
+        },
+        "es": {
+          "title": "St Elmo Bridge",
+          "url": "https://en.wikipedia.org/wiki/St_Elmo_Bridge"
+        }
+      },
+      "image": {
+        "file": "Malta_-_Valletta_-_Triq_il-Lanca_-_St._Elmo_Bridge_(MSTHC)_07_ies.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta_-_Valletta_-_Triq_il-Lanca_-_St._Elmo_Bridge_(MSTHC)_07_ies.jpg",
+        "author": "Frank Vincentz",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-basilica-of-st-dominic",
+      "name": "Basilica of St Dominic",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q10300647",
+      "lat": 35.899582,
+      "lon": 14.516152,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica of St Dominic or also known as the Basilica of Our Lady of Safe Haven and St Dominic is one of the three parish churches of Valletta, Malta.",
+        "es": "La Basílica de Santo Domingo o también conocida como la Basílica de Nuestra Señora de Puerto Seguro y Santo Domingo es una de las tres iglesias parroquiales de La Valeta, la capital Malta, perteneciente a la…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica of St Dominic, Valletta",
+          "url": "https://en.wikipedia.org/wiki/Basilica_of_St_Dominic%2C_Valletta"
+        },
+        "es": {
+          "title": "Basílica de Santo Domingo (La Valeta)",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_Santo_Domingo_(La_Valeta)"
+        }
+      },
+      "image": {
+        "file": "Church_of_the_Madonna_of_Fair_Havens_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Church_of_the_Madonna_of_Fair_Havens_01.jpg",
+        "author": "Continentaleurope",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-st-george-s-basilica",
+      "name": "St. George's Basilica",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q810099",
+      "lat": 36.044,
+      "lon": 14.2392,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St George's Basilica or the Basilica and Collegiate Parish Church of Saint George, also simply known in Maltese as San Ġorġ, is a historic Baroque church situated in the middle of Gozo, the second largest island in…",
+        "es": "La basílica barroca de San Jorge se encuentra en Pjazza San Ġorġ, al sur de la plaza del Mercado en Victoria, capital de la isla maltesa de Gozo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St George's Basilica, Victoria",
+          "url": "https://en.wikipedia.org/wiki/St_George's_Basilica%2C_Victoria"
+        },
+        "es": {
+          "title": "Basílica de San Jorge (Victoria)",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_San_Jorge_(Victoria)"
+        }
+      },
+      "image": {
+        "file": "Basílica_de_San_Jorge,_Victoria,_isla_de_Gozo,_Malta,_2021-08-22,_DD_04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_San_Jorge%2C_Victoria%2C_isla_de_Gozo%2C_Malta%2C_2021-08-22%2C_DD_04.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "mt-lower-barrakka-gardens",
+      "name": "Lower Barrakka Gardens",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q1297377",
+      "lat": 35.8975,
+      "lon": 14.517778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Lower Barrakka Gardens are a public garden in Valletta, Malta, twinned with the Upper Barrakka Gardens in the same city.",
+        "es": "The Lower Barrakka Gardens are a public garden in Valletta, Malta, twinned with the Upper Barrakka Gardens in the same city."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lower Barrakka Gardens",
+          "url": "https://en.wikipedia.org/wiki/Lower_Barrakka_Gardens"
+        },
+        "es": {
+          "title": "Lower Barrakka Gardens",
+          "url": "https://en.wikipedia.org/wiki/Lower_Barrakka_Gardens"
+        }
+      },
+      "image": {
+        "file": "Valletta_Lower_Barrakka_gardens_Malta_2014_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Valletta_Lower_Barrakka_gardens_Malta_2014_2.jpg",
+        "author": "Karelj",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-st-mary-s-tower",
+      "name": "St. Mary's Tower",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q1345155",
+      "lat": 36.006944,
+      "lon": 14.329444,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Saint Mary's Tower, also known as the Comino Tower, is a large bastioned watchtower on the island of Comino in Malta.",
+        "es": "La torre de Santa María, también conocida como Torre Comino, es una gran torre de vigilancia abaluartada en la isla de Comino en Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saint Mary's Tower",
+          "url": "https://en.wikipedia.org/wiki/Saint_Mary's_Tower"
+        },
+        "es": {
+          "title": "Torre de Santa María (Malta)",
+          "url": "https://es.wikipedia.org/wiki/Torre_de_Santa_Mar%C3%ADa_(Malta)"
+        }
+      },
+      "image": {
+        "file": "Comino_St_Mary’s_Tower.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Comino_St_Mary%E2%80%99s_Tower.JPG",
+        "author": "Wusel007",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-giordan-lighthouse",
+      "name": "Giordan Lighthouse",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q1525286",
+      "lat": 36.071667,
+      "lon": 14.218611,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Giordan, Ġordan is an active lighthouse on the Maltese island of Gozo.",
+        "es": "El Faro de Giordani está ubicado sobre la colina Gurdan en Ghasri, cerca del extremo noroeste de Gozo en Malta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Giordan Lighthouse",
+          "url": "https://en.wikipedia.org/wiki/Giordan_Lighthouse"
+        },
+        "es": {
+          "title": "Faro de Giordani",
+          "url": "https://es.wikipedia.org/wiki/Faro_de_Giordani"
+        }
+      },
+      "image": {
+        "file": "Giordan_Lighthouse_front_side.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Giordan_Lighthouse_front_side.JPG",
+        "author": "Wusel007",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "mt-bugibba-temple",
+      "name": "Buġibba Temple",
+      "area": "Valletta",
+      "city": "Valletta",
+      "wikidata": "Q19320674",
+      "lat": 35.954785,
+      "lon": 14.418122,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Buġibba Temple is a megalithic temple on the border of Buġibba and Qawra towns, limits of St.",
+        "es": "Buġibba Temple is a megalithic temple on the border of Buġibba and Qawra towns, limits of St."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Buġibba Temple",
+          "url": "https://en.wikipedia.org/wiki/Bu%C4%A1ibba_Temple"
+        },
+        "es": {
+          "title": "Buġibba Temple",
+          "url": "https://en.wikipedia.org/wiki/Bu%C4%A1ibba_Temple"
+        }
+      },
+      "image": {
+        "file": "Malta_-_St._Paul's_Bay_-_Dawret_il-Gzejjer_-_Dolmen_Hotel_-_Bugibba_Temple_03_ies.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malta_-_St._Paul's_Bay_-_Dawret_il-Gzejjer_-_Dolmen_Hotel_-_Bugibba_Temple_03_ies.jpg",
+        "author": "Frank Vincentz",
+        "license": "CC BY-SA 3.0"
       }
     }
   ]

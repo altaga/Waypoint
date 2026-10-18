@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -72,6 +78,1964 @@
         "text": "Mo-Su 09:00-16:30; PH 09:00-16:30",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "fj-fiji",
+      "name": "Fiji",
+      "area": "Suva",
+      "city": "Suva",
+      "wikidata": "Q712",
+      "website": "https://www.fiji.gov.fj/Home",
+      "lat": -18,
+      "lon": 178,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fiji, officially the Republic of Fiji, is an archipelagic country in Melanesia, part of Oceania in the South Pacific Ocean.",
+        "es": "Fiyi, oficialmente la República de Fiyi, es un país soberano insular ubicado en Oceanía, localizado en el océano Pacífico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fiji",
+          "url": "https://en.wikipedia.org/wiki/Fiji"
+        },
+        "es": {
+          "title": "Fiyi",
+          "url": "https://es.wikipedia.org/wiki/Fiyi"
+        }
+      },
+      "image": {
+        "file": "Куинс-роуд,_город_Нанди_(Queens_Rd.,_Nadi).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%83%D0%B8%D0%BD%D1%81-%D1%80%D0%BE%D1%83%D0%B4%2C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4_%D0%9D%D0%B0%D0%BD%D0%B4%D0%B8_(Queens_Rd.%2C_Nadi).jpg",
+        "author": "Виктор Пинчук",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "fj-viti-levu",
+      "name": "Viti Levu",
+      "area": "Suva",
+      "city": "Suva",
+      "wikidata": "Q208198",
+      "lat": -17.8,
+      "lon": 178,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Viti Levu is the largest island in Fiji. It is the site of the country's capital and largest city, Suva, and home to a large majority of Fiji's population.",
+        "es": "Viti Levu es la isla más grande de Fiyi y una de las más grandes de Oceanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Viti Levu",
+          "url": "https://en.wikipedia.org/wiki/Viti_Levu"
+        },
+        "es": {
+          "title": "Viti Levu",
+          "url": "https://es.wikipedia.org/wiki/Viti_Levu"
+        }
+      },
+      "image": {
+        "file": "Vitilevu_topo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vitilevu_topo.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-vanua-levu",
+      "name": "Vanua Levu",
+      "area": "Northern Division",
+      "city": "Northern Division",
+      "wikidata": "Q327733",
+      "lat": -16.583333,
+      "lon": 179.183333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vanua Levu, formerly known as Sandalwood Island, is the second largest island of Fiji.",
+        "es": "Vanua Levu es una isla volcánica, la de segundo mayor tamaño de Fiyi."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vanua Levu",
+          "url": "https://en.wikipedia.org/wiki/Vanua_Levu"
+        },
+        "es": {
+          "title": "Vanua Levu",
+          "url": "https://es.wikipedia.org/wiki/Vanua_Levu"
+        }
+      },
+      "image": {
+        "file": "Fiji_June_2001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fiji_June_2001.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-taveuni",
+      "name": "Taveuni",
+      "area": "Cakaudrove",
+      "city": "Cakaudrove",
+      "wikidata": "Q1138545",
+      "lat": -16.816667,
+      "lon": 179.966667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Taveuni is the third-largest island in Fiji, after Viti Levu and Vanua Levu, with a total land area of 434 square kilometres.",
+        "es": "Taveuni es una isla de Fiyi, situada en la División Norte."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taveuni",
+          "url": "https://en.wikipedia.org/wiki/Taveuni"
+        },
+        "es": {
+          "title": "Taveuni",
+          "url": "https://es.wikipedia.org/wiki/Taveuni"
+        }
+      },
+      "image": {
+        "file": "TaveuniNASA.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:TaveuniNASA.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-kadavu-island",
+      "name": "Kadavu Island",
+      "area": "Kadavu",
+      "city": "Kadavu",
+      "wikidata": "Q1048944",
+      "lat": -19.05,
+      "lon": 178.25,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kadavu, with an area of 411 square kilometres, is the fourth largest island in Fiji, and the largest island in the Kadavu Group, a volcanic archipelago consisting of Kadavu, Ono, Galoa and a number of smaller islands…",
+        "es": "Kadavu es la cuarta isla más grande de Fiyi, y la isla más grande del grupo Kadavu, un archipiélago volcánico formado por Kadavu, Ono, Galoa y una cantidad de islas en el gran arrecife de Astrolabio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kadavu Island",
+          "url": "https://en.wikipedia.org/wiki/Kadavu_Island"
+        },
+        "es": {
+          "title": "Isla de Kadavu",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Kadavu"
+        }
+      },
+      "image": {
+        "file": "Kadavu_and_Great_Astrolabe_Reef.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kadavu_and_Great_Astrolabe_Reef.jpg",
+        "author": "Taken by Duncan Wright",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fj-mount-tomanivi",
+      "name": "Mount Tomanivi",
+      "area": "Western Division",
+      "city": "Western Division",
+      "wikidata": "Q1513944",
+      "lat": -17.633056,
+      "lon": 178.016667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Tomanivi, previously named Mount Victoria and also known as Tomaniivi, is an extinct volcano located in the northern highlands of Viti Levu.",
+        "es": "El monte Tomanivi es la montaña más alta de Fiyi."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Tomanivi",
+          "url": "https://en.wikipedia.org/wiki/Mount_Tomanivi"
+        },
+        "es": {
+          "title": "Monte Tomanivi",
+          "url": "https://es.wikipedia.org/wiki/Monte_Tomanivi"
+        }
+      },
+      "image": {
+        "file": "Vitilevu_topo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vitilevu_topo.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-koro-island",
+      "name": "Koro Island",
+      "area": "Lomaiviti",
+      "city": "Lomaiviti",
+      "wikidata": "Q1510685",
+      "lat": -17.3,
+      "lon": 179.4,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Koro is a volcanic island of Fiji that forms part of the Lomaiviti Archipelago.",
+        "es": "Koro es una isla volcánica de Fiyi que conforma el archipiélago de Lomaiviti."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Koro Island",
+          "url": "https://en.wikipedia.org/wiki/Koro_Island"
+        },
+        "es": {
+          "title": "Koro",
+          "url": "https://es.wikipedia.org/wiki/Koro"
+        }
+      },
+      "image": {
+        "file": "Koro_Island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Koro_Island.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-gau-island",
+      "name": "Gau Island",
+      "area": "Lomaiviti",
+      "city": "Lomaiviti",
+      "wikidata": "Q48317",
+      "lat": -18.066667,
+      "lon": 179.316667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Gau is an island belonging to Fiji's Lomaiviti archipelago.",
+        "es": "Gau is an island belonging to Fiji's Lomaiviti archipelago."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gau Island",
+          "url": "https://en.wikipedia.org/wiki/Gau_Island"
+        },
+        "es": {
+          "title": "Gau Island",
+          "url": "https://en.wikipedia.org/wiki/Gau_Island"
+        }
+      },
+      "image": {
+        "file": "Gau_large_ISS006-E-38731.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gau_large_ISS006-E-38731.jpg",
+        "author": "Image courtesy of Earth Sciences and Image Analysis Laboratory, NASA Johnson Spa",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-ovalau",
+      "name": "Ovalau",
+      "area": "Lomaiviti",
+      "city": "Lomaiviti",
+      "wikidata": "Q1150566",
+      "lat": -17.688056,
+      "lon": 178.790556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ovalau is the sixth largest island in Fiji.",
+        "es": "Ovalau es la sexta isla más grande de Fiyi, y la isla más grande del grupo de islas Lomaiviti."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ovalau",
+          "url": "https://en.wikipedia.org/wiki/Ovalau"
+        },
+        "es": {
+          "title": "Ovalau (Fiyi)",
+          "url": "https://es.wikipedia.org/wiki/Ovalau_(Fiyi)"
+        }
+      },
+      "image": {
+        "file": "Lovoni_village.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lovoni_village.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-bau",
+      "name": "Bau",
+      "area": "Suva",
+      "city": "Suva",
+      "wikidata": "Q2353856",
+      "lat": -17.97241,
+      "lon": 178.61544,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Bau is a small island in Fiji, off the east coast of the main island of Viti Levu.",
+        "es": "Bau is a small island in Fiji, off the east coast of the main island of Viti Levu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bau (island)",
+          "url": "https://en.wikipedia.org/wiki/Bau_(island)"
+        },
+        "es": {
+          "title": "Bau (island)",
+          "url": "https://en.wikipedia.org/wiki/Bau_(island)"
+        }
+      },
+      "image": {
+        "file": "Bau,_Fiji.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bau%2C_Fiji.jpg",
+        "author": "Thomas Andrew",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-monuriki",
+      "name": "Monuriki",
+      "area": "Ba",
+      "city": "Ba",
+      "wikidata": "Q1858111",
+      "lat": -17.608889,
+      "lon": 177.033889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Monuriki is a small, uninhabited island situated off the coast of Viti Levu in the Fiji Islands, in Melanesia in the South Pacific Ocean.",
+        "es": "Monuriki es una isla pequeña y deshabitada situada frente a la costa de Viti Levu, en un grupo de islas conocidas como las islas Mamanuca, en el océano Pacífico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Monuriki",
+          "url": "https://en.wikipedia.org/wiki/Monuriki"
+        },
+        "es": {
+          "title": "Monuriki",
+          "url": "https://es.wikipedia.org/wiki/Monuriki"
+        }
+      },
+      "image": {
+        "file": "Mondriki.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mondriki.jpg",
+        "author": "Heinz Albers",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fj-beqa",
+      "name": "Beqa",
+      "area": "Central Division",
+      "city": "Central Division",
+      "wikidata": "Q48313",
+      "lat": -18.4,
+      "lon": 178.133333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Beqa is an island in Fiji, an outlier to the main island of Viti Levu, 10 kilometres to the south.",
+        "es": "Beqa es una isla y un distrito de Fiyi. Pertenece a la División Central y se encuentra a a 10 km de Viti Levu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Beqa",
+          "url": "https://en.wikipedia.org/wiki/Beqa"
+        },
+        "es": {
+          "title": "Beqa",
+          "url": "https://es.wikipedia.org/wiki/Beqa"
+        }
+      },
+      "image": {
+        "file": "Beqa_Lagoon_-_Fiji.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Beqa_Lagoon_-_Fiji.jpg",
+        "author": "Mark Heard from Canada",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "fj-moala-island",
+      "name": "Moala Island",
+      "area": "Lau",
+      "city": "Lau",
+      "wikidata": "Q664031",
+      "lat": -18.6,
+      "lon": 179.866667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Moala is a volcanic island in the Moala subgroup of Fiji's Lau archipelago.",
+        "es": "Moala is a volcanic island in the Moala subgroup of Fiji's Lau archipelago."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Moala Island",
+          "url": "https://en.wikipedia.org/wiki/Moala_Island"
+        },
+        "es": {
+          "title": "Moala Island",
+          "url": "https://en.wikipedia.org/wiki/Moala_Island"
+        }
+      },
+      "image": {
+        "file": "Fiji_map.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fiji_map.png",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-rabi-island",
+      "name": "Rabi Island",
+      "area": "Suva",
+      "city": "Suva",
+      "wikidata": "Q762070",
+      "lat": -16.5,
+      "lon": -180,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rabi is a volcanic island in northern Fiji.",
+        "es": "Rabi es una isla volcánica situada en el norte de Fiyi, en la provincia de Cakaudrove."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rabi Island",
+          "url": "https://en.wikipedia.org/wiki/Rabi_Island"
+        },
+        "es": {
+          "title": "Isla de Rabi",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Rabi"
+        }
+      },
+      "image": {
+        "file": "Rabi_Island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rabi_Island.jpg",
+        "author": "Cia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-lakeba",
+      "name": "Lakeba",
+      "area": "Lau",
+      "city": "Lau",
+      "wikidata": "Q1725479",
+      "lat": -18.216667,
+      "lon": -178.783333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lakeba is an island in Fiji’s Southern Lau Archipelago; the provincial capital of Lau is located here.",
+        "es": "Lakeba is an island in Fiji’s Southern Lau Archipelago; the provincial capital of Lau is located here."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lakeba",
+          "url": "https://en.wikipedia.org/wiki/Lakeba"
+        },
+        "es": {
+          "title": "Lakeba",
+          "url": "https://en.wikipedia.org/wiki/Lakeba"
+        }
+      },
+      "image": {
+        "file": "LauIslandsMap.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:LauIslandsMap.JPG",
+        "author": "CIA World Factbook map",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-batiki",
+      "name": "Batiki",
+      "area": "Lomaiviti",
+      "city": "Lomaiviti",
+      "wikidata": "Q48372",
+      "lat": -17.783333,
+      "lon": -179.15,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Batiki is an island of Fiji belonging to the Lomaiviti Archipelago.",
+        "es": "Batiki es una isla de Fiyi perteneciente al archipiélago Lomaiviti."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Batiki",
+          "url": "https://en.wikipedia.org/wiki/Batiki"
+        },
+        "es": {
+          "title": "Batiki",
+          "url": "https://es.wikipedia.org/wiki/Batiki"
+        }
+      }
+    },
+    {
+      "id": "fj-nananu-i-ra",
+      "name": "Nananu-i-Ra",
+      "area": "Ra",
+      "city": "Ra",
+      "wikidata": "Q2048028",
+      "lat": -17.3,
+      "lon": 178.216667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nananu-i-Ra is an island in Fiji about 3 kilometers off the north coast of the main island of Viti Levu, near the town of Rakiraki in Ra Province.",
+        "es": "Nananu-i-Ra es una isla en Fiyi, de alrededor de 1,5 kilómetros de la costa de la isla principal de Viti Levu, en la provincia de Ra en Rakiraki."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nananu-i-Ra",
+          "url": "https://en.wikipedia.org/wiki/Nananu-i-Ra"
+        },
+        "es": {
+          "title": "Nananu-i-Ra",
+          "url": "https://es.wikipedia.org/wiki/Nananu-i-Ra"
+        }
+      },
+      "image": {
+        "file": "2004.03.02_03_McDonalds_Nananu-i-Ra_Fiji.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2004.03.02_03_McDonalds_Nananu-i-Ra_Fiji.jpg",
+        "author": "Hermann Luyken",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fj-vanua-balavu",
+      "name": "Vanua Balavu",
+      "area": "Lau",
+      "city": "Lau",
+      "wikidata": "Q2291065",
+      "lat": -17.216667,
+      "lon": -178.933333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vanua Balavu is the third-largest island in Fiji's Lau archipelago, and the main island of the Northern Lau Group.",
+        "es": "Vanua Balavu is the third-largest island in Fiji's Lau archipelago, and the main island of the Northern Lau Group."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vanua Balavu",
+          "url": "https://en.wikipedia.org/wiki/Vanua_Balavu"
+        },
+        "es": {
+          "title": "Vanua Balavu",
+          "url": "https://en.wikipedia.org/wiki/Vanua_Balavu"
+        }
+      },
+      "image": {
+        "file": "Vanuabalavu2.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vanuabalavu2.png",
+        "author": "https://en.wikipedia.org/wiki/User:Maikeli",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fj-kioa",
+      "name": "Kioa",
+      "area": "Suva",
+      "city": "Suva",
+      "wikidata": "Q2377902",
+      "lat": -16.65,
+      "lon": 179.916667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kioa is an island in Fiji, an outlier to Vanua Levu, one of Fiji's two main islands.",
+        "es": "Kioa es una isla de Fiyi, una de las dos islas principales."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kioa",
+          "url": "https://en.wikipedia.org/wiki/Kioa"
+        },
+        "es": {
+          "title": "Kioa",
+          "url": "https://es.wikipedia.org/wiki/Kioa"
+        }
+      }
+    },
+    {
+      "id": "fj-laucala",
+      "name": "Laucala",
+      "area": "Cakaudrove",
+      "city": "Cakaudrove",
+      "wikidata": "Q2515014",
+      "lat": -16.75,
+      "lon": -179.683333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Laucala is one of a triplet of small islands that lie to the east of Thurston Point on the island of Taveuni in Fiji.",
+        "es": "Laucala is one of a triplet of small islands that lie to the east of Thurston Point on the island of Taveuni in Fiji."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Laucala",
+          "url": "https://en.wikipedia.org/wiki/Laucala"
+        },
+        "es": {
+          "title": "Laucala",
+          "url": "https://en.wikipedia.org/wiki/Laucala"
+        }
+      }
+    },
+    {
+      "id": "fj-mago-island",
+      "name": "Mago Island",
+      "area": "Lau",
+      "city": "Lau",
+      "wikidata": "Q1884674",
+      "lat": -17.45,
+      "lon": -179.15,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mago Island is a volcanic island that lies in the northwest sector of Fiji's northern Lau Group of islands.",
+        "es": "Mago Island is a volcanic island that lies in the northwest sector of Fiji's northern Lau Group of islands."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mago Island",
+          "url": "https://en.wikipedia.org/wiki/Mago_Island"
+        },
+        "es": {
+          "title": "Mago Island",
+          "url": "https://en.wikipedia.org/wiki/Mago_Island"
+        }
+      },
+      "image": {
+        "file": "Mago-Fiji_(NASA_Geocover_2000).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mago-Fiji_(NASA_Geocover_2000).jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-matuku-island",
+      "name": "Matuku Island",
+      "area": "Moala Islands",
+      "city": "Moala Islands",
+      "wikidata": "Q1910831",
+      "lat": -19.166667,
+      "lon": 179.766667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Matuku is a volcanic island in the Moala subgroup of Fiji's Lau archipelago.",
+        "es": "Matuku is a volcanic island in the Moala subgroup of Fiji's Lau archipelago."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Matuku Island",
+          "url": "https://en.wikipedia.org/wiki/Matuku_Island"
+        },
+        "es": {
+          "title": "Matuku Island",
+          "url": "https://en.wikipedia.org/wiki/Matuku_Island"
+        }
+      },
+      "image": {
+        "file": "Matuku_large_ISS004-E-7880.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Matuku_large_ISS004-E-7880.jpg",
+        "author": "Image courtesy of Earth Sciences and Image Analysis Laboratory, NASA Johnson Spa",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-matagi-island",
+      "name": "Matagi Island",
+      "area": "Cakaudrove",
+      "city": "Cakaudrove",
+      "wikidata": "Q2368586",
+      "lat": -16.733333,
+      "lon": -179.75,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Matagi, sometimes written Matangi, is an island the Vanua Levu Group in northern Fiji, situated 16°44 South 179° West.",
+        "es": "Matagi, sometimes written Matangi, is an island the Vanua Levu Group in northern Fiji, situated 16°44 South 179° West."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Matagi Island",
+          "url": "https://en.wikipedia.org/wiki/Matagi_Island"
+        },
+        "es": {
+          "title": "Matagi Island",
+          "url": "https://en.wikipedia.org/wiki/Matagi_Island"
+        }
+      },
+      "image": {
+        "file": "Matagi-Horseshoe_Bay-2005-10-13.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Matagi-Horseshoe_Bay-2005-10-13.jpg",
+        "author": "Unknown",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "fj-kabara",
+      "name": "Kabara",
+      "area": "Lau",
+      "city": "Lau",
+      "wikidata": "Q1307352",
+      "lat": -18.95,
+      "lon": -178.95,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kabara is an island of Fiji, a member of the Lau archipelago.",
+        "es": "Kabara is an island of Fiji, a member of the Lau archipelago."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kabara (Fiji)",
+          "url": "https://en.wikipedia.org/wiki/Kabara_(Fiji)"
+        },
+        "es": {
+          "title": "Kabara (Fiji)",
+          "url": "https://en.wikipedia.org/wiki/Kabara_(Fiji)"
+        }
+      }
+    },
+    {
+      "id": "fj-makogai",
+      "name": "Makogai",
+      "area": "Lomaiviti",
+      "city": "Lomaiviti",
+      "wikidata": "Q1611499",
+      "lat": -17.433333,
+      "lon": 178.966667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Makogai is an island belonging to Fiji's Lomaiviti Archipelago.",
+        "es": "Makogai is an island belonging to Fiji's Lomaiviti Archipelago."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Makogai",
+          "url": "https://en.wikipedia.org/wiki/Makogai"
+        },
+        "es": {
+          "title": "Makogai",
+          "url": "https://en.wikipedia.org/wiki/Makogai"
+        }
+      }
+    },
+    {
+      "id": "fj-vatulele",
+      "name": "Vatulele",
+      "area": "Central Division",
+      "city": "Central Division",
+      "wikidata": "Q1966337",
+      "lat": -18.533333,
+      "lon": 177.616667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vatulele is a coral and volcanic island 32 kilometres and tikina, located south of Viti Levu, Fiji's largest island.",
+        "es": "Vatulele is a coral and volcanic island 32 kilometres and tikina, located south of Viti Levu, Fiji's largest island."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vatulele",
+          "url": "https://en.wikipedia.org/wiki/Vatulele"
+        },
+        "es": {
+          "title": "Vatulele",
+          "url": "https://en.wikipedia.org/wiki/Vatulele"
+        }
+      },
+      "image": {
+        "file": "Southern_Tip_Vatulele,_Fiji_-_from_SW_-_panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Southern_Tip_Vatulele%2C_Fiji_-_from_SW_-_panoramio.jpg",
+        "author": "catlin.wolfard",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fj-ono-island",
+      "name": "Ono Island",
+      "area": "Kadavu",
+      "city": "Kadavu",
+      "wikidata": "Q2536909",
+      "lat": -18.9,
+      "lon": 178.48333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ono Island is a member of the Kadavu Group, an outlier of Kadavu Island, to the south of Viti Levu, one of Fiji's two main islands.",
+        "es": "Ono Island is a member of the Kadavu Group, an outlier of Kadavu Island, to the south of Viti Levu, one of Fiji's two main islands."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ono Island (Fiji)",
+          "url": "https://en.wikipedia.org/wiki/Ono_Island_(Fiji)"
+        },
+        "es": {
+          "title": "Ono Island (Fiji)",
+          "url": "https://en.wikipedia.org/wiki/Ono_Island_(Fiji)"
+        }
+      }
+    },
+    {
+      "id": "fj-nacula",
+      "name": "Nacula",
+      "area": "Ba",
+      "city": "Ba",
+      "wikidata": "Q2639545",
+      "lat": -16.883333,
+      "lon": 177.416667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nacula is a hilly and volcanic island of the Yasawa Group in Fiji's Ba Province.",
+        "es": "Nacula is a hilly and volcanic island of the Yasawa Group in Fiji's Ba Province."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nacula",
+          "url": "https://en.wikipedia.org/wiki/Nacula"
+        },
+        "es": {
+          "title": "Nacula",
+          "url": "https://en.wikipedia.org/wiki/Nacula"
+        }
+      },
+      "image": {
+        "file": "Nacula_beach_oarsman.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nacula_beach_oarsman.JPG",
+        "author": "TobiasK at English Wikipedia (Original text: Tobias Kierk)",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "fj-mount-nasorolevu",
+      "name": "Mount Nasorolevu",
+      "area": "Northern Division",
+      "city": "Northern Division",
+      "wikidata": "Q1457299",
+      "lat": -16.616667,
+      "lon": 179.4,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Nasorolevu is the highest mountain on the island of Vanua Levu in Fiji.",
+        "es": "El monte Nasorolevu es la mayor altitud de la isla de Vanua Levu en Fiyi elevándose hasta los 1.032 m s."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Nasorolevu",
+          "url": "https://en.wikipedia.org/wiki/Mount_Nasorolevu"
+        },
+        "es": {
+          "title": "Monte Nasorolevu",
+          "url": "https://es.wikipedia.org/wiki/Monte_Nasorolevu"
+        }
+      }
+    },
+    {
+      "id": "fj-cicia",
+      "name": "Cicia",
+      "area": "Lau",
+      "city": "Lau",
+      "wikidata": "Q48312",
+      "lat": -17.75,
+      "lon": -179.3,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cicia is a Fijian island of the Lau Group.",
+        "es": "Cicia is a Fijian island of the Lau Group."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cicia",
+          "url": "https://en.wikipedia.org/wiki/Cicia"
+        },
+        "es": {
+          "title": "Cicia",
+          "url": "https://en.wikipedia.org/wiki/Cicia"
+        }
+      },
+      "image": {
+        "file": "NASA_2000-Cicia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NASA_2000-Cicia.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-tavarua",
+      "name": "Tavarua",
+      "area": "Ba",
+      "city": "Ba",
+      "wikidata": "Q2749642",
+      "lat": -17.857702,
+      "lon": 177.201791,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tavarua is an island resort in Fiji. It has an area of 29 acres.",
+        "es": "Tavarua is an island resort in Fiji. It has an area of 29 acres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tavarua",
+          "url": "https://en.wikipedia.org/wiki/Tavarua"
+        },
+        "es": {
+          "title": "Tavarua",
+          "url": "https://en.wikipedia.org/wiki/Tavarua"
+        }
+      },
+      "image": {
+        "file": "Tavarua_Island,_Fiji.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tavarua_Island%2C_Fiji.JPG",
+        "author": "Tavyland",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fj-kanacea",
+      "name": "Kanacea",
+      "area": "Lau",
+      "city": "Lau",
+      "wikidata": "Q1232343",
+      "lat": -17.266667,
+      "lon": -179.15,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kanacea is a volcanic island with seven peaks in Fiji's Lau archipelago.",
+        "es": "Kanacea es una isla volcánica con siete picos en el archipiélago de las Islas Lau en la República de Fiyi."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kanacea",
+          "url": "https://en.wikipedia.org/wiki/Kanacea"
+        },
+        "es": {
+          "title": "Kanacea",
+          "url": "https://es.wikipedia.org/wiki/Kanacea"
+        }
+      },
+      "image": {
+        "file": "Kanacea_ISS006-E-7481_lrg.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kanacea_ISS006-E-7481_lrg.jpg",
+        "author": "Image courtesy of Earth Sciences and Image Analysis Laboratory, NASA Johnson Spa",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-nukulau",
+      "name": "Nukulau",
+      "area": "Suva",
+      "city": "Suva",
+      "wikidata": "Q3490636",
+      "lat": -18.166667,
+      "lon": 178.516667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nukulau Island is a small islet belonging to Fiji.",
+        "es": "Nukulau Island is a small islet belonging to Fiji."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nukulau",
+          "url": "https://en.wikipedia.org/wiki/Nukulau"
+        },
+        "es": {
+          "title": "Nukulau",
+          "url": "https://en.wikipedia.org/wiki/Nukulau"
+        }
+      }
+    },
+    {
+      "id": "fj-thurston-gardens",
+      "name": "Thurston Gardens",
+      "area": "Suva",
+      "city": "Suva",
+      "wikidata": "Q4275602",
+      "lat": -18.1491,
+      "lon": 178.4247,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Thurston Gardens are the botanical gardens of Fiji.",
+        "es": "Los Jardines Thurston es el nombre que reciben los jardines botánicos de Fiyi."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Thurston Gardens",
+          "url": "https://en.wikipedia.org/wiki/Thurston_Gardens"
+        },
+        "es": {
+          "title": "Jardines Thurston",
+          "url": "https://es.wikipedia.org/wiki/Jardines_Thurston"
+        }
+      }
+    },
+    {
+      "id": "fj-sacred-heart-cathedral-suva",
+      "name": "Sacred Heart Cathedral, Suva",
+      "area": "Suva",
+      "city": "Suva",
+      "wikidata": "Q18416905",
+      "lat": -18.1416,
+      "lon": 178.442,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sacred Heart Cathedral or simply Cathedral of Suva, is the main ecclesiastical building of the Roman Catholic Church in the island nation of Fiji, and is located on Pratt Street in the City of Suva, Fiji's capital.",
+        "es": "La Catedral del Sagrado Corazón es el nombre que recibe un edificio religioso que está afiliado a la Iglesia católica y se encuentra en la calle Pratt de la localidad de Suva, capital de la nación insular de Fiyi,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sacred Heart Cathedral, Suva",
+          "url": "https://en.wikipedia.org/wiki/Sacred_Heart_Cathedral%2C_Suva"
+        },
+        "es": {
+          "title": "Catedral del Sagrado Corazón (Suva)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Sagrado_Coraz%C3%B3n_(Suva)"
+        }
+      },
+      "image": {
+        "file": "Sacred_Heart_Cathedral,_Suva_Fiji_July_2014.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sacred_Heart_Cathedral%2C_Suva_Fiji_July_2014.jpg",
+        "author": "Stemoc",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "fj-dravuni",
+      "name": "Dravuni",
+      "area": "Ba",
+      "city": "Ba",
+      "wikidata": "Q48309",
+      "lat": -18.766667,
+      "lon": 178.533333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Dravuni is a volcanic island in the Kadavu Group of islands in Fiji.",
+        "es": "Dravuni is a volcanic island in the Kadavu Group of islands in Fiji."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dravuni",
+          "url": "https://en.wikipedia.org/wiki/Dravuni"
+        },
+        "es": {
+          "title": "Dravuni",
+          "url": "https://en.wikipedia.org/wiki/Dravuni"
+        }
+      },
+      "image": {
+        "file": "Delicate_branching_corals_in_the_lagoon_at_Dravuni_Island,_Fiji._(35116978524).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Delicate_branching_corals_in_the_lagoon_at_Dravuni_Island%2C_Fiji._(35116978524).jpg",
+        "author": "Derek Keats from Johannesburg, South Africa",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "fj-vuaqava",
+      "name": "Vuaqava",
+      "area": "Lau",
+      "city": "Lau",
+      "wikidata": "Q1888350",
+      "lat": -18.866667,
+      "lon": -178.9,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vuaqava is an outlier to Kabara, 5 kilometers to the SSW, in Fiji's Southern Lau Group.",
+        "es": "Vuaqava is an outlier to Kabara, 5 kilometers to the SSW, in Fiji's Southern Lau Group."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vuaqava",
+          "url": "https://en.wikipedia.org/wiki/Vuaqava"
+        },
+        "es": {
+          "title": "Vuaqava",
+          "url": "https://en.wikipedia.org/wiki/Vuaqava"
+        }
+      }
+    },
+    {
+      "id": "fj-nairai",
+      "name": "Nairai",
+      "area": "Lomaiviti",
+      "city": "Lomaiviti",
+      "wikidata": "Q1962375",
+      "lat": -17.8,
+      "lon": 179.416667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nairai is an island of Fiji and a tikina belonging to the Lomaiviti Archipelago.",
+        "es": "Nairai is an island of Fiji and a tikina belonging to the Lomaiviti Archipelago."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nairai",
+          "url": "https://en.wikipedia.org/wiki/Nairai"
+        },
+        "es": {
+          "title": "Nairai",
+          "url": "https://en.wikipedia.org/wiki/Nairai"
+        }
+      }
+    },
+    {
+      "id": "fj-vatu-vara",
+      "name": "Vatu Vara",
+      "area": "Lau",
+      "city": "Lau",
+      "wikidata": "Q2096156",
+      "lat": -17.433333,
+      "lon": -179.533333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vatu Vara Island is a Fijian island in the northwest sector of the Lau Group of islands.",
+        "es": "Vatu Vara Island is a Fijian island in the northwest sector of the Lau Group of islands."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vatu Vara",
+          "url": "https://en.wikipedia.org/wiki/Vatu_Vara"
+        },
+        "es": {
+          "title": "Vatu Vara",
+          "url": "https://en.wikipedia.org/wiki/Vatu_Vara"
+        }
+      },
+      "image": {
+        "file": "Vatu_Vara.PNG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vatu_Vara.PNG",
+        "author": "NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-moturiki",
+      "name": "Moturiki",
+      "area": "Lomaiviti",
+      "city": "Lomaiviti",
+      "wikidata": "Q2189562",
+      "lat": -17.75,
+      "lon": 178.75,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Moturiki is an island belonging to Fiji's Lomaiviti Archipelago.",
+        "es": "Moturiki is an island belonging to Fiji's Lomaiviti Archipelago."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Moturiki",
+          "url": "https://en.wikipedia.org/wiki/Moturiki"
+        },
+        "es": {
+          "title": "Moturiki",
+          "url": "https://en.wikipedia.org/wiki/Moturiki"
+        }
+      }
+    },
+    {
+      "id": "fj-totoya",
+      "name": "Totoya",
+      "area": "Lau",
+      "city": "Lau",
+      "wikidata": "Q2308160",
+      "lat": -18.95,
+      "lon": -179.833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Totoya is a volcanic island and tikina in the Moala subgroup of Fiji's Lau archipelago.",
+        "es": "Totoya is a volcanic island and tikina in the Moala subgroup of Fiji's Lau archipelago."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Totoya",
+          "url": "https://en.wikipedia.org/wiki/Totoya"
+        },
+        "es": {
+          "title": "Totoya",
+          "url": "https://en.wikipedia.org/wiki/Totoya"
+        }
+      },
+      "image": {
+        "file": "Totoya_large_ISS004-E-5802.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Totoya_large_ISS004-E-5802.jpg",
+        "author": "Image courtesy of Earth Sciences and Image Analysis Laboratory, NASA Johnson Spa",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "fj-yasawa",
+      "name": "Yasawa",
+      "area": "Ba",
+      "city": "Ba",
+      "wikidata": "Q3055364",
+      "lat": -16.775833,
+      "lon": 177.513889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Yasawa, also called Assawa and Ysava, is the northernmost large island of the Yasawa Group, an archipelago in Fiji's Western Division.",
+        "es": "Yasawa, also called Assawa and Ysava, is the northernmost large island of the Yasawa Group, an archipelago in Fiji's Western Division."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Yasawa",
+          "url": "https://en.wikipedia.org/wiki/Yasawa"
+        },
+        "es": {
+          "title": "Yasawa",
+          "url": "https://en.wikipedia.org/wiki/Yasawa"
+        }
+      },
+      "image": {
+        "file": "FijiOMCmap.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:FijiOMCmap.png",
+        "author": "Kelisi at English Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fj-wakaya-island",
+      "name": "Wakaya Island",
+      "area": "Lomaiviti",
+      "city": "Lomaiviti",
+      "wikidata": "Q630394",
+      "lat": -17.616667,
+      "lon": 179,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Wakaya is a privately owned island in Fiji's Lomaiviti Archipelago.",
+        "es": "Wakaya is a privately owned island in Fiji's Lomaiviti Archipelago."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wakaya Island",
+          "url": "https://en.wikipedia.org/wiki/Wakaya_Island"
+        },
+        "es": {
+          "title": "Wakaya Island",
+          "url": "https://en.wikipedia.org/wiki/Wakaya_Island"
+        }
+      },
+      "image": {
+        "file": "Gezicht_op_de_westkant_van_Wakaya_West_face_of_Wakaya_island_(titel_op_object),_RP-F-2001-7-1000-32.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gezicht_op_de_westkant_van_Wakaya_West_face_of_Wakaya_island_(titel_op_object)%2C_RP-F-2001-7-1000-32.jpg",
+        "author": "Rijksmuseum",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "fj-yadua-tabu",
+      "name": "Yadua Tabu",
+      "area": "Northern Division",
+      "city": "Northern Division",
+      "wikidata": "Q2377238",
+      "lat": -16.833333,
+      "lon": 178.279167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Yadua Taba is a volcanic islet in Fiji, an outlier to the northern island of Vanua Levu, and immediately south of the larger island Yadua.",
+        "es": "Yadua Taba is a volcanic islet in Fiji, an outlier to the northern island of Vanua Levu, and immediately south of the larger island Yadua."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Yadua Tabu",
+          "url": "https://en.wikipedia.org/wiki/Yadua_Tabu"
+        },
+        "es": {
+          "title": "Yadua Tabu",
+          "url": "https://en.wikipedia.org/wiki/Yadua_Tabu"
+        }
+      },
+      "image": {
+        "file": "Fiji_Crested_Iguana444.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fiji_Crested_Iguana444.jpg",
+        "author": "Benjamint444",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fj-leleuvia",
+      "name": "Leleuvia",
+      "area": "Lomaiviti",
+      "city": "Lomaiviti",
+      "wikidata": "Q2565470",
+      "lat": -17.808611,
+      "lon": 178.721944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Leleuvia is a coral cay in Fiji's Lomaiviti archipelago.",
+        "es": "Leleuvia is a coral cay in Fiji's Lomaiviti archipelago."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Leleuvia",
+          "url": "https://en.wikipedia.org/wiki/Leleuvia"
+        },
+        "es": {
+          "title": "Leleuvia",
+          "url": "https://en.wikipedia.org/wiki/Leleuvia"
+        }
+      },
+      "image": {
+        "file": "Leleuvia_Islands,_Fiji.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Leleuvia_Islands%2C_Fiji.jpg",
+        "author": "Melbar",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "fj-mount-koroyanitu",
+      "name": "Mount Koroyanitu",
+      "area": "Western Division",
+      "city": "Western Division",
+      "wikidata": "Q5144771",
+      "lat": -17.65,
+      "lon": 177.583,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Koroyanitu, also known as Mount Evans, is the third highest peak in Fiji and located in the Evans Ranges in the Western Division of the island of Viti Levu.",
+        "es": "El monte Koroyanitu o monte Evans es una montaña situada en la localidad de Lautoka, en el estado insular de Fiyi, situado en la cordillera Evans en la División Oeste de la isla de Viti Levu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Koroyanitu",
+          "url": "https://en.wikipedia.org/wiki/Mount_Koroyanitu"
+        },
+        "es": {
+          "title": "Monte Koroyanitu",
+          "url": "https://es.wikipedia.org/wiki/Monte_Koroyanitu"
+        }
+      },
+      "image": {
+        "file": "Koroyanitu.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Koroyanitu.jpg",
+        "author": "Jaejay77",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "fj-sacred-heart-church",
+      "name": "Sacred Heart Church",
+      "area": "Levuka",
+      "city": "Levuka",
+      "wikidata": "Q20894717",
+      "lat": -17.68269,
+      "lon": 178.83421,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sacred Heart Church, also known as the Church of the Sacred Heart or Sacred Heart Catholic Church, is a Roman Catholic church on the Fijian island of Ovalau, situated on Beach Street in the town of Levuka.",
+        "es": "La Iglesia del Sagrado Corazón también conocida como la Iglesia Católica del Sagrado Corazón, es una iglesia católica en la isla de Ovalau, en Fiyi situada en la calle Beach de la ciudad de Levuka."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sacred Heart Church, Levuka",
+          "url": "https://en.wikipedia.org/wiki/Sacred_Heart_Church%2C_Levuka"
+        },
+        "es": {
+          "title": "Iglesia del Sagrado Corazón (Levuka)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_del_Sagrado_Coraz%C3%B3n_(Levuka)"
+        }
+      },
+      "image": {
+        "file": "ChurchLevuka.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ChurchLevuka.jpg",
+        "author": "Anton Leddin",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fj-hanifa-mosque",
+      "name": "Hanifa Mosque",
+      "area": "Nadroga-Navosa",
+      "city": "Nadroga-Navosa",
+      "wikidata": "Q108570135",
+      "lat": -17.856417,
+      "lon": 177.3605,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Hanifa Mosque, also called Masjid Hanifa, is a Sunni Islam mosque, located in Nadroga-Navosa Province on Viti Levu, Fiji.",
+        "es": "The Hanifa Mosque, also called Masjid Hanifa, is a Sunni Islam mosque, located in Nadroga-Navosa Province on Viti Levu, Fiji."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hanifa Mosque",
+          "url": "https://en.wikipedia.org/wiki/Hanifa_Mosque"
+        },
+        "es": {
+          "title": "Hanifa Mosque",
+          "url": "https://en.wikipedia.org/wiki/Hanifa_Mosque"
+        }
+      }
+    },
+    {
+      "id": "fj-suva-fiji-temple",
+      "name": "Suva Fiji Temple",
+      "area": "Suva",
+      "city": "Suva",
+      "wikidata": "Q3845238",
+      "website": "https://churchofjesuschristtemples.org/suva-fiji-temple",
+      "lat": -18.1197,
+      "lon": 178.439,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Suva Fiji Temple is the 91st operating temple of the Church of Jesus Christ of Latter-day Saints.",
+        "es": "El Templo de Suva es un templo de la Iglesia de Jesucristo de los Santos de los Últimos Días, el número 91 construido por la iglesia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Suva Fiji Temple",
+          "url": "https://en.wikipedia.org/wiki/Suva_Fiji_Temple"
+        },
+        "es": {
+          "title": "Templo de Suva",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_Suva"
+        }
+      },
+      "image": {
+        "file": "Suva_Fiji_Temple_by_bhaskarroo_cropped.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Suva_Fiji_Temple_by_bhaskarroo_cropped.jpg",
+        "author": "bhaskarroo / Bhaskar Rao",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "fj-colo-i-suva-forest-reserve",
+      "name": "Colo-i-Suva Forest Reserve",
+      "area": "Suva",
+      "city": "Suva",
+      "wikidata": "Q24570920",
+      "lat": -18.07,
+      "lon": 178.36,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Colo-I-Suva Forest Park is a nature reserve near Suva, Fiji.",
+        "es": "Colo-I-Suva Forest Park is a nature reserve near Suva, Fiji."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Colo-i-Suva Forest Reserve",
+          "url": "https://en.wikipedia.org/wiki/Colo-i-Suva_Forest_Reserve"
+        },
+        "es": {
+          "title": "Colo-i-Suva Forest Reserve",
+          "url": "https://en.wikipedia.org/wiki/Colo-i-Suva_Forest_Reserve"
+        }
+      },
+      "image": {
+        "file": "Colo-i-Suva_big_waterfall.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Colo-i-Suva_big_waterfall.jpg",
+        "author": "Tucoxn",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "fj-rewa-bridge",
+      "name": "Rewa Bridge",
+      "area": "Suva",
+      "city": "Suva",
+      "wikidata": "Q7319006",
+      "lat": -18.0325,
+      "lon": 178.528889,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Rewa Bridge is a four-lane concrete girder road bridge over the Rewa River joining Suva and Nausori in Fiji.",
+        "es": "El Puente Rewa es un puente de hormigón con una carretera de cuatro carriles sobre el río Rewa que une a Suva y Nausori en Fiyi."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rewa Bridge",
+          "url": "https://en.wikipedia.org/wiki/Rewa_Bridge"
+        },
+        "es": {
+          "title": "Puente Rewa",
+          "url": "https://es.wikipedia.org/wiki/Puente_Rewa"
+        }
       }
     }
   ]

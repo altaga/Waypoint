@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -67,6 +73,972 @@
       "website": "http://galerianacionaldeartehonduras.org",
       "lat": 14.10414,
       "lon": -87.20454
+    },
+    {
+      "id": "hn-copan",
+      "name": "Copán",
+      "area": "Copán Ruinas",
+      "city": "Copán Ruinas",
+      "wikidata": "Q214827",
+      "lat": 14.837964,
+      "lon": -89.142442,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Copán is an archaeological site of the Maya civilization in the Copán Department of western Honduras, not far from the border with Guatemala.",
+        "es": "Copán es un sitio arqueológico de la antigua civilización maya ubicado en el departamento de Copán al occidente de Honduras."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Copán",
+          "url": "https://en.wikipedia.org/wiki/Cop%C3%A1n"
+        },
+        "es": {
+          "title": "Copán (sitio arqueológico)",
+          "url": "https://es.wikipedia.org/wiki/Cop%C3%A1n_(sitio_arqueol%C3%B3gico)"
+        }
+      },
+      "image": {
+        "file": "Copán_Stela_B.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cop%C3%A1n_Stela_B.jpg",
+        "author": "Nosferattus",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "hn-rio-platano-biosphere-reserve",
+      "name": "Río Plátano Biosphere Reserve",
+      "area": "Gracias a Dios Department",
+      "city": "Gracias a Dios Department",
+      "wikidata": "Q752181",
+      "lat": 15.25,
+      "lon": -84.73,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Río Plátano Biosphere Reserve is a protected area in the Gracias a Dios department region on the Caribbean coast of Honduras.",
+        "es": "La reserva de la biosfera de Río Plátano está localizada en los alrededores de río Plátano en Departamento de Gracias a Dios, la región en la costa caribeña de Honduras."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Río Plátano Biosphere Reserve",
+          "url": "https://en.wikipedia.org/wiki/R%C3%ADo_Pl%C3%A1tano_Biosphere_Reserve"
+        },
+        "es": {
+          "title": "Reserva de la biosfera de Río Plátano",
+          "url": "https://es.wikipedia.org/wiki/Reserva_de_la_biosfera_de_R%C3%ADo_Pl%C3%A1tano"
+        }
+      },
+      "image": {
+        "file": "Rio_platano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rio_platano.jpg",
+        "author": "Hjvannes at Dutch Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hn-roatan",
+      "name": "Roatán",
+      "area": "Bay Islands Department",
+      "city": "Bay Islands Department",
+      "wikidata": "Q1419813",
+      "lat": 16.383417,
+      "lon": -86.417833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Roatán is an island in the Caribbean, about 65 kilometres off the northern coast of Honduras.",
+        "es": "La isla de Roatán es la mayor de las Islas de la Bahía, uno de los dieciocho departamentos de la República de Honduras."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Roatán",
+          "url": "https://en.wikipedia.org/wiki/Roat%C3%A1n"
+        },
+        "es": {
+          "title": "Roatán",
+          "url": "https://es.wikipedia.org/wiki/Roat%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Westbay2106.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Westbay2106.jpg",
+        "author": "Westbrowncanada",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hn-utila",
+      "name": "Utila",
+      "area": "Bay Islands Department",
+      "city": "Bay Islands Department",
+      "wikidata": "Q1572113",
+      "lat": 16.097222,
+      "lon": -86.937222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Utila is the smallest of Honduras' major Bay Islands, after Roatán and Guanaja, in a region that marks the south end of the Mesoamerican Barrier Reef System, the second-largest in the world.",
+        "es": "Utila es un municipio del departamento de Islas de la Bahía en la República de Honduras."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Utila",
+          "url": "https://en.wikipedia.org/wiki/Utila"
+        },
+        "es": {
+          "title": "Utila",
+          "url": "https://es.wikipedia.org/wiki/Utila"
+        }
+      },
+      "image": {
+        "file": "Utila_Hondoras_beach.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Utila_Hondoras_beach.jpg",
+        "author": "Rythie",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "hn-lake-yojoa",
+      "name": "Lake Yojoa",
+      "area": "San Pedro Sula",
+      "city": "San Pedro Sula",
+      "wikidata": "Q1305720",
+      "lat": 14.877222,
+      "lon": -87.980556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Yojoa is the largest lake in Honduras with a surface area of 79 square kilometers and an average depth of 15 meters.",
+        "es": "El Lago de Yojoa es un lago de Honduras, Centroamérica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Yojoa",
+          "url": "https://en.wikipedia.org/wiki/Lake_Yojoa"
+        },
+        "es": {
+          "title": "Lago de Yojoa",
+          "url": "https://es.wikipedia.org/wiki/Lago_de_Yojoa"
+        }
+      },
+      "image": {
+        "file": "Lago_Yojoa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lago_Yojoa.jpg",
+        "author": "Hjvannes",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hn-cerro-las-minas",
+      "name": "Cerro Las Minas",
+      "area": "Lempira Department",
+      "city": "Lempira Department",
+      "wikidata": "Q1055875",
+      "lat": 14.534167,
+      "lon": -88.68,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cerro Las Minas is the highest mountain in Honduras.",
+        "es": "El cerro Las Minas o pico Celaque es la montaña más alta del país centroamericano de Honduras con 2870 m s."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cerro Las Minas",
+          "url": "https://en.wikipedia.org/wiki/Cerro_Las_Minas"
+        },
+        "es": {
+          "title": "Cerro Las Minas (Honduras)",
+          "url": "https://es.wikipedia.org/wiki/Cerro_Las_Minas_(Honduras)"
+        }
+      },
+      "image": {
+        "file": "Celaque.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Celaque.JPG",
+        "author": "ETXEVERZ",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "hn-tiger-island",
+      "name": "Tiger Island",
+      "area": "Valle Department",
+      "city": "Valle Department",
+      "wikidata": "Q1324660",
+      "lat": 13.265556,
+      "lon": -87.637778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "El Tigre is an island located in the Gulf of Fonseca, a body of water on the Pacific coast of Central America.",
+        "es": "El Tigre es una pequeña isla volcánica del golfo de Fonseca en el Océano Pacífico, perteneciente a Honduras."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tiger Island",
+          "url": "https://en.wikipedia.org/wiki/Tiger_Island"
+        },
+        "es": {
+          "title": "El Tigre (Honduras)",
+          "url": "https://es.wikipedia.org/wiki/El_Tigre_(Honduras)"
+        }
+      },
+      "image": {
+        "file": "Isla_del_Tigre_vista_desde_Coyolito.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Isla_del_Tigre_vista_desde_Coyolito.jpg",
+        "author": "Alfredobi",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "hn-celaque-national-park",
+      "name": "Celaque National Park",
+      "area": "Lempira Department",
+      "city": "Lempira Department",
+      "wikidata": "Q5057521",
+      "lat": 14.535556,
+      "lon": -88.707222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Celaque National Park is a national park in Lempira Ocotepeque and Copán, western Honduras.",
+        "es": "El parque nacional Montaña de Celaque es un sitio natural protegido, situado en la República de Honduras, formado por montañas, mesetas, bosque nuboso y en donde se localiza el punto más alto del país Centroamericano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Celaque National Park",
+          "url": "https://en.wikipedia.org/wiki/Celaque_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Celaque",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Celaque"
+        }
+      },
+      "image": {
+        "file": "Vista_de_Celaque_desde_Talgua_(Noroeste).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vista_de_Celaque_desde_Talgua_(Noroeste).JPG",
+        "author": "ETXEVERZ",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "hn-isla-zacate-grande",
+      "name": "Isla Zacate Grande",
+      "area": "Valle Department",
+      "city": "Valle Department",
+      "wikidata": "Q46067",
+      "lat": 13.335833,
+      "lon": -87.627778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Isla Zacate Grande is a stratovolcano in Honduras.",
+        "es": "La isla Zacate Grande es una isla volcánica, un volcán extinto en Honduras, que posee un largo de siete kilómetros y un ancho de diez kilómetros, y está rodeado de siete islas más pequeñas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Isla Zacate Grande",
+          "url": "https://en.wikipedia.org/wiki/Isla_Zacate_Grande"
+        },
+        "es": {
+          "title": "Isla Zacate Grande",
+          "url": "https://es.wikipedia.org/wiki/Isla_Zacate_Grande"
+        }
+      },
+      "image": {
+        "file": "Isla_Zacate_Grande.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Isla_Zacate_Grande.jpg",
+        "author": "Rick Wunderman",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "hn-la-tigra-national-park",
+      "name": "La Tigra National Park",
+      "area": "Tegucigalpa",
+      "city": "Tegucigalpa",
+      "wikidata": "Q6465411",
+      "lat": 14.206667,
+      "lon": -87.099722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "La Tigra National Park was the first national park in Honduras, by decree No.",
+        "es": "El Parque Nacional La Tigra fue el primer parque nacional en Honduras."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "La Tigra National Park",
+          "url": "https://en.wikipedia.org/wiki/La_Tigra_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional La Tigra",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_La_Tigra"
+        }
+      },
+      "image": {
+        "file": "SanJuancito2010.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:SanJuancito2010.jpg",
+        "author": "Blindc1rca",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "hn-jeanette-kawas-national-park",
+      "name": "Jeanette Kawas National Park",
+      "area": "Atlántida Department",
+      "city": "Atlántida Department",
+      "wikidata": "Q1685981",
+      "lat": 15.85,
+      "lon": -87.666667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Jeannette Kawas National Park is a national park located in the municipality of Tela, on the northern Caribbean coast of the Atlántida department of Honduras, established on 4 November 1994.",
+        "es": "El parque nacional Jeannette Kawas es un parque nacional creado el 1 de enero de 1988 en honor a Blanca Jeannette Kawas y ubicado al oeste de la ciudad de Tela y por la costa caribeña en el norte del departamento de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jeannette Kawas National Park",
+          "url": "https://en.wikipedia.org/wiki/Jeannette_Kawas_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Jeannette Kawas",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Jeannette_Kawas"
+        }
+      },
+      "image": {
+        "file": "Jeannette_Kawas_Punta_Sal_Beach_Near_Entrance_of_Sendero_Los_Curumos.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jeannette_Kawas_Punta_Sal_Beach_Near_Entrance_of_Sendero_Los_Curumos.JPG",
+        "author": "Ricky Ng-Adam",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hn-pico-bonito-national-park",
+      "name": "Pico Bonito National Park",
+      "area": "San Pedro Sula",
+      "city": "San Pedro Sula",
+      "wikidata": "Q2054002",
+      "lat": 15.609722,
+      "lon": -86.872222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pico Bonito National Park is a national park in Honduras.",
+        "es": "Pico Bonito es una montaña que se encuentra en el municipio de El Porvenir y cerca de la ciudad costera de La Ceiba en Honduras."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pico Bonito National Park",
+          "url": "https://en.wikipedia.org/wiki/Pico_Bonito_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Pico Bonito",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Pico_Bonito"
+        }
+      },
+      "image": {
+        "file": "Pico_Bonito.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pico_Bonito.JPG",
+        "author": "Vega-Cesar",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hn-immaculate-conception-cathedral-comayagua",
+      "name": "Immaculate Conception Cathedral, Comayagua",
+      "area": "Comayagua",
+      "city": "Comayagua",
+      "wikidata": "Q2942492",
+      "lat": 14.460192,
+      "lon": -87.640703,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Immaculate Conception Cathedral also called Comayagua Cathedral is dedicated to the Virgin Mary and is located in the Central Square of the city of Comayagua in Honduras.",
+        "es": "La catedral de la Inmaculada Concepción o catedral de Comayagua es un templo católico ubicado en la ciudad de Comayagua, Honduras, y es la catedral de la diócesis de Comayagua."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Immaculate Conception Cathedral, Comayagua",
+          "url": "https://en.wikipedia.org/wiki/Immaculate_Conception_Cathedral%2C_Comayagua"
+        },
+        "es": {
+          "title": "Catedral de la Inmaculada Concepción (Comayagua)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Inmaculada_Concepci%C3%B3n_(Comayagua)"
+        }
+      },
+      "image": {
+        "file": "CATEDRAL_DE_COMAYAGUA_circa_2008.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CATEDRAL_DE_COMAYAGUA_circa_2008.JPG",
+        "author": "Montebrujo1",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "hn-cusuco-national-park",
+      "name": "Cusuco National Park",
+      "area": "San Pedro Sula",
+      "city": "San Pedro Sula",
+      "wikidata": "Q5196587",
+      "lat": 15.5419,
+      "lon": -88.2636,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cusuco National Park is a national park in Honduras.",
+        "es": "El Parque Nacional Cusuco es una zona protegida de Honduras ubicada en el municipio de San Pedro Sula, fue declarado como área protegida en 1987 por el parlamento de Honduras, bajo el decreto legislativo 87-87."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cusuco National Park",
+          "url": "https://en.wikipedia.org/wiki/Cusuco_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Cusuco",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Cusuco"
+        }
+      },
+      "image": {
+        "file": "Helecho_gigante.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Helecho_gigante.jpg",
+        "author": "Anjelkaido",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "hn-sierra-de-agalta-national-park",
+      "name": "Sierra de Agalta National Park",
+      "area": "Olancho Department",
+      "city": "Olancho Department",
+      "wikidata": "Q7511632",
+      "lat": 15.010278,
+      "lon": -85.8525,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sierra de Agalta National Park is a national park in Honduras.",
+        "es": "El Parque nacional de la Sierra de Agalta es un parque nacional hondureño que se encuentra en el departamento de Olancho, a 180 km al noreste de Tegucigalpa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sierra de Agalta National Park",
+          "url": "https://en.wikipedia.org/wiki/Sierra_de_Agalta_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de la Sierra de Agalta",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_la_Sierra_de_Agalta"
+        }
+      },
+      "image": {
+        "file": "MontanasdelaSierradeAgalta_Honduras.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:MontanasdelaSierradeAgalta_Honduras.jpg",
+        "author": "Dennis Garcia",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "hn-el-puente",
+      "name": "El Puente",
+      "area": "La Jigua",
+      "city": "La Jigua",
+      "wikidata": "Q3720992",
+      "lat": 15.110278,
+      "lon": -88.792167,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "El Puente, or the Parque Arqueológico El Puente , is a Maya archaeological site in the department of Copán in Honduras.",
+        "es": "El Puente, llamado localmente Parque Arqueológico El Puente, es la denominación de una zona arqueológica en el Departamento de Copán, Honduras."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "El Puente (Maya site)",
+          "url": "https://en.wikipedia.org/wiki/El_Puente_(Maya_site)"
+        },
+        "es": {
+          "title": "El Puente (zona arqueológica)",
+          "url": "https://es.wikipedia.org/wiki/El_Puente_(zona_arqueol%C3%B3gica)"
+        }
+      }
+    },
+    {
+      "id": "hn-st-michael-the-archangel-cathedral-tegucigalpa",
+      "name": "St. Michael the Archangel Cathedral, Tegucigalpa",
+      "area": "Tegucigalpa",
+      "city": "Tegucigalpa",
+      "wikidata": "Q5758583",
+      "lat": 14.105492,
+      "lon": -87.204078,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The St. Michael the Archangel Cathedral is a Catholic temple in Tegucigalpa, Honduras.",
+        "es": "La catedral de la ciudad de Tegucigalpa, capital de la república de Honduras, está dedicada al arcángel San Miguel."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tegucigalpa Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Tegucigalpa_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de San Miguel Arcángel (Tegucigalpa)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Miguel_Arc%C3%A1ngel_(Tegucigalpa)"
+        }
+      },
+      "image": {
+        "file": "Barrio_La_Hoya,_Tegucigalpa,_Honduras_-_panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Barrio_La_Hoya%2C_Tegucigalpa%2C_Honduras_-_panoramio.jpg",
+        "author": "feinteriano",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hn-pico-pijol-national-park",
+      "name": "Pico Pijol National Park",
+      "area": "Yoro Department",
+      "city": "Yoro Department",
+      "wikidata": "Q9055966",
+      "lat": 15.197222,
+      "lon": -87.583056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pico Pijol National Park is a national park in Honduras.",
+        "es": "El Parque nacional Pico Pijol es un espacio protegido con el estatus de parque nacional en el país centroamericano de Honduras."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pico Pijol National Park",
+          "url": "https://en.wikipedia.org/wiki/Pico_Pijol_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Pico Pijol",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Pico_Pijol"
+        }
+      }
+    },
+    {
+      "id": "hn-capiro-calentura-national-park",
+      "name": "Capiro Calentura National Park",
+      "area": "San Pedro Sula",
+      "city": "San Pedro Sula",
+      "wikidata": "Q5035412",
+      "lat": 15.877222,
+      "lon": -85.935,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Capiro Calentura National Park is a national park in Honduras.",
+        "es": "El Parque nacional Capiro y Calentura es un área protegida en el país centroamericano de Honduras, específicamente en el departamento de Colón y a unos kilómetros al sur de la ciudad hondureña de Trujillo, en las…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Capiro Calentura National Park",
+          "url": "https://en.wikipedia.org/wiki/Capiro_Calentura_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Capiro y Calentura",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Capiro_y_Calentura"
+        }
+      }
+    },
+    {
+      "id": "hn-montana-de-yoro-national-park",
+      "name": "Montaña de Yoro National Park",
+      "area": "Tegucigalpa",
+      "city": "Tegucigalpa",
+      "wikidata": "Q6904522",
+      "lat": 15.004722,
+      "lon": -87.072222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Montañade Yoro National Park is a national park in Honduras.",
+        "es": "El Parque nacional Montaña de Yoro es un parque nacional en el país centroamericano de Honduras."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Montaña de Yoro National Park",
+          "url": "https://en.wikipedia.org/wiki/Monta%C3%B1a_de_Yoro_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Montaña de Yoro",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Monta%C3%B1a_de_Yoro"
+        }
+      }
+    },
+    {
+      "id": "hn-patuca-national-park",
+      "name": "Patuca National Park",
+      "area": "Olancho Department",
+      "city": "Olancho Department",
+      "wikidata": "Q7148751",
+      "lat": 14.431944,
+      "lon": -85.446389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Patuca National Park is a national park in Honduras.",
+        "es": "El Parque nacional Patuca es un parque nacional en Honduras."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Patuca National Park",
+          "url": "https://en.wikipedia.org/wiki/Patuca_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Patuca",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Patuca"
+        }
+      }
+    },
+    {
+      "id": "hn-presidential-palace-of-honduras",
+      "name": "Presidential Palace of Honduras",
+      "area": "Tegucigalpa",
+      "city": "Tegucigalpa",
+      "wikidata": "Q5754498",
+      "lat": 14.088708,
+      "lon": -87.187803,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Presidential Palace of Honduras is the official residence of the president of the Republic of Honduras.",
+        "es": "Casa Presidencial de Honduras o también conocida como «Palacio José Cecilio del Valle», es la residencia destinada para el presidente de Honduras."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Presidential Palace of Honduras",
+          "url": "https://en.wikipedia.org/wiki/Presidential_Palace_of_Honduras"
+        },
+        "es": {
+          "title": "Casa Presidencial de Honduras",
+          "url": "https://es.wikipedia.org/wiki/Casa_Presidencial_de_Honduras"
+        }
+      }
+    },
+    {
+      "id": "hn-tegucigalpa-honduras-temple",
+      "name": "Tegucigalpa Honduras Temple",
+      "area": "Tegucigalpa",
+      "city": "Tegucigalpa",
+      "wikidata": "Q7694766",
+      "website": "https://www.churchofjesuschrist.org/temples/details/tegucigalpa-honduras-temple?lang=eng",
+      "lat": 14.0526,
+      "lon": -87.2376,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Tegucigalpa Honduras Temple is a temple of the Church of Jesus Christ of Latter-day Saints located in Tegucigalpa, the capital city of Honduras.",
+        "es": "El Templo de la Ciudad de Tegucigalpa es uno de los templos construidos y operados por la Iglesia de Jesucristo de los Santos de los Últimos Días, el número 141 construido por la iglesia, el sexto en Centroamérica y…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tegucigalpa Honduras Temple",
+          "url": "https://en.wikipedia.org/wiki/Tegucigalpa_Honduras_Temple"
+        },
+        "es": {
+          "title": "Templo de Tegucigalpa",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_Tegucigalpa"
+        }
+      },
+      "image": {
+        "file": "Tegucigalpa_Honduras_Temple.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tegucigalpa_Honduras_Temple.JPG",
+        "author": "Donald A. Cazier",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hn-st-peter-apostle-metropolitan-cathedral",
+      "name": "St. Peter Apostle Metropolitan Cathedral",
+      "area": "San Pedro Sula",
+      "city": "San Pedro Sula",
+      "wikidata": "Q16473176",
+      "lat": 15.505344,
+      "lon": -88.023983,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Metropolitan Cathedral of St. Peter the Apostle, commonly called the San Pedro Sula Cathedral, is a Roman Catholic church in San Pedro Sula, Honduras.",
+        "es": "La Catedral Metropolitana San Pedro Apóstol se encuentra en la ciudad de San Pedro Sula, departamento de Cortés, en la república de Honduras, está dedicada a su santo patrón San Pedro Apóstol."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Peter the Apostle Cathedral, San Pedro Sula",
+          "url": "https://en.wikipedia.org/wiki/St._Peter_the_Apostle_Cathedral%2C_San_Pedro_Sula"
+        },
+        "es": {
+          "title": "Catedral de San Pedro Apóstol (San Pedro Sula)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Pedro_Ap%C3%B3stol_(San_Pedro_Sula)"
+        }
+      },
+      "image": {
+        "file": "Catedral_San_Pedro_Apóstol_SPS.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedral_San_Pedro_Ap%C3%B3stol_SPS.jpg",
+        "author": "Josueochoa0212",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "hn-maguen-david-synagogue",
+      "name": "Maguen David Synagogue",
+      "area": "San Pedro Sula",
+      "city": "San Pedro Sula",
+      "wikidata": "Q6732501",
+      "lat": 15.505831,
+      "lon": -88.035822,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Maguen David Synagogue is a Conservative Jewish congregation and synagogue, located in San Pedro Sula, in the Cortés department of Honduras.",
+        "es": "La Sinagoga Maguen David es un edificio religioso judío localizado en la ciudad de San Pedro Sula, en el país centroamericano de Honduras se trata de una de las dos únicas sinagogas en todo el país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Maguen David Synagogue",
+          "url": "https://en.wikipedia.org/wiki/Maguen_David_Synagogue"
+        },
+        "es": {
+          "title": "Sinagoga Maguen David (San Pedro Sula)",
+          "url": "https://es.wikipedia.org/wiki/Sinagoga_Maguen_David_(San_Pedro_Sula)"
+        }
+      },
+      "image": {
+        "file": "Maguen_David_Synagogue.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Maguen_David_Synagogue.JPG",
+        "author": "NYC2TLV",
+        "license": "CC BY-SA 3.0"
+      }
     }
   ]
 }

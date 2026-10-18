@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -391,6 +397,2138 @@
         "text": "Tu-Su 10:00-18:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "se-gotland",
+      "name": "Gotland",
+      "area": "Gotland County",
+      "city": "Gotland County",
+      "wikidata": "Q1027830",
+      "lat": 57.5,
+      "lon": 18.55,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Gotland, also historically spelled Gottland or Gothland, is Sweden's largest island.",
+        "es": "Gotlandia es una isla de Suecia situada en el mar Báltico, al este de la península Escandinava y al norte de Polonia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gotland",
+          "url": "https://en.wikipedia.org/wiki/Gotland"
+        },
+        "es": {
+          "title": "Gotlandia",
+          "url": "https://es.wikipedia.org/wiki/Gotlandia"
+        }
+      },
+      "image": {
+        "file": "Helgumannen_(2)_hq.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Helgumannen_(2)_hq.JPG",
+        "author": "Schorle",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-vanern",
+      "name": "Vänern",
+      "area": "Åmål Municipality",
+      "city": "Åmål Municipality",
+      "wikidata": "Q173596",
+      "lat": 58.916667,
+      "lon": 13.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vänern is the largest lake in Sweden, the largest lake in the European Union and the third-largest lake in Europe after Ladoga and Onega in Russia.",
+        "es": "El lago Vänern es el lago más grande de Suecia y de Escandinavia y el tercero más grande de Europa, con una superficie de 5648 km² y una altitud de 44 metros sobre el nivel del mar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vänern",
+          "url": "https://en.wikipedia.org/wiki/V%C3%A4nern"
+        },
+        "es": {
+          "title": "Lago Vänern",
+          "url": "https://es.wikipedia.org/wiki/Lago_V%C3%A4nern"
+        }
+      },
+      "image": {
+        "file": "Vänern_by_Sentinel-2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A4nern_by_Sentinel-2.jpg",
+        "author": "Copernicus Sentinel-2, ESA",
+        "license": "CC BY-SA 3.0 igo"
+      }
+    },
+    {
+      "id": "se-oland",
+      "name": "Öland",
+      "area": "Kalmar County",
+      "city": "Kalmar County",
+      "wikidata": "Q239276",
+      "lat": 56.733333,
+      "lon": 16.666667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Öland is the second-largest Swedish island and the smallest of the traditional provinces of Sweden.",
+        "es": "Olandia es una isla de Suecia localizada frente a la costa de Esmolandia, en el mar Báltico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Öland",
+          "url": "https://en.wikipedia.org/wiki/%C3%96land"
+        },
+        "es": {
+          "title": "Olandia",
+          "url": "https://es.wikipedia.org/wiki/Olandia"
+        }
+      },
+      "image": {
+        "file": "Resmo,Kvarnar_vid_Gynge_hög_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Resmo%2CKvarnar_vid_Gynge_h%C3%B6g_01.jpg",
+        "author": "Bernt Fransson,Lindås",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "se-resund-bridge",
+      "name": "Øresund Bridge",
+      "area": "Malmö",
+      "city": "Malmö",
+      "wikidata": "Q297871",
+      "website": "https://www.oresundsbron.com",
+      "lat": 55.576444,
+      "lon": 12.821639,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Øresund Bridge or Öresund Bridge is a combined railway and motorway cable-stayed bridge across the Øresund strait between Denmark and Sweden.",
+        "es": "El puente-túnel de Øresund o de Öresund es un puente-túnel que conecta las dos áreas metropolitanas de la región de Øresund: la capital danesa, Copenhague, y la ciudad sueca de Malmö."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Øresund Bridge",
+          "url": "https://en.wikipedia.org/wiki/%C3%98resund_Bridge"
+        },
+        "es": {
+          "title": "Puente de Øresund",
+          "url": "https://es.wikipedia.org/wiki/Puente_de_%C3%98resund"
+        }
+      },
+      "image": {
+        "file": "Øresund_Bridge_from_the_air_in_September_2015.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%98resund_Bridge_from_the_air_in_September_2015.jpg",
+        "author": "Nick-D",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "se-vattern",
+      "name": "Vättern",
+      "area": "Ödeshög Municipality",
+      "city": "Ödeshög Municipality",
+      "wikidata": "Q188195",
+      "lat": 58.4,
+      "lon": 14.6,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vättern is the second-largest lake in Sweden, after Vänern, and the sixth-largest lake in Europe.",
+        "es": "El lago Vättern es el segundo lago más grande de Suecia, después del lago Vänern."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vättern",
+          "url": "https://en.wikipedia.org/wiki/V%C3%A4ttern"
+        },
+        "es": {
+          "title": "Lago Vättern",
+          "url": "https://es.wikipedia.org/wiki/Lago_V%C3%A4ttern"
+        }
+      },
+      "image": {
+        "file": "Vättern_by_Sentinel-2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A4ttern_by_Sentinel-2.jpg",
+        "author": "Copernicus Sentinel-2, ESA",
+        "license": "CC BY-SA 3.0 igo"
+      }
+    },
+    {
+      "id": "se-malaren",
+      "name": "Mälaren",
+      "area": "Stockholm County",
+      "city": "Stockholm County",
+      "wikidata": "Q184492",
+      "lat": 59.5,
+      "lon": 17.2,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mälaren, historically referred to as Lake Malar in English, is the third-largest freshwater lake in Sweden.",
+        "es": "El lago Mälar o Mälaren es un gran lago de Suecia, ubicado en la región histórica de Svealand o Tierra de los Svear."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mälaren",
+          "url": "https://en.wikipedia.org/wiki/M%C3%A4laren"
+        },
+        "es": {
+          "title": "Lago Mälar",
+          "url": "https://es.wikipedia.org/wiki/Lago_M%C3%A4lar"
+        }
+      },
+      "image": {
+        "file": "Mälarsee.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A4larsee.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-birka",
+      "name": "Birka",
+      "area": "Stockholm",
+      "city": "Stockholm",
+      "wikidata": "Q208177",
+      "lat": 59.336667,
+      "lon": 17.545,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Birka, on the island of Björkö in present-day Sweden, was an important Viking Age trading center which handled goods from Scandinavia as well as many parts of Continental Europe and the Orient.",
+        "es": "Birka, situado en la isla de Björkö, fue un importante centro de comercio de la época vikinga que atendía mercancías de Escandinavia y Finlandia, así como de Europa Central y del Este y de Oriente."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Birka",
+          "url": "https://en.wikipedia.org/wiki/Birka"
+        },
+        "es": {
+          "title": "Birka",
+          "url": "https://es.wikipedia.org/wiki/Birka"
+        }
+      },
+      "image": {
+        "file": "BirkaExcavation1.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BirkaExcavation1.png",
+        "author": "Alex Peterson",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-turning-torso",
+      "name": "Turning Torso",
+      "area": "Malmö",
+      "city": "Malmö",
+      "wikidata": "Q206435",
+      "lat": 55.613333,
+      "lon": 12.976389,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Turning Torso is a neo-futurist residential skyscraper built in Malmö, Sweden, in 2005.",
+        "es": "Turning Torso es un rascacielos neofuturista residencial de Suecia y es el segundo edificio más alto del país y de Escandinavia, superado en 2022 por el Karlatornet."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Turning Torso",
+          "url": "https://en.wikipedia.org/wiki/Turning_Torso"
+        },
+        "es": {
+          "title": "Turning Torso",
+          "url": "https://es.wikipedia.org/wiki/Turning_Torso"
+        }
+      },
+      "image": {
+        "file": "19-07-12-Malmö-DJI_0765-Turning-Torso-RalfR.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:19-07-12-Malm%C3%B6-DJI_0765-Turning-Torso-RalfR.jpg",
+        "author": "Ralf Roletschek",
+        "license": "CC BY-SA 1.0 fi"
+      }
+    },
+    {
+      "id": "se-hjalmaren",
+      "name": "Hjälmaren",
+      "area": "Örebro Municipality",
+      "city": "Örebro Municipality",
+      "wikidata": "Q211425",
+      "lat": 59.25,
+      "lon": 15.75,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Hjälmaren, also spelled Jälmaren, is Sweden's fourth largest lake.",
+        "es": "El lago Hjälmaren es el cuarto más grande de Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hjälmaren",
+          "url": "https://en.wikipedia.org/wiki/Hj%C3%A4lmaren"
+        },
+        "es": {
+          "title": "Hjälmaren",
+          "url": "https://es.wikipedia.org/wiki/Hj%C3%A4lmaren"
+        }
+      },
+      "image": {
+        "file": "La3-demis-hjalmaren.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:La3-demis-hjalmaren.png",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "se-uppsala-cathedral",
+      "name": "Uppsala Cathedral",
+      "area": "Uppsala Municipality",
+      "city": "Uppsala Municipality",
+      "wikidata": "Q850042",
+      "website": "https://www.svenskakyrkan.se/uppsaladomkyrka",
+      "lat": 59.858056,
+      "lon": 17.633333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Uppsala Cathedral is a cathedral located between the University Hall of Uppsala University and the Fyris river in the centre of Uppsala, Sweden.",
+        "es": "La catedral de Upsala es una catedral luterana en la ciudad de Upsala, Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Uppsala Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Uppsala_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Upsala",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Upsala"
+        }
+      },
+      "image": {
+        "file": "Uppsala_domkyrka,_flygbild_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Uppsala_domkyrka%2C_flygbild_(cropped).jpg",
+        "author": "Kateryna Baiduzha",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "se-faro",
+      "name": "Fårö",
+      "area": "Region Gotland",
+      "city": "Region Gotland",
+      "wikidata": "Q1004693",
+      "lat": 57.933333,
+      "lon": 19.15,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fårö is a Baltic Sea island just north of the island of Gotland, itself off mainland Sweden's southeastern coast.",
+        "es": "Fårö es una isla de Suecia localizada en el mar Báltico a algunos kilómetros al norte de la isla de Gotland, de la que depende administrativamente."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fårö",
+          "url": "https://en.wikipedia.org/wiki/F%C3%A5r%C3%B6"
+        },
+        "es": {
+          "title": "Fårö",
+          "url": "https://es.wikipedia.org/wiki/F%C3%A5r%C3%B6"
+        }
+      },
+      "image": {
+        "file": "Rauks_(3881539849).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rauks_(3881539849).jpg",
+        "author": "allen watkin from London, UK",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "se-market",
+      "name": "Märket",
+      "area": "Östhammar Municipality",
+      "city": "Östhammar Municipality",
+      "wikidata": "Q163395",
+      "lat": 60.30095,
+      "lon": 19.13225,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Märket is a 3.3-hectare uninhabited skerry in the Baltic Sea shared by Sweden and Finland, with a lighthouse as its salient humanmade feature.",
+        "es": "Märket es una pequeña isla en el mar Báltico, compartida entre Finlandia y Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Märket",
+          "url": "https://en.wikipedia.org/wiki/M%C3%A4rket"
+        },
+        "es": {
+          "title": "Märket",
+          "url": "https://es.wikipedia.org/wiki/M%C3%A4rket"
+        }
+      },
+      "image": {
+        "file": "Märket_Lighthouse,_Finland_IMG_3374.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A4rket_Lighthouse%2C_Finland_IMG_3374.jpg",
+        "author": "tt_koski",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "se-djurgarden",
+      "name": "Djurgården",
+      "area": "Stockholm",
+      "city": "Stockholm",
+      "wikidata": "Q831527",
+      "lat": 59.325,
+      "lon": 18.116667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Djurgården or, more officially, Kungliga Djurgården, is an island in central Stockholm, Sweden.",
+        "es": "Djurgården es una isla y un parque de Estocolmo en Suecia, situada al este de la ciudad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Djurgården",
+          "url": "https://en.wikipedia.org/wiki/Djurg%C3%A5rden"
+        },
+        "es": {
+          "title": "Djurgården",
+          "url": "https://es.wikipedia.org/wiki/Djurg%C3%A5rden"
+        }
+      },
+      "image": {
+        "file": "Södra_Djurgården_panorama_2010a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:S%C3%B6dra_Djurg%C3%A5rden_panorama_2010a.jpg",
+        "author": "Holger.Ellgaard",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-gripsholm-castle",
+      "name": "Gripsholm Castle",
+      "area": "Strängnäs Municipality",
+      "city": "Strängnäs Municipality",
+      "wikidata": "Q714783",
+      "website": "https://www.royalpalaces.se/english/royal-palaces-and-sites/gripsholm-castle.html",
+      "lat": 59.256111,
+      "lon": 17.219167,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Gripsholm Castle is a castle in Mariefred, Södermanland, Sweden.",
+        "es": "Gripsholm Castle is a castle in Mariefred, Södermanland, Sweden."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gripsholm Castle",
+          "url": "https://en.wikipedia.org/wiki/Gripsholm_Castle"
+        },
+        "es": {
+          "title": "Gripsholm Castle",
+          "url": "https://en.wikipedia.org/wiki/Gripsholm_Castle"
+        }
+      },
+      "image": {
+        "file": "Gripsholms_slott_view2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gripsholms_slott_view2.jpg",
+        "author": "Xauxa Håkan Svensson",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-ven",
+      "name": "Ven",
+      "area": "Landskrona Municipality",
+      "city": "Landskrona Municipality",
+      "wikidata": "Q509682",
+      "lat": 55.905833,
+      "lon": 12.695,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ven is a Swedish island in the Öresund strait lying between Scania, Sweden and Zealand, Denmark.",
+        "es": "Ven es una pequeña isla sueca en el estrecho de Öresund, entre Escania y Selandia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ven (Sweden)",
+          "url": "https://en.wikipedia.org/wiki/Ven_(Sweden)"
+        },
+        "es": {
+          "title": "Ven (isla)",
+          "url": "https://es.wikipedia.org/wiki/Ven_(isla)"
+        }
+      },
+      "image": {
+        "file": "Ven-from-east.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ven-from-east.jpg",
+        "author": "Bjørn Christian Tørrissen",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "se-grimeton-vlf-transmitter",
+      "name": "Grimeton VLF transmitter",
+      "area": "Varberg Municipality",
+      "city": "Varberg Municipality",
+      "wikidata": "Q920206",
+      "lat": 57.113983,
+      "lon": 12.404417,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Grimeton Radio Station in southern Sweden, close to Varberg in Halland, is an early longwave transatlantic wireless telegraphy station built in 1922–1924, that has been preserved as a historical site.",
+        "es": "La estación de radio Varberg es un centro de telecomunicaciones construido en Grimeton, Suecia en 1922-1924 y refleja los comienzos de la comunicación inalámbrica transatlántica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grimeton Radio Station",
+          "url": "https://en.wikipedia.org/wiki/Grimeton_Radio_Station"
+        },
+        "es": {
+          "title": "Estación de radiotelegrafía de Varberg",
+          "url": "https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_radiotelegraf%C3%ADa_de_Varberg"
+        }
+      },
+      "image": {
+        "file": "Grimeton_VLF_transmitter_2004.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Grimeton_VLF_transmitter_2004.jpg",
+        "author": "Henrik Enfors, uploaded by Erik Enfors (ia:User:Torrente)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-hovgarden",
+      "name": "Hovgården",
+      "area": "Stockholm",
+      "city": "Stockholm",
+      "wikidata": "Q1916655",
+      "lat": 59.36,
+      "lon": 17.52,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Hovgården is an archaeological site on the Lake Mälaren island of Adelsö in Ekerö Municipality in central-eastern Sweden.",
+        "es": "Hovgården ubicado en una lengua de tierra de la isla de Adelsö en el lago Mälaren es un sitio arqueológico en el poblado Adelsö en el municipio de Ekerö en Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hovgården",
+          "url": "https://en.wikipedia.org/wiki/Hovg%C3%A5rden"
+        },
+        "es": {
+          "title": "Hovgården",
+          "url": "https://es.wikipedia.org/wiki/Hovg%C3%A5rden"
+        }
+      },
+      "image": {
+        "file": "Hovgården_Royal_Tumuli_&_Adelsö_Church_2009.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hovg%C3%A5rden_Royal_Tumuli_%26_Adels%C3%B6_Church_2009.jpg",
+        "author": "Jacob Truedson Demitz",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "se-storkyrkan",
+      "name": "Storkyrkan",
+      "area": "Stockholm",
+      "city": "Stockholm",
+      "wikidata": "Q1133075",
+      "lat": 59.325833,
+      "lon": 18.070556,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Storkyrkan, also called Stockholms domkyrka and Sankt Nikolai kyrka, is the oldest church in Stockholm.",
+        "es": "La catedral de Estocolmo, conocida en Suecia como Storkyrkan o Sankt Nikolai kyrka, es la iglesia más antigua de Estocolmo y la sede de la diócesis de Estocolmo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Storkyrkan",
+          "url": "https://en.wikipedia.org/wiki/Storkyrkan"
+        },
+        "es": {
+          "title": "Catedral de San Nicolás (Estocolmo)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Nicol%C3%A1s_(Estocolmo)"
+        }
+      },
+      "image": {
+        "file": "Storkyrkan_2025_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Storkyrkan_2025_01.jpg",
+        "author": "ArildV",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "se-siljan",
+      "name": "Siljan",
+      "area": "Mora Municipality",
+      "city": "Mora Municipality",
+      "wikidata": "Q217430",
+      "lat": 60.85,
+      "lon": 14.8,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Siljan, in Dalarna in central Sweden, is Sweden's seventh largest lake.",
+        "es": "El lago Siljan, en la región de Dalecarlia en el centro de Suecia, es el sexto mayor lago del país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Siljan (lake)",
+          "url": "https://en.wikipedia.org/wiki/Siljan_(lake)"
+        },
+        "es": {
+          "title": "Lago Siljan",
+          "url": "https://es.wikipedia.org/wiki/Lago_Siljan"
+        }
+      },
+      "image": {
+        "file": "Siljan_WorldWind.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Siljan_WorldWind.jpg",
+        "author": "User:Vesta",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "se-oland-bridge",
+      "name": "Öland Bridge",
+      "area": "Malmö",
+      "city": "Malmö",
+      "wikidata": "Q296799",
+      "lat": 56.675,
+      "lon": 16.416667,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Öland bridge is a road bridge in Sweden that spans the Kalmar Strait, between Jutnabben in Kalmar on the mainland and Möllstorp in Algutsrum parish near Färjestaden on Öland in the Baltic Sea.",
+        "es": "El puente de Öland es un puente de carretera que salva el estrecho de Kalmar, un estrecho del mar Báltico, y que conecta Kalmar con la isla de Öland."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Öland bridge",
+          "url": "https://en.wikipedia.org/wiki/%C3%96land_bridge"
+        },
+        "es": {
+          "title": "Puente de Öland",
+          "url": "https://es.wikipedia.org/wiki/Puente_de_%C3%96land"
+        }
+      },
+      "image": {
+        "file": "Ölandsbron_02.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%96landsbron_02.JPG",
+        "author": "Bernt Fransson,Lindås",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "se-gotska-sandon",
+      "name": "Gotska Sandön",
+      "area": "Region Gotland",
+      "city": "Region Gotland",
+      "wikidata": "Q387843",
+      "website": "https://www.sverigesnationalparker.se/park/gotska-sandons-nationalpark",
+      "lat": 58.360556,
+      "lon": 19.248056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Gotska Sandön is an uninhabited Swedish island north of Gotland in the Baltic Sea.",
+        "es": "Gotska Sandön Es una isla deshabitada del país europeo de Suecia en el Mar Báltico, situada a unos 38 kilómetros al norte de las islas de Fårö y Gotland."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gotska Sandön",
+          "url": "https://en.wikipedia.org/wiki/Gotska_Sand%C3%B6n"
+        },
+        "es": {
+          "title": "Gotska Sandön",
+          "url": "https://es.wikipedia.org/wiki/Gotska_Sand%C3%B6n"
+        }
+      },
+      "image": {
+        "file": "GotskaSandon_NorthSide.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:GotskaSandon_NorthSide.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-decorated-farmhouses-of-halsingland",
+      "name": "Decorated Farmhouses of Hälsingland",
+      "area": "Hälsingland",
+      "city": "Hälsingland",
+      "wikidata": "Q1642003",
+      "lat": 61.707222,
+      "lon": 16.195833,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Decorated Farmhouses of Hälsingland is a World Heritage Site inscribed on 1 July 2012 as Sweden's fifteenth entry on the list.",
+        "es": "Las granjas de Hälsingland son una herencia cultural y un ejemplo de la forma de construir tradicional sueca en la vieja sociedad campestre de Hälsingland."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Decorated Farmhouses of Hälsingland",
+          "url": "https://en.wikipedia.org/wiki/Decorated_Farmhouses_of_H%C3%A4lsingland"
+        },
+        "es": {
+          "title": "Granjas de Hälsingland",
+          "url": "https://es.wikipedia.org/wiki/Granjas_de_H%C3%A4lsingland"
+        }
+      },
+      "image": {
+        "file": "Fågelsjö_Gammelgård_Interiör.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:F%C3%A5gelsj%C3%B6_Gammelg%C3%A5rd_Interi%C3%B6r.JPG",
+        "author": "Catasa",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-kalmar-castle",
+      "name": "Kalmar Castle",
+      "area": "Kalmar County",
+      "city": "Kalmar County",
+      "wikidata": "Q648226",
+      "lat": 56.658056,
+      "lon": 16.355278,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kalmar Castle is a castle in Kalmar, in the province of Småland, Sweden.",
+        "es": "El castillo de Kalmar es un castillo medieval sueco localizado en la ciudad de Kalmar, en la homónima provincia de Kalmar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kalmar Castle",
+          "url": "https://en.wikipedia.org/wiki/Kalmar_Castle"
+        },
+        "es": {
+          "title": "Castillo de Kalmar",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Kalmar"
+        }
+      },
+      "image": {
+        "file": "Kalmar_slott_frontal.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kalmar_slott_frontal.jpg",
+        "author": "Martin Grädler",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-sodermalm",
+      "name": "Södermalm",
+      "area": "Stockholm",
+      "city": "Stockholm",
+      "wikidata": "Q740149",
+      "lat": 59.3136,
+      "lon": 18.0711,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Södermalm, often shortened to just Söder, is the southern district of Stockholm City Centre.",
+        "es": "Södermalm es una isla de Estocolmo en Suecia, que forma la parte sur del centro de la ciudad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Södermalm",
+          "url": "https://en.wikipedia.org/wiki/S%C3%B6dermalm"
+        },
+        "es": {
+          "title": "Södermalm",
+          "url": "https://es.wikipedia.org/wiki/S%C3%B6dermalm"
+        }
+      },
+      "image": {
+        "file": "Södermalm.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:S%C3%B6dermalm.JPG",
+        "author": "Batintherain",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "se-rok-runestone",
+      "name": "Rök Runestone",
+      "area": "Ödeshög Municipality",
+      "city": "Ödeshög Municipality",
+      "wikidata": "Q472975",
+      "lat": 58.295033,
+      "lon": 14.775028,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Rök runestone is one of the most famous runestones, featuring the longest known runic inscription in stone.",
+        "es": "La piedra de Rök es una estela rúnica o piedra rúnica, situada en Suecia, en los terrenos de la iglesia de Rök, en la comuna de Ödeshög, provincia de Östergötland, cercana a la orilla este del lago Vättern."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rök runestone",
+          "url": "https://en.wikipedia.org/wiki/R%C3%B6k_runestone"
+        },
+        "es": {
+          "title": "Piedra de Rök",
+          "url": "https://es.wikipedia.org/wiki/Piedra_de_R%C3%B6k"
+        }
+      },
+      "image": {
+        "file": "Rökstenen_1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:R%C3%B6kstenen_1.JPG",
+        "author": "Bengt Olof ÅRADSSON",
+        "license": "CC BY 1.0"
+      }
+    },
+    {
+      "id": "se-rock-carvings-in-tanum",
+      "name": "Rock Carvings in Tanum",
+      "area": "Tanumshede",
+      "city": "Tanumshede",
+      "wikidata": "Q1761052",
+      "lat": 58.69995,
+      "lon": 11.33641,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Rock Carvings in Tanum are a collection of petroglyphs near Tanumshede, Bohuslän, Sweden, which were declared a World Heritage Site by UNESCO in 1994 because of their high concentration.",
+        "es": "Los grabados rupestres de Tanum se encuentran en la costa occidental de Suecia, aproximadamente a la misma distancia de Oslo y de Gotemburgo, unos 150 kilómetros al norte de Gotemburgo, en la provincia histórica de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rock Carvings in Tanum",
+          "url": "https://en.wikipedia.org/wiki/Rock_Carvings_in_Tanum"
+        },
+        "es": {
+          "title": "Grabados rupestres de Tanum",
+          "url": "https://es.wikipedia.org/wiki/Grabados_rupestres_de_Tanum"
+        }
+      },
+      "image": {
+        "file": "Tanumshede_2005_rock_carvings_7.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tanumshede_2005_rock_carvings_7.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "se-riddarholm-church",
+      "name": "Riddarholm Church",
+      "area": "Stockholm",
+      "city": "Stockholm",
+      "wikidata": "Q657118",
+      "website": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-riddarholmen-church.html",
+      "lat": 59.324722,
+      "lon": 18.064722,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Riddarholmen Church is the church of the former medieval Greyfriars Monastery in Stockholm, Sweden.",
+        "es": "La Iglesia de Riddarholmen es la iglesia que sirve de panteón a los Reyes de Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Riddarholmen Church",
+          "url": "https://en.wikipedia.org/wiki/Riddarholmen_Church"
+        },
+        "es": {
+          "title": "Iglesia de Riddarholmen",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Riddarholmen"
+        }
+      },
+      "image": {
+        "file": "Riddarholmskyrkan_juni_2005.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Riddarholmskyrkan_juni_2005.jpg",
+        "author": "Nordelch",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-gamla-uppsala",
+      "name": "Gamla Uppsala",
+      "area": "Uppsala Municipality",
+      "city": "Uppsala Municipality",
+      "wikidata": "Q433032",
+      "lat": 59.894444,
+      "lon": 17.638889,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Gamla Uppsala is a parish and a village outside Uppsala in Sweden.",
+        "es": "Gamla Uppsala es una parroquia y una población a las afueras de Uppsala, en Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gamla Uppsala",
+          "url": "https://en.wikipedia.org/wiki/Gamla_Uppsala"
+        },
+        "es": {
+          "title": "Gamla Uppsala",
+          "url": "https://es.wikipedia.org/wiki/Gamla_Uppsala"
+        }
+      },
+      "image": {
+        "file": "Gamla_uppsala.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gamla_uppsala.jpg",
+        "author": "OlofE",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-moderna-museet",
+      "name": "Moderna Museet",
+      "area": "Stockholm",
+      "city": "Stockholm",
+      "wikidata": "Q1274511",
+      "lat": 59.32639,
+      "lon": 18.08361,
+      "phone": "+46-8-520-235-00",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Moderna Museet is a state museum for modern and contemporary art and design, located on the island of Skeppsholmen in central Stockholm, opened in 1958.",
+        "es": "El Moderna Museet, inaugurado en 1958, es el principal museo de arte moderno y contemporáneo de Suecia, situado en la isla de Skeppsholmen en el centro de Estocolmo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Moderna Museet",
+          "url": "https://en.wikipedia.org/wiki/Moderna_Museet"
+        },
+        "es": {
+          "title": "Moderna Museet",
+          "url": "https://es.wikipedia.org/wiki/Moderna_Museet"
+        }
+      },
+      "image": {
+        "file": "Moderna_museet,_2006.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Moderna_museet%2C_2006.jpg",
+        "author": "No machine-readable author provided. Kalle1~commonswiki assumed (based on copyri",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "se-liseberg",
+      "name": "Liseberg",
+      "area": "Gothenburg",
+      "city": "Gothenburg",
+      "wikidata": "Q1413270",
+      "website": "https://www.liseberg.com",
+      "lat": 57.695556,
+      "lon": 11.99,
+      "phone": "+46-31-40-01-00",
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Liseberg is an amusement park located in Gothenburg, Sweden, that opened in 1923.",
+        "es": "Liseberg es un parque de atracciones situado en Gotemburgo, Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Liseberg",
+          "url": "https://en.wikipedia.org/wiki/Liseberg"
+        },
+        "es": {
+          "title": "Liseberg",
+          "url": "https://es.wikipedia.org/wiki/Liseberg"
+        }
+      },
+      "image": {
+        "file": "Liseberg,_20221223.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Liseberg%2C_20221223.jpg",
+        "author": "AleWi",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "se-visingso",
+      "name": "Visingsö",
+      "area": "Jönköping Municipality",
+      "city": "Jönköping Municipality",
+      "wikidata": "Q529887",
+      "lat": 58.05,
+      "lon": 14.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Visingsö is an island in the southern half of Lake Vättern in Sweden.",
+        "es": "Visingsö es una isla situada en la mitad sur del lago Vättern en Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Visingsö",
+          "url": "https://en.wikipedia.org/wiki/Visings%C3%B6"
+        },
+        "es": {
+          "title": "Visingsö",
+          "url": "https://es.wikipedia.org/wiki/Visings%C3%B6"
+        }
+      },
+      "image": {
+        "file": "Brahekyrkan_view01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brahekyrkan_view01.jpg",
+        "author": "Håkan Svensson (Xauxa)",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "se-ladonia",
+      "name": "Ladonia",
+      "area": "Höganäs Municipality",
+      "city": "Höganäs Municipality",
+      "wikidata": "Q968430",
+      "website": "https://www.ladonia.org/",
+      "lat": 56.287778,
+      "lon": 12.539444,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ladonia is a micronation, proclaimed in 1996 as the result of a years-long court battle between artist Lars Vilks and local authorities over two sculptures.",
+        "es": "Ladonia es una micronación autoproclamada y una República Real."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ladonia (micronation)",
+          "url": "https://en.wikipedia.org/wiki/Ladonia_(micronation)"
+        },
+        "es": {
+          "title": "Ladonia",
+          "url": "https://es.wikipedia.org/wiki/Ladonia"
+        }
+      },
+      "image": {
+        "file": "Arx_1600.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arx_1600.jpg",
+        "author": "Leif Bolding",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-hisingen",
+      "name": "Hisingen",
+      "area": "Gothenburg",
+      "city": "Gothenburg",
+      "wikidata": "Q851977",
+      "lat": 57.766667,
+      "lon": 11.883333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Hisingen is the fifth-largest island of Sweden, with an area of 199 km2.",
+        "es": "Hisingen es la cuarta isla por tamaño de Suecia, con una superficie de 199 km², y la más poblada, formando parte del municipio de Gotemburgo, provincia de Västra Götaland."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hisingen",
+          "url": "https://en.wikipedia.org/wiki/Hisingen"
+        },
+        "es": {
+          "title": "Hisingen",
+          "url": "https://es.wikipedia.org/wiki/Hisingen"
+        }
+      },
+      "image": {
+        "file": "Eriksberg.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eriksberg.JPG",
+        "author": "No machine-readable author provided. Erik031~commonswiki assumed (based on copyr",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "se-gothenburg-museum-of-art",
+      "name": "Gothenburg Museum of Art",
+      "area": "Gothenburg",
+      "city": "Gothenburg",
+      "wikidata": "Q1992004",
+      "lat": 57.696389,
+      "lon": 11.980556,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Gothenburg Museum of Art is an art museum located in the city of Gothenburg, Sweden.",
+        "es": "El Museo de Bellas Artes de Gotemburgo es un museo de arte situado en la plaza de Götaplatsen de Gotemburgo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gothenburg Museum of Art",
+          "url": "https://en.wikipedia.org/wiki/Gothenburg_Museum_of_Art"
+        },
+        "es": {
+          "title": "Museo de Bellas Artes de Gotemburgo",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Bellas_Artes_de_Gotemburgo"
+        }
+      },
+      "image": {
+        "file": "KonstmuseetGbg.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:KonstmuseetGbg.jpg",
+        "author": "Bolstermage",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-branno",
+      "name": "Brännö",
+      "area": "Gothenburg",
+      "city": "Gothenburg",
+      "wikidata": "Q2353949",
+      "lat": 57.639151,
+      "lon": 11.777511,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Brännö is an island in the Southern Göteborg Archipelago and a locality situated in Göteborg Municipality, Västra Götaland County, Sweden.",
+        "es": "Brännö es una isla del archipiélago de Gotemburgo en la Provincia de Västra Götaland, Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Brännö",
+          "url": "https://en.wikipedia.org/wiki/Br%C3%A4nn%C3%B6"
+        },
+        "es": {
+          "title": "Brännö",
+          "url": "https://es.wikipedia.org/wiki/Br%C3%A4nn%C3%B6"
+        }
+      },
+      "image": {
+        "file": "Brännö_,_husIMG_7236_+.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Br%C3%A4nn%C3%B6_%2C_husIMG_7236_%2B.JPG",
+        "author": "Semin",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "se-aspero",
+      "name": "Asperö",
+      "area": "Gothenburg",
+      "city": "Gothenburg",
+      "wikidata": "Q2025741",
+      "lat": 57.647997,
+      "lon": 11.796814,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Asperö is a small island and a locality situated in Gothenburg Municipality, Västra Götaland County, Sweden.",
+        "es": "Asperö es una pequeña isla que posee una superficie de 32,69 hetcáreas y además una localidad situada en el municipio de Gotemburgo, en el condado de Västra Götaland, en el país europeo de Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Asperö",
+          "url": "https://en.wikipedia.org/wiki/Asper%C3%B6"
+        },
+        "es": {
+          "title": "Asperö",
+          "url": "https://es.wikipedia.org/wiki/Asper%C3%B6"
+        }
+      },
+      "image": {
+        "file": "Asperö.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Asper%C3%B6.jpg",
+        "author": "ChrisPsi",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "se-gothenburg-cathedral",
+      "name": "Gothenburg Cathedral",
+      "area": "Gothenburg",
+      "city": "Gothenburg",
+      "wikidata": "Q1236650",
+      "website": "https://www.svenskakyrkan.se/gbgdomkyrko",
+      "lat": 57.704444,
+      "lon": 11.965278,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Gothenburg Cathedral is a cathedral in Gothenburg, the second largest city in Sweden.",
+        "es": "Gothenburg Cathedral is a cathedral in Gothenburg, the second largest city in Sweden."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gothenburg Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Gothenburg_Cathedral"
+        },
+        "es": {
+          "title": "Gothenburg Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Gothenburg_Cathedral"
+        }
+      },
+      "image": {
+        "file": "Göteborgs_domkyrka,_2019_(01).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:G%C3%B6teborgs_domkyrka%2C_2019_(01).jpg",
+        "author": "Bahnfrend",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "se-foto",
+      "name": "Fotö",
+      "area": "Gothenburg",
+      "city": "Gothenburg",
+      "wikidata": "Q2150099",
+      "lat": 57.670286,
+      "lon": 11.657207,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fotö is an island and a locality in Öckerö Municipality, Västra Götaland County, Sweden, with 620 inhabitants in 2010.",
+        "es": "Fotö es una isla y localidad del municipio de Öckerö en el archipiélago de Gotemburgo, Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fotö",
+          "url": "https://en.wikipedia.org/wiki/Fot%C3%B6"
+        },
+        "es": {
+          "title": "Fotö",
+          "url": "https://es.wikipedia.org/wiki/Fot%C3%B6"
+        }
+      },
+      "image": {
+        "file": "Fotö-hamn.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fot%C3%B6-hamn.jpg",
+        "author": "Lars Engström",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "se-bohus-fortress",
+      "name": "Bohus Fortress",
+      "area": "Gothenburg",
+      "city": "Gothenburg",
+      "wikidata": "Q1408860",
+      "website": "https://bohusfastning.com",
+      "lat": 57.861944,
+      "lon": 11.999444,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bohus Fortress lies in Kungälv, Bohuslän, Sweden, north east from Hisingen where the Göta river splits into two branches.",
+        "es": "Bohus Fortress lies in Kungälv, Bohuslän, Sweden, north east from Hisingen where the Göta river splits into two branches."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bohus Fortress",
+          "url": "https://en.wikipedia.org/wiki/Bohus_Fortress"
+        },
+        "es": {
+          "title": "Bohus Fortress",
+          "url": "https://en.wikipedia.org/wiki/Bohus_Fortress"
+        }
+      },
+      "image": {
+        "file": "Bohus-Castle6.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bohus-Castle6.jpg",
+        "author": "Christian Bickel",
+        "license": "CC BY-SA 2.0 de"
+      }
+    },
+    {
+      "id": "se-karlatornet",
+      "name": "Karlatornet",
+      "area": "Gothenburg",
+      "city": "Gothenburg",
+      "wikidata": "Q17154027",
+      "website": "https://karlatornet.com/#karlatornet-2",
+      "lat": 57.7098,
+      "lon": 11.9393,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Karlatornet is a mixed-use skyscraper built by Serneke in Lindholmen in Gothenburg, Sweden.",
+        "es": "Karlatornet es un rascacielos de 73 plantas en la ciudad de Gotemburgo, Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Karlatornet",
+          "url": "https://en.wikipedia.org/wiki/Karlatornet"
+        },
+        "es": {
+          "title": "Karlatornet",
+          "url": "https://es.wikipedia.org/wiki/Karlatornet"
+        }
+      },
+      "image": {
+        "file": "Karlatornet_May_2025_04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Karlatornet_May_2025_04.jpg",
+        "author": "ArildV",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "se-museum-of-world-culture",
+      "name": "Museum of World Culture",
+      "area": "Gothenburg",
+      "city": "Gothenburg",
+      "wikidata": "Q378377",
+      "lat": 57.694722,
+      "lon": 11.989167,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The National Museum of World Culture opened in Gothenburg, Sweden, in 2004.",
+        "es": "El Museo de Culturas del Mundo abrió sus puertas en Gotemburgo, Suecia, en 2004."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museum of World Culture",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_World_Culture"
+        },
+        "es": {
+          "title": "Museo de Culturas del Mundo",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Culturas_del_Mundo"
+        }
+      }
+    },
+    {
+      "id": "se-new-elfsborg-fortress",
+      "name": "New Elfsborg Fortress",
+      "area": "Gothenburg",
+      "city": "Gothenburg",
+      "wikidata": "Q1481707",
+      "lat": 57.686083,
+      "lon": 11.838361,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "New Älvsborg, so-called to distinguish it from the earlier fortress at Old Älvsborg, is a sea fort on the island of Kyrkogårdsholmen within the urban area of modern Gothenburg, Sweden.",
+        "es": "New Älvsborg, so-called to distinguish it from the earlier fortress at Old Älvsborg, is a sea fort on the island of Kyrkogårdsholmen within the urban area of modern Gothenburg, Sweden."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "New Älvsborg",
+          "url": "https://en.wikipedia.org/wiki/New_%C3%84lvsborg"
+        },
+        "es": {
+          "title": "New Älvsborg",
+          "url": "https://en.wikipedia.org/wiki/New_%C3%84lvsborg"
+        }
+      },
+      "image": {
+        "file": "Nya_Älvsborg_-_KMB_-_16000300030219.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nya_%C3%84lvsborg_-_KMB_-_16000300030219.jpg",
+        "author": "Pål-Nils Nilsson",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "se-gothenburg-botanical-garden",
+      "name": "Gothenburg Botanical Garden",
+      "area": "Gothenburg",
+      "city": "Gothenburg",
+      "wikidata": "Q956772",
+      "lat": 57.682881,
+      "lon": 11.950389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Gothenburg Botanical Garden is located in Gothenburg, Sweden, and is one of the larger botanical gardens in Europe.",
+        "es": "El Jardín Botánico de Gotemburgo o en sueco Göteborgs botaniska trädgård es el jardín botánico más grande de Suecia, que se encuentra en las afueras de la ciudad de Gotemburgo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gothenburg Botanical Garden",
+          "url": "https://en.wikipedia.org/wiki/Gothenburg_Botanical_Garden"
+        },
+        "es": {
+          "title": "Jardín Botánico de Gotemburgo",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_de_Gotemburgo"
+        }
+      },
+      "image": {
+        "file": "Göteborgs_Botaniska_Trädgård._Tema_Vild_vår.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:G%C3%B6teborgs_Botaniska_Tr%C3%A4dg%C3%A5rd._Tema_Vild_v%C3%A5r.jpg",
+        "author": "Bulver",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "se-saltholm",
+      "name": "Saltholm",
+      "area": "Malmö",
+      "city": "Malmö",
+      "wikidata": "Q841736",
+      "lat": 55.633333,
+      "lon": 12.766667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Saltholm is a Danish island in the Øresund, the strait that separates Denmark and Sweden.",
+        "es": "Saltholm es una isla danesa en el Øresund, el estrecho que separa a Dinamarca y Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saltholm",
+          "url": "https://en.wikipedia.org/wiki/Saltholm"
+        },
+        "es": {
+          "title": "Saltholm",
+          "url": "https://es.wikipedia.org/wiki/Saltholm"
+        }
+      },
+      "image": {
+        "file": "Öresundsbron_2011z.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C3%96resundsbron_2011z.jpg",
+        "author": "Holger.Ellgaard",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-peberholm",
+      "name": "Peberholm",
+      "area": "Malmö",
+      "city": "Malmö",
+      "wikidata": "Q163518",
+      "lat": 55.6,
+      "lon": 12.75,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Peberholm is a small artificial island in the Danish part of the Øresund strait, created as part of the Øresund Bridge connecting Denmark with Sweden.",
+        "es": "Peberholm es una pequeña isla artificial ubicada en la parte danesa del puente Øresund."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Peberholm",
+          "url": "https://en.wikipedia.org/wiki/Peberholm"
+        },
+        "es": {
+          "title": "Peberholm",
+          "url": "https://es.wikipedia.org/wiki/Peberholm"
+        }
+      },
+      "image": {
+        "file": "20050319-Peberholm.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:20050319-Peberholm.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 2.0 fr"
+      }
+    },
+    {
+      "id": "se-lund-cathedral",
+      "name": "Lund Cathedral",
+      "area": "Malmö",
+      "city": "Malmö",
+      "wikidata": "Q1236689",
+      "lat": 55.704167,
+      "lon": 13.193611,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Lund Cathedral is a cathedral of the Lutheran Church of Sweden in Lund, Scania, Sweden.",
+        "es": "La catedral de Lund es un templo luterano de culto perteneciente a la Iglesia de Suecia y sede de la diócesis de Lund."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lund Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Lund_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Lund",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Lund"
+        }
+      },
+      "image": {
+        "file": "Domkyrkan_in_Lund.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Domkyrkan_in_Lund.jpg",
+        "author": "Vitold Muratov",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "se-malmo-castle",
+      "name": "Malmö Castle",
+      "area": "Malmö",
+      "city": "Malmö",
+      "wikidata": "Q1810918",
+      "lat": 55.605,
+      "lon": 12.9875,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Malmö Castle is a medieval castle located on Slottsholmen in Malmö, Sweden.",
+        "es": "El Castillo de Malmö es una fortaleza situada en Malmö, Escania, en el sur de Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Malmö Castle",
+          "url": "https://en.wikipedia.org/wiki/Malm%C3%B6_Castle"
+        },
+        "es": {
+          "title": "Castillo de Malmö",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Malm%C3%B6"
+        }
+      },
+      "image": {
+        "file": "Malmöhus_slott_2022.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malm%C3%B6hus_slott_2022.jpg",
+        "author": "Kateryna Baiduzha",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "se-saint-peter-s-church-malmo",
+      "name": "Saint Peter's Church, Malmo",
+      "area": "Malmö",
+      "city": "Malmö",
+      "wikidata": "Q2756744",
+      "website": "https://www.svenskakyrkan.se/malmo/stpetrikyrka",
+      "lat": 55.606944,
+      "lon": 13.003444,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Saint Peter's Church is a Brick Gothic church in Malmö, Sweden.",
+        "es": "La iglesia de San Pedro es una gran iglesia en Malmö, Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Peter's Church, Malmö",
+          "url": "https://en.wikipedia.org/wiki/St._Peter's_Church%2C_Malm%C3%B6"
+        },
+        "es": {
+          "title": "Iglesia de San Pedro (Malmö)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Pedro_(Malm%C3%B6)"
+        }
+      },
+      "image": {
+        "file": "Exterior_of_Sankt_Petri_kyrka,_Malmö_(08).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Exterior_of_Sankt_Petri_kyrka%2C_Malm%C3%B6_(08).jpg",
+        "author": "Chris06",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "se-malmo-synagogue",
+      "name": "Malmö Synagogue",
+      "area": "Malmö",
+      "city": "Malmö",
+      "wikidata": "Q2096330",
+      "lat": 55.599444,
+      "lon": 13.010833,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Malmö Synagogue is an Orthodox Jewish congregation and synagogue, located on Föreningsgatan, Malmö, in Skåne County, Sweden.",
+        "es": "La Sinagoga de Malmö es la única sinagoga de Malmö, en Suecia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Malmö Synagogue",
+          "url": "https://en.wikipedia.org/wiki/Malm%C3%B6_Synagogue"
+        },
+        "es": {
+          "title": "Sinagoga de Malmö",
+          "url": "https://es.wikipedia.org/wiki/Sinagoga_de_Malm%C3%B6"
+        }
+      },
+      "image": {
+        "file": "Malmö_synagoga_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malm%C3%B6_synagoga_2.jpg",
+        "author": "jorchr",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-malmo-mosque",
+      "name": "Malmö Mosque",
+      "area": "Malmö",
+      "city": "Malmö",
+      "wikidata": "Q676673",
+      "lat": 55.574722,
+      "lon": 13.051944,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Malmö Mosque is the second oldest mosque in Sweden.",
+        "es": "The Malmö Mosque is the second oldest mosque in Sweden."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Malmö Mosque",
+          "url": "https://en.wikipedia.org/wiki/Malm%C3%B6_Mosque"
+        },
+        "es": {
+          "title": "Malmö Mosque",
+          "url": "https://en.wikipedia.org/wiki/Malm%C3%B6_Mosque"
+        }
+      },
+      "image": {
+        "file": "Moske_Malmo_2014Jun17_0002-3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Moske_Malmo_2014Jun17_0002-3.jpg",
+        "author": "News Øresund - Johan Wessman",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "se-malmo-art-museum",
+      "name": "Malmö Art Museum",
+      "area": "Malmö",
+      "city": "Malmö",
+      "wikidata": "Q2791306",
+      "lat": 55.6047,
+      "lon": 12.9869,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Malmö Art Museum, founded in 1841, is one of the leading art museums in Scandinavia.",
+        "es": "The Malmö Art Museum, founded in 1841, is one of the leading art museums in Scandinavia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Malmö Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Malm%C3%B6_Art_Museum"
+        },
+        "es": {
+          "title": "Malmö Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Malm%C3%B6_Art_Museum"
+        }
+      },
+      "image": {
+        "file": "Malmo_castle.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malmo_castle.jpg",
+        "author": "Francois Polito",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-malmo-opera",
+      "name": "Malmö Opera",
+      "area": "Malmö",
+      "city": "Malmö",
+      "wikidata": "Q1507772",
+      "website": "https://www.malmoopera.se",
+      "lat": 55.596111,
+      "lon": 12.996389,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Malmö Opera is an opera house in Malmö, Sweden.",
+        "es": "Malmö Opera is an opera house in Malmö, Sweden."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Malmö Opera",
+          "url": "https://en.wikipedia.org/wiki/Malm%C3%B6_Opera"
+        },
+        "es": {
+          "title": "Malmö Opera",
+          "url": "https://en.wikipedia.org/wiki/Malm%C3%B6_Opera"
+        }
+      },
+      "image": {
+        "file": "Malmö_stadsteater_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malm%C3%B6_stadsteater_2.jpg",
+        "author": "Jorchr",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "se-malmo-konsthall",
+      "name": "Malmö Konsthall",
+      "area": "Malmö",
+      "city": "Malmö",
+      "wikidata": "Q633078",
+      "lat": 55.595556,
+      "lon": 12.998889,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Malmö Konsthall is an exhibition hall located in the center of Malmö, Sweden.",
+        "es": "Malmö Konsthall is an exhibition hall located in the center of Malmö, Sweden."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Malmö Konsthall",
+          "url": "https://en.wikipedia.org/wiki/Malm%C3%B6_Konsthall"
+        },
+        "es": {
+          "title": "Malmö Konsthall",
+          "url": "https://en.wikipedia.org/wiki/Malm%C3%B6_Konsthall"
+        }
+      },
+      "image": {
+        "file": "Malmö_Konsthall.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malm%C3%B6_Konsthall.jpg",
+        "author": "JohanahoJ",
+        "license": "CC BY-SA 4.0"
       }
     }
   ]

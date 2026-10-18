@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -108,6 +114,1219 @@
       "website": "http://www.ardastra.com/",
       "lat": 25.0759,
       "lon": -77.3617
+    },
+    {
+      "id": "bs-the-bahamas",
+      "name": "The Bahamas",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q778",
+      "website": "https://www.bahamas.gov.bs/",
+      "lat": 25,
+      "lon": -77.4,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Bahamas, officially the Commonwealth of The Bahamas, is an archipelagic country in the Caribbean located within the Lucayan Archipelago in the Atlantic Ocean.",
+        "es": "Bahamas, oficialmente la Mancomunidad de las Bahamas, es un país insular, y uno de los 13 países que forman la América Insular o Islas del Caribe, uno de los 35 del continente americano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "The Bahamas",
+          "url": "https://en.wikipedia.org/wiki/The_Bahamas"
+        },
+        "es": {
+          "title": "Bahamas",
+          "url": "https://es.wikipedia.org/wiki/Bahamas"
+        }
+      },
+      "image": {
+        "file": "Bahamas_regions_map-es.svg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bahamas_regions_map-es.svg",
+        "author": "Peter Fitzgerald, NordNordWest",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bs-new-providence",
+      "name": "New Providence",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q858513",
+      "lat": 25.03,
+      "lon": -77.405,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "New Providence is the most populous island in the Bahamas.",
+        "es": "Nueva Providencia es la isla más conocida en las Bahamas, a la vez que la más poblada."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "New Providence",
+          "url": "https://en.wikipedia.org/wiki/New_Providence"
+        },
+        "es": {
+          "title": "Nueva Providencia",
+          "url": "https://es.wikipedia.org/wiki/Nueva_Providencia"
+        }
+      },
+      "image": {
+        "file": "Newprovidencenasa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Newprovidencenasa.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "bs-grand-bahama",
+      "name": "Grand Bahama",
+      "area": "The Bahamas",
+      "city": "The Bahamas",
+      "wikidata": "Q866345",
+      "lat": 26.65,
+      "lon": -78.316667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Grand Bahama is the northernmost of the islands of the Bahamas.",
+        "es": "Gran Bahama es una de las islas más al norte de las Bahamas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grand Bahama",
+          "url": "https://en.wikipedia.org/wiki/Grand_Bahama"
+        },
+        "es": {
+          "title": "Gran Bahama",
+          "url": "https://es.wikipedia.org/wiki/Gran_Bahama"
+        }
+      },
+      "image": {
+        "file": "Grand_bahama.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Grand_bahama.jpg",
+        "author": "NASA Original uploader was Darwinek at en.wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "bs-cat-island",
+      "name": "Cat Island",
+      "area": "The Bahamas",
+      "city": "The Bahamas",
+      "wikidata": "Q1050154",
+      "lat": 24.311389,
+      "lon": -75.423056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cat Island is located in the Bahamas, and is one of its districts.",
+        "es": "La Isla Cat o Isla del Gato es una de las islas centrales del archipiélago de las Bahamas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cat Island, Bahamas",
+          "url": "https://en.wikipedia.org/wiki/Cat_Island%2C_Bahamas"
+        },
+        "es": {
+          "title": "Isla Cat",
+          "url": "https://es.wikipedia.org/wiki/Isla_Cat"
+        }
+      },
+      "image": {
+        "file": "Cat_Island,_Bahamas.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cat_Island%2C_Bahamas.JPG",
+        "author": "ISS Expedition 26 crew",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "bs-eleuthera",
+      "name": "Eleuthera",
+      "area": "The Bahamas",
+      "city": "The Bahamas",
+      "wikidata": "Q1141700",
+      "lat": 25.13472,
+      "lon": -76.14418,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Eleuthera, locally known as Lutra, refers both to a single island in the archipelagic state of the Commonwealth of the Bahamas and to its associated group of smaller islands.",
+        "es": "Eleuthera es una de las islas de las Bahamas, posee 518 kilómetros cuadrados y se localiza en el nordeste del archipiélago a 80 kilómetros de Nasáu, tiene una forma alargada y estrecha, y cuenta con cerca de 8000…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Eleuthera",
+          "url": "https://en.wikipedia.org/wiki/Eleuthera"
+        },
+        "es": {
+          "title": "Eleuthera",
+          "url": "https://es.wikipedia.org/wiki/Eleuthera"
+        }
+      },
+      "image": {
+        "file": "Eleuthera.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eleuthera.jpg",
+        "author": "NASA/Crew of STS-1",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "bs-rum-cay",
+      "name": "Rum Cay",
+      "area": "The Bahamas",
+      "city": "The Bahamas",
+      "wikidata": "Q1859950",
+      "lat": 23.673889,
+      "lon": -74.871111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rum Cay is an island and district of The Bahamas.",
+        "es": "Cayo Rum es uno de los distritos de Bahamas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rum Cay",
+          "url": "https://en.wikipedia.org/wiki/Rum_Cay"
+        },
+        "es": {
+          "title": "Cayo Rum",
+          "url": "https://es.wikipedia.org/wiki/Cayo_Rum"
+        }
+      },
+      "image": {
+        "file": "RumCay.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:RumCay.jpg",
+        "author": "Joachim Greiner",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bs-harbour-island",
+      "name": "Harbour Island",
+      "area": "The Bahamas",
+      "city": "The Bahamas",
+      "wikidata": "Q2357510",
+      "website": "https://www.bahamas.com/islands/eleuthera-harbour-island",
+      "lat": 25.5,
+      "lon": -76.633333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Harbour Island is an island and administrative district in the Bahamas located off the northeast coast of Eleuthera Island.",
+        "es": "La Isla Harbour es una isla y distrito administrativo en las Bahamas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Harbour Island, Bahamas",
+          "url": "https://en.wikipedia.org/wiki/Harbour_Island%2C_Bahamas"
+        },
+        "es": {
+          "title": "Isla Harbour",
+          "url": "https://es.wikipedia.org/wiki/Isla_Harbour"
+        }
+      },
+      "image": {
+        "file": "Islandhorses.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Islandhorses.jpg",
+        "author": "Larry Deack",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "bs-mount-alvernia",
+      "name": "Mount Alvernia",
+      "area": "Cat Island",
+      "city": "Cat Island",
+      "wikidata": "Q746274",
+      "lat": 24.294167,
+      "lon": -75.408333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Alvernia is located on Cat Island in The Bahamas and is the highest point in the country at 63 metres above sea level.",
+        "es": "El monte Alvernia es una pequeña elevación que se encuentra en la isla Cat, en las Bahamas, y es, con 63 m s."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Alvernia",
+          "url": "https://en.wikipedia.org/wiki/Mount_Alvernia"
+        },
+        "es": {
+          "title": "Monte Alvernia",
+          "url": "https://es.wikipedia.org/wiki/Monte_Alvernia"
+        }
+      },
+      "image": {
+        "file": "The_Hermitage,_Cat_Island,_Bahamas.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Hermitage%2C_Cat_Island%2C_Bahamas.jpg",
+        "author": "Shane.torgerson",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "bs-grand-cay",
+      "name": "Grand Cay",
+      "area": "The Bahamas",
+      "city": "The Bahamas",
+      "wikidata": "Q2524373",
+      "lat": 27.229444,
+      "lon": -78.334444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Grand Cay is one of the districts of the Bahamas.",
+        "es": "Cayo Grande es una isla de las Bahamas situada al extremo norte del archipiélago de las islas Ábaco."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grand Cay",
+          "url": "https://en.wikipedia.org/wiki/Grand_Cay"
+        },
+        "es": {
+          "title": "Cayo Grande (Bahamas)",
+          "url": "https://es.wikipedia.org/wiki/Cayo_Grande_(Bahamas)"
+        }
+      }
+    },
+    {
+      "id": "bs-paradise-island",
+      "name": "Paradise Island",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q3181503",
+      "lat": 25.083333,
+      "lon": -77.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Paradise Island is an island in the Bahamas formerly known as Hog Island.",
+        "es": "Isla Paraíso es una isla del archipiélago de las Bahamas"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Paradise Island",
+          "url": "https://en.wikipedia.org/wiki/Paradise_Island"
+        },
+        "es": {
+          "title": "Isla Paradise",
+          "url": "https://es.wikipedia.org/wiki/Isla_Paradise"
+        }
+      },
+      "image": {
+        "file": "Paradise_island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paradise_island.jpg",
+        "author": "Joachim Greiner",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bs-mangrove-cay",
+      "name": "Mangrove Cay",
+      "area": "The Bahamas",
+      "city": "The Bahamas",
+      "wikidata": "Q2702334",
+      "lat": 24.166667,
+      "lon": -77.783333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mangrove Cay is one of the districts of the Bahamas on Andros.",
+        "es": "Cayo Mangrove es uno de los 32 distritos de Bahamas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mangrove Cay",
+          "url": "https://en.wikipedia.org/wiki/Mangrove_Cay"
+        },
+        "es": {
+          "title": "Cayo Mangrove",
+          "url": "https://es.wikipedia.org/wiki/Cayo_Mangrove"
+        }
+      }
+    },
+    {
+      "id": "bs-moore-s-island",
+      "name": "Moore's Island",
+      "area": "Moore's Island District",
+      "city": "Moore's Island District",
+      "wikidata": "Q2702345",
+      "lat": 26.292778,
+      "lon": -77.549444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Moore's Island is one of the districts of the Bahamas, on the Abaco Islands.",
+        "es": "La Isla de Moore es una isla de las Bahamas situada en el oeste del archipiélago de las Islas Ábaco."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Moore's Island",
+          "url": "https://en.wikipedia.org/wiki/Moore's_Island"
+        },
+        "es": {
+          "title": "Isla de Moore",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Moore"
+        }
+      }
+    },
+    {
+      "id": "bs-castaway-cay",
+      "name": "Castaway Cay",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q999988",
+      "lat": 26.083306,
+      "lon": -77.53335,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Disney's Castaway Cay is a private island in the Bahamas which serves as an exclusive port for the Disney Cruise Line ships.",
+        "es": "El Cayo Castaway o Cayo Gorda es una isla privada en las Bahamas, que sirve como puerto exclusivo para los barcos de la Disney Cruise Line, Disney Wonder, Magic Disney, Disney Dream y Disney Fantasy."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Castaway Cay",
+          "url": "https://en.wikipedia.org/wiki/Castaway_Cay"
+        },
+        "es": {
+          "title": "Cayo Castaway",
+          "url": "https://es.wikipedia.org/wiki/Cayo_Castaway"
+        }
+      },
+      "image": {
+        "file": "CastawayCayFlyingDutchman.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:CastawayCayFlyingDutchman.jpg",
+        "author": "Warfieldian",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bs-pig-beach",
+      "name": "Pig Beach",
+      "area": "Exuma",
+      "city": "Exuma",
+      "wikidata": "Q7193206",
+      "lat": 24.183611,
+      "lon": -76.456389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pig Beach located on Big Major Cay is a beach on an uninhabited island located in Exuma, the Bahamas.",
+        "es": "Cayo Big Major, es un cayo o isla deshabitado, ubicado en el distrito de Exuma en las Bahamas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pig Beach",
+          "url": "https://en.wikipedia.org/wiki/Pig_Beach"
+        },
+        "es": {
+          "title": "Cayo Big Major",
+          "url": "https://es.wikipedia.org/wiki/Cayo_Big_Major"
+        }
+      },
+      "image": {
+        "file": "Vorobek_Bahamas_-_swimming_pigs.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vorobek_Bahamas_-_swimming_pigs.jpg",
+        "author": "cdorobek",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "bs-green-turtle-cay",
+      "name": "Green Turtle Cay",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q3249446",
+      "lat": 26.766667,
+      "lon": -77.316667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Green Turtle Cay is one of the barrier islands off mainland Great Abaco, The Bahamas.",
+        "es": "El Cayo Tortuga Verde es una duna en las Bahamas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Green Turtle Cay",
+          "url": "https://en.wikipedia.org/wiki/Green_Turtle_Cay"
+        },
+        "es": {
+          "title": "Cayo Green Turtle",
+          "url": "https://es.wikipedia.org/wiki/Cayo_Green_Turtle"
+        }
+      },
+      "image": {
+        "file": "Bahamas_1989_(409)_Abaco_New_Plymouth,_Green_Turtle_Cay_(24679794082).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bahamas_1989_(409)_Abaco_New_Plymouth%2C_Green_Turtle_Cay_(24679794082).jpg",
+        "author": "Rüdiger Stehn from Kiel, Deutschland",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "bs-walker-s-cay",
+      "name": "Walker's Cay",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q1512796",
+      "lat": 27.257722,
+      "lon": -78.394639,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Walker's Cay is the northernmost island in the Bahamas, part of the North Abaco district.",
+        "es": "El Cayo Walker o el Cayo de Walker es una isla situada en la punta de las islas Ábaco en las Bahamas, popular para la pesca deportiva y el buceo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Walker's Cay",
+          "url": "https://en.wikipedia.org/wiki/Walker's_Cay"
+        },
+        "es": {
+          "title": "Cayo Walker",
+          "url": "https://es.wikipedia.org/wiki/Cayo_Walker"
+        }
+      },
+      "image": {
+        "file": "Bulfeed.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bulfeed.JPG",
+        "author": "Albert Kok at Dutch Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "bs-great-harbour-cay",
+      "name": "Great Harbour Cay",
+      "area": "Berry Islands",
+      "city": "Berry Islands",
+      "wikidata": "Q5672275",
+      "lat": 25.75,
+      "lon": -77.833333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Great Harbour Cay is the major island in the north Berry Islands, a district of the Bahamas.",
+        "es": "El Cayo Great Harbour es la isla principal del grupo al norte de las islas Berry."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Great Harbour Cay",
+          "url": "https://en.wikipedia.org/wiki/Great_Harbour_Cay"
+        },
+        "es": {
+          "title": "Cayo Great Harbour",
+          "url": "https://es.wikipedia.org/wiki/Cayo_Great_Harbour"
+        }
+      },
+      "image": {
+        "file": "Great_Harbor_Cay_horseshoe.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Great_Harbor_Cay_horseshoe.jpg",
+        "author": "No machine-readable author provided. Patrickneil assumed (based on copyright cla",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bs-norman-s-cay",
+      "name": "Norman's Cay",
+      "area": "Exuma",
+      "city": "Exuma",
+      "wikidata": "Q1999825",
+      "lat": 24.616667,
+      "lon": -76.816667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Norman's Cay is a small Bahamian island in the Exumas, a chain of islands south and east of Nassau, that served as the headquarters for Carlos Lehder's drug smuggling operation from 1978 until around 1982.",
+        "es": "El Cayo Norman o Cayo de Norman es una pequeña isla de las Bahamas en las Exumas, una cadena de islas al sur y al este de Nassau, que sirvió como sede de las actividades de Carlos Lehder con el contrabando de drogas…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Norman's Cay",
+          "url": "https://en.wikipedia.org/wiki/Norman's_Cay"
+        },
+        "es": {
+          "title": "Cayo Norman",
+          "url": "https://es.wikipedia.org/wiki/Cayo_Norman"
+        }
+      },
+      "image": {
+        "file": "NormansCay.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NormansCay.png",
+        "author": "Work of US Government agency Drug Enforcement Administration (DEA).",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "bs-elbow-cay",
+      "name": "Elbow Cay",
+      "area": "Hope Town",
+      "city": "Hope Town",
+      "wikidata": "Q10769613",
+      "lat": 26.526817,
+      "lon": -76.968119,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Elbow Cay is a five-mile-long cay in the Abaco Islands of The Bahamas.",
+        "es": "El Cayo Elbow es un cayo largo de seis millas de las islas Ábaco en las Bahamas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Elbow Cay",
+          "url": "https://en.wikipedia.org/wiki/Elbow_Cay"
+        },
+        "es": {
+          "title": "Cayo Elbow",
+          "url": "https://es.wikipedia.org/wiki/Cayo_Elbow"
+        }
+      },
+      "image": {
+        "file": "Hopetown-lighthouse.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hopetown-lighthouse.jpg",
+        "author": "Dmadeo",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bs-egg-island",
+      "name": "Egg Island",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q1967728",
+      "lat": 25.483333,
+      "lon": -76.883333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Egg Island is an uninhabited island, officially an islet, comprising 800 m2 in the Bahamas.",
+        "es": "La Isla Huevo es una isla deshabitada, oficialmente un islote o cayo, en el archipiélago de las Bahamas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Egg Island (The Bahamas)",
+          "url": "https://en.wikipedia.org/wiki/Egg_Island_(The_Bahamas)"
+        },
+        "es": {
+          "title": "Isla Huevo",
+          "url": "https://es.wikipedia.org/wiki/Isla_Huevo"
+        }
+      },
+      "image": {
+        "file": "Egg_Island,_Bahamas_ESA391953.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Egg_Island%2C_Bahamas_ESA391953.jpg",
+        "author": "European Space Agency",
+        "license": "CC BY-SA 3.0 igo"
+      }
+    },
+    {
+      "id": "bs-little-stirrup-cay",
+      "name": "Little Stirrup Cay",
+      "area": "Berry Islands",
+      "city": "Berry Islands",
+      "wikidata": "Q10645506",
+      "lat": 25.816667,
+      "lon": -77.933333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "CocoCay or Little Stirrup Cay, sometimes titled Perfect Day at CocoCay is one of the Berry Islands, a collection of Bahamian cays and small islands located approximately 55 miles north of Nassau.",
+        "es": "CocoCay o Little Stirrup Cay, a veces llamado Perfect Day at CocoCay, es una de las Islas Berry, un conjunto de cayos y pequeñas islas que se encuentran aproximadamente a 55 kilómetros al norte de Nasáu en las Islas…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "CocoCay",
+          "url": "https://en.wikipedia.org/wiki/CocoCay"
+        },
+        "es": {
+          "title": "CocoCay",
+          "url": "https://es.wikipedia.org/wiki/CocoCay"
+        }
+      },
+      "image": {
+        "file": "Perfect_Day_Coco_Cay_PANO.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Perfect_Day_Coco_Cay_PANO.jpg",
+        "author": "Cbusram",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bs-ocean-cay-marine-reserve",
+      "name": "Ocean Cay Marine Reserve",
+      "area": "Bimini",
+      "city": "Bimini",
+      "wikidata": "Q14216932",
+      "lat": 25.4209,
+      "lon": -79.2055,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ocean Cay is an island in the Bahamas located in the district of Bimini.",
+        "es": "Ocean Cay o Cayo Ocean literalmente en español Cayo Océano es una isla de las Bahamas situada en el distrito de Bimini."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ocean Cay",
+          "url": "https://en.wikipedia.org/wiki/Ocean_Cay"
+        },
+        "es": {
+          "title": "Ocean Cay",
+          "url": "https://es.wikipedia.org/wiki/Ocean_Cay"
+        }
+      },
+      "image": {
+        "file": "Ocean_Cay_overview_from_the_south_direction_(March_12,_2024).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ocean_Cay_overview_from_the_south_direction_(March_12%2C_2024).jpg",
+        "author": "Kiran891",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bs-little-san-salvador-island",
+      "name": "Little San Salvador Island",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q3125943",
+      "lat": 24.574,
+      "lon": -75.952,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Little San Salvador Island, also known as Half Moon Cay or RelaxAway, Half Moon Cay, is one of about 700 islands that make up the archipelago of The Bahamas.",
+        "es": "El Isla Pequeña San Salvador también conocida como Half Moon Cay, es una de las cerca de 700 islas que componen el archipiélago de las Bahamas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Little San Salvador Island",
+          "url": "https://en.wikipedia.org/wiki/Little_San_Salvador_Island"
+        },
+        "es": {
+          "title": "Isla Pequeña San Salvador",
+          "url": "https://es.wikipedia.org/wiki/Isla_Peque%C3%B1a_San_Salvador"
+        }
+      },
+      "image": {
+        "file": "Half_Moon_Cay_Panorama.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Half_Moon_Cay_Panorama.jpeg",
+        "author": "Emerald Photos (greenjinjo)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bs-sweeting-cay",
+      "name": "Sweeting Cay",
+      "area": "East Grand Bahama",
+      "city": "East Grand Bahama",
+      "wikidata": "Q3506558",
+      "lat": 26.619,
+      "lon": -77.8632,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sweeting Cay is a town in the Bahamas, located on Grand Bahama island.",
+        "es": "Sweeting Cay is a town in the Bahamas, located on Grand Bahama island."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sweeting Cay",
+          "url": "https://en.wikipedia.org/wiki/Sweeting_Cay"
+        },
+        "es": {
+          "title": "Sweeting Cay",
+          "url": "https://en.wikipedia.org/wiki/Sweeting_Cay"
+        }
+      }
+    },
+    {
+      "id": "bs-exuma-cays-land-and-sea-park",
+      "name": "Exuma Cays Land and Sea Park",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q5422508",
+      "lat": 24.42,
+      "lon": -76.69,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Exuma Cays Land and Sea Park is a protected area in the Exuma Cays of the Bahamas.",
+        "es": "El Parque terrestre y marino de los Cayos de Exuma es un área protegida en los Cayos Exuma en las Bahamas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Exuma Cays Land and Sea Park",
+          "url": "https://en.wikipedia.org/wiki/Exuma_Cays_Land_and_Sea_Park"
+        },
+        "es": {
+          "title": "Parque terrestre y marino de los Cayos de Exuma",
+          "url": "https://es.wikipedia.org/wiki/Parque_terrestre_y_marino_de_los_Cayos_de_Exuma"
+        }
+      },
+      "image": {
+        "file": "Is_the_Bahamian_version_of_a_national_park-_preserving_a_series_of_islands_(3425475257).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Is_the_Bahamian_version_of_a_national_park-_preserving_a_series_of_islands_(3425475257).jpg",
+        "author": "cogdogblog",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "bs-rose-island",
+      "name": "Rose Island",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q2154808",
+      "lat": 25.0875,
+      "lon": -77.219444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rose Island is a small island in the Bahamas that lies 5 kilometres east of Paradise Island, which lies directly off of New Providence Island.",
+        "es": "La Isla Rose es una pequeña isla en las Bahamas, que se encuentra a 3 km al este de la isla Paradise, justo fuera de la isla de Nueva Providencia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rose Island, Bahamas",
+          "url": "https://en.wikipedia.org/wiki/Rose_Island%2C_Bahamas"
+        },
+        "es": {
+          "title": "Isla Rose",
+          "url": "https://es.wikipedia.org/wiki/Isla_Rose"
+        }
+      },
+      "image": {
+        "file": "Rose_Island_(1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rose_Island_(1).jpg",
+        "author": "Scarpy",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bs-nassau-public-library",
+      "name": "Nassau Public Library",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q630745",
+      "lat": 25.076478,
+      "lon": -77.340531,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Nassau Public Library and Museum, in Nassau, is the largest and oldest of five libraries in the Bahamas.",
+        "es": "La Biblioteca pública y museo de Nasáu está situada en la ciudad de Nasáu y se trata de la biblioteca más grande de las Bahamas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nassau Public Library",
+          "url": "https://en.wikipedia.org/wiki/Nassau_Public_Library"
+        },
+        "es": {
+          "title": "Biblioteca pública y museo de Nasáu",
+          "url": "https://es.wikipedia.org/wiki/Biblioteca_p%C3%BAblica_y_museo_de_Nas%C3%A1u"
+        }
+      },
+      "image": {
+        "file": "Downtown_Nassau_-_2025_-_Nassau_Public_Library_(2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Nassau_-_2025_-_Nassau_Public_Library_(2).jpg",
+        "author": "Bluerasberry",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "bs-st-francis-xavier-cathedral-nassau",
+      "name": "St. Francis Xavier Cathedral, Nassau",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q23754896",
+      "website": "https://stfrancisxaviercathedral.org/",
+      "lat": 25.075889,
+      "lon": -77.348139,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of St. Francis Xavier is a parish of the Roman Catholic Church in Nassau, Bahamas.",
+        "es": "La Catedral de San Francisco Javier es el nombre que recibe un edificio religioso que pertenece a la Iglesia católica y que se localiza en la calle llamada West Street cerca del museo nacional de Arte en la ciudad de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Francis Xavier Cathedral, Nassau",
+          "url": "https://en.wikipedia.org/wiki/St._Francis_Xavier_Cathedral%2C_Nassau"
+        },
+        "es": {
+          "title": "Catedral de San Francisco Javier (Nasáu)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Francisco_Javier_(Nas%C3%A1u)"
+        }
+      },
+      "image": {
+        "file": "St._Francis_Xavier_Cathedral,_Nassau.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St._Francis_Xavier_Cathedral%2C_Nassau.jpg",
+        "author": "LittleT889",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "bs-athol-island",
+      "name": "Athol Island",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q4815624",
+      "lat": 25.083333,
+      "lon": -77.266667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Athol Island is a small island in the Bahamas, which lies 0.75 miles east of Paradise Island, which lies directly off of New Providence island.",
+        "es": "La Isla Athol es una pequeña isla en las Bahamas, que se encuentra a tres cuartos de milla al este de la isla Paradise, que a su vez se localiza justo fuera de la isla de New Providence."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Athol Island",
+          "url": "https://en.wikipedia.org/wiki/Athol_Island"
+        },
+        "es": {
+          "title": "Isla Athol",
+          "url": "https://es.wikipedia.org/wiki/Isla_Athol"
+        }
+      }
+    },
+    {
+      "id": "bs-cable-beach",
+      "name": "Cable Beach",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q21713748",
+      "lat": 25.073611,
+      "lon": -77.406667,
+      "category": "beach",
+      "interests": [
+        "beaches"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Cable Beach is a beach, resort destination, and populated place on the northern coast of New Providence Island in the Bahamas west of Nassau.",
+        "es": "Cable Beach is a beach, resort destination, and populated place on the northern coast of New Providence Island in the Bahamas west of Nassau."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cable Beach, Bahamas",
+          "url": "https://en.wikipedia.org/wiki/Cable_Beach%2C_Bahamas"
+        },
+        "es": {
+          "title": "Cable Beach, Bahamas",
+          "url": "https://en.wikipedia.org/wiki/Cable_Beach%2C_Bahamas"
+        }
+      },
+      "image": {
+        "file": "Bahamas_1988_(059)_New_Providence_Cable_Beach_(22762816374).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bahamas_1988_(059)_New_Providence_Cable_Beach_(22762816374).jpg",
+        "author": "Rüdiger Stehn from Kiel, Deutschland",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "bs-blue-lagoon-island",
+      "name": "Blue Lagoon Island",
+      "area": "Nassau",
+      "city": "Nassau",
+      "wikidata": "Q4929318",
+      "lat": 25.098333,
+      "lon": -77.271111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Blue Lagoon Island is a private island located 5 km from Nassau, Bahamas, and serves as a local tourist attraction.",
+        "es": "La Isla Blue Lagoon o Isla de la Laguna Azul es una isla privada situada a 5 km de Nassau, Bahamas, que sirve como una atracción turística local."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Blue Lagoon Island",
+          "url": "https://en.wikipedia.org/wiki/Blue_Lagoon_Island"
+        },
+        "es": {
+          "title": "Isla Blue Lagoon",
+          "url": "https://es.wikipedia.org/wiki/Isla_Blue_Lagoon"
+        }
+      },
+      "image": {
+        "file": "Blue_Lagoon.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blue_Lagoon.JPG",
+        "author": "Dolphins",
+        "license": "CC BY-SA 3.0"
+      }
     }
   ]
 }

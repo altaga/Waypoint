@@ -35,6 +35,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -84,6 +90,80 @@
       },
       "lat": 4.87423,
       "lon": 18.04753
+    },
+    {
+      "id": "cf-mbaere-bodingue-national-park",
+      "name": "Mbaéré-Bodingué National Park",
+      "area": "Bangui",
+      "city": "Bangui",
+      "wikidata": "Q6799652",
+      "lat": 3.833333,
+      "lon": 17.166667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Mbaéré-Bodingué National Park is a National Park located in the south west of the Central African Republic.",
+        "es": "El parque nacional Mbaéré-Bodingué es un área protegida con el estatus de parque nacional en la República Centroafricana ubicado al suroeste del país en la prefectura Sangha-Mbaéré, la zona de bosques tropicales…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mbaéré Bodingué National Park",
+          "url": "https://en.wikipedia.org/wiki/Mba%C3%A9r%C3%A9_Bodingu%C3%A9_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Mbaéré-Bodingué",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Mba%C3%A9r%C3%A9-Bodingu%C3%A9"
+        }
+      }
+    },
+    {
+      "id": "cf-cathedrale-notre-dame",
+      "name": "Cathédrale Notre-Dame",
+      "area": "Bangui",
+      "city": "Bangui",
+      "wikidata": "Q15208031",
+      "lat": 4.37,
+      "lon": 18.578,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathédrale Notre-Dame-de-l’Immaculée-Conception is a Roman Catholic Cathedral and the seat of the Metropolitan Archdiocese of Bangui in the Central African Republic, built in 1937.",
+        "es": "La Catedral de Nuestra Señora de la Inmaculada Concepción es el nombre que recibe un edificio religioso que funciona como la catedral de la Iglesia católica bajo la jurisdicción de la arquidiócesis de Bangui en la…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathédrale Notre-Dame (Bangui)",
+          "url": "https://en.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_(Bangui)"
+        },
+        "es": {
+          "title": "Catedral de Nuestra Señora de la Inmaculada Concepción (Bangui)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Nuestra_Se%C3%B1ora_de_la_Inmaculada_Concepci%C3%B3n_(Bangui)"
+        }
+      },
+      "image": {
+        "file": "Une_foule_devant_la_Cathédrale_de_Bangui,_le_7_mai_2018.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Une_foule_devant_la_Cath%C3%A9drale_de_Bangui%2C_le_7_mai_2018.jpg",
+        "author": "Freeman Sipila (VOA)",
+        "license": "Public domain"
+      }
     }
   ]
 }

@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -207,6 +213,668 @@
         "text": "Mo-Su 10:00-13:00, 14:00-17:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "tm-kopet-dag",
+      "name": "Köpet Dag",
+      "area": "North Khorasan Province",
+      "city": "North Khorasan Province",
+      "wikidata": "Q328072",
+      "lat": 38.066944,
+      "lon": 57.3725,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Köpet Dag, also known as the Turkmen–Khorasan Mountain Range, is a mountain range on the border between Turkmenistan and Iran that extends about 650 kilometres along the border southeast of the Caspian Sea,…",
+        "es": "La cordillera Kopet Dag, también Kopetdag o Kopetdagh está situada en el suroeste de Asia Central, al este del mar Caspio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kopet Dag",
+          "url": "https://en.wikipedia.org/wiki/Kopet_Dag"
+        },
+        "es": {
+          "title": "Kopet Dag",
+          "url": "https://es.wikipedia.org/wiki/Kopet_Dag"
+        }
+      },
+      "image": {
+        "file": "Ahal.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ahal.jpg",
+        "author": "Jozef Lang",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tm-nisa",
+      "name": "Nisa",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "wikidata": "Q854672",
+      "lat": 37.951147,
+      "lon": 58.212408,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Nisa was an ancient settlement of the Parthians, located near the Bagyr neighborhood of Ashgabat, Turkmenistan, 18 km west of the city center.",
+        "es": "Nisa, también llamada Parthaunisa, es una antigua ciudad situada cerca del pueblo moderno de Bagir, a 18 km al sudoeste de Asjabad, en la provincia de Ahal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nisa, Turkmenistan",
+          "url": "https://en.wikipedia.org/wiki/Nisa%2C_Turkmenistan"
+        },
+        "es": {
+          "title": "Nisa (Turkmenistán)",
+          "url": "https://es.wikipedia.org/wiki/Nisa_(Turkmenist%C3%A1n)"
+        }
+      },
+      "image": {
+        "file": "Nisa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nisa.jpg",
+        "author": "flydime",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "tm-turkmenbasy-mosque",
+      "name": "Türkmenbaşy Mosque",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "wikidata": "Q558159",
+      "lat": 38.017778,
+      "lon": 58.252778,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Türkmenbaşy Ruhy Mosque, or Gypjak Mosque, is a mosque in Gypjak, Turkmenistan, and the resting place for Saparmurat Niyazov, the leader of Turkmenistan from 1985 to 2006.",
+        "es": "La mezquita de Gypjak o mezquita de Türkmenbaşy Ruhy es una mezquita en la villa de Gypjak, a 7 km al oeste del centro de Asjabad, Turkmenistán, sobre la autopista M37."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Türkmenbaşy Ruhy Mosque",
+          "url": "https://en.wikipedia.org/wiki/T%C3%BCrkmenba%C5%9Fy_Ruhy_Mosque"
+        },
+        "es": {
+          "title": "Mezquita de Gypjak",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_de_Gypjak"
+        }
+      },
+      "image": {
+        "file": "Rustam_Minnikhanov's_trip_to_Turkmenistan_2008_11.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rustam_Minnikhanov's_trip_to_Turkmenistan_2008_11.jpg",
+        "author": "tatarstan.ru",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "tm-arch-of-neutrality",
+      "name": "Arch of Neutrality",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "wikidata": "Q2564552",
+      "lat": 37.936944,
+      "lon": 58.38,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Monument of Neutrality is a monument and observation tower located in Ashgabat, Turkmenistan.",
+        "es": "El Monumento de la Neutralidad, también llamado Arco de la Neutralidad, era un monumento situado en Asjabad, Turkmenistán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Neutrality Monument",
+          "url": "https://en.wikipedia.org/wiki/Neutrality_Monument"
+        },
+        "es": {
+          "title": "Monumento de la Neutralidad",
+          "url": "https://es.wikipedia.org/wiki/Monumento_de_la_Neutralidad"
+        }
+      },
+      "image": {
+        "file": "Ashgabat_monument_of_neutrality_IMG_5906_(26044793751).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ashgabat_monument_of_neutrality_IMG_5906_(26044793751).jpg",
+        "author": "Juris Paiders",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "tm-ertugrul-gazi-mosque",
+      "name": "Ertuğrul Gazi Mosque",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "wikidata": "Q993863",
+      "lat": 37.933056,
+      "lon": 58.398889,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ertuğrul Gazi Mosque or Ärtogrul Gazy Mosque is a mosque in Ashgabat, Turkmenistan.",
+        "es": "Ertuğrul Gazi Mosque or Ärtogrul Gazy Mosque is a mosque in Ashgabat, Turkmenistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ertuğrul Gazi Mosque",
+          "url": "https://en.wikipedia.org/wiki/Ertu%C4%9Frul_Gazi_Mosque"
+        },
+        "es": {
+          "title": "Ertuğrul Gazi Mosque",
+          "url": "https://en.wikipedia.org/wiki/Ertu%C4%9Frul_Gazi_Mosque"
+        }
+      },
+      "image": {
+        "file": "Ertugrul_Gazi_Mosque_(12)_(45999846362).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ertugrul_Gazi_Mosque_(12)_(45999846362).jpg",
+        "author": "Hans Birger Nilsen",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "tm-altyndepe",
+      "name": "Altyndepe",
+      "area": "Ahal Region",
+      "city": "Ahal Region",
+      "wikidata": "Q2559322",
+      "lat": 36.857917,
+      "lon": 60.432375,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Altyndepe, is a Bronze Age archaeological site in Turkmenistan, near Aşgabat, inhabited first from c.",
+        "es": "Altyndepe, is a Bronze Age archaeological site in Turkmenistan, near Aşgabat, inhabited first from c."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Altyndepe",
+          "url": "https://en.wikipedia.org/wiki/Altyndepe"
+        },
+        "es": {
+          "title": "Altyndepe",
+          "url": "https://en.wikipedia.org/wiki/Altyndepe"
+        }
+      },
+      "image": {
+        "file": "Altyndepe,_Turkmenistan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Altyndepe%2C_Turkmenistan.jpg",
+        "author": "Limin Huan",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tm-turkmenistan-tower",
+      "name": "Turkmenistan Tower",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "wikidata": "Q1407337",
+      "lat": 37.862586,
+      "lon": 58.238169,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Turkmenistan Tower is a communications and observation tower in Ashgabat, Turkmenistan.",
+        "es": "The Turkmenistan Tower is a communications and observation tower in Ashgabat, Turkmenistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Turkmenistan Tower",
+          "url": "https://en.wikipedia.org/wiki/Turkmenistan_Tower"
+        },
+        "es": {
+          "title": "Turkmenistan Tower",
+          "url": "https://en.wikipedia.org/wiki/Turkmenistan_Tower"
+        }
+      }
+    },
+    {
+      "id": "tm-abiward",
+      "name": "Abiward",
+      "area": "Kaka District",
+      "city": "Kaka District",
+      "wikidata": "Q2821653",
+      "lat": 37.391111,
+      "lon": 59.566667,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Abiward or Abi-ward, was an ancient Sasanian city in modern-day Turkmenistan.",
+        "es": "Abiward or Abi-ward, was an ancient Sasanian city in modern-day Turkmenistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Abiward",
+          "url": "https://en.wikipedia.org/wiki/Abiward"
+        },
+        "es": {
+          "title": "Abiward",
+          "url": "https://en.wikipedia.org/wiki/Abiward"
+        }
+      }
+    },
+    {
+      "id": "tm-yyldyz-hotel",
+      "name": "Yyldyz Hotel",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "wikidata": "Q15120372",
+      "lat": 37.929611,
+      "lon": 58.333361,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Yyldyz Hotel is a luxury hotel located in Ashgabat, Turkmenistan.",
+        "es": "El Hotel Yyldyz es un hotel de lujo situado en Asjabad, Turkmenistán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Yyldyz Hotel",
+          "url": "https://en.wikipedia.org/wiki/Yyldyz_Hotel"
+        },
+        "es": {
+          "title": "Hotel Yyldyz",
+          "url": "https://es.wikipedia.org/wiki/Hotel_Yyldyz"
+        }
+      },
+      "image": {
+        "file": "Yyldyz_Hotel_(1)_(45250495235).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yyldyz_Hotel_(1)_(45250495235).jpg",
+        "author": "Hans Birger Nilsen",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "tm-jeitun",
+      "name": "Jeitun",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "wikidata": "Q420194",
+      "lat": 38.187848,
+      "lon": 58.349136,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Jeitun is an archaeological site of the Neolithic period in southern Turkmenistan, about 30 kilometers north of Ashgabat in the Kopet-Dag mountain range.",
+        "es": "Jeitun es un yacimiento arqueológico del Neolítico en el sur de Turkmenistán, a unos 30 kilómetros al norte de Asjabad, en la cordillera Kopet Dag."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jeitun",
+          "url": "https://en.wikipedia.org/wiki/Jeitun"
+        },
+        "es": {
+          "title": "Jeitun",
+          "url": "https://es.wikipedia.org/wiki/Jeitun"
+        }
+      },
+      "image": {
+        "file": "Jeytun_oblique.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jeytun_oblique.jpg",
+        "author": "GaiJorayev",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "tm-saparmurat-hajji-mosque",
+      "name": "Saparmurat Hajji Mosque",
+      "area": "Gökdepe",
+      "city": "Gökdepe",
+      "wikidata": "Q3324895",
+      "lat": 38.1619,
+      "lon": 57.9673,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Saparmyrat Hajji is a mosque in Gökdepe, Turkmenistan.",
+        "es": "The Saparmyrat Hajji is a mosque in Gökdepe, Turkmenistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saparmyrat Hajji Mosque",
+          "url": "https://en.wikipedia.org/wiki/Saparmyrat_Hajji_Mosque"
+        },
+        "es": {
+          "title": "Saparmyrat Hajji Mosque",
+          "url": "https://en.wikipedia.org/wiki/Saparmyrat_Hajji_Mosque"
+        }
+      },
+      "image": {
+        "file": "Geok-Tepe02_(3878579427).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Geok-Tepe02_(3878579427).jpg",
+        "author": "joepyrek from Richmond, Va, USA",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "tm-monument-to-the-constitution",
+      "name": "Monument to the Constitution",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "wikidata": "Q4302176",
+      "lat": 37.898778,
+      "lon": 58.320193,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Monument to the Turkmenistan Constitution is a monument located in Ashgabat, Turkmenistan.",
+        "es": "El Monumento a la Constitución de Turkmenistán es un monumento situado en Asjabad, Turkmenistán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Monument to the Constitution",
+          "url": "https://en.wikipedia.org/wiki/Monument_to_the_Constitution"
+        },
+        "es": {
+          "title": "Monumento a la Constitución de Turkmenistán",
+          "url": "https://es.wikipedia.org/wiki/Monumento_a_la_Constituci%C3%B3n_de_Turkmenist%C3%A1n"
+        }
+      }
+    },
+    {
+      "id": "tm-kow-ata",
+      "name": "Köw Ata",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "wikidata": "Q4225325",
+      "lat": 38.3005,
+      "lon": 57.5191,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kow Ata is an underground lake in an eponymous cave near Bäherden in Turkmenistan, at the foot of the Kopet Dag.",
+        "es": "Kow Ata is an underground lake in an eponymous cave near Bäherden in Turkmenistan, at the foot of the Kopet Dag."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kow Ata",
+          "url": "https://en.wikipedia.org/wiki/Kow_Ata"
+        },
+        "es": {
+          "title": "Kow Ata",
+          "url": "https://en.wikipedia.org/wiki/Kow_Ata"
+        }
+      },
+      "image": {
+        "file": "Kow_Ata_Underground_Lake.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kow_Ata_Underground_Lake.jpg",
+        "author": "David Stanley",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "tm-ulug-depe",
+      "name": "Ulug Depe",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "wikidata": "Q7880780",
+      "lat": 37.155619,
+      "lon": 60.02945,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ulug Depe is an ancient Bronze Age site in the foothills of the Kopet Dag Mountains in the Karakum Desert of Kaka District in the Ahal Province of south-eastern Turkmenistan.",
+        "es": "Ulug Depe is an ancient Bronze Age site in the foothills of the Kopet Dag Mountains in the Karakum Desert of Kaka District in the Ahal Province of south-eastern Turkmenistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ulug Depe",
+          "url": "https://en.wikipedia.org/wiki/Ulug_Depe"
+        },
+        "es": {
+          "title": "Ulug Depe",
+          "url": "https://en.wikipedia.org/wiki/Ulug_Depe"
+        }
+      },
+      "image": {
+        "file": "02_ULG.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:02_ULG.jpg",
+        "author": "Toro parcona",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tm-kopetdag-nature-reserve",
+      "name": "Köpetdag Nature Reserve",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "wikidata": "Q4232314",
+      "lat": 37.734,
+      "lon": 58.27,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Köpetdag Nature Reserve is a nature reserve of Turkmenistan.",
+        "es": "Köpetdag Nature Reserve is a nature reserve of Turkmenistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Köpetdag Nature Reserve",
+          "url": "https://en.wikipedia.org/wiki/K%C3%B6petdag_Nature_Reserve"
+        },
+        "es": {
+          "title": "Köpetdag Nature Reserve",
+          "url": "https://en.wikipedia.org/wiki/K%C3%B6petdag_Nature_Reserve"
+        }
+      },
+      "image": {
+        "file": "Ahal.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ahal.jpg",
+        "author": "Jozef Lang",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tm-ashgabat-memorial-complex",
+      "name": "Ashgabat Memorial Complex",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "wikidata": "Q18404626",
+      "lat": 37.9357,
+      "lon": 58.3167,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Halk Hakydasy Memorial Complex is a memorial complex to the honour of those killed in the Battle of Geok Tepe in 1881, in World War II, and in the 1948 Ashgabat earthquake.",
+        "es": "Halk Hakydasy Memorial Complex is a memorial complex to the honour of those killed in the Battle of Geok Tepe in 1881, in World War II, and in the 1948 Ashgabat earthquake."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Halk Hakydasy Memorial Complex",
+          "url": "https://en.wikipedia.org/wiki/Halk_Hakydasy_Memorial_Complex"
+        },
+        "es": {
+          "title": "Halk Hakydasy Memorial Complex",
+          "url": "https://en.wikipedia.org/wiki/Halk_Hakydasy_Memorial_Complex"
+        }
+      },
+      "image": {
+        "file": "Eternal_glory_monument.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eternal_glory_monument.jpg",
+        "author": "Presidential Press and Information Office of Azerbaijan",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "tm-independence-square-ashgabat",
+      "name": "Independence Square, Ashgabat",
+      "area": "Ashgabat",
+      "city": "Ashgabat",
+      "wikidata": "Q39048420",
+      "lat": 37.935,
+      "lon": 58.3794,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Independence Square is a square in Ashgabat, Turkmenistan.",
+        "es": "Independence Square is a square in Ashgabat, Turkmenistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Independence Square, Ashgabat",
+          "url": "https://en.wikipedia.org/wiki/Independence_Square%2C_Ashgabat"
+        },
+        "es": {
+          "title": "Independence Square, Ashgabat",
+          "url": "https://en.wikipedia.org/wiki/Independence_Square%2C_Ashgabat"
+        }
+      },
+      "image": {
+        "file": "Independence_Square,_Ashgabat.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Independence_Square%2C_Ashgabat.jpg",
+        "author": "Mil.ru",
+        "license": "CC BY 4.0"
       }
     }
   ]

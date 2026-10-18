@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -68,6 +74,314 @@
       "wikidata": "Q55628557",
       "lat": -9.42561,
       "lon": 147.19011
+    },
+    {
+      "id": "pg-mount-lamington",
+      "name": "Mount Lamington",
+      "area": "Port Moresby",
+      "city": "Port Moresby",
+      "wikidata": "Q1367889",
+      "lat": -8.95,
+      "lon": 148.15,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Lamington is an andesitic stratovolcano in the Oro Province of Papua New Guinea.",
+        "es": "El monte Lamington es un estratovolcán activo con estructura andesítica, localizado en la provincia de Oro en Papúa Nueva Guinea."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Lamington",
+          "url": "https://en.wikipedia.org/wiki/Mount_Lamington"
+        },
+        "es": {
+          "title": "Monte Lamington",
+          "url": "https://es.wikipedia.org/wiki/Monte_Lamington"
+        }
+      },
+      "image": {
+        "file": "Mount_Lamington_1951.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Lamington_1951.jpg",
+        "author": "Wally Johnson, Australia Bureau of Mineral Resources",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pg-mount-victoria",
+      "name": "Mount Victoria",
+      "area": "Central Province",
+      "city": "Central Province",
+      "wikidata": "Q2666968",
+      "lat": -8.8925,
+      "lon": 147.533333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Victoria is the highest point in the Owen Stanley Ranges in Central Province, Papua New Guinea at 4,038 metres.",
+        "es": "Mount Victoria is the highest point in the Owen Stanley Ranges in Central Province, Papua New Guinea at 4,038 metres."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Victoria (Papua New Guinea)",
+          "url": "https://en.wikipedia.org/wiki/Mount_Victoria_(Papua_New_Guinea)"
+        },
+        "es": {
+          "title": "Mount Victoria (Papua New Guinea)",
+          "url": "https://en.wikipedia.org/wiki/Mount_Victoria_(Papua_New_Guinea)"
+        }
+      }
+    },
+    {
+      "id": "pg-hohola-mosque",
+      "name": "Hohola Mosque",
+      "area": "Port Moresby",
+      "city": "Port Moresby",
+      "wikidata": "Q106322306",
+      "lat": -9.4585,
+      "lon": 147.17725,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Hohola Mosque is a Sunni Islam mosque in the National Capital District of Port Moresby, Papua New Guinea.",
+        "es": "The Hohola Mosque is a Sunni Islam mosque in the National Capital District of Port Moresby, Papua New Guinea."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hohola Mosque",
+          "url": "https://en.wikipedia.org/wiki/Hohola_Mosque"
+        },
+        "es": {
+          "title": "Hohola Mosque",
+          "url": "https://en.wikipedia.org/wiki/Hohola_Mosque"
+        }
+      }
+    },
+    {
+      "id": "pg-japanese-submarine-ro-33",
+      "name": "Japanese submarine Ro-33",
+      "area": "Port Moresby",
+      "city": "Port Moresby",
+      "wikidata": "Q6159085",
+      "lat": -9.6,
+      "lon": 147.1,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ro-33 was an Imperial Japanese Navy Ro-33-class submarine.",
+        "es": "Ro-33 was an Imperial Japanese Navy Ro-33-class submarine."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Japanese submarine Ro-33",
+          "url": "https://en.wikipedia.org/wiki/Japanese_submarine_Ro-33"
+        },
+        "es": {
+          "title": "Japanese submarine Ro-33",
+          "url": "https://en.wikipedia.org/wiki/Japanese_submarine_Ro-33"
+        }
+      },
+      "image": {
+        "file": "Japanese_submarine_Ro-33_in_1939.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Japanese_submarine_Ro-33_in_1939.jpg",
+        "author": "Imperial Japanese Navy",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pg-st-mary-s-cathedral-port-moresby",
+      "name": "St. Mary's Cathedral, Port Moresby",
+      "area": "Port Moresby",
+      "city": "Port Moresby",
+      "wikidata": "Q23729819",
+      "lat": -9.48081,
+      "lon": 147.14963,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. Mary's Cathedral is a religious building affiliated with the Catholic Church, in the city of Port Moresby, capital of Papua New Guinea,].",
+        "es": "La catedral de Santa María es el nombre que recibe un edificio religioso que está afiliado a la Iglesia católica y se encuentra ubicado en la localidad de Puerto Moresby la capital de Papúa Nueva Guinea en Oceanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Mary's Cathedral, Port Moresby",
+          "url": "https://en.wikipedia.org/wiki/St._Mary's_Cathedral%2C_Port_Moresby"
+        },
+        "es": {
+          "title": "Catedral de Santa María (Puerto Moresby)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Santa_Mar%C3%ADa_(Puerto_Moresby)"
+        }
+      },
+      "image": {
+        "file": "POM_RC_Cathedral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:POM_RC_Cathedral.jpg",
+        "author": "Masalai",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pg-ela-beach",
+      "name": "Ela Beach",
+      "area": "Port Moresby",
+      "city": "Port Moresby",
+      "wikidata": "Q5352538",
+      "lat": -9.47965,
+      "lon": 147.15616,
+      "category": "beach",
+      "interests": [
+        "beaches"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "Ela Beach, formerly known as Era Kone, meaning 'Turtle Beach' in the Motuan dialect of the Papuan region of Papua New Guinea, is Port Moresby's primary public beach.",
+        "es": "Ela Beach, formerly known as Era Kone, meaning 'Turtle Beach' in the Motuan dialect of the Papuan region of Papua New Guinea, is Port Moresby's primary public beach."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ela Beach",
+          "url": "https://en.wikipedia.org/wiki/Ela_Beach"
+        },
+        "es": {
+          "title": "Ela Beach",
+          "url": "https://en.wikipedia.org/wiki/Ela_Beach"
+        }
+      },
+      "image": {
+        "file": "Ela_Beach_May_2015.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ela_Beach_May_2015.jpg",
+        "author": "Nick-D",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pg-national-capital-botanical-gardens",
+      "name": "National Capital Botanical Gardens",
+      "area": "Port Moresby",
+      "city": "Port Moresby",
+      "wikidata": "Q2692902",
+      "lat": -9.4655,
+      "lon": 147.1969,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nature Park Located in Port Moresby, Papua New Guinea, this park is accredited by the Australian zoo and aquarium association.",
+        "es": "El Jardín Botánico de la Capital Nacional, formalmente conocido como National Capital Botanical Gardens, es una serie de parques, jardines botánicos y zoológicos de unas 25 hectáreas de extensión, que se encuentra en…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Port Moresby Nature Park",
+          "url": "https://en.wikipedia.org/wiki/Port_Moresby_Nature_Park"
+        },
+        "es": {
+          "title": "Jardín Botánico de la Capital Nacional",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_de_la_Capital_Nacional"
+        }
+      },
+      "image": {
+        "file": "Xylocarpus_granatum.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Xylocarpus_granatum.jpg",
+        "author": "Toby Hudson",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pg-tatana",
+      "name": "Tatana",
+      "area": "Port Moresby",
+      "city": "Port Moresby",
+      "wikidata": "Q47672813",
+      "lat": -9.4425,
+      "lon": 147.153611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tatana Island is located in the National Capital District of Papua New Guinea.",
+        "es": "Tatana Island is located in the National Capital District of Papua New Guinea."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tatana Island",
+          "url": "https://en.wikipedia.org/wiki/Tatana_Island"
+        },
+        "es": {
+          "title": "Tatana Island",
+          "url": "https://en.wikipedia.org/wiki/Tatana_Island"
+        }
+      },
+      "image": {
+        "file": "Tatana_Island_Causeway.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tatana_Island_Causeway.jpg",
+        "author": "United States Army Corps of Engineers",
+        "license": "Public domain"
+      }
     }
   ]
 }

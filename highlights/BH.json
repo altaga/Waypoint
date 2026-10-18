@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -137,6 +143,913 @@
       "website": "http://www.btea.bh/souq-bab-al-bahrain",
       "lat": 26.23403,
       "lon": 50.57561
+    },
+    {
+      "id": "bh-bahrain",
+      "name": "Bahrain",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q398",
+      "website": "https://www.bahrain.bh",
+      "lat": 26.0675,
+      "lon": 50.551111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Bahrain, officially the Kingdom of Bahrain, is an island country in the eastern part of Arabian Peninsula in West Asia.",
+        "es": "Baréin, oficialmente Reino de Bahréin, y anteriormente Estado de Bahréin, es un micro-Estado soberano insular asiático situado en la costa oeste del golfo Pérsico, cuya forma de gobierno es la monarquía constitucional."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bahrain",
+          "url": "https://en.wikipedia.org/wiki/Bahrain"
+        },
+        "es": {
+          "title": "Baréin",
+          "url": "https://es.wikipedia.org/wiki/Bar%C3%A9in"
+        }
+      },
+      "image": {
+        "file": "Manama,_Bahrain_Decembre_2014.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Manama%2C_Bahrain_Decembre_2014.jpg",
+        "author": "Wadiia",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bh-qal-at-al-bahrain",
+      "name": "Qal’at al Bahrain",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q740104",
+      "lat": 26.233611,
+      "lon": 50.520556,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Qal'at al-Bahrain, also known as the Bahrain Fort or Portuguese Fort, is an archaeological site located in Bahrain.",
+        "es": "Qal`at al-Bahrain es un sitio arqueológico localizado en la gobernación Norte, Baréin."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Qal'at al-Bahrain",
+          "url": "https://en.wikipedia.org/wiki/Qal'at_al-Bahrain"
+        },
+        "es": {
+          "title": "Qal'at al-Bahrain",
+          "url": "https://es.wikipedia.org/wiki/Qal'at_al-Bahrain"
+        }
+      },
+      "image": {
+        "file": "Bahrain_Fort_7.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bahrain_Fort_7.jpg",
+        "author": "Peter from Riyadh, Saudi Arabia",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "bh-king-fahd-causeway",
+      "name": "King Fahd Causeway",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q827735",
+      "website": "https://kfca.sa/",
+      "lat": 26.1825,
+      "lon": 50.335833,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The King Fahd Causeway is a 25 km long series of bridges and causeways connecting Khobar, Saudi Arabia, and Al Jasra, Bahrain across the Gulf of Bahrain.",
+        "es": "La Calzada del Rey Fahd es una serie de puentes y pedraplenes combinados, que conectan la localidad de Khobar, situada en Arabia Saudita y Baréin."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "King Fahd Causeway",
+          "url": "https://en.wikipedia.org/wiki/King_Fahd_Causeway"
+        },
+        "es": {
+          "title": "Calzada del Rey Fahd",
+          "url": "https://es.wikipedia.org/wiki/Calzada_del_Rey_Fahd"
+        }
+      },
+      "image": {
+        "file": "King_Fahd_Causeway_bridge_num4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:King_Fahd_Causeway_bridge_num4.jpg",
+        "author": "Greens n cornbread",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "bh-sitra",
+      "name": "Sitra",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q1416753",
+      "lat": 26.15,
+      "lon": 50.616667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sitra, also known as Sitrah or Sitra Island, is an island in Bahrain situated approximately 5 km south of the capital, Manama, which is on Bahrain Island.",
+        "es": "Sitra es una isla de Baréin, justo al este de la isla de Baréin, con la que está comunicada por la Calzada de Sitra."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sitra",
+          "url": "https://en.wikipedia.org/wiki/Sitra"
+        },
+        "es": {
+          "title": "Sitrah",
+          "url": "https://es.wikipedia.org/wiki/Sitrah"
+        }
+      },
+      "image": {
+        "file": "Women_taking_part_in_a_pro-democracy_sit_in_in_Sitra.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Women_taking_part_in_a_pro-democracy_sit_in_in_Sitra.jpg",
+        "author": "Bahrain in Pictures",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bh-al-fateh-grand-mosque",
+      "name": "Al Fateh Grand Mosque",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q2086076",
+      "website": "https://alfatehbh.net/",
+      "lat": 26.218889,
+      "lon": 50.598056,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Al-Fateh Mosque, also known as the Al-Fateh Islamic Center and as the Al Fateh Grand Mosque, is a large mosque, located in Manama, Bahrain.",
+        "es": "La Mezquita Al-Fateh es una de las mezquitas más grandes del mundo, abarcando 6500 metros cuadrados y con una capacidad de más de 7000 fieles."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Al Fateh Grand Mosque",
+          "url": "https://en.wikipedia.org/wiki/Al_Fateh_Grand_Mosque"
+        },
+        "es": {
+          "title": "Gran Mezquita Al-Fateh",
+          "url": "https://es.wikipedia.org/wiki/Gran_Mezquita_Al-Fateh"
+        }
+      },
+      "image": {
+        "file": "Al_Fateh_outside.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Al_Fateh_outside.jpg",
+        "author": "أبو الشاي حليب",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "bh-dilmun-burial-mounds",
+      "name": "Dilmun Burial Mounds",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q5276996",
+      "lat": 26.149722,
+      "lon": 50.512778,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Dilmun Burial Mounds are a UNESCO World Heritage Site comprising necropolis areas on the main island of Bahrain dating back to the Dilmun and the Umm al-Nar culture.",
+        "es": "Los túmulos funerarios de Dilmún son un sitio del Patrimonio Mundial de la UNESCO que comprende áreas de necrópolis en la isla principal de Baréin que se remontan a las culturas Dilmún y Umm al-Nar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dilmun Burial Mounds",
+          "url": "https://en.wikipedia.org/wiki/Dilmun_Burial_Mounds"
+        },
+        "es": {
+          "title": "Túmulos funerarios de Dilmún",
+          "url": "https://es.wikipedia.org/wiki/T%C3%BAmulos_funerarios_de_Dilm%C3%BAn"
+        }
+      },
+      "image": {
+        "file": "Burial_Mounds_in_Bahrain_1918.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Burial_Mounds_in_Bahrain_1918.jpg",
+        "author": "Storrs-Fox, Edwin Aubrey",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "bh-bahrain-island",
+      "name": "Bahrain Island",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q2740693",
+      "lat": 26.035808,
+      "lon": 50.550842,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Bahrain Island, also known as Awal Island and formerly as Bahrein, is the largest island within the archipelago of Bahrain, and forms the bulk of the country's land mass while hosting the majority of its population.",
+        "es": "La isla de Bahréin, o isla al-Awal, es la mayor isla de Baréin."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bahrain Island",
+          "url": "https://en.wikipedia.org/wiki/Bahrain_Island"
+        },
+        "es": {
+          "title": "Isla de Baréin",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Bar%C3%A9in"
+        }
+      },
+      "image": {
+        "file": "Bahrain,_astronaut_photograph.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bahrain%2C_astronaut_photograph.jpg",
+        "author": "NASA/STS-78",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "bh-muharraq-island",
+      "name": "Muharraq Island",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q1344111",
+      "lat": 26.266942,
+      "lon": 50.638389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Muharraq Island, formerly known as Moharek, is the second largest island in the archipelago of Bahrain after Bahrain Island.",
+        "es": "La isla Muharraq es por extensión la tercera mayor isla Baréin tras la isla de Baréin y la de Hawar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Muharraq Island",
+          "url": "https://en.wikipedia.org/wiki/Muharraq_Island"
+        },
+        "es": {
+          "title": "Isla de Muharraq",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Muharraq"
+        }
+      },
+      "image": {
+        "file": "Muharraq_and_Manama.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Muharraq_and_Manama.jpg",
+        "author": "No machine-readable author provided. Leshonai assumed (based on copyright claims",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "bh-mountain-of-smoke",
+      "name": "Mountain of Smoke",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q1032812",
+      "lat": 26.038889,
+      "lon": 50.543056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Mountain of Smoke is a hill in the Southern Governorate of Bahrain.",
+        "es": "Jabal ad-Dukhan es una montaña de situada en la isla de Baréin que es el punto más elevado del país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mountain of Smoke",
+          "url": "https://en.wikipedia.org/wiki/Mountain_of_Smoke"
+        },
+        "es": {
+          "title": "Jabal ad-Dukhan",
+          "url": "https://es.wikipedia.org/wiki/Jabal_ad-Dukhan"
+        }
+      }
+    },
+    {
+      "id": "bh-umm-an-nasan",
+      "name": "Umm an Nasan",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q2165200",
+      "lat": 26.149722,
+      "lon": 50.4,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Umm an Nasan is the fifth largest island of Bahrain.",
+        "es": "Isla Umm an Nasan es la cuarta isla más grande en Baréin, después de la isla principal de Baréin, la isla Hawar y la isla de Muharraq."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Umm an Nasan",
+          "url": "https://en.wikipedia.org/wiki/Umm_an_Nasan"
+        },
+        "es": {
+          "title": "Umm an Nasan",
+          "url": "https://es.wikipedia.org/wiki/Umm_an_Nasan"
+        }
+      },
+      "image": {
+        "file": "King_Fahd_causeway_satellite.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:King_Fahd_causeway_satellite.png",
+        "author": "Roke (original uploader)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "bh-pearl-roundabout",
+      "name": "Pearl Roundabout",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q383586",
+      "lat": 26.230278,
+      "lon": 50.561389,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Gulf Cooperation Council or GCC Roundabout, known as Pearl Roundabout or Lulu Roundabout, was a roundabout located near the financial district of Manama, Bahrain.",
+        "es": "Plaza de la Perla es el nombre popular por el que se conoce a Plaza del Consejo de Cooperación del Golfo, una plaza cerca del distrito financiero de Manama, Baréin."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pearl Roundabout",
+          "url": "https://en.wikipedia.org/wiki/Pearl_Roundabout"
+        },
+        "es": {
+          "title": "Plaza de la Perla",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_la_Perla"
+        }
+      },
+      "image": {
+        "file": "Al_Farooq_Junction_under_construction_at_former_site_of_Pearl_Roundabout.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Al_Farooq_Junction_under_construction_at_former_site_of_Pearl_Roundabout.jpg",
+        "author": "http://bahrain.viewbook.com",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bh-durrat-al-bahrain",
+      "name": "Durrat Al Bahrain",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q3041613",
+      "lat": 25.835587,
+      "lon": 50.605474,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Durrat Al Bahrain is the third largest artificial island in Bahrain after Northern City and Diyar Al Muharraq Islands.",
+        "es": "Durrat Al Bahrain es la mayor isla artificial en Bahrain después de la Islas Amwaj y es comparada con las Islas Palm de Dubái, Emiratos Árabes Unidos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Durrat Al Bahrain",
+          "url": "https://en.wikipedia.org/wiki/Durrat_Al_Bahrain"
+        },
+        "es": {
+          "title": "Durrat Al Bahrain",
+          "url": "https://es.wikipedia.org/wiki/Durrat_Al_Bahrain"
+        }
+      },
+      "image": {
+        "file": "Durrat_Al_Bahrain_Model_Pict_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Durrat_Al_Bahrain_Model_Pict_2.jpg",
+        "author": "Imre Solt",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bh-amwaj-islands",
+      "name": "Amwaj Islands",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q2616820",
+      "lat": 26.291111,
+      "lon": 50.665278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Amwaj Islands are a group of man-made islands, located in the Persian Gulf to the northeast of Bahrain, off the north coast of Muharraq Island.",
+        "es": "Las islas Amwaj son un grupo de islas artificiales situadas en el noreste de Baréin, cerca de la isla de Muharraq."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Amwaj Islands",
+          "url": "https://en.wikipedia.org/wiki/Amwaj_Islands"
+        },
+        "es": {
+          "title": "Islas Amwaj",
+          "url": "https://es.wikipedia.org/wiki/Islas_Amwaj"
+        }
+      },
+      "image": {
+        "file": "Amwaj_Air.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amwaj_Air.jpg",
+        "author": "Alhaddadm at English Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bh-khamis-mosque",
+      "name": "Khamis Mosque",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q4119263",
+      "lat": 26.2082,
+      "lon": 50.5483,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Khamis Mosque is believed to be the first mosque in Bahrain, built during the era of the Umayyad caliph Umar II in Khamis.",
+        "es": "The Khamis Mosque is believed to be the first mosque in Bahrain, built during the era of the Umayyad caliph Umar II in Khamis."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Khamis Mosque",
+          "url": "https://en.wikipedia.org/wiki/Khamis_Mosque"
+        },
+        "es": {
+          "title": "Khamis Mosque",
+          "url": "https://en.wikipedia.org/wiki/Khamis_Mosque"
+        }
+      },
+      "image": {
+        "file": "Khamis_Mosque_Minaret.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Khamis_Mosque_Minaret.jpg",
+        "author": "Rick's Images",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "bh-jidda-island",
+      "name": "Jidda Island",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q3075620",
+      "lat": 26.193611,
+      "lon": 50.404167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Jidda Islands are a group of three small uninhabited islets in Bahrain, lying to the west of Bahrain Island and just north of Umm an Nasan in the Persian Gulf.",
+        "es": "Isla Jidda es un islote en Baréin. Se encuentra al oeste de la isla de Baréin y al norte de la isla Umm an Nasan en el golfo Pérsico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jidda Island",
+          "url": "https://en.wikipedia.org/wiki/Jidda_Island"
+        },
+        "es": {
+          "title": "Isla Jidda",
+          "url": "https://es.wikipedia.org/wiki/Isla_Jidda"
+        }
+      },
+      "image": {
+        "file": "Colours_of_the_Persian_Gulf_ESA353290_(cropped_to_Jidda_Island).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Colours_of_the_Persian_Gulf_ESA353290_(cropped_to_Jidda_Island).jpg",
+        "author": "European Space Agency",
+        "license": "CC BY-SA 3.0 igo"
+      }
+    },
+    {
+      "id": "bh-arad-fort",
+      "name": "Arad Fort",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q3078134",
+      "lat": 26.2525,
+      "lon": 50.626944,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Arad Fort is a 15th-century fort in Arad, Bahrain.",
+        "es": "El fuerte de Arad es un fuerte del siglo XV situado en Arad, un centro urbano de la isla de Muharraq, al norte de Baréin."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Arad Fort",
+          "url": "https://en.wikipedia.org/wiki/Arad_Fort"
+        },
+        "es": {
+          "title": "Fuerte de Arad",
+          "url": "https://es.wikipedia.org/wiki/Fuerte_de_Arad"
+        }
+      },
+      "image": {
+        "file": "Bahrainfort_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bahrainfort_01.jpg",
+        "author": "Abadi Moustapha from Jufoor, Bahrain",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "bh-barbar-temple",
+      "name": "Barbar Temple",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q807317",
+      "lat": 26.22612,
+      "lon": 50.484154,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Barbar Temple is an archaeological site located in the village of Barbar, Bahrain, considered to be part of the Dilmun culture.",
+        "es": "El templo de Barbar es un sitio arqueológico ubicado en el pueblo de Barbar, en la gobernación Norte de Baréin, considerado parte de la cultura Dilmún."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Barbar Temple",
+          "url": "https://en.wikipedia.org/wiki/Barbar_Temple"
+        },
+        "es": {
+          "title": "Templo de Barbar",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_Barbar"
+        }
+      },
+      "image": {
+        "file": "Barbar_Temple.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Barbar_Temple.jpg",
+        "author": "Graeme",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "bh-qatar-bahrain-causeway",
+      "name": "Qatar Bahrain Causeway",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q1455887",
+      "lat": 26.022778,
+      "lon": 50.802222,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Qatar Bahrain Causeway is a planned causeway between the two Arab states of Qatar and Bahrain.",
+        "es": "El puente de la Amistad Catar-Baréin o simplemente puente de la Amistad, es un puente o una calzada prevista entre los dos estados árabes de Catar y Baréin."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Qatar–Bahrain Causeway",
+          "url": "https://en.wikipedia.org/wiki/Qatar%E2%80%93Bahrain_Causeway"
+        },
+        "es": {
+          "title": "Puente de la amistad Catar Baréin",
+          "url": "https://es.wikipedia.org/wiki/Puente_de_la_amistad_Catar_Bar%C3%A9in"
+        }
+      }
+    },
+    {
+      "id": "bh-bahrain-synagogue",
+      "name": "Bahrain Synagogue",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q3497201",
+      "lat": 26.230528,
+      "lon": 50.57444,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "House of Ten Commandments, also called Bahrain Synagogue, is a synagogue located on Sasa'ah Avenue, in commercial district in Manama, Bahrain.",
+        "es": "House of Ten Commandments, also called Bahrain Synagogue, is a synagogue located on Sasa'ah Avenue, in commercial district in Manama, Bahrain."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bahrain Synagogue",
+          "url": "https://en.wikipedia.org/wiki/Bahrain_Synagogue"
+        },
+        "es": {
+          "title": "Bahrain Synagogue",
+          "url": "https://en.wikipedia.org/wiki/Bahrain_Synagogue"
+        }
+      },
+      "image": {
+        "file": "Manama_synagogue_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Manama_synagogue_1.jpg",
+        "author": "Alexgriz",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bh-passport-island",
+      "name": "Passport Island",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q20191145",
+      "lat": 26.184248,
+      "lon": 50.32485,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Passport Island, known officially as the King Fahd Island, is an artificial island partitioned between Bahrain and Saudi Arabia in the Gulf of Bahrain.",
+        "es": "The Passport Island, known officially as the King Fahd Island, is an artificial island partitioned between Bahrain and Saudi Arabia in the Gulf of Bahrain."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Passport Island",
+          "url": "https://en.wikipedia.org/wiki/Passport_Island"
+        },
+        "es": {
+          "title": "Passport Island",
+          "url": "https://en.wikipedia.org/wiki/Passport_Island"
+        }
+      },
+      "image": {
+        "file": "ISS023-E-18224_-_View_of_Bahrain.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ISS023-E-18224_-_View_of_Bahrain.jpg",
+        "author": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "bh-umm-as-sabaan",
+      "name": "Umm as Sabaan",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q7881671",
+      "lat": 26.198889,
+      "lon": 50.436389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Umm as Sabaan is an islet in Bahrain. It lies off the north western corner of Bahrain Island, near Budaiya village, and east of Jidda Island, located in the Persian Gulf.",
+        "es": "Umm as Sabaan es un isla en Baréin. Se encuentra frente a la esquina noroeste de la isla de Baréin, cerca de la aldea de Budaiya, y al este de la isla de Jidda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Umm as Sabaan",
+          "url": "https://en.wikipedia.org/wiki/Umm_as_Sabaan"
+        },
+        "es": {
+          "title": "Umm as Sabaan",
+          "url": "https://es.wikipedia.org/wiki/Umm_as_Sabaan"
+        }
+      }
+    },
+    {
+      "id": "bh-cathedral-of-our-lady-of-arabia",
+      "name": "Cathedral of Our Lady of Arabia",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q18416916",
+      "website": "https://bahraincathedral.com/",
+      "lat": 26.078977,
+      "lon": 50.545436,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of Our Lady of Arabia is a Roman Catholic cathedral in Awali, Bahrain, dedicated to Our Lady of Arabia.",
+        "es": "The Cathedral of Our Lady of Arabia is a Roman Catholic cathedral in Awali, Bahrain, dedicated to Our Lady of Arabia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "The Cathedral of Our Lady of Arabia",
+          "url": "https://en.wikipedia.org/wiki/The_Cathedral_of_Our_Lady_of_Arabia"
+        },
+        "es": {
+          "title": "The Cathedral of Our Lady of Arabia",
+          "url": "https://en.wikipedia.org/wiki/The_Cathedral_of_Our_Lady_of_Arabia"
+        }
+      },
+      "image": {
+        "file": "The_Cathedral_of_Our_Lady_of_Arabia,_Awali_(06-12-2022).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Cathedral_of_Our_Lady_of_Arabia%2C_Awali_(06-12-2022).jpg",
+        "author": "Saji Thomas",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "bh-al-hasan-mosque",
+      "name": "Al Hasan Mosque",
+      "area": "Manama",
+      "city": "Manama",
+      "wikidata": "Q111795904",
+      "lat": 26.2762,
+      "lon": 50.5991,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Al-Hasan Mosque is a mosque located in Busaiteen, Bahrain.",
+        "es": "The Al-Hasan Mosque is a mosque located in Busaiteen, Bahrain."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Al Hasan Mosque",
+          "url": "https://en.wikipedia.org/wiki/Al_Hasan_Mosque"
+        },
+        "es": {
+          "title": "Al Hasan Mosque",
+          "url": "https://en.wikipedia.org/wiki/Al_Hasan_Mosque"
+        }
+      },
+      "image": {
+        "file": "Al_Hasan_Mosue.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Al_Hasan_Mosue.jpg",
+        "author": "Teacher Samara",
+        "license": "CC BY-SA 4.0"
+      }
     }
   ]
 }

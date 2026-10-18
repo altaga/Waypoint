@@ -111,7 +111,7 @@ async function country() {
     const q = `SELECT ?item ?itemLabel ?sl ?cls ?admLabel WHERE {
       ?item wdt:P17 wd:${c.wikidata} ; wikibase:sitelinks ?sl ; wdt:P625 ?coord ; wdt:P31 ?cls . FILTER(?sl >= 8)
       OPTIONAL { ?item wdt:P131 ?adm . }
-      SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } ORDER BY DESC(?sl) LIMIT 1500`;
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } ORDER BY DESC(?sl) LIMIT ${process.env.COUNTRY_LIMIT || 1500}`;
     const r = await sparql(q);
     if (!r) { console.log("failed", c.iso); continue; }
     const by = new Map();
@@ -245,7 +245,7 @@ function write() {
       for (const it of c.items) {
         const f = facts[it.id];
         const w = wiki[it.id];
-        if (!f || f.lat == null || !w?.en?.text || wikidataIds.has(it.id)) continue;
+        if (!f || f.lat == null || !w?.en?.text || w.en.text.length < 20 || wikidataIds.has(it.id)) continue;
         if (nearBy(f.lat, f.lon)) continue; // already in the list under another id
         // A countrywide place is filed under the nearest city (within 40 km), else under where Wikidata says it is; one far from every city of the country (a disputed rock far offshore) is left out.
         let where = c.city;
@@ -263,7 +263,7 @@ function write() {
         ids.add(id);
         const photo = f.image && commons[f.image] ? { file: f.image.replace(/ /g, "_"), pageUrl: commons[f.image].pageUrl, author: commons[f.image].author, license: commons[f.image].license } : null;
         if (photo) photos++;
-        const es = w.es?.text;
+        const es = w.es?.text && w.es.text.length >= 20 ? w.es.text : null;
         fresh.push({
           id, name, ...(f.es && f.es !== name ? { nameLocal: undefined } : {}), area: where, city: where, wikidata: it.id,
           ...(f.website && /^https:\/\//.test(f.website) ? { website: f.website } : {}),
@@ -274,6 +274,8 @@ function write() {
           descBy: { en: "wikipedia", es: "wikipedia" },
           ground: { retrieved: TODAY, en: { title: w.en.title, url: w.en.url }, es: w.es?.url ? { title: w.es.title, url: w.es.url } : { title: w.en.title, url: w.en.url } }, // no Spanish article: the sentence is English and the link is the English article
           ...(photo ? { image: photo } : {}),
+          // Tokyo is big: a part of the city (east, center, west) lets a day stay in one part.
+          ...(where === "Tokyo" ? { zone: f.lon < 139.7 ? "west" : f.lon > 139.77 ? "east" : "center" } : {}),
         });
       }
     }

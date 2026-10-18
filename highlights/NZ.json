@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -433,6 +439,2408 @@
       "website": "https://www.visitzealandia.com/",
       "lat": -41.29438,
       "lon": 174.75002
+    },
+    {
+      "id": "nz-new-zealand",
+      "name": "New Zealand",
+      "area": "Wellington",
+      "city": "Wellington",
+      "wikidata": "Q664",
+      "lat": -41.2,
+      "lon": 174,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "New Zealand is an island country in the southwestern Pacific Ocean.",
+        "es": "Nueva Zelanda es un país soberano insular ubicado en Oceanía, localizado en el suroeste del océano Pacífico, cerca de Australia y constituido en una monarquía parlamentaria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "New Zealand",
+          "url": "https://en.wikipedia.org/wiki/New_Zealand"
+        },
+        "es": {
+          "title": "Nueva Zelanda",
+          "url": "https://es.wikipedia.org/wiki/Nueva_Zelanda"
+        }
+      },
+      "image": {
+        "file": "New_Zealand_Topography.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:New_Zealand_Topography.jpg",
+        "author": "NASA/JPL/NIMA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-north-island",
+      "name": "North Island",
+      "area": "New Zealand",
+      "city": "New Zealand",
+      "wikidata": "Q118863",
+      "lat": -39,
+      "lon": 176,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The North Island is one of the two main islands of New Zealand, separated from the larger but less populous South Island by Cook Strait.",
+        "es": "La isla Norte es una de las dos islas mayores de Nueva Zelanda así como la más poblada y, también, la más densamente poblada del país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "North Island",
+          "url": "https://en.wikipedia.org/wiki/North_Island"
+        },
+        "es": {
+          "title": "Isla Norte",
+          "url": "https://es.wikipedia.org/wiki/Isla_Norte"
+        }
+      },
+      "image": {
+        "file": "Sailing_school_-_Lake_Taupo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sailing_school_-_Lake_Taupo.jpg",
+        "author": "QFSE Media",
+        "license": "CC BY-SA 3.0 nz"
+      }
+    },
+    {
+      "id": "nz-south-island",
+      "name": "South Island",
+      "area": "New Zealand",
+      "city": "New Zealand",
+      "wikidata": "Q120755",
+      "lat": -43.6,
+      "lon": 170.4,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The South Island is the larger of the two main islands of New Zealand by surface area, the other being the smaller but more populous North Island.",
+        "es": "La isla Sur es una de las dos islas mayores que componen Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "South Island",
+          "url": "https://en.wikipedia.org/wiki/South_Island"
+        },
+        "es": {
+          "title": "Isla Sur",
+          "url": "https://es.wikipedia.org/wiki/Isla_Sur"
+        }
+      },
+      "image": {
+        "file": "Lake_Matheson_2007-12-06.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Matheson_2007-12-06.JPG",
+        "author": "Ulrich.hoecker",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "nz-aoraki-mount-cook",
+      "name": "Aoraki / Mount Cook",
+      "area": "Canterbury Region",
+      "city": "Canterbury Region",
+      "wikidata": "Q5059",
+      "lat": -43.595,
+      "lon": 170.141944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Aoraki / Mount Cook is the highest mountain in New Zealand.",
+        "es": "El monte Cook es la montaña más alta de Nueva Zelanda, con una elevación de 3764 m s."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aoraki / Mount Cook",
+          "url": "https://en.wikipedia.org/wiki/Aoraki_%2F_Mount_Cook"
+        },
+        "es": {
+          "title": "Monte Cook",
+          "url": "https://es.wikipedia.org/wiki/Monte_Cook"
+        }
+      },
+      "image": {
+        "file": "Aoraki_-_Mt_Cook,_Aoraki_-_Mount_Cook_National_Park,_New_Zealand.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aoraki_-_Mt_Cook%2C_Aoraki_-_Mount_Cook_National_Park%2C_New_Zealand.jpg",
+        "author": "Michal Klajban",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nz-lake-taupo",
+      "name": "Lake Taupō",
+      "area": "Waikato Region",
+      "city": "Waikato Region",
+      "wikidata": "Q199903",
+      "lat": -38.816667,
+      "lon": 175.916667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Taupō is a large crater lake in New Zealand's North Island, located in the caldera of Taupō Volcano.",
+        "es": "El lago Taupo es el más extenso de Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Taupō",
+          "url": "https://en.wikipedia.org/wiki/Lake_Taup%C5%8D"
+        },
+        "es": {
+          "title": "Lago Taupo",
+          "url": "https://es.wikipedia.org/wiki/Lago_Taupo"
+        }
+      },
+      "image": {
+        "file": "Lake_taupo_landsat.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_taupo_landsat.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-mount-ruapehu",
+      "name": "Mount Ruapehu",
+      "area": "Ruapehu District",
+      "city": "Ruapehu District",
+      "wikidata": "Q207284",
+      "lat": -39.281667,
+      "lon": 175.568611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Ruapehu is an active stratovolcano at the southern end of the Taupō Volcanic Zone and North Island volcanic plateau in New Zealand.",
+        "es": "El monte Ruapehu es uno de los volcanes más activos de Nueva Zelanda, en la zona volcánica de Taupo de la isla Norte."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Ruapehu",
+          "url": "https://en.wikipedia.org/wiki/Mount_Ruapehu"
+        },
+        "es": {
+          "title": "Ruapehu",
+          "url": "https://es.wikipedia.org/wiki/Ruapehu"
+        }
+      },
+      "image": {
+        "file": "Ruapehu_Dawn_n.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ruapehu_Dawn_n.jpg",
+        "author": "The original uploader was JShook at English Wikipedia.",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "nz-tongariro-national-park",
+      "name": "Tongariro National Park",
+      "area": "Manawatū-Whanganui Region",
+      "city": "Manawatū-Whanganui Region",
+      "wikidata": "Q202845",
+      "website": "https://www.nationalpark.co.nz/",
+      "lat": -39.2,
+      "lon": 175.583333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tongariro National Park, located in the central North Island, is the oldest national park in New Zealand and the sixth national park established in the world.",
+        "es": "El Parque nacional de Tongariro es el parque nacional más antiguo de Nueva Zelanda, situado en medio de la isla Norte."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tongariro National Park",
+          "url": "https://en.wikipedia.org/wiki/Tongariro_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Tongariro",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Tongariro"
+        }
+      },
+      "image": {
+        "file": "Tongariro_Mahuia_River_n.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tongariro_Mahuia_River_n.jpg",
+        "author": "Unknown",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "nz-taranaki-maunga",
+      "name": "Taranaki Maunga",
+      "area": "Taranaki Region",
+      "city": "Taranaki Region",
+      "wikidata": "Q850051",
+      "lat": -39.296389,
+      "lon": 174.064722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Taranaki, officially Taranaki Maunga and also known as Mount Egmont, is a dormant stratovolcano in the Taranaki region on the west coast of New Zealand's North Island.",
+        "es": "El monte Taranaki o monte Egmont es un estratovolcán dormido, localizado en la región de Taranaki, en la costa oeste de la isla Norte de Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Taranaki",
+          "url": "https://en.wikipedia.org/wiki/Mount_Taranaki"
+        },
+        "es": {
+          "title": "Monte Taranaki",
+          "url": "https://es.wikipedia.org/wiki/Monte_Taranaki"
+        }
+      },
+      "image": {
+        "file": "Mount_Taranaki_or_Mount_Egmont,_New_Zealand.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Taranaki_or_Mount_Egmont%2C_New_Zealand.jpg",
+        "author": "Ulrich Lange, Bochum, Germany",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nz-whakaari-white-island",
+      "name": "Whakaari / White Island",
+      "area": "Bay of Plenty Region",
+      "city": "Bay of Plenty Region",
+      "wikidata": "Q557077",
+      "lat": -37.52,
+      "lon": 177.1825,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Whakaari / White Island, also known as White Island or Whakaari, is an active andesite stratovolcano situated 48 km from the east coast of the North Island of New Zealand, in the Bay of Plenty.",
+        "es": "La isla Whakaari o la isla White es un estratovolcán activo de andesita, situado a 48 km de la costa este de la isla Norte de Nueva Zelanda, específicamente en la bahía de Plenty."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Whakaari / White Island",
+          "url": "https://en.wikipedia.org/wiki/Whakaari_%2F_White_Island"
+        },
+        "es": {
+          "title": "Isla Whakaari/White",
+          "url": "https://es.wikipedia.org/wiki/Isla_Whakaari%2FWhite"
+        }
+      },
+      "image": {
+        "file": "White_Island_from_east.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:White_Island_from_east.jpg",
+        "author": "Pseudopanax at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-mount-tongariro",
+      "name": "Mount Tongariro",
+      "area": "Ruapehu District",
+      "city": "Ruapehu District",
+      "wikidata": "Q122795",
+      "lat": -39.129722,
+      "lon": 175.635833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Tongariro is a compound volcano in the Taupō Volcanic Zone of the North Island of New Zealand.",
+        "es": "El monte Tongariro es un volcán activo en Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Tongariro",
+          "url": "https://en.wikipedia.org/wiki/Mount_Tongariro"
+        },
+        "es": {
+          "title": "Tongariro",
+          "url": "https://es.wikipedia.org/wiki/Tongariro"
+        }
+      },
+      "image": {
+        "file": "Tongariro_from_the_air.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tongariro_from_the_air.jpg",
+        "author": "Phillip Capper from Wellington, New Zealand",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "nz-sky-tower",
+      "name": "Sky Tower",
+      "area": "Auckland",
+      "city": "Auckland",
+      "wikidata": "Q722125",
+      "website": "https://www.skycityauckland.co.nz/attractions/sky-tower/",
+      "lat": -36.848472,
+      "lon": 174.762306,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sky Tower is a telecommunications and observation tower in Auckland, New Zealand.",
+        "es": "Sky Tower es una torre de telecomunicaciones y difusión de radio y televisión situada en Auckland."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sky Tower (Auckland)",
+          "url": "https://en.wikipedia.org/wiki/Sky_Tower_(Auckland)"
+        },
+        "es": {
+          "title": "Sky Tower",
+          "url": "https://es.wikipedia.org/wiki/Sky_Tower"
+        }
+      },
+      "image": {
+        "file": "Auckland_Sky_Tower_closeup.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Auckland_Sky_Tower_closeup.jpg",
+        "author": "Orderinchaos",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nz-aoraki-mount-cook-national-park",
+      "name": "Aoraki / Mount Cook National Park",
+      "area": "Canterbury Region",
+      "city": "Canterbury Region",
+      "wikidata": "Q1950336",
+      "lat": -43.7333,
+      "lon": 170.1,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Aoraki / Mount Cook National Park is a national park located in the Canterbury Region in the central-west of the South Island of New Zealand.",
+        "es": "El Parque Nacional de Aoraki/Mount Cook se encuentra en la isla Sur de Nueva Zelanda, cerca de la ciudad de Twizel."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aoraki / Mount Cook National Park",
+          "url": "https://en.wikipedia.org/wiki/Aoraki_%2F_Mount_Cook_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Aoraki/Mount Cook",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Aoraki%2FMount_Cook"
+        }
+      },
+      "image": {
+        "file": "Mountcook.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mountcook.jpg",
+        "author": "No machine-readable author provided. Steffen84~commonswiki assumed (based on cop",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "nz-abel-tasman-national-park",
+      "name": "Abel Tasman National Park",
+      "area": "Tasman District",
+      "city": "Tasman District",
+      "wikidata": "Q318357",
+      "lat": -40.900028,
+      "lon": 172.9715,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Abel Tasman National Park is a national park at the north end of New Zealand's South Island.",
+        "es": "El Parque Nacional Abel Tasman es un parque nacional ubicado en Nueva Zelanda en la Bahía dorada, en el sitio donde llegó el explorador Abel Tasman en diciembre de 1642."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Abel Tasman National Park",
+          "url": "https://en.wikipedia.org/wiki/Abel_Tasman_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Abel Tasman",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Abel_Tasman"
+        }
+      },
+      "image": {
+        "file": "View_south_over_Anatakapau_Bay_and_Mutton_Cove.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:View_south_over_Anatakapau_Bay_and_Mutton_Cove.jpg",
+        "author": "Pseudopanax at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-great-barrier-island",
+      "name": "Great Barrier Island",
+      "area": "Auckland Region",
+      "city": "Auckland Region",
+      "wikidata": "Q1363130",
+      "lat": -36.179599,
+      "lon": 175.41969,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Great Barrier Island lies in the outer Hauraki Gulf, New Zealand, 100 kilometres north-east of central Auckland.",
+        "es": "La isla Gran Barrera se encuentra ubicada a 88 km al noreste de Nueva Zelanda, frente al golfo de Hauraki."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Great Barrier Island",
+          "url": "https://en.wikipedia.org/wiki/Great_Barrier_Island"
+        },
+        "es": {
+          "title": "Isla Gran Barrera",
+          "url": "https://es.wikipedia.org/wiki/Isla_Gran_Barrera"
+        }
+      },
+      "image": {
+        "file": "Medlands_Beach_From_High_Up_West.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Medlands_Beach_From_High_Up_West.jpg",
+        "author": "Ingolfson",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-waiheke-island",
+      "name": "Waiheke Island",
+      "area": "Auckland",
+      "city": "Auckland",
+      "wikidata": "Q909136",
+      "lat": -36.8,
+      "lon": 175.1,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Waiheke Island is the second-largest island in the Hauraki Gulf of New Zealand.",
+        "es": "La isla Waiheke se encuentra ubicada en el golfo de Hauraki, a 35 minutos de viaje por ferry hasta Auckland, en Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Waiheke Island",
+          "url": "https://en.wikipedia.org/wiki/Waiheke_Island"
+        },
+        "es": {
+          "title": "Isla Waiheke",
+          "url": "https://es.wikipedia.org/wiki/Isla_Waiheke"
+        }
+      },
+      "image": {
+        "file": "Oneroa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oneroa.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "nz-mount-tarawera",
+      "name": "Mount Tarawera",
+      "area": "Bay of Plenty Region",
+      "city": "Bay of Plenty Region",
+      "wikidata": "Q1192560",
+      "lat": -38.226944,
+      "lon": 176.506667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Tarawera is a volcano on the North Island of New Zealand within the older but volcanically productive Ōkataina Caldera.",
+        "es": "El monte Tarawera es un volcán activo al sureste de Rotorua en isla Norte en Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Tarawera",
+          "url": "https://en.wikipedia.org/wiki/Mount_Tarawera"
+        },
+        "es": {
+          "title": "Tarawera",
+          "url": "https://es.wikipedia.org/wiki/Tarawera"
+        }
+      },
+      "image": {
+        "file": "Okataina.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Okataina.jpg",
+        "author": "Richard Waitt, U.S. Geological Survey",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-westland-tai-poutini-national-park",
+      "name": "Westland Tai Poutini National Park",
+      "area": "West Coast Region",
+      "city": "West Coast Region",
+      "wikidata": "Q1053661",
+      "lat": -43.567,
+      "lon": 170.083,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Westland Tai Poutini National Park is a national park located on the western coast of New Zealand's South Island.",
+        "es": "El Parque nacional Westland Tai Poutini se encuentra en la isla Sur de Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Westland Tai Poutini National Park",
+          "url": "https://en.wikipedia.org/wiki/Westland_Tai_Poutini_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Westland",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Westland"
+        }
+      },
+      "image": {
+        "file": "Westland_Tai_Poutini_National_Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Westland_Tai_Poutini_National_Park.jpg",
+        "author": "Department of Conservation",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "nz-egmont-national-park",
+      "name": "Egmont National Park",
+      "area": "Taranaki Region",
+      "city": "Taranaki Region",
+      "wikidata": "Q1298247",
+      "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/taranaki/places/egmont-national-park/?tab-id=50578",
+      "lat": -39.266667,
+      "lon": 174.1,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Egmont National Park, officially known as Te Papa-Kura-o-Taranaki, is a national park located south of New Plymouth, close to the west coast of the North Island of New Zealand.",
+        "es": "El Parque Nacional Egmont está situado al sur de Nueva Plymouth, cerca de la costa oeste de la isla Norte de Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Egmont National Park",
+          "url": "https://en.wikipedia.org/wiki/Egmont_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Egmont",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Egmont"
+        }
+      },
+      "image": {
+        "file": "Taranaki_Slopes_n.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taranaki_Slopes_n.jpg",
+        "author": "Photograph by JShook, who retains copyright and releases the image under the lic",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "nz-kapiti-island",
+      "name": "Kapiti Island",
+      "area": "Wellington Region",
+      "city": "Wellington Region",
+      "wikidata": "Q1471997",
+      "lat": -40.855,
+      "lon": 174.915,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kapiti Island, sometimes written as Kāpiti Island, is an island nature reserve located 5.6 km off the west coast of the lower North Island of New Zealand and within the Kāpiti Coast District.",
+        "es": "La isla Kapiti es una isla situada en la parte suroeste de la isla Norte de Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kapiti Island",
+          "url": "https://en.wikipedia.org/wiki/Kapiti_Island"
+        },
+        "es": {
+          "title": "Isla Kapiti",
+          "url": "https://es.wikipedia.org/wiki/Isla_Kapiti"
+        }
+      },
+      "image": {
+        "file": "Kapiti_Island_(51331562058)_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kapiti_Island_(51331562058)_(cropped).jpg",
+        "author": "Geoff McKay from Palmerston North, New Zealand",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "nz-nelson-lakes-national-park",
+      "name": "Nelson Lakes National Park",
+      "area": "Marlborough District",
+      "city": "Marlborough District",
+      "wikidata": "Q934019",
+      "lat": -42.042,
+      "lon": 172.608,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nelson Lakes National Park is in the South Island of New Zealand, at the northern end of the Southern Alps.",
+        "es": "El Parque nacional de los Lagos Nelson se encuentra en la isla Sur de Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nelson Lakes National Park",
+          "url": "https://en.wikipedia.org/wiki/Nelson_Lakes_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de los Lagos Nelson",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_los_Lagos_Nelson"
+        }
+      },
+      "image": {
+        "file": "Peaks_between_Hukere_Stream_and_Shift_Creek_valley,_Nelson_Lakes_National_Park,_New_Zealand.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Peaks_between_Hukere_Stream_and_Shift_Creek_valley%2C_Nelson_Lakes_National_Park%2C_New_Zealand.jpg",
+        "author": "Michal Klajban",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nz-lake-tekapo",
+      "name": "Lake Tekapo",
+      "area": "Mackenzie District",
+      "city": "Mackenzie District",
+      "wikidata": "Q1194022",
+      "lat": -43.9,
+      "lon": 170.525,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Tekapo is the second-largest of three roughly parallel lakes running north–south along the northern edge of the Mackenzie Basin in the South Island of New Zealand.",
+        "es": "Para la población a orillas del lago, véase Lake Tekapo"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Tekapo",
+          "url": "https://en.wikipedia.org/wiki/Lake_Tekapo"
+        },
+        "es": {
+          "title": "Lago Tékapo",
+          "url": "https://es.wikipedia.org/wiki/Lago_T%C3%A9kapo"
+        }
+      },
+      "image": {
+        "file": "LakeTekapoNov242024_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:LakeTekapoNov242024_01.jpg",
+        "author": "Hagai Agmon-Snir حچاي اچمون-سنير חגי אגמון-שניר",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nz-rangitoto-island",
+      "name": "Rangitoto Island",
+      "area": "Auckland",
+      "city": "Auckland",
+      "wikidata": "Q1422715",
+      "lat": -36.786742,
+      "lon": 174.860115,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rangitoto Island is a volcanic island in the Hauraki Gulf near Auckland, New Zealand.",
+        "es": "Rangitoto es una isla de Nueva Zelanda localizada en el golfo de Hauraki que surgió durante una erupción volcánica probablemente ocurrida entre los siglos XIII y XIV."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rangitoto Island",
+          "url": "https://en.wikipedia.org/wiki/Rangitoto_Island"
+        },
+        "es": {
+          "title": "Rangitoto",
+          "url": "https://es.wikipedia.org/wiki/Rangitoto"
+        }
+      },
+      "image": {
+        "file": "Rangitoto02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rangitoto02.jpg",
+        "author": "User:Grutness",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-kahurangi-national-park",
+      "name": "Kahurangi National Park",
+      "area": "West Coast Region",
+      "city": "West Coast Region",
+      "wikidata": "Q1429722",
+      "lat": -41.13,
+      "lon": 172.61,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kahurangi National Park is a national park in the northwest of the South Island of New Zealand.",
+        "es": "El Parque nacional de Kahurangi es un área protegida en el noroeste de la isla Sur de Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kahurangi National Park",
+          "url": "https://en.wikipedia.org/wiki/Kahurangi_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Kahurangi",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Kahurangi"
+        }
+      },
+      "image": {
+        "file": "Sand_flats_near_Kohaihai_River_(Kahurangi_National_Park).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sand_flats_near_Kohaihai_River_(Kahurangi_National_Park).jpg",
+        "author": "Pseudopanax at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-mount-ngauruhoe",
+      "name": "Mount Ngauruhoe",
+      "area": "Ruapehu District",
+      "city": "Ruapehu District",
+      "wikidata": "Q83060",
+      "lat": -39.156944,
+      "lon": 175.631944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Ngauruhoe is a volcanic cone in New Zealand.",
+        "es": "El monte Ngauruhoe es un estratovolcán activo en la isla Norte de Nueva Zelanda, formado por capas de lava y piroclasto."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Ngauruhoe",
+          "url": "https://en.wikipedia.org/wiki/Mount_Ngauruhoe"
+        },
+        "es": {
+          "title": "Ngauruhoe",
+          "url": "https://es.wikipedia.org/wiki/Ngauruhoe"
+        }
+      },
+      "image": {
+        "file": "MountNgauruhoe.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:MountNgauruhoe.jpg",
+        "author": "Photo by Don Swanson, 1984 (U.S. Geological Survey).",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-paparoa-national-park",
+      "name": "Paparoa National Park",
+      "area": "Grey District",
+      "city": "Grey District",
+      "wikidata": "Q1075151",
+      "lat": -42.0833,
+      "lon": 171.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Paparoa National Park is on the west coast of the South Island of New Zealand.",
+        "es": "El parque nacional de Paparoa es un parque nacional situado en la costa oeste de la isla del Sur de Nueva Zelanda en las proximidades de la localidad de Punakaiki."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Paparoa National Park",
+          "url": "https://en.wikipedia.org/wiki/Paparoa_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Paparoa",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Paparoa"
+        }
+      },
+      "image": {
+        "file": "PancakeRocks.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:PancakeRocks.jpg",
+        "author": "Anke Lüdtke",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "nz-whanganui-national-park",
+      "name": "Whanganui National Park",
+      "area": "Manawatū-Whanganui Region",
+      "city": "Manawatū-Whanganui Region",
+      "wikidata": "Q141735",
+      "lat": -39.583333,
+      "lon": 175.083333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Whanganui National Park is a national park located in the North Island of New Zealand.",
+        "es": "El Parque nacional de Whanganui es un área protegida con el estatus de parque nacional situado en la isla Norte de Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Whanganui National Park",
+          "url": "https://en.wikipedia.org/wiki/Whanganui_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Whanganui",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Whanganui"
+        }
+      },
+      "image": {
+        "file": "Whanganui_River.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Whanganui_River.jpg",
+        "author": "Unknown",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "nz-lake-rotorua-te-rotorua-nui-a-kahumatamomoe",
+      "name": "Lake Rotorua / Te Rotorua nui ā Kahumatamomoe",
+      "area": "Bay of Plenty Region",
+      "city": "Bay of Plenty Region",
+      "wikidata": "Q1192621",
+      "lat": -38.083333,
+      "lon": 176.269444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Rotorua is the second largest lake in the North Island of New Zealand by surface area, covering 79.8 km2.",
+        "es": "El lago Rotorua es el segundo lago más grande en la isla Norte de Nueva Zelanda por área de superficie, y abarca un área de 79.8 km²."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Rotorua",
+          "url": "https://en.wikipedia.org/wiki/Lake_Rotorua"
+        },
+        "es": {
+          "title": "Lago Rotorua",
+          "url": "https://es.wikipedia.org/wiki/Lago_Rotorua"
+        }
+      },
+      "image": {
+        "file": "00_2009_03_20_1526_Lake_Rotorua_-_Neuseeland.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:00_2009_03_20_1526_Lake_Rotorua_-_Neuseeland.jpg",
+        "author": "W. Bulach",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nz-mount-tasman",
+      "name": "Mount Tasman",
+      "area": "Mackenzie District",
+      "city": "Mackenzie District",
+      "wikidata": "Q1551962",
+      "lat": -43.566,
+      "lon": 170.157,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Tasman is New Zealand's second-highest mountain, rising to a height of 3,497 metres.",
+        "es": "El Monte Tasman es la segunda montaña más alta de Nueva Zelanda, con 3497 m sobre el nivel del mar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Tasman",
+          "url": "https://en.wikipedia.org/wiki/Mount_Tasman"
+        },
+        "es": {
+          "title": "Monte Tasman",
+          "url": "https://es.wikipedia.org/wiki/Monte_Tasman"
+        }
+      },
+      "image": {
+        "file": "Mount_Tasman.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Tasman.jpg",
+        "author": "jopetsy",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "nz-arthur-s-pass-national-park",
+      "name": "Arthur's Pass National Park",
+      "area": "Selwyn District",
+      "city": "Selwyn District",
+      "wikidata": "Q712300",
+      "lat": -42.889667,
+      "lon": 171.721417,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Arthur's Pass National Park is located in the South Island of New Zealand and covers 1,185 km2 of mostly mountainous terrain.",
+        "es": "El Parque nacional del Paso de Arthur se encuentra en la Isla Sur de Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Arthur's Pass National Park",
+          "url": "https://en.wikipedia.org/wiki/Arthur's_Pass_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional del Paso de Arthur",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_Paso_de_Arthur"
+        }
+      },
+      "image": {
+        "file": "Waimakariri_River_close_to_Arthur's_Pass,_New_Zealand.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Waimakariri_River_close_to_Arthur's_Pass%2C_New_Zealand.jpg",
+        "author": "Michal Klajban",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nz-te-urewera-national-park",
+      "name": "Te Urewera National Park",
+      "area": "Hawke's Bay Region",
+      "city": "Hawke's Bay Region",
+      "wikidata": "Q87172",
+      "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/east-coast/places/te-urewera/",
+      "lat": -38.539,
+      "lon": 177.029,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Te Urewera National Park was a national park near the east coast of New Zealand's North Island, established as such in 1954 and disestablished in 2014, when it was replaced by a new legal entity and protected area…",
+        "es": "El Parque nacional de Te Urewera es uno de los catorce parques nacionales en Nueva Zelanda y es el mayor de los cuatro que se encuentran en la isla del Norte."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Te Urewera National Park",
+          "url": "https://en.wikipedia.org/wiki/Te_Urewera_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Te Urewera",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Te_Urewera"
+        }
+      },
+      "image": {
+        "file": "Towards_East_Cape.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Towards_East_Cape.jpg",
+        "author": "Bruce Bisset Brucieb",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "nz-te-hauturu-o-toi-little-barrier-island",
+      "name": "Te Hauturu-o-Toi / Little Barrier Island",
+      "area": "Auckland Region",
+      "city": "Auckland Region",
+      "wikidata": "Q1816122",
+      "lat": -36.2,
+      "lon": 175.083333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Little Barrier Island, or Hauturu in Māori, lies off the northeastern coast of New Zealand's North Island.",
+        "es": "Little Barrier Island, o Hauturu en lengua maorí, es una isla situada frente a la costa noreste de la isla Norte de Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Little Barrier Island",
+          "url": "https://en.wikipedia.org/wiki/Little_Barrier_Island"
+        },
+        "es": {
+          "title": "Little Barrier Island",
+          "url": "https://es.wikipedia.org/wiki/Little_Barrier_Island"
+        }
+      },
+      "image": {
+        "file": "Little_Barrier.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Little_Barrier.JPG",
+        "author": "Follash",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-al-noor-mosque",
+      "name": "Al Noor Mosque",
+      "area": "Christchurch",
+      "city": "Christchurch",
+      "wikidata": "Q62066735",
+      "lat": -43.532889,
+      "lon": 172.611806,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Al Noor Mosque is a Sunni mosque in the Christchurch suburb of Riccarton in New Zealand.",
+        "es": "La Mezquita Al Noor es una mezquita en Riccarton, Christchurch, Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Al Noor Mosque, Christchurch",
+          "url": "https://en.wikipedia.org/wiki/Al_Noor_Mosque%2C_Christchurch"
+        },
+        "es": {
+          "title": "Mezquita Al Noor",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_Al_Noor"
+        }
+      },
+      "image": {
+        "file": "Christchurch_Mosque,_New_Zealand.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Christchurch_Mosque%2C_New_Zealand.jpg",
+        "author": "Michal Klajban",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nz-d-urville-island",
+      "name": "D'Urville Island",
+      "area": "Marlborough District",
+      "city": "Marlborough District",
+      "wikidata": "Q1273040",
+      "lat": -40.833333,
+      "lon": 173.866667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "D'Urville Island, Māori name Rangitoto ki te Tonga, is the largest island in the Marlborough Sounds, on the northern coast of the South Island of New Zealand.",
+        "es": "La isla D'Urville es un isla en el estrecho de Marlborough a lo largo de la costa norte de la isla Sur de Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "D'Urville Island",
+          "url": "https://en.wikipedia.org/wiki/D'Urville_Island"
+        },
+        "es": {
+          "title": "Isla D'Urville (Nueva Zelanda)",
+          "url": "https://es.wikipedia.org/wiki/Isla_D'Urville_(Nueva_Zelanda)"
+        }
+      },
+      "image": {
+        "file": "D'Urville_Island_and_Tasman_Bay.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:D'Urville_Island_and_Tasman_Bay.jpg",
+        "author": "Phillip Capper from Wellington, New Zealand",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "nz-lake-ohau",
+      "name": "Lake Ōhau",
+      "area": "Canterbury Region",
+      "city": "Canterbury Region",
+      "wikidata": "Q1349516",
+      "lat": -44.25,
+      "lon": 169.85,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Ōhau is a lake in the Mackenzie Basin in the South Island of New Zealand.",
+        "es": "El lago Ohau es un lago glacial de la cuenca Mackenzie, en la isla del Sur de Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Ōhau",
+          "url": "https://en.wikipedia.org/wiki/Lake_%C5%8Chau"
+        },
+        "es": {
+          "title": "Lago Ohau",
+          "url": "https://es.wikipedia.org/wiki/Lago_Ohau"
+        }
+      },
+      "image": {
+        "file": "Lake_Ohau.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Ohau.jpg",
+        "author": "The original uploader was JShook at English Wikipedia.",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "nz-waimangu-geyser",
+      "name": "Waimangu Geyser",
+      "area": "Bay of Plenty Region",
+      "city": "Bay of Plenty Region",
+      "wikidata": "Q1440831",
+      "lat": -38.2833,
+      "lon": 176.4,
+      "category": "experience",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Waimangu Geyser, located near Rotorua in New Zealand, was for a time the most powerful geyser in the world.",
+        "es": "El géiser Waimangu está situado en el valle volcánico de Waimangu, en las cercanías de Rotorua, Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Waimangu Geyser",
+          "url": "https://en.wikipedia.org/wiki/Waimangu_Geyser"
+        },
+        "es": {
+          "title": "Géiser Waimangu",
+          "url": "https://es.wikipedia.org/wiki/G%C3%A9iser_Waimangu"
+        }
+      },
+      "image": {
+        "file": "Waimangu_geyser.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Waimangu_geyser.jpg",
+        "author": "Cromwell Shepherd (ca. 1870–1935 see [1]) of Rotorua; published by Dunedin photo",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-huka-falls",
+      "name": "Huka Falls",
+      "area": "Taupō District",
+      "city": "Taupō District",
+      "wikidata": "Q38477",
+      "lat": -38.650917,
+      "lon": 176.089972,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Huka Falls is a set of waterfalls on the Waikato River, which drains Lake Taupō in New Zealand.",
+        "es": "Huka Falls is a set of waterfalls on the Waikato River, which drains Lake Taupō in New Zealand."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Huka Falls",
+          "url": "https://en.wikipedia.org/wiki/Huka_Falls"
+        },
+        "es": {
+          "title": "Huka Falls",
+          "url": "https://en.wikipedia.org/wiki/Huka_Falls"
+        }
+      },
+      "image": {
+        "file": "Huka_Falls.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Huka_Falls.jpg",
+        "author": "Avenue",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "nz-auckland-harbour-bridge",
+      "name": "Auckland Harbour Bridge",
+      "area": "Auckland",
+      "city": "Auckland",
+      "wikidata": "Q758638",
+      "lat": -36.829444,
+      "lon": 174.746389,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Auckland Harbour Bridge is an eight-lane motorway bridge over Waitematā Harbour in Auckland, New Zealand.",
+        "es": "El puente del Puerto de Auckland permite el cruce de una autopista de ocho carriles sobre el Puerto de Waitemata en Auckland, Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Auckland Harbour Bridge",
+          "url": "https://en.wikipedia.org/wiki/Auckland_Harbour_Bridge"
+        },
+        "es": {
+          "title": "Puente del Puerto de Auckland",
+          "url": "https://es.wikipedia.org/wiki/Puente_del_Puerto_de_Auckland"
+        }
+      },
+      "image": {
+        "file": "Auckland_Harbour_Bridge_Watchman.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Auckland_Harbour_Bridge_Watchman.jpg",
+        "author": "Ingolfson at English Wikipedia (Original text: Uploader.)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-maungakiekie-one-tree-hill",
+      "name": "Maungakiekie / One Tree Hill",
+      "area": "Auckland",
+      "city": "Auckland",
+      "wikidata": "Q1723186",
+      "lat": -36.9,
+      "lon": 174.783056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Maungakiekie / One Tree Hill is a 182-metre volcanic peak and Tūpuna Maunga in Auckland, New Zealand.",
+        "es": "Maungakiekie / One Tree Hill is a 182-metre volcanic peak and Tūpuna Maunga in Auckland, New Zealand."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Maungakiekie / One Tree Hill",
+          "url": "https://en.wikipedia.org/wiki/Maungakiekie_%2F_One_Tree_Hill"
+        },
+        "es": {
+          "title": "Maungakiekie / One Tree Hill",
+          "url": "https://en.wikipedia.org/wiki/Maungakiekie_%2F_One_Tree_Hill"
+        }
+      },
+      "image": {
+        "file": "One_Tree_Hill,_Auckland.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:One_Tree_Hill%2C_Auckland.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-st-patrick-s-cathedral",
+      "name": "St Patrick's Cathedral",
+      "area": "Auckland",
+      "city": "Auckland",
+      "wikidata": "Q73260",
+      "lat": -36.8465,
+      "lon": 174.7635,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of Saint Patrick and Saint Joseph, commonly known as St Patrick's Cathedral, is a heritage-listed Catholic cathedral church in Auckland CBD, situated on the corner of Federal Street and Wyndham St.",
+        "es": "La Catedral de San Patricio y San José es la catedral católica de la diócesis de Auckland en Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Patrick's Cathedral, Auckland",
+          "url": "https://en.wikipedia.org/wiki/St_Patrick's_Cathedral%2C_Auckland"
+        },
+        "es": {
+          "title": "Catedral de San Patricio y San José (Auckland)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Patricio_y_San_Jos%C3%A9_(Auckland)"
+        }
+      },
+      "image": {
+        "file": "Cathedral_of_Saint_Patrick_and_Saint_Joseph-2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Saint_Patrick_and_Saint_Joseph-2.jpg",
+        "author": "Cathedral_of_Saint_Patrick_and_Saint_Joseph_.jpg: Jason Pratt derivative work: R",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "nz-puketutu-island",
+      "name": "Puketutu Island",
+      "area": "Auckland",
+      "city": "Auckland",
+      "wikidata": "Q1318567",
+      "lat": -36.965838,
+      "lon": 174.746669,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Puketutu Island, also known as Te Motu a Hiaroa, is a volcanic island in the Manukau Harbour, New Zealand, and is part of the Auckland volcanic field.",
+        "es": "La isla Puketutu es una isla volcánica en el puerto de Manukau, Nueva Zelanda, que es parte del campo volcánico de Auckland."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Puketutu Island",
+          "url": "https://en.wikipedia.org/wiki/Puketutu_Island"
+        },
+        "es": {
+          "title": "Isla de Puketutu",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Puketutu"
+        }
+      },
+      "image": {
+        "file": "Puketutu_Island_Near_Mangere_Bridge.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Puketutu_Island_Near_Mangere_Bridge.jpg",
+        "author": "Ingolfson",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-auckland-domain",
+      "name": "Auckland Domain",
+      "area": "Auckland",
+      "city": "Auckland",
+      "wikidata": "Q4819519",
+      "lat": -36.859158,
+      "lon": 174.775808,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Auckland Domain, also known as Pukekawa / Auckland Domain, is a large park in Auckland, New Zealand.",
+        "es": "The Auckland Domain, also known as Pukekawa / Auckland Domain, is a large park in Auckland, New Zealand."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Auckland Domain",
+          "url": "https://en.wikipedia.org/wiki/Auckland_Domain"
+        },
+        "es": {
+          "title": "Auckland Domain",
+          "url": "https://en.wikipedia.org/wiki/Auckland_Domain"
+        }
+      },
+      "image": {
+        "file": "Auckland_Domain_Sky_Tower.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Auckland_Domain_Sky_Tower.jpg",
+        "author": "Ingolfson at English Wikipedia (Original text: Uploader.)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-holy-trinity-cathedral",
+      "name": "Holy Trinity Cathedral",
+      "area": "Auckland",
+      "city": "Auckland",
+      "wikidata": "Q5015939",
+      "lat": -36.859449,
+      "lon": 174.783575,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Holy Trinity Cathedral is an Anglican cathedral situated in Parnell, a residential suburb of Auckland, New Zealand.",
+        "es": "La Catedral de la Santísima Trinidad está situada en Parnell, un suburbio residencial de Auckland, Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Holy Trinity Cathedral, Auckland",
+          "url": "https://en.wikipedia.org/wiki/Holy_Trinity_Cathedral%2C_Auckland"
+        },
+        "es": {
+          "title": "Catedral de la Santísima Trinidad (Auckland)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Sant%C3%ADsima_Trinidad_(Auckland)"
+        }
+      },
+      "image": {
+        "file": "Anglican_Cathedral,_Parnell.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Anglican_Cathedral%2C_Parnell.JPG",
+        "author": "No machine-readable author provided. Gadfium assumed (based on copyright claims)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-lancaster-park",
+      "name": "Lancaster Park",
+      "area": "Christchurch",
+      "city": "Christchurch",
+      "wikidata": "Q295182",
+      "lat": -43.541944,
+      "lon": 172.654167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lancaster Park is a public recreational park with facilities for community sport in Waltham, a suburb of Christchurch in New Zealand.",
+        "es": "El Lancaster Park fue un estadio de rugby y críquet localizado en la ciudad de Christchurch, Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lancaster Park",
+          "url": "https://en.wikipedia.org/wiki/Lancaster_Park"
+        },
+        "es": {
+          "title": "Lancaster Park",
+          "url": "https://es.wikipedia.org/wiki/Lancaster_Park"
+        }
+      },
+      "image": {
+        "file": "Jade_Stadium.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jade_Stadium.jpg",
+        "author": "DerekSmalls",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-christ-church-cathedral",
+      "name": "Christ Church Cathedral",
+      "area": "Christchurch",
+      "city": "Christchurch",
+      "wikidata": "Q1077977",
+      "lat": -43.531,
+      "lon": 172.637,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Christ Church Cathedral, previously spelled ChristChurch Cathedral and called Cathedral Church of Christ, is a deconsecrated Anglican cathedral in the central city of Christchurch, New Zealand.",
+        "es": "La catedral de Christchurch es una catedral anglicana en Christchurch, Nueva Zelanda, construida en la segunda mitad del siglo XIX."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Christ Church Cathedral, Christchurch",
+          "url": "https://en.wikipedia.org/wiki/Christ_Church_Cathedral%2C_Christchurch"
+        },
+        "es": {
+          "title": "Catedral de Christchurch",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Christchurch"
+        }
+      },
+      "image": {
+        "file": "Christ_Church_Cathedral_23.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Christ_Church_Cathedral_23.jpg",
+        "author": "Schwede66",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "nz-linwood-islamic-centre",
+      "name": "Linwood Islamic Centre",
+      "area": "Christchurch",
+      "city": "Christchurch",
+      "wikidata": "Q62066751",
+      "lat": -43.532389,
+      "lon": 172.6725,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Linwood Islamic Centre was a Sunni Islamic mosque in Linwood, Christchurch, New Zealand.",
+        "es": "The Linwood Islamic Centre was a Sunni Islamic mosque in Linwood, Christchurch, New Zealand."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Linwood Islamic Centre",
+          "url": "https://en.wikipedia.org/wiki/Linwood_Islamic_Centre"
+        },
+        "es": {
+          "title": "Linwood Islamic Centre",
+          "url": "https://en.wikipedia.org/wiki/Linwood_Islamic_Centre"
+        }
+      },
+      "image": {
+        "file": "Linwood_Islamic_Centre,_March_2020.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Linwood_Islamic_Centre%2C_March_2020.jpg",
+        "author": "Roger 8 Roger",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nz-christchurch-botanic-gardens",
+      "name": "Christchurch Botanic Gardens",
+      "area": "Christchurch",
+      "city": "Christchurch",
+      "wikidata": "Q1186086",
+      "lat": -43.530417,
+      "lon": 172.621153,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Christchurch Botanic Gardens, located in the central city of Christchurch, New Zealand, were founded in 1863 when an English oak was planted to commemorate the solemnisation of the marriage of Prince Albert and…",
+        "es": "El Jardín Botánico de Christchurch es un jardín botánico de 30 hectáreas de extensión en Christchurch, Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Christchurch Botanic Gardens",
+          "url": "https://en.wikipedia.org/wiki/Christchurch_Botanic_Gardens"
+        },
+        "es": {
+          "title": "Jardín Botánico de Christchurch",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_de_Christchurch"
+        }
+      },
+      "image": {
+        "file": "Christchurch_Botanic_Gardens,_Avon_river_2016-02-04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Christchurch_Botanic_Gardens%2C_Avon_river_2016-02-04.jpg",
+        "author": "Szilas",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-christchurch-town-hall",
+      "name": "Christchurch Town Hall",
+      "area": "Christchurch",
+      "city": "Christchurch",
+      "wikidata": "Q5109102",
+      "lat": -43.527,
+      "lon": 172.635,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Christchurch Town Hall, since 2007 formally known as the Christchurch Town Hall of the Performing Arts, opened in 1972, is Christchurch, New Zealand's premier performing arts centre.",
+        "es": "El Centro artístico de Christchurch fue inaugurado en 1972, y es el principal centro de arte de Christchurch, Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Christchurch Town Hall",
+          "url": "https://en.wikipedia.org/wiki/Christchurch_Town_Hall"
+        },
+        "es": {
+          "title": "Centro artístico de Christchurch",
+          "url": "https://es.wikipedia.org/wiki/Centro_art%C3%ADstico_de_Christchurch"
+        }
+      },
+      "image": {
+        "file": "Christchurch_Town_Hall_of_the_Performing_Arts,_New_Zealand.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Christchurch_Town_Hall_of_the_Performing_Arts%2C_New_Zealand.jpg",
+        "author": "Michal Klajban",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nz-cathedral-of-the-blessed-sacrament",
+      "name": "Cathedral of the Blessed Sacrament",
+      "area": "Christchurch",
+      "city": "Christchurch",
+      "wikidata": "Q1050898",
+      "lat": -43.5383,
+      "lon": 172.646,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of the Blessed Sacrament, sometimes referred to as the Christchurch Basilica was a Catholic cathedral on Barbadoes Street in central Christchurch, New Zealand.",
+        "es": "La Catedral del Santísimo Sacramento estaba ubicada en el centro de la ciudad de Christchurch, en Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of the Blessed Sacrament, Christchurch",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_the_Blessed_Sacrament%2C_Christchurch"
+        },
+        "es": {
+          "title": "Catedral del Santísimo Sacramento (Christchurch)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Sant%C3%ADsimo_Sacramento_(Christchurch)"
+        }
+      },
+      "image": {
+        "file": "ChristchurchBasilica_gobeirne.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ChristchurchBasilica_gobeirne.jpg",
+        "author": "Photograph by Greg O'Beirne",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "nz-hagley-park",
+      "name": "Hagley Park",
+      "area": "Christchurch",
+      "city": "Christchurch",
+      "wikidata": "Q1134612",
+      "lat": -43.53,
+      "lon": 172.62,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Hagley Park is the largest urban open space in Christchurch, New Zealand, and was established in 1855 by the Provincial Government.",
+        "es": "Hagley Park is the largest urban open space in Christchurch, New Zealand, and was established in 1855 by the Provincial Government."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hagley Park, Christchurch",
+          "url": "https://en.wikipedia.org/wiki/Hagley_Park%2C_Christchurch"
+        },
+        "es": {
+          "title": "Hagley Park, Christchurch",
+          "url": "https://en.wikipedia.org/wiki/Hagley_Park%2C_Christchurch"
+        }
+      },
+      "image": {
+        "file": "HagleyParkAerialPhoto.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:HagleyParkAerialPhoto.jpg",
+        "author": "Phillip Capper",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "nz-cardboard-cathedral",
+      "name": "Cardboard Cathedral",
+      "area": "Christchurch",
+      "city": "Christchurch",
+      "wikidata": "Q15207543",
+      "lat": -43.5324,
+      "lon": 172.643,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cardboard Cathedral, formally called the Transitional Cathedral, in Christchurch, New Zealand, is the transitional pro-cathedral of the Anglican Diocese of Christchurch, replacing ChristChurch Cathedral, which…",
+        "es": "The Cardboard Cathedral, formally called the Transitional Cathedral, in Christchurch, New Zealand, is the transitional pro-cathedral of the Anglican Diocese of Christchurch, replacing ChristChurch Cathedral, which…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cardboard Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Cardboard_Cathedral"
+        },
+        "es": {
+          "title": "Cardboard Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Cardboard_Cathedral"
+        }
+      },
+      "image": {
+        "file": "Cardboard_Cathedral_03.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cardboard_Cathedral_03.JPG",
+        "author": "Schwede66",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "nz-moncks-cave",
+      "name": "Moncks Cave",
+      "area": "Christchurch",
+      "city": "Christchurch",
+      "wikidata": "Q19690474",
+      "lat": -43.5644,
+      "lon": 172.739,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Moncks Cave is a cave located in Redcliffs, Christchurch, New Zealand.",
+        "es": "Moncks Cave is a cave located in Redcliffs, Christchurch, New Zealand."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Moncks Cave",
+          "url": "https://en.wikipedia.org/wiki/Moncks_Cave"
+        },
+        "es": {
+          "title": "Moncks Cave",
+          "url": "https://en.wikipedia.org/wiki/Moncks_Cave"
+        }
+      },
+      "image": {
+        "file": "Moncks_Cave_04.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Moncks_Cave_04.JPG",
+        "author": "Schwede66",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "nz-sacred-heart-cathedral",
+      "name": "Sacred Heart Cathedral",
+      "area": "Wellington",
+      "city": "Wellington",
+      "wikidata": "Q980982",
+      "website": "https://mcshwellington.org/",
+      "lat": -41.2766,
+      "lon": 174.7762,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Metropolitan Cathedral of the Sacred Heart and of Saint Mary His Mother, better known as Sacred Heart Cathedral, is a Roman Catholic cathedral church on Hill Street, Wellington, New Zealand.",
+        "es": "La Catedral del Sagrado Corazón es una catedral católica en Hill Street, Thorndon en Wellington, Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sacred Heart Cathedral, Wellington",
+          "url": "https://en.wikipedia.org/wiki/Sacred_Heart_Cathedral%2C_Wellington"
+        },
+        "es": {
+          "title": "Catedral del Sagrado Corazón (Wellington)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Sagrado_Coraz%C3%B3n_(Wellington)"
+        }
+      },
+      "image": {
+        "file": "Sacred_Heart_Cathedral2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sacred_Heart_Cathedral2.jpg",
+        "author": "Taken by myself(=en:User:Silenceisfoo), a talentless hack with a digital camera",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-matiu-somes-island",
+      "name": "Matiu / Somes Island",
+      "area": "Wellington",
+      "city": "Wellington",
+      "wikidata": "Q1509894",
+      "lat": -41.25825,
+      "lon": 174.865389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Matiu / Somes Island is the largest of three islands in the northern half of Wellington Harbour, New Zealand.",
+        "es": "Matiu / Somes Island is the largest of three islands in the northern half of Wellington Harbour, New Zealand."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Matiu / Somes Island",
+          "url": "https://en.wikipedia.org/wiki/Matiu_%2F_Somes_Island"
+        },
+        "es": {
+          "title": "Matiu / Somes Island",
+          "url": "https://en.wikipedia.org/wiki/Matiu_%2F_Somes_Island"
+        }
+      }
+    },
+    {
+      "id": "nz-wahine",
+      "name": "Wahine",
+      "area": "Wellington",
+      "city": "Wellington",
+      "wikidata": "Q1516950",
+      "lat": -41.347222,
+      "lon": 174.838889,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "TEV Wahine was a twin-screw, turbo-electric, roll-on/roll-off passenger ferry.",
+        "es": "TEV Wahine era un transbordador de pasajeros de doble hélice, turboeléctrico y de tipo Ro-Ro."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "TEV Wahine",
+          "url": "https://en.wikipedia.org/wiki/TEV_Wahine"
+        },
+        "es": {
+          "title": "TEV Wahine",
+          "url": "https://es.wikipedia.org/wiki/TEV_Wahine"
+        }
+      },
+      "image": {
+        "file": "NZ_Wahine_Salvage.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NZ_Wahine_Salvage.jpg",
+        "author": "Phillip Capper from Wellington, New Zealand",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "nz-futuna-chapel",
+      "name": "Futuna Chapel",
+      "area": "Wellington",
+      "city": "Wellington",
+      "wikidata": "Q5510583",
+      "lat": -41.2818,
+      "lon": 174.7387,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Futuna Chapel is a building in Wellington, New Zealand designed by the architect John Scott.",
+        "es": "La Capilla de Futuna es un edificio religioso católico en el barrio de Karori, Wellington, Nueva Zelanda diseñado por el arquitecto John Scott."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Futuna Chapel",
+          "url": "https://en.wikipedia.org/wiki/Futuna_Chapel"
+        },
+        "es": {
+          "title": "Capilla de Futuna",
+          "url": "https://es.wikipedia.org/wiki/Capilla_de_Futuna"
+        }
+      },
+      "image": {
+        "file": "Futuna_Chapel,_Karori_(New_Zealand)_in_2026.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Futuna_Chapel%2C_Karori_(New_Zealand)_in_2026.jpg",
+        "author": "Arnhemcr",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "nz-wellington-museum",
+      "name": "Wellington Museum",
+      "area": "Wellington",
+      "city": "Wellington",
+      "wikidata": "Q9292226",
+      "lat": -41.2853,
+      "lon": 174.7781,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Wellington Museum is a museum on Queens Wharf in Wellington, New Zealand.",
+        "es": "El Museo de Wellington es un museo en Queens Wharf, Wellington, Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wellington Museum",
+          "url": "https://en.wikipedia.org/wiki/Wellington_Museum"
+        },
+        "es": {
+          "title": "Museo de Wellington",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_Wellington"
+        }
+      },
+      "image": {
+        "file": "Museum_of_Wellington_City_&_Sea.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museum_of_Wellington_City_%26_Sea.jpg",
+        "author": "Musuems Wellington",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "nz-st-mary-of-the-angels",
+      "name": "St Mary of the Angels",
+      "area": "Wellington",
+      "city": "Wellington",
+      "wikidata": "Q1671102",
+      "website": "https://www.smoa.org.nz//",
+      "lat": -41.288769,
+      "lon": 174.773869,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St Mary of the Angels is a Catholic church on the corner of Boulcott Street and O'Reily Avenue in Wellington, New Zealand.",
+        "es": "La Iglesia de Santa María de los Ángeles es una iglesia católica situada en la esquina de las calles Boulcott y Willis en Wellington, Nueva Zelanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St Mary of the Angels, Wellington",
+          "url": "https://en.wikipedia.org/wiki/St_Mary_of_the_Angels%2C_Wellington"
+        },
+        "es": {
+          "title": "Iglesia de Santa María de los Ángeles (Wellington)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Santa_Mar%C3%ADa_de_los_%C3%81ngeles_(Wellington)"
+        }
+      },
+      "image": {
+        "file": "St_Mary_of_the_Angels_Church,_Wellington,_New_Zealand.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St_Mary_of_the_Angels_Church%2C_Wellington%2C_New_Zealand.jpg",
+        "author": "Lanma726 at English Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "nz-wellington-botanic-garden",
+      "name": "Wellington Botanic Garden",
+      "area": "Wellington",
+      "city": "Wellington",
+      "wikidata": "Q2447822",
+      "website": "https://wellingtongardens.nz/",
+      "lat": -41.2829,
+      "lon": 174.766,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Wellington Botanic Garden ki Paekākā is a botanical garden close to central Wellington in New Zealand.",
+        "es": "El Jardín Botánico de Wellington en inglés : Wellington Botanic Garden, es un jardín botánico de 25 hectáreas de extensión en el terreno de la ladera de la colina entre Thorndon y Kelburn, cerca de la parte central…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wellington Botanic Garden",
+          "url": "https://en.wikipedia.org/wiki/Wellington_Botanic_Garden"
+        },
+        "es": {
+          "title": "Jardín Botánico de Wellington",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_Bot%C3%A1nico_de_Wellington"
+        }
+      },
+      "image": {
+        "file": "WellBotGardenpath.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:WellBotGardenpath.JPG",
+        "author": "No machine-readable author provided. Ppe42~commonswiki assumed (based on copyrig",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "nz-mount-matthews",
+      "name": "Mount Matthews",
+      "area": "Wellington",
+      "city": "Wellington",
+      "wikidata": "Q1950598",
+      "lat": -41.351827,
+      "lon": 175.014348,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Matthews is the highest peak in the Remutaka Range to the east of Wellington, New Zealand.",
+        "es": "Mount Matthews is the highest peak in the Remutaka Range to the east of Wellington, New Zealand."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Matthews",
+          "url": "https://en.wikipedia.org/wiki/Mount_Matthews"
+        },
+        "es": {
+          "title": "Mount Matthews",
+          "url": "https://en.wikipedia.org/wiki/Mount_Matthews"
+        }
+      },
+      "image": {
+        "file": "Mount_Matthews.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Matthews.jpg",
+        "author": "Andrewgprout",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nz-opera-house",
+      "name": "Opera House",
+      "area": "Wellington",
+      "city": "Wellington",
+      "wikidata": "Q565494",
+      "website": "https://www.venueswellington.com/venues/the-opera-house/",
+      "lat": -41.2915,
+      "lon": 174.7778,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Wellington Opera House is a proscenium theatre in Wellington, New Zealand, located on Manners Street opposite Te Aro Park.",
+        "es": "La Ópera de Wellington es un teatro de proscenio en Wellington, Nueva Zelanda ubicado en la calle frente al Parque de Te Aro."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wellington Opera House",
+          "url": "https://en.wikipedia.org/wiki/Wellington_Opera_House"
+        },
+        "es": {
+          "title": "Ópera de Wellington",
+          "url": "https://es.wikipedia.org/wiki/%C3%93pera_de_Wellington"
+        }
+      },
+      "image": {
+        "file": "Opera_House_Wellington_2.tif",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Opera_House_Wellington_2.tif",
+        "author": "Tom Ackroyd",
+        "license": "CC BY-SA 4.0"
+      }
     }
   ]
 }

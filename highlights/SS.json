@@ -35,6 +35,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -82,6 +88,398 @@
       },
       "lat": 6.489,
       "lon": 33.914
+    },
+    {
+      "id": "ss-kinyeti",
+      "name": "Kinyeti",
+      "area": "Eastern Equatoria",
+      "city": "Eastern Equatoria",
+      "wikidata": "Q948298",
+      "lat": 3.9475,
+      "lon": 32.908889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Kinyeti is the highest peak in South Sudan.",
+        "es": "El Kinyeti es el pico más alto en el país africano de Sudán del Sur."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kinyeti",
+          "url": "https://en.wikipedia.org/wiki/Kinyeti"
+        },
+        "es": {
+          "title": "Kinyeti",
+          "url": "https://es.wikipedia.org/wiki/Kinyeti"
+        }
+      },
+      "image": {
+        "file": "Sudan_Kinyeti.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sudan_Kinyeti.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ss-bandingilo-national-park",
+      "name": "Bandingilo National Park",
+      "area": "Juba",
+      "city": "Juba",
+      "wikidata": "Q2706891",
+      "lat": 5.432778,
+      "lon": 32.2775,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Boma-Bandingilo National Park, sometimes spelled Badingilo, is a national park located in South Sudan's Equatoria region.",
+        "es": "El parque nacional Bandingilo es un área natural protegida en Sudán del Sur, se encuentra localizada al centro sur de ese país, en el estado de Ecuatoria Central cerca de la capital del país Juba."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bandingilo National Park",
+          "url": "https://en.wikipedia.org/wiki/Bandingilo_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Bandingilo",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Bandingilo"
+        }
+      }
+    },
+    {
+      "id": "ss-nimule-national-park",
+      "name": "Nimule National Park",
+      "area": "Eastern Equatoria",
+      "city": "Eastern Equatoria",
+      "wikidata": "Q1992720",
+      "lat": 3.7026,
+      "lon": 31.9476,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Nimule National Park is a national park in South Sudan.",
+        "es": "El Parque Nacional Nimule, es un área protegida de Sudán del Sur que se encuentra en el estado de Ecuatoria Oriental."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nimule National Park",
+          "url": "https://en.wikipedia.org/wiki/Nimule_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Nimule",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Nimule"
+        }
+      }
+    },
+    {
+      "id": "ss-southern-national-park",
+      "name": "Southern National Park",
+      "area": "Gbudwe State",
+      "city": "Gbudwe State",
+      "wikidata": "Q3232660",
+      "lat": 6.55,
+      "lon": 28.283333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Southern National Park is a national park in South Sudan.",
+        "es": "El Parque Nacional del Sur, es un área natural protegida en Sudán del Sur, se encuentra localizada al oeste de ese país, ocupa parte de los estados de Bar el Gazal Occidental, Ecuatoria Occidental, Lagos y Warab…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Southern National Park",
+          "url": "https://en.wikipedia.org/wiki/Southern_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional del Sur",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_Sur"
+        }
+      }
+    },
+    {
+      "id": "ss-lake-ambadi",
+      "name": "Lake Ambadi",
+      "area": "Wau",
+      "city": "Wau",
+      "wikidata": "Q6474766",
+      "lat": 8.7,
+      "lon": 29.316667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Ambadi is a lake of South Sudan. It forms one of the world's largest wetlands, and is home to large numbers of the rare Shoebill.",
+        "es": "Lago Ambadi es un lago situado en el estado Unidad, en el país africano de Sudán del Sur."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Ambadi",
+          "url": "https://en.wikipedia.org/wiki/Lake_Ambadi"
+        },
+        "es": {
+          "title": "Lago Ambadi",
+          "url": "https://es.wikipedia.org/wiki/Lago_Ambadi"
+        }
+      }
+    },
+    {
+      "id": "ss-shambe-national-park",
+      "name": "Shambe National Park",
+      "area": "Bor",
+      "city": "Bor",
+      "wikidata": "Q6590002",
+      "lat": 6.98,
+      "lon": 30.58,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Shambe National Park is a national park in South Sudan, located on the west bank of the White Nile.",
+        "es": "The Shambe National Park is a national park in South Sudan, located on the west bank of the White Nile."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shambe National Park",
+          "url": "https://en.wikipedia.org/wiki/Shambe_National_Park"
+        },
+        "es": {
+          "title": "Shambe National Park",
+          "url": "https://en.wikipedia.org/wiki/Shambe_National_Park"
+        }
+      }
+    },
+    {
+      "id": "ss-st-theresa-cathedral-juba",
+      "name": "St. Theresa Cathedral, Juba",
+      "area": "Juba",
+      "city": "Juba",
+      "wikidata": "Q2942508",
+      "lat": 4.82727,
+      "lon": 31.6003,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St Theresa’s Cathedral is a parish of the Roman Catholic Church and the cathedral of the Metropolitan Archdiocese of Juba in South Sudan.",
+        "es": "La Catedral de Santa Teresa o bien Catedral de Yuba es el nombre que recibe un edificio religioso ubicado en la Avenida Unity en Baḩr al Jabal concretamente en el barrio de Kotor en la localidad de Yuba, capital del…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Theresa Cathedral, Juba",
+          "url": "https://en.wikipedia.org/wiki/St._Theresa_Cathedral%2C_Juba"
+        },
+        "es": {
+          "title": "Catedral de Santa Teresa (Yuba)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Santa_Teresa_(Yuba)"
+        }
+      },
+      "image": {
+        "file": "Kator_church.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kator_church.jpg",
+        "author": "Lomoraronald",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ss-didinga-hills",
+      "name": "Didinga Hills",
+      "area": "Eastern Equatoria",
+      "city": "Eastern Equatoria",
+      "wikidata": "Q940927",
+      "lat": 4.33333,
+      "lon": 33.5833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Didinga Hills are an upland area in Eastern Equatoria of South Sudan, lying mainly within Budi County.",
+        "es": "Las montañas Didinga forman parte de las tierras altas del estado de Ecuatoria Oriental en Sudán del Sur, que se extienden principalmente en el condado de Budi."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Didinga Hills",
+          "url": "https://en.wikipedia.org/wiki/Didinga_Hills"
+        },
+        "es": {
+          "title": "Montañas Didinga",
+          "url": "https://es.wikipedia.org/wiki/Monta%C3%B1as_Didinga"
+        }
+      }
+    },
+    {
+      "id": "ss-juba-game-reserve",
+      "name": "Juba Game Reserve",
+      "area": "Juba",
+      "city": "Juba",
+      "wikidata": "Q2892755",
+      "lat": 4.836801,
+      "lon": 31.549932,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Juba Game Reserve is a protected area in South Sudan, Africa.",
+        "es": "The Juba Game Reserve is a protected area in South Sudan, Africa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Juba Game Reserve",
+          "url": "https://en.wikipedia.org/wiki/Juba_Game_Reserve"
+        },
+        "es": {
+          "title": "Juba Game Reserve",
+          "url": "https://en.wikipedia.org/wiki/Juba_Game_Reserve"
+        }
+      }
+    },
+    {
+      "id": "ss-juba-nile-bridge",
+      "name": "Juba Nile Bridge",
+      "area": "Juba",
+      "city": "Juba",
+      "wikidata": "Q48789861",
+      "lat": 4.823,
+      "lon": 31.6086,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Juba Nile Bridge is composed of two adjacent 252 meter spans over the White Nile in Juba, South Sudan, on the Juba-Nimule Road, and until 2022 provided the only access over the River Nile to South Sudan.",
+        "es": "The Juba Nile Bridge is composed of two adjacent 252 meter spans over the White Nile in Juba, South Sudan, on the Juba-Nimule Road, and until 2022 provided the only access over the River Nile to South Sudan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Juba Nile Bridge",
+          "url": "https://en.wikipedia.org/wiki/Juba_Nile_Bridge"
+        },
+        "es": {
+          "title": "Juba Nile Bridge",
+          "url": "https://en.wikipedia.org/wiki/Juba_Nile_Bridge"
+        }
+      },
+      "image": {
+        "file": "Sudan_Juba_bridge.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sudan_Juba_bridge.jpg",
+        "author": "User DEMOSH on flickr.com",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ss-freedom-bridge",
+      "name": "Freedom Bridge",
+      "area": "Juba",
+      "city": "Juba",
+      "wikidata": "Q48789869",
+      "lat": 4.810833,
+      "lon": 31.603611,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Freedom Bridge in Juba, South Sudan, is South Sudan's second permanent bridge over the Nile, the first being the Juba Nile Bridge, a Bailey type bridge built in 1976.",
+        "es": "The Freedom Bridge in Juba, South Sudan, is South Sudan's second permanent bridge over the Nile, the first being the Juba Nile Bridge, a Bailey type bridge built in 1976."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Freedom Bridge (South Sudan)",
+          "url": "https://en.wikipedia.org/wiki/Freedom_Bridge_(South_Sudan)"
+        },
+        "es": {
+          "title": "Freedom Bridge (South Sudan)",
+          "url": "https://en.wikipedia.org/wiki/Freedom_Bridge_(South_Sudan)"
+        }
+      }
     }
   ]
 }

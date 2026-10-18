@@ -35,6 +35,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -103,6 +109,327 @@
       },
       "lat": 15.56666667,
       "lon": -61.46666667
+    },
+    {
+      "id": "dm-dominica",
+      "name": "Dominica",
+      "area": "Roseau",
+      "city": "Roseau",
+      "wikidata": "Q784",
+      "lat": 15.416667,
+      "lon": -61.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Dominica officially the Commonwealth of Dominica, is an island country in the Caribbean.",
+        "es": "Dominica, oficialmente la Mancomunidad de Dominica, es una isla y una república de América considerada un micro-Estado que forma parte de las Antillas Menores, en el mar Caribe."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dominica",
+          "url": "https://en.wikipedia.org/wiki/Dominica"
+        },
+        "es": {
+          "title": "Dominica",
+          "url": "https://es.wikipedia.org/wiki/Dominica"
+        }
+      },
+      "image": {
+        "file": "Dominica_from_ISS.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dominica_from_ISS.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "dm-morne-diablotins",
+      "name": "Morne Diablotins",
+      "area": "Roseau",
+      "city": "Roseau",
+      "wikidata": "Q1638549",
+      "lat": 15.503333,
+      "lon": -61.397222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Morne Diablotins is the highest mountain on the Caribbean island of Dominica, and the island's largest and highest volcano.",
+        "es": "El monte Diablotines es la mayor montaña y el mayor volcán en la isla caribeña de Dominica, pequeño estado insular localizado en las Antillas Menores."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Morne Diablotins",
+          "url": "https://en.wikipedia.org/wiki/Morne_Diablotins"
+        },
+        "es": {
+          "title": "Monte Diablotines",
+          "url": "https://es.wikipedia.org/wiki/Monte_Diablotines"
+        }
+      },
+      "image": {
+        "file": "Morne_Diablotins.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Morne_Diablotins.jpg",
+        "author": "Lee Siebert, Smithsonian Institution",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "dm-morne-watt",
+      "name": "Morne Watt",
+      "area": "Roseau",
+      "city": "Roseau",
+      "wikidata": "Q1535776",
+      "lat": 15.307,
+      "lon": -61.305,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Morne Watt or Watt Mountain is a mountain consisting of one or more stratovolcanoes at the south end of Dominica in the eastern Caribbean Sea.",
+        "es": "Morne Watt es un estratovolcán en el sur de la isla de Dominica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Morne Watt",
+          "url": "https://en.wikipedia.org/wiki/Morne_Watt"
+        },
+        "es": {
+          "title": "Morne Watt",
+          "url": "https://es.wikipedia.org/wiki/Morne_Watt"
+        }
+      },
+      "image": {
+        "file": "Morne_Watt.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Morne_Watt.jpg",
+        "author": "Lee Siebert (Smithsonian Institution)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "dm-morne-aux-diables",
+      "name": "Morne aux Diables",
+      "area": "Roseau",
+      "city": "Roseau",
+      "wikidata": "Q12771972",
+      "lat": 15.6125,
+      "lon": -61.436,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Morne aux Diables, also known as Devil's Peak, is a volcano on the island of Dominica and the volcanic formation is the northernmost peak on the island.",
+        "es": "Morne aux Diables, also known as Devil's Peak, is a volcano on the island of Dominica and the volcanic formation is the northernmost peak on the island."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Morne aux Diables",
+          "url": "https://en.wikipedia.org/wiki/Morne_aux_Diables"
+        },
+        "es": {
+          "title": "Morne aux Diables",
+          "url": "https://en.wikipedia.org/wiki/Morne_aux_Diables"
+        }
+      },
+      "image": {
+        "file": "Morne_aux_Diables.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Morne_aux_Diables.jpg",
+        "author": "Lee Siebert (Smithsonian Institution)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "dm-morne-plat-pays",
+      "name": "Morne Plat Pays",
+      "area": "Roseau",
+      "city": "Roseau",
+      "wikidata": "Q13388092",
+      "lat": 15.2495,
+      "lon": -61.3465,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Morne Plat Pays is a volcano on the island of Dominica.",
+        "es": "Morne Plat Pays is a volcano on the island of Dominica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Morne Plat Pays",
+          "url": "https://en.wikipedia.org/wiki/Morne_Plat_Pays"
+        },
+        "es": {
+          "title": "Morne Plat Pays",
+          "url": "https://en.wikipedia.org/wiki/Morne_Plat_Pays"
+        }
+      },
+      "image": {
+        "file": "Morne_Plat_Pays.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Morne_Plat_Pays.jpg",
+        "author": "Lee Siebert (Smithsonian Institution)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "dm-cabrits-national-park",
+      "name": "Cabrits National Park",
+      "area": "Roseau",
+      "city": "Roseau",
+      "wikidata": "Q5015852",
+      "lat": 15.586,
+      "lon": -61.473,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cabrits National Park is on a peninsula at the north end of the Caribbean island of Dominica, north of Portsmouth.",
+        "es": "El parque nacional Cabrits está ubicado en una península en el extremo norte de la isla caribeña de Dominica, al norte de Portsmouth."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cabrits National Park",
+          "url": "https://en.wikipedia.org/wiki/Cabrits_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Cabrits",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Cabrits"
+        }
+      },
+      "image": {
+        "file": "Tanetane-Dominica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tanetane-Dominica.jpg",
+        "author": "Dillngerforce",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "dm-dominica-botanical-gardens",
+      "name": "Dominica Botanical Gardens",
+      "area": "Roseau",
+      "city": "Roseau",
+      "wikidata": "Q3456644",
+      "website": "https://web.archive.org/web/20100429192633/http://da-academy.org/dagardens.html",
+      "lat": 15.301245,
+      "lon": -61.381908,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Dominica Botanic Gardens is located on the Caribbean island-nation of Dominica, in the capital of Roseau.",
+        "es": "El Jardín Botánico de Dominica es un jardín botánico que está localizado en la isla-nación caribeña de Dominica, en su capital Roseau."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dominica Botanical Gardens",
+          "url": "https://en.wikipedia.org/wiki/Dominica_Botanical_Gardens"
+        },
+        "es": {
+          "title": "Jardín botánico de Dominica",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_bot%C3%A1nico_de_Dominica"
+        }
+      },
+      "image": {
+        "file": "Anolis_oculatus_at_Roseau-a01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Anolis_oculatus_at_Roseau-a01.jpg",
+        "author": "Postdlf",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "dm-roseau-cathedral",
+      "name": "Roseau Cathedral",
+      "area": "Roseau",
+      "city": "Roseau",
+      "wikidata": "Q4245116",
+      "lat": 15.2975,
+      "lon": -61.3853,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of Our Lady of Fair Haven of Roseau, originally known in French as Église de Notre-Dame du Bon Port du Mouillage de Roseau, is a Roman Catholic cathedral in Roseau, the capital city of Dominica in the…",
+        "es": "La Catedral de Roseau es una catedral católica en Roseau, la capital de Dominica un país de las Antillas Menores."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Roseau Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Roseau_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Roseau",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Roseau"
+        }
+      },
+      "image": {
+        "file": "Roseau_Cathedral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Roseau_Cathedral.jpg",
+        "author": "Nelro (talk)",
+        "license": "Public domain"
+      }
     }
   ]
 }

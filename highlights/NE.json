@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -73,6 +79,200 @@
         "text": "Mo-Su 08:00-18:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "ne-w-national-park",
+      "name": "W National Park",
+      "area": "Niamey",
+      "city": "Niamey",
+      "wikidata": "Q726863",
+      "lat": 12.350047,
+      "lon": 2.354984,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The W National Park or W Regional Park is a major national park in West Africa around a meander in the Niger River shaped like the letter W.",
+        "es": "El Parque nacional W o Parque nacional de W es una entidad geográfica formada por tres parques nacionales con el mismo nombre, en Benín, Burkina Faso y Níger, que cubren unos 10.000 km² de sabana arbolada al sudoeste…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "W National Park",
+          "url": "https://en.wikipedia.org/wiki/W_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional W",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_W"
+        }
+      },
+      "image": {
+        "file": "Elephants_bath_park_w_wide_2006.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elephants_bath_park_w_wide_2006.jpg",
+        "author": "Roland Hunziker https://www.flickr.com/photos/rolandh/",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "ne-niamey-grand-mosque",
+      "name": "Niamey Grand Mosque",
+      "area": "Niamey",
+      "city": "Niamey",
+      "wikidata": "Q279545",
+      "lat": 13.5221,
+      "lon": 2.1329,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Grand Mosque of Niamey is a Sunni mosque located in Niamey, Niger that was built in the 1970s.",
+        "es": "The Grand Mosque of Niamey is a Sunni mosque located in Niamey, Niger that was built in the 1970s."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grand Mosque of Niamey",
+          "url": "https://en.wikipedia.org/wiki/Grand_Mosque_of_Niamey"
+        },
+        "es": {
+          "title": "Grand Mosque of Niamey",
+          "url": "https://en.wikipedia.org/wiki/Grand_Mosque_of_Niamey"
+        }
+      }
+    },
+    {
+      "id": "ne-lete-island",
+      "name": "Lété Island",
+      "area": "Tanda",
+      "city": "Tanda",
+      "wikidata": "Q2307571",
+      "lat": 12.276389,
+      "lon": 3.000278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lété Island is the largest island in the Niger River, at a length of approximately 16 kilometres and a width of 4 kilometres.",
+        "es": "La isla de Lété es una isla fluvial del río Níger de aproximadamente 16 kilómetros de largo y 4 kilómetros de ancho, con una superficie de 40 kilómetros cuadrados situada a unos 40 kilómetros de la ciudad de Gaya, en…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lété Island",
+          "url": "https://en.wikipedia.org/wiki/L%C3%A9t%C3%A9_Island"
+        },
+        "es": {
+          "title": "Isla Lété",
+          "url": "https://es.wikipedia.org/wiki/Isla_L%C3%A9t%C3%A9"
+        }
+      },
+      "image": {
+        "file": "Le_Baobab_aux_fruits_à_deux_péricarpes_sur_la_rive_droite_d’Île_de_Lété_du_Niger_(cropped).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Le_Baobab_aux_fruits_%C3%A0_deux_p%C3%A9ricarpes_sur_la_rive_droite_d%E2%80%99%C3%8Ele_de_L%C3%A9t%C3%A9_du_Niger_(cropped).jpg",
+        "author": "Tawaye",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ne-kennedy-bridge",
+      "name": "Kennedy Bridge",
+      "area": "Niamey",
+      "city": "Niamey",
+      "wikidata": "Q1101213",
+      "lat": 13.504722,
+      "lon": 2.104,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Kennedy Bridge is the main crossing for the Niger River in Niamey, Niger.",
+        "es": "El Puente Kennedy es el paso principal por el río Níger en Niamey, en el país africano de Níger."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kennedy Bridge (Niamey)",
+          "url": "https://en.wikipedia.org/wiki/Kennedy_Bridge_(Niamey)"
+        },
+        "es": {
+          "title": "Puente Kennedy",
+          "url": "https://es.wikipedia.org/wiki/Puente_Kennedy"
+        }
+      },
+      "image": {
+        "file": "Niamey_river_bridge_roof_sunset_2006.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Niamey_river_bridge_roof_sunset_2006.jpg",
+        "author": "https://www.flickr.com/photos/rolandh/ diasUndKompott / Roland",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "ne-our-lady-of-perpetual-help-cathedral",
+      "name": "Our Lady of Perpetual Help Cathedral",
+      "area": "Niamey",
+      "city": "Niamey",
+      "wikidata": "Q24060612",
+      "lat": 13.517764,
+      "lon": 2.110649,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Our Lady of Perpetual Help Cathedral or simply Cathedral of Niamey, is a religious building of the Catholic Church located in Niamey, the capital city of the African country of Niger.",
+        "es": "La Catedral de Nuestra Señora del Perpetuo Socorro o simplemente Catedral de Niamey es el nombre que recibe un edificio religioso de la Iglesia Católica que se encuentra en la localidad de Niamey, la capital del país…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Our Lady of Perpetual Help Cathedral, Niamey",
+          "url": "https://en.wikipedia.org/wiki/Our_Lady_of_Perpetual_Help_Cathedral%2C_Niamey"
+        },
+        "es": {
+          "title": "Catedral de Nuestra Señora del Perpetuo Socorro (Niamey)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Nuestra_Se%C3%B1ora_del_Perpetuo_Socorro_(Niamey)"
+        }
+      },
+      "image": {
+        "file": "Niger,_Niamey,_Cathedral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Niger%2C_Niamey%2C_Cathedral.jpg",
+        "author": "NigerTZai",
+        "license": "CC BY-SA 4.0"
       }
     }
   ]

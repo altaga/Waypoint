@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -376,6 +382,2525 @@
       "wikidata": "Q4517198",
       "lat": 39.77483,
       "lon": 64.42737
+    },
+    {
+      "id": "uz-aral-sea",
+      "name": "Aral Sea",
+      "area": "Kazakhstan",
+      "city": "Kazakhstan",
+      "wikidata": "Q35883",
+      "lat": 45,
+      "lon": 60,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Aral Sea is an endorheic salt lake lying between Kazakhstan to the north and Uzbekistan to the south, which began shrinking in the 1960s and had largely dried up into desert by 2007.",
+        "es": "El mar de Aral es una laguna salada endorreica o mar interior, situado en Asia Central, entre Kazajistán, al norte, y Uzbekistán, al sur."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aral Sea",
+          "url": "https://en.wikipedia.org/wiki/Aral_Sea"
+        },
+        "es": {
+          "title": "Mar de Aral",
+          "url": "https://es.wikipedia.org/wiki/Mar_de_Aral"
+        }
+      },
+      "image": {
+        "file": "Aral_Sea_1989-2008.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aral_Sea_1989-2008.jpg",
+        "author": "NASA, derivative work by Zafiroblue05 at en.wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "uz-registan",
+      "name": "Registan",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q1373583",
+      "lat": 39.654722,
+      "lon": 66.975556,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Registan, officially the Registan Square is a historic public square in the city of Samarkand, Uzbekistan.",
+        "es": "Registán es una plaza pública histórica de la ciudad de Samarcanda, ahora en Uzbekistán, que fue el corazón de la antigua capital de la dinastía timúrida."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Registan",
+          "url": "https://en.wikipedia.org/wiki/Registan"
+        },
+        "es": {
+          "title": "Registán",
+          "url": "https://es.wikipedia.org/wiki/Regist%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Registan_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Registan_01.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "uz-gur-e-amir",
+      "name": "Gur-e Amir",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q1256223",
+      "lat": 39.648333,
+      "lon": 66.968889,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Gur-e-Amir, also transcribed Gūr-i Amīr or Guri Amir is a mausoleum of the Turco-Mongol conqueror Timur in Samarkand, Uzbekistan.",
+        "es": "El Gur-e Amir es el mausoleo del conquistador asiático Tamerlán en Samarcanda, actual Uzbekistán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gur-e-Amir",
+          "url": "https://en.wikipedia.org/wiki/Gur-e-Amir"
+        },
+        "es": {
+          "title": "Gur-e Amir",
+          "url": "https://es.wikipedia.org/wiki/Gur-e_Amir"
+        }
+      },
+      "image": {
+        "file": "Вечерний_Гур-Эмир.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B5%D1%87%D0%B5%D1%80%D0%BD%D0%B8%D0%B9_%D0%93%D1%83%D1%80-%D0%AD%D0%BC%D0%B8%D1%80.jpg",
+        "author": "Arina Pan",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-sarygamysh-lake",
+      "name": "Sarygamysh Lake",
+      "area": "Nukus",
+      "city": "Nukus",
+      "wikidata": "Q257416",
+      "lat": 42,
+      "lon": 57.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sarygamysh Lake, also Sarykamysh or Sary-Kamysh, is the largest lake in Turkmenistan located about midway between the Caspian Sea and the Aral Sea.",
+        "es": "El lago Sariqamish es un lago endorreico de escasa profundidad situado en Asia Central, al norte de Turkmenistán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sarygamysh Lake",
+          "url": "https://en.wikipedia.org/wiki/Sarygamysh_Lake"
+        },
+        "es": {
+          "title": "Lago Sariqamish",
+          "url": "https://es.wikipedia.org/wiki/Lago_Sariqamish"
+        }
+      },
+      "image": {
+        "file": "Sarykamysh02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sarykamysh02.jpg",
+        "author": "Chainbreaker",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-bibi-khanym-mosque",
+      "name": "Bibi-Khanym Mosque",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q679218",
+      "lat": 39.660556,
+      "lon": 66.979722,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Bibi-Khanym Mosque is one of the most important monuments of Samarkand, Uzbekistan.",
+        "es": "La mezquita de Bibi Janum es uno de los monumentos más importantes de la ciudad uzbeka de Samarcanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bibi-Khanym Mosque",
+          "url": "https://en.wikipedia.org/wiki/Bibi-Khanym_Mosque"
+        },
+        "es": {
+          "title": "Mezquita de Bibi Janum",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_de_Bibi_Janum"
+        }
+      },
+      "image": {
+        "file": "Bibi-Khanym_Mosque_(8145400614).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bibi-Khanym_Mosque_(8145400614).jpg",
+        "author": "David Stanley from Nanaimo, Canada",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "uz-aydar-lake",
+      "name": "Aydar Lake",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q280771",
+      "lat": 40.89,
+      "lon": 66.92,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Aydar Lake is part of the man-made Aydar-Arnasay system of lakes, which covers 4,000 square kilometres.",
+        "es": "El lago Aidar es un gran lago que forma parte del sistema artificial de lagos Aidar-Arnasay, que cubre un área de 4.000 km²."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Aydar Lake",
+          "url": "https://en.wikipedia.org/wiki/Aydar_Lake"
+        },
+        "es": {
+          "title": "Lago Aidar",
+          "url": "https://es.wikipedia.org/wiki/Lago_Aidar"
+        }
+      },
+      "image": {
+        "file": "Aidar-Kul.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aidar-Kul.JPG",
+        "author": "Jabez at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "uz-vozrozhdeniya-island",
+      "name": "Vozrozhdeniya island",
+      "area": "Karakalpakstan",
+      "city": "Karakalpakstan",
+      "wikidata": "Q844667",
+      "lat": 45.15,
+      "lon": 59.316667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vozrozhdeniya Island was a peninsula and former lake island in the Aral Sea.",
+        "es": "La isla Vozrozhdeniya era la principal de un grupo ubicadas al interior del Mar de Aral."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vozrozhdeniya Island",
+          "url": "https://en.wikipedia.org/wiki/Vozrozhdeniya_Island"
+        },
+        "es": {
+          "title": "Isla Vozrozhdeniya",
+          "url": "https://es.wikipedia.org/wiki/Isla_Vozrozhdeniya"
+        }
+      },
+      "image": {
+        "file": "Vozrozhdeniya_Island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vozrozhdeniya_Island.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "uz-shah-i-zinda",
+      "name": "Shah-i-Zinda",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q671935",
+      "lat": 39.66262,
+      "lon": 66.987878,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Shah-i-Zinda is a necropolis in the north-eastern part of Samarkand, Uzbekistan.",
+        "es": "Shah-i-Zinda es una necrópolis en la parte noreste de Samarcanda, Uzbekistán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shah-i-Zinda",
+          "url": "https://en.wikipedia.org/wiki/Shah-i-Zinda"
+        },
+        "es": {
+          "title": "Shah-i-Zinda",
+          "url": "https://es.wikipedia.org/wiki/Shah-i-Zinda"
+        }
+      },
+      "image": {
+        "file": "Shah-i-Zinda.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Shah-i-Zinda.jpg",
+        "author": "Vaurien",
+        "license": "CC BY-SA 3.0 de"
+      }
+    },
+    {
+      "id": "uz-khazret-sultan",
+      "name": "Khazret Sultan",
+      "area": "Surxondaryo Region",
+      "city": "Surxondaryo Region",
+      "wikidata": "Q519822",
+      "lat": 38.948333,
+      "lon": 68.172222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Khazret Sultan is a mountain in Uzbekistan, with an elevation of 4,643 metres.",
+        "es": "El Khazret Sultan es una montaña asiática y el punto más alto de Uzbekistán, con una altitud de 4643 metros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Khazret Sultan",
+          "url": "https://en.wikipedia.org/wiki/Khazret_Sultan"
+        },
+        "es": {
+          "title": "Khazret Sultan",
+          "url": "https://es.wikipedia.org/wiki/Khazret_Sultan"
+        }
+      }
+    },
+    {
+      "id": "uz-south-aral-sea",
+      "name": "South Aral Sea",
+      "area": "Karakalpakstan",
+      "city": "Karakalpakstan",
+      "wikidata": "Q276776",
+      "lat": 45,
+      "lon": 58.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The South Aral Sea is a lake in the basin of the former Aral Sea that formed in 1987 when that body divided in two, due to diversion of river inflow for agriculture.",
+        "es": "El mar de Aral del Sur, también llamado gran mar de Aral es un lago asiático surgido de la escisión del mar de Aral, ubicado en Uzbekistán; se proginó en 1987, debido a la división en dos partes del propio lago,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "South Aral Sea",
+          "url": "https://en.wikipedia.org/wiki/South_Aral_Sea"
+        },
+        "es": {
+          "title": "Mar de Aral del Sur",
+          "url": "https://es.wikipedia.org/wiki/Mar_de_Aral_del_Sur"
+        }
+      },
+      "image": {
+        "file": "Aralsea_tmo_2014231_lrg.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aralsea_tmo_2014231_lrg.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "uz-afrasiyab",
+      "name": "Afrasiyab",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q2167520",
+      "lat": 39.671325,
+      "lon": 66.987708,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Afrasiyab is an ancient site in northern Samarkand, present-day Uzbekistan, that was occupied from c.",
+        "es": "Afrasiab es un antiguo enclave en el norte de la ciudad de Samarcanda, actual Uzbekistán, que estuvo habitado desde el c."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Afrasiyab (Samarkand)",
+          "url": "https://en.wikipedia.org/wiki/Afrasiyab_(Samarkand)"
+        },
+        "es": {
+          "title": "Afrasiab (lugar arqueológico)",
+          "url": "https://es.wikipedia.org/wiki/Afrasiab_(lugar_arqueol%C3%B3gico)"
+        }
+      },
+      "image": {
+        "file": "Afrasiab_-_details_from_The_Ambassadors'_Painting.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Afrasiab_-_details_from_The_Ambassadors'_Painting.JPG",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "uz-teshik-tash",
+      "name": "Teshik-Tash",
+      "area": "Surxondaryo Region",
+      "city": "Surxondaryo Region",
+      "wikidata": "Q1679526",
+      "lat": 37.965964,
+      "lon": 67.156511,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Teshik-Tash 1 is a Neanderthal skeleton discovered in 1938 in Teshik-Tash Cave, in the Bajsuntau mountain range, Uzbek SSR, Central Asia.",
+        "es": "El cráneo de Teshik-Tash, con nombre de catálogo Teshik Tash 1, es un cráneo, incluida la mandíbula inferior, fósil de una niña de Homo neanderthalensis."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Teshik-Tash 1",
+          "url": "https://en.wikipedia.org/wiki/Teshik-Tash_1"
+        },
+        "es": {
+          "title": "Cráneo de Teshik-Tash",
+          "url": "https://es.wikipedia.org/wiki/Cr%C3%A1neo_de_Teshik-Tash"
+        }
+      },
+      "image": {
+        "file": "Skull_of_Teshik-Tash_Boy.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Skull_of_Teshik-Tash_Boy.jpg",
+        "author": "Stanislav Kozlovskiy",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "uz-po-i-kalyan",
+      "name": "Po-i-Kalyan",
+      "area": "Bukhara",
+      "city": "Bukhara",
+      "wikidata": "Q4368936",
+      "lat": 39.776001,
+      "lon": 64.414244,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Po-i-Kalan, or Poi Kalan, is an Islamic religious complex located in Bukhara, Uzbekistan.",
+        "es": "Po-i-Kalan, or Poi Kalan, is an Islamic religious complex located in Bukhara, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Po-i-Kalyan",
+          "url": "https://en.wikipedia.org/wiki/Po-i-Kalyan"
+        },
+        "es": {
+          "title": "Po-i-Kalyan",
+          "url": "https://en.wikipedia.org/wiki/Po-i-Kalyan"
+        }
+      },
+      "image": {
+        "file": "Poi_Kalon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poi_Kalon.jpg",
+        "author": "Официальный веб-сайт Агентства культурного наследия Республики Узбекистан",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "uz-talas-alatau",
+      "name": "Talas Alatau",
+      "area": "Namangan",
+      "city": "Namangan",
+      "wikidata": "Q1280576",
+      "lat": 42.308928,
+      "lon": 71.027211,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Talas Ala-Too range is range of the Tian Shan mountains forming the southern and eastern border of Talas Region of Kyrgyzstan.",
+        "es": "La cordillera de Talas Ala-Too o Alataw en kirguís: Талас Ала-Тоосу, romanizado: Talas Ala-Toosu ; en kazajo: Талас Алатауы, romanizado: Talas Alataýy ) es la cordillera de las montañas Tian Shan que forman la…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Talas Ala-Too",
+          "url": "https://en.wikipedia.org/wiki/Talas_Ala-Too"
+        },
+        "es": {
+          "title": "Talas Alatau",
+          "url": "https://es.wikipedia.org/wiki/Talas_Alatau"
+        }
+      },
+      "image": {
+        "file": "Aksu_Jabgly_3.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aksu_Jabgly_3.JPG",
+        "author": "Tomiris",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "uz-toprak-kala",
+      "name": "Toprak-kala",
+      "area": "Ellikqala District",
+      "city": "Ellikqala District",
+      "wikidata": "Q2443559",
+      "lat": 41.928611,
+      "lon": 60.820833,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Toprak-Kala, in modern Karakalpakstan, Uzbekistan, was an ancient palace city and the capital of Chorasmia in the 2nd/3rd century CE, where wall paintings, coins and archives were discovered.",
+        "es": "Toprak-Kala, in modern Karakalpakstan, Uzbekistan, was an ancient palace city and the capital of Chorasmia in the 2nd/3rd century CE, where wall paintings, coins and archives were discovered."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Toprak-Kala",
+          "url": "https://en.wikipedia.org/wiki/Toprak-Kala"
+        },
+        "es": {
+          "title": "Toprak-Kala",
+          "url": "https://en.wikipedia.org/wiki/Toprak-Kala"
+        }
+      },
+      "image": {
+        "file": "Toprak-Kala_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Toprak-Kala_01.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "uz-ayrybaba",
+      "name": "Aýrybaba",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q794684",
+      "lat": 37.833333,
+      "lon": 66.566667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ayribobo or Aýrybaba, officially named the Great Saparmyrat Turkmenbashi Peak in Turkmenistan since 2004, is a mountain in Central Asia.",
+        "es": "El Aýrybaba es la montaña más alta de Turkmenistán, con una altitud de 3138 m."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ayribobo",
+          "url": "https://en.wikipedia.org/wiki/Ayribobo"
+        },
+        "es": {
+          "title": "Monte Aýrybaba",
+          "url": "https://es.wikipedia.org/wiki/Monte_A%C3%BDrybaba"
+        }
+      }
+    },
+    {
+      "id": "uz-zaamin-national-park",
+      "name": "Zaamin National Park",
+      "area": "Zaamin District",
+      "city": "Zaamin District",
+      "wikidata": "Q2335733",
+      "lat": 39.613,
+      "lon": 68.501,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Zaamin National Park in Jizzakh Region is the oldest nature reserve in Uzbekistan.",
+        "es": "El parque nacional Zaamin es la más antigua reserva natural en el país asiático de Uzbekistán, creada en 1926 como Reserva Natural Guralash en la vertiente norte de la parte occidental de la cordillera de Turquestán,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zaamin National Park",
+          "url": "https://en.wikipedia.org/wiki/Zaamin_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Zaamin",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Zaamin"
+        }
+      },
+      "image": {
+        "file": "Zaamin_National_Park_Entrance,_Uzbekistan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zaamin_National_Park_Entrance%2C_Uzbekistan.jpg",
+        "author": "Yoshi Canopus",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "uz-chor-bakr",
+      "name": "Chor-Bakr",
+      "area": "Bukhara District",
+      "city": "Bukhara District",
+      "wikidata": "Q1649236",
+      "lat": 39.774444,
+      "lon": 64.334444,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Chor-Bakr is a memorial complex in the village of Sumitan at 5 km of Bukhara in Uzbekistan, built over the burial place of Abu-Bakr-Said, who died in the year 360 of the Muslim Calendar, and who was one of the four…",
+        "es": "El complejo conmemorativo de Chor-Bakr se construyó sobre el lugar donde fue enterrado Abu-Bakr-Said, que murió en el año 360 del calendario musulmán y fue uno de los cuatro Abu-Bakrs descendientes de Mahoma."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chor-Bakr",
+          "url": "https://en.wikipedia.org/wiki/Chor-Bakr"
+        },
+        "es": {
+          "title": "Chor Bakr",
+          "url": "https://es.wikipedia.org/wiki/Chor_Bakr"
+        }
+      },
+      "image": {
+        "file": "Chor_Bakr_03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chor_Bakr_03.jpg",
+        "author": "LBM1948",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-charvak-lake",
+      "name": "Charvak Lake",
+      "area": "Tashkent Region",
+      "city": "Tashkent Region",
+      "wikidata": "Q930671",
+      "lat": 41.6375,
+      "lon": 70.033333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Charvak is a water reservoir in Boʻstonliq District in the northern part of Tashkent Region, Uzbekistan, separating Ugam, Pskem, and Chatkal ranges.",
+        "es": "El lago Charvak es un embalse de agua en el distrito de Bostanliq, en la parte norte de la región de Taskent, Uzbekistán, que separa las cordilleras de Ugam, Pskem y Chatkal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Charvak",
+          "url": "https://en.wikipedia.org/wiki/Lake_Charvak"
+        },
+        "es": {
+          "title": "Lago Charvak",
+          "url": "https://es.wikipedia.org/wiki/Lago_Charvak"
+        }
+      },
+      "image": {
+        "file": "Chorvoq_Staumauer.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chorvoq_Staumauer.JPG",
+        "author": "Man77",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "uz-navoi-theater",
+      "name": "Navoi Theater",
+      "area": "Tashkent",
+      "city": "Tashkent",
+      "wikidata": "Q3354568",
+      "lat": 41.309167,
+      "lon": 69.271667,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Navoi Theater, officially the Alisher Navoi State Academic Grand Theatre, is a national opera theater in central Tashkent, built as one of the first modern theaters in the region.",
+        "es": "El Teatro Navoi o la Ópera de Taskent es el teatro nacional de ópera en Taskent, la capital del país asiático de Uzbekistán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Navoi Theater",
+          "url": "https://en.wikipedia.org/wiki/Navoi_Theater"
+        },
+        "es": {
+          "title": "Teatro Navoi",
+          "url": "https://es.wikipedia.org/wiki/Teatro_Navoi"
+        }
+      },
+      "image": {
+        "file": "Theatre_Alisher_Navoi.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Theatre_Alisher_Navoi.JPG",
+        "author": "Bobyrr",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-paikend",
+      "name": "Paikend",
+      "area": "Bukhara Region",
+      "city": "Bukhara Region",
+      "wikidata": "Q1705802",
+      "lat": 39.58706,
+      "lon": 64.011673,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Paykend or Poykent and also Baikand, an ancient city in Uzbekistan, is located in the lower stream of Zarafshan River and was one of the largest cities of the Bukhara oasis.",
+        "es": "Paykend or Poykent and also Baikand, an ancient city in Uzbekistan, is located in the lower stream of Zarafshan River and was one of the largest cities of the Bukhara oasis."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Paykend",
+          "url": "https://en.wikipedia.org/wiki/Paykend"
+        },
+        "es": {
+          "title": "Paykend",
+          "url": "https://en.wikipedia.org/wiki/Paykend"
+        }
+      },
+      "image": {
+        "file": "«Пайкент»_табиий_ёдгорлиги.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C2%AB%D0%9F%D0%B0%D0%B9%D0%BA%D0%B5%D0%BD%D1%82%C2%BB_%D1%82%D0%B0%D0%B1%D0%B8%D0%B8%D0%B9_%D1%91%D0%B4%D0%B3%D0%BE%D1%80%D0%BB%D0%B8%D0%B3%D0%B8.png",
+        "author": "TABIAT RESURSLARI VAZIRLIGI",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-lab-i-hauz",
+      "name": "Lab-i Hauz",
+      "area": "Bukhara",
+      "city": "Bukhara",
+      "wikidata": "Q4272468",
+      "lat": 39.773076,
+      "lon": 64.420243,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Lab-i Hauz is the name of the area surrounding one of the few remaining hauz pools that have survived in the city of Bukhara, Uzbekistan.",
+        "es": "Lab-i Hauz is the name of the area surrounding one of the few remaining hauz pools that have survived in the city of Bukhara, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lab-i Hauz",
+          "url": "https://en.wikipedia.org/wiki/Lab-i_Hauz"
+        },
+        "es": {
+          "title": "Lab-i Hauz",
+          "url": "https://en.wikipedia.org/wiki/Lab-i_Hauz"
+        }
+      },
+      "image": {
+        "file": "Lyabi-Hovuz_and_Nadir_Divanbegi_Khanqah.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lyabi-Hovuz_and_Nadir_Divanbegi_Khanqah.jpg",
+        "author": "Ymblanter",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-chashma-ayub-mausoleum",
+      "name": "Chashma-Ayub Mausoleum",
+      "area": "Bukhara",
+      "city": "Bukhara",
+      "wikidata": "Q4273796",
+      "lat": 39.77831,
+      "lon": 64.402321,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Chashma-Ayub Mausoleum is located near the Samani Mausoleum, in Bukhara, Uzbekistan.",
+        "es": "El Mausoleo Chashma-Ayub está situado cerca del Mausoleo Samani, en Bujara, Uzbekistán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chashma-Ayub Mausoleum",
+          "url": "https://en.wikipedia.org/wiki/Chashma-Ayub_Mausoleum"
+        },
+        "es": {
+          "title": "Mausoleo de Chashma Ayub",
+          "url": "https://es.wikipedia.org/wiki/Mausoleo_de_Chashma_Ayub"
+        }
+      },
+      "image": {
+        "file": "Chashma-Ayub_Mausoleum_outside_view_2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chashma-Ayub_Mausoleum_outside_view_2.JPG",
+        "author": "Faqscl",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "uz-magok-i-attari-mosque",
+      "name": "Magok-i-Attari Mosque",
+      "area": "Bukhara",
+      "city": "Bukhara",
+      "wikidata": "Q4274143",
+      "lat": 39.773186,
+      "lon": 64.41835,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Maghoki Attori Mosque is a historical mosque in Bukhara, Uzbekistan.",
+        "es": "Maghoki Attori Mosque is a historical mosque in Bukhara, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Magok-i-Attari Mosque",
+          "url": "https://en.wikipedia.org/wiki/Magok-i-Attari_Mosque"
+        },
+        "es": {
+          "title": "Magok-i-Attari Mosque",
+          "url": "https://en.wikipedia.org/wiki/Magok-i-Attari_Mosque"
+        }
+      },
+      "image": {
+        "file": "Magʻoki_attori_masjidi_(Мечеть_Магоки-Аттари,_Бухара,_Magok-i-Attari_Mosque).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mag%CA%BBoki_attori_masjidi_(%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D1%8C_%D0%9C%D0%B0%D0%B3%D0%BE%D0%BA%D0%B8-%D0%90%D1%82%D1%82%D0%B0%D1%80%D0%B8%2C_%D0%91%D1%83%D1%85%D0%B0%D1%80%D0%B0%2C_Magok-i-Attari_Mosque).jpg",
+        "author": "Petar Milošević",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-akhsikath",
+      "name": "Akhsikath",
+      "area": "Namangan",
+      "city": "Namangan",
+      "wikidata": "Q2495429",
+      "lat": 40.886569,
+      "lon": 71.450602,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Akhsikath is an archeological site located in the Fergana Valley in Uzbekistan.",
+        "es": "Akhsikath is an archeological site located in the Fergana Valley in Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Akhsikath",
+          "url": "https://en.wikipedia.org/wiki/Akhsikath"
+        },
+        "es": {
+          "title": "Akhsikath",
+          "url": "https://en.wikipedia.org/wiki/Akhsikath"
+        }
+      },
+      "image": {
+        "file": "Achsikent.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Achsikent.jpg",
+        "author": "Ziqo",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-state-museum-of-history-of-uzbekistan",
+      "name": "State Museum of History of Uzbekistan",
+      "area": "Tashkent",
+      "city": "Tashkent",
+      "wikidata": "Q1835285",
+      "lat": 41.3118,
+      "lon": 69.2693,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The State Museum of History of Uzbekistan, previously known as the National Museum of Turkestan, was founded in 1876.",
+        "es": "El Museo estatal de historia de Uzbekistán anteriormente conocido como el Museo Nacional del Turquestán, fue fundado en 1876."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "State Museum of History of Uzbekistan",
+          "url": "https://en.wikipedia.org/wiki/State_Museum_of_History_of_Uzbekistan"
+        },
+        "es": {
+          "title": "Museo estatal de historia de Uzbekistán",
+          "url": "https://es.wikipedia.org/wiki/Museo_estatal_de_historia_de_Uzbekist%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "History_Museum_(8145371419).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:History_Museum_(8145371419).jpg",
+        "author": "David Stanley from Nanaimo, Canada",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "uz-bolo-haouz-mosque",
+      "name": "Bolo Haouz Mosque",
+      "area": "Bukhara",
+      "city": "Bukhara",
+      "wikidata": "Q4090820",
+      "lat": 39.777778,
+      "lon": 64.4075,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bolo Haouz Mosque is a historical mosque in Bukhara, Uzbekistan.",
+        "es": "Bolo Haouz Mosque is a historical mosque in Bukhara, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bolo Haouz Mosque",
+          "url": "https://en.wikipedia.org/wiki/Bolo_Haouz_Mosque"
+        },
+        "es": {
+          "title": "Bolo Haouz Mosque",
+          "url": "https://en.wikipedia.org/wiki/Bolo_Haouz_Mosque"
+        }
+      },
+      "image": {
+        "file": "La_mosquée_Bolo-Khaouz_(Boukhara,_Ouzbékistan)_(5720017982).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:La_mosqu%C3%A9e_Bolo-Khaouz_(Boukhara%2C_Ouzb%C3%A9kistan)_(5720017982).jpg",
+        "author": "Jean-Pierre Dalbéra from Paris, France",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "uz-ayaz-kala",
+      "name": "Ayaz-Kala",
+      "area": "Ellikqala District",
+      "city": "Ellikqala District",
+      "wikidata": "Q792827",
+      "lat": 42.009722,
+      "lon": 61.027222,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ayaz-Kala is an archaeological site in Ellikqala District, Karakalpakstan, in northern Uzbekistan, built between the 4th century BCE and the 7th century CE.",
+        "es": "Ayaz-Kala is an archaeological site in Ellikqala District, Karakalpakstan, in northern Uzbekistan, built between the 4th century BCE and the 7th century CE."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ayaz-Kala",
+          "url": "https://en.wikipedia.org/wiki/Ayaz-Kala"
+        },
+        "es": {
+          "title": "Ayaz-Kala",
+          "url": "https://en.wikipedia.org/wiki/Ayaz-Kala"
+        }
+      },
+      "image": {
+        "file": "Ayaz-Kala-2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ayaz-Kala-2.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "uz-mount-adelung",
+      "name": "Mount Adelung",
+      "area": "Tashkent Region",
+      "city": "Tashkent Region",
+      "wikidata": "Q355590",
+      "lat": 42.116667,
+      "lon": 70.966667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Adelung is the highest peak in Pskem Mountains in the extreme north-east of the Tashkent Region, Uzbekistan.",
+        "es": "Monte Adelung es el pico más alto de la cordillera Pskem."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Adelung",
+          "url": "https://en.wikipedia.org/wiki/Mount_Adelung"
+        },
+        "es": {
+          "title": "Monte Adelung",
+          "url": "https://es.wikipedia.org/wiki/Monte_Adelung"
+        }
+      },
+      "image": {
+        "file": "Пик_Аделунга,_4301,_Пскемский_хребет,_Узбекистан.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B8%D0%BA_%D0%90%D0%B4%D0%B5%D0%BB%D1%83%D0%BD%D0%B3%D0%B0%2C_4301%2C_%D0%9F%D1%81%D0%BA%D0%B5%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D1%85%D1%80%D0%B5%D0%B1%D0%B5%D1%82%2C_%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD.JPG",
+        "author": "Elvina Veliyeva",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-varahsha",
+      "name": "Varahsha",
+      "area": "Bukhara",
+      "city": "Bukhara",
+      "wikidata": "Q4103586",
+      "lat": 39.862927,
+      "lon": 64.073183,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Varakhsha, also Varasha or Varahsha, was an ancient city in the Bukhara oasis in Sogdia, founded in the 1st century BCE.",
+        "es": "Varakhsha, also Varasha or Varahsha, was an ancient city in the Bukhara oasis in Sogdia, founded in the 1st century BCE."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Varakhsha",
+          "url": "https://en.wikipedia.org/wiki/Varakhsha"
+        },
+        "es": {
+          "title": "Varakhsha",
+          "url": "https://en.wikipedia.org/wiki/Varakhsha"
+        }
+      },
+      "image": {
+        "file": "Varaxsha_9.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Varaxsha_9.jpg",
+        "author": "Викичи",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-madrasa-of-abd-al-aziz-khan",
+      "name": "Madrasa of 'Abd al-'Aziz Khan",
+      "area": "Bukhara",
+      "city": "Bukhara",
+      "wikidata": "Q4287926",
+      "lat": 39.775833,
+      "lon": 64.417778,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Abdulaziz-Khan Madrasah is an ancient madrasa in Bukhara, Uzbekistan.",
+        "es": "The Abdulaziz-Khan Madrasah is an ancient madrasa in Bukhara, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Abdulaziz Khan Madrasah",
+          "url": "https://en.wikipedia.org/wiki/Abdulaziz_Khan_Madrasah"
+        },
+        "es": {
+          "title": "Abdulaziz Khan Madrasah",
+          "url": "https://en.wikipedia.org/wiki/Abdulaziz_Khan_Madrasah"
+        }
+      },
+      "image": {
+        "file": "Медресе_Абдулазиз-хана_00002.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B5%D0%B4%D1%80%D0%B5%D1%81%D0%B5_%D0%90%D0%B1%D0%B4%D1%83%D0%BB%D0%B0%D0%B7%D0%B8%D0%B7-%D1%85%D0%B0%D0%BD%D0%B0_00002.jpg",
+        "author": "Kagansky",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-kalan-mosque",
+      "name": "Kalan Mosque",
+      "area": "Bukhara",
+      "city": "Bukhara",
+      "wikidata": "Q4292343",
+      "lat": 39.775833,
+      "lon": 64.414167,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kalan Mosque is an architectural monument located in Bukhara, Uzbekistan.",
+        "es": "Kalan Mosque is an architectural monument located in Bukhara, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kalan Mosque",
+          "url": "https://en.wikipedia.org/wiki/Kalan_Mosque"
+        },
+        "es": {
+          "title": "Kalan Mosque",
+          "url": "https://en.wikipedia.org/wiki/Kalan_Mosque"
+        }
+      },
+      "image": {
+        "file": "Le_minaret_et_la_mosquée_Kalon_(Boukhara,_Ouzbékistan)_(5658826884).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Le_minaret_et_la_mosqu%C3%A9e_Kalon_(Boukhara%2C_Ouzb%C3%A9kistan)_(5658826884).jpg",
+        "author": "Jean-Pierre Dalbéra from Paris, France",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "uz-kalta-minor",
+      "name": "Kalta Minor",
+      "area": "Khiva",
+      "city": "Khiva",
+      "wikidata": "Q4294004",
+      "lat": 41.37824,
+      "lon": 60.35805,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kaltaminor is a memorial minaret in Khiva.",
+        "es": "Kalta Minor es un minarete conmemorativo en Jiva."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kaltaminor",
+          "url": "https://en.wikipedia.org/wiki/Kaltaminor"
+        },
+        "es": {
+          "title": "Kalta Minor",
+          "url": "https://es.wikipedia.org/wiki/Kalta_Minor"
+        }
+      },
+      "image": {
+        "file": "Kalta_Minar.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kalta_Minar.jpg",
+        "author": "pastaitaken",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "uz-dalverzin-tepe",
+      "name": "Dalverzin Tepe",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q1100519",
+      "lat": 38.101111,
+      "lon": 67.860556,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Dalverzin Tepe is an ancient archaeological site founded by the Graeco-Bactrian Kingdom and located near to the modern city of Denau in the Surxondaryo Region of Uzbekistan.",
+        "es": "Dalverzin Tepe es un antiguo yacimiento arqueológico fundado por el Reino grecobactriano y situado cerca de la moderna ciudad de Denov en la provincia de Surjandaria de Uzbekistán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dalverzin Tepe",
+          "url": "https://en.wikipedia.org/wiki/Dalverzin_Tepe"
+        },
+        "es": {
+          "title": "Dalverzin Tepe",
+          "url": "https://es.wikipedia.org/wiki/Dalverzin_Tepe"
+        }
+      },
+      "image": {
+        "file": "Dalverzine_Tepe_-_Denau_-_Surkhandarya.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dalverzine_Tepe_-_Denau_-_Surkhandarya.JPG",
+        "author": "Betta27",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "uz-namazgoh-mosque",
+      "name": "Namazgoh Mosque",
+      "area": "Bukhara",
+      "city": "Bukhara",
+      "wikidata": "Q13668326",
+      "lat": 39.761389,
+      "lon": 64.411944,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Bukhara Mosque is a historical monument in Bukhara.",
+        "es": "The Bukhara Mosque is a historical monument in Bukhara."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bukhara Mosque",
+          "url": "https://en.wikipedia.org/wiki/Bukhara_Mosque"
+        },
+        "es": {
+          "title": "Bukhara Mosque",
+          "url": "https://en.wikipedia.org/wiki/Bukhara_Mosque"
+        }
+      },
+      "image": {
+        "file": "Bukhara_Namazgoh_Mosque_3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bukhara_Namazgoh_Mosque_3.jpg",
+        "author": "Ymblanter",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-kara-tepe",
+      "name": "Kara Tepe",
+      "area": "Termez",
+      "city": "Termez",
+      "wikidata": "Q4213429",
+      "lat": 37.278056,
+      "lon": 67.1825,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kara Tepe is a Buddhist archaeological site in the Central Asia region of Bactria, in the Termez oasis near the city of Termez in southern Uzbekistan.",
+        "es": "Kara Tepe' es un yacimiento arqueológico budista de la región de Bactriana, en el oasis de Termez, cerca de la ciudad de Termez, en el sur de Uzbekistán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kara Tepe",
+          "url": "https://en.wikipedia.org/wiki/Kara_Tepe"
+        },
+        "es": {
+          "title": "Kara Tepe (Uzbekistán)",
+          "url": "https://es.wikipedia.org/wiki/Kara_Tepe_(Uzbekist%C3%A1n)"
+        }
+      },
+      "image": {
+        "file": "Qoratepa-1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Qoratepa-1.jpg",
+        "author": "Marat Nadjibaev",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-baland-mosque",
+      "name": "Baland Mosque",
+      "area": "Bukhara",
+      "city": "Bukhara",
+      "wikidata": "Q4292325",
+      "lat": 39.771817,
+      "lon": 64.405063,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Baland Mosque, which means the \"upper mosque\", is a historical mosque in the ancient city of Bukhara, Uzbekistan.",
+        "es": "Baland Mosque, which means the \"upper mosque\", is a historical mosque in the ancient city of Bukhara, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Baland Mosque",
+          "url": "https://en.wikipedia.org/wiki/Baland_Mosque"
+        },
+        "es": {
+          "title": "Baland Mosque",
+          "url": "https://en.wikipedia.org/wiki/Baland_Mosque"
+        }
+      },
+      "image": {
+        "file": "Bukhara_Baland_Mosque_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bukhara_Baland_Mosque_2.jpg",
+        "author": "Ymblanter",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-hazrat-hyzr-mosque",
+      "name": "Hazrat-Hyzr Mosque",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q4292369",
+      "lat": 39.663453,
+      "lon": 66.983256,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Hazrat Khizr Mosque is a historical monument in Samarkand, Uzbekistan ; associated with the name of the legendary Islamic prophet Khizr.",
+        "es": "The Hazrat Khizr Mosque is a historical monument in Samarkand, Uzbekistan ; associated with the name of the legendary Islamic prophet Khizr."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hazrat Khizr Mosque",
+          "url": "https://en.wikipedia.org/wiki/Hazrat_Khizr_Mosque"
+        },
+        "es": {
+          "title": "Hazrat Khizr Mosque",
+          "url": "https://en.wikipedia.org/wiki/Hazrat_Khizr_Mosque"
+        }
+      },
+      "image": {
+        "file": "Hazrati_Hizr_Mosque_in_Samarkand_(August_2018).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hazrati_Hizr_Mosque_in_Samarkand_(August_2018).jpg",
+        "author": "Akhemen",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-ak-mosque",
+      "name": "Ak Mosque",
+      "area": "Khiva",
+      "city": "Khiva",
+      "wikidata": "Q4700038",
+      "lat": 41.3773,
+      "lon": 60.3615,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ak Mosque is a 19th century mosque in Khiva, Uzbekistan.",
+        "es": "Ak Mosque is a 19th century mosque in Khiva, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ak Mosque",
+          "url": "https://en.wikipedia.org/wiki/Ak_Mosque"
+        },
+        "es": {
+          "title": "Ak Mosque",
+          "url": "https://en.wikipedia.org/wiki/Ak_Mosque"
+        }
+      },
+      "image": {
+        "file": "Ak_Mosque_(480997).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ak_Mosque_(480997).jpg",
+        "author": "upyernoz from Haverford, USA",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "uz-holy-assumption-cathedral-church",
+      "name": "Holy Assumption Cathedral Church",
+      "area": "Tashkent",
+      "city": "Tashkent",
+      "wikidata": "Q569986",
+      "lat": 41.290803,
+      "lon": 69.278828,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of the Assumption of the Virgin or more properly the Cathedral of the Dormition of the Mother of God is the Russian Orthodox cathedral of the diocese of Tashkent in Uzbekistan since 1945.",
+        "es": "La Catedral de la Asunción de la Virgen o bien Catedral de la Dormición, es la catedral ortodoxa rusa de la diócesis de Taskent en Uzbekistán desde 1945."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of the Assumption of the Virgin, Tashkent",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_the_Assumption_of_the_Virgin%2C_Tashkent"
+        },
+        "es": {
+          "title": "Catedral de la Asunción de la Virgen (Taskent)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Asunci%C3%B3n_de_la_Virgen_(Taskent)"
+        }
+      },
+      "image": {
+        "file": "Успенский_кафедральный_собор_в_Ташкенте.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A3%D1%81%D0%BF%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%B2_%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82%D0%B5.JPG",
+        "author": "ГОЛ ос",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "uz-khalchayan",
+      "name": "Khalchayan",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q1060260",
+      "lat": 38.293611,
+      "lon": 67.978889,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Khalchayan is an archaeological site, thought to be a small palace or a reception hall, located near the modern town of Denov in Surxondaryo Region of southern Uzbekistan.",
+        "es": "Khalchayan es un yacimiento arqueológico, que se cree que era un pequeño palacio o una sala de recepción, situado cerca de la moderna ciudad de Denov en la región Surjandaria del sur de Uzbekistán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Khalchayan",
+          "url": "https://en.wikipedia.org/wiki/Khalchayan"
+        },
+        "es": {
+          "title": "Khalchayan",
+          "url": "https://es.wikipedia.org/wiki/Khalchayan"
+        }
+      },
+      "image": {
+        "file": "Khalchayan_statuette,_1st_century_BCE_(detail).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Khalchayan_statuette%2C_1st_century_BCE_(detail).jpg",
+        "author": "zbig58",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "uz-dzhuma-mosque",
+      "name": "Dzhuma Mosque",
+      "area": "Tashkent",
+      "city": "Tashkent",
+      "wikidata": "Q1269420",
+      "lat": 41.323653,
+      "lon": 69.237311,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Khoja Ahror Valiy mosque is a mosque in Tashkent, Uzbekistan.",
+        "es": "Khoja Ahror Valiy mosque is a mosque in Tashkent, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dzhuma Mosque, Tashkent",
+          "url": "https://en.wikipedia.org/wiki/Dzhuma_Mosque%2C_Tashkent"
+        },
+        "es": {
+          "title": "Dzhuma Mosque, Tashkent",
+          "url": "https://en.wikipedia.org/wiki/Dzhuma_Mosque%2C_Tashkent"
+        }
+      },
+      "image": {
+        "file": "Dzhuma-Moschee_Taschkent_2009.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dzhuma-Moschee_Taschkent_2009.JPG",
+        "author": "F.Higer",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "uz-sacred-heart-cathedral",
+      "name": "Sacred Heart Cathedral",
+      "area": "Tashkent",
+      "city": "Tashkent",
+      "wikidata": "Q2942916",
+      "lat": 41.305556,
+      "lon": 69.295833,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sacred Heart Cathedral is a religious building belonging to the Roman Catholic Church, located at the street Sadiq Asimov, Tashkent, the capital of Uzbekistan.",
+        "es": "La Catedral del Sagrado Corazón o más formalmente la Catedral del Sagrado Corazón de Jesús y a veces conocida también como la \"Iglesia Polaca\" es el nombre que recibe un edificio religioso que pertenece a la Iglesia…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sacred Heart Cathedral, Tashkent",
+          "url": "https://en.wikipedia.org/wiki/Sacred_Heart_Cathedral%2C_Tashkent"
+        },
+        "es": {
+          "title": "Catedral del Sagrado Corazón (Taskent)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Sagrado_Coraz%C3%B3n_(Taskent)"
+        }
+      },
+      "image": {
+        "file": "Вид_спереди_на_собор_Святейшего_Сердца_Иисуса.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B8%D0%B4_%D1%81%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B8_%D0%BD%D0%B0_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%A1%D0%B2%D1%8F%D1%82%D0%B5%D0%B9%D1%88%D0%B5%D0%B3%D0%BE_%D0%A1%D0%B5%D1%80%D0%B4%D1%86%D0%B0_%D0%98%D0%B8%D1%81%D1%83%D1%81%D0%B0.jpg",
+        "author": "Журавлев Андрей Анатольевич",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-khiva-friday-mosque",
+      "name": "Khiva Friday Mosque",
+      "area": "Khiva",
+      "city": "Khiva",
+      "wikidata": "Q4160568",
+      "lat": 41.377587,
+      "lon": 60.359981,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Juma Mosque is a 10th–18th century mosque in Khiva, Uzbekistan.",
+        "es": "Juma Mosque is a 10th–18th century mosque in Khiva, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Juma Mosque, Khiva",
+          "url": "https://en.wikipedia.org/wiki/Juma_Mosque%2C_Khiva"
+        },
+        "es": {
+          "title": "Juma Mosque, Khiva",
+          "url": "https://en.wikipedia.org/wiki/Juma_Mosque%2C_Khiva"
+        }
+      },
+      "image": {
+        "file": "Friday_Mosque_of_Khiva.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Friday_Mosque_of_Khiva.jpg",
+        "author": "Carpodacus",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-divanbegi-madrasa",
+      "name": "Divanbegi Madrasa",
+      "area": "Bukhara",
+      "city": "Bukhara",
+      "wikidata": "Q4287957",
+      "lat": 39.773163,
+      "lon": 64.421591,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Nadir Devanbegi Madrasah is an architectural monument in Bukhara, Uzbekistan.",
+        "es": "Nadir Devanbegi Madrasah is an architectural monument in Bukhara, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nadir Devanbegi Madrasah (Bukhara)",
+          "url": "https://en.wikipedia.org/wiki/Nadir_Devanbegi_Madrasah_(Bukhara)"
+        },
+        "es": {
+          "title": "Nadir Devanbegi Madrasah (Bukhara)",
+          "url": "https://en.wikipedia.org/wiki/Nadir_Devanbegi_Madrasah_(Bukhara)"
+        }
+      },
+      "image": {
+        "file": "Divanbegi_Madrassah_Bukhara.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Divanbegi_Madrassah_Bukhara.jpg",
+        "author": "Ymblanter",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-vobkent-minaret",
+      "name": "Vobkent minaret",
+      "area": "Vabkent District",
+      "city": "Vabkent District",
+      "wikidata": "Q4294010",
+      "lat": 40.01978,
+      "lon": 64.51773,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Vobkent Minaret is a historical monument in the city of Vobkent, in the Bukhara region.",
+        "es": "The Vobkent Minaret is a historical monument in the city of Vobkent, in the Bukhara region."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vobkent Minaret",
+          "url": "https://en.wikipedia.org/wiki/Vobkent_Minaret"
+        },
+        "es": {
+          "title": "Vobkent Minaret",
+          "url": "https://en.wikipedia.org/wiki/Vobkent_Minaret"
+        }
+      },
+      "image": {
+        "file": "Vobkent_minaret_14-33.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vobkent_minaret_14-33.JPG",
+        "author": "Bobyrr",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-odina-mosque",
+      "name": "Odina Mosque",
+      "area": "Qarshi",
+      "city": "Qarshi",
+      "wikidata": "Q121536983",
+      "lat": 38.867688,
+      "lon": 65.803166,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Odina Mosque is the oldest preserved architectural monument located in the city of Qarshi, Qashqadaryo region.",
+        "es": "La Mezquita de Odina es el monumento arquitectónico más antiguo conservado ubicado en la ciudad de Qarshi, región de Kashkadar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Odina Mosque",
+          "url": "https://en.wikipedia.org/wiki/Odina_Mosque"
+        },
+        "es": {
+          "title": "Mezquita de Odina",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_de_Odina"
+        }
+      },
+      "image": {
+        "file": "Adina_mosque.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Adina_mosque.jpg",
+        "author": "Mrjavokh1r",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-mausoleum-of-sheikh-zaynudin",
+      "name": "Mausoleum of Sheikh Zaynudin",
+      "area": "Tashkent",
+      "city": "Tashkent",
+      "wikidata": "Q1594393",
+      "lat": 41.3239,
+      "lon": 69.2033,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mausoleum of Sheikh Zaynudin Bobo is located in Tashkent, Uzbekistan.",
+        "es": "El Mausoleo del Sheikh Zaynudin se encuentra en Taskent, Uzbekistán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mausoleum of Sheikh Zaynudin",
+          "url": "https://en.wikipedia.org/wiki/Mausoleum_of_Sheikh_Zaynudin"
+        },
+        "es": {
+          "title": "Mausoleo del Sheikh Zaynudin",
+          "url": "https://es.wikipedia.org/wiki/Mausoleo_del_Sheikh_Zaynudin"
+        }
+      }
+    },
+    {
+      "id": "uz-state-museum-of-applied-arts-of-uzbekistan",
+      "name": "State museum of applied arts of Uzbekistan",
+      "area": "Tashkent",
+      "city": "Tashkent",
+      "wikidata": "Q3330166",
+      "website": "https://new.muzeyart.uz/",
+      "lat": 41.301103,
+      "lon": 69.2595,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The State Museum of Applied Arts of Uzbekistan is an art museum located in Tashkent, Uzbekistan, founded in 1937 as a temporary exhibition for handicrafts.",
+        "es": "The State Museum of Applied Arts of Uzbekistan is an art museum located in Tashkent, Uzbekistan, founded in 1937 as a temporary exhibition for handicrafts."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "State Museum of Applied Arts of Uzbekistan",
+          "url": "https://en.wikipedia.org/wiki/State_Museum_of_Applied_Arts_of_Uzbekistan"
+        },
+        "es": {
+          "title": "State Museum of Applied Arts of Uzbekistan",
+          "url": "https://en.wikipedia.org/wiki/State_Museum_of_Applied_Arts_of_Uzbekistan"
+        }
+      },
+      "image": {
+        "file": "Tashkent_museum_of_applied_arts.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tashkent_museum_of_applied_arts.jpg",
+        "author": "Ehedaya at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "uz-monument-to-nizami-ganjavi-in-tashkent",
+      "name": "Monument to Nizami Ganjavi in Tashkent",
+      "area": "Tashkent",
+      "city": "Tashkent",
+      "wikidata": "Q3663072",
+      "lat": 41.30377,
+      "lon": 69.24113,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Monument to Nizami Ganjavi, a medieval Persian poet, is located in Tashkent, the capital of Uzbekistan, in a square near the Tashkent State Pedagogic University named after Nizami, near a park named after Babur.",
+        "es": "El Monumento a Nizami Ganjavi está dedicado a un gran poeta medieval, se encuentra en Taskent, capital de Uzbekistán, en una plaza cerca de la Universidad Estatal Pedagógica de Taskent que el nombre de Nizami, cerca…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Monument to Nizami Ganjavi in Tashkent",
+          "url": "https://en.wikipedia.org/wiki/Monument_to_Nizami_Ganjavi_in_Tashkent"
+        },
+        "es": {
+          "title": "Monumento a Nizami Ganjavi",
+          "url": "https://es.wikipedia.org/wiki/Monumento_a_Nizami_Ganjavi"
+        }
+      }
+    },
+    {
+      "id": "uz-sirli-mosque",
+      "name": "Sirli Mosque",
+      "area": "Namangan",
+      "city": "Namangan",
+      "wikidata": "Q20536469",
+      "lat": 40.9989,
+      "lon": 71.6311,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Sirli Mosque is an architectural monument located on Kokand Street in Namangan city, Namangan Region, Uzbekistan.",
+        "es": "The Sirli Mosque is an architectural monument located on Kokand Street in Namangan city, Namangan Region, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sirli Mosque",
+          "url": "https://en.wikipedia.org/wiki/Sirli_Mosque"
+        },
+        "es": {
+          "title": "Sirli Mosque",
+          "url": "https://en.wikipedia.org/wiki/Sirli_Mosque"
+        }
+      }
+    },
+    {
+      "id": "uz-mavlonbuva-mausoleum",
+      "name": "Mavlonbuva Mausoleum",
+      "area": "Namangan",
+      "city": "Namangan",
+      "wikidata": "Q12826890",
+      "lat": 40.9998,
+      "lon": 71.6329,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mavlonbuva Mausoleum is an architectural monument located in the Namangan Region of Uzbekistan.",
+        "es": "The Mavlonbuva Mausoleum is an architectural monument located in the Namangan Region of Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mavlonbuva Mausoleum",
+          "url": "https://en.wikipedia.org/wiki/Mavlonbuva_Mausoleum"
+        },
+        "es": {
+          "title": "Mavlonbuva Mausoleum",
+          "url": "https://en.wikipedia.org/wiki/Mavlonbuva_Mausoleum"
+        }
+      }
+    },
+    {
+      "id": "uz-mausoleum-of-devona-buva",
+      "name": "Mausoleum of Devona Buva",
+      "area": "Namangan",
+      "city": "Namangan",
+      "wikidata": "Q20536221",
+      "lat": 41.00797,
+      "lon": 71.78767,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Devona Buva Mausoleum is an architectural monument located in the village of Fayziobod, Uychi District, Namangan Region, Uzbekistan.",
+        "es": "Devona Buva Mausoleum is an architectural monument located in the village of Fayziobod, Uychi District, Namangan Region, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mausoleum of Devona Buva",
+          "url": "https://en.wikipedia.org/wiki/Mausoleum_of_Devona_Buva"
+        },
+        "es": {
+          "title": "Mausoleum of Devona Buva",
+          "url": "https://en.wikipedia.org/wiki/Mausoleum_of_Devona_Buva"
+        }
+      }
+    },
+    {
+      "id": "uz-bobur-park",
+      "name": "Bobur Park",
+      "area": "Namangan",
+      "city": "Namangan",
+      "wikidata": "Q118946091",
+      "lat": 40.998056,
+      "lon": 71.670833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Bobur Park is a park located in Namangan, Uzbekistan.",
+        "es": "Bobur Park is a park located in Namangan, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bobur Park",
+          "url": "https://en.wikipedia.org/wiki/Bobur_Park"
+        },
+        "es": {
+          "title": "Bobur Park",
+          "url": "https://en.wikipedia.org/wiki/Bobur_Park"
+        }
+      },
+      "image": {
+        "file": "Bobur_bog'i.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bobur_bog'i.jpg",
+        "author": "Usmonov Gayrat",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "uz-mulla-bozor-okhund-mausoleum",
+      "name": "Mulla Bozor Okhund Mausoleum",
+      "area": "Namangan",
+      "city": "Namangan",
+      "wikidata": "Q122672679",
+      "lat": 41.011389,
+      "lon": 71.675556,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mulla Bozor Okhund Pilgrimage Complex is a shrine located on the banks of the Namangansoy, in the Kurashkhona area, the Labbaytogha district, Namangan in Uzbekistan.",
+        "es": "The Mulla Bozor Okhund Pilgrimage Complex is a shrine located on the banks of the Namangansoy, in the Kurashkhona area, the Labbaytogha district, Namangan in Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mulla Bozor Okhund Pilgrimage Complex",
+          "url": "https://en.wikipedia.org/wiki/Mulla_Bozor_Okhund_Pilgrimage_Complex"
+        },
+        "es": {
+          "title": "Mulla Bozor Okhund Pilgrimage Complex",
+          "url": "https://en.wikipedia.org/wiki/Mulla_Bozor_Okhund_Pilgrimage_Complex"
+        }
+      },
+      "image": {
+        "file": "Mulla_Bozor_Oxund_maqbarasi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mulla_Bozor_Oxund_maqbarasi.jpg",
+        "author": "Komilkhuja",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-afsonalar-vodiysi-park",
+      "name": "Afsonalar Vodiysi Park",
+      "area": "Namangan",
+      "city": "Namangan",
+      "wikidata": "Q135947258",
+      "lat": 41.003333,
+      "lon": 71.616944,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Afsonalar vodiysi Park is an amusement park located in Namangan, Uzbekistan.",
+        "es": "Afsonalar vodiysi Park is an amusement park located in Namangan, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Afsonalar Vodiysi Park",
+          "url": "https://en.wikipedia.org/wiki/Afsonalar_Vodiysi_Park"
+        },
+        "es": {
+          "title": "Afsonalar Vodiysi Park",
+          "url": "https://en.wikipedia.org/wiki/Afsonalar_Vodiysi_Park"
+        }
+      },
+      "image": {
+        "file": "Afsona_Land.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Afsona_Land.jpg",
+        "author": "Komilkhuja",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "uz-andijan-jame-mosque-complex",
+      "name": "Andijan Jame Mosque Complex",
+      "area": "Andijan",
+      "city": "Andijan",
+      "wikidata": "Q20536106",
+      "lat": 40.7884,
+      "lon": 72.3444,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Andijan Jame Mosque Complex is an architectural monument.",
+        "es": "Andijan Jame Mosque Complex is an architectural monument."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Andijan Jame Mosque Complex",
+          "url": "https://en.wikipedia.org/wiki/Andijan_Jame_Mosque_Complex"
+        },
+        "es": {
+          "title": "Andijan Jame Mosque Complex",
+          "url": "https://en.wikipedia.org/wiki/Andijan_Jame_Mosque_Complex"
+        }
+      },
+      "image": {
+        "file": "Andijon_jome.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Andijon_jome.jpg",
+        "author": "Abdurahmon Egamberdiyev",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-abdul-hamid-chowdhury",
+      "name": "Abdul Hamid Chowdhury",
+      "area": "Andijan",
+      "city": "Andijan",
+      "wikidata": "Q80116039",
+      "lat": 40.798276,
+      "lon": 72.347758,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Abdul Hamid Chowdhury was a Bengali politician and zamindar who was the Speaker of the East Pakistan Provincial Assembly from 1962 to 1968.",
+        "es": "Abdul Hamid Chowdhury was a Bengali politician and zamindar who was the Speaker of the East Pakistan Provincial Assembly from 1962 to 1968."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Abdul Hamid Chowdhury",
+          "url": "https://en.wikipedia.org/wiki/Abdul_Hamid_Chowdhury"
+        },
+        "es": {
+          "title": "Abdul Hamid Chowdhury",
+          "url": "https://en.wikipedia.org/wiki/Abdul_Hamid_Chowdhury"
+        }
+      },
+      "image": {
+        "file": "Abdul_Hamid_Chowdhury.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Abdul_Hamid_Chowdhury.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "uz-khodja-doniyor-mausoleum",
+      "name": "Khodja Doniyor Mausoleum",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q1661582",
+      "lat": 39.673311,
+      "lon": 66.994506,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Khoja Doniyor mausoleum is an architectural monument in Samarkand.",
+        "es": "Khoja Doniyor mausoleum is an architectural monument in Samarkand."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Khoja Doniyor Mausoleum",
+          "url": "https://en.wikipedia.org/wiki/Khoja_Doniyor_Mausoleum"
+        },
+        "es": {
+          "title": "Khoja Doniyor Mausoleum",
+          "url": "https://en.wikipedia.org/wiki/Khoja_Doniyor_Mausoleum"
+        }
+      },
+      "image": {
+        "file": "Мазар_Ходжи-Данияра.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D0%B7%D0%B0%D1%80_%D0%A5%D0%BE%D0%B4%D0%B6%D0%B8-%D0%94%D0%B0%D0%BD%D0%B8%D1%8F%D1%80%D0%B0.JPG",
+        "author": "Alexandronikos",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "uz-st-john-the-baptist-church-samarkand",
+      "name": "St. John the Baptist Church, Samarkand",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q15729689",
+      "lat": 39.646683,
+      "lon": 66.955445,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The St. John the Baptist Church is the only Catholic church in the city of Samarkand, Uzbekistan.",
+        "es": "La iglesia de San Juan Bautista es la única iglesia católica en la ciudad de Samarcanda en el país asiático de Uzbekistán, donde el 95% son musulmanes."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. John the Baptist Church, Samarkand",
+          "url": "https://en.wikipedia.org/wiki/St._John_the_Baptist_Church%2C_Samarkand"
+        },
+        "es": {
+          "title": "Iglesia de San Juan Bautista (Samarcanda)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Juan_Bautista_(Samarcanda)"
+        }
+      },
+      "image": {
+        "file": "Church_Saint_John_the_Baptist,_Samarkand.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Church_Saint_John_the_Baptist%2C_Samarkand.jpg",
+        "author": "Bobyrr (changes by Rabanus Flavus)",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "uz-kafir-kala",
+      "name": "Kafir-kala",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q81526546",
+      "lat": 39.572034,
+      "lon": 67.021547,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kafir-kala is an ancient fortress beside the Dargom river, 12 kilometers south of the city center of Samarkand in Uzbekistan, protecting the southern border of the Samarkand oasis.",
+        "es": "Kafir-kala is an ancient fortress beside the Dargom river, 12 kilometers south of the city center of Samarkand in Uzbekistan, protecting the southern border of the Samarkand oasis."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kafir-kala (Uzbekistan)",
+          "url": "https://en.wikipedia.org/wiki/Kafir-kala_(Uzbekistan)"
+        },
+        "es": {
+          "title": "Kafir-kala (Uzbekistan)",
+          "url": "https://en.wikipedia.org/wiki/Kafir-kala_(Uzbekistan)"
+        }
+      },
+      "image": {
+        "file": "Antiquities_of_Samarkand._Kurgan_in_the_Vicinity_of_Samarkand._Location_of_Kafir_Kala_WDL3709.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Antiquities_of_Samarkand._Kurgan_in_the_Vicinity_of_Samarkand._Location_of_Kafir_Kala_WDL3709.png",
+        "author": "Bogaevskii, Nikolai V., 1843-1912",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "uz-al-bukhari-memorial",
+      "name": "Al Bukhari Memorial",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q12820736",
+      "lat": 39.815139,
+      "lon": 66.944417,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Memorial Complex of Imam al-Bukhari is an Islamic religious complex located in the district of Xo'ja Ismoil in the city of Samarkand, Uzbekistan.",
+        "es": "The Memorial Complex of Imam al-Bukhari is an Islamic religious complex located in the district of Xo'ja Ismoil in the city of Samarkand, Uzbekistan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Memorial Complex of Imam al-Bukhari",
+          "url": "https://en.wikipedia.org/wiki/Memorial_Complex_of_Imam_al-Bukhari"
+        },
+        "es": {
+          "title": "Memorial Complex of Imam al-Bukhari",
+          "url": "https://en.wikipedia.org/wiki/Memorial_Complex_of_Imam_al-Bukhari"
+        }
+      },
+      "image": {
+        "file": "AlBukhari_mausoleum.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:AlBukhari_mausoleum.jpg",
+        "author": "Alaexis",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "uz-khodzha-abdu-derun-mausoleum",
+      "name": "Khodzha Abdu-Derun Mausoleum",
+      "area": "Samarkand",
+      "city": "Samarkand",
+      "wikidata": "Q1622717",
+      "lat": 39.641694,
+      "lon": 66.991722,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Abdidarun Complex is an ancient shrine located on the eastern side of the Samarkand fortress wall.",
+        "es": "Abdidarun Complex is an ancient shrine located on the eastern side of the Samarkand fortress wall."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Abdidarun Complex",
+          "url": "https://en.wikipedia.org/wiki/Abdidarun_Complex"
+        },
+        "es": {
+          "title": "Abdidarun Complex",
+          "url": "https://en.wikipedia.org/wiki/Abdidarun_Complex"
+        }
+      },
+      "image": {
+        "file": "Antiquities_of_Samarkand._Mausoleum_of_Khodzha_Abdu-Derun._General_View_of_the_Mausoleum_from_the_Southwest_WDL3734.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Antiquities_of_Samarkand._Mausoleum_of_Khodzha_Abdu-Derun._General_View_of_the_Mausoleum_from_the_Southwest_WDL3734.png",
+        "author": "Bogaevskii, Nikolai V., 1843-1912",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "uz-mizdahkan",
+      "name": "Mizdahkan",
+      "area": "Nukus",
+      "city": "Nukus",
+      "wikidata": "Q12827505",
+      "lat": 42.402069,
+      "lon": 59.389182,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Mizdahkan is an archeological site and necropolis on the west of the city of Xojeli.",
+        "es": "Mizdahkan is an archeological site and necropolis on the west of the city of Xojeli."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mizdahkan",
+          "url": "https://en.wikipedia.org/wiki/Mizdahkan"
+        },
+        "es": {
+          "title": "Mizdahkan",
+          "url": "https://en.wikipedia.org/wiki/Mizdahkan"
+        }
+      },
+      "image": {
+        "file": "Ancient_Complex_Mizdahkan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Complex_Mizdahkan.jpg",
+        "author": "https://damda.uz",
+        "license": "CC BY-SA 4.0"
+      }
     }
   ]
 }

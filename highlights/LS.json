@@ -35,6 +35,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -104,6 +110,240 @@
       },
       "lat": -29.353611,
       "lon": 27.670833
+    },
+    {
+      "id": "ls-thabana-ntlenyana",
+      "name": "Thabana Ntlenyana",
+      "area": "Mokhotlong District",
+      "city": "Mokhotlong District",
+      "wikidata": "Q733132",
+      "lat": -29.466667,
+      "lon": 29.266667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Thabana Ntlenyana is the highest mountain in southern Africa.",
+        "es": "Thabana Ntlenyana es, con 3482 m, la cima más elevada en Lesoto, así como la más alta del ámbito del sur de África."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Thabana Ntlenyana",
+          "url": "https://en.wikipedia.org/wiki/Thabana_Ntlenyana"
+        },
+        "es": {
+          "title": "Thabana Ntlenyana",
+          "url": "https://es.wikipedia.org/wiki/Thabana_Ntlenyana"
+        }
+      },
+      "image": {
+        "file": "Thabana_Ntlenyana.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Thabana_Ntlenyana.jpeg",
+        "author": "Matze137",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ls-mafadi",
+      "name": "Mafadi",
+      "area": "KwaZulu-Natal",
+      "city": "KwaZulu-Natal",
+      "wikidata": "Q1883683",
+      "lat": -29.20286,
+      "lon": 29.35832,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Maifadi is a peak on the border of South Africa and Lesotho.",
+        "es": "Mafadi es un pico en la frontera de Sudáfrica y Lesoto."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mafadi",
+          "url": "https://en.wikipedia.org/wiki/Mafadi"
+        },
+        "es": {
+          "title": "Mafadi",
+          "url": "https://es.wikipedia.org/wiki/Mafadi"
+        }
+      },
+      "image": {
+        "file": "Mafadi_mountain_top.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mafadi_mountain_top.jpg",
+        "author": "Nicolaas92",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ls-njesuthi",
+      "name": "Njesuthi",
+      "area": "KwaZulu-Natal",
+      "city": "KwaZulu-Natal",
+      "wikidata": "Q303185",
+      "lat": -29.2,
+      "lon": 29.366667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Njesuthi or Injesuthi Dome is one of the highest mountains in the Drakensberg mountain range at 3,408 metres.",
+        "es": "Njesuthi es una de las montañas más alta en las montañas Drakensberg, con una altitud de 3408 m."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Njesuthi",
+          "url": "https://en.wikipedia.org/wiki/Njesuthi"
+        },
+        "es": {
+          "title": "Njesuthi",
+          "url": "https://es.wikipedia.org/wiki/Njesuthi"
+        }
+      }
+    },
+    {
+      "id": "ls-mont-aux-sources",
+      "name": "Mont-Aux-Sources",
+      "area": "KwaZulu-Natal",
+      "city": "KwaZulu-Natal",
+      "wikidata": "Q599532",
+      "lat": -28.759081,
+      "lon": 28.884644,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mont-aux-Sources is a mountain in Southern Africa, forming one of the highest portions of the Drakensberg Range.",
+        "es": "Mont-aux-Sources es un monte en África, que forma una de las más altas partes de la cadena montañosa del Drakensberg."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mont-Aux-Sources",
+          "url": "https://en.wikipedia.org/wiki/Mont-Aux-Sources"
+        },
+        "es": {
+          "title": "Mont-Aux-Sources",
+          "url": "https://es.wikipedia.org/wiki/Mont-Aux-Sources"
+        }
+      },
+      "image": {
+        "file": "Mont-Aux-Sources_square.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mont-Aux-Sources_square.jpg",
+        "author": "Andynct",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ls-ts-ehlanyane-national-park",
+      "name": "Ts'ehlanyane National Park",
+      "area": "Lesotho",
+      "city": "Lesotho",
+      "wikidata": "Q7849277",
+      "lat": -28.924,
+      "lon": 28.458,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ts'ehlanyane National Park is a National Park in Lesotho.",
+        "es": "El Parque nacional Ts'ehlanyane es el parque nacional más grande de Lesoto."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ts'ehlanyane National Park",
+          "url": "https://en.wikipedia.org/wiki/Ts'ehlanyane_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Ts'ehlanyane",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Ts'ehlanyane"
+        }
+      },
+      "image": {
+        "file": "Ts'ehlanyane_National_Park.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ts'ehlanyane_National_Park.JPG",
+        "author": "Maliba Lodge",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ls-our-lady-of-victories-cathedral-maseru",
+      "name": "Our Lady of Victories Cathedral, Maseru",
+      "area": "Maseru",
+      "city": "Maseru",
+      "wikidata": "Q24249528",
+      "lat": -29.31689,
+      "lon": 27.494838,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Our Lady of Victories Cathedral also known as the Cathedral of Maseru, is a Catholic Church located in the city of Maseru, Lesotho.",
+        "es": "La Catedral de Nuestra Señora de las Victorias o simplemente Catedral de Maseru es el nombre que recibe un edificio religioso que está afiliado a la Iglesia católica y se encuentra en la ciudad de Maseru, capital del…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Our Lady of Victories Cathedral, Maseru",
+          "url": "https://en.wikipedia.org/wiki/Our_Lady_of_Victories_Cathedral%2C_Maseru"
+        },
+        "es": {
+          "title": "Catedral de Nuestra Señora de las Victorias (Maseru)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Nuestra_Se%C3%B1ora_de_las_Victorias_(Maseru)"
+        }
+      },
+      "image": {
+        "file": "Roman_Catholic_Archdiocese_of_Maseru.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Roman_Catholic_Archdiocese_of_Maseru.jpg",
+        "author": "Vanbasten 23",
+        "license": "CC BY-SA 3.0"
+      }
     }
   ]
 }

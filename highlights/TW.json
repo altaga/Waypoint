@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -366,6 +372,3810 @@
         "text": "Tu-Fr 09:00-17:00; Sa-Su 09:00-18:00; Mo off",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "tw-taiwan",
+      "name": "Taiwan",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q865",
+      "website": "https://www.gov.tw",
+      "lat": 24,
+      "lon": 121,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Taiwan, officially the Republic of China, is a country in East Asia.",
+        "es": "La República de China es un Estado con reconocimiento limitado situado en Asia Oriental."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taiwan",
+          "url": "https://en.wikipedia.org/wiki/Taiwan"
+        },
+        "es": {
+          "title": "República de China",
+          "url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_de_China"
+        }
+      },
+      "image": {
+        "file": "Taipei_Night_Skyline_from_Hongludi_20240113.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taipei_Night_Skyline_from_Hongludi_20240113.jpg",
+        "author": "xiangyang17",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "tw-taiwan-island",
+      "name": "Taiwan Island",
+      "area": "Taiwan",
+      "city": "Taiwan",
+      "wikidata": "Q22502",
+      "lat": 23.766667,
+      "lon": 121,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Taiwan, officially the Republic of China, is a country in East Asia comprising primarily the island of Taiwan, formerly known as Formosa, which has an area of 35,808 km2 and makes up 99% of the land under ROC control.",
+        "es": "La isla de Taiwán, también conocida como Formosa, especialmente en el pasado, es una isla de unos 36 000 km², que se encuentra frente a las costas de la China continental."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Geography of Taiwan",
+          "url": "https://en.wikipedia.org/wiki/Geography_of_Taiwan"
+        },
+        "es": {
+          "title": "Isla de Taiwán",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Taiw%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Taiwan_NASA_Terra_MODIS_23791.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taiwan_NASA_Terra_MODIS_23791.jpg",
+        "author": "Jeff Schmaltz, MODIS Rapid Response Team, NASA/GSFC",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tw-taipei-101",
+      "name": "Taipei 101",
+      "area": "Taipei",
+      "city": "Taipei",
+      "wikidata": "Q83101",
+      "lat": 25.033611,
+      "lon": 121.564722,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Taipei 101, formerly known as the Taipei World Financial Center, is a 508-meter, 101-story skyscraper in Taipei, Taiwan.",
+        "es": "El Taipei 101 es un rascacielos ubicado en Taipéi, Taiwán, que cuenta con 106 plantas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taipei 101",
+          "url": "https://en.wikipedia.org/wiki/Taipei_101"
+        },
+        "es": {
+          "title": "Taipei 101",
+          "url": "https://es.wikipedia.org/wiki/Taipei_101"
+        }
+      },
+      "image": {
+        "file": "Taipei_101_from_Xiangshan_20250731.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taipei_101_from_Xiangshan_20250731.jpg",
+        "author": "User:Sinsyuan",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-yushan-main-peak",
+      "name": "Yushan Main Peak",
+      "area": "Sinyi Township",
+      "city": "Sinyi Township",
+      "wikidata": "Q500275",
+      "lat": 23.47,
+      "lon": 120.957267,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Yu Shan or Yushan, Tongku Saveq, Mount Niitaka, is the highest mountain in Taiwan at 3,952 m above sea level, giving Taiwan the 4th-highest maximum elevation of any island in the world.",
+        "es": "Yu Shan es la montaña más alta de Taiwán, ubicada en el centro de la isla."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Yushan (mountain)",
+          "url": "https://en.wikipedia.org/wiki/Yushan_(mountain)"
+        },
+        "es": {
+          "title": "Yu Shan",
+          "url": "https://es.wikipedia.org/wiki/Yu_Shan"
+        }
+      },
+      "image": {
+        "file": "Yushan_Main_Peak_at_nine_o'clock_in_the_morning.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yushan_Main_Peak_at_nine_o'clock_in_the_morning.jpg",
+        "author": "James Ho",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "tw-tuntex-sky-tower",
+      "name": "Tuntex Sky Tower",
+      "area": "Lingya District",
+      "city": "Lingya District",
+      "wikidata": "Q337631",
+      "lat": 22.611667,
+      "lon": 120.3,
+      "phone": "+886-980-018-666",
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "85 Sky Tower, formerly known as the T & C Tower or Tuntex Sky Tower, is an 85-story skyscraper in Lingya District, Kaohsiung, Taiwan.",
+        "es": "El Tuntex Sky Tower, 85 Sky Tower o T&C Tower es un rascacielos de 85 pisos ubicado en el distrito de Lingya, Kaohsiung, Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "85 Sky Tower",
+          "url": "https://en.wikipedia.org/wiki/85_Sky_Tower"
+        },
+        "es": {
+          "title": "Tuntex Sky Tower",
+          "url": "https://es.wikipedia.org/wiki/Tuntex_Sky_Tower"
+        }
+      },
+      "image": {
+        "file": "Kaohsiung_85_Sky_Tower_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaohsiung_85_Sky_Tower_01.jpg",
+        "author": "．怪貓．",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "tw-orchid-island",
+      "name": "Orchid Island",
+      "area": "Lanyu Township",
+      "city": "Lanyu Township",
+      "wikidata": "Q701647",
+      "lat": 22.05,
+      "lon": 121.533333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Orchid Island, known as Pongso no Tao by the indigenous Tao people, is a 45 km2 volcanic island located off the southeastern coast of Taiwan.",
+        "es": "La isla de las Orquídeas es una isla volcánica de 45 km² localizada en la costa sureste de la isla de Taiwán separada de las islas Batanes de Filipinas por el canal de Bashi del estrecho de Luzón."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Orchid Island",
+          "url": "https://en.wikipedia.org/wiki/Orchid_Island"
+        },
+        "es": {
+          "title": "Isla de las Orquídeas (Taiwán)",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_las_Orqu%C3%ADdeas_(Taiw%C3%A1n)"
+        }
+      },
+      "image": {
+        "file": "06.21_副總統參訪「野銀部落地下屋」_(50029231857).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:06.21_%E5%89%AF%E7%B8%BD%E7%B5%B1%E5%8F%83%E8%A8%AA%E3%80%8C%E9%87%8E%E9%8A%80%E9%83%A8%E8%90%BD%E5%9C%B0%E4%B8%8B%E5%B1%8B%E3%80%8D_(50029231857).jpg",
+        "author": "總統府",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "tw-sun-moon-lake",
+      "name": "Sun Moon Lake",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q716206",
+      "website": "https://www.sunmoonlake.gov.tw/",
+      "lat": 23.866667,
+      "lon": 120.916667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sun Moon Lake is a lake in Yuchi Township, Nantou County, Taiwan.",
+        "es": "El Lago de Sol y Luna es el mayor cuerpo de agua y también una de las atracciones más populares y más famosas en Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sun Moon Lake",
+          "url": "https://en.wikipedia.org/wiki/Sun_Moon_Lake"
+        },
+        "es": {
+          "title": "Lago de Sol y Luna",
+          "url": "https://es.wikipedia.org/wiki/Lago_de_Sol_y_Luna"
+        }
+      }
+    },
+    {
+      "id": "tw-taroko-national-park",
+      "name": "Taroko National Park",
+      "area": "Hualien County",
+      "city": "Hualien County",
+      "wikidata": "Q707427",
+      "lat": 24.166667,
+      "lon": 121.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Taroko National Park is one of the nine national parks in Taiwan and was named after the Taroko Gorge, the landmark gorge of the park carved by the Liwu River.",
+        "es": "El Parque nacional Taroko es uno de los nueve parques nacionales en la isla de Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taroko National Park",
+          "url": "https://en.wikipedia.org/wiki/Taroko_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Taroko",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Taroko"
+        }
+      },
+      "image": {
+        "file": "Eternal_Spring_Shrine_in_Taroko.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Eternal_Spring_Shrine_in_Taroko.JPG",
+        "author": "Tommy.In",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-chiang-kai-shek-memorial-hall",
+      "name": "Chiang Kai-shek Memorial Hall",
+      "area": "Taipei",
+      "city": "Taipei",
+      "wikidata": "Q540794",
+      "website": "https://www.cksmh.gov.tw/",
+      "lat": 25.034444,
+      "lon": 121.521667,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Chiang Kai-shek Memorial Hall is a national monument and tourist attraction erected during Taiwan’s martial law period in memory of Chiang Kai-shek, former President of the Republic of China.",
+        "es": "El Salón Conmemorativo Nacional de Chiang Kai-shek es un monumento famoso erigido en memoria de Chiang Kai-shek, ex-Presidente de la República de China."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chiang Kai-shek Memorial Hall",
+          "url": "https://en.wikipedia.org/wiki/Chiang_Kai-shek_Memorial_Hall"
+        },
+        "es": {
+          "title": "Salón Conmemorativo de Chiang Kai-shek",
+          "url": "https://es.wikipedia.org/wiki/Sal%C3%B3n_Conmemorativo_de_Chiang_Kai-shek"
+        }
+      },
+      "image": {
+        "file": "Chiang_Kai-shek_memorial_amk.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chiang_Kai-shek_memorial_amk.jpg",
+        "author": "AngMoKio",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-yangmingshan-national-park",
+      "name": "Yangmingshan National Park",
+      "area": "Taipei",
+      "city": "Taipei",
+      "wikidata": "Q709029",
+      "lat": 25.1775,
+      "lon": 121.5475,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Yangmingshan National Park, located in both Taipei and New Taipei City, is one of the nine national parks in Taiwan.",
+        "es": "Como uno de los ocho parques nacionales de Taiwán, el Parque Nacional Yangmingshan o Mt."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Yangmingshan",
+          "url": "https://en.wikipedia.org/wiki/Yangmingshan"
+        },
+        "es": {
+          "title": "Yangmingshan",
+          "url": "https://es.wikipedia.org/wiki/Yangmingshan"
+        }
+      },
+      "image": {
+        "file": "Yangmingshan_National_Park_-_Chien_Ying_Lee_-_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yangmingshan_National_Park_-_Chien_Ying_Lee_-_01.jpg",
+        "author": "H8010110",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-green-island",
+      "name": "Green Island",
+      "area": "Lyudao Township",
+      "city": "Lyudao Township",
+      "wikidata": "Q701689",
+      "lat": 22.6667,
+      "lon": 121.483,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Green Island, also known by other names, is a small volcanic island in the Pacific Ocean about 33 km off the eastern coast of the main island of Taiwan.",
+        "es": "Isla Verde, también conocido como Lvdao o Ludao, es un municipio ubicado en el condado de Taitung, Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Green Island, Taiwan",
+          "url": "https://en.wikipedia.org/wiki/Green_Island%2C_Taiwan"
+        },
+        "es": {
+          "title": "Isla Verde (Taiwán)",
+          "url": "https://es.wikipedia.org/wiki/Isla_Verde_(Taiw%C3%A1n)"
+        }
+      }
+    },
+    {
+      "id": "tw-kenting-national-park",
+      "name": "Kenting National Park",
+      "area": "Hengchun Township",
+      "city": "Hengchun Township",
+      "wikidata": "Q707982",
+      "lat": 21.98,
+      "lon": 120.796944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kenting National Park, commonly known as Kenting, is a national park located on the Hengchun Peninsula of Pingtung County, Taiwan, covering Hengchun, Checheng, and Manzhou Townships.",
+        "es": "El Parque nacional Kenting es un parque nacional situado en la península de Hengchun del condado de Pingtung, Taiwán, que abarca los municipios de Hengchun, Checheng y Manzhou."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kenting National Park",
+          "url": "https://en.wikipedia.org/wiki/Kenting_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Kenting",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Kenting"
+        }
+      },
+      "image": {
+        "file": "Maobitou_Cape_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Maobitou_Cape_01.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-guishan-island",
+      "name": "Guishan Island",
+      "area": "Keelung",
+      "city": "Keelung",
+      "wikidata": "Q717742",
+      "lat": 24.841944,
+      "lon": 121.951667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ku-suann-tó／Guishan Island / Gueishan Island or Steep Island or Turtle Island, also known as Kweishan Island or Kueishan Island, is an island in the Philippine Sea, part of Toucheng Township, Yilan County, Taiwan and…",
+        "es": "Isla Gueishan es una isla en el océano Pacífico, actualmente administrada por el condado de Ilan, de Taiwán y situada 9,1 kilómetros al este del puerto pesquero de Kengfang."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Guishan Island (Yilan)",
+          "url": "https://en.wikipedia.org/wiki/Guishan_Island_(Yilan)"
+        },
+        "es": {
+          "title": "Isla Gueishan",
+          "url": "https://es.wikipedia.org/wiki/Isla_Gueishan"
+        }
+      },
+      "image": {
+        "file": "龜山戴帽-攝影者吳裕隆.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E9%BE%9C%E5%B1%B1%E6%88%B4%E5%B8%BD-%E6%94%9D%E5%BD%B1%E8%80%85%E5%90%B3%E8%A3%95%E9%9A%86.jpg",
+        "author": "Neycnsa",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-kaohsiung-mosque",
+      "name": "Kaohsiung Mosque",
+      "area": "Zhengyi Village",
+      "city": "Zhengyi Village",
+      "wikidata": "Q10566876",
+      "lat": 22.628,
+      "lon": 120.341917,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Kaohsiung Mosque is a mosque in the Lingya District of Kaohsiung, Taiwan.",
+        "es": "The Kaohsiung Mosque is a mosque in the Lingya District of Kaohsiung, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kaohsiung Mosque",
+          "url": "https://en.wikipedia.org/wiki/Kaohsiung_Mosque"
+        },
+        "es": {
+          "title": "Kaohsiung Mosque",
+          "url": "https://en.wikipedia.org/wiki/Kaohsiung_Mosque"
+        }
+      },
+      "image": {
+        "file": "Kaohsiung_Mosque.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaohsiung_Mosque.JPG",
+        "author": "Chongkian",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-taipei-grand-mosque",
+      "name": "Taipei Grand Mosque",
+      "area": "Taipei",
+      "city": "Taipei",
+      "wikidata": "Q717882",
+      "lat": 25.027933,
+      "lon": 121.534219,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Taipei Grand Mosque, abbreviated as TGM, and also known as the Taipei Zheng He Mosque is a mosque located in the Da'an District of Taipei City, in Taiwan.",
+        "es": "The Taipei Grand Mosque, abbreviated as TGM, and also known as the Taipei Zheng He Mosque is a mosque located in the Da'an District of Taipei City, in Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taipei Grand Mosque",
+          "url": "https://en.wikipedia.org/wiki/Taipei_Grand_Mosque"
+        },
+        "es": {
+          "title": "Taipei Grand Mosque",
+          "url": "https://en.wikipedia.org/wiki/Taipei_Grand_Mosque"
+        }
+      },
+      "image": {
+        "file": "Taipei_Grand_Mosque_20060112.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taipei_Grand_Mosque_20060112.jpg",
+        "author": "Winertai",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-shifen-waterfall",
+      "name": "Shifen waterfall",
+      "area": "Keelung",
+      "city": "Keelung",
+      "wikidata": "Q38369",
+      "lat": 25.049389,
+      "lon": 121.787739,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Shifen Waterfall is a scenic waterfall located in Pingxi District, New Taipei City, Taiwan, on the upper reaches of the Keelung River.",
+        "es": "Cascada Shifen es una cascada situada en el distrito de Pingxi, en la isla de Taiwán, en el curso superior del río Keelung."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shifen Waterfall",
+          "url": "https://en.wikipedia.org/wiki/Shifen_Waterfall"
+        },
+        "es": {
+          "title": "Cascada Shifen",
+          "url": "https://es.wikipedia.org/wiki/Cascada_Shifen"
+        }
+      },
+      "image": {
+        "file": "ShiFengWaterFall_002.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ShiFengWaterFall_002.jpg",
+        "author": "The original uploader was Weihao.chiu at Chinese Wikipedia.",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-xueshan",
+      "name": "Xueshan",
+      "area": "Heping District",
+      "city": "Heping District",
+      "wikidata": "Q707720",
+      "lat": 24.383333,
+      "lon": 121.23,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Xueshan or Sekuwan is a mountain in the Heping District of Taichung, Taiwan.",
+        "es": "Xueshan o Hsuehshan es una montaña en el distrito de Heping, Taichung, Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Xueshan",
+          "url": "https://en.wikipedia.org/wiki/Xueshan"
+        },
+        "es": {
+          "title": "Xueshan",
+          "url": "https://es.wikipedia.org/wiki/Xueshan"
+        }
+      },
+      "image": {
+        "file": "HsuehMountain.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:HsuehMountain.jpg",
+        "author": "Peellden",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-shei-pa-national-park",
+      "name": "Shei-Pa National Park",
+      "area": "Hsinchu County",
+      "city": "Hsinchu County",
+      "wikidata": "Q707996",
+      "lat": 24.414722,
+      "lon": 121.287222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Shei-Pa National Park is a national park located in the central part of Taiwan around the peaks of Hsueh/Sekuwan and Dabajian/Papak Waqa, with an area of 768.5 km2, covering the area of Hsinchu County, Miaoli County…",
+        "es": "El Parque nacional Shei-Pa es un parque nacional situado en la parte central de la isla de Taiwán alrededor de los picos de Hsuehshan y el monte Dabajian, con una superficie de 768,5 kilómetros cuadrados, que cubren…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shei-Pa National Park",
+          "url": "https://en.wikipedia.org/wiki/Shei-Pa_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Shei-Pa",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Shei-Pa"
+        }
+      },
+      "image": {
+        "file": "Hsuehshan_CueiChih_TheGreenJadePond.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hsuehshan_CueiChih_TheGreenJadePond.jpg",
+        "author": "Peellden",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-yushan-national-park",
+      "name": "Yushan National Park",
+      "area": "Nantou County",
+      "city": "Nantou County",
+      "wikidata": "Q3446446",
+      "lat": 23.47,
+      "lon": 120.957267,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Yushan National Park is one of the nine national parks in Taiwan and was named after the summit Yushan, the highest peak of the park.",
+        "es": "El parque nacional Yushan es uno de los nueve parques nacionales en Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Yushan National Park",
+          "url": "https://en.wikipedia.org/wiki/Yushan_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Yushan",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Yushan"
+        }
+      },
+      "image": {
+        "file": "Mount_Yu_Shan_-_Taiwan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Yu_Shan_-_Taiwan.jpg",
+        "author": "original-uploaded by Kailing3",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-kinmen-national-park",
+      "name": "Kinmen National Park",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q701698",
+      "lat": 24.4477,
+      "lon": 118.364,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Kinmen National Park is a national park in Kinmen, Fuchien Province, Republic of China.",
+        "es": "El Parque nacional de Kinmen es un parque nacional en las islas de Gran Kinmen y Kinmen menor, administrativamente parte del Condado de Kinmen, República de China."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kinmen National Park",
+          "url": "https://en.wikipedia.org/wiki/Kinmen_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Kinmen",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Kinmen"
+        }
+      },
+      "image": {
+        "file": "Kinmen_National_Park_20140830.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kinmen_National_Park_20140830.JPG",
+        "author": "颐园新居",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-shin-kong-life-tower",
+      "name": "Shin Kong Life Tower",
+      "area": "Taipei",
+      "city": "Taipei",
+      "wikidata": "Q704778",
+      "lat": 25.045939,
+      "lon": 121.515336,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Shin Kong Life Tower, at 51 stories and a height of 245 meters, is one of Taiwan's earliest skyscrapers.",
+        "es": "Shin Kong Life Tower es uno de los edificios más altos de Taiwán con 51 plantas y 244,76 metros de altura."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shin Kong Life Tower",
+          "url": "https://en.wikipedia.org/wiki/Shin_Kong_Life_Tower"
+        },
+        "es": {
+          "title": "Shin Kong Life Tower",
+          "url": "https://es.wikipedia.org/wiki/Shin_Kong_Life_Tower"
+        }
+      },
+      "image": {
+        "file": "Taipei.shinkong01.altonthompson.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taipei.shinkong01.altonthompson.jpg",
+        "author": "Alton.arts (Alton Thompson)",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "tw-bangka-lungshan-temple",
+      "name": "Bangka Lungshan Temple",
+      "area": "New Taipei City",
+      "city": "New Taipei City",
+      "wikidata": "Q706761",
+      "lat": 25.037223,
+      "lon": 121.499898,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bangka Lungshan Temple is a Taiwanese folk temple in Wanhua District, Taipei, Taiwan.",
+        "es": "El Templo Mengjia Longshan, o simplemente Templo Longshan, es un templo situado en el Distrito de Wanhua, Taipéi, Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Longshan Temple (Taipei)",
+          "url": "https://en.wikipedia.org/wiki/Longshan_Temple_(Taipei)"
+        },
+        "es": {
+          "title": "Templo Longshan",
+          "url": "https://es.wikipedia.org/wiki/Templo_Longshan"
+        }
+      },
+      "image": {
+        "file": "台北市艋舺龍山寺.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%8F%B0%E5%8C%97%E5%B8%82%E8%89%8B%E8%88%BA%E9%BE%8D%E5%B1%B1%E5%AF%BA.jpg",
+        "author": "Goranq",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-national-theater-and-concert-hall",
+      "name": "National Theater and Concert Hall",
+      "area": "Taipei",
+      "city": "Taipei",
+      "wikidata": "Q555332",
+      "website": "https://www.npac-ntch.org/",
+      "lat": 25.035,
+      "lon": 121.518056,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The National Theater and National Concert Hall, or together the National Theater and Concert Hall, are twin performing arts venues at Liberty Square in Zhongzheng District, Taipei, Taiwan.",
+        "es": "El Teatro nacional y sala de conciertos es un complejo de centros de artes escénicas, en el distrito de Zhongzheng, en la ciudad de Taipéi, en Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Theater and Concert Hall",
+          "url": "https://en.wikipedia.org/wiki/National_Theater_and_Concert_Hall"
+        },
+        "es": {
+          "title": "Teatro nacional y sala de conciertos de Taipéi",
+          "url": "https://es.wikipedia.org/wiki/Teatro_nacional_y_sala_de_conciertos_de_Taip%C3%A9i"
+        }
+      },
+      "image": {
+        "file": "臺灣臺北國家兩廳院_National_Theater_and_National_Concert_Hall_in_Taipei,_TAIWAN.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E8%87%BA%E7%81%A3%E8%87%BA%E5%8C%97%E5%9C%8B%E5%AE%B6%E5%85%A9%E5%BB%B3%E9%99%A2_National_Theater_and_National_Concert_Hall_in_Taipei%2C_TAIWAN.jpg",
+        "author": "davidreid",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "tw-tatun-volcano-group",
+      "name": "Tatun Volcano Group",
+      "area": "Taipei",
+      "city": "Taipei",
+      "wikidata": "Q575665",
+      "lat": 25.17139,
+      "lon": 121.555,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Tatun Volcanic Group or Tatun Volcano Group constitutes a group of volcanoes located in northern Taiwan.",
+        "es": "Grupo Volcánico Tatun es un grupo volcánico ubicado en el norte de la isla de Taiwán, que se encuentra a 15 km al norte de Taipéi, y al oeste de la localidad de Keelung."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tatun Volcanic Group",
+          "url": "https://en.wikipedia.org/wiki/Tatun_Volcanic_Group"
+        },
+        "es": {
+          "title": "Grupo Volcánico Tatun",
+          "url": "https://es.wikipedia.org/wiki/Grupo_Volc%C3%A1nico_Tatun"
+        }
+      },
+      "image": {
+        "file": "Mount_Qixing_under_clear_sky_on_13th_February_2016.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Qixing_under_clear_sky_on_13th_February_2016.jpg",
+        "author": "Wei-Te Wong",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "tw-arromanches",
+      "name": "Arromanches",
+      "area": "Keelung",
+      "city": "Keelung",
+      "wikidata": "Q2420611",
+      "lat": 25.033333,
+      "lon": 122.333333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Arromanches was an aircraft carrier of the French Navy, which served from 1946 to 1974.",
+        "es": "El portaviones ligero HMS Colossus fue la primera nave de la clase a homónima de la Royal Navy prestando servicio de 1944 a 1946."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "French aircraft carrier Arromanches",
+          "url": "https://en.wikipedia.org/wiki/French_aircraft_carrier_Arromanches"
+        },
+        "es": {
+          "title": "HMS Colossus (R15)",
+          "url": "https://es.wikipedia.org/wiki/HMS_Colossus_(R15)"
+        }
+      },
+      "image": {
+        "file": "HMS_Colossus_(R15)_off_Shanghai_1945.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:HMS_Colossus_(R15)_off_Shanghai_1945.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tw-hehuanshan",
+      "name": "Hehuanshan",
+      "area": "Hehuanshan National Forest Recreation Area",
+      "city": "Hehuanshan National Forest Recreation Area",
+      "wikidata": "Q714379",
+      "lat": 24.181389,
+      "lon": 121.281389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Hehuan is a 3,416-metre-high mountain in Central Taiwan.",
+        "es": "Hehuanshan es una montaña de 3.416 metros de altura en el centro de Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hehuanshan",
+          "url": "https://en.wikipedia.org/wiki/Hehuanshan"
+        },
+        "es": {
+          "title": "Hehuanshan",
+          "url": "https://es.wikipedia.org/wiki/Hehuanshan"
+        }
+      },
+      "image": {
+        "file": "Hehuanshan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hehuanshan.jpg",
+        "author": "Francisco Carin 范凱令",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-taichung-mosque",
+      "name": "Taichung Mosque",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q9572819",
+      "website": "https://taichung-masjid.business.site/",
+      "lat": 24.136139,
+      "lon": 120.6495,
+      "phone": "+886-4-24732519",
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Taichung Mosque is a mosque on Dadun South Road in the Nantun District of Taichung, Taiwan.",
+        "es": "The Taichung Mosque is a mosque on Dadun South Road in the Nantun District of Taichung, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taichung Mosque",
+          "url": "https://en.wikipedia.org/wiki/Taichung_Mosque"
+        },
+        "es": {
+          "title": "Taichung Mosque",
+          "url": "https://en.wikipedia.org/wiki/Taichung_Mosque"
+        }
+      },
+      "image": {
+        "file": "Taichung_Mosque_November_2023.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taichung_Mosque_November_2023.jpg",
+        "author": "Tiouraren (Y.-C. Tsai)",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-dabajian-mountain",
+      "name": "Dabajian Mountain",
+      "area": "Jianshi Township",
+      "city": "Jianshi Township",
+      "wikidata": "Q5207405",
+      "lat": 24.466111,
+      "lon": 121.258056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Dabajian is located in the northern section of the Shei-Pa National Park in Hsinchu County, Taiwan.",
+        "es": "El monte Dabajian es una montaña ubicada en la sección septentrional del parque nacional Shei-Pa en el condado de Hsinchu, Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Dabajian",
+          "url": "https://en.wikipedia.org/wiki/Mount_Dabajian"
+        },
+        "es": {
+          "title": "Monte Dabajian",
+          "url": "https://es.wikipedia.org/wiki/Monte_Dabajian"
+        }
+      },
+      "image": {
+        "file": "DabajianMountain.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DabajianMountain.jpg",
+        "author": "Peellden",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-xiuguluan-mountain",
+      "name": "Xiuguluan Mountain",
+      "area": "Sinyi Township",
+      "city": "Sinyi Township",
+      "wikidata": "Q1778890",
+      "lat": 23.496789,
+      "lon": 121.05755,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Xiuguluan is a mountain in Taiwan in Yushan National Park with an elevation of 3,825 m.",
+        "es": "Mount Xiuguluan is a mountain in Taiwan in Yushan National Park with an elevation of 3,825 m."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Xiuguluan",
+          "url": "https://en.wikipedia.org/wiki/Mount_Xiuguluan"
+        },
+        "es": {
+          "title": "Mount Xiuguluan",
+          "url": "https://en.wikipedia.org/wiki/Mount_Xiuguluan"
+        }
+      },
+      "image": {
+        "file": "Siougulan.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Siougulan.JPG",
+        "author": "Kailing3",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "tw-taijiang-national-park",
+      "name": "Taijiang National Park",
+      "area": "Tainan",
+      "city": "Tainan",
+      "wikidata": "Q6121227",
+      "lat": 23.063,
+      "lon": 120.055,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Taijiang National Park is a national park in Tainan, Taiwan.",
+        "es": "El Parque nacional Taijiang situado en la costa suroeste de la isla de Taiwán, es un parque nacional de la República de China."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taijiang National Park",
+          "url": "https://en.wikipedia.org/wiki/Taijiang_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Taijiang",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Taijiang"
+        }
+      },
+      "image": {
+        "file": "Sihcao_Green_Tunnel_of_Mangroves.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sihcao_Green_Tunnel_of_Mangroves.JPG",
+        "author": "Koika",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-chengcing-lake",
+      "name": "Chengcing Lake",
+      "area": "Niaosong District",
+      "city": "Niaosong District",
+      "wikidata": "Q57333",
+      "lat": 22.660601,
+      "lon": 120.350998,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Chengcing Lake, also known as the Cheng Ching Lake, Dabei Lake, or Toapi Lake in Taiwanese, is an artificial lake located in Niaosong, Kaohsiung, Taiwan.",
+        "es": "Lago Chengcing Es un lago artificial ubicado en el Distrito Niaosong de la ciudad de Kaohsiung, no muy lejos del centro de la ciudad de Kaohsiung y del distrito suburbano principal de Fengshan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chengcing Lake",
+          "url": "https://en.wikipedia.org/wiki/Chengcing_Lake"
+        },
+        "es": {
+          "title": "Lago Chengcing",
+          "url": "https://es.wikipedia.org/wiki/Lago_Chengcing"
+        }
+      },
+      "image": {
+        "file": "澄清湖一隅.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E6%BE%84%E6%B8%85%E6%B9%96%E4%B8%80%E9%9A%85.jpg",
+        "author": "雅婕",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-mount-shou",
+      "name": "Mount Shou",
+      "area": "Tainan",
+      "city": "Tainan",
+      "wikidata": "Q700806",
+      "lat": 22.645541,
+      "lon": 120.262606,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Shoushan is a mountain in Gushan District, Kaohsiung, Taiwan, north of the main entrance to Kaohsiung Harbor.",
+        "es": "Shoushan is a mountain in Gushan District, Kaohsiung, Taiwan, north of the main entrance to Kaohsiung Harbor."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shoushan (Kaohsiung)",
+          "url": "https://en.wikipedia.org/wiki/Shoushan_(Kaohsiung)"
+        },
+        "es": {
+          "title": "Shoushan (Kaohsiung)",
+          "url": "https://en.wikipedia.org/wiki/Shoushan_(Kaohsiung)"
+        }
+      },
+      "image": {
+        "file": "Tzaishan_at_nsysu.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tzaishan_at_nsysu.jpg",
+        "author": "hmcheng",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-alishan-forest-railway",
+      "name": "Alishan Forest Railway",
+      "area": "Chiayi County",
+      "city": "Chiayi County",
+      "wikidata": "Q708937",
+      "website": "https://afrch.forest.gov.tw/",
+      "lat": 23.510092,
+      "lon": 120.804239,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Alishan Forest Railway is an 86 km network of 2 ft 6 in narrow gauge railways running up to and throughout the popular mountain resort of Alishan in Chiayi County, Taiwan.",
+        "es": "Alishan Forest Railway is an 86 km network of 2 ft 6 in narrow gauge railways running up to and throughout the popular mountain resort of Alishan in Chiayi County, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Alishan Forest Railway",
+          "url": "https://en.wikipedia.org/wiki/Alishan_Forest_Railway"
+        },
+        "es": {
+          "title": "Alishan Forest Railway",
+          "url": "https://en.wikipedia.org/wiki/Alishan_Forest_Railway"
+        }
+      },
+      "image": {
+        "file": "Jhushan_Station,_Taiwan_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jhushan_Station%2C_Taiwan_01.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-pengjia-islet",
+      "name": "Pengjia Islet",
+      "area": "Zhongzheng District",
+      "city": "Zhongzheng District",
+      "wikidata": "Q709985",
+      "lat": 25.629444,
+      "lon": 122.071389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pengjia Islet, also known as P'eng-chia Hsü, Hōka-sho, Agincourt, Dashihshan Islet, Chaolai Islet, P'eng-chia Yü or Pengchia Islet, is an islet north of Taiwan and is administered under Zhongzheng District, Keelung City.",
+        "es": "Islote Pengjia es un islote situado al norte de Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pengjia Islet",
+          "url": "https://en.wikipedia.org/wiki/Pengjia_Islet"
+        },
+        "es": {
+          "title": "Islote Pengjia",
+          "url": "https://es.wikipedia.org/wiki/Islote_Pengjia"
+        }
+      },
+      "image": {
+        "file": "彭佳嶼の拡大写真.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%BD%AD%E4%BD%B3%E5%B6%BC%E3%81%AE%E6%8B%A1%E5%A4%A7%E5%86%99%E7%9C%9F.jpg",
+        "author": "Senkaku Islands",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-hsing-tian-kong",
+      "name": "Hsing Tian Kong",
+      "area": "Taipei",
+      "city": "Taipei",
+      "wikidata": "Q712387",
+      "lat": 25.063073,
+      "lon": 121.533846,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Hsing-tian Temple is a popular temple in Zhongshan District, Taipei, Taiwan.",
+        "es": "El Templo Hsing Tian (en chino, 行天宮; pinyin, Xíngtiān Gōng; pe̍h-ōe-jī, Hêng-thian-kiong; es un templo situado en Distrito de Zhongshan, Taipéi, Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Xingtian Temple",
+          "url": "https://en.wikipedia.org/wiki/Xingtian_Temple"
+        },
+        "es": {
+          "title": "Hsing Tian Kong",
+          "url": "https://es.wikipedia.org/wiki/Hsing_Tian_Kong"
+        }
+      },
+      "image": {
+        "file": "行天宮臺北本宮.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E8%A1%8C%E5%A4%A9%E5%AE%AE%E8%87%BA%E5%8C%97%E6%9C%AC%E5%AE%AE.jpg",
+        "author": "寺人孟子",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-lamay-island",
+      "name": "Lamay Island",
+      "area": "Tainan",
+      "city": "Tainan",
+      "wikidata": "Q6480986",
+      "lat": 22.338644,
+      "lon": 120.369817,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Liuqiu is a coral island in the Taiwan Strait about 13 kilometers southwest of the main island of Taiwan.",
+        "es": "Islote Lamay o Islote Liuqiu es una isla perteneciente a la República de China y que es administrada como parte del municipio Liuqiu del distrito de Pingtung."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Liuqiu Island",
+          "url": "https://en.wikipedia.org/wiki/Liuqiu_Island"
+        },
+        "es": {
+          "title": "Islote Lamay",
+          "url": "https://es.wikipedia.org/wiki/Islote_Lamay"
+        }
+      },
+      "image": {
+        "file": "花瓶石.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E8%8A%B1%E7%93%B6%E7%9F%B3.JPG",
+        "author": "Jessepylin",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-south-penghu-marine-national-park",
+      "name": "South Penghu Marine National Park",
+      "area": "Wangan Township",
+      "city": "Wangan Township",
+      "wikidata": "Q15941118",
+      "lat": 23.25,
+      "lon": 119.666667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "South Penghu Marine National Park is a national park of Taiwan in the south of Penghu Islands.",
+        "es": "El parque nacional marino de Penghu del sur es un parque nacional de Taiwán en el sur de Penghu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "South Penghu Marine National Park",
+          "url": "https://en.wikipedia.org/wiki/South_Penghu_Marine_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional marino de Penghu del Sur",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_marino_de_Penghu_del_Sur"
+        }
+      },
+      "image": {
+        "file": "DongJi_Island_(21359619055).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DongJi_Island_(21359619055).jpg",
+        "author": "白士 李",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "tw-eternal-golden-castle",
+      "name": "Eternal Golden Castle",
+      "area": "Tainan",
+      "city": "Tainan",
+      "wikidata": "Q697518",
+      "lat": 22.988611,
+      "lon": 120.160278,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Eternal Golden Castle, alternatively but less well known as Erkunshen Battery, is a defensive castle in Anping District, Tainan, Taiwan.",
+        "es": "El Castillo de oro eterno, también conocido como Batería de Erkunshen, es una castillo defensivo en Anping."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Eternal Golden Castle",
+          "url": "https://en.wikipedia.org/wiki/Eternal_Golden_Castle"
+        },
+        "es": {
+          "title": "Castillo de oro eterno",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_oro_eterno"
+        }
+      },
+      "image": {
+        "file": "1_aerial_pano_eternal_golden_castle_tainan_2017.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:1_aerial_pano_eternal_golden_castle_tainan_2017.jpg",
+        "author": "Chensiyuan",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-holy-rosary-cathedral",
+      "name": "Holy Rosary Cathedral",
+      "area": "Lingya District",
+      "city": "Lingya District",
+      "wikidata": "Q57345",
+      "lat": 22.62022,
+      "lon": 120.29165,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica Cathedral of Our Lady of the Holy Rosary is the oldest Roman Catholic church and Minor Basilica in the Republic of China.",
+        "es": "La Catedral del Santo Rosario es la iglesia católica más antigua de la Isla de Taiwán, localizada al sureste de esta, en la ciudad de Kaohsiung, que actualmente es una catedral, además de basílica menor, título que…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Holy Rosary Cathedral, Kaohsiung",
+          "url": "https://en.wikipedia.org/wiki/Holy_Rosary_Cathedral%2C_Kaohsiung"
+        },
+        "es": {
+          "title": "Catedral del Santo Rosario (Kaohsiung)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Santo_Rosario_(Kaohsiung)"
+        }
+      },
+      "image": {
+        "file": "Holy_Rosary_Cathedral,_Kaohsiung_2012.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Holy_Rosary_Cathedral%2C_Kaohsiung_2012.JPG",
+        "author": "HANYU HSIEH",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-liberty-square",
+      "name": "Liberty Square",
+      "area": "Taipei",
+      "city": "Taipei",
+      "wikidata": "Q6541958",
+      "lat": 25.034627,
+      "lon": 121.521844,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Liberty Square is a public plaza covering over 240,000 square metres in the Zhongzheng District of Taipei, Taiwan.",
+        "es": "La plaza de la Libertad es una plaza pública que abarca más de 240.000 metros cuadrados en el Distrito Zhongzheng de Taipéi, Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Liberty Square (Taipei)",
+          "url": "https://en.wikipedia.org/wiki/Liberty_Square_(Taipei)"
+        },
+        "es": {
+          "title": "Plaza de la Libertad (Taipéi)",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_la_Libertad_(Taip%C3%A9i)"
+        }
+      },
+      "image": {
+        "file": "Taiwan_2009_Taipei_Liberty_Plaza_Gateway_at_Chian_Kai_Shek_Cultural_Center_FRD_7312.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taiwan_2009_Taipei_Liberty_Plaza_Gateway_at_Chian_Kai_Shek_Cultural_Center_FRD_7312.jpg",
+        "author": "Fred Hsu",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-nanhu-mountain",
+      "name": "Nanhu Mountain",
+      "area": "Heping District",
+      "city": "Heping District",
+      "wikidata": "Q3870130",
+      "lat": 24.3618,
+      "lon": 121.4394,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Nanhu is a mountain in Taroko National Park, Heping District, Taichung, Taiwan with an elevation of 3,742 m.",
+        "es": "Mount Nanhu is a mountain in Taroko National Park, Heping District, Taichung, Taiwan with an elevation of 3,742 m."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Nanhu",
+          "url": "https://en.wikipedia.org/wiki/Mount_Nanhu"
+        },
+        "es": {
+          "title": "Mount Nanhu",
+          "url": "https://en.wikipedia.org/wiki/Mount_Nanhu"
+        }
+      },
+      "image": {
+        "file": "NanhuMountain_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NanhuMountain_02.jpg",
+        "author": "Peellden",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-longgang-mosque",
+      "name": "Longgang Mosque",
+      "area": "Taoyuan District",
+      "city": "Taoyuan District",
+      "wikidata": "Q4022674",
+      "lat": 24.929767,
+      "lon": 121.253764,
+      "phone": "+886034561234",
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Longgang Mosque, also known as the Lungkang Mosque, is a mosque in Zhongli District, Taoyuan City, Taiwan.",
+        "es": "The Longgang Mosque, also known as the Lungkang Mosque, is a mosque in Zhongli District, Taoyuan City, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Longgang Mosque",
+          "url": "https://en.wikipedia.org/wiki/Longgang_Mosque"
+        },
+        "es": {
+          "title": "Longgang Mosque",
+          "url": "https://en.wikipedia.org/wiki/Longgang_Mosque"
+        }
+      },
+      "image": {
+        "file": "Longgang_Mosque.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Longgang_Mosque.JPG",
+        "author": "Chongkian",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-qixingshan",
+      "name": "Qixingshan",
+      "area": "Taipei",
+      "city": "Taipei",
+      "wikidata": "Q7267977",
+      "lat": 25.170833,
+      "lon": 121.553333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Qixing Mountain, also spelled Cising Mountain or Chihsing Mountain, is a mountain in Beitou District, Taipei, Taiwan.",
+        "es": "Qixing Mountain, also spelled Cising Mountain or Chihsing Mountain, is a mountain in Beitou District, Taipei, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Qixing Mountain (Taipei)",
+          "url": "https://en.wikipedia.org/wiki/Qixing_Mountain_(Taipei)"
+        },
+        "es": {
+          "title": "Qixing Mountain (Taipei)",
+          "url": "https://en.wikipedia.org/wiki/Qixing_Mountain_(Taipei)"
+        }
+      },
+      "image": {
+        "file": "Chihsingshan,_Tatun_volcanoes.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chihsingshan%2C_Tatun_volcanoes.jpg",
+        "author": "peellden",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-tainan-confucian-temple",
+      "name": "Tainan Confucian Temple",
+      "area": "Tainan",
+      "city": "Tainan",
+      "wikidata": "Q697776",
+      "lat": 22.9903,
+      "lon": 120.204,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Tainan Confucian Temple or Quan Tai Shou Xue, is a Confucian temple on Nanmen Road in West Central District, Tainan, Taiwan.",
+        "es": "The Tainan Confucian Temple or Quan Tai Shou Xue, is a Confucian temple on Nanmen Road in West Central District, Tainan, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tainan Confucian Temple",
+          "url": "https://en.wikipedia.org/wiki/Tainan_Confucian_Temple"
+        },
+        "es": {
+          "title": "Tainan Confucian Temple",
+          "url": "https://en.wikipedia.org/wiki/Tainan_Confucian_Temple"
+        }
+      },
+      "image": {
+        "file": "Confucius_Temple_Tainan_-_Ta_Cheng_Hall_臺南孔廟大成殿_(2026)_-_img_06.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Confucius_Temple_Tainan_-_Ta_Cheng_Hall_%E8%87%BA%E5%8D%97%E5%AD%94%E5%BB%9F%E5%A4%A7%E6%88%90%E6%AE%BF_(2026)_-_img_06.jpg",
+        "author": "Chainwit.",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "tw-taipei-confucian-temple",
+      "name": "Taipei Confucian Temple",
+      "area": "Taipei",
+      "city": "Taipei",
+      "wikidata": "Q136181",
+      "lat": 25.0729,
+      "lon": 121.5166,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Taipei Confucius Temple is a Confucian temple in Datong District, Taipei, Taiwan.",
+        "es": "The Taipei Confucius Temple is a Confucian temple in Datong District, Taipei, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taipei Confucius Temple",
+          "url": "https://en.wikipedia.org/wiki/Taipei_Confucius_Temple"
+        },
+        "es": {
+          "title": "Taipei Confucius Temple",
+          "url": "https://en.wikipedia.org/wiki/Taipei_Confucius_Temple"
+        }
+      },
+      "image": {
+        "file": "ConfuciusTempleTaipei.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ConfuciusTempleTaipei.jpg",
+        "author": "Udo Schoene",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-taichung-metropolitan-opera-house",
+      "name": "Taichung Metropolitan Opera House",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q555338",
+      "lat": 24.1628,
+      "lon": 120.641,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The National Taichung Theater is an opera house in the Taichung's 7th Redevelopment Zone in the Xitun District of Taichung, Taiwan.",
+        "es": "La Ópera metropolitana de Taichung es un teatro de ópera situado en el distrito de Xitun, en Taichung, Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Taichung Theater",
+          "url": "https://en.wikipedia.org/wiki/National_Taichung_Theater"
+        },
+        "es": {
+          "title": "Ópera metropolitana de Taichung",
+          "url": "https://es.wikipedia.org/wiki/%C3%93pera_metropolitana_de_Taichung"
+        }
+      },
+      "image": {
+        "file": "台中大都會歌劇院_2014.7.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%8F%B0%E4%B8%AD%E5%A4%A7%E9%83%BD%E6%9C%83%E6%AD%8C%E5%8A%87%E9%99%A2_2014.7.jpg",
+        "author": "Fcuk1203",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-lalu-island",
+      "name": "Lalu Island",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q700760",
+      "lat": 23.855556,
+      "lon": 120.911111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lalu Island is a small island in Sun Moon Lake, Yuchi Township, Nantou County, Taiwan.",
+        "es": "Isla Lalu es una pequeña isla en Lago de Sol y Luna en Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lalu Island",
+          "url": "https://en.wikipedia.org/wiki/Lalu_Island"
+        },
+        "es": {
+          "title": "Isla Lalu",
+          "url": "https://es.wikipedia.org/wiki/Isla_Lalu"
+        }
+      },
+      "image": {
+        "file": "Lalu_Island_2015-02-10.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lalu_Island_2015-02-10.jpg",
+        "author": "S099001",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "tw-cihu-mausoleum",
+      "name": "Cihu Mausoleum",
+      "area": "Taoyuan District",
+      "city": "Taoyuan District",
+      "wikidata": "Q5119906",
+      "lat": 24.8422,
+      "lon": 121.2993,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Cihu Mausoleum, officially known as the Mausoleum of Late President Chiang or President Chiang Kai-shek Mausoleum, is the temporary resting place of President Chiang Kai-shek.",
+        "es": "Cihu Mausoleum, officially known as the Mausoleum of Late President Chiang or President Chiang Kai-shek Mausoleum, is the temporary resting place of President Chiang Kai-shek."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cihu Mausoleum",
+          "url": "https://en.wikipedia.org/wiki/Cihu_Mausoleum"
+        },
+        "es": {
+          "title": "Cihu Mausoleum",
+          "url": "https://en.wikipedia.org/wiki/Cihu_Mausoleum"
+        }
+      },
+      "image": {
+        "file": "Cihu_Chiang_residence.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cihu_Chiang_residence.JPG",
+        "author": "Jiang",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tw-luce-memorial-chapel",
+      "name": "Luce Memorial Chapel",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q6415390",
+      "lat": 24.178792,
+      "lon": 120.600518,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Luce Memorial Chapel is a Christian chapel on the campus of Tunghai University in Xitun District, Taichung, Taiwan.",
+        "es": "La Capilla Conmemorativa Luce es una capilla cristiana en el campus de la Universidad de Tunghai, en Taichung, Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Luce Memorial Chapel",
+          "url": "https://en.wikipedia.org/wiki/Luce_Memorial_Chapel"
+        },
+        "es": {
+          "title": "Capilla Conmemorativa Luce",
+          "url": "https://es.wikipedia.org/wiki/Capilla_Conmemorativa_Luce"
+        }
+      },
+      "image": {
+        "file": "路思義的理念.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E8%B7%AF%E6%80%9D%E7%BE%A9%E7%9A%84%E7%90%86%E5%BF%B5.jpg",
+        "author": "Yakult6067",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-taichung-park",
+      "name": "Taichung Park",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q276764",
+      "lat": 24.145,
+      "lon": 120.683333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Taichung Park is an urban park in North District, Taichung, Taiwan.",
+        "es": "El Parque Taichung es un parque urbano en el Distrito Norte de Taichung, República de China."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taichung Park",
+          "url": "https://en.wikipedia.org/wiki/Taichung_Park"
+        },
+        "es": {
+          "title": "Parque Taichung",
+          "url": "https://es.wikipedia.org/wiki/Parque_Taichung"
+        }
+      },
+      "image": {
+        "file": "Taichung_Park-1.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taichung_Park-1.JPG",
+        "author": "Fcuk1203",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-dadu-plateau",
+      "name": "Dadu Plateau",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q5208123",
+      "lat": 24.145833,
+      "lon": 120.578889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Dadu Plateau, also known as Dadu Mountain or Dadushan, is a plateau that stretches across Taichung, Taiwan.",
+        "es": "La Meseta de Dadu se extiende sobre toda la ciudad de Taichung en la parte centro-occidental de la isla de Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dadu Plateau",
+          "url": "https://en.wikipedia.org/wiki/Dadu_Plateau"
+        },
+        "es": {
+          "title": "Meseta de Dadu",
+          "url": "https://es.wikipedia.org/wiki/Meseta_de_Dadu"
+        }
+      },
+      "image": {
+        "file": "DaDuShan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:DaDuShan.jpg",
+        "author": "Yiken",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-national-museum-of-natural-science",
+      "name": "National Museum of Natural Science",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q3847114",
+      "website": "https://www.nmns.edu.tw/",
+      "lat": 24.1575,
+      "lon": 120.666389,
+      "phone": "+886-4-2322-6940",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The National Museum of Natural Science is a national museum in North District, Taichung, Taiwan.",
+        "es": "The National Museum of Natural Science is a national museum in North District, Taichung, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Museum of Natural Science",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Natural_Science"
+        },
+        "es": {
+          "title": "National Museum of Natural Science",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Natural_Science"
+        }
+      },
+      "image": {
+        "file": "National_Museum_of_Natural_Science_Taichung_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Natural_Science_Taichung_01.jpg",
+        "author": "David Villa",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "tw-catholic-church-cathedral-of-christ-the-saviour",
+      "name": "Catholic Church Cathedral of Christ the Saviour",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q9572540",
+      "lat": 24.142704,
+      "lon": 120.68009,
+      "phone": "+886-4-2222-3807",
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of Christ the Saviour is the cathedral of the Roman Catholic Diocese of Taichung.",
+        "es": "La Catholic Church Cathedral of Christ the Saviour es la catedral de la diócesis católica de Taichung."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of Christ the Saviour, Taichung",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_Christ_the_Saviour%2C_Taichung"
+        },
+        "es": {
+          "title": "Catedral de Cristo Salvador (Taichung)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Cristo_Salvador_(Taichung)"
+        }
+      },
+      "image": {
+        "file": "台中市耶穌救主總堂.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%80%B6%E7%A9%8C%E6%95%91%E4%B8%BB%E7%B8%BD%E5%A0%82.jpg",
+        "author": "Fcuk1203",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-le-meridien-taichung",
+      "name": "Le Meridien Taichung",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q5579712",
+      "lat": 24.136667,
+      "lon": 120.683056,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Le Méridien Taichung is a 22-storey hotel located in Central District, Taichung City, Taiwan.",
+        "es": "The Le Méridien Taichung is a 22-storey hotel located in Central District, Taichung City, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Le Meridien Taichung",
+          "url": "https://en.wikipedia.org/wiki/Le_Meridien_Taichung"
+        },
+        "es": {
+          "title": "Le Meridien Taichung",
+          "url": "https://en.wikipedia.org/wiki/Le_Meridien_Taichung"
+        }
+      },
+      "image": {
+        "file": "Sunset_at_Le_Meridien_Taichung_May_2020.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sunset_at_Le_Meridien_Taichung_May_2020.jpg",
+        "author": "Tiouraren (Y.-C. Tsai)",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-921-earthquake-museum-of-taiwan",
+      "name": "921 Earthquake Museum of Taiwan",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q698241",
+      "lat": 24.04256,
+      "lon": 120.69942,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The 921 Earthquake Museum of Taiwan is a national museum in Wufeng District, Taichung, Taiwan.",
+        "es": "The 921 Earthquake Museum of Taiwan is a national museum in Wufeng District, Taichung, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "921 Earthquake Museum of Taiwan",
+          "url": "https://en.wikipedia.org/wiki/921_Earthquake_Museum_of_Taiwan"
+        },
+        "es": {
+          "title": "921 Earthquake Museum of Taiwan",
+          "url": "https://en.wikipedia.org/wiki/921_Earthquake_Museum_of_Taiwan"
+        }
+      },
+      "image": {
+        "file": "Museum_921.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museum_921.JPG",
+        "author": "Iv0202",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-tri-mountain-national-scenic-area",
+      "name": "Tri-Mountain National Scenic Area",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q10911526",
+      "lat": 24.058342,
+      "lon": 120.698406,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Tri-Mountain National Scenic Area is a national scenic area located within central Taiwan, spanning Hsinchu County, Miaoli County, Taichung City, Changhua County, and Nantou County.",
+        "es": "Tri-Mountain National Scenic Area is a national scenic area located within central Taiwan, spanning Hsinchu County, Miaoli County, Taichung City, Changhua County, and Nantou County."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tri-Mountain National Scenic Area",
+          "url": "https://en.wikipedia.org/wiki/Tri-Mountain_National_Scenic_Area"
+        },
+        "es": {
+          "title": "Tri-Mountain National Scenic Area",
+          "url": "https://en.wikipedia.org/wiki/Tri-Mountain_National_Scenic_Area"
+        }
+      },
+      "image": {
+        "file": "參山國家風景區標誌石_20121220.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%8F%83%E5%B1%B1%E5%9C%8B%E5%AE%B6%E9%A2%A8%E6%99%AF%E5%8D%80%E6%A8%99%E8%AA%8C%E7%9F%B3_20121220.jpg",
+        "author": "Fcuk1203",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-assembly-affairs-museum-of-the-legislative-yuan",
+      "name": "Assembly Affairs Museum of the Legislative Yuan",
+      "area": "Taichung",
+      "city": "Taichung",
+      "wikidata": "Q15914034",
+      "lat": 24.053194,
+      "lon": 120.7,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Assembly Affairs Museum, The Legislative Yuan is a museum in Wufeng District, Taichung, Taiwan.",
+        "es": "The Assembly Affairs Museum, The Legislative Yuan is a museum in Wufeng District, Taichung, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Assembly Affairs Museum, The Legislative Yuan",
+          "url": "https://en.wikipedia.org/wiki/Assembly_Affairs_Museum%2C_The_Legislative_Yuan"
+        },
+        "es": {
+          "title": "Assembly Affairs Museum, The Legislative Yuan",
+          "url": "https://en.wikipedia.org/wiki/Assembly_Affairs_Museum%2C_The_Legislative_Yuan"
+        }
+      },
+      "image": {
+        "file": "立法院議政博物館.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E7%AB%8B%E6%B3%95%E9%99%A2%E8%AD%B0%E6%94%BF%E5%8D%9A%E7%89%A9%E9%A4%A8.JPG",
+        "author": "Fcuk1203",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-taipei-cultural-mosque",
+      "name": "Taipei Cultural Mosque",
+      "area": "Taipei",
+      "city": "Taipei",
+      "wikidata": "Q14319036",
+      "lat": 25.019389,
+      "lon": 121.52795,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Taipei Cultural Mosque is a mosque in Zhongzheng District, in the city of Taipei, Taiwan.",
+        "es": "The Taipei Cultural Mosque is a mosque in Zhongzheng District, in the city of Taipei, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taipei Cultural Mosque",
+          "url": "https://en.wikipedia.org/wiki/Taipei_Cultural_Mosque"
+        },
+        "es": {
+          "title": "Taipei Cultural Mosque",
+          "url": "https://en.wikipedia.org/wiki/Taipei_Cultural_Mosque"
+        }
+      },
+      "image": {
+        "file": "Taipei_Cultural_Mosque.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taipei_Cultural_Mosque.JPG",
+        "author": "Chongkian",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-furen-temple",
+      "name": "Furen Temple",
+      "area": "Taoyuan",
+      "city": "Taoyuan",
+      "wikidata": "Q55757486",
+      "lat": 24.886083,
+      "lon": 121.286722,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Furen Temple is a Chinese temple dedicated to Kai Zhang Sheng Wang, and is located along Daxi Old Street in Daxi District, Taoyuan City, Taiwan.",
+        "es": "The Furen Temple is a Chinese temple dedicated to Kai Zhang Sheng Wang, and is located along Daxi Old Street in Daxi District, Taoyuan City, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Furen Temple",
+          "url": "https://en.wikipedia.org/wiki/Furen_Temple"
+        },
+        "es": {
+          "title": "Furen Temple",
+          "url": "https://en.wikipedia.org/wiki/Furen_Temple"
+        }
+      },
+      "image": {
+        "file": "大溪_福仁宮_-_panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%BA%AA_%E7%A6%8F%E4%BB%81%E5%AE%AE_-_panoramio.jpg",
+        "author": "Foxy Who \\(^∀^)/",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-li-mei-shu-memorial-gallery",
+      "name": "Li Mei-shu Memorial Gallery",
+      "area": "Taoyuan",
+      "city": "Taoyuan",
+      "wikidata": "Q11097012",
+      "website": "https://limeishu.org.tw/",
+      "lat": 24.930556,
+      "lon": 121.372861,
+      "phone": "+886-2-2673-2333",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Li Mei-shu Memorial Gallery is a memorial gallery located in Sanxia District, New Taipei, Taiwan.",
+        "es": "The Li Mei-shu Memorial Gallery is a memorial gallery located in Sanxia District, New Taipei, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Li Mei-shu Memorial Gallery",
+          "url": "https://en.wikipedia.org/wiki/Li_Mei-shu_Memorial_Gallery"
+        },
+        "es": {
+          "title": "Li Mei-shu Memorial Gallery",
+          "url": "https://en.wikipedia.org/wiki/Li_Mei-shu_Memorial_Gallery"
+        }
+      },
+      "image": {
+        "file": "李梅樹紀念館門面.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E6%A2%85%E6%A8%B9%E7%B4%80%E5%BF%B5%E9%A4%A8%E9%96%80%E9%9D%A2.jpg",
+        "author": "Allenwang6212a",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-aviation-museum-taoyuan-international-airport",
+      "name": "Aviation Museum (Taoyuan International Airport)",
+      "area": "Taoyuan",
+      "city": "Taoyuan",
+      "wikidata": "Q6123486",
+      "lat": 25.070278,
+      "lon": 121.223889,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Chung Cheng Aviation Museum was an aviation museum located at Taiwan Taoyuan International Airport in Dayuan Township, Taoyuan County, Taiwan.",
+        "es": "The Chung Cheng Aviation Museum was an aviation museum located at Taiwan Taoyuan International Airport in Dayuan Township, Taoyuan County, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chung Cheng Aviation Museum",
+          "url": "https://en.wikipedia.org/wiki/Chung_Cheng_Aviation_Museum"
+        },
+        "es": {
+          "title": "Chung Cheng Aviation Museum",
+          "url": "https://en.wikipedia.org/wiki/Chung_Cheng_Aviation_Museum"
+        }
+      },
+      "image": {
+        "file": "Aviation_museum_View_from_West_20130928.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aviation_museum_View_from_West_20130928.jpg",
+        "author": "玄史生",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-taoyuan-air-base",
+      "name": "Taoyuan Air Base",
+      "area": "Taoyuan",
+      "city": "Taoyuan",
+      "wikidata": "Q20457544",
+      "lat": 25.055,
+      "lon": 121.243333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Taoyuan Air Base was a Republic of China Air Force base located in Taoyuan City, Taiwan, southeast of Taipei's civilian Taoyuan International Airport.",
+        "es": "Taoyuan Air Base was a Republic of China Air Force base located in Taoyuan City, Taiwan, southeast of Taipei's civilian Taoyuan International Airport."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taoyuan Air Base",
+          "url": "https://en.wikipedia.org/wiki/Taoyuan_Air_Base"
+        },
+        "es": {
+          "title": "Taoyuan Air Base",
+          "url": "https://en.wikipedia.org/wiki/Taoyuan_Air_Base"
+        }
+      },
+      "image": {
+        "file": "Lockheed_F-104A_of_the_83rd_Fighter_Interceptor_Squadron_at_Taoyuan_Air_Base,_Taiwan,_on_Sept._15,_1958,_during_the_Quemoy_Crisis_-_Operation_Jonah_Able.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lockheed_F-104A_of_the_83rd_Fighter_Interceptor_Squadron_at_Taoyuan_Air_Base%2C_Taiwan%2C_on_Sept._15%2C_1958%2C_during_the_Quemoy_Crisis_-_Operation_Jonah_Able.jpg",
+        "author": "USAF;",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tw-zushi-temple",
+      "name": "Zushi Temple",
+      "area": "Taoyuan",
+      "city": "Taoyuan",
+      "wikidata": "Q698701",
+      "lat": 24.9338,
+      "lon": 121.37,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Changfu Temple is a Taoist temple near Sanxia Old Street in Sanxia District, New Taipei, Taiwan.",
+        "es": "Zushi es un templo taoísta situado en el distrito de Sanxia, en Nuevo Taipéi, Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Changfu Temple",
+          "url": "https://en.wikipedia.org/wiki/Changfu_Temple"
+        },
+        "es": {
+          "title": "Templo Zushi",
+          "url": "https://es.wikipedia.org/wiki/Templo_Zushi"
+        }
+      },
+      "image": {
+        "file": "Sansia_IMG_1765.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sansia_IMG_1765.JPG",
+        "author": "Benjiho",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-new-taipei-city-yingge-ceramics-museum",
+      "name": "New Taipei City Yingge Ceramics Museum",
+      "area": "Taoyuan",
+      "city": "Taoyuan",
+      "wikidata": "Q7012025",
+      "lat": 24.94959,
+      "lon": 121.35241,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The New Taipei City Yingge Ceramics Museum is a museum presenting ceramics located in Yingge District, New Taipei, Taiwan.",
+        "es": "The New Taipei City Yingge Ceramics Museum is a museum presenting ceramics located in Yingge District, New Taipei, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "New Taipei City Yingge Ceramics Museum",
+          "url": "https://en.wikipedia.org/wiki/New_Taipei_City_Yingge_Ceramics_Museum"
+        },
+        "es": {
+          "title": "New Taipei City Yingge Ceramics Museum",
+          "url": "https://en.wikipedia.org/wiki/New_Taipei_City_Yingge_Ceramics_Museum"
+        }
+      },
+      "image": {
+        "file": "新北市立鶯歌陶瓷博物館_20220826.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E5%8C%97%E5%B8%82%E7%AB%8B%E9%B6%AF%E6%AD%8C%E9%99%B6%E7%93%B7%E5%8D%9A%E7%89%A9%E9%A4%A8_20220826.jpg",
+        "author": "氏子",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-new-taipei-city-art-museum",
+      "name": "New Taipei City Art Museum",
+      "area": "Taoyuan",
+      "city": "Taoyuan",
+      "wikidata": "Q24831830",
+      "website": "https://ntcart.museum/",
+      "lat": 24.95262,
+      "lon": 121.35756,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The New Taipei City Art Museum or New Taipei Museum of Arts is a museum in Yingge District, New Taipei, Taiwan.",
+        "es": "The New Taipei City Art Museum or New Taipei Museum of Arts is a museum in Yingge District, New Taipei, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "New Taipei City Art Museum",
+          "url": "https://en.wikipedia.org/wiki/New_Taipei_City_Art_Museum"
+        },
+        "es": {
+          "title": "New Taipei City Art Museum",
+          "url": "https://en.wikipedia.org/wiki/New_Taipei_City_Art_Museum"
+        }
+      }
+    },
+    {
+      "id": "tw-taoyuan-confucian-temple",
+      "name": "Taoyuan Confucian Temple",
+      "area": "Taoyuan",
+      "city": "Taoyuan",
+      "wikidata": "Q11111983",
+      "lat": 25.001167,
+      "lon": 121.327667,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Taoyuan Confucian Temple is a Confucian temple in Taoyuan District, Taoyuan City, Taiwan.",
+        "es": "The Taoyuan Confucian Temple is a Confucian temple in Taoyuan District, Taoyuan City, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taoyuan Confucian Temple",
+          "url": "https://en.wikipedia.org/wiki/Taoyuan_Confucian_Temple"
+        },
+        "es": {
+          "title": "Taoyuan Confucian Temple",
+          "url": "https://en.wikipedia.org/wiki/Taoyuan_Confucian_Temple"
+        }
+      },
+      "image": {
+        "file": "桃園孔子廟大成殿.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E6%A1%83%E5%9C%92%E5%AD%94%E5%AD%90%E5%BB%9F%E5%A4%A7%E6%88%90%E6%AE%BF.jpg",
+        "author": "Outlookxp",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-daxi-wood-art-ecomuseum",
+      "name": "Daxi Wood Art Ecomuseum",
+      "area": "Taoyuan",
+      "city": "Taoyuan",
+      "wikidata": "Q28408623",
+      "lat": 24.880694,
+      "lon": 121.286694,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Daxi Wood Art Ecomuseum is a museum complex in Daxi District, Taoyuan City, Taiwan.",
+        "es": "The Daxi Wood Art Ecomuseum is a museum complex in Daxi District, Taoyuan City, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Daxi Wood Art Ecomuseum",
+          "url": "https://en.wikipedia.org/wiki/Daxi_Wood_Art_Ecomuseum"
+        },
+        "es": {
+          "title": "Daxi Wood Art Ecomuseum",
+          "url": "https://en.wikipedia.org/wiki/Daxi_Wood_Art_Ecomuseum"
+        }
+      },
+      "image": {
+        "file": "桃園市立大溪木藝生態博物館四連棟外側照.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E6%A1%83%E5%9C%92%E5%B8%82%E7%AB%8B%E5%A4%A7%E6%BA%AA%E6%9C%A8%E8%97%9D%E7%94%9F%E6%85%8B%E5%8D%9A%E7%89%A9%E9%A4%A8%E5%9B%9B%E9%80%A3%E6%A3%9F%E5%A4%96%E5%81%B4%E7%85%A7.jpg",
+        "author": "Outlookxp",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-financial-star-building",
+      "name": "Financial Star Building",
+      "area": "Taoyuan",
+      "city": "Taoyuan",
+      "wikidata": "Q19851626",
+      "lat": 24.958753,
+      "lon": 121.22038,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Financial Star Building is a 30-story, 123.7 m skyscraper office building completed in 1993 and located in Zhongli District, Taoyuan, Taiwan.",
+        "es": "The Financial Star Building is a 30-story, 123.7 m skyscraper office building completed in 1993 and located in Zhongli District, Taoyuan, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Financial Star Building",
+          "url": "https://en.wikipedia.org/wiki/Financial_Star_Building"
+        },
+        "es": {
+          "title": "Financial Star Building",
+          "url": "https://en.wikipedia.org/wiki/Financial_Star_Building"
+        }
+      },
+      "image": {
+        "file": "Shimao_Caixing_Plaza_2018_12_22.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Shimao_Caixing_Plaza_2018_12_22.jpg",
+        "author": "Foxy1219",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-taiwan-high-speed-rail-museum",
+      "name": "Taiwan High Speed Rail Museum",
+      "area": "Taoyuan",
+      "city": "Taoyuan",
+      "wikidata": "Q28224615",
+      "website": "https://tdiscovery.thsrc.com.tw/",
+      "lat": 25.011861,
+      "lon": 121.213611,
+      "phone": "+886-3-261-0001",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Taiwan High Speed Rail Museum is a museum in Zhongli District, Taoyuan City, Taiwan.",
+        "es": "The Taiwan High Speed Rail Museum is a museum in Zhongli District, Taoyuan City, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taiwan High Speed Rail Museum",
+          "url": "https://en.wikipedia.org/wiki/Taiwan_High_Speed_Rail_Museum"
+        },
+        "es": {
+          "title": "Taiwan High Speed Rail Museum",
+          "url": "https://en.wikipedia.org/wiki/Taiwan_High_Speed_Rail_Museum"
+        }
+      },
+      "image": {
+        "file": "Mock-up_the_THSR_700T_in_Taiwan_High_Speed_Rail_Museum.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mock-up_the_THSR_700T_in_Taiwan_High_Speed_Rail_Museum.jpg",
+        "author": "Tze Chiang Hao",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "tw-national-museum-of-taiwan-literature",
+      "name": "National Museum of Taiwan Literature",
+      "area": "Tainan",
+      "city": "Tainan",
+      "wikidata": "Q2422289",
+      "website": "https://www.nmtl.gov.tw/",
+      "lat": 22.992,
+      "lon": 120.2046,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The National Museum of Taiwan Literature is a museum located in Tainan, Taiwan.",
+        "es": "The National Museum of Taiwan Literature is a museum located in Tainan, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Museum of Taiwan Literature",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Taiwan_Literature"
+        },
+        "es": {
+          "title": "National Museum of Taiwan Literature",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Taiwan_Literature"
+        }
+      },
+      "image": {
+        "file": "National_Museum_of_Taiwan_Literature.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Taiwan_Literature.JPG",
+        "author": "阿文",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "tw-national-museum-of-taiwan-history",
+      "name": "National Museum of Taiwan History",
+      "area": "Tainan",
+      "city": "Tainan",
+      "wikidata": "Q3330712",
+      "website": "https://www.nmth.gov.tw/en/",
+      "lat": 23.05828,
+      "lon": 120.2351,
+      "phone": "+886-6-356-8889",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The National Museum of Taiwan History is a museum in Annan District, Tainan, Taiwan, covering the history of the island nation of Taiwan and its associated islands.",
+        "es": "The National Museum of Taiwan History is a museum in Annan District, Tainan, Taiwan, covering the history of the island nation of Taiwan and its associated islands."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Museum of Taiwan History",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Taiwan_History"
+        },
+        "es": {
+          "title": "National Museum of Taiwan History",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Taiwan_History"
+        }
+      },
+      "image": {
+        "file": "國立臺灣歷史博物館_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8_01.jpg",
+        "author": "Pbdragonwang",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-tainan-mosque",
+      "name": "Tainan Mosque",
+      "area": "Tainan",
+      "city": "Tainan",
+      "wikidata": "Q9576361",
+      "lat": 22.978444,
+      "lon": 120.228444,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Tainan Mosque is a mosque in the East District of Tainan, Taiwan.",
+        "es": "The Tainan Mosque is a mosque in the East District of Tainan, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tainan Mosque",
+          "url": "https://en.wikipedia.org/wiki/Tainan_Mosque"
+        },
+        "es": {
+          "title": "Tainan Mosque",
+          "url": "https://en.wikipedia.org/wiki/Tainan_Mosque"
+        }
+      },
+      "image": {
+        "file": "Tainan_Mosque.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tainan_Mosque.JPG",
+        "author": "Chongkian",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-tainan-art-museum",
+      "name": "Tainan Art Museum",
+      "area": "Tainan",
+      "city": "Tainan",
+      "wikidata": "Q15915271",
+      "website": "https://www.tnam.museum/",
+      "lat": 22.991031,
+      "lon": 120.205196,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Tainan Art Museum is an art museum in West Central District, Tainan, Taiwan.",
+        "es": "The Tainan Art Museum is an art museum in West Central District, Tainan, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tainan Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Tainan_Art_Museum"
+        },
+        "es": {
+          "title": "Tainan Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Tainan_Art_Museum"
+        }
+      },
+      "image": {
+        "file": "Building_1_of_Tainan_Art_Museum.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Building_1_of_Tainan_Art_Museum.jpg",
+        "author": "Taiwania Justo",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-koxinga-s-shrine",
+      "name": "Koxinga's Shrine",
+      "area": "Tainan",
+      "city": "Tainan",
+      "wikidata": "Q8010918",
+      "lat": 22.987778,
+      "lon": 120.2075,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Koxinga Shrine is a Taiwanese historical temple originally known as Kaishan Temple.",
+        "es": "Koxinga Shrine is a Taiwanese historical temple originally known as Kaishan Temple."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Koxinga Shrine",
+          "url": "https://en.wikipedia.org/wiki/Koxinga_Shrine"
+        },
+        "es": {
+          "title": "Koxinga Shrine",
+          "url": "https://en.wikipedia.org/wiki/Koxinga_Shrine"
+        }
+      },
+      "image": {
+        "file": "日治時期開山神社入口.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E6%B2%BB%E6%99%82%E6%9C%9F%E9%96%8B%E5%B1%B1%E7%A5%9E%E7%A4%BE%E5%85%A5%E5%8F%A3.JPG",
+        "author": "encolpius上傳. The original uploader was Encolpius at Chinese Wikipedia.",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tw-shangri-la-s-far-eastern-plaza-hotel-tainan",
+      "name": "Shangri-La's Far Eastern Plaza Hotel Tainan",
+      "area": "Tainan",
+      "city": "Tainan",
+      "wikidata": "Q15914584",
+      "lat": 22.9964,
+      "lon": 120.2137,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Shangri-La's Far Eastern Plaza Hotel Tainan, is skyscraper hotel completed in 1993 in East District, Tainan, Taiwan.",
+        "es": "El Shangri-La's Far Eastern Plaza Hotel Tainan, es un hotel y rascacielos terminado en 1993 en Distrito Este, en Tainan, Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shangri-La's Far Eastern Plaza Hotel Tainan",
+          "url": "https://en.wikipedia.org/wiki/Shangri-La's_Far_Eastern_Plaza_Hotel_Tainan"
+        },
+        "es": {
+          "title": "Shangri-La's Far Eastern Plaza Hotel Tainan",
+          "url": "https://es.wikipedia.org/wiki/Shangri-La's_Far_Eastern_Plaza_Hotel_Tainan"
+        }
+      },
+      "image": {
+        "file": "Shangri-La's_Far_Eastern_Plaza_Hotel_Tainan_20090906.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Shangri-La's_Far_Eastern_Plaza_Hotel_Tainan_20090906.jpg",
+        "author": "WEINIE",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-tainan-shrine",
+      "name": "Tainan Shrine",
+      "area": "Tainan",
+      "city": "Tainan",
+      "wikidata": "Q11411931",
+      "lat": 22.989639,
+      "lon": 120.202694,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Tainan Shrine was a Shinto shrine built in Tainan, Taiwan by the Empire of Japan.",
+        "es": "Tainan Shrine was a Shinto shrine built in Tainan, Taiwan by the Empire of Japan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tainan Shrine",
+          "url": "https://en.wikipedia.org/wiki/Tainan_Shrine"
+        },
+        "es": {
+          "title": "Tainan Shrine",
+          "url": "https://en.wikipedia.org/wiki/Tainan_Shrine"
+        }
+      },
+      "image": {
+        "file": "Tainan_Shrine.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tainan_Shrine.JPG",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tw-uss-sarsfield",
+      "name": "USS Sarsfield",
+      "area": "Tainan",
+      "city": "Tainan",
+      "wikidata": "Q7873871",
+      "lat": 22.9886,
+      "lon": 120.156,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "USS Sarsfield, was a Gearing-class destroyer of the United States Navy.",
+        "es": "USS Sarsfield, was a Gearing-class destroyer of the United States Navy."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "USS Sarsfield",
+          "url": "https://en.wikipedia.org/wiki/USS_Sarsfield"
+        },
+        "es": {
+          "title": "USS Sarsfield",
+          "url": "https://en.wikipedia.org/wiki/USS_Sarsfield"
+        }
+      },
+      "image": {
+        "file": "USS_Sarsfield_(DD-837)_off_Boston_1945.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:USS_Sarsfield_(DD-837)_off_Boston_1945.jpg",
+        "author": "USN",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tw-at-taqwa-mosque",
+      "name": "At-Taqwa Mosque",
+      "area": "Taoyuan District",
+      "city": "Taoyuan District",
+      "wikidata": "Q14324943",
+      "website": "https://taqwamosquetaiwan.business.site/",
+      "lat": 25.067211,
+      "lon": 121.180358,
+      "phone": "+886-3-384-0539",
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The At-Taqwa Mosque is a mosque in the Dayuan District of Taoyuan City, Taiwan.",
+        "es": "The At-Taqwa Mosque is a mosque in the Dayuan District of Taoyuan City, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "At-Taqwa Mosque, Taiwan",
+          "url": "https://en.wikipedia.org/wiki/At-Taqwa_Mosque%2C_Taiwan"
+        },
+        "es": {
+          "title": "At-Taqwa Mosque, Taiwan",
+          "url": "https://en.wikipedia.org/wiki/At-Taqwa_Mosque%2C_Taiwan"
+        }
+      },
+      "image": {
+        "file": "At-Taqwa_Mosque.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:At-Taqwa_Mosque.JPG",
+        "author": "Chongkian",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-mount-guanyin",
+      "name": "Mount Guanyin",
+      "area": "Taoyuan District",
+      "city": "Taoyuan District",
+      "wikidata": "Q14657877",
+      "lat": 25.135833,
+      "lon": 121.426667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Guanyin, Mount Kwan-in, or Kwaninshan is an inactive stratovolcano in Wugu District, New Taipei City, Taiwan.",
+        "es": "Monte Guanyin, Monte Kwan-in o Kwaninshan es una montaña volcánica inactiva en el distrito de Wugu, Nueva Taipei."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Guanyin (New Taipei)",
+          "url": "https://en.wikipedia.org/wiki/Mount_Guanyin_(New_Taipei)"
+        },
+        "es": {
+          "title": "Monte Guanyin (Nueva Taipéi)",
+          "url": "https://es.wikipedia.org/wiki/Monte_Guanyin_(Nueva_Taip%C3%A9i)"
+        }
+      },
+      "image": {
+        "file": "新北市_觀音山_-_panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E5%8C%97%E5%B8%82_%E8%A7%80%E9%9F%B3%E5%B1%B1_-_panoramio.jpg",
+        "author": "Chi-Hung Lin",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-guandu-temple",
+      "name": "Guandu Temple",
+      "area": "Taoyuan District",
+      "city": "Taoyuan District",
+      "wikidata": "Q701292",
+      "lat": 25.117861,
+      "lon": 121.463778,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Guandu Temple is a prominent Chinese temple in Beitou District of Taipei, Taiwan, dedicated the Goddess Mazu.",
+        "es": "Guandu es un templo taoísta situado en Taipéi, al sur del distrito Danshui."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Guandu Temple",
+          "url": "https://en.wikipedia.org/wiki/Guandu_Temple"
+        },
+        "es": {
+          "title": "Templo Guandu",
+          "url": "https://es.wikipedia.org/wiki/Templo_Guandu"
+        }
+      },
+      "image": {
+        "file": "Kuan-du_Temple.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kuan-du_Temple.JPG",
+        "author": "gaga930",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tw-leofoo-village-theme-park",
+      "name": "Leofoo Village Theme Park",
+      "area": "Hsinchu City",
+      "city": "Hsinchu City",
+      "wikidata": "Q3229621",
+      "lat": 24.821111,
+      "lon": 121.181667,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Leofoo Village Theme Park is a theme park and a safari located in Guanxi Township, Hsinchu County, Taiwan.",
+        "es": "The Leofoo Village Theme Park is a theme park and a safari located in Guanxi Township, Hsinchu County, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Leofoo Village Theme Park",
+          "url": "https://en.wikipedia.org/wiki/Leofoo_Village_Theme_Park"
+        },
+        "es": {
+          "title": "Leofoo Village Theme Park",
+          "url": "https://en.wikipedia.org/wiki/Leofoo_Village_Theme_Park"
+        }
+      },
+      "image": {
+        "file": "LeofooVillage_MainEntrance_Back.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:LeofooVillage_MainEntrance_Back.jpg",
+        "author": "Rico Shen",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tw-immaculate-heart-of-mary-cathedral",
+      "name": "Immaculate Heart of Mary Cathedral",
+      "area": "Hsinchu City",
+      "city": "Hsinchu City",
+      "wikidata": "Q15149317",
+      "lat": 24.809361,
+      "lon": 120.966861,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Immaculate Heart of Mary Cathedral also known as the Sacred Heart Cathedral of Our Lady or North Church where it is located, is a religious building that is affiliated with the Catholic Church and is located in…",
+        "es": "La Catedral del Inmaculado Corazón de María también conocida como la \"Catedral del Sagrado Corazón de Nuestra Señora\" o la Iglesia del Norte por su ubicación, es el nombre que recibe un edificio religioso que está…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Immaculate Heart of Mary Cathedral, Hsinchu",
+          "url": "https://en.wikipedia.org/wiki/Immaculate_Heart_of_Mary_Cathedral%2C_Hsinchu"
+        },
+        "es": {
+          "title": "Catedral del Inmaculado Corazón de María (Hsinchu)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Inmaculado_Coraz%C3%B3n_de_Mar%C3%ADa_(Hsinchu)"
+        }
+      },
+      "image": {
+        "file": "Immaculate_Heart_of_Mary_Cathedral,_Hsinchu_20070225.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Immaculate_Heart_of_Mary_Cathedral%2C_Hsinchu_20070225.jpg",
+        "author": "阿佳、Kikuchi",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tw-glass-museum-of-hsinchu-city",
+      "name": "Glass Museum of Hsinchu City",
+      "area": "Hsinchu City",
+      "city": "Hsinchu City",
+      "wikidata": "Q11084014",
+      "lat": 24.801389,
+      "lon": 120.978056,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Glass Museum of Hsinchu City is a museum of glass art in East District, Hsinchu City, Taiwan.",
+        "es": "The Glass Museum of Hsinchu City is a museum of glass art in East District, Hsinchu City, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Glass Museum of Hsinchu City",
+          "url": "https://en.wikipedia.org/wiki/Glass_Museum_of_Hsinchu_City"
+        },
+        "es": {
+          "title": "Glass Museum of Hsinchu City",
+          "url": "https://en.wikipedia.org/wiki/Glass_Museum_of_Hsinchu_City"
+        }
+      },
+      "image": {
+        "file": "新竹市立玻璃工藝博物館.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%AB%B9%E5%B8%82%E7%AB%8B%E7%8E%BB%E7%92%83%E5%B7%A5%E8%97%9D%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg",
+        "author": "寺人孟子",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-xinwu-tianhou-temple",
+      "name": "Xinwu Tianhou Temple",
+      "area": "Hsinchu City",
+      "city": "Hsinchu City",
+      "wikidata": "Q15913376",
+      "website": "https://sites.google.com/site/swmazu/",
+      "lat": 24.975648,
+      "lon": 121.026444,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Tianhou or Mazu Temple is a temple to the Goddess Mazu, the Chinese Goddess of Sea and Patron Deity of fishermen, sailors and any occupations related to sea/ocean.",
+        "es": "The Tianhou or Mazu Temple is a temple to the Goddess Mazu, the Chinese Goddess of Sea and Patron Deity of fishermen, sailors and any occupations related to sea/ocean."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Xinwu Tianhou Temple",
+          "url": "https://en.wikipedia.org/wiki/Xinwu_Tianhou_Temple"
+        },
+        "es": {
+          "title": "Xinwu Tianhou Temple",
+          "url": "https://en.wikipedia.org/wiki/Xinwu_Tianhou_Temple"
+        }
+      },
+      "image": {
+        "file": "新屋天后宮正面照.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E5%B1%8B%E5%A4%A9%E5%90%8E%E5%AE%AE%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg",
+        "author": "Outlookxp",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-taitung-art-museum",
+      "name": "Taitung Art Museum",
+      "area": "Hsinchu City",
+      "city": "Hsinchu City",
+      "wikidata": "Q16242265",
+      "lat": 24.7642,
+      "lon": 121.15,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Taitung Art Museum is an art museum located in Taitung City, Taitung County, Taiwan.",
+        "es": "The Taitung Art Museum is an art museum located in Taitung City, Taitung County, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taitung Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Taitung_Art_Museum"
+        },
+        "es": {
+          "title": "Taitung Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Taitung_Art_Museum"
+        }
+      },
+      "image": {
+        "file": "Taitung_Art_Museum03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taitung_Art_Museum03.jpg",
+        "author": "Eric850130",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-shang-shun-mall",
+      "name": "Shang Shun Mall",
+      "area": "Hsinchu City",
+      "city": "Hsinchu City",
+      "wikidata": "Q24836146",
+      "lat": 24.689976,
+      "lon": 120.905842,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Shang Shun Mall is a shopping mall complex in Toufen, Miaoli County, Taiwan that opened in May 2015.",
+        "es": "Shang Shun Mall is a shopping mall complex in Toufen, Miaoli County, Taiwan that opened in May 2015."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shang Shun Mall",
+          "url": "https://en.wikipedia.org/wiki/Shang_Shun_Mall"
+        },
+        "es": {
+          "title": "Shang Shun Mall",
+          "url": "https://en.wikipedia.org/wiki/Shang_Shun_Mall"
+        }
+      }
+    },
+    {
+      "id": "tw-zhonggang-cihyu-temple",
+      "name": "Zhonggang Cihyu Temple",
+      "area": "Hsinchu City",
+      "city": "Hsinchu City",
+      "wikidata": "Q28485781",
+      "lat": 24.6825,
+      "lon": 120.86375,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Zhonggang Cihyu Temple is a Chinese temple dedicated to the Goddess Mazu, who is the Goddess of Sea and Patron Deity of fishermen, sailors and any occupations related to sea/ocean.",
+        "es": "The Zhonggang Cihyu Temple is a Chinese temple dedicated to the Goddess Mazu, who is the Goddess of Sea and Patron Deity of fishermen, sailors and any occupations related to sea/ocean."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zhonggang Cihyu Temple",
+          "url": "https://en.wikipedia.org/wiki/Zhonggang_Cihyu_Temple"
+        },
+        "es": {
+          "title": "Zhonggang Cihyu Temple",
+          "url": "https://en.wikipedia.org/wiki/Zhonggang_Cihyu_Temple"
+        }
+      },
+      "image": {
+        "file": "中港慈裕宮近照.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E6%B8%AF%E6%85%88%E8%A3%95%E5%AE%AE%E8%BF%91%E7%85%A7.jpg",
+        "author": "寺人孟子",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-hsinchu-city-god-temple",
+      "name": "Hsinchu City God Temple",
+      "area": "Hsinchu City",
+      "city": "Hsinchu City",
+      "wikidata": "Q11084079",
+      "website": "https://www.weiling.org.tw/",
+      "lat": 24.804006,
+      "lon": 120.965872,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Chenghuang Temple of Hsinchu is a temple located in Hsinchu, Taiwan.",
+        "es": "The Chenghuang Temple of Hsinchu is a temple located in Hsinchu, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hsinchu Chenghuang Temple",
+          "url": "https://en.wikipedia.org/wiki/Hsinchu_Chenghuang_Temple"
+        },
+        "es": {
+          "title": "Hsinchu Chenghuang Temple",
+          "url": "https://en.wikipedia.org/wiki/Hsinchu_Chenghuang_Temple"
+        }
+      },
+      "image": {
+        "file": "Hsinchu_City_God_Temple-01.2023-11-21.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hsinchu_City_God_Temple-01.2023-11-21.jpg",
+        "author": "阿道",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-hsinchu-zoo",
+      "name": "Hsinchu Zoo",
+      "area": "Hsinchu City",
+      "city": "Hsinchu City",
+      "wikidata": "Q11084009",
+      "lat": 24.8011,
+      "lon": 120.979,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Hsinchu Zoo is a zoo in East District, Hsinchu City, Taiwan.",
+        "es": "The Hsinchu Zoo is a zoo in East District, Hsinchu City, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Hsinchu Zoo",
+          "url": "https://en.wikipedia.org/wiki/Hsinchu_Zoo"
+        },
+        "es": {
+          "title": "Hsinchu Zoo",
+          "url": "https://en.wikipedia.org/wiki/Hsinchu_Zoo"
+        }
+      },
+      "image": {
+        "file": "New_gate_1_of_Hsinchu_Zoo_2020.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:New_gate_1_of_Hsinchu_Zoo_2020.jpg",
+        "author": "Taiwania Justo",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-image-museum-of-hsinchu-city",
+      "name": "Image Museum of Hsinchu City",
+      "area": "Hsinchu City",
+      "city": "Hsinchu City",
+      "wikidata": "Q15228442",
+      "website": "https://culture.hccg.gov.tw",
+      "lat": 24.805,
+      "lon": 120.969722,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Image Museum of Hsinchu City is a museum about cinema in East District, Hsinchu City, Taiwan.",
+        "es": "El Museo de la Imagen de Ciudad Hsinchu es un museo sobre el cine situado en el Distrito Este de la ciudad de Hsinchu, Taiwán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Image Museum of Hsinchu City",
+          "url": "https://en.wikipedia.org/wiki/Image_Museum_of_Hsinchu_City"
+        },
+        "es": {
+          "title": "Museo de la Imagen de Ciudad Hsinchu",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Imagen_de_Ciudad_Hsinchu"
+        }
+      },
+      "image": {
+        "file": "Image_Museum_of_Hsinchu_City_20210116.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Image_Museum_of_Hsinchu_City_20210116.jpg",
+        "author": "Solomon203",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-taipei-nan-shan-plaza",
+      "name": "Taipei Nan Shan Plaza",
+      "area": "Keelung",
+      "city": "Keelung",
+      "wikidata": "Q24840610",
+      "lat": 25.0344,
+      "lon": 121.5669,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Taipei Nan Shan Plaza is a skyscraper in Xinyi Special District, Xinyi, Taipei, Taiwan.",
+        "es": "Taipei Nan Shan Plaza is a skyscraper in Xinyi Special District, Xinyi, Taipei, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taipei Nan Shan Plaza",
+          "url": "https://en.wikipedia.org/wiki/Taipei_Nan_Shan_Plaza"
+        },
+        "es": {
+          "title": "Taipei Nan Shan Plaza",
+          "url": "https://en.wikipedia.org/wiki/Taipei_Nan_Shan_Plaza"
+        }
+      },
+      "image": {
+        "file": "Taipei_Nan_Shan_Plaza_20171216a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taipei_Nan_Shan_Plaza_20171216a.jpg",
+        "author": "Solomon203",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-keelung-islet",
+      "name": "Keelung Islet",
+      "area": "Keelung",
+      "city": "Keelung",
+      "wikidata": "Q6382827",
+      "lat": 25.192222,
+      "lon": 121.785556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Keelung Islet is a small island in Zhongzheng District, Keelung, Taiwan and 4.9 km away from the Port of Keelung.",
+        "es": "Islote Keelung es una pequeña isla situada a 3,35 kilómetros al noreste de la costa norte de Keelung, Taiwán y a 4,9 km de distancia desde el puerto de Keelung."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Keelung Islet",
+          "url": "https://en.wikipedia.org/wiki/Keelung_Islet"
+        },
+        "es": {
+          "title": "Islote Keelung",
+          "url": "https://es.wikipedia.org/wiki/Islote_Keelung"
+        }
+      },
+      "image": {
+        "file": "Keelung_Island_001.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Keelung_Island_001.JPG",
+        "author": "Bigmorr",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tw-dharma-drum-mountain",
+      "name": "Dharma Drum Mountain",
+      "area": "Keelung",
+      "city": "Keelung",
+      "wikidata": "Q700949",
+      "website": "https://www.dharmadrum.org/",
+      "lat": 25.240347,
+      "lon": 121.615111,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Dharma Drum Mountain is an international Buddhist spiritual, cultural, and educational foundation founded by late Chan master Sheng-yen.",
+        "es": "Dharma Drum Mountain is an international Buddhist spiritual, cultural, and educational foundation founded by late Chan master Sheng-yen."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dharma Drum Mountain",
+          "url": "https://en.wikipedia.org/wiki/Dharma_Drum_Mountain"
+        },
+        "es": {
+          "title": "Dharma Drum Mountain",
+          "url": "https://en.wikipedia.org/wiki/Dharma_Drum_Mountain"
+        }
+      },
+      "image": {
+        "file": "Dharma_Drum_Mountain_05.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dharma_Drum_Mountain_05.jpg",
+        "author": "FireFeather",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-cathay-landmark",
+      "name": "Cathay Landmark",
+      "area": "Keelung",
+      "city": "Keelung",
+      "wikidata": "Q21449366",
+      "lat": 25.040472,
+      "lon": 121.566972,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathay Landmark is a skyscraper located in Xinyi Special District, Xinyi District, Taipei, Taiwan.",
+        "es": "The Cathay Landmark is a skyscraper located in Xinyi Special District, Xinyi District, Taipei, Taiwan."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathay Landmark",
+          "url": "https://en.wikipedia.org/wiki/Cathay_Landmark"
+        },
+        "es": {
+          "title": "Cathay Landmark",
+          "url": "https://en.wikipedia.org/wiki/Cathay_Landmark"
+        }
+      },
+      "image": {
+        "file": "Cathay_Landmark_20230705.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cathay_Landmark_20230705.jpg",
+        "author": "Yu tptw",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "tw-ogon-shrine",
+      "name": "Ōgon Shrine",
+      "area": "Keelung",
+      "city": "Keelung",
+      "wikidata": "Q708670",
+      "lat": 25.104969,
+      "lon": 121.858658,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Ōgon Shrine also known as the Jinguashi Shinto Shrine, Gold Temple or Spirits of the Mountain Shrine is a Shinto shrine located halfway up a mountain in the Gold Ecological Park in Jinguashi, Ruifang District,…",
+        "es": "Santuario Ōgon , llamado el Templo Dorado y el Santuario de los Espíritus de la Montaña, es un santuario sintoísta situado a media ladera de una montaña denominada 四平街, en un área natural de Jinguashi, una localidad…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ōgon Shrine",
+          "url": "https://en.wikipedia.org/wiki/%C5%8Cgon_Shrine"
+        },
+        "es": {
+          "title": "Santuario Ōgon",
+          "url": "https://es.wikipedia.org/wiki/Santuario_%C5%8Cgon"
+        }
+      },
+      "image": {
+        "file": "Ogon_jinja.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ogon_jinja.JPG",
+        "author": "Koika",
+        "license": "CC BY-SA 3.0"
       }
     }
   ]

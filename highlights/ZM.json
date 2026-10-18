@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -62,6 +68,758 @@
       "wikidata": "Q2996845",
       "lat": -12.97,
       "lon": 28.65083
+    },
+    {
+      "id": "zm-lake-bangweulu",
+      "name": "Lake Bangweulu",
+      "area": "Ndola",
+      "city": "Ndola",
+      "wikidata": "Q673169",
+      "lat": -11.083333,
+      "lon": 29.75,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Bangweulu is a freshwater lake in northern Zambia.",
+        "es": "El lago Bangweulu es un lago de agua dulce ubicado en Zambia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Bangweulu",
+          "url": "https://en.wikipedia.org/wiki/Lake_Bangweulu"
+        },
+        "es": {
+          "title": "Lago Bangweulu",
+          "url": "https://es.wikipedia.org/wiki/Lago_Bangweulu"
+        }
+      },
+      "image": {
+        "file": "Lake_Bangweulu.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Bangweulu.jpg",
+        "author": "Rexparry_sydney",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "zm-lake-kariba",
+      "name": "Lake Kariba",
+      "area": "Lusaka",
+      "city": "Lusaka",
+      "wikidata": "Q1047206",
+      "lat": -16.9,
+      "lon": 28,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Kariba is the world's largest artificial lake and reservoir by volume.",
+        "es": "El lago Kariba es el lago artificial y embalse más grande del mundo, en volumen."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Kariba",
+          "url": "https://en.wikipedia.org/wiki/Lake_Kariba"
+        },
+        "es": {
+          "title": "Lago Kariba",
+          "url": "https://es.wikipedia.org/wiki/Lago_Kariba"
+        }
+      },
+      "image": {
+        "file": "Lake_Kariba.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Kariba.jpg",
+        "author": "ISS Expedition 4 Crew",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "zm-kafue-national-park",
+      "name": "Kafue National Park",
+      "area": "Central Province",
+      "city": "Central Province",
+      "wikidata": "Q1721097",
+      "lat": -15.28,
+      "lon": 25.7,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kafue National Park is the largest national park in Zambia, covering an area of about 22,400 km2.",
+        "es": "El Parque Nacional Kafue es una reserva estatal ubicada al sur de Zambia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kafue National Park",
+          "url": "https://en.wikipedia.org/wiki/Kafue_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Kafue",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Kafue"
+        }
+      },
+      "image": {
+        "file": "Kafue_National_Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kafue_National_Park.jpg",
+        "author": "LittleT889",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "zm-lower-zambezi-national-park",
+      "name": "Lower Zambezi National Park",
+      "area": "Lusaka Province",
+      "city": "Lusaka Province",
+      "wikidata": "Q503518",
+      "lat": -15.75,
+      "lon": 29.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Lower Zambezi National Park lies on the north bank of the Zambezi River in southeastern Zambia.",
+        "es": "El Parque nacional del Bajo Zambeze es un parque nacional en la orilla norte del río Zambeze, en el sudeste de Zambia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lower Zambezi National Park",
+          "url": "https://en.wikipedia.org/wiki/Lower_Zambezi_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional del Bajo Zambeze",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_Bajo_Zambeze"
+        }
+      },
+      "image": {
+        "file": "Lower_Zambezi,_Zambia_(2518067857).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lower_Zambezi%2C_Zambia_(2518067857).jpg",
+        "author": "Joachim Huber from Switzerland",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "zm-kasanka-national-park",
+      "name": "Kasanka National Park",
+      "area": "Chitambo District",
+      "city": "Chitambo District",
+      "wikidata": "Q1734819",
+      "lat": -12.5,
+      "lon": 30.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kasanka National Park is a park located in the Chitambo District of Zambia’s Central Province.",
+        "es": "El Parque nacional de Kasanka se encuentra en el Distrito Chitambo de la Provincia Central de Zambia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kasanka National Park",
+          "url": "https://en.wikipedia.org/wiki/Kasanka_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Kasanka",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Kasanka"
+        }
+      },
+      "image": {
+        "file": "Kasanka.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kasanka.jpg",
+        "author": "Mehmet Karatay",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "zm-lochinvar-national-park",
+      "name": "Lochinvar National Park",
+      "area": "Southern Province",
+      "city": "Southern Province",
+      "wikidata": "Q503514",
+      "lat": -15.666667,
+      "lon": 27.25,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Lochinvar National Park lies south west of Lusaka in Zambia, on the south side of the Kafue River.",
+        "es": "El parque nacional de Lochinvar se encuentra al sur oeste de Lusaka, en Zambia, en el lado sur del río Kafue."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lochinvar National Park",
+          "url": "https://en.wikipedia.org/wiki/Lochinvar_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Lochinvar",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Lochinvar"
+        }
+      },
+      "image": {
+        "file": "Lochinvar_National_Park.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lochinvar_National_Park.png",
+        "author": "Parksandrick",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "zm-blue-lagoon-national-park",
+      "name": "Blue Lagoon National Park",
+      "area": "Central Province",
+      "city": "Central Province",
+      "wikidata": "Q882447",
+      "lat": -15.666667,
+      "lon": 27.25,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Blue Lagoon National Park is a small wildlife haven in the northern part of the Kafue Flats in Zambia's Central Province.",
+        "es": "El Parque Nacional de Blue Lagoon o Laguna Azul es un pequeño refugio de vida silvestre en la parte norte de los Llanos del Kafue, en la provincia Central de Zambia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Blue Lagoon National Park",
+          "url": "https://en.wikipedia.org/wiki/Blue_Lagoon_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Blue Lagoon",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Blue_Lagoon"
+        }
+      }
+    },
+    {
+      "id": "zm-isangano-national-park",
+      "name": "Isangano National Park",
+      "area": "Northern Province",
+      "city": "Northern Province",
+      "wikidata": "Q1673711",
+      "lat": -11.25,
+      "lon": 30.666667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Isangano National Park is a national park of 840 square kilometres in the Northern Province of Zambia, on the northern margin of the Bangweulu Wetlands, comprising a mixture of wetlands and miombo dryland.",
+        "es": "El Parque nacional de Isangano se encuentra en la Provincia del Norte de Zambia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Isangano National Park",
+          "url": "https://en.wikipedia.org/wiki/Isangano_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Isangano",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Isangano"
+        }
+      }
+    },
+    {
+      "id": "zm-lavushi-manda-national-park",
+      "name": "Lavushi Manda National Park",
+      "area": "Muchinga Province",
+      "city": "Muchinga Province",
+      "wikidata": "Q1264070",
+      "lat": -12.25,
+      "lon": 30.833333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lavushi Manda National Park is a national park in the Muchinga Province of Zambia with an area of 1,500 sq km.",
+        "es": "El Parque nacional de Lavushi Manda se encuentra en la provincia de Muchinga, en el distrito de Lavushimanda, en Zambia, con un área de 1.500 km2 Es el undécimo más grande de los 20 parques nacionales de Zambia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lavushi Manda National Park",
+          "url": "https://en.wikipedia.org/wiki/Lavushi_Manda_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Lavushi Manda",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Lavushi_Manda"
+        }
+      }
+    },
+    {
+      "id": "zm-mambilima-falls",
+      "name": "Mambilima Falls",
+      "area": "Kitwe",
+      "city": "Kitwe",
+      "wikidata": "Q1888142",
+      "lat": -10.544167,
+      "lon": 28.660833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mambilima Falls is a series of rapids on the Luapula River on the boundary between Zambia and the Democratic Republic of the Congo.",
+        "es": "Mambilima Falls is a series of rapids on the Luapula River on the boundary between Zambia and the Democratic Republic of the Congo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mambilima Falls",
+          "url": "https://en.wikipedia.org/wiki/Mambilima_Falls"
+        },
+        "es": {
+          "title": "Mambilima Falls",
+          "url": "https://en.wikipedia.org/wiki/Mambilima_Falls"
+        }
+      }
+    },
+    {
+      "id": "zm-kundalila-falls",
+      "name": "Kundalila Falls",
+      "area": "Central Province",
+      "city": "Central Province",
+      "wikidata": "Q6444278",
+      "lat": -13.1543,
+      "lon": 30.7025,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kundalila Falls is a waterfall on the Kaombe River in Zambia.",
+        "es": "Kundalila Falls is a waterfall on the Kaombe River in Zambia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kundalila Falls",
+          "url": "https://en.wikipedia.org/wiki/Kundalila_Falls"
+        },
+        "es": {
+          "title": "Kundalila Falls",
+          "url": "https://en.wikipedia.org/wiki/Kundalila_Falls"
+        }
+      },
+      "image": {
+        "file": "Kundalila_Falls_downside.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kundalila_Falls_downside.jpg",
+        "author": "Sybryn",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "zm-mambatuta-falls",
+      "name": "Mambatuta Falls",
+      "area": "Ndola",
+      "city": "Ndola",
+      "wikidata": "Q6745507",
+      "lat": -12.374483,
+      "lon": 29.212243,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Mambatuta Falls is a steep waterfall on the Luapula River, which originates in Lake Bangweulu and flows through Zambia and along the border with the Democratic Republic of the Congo into Lake Mweru.",
+        "es": "The Mambatuta Falls is a steep waterfall on the Luapula River, which originates in Lake Bangweulu and flows through Zambia and along the border with the Democratic Republic of the Congo into Lake Mweru."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mambatuta Falls",
+          "url": "https://en.wikipedia.org/wiki/Mambatuta_Falls"
+        },
+        "es": {
+          "title": "Mambatuta Falls",
+          "url": "https://en.wikipedia.org/wiki/Mambatuta_Falls"
+        }
+      }
+    },
+    {
+      "id": "zm-lusaka-national-park",
+      "name": "Lusaka National Park",
+      "area": "Lusaka",
+      "city": "Lusaka",
+      "wikidata": "Q22080882",
+      "lat": -15.5,
+      "lon": 28.383333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lusaka National Park is Zambia's smallest national park located on the south-eastern edge of the city of Lusaka and easily accessible for short daytime visits.",
+        "es": "El parque nacional de Lusaka es un parque nacional que se encuentra a 30 km al sudeste de la ciudad de Lusaka, en Zambia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lusaka National Park",
+          "url": "https://en.wikipedia.org/wiki/Lusaka_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Lusaka",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Lusaka"
+        }
+      }
+    },
+    {
+      "id": "zm-mumbuluma-falls",
+      "name": "Mumbuluma Falls",
+      "area": "Kitwe",
+      "city": "Kitwe",
+      "wikidata": "Q2918962",
+      "lat": -10.93,
+      "lon": 28.736667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mumbuluma Falls are a set of waterfalls just outside Mansa, Zambia in the Luapula Province.",
+        "es": "Las cataratas Mumbuluma son unas serie de saltos del río Luapula, en Zambia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mumbuluma Falls",
+          "url": "https://en.wikipedia.org/wiki/Mumbuluma_Falls"
+        },
+        "es": {
+          "title": "Cataratas Mumbuluma",
+          "url": "https://es.wikipedia.org/wiki/Cataratas_Mumbuluma"
+        }
+      },
+      "image": {
+        "file": "Mumbuluma_falls_-_lower_falls.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mumbuluma_falls_-_lower_falls.jpg",
+        "author": "Isaacgerg",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "zm-chirundu-bridge",
+      "name": "Chirundu Bridge",
+      "area": "Lusaka",
+      "city": "Lusaka",
+      "wikidata": "Q11318541",
+      "lat": -16.037797,
+      "lon": 28.852034,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Chirundu Bridge now consists of two road bridges side by side across the Zambezi River between the small town of Chirundu, Zambia and the village of Chirundu, Zimbabwe.",
+        "es": "The Chirundu Bridge now consists of two road bridges side by side across the Zambezi River between the small town of Chirundu, Zambia and the village of Chirundu, Zimbabwe."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chirundu Bridge",
+          "url": "https://en.wikipedia.org/wiki/Chirundu_Bridge"
+        },
+        "es": {
+          "title": "Chirundu Bridge",
+          "url": "https://en.wikipedia.org/wiki/Chirundu_Bridge"
+        }
+      },
+      "image": {
+        "file": "The_Chirundu_Bridge-edit.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Chirundu_Bridge-edit.jpg",
+        "author": "Michael Jefferies from Stanthorpe, Queensland, Australia",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "zm-child-jesus-cathedral",
+      "name": "Child Jesus Cathedral",
+      "area": "Lusaka",
+      "city": "Lusaka",
+      "wikidata": "Q16565887",
+      "lat": -15.41391,
+      "lon": 28.3152,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Child Jesus Cathedral or simply Cathedral of Lusaka, is a religious building of the Catholic Church which is located in the city of Lusaka the capital of the African country of Zambia.",
+        "es": "La Catedral del Niño Jesús o simplemente Catedral de Lusaka es el nombre que recibe un edificio religioso de la Iglesia católica que se encuentra ubicado en la ciudad de Lusaka la capital del país africano de Zambia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Child Jesus Cathedral, Lusaka",
+          "url": "https://en.wikipedia.org/wiki/Child_Jesus_Cathedral%2C_Lusaka"
+        },
+        "es": {
+          "title": "Catedral del Niño Jesús (Lusaka)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_del_Ni%C3%B1o_Jes%C3%BAs_(Lusaka)"
+        }
+      }
+    },
+    {
+      "id": "zm-cathedral-of-the-holy-cross-lusaka",
+      "name": "Cathedral of the Holy Cross, Lusaka",
+      "area": "Lusaka",
+      "city": "Lusaka",
+      "wikidata": "Q8342874",
+      "lat": -15.4188,
+      "lon": 28.3037,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of the Holy Cross is an Anglican cathedral located in the Cathedral Hill neighbourhood of Lusaka, Zambia, and the seat and mother church of the Diocese of Lusaka.",
+        "es": "La catedral de la Santa Cruz es el principal templo anglicano de Lusaka, capital de Zambia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of the Holy Cross, Lusaka",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_the_Holy_Cross%2C_Lusaka"
+        },
+        "es": {
+          "title": "Catedral de la Santa Cruz (Lusaka)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Santa_Cruz_(Lusaka)"
+        }
+      },
+      "image": {
+        "file": "Cathedral_of_the_Holy_Cross,_Lusaka,_exterior.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Holy_Cross%2C_Lusaka%2C_exterior.jpg",
+        "author": "LittleT889",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "zm-findeco-house",
+      "name": "FINDECO House",
+      "area": "Lusaka",
+      "city": "Lusaka",
+      "wikidata": "Q21007716",
+      "lat": -15.4243,
+      "lon": 28.2838,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "FINDECO House is a skyscraper in Lusaka, Zambia, and is the country's tallest building.",
+        "es": "Findeco House es un edificio de gran altura situado en Lusaka, Zambia, es el más alto del país, con una altura de 90 metros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "FINDECO House",
+          "url": "https://en.wikipedia.org/wiki/FINDECO_House"
+        },
+        "es": {
+          "title": "Findeco House",
+          "url": "https://es.wikipedia.org/wiki/Findeco_House"
+        }
+      },
+      "image": {
+        "file": "Downtown_Lusaka.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Lusaka.JPG",
+        "author": "Matthew Grollnek",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "zm-embassy-park",
+      "name": "Embassy Park",
+      "area": "Lusaka",
+      "city": "Lusaka",
+      "wikidata": "Q107337223",
+      "lat": -15.421608,
+      "lon": 28.309512,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Embassy Park Presidential Burial Site is a national monument and official state burial ground located in Lusaka, the capital city of Zambia.",
+        "es": "Embassy Park Presidential Burial Site is a national monument and official state burial ground located in Lusaka, the capital city of Zambia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Embassy Park Presidential Burial Site",
+          "url": "https://en.wikipedia.org/wiki/Embassy_Park_Presidential_Burial_Site"
+        },
+        "es": {
+          "title": "Embassy Park Presidential Burial Site",
+          "url": "https://en.wikipedia.org/wiki/Embassy_Park_Presidential_Burial_Site"
+        }
+      },
+      "image": {
+        "file": "Embassy_Park_Presidential_Burial.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Embassy_Park_Presidential_Burial.png",
+        "author": "Icem4k",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "zm-dag-hammarskjold-crash-site-memorial",
+      "name": "Dag Hammarskjöld Crash Site Memorial",
+      "area": "Ndola",
+      "city": "Ndola",
+      "wikidata": "Q5208409",
+      "lat": -12.975453,
+      "lon": 28.522911,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Dag Hammarskjöld Memorial Crash Site marks the place of the plane crash in which Dag Hammarskjöld, the second and then-sitting Secretary-General of the United Nations was killed on 17 September 1961, while on a…",
+        "es": "The Dag Hammarskjöld Memorial Crash Site marks the place of the plane crash in which Dag Hammarskjöld, the second and then-sitting Secretary-General of the United Nations was killed on 17 September 1961, while on a…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dag Hammarskjöld Crash Site Memorial",
+          "url": "https://en.wikipedia.org/wiki/Dag_Hammarskj%C3%B6ld_Crash_Site_Memorial"
+        },
+        "es": {
+          "title": "Dag Hammarskjöld Crash Site Memorial",
+          "url": "https://en.wikipedia.org/wiki/Dag_Hammarskj%C3%B6ld_Crash_Site_Memorial"
+        }
+      }
     }
   ]
 }

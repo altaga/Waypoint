@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -336,6 +342,1051 @@
       "lat": 45.7965,
       "lon": 24.15061,
       "phone": "0269/217.691;0369.101.780"
+    },
+    {
+      "id": "ro-bran-castle",
+      "name": "Bran Castle",
+      "area": "Bran",
+      "city": "Bran",
+      "wikidata": "Q390275",
+      "lat": 45.515,
+      "lon": 25.3671,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Bran Castle is a castle in Bran, 25 kilometres southwest of Brașov.",
+        "es": "El castillo de Bran es una fortaleza medieval localizada en la actual Rumania, en la localidad homónima, a 25 kilómetros al suroeste de Braşov."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Bran Castle",
+          "url": "https://en.wikipedia.org/wiki/Bran_Castle"
+        },
+        "es": {
+          "title": "Castillo de Bran",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Bran"
+        }
+      },
+      "image": {
+        "file": "Bran_Castle_TB1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bran_Castle_TB1.jpg",
+        "author": "Todor Bozhinov",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ro-moldoveanu-peak",
+      "name": "Moldoveanu Peak",
+      "area": "Argeș County",
+      "city": "Argeș County",
+      "wikidata": "Q746524",
+      "lat": 45.599439,
+      "lon": 24.736211,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Moldoveanu Peak, at 2,545 metres, is the highest mountain peak in Romania.",
+        "es": "El pico Moldoveanu, con 2544 m de altitud, es la montaña más alta de Rumanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Moldoveanu Peak",
+          "url": "https://en.wikipedia.org/wiki/Moldoveanu_Peak"
+        },
+        "es": {
+          "title": "Pico Moldoveanu",
+          "url": "https://es.wikipedia.org/wiki/Pico_Moldoveanu"
+        }
+      },
+      "image": {
+        "file": "Varful-Moldoveanu-scenery.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Varful-Moldoveanu-scenery.jpg",
+        "author": "Amorphisman",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ro-palace-of-the-parliament",
+      "name": "Palace of the Parliament",
+      "area": "Bucharest",
+      "city": "Bucharest",
+      "wikidata": "Q164150",
+      "lat": 44.4275,
+      "lon": 26.0875,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Palace of the Parliament, initially designed during Communist times as the People's House or the House of the Republic, is the seat of the Parliament of Romania, located atop Dealul Spirii in Bucharest, the…",
+        "es": "El Palacio del Parlamento Rumano es la sede de las dos cámaras del Parlamento de Rumania."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palace of the Parliament",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_the_Parliament"
+        },
+        "es": {
+          "title": "Palacio del Parlamento Rumano",
+          "url": "https://es.wikipedia.org/wiki/Palacio_del_Parlamento_Rumano"
+        }
+      },
+      "image": {
+        "file": "Avenida_de_la_Unión,_Bucarest,_Rumanía,_2016-05-29,_DD_57.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Avenida_de_la_Uni%C3%B3n%2C_Bucarest%2C_Ruman%C3%ADa%2C_2016-05-29%2C_DD_57.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ro-horezu-monastery",
+      "name": "Horezu monastery",
+      "area": "Horezu",
+      "city": "Horezu",
+      "wikidata": "Q733069",
+      "lat": 45.1686,
+      "lon": 24.0069,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Horezu Monastery or Hurezi Monastery was founded in 1690 by Prince Constantin Brâncoveanu in the town of Horezu, Wallachia, Romania.",
+        "es": "El monasterio de Horezu, de culto ortodoxo, fue construido entre los años 1690 y 1693 por el príncipe valaco Constantin Brâncoveanu en la localidad rumana de Horezu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Horezu Monastery",
+          "url": "https://en.wikipedia.org/wiki/Horezu_Monastery"
+        },
+        "es": {
+          "title": "Monasterio de Horezu",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_de_Horezu"
+        }
+      },
+      "image": {
+        "file": "Horezu_church.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Horezu_church.jpg",
+        "author": "Cristian Chirita",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ro-trajan-s-bridge",
+      "name": "Trajan's Bridge",
+      "area": "Drobeta-Turnu Severin",
+      "city": "Drobeta-Turnu Severin",
+      "wikidata": "Q849786",
+      "lat": 44.623769,
+      "lon": 22.66705,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Trajan's Bridge, also called Bridge of Apollodorus over the Danube, was a Roman segmental arch bridge, on the modern Serbian–Romanian border, the first bridge to be built over the lower Danube and considered one of…",
+        "es": "El puente de Trajano, también llamado Puente de Apolodoro sobre el Danubio fue un puente romano, el primero conocido en el bajo Danubio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Trajan's Bridge",
+          "url": "https://en.wikipedia.org/wiki/Trajan's_Bridge"
+        },
+        "es": {
+          "title": "Puente de Trajano",
+          "url": "https://es.wikipedia.org/wiki/Puente_de_Trajano"
+        }
+      },
+      "image": {
+        "file": "Piciorul_Podului_lui_Traian,_malul_românesc_(19_august_2009).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Piciorul_Podului_lui_Traian%2C_malul_rom%C3%A2nesc_(19_august_2009).jpg",
+        "author": "Dan Mihai Pitea",
+        "license": "CC BY-SA 3.0 ro"
+      }
+    },
+    {
+      "id": "ro-peles-castle",
+      "name": "Peleș Castle",
+      "area": "Sinaia",
+      "city": "Sinaia",
+      "wikidata": "Q917702",
+      "website": "https://peles.ro/",
+      "lat": 45.359722,
+      "lon": 25.542778,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Peleș Castle is a Neo-Renaissance palace in the Royal Domain of Sinaia in the Carpathian Mountains, near Sinaia, in Prahova County, Romania, on an existing medieval route linking Transylvania and Wallachia, built…",
+        "es": "El castillo de Valea Peleș o, simplemente, castillo Peleș es un palacio situado en Sinaia, Rumania, construido entre 1873 y 1914 por el arquitecto Karel Liman."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Peleș Castle",
+          "url": "https://en.wikipedia.org/wiki/Pele%C8%99_Castle"
+        },
+        "es": {
+          "title": "Castillo Peleș",
+          "url": "https://es.wikipedia.org/wiki/Castillo_Pele%C8%99"
+        }
+      },
+      "image": {
+        "file": "01_Chateau_Peles.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:01_Chateau_Peles.jpg",
+        "author": "Myrabella",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ro-corvin-castle",
+      "name": "Corvin Castle",
+      "area": "Hunedoara County",
+      "city": "Hunedoara County",
+      "wikidata": "Q126576",
+      "website": "https://castelulcorvinilor.ro/",
+      "lat": 45.7491,
+      "lon": 22.8883,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Corvin Castle, also known as Hunyadi Castle or Hunedoara Castle, is a Gothic-Renaissance castle in Hunedoara, current-day Romania.",
+        "es": "El castillo de Hunyad o castillo de Corvin, una fortaleza medieval localizada al sudoeste de la ciudad de Hunedoara, en la región de Transilvania, es uno de los monumentos de arquitectura gótica más importantes de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Corvin Castle",
+          "url": "https://en.wikipedia.org/wiki/Corvin_Castle"
+        },
+        "es": {
+          "title": "Castillo de Hunyad",
+          "url": "https://es.wikipedia.org/wiki/Castillo_de_Hunyad"
+        }
+      },
+      "image": {
+        "file": "Castelul_Corvinilor_HD.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Castelul_Corvinilor_HD.jpg",
+        "author": "Carcea Daniel",
+        "license": "CC BY-SA 3.0 ro"
+      }
+    },
+    {
+      "id": "ro-danube-bridge",
+      "name": "Danube Bridge",
+      "area": "Ruse",
+      "city": "Ruse",
+      "wikidata": "Q203004",
+      "lat": 43.8875,
+      "lon": 26.007222,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Danube Bridge is a steel truss bridge over the Danube River connecting the Bulgarian bank to the south with the Romanian bank to the north and the cities of Ruse and Giurgiu respectively.",
+        "es": "El Puente Danubio o el Puente de la Amistad es un puente de viga de acero sobre el río Danubio, que conecta el banco de Bulgaria, al sur con el banco rumano al norte y las ciudades de Ruse y Giurgiu, respectivamente."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Danube Bridge",
+          "url": "https://en.wikipedia.org/wiki/Danube_Bridge"
+        },
+        "es": {
+          "title": "Puente Danubio",
+          "url": "https://es.wikipedia.org/wiki/Puente_Danubio"
+        }
+      },
+      "image": {
+        "file": "Most-druschba.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Most-druschba.jpg",
+        "author": "Gonzosft",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ro-retezat-national-park",
+      "name": "Retezat National Park",
+      "area": "Hunedoara County",
+      "city": "Hunedoara County",
+      "wikidata": "Q204931",
+      "lat": 45.333333,
+      "lon": 22.833333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Retezat National Park is a protected area located in the Retezat Mountains in Hunedoara County, Romania.",
+        "es": "El parque nacional Retezat es una reserva natural ubicada en los montes Retezat, una sierra de la cordillera de los Cárpatos, en el distrito de Hunedoara, Rumanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Retezat National Park",
+          "url": "https://en.wikipedia.org/wiki/Retezat_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Retezat",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Retezat"
+        }
+      },
+      "image": {
+        "file": "Retezat_near_camp_Bucura.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Retezat_near_camp_Bucura.JPG",
+        "author": "Igor.skokan at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ro-ada-kaleh",
+      "name": "Ada Kaleh",
+      "area": "Romania",
+      "city": "Romania",
+      "wikidata": "Q346141",
+      "lat": 44.716667,
+      "lon": 22.45,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ada Kaleh was a small island on the Danube, located in Romania, that was submerged during the construction of the Iron Gates hydroelectric plant in 1970.",
+        "es": "Ada Kaleh era una pequeña isla en el Danubio poblada por Pueblo turco que quedó sumergida durante la construcción de la central hidroeléctrica de las Puertas de Hierro en 1970."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ada Kaleh",
+          "url": "https://en.wikipedia.org/wiki/Ada_Kaleh"
+        },
+        "es": {
+          "title": "Ada Kaleh",
+          "url": "https://es.wikipedia.org/wiki/Ada_Kaleh"
+        }
+      },
+      "image": {
+        "file": "Ada-Kaleh.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ada-Kaleh.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ro-new-europe-bridge",
+      "name": "New Europe Bridge",
+      "area": "Vidin",
+      "city": "Vidin",
+      "wikidata": "Q1077240",
+      "lat": 44.005,
+      "lon": 22.9475,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The New Europe Bridge, also known as Danube Bridge 2 is a road and rail bridge between the cities of Vidin, Bulgaria, and Calafat, Romania.",
+        "es": "El puente de Vidin-Calafat o puente II del Danubio es un puente carretero y ferroviario abierto en junio de 2013 entre las poblaciones de Vidin y Calafat."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "New Europe Bridge",
+          "url": "https://en.wikipedia.org/wiki/New_Europe_Bridge"
+        },
+        "es": {
+          "title": "Puente de Vidin-Calafat",
+          "url": "https://es.wikipedia.org/wiki/Puente_de_Vidin-Calafat"
+        }
+      },
+      "image": {
+        "file": "2013-06_Donaubruecke_Vidin.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2013-06_Donaubruecke_Vidin.jpg",
+        "author": "Uwarf",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ro-sarmizegetusa-regia",
+      "name": "Sarmizegetusa Regia",
+      "area": "Orăștioara de Sus",
+      "city": "Orăștioara de Sus",
+      "wikidata": "Q739802",
+      "lat": 45.622778,
+      "lon": 23.310278,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Sarmizegetusa Regia was the capital and the most important military, religious and political centre of the Dacians before the wars with the Roman Empire.",
+        "es": "Sarmizegetusa fue el más importante centro militar, religioso y político de los dacios."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sarmizegetusa Regia",
+          "url": "https://en.wikipedia.org/wiki/Sarmizegetusa_Regia"
+        },
+        "es": {
+          "title": "Sarmizegetusa",
+          "url": "https://es.wikipedia.org/wiki/Sarmizegetusa"
+        }
+      },
+      "image": {
+        "file": "Sarmizegetusa_temples.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sarmizegetusa_temples.jpg",
+        "author": "FDominec",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ro-national-cathedral",
+      "name": "National Cathedral",
+      "area": "Bucharest",
+      "city": "Bucharest",
+      "wikidata": "Q1428093",
+      "website": "https://catedrala-nationala.ro/",
+      "lat": 44.42591,
+      "lon": 26.08226,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The National Cathedral, also known as the People's Salvation Cathedral, is an Eastern Orthodox cathedral in Bucharest, Romania, built to serve as the patriarchal cathedral of the Romanian Orthodox Church.",
+        "es": "La catedral Nacional de Bucarest, también conocida como la catedral de la Salvación del Pueblo, es una gran catedral ortodoxa oriental ubicada en Bucarest, la capital de Rumania, que sirve como catedral patriarcal de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Cathedral of Romania",
+          "url": "https://en.wikipedia.org/wiki/National_Cathedral_of_Romania"
+        },
+        "es": {
+          "title": "Catedral Nacional de Bucarest",
+          "url": "https://es.wikipedia.org/wiki/Catedral_Nacional_de_Bucarest"
+        }
+      },
+      "image": {
+        "file": "National_Cathedral_of_Romania_(2025_November).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:National_Cathedral_of_Romania_(2025_November).jpg",
+        "author": "MIHAIL",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ro-romanian-athenaeum",
+      "name": "Romanian Athenaeum",
+      "area": "Bucharest",
+      "city": "Bucharest",
+      "wikidata": "Q755457",
+      "website": "https://fge.org.ro",
+      "lat": 44.4413,
+      "lon": 26.0973,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Romanian Athenaeum is a concert hall in the center of Bucharest, Romania, and a landmark of the Romanian capital city.",
+        "es": "El Ateneo Rumano es una sala de conciertos situada en el centro de Bucarest, Rumanía y un importante monumento de la ciudad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Romanian Athenaeum",
+          "url": "https://en.wikipedia.org/wiki/Romanian_Athenaeum"
+        },
+        "es": {
+          "title": "Ateneo Rumano",
+          "url": "https://es.wikipedia.org/wiki/Ateneo_Rumano"
+        }
+      },
+      "image": {
+        "file": "Ateneo_Rumano,_Bucarest,_Rumanía,_2016-05-29,_DD_73.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ateneo_Rumano%2C_Bucarest%2C_Ruman%C3%ADa%2C_2016-05-29%2C_DD_73.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ro-black-church",
+      "name": "Black Church",
+      "area": "Brașov",
+      "city": "Brașov",
+      "wikidata": "Q910124",
+      "website": "https://bisericaneagra.ro/",
+      "lat": 45.64101,
+      "lon": 25.58803,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Black Church, stands in the city of Brașov in south-eastern Transylvania, Romania.",
+        "es": "Biserica Neagră o Iglesia Negra es la principal iglesia de Brașov, una ciudad del Sureste de Transilvania, en Rumanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Biserica Neagră",
+          "url": "https://en.wikipedia.org/wiki/Biserica_Neagr%C4%83"
+        },
+        "es": {
+          "title": "Iglesia Negra (Brașov)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_Negra_(Bra%C8%99ov)"
+        }
+      },
+      "image": {
+        "file": "Biserica_Neagră_(48729880193).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Biserica_Neagr%C4%83_(48729880193).jpg",
+        "author": "tomasz przechlewski",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ro-arcul-de-triumf-bucharest",
+      "name": "Arcul de Triumf Bucharest",
+      "area": "Bucharest",
+      "city": "Bucharest",
+      "wikidata": "Q638278",
+      "lat": 44.467278,
+      "lon": 26.078361,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Arcul de Triumf is a triumphal arch located on the Kiseleff Road, in the northern part of Bucharest, Romania.",
+        "es": "El Arcul de Triumf es un arco de triunfo localizado en la zona norte de Bucarest, la capital de Rumanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Arcul de Triumf",
+          "url": "https://en.wikipedia.org/wiki/Arcul_de_Triumf"
+        },
+        "es": {
+          "title": "Arcul de Triumf",
+          "url": "https://es.wikipedia.org/wiki/Arcul_de_Triumf"
+        }
+      },
+      "image": {
+        "file": "Nicolae_Ionescu_-_Pretzel_vendors_in_uniform_in_front_of_the_Triumph_Arch.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nicolae_Ionescu_-_Pretzel_vendors_in_uniform_in_front_of_the_Triumph_Arch.jpg",
+        "author": "Nicolae Ionescu",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ro-movile-cave",
+      "name": "Movile Cave",
+      "area": "Constanța County",
+      "city": "Constanța County",
+      "wikidata": "Q492760",
+      "lat": 43.826667,
+      "lon": 28.557222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Movile Cave is a cave near Mangalia, Constanța County, Romania discovered in 1986 by Cristian Lascu during construction work a few kilometers from the Black Sea coast.",
+        "es": "La Cueva de Movile es una cueva en el condado Constanţa, Rumanía, descubierta por Cristian Lascu en 1986."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Movile Cave",
+          "url": "https://en.wikipedia.org/wiki/Movile_Cave"
+        },
+        "es": {
+          "title": "Cueva de Movile",
+          "url": "https://es.wikipedia.org/wiki/Cueva_de_Movile"
+        }
+      }
+    },
+    {
+      "id": "ro-lake-razelm",
+      "name": "Lake Razelm",
+      "area": "Tulcea County",
+      "city": "Tulcea County",
+      "wikidata": "Q2349738",
+      "lat": 44.826667,
+      "lon": 28.984722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Razelm or Lake Razim is a large freshwater lagoon on the shores of the Black Sea in Romania, south of the Danube Delta and part of its World Heritage Site.",
+        "es": "El lago Razim o lago Razelm es el mayor lago del complejo de limánes, estuarios y lagunas localizados en las riberas del mar Negro, al sur del delta del Danubio, en Rumanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Razelm",
+          "url": "https://en.wikipedia.org/wiki/Lake_Razelm"
+        },
+        "es": {
+          "title": "Lago Razim",
+          "url": "https://es.wikipedia.org/wiki/Lago_Razim"
+        }
+      },
+      "image": {
+        "file": "Argamum.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Argamum.jpg",
+        "author": "MHStudio",
+        "license": "CC BY-SA 3.0 ro"
+      }
+    },
+    {
+      "id": "ro-tropaeum-traiani",
+      "name": "Tropaeum Traiani",
+      "area": "Adamclisi",
+      "city": "Adamclisi",
+      "wikidata": "Q932599",
+      "lat": 44.101917,
+      "lon": 27.955083,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Tropaeum Traiani or Trajan's Trophy lies 1.4 km northeast of the Roman city of Civitas Tropaensium.",
+        "es": "El Tropaeum Traiani es un monumento conmemorativo erigido por Trajano en el año 109 en Dobruja, Rumania, para conmemorar su victoria sobre los dacios en la Batalla de Adamclisi."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tropaeum Traiani",
+          "url": "https://en.wikipedia.org/wiki/Tropaeum_Traiani"
+        },
+        "es": {
+          "title": "Tropaeum Traiani",
+          "url": "https://es.wikipedia.org/wiki/Tropaeum_Traiani"
+        }
+      },
+      "image": {
+        "file": "Vedere_spre_Tropaeum_Traiani.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vedere_spre_Tropaeum_Traiani.jpg",
+        "author": "geomcrae",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ro-poenari-castle",
+      "name": "Poenari Castle",
+      "area": "Căpățânenii Ungureni",
+      "city": "Căpățânenii Ungureni",
+      "wikidata": "Q1013551",
+      "lat": 45.353861,
+      "lon": 24.635222,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Poenari Castle, also known as Poenari Citadel and Poenari Fortress, is a ruined castle in Romania which was a home of Vlad the Impaler.",
+        "es": "El castillo Poenari, también conocido como ciudadela Poenari, es un castillo en ruinas, en el Distrito de Argeș en el valle del río Arges, cerca de las montañas Făgăraş."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Poenari Castle",
+          "url": "https://en.wikipedia.org/wiki/Poenari_Castle"
+        },
+        "es": {
+          "title": "Castillo Poenari",
+          "url": "https://es.wikipedia.org/wiki/Castillo_Poenari"
+        }
+      },
+      "image": {
+        "file": "BurgPoenari.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BurgPoenari.JPG",
+        "author": "L.Kenzel",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ro-negoiu-peak",
+      "name": "Negoiu Peak",
+      "area": "Sibiu County",
+      "city": "Sibiu County",
+      "wikidata": "Q1090036",
+      "lat": 45.584945,
+      "lon": 24.558306,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Negoiu Peak is a mountain peak in the Făgăraș Mountains of the Southern Carpathians, located in Sibiu County, Romania, with an elevation of 2,535 m.",
+        "es": "Negoiu Peak is a mountain peak in the Făgăraș Mountains of the Southern Carpathians, located in Sibiu County, Romania, with an elevation of 2,535 m."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Negoiu Peak",
+          "url": "https://en.wikipedia.org/wiki/Negoiu_Peak"
+        },
+        "es": {
+          "title": "Negoiu Peak",
+          "url": "https://en.wikipedia.org/wiki/Negoiu_Peak"
+        }
+      },
+      "image": {
+        "file": "Negoiu.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Negoiu.jpg",
+        "author": "Civilistul at English Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ro-histria",
+      "name": "Histria",
+      "area": "Constanța County",
+      "city": "Constanța County",
+      "wikidata": "Q1164460",
+      "lat": 44.5475,
+      "lon": 28.774722,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Histria or Istros was founded as a Greek colony or polis on the western coast of the Black Sea near the mouth of the Danube whose banks are today about 70 km away.",
+        "es": "Istros o Histria, como la llamaban los romanos, era el establecimiento griego más antiguo de las costas occidentales del mar Negro."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Histria (ancient city)",
+          "url": "https://en.wikipedia.org/wiki/Histria_(ancient_city)"
+        },
+        "es": {
+          "title": "Istros",
+          "url": "https://es.wikipedia.org/wiki/Istros"
+        }
+      },
+      "image": {
+        "file": "2006_0814Histria_Main_Gate_Roman20060404.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2006_0814Histria_Main_Gate_Roman20060404.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ro-herastrau-park",
+      "name": "Herăstrău Park",
+      "area": "Bucharest",
+      "city": "Bucharest",
+      "wikidata": "Q2074133",
+      "website": "https://www.herastrauparc.ro/",
+      "lat": 44.47921,
+      "lon": 26.08169,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "King Michael I Park, formerly Herăstrău Park, is a large park on the northern side of Bucharest, Romania, around Lake Herăstrău, one of the lakes formed by the Colentina River.",
+        "es": "El Parque Herăstrău es un parque de gran tamaño de la capital de Rumanía, Bucarest."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "King Michael I Park",
+          "url": "https://en.wikipedia.org/wiki/King_Michael_I_Park"
+        },
+        "es": {
+          "title": "Parque Herăstrău",
+          "url": "https://es.wikipedia.org/wiki/Parque_Her%C4%83str%C4%83u"
+        }
+      },
+      "image": {
+        "file": "Parcul_Herastrau.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parcul_Herastrau.jpg",
+        "author": "Al at Dutch Wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ro-romanian-patriarchal-cathedral",
+      "name": "Romanian Patriarchal Cathedral",
+      "area": "Bucharest",
+      "city": "Bucharest",
+      "wikidata": "Q1514860",
+      "lat": 44.42457,
+      "lon": 26.09782,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Romanian Orthodox Patriarchal Cathedral is a functioning religious and civic landmark on Dealul Mitropoliei, in Bucharest, Romania.",
+        "es": "La catedral Patriarcal de Bucarest es una catedral ortodoxa en Bucarest, la capital de Rumanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Romanian Patriarchal Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Romanian_Patriarchal_Cathedral"
+        },
+        "es": {
+          "title": "Catedral patriarcal de Bucarest",
+          "url": "https://es.wikipedia.org/wiki/Catedral_patriarcal_de_Bucarest"
+        }
+      },
+      "image": {
+        "file": "Catedrala_Patriarhală,_București_(2023)_-_IMG_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedrala_Patriarhal%C4%83%2C_Bucure%C8%99ti_(2023)_-_IMG_02.jpg",
+        "author": "Chainwit.",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ro-stavropoleos-monastery",
+      "name": "Stavropoleos Monastery",
+      "area": "Bucharest",
+      "city": "Bucharest",
+      "wikidata": "Q3119683",
+      "lat": 44.431742,
+      "lon": 26.098789,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Stavropoleos Monastery, also known as Stavropoleos Church during the last century when the monastery was dissolved, is an Eastern Orthodox monastery for nuns in central Bucharest, Romania.",
+        "es": "El Monasterio Stavropoleos, también conocido como Iglesia Stavropoleos durante el siglo pasado, cuando el monasterio fue disuelto, es un monasterio ortodoxo para monjas situado en el centro de Bucarest, Rumanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Stavropoleos Monastery",
+          "url": "https://en.wikipedia.org/wiki/Stavropoleos_Monastery"
+        },
+        "es": {
+          "title": "Monasterio Stavropoleos",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_Stavropoleos"
+        }
+      },
+      "image": {
+        "file": "4,_Strada_Stavropoleos,_Bucharest_(Romania).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:4%2C_Strada_Stavropoleos%2C_Bucharest_(Romania).jpg",
+        "author": "Neoclassicism Enthusiast",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ro-university-square",
+      "name": "University Square",
+      "area": "Bucharest",
+      "city": "Bucharest",
+      "wikidata": "Q1850614",
+      "lat": 44.43555,
+      "lon": 26.102347,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "University Square is located in Bucharest city centre, near the University of Bucharest.",
+        "es": "Piața Universității es una céntrica plaza de la ciudad de Bucarest, la capital de Rumanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "University Square, Bucharest",
+          "url": "https://en.wikipedia.org/wiki/University_Square%2C_Bucharest"
+        },
+        "es": {
+          "title": "Piața Universității",
+          "url": "https://es.wikipedia.org/wiki/Pia%C8%9Ba_Universit%C4%83%C8%9Bii"
+        }
+      },
+      "image": {
+        "file": "Bucharest_(8273345834).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bucharest_(8273345834).jpg",
+        "author": "Aleksandr Osipov from Ukraine",
+        "license": "CC BY-SA 2.0"
+      }
     }
   ]
 }

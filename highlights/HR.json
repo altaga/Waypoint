@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -441,6 +447,2049 @@
         "text": "Tu-Sa 10:00-18:00; Su 10:00-14:00; PH off",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "hr-plitvice-lakes-national-park",
+      "name": "Plitvice Lakes National Park",
+      "area": "Karlovac County",
+      "city": "Karlovac County",
+      "wikidata": "Q189849",
+      "website": "https://np-plitvicka-jezera.hr",
+      "lat": 44.880445,
+      "lon": 15.616035,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Plitvice Lakes National Park is one of the oldest and largest national parks in Croatia.",
+        "es": "El Parque Nacional de los Lagos de Plitvice es el más conocido de los parques nacionales croatas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plitvice Lakes National Park",
+          "url": "https://en.wikipedia.org/wiki/Plitvice_Lakes_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de los Lagos de Plitvice",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_los_Lagos_de_Plitvice"
+        }
+      },
+      "image": {
+        "file": "Plitvice_Lakes_National_Park_(2).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plitvice_Lakes_National_Park_(2).jpg",
+        "author": "Pablo BM from London, England",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "hr-krk",
+      "name": "Krk",
+      "area": "Primorje-Gorski Kotar County",
+      "city": "Primorje-Gorski Kotar County",
+      "wikidata": "Q6059",
+      "lat": 45.078889,
+      "lon": 14.600833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Krk is a Croatian island in the northern Adriatic Sea, located near Rijeka in the Bay of Kvarner and part of Primorje-Gorski Kotar county.",
+        "es": "Krk es una isla de Croacia, localizada al norte del mar Adriático, frente a Rijeka, en el golfo de Carnaro y forma parte del condado de Primorje-Gorski Kotar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Krk",
+          "url": "https://en.wikipedia.org/wiki/Krk"
+        },
+        "es": {
+          "title": "Krk",
+          "url": "https://es.wikipedia.org/wiki/Krk"
+        }
+      },
+      "image": {
+        "file": "Krk_krk.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Krk_krk.jpg",
+        "author": "Arne Müseler",
+        "license": "CC BY-SA 3.0 de"
+      }
+    },
+    {
+      "id": "hr-brac",
+      "name": "Brač",
+      "area": "Split-Dalmatia County",
+      "city": "Split-Dalmatia County",
+      "wikidata": "Q922",
+      "lat": 43.311111,
+      "lon": 16.665556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Brač is a Croatian island in the Adriatic Sea, with an area of 396 square kilometres, making it the largest island in Dalmatia, and the third largest in the Adriatic.",
+        "es": "Brač es una isla de la región de Dalmacia, del condado de Split-Dalmacia en la Croacia moderna."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Brač",
+          "url": "https://en.wikipedia.org/wiki/Bra%C4%8D"
+        },
+        "es": {
+          "title": "Brač",
+          "url": "https://es.wikipedia.org/wiki/Bra%C4%8D"
+        }
+      },
+      "image": {
+        "file": "Brac-Hafen.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Brac-Hafen.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-cres",
+      "name": "Cres",
+      "area": "Kvarner",
+      "city": "Kvarner",
+      "wikidata": "Q13280",
+      "lat": 44.960278,
+      "lon": 14.408056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cres is an Adriatic island in west Croatia.",
+        "es": "Cres o Cherso, alemán: Kersch, latín: Crepsa, griego: Χερσος, Chersos) es una isla de la moderna Croacia situada en el mar Adriático."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cres",
+          "url": "https://en.wikipedia.org/wiki/Cres"
+        },
+        "es": {
+          "title": "Cres (isla)",
+          "url": "https://es.wikipedia.org/wiki/Cres_(isla)"
+        }
+      },
+      "image": {
+        "file": "Aerial_image_of_the_northern_part_of_Cres_(view_from_the_south).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_northern_part_of_Cres_(view_from_the_south).jpg",
+        "author": "Carsten Steger",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "hr-diocletian-s-palace",
+      "name": "Diocletian's Palace",
+      "area": "Split",
+      "city": "Split",
+      "wikidata": "Q322287",
+      "lat": 43.508056,
+      "lon": 16.438333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Diocletian's Palace is an ancient Roman palace and fortress complex in Split, Croatia.",
+        "es": "El Palacio de Diocleciano es un monumento situado en la ciudad de Split, Croacia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Diocletian's Palace",
+          "url": "https://en.wikipedia.org/wiki/Diocletian's_Palace"
+        },
+        "es": {
+          "title": "Palacio de Diocleciano",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Diocleciano"
+        }
+      },
+      "image": {
+        "file": "Diocletian's_Palace_(original_appearance).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Diocletian's_Palace_(original_appearance).jpg",
+        "author": "Ernest Hébrard (recoloured by DIREKTOR)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "hr-pag",
+      "name": "Pag",
+      "area": "Kvarner",
+      "city": "Kvarner",
+      "wikidata": "Q209784",
+      "lat": 44.486389,
+      "lon": 14.954167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pag is a Croatian island in the northern Adriatic Sea.",
+        "es": "Pag es una isla de Croacia ubicada en el norte del mar Adriático, en la costa dálmata."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pag (island)",
+          "url": "https://en.wikipedia.org/wiki/Pag_(island)"
+        },
+        "es": {
+          "title": "Pag (isla)",
+          "url": "https://es.wikipedia.org/wiki/Pag_(isla)"
+        }
+      },
+      "image": {
+        "file": "Blick_vom_Velebit-Massiv_auf_die_Insel_Pag.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Blick_vom_Velebit-Massiv_auf_die_Insel_Pag.jpg",
+        "author": "Rootmaker at German Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-stechak",
+      "name": "stechak",
+      "area": "Zagreb",
+      "city": "Zagreb",
+      "wikidata": "Q63724",
+      "lat": 43.655,
+      "lon": 18.236944,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Stećak is the name for monumental medieval tombstones that lie scattered across Bosnia and Herzegovina, and the border parts of Croatia, Montenegro and Serbia.",
+        "es": "Stećak es el nombre para unas monumentales lápidas medievales que se encuentran dispersas en toda Bosnia y Herzegovina, y partes de la frontera de Croacia, Montenegro y Serbia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Stećak",
+          "url": "https://en.wikipedia.org/wiki/Ste%C4%87ak"
+        },
+        "es": {
+          "title": "Stećak",
+          "url": "https://es.wikipedia.org/wiki/Ste%C4%87ak"
+        }
+      },
+      "image": {
+        "file": "Jeden_ze_stecku_na_Radimlji.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jeden_ze_stecku_na_Radimlji.jpg",
+        "author": "Martin Brož",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "hr-rab",
+      "name": "Rab",
+      "area": "Primorje-Gorski Kotar County",
+      "city": "Primorje-Gorski Kotar County",
+      "wikidata": "Q13277",
+      "lat": 44.769444,
+      "lon": 14.774167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rab is an island in the Primorje-Gorski Kotar County in Croatia, located just off the northern Croatian coast in the Adriatic Sea.",
+        "es": "Isla de Rab es una de las islas de la costa dálmata, en la moderna Croacia, situada en el golfo de Kvarner, al norte del mar Adriático."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rab (island)",
+          "url": "https://en.wikipedia.org/wiki/Rab_(island)"
+        },
+        "es": {
+          "title": "Rab (isla)",
+          "url": "https://es.wikipedia.org/wiki/Rab_(isla)"
+        }
+      },
+      "image": {
+        "file": "Rab_Island_from_Velebit.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rab_Island_from_Velebit.jpg",
+        "author": "Julian Nyča",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-losinj",
+      "name": "Lošinj",
+      "area": "Kvarner",
+      "city": "Kvarner",
+      "wikidata": "Q461426",
+      "lat": 44.586667,
+      "lon": 14.407778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lošinj is a Croatian island in the northern Adriatic Sea, in the Kvarner Gulf.",
+        "es": "Lošinj o Lussino es una isla istriana con actual soberanía croata ubicada en el norte del mar Adriático, en el golfo de Carnaro."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lošinj",
+          "url": "https://en.wikipedia.org/wiki/Lo%C5%A1inj"
+        },
+        "es": {
+          "title": "Lošinj",
+          "url": "https://es.wikipedia.org/wiki/Lo%C5%A1inj"
+        }
+      },
+      "image": {
+        "file": "Veli_Losinj_Town_Harbor.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Veli_Losinj_Town_Harbor.jpg",
+        "author": "Daniel Niederl",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "hr-solta",
+      "name": "Šolta",
+      "area": "Split-Dalmatia County",
+      "city": "Split-Dalmatia County",
+      "wikidata": "Q392225",
+      "lat": 43.383611,
+      "lon": 16.29,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Šolta is an island in Croatia. It is situated in the Adriatic Sea in the central Dalmatian archipelago.",
+        "es": "Isla Šolta es una isla en Croacia. Está situada en el Mar Adriático, en el archipiélago dálmata central, al oeste de la isla de Brac, al sur de Split y al este de las islas Drvenik."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Šolta",
+          "url": "https://en.wikipedia.org/wiki/%C5%A0olta"
+        },
+        "es": {
+          "title": "Šolta",
+          "url": "https://es.wikipedia.org/wiki/%C5%A0olta"
+        }
+      },
+      "image": {
+        "file": "Šolta_Stomorska_Nečujam_Hrvatska_2012_a.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:%C5%A0olta_Stomorska_Ne%C4%8Dujam_Hrvatska_2012_a.jpg",
+        "author": "Joadl",
+        "license": "CC BY-SA 3.0 at"
+      }
+    },
+    {
+      "id": "hr-stari-grad",
+      "name": "Stari Grad",
+      "area": "Split-Dalmatia County",
+      "city": "Split-Dalmatia County",
+      "wikidata": "Q220383",
+      "website": "https://stari-grad.hr/",
+      "lat": 43.183333,
+      "lon": 16.583333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Stari Grad is a town on the northern side of the island of Hvar in Dalmatia, Croatia.",
+        "es": "Stari Grad es una pequeña ciudad de Croacia, en el condado de Split-Dalmacia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Stari Grad, Croatia",
+          "url": "https://en.wikipedia.org/wiki/Stari_Grad%2C_Croatia"
+        },
+        "es": {
+          "title": "Stari Grad (Split-Dalmacia) (localidad)",
+          "url": "https://es.wikipedia.org/wiki/Stari_Grad_(Split-Dalmacia)_(localidad)"
+        }
+      }
+    },
+    {
+      "id": "hr-krka-national-park",
+      "name": "Krka National Park",
+      "area": "Šibenik-Knin County",
+      "city": "Šibenik-Knin County",
+      "wikidata": "Q828155",
+      "website": "https://www.npkrka.hr/",
+      "lat": 43.801944,
+      "lon": 15.972778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Krka National Park is one of the Croatian national parks, named after the river Krka that it encloses.",
+        "es": "El parque nacional Krka, está ubicado en Croacia y recibe su nombre del Río Krka."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Krka National Park",
+          "url": "https://en.wikipedia.org/wiki/Krka_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Krka",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Krka"
+        }
+      },
+      "image": {
+        "file": "7_NP_Krka.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:7_NP_Krka.jpg",
+        "author": "Matea Bolčević",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "hr-dugi-otok",
+      "name": "Dugi otok",
+      "area": "Zadar",
+      "city": "Zadar",
+      "wikidata": "Q725802",
+      "lat": 44.018611,
+      "lon": 15.029167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Dugi Otok is part of Croatia and the seventh largest island in the Adriatic Sea.",
+        "es": "Isla Dugi es la séptima isla más grande en el mar Adriático, parte de Croacia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dugi Otok",
+          "url": "https://en.wikipedia.org/wiki/Dugi_Otok"
+        },
+        "es": {
+          "title": "Isla Dugi",
+          "url": "https://es.wikipedia.org/wiki/Isla_Dugi"
+        }
+      },
+      "image": {
+        "file": "Isola_Lunga.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Isola_Lunga.JPG",
+        "author": "No machine-readable author provided. Ivana51~commonswiki assumed (based on copyr",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-zagreb-cathedral",
+      "name": "Zagreb Cathedral",
+      "area": "Zagreb",
+      "city": "Zagreb",
+      "wikidata": "Q312220",
+      "lat": 45.814444,
+      "lon": 15.979722,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Zagreb Cathedral, is a Catholic cathedral in Kaptol, Zagreb.",
+        "es": "La catedral de Zagreb, situada en el barrio de Kaptol de la capital croata, es un templo católico dedicado a la Asunción de María y a San Esteban y San Ladislao de Hungría."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zagreb Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Zagreb_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Zagreb",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Zagreb"
+        }
+      },
+      "image": {
+        "file": "Záhřeb,_katedrála_1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Z%C3%A1h%C5%99eb%2C_katedr%C3%A1la_1.jpg",
+        "author": "VitVit",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "hr-stadion-poljud",
+      "name": "Stadion Poljud",
+      "area": "Split",
+      "city": "Split",
+      "wikidata": "Q841384",
+      "lat": 43.519444,
+      "lon": 16.431667,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Gradski stadion u Poljudu, better known as Stadion Poljud or simply Poljud, is a multi-use stadium in Split, Croatia, which has been the home ground of Hajduk Split football club since 1979.",
+        "es": "El estadio Poljud es un estadio multiusos situado en la ciudad de Split, Croacia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Stadion Poljud",
+          "url": "https://en.wikipedia.org/wiki/Stadion_Poljud"
+        },
+        "es": {
+          "title": "Estadio Poljud",
+          "url": "https://es.wikipedia.org/wiki/Estadio_Poljud"
+        }
+      },
+      "image": {
+        "file": "Poljud_Stadium_with_the_Kozjak_Mountains_in_the_distance.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Poljud_Stadium_with_the_Kozjak_Mountains_in_the_distance.jpg",
+        "author": "Quintin Soloviev",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "hr-goli-otok",
+      "name": "Goli otok",
+      "area": "Primorje-Gorski Kotar County",
+      "city": "Primorje-Gorski Kotar County",
+      "wikidata": "Q541157",
+      "lat": 44.838889,
+      "lon": 14.818611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Goli Otok is a barren, uninhabited island off the Dalmatian coast of Croatia.",
+        "es": "La Isla Goli es una isla frente a la costa norte del Adriático, situada entre el litoral noreste de la isla de Rab y el continente, en lo que hoy es el condado de Primorje-Gorski Kotar, Croacia, La isla es árida y…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Goli Otok",
+          "url": "https://en.wikipedia.org/wiki/Goli_Otok"
+        },
+        "es": {
+          "title": "Isla Goli",
+          "url": "https://es.wikipedia.org/wiki/Isla_Goli"
+        }
+      },
+      "image": {
+        "file": "Aerial_image_of_Goli_otok_(view_from_the_south).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Goli_otok_(view_from_the_south).jpg",
+        "author": "Carsten Steger",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "hr-sibenik-cathedral",
+      "name": "Šibenik Cathedral",
+      "area": "Šibenik",
+      "city": "Šibenik",
+      "wikidata": "Q391973",
+      "lat": 43.735556,
+      "lon": 15.889167,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of St. James or simply Šibenik Cathedral is a triple-nave Catholic cathedral with three apses and a dome in Šibenik, Croatia.",
+        "es": "La Catedral de Santiago es un templo católico en Šibenik, Croacia es el templo principal de la diócesis de Šibenik."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Šibenik Cathedral",
+          "url": "https://en.wikipedia.org/wiki/%C5%A0ibenik_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Santiago (Šibenik)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Santiago_(%C5%A0ibenik)"
+        }
+      },
+      "image": {
+        "file": "HR-Sibenik-Kathedrale-01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:HR-Sibenik-Kathedrale-01.jpg",
+        "author": "SchiDD",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "hr-euphrasian-basilica",
+      "name": "Euphrasian Basilica",
+      "area": "Poreč",
+      "city": "Poreč",
+      "wikidata": "Q645105",
+      "lat": 45.228611,
+      "lon": 13.593611,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Euphrasian Basilica or the Cathedral Basilica of the Assumption of Mary is a Roman Catholic basilica in the Istrian town of Poreč, Croatia.",
+        "es": "La basílica eufrasiana de Poreč es una iglesia católica ubicada en el centro histórico de Poreč en Istria."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Euphrasian Basilica",
+          "url": "https://en.wikipedia.org/wiki/Euphrasian_Basilica"
+        },
+        "es": {
+          "title": "Basílica eufrasiana",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_eufrasiana"
+        }
+      },
+      "image": {
+        "file": "Poreč_Basilica_3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pore%C4%8D_Basilica_3.jpg",
+        "author": "Tiefkuehlfan",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "hr-ugljan",
+      "name": "Ugljan",
+      "area": "Zadar County",
+      "city": "Zadar County",
+      "wikidata": "Q1131774",
+      "lat": 44.091482,
+      "lon": 15.147446,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ugljan is an island in northern Dalmatia, Croatia, and the first in the Zadar Archipelago.",
+        "es": "Ugljan o Ugliano es una isla de Croacia y la más grande en el archipiélago de Zadar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ugljan",
+          "url": "https://en.wikipedia.org/wiki/Ugljan"
+        },
+        "es": {
+          "title": "Ugljan",
+          "url": "https://es.wikipedia.org/wiki/Ugljan"
+        }
+      },
+      "image": {
+        "file": "Ugljan_7_from_st_Mihovila.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ugljan_7_from_st_Mihovila.jpg",
+        "author": "Jean-no",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-pula-arena",
+      "name": "Pula Arena",
+      "area": "Pula",
+      "city": "Pula",
+      "wikidata": "Q474998",
+      "lat": 44.873,
+      "lon": 13.85,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Amphitheatre in Pula, better known as the Pula Arena, is a Roman amphitheatre located in Pula, Istria, Croatia.",
+        "es": "El anfiteatro de Pula, también conocido como Pula Arena, es un anfiteatro romano ubicado en la ciudad croata de Pula."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pula Arena",
+          "url": "https://en.wikipedia.org/wiki/Pula_Arena"
+        },
+        "es": {
+          "title": "Anfiteatro de Pula",
+          "url": "https://es.wikipedia.org/wiki/Anfiteatro_de_Pula"
+        }
+      },
+      "image": {
+        "file": "The_new_old_amphitheater_in_Pula_Istria_(19629095974).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_new_old_amphitheater_in_Pula_Istria_(19629095974).jpg",
+        "author": "Jeroen Komen from Utrecht, Netherlands",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "hr-pasman",
+      "name": "Pašman",
+      "area": "Zadar County",
+      "city": "Zadar County",
+      "wikidata": "Q579274",
+      "lat": 43.9525,
+      "lon": 15.35472,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pašman is an Adriatic island off the coast of northern Dalmatia in Croatia with an area of 60.11 km2, located to the south of Zadar, surrounded by the islands of Ugljan to the northwest, Iž to the west, and Dugi Otok…",
+        "es": "Pašman is an Adriatic island off the coast of northern Dalmatia in Croatia with an area of 60.11 km2, located to the south of Zadar, surrounded by the islands of Ugljan to the northwest, Iž to the west, and Dugi Otok…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pašman",
+          "url": "https://en.wikipedia.org/wiki/Pa%C5%A1man"
+        },
+        "es": {
+          "title": "Pašman",
+          "url": "https://en.wikipedia.org/wiki/Pa%C5%A1man"
+        }
+      },
+      "image": {
+        "file": "Tkon.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tkon.JPG",
+        "author": "Andres rus",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-olib",
+      "name": "Olib",
+      "area": "Zadar County",
+      "city": "Zadar County",
+      "wikidata": "Q634530",
+      "lat": 44.376667,
+      "lon": 14.781111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Olib is a Croatian island in northern Dalmatia, located north-west of Zadar, south-west of Pag, south-east of Lošinj and just east of Silba with an area of 26.14 km2.",
+        "es": "La Isla Olib es una isla de Croacia en el norte de Dalmacia, situada al noroeste de Zadar, en el suroeste de Pag, al sureste de Lošinj y justo al este de Silba."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Olib",
+          "url": "https://en.wikipedia.org/wiki/Olib"
+        },
+        "es": {
+          "title": "Olib (isla)",
+          "url": "https://es.wikipedia.org/wiki/Olib_(isla)"
+        }
+      },
+      "image": {
+        "file": "Olib3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Olib3.jpg",
+        "author": "Matijaolib at English Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-unije",
+      "name": "Unije",
+      "area": "Primorje-Gorski Kotar County",
+      "city": "Primorje-Gorski Kotar County",
+      "wikidata": "Q599986",
+      "lat": 44.633333,
+      "lon": 14.25,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Unije is an island in Croatia. It is part of the Cres-Lošinj archipelago, which is situated at the northern portion of the Adriatic Sea.",
+        "es": "Unije es una isla en Croacia. Es parte del archipiélago de Cres-Lošinj, que está situado en la parte norte del Mar Adriático."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Unije",
+          "url": "https://en.wikipedia.org/wiki/Unije"
+        },
+        "es": {
+          "title": "Unije",
+          "url": "https://es.wikipedia.org/wiki/Unije"
+        }
+      },
+      "image": {
+        "file": "Unije.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Unije.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-salona",
+      "name": "Salona",
+      "area": "Solin",
+      "city": "Solin",
+      "wikidata": "Q1258998",
+      "lat": 43.539444,
+      "lon": 16.483056,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Salona was an ancient city and the capital of the Roman province of Dalmatia near Split, in Croatia.",
+        "es": "Salona fue una antigua ciudad de Iliria que existió durante el primer milenio antes de Cristo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Salona",
+          "url": "https://en.wikipedia.org/wiki/Salona"
+        },
+        "es": {
+          "title": "Salona",
+          "url": "https://es.wikipedia.org/wiki/Salona"
+        }
+      },
+      "image": {
+        "file": "Episcopal_Center_(Salona)_03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Episcopal_Center_(Salona)_03.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "hr-ciovo",
+      "name": "Čiovo",
+      "area": "Split-Dalmatia County",
+      "city": "Split-Dalmatia County",
+      "wikidata": "Q341554",
+      "lat": 43.498889,
+      "lon": 16.304722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Čiovo is an island located off the Adriatic coast in Croatia with an area of 28.8 square kilometres, population of 5,908 inhabitants.",
+        "es": "Isla Čiovo es una pequeña isla situada frente a la costa del Adriático, en Croacia, con una superficie de 28,8 kilómetros cuadrados, posee una población de 6.071 habitantes y su pico más alto alcanza los 218 m."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Čiovo",
+          "url": "https://en.wikipedia.org/wiki/%C4%8Ciovo"
+        },
+        "es": {
+          "title": "Čiovo",
+          "url": "https://es.wikipedia.org/wiki/%C4%8Ciovo"
+        }
+      },
+      "image": {
+        "file": "Chorwacja,_widok_na_wyspę_Ciovo_z_mostu_pomiędzy_wyspą_Ciovo_i_Trogirem.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chorwacja%2C_widok_na_wysp%C4%99_Ciovo_z_mostu_pomi%C4%99dzy_wysp%C4%85_Ciovo_i_Trogirem.JPG",
+        "author": "Rj1979",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "hr-croatian-national-theatre-in-zagreb",
+      "name": "Croatian National Theatre in Zagreb",
+      "area": "Zagreb",
+      "city": "Zagreb",
+      "wikidata": "Q268151",
+      "website": "https://www.hnk.hr/hr/",
+      "lat": 45.8095,
+      "lon": 15.97,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Croatian National Theatre in Zagreb, commonly referred to as HNK Zagreb, is a theatre, opera, and ballet house in Zagreb.",
+        "es": "El Teatro nacional de Croacia en Zagreb está situado en Zagreb, capital de Croacia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Croatian National Theatre, Zagreb",
+          "url": "https://en.wikipedia.org/wiki/Croatian_National_Theatre%2C_Zagreb"
+        },
+        "es": {
+          "title": "Teatro nacional de Croacia (Zagreb)",
+          "url": "https://es.wikipedia.org/wiki/Teatro_nacional_de_Croacia_(Zagreb)"
+        }
+      },
+      "image": {
+        "file": "Teatro_Nacional,_Zagreb,_Croacia,_2014-04-13,_DD_03.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Teatro_Nacional%2C_Zagreb%2C_Croacia%2C_2014-04-13%2C_DD_03.JPG",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-premuda",
+      "name": "Premuda",
+      "area": "Zadar County",
+      "city": "Zadar County",
+      "wikidata": "Q988673",
+      "lat": 44.333333,
+      "lon": 14.6,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Premuda is a small island in Croatia, off the northern Adriatic coast.",
+        "es": "La Isla Premuda es una pequeña isla en Croacia, en la costa norte del Adriático."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Premuda",
+          "url": "https://en.wikipedia.org/wiki/Premuda"
+        },
+        "es": {
+          "title": "Premuda (isla)",
+          "url": "https://es.wikipedia.org/wiki/Premuda_(isla)"
+        }
+      },
+      "image": {
+        "file": "Haven_van_Premuda.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Haven_van_Premuda.JPG",
+        "author": "Tom Cvetko. Original uploader was Tom Cvetko at de.wikipedia",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "hr-silba",
+      "name": "Silba",
+      "area": "Zadar County",
+      "city": "Zadar County",
+      "wikidata": "Q13294",
+      "lat": 44.374722,
+      "lon": 14.695278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Silba is an island in Croatia with an area of 15 km2, northern Dalmatia, south-east of Lošinj, between the islands of Premuda and Olib.",
+        "es": "La Isla Silba es una isla en Croacia, en el norte de Dalmacia, al sureste de Lošinj, entre las islas de Premuda y Olib."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Silba",
+          "url": "https://en.wikipedia.org/wiki/Silba"
+        },
+        "es": {
+          "title": "Silba (isla)",
+          "url": "https://es.wikipedia.org/wiki/Silba_(isla)"
+        }
+      },
+      "image": {
+        "file": "Silba_OnEarth_WMS.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Silba_OnEarth_WMS.png",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "hr-susak",
+      "name": "Susak",
+      "area": "Primorje-Gorski Kotar County",
+      "city": "Primorje-Gorski Kotar County",
+      "wikidata": "Q994174",
+      "lat": 44.509722,
+      "lon": 14.301389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Susak is a small island on the northern Adriatic coast of Croatia.",
+        "es": "La Isla Susak es una pequeña isla en la costa norte del Adriático de Croacia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Susak",
+          "url": "https://en.wikipedia.org/wiki/Susak"
+        },
+        "es": {
+          "title": "Susak",
+          "url": "https://es.wikipedia.org/wiki/Susak"
+        }
+      },
+      "image": {
+        "file": "Susak_Village.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Susak_Village.jpg",
+        "author": "Roman Klementschitz, Vienna, Austria",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "hr-paklenica",
+      "name": "Paklenica",
+      "area": "Lika-Senj County",
+      "city": "Lika-Senj County",
+      "wikidata": "Q732723",
+      "lat": 44.366667,
+      "lon": 15.433333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Paklenica karst river canyon is a national park in Croatia.",
+        "es": "El parque nacional de Paklenica se encuentra en el cañón kárstico del río Paklenica en Starigrad, Dalmacia septentrional, laderas meridionales del monte Velebit, no lejos de Zadar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Paklenica",
+          "url": "https://en.wikipedia.org/wiki/Paklenica"
+        },
+        "es": {
+          "title": "Parque nacional de Paklenica",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Paklenica"
+        }
+      },
+      "image": {
+        "file": "Paklenica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paklenica.jpg",
+        "author": "Donarreiskoffer at English Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-kaprije",
+      "name": "Kaprije",
+      "area": "Šibenik-Knin County",
+      "city": "Šibenik-Knin County",
+      "wikidata": "Q1343928",
+      "lat": 43.691667,
+      "lon": 15.708333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kaprije is an island in the Croatian part of the Adriatic Sea, situated in the Šibenik archipelago.",
+        "es": "La Isla Kaprije es una isla en la parte croata del Mar Adriático."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kaprije",
+          "url": "https://en.wikipedia.org/wiki/Kaprije"
+        },
+        "es": {
+          "title": "Kaprije",
+          "url": "https://es.wikipedia.org/wiki/Kaprije"
+        }
+      },
+      "image": {
+        "file": "Kaprije_westernmost_point.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kaprije_westernmost_point.jpg",
+        "author": "Ante Pletikosić",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "hr-prvic",
+      "name": "Prvić",
+      "area": "Šibenik-Knin County",
+      "city": "Šibenik-Knin County",
+      "wikidata": "Q769901",
+      "lat": 43.73,
+      "lon": 15.795,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Prvić is a small island in the Croatian part of the Adriatic Sea.",
+        "es": "Prvić es una pequeña isla en la parte croata del mar Adriático."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Prvić",
+          "url": "https://en.wikipedia.org/wiki/Prvi%C4%87"
+        },
+        "es": {
+          "title": "Prvić",
+          "url": "https://es.wikipedia.org/wiki/Prvi%C4%87"
+        }
+      },
+      "image": {
+        "file": "Prvic_Luka2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Prvic_Luka2.jpg",
+        "author": "Andres rus",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-vir",
+      "name": "Vir",
+      "area": "Zadar County",
+      "city": "Zadar County",
+      "wikidata": "Q754795",
+      "website": "https://www.otok-vir.info/",
+      "lat": 44.3,
+      "lon": 15.083333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vir is an island on the Croatian coast of the Adriatic Sea with an area of 22 km2.",
+        "es": "Isla Vir es una isla en la costa croata del mar Adriático al norte de la ciudad de Zadar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vir (island)",
+          "url": "https://en.wikipedia.org/wiki/Vir_(island)"
+        },
+        "es": {
+          "title": "Vir",
+          "url": "https://es.wikipedia.org/wiki/Vir"
+        }
+      },
+      "image": {
+        "file": "Vir-Bastion.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vir-Bastion.jpg",
+        "author": "Klippiti",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "hr-ilovik",
+      "name": "Ilovik",
+      "area": "Primorje-Gorski Kotar County",
+      "city": "Primorje-Gorski Kotar County",
+      "wikidata": "Q995061",
+      "lat": 44.466667,
+      "lon": 14.55,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The islands of Ilovik and Sveti Petar are located in Croatia south of the island Lošinj, separated by the Strait of Ilovik.",
+        "es": "La Isla Ilovik Está ubicada en Croacia al sur de la isla de Losinj, separada de esta por el estrecho de Ilovik ."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ilovik",
+          "url": "https://en.wikipedia.org/wiki/Ilovik"
+        },
+        "es": {
+          "title": "Ilovik",
+          "url": "https://es.wikipedia.org/wiki/Ilovik"
+        }
+      },
+      "image": {
+        "file": "Ilovik_island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ilovik_island.jpg",
+        "author": "Darko Tepert Donatus",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "hr-drvenik-veli",
+      "name": "Drvenik Veli",
+      "area": "Split-Dalmatia County",
+      "city": "Split-Dalmatia County",
+      "wikidata": "Q1165734",
+      "lat": 43.444167,
+      "lon": 16.145556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Drvenik Veli is a Croatian island in the Adriatic Sea.",
+        "es": "La isla Drvenik Veli es una isla en la parte croata del Mar Adriático."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Drvenik Veli",
+          "url": "https://en.wikipedia.org/wiki/Drvenik_Veli"
+        },
+        "es": {
+          "title": "Drvenik Veli",
+          "url": "https://es.wikipedia.org/wiki/Drvenik_Veli"
+        }
+      },
+      "image": {
+        "file": "Drvenik_Mali_i_Drvenik_Veli_4230.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Drvenik_Mali_i_Drvenik_Veli_4230.jpg",
+        "author": "Quahadi Añtó 13:14, 29 July 2012 (UTC)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-cathedral-of-saint-domnius",
+      "name": "Cathedral of Saint Domnius",
+      "area": "Split",
+      "city": "Split",
+      "wikidata": "Q1268475",
+      "lat": 43.508056,
+      "lon": 16.440278,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of Saint Domnius, known locally as the Sveti Dujam or colloquially Sveti Duje, is the Catholic cathedral in Split, Croatia.",
+        "es": "La catedral de San Domnión o de San Duje es una catedral católica situada en Split, Croacia, perteneciente a la arquidiócesis de Split-Makarska."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of Saint Domnius",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_Saint_Domnius"
+        },
+        "es": {
+          "title": "Catedral de Split",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Split"
+        }
+      },
+      "image": {
+        "file": "SvDuje.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:SvDuje.jpg",
+        "author": "Original uploader was Karlo Šiljeg at hr.wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-zirje",
+      "name": "Žirje",
+      "area": "Šibenik",
+      "city": "Šibenik",
+      "wikidata": "Q388024",
+      "lat": 43.652222,
+      "lon": 15.661667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Žirje is an island and a settlement in the Croatian part of the Adriatic Sea.",
+        "es": "La Isla Žirje es una isla y una localidad en la parte croata del mar Adriático."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Žirje, Croatia",
+          "url": "https://en.wikipedia.org/wiki/%C5%BDirje%2C_Croatia"
+        },
+        "es": {
+          "title": "Žirje",
+          "url": "https://es.wikipedia.org/wiki/%C5%BDirje"
+        }
+      },
+      "image": {
+        "file": "Zirje_Croatia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zirje_Croatia.jpg",
+        "author": "Nino",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "hr-church-of-st-donatus",
+      "name": "Church of St. Donatus",
+      "area": "Zadar",
+      "city": "Zadar",
+      "wikidata": "Q426935",
+      "lat": 44.115822,
+      "lon": 15.224475,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of St. Donatus is a Catholic church located in Zadar, Croatia.",
+        "es": "La iglesia de San Donato de Zadar, Croacia, es un templo católico y monumento de estilo prerrománico de principios del siglo IX, considerado como el más importante de su período que se conserva en Dalmacia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of St. Donatus",
+          "url": "https://en.wikipedia.org/wiki/Church_of_St._Donatus"
+        },
+        "es": {
+          "title": "Iglesia de San Donato (Zadar)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Donato_(Zadar)"
+        }
+      },
+      "image": {
+        "file": "Church_of_St._Donatus_in_Zadar_(by_Pudelek).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Church_of_St._Donatus_in_Zadar_(by_Pudelek).JPG",
+        "author": "Pudelek (Marcin Szala)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-kornat",
+      "name": "Kornat",
+      "area": "Murter-Kornati",
+      "city": "Murter-Kornati",
+      "wikidata": "Q1419113",
+      "lat": 43.802778,
+      "lon": 15.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kornat is an island in the Croatian part of the Adriatic Sea, in central Dalmatia.",
+        "es": "La Isla Kornat es una isla en la parte croata del mar Adriático, en el centro de Dalmacia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kornat",
+          "url": "https://en.wikipedia.org/wiki/Kornat"
+        },
+        "es": {
+          "title": "Kornat",
+          "url": "https://es.wikipedia.org/wiki/Kornat"
+        }
+      },
+      "image": {
+        "file": "Kornati.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kornati.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-sestrunj",
+      "name": "Sestrunj",
+      "area": "Zadar County",
+      "city": "Zadar County",
+      "wikidata": "Q1343941",
+      "lat": 44.150281,
+      "lon": 14.999363,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sestrunj is an island in the Croatian part of the Adriatic Sea.",
+        "es": "La Isla Sestrunj es una isla en la parte croata del Mar Adriático."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sestrunj",
+          "url": "https://en.wikipedia.org/wiki/Sestrunj"
+        },
+        "es": {
+          "title": "Sestrunj",
+          "url": "https://es.wikipedia.org/wiki/Sestrunj"
+        }
+      },
+      "image": {
+        "file": "Sestrunj.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sestrunj.JPG",
+        "author": "Andres rus",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-molat",
+      "name": "Molat",
+      "area": "Zadar County",
+      "city": "Zadar County",
+      "wikidata": "Q1362186",
+      "lat": 44.231667,
+      "lon": 14.845833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Molat is a Croatian island in the Adriatic Sea.",
+        "es": "Molat o Melada es una isla de la Dalmacia, en la moderna Croacia del Mar Adriático."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Molat",
+          "url": "https://en.wikipedia.org/wiki/Molat"
+        },
+        "es": {
+          "title": "Molat (isla)",
+          "url": "https://es.wikipedia.org/wiki/Molat_(isla)"
+        }
+      },
+      "image": {
+        "file": "Molat_satelite.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Molat_satelite.png",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "hr-st-mark-s-church-in-zagreb",
+      "name": "St. Mark's Church in Zagreb",
+      "area": "Zagreb",
+      "city": "Zagreb",
+      "wikidata": "Q1637186",
+      "website": "https://zupa-svmarkaev.hr/",
+      "lat": 45.816111,
+      "lon": 15.973889,
+      "phone": "+385 01 485 1611",
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of St. Mark is the parish church of old Zagreb, located in St.",
+        "es": "La Iglesia de San Marcos es la iglesia parroquial del viejo Zagreb, Croacia, localizada en la Plaza de San Marcos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Mark's Church, Zagreb",
+          "url": "https://en.wikipedia.org/wiki/St._Mark's_Church%2C_Zagreb"
+        },
+        "es": {
+          "title": "Iglesia de San Marcos (Zagreb)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Marcos_(Zagreb)"
+        }
+      },
+      "image": {
+        "file": "Zagreb_Church_of_St._Mark_(34411766366).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zagreb_Church_of_St._Mark_(34411766366).jpg",
+        "author": "Jorge Franganillo",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "hr-northern-velebit-national-park",
+      "name": "Northern Velebit National Park",
+      "area": "Lika-Senj County",
+      "city": "Lika-Senj County",
+      "wikidata": "Q591878",
+      "lat": 44.693056,
+      "lon": 15.006944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Northern Velebit National Park is a national park in Croatia that covers 109 km2 of the northern section of the Velebit mountains, the largest mountain range in Croatia.",
+        "es": "El parque nacional Sjeverni Velebit es el parque nacional más reciente en Croacia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Northern Velebit National Park",
+          "url": "https://en.wikipedia.org/wiki/Northern_Velebit_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Sjeverni Velebit",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Sjeverni_Velebit"
+        }
+      },
+      "image": {
+        "file": "Karstformationen_Nationalpark-Nord-Velebit.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Karstformationen_Nationalpark-Nord-Velebit.JPG",
+        "author": "Rootmaker",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-iz",
+      "name": "Iž",
+      "area": "Zadar",
+      "city": "Zadar",
+      "wikidata": "Q1132307",
+      "lat": 44.038611,
+      "lon": 15.113056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Iž is an island in the Zadar Archipelago within the Croatian reaches of the Adriatic Sea.",
+        "es": "Isla Iž es una isla en el archipiélago de Zadar, en la parte croata del mar Adriático."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Iž",
+          "url": "https://en.wikipedia.org/wiki/I%C5%BE"
+        },
+        "es": {
+          "title": "Iž",
+          "url": "https://es.wikipedia.org/wiki/I%C5%BE"
+        }
+      },
+      "image": {
+        "file": "Iz_satelite.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iz_satelite.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "hr-zlarin",
+      "name": "Zlarin",
+      "area": "Šibenik",
+      "city": "Šibenik",
+      "wikidata": "Q119868",
+      "lat": 43.683333,
+      "lon": 15.85,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Zlarin is a small island off the Dalmatian coast of Croatia near the mainland city of Šibenik.",
+        "es": "Zlarin es una pequeña isla de la costa dálmata de Croacia, cerca de la ciudad de Šibenik."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zlarin",
+          "url": "https://en.wikipedia.org/wiki/Zlarin"
+        },
+        "es": {
+          "title": "Zlarin",
+          "url": "https://es.wikipedia.org/wiki/Zlarin"
+        }
+      },
+      "image": {
+        "file": "Zlarinsss.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zlarinsss.JPG",
+        "author": "Shanticm (talk)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-ist",
+      "name": "Ist",
+      "area": "Zadar County",
+      "city": "Zadar County",
+      "wikidata": "Q942466",
+      "lat": 44.274378,
+      "lon": 14.76275,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ist is a small island off the Dalmatian coast of Croatia.",
+        "es": "Ist es una pequeña isla frente a la costa dálmata de Croacia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ist (island)",
+          "url": "https://en.wikipedia.org/wiki/Ist_(island)"
+        },
+        "es": {
+          "title": "Ist (isla)",
+          "url": "https://es.wikipedia.org/wiki/Ist_(isla)"
+        }
+      },
+      "image": {
+        "file": "Croatia_-_Ist.PNG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Croatia_-_Ist.PNG",
+        "author": "edited by M.Minderhoud",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "hr-ban-jelacic-square",
+      "name": "Ban Jelačić Square",
+      "area": "Zagreb",
+      "city": "Zagreb",
+      "wikidata": "Q377002",
+      "lat": 45.813056,
+      "lon": 15.977222,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ban Jelačić Square is the central square of the city of Zagreb, Croatia, named after ban Josip Jelačić.",
+        "es": "La plaza Ban Jelačić es la plaza central de la ciudad de Zagreb, Croacia, llamada así en honor al ban Josip Jelačić."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ban Jelačić Square",
+          "url": "https://en.wikipedia.org/wiki/Ban_Jela%C4%8Di%C4%87_Square"
+        },
+        "es": {
+          "title": "Plaza Ban Jelačić",
+          "url": "https://es.wikipedia.org/wiki/Plaza_Ban_Jela%C4%8Di%C4%87"
+        }
+      },
+      "image": {
+        "file": "Zagreb_(29255640143).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Zagreb_(29255640143).jpg",
+        "author": "Nick Savchenko from Kiev, Ukraine",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "hr-mirogoj-cemetery",
+      "name": "Mirogoj Cemetery",
+      "area": "Zagreb",
+      "city": "Zagreb",
+      "wikidata": "Q1262136",
+      "website": "https://www.gradskagroblja.hr/mirogoj-430/430",
+      "lat": 45.835694,
+      "lon": 15.984444,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mirogoj City Cemetery, also known as Mirogoj Cemetery, is a cemetery park that is considered to be among the more noteworthy landmarks in the city of Zagreb.",
+        "es": "El Cementerio de Mirogoj es un parque cementerio que se considera como uno de los hitos más destacados de la ciudad de Zagreb en Croacia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mirogoj Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Mirogoj_Cemetery"
+        },
+        "es": {
+          "title": "Cementerio de Mirogoj",
+          "url": "https://es.wikipedia.org/wiki/Cementerio_de_Mirogoj"
+        }
+      },
+      "image": {
+        "file": "Mirogoj_Cemetery_Front.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mirogoj_Cemetery_Front.jpg",
+        "author": "Budgiekiller",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-st-mark-s-square",
+      "name": "St. Mark's Square",
+      "area": "Zagreb",
+      "city": "Zagreb",
+      "wikidata": "Q2501733",
+      "lat": 45.816389,
+      "lon": 15.973889,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. Mark's Square is a town square located in the old part of Zagreb, Croatia, known as the Gradec or Gornji grad.",
+        "es": "La plaza de San Marcos es una plaza situada en el casco antiguo de Zagreb, la capital de Croacia, llamada Gradec o Gornji grad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Mark's Square, Zagreb",
+          "url": "https://en.wikipedia.org/wiki/St._Mark's_Square%2C_Zagreb"
+        },
+        "es": {
+          "title": "Plaza de San Marcos (Zagreb)",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_San_Marcos_(Zagreb)"
+        }
+      },
+      "image": {
+        "file": "St._Marks_Sq_Zagreb_pano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St._Marks_Sq_Zagreb_pano.jpg",
+        "author": "Ex13",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "hr-medvedgrad",
+      "name": "Medvedgrad",
+      "area": "Zagreb",
+      "city": "Zagreb",
+      "wikidata": "Q1013127",
+      "lat": 45.869549,
+      "lon": 15.940765,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Medvedgrad is a medieval fortified town located about 10 km north of Zagreb, on the south slopes of Medvednica mountain, approximately halfway from the Croatian capital Zagreb to the mountain top Sljeme.",
+        "es": "Medvedgrad is a medieval fortified town located about 10 km north of Zagreb, on the south slopes of Medvednica mountain, approximately halfway from the Croatian capital Zagreb to the mountain top Sljeme."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Medvedgrad",
+          "url": "https://en.wikipedia.org/wiki/Medvedgrad"
+        },
+        "es": {
+          "title": "Medvedgrad",
+          "url": "https://en.wikipedia.org/wiki/Medvedgrad"
+        }
+      },
+      "image": {
+        "file": "Stari_grad_Medvedgrad_-_Zagreb_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Stari_grad_Medvedgrad_-_Zagreb_02.jpg",
+        "author": "Miroslav.vajdic",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "hr-zagreb-synagogue",
+      "name": "Zagreb Synagogue",
+      "area": "Zagreb",
+      "city": "Zagreb",
+      "wikidata": "Q6333102",
+      "lat": 45.8118,
+      "lon": 15.9781,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Zagreb Synagogue was a former Orthodox Jewish congregation and synagogue, located in Zagreb, in modern-day Croatia.",
+        "es": "La Sinagoga de Zagreb fue el principal lugar de culto de la comunidad judía de Zagreb en la Croacia de hoy en día, desde su construcción en 1867 en el Reino de Croacia-Eslavonia dentro del Imperio austríaco, hasta su…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zagreb Synagogue",
+          "url": "https://en.wikipedia.org/wiki/Zagreb_Synagogue"
+        },
+        "es": {
+          "title": "Sinagoga de Zagreb",
+          "url": "https://es.wikipedia.org/wiki/Sinagoga_de_Zagreb"
+        }
+      },
+      "image": {
+        "file": "Sinagoga1906_11.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sinagoga1906_11.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
       }
     }
   ]

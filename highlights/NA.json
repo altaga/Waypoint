@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -146,6 +152,477 @@
       "wikidata": "Q28863",
       "lat": -22.68472,
       "lon": 14.52278
+    },
+    {
+      "id": "na-namib-naukluft-national-park",
+      "name": "Namib-Naukluft National Park",
+      "area": "Windhoek",
+      "city": "Windhoek",
+      "wikidata": "Q1773441",
+      "lat": -24.546389,
+      "lon": 15.329722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Namib-Naukluft National Park is a national park in western Namibia, situated between the coast of the Atlantic Ocean and the edge of the Great Escarpment.",
+        "es": "El Parque nacional de Namib-Naukluft es un espacio protegido de Namibia que comprende parte del desierto de Namib y la sierra de Naukluft."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Namib-Naukluft National Park",
+          "url": "https://en.wikipedia.org/wiki/Namib-Naukluft_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Namib-Naukluft",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Namib-Naukluft"
+        }
+      },
+      "image": {
+        "file": "NamibNaukluftParkDunes.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NamibNaukluftParkDunes.JPG",
+        "author": "Bjørn Christian Tørrissen",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "na-christ-church-windhoek",
+      "name": "Christ Church, Windhoek",
+      "area": "Windhoek",
+      "city": "Windhoek",
+      "wikidata": "Q1087458",
+      "lat": -22.567778,
+      "lon": 17.087222,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Christ Church is a historic landmark and Lutheran church in Windhoek, Namibia, belonging to the German-speaking Evangelical Lutheran Church in Namibia.",
+        "es": "La Iglesia de Cristo es un hito histórico y una iglesia luterana en la ciudad de Windhoek, la capital del país africano de Namibia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Christ Church, Windhoek",
+          "url": "https://en.wikipedia.org/wiki/Christ_Church%2C_Windhoek"
+        },
+        "es": {
+          "title": "Iglesia de Cristo (Windhoek)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Cristo_(Windhoek)"
+        }
+      },
+      "image": {
+        "file": "Iglesia_de_Cristo,_Windhoek,_Namibia,_2018-08-04,_DD_05.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Cristo%2C_Windhoek%2C_Namibia%2C_2018-08-04%2C_DD_05.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "na-spitzkoppe",
+      "name": "Spitzkoppe",
+      "area": "Windhoek",
+      "city": "Windhoek",
+      "wikidata": "Q2124779",
+      "lat": -21.825627,
+      "lon": 15.195108,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Spitzkoppe is a group of bald granite peaks or inselbergs located between Usakos and Swakopmund in the Namib desert of Namibia.",
+        "es": "El Spitzkoppe es un grupo de picos de granito localizado entre Usakos y Swakopmund, en el Desierto de Namibia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Spitzkoppe",
+          "url": "https://en.wikipedia.org/wiki/Spitzkoppe"
+        },
+        "es": {
+          "title": "Spitzkoppe",
+          "url": "https://es.wikipedia.org/wiki/Spitzkoppe"
+        }
+      }
+    },
+    {
+      "id": "na-the-white-lady",
+      "name": "The White Lady",
+      "area": "Kunene Region",
+      "city": "Kunene Region",
+      "wikidata": "Q263097",
+      "lat": -21.110556,
+      "lon": 14.662722,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The White Lady is a rock painting, located on a panel, which also displays other art work.",
+        "es": "La Dama de Blanco es un conjunto de pinturas rupestres localizado en una gruta en el macizo de Brandberg, situada en Damaraland."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "The White Lady (Namibia)",
+          "url": "https://en.wikipedia.org/wiki/The_White_Lady_(Namibia)"
+        },
+        "es": {
+          "title": "La Dama de Blanco",
+          "url": "https://es.wikipedia.org/wiki/La_Dama_de_Blanco"
+        }
+      },
+      "image": {
+        "file": "Weiße_Dame_Brandberg.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Wei%C3%9Fe_Dame_Brandberg.JPG",
+        "author": "Harald Süpfle",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "na-dorob-national-park",
+      "name": "Dorob National Park",
+      "area": "Windhoek",
+      "city": "Windhoek",
+      "wikidata": "Q1246079",
+      "lat": -22.816694,
+      "lon": 14.611817,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Dorob National Park is a protected area in the Erongo region, along the central Namibian coast, gazetted as a national park under the Nature Conservation Ordinance No.4 of 1975 on 1 December 2010.",
+        "es": "El Parque Nacional Dorob es una zona protegida en Erongo, a lo largo de la costa central de Namibia, que tiene una longitud de 1600 km."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dorob National Park",
+          "url": "https://en.wikipedia.org/wiki/Dorob_National_Park"
+        },
+        "es": {
+          "title": "Parque Nacional Dorob",
+          "url": "https://es.wikipedia.org/wiki/Parque_Nacional_Dorob"
+        }
+      },
+      "image": {
+        "file": "Dorob_Nationalpark.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Dorob_Nationalpark.jpg",
+        "author": "Ebe 1003",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "na-st-mary-s-cathedral-windhoek",
+      "name": "St. Mary's Cathedral, Windhoek",
+      "area": "Windhoek",
+      "city": "Windhoek",
+      "wikidata": "Q1897618",
+      "lat": -22.564667,
+      "lon": 17.082278,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. Mary's Cathedral, known as St. Marien Kathedrale in German, is a Roman Catholic church in Windhoek, Namibia.",
+        "es": "La catedral de Santa María es una iglesia católica en la ciudad de Windhoek, la capital del país africano de Namibia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Mary's Cathedral, Windhoek",
+          "url": "https://en.wikipedia.org/wiki/St._Mary's_Cathedral%2C_Windhoek"
+        },
+        "es": {
+          "title": "Catedral de Santa María (Windhoek)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Santa_Mar%C3%ADa_(Windhoek)"
+        }
+      },
+      "image": {
+        "file": "St._Marien-Kathedrale_Windhoek.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St._Marien-Kathedrale_Windhoek.jpg",
+        "author": "aj82",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "na-heroes-acre",
+      "name": "Heroes' Acre",
+      "area": "Windhoek",
+      "city": "Windhoek",
+      "wikidata": "Q5743019",
+      "lat": -22.6638,
+      "lon": 17.0783,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Heroes' Acre is an official war memorial of the Republic of Namibia.",
+        "es": "El Acre de los Héroes es un monumento de guerra de la República de Namibia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Heroes' Acre (Namibia)",
+          "url": "https://en.wikipedia.org/wiki/Heroes'_Acre_(Namibia)"
+        },
+        "es": {
+          "title": "Acre de los Héroes (Namibia)",
+          "url": "https://es.wikipedia.org/wiki/Acre_de_los_H%C3%A9roes_(Namibia)"
+        }
+      },
+      "image": {
+        "file": "Heldenacker_Namibia_Vogelperspektive._2017.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Heldenacker_Namibia_Vogelperspektive._2017.jpg",
+        "author": "Olga Ernst & Hp.Baumeler",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "na-schwerinsburg",
+      "name": "Schwerinsburg",
+      "area": "Windhoek",
+      "city": "Windhoek",
+      "wikidata": "Q3884267",
+      "lat": -22.573333,
+      "lon": 17.0925,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Schwerinsburg is the biggest of three castles in Windhoek, Namibia.",
+        "es": "El Castillo de Schwerins es el más grande de los tres castillos en la ciudad de Windhoek, capital del país africano de Namibia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Schwerinsburg",
+          "url": "https://en.wikipedia.org/wiki/Schwerinsburg"
+        },
+        "es": {
+          "title": "Schwerinsburg",
+          "url": "https://es.wikipedia.org/wiki/Schwerinsburg"
+        }
+      },
+      "image": {
+        "file": "Schwerinsburg.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Schwerinsburg.JPG",
+        "author": "Sigismund von Dobschütz",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "na-dobra-namibia",
+      "name": "Döbra, Namibia",
+      "area": "Windhoek",
+      "city": "Windhoek",
+      "wikidata": "Q1270930",
+      "lat": -22.39722,
+      "lon": 17.16833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Döbra is a settlement in Namibia, about 25 kilometres north of the capital Windhoek.",
+        "es": "Döbra is a settlement in Namibia, about 25 kilometres north of the capital Windhoek."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Döbra, Namibia",
+          "url": "https://en.wikipedia.org/wiki/D%C3%B6bra%2C_Namibia"
+        },
+        "es": {
+          "title": "Döbra, Namibia",
+          "url": "https://en.wikipedia.org/wiki/D%C3%B6bra%2C_Namibia"
+        }
+      }
+    },
+    {
+      "id": "na-sanderburg",
+      "name": "Sanderburg",
+      "area": "Windhoek",
+      "city": "Windhoek",
+      "wikidata": "Q3884636",
+      "lat": -22.574444,
+      "lon": 17.0925,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Sanderburg is the smallest of three castles in Windhoek, Namibia.",
+        "es": "El Castillo de Sander es el más pequeño de los tres castillos en la ciudad de Windhoek, la capital del país africano de Namibia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sanderburg",
+          "url": "https://en.wikipedia.org/wiki/Sanderburg"
+        },
+        "es": {
+          "title": "Sanderburg",
+          "url": "https://es.wikipedia.org/wiki/Sanderburg"
+        }
+      },
+      "image": {
+        "file": "Sanderburg.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sanderburg.jpg",
+        "author": "Pgallert",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "na-heinitzburg",
+      "name": "Heinitzburg",
+      "area": "Windhoek",
+      "city": "Windhoek",
+      "wikidata": "Q3884677",
+      "lat": -22.574444,
+      "lon": 17.0925,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Heinitzburg is one of the three castles in Windhoek, Namibia.",
+        "es": "El Castillo de Heinitz es uno de los tres castillos en Windhoek, Namibia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Heinitzburg",
+          "url": "https://en.wikipedia.org/wiki/Heinitzburg"
+        },
+        "es": {
+          "title": "Heinitzburg",
+          "url": "https://es.wikipedia.org/wiki/Heinitzburg"
+        }
+      },
+      "image": {
+        "file": "Heynitzburg.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Heynitzburg.JPG",
+        "author": "Sigismund von Dobschütz",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "na-parliament-gardens",
+      "name": "Parliament Gardens",
+      "area": "Windhoek",
+      "city": "Windhoek",
+      "wikidata": "Q11994792",
+      "lat": -22.567,
+      "lon": 17.088,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Parliament Gardens is a small park in downtown Windhoek, Namibia.",
+        "es": "Los Jardines del parlamento es un pequeño parque en el centro de Windhoek, Namibia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Parliament Gardens",
+          "url": "https://en.wikipedia.org/wiki/Parliament_Gardens"
+        },
+        "es": {
+          "title": "Jardines del parlamento",
+          "url": "https://es.wikipedia.org/wiki/Jardines_del_parlamento"
+        }
+      },
+      "image": {
+        "file": "Parliament_gardens,_Windhoek.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parliament_gardens%2C_Windhoek.jpg",
+        "author": "Damien du Toit (coda)",
+        "license": "CC BY 2.0"
+      }
     }
   ]
 }

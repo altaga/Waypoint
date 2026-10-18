@@ -2,7 +2,7 @@
 // least days it needs at each pace. Waypoint's estimate, from two raw inputs, never an official figure:
 //   places     the minutes of the list's places nearest to the city (within 50 km), when the list has any there
 //   population  a floor by city size, because a list of at most 30 places per country cannot hold a big city
-// The larger of the two is used; `basis` says which one that was.
+// The larger of the two is used, but never more than half again the size floor; `basis` says which one that was.
 //   npm run build-city-stays
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
@@ -39,7 +39,7 @@ for (const c of cities) {
   });
   const fromPlaces = mine.reduce((m, p) => m + p.durationMinutes, 0);
   const fromSize = sizeMinutes(c.population);
-  const minutes = Math.max(fromPlaces, fromSize);
+  const minutes = Math.min(Math.max(fromPlaces, fromSize), fromSize * 1.5);
   out[c.id] = {
     name: c.name.en,
     iso: c.iso,

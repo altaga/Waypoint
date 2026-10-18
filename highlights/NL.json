@@ -35,6 +35,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -210,6 +216,376 @@
       },
       "lat": 52.080389,
       "lon": 4.314306
+    },
+    {
+      "id": "nl-concertgebouw",
+      "name": "Concertgebouw",
+      "area": "Amsterdam",
+      "city": "Amsterdam",
+      "wikidata": "Q849957",
+      "website": "https://www.concertgebouw.nl/",
+      "lat": 52.356306,
+      "lon": 4.879083,
+      "category": "experience",
+      "interests": [
+        "art"
+      ],
+      "durationMinutes": 120,
+      "desc": {
+        "en": "The Royal Concertgebouw is a concert hall in Amsterdam, Netherlands.",
+        "es": "El Real Concertgebouw es una sala de conciertos de Ámsterdam, Países Bajos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Concertgebouw, Amsterdam",
+          "url": "https://en.wikipedia.org/wiki/Concertgebouw%2C_Amsterdam"
+        },
+        "es": {
+          "title": "Concertgebouw",
+          "url": "https://es.wikipedia.org/wiki/Concertgebouw"
+        }
+      },
+      "image": {
+        "file": "Concertgebouw_in_Amsterdam_April_2015.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Concertgebouw_in_Amsterdam_April_2015.jpg",
+        "author": "yisris",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "nl-stedelijk-museum-amsterdam",
+      "name": "Stedelijk Museum Amsterdam",
+      "area": "Amsterdam",
+      "city": "Amsterdam",
+      "wikidata": "Q924335",
+      "website": "https://www.stedelijk.nl/",
+      "lat": 52.357778,
+      "lon": 4.879722,
+      "phone": "+31-20-573-2911",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Stedelijk Museum Amsterdam, colloquially known as the Stedelijk, is a museum for modern art, contemporary art, and design located in Amsterdam, Netherlands.",
+        "es": "El Museo Stedelijk, coloquialmente conocido como el Stedelijk, es un museo de arte moderno y arte contemporáneo de la ciudad de Ámsterdam."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Stedelijk Museum Amsterdam",
+          "url": "https://en.wikipedia.org/wiki/Stedelijk_Museum_Amsterdam"
+        },
+        "es": {
+          "title": "Museo Stedelijk",
+          "url": "https://es.wikipedia.org/wiki/Museo_Stedelijk"
+        }
+      },
+      "image": {
+        "file": "De_nieuwe_vleugel_van_het_Stedelijk_Museum_Amsterdam.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:De_nieuwe_vleugel_van_het_Stedelijk_Museum_Amsterdam.jpg",
+        "author": "John Lewis Marshall",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nl-royal-palace-of-amsterdam",
+      "name": "Royal Palace of Amsterdam",
+      "area": "Amsterdam",
+      "city": "Amsterdam",
+      "wikidata": "Q1056152",
+      "website": "https://www.paleisamsterdam.nl/en/",
+      "lat": 52.373167,
+      "lon": 4.891361,
+      "phone": "+31-20-620-4060",
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Royal Palace of Amsterdam in Amsterdam is one of three palaces in the Netherlands which are at the disposal of the monarch by Act of Parliament.",
+        "es": "El Palacio Real de Ámsterdam es uno de los cuatro palacios en los Países Bajos, que está a disposición del monarca de los Países Bajos por ley del Parlamento."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Royal Palace of Amsterdam",
+          "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_Amsterdam"
+        },
+        "es": {
+          "title": "Palacio Real de Ámsterdam",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Real_de_%C3%81msterdam"
+        }
+      },
+      "image": {
+        "file": "Palacio_Real,_Ámsterdam,_Países_Bajos,_2016-05-30,_DD_07-09_HDR.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palacio_Real%2C_%C3%81msterdam%2C_Pa%C3%ADses_Bajos%2C_2016-05-30%2C_DD_07-09_HDR.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nl-dam-square",
+      "name": "Dam Square",
+      "area": "Amsterdam",
+      "city": "Amsterdam",
+      "wikidata": "Q839050",
+      "lat": 52.373056,
+      "lon": 4.892778,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Dam Square, also known as the Dam, is a town square in Amsterdam, the capital and most populous city of the Netherlands.",
+        "es": "La plaza Dam, o simplemente Dam es una plaza de la ciudad de Ámsterdam, la capital de los Países Bajos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Dam Square",
+          "url": "https://en.wikipedia.org/wiki/Dam_Square"
+        },
+        "es": {
+          "title": "Plaza Dam",
+          "url": "https://es.wikipedia.org/wiki/Plaza_Dam"
+        }
+      },
+      "image": {
+        "file": "Amsterdam_-_Dak_van_de_Stad_(14).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Dak_van_de_Stad_(14).jpg",
+        "author": "Sneeuwvlakte",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nl-natura-artis-magistra",
+      "name": "Natura Artis Magistra",
+      "area": "Amsterdam",
+      "city": "Amsterdam",
+      "wikidata": "Q713124",
+      "lat": 52.366111,
+      "lon": 4.916667,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Natura Artis Magistra, commonly known just as Artis, is a zoo and botanical garden in the centre of Amsterdam.",
+        "es": "El Artis Royal Zoo abreviatura de Natura Artis Magistra, es un zoo situado en el centro de Ámsterdam."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Artis (zoo)",
+          "url": "https://en.wikipedia.org/wiki/Artis_(zoo)"
+        },
+        "es": {
+          "title": "Artis",
+          "url": "https://es.wikipedia.org/wiki/Artis"
+        }
+      },
+      "image": {
+        "file": "NL-Artis-ingang.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NL-Artis-ingang.jpg",
+        "author": "Dejonkheer",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "nl-marken",
+      "name": "Marken",
+      "area": "Amsterdam",
+      "city": "Amsterdam",
+      "wikidata": "Q301415",
+      "lat": 52.458056,
+      "lon": 5.106667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Marken is a village in the municipality of Waterland in the province of North Holland, Netherlands.",
+        "es": "Marken es una península que está unida por una carretera en aguas del lago Ijssel, en los Países Bajos, ubicada en el municipio de Waterland en la provincia Holanda Septentrional."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Marken",
+          "url": "https://en.wikipedia.org/wiki/Marken"
+        },
+        "es": {
+          "title": "Marken",
+          "url": "https://es.wikipedia.org/wiki/Marken"
+        }
+      },
+      "image": {
+        "file": "Kerkbuurt_20150413.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kerkbuurt_20150413.jpg",
+        "author": "Hnapel",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nl-zaanse-schans",
+      "name": "Zaanse Schans",
+      "area": "Amsterdam",
+      "city": "Amsterdam",
+      "wikidata": "Q136661",
+      "website": "https://www.dezaanseschans.nl/",
+      "lat": 52.473889,
+      "lon": 4.816389,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Zaanse Schans is a neighbourhood of Zaandam, near Zaandijk, Netherlands.",
+        "es": "Zaanse Schans es un barrio de Zaandam, cerca de Zaandijk en el municipio de Zaanstad en los Países Bajos, en la provincia del Norte de Holanda."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zaanse Schans",
+          "url": "https://en.wikipedia.org/wiki/Zaanse_Schans"
+        },
+        "es": {
+          "title": "Zaanse Schans",
+          "url": "https://es.wikipedia.org/wiki/Zaanse_Schans"
+        }
+      },
+      "image": {
+        "file": "Z.Schans.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Z.Schans.JPG",
+        "author": "Frila",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "nl-westerkerk",
+      "name": "Westerkerk",
+      "area": "Amsterdam",
+      "city": "Amsterdam",
+      "wikidata": "Q1130722",
+      "website": "https://www.westerkerk.nl/",
+      "lat": 52.3745,
+      "lon": 4.8839,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Westerkerk is a Reformed church within Dutch Protestant Calvinism in central Amsterdam, Netherlands.",
+        "es": "The Westerkerk is a Reformed church within Dutch Protestant Calvinism in central Amsterdam, Netherlands."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Westerkerk",
+          "url": "https://en.wikipedia.org/wiki/Westerkerk"
+        },
+        "es": {
+          "title": "Westerkerk",
+          "url": "https://en.wikipedia.org/wiki/Westerkerk"
+        }
+      },
+      "image": {
+        "file": "Amsterdam_(NL),_Westerkerk_--_2015_--_7186.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL)%2C_Westerkerk_--_2015_--_7186.jpg",
+        "author": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "nl-rembrandt-house-museum",
+      "name": "Rembrandt House Museum",
+      "area": "Amsterdam",
+      "city": "Amsterdam",
+      "wikidata": "Q277316",
+      "website": "https://www.rembrandthuis.nl/nl/",
+      "lat": 52.369444,
+      "lon": 4.901389,
+      "phone": "+31-20-520-0400",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Rembrandt House Museum is a museum located in a former house in the Jodenbreestraat, in the center of Amsterdam.",
+        "es": "El Museo Casa de Rembrandt es un museo dedicado a Rembrandt, ubicado en la casa en la que el artista vivió y trabajó entre 1639 y 1658 en Ámsterdam."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rembrandt House Museum",
+          "url": "https://en.wikipedia.org/wiki/Rembrandt_House_Museum"
+        },
+        "es": {
+          "title": "Museo Casa de Rembrandt",
+          "url": "https://es.wikipedia.org/wiki/Museo_Casa_de_Rembrandt"
+        }
+      },
+      "image": {
+        "file": "Rembrandshuis.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rembrandshuis.jpg",
+        "author": "14:43, 17 October 2006",
+        "license": "CC BY-SA 3.0"
+      }
     }
   ]
 }

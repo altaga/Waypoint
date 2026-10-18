@@ -35,6 +35,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -107,6 +113,200 @@
       },
       "lat": 3.58333,
       "lon": 8.76667
+    },
+    {
+      "id": "gq-corisco",
+      "name": "Corisco",
+      "area": "Litoral",
+      "city": "Litoral",
+      "wikidata": "Q749561",
+      "lat": 0.916667,
+      "lon": 9.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Corisco, Mandj, or Mandyi, is a small island of Equatorial Guinea, located 29 km southwest of the Río Muni estuary that defines the border with Gabon.",
+        "es": "Corisco o Mandyi es una pequeña isla que forma parte de Guinea Ecuatorial y está localizada a 29 km al sudoeste del estuario del río Muni que define su frontera con Gabón."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Corisco",
+          "url": "https://en.wikipedia.org/wiki/Corisco"
+        },
+        "es": {
+          "title": "Isla Corisco (Guinea Ecuatorial)",
+          "url": "https://es.wikipedia.org/wiki/Isla_Corisco_(Guinea_Ecuatorial)"
+        }
+      },
+      "image": {
+        "file": "Corisco_Island_Equatorial_Guinea.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corisco_Island_Equatorial_Guinea.jpg",
+        "author": "Bioko Islander",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "gq-elobey-grande",
+      "name": "Elobey Grande",
+      "area": "Litoral",
+      "city": "Litoral",
+      "wikidata": "Q1333186",
+      "lat": 0.983333,
+      "lon": 9.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Elobey Grande, or Great Elobey, is an island of Equatorial Guinea, lying at the mouth of the Mitémélé River.",
+        "es": "Elobey Grande es una isla de Guinea Ecuatorial."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Elobey Grande",
+          "url": "https://en.wikipedia.org/wiki/Elobey_Grande"
+        },
+        "es": {
+          "title": "Elobey Grande",
+          "url": "https://es.wikipedia.org/wiki/Elobey_Grande"
+        }
+      },
+      "image": {
+        "file": "Elobeys.svg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elobeys.svg",
+        "author": "Pallanz",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "gq-elobey-chico",
+      "name": "Elobey Chico",
+      "area": "Litoral",
+      "city": "Litoral",
+      "wikidata": "Q1333176",
+      "lat": 1.000278,
+      "lon": 9.5175,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Elobey Chico, or Little Elobey, is a small island off the coast of Equatorial Guinea, lying 6.5 km from the mouth of the Mitémélé River.",
+        "es": "Elobey Chico es una pequeña isla de Guinea Ecuatorial, situada al noreste de la isla de Elobey Grande en el Estuario del Río Muni."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Elobey Chico",
+          "url": "https://en.wikipedia.org/wiki/Elobey_Chico"
+        },
+        "es": {
+          "title": "Elobey Chico",
+          "url": "https://es.wikipedia.org/wiki/Elobey_Chico"
+        }
+      },
+      "image": {
+        "file": "Elobeys.svg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Elobeys.svg",
+        "author": "Pallanz",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "gq-altos-de-nsork-national-park",
+      "name": "Altos de Nsork National Park",
+      "area": "Q3031638",
+      "city": "Q3031638",
+      "wikidata": "Q4736972",
+      "lat": 1.16,
+      "lon": 11.12,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Altos de Nsork National Park is located in mainland Equatorial Guinea.",
+        "es": "El parque nacional de Los Altos de Nsork es un área protegida del país africano de Guinea Ecuatorial, declarada parque nacional en el año 1988 por medio de la Ley Nº 8/1988."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Altos de Nsork National Park",
+          "url": "https://en.wikipedia.org/wiki/Altos_de_Nsork_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional de Los Altos de Nsork",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_de_Los_Altos_de_Nsork"
+        }
+      },
+      "image": {
+        "file": "Altos_de_Nsork_National_Park,_Equatorial_Guinea_(boundaries).png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Altos_de_Nsork_National_Park%2C_Equatorial_Guinea_(boundaries).png",
+        "author": "Derivative work, from sources in the public domain, by User:Every-leaf-that-trem",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "gq-mbane",
+      "name": "Mbañe",
+      "area": "Litoral",
+      "city": "Litoral",
+      "wikidata": "Q3303496",
+      "lat": 0.810309,
+      "lon": 9.378939,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mbanie Island, also referred to as Mbanié, is an island of Equatorial Guinea in the Gulf of Guinea.",
+        "es": "La isla de Mbañe es un pequeño islote de Guinea Ecuatorial, con unas 8 hectáreas de extensión."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mbanie Island",
+          "url": "https://en.wikipedia.org/wiki/Mbanie_Island"
+        },
+        "es": {
+          "title": "Mbañe",
+          "url": "https://es.wikipedia.org/wiki/Mba%C3%B1e"
+        }
+      }
     }
   ]
 }

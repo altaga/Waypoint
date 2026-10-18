@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -66,6 +72,287 @@
       "wikidata": "Q18379552",
       "lat": -11.70319,
       "lon": 43.25558
+    },
+    {
+      "id": "km-comoros",
+      "name": "Comoros",
+      "area": "Moroni",
+      "city": "Moroni",
+      "wikidata": "Q970",
+      "website": "https://beit-salam.km/",
+      "lat": -12.3,
+      "lon": 43.7,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Comoros, officially the Union of the Comoros, is an archipelagic country made up of three islands in Southeast Africa, located at the northern end of the Mozambique Channel in the Indian Ocean.",
+        "es": "La Unión de las Comoras, o simplemente las Comoras o Comores, es un país independiente formado por tres islas en el sureste de África, situado al extremo norte del canal de Mozambique en el océano Índico, entre el…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Comoros",
+          "url": "https://en.wikipedia.org/wiki/Comoros"
+        },
+        "es": {
+          "title": "Comoras",
+          "url": "https://es.wikipedia.org/wiki/Comoras"
+        }
+      },
+      "image": {
+        "file": "Fish_Harvest.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fish_Harvest.jpg",
+        "author": "Sarahmcq",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "km-anjouan",
+      "name": "Anjouan",
+      "area": "Comoros",
+      "city": "Comoros",
+      "wikidata": "Q231324",
+      "lat": -12.215,
+      "lon": 44.425,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Anjouan is an autonomous volcanic island in the Comoro Islands in the southwestern Indian Ocean, part of the Union of the Comoros.",
+        "es": "Anjouan, también conocida como Ndzuwani o Nzwani, es una isla en las Comoras, la misma posee 424 km² y está localizada en el océano Índico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Anjouan",
+          "url": "https://en.wikipedia.org/wiki/Anjouan"
+        },
+        "es": {
+          "title": "Anjouan",
+          "url": "https://es.wikipedia.org/wiki/Anjouan"
+        }
+      },
+      "image": {
+        "file": "Anjouan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Anjouan.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "km-grande-comore",
+      "name": "Grande Comore",
+      "area": "Moroni",
+      "city": "Moroni",
+      "wikidata": "Q244978",
+      "lat": -11.583333,
+      "lon": 43.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ngazidja, known as Grande Comore in French, and formerly known in English as Comoro, is an island in Comoros off the coast of Africa.",
+        "es": "Gran Comora es una isla en el océano Índico en la costa sur de África."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grande Comore",
+          "url": "https://en.wikipedia.org/wiki/Grande_Comore"
+        },
+        "es": {
+          "title": "Gran Comora",
+          "url": "https://es.wikipedia.org/wiki/Gran_Comora"
+        }
+      },
+      "image": {
+        "file": "Grande_Comore_(Comoros)_map.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Grande_Comore_(Comoros)_map.jpg",
+        "author": "The original uploader was Janneman at German Wikipedia.",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "km-moheli",
+      "name": "Mohéli",
+      "area": "Comoros",
+      "city": "Comoros",
+      "wikidata": "Q271797",
+      "lat": -12.316667,
+      "lon": 43.733333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mohéli, also known as Mwali, is an autonomously-governed island that forms part of the Union of the Comoros.",
+        "es": "La isla autónoma de Mohéli o simplemente Mohéli es una de las tres islas que conforman la nación de las Comoras, posee una superficie 290 km²."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mohéli",
+          "url": "https://en.wikipedia.org/wiki/Moh%C3%A9li"
+        },
+        "es": {
+          "title": "Mohéli",
+          "url": "https://es.wikipedia.org/wiki/Moh%C3%A9li"
+        }
+      },
+      "image": {
+        "file": "Mohéli-Beach.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Moh%C3%A9li-Beach.jpg",
+        "author": "alKomor.com",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "km-mount-karthala",
+      "name": "Mount Karthala",
+      "area": "Moroni",
+      "city": "Moroni",
+      "wikidata": "Q527548",
+      "lat": -11.76028,
+      "lon": 43.35306,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Karthala or Karthola is an active shield volcano and the highest point of the Comoros at 2,361 m above sea level.",
+        "es": "El Karthala es un volcán activo en la isla de Gran Comora, es el punto más alto de las Comoras."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Karthala",
+          "url": "https://en.wikipedia.org/wiki/Mount_Karthala"
+        },
+        "es": {
+          "title": "Karthala",
+          "url": "https://es.wikipedia.org/wiki/Karthala"
+        }
+      },
+      "image": {
+        "file": "Karthala_volcano-Comoros.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Karthala_volcano-Comoros.jpg",
+        "author": "alKomor.com",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "km-la-grille",
+      "name": "La Grille",
+      "area": "Moroni",
+      "city": "Moroni",
+      "wikidata": "Q2746954",
+      "lat": -11.466667,
+      "lon": 43.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "La Grille is a volcano in the Comoros archipelago on the island of Grande Comore.",
+        "es": "La Grille es un volcán en las Unión de las Comoras que está situado en el archipiélago de las Comoras en la isla de Gran Comora."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "La Grille",
+          "url": "https://en.wikipedia.org/wiki/La_Grille"
+        },
+        "es": {
+          "title": "La Grille",
+          "url": "https://es.wikipedia.org/wiki/La_Grille"
+        }
+      },
+      "image": {
+        "file": "Grande_Comore_topographic_map-fr.svg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Grande_Comore_topographic_map-fr.svg",
+        "author": "Ikonact",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "km-st-theresa-of-the-child-jesus-church-moroni",
+      "name": "St. Theresa of the Child Jesus Church, Moroni",
+      "area": "Moroni",
+      "city": "Moroni",
+      "wikidata": "Q24691094",
+      "lat": -11.708694,
+      "lon": 43.252944,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The St. Theresa of the Child Jesus Church is a religious building affiliated with the Roman Catholic Church and located in the city of Moroni, the capital of the archipelago and nation of Comoros in the Indian Ocean.",
+        "es": "La Iglesia de Santa Teresa del Niño Jesús es el nombre que recibe un edificio religioso afiliado a la Iglesia católica y que se encuentra en la ciudad de Moroni la capital del archipiélago y nación africana de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Theresa of the Child Jesus Church, Moroni",
+          "url": "https://en.wikipedia.org/wiki/St._Theresa_of_the_Child_Jesus_Church%2C_Moroni"
+        },
+        "es": {
+          "title": "Iglesia de Santa Teresa del Niño Jesús (Moroni)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Santa_Teresa_del_Ni%C3%B1o_Jes%C3%BAs_(Moroni)"
+        }
+      },
+      "image": {
+        "file": "Catholic_church_in_comoros.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catholic_church_in_comoros.jpg",
+        "author": "TamSpUS",
+        "license": "CC BY-SA 4.0"
+      }
     }
   ]
 }

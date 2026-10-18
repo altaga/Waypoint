@@ -35,6 +35,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -82,6 +88,1590 @@
       },
       "lat": -8.516667,
       "lon": 179.05
+    },
+    {
+      "id": "tv-tuvalu",
+      "name": "Tuvalu",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q672",
+      "lat": -7.475,
+      "lon": 178.005556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tuvalu is an archipelagic country in the Polynesian sub-region of Oceania in the Pacific Ocean, about midway between Hawaii and Australia.",
+        "es": "Tuvalu, conocido como Islas Elice hasta 1978, es un país insular de Oceanía situado en la región de la Polinesia, en el océano Pacífico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tuvalu",
+          "url": "https://en.wikipedia.org/wiki/Tuvalu"
+        },
+        "es": {
+          "title": "Tuvalu",
+          "url": "https://es.wikipedia.org/wiki/Tuvalu"
+        }
+      },
+      "image": {
+        "file": "Nui_atoll.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nui_atoll.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tv-nukulaelae",
+      "name": "Nukulaelae",
+      "area": "Tuvalu",
+      "city": "Tuvalu",
+      "wikidata": "Q128654",
+      "lat": -9.381111,
+      "lon": 179.852222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nukulaelae is an atoll that is part of the nation of Tuvalu, and it has a population of 300.",
+        "es": "Nukulaelae es uno de los nueve atolones de Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nukulaelae",
+          "url": "https://en.wikipedia.org/wiki/Nukulaelae"
+        },
+        "es": {
+          "title": "Nukulaelae",
+          "url": "https://es.wikipedia.org/wiki/Nukulaelae"
+        }
+      },
+      "image": {
+        "file": "Nukulaelae.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nukulaelae.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tv-nui",
+      "name": "Nui",
+      "area": "Tuvalu",
+      "city": "Tuvalu",
+      "wikidata": "Q547997",
+      "lat": -7.216667,
+      "lon": 177.15,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nui is an atoll and one of nine districts of the Pacific Ocean state of Tuvalu.",
+        "es": "Nui es una isla y diversos islotes situados en la Polinesia y uno de los nueve distritos de Tuvalu, en Oceanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nui (atoll)",
+          "url": "https://en.wikipedia.org/wiki/Nui_(atoll)"
+        },
+        "es": {
+          "title": "Nui",
+          "url": "https://es.wikipedia.org/wiki/Nui"
+        }
+      },
+      "image": {
+        "file": "Nui_atoll.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nui_atoll.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tv-niulakita",
+      "name": "Niulakita",
+      "area": "Niutao Island Council",
+      "city": "Niutao Island Council",
+      "wikidata": "Q632489",
+      "lat": -10.75,
+      "lon": 179.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Niulakita is the southernmost island of Tuvalu, and also the name of the only village on this island.",
+        "es": "Niulakita es una de las nueve islas que componen Tuvalu y la que se ubica más al sur del país insular."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Niulakita",
+          "url": "https://en.wikipedia.org/wiki/Niulakita"
+        },
+        "es": {
+          "title": "Niulakita",
+          "url": "https://es.wikipedia.org/wiki/Niulakita"
+        }
+      },
+      "image": {
+        "file": "Niulakita.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Niulakita.png",
+        "author": "USGS/NASA Landsat Program; found and cropped by Szczureq",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tv-vaitupu",
+      "name": "Vaitupu",
+      "area": "Tuvalu",
+      "city": "Tuvalu",
+      "wikidata": "Q632495",
+      "lat": -7.466667,
+      "lon": 178.683333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vaitupu is the largest atoll of the nation of Tuvalu.",
+        "es": "Vaitupu es la isla más grande de la nación oceánica de Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vaitupu",
+          "url": "https://en.wikipedia.org/wiki/Vaitupu"
+        },
+        "es": {
+          "title": "Vaitupu",
+          "url": "https://es.wikipedia.org/wiki/Vaitupu"
+        }
+      },
+      "image": {
+        "file": "Vaitupu_Island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vaitupu_Island.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tv-nukufetau",
+      "name": "Nukufetau",
+      "area": "Tuvalu",
+      "city": "Tuvalu",
+      "wikidata": "Q745924",
+      "lat": -8,
+      "lon": 178.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Nukufetau is an atoll that is part of the nation of Tuvalu.",
+        "es": "Nukufetau es uno de los nueve atolones de Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nukufetau",
+          "url": "https://en.wikipedia.org/wiki/Nukufetau"
+        },
+        "es": {
+          "title": "Nukufetau",
+          "url": "https://es.wikipedia.org/wiki/Nukufetau"
+        }
+      },
+      "image": {
+        "file": "Nukufetau.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nukufetau.jpg",
+        "author": "NASA",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tv-fongafale",
+      "name": "Fongafale",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q731947",
+      "lat": -8.520558,
+      "lon": 179.198731,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fongafale is the largest and most populated of Funafuti's islets in Tuvalu.",
+        "es": "Fongafale es la capital de los islotes del atolón Funafuti, en Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fongafale",
+          "url": "https://en.wikipedia.org/wiki/Fongafale"
+        },
+        "es": {
+          "title": "Fongafale",
+          "url": "https://es.wikipedia.org/wiki/Fongafale"
+        }
+      },
+      "image": {
+        "file": "LiggingFongafale.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:LiggingFongafale.JPG",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tv-savave",
+      "name": "Savave",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q3293321",
+      "lat": -8.033333,
+      "lon": 178.316667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Savave is a village and islet of Nukufetau, Tuvalu, which is on the lagoon side of Fale islet.",
+        "es": "Savave es una pequeña villa e islote ubicado en el atolón Nukufetau, en Tuvalu, un país del océano Pacífico Sur."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Savave",
+          "url": "https://en.wikipedia.org/wiki/Savave"
+        },
+        "es": {
+          "title": "Savave",
+          "url": "https://es.wikipedia.org/wiki/Savave"
+        }
+      }
+    },
+    {
+      "id": "tv-amatuku",
+      "name": "Amatuku",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q3494219",
+      "lat": -8.437778,
+      "lon": 179.171667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Amatuku is an islet of Funafuti, Tuvalu on which the Tuvalu Maritime Training Institute is located.",
+        "es": "Amatuku is an islet of Funafuti, Tuvalu on which the Tuvalu Maritime Training Institute is located."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Amatuku",
+          "url": "https://en.wikipedia.org/wiki/Amatuku"
+        },
+        "es": {
+          "title": "Amatuku",
+          "url": "https://en.wikipedia.org/wiki/Amatuku"
+        }
+      }
+    },
+    {
+      "id": "tv-vasafua",
+      "name": "Vasafua",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q5260330",
+      "lat": -8.566667,
+      "lon": 179.066667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vasafua is an islet of Funafuti, Tuvalu. Vasafua is part of the Funafuti Conservation Area, established in 1996 with the aim of preserving the natural fauna and flora of the area.",
+        "es": "Vasafua es una isla de Funafuti, Tuvalu. Es una de las seis islas dentro del Área de conservación de Funafuti, una zona de 33 kilómetros cuadrados establecido en 1996 con el objetivo de preservar la fauna y la flora…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vasafua",
+          "url": "https://en.wikipedia.org/wiki/Vasafua"
+        },
+        "es": {
+          "title": "Vasafua",
+          "url": "https://es.wikipedia.org/wiki/Vasafua"
+        }
+      }
+    },
+    {
+      "id": "tv-funafala",
+      "name": "Funafala",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q2423894",
+      "lat": -8.6281,
+      "lon": 179.1016,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Funafala is an islet of Funafuti, Tuvalu that is inhabited by five families, with a church also located on the islet.",
+        "es": "Funafala es una isla habitada del sur del atolón de Funafuti, en Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Funafala",
+          "url": "https://en.wikipedia.org/wiki/Funafala"
+        },
+        "es": {
+          "title": "Funafala",
+          "url": "https://es.wikipedia.org/wiki/Funafala"
+        }
+      },
+      "image": {
+        "file": "Ocean_side_Funafuti.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ocean_side_Funafuti.jpg",
+        "author": "Davidarfonjones",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "tv-tepuka",
+      "name": "Tepuka",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q1047935",
+      "lat": -8.4627,
+      "lon": 179.0802,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tepuka is an island eighteen kilometers west of Fongafale, in the northwest of Funafuti, the main atoll of the Oceanian nation of Tuvalu.",
+        "es": "Tepuka is an island eighteen kilometers west of Fongafale, in the northwest of Funafuti, the main atoll of the Oceanian nation of Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tepuka",
+          "url": "https://en.wikipedia.org/wiki/Tepuka"
+        },
+        "es": {
+          "title": "Tepuka",
+          "url": "https://en.wikipedia.org/wiki/Tepuka"
+        }
+      }
+    },
+    {
+      "id": "tv-fenua-tapu",
+      "name": "Fenua Tapu",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q2840927",
+      "lat": -7.245833,
+      "lon": 177.147222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fenua Tapu is an islet of Nui atoll in the Pacific Ocean state of Tuvalu.",
+        "es": "Fenua Tapu es una pequeña isla y aldea situada en el atolón de Nui, en Tuvalu, Oceanía."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fenua Tapu",
+          "url": "https://en.wikipedia.org/wiki/Fenua_Tapu"
+        },
+        "es": {
+          "title": "Fenua Tapu",
+          "url": "https://es.wikipedia.org/wiki/Fenua_Tapu"
+        }
+      }
+    },
+    {
+      "id": "tv-funaota",
+      "name": "Funaota",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q5508737",
+      "lat": -7.933333,
+      "lon": 178.383333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Funaota is an islet that is the northern point of Nukufetau atoll, Tuvalu.",
+        "es": "Funaota is an islet that is the northern point of Nukufetau atoll, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Funaota",
+          "url": "https://en.wikipedia.org/wiki/Funaota"
+        },
+        "es": {
+          "title": "Funaota",
+          "url": "https://en.wikipedia.org/wiki/Funaota"
+        }
+      }
+    },
+    {
+      "id": "tv-avalau",
+      "name": "Avalau",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q4827522",
+      "lat": -8.6396,
+      "lon": 179.0748,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Avalau is an islet within the atoll of Funafuti, Tuvalu.",
+        "es": "Avalau is an islet within the atoll of Funafuti, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Avalau",
+          "url": "https://en.wikipedia.org/wiki/Avalau"
+        },
+        "es": {
+          "title": "Avalau",
+          "url": "https://en.wikipedia.org/wiki/Avalau"
+        }
+      }
+    },
+    {
+      "id": "tv-falaoigo",
+      "name": "Falaoigo",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q5431664",
+      "lat": -8.6251,
+      "lon": 179.079,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Falaoigo is an uninhabited islet of Funafuti, Tuvalu.",
+        "es": "Falaoigo is an uninhabited islet of Funafuti, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Falaoigo",
+          "url": "https://en.wikipedia.org/wiki/Falaoigo"
+        },
+        "es": {
+          "title": "Falaoigo",
+          "url": "https://en.wikipedia.org/wiki/Falaoigo"
+        }
+      }
+    },
+    {
+      "id": "tv-pongalei",
+      "name": "Pongalei",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q7227793",
+      "lat": -7.236111,
+      "lon": 177.163889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pongalei is an islet of Nui atoll in the Pacific Ocean state of Tuvalu.",
+        "es": "Pongalei is an islet of Nui atoll in the Pacific Ocean state of Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pongalei",
+          "url": "https://en.wikipedia.org/wiki/Pongalei"
+        },
+        "es": {
+          "title": "Pongalei",
+          "url": "https://en.wikipedia.org/wiki/Pongalei"
+        }
+      }
+    },
+    {
+      "id": "tv-tefala",
+      "name": "Tefala",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q775910",
+      "lat": -8.6,
+      "lon": 179.083333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tefala is an islet of Funafuti, Tuvalu.",
+        "es": "Tefala is an islet of Funafuti, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tefala",
+          "url": "https://en.wikipedia.org/wiki/Tefala"
+        },
+        "es": {
+          "title": "Tefala",
+          "url": "https://en.wikipedia.org/wiki/Tefala"
+        }
+      }
+    },
+    {
+      "id": "tv-sakalua",
+      "name": "Sakalua",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q7402798",
+      "lat": -7.9902,
+      "lon": 178.3487,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sakalua is an islet of Nukufetau, Tuvalu.",
+        "es": "Sakalua is an islet of Nukufetau, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sakalua",
+          "url": "https://en.wikipedia.org/wiki/Sakalua"
+        },
+        "es": {
+          "title": "Sakalua",
+          "url": "https://en.wikipedia.org/wiki/Sakalua"
+        }
+      }
+    },
+    {
+      "id": "tv-talalolae",
+      "name": "Talalolae",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q7678850",
+      "lat": -7.213889,
+      "lon": 177.161944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Talalolae is an islet located in Nui atoll in the Pacific Ocean state of Tuvalu.",
+        "es": "Talalolae is an islet located in Nui atoll in the Pacific Ocean state of Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Talalolae",
+          "url": "https://en.wikipedia.org/wiki/Talalolae"
+        },
+        "es": {
+          "title": "Talalolae",
+          "url": "https://en.wikipedia.org/wiki/Talalolae"
+        }
+      }
+    },
+    {
+      "id": "tv-temotuloto",
+      "name": "Temotuloto",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q7698221",
+      "lat": -8.0353,
+      "lon": 178.3199,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Temotuloto is an islet of Nukufetau, Tuvalu to the east of Fale islet.",
+        "es": "Temotuloto is an islet of Nukufetau, Tuvalu to the east of Fale islet."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Temotuloto",
+          "url": "https://en.wikipedia.org/wiki/Temotuloto"
+        },
+        "es": {
+          "title": "Temotuloto",
+          "url": "https://en.wikipedia.org/wiki/Temotuloto"
+        }
+      }
+    },
+    {
+      "id": "tv-tokinivae",
+      "name": "Tokinivae",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q7813595",
+      "lat": -7.201389,
+      "lon": 177.155556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tokinivae is an islet of Nui atoll, in the Pacific Ocean state of Tuvalu.",
+        "es": "Tokinivae is an islet of Nui atoll, in the Pacific Ocean state of Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tokinivae",
+          "url": "https://en.wikipedia.org/wiki/Tokinivae"
+        },
+        "es": {
+          "title": "Tokinivae",
+          "url": "https://en.wikipedia.org/wiki/Tokinivae"
+        }
+      }
+    },
+    {
+      "id": "tv-tutanga",
+      "name": "Tutanga",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q7856906",
+      "lat": -8.6275,
+      "lon": 179.0782,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tutanga is an uninhabited islet which is the most southern islet of Funafuti, Tuvalu.",
+        "es": "Tutanga is an uninhabited islet which is the most southern islet of Funafuti, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tutanga",
+          "url": "https://en.wikipedia.org/wiki/Tutanga"
+        },
+        "es": {
+          "title": "Tutanga",
+          "url": "https://en.wikipedia.org/wiki/Tutanga"
+        }
+      }
+    },
+    {
+      "id": "tv-mulitefala",
+      "name": "Mulitefala",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q10333104",
+      "lat": -8.434167,
+      "lon": 179.167222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mulitefala is an islet of Funafuti, Tuvalu.",
+        "es": "Mulitefala is an islet of Funafuti, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mulitefala",
+          "url": "https://en.wikipedia.org/wiki/Mulitefala"
+        },
+        "es": {
+          "title": "Mulitefala",
+          "url": "https://en.wikipedia.org/wiki/Mulitefala"
+        }
+      }
+    },
+    {
+      "id": "tv-pakantou",
+      "name": "Pakantou",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q10343703",
+      "lat": -7.221111,
+      "lon": 177.1625,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pakantou is an islet of Nui atoll in the Pacific Ocean state of Tuvalu.",
+        "es": "Pakantou is an islet of Nui atoll in the Pacific Ocean state of Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pakantou",
+          "url": "https://en.wikipedia.org/wiki/Pakantou"
+        },
+        "es": {
+          "title": "Pakantou",
+          "url": "https://en.wikipedia.org/wiki/Pakantou"
+        }
+      }
+    },
+    {
+      "id": "tv-fualefeke",
+      "name": "Fualefeke",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q3296759",
+      "lat": -8.4274,
+      "lon": 179.1224,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fualefeke is a small islet of Funafuti, Tuvalu.",
+        "es": "Fualefeke is a small islet of Funafuti, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fualefeke",
+          "url": "https://en.wikipedia.org/wiki/Fualefeke"
+        },
+        "es": {
+          "title": "Fualefeke",
+          "url": "https://en.wikipedia.org/wiki/Fualefeke"
+        }
+      },
+      "image": {
+        "file": "Fualifeke_Islet,_Funafuti_Atoll.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fualifeke_Islet%2C_Funafuti_Atoll.jpg",
+        "author": "Angela K. Kepler",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "tv-unimai",
+      "name": "Unimai",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q3297058",
+      "lat": -7.229167,
+      "lon": 177.162778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Unimai is an islet of Nui atoll in the Pacific Ocean state of Tuvalu.",
+        "es": "Unimai is an islet of Nui atoll in the Pacific Ocean state of Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Unimai",
+          "url": "https://en.wikipedia.org/wiki/Unimai"
+        },
+        "es": {
+          "title": "Unimai",
+          "url": "https://en.wikipedia.org/wiki/Unimai"
+        }
+      }
+    },
+    {
+      "id": "tv-piliaieve",
+      "name": "Piliaieve",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q3393323",
+      "lat": -7.224444,
+      "lon": 177.1625,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Piliaieve is an islet in the Pacific Ocean located in the state of Nui, Tuvalu.",
+        "es": "Piliaieve is an islet in the Pacific Ocean located in the state of Nui, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Piliaieve",
+          "url": "https://en.wikipedia.org/wiki/Piliaieve"
+        },
+        "es": {
+          "title": "Piliaieve",
+          "url": "https://en.wikipedia.org/wiki/Piliaieve"
+        }
+      }
+    },
+    {
+      "id": "tv-telikiai",
+      "name": "Telikiai",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q3394329",
+      "lat": -7.197222,
+      "lon": 177.147778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Telikiai is an islet of Nui atoll in the Pacific Ocean state of Tuvalu.",
+        "es": "Meang es una isla situada en el norte del atolón de Nui, en Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Telikiai",
+          "url": "https://en.wikipedia.org/wiki/Telikiai"
+        },
+        "es": {
+          "title": "Meang",
+          "url": "https://es.wikipedia.org/wiki/Meang"
+        }
+      }
+    },
+    {
+      "id": "tv-motupuakaka",
+      "name": "Motupuakaka",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q3394335",
+      "lat": -7.240278,
+      "lon": 177.164444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Motupuakaka is an islet of Nui atoll in the Pacific Ocean state of Tuvalu.",
+        "es": "Motupuakaka is an islet of Nui atoll in the Pacific Ocean state of Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Motupuakaka",
+          "url": "https://en.wikipedia.org/wiki/Motupuakaka"
+        },
+        "es": {
+          "title": "Motupuakaka",
+          "url": "https://en.wikipedia.org/wiki/Motupuakaka"
+        }
+      }
+    },
+    {
+      "id": "tv-fatato",
+      "name": "Fatato",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q5437338",
+      "lat": -8.55,
+      "lon": 179.183333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fatato is an uninhabited islet of Funafuti, Tuvalu.",
+        "es": "Fatato is an uninhabited islet of Funafuti, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fatato",
+          "url": "https://en.wikipedia.org/wiki/Fatato"
+        },
+        "es": {
+          "title": "Fatato",
+          "url": "https://en.wikipedia.org/wiki/Fatato"
+        }
+      }
+    },
+    {
+      "id": "tv-motufetau",
+      "name": "Motufetau",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q6918740",
+      "lat": -8.005,
+      "lon": 178.4083,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Motufetau is a small uninhabited islet of Nukufetau, Tuvalu, which is on the east side of Nukufetau atoll.",
+        "es": "Motufetau es un pequeño islote deshabitado de Nukufetau, Tuvalu, que se encuentra en el lado este del atolón de Nukufetau."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Motufetau",
+          "url": "https://en.wikipedia.org/wiki/Motufetau"
+        },
+        "es": {
+          "title": "Motufetau",
+          "url": "https://es.wikipedia.org/wiki/Motufetau"
+        }
+      }
+    },
+    {
+      "id": "tv-motugie",
+      "name": "Motugie",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q6918742",
+      "lat": -8.6426,
+      "lon": 179.080881,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Motugie is an islet of Funafuti, Tuvalu.",
+        "es": "Motugie is an islet of Funafuti, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Motugie",
+          "url": "https://en.wikipedia.org/wiki/Motugie"
+        },
+        "es": {
+          "title": "Motugie",
+          "url": "https://en.wikipedia.org/wiki/Motugie"
+        }
+      }
+    },
+    {
+      "id": "tv-motuloa",
+      "name": "Motuloa",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q6918766",
+      "lat": -8.6412,
+      "lon": 179.0867,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Motuloa is an islet in the atoll of Funafuti, Tuvalu.",
+        "es": "Motuloa is an islet in the atoll of Funafuti, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Motuloa (Funafuti)",
+          "url": "https://en.wikipedia.org/wiki/Motuloa_(Funafuti)"
+        },
+        "es": {
+          "title": "Motuloa (Funafuti)",
+          "url": "https://en.wikipedia.org/wiki/Motuloa_(Funafuti)"
+        }
+      }
+    },
+    {
+      "id": "tv-teafuaniua",
+      "name": "Teafuaniua",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q7691351",
+      "lat": -7.9553,
+      "lon": 178.4248,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Teafuaniua is an islet on the north-east of Nukufetau atoll, Tuvalu.",
+        "es": "Teafuaniua is an islet on the north-east of Nukufetau atoll, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Teafuaniua",
+          "url": "https://en.wikipedia.org/wiki/Teafuaniua"
+        },
+        "es": {
+          "title": "Teafuaniua",
+          "url": "https://en.wikipedia.org/wiki/Teafuaniua"
+        }
+      }
+    },
+    {
+      "id": "tv-tepuka-vili-vili",
+      "name": "Tepuka Vili Vili",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q7701406",
+      "lat": -8.466667,
+      "lon": 179.083333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tepuka Vili Vili, or Tepuka Savilivili, is an islet of Funafuti, Tuvalu.",
+        "es": "Tepuka Vili Vili es una isla al oeste del atolón de Funafuti, en Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tepuka Vili Vili",
+          "url": "https://en.wikipedia.org/wiki/Tepuka_Vili_Vili"
+        },
+        "es": {
+          "title": "Tepuka Vili Vili",
+          "url": "https://es.wikipedia.org/wiki/Tepuka_Vili_Vili"
+        }
+      }
+    },
+    {
+      "id": "tv-te-afualiku",
+      "name": "Te Afualiku",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q3296767",
+      "lat": -8.433333,
+      "lon": 179.1,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Te Afualiku is an islet of Funafuti, Tuvalu.",
+        "es": "Te Afualiku is an islet of Funafuti, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Te Afualiku",
+          "url": "https://en.wikipedia.org/wiki/Te_Afualiku"
+        },
+        "es": {
+          "title": "Te Afualiku",
+          "url": "https://en.wikipedia.org/wiki/Te_Afualiku"
+        }
+      }
+    },
+    {
+      "id": "tv-mateika",
+      "name": "Mateika",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q3296769",
+      "lat": -8.6,
+      "lon": 179.116667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mateika or Mateiko is an uninhabited islet of Funafuti, Tuvalu.",
+        "es": "Mateika or Mateiko is an uninhabited islet of Funafuti, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mateika",
+          "url": "https://en.wikipedia.org/wiki/Mateika"
+        },
+        "es": {
+          "title": "Mateika",
+          "url": "https://en.wikipedia.org/wiki/Mateika"
+        }
+      }
+    },
+    {
+      "id": "tv-telele",
+      "name": "Telele",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q3296773",
+      "lat": -8.6339,
+      "lon": 179.0984,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Telele is an uninhabited islet of Funafuti, Tuvalu.",
+        "es": "Telele is an uninhabited islet of Funafuti, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Telele",
+          "url": "https://en.wikipedia.org/wiki/Telele"
+        },
+        "es": {
+          "title": "Telele",
+          "url": "https://en.wikipedia.org/wiki/Telele"
+        }
+      }
+    },
+    {
+      "id": "tv-fuagea",
+      "name": "Fuagea",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q3296774",
+      "lat": -8.583333,
+      "lon": 179.083333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fuagea is an islet located in the archipelago of Tuvalu in the south-western part of the atoll of Funafuti.",
+        "es": "Fuagea is an islet located in the archipelago of Tuvalu in the south-western part of the atoll of Funafuti."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fuagea",
+          "url": "https://en.wikipedia.org/wiki/Fuagea"
+        },
+        "es": {
+          "title": "Fuagea",
+          "url": "https://en.wikipedia.org/wiki/Fuagea"
+        }
+      }
+    },
+    {
+      "id": "tv-faiava-lasi",
+      "name": "Faiava Lasi",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q3393668",
+      "lat": -7.9855,
+      "lon": 178.4244,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Faiava Lasi is an islet of Nukufetau, Tuvalu, which is immediately to the south of Lafaga islet at the North East of Nukufetau atoll.",
+        "es": "Faiava Lasi es un islote de Nukufetau, Tuvalu, que se encuentra inmediatamente al sur del islote Lafaga en el noreste del atolón de Nukufetau."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Faiava Lasi",
+          "url": "https://en.wikipedia.org/wiki/Faiava_Lasi"
+        },
+        "es": {
+          "title": "Faiava Lasi",
+          "url": "https://es.wikipedia.org/wiki/Faiava_Lasi"
+        }
+      }
+    },
+    {
+      "id": "tv-motulalo",
+      "name": "Motulalo",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q3394461",
+      "lat": -8.0647,
+      "lon": 178.3771,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Motulalo is the largest islet of Nukufetau, Tuvalu.",
+        "es": "Motulalo is the largest islet of Nukufetau, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Motulalo",
+          "url": "https://en.wikipedia.org/wiki/Motulalo"
+        },
+        "es": {
+          "title": "Motulalo",
+          "url": "https://en.wikipedia.org/wiki/Motulalo"
+        }
+      }
+    },
+    {
+      "id": "tv-fale-fatu",
+      "name": "Fale Fatu",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q5431840",
+      "lat": -8.5825,
+      "lon": 179.115,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fale Fatu is an islet of Funafuti, Tuvalu.",
+        "es": "Fale Fatu is an islet of Funafuti, Tuvalu."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fale Fatu",
+          "url": "https://en.wikipedia.org/wiki/Fale_Fatu"
+        },
+        "es": {
+          "title": "Fale Fatu",
+          "url": "https://en.wikipedia.org/wiki/Fale_Fatu"
+        }
+      }
+    },
+    {
+      "id": "tv-fualopa",
+      "name": "Fualopa",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q5506898",
+      "lat": -8.483333,
+      "lon": 179.066667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Fualopa is an islet of Funafuti, Tuvalu. It is part of the Funafuti Conservation Area, established in 1996 with the aim of preserving the natural fauna and flora of the area.",
+        "es": "Fualopa is an islet of Funafuti, Tuvalu. It is part of the Funafuti Conservation Area, established in 1996 with the aim of preserving the natural fauna and flora of the area."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Fualopa",
+          "url": "https://en.wikipedia.org/wiki/Fualopa"
+        },
+        "es": {
+          "title": "Fualopa",
+          "url": "https://en.wikipedia.org/wiki/Fualopa"
+        }
+      }
+    },
+    {
+      "id": "tv-kongo-loto-lafanga",
+      "name": "Kongo Loto Lafanga",
+      "area": "Funafuti",
+      "city": "Funafuti",
+      "wikidata": "Q6429211",
+      "lat": -7.9893,
+      "lon": 178.4225,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kongo Loto Lafanga is an islet of Nukufetau, Tuvalu, which is south of Lafanga islet in the North East of Nukufetau atoll.",
+        "es": "Kongo Loto Lafanga is an islet of Nukufetau, Tuvalu, which is south of Lafanga islet in the North East of Nukufetau atoll."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kongo Loto Lafanga",
+          "url": "https://en.wikipedia.org/wiki/Kongo_Loto_Lafanga"
+        },
+        "es": {
+          "title": "Kongo Loto Lafanga",
+          "url": "https://en.wikipedia.org/wiki/Kongo_Loto_Lafanga"
+        }
+      }
     }
   ]
 }

@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -424,6 +430,5634 @@
       "website": "https://www.nationalmuseum.gov.ph/our-museums/national-museum-of-natural-history/",
       "lat": 14.58331,
       "lon": 120.98219
+    },
+    {
+      "id": "ph-philippines",
+      "name": "Philippines",
+      "area": "Iloilo City",
+      "city": "Iloilo City",
+      "wikidata": "Q928",
+      "website": "https://www.gov.ph",
+      "lat": 12,
+      "lon": 123,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Philippines, officially the Republic of the Philippines, is an archipelagic country in Southeast Asia.",
+        "es": "Filipinas —oficialmente la República de Filipinas — es un país insular situado en el Sudeste Asiático, sobre el océano Pacífico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Philippines",
+          "url": "https://en.wikipedia.org/wiki/Philippines"
+        },
+        "es": {
+          "title": "Filipinas",
+          "url": "https://es.wikipedia.org/wiki/Filipinas"
+        }
+      },
+      "image": {
+        "file": "Manila_Bay,_Roxas_Boulevard_buildings_with_navy_fleet_(Ermita_and_Malate,_Manila)(2017-12-31).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Manila_Bay%2C_Roxas_Boulevard_buildings_with_navy_fleet_(Ermita_and_Malate%2C_Manila)(2017-12-31).jpg",
+        "author": "Patrick Roque",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-luzon",
+      "name": "Luzon",
+      "area": "Philippines",
+      "city": "Philippines",
+      "wikidata": "Q125384",
+      "lat": 16,
+      "lon": 121,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Luzon is the largest and most populous island in the Philippines.",
+        "es": "Luzón es el nombre de la mayor y más importante isla de Filipinas, tanto política como económicamente, y uno de los tres grandes grupos de islas del país junto con Bisayas y Mindanao."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Luzon",
+          "url": "https://en.wikipedia.org/wiki/Luzon"
+        },
+        "es": {
+          "title": "Luzón",
+          "url": "https://es.wikipedia.org/wiki/Luz%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Northern_Philippines_(Luzon).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Northern_Philippines_(Luzon).jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-mindanao",
+      "name": "Mindanao",
+      "area": "Davao City",
+      "city": "Davao City",
+      "wikidata": "Q124873",
+      "lat": 7.5,
+      "lon": 125,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mindanao is the second-largest island in the Philippines, after Luzon, and seventh-most populous island in the world.",
+        "es": "La isla de Mindanao es una gran isla localizada en aguas del océano Pacífico, la segunda isla más grande del archipiélago y la más oriental de las islas Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mindanao",
+          "url": "https://en.wikipedia.org/wiki/Mindanao"
+        },
+        "es": {
+          "title": "Mindanao",
+          "url": "https://es.wikipedia.org/wiki/Mindanao"
+        }
+      }
+    },
+    {
+      "id": "ph-pinatubo",
+      "name": "Pinatubo",
+      "area": "Mabalacat",
+      "city": "Mabalacat",
+      "wikidata": "Q1451",
+      "lat": 15.13,
+      "lon": 120.35,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Pinatubo is an active stratovolcano in the Zambales Mountains in Luzon in the Philippines.",
+        "es": "El Pinatubo es un volcán activo ubicado en la isla de Luzón en las Filipinas, entre las provincias de Zambales, Bataan y Pampanga."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Pinatubo",
+          "url": "https://en.wikipedia.org/wiki/Mount_Pinatubo"
+        },
+        "es": {
+          "title": "Pinatubo",
+          "url": "https://es.wikipedia.org/wiki/Pinatubo"
+        }
+      },
+      "image": {
+        "file": "Pinatubo_Crater_Lake_(052005).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pinatubo_Crater_Lake_(052005).jpg",
+        "author": "Wildfire2383",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-mayon-volcano",
+      "name": "Mayon Volcano",
+      "area": "Bicol Region",
+      "city": "Bicol Region",
+      "wikidata": "Q1484",
+      "lat": 13.256667,
+      "lon": 123.685,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mayon, also known as Mount Mayon and Mayon Volcano, is an active stratovolcano in the province of Albay in Bicol, Philippines.",
+        "es": "El monte Mayón es un volcán de unos 2,421 m s."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mayon",
+          "url": "https://en.wikipedia.org/wiki/Mayon"
+        },
+        "es": {
+          "title": "Monte Mayón",
+          "url": "https://es.wikipedia.org/wiki/Monte_May%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "MayonVolcano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:MayonVolcano.jpg",
+        "author": "No machine-readable author provided. Nopira assumed (based on copyright claims).",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-leyte",
+      "name": "Leyte",
+      "area": "Eastern Visayas",
+      "city": "Eastern Visayas",
+      "wikidata": "Q211377",
+      "lat": 10.8,
+      "lon": 124.9,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Leyte is an island in the Visayas group of islands in the Philippines.",
+        "es": "Leyte es una isla filipina localizada en el grupo de las Bisayas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Leyte",
+          "url": "https://en.wikipedia.org/wiki/Leyte"
+        },
+        "es": {
+          "title": "Isla de Leyte",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Leyte"
+        }
+      },
+      "image": {
+        "file": "Aerial_view_of_San_Juanico_Bridge.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_San_Juanico_Bridge.jpg",
+        "author": "Rabosajr",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-mindoro",
+      "name": "Mindoro",
+      "area": "Batangas City",
+      "city": "Batangas City",
+      "wikidata": "Q211800",
+      "lat": 12.93,
+      "lon": 121.09,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mindoro is the seventh largest and eighth-most populous island in the Philippines.",
+        "es": "Mindoro es la séptima isla más grande de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mindoro",
+          "url": "https://en.wikipedia.org/wiki/Mindoro"
+        },
+        "es": {
+          "title": "Mindoro",
+          "url": "https://es.wikipedia.org/wiki/Mindoro"
+        }
+      },
+      "image": {
+        "file": "Sabang_(Mindoro)_banner_seafront.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sabang_(Mindoro)_banner_seafront.jpg",
+        "author": "Emmanuel Campos",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-samar-island",
+      "name": "Samar Island",
+      "area": "Eastern Visayas",
+      "city": "Eastern Visayas",
+      "wikidata": "Q219737",
+      "lat": 12.05,
+      "lon": 125.116667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Samar is the third-largest island in the Philippines.",
+        "es": "Sámar es una isla en las Bisayas Orientales en la República de Filipinas y es la tercera isla más grande del país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Samar",
+          "url": "https://en.wikipedia.org/wiki/Samar"
+        },
+        "es": {
+          "title": "Isla de Sámar",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_S%C3%A1mar"
+        }
+      },
+      "image": {
+        "file": "Marabut,_Philippines,_Limestone_outcrops.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Marabut%2C_Philippines%2C_Limestone_outcrops.jpg",
+        "author": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "ph-negros",
+      "name": "Negros",
+      "area": "Negros Island Region",
+      "city": "Negros Island Region",
+      "wikidata": "Q212777",
+      "lat": 10,
+      "lon": 123,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Negros is the fourth largest and third most populous island in the Philippines, with a total land area of 13,309 km2.",
+        "es": "Negros es una isla filipina perteneciente al archipiélago de las Bisayas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Negros",
+          "url": "https://en.wikipedia.org/wiki/Negros"
+        },
+        "es": {
+          "title": "Negros (isla)",
+          "url": "https://es.wikipedia.org/wiki/Negros_(isla)"
+        }
+      },
+      "image": {
+        "file": "Sugarcane_plantations_Bacolod_Philippines.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sugarcane_plantations_Bacolod_Philippines.jpg",
+        "author": "Paolobon140",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "ph-panay",
+      "name": "Panay",
+      "area": "Western Visayas",
+      "city": "Western Visayas",
+      "wikidata": "Q332359",
+      "lat": 11.15,
+      "lon": 122.483333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Panay is the sixth-largest and fourth-most populous island in the Philippines, with a total land area of 12,011 km2 and a total population of 4,669,037 as of 2024 census, similar to Sicily or Bali.",
+        "es": "La isla filipina de Panay se encuentra en las Bisayas Occidentales."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Panay",
+          "url": "https://en.wikipedia.org/wiki/Panay"
+        },
+        "es": {
+          "title": "Panay",
+          "url": "https://es.wikipedia.org/wiki/Panay"
+        }
+      },
+      "image": {
+        "file": "Northwest_Panay_Peninsula_3.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Northwest_Panay_Peninsula_3.jpg",
+        "author": "EnzoBontia",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-mount-apo",
+      "name": "Mount Apo",
+      "area": "Davao City",
+      "city": "Davao City",
+      "wikidata": "Q455963",
+      "lat": 6.9875,
+      "lon": 125.270833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Apo is the highest mountain peak in the Philippines, with an elevation of 2,954 meters above sea level.",
+        "es": "El monte Apo es un gran estratovolcán de Filipinas, que se encuentra en la isla de Mindanao."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Apo",
+          "url": "https://en.wikipedia.org/wiki/Mount_Apo"
+        },
+        "es": {
+          "title": "Monte Apo",
+          "url": "https://es.wikipedia.org/wiki/Monte_Apo"
+        }
+      },
+      "image": {
+        "file": "The_Ring_of_Mt._Apo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Ring_of_Mt._Apo.jpg",
+        "author": "Bro. Jeffrey Pioquinto, SJ",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ph-taal-volcano",
+      "name": "Taal Volcano",
+      "area": "Lipa",
+      "city": "Lipa",
+      "wikidata": "Q818475",
+      "lat": 14.01,
+      "lon": 120.9975,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Taal Volcano, also known as Taal Caldera, is a large caldera filled by Taal Lake in the Philippines.",
+        "es": "El volcán Taál es un volcán activo situado en la costa oeste de la isla de Luzón, en las Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taal Volcano",
+          "url": "https://en.wikipedia.org/wiki/Taal_Volcano"
+        },
+        "es": {
+          "title": "Volcán Taál",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Ta%C3%A1l"
+        }
+      },
+      "image": {
+        "file": "Taal_Volcano_aerial_2013.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taal_Volcano_aerial_2013.jpg",
+        "author": "TheCoffee (Mike Gonzalez)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-puerto-princesa-subterranean-river-national-park",
+      "name": "Puerto Princesa Subterranean River National Park",
+      "area": "Puerto Princesa",
+      "city": "Puerto Princesa",
+      "wikidata": "Q824602",
+      "lat": 10.166667,
+      "lon": 118.916667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Puerto Princesa Subterranean River National Park is a protected area in the Philippines.",
+        "es": "El Parque Nacional del río subterráneo de Puerto Princesa es un parque natural declarado Patrimonio de la Humanidad por Unesco y una de las nuevas siete maravillas naturales del mundo el 11 de noviembre de 2011."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Puerto Princesa Subterranean River National Park",
+          "url": "https://en.wikipedia.org/wiki/Puerto_Princesa_Subterranean_River_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional del río subterráneo de Puerto Princesa",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_r%C3%ADo_subterr%C3%A1neo_de_Puerto_Princesa"
+        }
+      },
+      "image": {
+        "file": "Puerto_Princesa_Underground_River.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Puerto_Princesa_Underground_River.jpg",
+        "author": "Mike Gonzalez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-palawan",
+      "name": "Palawan",
+      "area": "Puerto Princesa",
+      "city": "Puerto Princesa",
+      "wikidata": "Q1061269",
+      "lat": 9.5,
+      "lon": 118.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Palawan is the largest island of the province of Palawan in the Philippines and fifth-largest by area and tenth-most populous island of the country, with a total population of 1,023,849 as of 2024 census.",
+        "es": "La isla de Palawan, también denominada en castellano como La Paragua, es la isla más grande de la provincia de Palawan, Filipinas, posee unos 12 189 km² y unos 430 000 habitantes."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palawan (island)",
+          "url": "https://en.wikipedia.org/wiki/Palawan_(island)"
+        },
+        "es": {
+          "title": "Isla de Palawan",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Palawan"
+        }
+      },
+      "image": {
+        "file": "Sabang,_South_China_Sea,_Palawan,_Philippines.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sabang%2C_South_China_Sea%2C_Palawan%2C_Philippines.jpg",
+        "author": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "ph-masbate",
+      "name": "Masbate",
+      "area": "Masbate",
+      "city": "Masbate",
+      "wikidata": "Q938563",
+      "lat": 12.3,
+      "lon": 123.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Masbate Island is the largest of three major islands of Masbate Province in the Philippines.",
+        "es": "La isla de Masbate es una de las tres principales islas de la provincia de Masbate, en las Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Masbate Island",
+          "url": "https://en.wikipedia.org/wiki/Masbate_Island"
+        },
+        "es": {
+          "title": "Isla de Masbate",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Masbate"
+        }
+      }
+    },
+    {
+      "id": "ph-mactan",
+      "name": "Mactan",
+      "area": "Mactan",
+      "city": "Mactan",
+      "wikidata": "Q685318",
+      "lat": 10.3,
+      "lon": 123.966667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mactan is a densely populated island located a few kilometers east of Cebu Island in the Philippines.",
+        "es": "Mactán es una isla ubicada frente a las costas de la isla de Cebú, en la provincia filipina de Cebú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mactan",
+          "url": "https://en.wikipedia.org/wiki/Mactan"
+        },
+        "es": {
+          "title": "Mactán",
+          "url": "https://es.wikipedia.org/wiki/Mact%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Mactan-harbour.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mactan-harbour.jpg",
+        "author": "No machine-readable author provided. Binter~commonswiki assumed (based on copyri",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-laguna-de-bay",
+      "name": "Laguna de Bay",
+      "area": "Cabuyao",
+      "city": "Cabuyao",
+      "wikidata": "Q47136",
+      "lat": 14.3,
+      "lon": 121.27,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Laguna de Bay, also known as Laguna Lake and alternatively spelled \"Laguna de Bae\", is the largest lake in the Philippines.",
+        "es": "La laguna de Baý es el lago más grande de Filipinas, y el segundo lago de agua dulce tierra adentro en el sureste asiático, después del lago Toba, en Sumatra, Indonesia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Laguna de Bay",
+          "url": "https://en.wikipedia.org/wiki/Laguna_de_Bay"
+        },
+        "es": {
+          "title": "Laguna de Bay",
+          "url": "https://es.wikipedia.org/wiki/Laguna_de_Bay"
+        }
+      },
+      "image": {
+        "file": "Laguna_de_Bay_zoom.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Laguna_de_Bay_zoom.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-mount-hamiguitan",
+      "name": "Mount Hamiguitan",
+      "area": "Q13806",
+      "city": "Q13806",
+      "wikidata": "Q1573427",
+      "lat": 6.74,
+      "lon": 126.181667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Hamiguitan is a mountain located in the province of Davao Oriental, Philippines.",
+        "es": "Monte Hamiguitan es una montaña situada en la provincia de Dávao Oriental en las Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Hamiguitan",
+          "url": "https://en.wikipedia.org/wiki/Mount_Hamiguitan"
+        },
+        "es": {
+          "title": "Monte Hamiguitan",
+          "url": "https://es.wikipedia.org/wiki/Monte_Hamiguitan"
+        }
+      },
+      "image": {
+        "file": "Mount_Hamiguitan_peak.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Hamiguitan_peak.JPG",
+        "author": "Kleomarlo",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-jolo",
+      "name": "Jolo",
+      "area": "Q13887",
+      "city": "Q13887",
+      "wikidata": "Q860298",
+      "lat": 5.983333,
+      "lon": 121.133333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Jolo is a volcanic island in the southwest Philippines and the primary island of the province of Sulu, on which the capital of the same name is situated.",
+        "es": "Joló es una isla en el suroeste de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jolo",
+          "url": "https://en.wikipedia.org/wiki/Jolo"
+        },
+        "es": {
+          "title": "Isla de Joló",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Jol%C3%B3"
+        }
+      },
+      "image": {
+        "file": "Ph_locator_sulu_jolo_island.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ph_locator_sulu_jolo_island.png",
+        "author": "Mike Gonzalez (TheCoffee)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-cebu",
+      "name": "Cebu",
+      "area": "Cebu City",
+      "city": "Cebu City",
+      "wikidata": "Q6447129",
+      "lat": 10.35,
+      "lon": 123.683333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cebu, officially the Province of Cebu, is a province of the Philippines located in the Central Visayas region.",
+        "es": "La isla de Cebú, llamada La Reina del Sur, es la isla principal de la Provincia de Cebú, en la región de Bisayas Centrales, del archipiélago de las Bisayas, en Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cebu",
+          "url": "https://en.wikipedia.org/wiki/Cebu"
+        },
+        "es": {
+          "title": "Isla de Cebú",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Ceb%C3%BA"
+        }
+      },
+      "image": {
+        "file": "Cebu-city-from-the-sea.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cebu-city-from-the-sea.jpg",
+        "author": "No machine-readable author provided. Binter~commonswiki assumed (based on copyri",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-mount-bulusan",
+      "name": "Mount Bulusan",
+      "area": "Sorsogon",
+      "city": "Sorsogon",
+      "wikidata": "Q473435",
+      "lat": 12.77,
+      "lon": 124.05,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Bulusan, also known as Bulusan Volcano, is a stratovolcano on the island of Luzon in the Philippines.",
+        "es": "El monte Bulusán es un volcán activo al extremo sudeste de la isla Luzón, en la provincia de Sorsogon, región de Bícol, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Bulusan",
+          "url": "https://en.wikipedia.org/wiki/Mount_Bulusan"
+        },
+        "es": {
+          "title": "Monte Bulusán",
+          "url": "https://es.wikipedia.org/wiki/Monte_Bulus%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Mt-Bulusan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mt-Bulusan.jpg",
+        "author": "Audioboss at English Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-corregidor",
+      "name": "Corregidor",
+      "area": "General Trias",
+      "city": "General Trias",
+      "wikidata": "Q928075",
+      "lat": 14.385556,
+      "lon": 120.573056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Corregidor is an island located at the entrance of Manila Bay in the southwestern part of Luzon in the Philippines, and is considered part of Cavite City in the province of Cavite despite being closer to Maragondon…",
+        "es": "Corregidor, oficialmente isla del Corregidor durante la época española, es una isla de Filipinas situada en la bahía de Manila, cerca de la ciudad de Manila, capital del país."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Corregidor",
+          "url": "https://en.wikipedia.org/wiki/Corregidor"
+        },
+        "es": {
+          "title": "Corregidor (isla)",
+          "url": "https://es.wikipedia.org/wiki/Corregidor_(isla)"
+        }
+      },
+      "image": {
+        "file": "Corregidor_landsat2000.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Corregidor_landsat2000.jpeg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-siargao",
+      "name": "Siargao",
+      "area": "Q13889",
+      "city": "Q13889",
+      "wikidata": "Q2280814",
+      "lat": 9.866667,
+      "lon": 126.05,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Siargao is a tear-drop shaped island in the Philippine Sea situated 196 kilometers southeast of Tacloban.",
+        "es": "Siargao es una isla en forma de lágrima en el mar de Filipinas situada 800 kilómetros al sureste de Manila, adyacente a la isla de Mindanao en la provincia de Surigao del Norte, comprendiendo los municipios de Santa…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Siargao",
+          "url": "https://en.wikipedia.org/wiki/Siargao"
+        },
+        "es": {
+          "title": "Siargao",
+          "url": "https://es.wikipedia.org/wiki/Siargao"
+        }
+      },
+      "image": {
+        "file": "Siargao_44.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Siargao_44.jpg",
+        "author": "ChaasPrime",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-lake-lanao",
+      "name": "Lake Lanao",
+      "area": "Iligan",
+      "city": "Iligan",
+      "wikidata": "Q1384940",
+      "lat": 7.88,
+      "lon": 124.2525,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Lanao is a large ancient lake in the province of Lanao del Sur, Philippines.",
+        "es": "El Lánao es un gran lago en las Filipinas, localizado en la provincia de Lánao del Sur, en la isla de Mindanao."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Lanao",
+          "url": "https://en.wikipedia.org/wiki/Lake_Lanao"
+        },
+        "es": {
+          "title": "Lánao",
+          "url": "https://es.wikipedia.org/wiki/L%C3%A1nao"
+        }
+      },
+      "image": {
+        "file": "Lake_Lanao_zoom.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Lanao_zoom.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-kanlaon-volcano",
+      "name": "Kanlaon Volcano",
+      "area": "Q13862",
+      "city": "Q13862",
+      "wikidata": "Q1723814",
+      "lat": 10.411944,
+      "lon": 123.131944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kanlaon, also known as Mount Kanlaon and Kanlaon Volcano, is an active andesitic stratovolcano and the highest mountain on the island of Negros in the Philippines, as well as the highest peak in the Visayas, with an…",
+        "es": "El Canlaón es un volcán activo en Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kanlaon",
+          "url": "https://en.wikipedia.org/wiki/Kanlaon"
+        },
+        "es": {
+          "title": "Monte Canlaón",
+          "url": "https://es.wikipedia.org/wiki/Monte_Canla%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Mount_Canlaon.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Canlaon.JPG",
+        "author": "Studphil",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-taal-lake",
+      "name": "Taal Lake",
+      "area": "Lipa",
+      "city": "Lipa",
+      "wikidata": "Q537695",
+      "lat": 13.986944,
+      "lon": 121.012222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Taal Lake is a freshwater caldera lake in the province of Batangas, on the island of Luzon in the Philippines.",
+        "es": "El lago Taal es un lago de agua dulce en la provincia de Batangas, en la isla de Luzón, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taal Lake",
+          "url": "https://en.wikipedia.org/wiki/Taal_Lake"
+        },
+        "es": {
+          "title": "Lago Taal",
+          "url": "https://es.wikipedia.org/wiki/Lago_Taal"
+        }
+      },
+      "image": {
+        "file": "Taal_volcano_crater_lake,_Tagaytay,_Philippines.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taal_volcano_crater_lake%2C_Tagaytay%2C_Philippines.jpg",
+        "author": "Sophie Zelazny",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-san-agustin-church",
+      "name": "San Agustin Church",
+      "area": "Manila",
+      "city": "Manila",
+      "wikidata": "Q1306513",
+      "lat": 14.58886,
+      "lon": 120.97535,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Archdiocesan Shrine of Our Lady of Consolation and Cincture, also known as the San Agustin Church and Immaculate Conception Parish, is a Roman Catholic church under the auspices of the Order of Saint Augustine…",
+        "es": "La iglesia de San Agustín es una iglesia católica situada dentro de las murallas históricas de la ciudad de Manila, en la zona denominada Intramuros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "San Agustin Church (Manila)",
+          "url": "https://en.wikipedia.org/wiki/San_Agustin_Church_(Manila)"
+        },
+        "es": {
+          "title": "Iglesia de San Agustín (Manila)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Agust%C3%ADn_(Manila)"
+        }
+      },
+      "image": {
+        "file": "Ph-mm-manila-intramuros-san_agustin_church_(2014).JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ph-mm-manila-intramuros-san_agustin_church_(2014).JPG",
+        "author": "Patrick Roque (talk) (Uploads)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-mount-pulag",
+      "name": "Mount Pulag",
+      "area": "Cordillera Administrative Region",
+      "city": "Cordillera Administrative Region",
+      "wikidata": "Q948670",
+      "lat": 16.583572,
+      "lon": 120.883592,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Pulag is Luzon's highest peak at 2,928 metres above sea level, third-highest mountain in the Philippines, and the 26th-highest peak of an island on Earth.",
+        "es": "Monte Pulag es la tercera montaña más alta en las Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Pulag",
+          "url": "https://en.wikipedia.org/wiki/Mount_Pulag"
+        },
+        "es": {
+          "title": "Monte Pulag",
+          "url": "https://es.wikipedia.org/wiki/Monte_Pulag"
+        }
+      },
+      "image": {
+        "file": "Ph_mtpulag.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ph_mtpulag.jpg",
+        "author": "Benedict Kwok",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-sibuyan",
+      "name": "Sibuyan",
+      "area": "Romblon",
+      "city": "Romblon",
+      "wikidata": "Q1859702",
+      "lat": 12.416667,
+      "lon": 122.583333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sibuyan is a crescent-shaped island, the second largest in an archipelago comprising Romblon Province, Philippines.",
+        "es": "Sibuyan es una isla en forma de media luna, la segunda más grande del archipiélago que comprende la provincia de Romblón, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sibuyan Island",
+          "url": "https://en.wikipedia.org/wiki/Sibuyan_Island"
+        },
+        "es": {
+          "title": "Isla de Sibuyán",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Sibuy%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Sibuyan_Island.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sibuyan_Island.JPG",
+        "author": "P199",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-coron-island",
+      "name": "Coron Island",
+      "area": "Coron",
+      "city": "Coron",
+      "wikidata": "Q1134477",
+      "lat": 11.92,
+      "lon": 120.24,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Coron is the third-largest island in the Calamian Islands in northern Palawan in the Philippines.",
+        "es": "Isla de Corón es la tercera isla más grande del Grupo de las Islas Calamian en el norte de la provincia de Palawan, en Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Coron Island",
+          "url": "https://en.wikipedia.org/wiki/Coron_Island"
+        },
+        "es": {
+          "title": "Isla de Corón",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Cor%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Coral_&_Limestone,_Coron_Island,_Palawan,_Philippines.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Coral_%26_Limestone%2C_Coron_Island%2C_Palawan%2C_Philippines.jpg",
+        "author": "Ray in Manila",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ph-mount-banahaw",
+      "name": "Mount Banahaw",
+      "area": "San Pablo",
+      "city": "San Pablo",
+      "wikidata": "Q806074",
+      "lat": 14.066667,
+      "lon": 121.483333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Banahaw is an active complex volcano on Luzon in the Philippines.",
+        "es": "El monte Banahaw es uno de los volcanes activos en Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Banahaw",
+          "url": "https://en.wikipedia.org/wiki/Mount_Banahaw"
+        },
+        "es": {
+          "title": "Banahaw",
+          "url": "https://es.wikipedia.org/wiki/Banahaw"
+        }
+      },
+      "image": {
+        "file": "Banahaw.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Banahaw.jpg",
+        "author": "Chris Newhall",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-malacanang-palace",
+      "name": "Malacañang Palace",
+      "area": "Metro Manila",
+      "city": "Metro Manila",
+      "wikidata": "Q942688",
+      "lat": 14.593857,
+      "lon": 120.994524,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Malacañang Palace, officially known as Malacañan Palace, is the official residence and principal workplace of the president of the Philippines.",
+        "es": "El Palacio de Malacañán es la residencia oficial del presidente de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Malacañang Palace",
+          "url": "https://en.wikipedia.org/wiki/Malaca%C3%B1ang_Palace"
+        },
+        "es": {
+          "title": "Palacio de Malacañán",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Malaca%C3%B1%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Malacañan_Palace_2013_stamp_of_the_Philippines.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Malaca%C3%B1an_Palace_2013_stamp_of_the_Philippines.jpg",
+        "author": "Valeraraisen",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-paoay-church",
+      "name": "Paoay Church",
+      "area": "Paoay",
+      "city": "Paoay",
+      "wikidata": "Q2796994",
+      "lat": 18.06148,
+      "lon": 120.52159,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Saint Augustine Parish Church, commonly known as Paoay Church, is a Roman Catholic church in the municipality of Paoay, Ilocos Norte in the Philippines.",
+        "es": "La Iglesia de San Agustín de Páoay es iglesia parroquial católica en el municipio de Páoay en la provincia de Ilocos del Norte en las Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Paoay Church",
+          "url": "https://en.wikipedia.org/wiki/Paoay_Church"
+        },
+        "es": {
+          "title": "Iglesia de San Agustín (Páoay)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Agust%C3%ADn_(P%C3%A1oay)"
+        }
+      },
+      "image": {
+        "file": "Paoay_Church_of_Ilocos_Norte,_Philippines.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Paoay_Church_of_Ilocos_Norte%2C_Philippines.JPG",
+        "author": "Brynht",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-panglao-island",
+      "name": "Panglao Island",
+      "area": "Bohol",
+      "city": "Bohol",
+      "wikidata": "Q1899920",
+      "lat": 9.6,
+      "lon": 123.816667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Panglao is an island in the north Bohol Sea, located in the Central Visayas region of the Visayas island group, in the south-central Philippines.",
+        "es": "Panglao es una isla de la provincia de Bohol en Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Panglao Island",
+          "url": "https://en.wikipedia.org/wiki/Panglao_Island"
+        },
+        "es": {
+          "title": "Isla de Panglao",
+          "url": "https://es.wikipedia.org/wiki/Isla_de_Panglao"
+        }
+      },
+      "image": {
+        "file": "Panglao_Island-Philippines-r.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Panglao_Island-Philippines-r.JPG",
+        "author": "File:Panglao_Island-Philippines.JPG: Lofor derivative work: P199",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-polillo",
+      "name": "Polillo",
+      "area": "Q13872",
+      "city": "Q13872",
+      "wikidata": "Q2688966",
+      "lat": 14.833333,
+      "lon": 121.95,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Polillo is an island in the northeastern region of the Philippine archipelago.",
+        "es": "Polillo es una isla en la región nordeste del archipiélago de Filipinas, perteneciente a la provincia de Quezón."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Polillo Island",
+          "url": "https://en.wikipedia.org/wiki/Polillo_Island"
+        },
+        "es": {
+          "title": "Isla Polillo",
+          "url": "https://es.wikipedia.org/wiki/Isla_Polillo"
+        }
+      },
+      "image": {
+        "file": "Polillo_Island.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Polillo_Island.JPG",
+        "author": "P199",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-manila-cathedral",
+      "name": "Manila Cathedral",
+      "area": "Metro Manila",
+      "city": "Metro Manila",
+      "wikidata": "Q773443",
+      "website": "https://manilacathedral.com.ph/",
+      "lat": 14.59147,
+      "lon": 120.97356,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Minor Basilica and Metropolitan Cathedral of the Immaculate Conception, commonly known as the Manila Cathedral, is a Roman Catholic basilica and the cathedral of the Archdiocese of Manila.",
+        "es": "La Catedral Basílica Metropolitana de la Inmaculada Concepción de Manila es un prominente basílica católica situada en Manila, Filipinas, establecida en honor a la Santísima Virgen María como Nuestra Señora de la…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Manila Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Manila_Cathedral"
+        },
+        "es": {
+          "title": "Catedral basílica metropolitana de la Inmaculada Concepción (Manila)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_bas%C3%ADlica_metropolitana_de_la_Inmaculada_Concepci%C3%B3n_(Manila)"
+        }
+      },
+      "image": {
+        "file": "Catedral_de_la_Inmaculada_Concepción,_Manila,_Filipinas,_2023-08-26,_DD_21.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_la_Inmaculada_Concepci%C3%B3n%2C_Manila%2C_Filipinas%2C_2023-08-26%2C_DD_21.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-rizal-park",
+      "name": "Rizal Park",
+      "area": "Metro Manila",
+      "city": "Metro Manila",
+      "wikidata": "Q2306339",
+      "lat": 14.581667,
+      "lon": 120.976694,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rizal Park, Luneta, also known as Rizal Park, Luneta Park, or simply Luneta, is a historic urban park located in Ermita, Manila, Philippines.",
+        "es": "El Parque Rizal está situado en el corazón de la ciudad de Manila, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rizal Park",
+          "url": "https://en.wikipedia.org/wiki/Rizal_Park"
+        },
+        "es": {
+          "title": "Parque Rizal",
+          "url": "https://es.wikipedia.org/wiki/Parque_Rizal"
+        }
+      },
+      "image": {
+        "file": "Rizal_Monument_at_Rizal_Park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rizal_Monument_at_Rizal_Park.jpg",
+        "author": "Maynard Rabanal (Greedyplus)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-grand-hyatt-manila",
+      "name": "Grand Hyatt Manila",
+      "area": "Metro Manila",
+      "city": "Metro Manila",
+      "wikidata": "Q5440278",
+      "website": "https://manila.grand.hyatt.com/",
+      "lat": 14.5566,
+      "lon": 121.0497,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Metrobank Center, formerly known as the Federal Land Tower and also known as the Metrobank Financial Tower, is a 66-story mixed-use supertall skyscraper in Bonifacio Global City, Taguig, Metro Manila.",
+        "es": "El Grand Hyatt Manila es un rascacielos de 318 metros de altura de uso mixto ubicado en Bonifacio Global City, Taguig, Metro Manila."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Metrobank Center",
+          "url": "https://en.wikipedia.org/wiki/Metrobank_Center"
+        },
+        "es": {
+          "title": "Grand Hyatt Manila",
+          "url": "https://es.wikipedia.org/wiki/Grand_Hyatt_Manila"
+        }
+      },
+      "image": {
+        "file": "BGC_Taguig_at_night_(Jopet_Sy)_-_Flickr.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BGC_Taguig_at_night_(Jopet_Sy)_-_Flickr.jpg",
+        "author": "jopetsy",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ph-masjid-al-dahab",
+      "name": "Masjid Al-Dahab",
+      "area": "Metro Manila",
+      "city": "Metro Manila",
+      "wikidata": "Q1417648",
+      "lat": 14.595694,
+      "lon": 120.985139,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Masjid Al-Dahab, officially known as Manila Golden Mosque and Cultural Center, is a mosque situated in the predominantly Muslim section of the Quiapo district in Manila, Philippines, and is considered the largest…",
+        "es": "La Mezquita del Globo de Oro, también conocido como Masjid al-Dahab, es una mezquita situada en la calle Globo de Oro, una parte de la sección musulmana de Quiapo, Manila en Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Masjid Al-Dahab",
+          "url": "https://en.wikipedia.org/wiki/Masjid_Al-Dahab"
+        },
+        "es": {
+          "title": "Mezquita del Globo de Oro",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_del_Globo_de_Oro"
+        }
+      },
+      "image": {
+        "file": "Manila_Golden_Mosque_(Quiapo,_Manila;_2015-07-16)_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Manila_Golden_Mosque_(Quiapo%2C_Manila%3B_2015-07-16)_02.jpg",
+        "author": "Patrick Roque",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-san-sebastian-church",
+      "name": "San Sebastian Church",
+      "area": "Metro Manila",
+      "city": "Metro Manila",
+      "wikidata": "Q174968",
+      "website": "https://www.rcam.org/sansebastianchurch/",
+      "lat": 14.599722,
+      "lon": 120.988889,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Minor Basilica and Parish of Saint Sebastian, also known as the Shrine of Our Lady of Mount Carmel of Saint Sebastian and commonly known as San Sebastian Church or San Sebastian Basilica, is a minor basilica of…",
+        "es": "La Basílica Menor de San Sebastián, más conocida como Iglesia de San Sebastián, es una basílica menor católica situada en el barrio de Quiapo de la ciudad de Manila, en Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "San Sebastian Church (Manila)",
+          "url": "https://en.wikipedia.org/wiki/San_Sebastian_Church_(Manila)"
+        },
+        "es": {
+          "title": "Basílica de San Sebastián (Manila)",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_San_Sebasti%C3%A1n_(Manila)"
+        }
+      },
+      "image": {
+        "file": "Basílica_de_San_Sebastián,_Manila,_Filipinas,_2023-08-27,_DD_07.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_San_Sebasti%C3%A1n%2C_Manila%2C_Filipinas%2C_2023-08-27%2C_DD_07.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-quiapo-church",
+      "name": "Quiapo Church",
+      "area": "Metro Manila",
+      "city": "Metro Manila",
+      "wikidata": "Q1899439",
+      "website": "https://quiapochurch.com.ph",
+      "lat": 14.59878,
+      "lon": 120.98377,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Minor Basilica and National Shrine of Jesus Nazareno, commonly known as Quiapo Church and canonically as the Parish of Saint John the Baptist, is a Catholic basilica and national shrine located in the district of…",
+        "es": "La Basílica Menor del Nazareno Negro, es una basílica menor católica de rito latino que se encuentra en el distrito de Quiapo en pleno centro de la ciudad de Manila."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Quiapo Church",
+          "url": "https://en.wikipedia.org/wiki/Quiapo_Church"
+        },
+        "es": {
+          "title": "Basílica menor del Nazareno Negro",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_menor_del_Nazareno_Negro"
+        }
+      },
+      "image": {
+        "file": "Quiapo_Church_Facade.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Quiapo_Church_Facade.jpg",
+        "author": "H.abanil",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-quezon-memorial-circle",
+      "name": "Quezon Memorial Circle",
+      "area": "Metro Manila",
+      "city": "Metro Manila",
+      "wikidata": "Q3543369",
+      "lat": 14.651389,
+      "lon": 121.049167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Quezon Memorial Circle, also known as the Quezon City Circle, is a national park in Quezon City, Philippines, and a prominent landmark situated within a large elliptical roundabout known as Elliptical Road.",
+        "es": "El Círculo Memorial a Quezon es un parque nacional y santuario ubicado en la ciudad de Quezon, la antigua capital de las Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Quezon Memorial Circle",
+          "url": "https://en.wikipedia.org/wiki/Quezon_Memorial_Circle"
+        },
+        "es": {
+          "title": "Círculo memorial a Quezon",
+          "url": "https://es.wikipedia.org/wiki/C%C3%ADrculo_memorial_a_Quezon"
+        }
+      },
+      "image": {
+        "file": "Quezon_Memorial_Circle,_Elliptical_Road-East_Avenue_drone_(Quezon_City;_03-10-2026).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Quezon_Memorial_Circle%2C_Elliptical_Road-East_Avenue_drone_(Quezon_City%3B_03-10-2026).jpg",
+        "author": "Patrickroque01",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-malate-church",
+      "name": "Malate Church",
+      "area": "Metro Manila",
+      "city": "Metro Manila",
+      "wikidata": "Q6741382",
+      "lat": 14.56927,
+      "lon": 120.98461,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Our Lady of Remedies Parish, commonly known as Malate Church, is a Roman Catholic parish church in the district of Malate in the city of Manila, Philippines.",
+        "es": "La Iglesia de Nuestra Señora de los Remedios es una iglesia católica de la ciudad de Manila, la capital del país asiático de las Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Malate Church",
+          "url": "https://en.wikipedia.org/wiki/Malate_Church"
+        },
+        "es": {
+          "title": "Iglesia de Nuestra Señora de los Remedios (Manila)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Nuestra_Se%C3%B1ora_de_los_Remedios_(Manila)"
+        }
+      },
+      "image": {
+        "file": "MalateChurchjf0838_03.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:MalateChurchjf0838_03.JPG",
+        "author": "Ramon FVelasquez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-binondo-church",
+      "name": "Binondo Church",
+      "area": "Metro Manila",
+      "city": "Metro Manila",
+      "wikidata": "Q864029",
+      "lat": 14.599967,
+      "lon": 120.974439,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Minor Basilica and National Shrine of San Lorenzo Ruiz, also known as Our Lady of the Most Holy Rosary Parish and commonly known as Binondo Church, is located in the district of Binondo, Manila, Philippines.",
+        "es": "La Basílica Menor de San Lorenzo Ruiz o iglesia de Binondo es un templo católico situado en el distrito de Binondo de Manila, frente a la plaza Calderón de La Barca, en las Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Binondo Church",
+          "url": "https://en.wikipedia.org/wiki/Binondo_Church"
+        },
+        "es": {
+          "title": "Basílica de San Lorenzo Ruiz (Manila)",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_San_Lorenzo_Ruiz_(Manila)"
+        }
+      },
+      "image": {
+        "file": "Binondo_Church_in_front_of_Plaza_San_Lorenzo_Ruiz,_Binondo,_Manila.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Binondo_Church_in_front_of_Plaza_San_Lorenzo_Ruiz%2C_Binondo%2C_Manila.jpg",
+        "author": "Patrick Roque",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-rizal-monument",
+      "name": "Rizal Monument",
+      "area": "Quezon City",
+      "city": "Quezon City",
+      "wikidata": "Q7339077",
+      "lat": 14.581669,
+      "lon": 120.976694,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Rizal Monument is a memorial in Rizal Park, Manila, Philippines, built to commemorate the executed Filipino nationalist José Rizal.",
+        "es": "El Monumento a José Rizal es un monumento conmemorativo en el Parque Rizal en Manila, Filipinas, construido para recordar al nacionalista filipino José Rizal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rizal Monument",
+          "url": "https://en.wikipedia.org/wiki/Rizal_Monument"
+        },
+        "es": {
+          "title": "Monumento a José Rizal",
+          "url": "https://es.wikipedia.org/wiki/Monumento_a_Jos%C3%A9_Rizal"
+        }
+      },
+      "image": {
+        "file": "Rizal_Monument.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rizal_Monument.jpg",
+        "author": "Mike Gonzalez (TheCoffee)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-san-pedro-cathedral",
+      "name": "San Pedro Cathedral",
+      "area": "Davao City",
+      "city": "Davao City",
+      "wikidata": "Q19894703",
+      "lat": 7.06469,
+      "lon": 125.609,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "San Pedro Cathedral Parish, also known as the Metropolitan Cathedral of San Pedro, is a Roman Catholic cathedral located at Barangay 2-A, Poblacion District, Davao City, Philippines.",
+        "es": "La Catedral de Dávao es una catedral católica ubicada en el Barangay de Población, en la ciudad de Dávao, en la isla de Mindanao al sur del país asiático de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Davao Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Davao_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Dávao",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_D%C3%A1vao"
+        }
+      },
+      "image": {
+        "file": "San_Pedro_Cathedral_(Poblacion,_Davao_City;_11-25-2021).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:San_Pedro_Cathedral_(Poblacion%2C_Davao_City%3B_11-25-2021).jpg",
+        "author": "patrickroque01",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-people-s-park",
+      "name": "People's Park",
+      "area": "Davao City",
+      "city": "Davao City",
+      "wikidata": "Q16966803",
+      "lat": 7.070556,
+      "lon": 125.608611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "People's Park is an urban public park in central Davao City, Mindanao, Philippines.",
+        "es": "El Parque del Pueblo es un parque público urbano en el centro de la ciudad de Dávao, en la isla de Mindanao, al sur de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "People's Park (Davao City)",
+          "url": "https://en.wikipedia.org/wiki/People's_Park_(Davao_City)"
+        },
+        "es": {
+          "title": "Parque del Pueblo (Dávao)",
+          "url": "https://es.wikipedia.org/wiki/Parque_del_Pueblo_(D%C3%A1vao)"
+        }
+      },
+      "image": {
+        "file": "People's_Park_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:People's_Park_2.jpg",
+        "author": "MadayawDavao",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-lon-wa-buddhist-temple",
+      "name": "Lon Wa Buddhist Temple",
+      "area": "Davao City",
+      "city": "Davao City",
+      "wikidata": "Q6669621",
+      "lat": 7.09547,
+      "lon": 125.6207,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Longhua Temple, also known as the Lon Wa Buddhist Temple, is one of the biggest Buddhist temples in the Philippines and the biggest in the island of Mindanao.",
+        "es": "The Longhua Temple, also known as the Lon Wa Buddhist Temple, is one of the biggest Buddhist temples in the Philippines and the biggest in the island of Mindanao."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lon Wa Buddhist Temple",
+          "url": "https://en.wikipedia.org/wiki/Lon_Wa_Buddhist_Temple"
+        },
+        "es": {
+          "title": "Lon Wa Buddhist Temple",
+          "url": "https://en.wikipedia.org/wiki/Lon_Wa_Buddhist_Temple"
+        }
+      },
+      "image": {
+        "file": "Lon_Wa_Temple,_Davao.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lon_Wa_Temple%2C_Davao.jpg",
+        "author": "I Travel Philippines",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ph-taluksangay-mosque",
+      "name": "Taluksangay Mosque",
+      "area": "Zamboanga",
+      "city": "Zamboanga",
+      "wikidata": "Q7680366",
+      "lat": 6.95075,
+      "lon": 122.18143,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Taluksangay Mosque was built by Hadji Abdullah Maas Nuno in 1885 in the Barangay Taluksangay, Zamboanga City, the Philippines.",
+        "es": "La Mezquita de Taluksangay fue construida por Hadji Abdullah Maas Nuno en 1885 en el barangay de Taluksangay, Zamboanga, en la isla de Mindanao al sur de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taluksangay Mosque",
+          "url": "https://en.wikipedia.org/wiki/Taluksangay_Mosque"
+        },
+        "es": {
+          "title": "Mezquita de Taluksangay",
+          "url": "https://es.wikipedia.org/wiki/Mezquita_de_Taluksangay"
+        }
+      }
+    },
+    {
+      "id": "ph-zamboanga-cathedral",
+      "name": "Zamboanga Cathedral",
+      "area": "Zamboanga",
+      "city": "Zamboanga",
+      "wikidata": "Q6825040",
+      "lat": 6.90895,
+      "lon": 122.07603,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Metropolitan Cathedral of the Immaculate Conception, commonly known as Zamboanga Cathedral, is a Roman Catholic church located in Zamboanga City, Philippines.",
+        "es": "La Catedral Metropolitana de la Inmaculada Concepción es una iglesia situada en la ciudad de Zamboanga, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Zamboanga Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Zamboanga_Cathedral"
+        },
+        "es": {
+          "title": "Catedral metropolitana de la Inmaculada Concepción (Zamboanga)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_metropolitana_de_la_Inmaculada_Concepci%C3%B3n_(Zamboanga)"
+        }
+      }
+    },
+    {
+      "id": "ph-great-santa-cruz-island",
+      "name": "Great Santa Cruz Island",
+      "area": "Zamboanga",
+      "city": "Zamboanga",
+      "wikidata": "Q5599924",
+      "lat": 6.8675,
+      "lon": 122.061667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Great Santa Cruz Island is a small inhabited island in Zamboanga City in the southern region of the Philippines that is famous for its pink coralline sand.",
+        "es": "Isla Gran Santa Cruz es el nombre que recibe una isla de las Filipinas que está a 4 km al sur del centro de la ciudad de Zamboanga, en el estrecho de Basilan, al sureste de Pequeña Santa Cruz y al suroeste de la Isla…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Great Santa Cruz Island",
+          "url": "https://en.wikipedia.org/wiki/Great_Santa_Cruz_Island"
+        },
+        "es": {
+          "title": "Isla Gran Santa Cruz",
+          "url": "https://es.wikipedia.org/wiki/Isla_Gran_Santa_Cruz"
+        }
+      },
+      "image": {
+        "file": "Isla_Great_Santa_Cruz49.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Isla_Great_Santa_Cruz49.JPG",
+        "author": "Wowzamboangacity",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ph-pasonanca-park",
+      "name": "Pasonanca Park",
+      "area": "Zamboanga",
+      "city": "Zamboanga",
+      "wikidata": "Q7142289",
+      "lat": 6.95334,
+      "lon": 122.07309,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pasonanca Park is a public park located in Pasonanca in Zamboanga City, Philippines.",
+        "es": "El Parque Pasonanca es un parque público situado en Pasonanca en la ciudad de Zamboanga, en la isla de Mindanao al sur de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pasonanca Park",
+          "url": "https://en.wikipedia.org/wiki/Pasonanca_Park"
+        },
+        "es": {
+          "title": "Parque Pasonanca",
+          "url": "https://es.wikipedia.org/wiki/Parque_Pasonanca"
+        }
+      }
+    },
+    {
+      "id": "ph-mount-pulong-bato",
+      "name": "Mount Pulong Bato",
+      "area": "Zamboanga",
+      "city": "Zamboanga",
+      "wikidata": "Q8530983",
+      "lat": 6.972778,
+      "lon": 122.072778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Pulong Bato is a monolith located in Zamboanga City at the Zamboanga Peninsula, the western tip of the island of Mindanao in the Philippines.",
+        "es": "El Monte Pulong Bato es un monolito ubicado en la ciudad de Zamboanga en la península de Zamboanga, el extremo occidental de la isla de Mindanao en las Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Pulong Bato",
+          "url": "https://en.wikipedia.org/wiki/Mount_Pulong_Bato"
+        },
+        "es": {
+          "title": "Monte Pulong Bato",
+          "url": "https://es.wikipedia.org/wiki/Monte_Pulong_Bato"
+        }
+      }
+    },
+    {
+      "id": "ph-little-santa-cruz-island",
+      "name": "Little Santa Cruz Island",
+      "area": "Zamboanga",
+      "city": "Zamboanga",
+      "wikidata": "Q6651854",
+      "lat": 6.884167,
+      "lon": 122.0425,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Little Santa Cruz Island is an island situated 3.5 kilometres south of downtown Zamboanga City, on the Basilan Strait in the Philippines.",
+        "es": "Little Santa Cruz Island is an island situated 3.5 kilometres south of downtown Zamboanga City, on the Basilan Strait in the Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Little Santa Cruz Island",
+          "url": "https://en.wikipedia.org/wiki/Little_Santa_Cruz_Island"
+        },
+        "es": {
+          "title": "Little Santa Cruz Island",
+          "url": "https://en.wikipedia.org/wiki/Little_Santa_Cruz_Island"
+        }
+      }
+    },
+    {
+      "id": "ph-minor-basilica-of-the-holy-child",
+      "name": "Minor Basilica of the Holy Child",
+      "area": "Cebu City",
+      "city": "Cebu City",
+      "wikidata": "Q666552",
+      "lat": 10.294019,
+      "lon": 123.901472,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basílica Minore del Santo Niño de Cebú, or simply the Santo Niño Basilica, is a Catholic minor basilica in Cebu City, Philippines.",
+        "es": "La Basílica del Santo Niño es una basílica católica del siglo XVI construida en la ciudad de Cebú, en Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica del Santo Niño",
+          "url": "https://en.wikipedia.org/wiki/Basilica_del_Santo_Ni%C3%B1o"
+        },
+        "es": {
+          "title": "Basílica del Santo Niño",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_del_Santo_Ni%C3%B1o"
+        }
+      },
+      "image": {
+        "file": "Basilica_Minore_del_Santo_Niño_de_Cebu_(Osmeña_Boulevard,_Cebu_City;_09-05-2022).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Basilica_Minore_del_Santo_Ni%C3%B1o_de_Cebu_(Osme%C3%B1a_Boulevard%2C_Cebu_City%3B_09-05-2022).jpg",
+        "author": "Patrickroque01",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-cebu-metropolitan-cathedral",
+      "name": "Cebu Metropolitan Cathedral",
+      "area": "Cebu City",
+      "city": "Cebu City",
+      "wikidata": "Q2692999",
+      "lat": 10.295814,
+      "lon": 123.902869,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Metropolitan Cathedral of Cebu and Parish of Saint Vitalis of Milan or commonly known as the Cebu Metropolitan Cathedral is the ecclesiastical seat of the Metropolitan Archdiocese of Cebu in Cebu City, Philippines.",
+        "es": "La Catedral Metropolitana de Cebú cuyo título completo original es el de Catedral metropolitana y parroquia de san Vital y los Ángeles Custodios, es la sede eclesiástica de la arquidiócesis de Cebú, Cebú, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cebu Metropolitan Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Cebu_Metropolitan_Cathedral"
+        },
+        "es": {
+          "title": "Catedral metropolitana de Cebú",
+          "url": "https://es.wikipedia.org/wiki/Catedral_metropolitana_de_Ceb%C3%BA"
+        }
+      },
+      "image": {
+        "file": "Cebu_Metropolitan_Cathedral_(P._Burgos,_Cebu_City;_01-10-2024).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cebu_Metropolitan_Cathedral_(P._Burgos%2C_Cebu_City%3B_01-10-2024).jpg",
+        "author": "Patrickroque01",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-magellan-s-cross",
+      "name": "Magellan’s Cross",
+      "area": "Cebu City",
+      "city": "Cebu City",
+      "wikidata": "Q772656",
+      "lat": 10.29355,
+      "lon": 123.90193,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Magellan's Cross Pavilion is a stone kiosk in Cebu City, Philippines.",
+        "es": "La Cruz de Magallanes es la cruz cristiana que fijaron los exploradores españoles y lusos de la expedición de Magallanes-Elcano al servicio de la Monarquía hispánica y comandados por Fernando Magallanes al arribar a…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Magellan's Cross Pavilion",
+          "url": "https://en.wikipedia.org/wiki/Magellan's_Cross_Pavilion"
+        },
+        "es": {
+          "title": "Cruz de Magallanes",
+          "url": "https://es.wikipedia.org/wiki/Cruz_de_Magallanes"
+        }
+      },
+      "image": {
+        "file": "Magellan's_Shrine.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Magellan's_Shrine.jpg",
+        "author": "Tet_Sy",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ph-marcelo-fernan-bridge",
+      "name": "Marcelo Fernan Bridge",
+      "area": "Cebu City",
+      "city": "Cebu City",
+      "wikidata": "Q2692495",
+      "lat": 10.326556,
+      "lon": 123.9665,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Marcelo Fernan Bridge, also known as the Second Cebu–Mactan Bridge and locally as the Second Bridge, is an extradosed cable-stayed bridge located in Metro Cebu in the Philippines.",
+        "es": "El puente Marcelo Fernán es un puente atirantado extradosado ubicado en el área metropolitana de Cebú, en la isla de Cebú en Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Marcelo Fernan Bridge",
+          "url": "https://en.wikipedia.org/wiki/Marcelo_Fernan_Bridge"
+        },
+        "es": {
+          "title": "Puente Marcelo Fernán",
+          "url": "https://es.wikipedia.org/wiki/Puente_Marcelo_Fern%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Marcelo_Fernan_Bridge.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Marcelo_Fernan_Bridge.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-cebu-cordova-link-expressway",
+      "name": "Cebu–Cordova Link Expressway",
+      "area": "Cebu City",
+      "city": "Cebu City",
+      "wikidata": "Q30594240",
+      "lat": 10.281679,
+      "lon": 123.90434,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cebu–Cordova Link Expressway, also known as the Cebu–Cordova Bridge and the Third Cebu–Mactan Bridge, is an 8.9-kilometer toll bridge expressway in Metro Cebu, Philippines.",
+        "es": "The Cebu–Cordova Link Expressway, also known as the Cebu–Cordova Bridge and the Third Cebu–Mactan Bridge, is an 8.9-kilometer toll bridge expressway in Metro Cebu, Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cebu–Cordova Link Expressway",
+          "url": "https://en.wikipedia.org/wiki/Cebu%E2%80%93Cordova_Link_Expressway"
+        },
+        "es": {
+          "title": "Cebu–Cordova Link Expressway",
+          "url": "https://en.wikipedia.org/wiki/Cebu%E2%80%93Cordova_Link_Expressway"
+        }
+      },
+      "image": {
+        "file": "Cebu_Downtown_CCLEX_top_view_(Cebu_City;_09-07-2022).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cebu_Downtown_CCLEX_top_view_(Cebu_City%3B_09-07-2022).jpg",
+        "author": "Patrickroque01",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-cebu-taoist-temple",
+      "name": "Cebu Taoist Temple",
+      "area": "Cebu City",
+      "city": "Cebu City",
+      "wikidata": "Q1869800",
+      "lat": 10.333611,
+      "lon": 123.888056,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Cebu Taoist Temple is a Taoist temple located in Beverly Hills Subdivision of Cebu City, Philippines.",
+        "es": "Cebu Taoist Temple is a Taoist temple located in Beverly Hills Subdivision of Cebu City, Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cebu Taoist Temple",
+          "url": "https://en.wikipedia.org/wiki/Cebu_Taoist_Temple"
+        },
+        "es": {
+          "title": "Cebu Taoist Temple",
+          "url": "https://en.wikipedia.org/wiki/Cebu_Taoist_Temple"
+        }
+      },
+      "image": {
+        "file": "Taoist_Temple,_Cebu.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Taoist_Temple%2C_Cebu.jpg",
+        "author": "Neigo Genetiano",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-mactan-mandaue-bridge",
+      "name": "Mactan-Mandaue Bridge",
+      "area": "Cebu City",
+      "city": "Cebu City",
+      "wikidata": "Q130245",
+      "lat": 10.319833,
+      "lon": 123.955639,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mactan–Mandaue Bridge, officially known as the Serging Veloso Osmeña Jr.",
+        "es": "El Puente Mactán-Mandaue o popularmente llamado el primer puente de Mactan-Mandaue es el primero de los dos puentes que atraviesa a través del canal de Mactan y permite la conexión de las islas de Cebú y Mactán en…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mactan–Mandaue Bridge",
+          "url": "https://en.wikipedia.org/wiki/Mactan%E2%80%93Mandaue_Bridge"
+        },
+        "es": {
+          "title": "Puente Mactán-Mandaue",
+          "url": "https://es.wikipedia.org/wiki/Puente_Mact%C3%A1n-Mandaue"
+        }
+      },
+      "image": {
+        "file": "Mactan-Mandaue_Bridge.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mactan-Mandaue_Bridge.jpg",
+        "author": "Mike Gonzalez (TheCoffee)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-caohagan-island",
+      "name": "Caohagan Island",
+      "area": "Cebu City",
+      "city": "Cebu City",
+      "wikidata": "Q11293940",
+      "lat": 10.202778,
+      "lon": 124.019444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Caohagan, or sometimes spelled Cawhagan, is an island located in the Cebu Strait in the Philippines.",
+        "es": "Caohagan, or sometimes spelled Cawhagan, is an island located in the Cebu Strait in the Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Caohagan Island",
+          "url": "https://en.wikipedia.org/wiki/Caohagan_Island"
+        },
+        "es": {
+          "title": "Caohagan Island",
+          "url": "https://en.wikipedia.org/wiki/Caohagan_Island"
+        }
+      }
+    },
+    {
+      "id": "ph-cebu-city-philippines-temple",
+      "name": "Cebu City Philippines Temple",
+      "area": "Cebu City",
+      "city": "Cebu City",
+      "wikidata": "Q5055803",
+      "website": "https://www.churchofjesuschrist.org/temples/details/cebu-city-philippines-temple?lang=eng",
+      "lat": 10.329229,
+      "lon": 123.899272,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cebu City Philippines Temple is the 133rd operating temple of the Church of Jesus Christ of Latter-day Saints and the second constructed in the Philippines, following the one in Manila.",
+        "es": "El Templo de Cebú, Filipinas, es uno de los templos construidos y operados por la Iglesia de Jesucristo de los Santos de los Últimos Días, el número 132 construido por la Iglesia y el segundo en Filipinas, ubicado en…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cebu City Philippines Temple",
+          "url": "https://en.wikipedia.org/wiki/Cebu_City_Philippines_Temple"
+        },
+        "es": {
+          "title": "Templo de Cebú",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_Ceb%C3%BA"
+        }
+      }
+    },
+    {
+      "id": "ph-angono-petroglyphs",
+      "name": "Angono Petroglyphs",
+      "area": "Pasig",
+      "city": "Pasig",
+      "wikidata": "Q1637448",
+      "lat": 14.53274,
+      "lon": 121.18659,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Angono–Binangonan Petroglyphs are petroglyphs carved into a rock wall between the boundaries of Angono and Binangonan in the province of Rizal, Philippines.",
+        "es": "The Angono–Binangonan Petroglyphs are petroglyphs carved into a rock wall between the boundaries of Angono and Binangonan in the province of Rizal, Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Angono–Binangonan Petroglyphs",
+          "url": "https://en.wikipedia.org/wiki/Angono%E2%80%93Binangonan_Petroglyphs"
+        },
+        "es": {
+          "title": "Angono–Binangonan Petroglyphs",
+          "url": "https://en.wikipedia.org/wiki/Angono%E2%80%93Binangonan_Petroglyphs"
+        }
+      },
+      "image": {
+        "file": "Angono_Petroglyphs_centered.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Angono_Petroglyphs_centered.jpg",
+        "author": "Raffy-ish",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-paranaque-cathedral",
+      "name": "Parañaque Cathedral",
+      "area": "Dasmariñas",
+      "city": "Dasmariñas",
+      "wikidata": "Q2385428",
+      "lat": 14.5002,
+      "lon": 120.992,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral Parish of Saint Andrew, also known as the Diocesan Shrine of Nuestra Señora del Buen Suceso and commonly known as Parañaque Cathedral, is one of the oldest Roman Catholic churches in the Philippines,…",
+        "es": "La Catedral de Parañaque más formalmente la Catedral de San Andrés y alternativamente Santuario Diocesano de Nuestra Señora del Buen Suceso es considerada una de las iglesias más antiguas de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Parañaque Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Para%C3%B1aque_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Parañaque",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Para%C3%B1aque"
+        }
+      },
+      "image": {
+        "file": "Saint_Andrew_Cathedral,_Parañaque_City.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Saint_Andrew_Cathedral%2C_Para%C3%B1aque_City.jpg",
+        "author": "Elmer B. Domingo",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-imus-cathedral",
+      "name": "Imus Cathedral",
+      "area": "Dasmariñas",
+      "city": "Dasmariñas",
+      "wikidata": "Q15228603",
+      "lat": 14.429722,
+      "lon": 120.936056,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Diocesan Shrine and Parish of Our Lady of the Pillar, commonly known as Imus Cathedral, is a Roman Catholic cathedral in the city of Imus, in the province of Cavite, Philippines.",
+        "es": "La Catedral de Nuestra Señora del Pilar o simplemente Catedral de Imus es una iglesia catedral católica en la ciudad de Imus, en la provincia de Cavite, parte del país asiático de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Imus Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Imus_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Nuestra Señora del Pilar (Imus)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Nuestra_Se%C3%B1ora_del_Pilar_(Imus)"
+        }
+      },
+      "image": {
+        "file": "ImusCathedraljf0399_03.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ImusCathedraljf0399_03.JPG",
+        "author": "Ramon FVelasquez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-matang-tubig",
+      "name": "Matang Tubig",
+      "area": "Dasmariñas",
+      "city": "Dasmariñas",
+      "wikidata": "Q25051479",
+      "lat": 14.194167,
+      "lon": 121.040833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Sungay, also known as Mount Gonzales, is a mountain in the province of Cavite in the Philippines.",
+        "es": "Mount Sungay, also known as Mount Gonzales, is a mountain in the province of Cavite in the Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Sungay",
+          "url": "https://en.wikipedia.org/wiki/Mount_Sungay"
+        },
+        "es": {
+          "title": "Mount Sungay",
+          "url": "https://en.wikipedia.org/wiki/Mount_Sungay"
+        }
+      },
+      "image": {
+        "file": "Matang_Tubig_Down_Falls.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Matang_Tubig_Down_Falls.jpg",
+        "author": "Ivan E Clarin",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-las-pinas-church",
+      "name": "Las Piñas Church",
+      "area": "Dasmariñas",
+      "city": "Dasmariñas",
+      "wikidata": "Q4348943",
+      "lat": 14.481167,
+      "lon": 120.981556,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Diocesan Shrine and Parish of Saint Joseph, commonly known as Las Piñas Church or Bamboo Organ Church, is a Roman Catholic parish church in Las Piñas, just south of the city of Manila in the Philippines.",
+        "es": "La Iglesia de San José o la Iglesia parroquial de San José de las Piñas es la iglesia católica de la parroquia de Las Piñas, al sur de la ciudad de Manila, en las Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Las Piñas Church",
+          "url": "https://en.wikipedia.org/wiki/Las_Pi%C3%B1as_Church"
+        },
+        "es": {
+          "title": "Iglesia de San José (Las Piñas)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Jos%C3%A9_(Las_Pi%C3%B1as)"
+        }
+      },
+      "image": {
+        "file": "Las_Pinas_Church_during_Simbang_Gabi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Las_Pinas_Church_during_Simbang_Gabi.jpg",
+        "author": "Ervin Malicdem",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-enchanted-kingdom",
+      "name": "Enchanted Kingdom",
+      "area": "Dasmariñas",
+      "city": "Dasmariñas",
+      "wikidata": "Q5375375",
+      "lat": 14.281947,
+      "lon": 121.095394,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Enchanted Kingdom is a theme park in the Philippines.",
+        "es": "Enchanted Kingdom is a theme park in the Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Enchanted Kingdom",
+          "url": "https://en.wikipedia.org/wiki/Enchanted_Kingdom"
+        },
+        "es": {
+          "title": "Enchanted Kingdom",
+          "url": "https://en.wikipedia.org/wiki/Enchanted_Kingdom"
+        }
+      },
+      "image": {
+        "file": "Enchanted_Kingdom_(01-03-2015).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Enchanted_Kingdom_(01-03-2015).jpg",
+        "author": "Martin Lewison",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "ph-marcos-twin-mansion",
+      "name": "Marcos Twin Mansion",
+      "area": "Dasmariñas",
+      "city": "Dasmariñas",
+      "wikidata": "Q28445819",
+      "lat": 14.203333,
+      "lon": 121.041944,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cabuyao Mansion is a government-owned mansion located at Brgy.",
+        "es": "Cabuyao Mansion is a government-owned mansion located at Brgy."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Marcos Twin Mansion",
+          "url": "https://en.wikipedia.org/wiki/Marcos_Twin_Mansion"
+        },
+        "es": {
+          "title": "Marcos Twin Mansion",
+          "url": "https://en.wikipedia.org/wiki/Marcos_Twin_Mansion"
+        }
+      }
+    },
+    {
+      "id": "ph-saint-augustine-metropolitan-cathedral",
+      "name": "Saint Augustine Metropolitan Cathedral",
+      "area": "Cagayan de Oro",
+      "city": "Cagayan de Oro",
+      "wikidata": "Q19894354",
+      "lat": 8.4748,
+      "lon": 124.641,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Saint Augustine Metropolitan Cathedral is a Roman Catholic cathedral located in Cagayan de Oro, Philippines.",
+        "es": "La Catedral de Cagayán de Oro o bien la Catedral Metropolitana de San Agustín Es una catedral católica situada en el Barangay 1, Cagayán de Oro, al sur del país asiático de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saint Augustine Metropolitan Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Saint_Augustine_Metropolitan_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Cagayán de Oro",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Cagay%C3%A1n_de_Oro"
+        }
+      },
+      "image": {
+        "file": "Saint_Agustine_Cathedral_(Cagayan_de_Oro;_11-27-2021).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Saint_Agustine_Cathedral_(Cagayan_de_Oro%3B_11-27-2021).jpg",
+        "author": "patrickroque01",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-divine-mercy-shrine",
+      "name": "Divine Mercy Shrine",
+      "area": "Cagayan de Oro",
+      "city": "Cagayan de Oro",
+      "wikidata": "Q5284111",
+      "lat": 8.54709,
+      "lon": 124.527739,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Divine Mercy Shrine is a Roman Catholic monument in El Salvador, Misamis Oriental, Philippines.",
+        "es": "La Santuario de la Divina Misericordia es un complejo religioso y monumento Católico en El Salvador, Misamis Oriental, en el país asiático de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Divine Mercy Shrine (Misamis Oriental)",
+          "url": "https://en.wikipedia.org/wiki/Divine_Mercy_Shrine_(Misamis_Oriental)"
+        },
+        "es": {
+          "title": "Santuario de la Divina Misericordia (Misamis Oriental)",
+          "url": "https://es.wikipedia.org/wiki/Santuario_de_la_Divina_Misericordia_(Misamis_Oriental)"
+        }
+      }
+    },
+    {
+      "id": "ph-laguna-caldera",
+      "name": "Laguna Caldera",
+      "area": "Biñan",
+      "city": "Biñan",
+      "wikidata": "Q6472796",
+      "lat": 14.3236,
+      "lon": 121.253,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Laguna Caldera is a dormant Pleistocene caldera and a geographical depression in Rizal, Philippines.",
+        "es": "Caldera de Laguna Se ubica al sureste de Manila en la isla de Luzón al norte del país asiático de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Laguna Caldera",
+          "url": "https://en.wikipedia.org/wiki/Laguna_Caldera"
+        },
+        "es": {
+          "title": "Caldera de Laguna",
+          "url": "https://es.wikipedia.org/wiki/Caldera_de_Laguna"
+        }
+      },
+      "image": {
+        "file": "LagunaCaldera02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:LagunaCaldera02.jpg",
+        "author": "Gubernatoria",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-talim-island",
+      "name": "Talim Island",
+      "area": "Biñan",
+      "city": "Biñan",
+      "wikidata": "Q7679518",
+      "lat": 14.35,
+      "lon": 121.233333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Talim Island is the largest lake island in Laguna de Bay, the largest lake in the Philippines.",
+        "es": "Talim Island is the largest lake island in Laguna de Bay, the largest lake in the Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Talim Island",
+          "url": "https://en.wikipedia.org/wiki/Talim_Island"
+        },
+        "es": {
+          "title": "Talim Island",
+          "url": "https://en.wikipedia.org/wiki/Talim_Island"
+        }
+      },
+      "image": {
+        "file": "Talim_Island_from_the_air.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Talim_Island_from_the_air.jpg",
+        "author": "Eugene Alvin Villar (seav)",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-mount-tagapo",
+      "name": "Mount Tagapo",
+      "area": "Biñan",
+      "city": "Biñan",
+      "wikidata": "Q16935423",
+      "lat": 14.33294,
+      "lon": 121.23256,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Tagapo, also known as Susong Dalaga, is a conical peak on the lake island of Talim on Laguna de Bay, the largest lake in the Philippines.",
+        "es": "Mount Tagapo, also known as Susong Dalaga, is a conical peak on the lake island of Talim on Laguna de Bay, the largest lake in the Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Tagapo",
+          "url": "https://en.wikipedia.org/wiki/Mount_Tagapo"
+        },
+        "es": {
+          "title": "Mount Tagapo",
+          "url": "https://en.wikipedia.org/wiki/Mount_Tagapo"
+        }
+      },
+      "image": {
+        "file": "Mt._Tagapo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mt._Tagapo.jpg",
+        "author": "アブサン",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-alligator-lake",
+      "name": "Alligator Lake",
+      "area": "Biñan",
+      "city": "Biñan",
+      "wikidata": "Q16002583",
+      "lat": 14.1825,
+      "lon": 121.206,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tadlac Lake, also colloquially known as Crocodile Lake, is a freshwater volcanic maar lake located in Barangay Tadlac, in the municipality of Los Baños, Laguna.",
+        "es": "Tadlac Lake, also colloquially known as Crocodile Lake, is a freshwater volcanic maar lake located in Barangay Tadlac, in the municipality of Los Baños, Laguna."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tadlac Lake",
+          "url": "https://en.wikipedia.org/wiki/Tadlac_Lake"
+        },
+        "es": {
+          "title": "Tadlac Lake",
+          "url": "https://en.wikipedia.org/wiki/Tadlac_Lake"
+        }
+      },
+      "image": {
+        "file": "LakeTadlacjf8660_08.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:LakeTadlacjf8660_08.JPG",
+        "author": "Ramon FVelasquez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-napindan-lighthouse",
+      "name": "Napindan Lighthouse",
+      "area": "Biñan",
+      "city": "Biñan",
+      "wikidata": "Q65040958",
+      "lat": 14.520556,
+      "lon": 121.116056,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Napindan Lighthouse was a lighthouse in Taguig, Rizal.",
+        "es": "The Napindan Lighthouse was a lighthouse in Taguig, Rizal."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Napindan Lighthouse",
+          "url": "https://en.wikipedia.org/wiki/Napindan_Lighthouse"
+        },
+        "es": {
+          "title": "Napindan Lighthouse",
+          "url": "https://en.wikipedia.org/wiki/Napindan_Lighthouse"
+        }
+      },
+      "image": {
+        "file": "Parola-napindan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parola-napindan.jpg",
+        "author": "Evangelicum",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-calamba-island",
+      "name": "Calamba Island",
+      "area": "Biñan",
+      "city": "Biñan",
+      "wikidata": "Q25231155",
+      "lat": 14.2186,
+      "lon": 121.20495,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Calamba Island, also known as Wonder Island Calamba, is an island resort in Calamba, Laguna, situated in the middle of Laguna de Bay.",
+        "es": "Calamba Island, also known as Wonder Island Calamba, is an island resort in Calamba, Laguna, situated in the middle of Laguna de Bay."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Calamba Island",
+          "url": "https://en.wikipedia.org/wiki/Calamba_Island"
+        },
+        "es": {
+          "title": "Calamba Island",
+          "url": "https://en.wikipedia.org/wiki/Calamba_Island"
+        }
+      }
+    },
+    {
+      "id": "ph-rizal-monument-q18217301",
+      "name": "Rizal Monument",
+      "area": "Biñan",
+      "city": "Biñan",
+      "wikidata": "Q18217301",
+      "lat": 14.1959,
+      "lon": 121.16,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Rizal Monument in Calamba is a monument built to commemorate the sesquicentennial birth anniversary of Dr.",
+        "es": "El Monumento a Rizal en Calambá es un monumento construido para conmemorar el 150 aniversario del nacimiento de José Rizal, el héroe nacional filipino e hijo predilecto de la ciudad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rizal Monument (Calamba)",
+          "url": "https://en.wikipedia.org/wiki/Rizal_Monument_(Calamba)"
+        },
+        "es": {
+          "title": "Monumento a Rizal en Calambá",
+          "url": "https://es.wikipedia.org/wiki/Monumento_a_Rizal_en_Calamb%C3%A1"
+        }
+      }
+    },
+    {
+      "id": "ph-calamba-claypot",
+      "name": "Calamba Claypot",
+      "area": "Biñan",
+      "city": "Biñan",
+      "wikidata": "Q18379769",
+      "lat": 14.2142,
+      "lon": 121.167,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Calamba Claypot, also known as the Calamba Jar and the Banga, is a landmark in Calamba, Laguna, Philippines, considered the largest claypot in the world.",
+        "es": "The Calamba Claypot, also known as the Calamba Jar and the Banga, is a landmark in Calamba, Laguna, Philippines, considered the largest claypot in the world."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Calamba Claypot",
+          "url": "https://en.wikipedia.org/wiki/Calamba_Claypot"
+        },
+        "es": {
+          "title": "Calamba Claypot",
+          "url": "https://en.wikipedia.org/wiki/Calamba_Claypot"
+        }
+      },
+      "image": {
+        "file": "Calamba_City_Giant_Water_Pot.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Calamba_City_Giant_Water_Pot.jpg",
+        "author": "WikiCalambenyo",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-baclaran-church",
+      "name": "Baclaran Church",
+      "area": "Muntinlupa",
+      "city": "Muntinlupa",
+      "wikidata": "Q6978434",
+      "lat": 14.531111,
+      "lon": 120.995,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The National Shrine of Our Mother of Perpetual Help, also known as the Redemptorist Church and colloquially as Baclaran Church, is a national shrine dedicated to Our Lady of Perpetual Help along Roxas Boulevard in…",
+        "es": "El Santuario Nacional de Nuestra Señora del Perpetuo Socorro también conocida como la iglesia redentorista, popularmente conocida como la iglesia de Baclaran, se trata de una prominente iglesia católica de rito…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Baclaran Church",
+          "url": "https://en.wikipedia.org/wiki/Baclaran_Church"
+        },
+        "es": {
+          "title": "Santuario Nacional de Nuestra Señora del Perpetuo Socorro",
+          "url": "https://es.wikipedia.org/wiki/Santuario_Nacional_de_Nuestra_Se%C3%B1ora_del_Perpetuo_Socorro"
+        }
+      },
+      "image": {
+        "file": "Baclaran_Church_2024-03-06.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Baclaran_Church_2024-03-06.jpg",
+        "author": "LMP 2001",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-plaza-rajah-sulayman",
+      "name": "Plaza Rajah Sulayman",
+      "area": "Muntinlupa",
+      "city": "Muntinlupa",
+      "wikidata": "Q13453623",
+      "lat": 14.568792,
+      "lon": 120.983739,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Plaza Rajah Sulayman, also known as Rajah Sulayman Park, is a public square in Malate, Manila.",
+        "es": "La plaza Rajah Sulayman, también conocida como el Parque Rajah Sulayman, es una plaza pública de Malate, Manila, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plaza Rajah Sulayman",
+          "url": "https://en.wikipedia.org/wiki/Plaza_Rajah_Sulayman"
+        },
+        "es": {
+          "title": "Plaza Rajah Sulayman",
+          "url": "https://es.wikipedia.org/wiki/Plaza_Rajah_Sulayman"
+        }
+      }
+    },
+    {
+      "id": "ph-the-shang-grand-tower",
+      "name": "The Shang Grand Tower",
+      "area": "Muntinlupa",
+      "city": "Muntinlupa",
+      "wikidata": "Q2436539",
+      "lat": 14.555006,
+      "lon": 121.021192,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Shang Grand Tower, also known as simply the Shang Tower, is a high-end residential condominium skyscraper located in Makati, Philippines.",
+        "es": "The Shang Grand Tower, also known as simply the Shang Tower, is a high-end residential condominium skyscraper located in Makati, Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "The Shang Grand Tower",
+          "url": "https://en.wikipedia.org/wiki/The_Shang_Grand_Tower"
+        },
+        "es": {
+          "title": "The Shang Grand Tower",
+          "url": "https://en.wikipedia.org/wiki/The_Shang_Grand_Tower"
+        }
+      }
+    },
+    {
+      "id": "ph-baclaran-mosque",
+      "name": "Baclaran Mosque",
+      "area": "General Trias",
+      "city": "General Trias",
+      "wikidata": "Q4839897",
+      "lat": 14.5323,
+      "lon": 120.992,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Baclaran Mosque, formally called the Rajah Sulaiman Grand Mosque was a mosque in Barangay Baclaran at the border of Pasay and Parañaque in Metro Manila, Philippines.",
+        "es": "The Baclaran Mosque, formally called the Rajah Sulaiman Grand Mosque was a mosque in Barangay Baclaran at the border of Pasay and Parañaque in Metro Manila, Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Baclaran Mosque",
+          "url": "https://en.wikipedia.org/wiki/Baclaran_Mosque"
+        },
+        "es": {
+          "title": "Baclaran Mosque",
+          "url": "https://en.wikipedia.org/wiki/Baclaran_Mosque"
+        }
+      }
+    },
+    {
+      "id": "ph-museo-del-galeon",
+      "name": "Museo del Galeón",
+      "area": "General Trias",
+      "city": "General Trias",
+      "wikidata": "Q23823972",
+      "lat": 14.53693,
+      "lon": 120.98008,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museo del Galeón is a maritime heritage museum within the SM Mall of Asia complex in Pasay, Metro Manila, Philippines.",
+        "es": "Museo del Galeón is a maritime heritage museum within the SM Mall of Asia complex in Pasay, Metro Manila, Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museo del Galeón",
+          "url": "https://en.wikipedia.org/wiki/Museo_del_Gale%C3%B3n"
+        },
+        "es": {
+          "title": "Museo del Galeón",
+          "url": "https://en.wikipedia.org/wiki/Museo_del_Gale%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "The_Galeon_dome_construction_(June_2016).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_Galeon_dome_construction_(June_2016).jpg",
+        "author": "Hariboneagle927",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-maragondon-church",
+      "name": "Maragondon Church",
+      "area": "General Trias",
+      "city": "General Trias",
+      "wikidata": "Q18127832",
+      "lat": 14.274,
+      "lon": 120.733,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Our Lady of the Assumption Parish Church, commonly known as Maragondon Church, is a Roman Catholic church and in the municipality of Maragondon, Cavite, Philippines declared by the National Museum as a National…",
+        "es": "La Iglesia Parroquial de Nuestra Señora de la Asunción, o Iglesia de Maragondón, es una iglesia católica romana del siglo XVIII, época española, situada en Maragondon, Cavite, Filipinas"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Maragondon Church",
+          "url": "https://en.wikipedia.org/wiki/Maragondon_Church"
+        },
+        "es": {
+          "title": "Iglesia de Nuestra Señora de la Asunción (Maragondón)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Asunci%C3%B3n_(Maragond%C3%B3n)"
+        }
+      },
+      "image": {
+        "file": "Our_Lady_of_the_Assumption_Parish_Church,_Magondon,_Cavite_14.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Our_Lady_of_the_Assumption_Parish_Church%2C_Magondon%2C_Cavite_14.JPG",
+        "author": "Joannerfabregas",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-shrine-of-st-therese-doctor-of-the-church",
+      "name": "Shrine of St. Therese, Doctor of the Church",
+      "area": "General Trias",
+      "city": "General Trias",
+      "wikidata": "Q7731563",
+      "lat": 14.5213,
+      "lon": 121.016,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Shrine of St. Thérèse of the Child Jesus is a Roman Catholic church located in Pasay, Philippines, across the main entrance of Ninoy Aquino International Airport Terminal 3.",
+        "es": "El Santuario de Santa Teresa doctora de la Iglesia, fue construido como un Santuario Diocesano del ordinariato militar de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Shrine of St. Therese of the Child Jesus",
+          "url": "https://en.wikipedia.org/wiki/Shrine_of_St._Therese_of_the_Child_Jesus"
+        },
+        "es": {
+          "title": "Santuario de Santa Teresa doctora de la Iglesia",
+          "url": "https://es.wikipedia.org/wiki/Santuario_de_Santa_Teresa_doctora_de_la_Iglesia"
+        }
+      },
+      "image": {
+        "file": "ShrineofSt.Therese,DoctoroftheChurchjf9743_11.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ShrineofSt.Therese%2CDoctoroftheChurchjf9743_11.JPG",
+        "author": "Ramon FVelasquez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-jaro-cathedral",
+      "name": "Jaro Cathedral",
+      "area": "Iloilo City",
+      "city": "Iloilo City",
+      "wikidata": "Q6160440",
+      "lat": 10.72351,
+      "lon": 122.55622,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Jaro Metropolitan Cathedral, also known as the National Shrine of the Our Lady of Candles, Metropolitan Cathedral of Saint Elizabeth of Hungary, and colloquially as Jaro Cathedral, is a cathedral and national…",
+        "es": "The Jaro Metropolitan Cathedral, also known as the National Shrine of the Our Lady of Candles, Metropolitan Cathedral of Saint Elizabeth of Hungary, and colloquially as Jaro Cathedral, is a cathedral and national…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jaro Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Jaro_Cathedral"
+        },
+        "es": {
+          "title": "Catedral y santuario nacional de Nuestra Señora de la Candelaria",
+          "url": "https://es.wikipedia.org/wiki/Catedral_y_santuario_nacional_de_Nuestra_Se%C3%B1ora_de_la_Candelaria"
+        }
+      },
+      "image": {
+        "file": "Jaro_Cathedral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jaro_Cathedral.jpg",
+        "author": "Kguirnela at English Wikipedia",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "ph-our-lady-of-the-philippines-trappist-monastery",
+      "name": "Our Lady of the Philippines Trappist Monastery",
+      "area": "Iloilo City",
+      "city": "Iloilo City",
+      "wikidata": "Q7111028",
+      "lat": 10.57927,
+      "lon": 122.57656,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Our Lady of the Philippines Abbey is a Catholic Trappist Abbey on Jordan, Guimaras, Philippines and is the one of the only two Trappist monasteries in the country.",
+        "es": "El Monasterio trapense de Nuestra Señora de las Filipinas es un monasterio trapense en la provincia de Guimaras, en la región de las Bisayas Occidentales en el centro del país asiático de las Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Our Lady of the Philippines Trappist Monastery",
+          "url": "https://en.wikipedia.org/wiki/Our_Lady_of_the_Philippines_Trappist_Monastery"
+        },
+        "es": {
+          "title": "Monasterio trapense de Nuestra Señora de las Filipinas",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_trapense_de_Nuestra_Se%C3%B1ora_de_las_Filipinas"
+        }
+      },
+      "image": {
+        "file": "Church_at_Trappist_Monastery_Guimaras.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Church_at_Trappist_Monastery_Guimaras.jpg",
+        "author": "Iloilo Wanderer",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-san-vicente-ferrer-church",
+      "name": "San Vicente Ferrer Church",
+      "area": "Iloilo City",
+      "city": "Iloilo City",
+      "wikidata": "Q18354501",
+      "lat": 10.786283,
+      "lon": 122.590217,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Archdiocesan Shrine of Saint Vincent Ferrer, commonly known as Leganes Church, is a neoclassical church dedicated to Saint Vincent Ferrer in Leganes, Iloilo, Philippines under the Roman Catholic Archdiocese of Jaro.",
+        "es": "The Archdiocesan Shrine of Saint Vincent Ferrer, commonly known as Leganes Church, is a neoclassical church dedicated to Saint Vincent Ferrer in Leganes, Iloilo, Philippines under the Roman Catholic Archdiocese of Jaro."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "San Vicente Ferrer Church (Leganes, Iloilo)",
+          "url": "https://en.wikipedia.org/wiki/San_Vicente_Ferrer_Church_(Leganes%2C_Iloilo)"
+        },
+        "es": {
+          "title": "San Vicente Ferrer Church (Leganes, Iloilo)",
+          "url": "https://en.wikipedia.org/wiki/San_Vicente_Ferrer_Church_(Leganes%2C_Iloilo)"
+        }
+      },
+      "image": {
+        "file": "Facade_of_San_Vicente_Ferrer_Church_in_Leganes,_Iloilo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Facade_of_San_Vicente_Ferrer_Church_in_Leganes%2C_Iloilo.jpg",
+        "author": "Franz Miko G. Verzon",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-naburot-island",
+      "name": "Naburot Island",
+      "area": "Iloilo City",
+      "city": "Iloilo City",
+      "wikidata": "Q14219236",
+      "lat": 10.56773,
+      "lon": 122.51067,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Naburot Island is an island located in Brgy.",
+        "es": "Naburot Island is an island located in Brgy."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Naburot Island",
+          "url": "https://en.wikipedia.org/wiki/Naburot_Island"
+        },
+        "es": {
+          "title": "Naburot Island",
+          "url": "https://en.wikipedia.org/wiki/Naburot_Island"
+        }
+      }
+    },
+    {
+      "id": "ph-jaro-evangelical-church",
+      "name": "Jaro Evangelical Church",
+      "area": "Iloilo City",
+      "city": "Iloilo City",
+      "wikidata": "Q16987953",
+      "website": "https://jaroevangelicalchurch.org",
+      "lat": 10.69,
+      "lon": 122.55,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Jaro Evangelical Church is a Baptist church in Jaro, Iloilo City, Philippines, affiliated with the Convention of Philippine Baptist Churches.",
+        "es": "The Jaro Evangelical Church is a Baptist church in Jaro, Iloilo City, Philippines, affiliated with the Convention of Philippine Baptist Churches."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jaro Evangelical Church",
+          "url": "https://en.wikipedia.org/wiki/Jaro_Evangelical_Church"
+        },
+        "es": {
+          "title": "Jaro Evangelical Church",
+          "url": "https://en.wikipedia.org/wiki/Jaro_Evangelical_Church"
+        }
+      }
+    },
+    {
+      "id": "ph-molo-church",
+      "name": "Molo Church",
+      "area": "Iloilo City",
+      "city": "Iloilo City",
+      "wikidata": "Q56599216",
+      "lat": 10.697222,
+      "lon": 122.544722,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Santa Ana Parish Church, commonly known as Molo Church, is a Spanish neo-Gothic Roman Catholic church located in the district of Molo in Iloilo City, in the Philippines.",
+        "es": "La Iglesia Santa Ana, comúnmente conocida como Iglesia de Molo, es una iglesia católica romana del siglo XIX situada en la ciudad de Iloilo, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Molo Church",
+          "url": "https://en.wikipedia.org/wiki/Molo_Church"
+        },
+        "es": {
+          "title": "Iglesia de Santa Ana (Molo)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Santa_Ana_(Molo)"
+        }
+      },
+      "image": {
+        "file": "Molo_Church_(Molo,_Iloilo_City;_04-03-2024).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Molo_Church_(Molo%2C_Iloilo_City%3B_04-03-2024).jpg",
+        "author": "Patrickroque01",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-camina-balay-nga-bato",
+      "name": "Camiña Balay Nga Bato",
+      "area": "Iloilo City",
+      "city": "Iloilo City",
+      "wikidata": "Q113318085",
+      "lat": 10.6897,
+      "lon": 122.51497,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Avanceña–Camiña Balay Nga Bato, also known simply as Camiña Balay Nga Bato, is a 161-year-old bahay na bato in the Arevalo district, Iloilo City, Philippines.",
+        "es": "La Casa Camiña, también conocida como Casa Avanceña es una casa histórica del siglo XIX, época española, situada en el distrito de Arevalo, ciudad de Iloilo, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Camiña Balay Nga Bato",
+          "url": "https://en.wikipedia.org/wiki/Cami%C3%B1a_Balay_Nga_Bato"
+        },
+        "es": {
+          "title": "Casa Camiña",
+          "url": "https://es.wikipedia.org/wiki/Casa_Cami%C3%B1a"
+        }
+      },
+      "image": {
+        "file": "Camiña_Balay_nga_Bato_22.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cami%C3%B1a_Balay_nga_Bato_22.jpg",
+        "author": "Herbertkikoy",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-jaro-belfry",
+      "name": "Jaro Belfry",
+      "area": "Iloilo City",
+      "city": "Iloilo City",
+      "wikidata": "Q115249046",
+      "lat": 10.724165,
+      "lon": 122.556812,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Jaro Belfry, also known as Campanario de Jaro, is a Baroque and neoclassical free-standing bell tower located in front of the Jaro Metropolitan Cathedral in Jaro, Iloilo City, Philippines.",
+        "es": "La torre de Jaro o torre campanario de Jaro es una torre campanario, originalmente del siglo XVIII, situada en la ciudad de Iloílo, Bisayas Occidentales, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jaro Belfry",
+          "url": "https://en.wikipedia.org/wiki/Jaro_Belfry"
+        },
+        "es": {
+          "title": "Torre campanario de Jaro",
+          "url": "https://es.wikipedia.org/wiki/Torre_campanario_de_Jaro"
+        }
+      },
+      "image": {
+        "file": "Belfry_of_Jaro.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Belfry_of_Jaro.jpg",
+        "author": "Dandy1022",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-museo-iloilo",
+      "name": "Museo Iloilo",
+      "area": "Iloilo City",
+      "city": "Iloilo City",
+      "wikidata": "Q25663043",
+      "lat": 10.702787,
+      "lon": 122.568498,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museo Iloilo is a provincial museum located near the Iloilo Provincial Capitol in Iloilo City, Philippines.",
+        "es": "Museo Iloilo is a provincial museum located near the Iloilo Provincial Capitol in Iloilo City, Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museo Iloilo",
+          "url": "https://en.wikipedia.org/wiki/Museo_Iloilo"
+        },
+        "es": {
+          "title": "Museo Iloilo",
+          "url": "https://en.wikipedia.org/wiki/Museo_Iloilo"
+        }
+      }
+    },
+    {
+      "id": "ph-arroyo-fountain",
+      "name": "Arroyo Fountain",
+      "area": "Iloilo City",
+      "city": "Iloilo City",
+      "wikidata": "Q115802781",
+      "lat": 10.70154,
+      "lon": 122.56908,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Arroyo Fountain is a historic monument located in front of Casa Real de Iloilo in Iloilo City Proper, Philippines.",
+        "es": "Arroyo Fountain is a historic monument located in front of Casa Real de Iloilo in Iloilo City Proper, Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Arroyo Fountain",
+          "url": "https://en.wikipedia.org/wiki/Arroyo_Fountain"
+        },
+        "es": {
+          "title": "Arroyo Fountain",
+          "url": "https://en.wikipedia.org/wiki/Arroyo_Fountain"
+        }
+      },
+      "image": {
+        "file": "Arroyo_Fountain_with_the_Iloilo_Provincial_Capitol_in_the_background_(2022-10-22).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arroyo_Fountain_with_the_Iloilo_Provincial_Capitol_in_the_background_(2022-10-22).jpg",
+        "author": "Patrickroque01",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-cathedral-museum-of-cebu",
+      "name": "Cathedral Museum of Cebu",
+      "area": "Mactan",
+      "city": "Mactan",
+      "wikidata": "Q5052254",
+      "lat": 10.296063,
+      "lon": 123.903442,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Archdiocesan Museum of Cebu, also known as the Cathedral Museum of Cebu, is a museum in Downtown Cebu City in the Philippines, reopened in November 2006.",
+        "es": "El Museo de la Catedral de Cebú es un museo catedralicio de la ciudad de Cebú, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral Museum of Cebu",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_Museum_of_Cebu"
+        },
+        "es": {
+          "title": "Museo de la Catedral de Cebú",
+          "url": "https://es.wikipedia.org/wiki/Museo_de_la_Catedral_de_Ceb%C3%BA"
+        }
+      },
+      "image": {
+        "file": "Bahay_Na_Bato_Cebu.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bahay_Na_Bato_Cebu.jpg",
+        "author": "Markytour777",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-people-s-park-in-the-sky",
+      "name": "People's Park in the Sky",
+      "area": "Santa Rosa",
+      "city": "Santa Rosa",
+      "wikidata": "Q16898259",
+      "lat": 14.1414,
+      "lon": 121.022,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The People's Park in the Sky, often simply called People's Park and originally named Palace in the Sky, is a historic urban park in Tagaytay, Cavite, Philippines.",
+        "es": "The People's Park in the Sky, often simply called People's Park and originally named Palace in the Sky, is a historic urban park in Tagaytay, Cavite, Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "People's Park in the Sky",
+          "url": "https://en.wikipedia.org/wiki/People's_Park_in_the_Sky"
+        },
+        "es": {
+          "title": "People's Park in the Sky",
+          "url": "https://en.wikipedia.org/wiki/People's_Park_in_the_Sky"
+        }
+      },
+      "image": {
+        "file": "People's_Park_in_the_Sky.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:People's_Park_in_the_Sky.jpg",
+        "author": "Noli Fernan \"Dudut\" Perez",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ph-tarlac-cathedral",
+      "name": "Tarlac Cathedral",
+      "area": "Tarlac City",
+      "city": "Tarlac City",
+      "wikidata": "Q19787276",
+      "lat": 15.4877,
+      "lon": 120.588,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "San Sebastian Cathedral Parish, commonly known as Tarlac Cathedral, is a post-war, Neo-Gothic Latin Catholic church located in Brgy.",
+        "es": "La Catedral de San Sebastián o bien Catedral de Tarlac es una iglesia neogótica de la un post-guerra ubicada en Barangay de Mabini, Tarlac, en el país asiático de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tarlac Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Tarlac_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de San Sebastián (Tarlac)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Sebasti%C3%A1n_(Tarlac)"
+        }
+      },
+      "image": {
+        "file": "Tarlac_Cathedral.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tarlac_Cathedral.jpg",
+        "author": "~MVI~",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ph-capas-national-shrine",
+      "name": "Capas National Shrine",
+      "area": "Tarlac City",
+      "city": "Tarlac City",
+      "wikidata": "Q5034523",
+      "lat": 15.34891,
+      "lon": 120.545246,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Capas National Shrine in Barangay Aranguren, Capas, Tarlac, Philippines was built by the Philippine government as a memorial to Allied soldiers who were interned at Camp O'Donnell at the end of the Bataan Death…",
+        "es": "The Capas National Shrine in Barangay Aranguren, Capas, Tarlac, Philippines was built by the Philippine government as a memorial to Allied soldiers who were interned at Camp O'Donnell at the end of the Bataan Death…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Capas National Shrine",
+          "url": "https://en.wikipedia.org/wiki/Capas_National_Shrine"
+        },
+        "es": {
+          "title": "Capas National Shrine",
+          "url": "https://en.wikipedia.org/wiki/Capas_National_Shrine"
+        }
+      },
+      "image": {
+        "file": "Capas_Tarlac_May_2018_(42450722332).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Capas_Tarlac_May_2018_(42450722332).jpg",
+        "author": "jopetsy from Metro Manila, Philippines",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "ph-immaculate-conception-parish-church",
+      "name": "Immaculate Conception Parish Church",
+      "area": "Tarlac City",
+      "city": "Tarlac City",
+      "wikidata": "Q19787254",
+      "lat": 15.3241,
+      "lon": 120.576,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Santuario de la Inmaculada Concepcion, also known as Immaculate Conception Parish Church and Concepcion Church, is a late 19th-century, Baroque Roman Catholic church located at Brgy.",
+        "es": "The Santuario de la Inmaculada Concepcion, also known as Immaculate Conception Parish Church and Concepcion Church, is a late 19th-century, Baroque Roman Catholic church located at Brgy."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Immaculate Conception Parish Church (Concepcion)",
+          "url": "https://en.wikipedia.org/wiki/Immaculate_Conception_Parish_Church_(Concepcion)"
+        },
+        "es": {
+          "title": "Immaculate Conception Parish Church (Concepcion)",
+          "url": "https://en.wikipedia.org/wiki/Immaculate_Conception_Parish_Church_(Concepcion)"
+        }
+      },
+      "image": {
+        "file": "Immaculate_Conception_Shrine_in_Concepcion,_Tarlac.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Immaculate_Conception_Shrine_in_Concepcion%2C_Tarlac.jpg",
+        "author": "Ramon FVelasquez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-mount-makiling",
+      "name": "Mount Makiling",
+      "area": "Lipa",
+      "city": "Lipa",
+      "wikidata": "Q1551536",
+      "lat": 14.13,
+      "lon": 121.2,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Makiling is an inactive stratovolcano located in the provinces of Laguna and Batangas on the island of Luzon in the Philippines.",
+        "es": "El monte Makiling es un volcán potencialmente activo de 1.109 metros de altura en la provincia filipina de La Laguna."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Makiling",
+          "url": "https://en.wikipedia.org/wiki/Mount_Makiling"
+        },
+        "es": {
+          "title": "Makiling",
+          "url": "https://es.wikipedia.org/wiki/Makiling"
+        }
+      },
+      "image": {
+        "file": "Makiling.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Makiling.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-mount-macolod",
+      "name": "Mount Macolod",
+      "area": "Lipa",
+      "city": "Lipa",
+      "wikidata": "Q6921956",
+      "lat": 13.916667,
+      "lon": 121.05,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Macolod is a flank dormant stratovolcano of Taal Volcano located in the municipality of Cuenca, Batangas in the Philippines.",
+        "es": "Monte Macolod es una montaña ubicada en la ciudad de Cuenca en la provincia de Batangas, en Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Macolod",
+          "url": "https://en.wikipedia.org/wiki/Mount_Macolod"
+        },
+        "es": {
+          "title": "Monte Macolod",
+          "url": "https://es.wikipedia.org/wiki/Monte_Macolod"
+        }
+      },
+      "image": {
+        "file": "Mount_Macolod_with_Volcano_Island.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_Macolod_with_Volcano_Island.jpg",
+        "author": "Taal_View_from_Tagaytay_2010.JPG: Zuanzuanfuwa derivative work: Briarfallen (tal",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-lipa-cathedral",
+      "name": "Lipa Cathedral",
+      "area": "Lipa",
+      "city": "Lipa",
+      "wikidata": "Q19895799",
+      "lat": 13.941,
+      "lon": 121.163,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Metropolitan Cathedral of San Sebastian, commonly known as Lipa Cathedral, is a Neo-Renaissance cathedral in Lipa, Batangas, Philippines.",
+        "es": "La catedral de San Sebastián o simplemente catedral de Lipa es una iglesia católica de estilo románico en Lipa, Batangas, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lipa Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Lipa_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de San Sebastián (Lipá)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Sebasti%C3%A1n_(Lip%C3%A1)"
+        }
+      },
+      "image": {
+        "file": "Lipa_Cathedral.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lipa_Cathedral.JPG",
+        "author": "Junsierra",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-lake-tikub",
+      "name": "Lake Tikub",
+      "area": "Lipa",
+      "city": "Lipa",
+      "wikidata": "Q6478041",
+      "lat": 13.962672,
+      "lon": 121.306328,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Tikub is a nearly circular crater lake located in the province of Quezon, in the Philippines.",
+        "es": "Lake Tikub is a nearly circular crater lake located in the province of Quezon, in the Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Tikub",
+          "url": "https://en.wikipedia.org/wiki/Lake_Tikub"
+        },
+        "es": {
+          "title": "Lake Tikub",
+          "url": "https://en.wikipedia.org/wiki/Lake_Tikub"
+        }
+      }
+    },
+    {
+      "id": "ph-padre-pio-shrine",
+      "name": "Padre Pio Shrine",
+      "area": "Lipa",
+      "city": "Lipa",
+      "wikidata": "Q29586814",
+      "lat": 14.076507,
+      "lon": 121.176532,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Parish and International Shrine of Saint Padre Pio, commonly known as Padre Pio Shrine, is a Roman Catholic parish church and pilgrimage site situated along Governor Antonio Carpio Avenue in Barangay San Pedro,…",
+        "es": "The Parish and International Shrine of Saint Padre Pio, commonly known as Padre Pio Shrine, is a Roman Catholic parish church and pilgrimage site situated along Governor Antonio Carpio Avenue in Barangay San Pedro,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Padre Pio Shrine",
+          "url": "https://en.wikipedia.org/wiki/Padre_Pio_Shrine"
+        },
+        "es": {
+          "title": "Padre Pio Shrine",
+          "url": "https://en.wikipedia.org/wiki/Padre_Pio_Shrine"
+        }
+      },
+      "image": {
+        "file": "4719Padre_Pio_National_Shrine_42.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:4719Padre_Pio_National_Shrine_42.jpg",
+        "author": "Judgefloro",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "ph-casa-de-segunda",
+      "name": "Casa de Segunda",
+      "area": "Lipa",
+      "city": "Lipa",
+      "wikidata": "Q23048144",
+      "lat": 13.93897,
+      "lon": 121.161767,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Casa de Segunda, also known as Luz–Katigbak House, is a heritage house museum located along Rizal Street, Lipa City, Batangas.",
+        "es": "La Casa de Segunda, también conocida como Casa Luz – Katigbak, es una casa histórica del siglo XIX, época española, situada en ciudad de Lipa, Batangas, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Casa de Segunda",
+          "url": "https://en.wikipedia.org/wiki/Casa_de_Segunda"
+        },
+        "es": {
+          "title": "Casa de Segunda",
+          "url": "https://es.wikipedia.org/wiki/Casa_de_Segunda"
+        }
+      },
+      "image": {
+        "file": "Luz-Katigbak_Ancestral_House,_Lipa,_Batangas,_Apr_2024.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Luz-Katigbak_Ancestral_House%2C_Lipa%2C_Batangas%2C_Apr_2024.jpg",
+        "author": "Ralff Nestor Nacor",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-macapagal-bridge",
+      "name": "Macapagal Bridge",
+      "area": "Butuan",
+      "city": "Butuan",
+      "wikidata": "Q47340246",
+      "lat": 8.9225,
+      "lon": 125.553611,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Macapagal Bridge is a steel cable-stayed bridge along Mayor Democrito D.",
+        "es": "The Macapagal Bridge is a steel cable-stayed bridge along Mayor Democrito D."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Macapagal Bridge",
+          "url": "https://en.wikipedia.org/wiki/Macapagal_Bridge"
+        },
+        "es": {
+          "title": "Macapagal Bridge",
+          "url": "https://en.wikipedia.org/wiki/Macapagal_Bridge"
+        }
+      },
+      "image": {
+        "file": "MacapagalBridge.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:MacapagalBridge.jpg",
+        "author": "Yanong Lumad (talk)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-sultan-haji-hassanal-bolkiah-mosque",
+      "name": "Sultan Haji Hassanal Bolkiah Mosque",
+      "area": "Cotabato City",
+      "city": "Cotabato City",
+      "wikidata": "Q2364761",
+      "lat": 7.2019,
+      "lon": 124.1656,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Grand Mosque of Cotabato, officially the Sultan Haji Hassanal Bolkiah Mosque, is situated in Cotabato City and is the second largest mosque in the Philippines with the capacity to accommodate 15,000 people.",
+        "es": "La Gran Mezquita de Cotabato es la mezquita más grande en el país asiático de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sultan Haji Hassanal Bolkiah Mosque",
+          "url": "https://en.wikipedia.org/wiki/Sultan_Haji_Hassanal_Bolkiah_Mosque"
+        },
+        "es": {
+          "title": "Gran Mezquita de Cotabato",
+          "url": "https://es.wikipedia.org/wiki/Gran_Mezquita_de_Cotabato"
+        }
+      }
+    },
+    {
+      "id": "ph-mado-hot-spring-national-park",
+      "name": "Mado Hot Spring National Park",
+      "area": "Cotabato City",
+      "city": "Cotabato City",
+      "wikidata": "Q6728325",
+      "lat": 7.266667,
+      "lon": 124.35,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mado Hot Spring National Park is a protected area of the Philippines located in barangay Awang in the municipality of Datu Odin Sinsuat, Maguindanao del Norte in Mindanao, Philippines.",
+        "es": "El Parque nacional Aguas Termales de Mado es un área protegida de las Filipinas situada en el barangay de Awang en el municipio de Datu Odin Sinsuat, Maguindanao, en la isla de Mindanao."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mado Hot Spring National Park",
+          "url": "https://en.wikipedia.org/wiki/Mado_Hot_Spring_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Aguas Termales de Mado",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Aguas_Termales_de_Mado"
+        }
+      }
+    },
+    {
+      "id": "ph-mount-arayat",
+      "name": "Mount Arayat",
+      "area": "San Fernando",
+      "city": "San Fernando",
+      "wikidata": "Q626809",
+      "lat": 15.2,
+      "lon": 120.742,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Arayat is an isolated, potentially active stratovolcano in the Central Luzon plains.",
+        "es": "El monte Aráyat es un estrato volcán potencialmente activo en la isla de Luzón, Filipinas, elevándose a una altitud de 1.026 metros."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Arayat",
+          "url": "https://en.wikipedia.org/wiki/Mount_Arayat"
+        },
+        "es": {
+          "title": "Monte Aráyat",
+          "url": "https://es.wikipedia.org/wiki/Monte_Ar%C3%A1yat"
+        }
+      },
+      "image": {
+        "file": "JfCambaHiway0001PostArayat,Pampangafvf_11.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:JfCambaHiway0001PostArayat%2CPampangafvf_11.JPG",
+        "author": "Judgefloro",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ph-san-fernando-cathedral",
+      "name": "San Fernando Cathedral",
+      "area": "San Fernando",
+      "city": "San Fernando",
+      "wikidata": "Q4348950",
+      "lat": 15.028378,
+      "lon": 120.693135,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Metropolitan Cathedral of San Fernando, formerly known as the Cathedral of Our Lady of the Assumption, is a neo-classical Roman Catholic church in the City of San Fernando, in Pampanga province of the Philippines.",
+        "es": "La Catedral Metropolitana de San Fernando es la sede de la arquidiócesis de San Fernando, Pampanga, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "San Fernando Cathedral (Pampanga)",
+          "url": "https://en.wikipedia.org/wiki/San_Fernando_Cathedral_(Pampanga)"
+        },
+        "es": {
+          "title": "Catedral metropolitana de San Fernando",
+          "url": "https://es.wikipedia.org/wiki/Catedral_metropolitana_de_San_Fernando"
+        }
+      },
+      "image": {
+        "file": "Sfernadochurchjf.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sfernadochurchjf.JPG",
+        "author": "Ramon FVelasquez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-betis-church",
+      "name": "Betis Church",
+      "area": "San Fernando",
+      "city": "San Fernando",
+      "wikidata": "Q7420213",
+      "lat": 14.97558,
+      "lon": 120.64289,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Santiago Apostol Parish Church, commonly known as Betis Church, is a Baroque-style church located in the Betis District of Guagua in Pampanga, Philippines under the Roman Catholic Archdiocese of San Fernando.",
+        "es": "La Iglesia de Santiago Apóstol comúnmente conocida como la Iglesia de Betis o Parroquia de Santiago Apóstol es un edificio religioso barroco y patrimonio, ubicado en Guagua, Pampanga, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Betis Church",
+          "url": "https://en.wikipedia.org/wiki/Betis_Church"
+        },
+        "es": {
+          "title": "Iglesia de Santiago Apóstol (Guagua)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Santiago_Ap%C3%B3stol_(Guagua)"
+        }
+      },
+      "image": {
+        "file": "Betischurch2sjfccc.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Betischurch2sjfccc.JPG",
+        "author": "Ramon FVelasquez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-candaba-viaduct",
+      "name": "Candaba Viaduct",
+      "area": "San Fernando",
+      "city": "San Fernando",
+      "wikidata": "Q5031543",
+      "lat": 14.9542,
+      "lon": 120.7767,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Candaba Viaduct, also known as the Pulilan–Apalit Bridge and the Candaba Pampanga Viaduct, is a 5-kilometer viaduct carrying the North Luzon Expressway across the Candaba Swamp in the provinces of Pampanga and…",
+        "es": "El Viaducto Candaba es un puente de 5 km que pasa por el pantano Candaba y al lado del río Pampanga en la vía expresa del norte de Luzón."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Candaba Viaduct",
+          "url": "https://en.wikipedia.org/wiki/Candaba_Viaduct"
+        },
+        "es": {
+          "title": "Viaducto Candaba",
+          "url": "https://es.wikipedia.org/wiki/Viaducto_Candaba"
+        }
+      },
+      "image": {
+        "file": "NLEX_-_Candaba_Viaduct_(Bulacan;_10-19-2019).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NLEX_-_Candaba_Viaduct_(Bulacan%3B_10-19-2019).jpg",
+        "author": "patrickroque001",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-paskuhan-village",
+      "name": "Paskuhan Village",
+      "area": "San Fernando",
+      "city": "San Fernando",
+      "wikidata": "Q7142225",
+      "lat": 15.050389,
+      "lon": 120.692667,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Paskuhan Village, officially known as the Philippine Christmas Village and sometimes known as Hilaga, is a Christmas-themed park located in San Fernando, Pampanga, Philippines.",
+        "es": "The Paskuhan Village, officially known as the Philippine Christmas Village and sometimes known as Hilaga, is a Christmas-themed park located in San Fernando, Pampanga, Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Paskuhan Village",
+          "url": "https://en.wikipedia.org/wiki/Paskuhan_Village"
+        },
+        "es": {
+          "title": "Paskuhan Village",
+          "url": "https://en.wikipedia.org/wiki/Paskuhan_Village"
+        }
+      },
+      "image": {
+        "file": "Avillagepampangajf.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Avillagepampangajf.JPG",
+        "author": "Ramon FVelasquez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-lubao-church",
+      "name": "Lubao Church",
+      "area": "San Fernando",
+      "city": "San Fernando",
+      "wikidata": "Q18750483",
+      "lat": 14.9386,
+      "lon": 120.602,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "San Agustin Parish Church, commonly known as Lubao Church or Matuang Pisamban, is a 17th-century Neo-classic, Spanish stone and brick Roman Catholic church located at Brgy.",
+        "es": "San Agustin Parish Church, commonly known as Lubao Church or Matuang Pisamban, is a 17th-century Neo-classic, Spanish stone and brick Roman Catholic church located at Brgy."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "San Agustin Church (Lubao)",
+          "url": "https://en.wikipedia.org/wiki/San_Agustin_Church_(Lubao)"
+        },
+        "es": {
+          "title": "San Agustin Church (Lubao)",
+          "url": "https://en.wikipedia.org/wiki/San_Agustin_Church_(Lubao)"
+        }
+      },
+      "image": {
+        "file": "JC_Lubao_23.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:JC_Lubao_23.jpg",
+        "author": "JJ Carpio",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-angeles-church",
+      "name": "Angeles Church",
+      "area": "San Fernando",
+      "city": "San Fernando",
+      "wikidata": "Q16252310",
+      "lat": 15.134274,
+      "lon": 120.590265,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Minor Basilica of Our Lady of the Most Holy Rosary of Angeles, locally known as the Pisamban Maragul, is a Roman Catholic Minor Basilica located in Angeles City in the Philippines.",
+        "es": "The Minor Basilica of Our Lady of the Most Holy Rosary of Angeles, locally known as the Pisamban Maragul, is a Roman Catholic Minor Basilica located in Angeles City in the Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Holy Rosary Parish Church (Angeles City)",
+          "url": "https://en.wikipedia.org/wiki/Holy_Rosary_Parish_Church_(Angeles_City)"
+        },
+        "es": {
+          "title": "Holy Rosary Parish Church (Angeles City)",
+          "url": "https://en.wikipedia.org/wiki/Holy_Rosary_Parish_Church_(Angeles_City)"
+        }
+      },
+      "image": {
+        "file": "Holy_Angels_Parish_Church,_Angeles,_Pampanga.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Holy_Angels_Parish_Church%2C_Angeles%2C_Pampanga.jpg",
+        "author": "Joelaldor",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-nuestra-senora-de-la-merced-parish",
+      "name": "Nuestra Señora de la Merced Parish",
+      "area": "San Fernando",
+      "city": "San Fernando",
+      "wikidata": "Q119999520",
+      "lat": 15.03042,
+      "lon": 120.8821,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Nuestra Señora de la Merced Parish Church is a Roman Catholic church located in Bahay Pare, Candaba, Pampanga in the Philippines.",
+        "es": "Nuestra Señora de la Merced Parish Church is a Roman Catholic church located in Bahay Pare, Candaba, Pampanga in the Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nuestra Señora de la Merced Parish",
+          "url": "https://en.wikipedia.org/wiki/Nuestra_Se%C3%B1ora_de_la_Merced_Parish"
+        },
+        "es": {
+          "title": "Nuestra Señora de la Merced Parish",
+          "url": "https://en.wikipedia.org/wiki/Nuestra_Se%C3%B1ora_de_la_Merced_Parish"
+        }
+      },
+      "image": {
+        "file": "4004Nuestra_Señora_de_la_Merced_Parish_Church_Candaba_63.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:4004Nuestra_Se%C3%B1ora_de_la_Merced_Parish_Church_Candaba_63.jpg",
+        "author": "Judgefloro",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "ph-san-guillermo-parish-church",
+      "name": "San Guillermo Parish Church",
+      "area": "San Fernando",
+      "city": "San Fernando",
+      "wikidata": "Q7414277",
+      "lat": 15.0003,
+      "lon": 120.648,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "San Guillermo Parish Church, commonly known as Bacolor Church, is a Roman Catholic church in Bacolor, Pampanga, Philippines.",
+        "es": "La Iglesia parroquial de San Guillermo lleva el nombre de San Guillermo, el santo patrono de Bacólor, Pampanga, Filipinas, donde se erige la iglesia."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "San Guillermo Parish Church (Bacolor)",
+          "url": "https://en.wikipedia.org/wiki/San_Guillermo_Parish_Church_(Bacolor)"
+        },
+        "es": {
+          "title": "Iglesia de San Guillermo (Bacólor)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Guillermo_(Bac%C3%B3lor)"
+        }
+      },
+      "image": {
+        "file": "Bacolor_Church.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bacolor_Church.JPG",
+        "author": "Joefran4",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-minalin-church",
+      "name": "Minalin Church",
+      "area": "San Fernando",
+      "city": "San Fernando",
+      "wikidata": "Q7419802",
+      "lat": 14.968389,
+      "lon": 120.683611,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Santa Monica Parish Church, commonly known as Minalin Church, is a Baroque Roman Catholic church, located in poblacion area of San Nicolas in Minalin, Pampanga, Philippines.",
+        "es": "La iglesia parroquial de Santa Mónica comúnmente conocida como la Iglesia de Minalin es un edificio religioso barroco y patrimonio ubicado en Minalin, Pampanga, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Santa Monica Parish Church (Minalin)",
+          "url": "https://en.wikipedia.org/wiki/Santa_Monica_Parish_Church_(Minalin)"
+        },
+        "es": {
+          "title": "Iglesia de Santa Mónica (Minalin)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Santa_M%C3%B3nica_(Minalin)"
+        }
+      },
+      "image": {
+        "file": "SantaMonicaParishChurchjf3289_07.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:SantaMonicaParishChurchjf3289_07.JPG",
+        "author": "Ramon FVelasquez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-maria-cristina-falls",
+      "name": "Maria Cristina Falls",
+      "area": "Iligan",
+      "city": "Iligan",
+      "wikidata": "Q38221",
+      "lat": 8.183333,
+      "lon": 124.194444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Maria Cristina Falls is a waterfall of the Agus River in the Northern Mindanao region of the Philippines.",
+        "es": "Las Cataratas de María Cristina son unas cascadas del río Agus en la isla de Mindanao parte del país asiático de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Maria Cristina Falls",
+          "url": "https://en.wikipedia.org/wiki/Maria_Cristina_Falls"
+        },
+        "es": {
+          "title": "Cataratas de María Cristina",
+          "url": "https://es.wikipedia.org/wiki/Cataratas_de_Mar%C3%ADa_Cristina"
+        }
+      },
+      "image": {
+        "file": "Maria_Cristina_Falls_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Maria_Cristina_Falls_2.jpg",
+        "author": "Lawrence Ruiz",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-tinago-falls",
+      "name": "Tinago Falls",
+      "area": "Iligan",
+      "city": "Iligan",
+      "wikidata": "Q37565",
+      "lat": 8.159167,
+      "lon": 124.185833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tinago Falls is a waterfall on the Agus River, located in the town of Linamon, Lanao del Norte in the northern part of the Philippine island of Mindanao.",
+        "es": "Las Cataratas de Tinago son unas caídas de agua en la ciudad de Iligan, Lanao del Norte, en el sur de la isla filipina de Mindanao."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tinago Falls",
+          "url": "https://en.wikipedia.org/wiki/Tinago_Falls"
+        },
+        "es": {
+          "title": "Cataratas de Tinago",
+          "url": "https://es.wikipedia.org/wiki/Cataratas_de_Tinago"
+        }
+      },
+      "image": {
+        "file": "Tinago_Falls_Iligan_City_01.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tinago_Falls_Iligan_City_01.JPG",
+        "author": "Paul van der Vegt",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-abaga-falls",
+      "name": "Abaga Falls",
+      "area": "Iligan",
+      "city": "Iligan",
+      "wikidata": "Q4663249",
+      "lat": 8.152222,
+      "lon": 124.218333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Abaga Falls is a waterfall and ecosystem located approximately 15 km southwest of Iligan City on the island of Mindanao, Philippines, specifically in barangay Abaga, Balo-i, Lanao del Norte.",
+        "es": "Las Cataratas de Abaga son unas caídas de agua y un ecosistema situado a unos 15 km al suroeste de la ciudad de Iligan en la isla de Mindanao, al sur de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Abaga Falls",
+          "url": "https://en.wikipedia.org/wiki/Abaga_Falls"
+        },
+        "es": {
+          "title": "Cataratas de Abaga",
+          "url": "https://es.wikipedia.org/wiki/Cataratas_de_Abaga"
+        }
+      }
+    },
+    {
+      "id": "ph-los-banos-church",
+      "name": "Los Baños Church",
+      "area": "Cabuyao",
+      "city": "Cabuyao",
+      "wikidata": "Q18125899",
+      "lat": 14.1787,
+      "lon": 121.222,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Immaculate Conception Parish Church is the oldest Roman Catholic church in the municipality of Los Baños, Laguna, Philippines.",
+        "es": "Immaculate Conception Parish Church is the oldest Roman Catholic church in the municipality of Los Baños, Laguna, Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Immaculate Conception Parish Church (Los Baños)",
+          "url": "https://en.wikipedia.org/wiki/Immaculate_Conception_Parish_Church_(Los_Ba%C3%B1os)"
+        },
+        "es": {
+          "title": "Immaculate Conception Parish Church (Los Baños)",
+          "url": "https://en.wikipedia.org/wiki/Immaculate_Conception_Parish_Church_(Los_Ba%C3%B1os)"
+        }
+      },
+      "image": {
+        "file": "ICOCLosBanosjf8887_05.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ICOCLosBanosjf8887_05.JPG",
+        "author": "Ramon FVelasquez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-mother-of-all-asia-tower-of-peace",
+      "name": "Mother of All Asia–Tower of Peace",
+      "area": "Batangas City",
+      "city": "Batangas City",
+      "wikidata": "Q60775779",
+      "lat": 13.6423,
+      "lon": 121.0433,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mother of All Asia–Tower of Peace is a monument shrine dedicated to the Virgin Mary as a symbol of unity and peace in Asia and the whole world.",
+        "es": "La Madre de Toda Asia–Torre de la Paz es un santuario monumento dedicado a la Virgen María como símbolo de unidad y paz en Asia y el mundo entero."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mother of All Asia – Tower of Peace",
+          "url": "https://en.wikipedia.org/wiki/Mother_of_All_Asia_%E2%80%93_Tower_of_Peace"
+        },
+        "es": {
+          "title": "Madre de Toda Asia-Torre de la Paz",
+          "url": "https://es.wikipedia.org/wiki/Madre_de_Toda_Asia-Torre_de_la_Paz"
+        }
+      }
+    },
+    {
+      "id": "ph-mount-panay",
+      "name": "Mount Panay",
+      "area": "Batangas City",
+      "city": "Batangas City",
+      "wikidata": "Q1672318",
+      "lat": 13.723,
+      "lon": 120.893,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Panay is a potentially active stratovolcano located in the province of Batangas, Philippines.",
+        "es": "Monte Panay es el nombre de un estratovolcán fuertemente solfatárico en el país asiático de las Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Panay",
+          "url": "https://en.wikipedia.org/wiki/Mount_Panay"
+        },
+        "es": {
+          "title": "Monte Panay",
+          "url": "https://es.wikipedia.org/wiki/Monte_Panay"
+        }
+      }
+    },
+    {
+      "id": "ph-minor-basilica-of-the-immaculate-conception",
+      "name": "Minor Basilica of the Immaculate Conception",
+      "area": "Batangas City",
+      "city": "Batangas City",
+      "wikidata": "Q17007132",
+      "lat": 13.754073,
+      "lon": 121.059227,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Minor Basilica and Parish of the Immaculate Conception, alternatively known as the Archdiocesan Shrine of Santo Niño de Batangan, is a minor basilica in Batangas City, Philippines.",
+        "es": "La Basílica Menor de la Inmaculada Concepción es una basílica menor en Batangas, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Minor Basilica of the Immaculate Conception (Batangas City)",
+          "url": "https://en.wikipedia.org/wiki/Minor_Basilica_of_the_Immaculate_Conception_(Batangas_City)"
+        },
+        "es": {
+          "title": "Basílica de la Inmaculada Concepción (Batangas)",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_la_Inmaculada_Concepci%C3%B3n_(Batangas)"
+        }
+      },
+      "image": {
+        "file": "BatangasCathedraljf8678_22.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:BatangasCathedraljf8678_22.JPG",
+        "author": "Ramon FVelasquez",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-taal-basilica",
+      "name": "Taal Basilica",
+      "area": "Batangas City",
+      "city": "Batangas City",
+      "wikidata": "Q810078",
+      "lat": 13.880556,
+      "lon": 120.924833,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Minor Basilica and Parish of Saint Martin of Tours, commonly known as Taal Basilica, is a minor basilica in the town of Taal, Batangas, within the Archdiocese of Lipa in the Philippines.",
+        "es": "La Basílica de San Martín de Tours es una basílica menor en la ciudad de Taal, Batangas en Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taal Basilica",
+          "url": "https://en.wikipedia.org/wiki/Taal_Basilica"
+        },
+        "es": {
+          "title": "Basílica de San Martín de Tours (Taal)",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_San_Mart%C3%ADn_de_Tours_(Taal)"
+        }
+      },
+      "image": {
+        "file": "Allan_Jay_Quesada-_Taal_Basilica_de_San_Martin_de_Tours,_Taal,_Batangas.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Allan_Jay_Quesada-_Taal_Basilica_de_San_Martin_de_Tours%2C_Taal%2C_Batangas.JPG",
+        "author": "Allan Jay Quesada",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-our-lady-of-caysasay-church",
+      "name": "Our Lady of Caysasay Church",
+      "area": "Batangas City",
+      "city": "Batangas City",
+      "wikidata": "Q16947113",
+      "lat": 13.882167,
+      "lon": 120.920333,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Archdiocesan Shrine of Our Lady of Caysasay is a coral-hewn Roman Catholic chapel in Barrio Caysasay in Taal, Batangas, belonging to the Archdiocese of Lipa in the Philippines.",
+        "es": "El Santuario Arquidiocesano de Nuestra Señora de Caysasay se localiza en Taal en la provincia de Batangas, en Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Archdiocesan Shrine of Our Lady of Caysasay",
+          "url": "https://en.wikipedia.org/wiki/Archdiocesan_Shrine_of_Our_Lady_of_Caysasay"
+        },
+        "es": {
+          "title": "Santuario Arquidiocesano de Nuestra Señora de Caysasay",
+          "url": "https://es.wikipedia.org/wiki/Santuario_Arquidiocesano_de_Nuestra_Se%C3%B1ora_de_Caysasay"
+        }
+      },
+      "image": {
+        "file": "Our_Lady_of_Caysasay_Shrine_2025.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Our_Lady_of_Caysasay_Shrine_2025.jpg",
+        "author": "Tagaaplaya",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "ph-mount-banoy",
+      "name": "Mount Banoy",
+      "area": "Batangas City",
+      "city": "Batangas City",
+      "wikidata": "Q31502104",
+      "lat": 13.696944,
+      "lon": 121.165,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Banoy is a mountain in Batangas and the Calabarzon region, in the central part of the country, 100 km south of the city of Manila, the capital of the country, and in the island of Luzon in the Philippines.",
+        "es": "Mount Banoy is a mountain in Batangas and the Calabarzon region, in the central part of the country, 100 km south of the city of Manila, the capital of the country, and in the island of Luzon in the Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Banoy",
+          "url": "https://en.wikipedia.org/wiki/Mount_Banoy"
+        },
+        "es": {
+          "title": "Mount Banoy",
+          "url": "https://en.wikipedia.org/wiki/Mount_Banoy"
+        }
+      }
+    },
+    {
+      "id": "ph-maricaban-island",
+      "name": "Maricaban Island",
+      "area": "Batangas City",
+      "city": "Batangas City",
+      "wikidata": "Q31827327",
+      "lat": 13.643611,
+      "lon": 120.893611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tingloy, officially the Municipality of Tingloy, is a municipality in the province of Batangas, Philippines.",
+        "es": "Tingloy, officially the Municipality of Tingloy, is a municipality in the province of Batangas, Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tingloy",
+          "url": "https://en.wikipedia.org/wiki/Tingloy"
+        },
+        "es": {
+          "title": "Tingloy",
+          "url": "https://en.wikipedia.org/wiki/Tingloy"
+        }
+      }
+    },
+    {
+      "id": "ph-national-shrine-of-virgen-la-divina-pastora",
+      "name": "National Shrine of Virgen La Divina Pastora",
+      "area": "Cabanatuan",
+      "city": "Cabanatuan",
+      "wikidata": "Q18217109",
+      "lat": 15.3138,
+      "lon": 120.9492,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Minor Basilica and National Shrine of La Virgen Divina Pastora, known canonically as the Three Kings Parish and commonly known as Gapan Church, is a Roman Catholic minor basilica and national shrine in Gapan,…",
+        "es": "The Minor Basilica and National Shrine of La Virgen Divina Pastora, known canonically as the Three Kings Parish and commonly known as Gapan Church, is a Roman Catholic minor basilica and national shrine in Gapan,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gapan Church",
+          "url": "https://en.wikipedia.org/wiki/Gapan_Church"
+        },
+        "es": {
+          "title": "Gapan Church",
+          "url": "https://en.wikipedia.org/wiki/Gapan_Church"
+        }
+      },
+      "image": {
+        "file": "Divina_pastora_shrine.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Divina_pastora_shrine.jpg",
+        "author": "Ronald Ocampo Bunag",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ph-cabanatuan-cathedral",
+      "name": "Cabanatuan Cathedral",
+      "area": "Cabanatuan",
+      "city": "Cabanatuan",
+      "wikidata": "Q105154182",
+      "lat": 15.489167,
+      "lon": 120.964167,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Saint Nicholas of Tolentine Parish Cathedral, commonly known as Cabanatuan Cathedral, is the ecclesiastical seat of the Roman Catholic Diocese of Cabanatuan in the Philippines.",
+        "es": "Saint Nicholas of Tolentine Parish Cathedral, commonly known as Cabanatuan Cathedral, is the ecclesiastical seat of the Roman Catholic Diocese of Cabanatuan in the Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cabanatuan Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Cabanatuan_Cathedral"
+        },
+        "es": {
+          "title": "Cabanatuan Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Cabanatuan_Cathedral"
+        }
+      },
+      "image": {
+        "file": "Cabanatuan_Cathedral_2023.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cabanatuan_Cathedral_2023.jpeg",
+        "author": "Zarate123",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-thumb-peak",
+      "name": "Thumb Peak",
+      "area": "Puerto Princesa",
+      "city": "Puerto Princesa",
+      "wikidata": "Q829122",
+      "lat": 9.783333,
+      "lon": 118.6,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Thumb Peak is a small mountain in central Palawan, Philippines, and is the highest point in the Thumb Range.",
+        "es": "Thumb Peak is a small mountain in central Palawan, Philippines, and is the highest point in the Thumb Range."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Thumb Peak (Palawan)",
+          "url": "https://en.wikipedia.org/wiki/Thumb_Peak_(Palawan)"
+        },
+        "es": {
+          "title": "Thumb Peak (Palawan)",
+          "url": "https://en.wikipedia.org/wiki/Thumb_Peak_(Palawan)"
+        }
+      },
+      "image": {
+        "file": "Thumb_peak_mount_pulgar_palawan.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Thumb_peak_mount_pulgar_palawan.jpg",
+        "author": "Attenboroughii at English Wikipedia",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ph-puerto-princesa-cathedral",
+      "name": "Puerto Princesa Cathedral",
+      "area": "Puerto Princesa",
+      "city": "Puerto Princesa",
+      "wikidata": "Q44645637",
+      "lat": 9.74041,
+      "lon": 118.73021,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Immaculate Conception Cathedral Parish, commonly known as Puerto Princesa Cathedral, is a Roman Catholic cathedral in the city of Puerto Princesa, Palawan in western Philippines.",
+        "es": "La Parroquia Catedral de la Inmaculada Concepción, comúnmente conocida como Catedral de Puerto Princesa, es una catedral católica en la ciudad de Puerto Princesa, Palawan en el extremo occidental de Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Puerto Princesa Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Puerto_Princesa_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Puerto Princesa",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Puerto_Princesa"
+        }
+      },
+      "image": {
+        "file": "Immaculate_Concepcion_Cathedral_PPC_(Rizal_Avenue,_Puerto_Princesa,_Palawan;_08-03-2023).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Immaculate_Concepcion_Cathedral_PPC_(Rizal_Avenue%2C_Puerto_Princesa%2C_Palawan%3B_08-03-2023).jpg",
+        "author": "Patrickroque01",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-san-cristobal",
+      "name": "San Cristobal",
+      "area": "San Pablo",
+      "city": "San Pablo",
+      "wikidata": "Q1786080",
+      "lat": 14.063611,
+      "lon": 121.428333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount San Cristobal is a potentially active stratovolcano at the boundary of the provinces of Laguna and Quezon on the island of Luzon, Philippines.",
+        "es": "Mount San Cristobal is a potentially active stratovolcano at the boundary of the provinces of Laguna and Quezon on the island of Luzon, Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount San Cristobal",
+          "url": "https://en.wikipedia.org/wiki/Mount_San_Cristobal"
+        },
+        "es": {
+          "title": "Mount San Cristobal",
+          "url": "https://en.wikipedia.org/wiki/Mount_San_Cristobal"
+        }
+      },
+      "image": {
+        "file": "Mount_San_Cristobal.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mount_San_Cristobal.jpg",
+        "author": "Ervin Malicdem",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-san-pablo-volcanic-field",
+      "name": "San Pablo Volcanic Field",
+      "area": "San Pablo",
+      "city": "San Pablo",
+      "wikidata": "Q7415060",
+      "lat": 14.12,
+      "lon": 121.3,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Laguna Volcanic Field, also known as the San Pablo Volcanic Field, is an active volcanic field in the Philippines, located between Laguna de Bay, Mount Banahaw volcano complex and Mount Malepunyo range.",
+        "es": "Campo volcánico de San Pablo es un campo volcánico al norte del país asiático de Filipinas localizado específicamente en la isla de Luzón."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Laguna Volcanic Field",
+          "url": "https://en.wikipedia.org/wiki/Laguna_Volcanic_Field"
+        },
+        "es": {
+          "title": "Campo volcánico de San Pablo",
+          "url": "https://es.wikipedia.org/wiki/Campo_volc%C3%A1nico_de_San_Pablo"
+        }
+      },
+      "image": {
+        "file": "Lake_Sampaloc.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Sampaloc.jpg",
+        "author": "Barrera marquez",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ph-lake-sampaloc",
+      "name": "Lake Sampaloc",
+      "area": "San Pablo",
+      "city": "San Pablo",
+      "wikidata": "Q7357613",
+      "lat": 14.079,
+      "lon": 121.33,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Sampaloc is a volcanic crater lake in Laguna on the island of Luzon.",
+        "es": "Lake Sampaloc is a volcanic crater lake in Laguna on the island of Luzon."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Sampaloc",
+          "url": "https://en.wikipedia.org/wiki/Lake_Sampaloc"
+        },
+        "es": {
+          "title": "Lake Sampaloc",
+          "url": "https://en.wikipedia.org/wiki/Lake_Sampaloc"
+        }
+      },
+      "image": {
+        "file": "Lake_Sampaloc.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Sampaloc.jpg",
+        "author": "Barrera marquez",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ph-san-pablo-cathedral",
+      "name": "San Pablo Cathedral",
+      "area": "San Pablo",
+      "city": "San Pablo",
+      "wikidata": "Q18209984",
+      "lat": 14.0697,
+      "lon": 121.327,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral Parish of Saint Paul the First Hermit, commonly known as San Pablo Cathedral, is the see of the bishop of the Roman Catholic Diocese of San Pablo located in San Pablo City, Philippines.",
+        "es": "La Catedral de San Pablo el Ermitaño o Catedral de San Pablo el Simple y alternativamente Catedral de San Pablo es la sede del obispo de la diócesis de San Pablo situada en San Pablo, Laguna, Filipinas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "San Pablo Cathedral (Laguna)",
+          "url": "https://en.wikipedia.org/wiki/San_Pablo_Cathedral_(Laguna)"
+        },
+        "es": {
+          "title": "Catedral de San Pablo el Ermitaño",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_San_Pablo_el_Ermita%C3%B1o"
+        }
+      },
+      "image": {
+        "file": "San_Pablo_Cathedral_2021.jpeg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:San_Pablo_Cathedral_2021.jpeg",
+        "author": "Ryomaandres",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ph-lake-bunot",
+      "name": "Lake Bunot",
+      "area": "San Pablo",
+      "city": "San Pablo",
+      "wikidata": "Q6475102",
+      "lat": 14.081,
+      "lon": 121.344,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Bunot is a volcanic crater lake and is one of the Seven Lakes of San Pablo, Laguna in the Philippines.",
+        "es": "Lake Bunot is a volcanic crater lake and is one of the Seven Lakes of San Pablo, Laguna in the Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Bunot",
+          "url": "https://en.wikipedia.org/wiki/Lake_Bunot"
+        },
+        "es": {
+          "title": "Lake Bunot",
+          "url": "https://en.wikipedia.org/wiki/Lake_Bunot"
+        }
+      }
+    },
+    {
+      "id": "ph-lake-calibato",
+      "name": "Lake Calibato",
+      "area": "San Pablo",
+      "city": "San Pablo",
+      "wikidata": "Q6475152",
+      "lat": 14.103,
+      "lon": 121.378,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Calibato is one of the seven crater lakes collectively called Pitong Lawa or Seven Lakes of San Pablo in Laguna province in the Philippines.",
+        "es": "Lake Calibato is one of the seven crater lakes collectively called Pitong Lawa or Seven Lakes of San Pablo in Laguna province in the Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Calibato",
+          "url": "https://en.wikipedia.org/wiki/Lake_Calibato"
+        },
+        "es": {
+          "title": "Lake Calibato",
+          "url": "https://en.wikipedia.org/wiki/Lake_Calibato"
+        }
+      },
+      "image": {
+        "file": "Lake_Calibato.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lake_Calibato.jpg",
+        "author": "Barrera marquez",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ph-mount-mayabobo",
+      "name": "Mount Mayabobo",
+      "area": "San Pablo",
+      "city": "San Pablo",
+      "wikidata": "Q6922073",
+      "lat": 13.983333,
+      "lon": 121.45,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Mayabobo is a cinder cone situated at the base of Mount Banahaw, in Barangay Mayabobo, Candelaria, Quezon in Luzon island, Philippines.",
+        "es": "El monte Mayabobo es un cono de ceniza situado al pie del monte Banahaw en Candelaria en la provincia filipina de Quezón."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mount Mayabobo",
+          "url": "https://en.wikipedia.org/wiki/Mount_Mayabobo"
+        },
+        "es": {
+          "title": "Mayabobo",
+          "url": "https://es.wikipedia.org/wiki/Mayabobo"
+        }
+      }
+    },
+    {
+      "id": "ph-lake-palakpakin",
+      "name": "Lake Palakpakin",
+      "area": "San Pablo",
+      "city": "San Pablo",
+      "wikidata": "Q6477276",
+      "lat": 14.11,
+      "lon": 121.338889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Palakpakin is one of the Seven Lakes of San Pablo in Laguna province in the Philippines.",
+        "es": "Lake Palakpakin is one of the Seven Lakes of San Pablo in Laguna province in the Philippines."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Palakpakin",
+          "url": "https://en.wikipedia.org/wiki/Lake_Palakpakin"
+        },
+        "es": {
+          "title": "Lake Palakpakin",
+          "url": "https://en.wikipedia.org/wiki/Lake_Palakpakin"
+        }
+      }
+    },
+    {
+      "id": "ph-majayjay-church",
+      "name": "Majayjay Church",
+      "area": "San Pablo",
+      "city": "San Pablo",
+      "wikidata": "Q17300058",
+      "lat": 14.14621,
+      "lon": 121.47141,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Minor Basilica and Parish of Saint Gregory the Great, commonly known as Majayjay Church, is a Minor Basilica and one of the oldest Roman Catholic churches in the Philippines located in the municipality of…",
+        "es": "The Minor Basilica and Parish of Saint Gregory the Great, commonly known as Majayjay Church, is a Minor Basilica and one of the oldest Roman Catholic churches in the Philippines located in the municipality of…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Saint Gregory the Great Parish Church (Majayjay)",
+          "url": "https://en.wikipedia.org/wiki/Saint_Gregory_the_Great_Parish_Church_(Majayjay)"
+        },
+        "es": {
+          "title": "Saint Gregory the Great Parish Church (Majayjay)",
+          "url": "https://en.wikipedia.org/wiki/Saint_Gregory_the_Great_Parish_Church_(Majayjay)"
+        }
+      },
+      "image": {
+        "file": "The_San_Gregorio_Magno_Church_in_Majayjay,_Laguna.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:The_San_Gregorio_Magno_Church_in_Majayjay%2C_Laguna.JPG",
+        "author": "Mannie78",
+        "license": "CC BY-SA 3.0"
+      }
     }
   ]
 }

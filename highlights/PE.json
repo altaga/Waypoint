@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -326,6 +332,4147 @@
       "lat": -12.07744,
       "lon": -77.03733,
       "phone": "+51 1 4710117"
+    },
+    {
+      "id": "pe-machu-picchu",
+      "name": "Machu Picchu",
+      "area": "Cusco Department",
+      "city": "Cusco Department",
+      "wikidata": "Q676203",
+      "lat": -13.163333,
+      "lon": -72.545556,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a mountain ridge at 2,430 meters.",
+        "es": "Machu Picchu es el nombre contemporáneo que se da a una llacta construida antes del siglo XV, en la cordillera Oriental del sur del Perú, en la cadena montañosa de los Andes a 2.430 metros sobre el nivel del mar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Machu Picchu",
+          "url": "https://en.wikipedia.org/wiki/Machu_Picchu"
+        },
+        "es": {
+          "title": "Machu Picchu",
+          "url": "https://es.wikipedia.org/wiki/Machu_Picchu"
+        }
+      },
+      "image": {
+        "file": "80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg",
+        "author": "Martin St-Amant (S23678)",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-titicaca",
+      "name": "Titicaca",
+      "area": "Puno Department",
+      "city": "Puno Department",
+      "wikidata": "Q35342",
+      "lat": -15.825,
+      "lon": -69.325,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Titicaca is a large lake in the Andes mountains on the border of Bolivia and Peru.",
+        "es": "El lago Titicaca es el lago navegable más alto del mundo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Titicaca",
+          "url": "https://en.wikipedia.org/wiki/Lake_Titicaca"
+        },
+        "es": {
+          "title": "Lago Titicaca",
+          "url": "https://es.wikipedia.org/wiki/Lago_Titicaca"
+        }
+      },
+      "image": {
+        "file": "00_1635_Reed_Islands_of_Lake_Titicaca.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:00_1635_Reed_Islands_of_Lake_Titicaca.jpg",
+        "author": "W. Bulach",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-nazca-lines",
+      "name": "Nazca Lines",
+      "area": "Ica Department",
+      "city": "Ica Department",
+      "wikidata": "Q2620036",
+      "lat": -14.6975,
+      "lon": -75.135,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Nazca lines are a group of geoglyphs made in the soil of the Nazca Desert in southern Peru.",
+        "es": "Las líneas de Nazca y geoglifos de pampas de Jumana o simplemente líneas de Nazca son antiguos geoglifos que se encuentran en las pampas de Jumana, en el desierto de Nazca, entre las poblaciones de Nazca y Palpa, en…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nazca lines",
+          "url": "https://en.wikipedia.org/wiki/Nazca_lines"
+        },
+        "es": {
+          "title": "Líneas de Nazca",
+          "url": "https://es.wikipedia.org/wiki/L%C3%ADneas_de_Nazca"
+        }
+      },
+      "image": {
+        "file": "Líneas_de_Nazca,_Nazca,_Perú,_2015-07-29,_DD_58.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_58.JPG",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-chan-chan",
+      "name": "Chan Chan",
+      "area": "Trujillo",
+      "city": "Trujillo",
+      "wikidata": "Q277540",
+      "lat": -8.110556,
+      "lon": -79.075,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Chan Chan, sometimes called Chimor, was the capital city of the Chimor kingdom, a pre-Columbian era culture in South America.",
+        "es": "Chan Chan, a veces llamada Chimor, es una ciudad precolombina de adobe, construida en la costa norte del Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chan Chan",
+          "url": "https://en.wikipedia.org/wiki/Chan_Chan"
+        },
+        "es": {
+          "title": "Chan Chan",
+          "url": "https://es.wikipedia.org/wiki/Chan_Chan"
+        }
+      },
+      "image": {
+        "file": "Chan_Chan,_2023_(32).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chan_Chan%2C_2023_(32).jpg",
+        "author": "Draceane",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-huascaran",
+      "name": "Huascarán",
+      "area": "Áncash Department",
+      "city": "Áncash Department",
+      "wikidata": "Q200935",
+      "lat": -9.116667,
+      "lon": -77.6,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Huascarán, Nevado Huascarán or Mataraju is a mountain located in Yungay Province, Ancash Department, Peru.",
+        "es": "El Huascarán o Mataraju —orónimo en quechua; traducido respectivamente al español como ‘nevado enlazado’ o ‘nevados gemelos’— es la montaña nevada culminante de los Andes peruanos, con una altitud oficial de 6757 m…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Huascarán",
+          "url": "https://en.wikipedia.org/wiki/Huascar%C3%A1n"
+        },
+        "es": {
+          "title": "Huascarán",
+          "url": "https://es.wikipedia.org/wiki/Huascar%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Huascaran_norte.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Huascaran_norte.JPG",
+        "author": "Florian Ederer",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "pe-manu-national-park",
+      "name": "Manu National Park",
+      "area": "Cusco Department",
+      "city": "Cusco Department",
+      "wikidata": "Q390264",
+      "lat": -12.14,
+      "lon": -71.66,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Manu National Park is a national park and biosphere reserve located in the regions of Madre de Dios and Cusco in Peru.",
+        "es": "El parque nacional del Manu es un espacio natural protegido localizado en el sureste del Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Manu National Park",
+          "url": "https://en.wikipedia.org/wiki/Manu_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional del Manu",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_Manu"
+        }
+      },
+      "image": {
+        "file": "Manu_riverbank.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Manu_riverbank.jpg",
+        "author": "As578",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "pe-chavin-de-huantar",
+      "name": "Chavin de Huantar",
+      "area": "Áncash Department",
+      "city": "Áncash Department",
+      "wikidata": "Q732554",
+      "lat": -9.592775,
+      "lon": -77.178453,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Chavín de Huántar is an archaeological site in Peru, containing ruins and artifacts constructed as early as 1200 BC, and occupied until around 400–500 BC by the Chavín, a major pre-Inca culture.",
+        "es": "Chavín de Huántar es un sitio arqueológico ubicado en el distrito de Chavín de Huántar, provincia de Huari, departamento de Áncash, en el Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chavín de Huántar",
+          "url": "https://en.wikipedia.org/wiki/Chav%C3%ADn_de_Hu%C3%A1ntar"
+        },
+        "es": {
+          "title": "Chavín de Huántar",
+          "url": "https://es.wikipedia.org/wiki/Chav%C3%ADn_de_Hu%C3%A1ntar"
+        }
+      },
+      "image": {
+        "file": "Chavin_-_Août_2007.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chavin_-_Ao%C3%BBt_2007.jpg",
+        "author": "Martin St-Amant (S23678)",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "pe-huascaran-national-park",
+      "name": "Huascarán National Park",
+      "area": "Áncash Department",
+      "city": "Áncash Department",
+      "wikidata": "Q917369",
+      "lat": -9.4,
+      "lon": -77.4,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Huascarán National Park is a Peruvian national park that protects most of the mountain range known as Cordillera Blanca which is part of the central Andes, in the region of Ancash.",
+        "es": "El parque nacional Huascarán, declarado como espacio natural protegido el 1 de julio de 1975, como reserva de biósfera en 1977 y como Patrimonio Natural de la Humanidad en 1985, se ubica en el departamento peruano de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Huascarán National Park",
+          "url": "https://en.wikipedia.org/wiki/Huascar%C3%A1n_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Huascarán",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Huascar%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Llanganuco_ancash.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Llanganuco_ancash.jpg",
+        "author": "daniel_sandoval",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pe-national-university-of-san-marcos",
+      "name": "National University of San Marcos",
+      "area": "Lima",
+      "city": "Lima",
+      "wikidata": "Q270145",
+      "website": "https://www.unmsm.edu.pe",
+      "lat": -12.058333,
+      "lon": -77.083333,
+      "phone": "+51-1-6197000",
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The National University of San Marcos is a public research university located in Lima, the capital of Peru.",
+        "es": "La Universidad Nacional Mayor de San Marcos es una universidad pública de investigación ubicada en la ciudad de Lima, Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National University of San Marcos",
+          "url": "https://en.wikipedia.org/wiki/National_University_of_San_Marcos"
+        },
+        "es": {
+          "title": "Universidad Nacional Mayor de San Marcos",
+          "url": "https://es.wikipedia.org/wiki/Universidad_Nacional_Mayor_de_San_Marcos"
+        }
+      },
+      "image": {
+        "file": "UNMSM_sedes_principales.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:UNMSM_sedes_principales.png",
+        "author": "Marco Carrasco",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-saqsaywaman",
+      "name": "Saqsaywaman",
+      "area": "Cusco",
+      "city": "Cusco",
+      "wikidata": "Q828336",
+      "lat": -13.507778,
+      "lon": -71.982222,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Sacsayhuamán or Saksaywaman is a citadel on the northern outskirts of the city of Cusco, Peru, the historic capital of the Inca Empire.",
+        "es": "Sacsayhuamán o Sacsahuamán es un templo ceremonial usado por los incas, ubicado a dos kilómetros al norte de la ciudad de Cusco."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sacsayhuamán",
+          "url": "https://en.wikipedia.org/wiki/Sacsayhuam%C3%A1n"
+        },
+        "es": {
+          "title": "Sacsayhuamán",
+          "url": "https://es.wikipedia.org/wiki/Sacsayhuam%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Sacsayhuaman_Inca.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sacsayhuaman_Inca.jpg",
+        "author": "Leon Petrosyan",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-rio-abiseo-national-park",
+      "name": "Río Abiseo National Park",
+      "area": "San Martin Department",
+      "city": "San Martin Department",
+      "wikidata": "Q941412",
+      "lat": -7.75,
+      "lon": -77.25,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Rio Abiseo National Park is located in the San Martín department of Peru.",
+        "es": "El parque nacional del Río Abiseo es un área protegida ubicada en el departamento de San Martín, en la Amazonía peruana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rio Abiseo National Park",
+          "url": "https://en.wikipedia.org/wiki/Rio_Abiseo_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional del Río Abiseo",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_del_R%C3%ADo_Abiseo"
+        }
+      },
+      "image": {
+        "file": "Quebrada_Churo-_Parque_Nacional_del_Rio_Abiseo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Quebrada_Churo-_Parque_Nacional_del_Rio_Abiseo.jpg",
+        "author": "Ti galan",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-misti",
+      "name": "Misti",
+      "area": "Arequipa",
+      "city": "Arequipa",
+      "wikidata": "Q572865",
+      "lat": -16.296389,
+      "lon": -71.410556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Misti is a volcano in the southern Peruvian Andes, rising above Arequipa, Peru's second-largest city.",
+        "es": "El Misti es un estratovolcán al sur del Perú, cerca de la ciudad de Arequipa, considerado como un volcán activo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Misti",
+          "url": "https://en.wikipedia.org/wiki/Misti"
+        },
+        "es": {
+          "title": "Misti",
+          "url": "https://es.wikipedia.org/wiki/Misti"
+        }
+      },
+      "image": {
+        "file": "Peaceful_scenery_with_volcano_Misti_in_the_background_-_Peru.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Peaceful_scenery_with_volcano_Misti_in_the_background_-_Peru.jpg",
+        "author": "Inti Runa",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "pe-huaynaputina",
+      "name": "Huaynaputina",
+      "area": "Moquegua Department",
+      "city": "Moquegua Department",
+      "wikidata": "Q946750",
+      "lat": -16.615556,
+      "lon": -70.849722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Huaynaputina is a volcano in a volcanic high plateau in southern Peru.",
+        "es": "El Huaynaputina es un estratovolcán de la cordillera de los Andes localizado en el departamento de Moquegua, al sur de Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Huaynaputina",
+          "url": "https://en.wikipedia.org/wiki/Huaynaputina"
+        },
+        "es": {
+          "title": "Huaynaputina",
+          "url": "https://es.wikipedia.org/wiki/Huaynaputina"
+        }
+      }
+    },
+    {
+      "id": "pe-vilcabamba",
+      "name": "Vilcabamba",
+      "area": "Cusco Province",
+      "city": "Cusco Province",
+      "wikidata": "Q827432",
+      "lat": -12.902778,
+      "lon": -73.205833,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Vilcabamba or Willkapampa, often called the Lost City of the Incas, is a lost city in the Echarate District of La Convención Province in the Cuzco Region of Peru.",
+        "es": "El complejo arqueológico de Espíritu Pampa es un yacimiento arqueológico del Perú, de la época preincaica e incaica, ubicado en el distrito de Vilcabamba, provincia de La Convención, departamento del Cusco."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vilcabamba, Peru",
+          "url": "https://en.wikipedia.org/wiki/Vilcabamba%2C_Peru"
+        },
+        "es": {
+          "title": "Espíritu Pampa",
+          "url": "https://es.wikipedia.org/wiki/Esp%C3%ADritu_Pampa"
+        }
+      },
+      "image": {
+        "file": "Espiritu_Pampa_Archaeological_site_-_overgrown_house.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Espiritu_Pampa_Archaeological_site_-_overgrown_house.jpg",
+        "author": "AgainErick",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-alpamayo",
+      "name": "Alpamayo",
+      "area": "Áncash Department",
+      "city": "Áncash Department",
+      "wikidata": "Q829688",
+      "lat": -8.879167,
+      "lon": -77.653333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Alpamayo or Shuyturaju is one of the most conspicuous peaks in the Cordillera Blanca of the Peruvian Andes.",
+        "es": "El Alpamayo, también conocido localmente como Shuytu rahu, es una montaña de la cordillera de los Andes, situada en la parte norte del ramal occidental de la cordillera Blanca, dentro del parque nacional Huascarán en…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Alpamayo",
+          "url": "https://en.wikipedia.org/wiki/Alpamayo"
+        },
+        "es": {
+          "title": "Alpamayo",
+          "url": "https://es.wikipedia.org/wiki/Alpamayo"
+        }
+      }
+    },
+    {
+      "id": "pe-nevado-mismi",
+      "name": "Nevado Mismi",
+      "area": "Arequipa Department",
+      "city": "Arequipa Department",
+      "wikidata": "Q578777",
+      "lat": -15.525278,
+      "lon": -71.690833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mismi is a 5,597-metre mountain peak of volcanic origin in the Chila mountain range in the Andes of Peru.",
+        "es": "El Mismi es una montaña de 5539 m s. n. m."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mismi",
+          "url": "https://en.wikipedia.org/wiki/Mismi"
+        },
+        "es": {
+          "title": "Mismi",
+          "url": "https://es.wikipedia.org/wiki/Mismi"
+        }
+      },
+      "image": {
+        "file": "Nevado_Mismi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nevado_Mismi.jpg",
+        "author": "Daniel Stein",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-yerupaja",
+      "name": "Yerupajá",
+      "area": "Áncash Department",
+      "city": "Áncash Department",
+      "wikidata": "Q529797",
+      "lat": -10.268889,
+      "lon": -76.905278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Yerupajá is a mountain of the Huayhuash mountain range in west central Peru, part of the Andes.",
+        "es": "Yerupajá es una montaña situada en la cordillera de Huayhuash, en las nacientes del Alto Marañón en la región Áncash, en el centro del Perú, América del Sur."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Yerupajá",
+          "url": "https://en.wikipedia.org/wiki/Yerupaj%C3%A1"
+        },
+        "es": {
+          "title": "Yerupajá",
+          "url": "https://es.wikipedia.org/wiki/Yerupaj%C3%A1"
+        }
+      },
+      "image": {
+        "file": "Yerupaja_Grande.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yerupaja_Grande.jpg",
+        "author": "Thom95 at German Wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-huayna-picchu",
+      "name": "Huayna Picchu",
+      "area": "Cusco Department",
+      "city": "Cusco Department",
+      "wikidata": "Q845427",
+      "lat": -13.1575,
+      "lon": -72.547222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Huayna Picchu, Quechua: Wayna Pikchu, is a mountain in Peru around which the Urubamba River bends.",
+        "es": "La montaña Huayna Picchu, Wayna Pikchu en quechua, forma parte de las estribaciones orientales del macizo de Salcantay, en Cuzco, Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Huayna Picchu",
+          "url": "https://en.wikipedia.org/wiki/Huayna_Picchu"
+        },
+        "es": {
+          "title": "Huayna Picchu",
+          "url": "https://es.wikipedia.org/wiki/Huayna_Picchu"
+        }
+      },
+      "image": {
+        "file": "Machu_Picchu_(2005)_Mark_Blumenthal.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Machu_Picchu_(2005)_Mark_Blumenthal.jpg",
+        "author": "Mblument at en.wikipedia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-coropuna",
+      "name": "Coropuna",
+      "area": "Arequipa Department",
+      "city": "Arequipa Department",
+      "wikidata": "Q946035",
+      "lat": -15.520278,
+      "lon": -72.657222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Coropuna is a dormant volcano located in the Andes mountains of southeast-central Peru.",
+        "es": "El Coropuna es un complejo estratovolcánico de aproximadamente 1000 km² de la cordillera Ampato de los Andes, al sur de Perú, localizado en el distrito de Viraco, provincia de Castilla y en el distrito de Salamanca,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Coropuna",
+          "url": "https://en.wikipedia.org/wiki/Coropuna"
+        },
+        "es": {
+          "title": "Coropuna",
+          "url": "https://es.wikipedia.org/wiki/Coropuna"
+        }
+      },
+      "image": {
+        "file": "Coropuna_Volcano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Coropuna_Volcano.jpg",
+        "author": "Edubucher",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-lake-junin",
+      "name": "Lake Junín",
+      "area": "Junín Department",
+      "city": "Junín Department",
+      "wikidata": "Q941342",
+      "lat": -11.0201,
+      "lon": -76.1075,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Junin or Chinchaycocha is the largest lake entirely within Peruvian territory.",
+        "es": "El lago Junín o Chinchaycocha se encuentra en un altiplano en la provincia de Junín, departamento de Junín en el Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Junin",
+          "url": "https://en.wikipedia.org/wiki/Lake_Junin"
+        },
+        "es": {
+          "title": "Lago Junín",
+          "url": "https://es.wikipedia.org/wiki/Lago_Jun%C3%ADn"
+        }
+      },
+      "image": {
+        "file": "Lago_Junín.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lago_Jun%C3%ADn.jpg",
+        "author": "Unknown",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pe-coricancha",
+      "name": "Coricancha",
+      "area": "Cusco",
+      "city": "Cusco",
+      "wikidata": "Q817594",
+      "lat": -13.520111,
+      "lon": -71.975722,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Coricancha was the most important temple in the Inca Empire, and was described by early Spanish colonialists.",
+        "es": "El Coricancha o Qorikancha fue el templo más importante durante el Imperio incaico, cuyos muros todavía son visibles dentro de la estructura actual y cuyo aspecto exterior cambió por completo durante el proceso de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Coricancha",
+          "url": "https://en.wikipedia.org/wiki/Coricancha"
+        },
+        "es": {
+          "title": "Coricancha",
+          "url": "https://es.wikipedia.org/wiki/Coricancha"
+        }
+      },
+      "image": {
+        "file": "Cusco_Coricancha_Inti-Huasi_main_view.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cusco_Coricancha_Inti-Huasi_main_view.jpg",
+        "author": "Håkan Svensson (Xauxa)",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "pe-gocta-cataracts",
+      "name": "Gocta Cataracts",
+      "area": "Amazonas Department",
+      "city": "Amazonas Department",
+      "wikidata": "Q512389",
+      "lat": -6.023056,
+      "lon": -77.887222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Gocta is a perennial waterfall with two drops located in Peru's province of Bongara in Amazonas, approximately 771 kilometres to the northeast of Lima.",
+        "es": "La catarata Gocta, conocida localmente como La Chorrera[cita requerida] es un salto de agua que se encuentra en las cercanías de los caseríos peruanos de San Pablo, Cocachimba y La Coca, distrito de Valera, provincia…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gocta Cataracts",
+          "url": "https://en.wikipedia.org/wiki/Gocta_Cataracts"
+        },
+        "es": {
+          "title": "Catarata Gocta",
+          "url": "https://es.wikipedia.org/wiki/Catarata_Gocta"
+        }
+      },
+      "image": {
+        "file": "Catarata_de_Gocta,_2023_(06).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catarata_de_Gocta%2C_2023_(06).jpg",
+        "author": "Draceane",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-chankillo",
+      "name": "Chankillo",
+      "area": "Áncash Department",
+      "city": "Áncash Department",
+      "wikidata": "Q1062357",
+      "lat": -9.556667,
+      "lon": -78.235833,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Chankillo is an ancient monumental complex in the Peruvian coastal desert, found in the Casma-Sechin basin in the Áncash Department of Peru.",
+        "es": "El Complejo arqueoastronómico Chankillo es un observatorio solar, considerado el más antiguo de América."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chanquillo",
+          "url": "https://en.wikipedia.org/wiki/Chanquillo"
+        },
+        "es": {
+          "title": "Chankillo",
+          "url": "https://es.wikipedia.org/wiki/Chankillo"
+        }
+      },
+      "image": {
+        "file": "Chanquillo_Fortaleza_(remains).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chanquillo_Fortaleza_(remains).jpg",
+        "author": "AgainErick",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-ubinas",
+      "name": "Ubinas",
+      "area": "Moquegua Department",
+      "city": "Moquegua Department",
+      "wikidata": "Q1075162",
+      "lat": -16.348611,
+      "lon": -70.902222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ubinas is an active stratovolcano in the Moquegua Region of southern Peru, approximately 60 kilometres east of the city of Arequipa.",
+        "es": "Ubinas es un estratovolcán situado en el distrito de Ubinas, provincia de General Sánchez Cerro, departamento de Moquegua, al sur del Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ubinas",
+          "url": "https://en.wikipedia.org/wiki/Ubinas"
+        },
+        "es": {
+          "title": "Ubinas",
+          "url": "https://es.wikipedia.org/wiki/Ubinas"
+        }
+      },
+      "image": {
+        "file": "Volcán_Ubinas_y_Laguna_de_Salinas,_Arequipa,_Perú,_2015-08-02,_DD_48.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volc%C3%A1n_Ubinas_y_Laguna_de_Salinas%2C_Arequipa%2C_Per%C3%BA%2C_2015-08-02%2C_DD_48.JPG",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-pachacamac",
+      "name": "Pachacámac",
+      "area": "Vitarte",
+      "city": "Vitarte",
+      "wikidata": "Q430563",
+      "lat": -12.25185,
+      "lon": -76.90619,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Pachacámac is an archaeological site 40 kilometres southeast of Lima, Peru in the Valley of the Lurín River.",
+        "es": "Pachacámac es un sitio arqueológico ubicado en el distrito de Lurín, en la ciudad de Lima, capital del Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pachacamac",
+          "url": "https://en.wikipedia.org/wiki/Pachacamac"
+        },
+        "es": {
+          "title": "Pachacámac (sitio arqueológico)",
+          "url": "https://es.wikipedia.org/wiki/Pachac%C3%A1mac_(sitio_arqueol%C3%B3gico)"
+        }
+      },
+      "image": {
+        "file": "Templos_del_Sol_Viejo_Pintado.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Templos_del_Sol_Viejo_Pintado.jpg",
+        "author": "Ingo Mehling",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-ampato",
+      "name": "Ampato",
+      "area": "Arequipa Department",
+      "city": "Arequipa Department",
+      "wikidata": "Q474428",
+      "lat": -15.820556,
+      "lon": -71.88,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ampato is a dormant 6,288-metre stratovolcano in the Andes of southern Peru.",
+        "es": "El Ampato es un volcán inactivo localizado en la Cordillera de Ampato al sur del Perú, en el distrito de Lluta."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ampato",
+          "url": "https://en.wikipedia.org/wiki/Ampato"
+        },
+        "es": {
+          "title": "Ampato",
+          "url": "https://es.wikipedia.org/wiki/Ampato"
+        }
+      },
+      "image": {
+        "file": "Ampato023.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ampato023.jpg",
+        "author": "Frank R 1981",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-vinicunca",
+      "name": "Vinicunca",
+      "area": "Cusco Department",
+      "city": "Cusco Department",
+      "wikidata": "Q28025526",
+      "lat": -13.869534,
+      "lon": -71.30296,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Vinicunca, or Winikunka, also called Montaña de Siete Colores, Montaña de Colores, or Montaña Arcoíris, is a mountain in the Andes of Peru with an altitude of 5,036 metres above sea level.",
+        "es": "Vinicunca o Winikunka, llamada también montaña de siete colores, montaña arcoíris o montaña de colores, es una montaña del Perú con una altitud de 5036 m s."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vinicunca",
+          "url": "https://en.wikipedia.org/wiki/Vinicunca"
+        },
+        "es": {
+          "title": "Vinicunca",
+          "url": "https://es.wikipedia.org/wiki/Vinicunca"
+        }
+      },
+      "image": {
+        "file": "Montana_de_colores_Cusco_(Vinicunca)_y_Valle_Rojo_por_Inka_Time.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Montana_de_colores_Cusco_(Vinicunca)_y_Valle_Rojo_por_Inka_Time.jpg",
+        "author": "Christian Morales Callo",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-ausangate",
+      "name": "Ausangate",
+      "area": "Cusco Department",
+      "city": "Cusco Department",
+      "wikidata": "Q777794",
+      "lat": -13.788611,
+      "lon": -71.231111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ausangate or Auzangate is a mountain of the Vilcanota mountain range in the Andes of Peru.",
+        "es": "Ausangate o Auzangate es la montaña más alta del departamento del Cusco y la quinta más alta del Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ausangate",
+          "url": "https://en.wikipedia.org/wiki/Ausangate"
+        },
+        "es": {
+          "title": "Ausangate",
+          "url": "https://es.wikipedia.org/wiki/Ausangate"
+        }
+      },
+      "image": {
+        "file": "Ausangate.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ausangate.jpg",
+        "author": "Edubucher",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-kuelap",
+      "name": "Kuelap",
+      "area": "Amazonas Department",
+      "city": "Amazonas Department",
+      "wikidata": "Q1361820",
+      "website": "https://kuelap.cultura.pe/",
+      "lat": -6.417917,
+      "lon": -77.923333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Kuélap or Cuélap is a walled settlement located in the mountains near the towns of María and Tingo, in the southern part of the region of Amazonas, Peru.",
+        "es": "Kuélap, también llamado Cuélap, es un importante sitio arqueológico preinca ubicado en los Andes nororientales de Perú, en la Provincia de Luya ubicada en el Departamento de Amazonas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kuélap",
+          "url": "https://en.wikipedia.org/wiki/Ku%C3%A9lap"
+        },
+        "es": {
+          "title": "Kuélap",
+          "url": "https://es.wikipedia.org/wiki/Ku%C3%A9lap"
+        }
+      },
+      "image": {
+        "file": "Kuelap.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Kuelap.jpg",
+        "author": "Elemaki",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "pe-choquequirao",
+      "name": "Choquequirao",
+      "area": "Cusco Department",
+      "city": "Cusco Department",
+      "wikidata": "Q1076285",
+      "lat": -13.394742,
+      "lon": -72.872243,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Choquequirao is a 16th-century Incan site in the Cusco Region of southern Peru.",
+        "es": "Choquequirao, fue una antigua ciudad inca en el sur del Perú de la que solo se conservan ruinas y restos arqueológicos, situada entre las estribaciones del nevado Salkantay, bajo la jurisdicción del distrito de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Choquequirao",
+          "url": "https://en.wikipedia.org/wiki/Choquequirao"
+        },
+        "es": {
+          "title": "Choquequirao",
+          "url": "https://es.wikipedia.org/wiki/Choquequirao"
+        }
+      },
+      "image": {
+        "file": "Choquequirao.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Choquequirao.jpg",
+        "author": "Bryan Dougherty (bryand_nyc) from New York City, USA",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "pe-siula-grande",
+      "name": "Siula Grande",
+      "area": "Lima Department",
+      "city": "Lima Department",
+      "wikidata": "Q1507682",
+      "lat": -10.293313,
+      "lon": -76.892595,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Siula Grande is a mountain in the Huayhuash mountain range in the Peruvian Andes.",
+        "es": "Siula Grande es una montaña de la Cordillera Huayhuash, en los Andes del Perú, en el límite de los departamentos de Lima y Huánuco."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Siula Grande",
+          "url": "https://en.wikipedia.org/wiki/Siula_Grande"
+        },
+        "es": {
+          "title": "Siula Grande",
+          "url": "https://es.wikipedia.org/wiki/Siula_Grande"
+        }
+      },
+      "image": {
+        "file": "Siula_Grande_072530032013.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Siula_Grande_072530032013.jpg",
+        "author": "Waterloo1883",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-yumbilla-falls",
+      "name": "Yumbilla Falls",
+      "area": "Amazonas Department",
+      "city": "Amazonas Department",
+      "wikidata": "Q38323",
+      "lat": -5.9199,
+      "lon": -77.9012,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Yumbilla Falls is a waterfall located near the town of Cuispes, in the northern Peruvian region of Amazonas.",
+        "es": "La catarata Yumbilla es un salto de agua que se encuentra ubicado en el distrito de Cuispes y pertenece al circuito denominado Ruta o Valle de las Cataratas ubicado en la provincia de Bongará, en el sector sureste…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Yumbilla Falls",
+          "url": "https://en.wikipedia.org/wiki/Yumbilla_Falls"
+        },
+        "es": {
+          "title": "Catarata Yumbilla",
+          "url": "https://es.wikipedia.org/wiki/Catarata_Yumbilla"
+        }
+      },
+      "image": {
+        "file": "Catarata_Yumbilla.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catarata_Yumbilla.jpg",
+        "author": "Ozesama",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-taquile-island",
+      "name": "Taquile Island",
+      "area": "Puno Department",
+      "city": "Puno Department",
+      "wikidata": "Q1761551",
+      "lat": -15.777222,
+      "lon": -69.684167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Taquile is an island on the Peruvian side of Lake Titicaca 45 km offshore from the city of Puno.",
+        "es": "La isla de Taquile, en el lago Titicaca, pertenece al distrito de Amantaní, Puno, Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Taquile Island",
+          "url": "https://en.wikipedia.org/wiki/Taquile_Island"
+        },
+        "es": {
+          "title": "Taquile",
+          "url": "https://es.wikipedia.org/wiki/Taquile"
+        }
+      },
+      "image": {
+        "file": "Aerial_view_of_Taquile_island_in_Lake_Titicaca.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Taquile_island_in_Lake_Titicaca.jpg",
+        "author": "H.dav.are",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-pichu-pichu",
+      "name": "Pichu Pichu",
+      "area": "Arequipa",
+      "city": "Arequipa",
+      "wikidata": "Q1641313",
+      "lat": -16.441139,
+      "lon": -71.240389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pichu Pichu is an inactive eroded volcano in the Andes of Peru, with seven summits; the highest reaches a height of 5,664 metres.",
+        "es": "Pichu Pichu es un volcán situado al sur del Perú en el departamento de Arequipa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pichu Pichu",
+          "url": "https://en.wikipedia.org/wiki/Pichu_Pichu"
+        },
+        "es": {
+          "title": "Pichu Pichu",
+          "url": "https://es.wikipedia.org/wiki/Pichu_Pichu"
+        }
+      },
+      "image": {
+        "file": "Pichu-pichu.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pichu-pichu.jpg",
+        "author": "Maulucioni",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-huandoy",
+      "name": "Huandoy",
+      "area": "Áncash Department",
+      "city": "Áncash Department",
+      "wikidata": "Q1632785",
+      "lat": -9.028611,
+      "lon": -77.665556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Huandoy or Tullparaju is a mountain located inside Huascarán National Park in Ancash, Peru.",
+        "es": "El Huandoy es un monte nevado de cuatro picachos dispuestos en forma de fogón."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Huandoy",
+          "url": "https://en.wikipedia.org/wiki/Huandoy"
+        },
+        "es": {
+          "title": "Huandoy",
+          "url": "https://es.wikipedia.org/wiki/Huandoy"
+        }
+      },
+      "image": {
+        "file": "Beauty_of_mount_Huandoy,_Cordillera_Blanca,_Ancash,_Peru.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Beauty_of_mount_Huandoy%2C_Cordillera_Blanca%2C_Ancash%2C_Peru.jpg",
+        "author": "Inti Runa Viajero",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "pe-artesonraju",
+      "name": "Artesonraju",
+      "area": "Áncash Department",
+      "city": "Áncash Department",
+      "wikidata": "Q707934",
+      "lat": -8.95,
+      "lon": -77.633333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Artesonraju is a pyramidal mountain peak located near the city of Caraz in the Cordillera Blanca mountain range in the Peruvian Andes.",
+        "es": "El Artesonraju es uno de los aproximadamente cincuenta picos de la Cordillera Blanca en los Andes centrales de Perú, conocida especialmente por sus escenarios excepcionales para la práctica de deportes de montaña."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Artesonraju",
+          "url": "https://en.wikipedia.org/wiki/Artesonraju"
+        },
+        "es": {
+          "title": "Artesonraju",
+          "url": "https://es.wikipedia.org/wiki/Artesonraju"
+        }
+      },
+      "image": {
+        "file": "Artesonraju.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Artesonraju.jpg",
+        "author": "Interisti - Lorenzo from Italy",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-chachani",
+      "name": "Chachani",
+      "area": "Arequipa",
+      "city": "Arequipa",
+      "wikidata": "Q1058424",
+      "lat": -16.194167,
+      "lon": -71.531667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Chachani is a volcanic group in southern Peru, 22 kilometres northwest of the city of Arequipa.",
+        "es": "El Chachani es un volcán situado a 55 km al norte de la ciudad de Arequipa, en el sur del Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chachani",
+          "url": "https://en.wikipedia.org/wiki/Chachani"
+        },
+        "es": {
+          "title": "Chachani",
+          "url": "https://es.wikipedia.org/wiki/Chachani"
+        }
+      },
+      "image": {
+        "file": "Chachani.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chachani.jpg",
+        "author": "Norm Banks, USGS",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pe-tucume",
+      "name": "Túcume",
+      "area": "Chiclayo",
+      "city": "Chiclayo",
+      "wikidata": "Q1677131",
+      "lat": -6.51583,
+      "lon": -79.8442,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Túcume is a pre-Hispanic site in Peru, south of the La Leche River on a plain around La Raya Mountain.",
+        "es": "Complejo Arqueológico de Túcume, también llamado localmente como las \"Pirámides de Túcume\", es un sitio arqueológico que se encuentra situado en los alrededores de la localidad de Túcume, a 34 km al norte de la…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Túcume",
+          "url": "https://en.wikipedia.org/wiki/T%C3%BAcume"
+        },
+        "es": {
+          "title": "Túcume",
+          "url": "https://es.wikipedia.org/wiki/T%C3%BAcume"
+        }
+      },
+      "image": {
+        "file": "PirámidesTúcume_lou.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pir%C3%A1midesT%C3%BAcume_lou.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-jirishanca",
+      "name": "Jirishanca",
+      "area": "Áncash Department",
+      "city": "Áncash Department",
+      "wikidata": "Q119078",
+      "lat": -10.251944,
+      "lon": -76.903056,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Jirishanca is a 6,094-metre-high mountain in the Huayhuash mountain range in west central Peru, part of the Andes.",
+        "es": "Jirishanca es el nombre de un pico de la cordillera Huayhuash."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Jirishanca",
+          "url": "https://en.wikipedia.org/wiki/Jirishanca"
+        },
+        "es": {
+          "title": "Jirishanca",
+          "url": "https://es.wikipedia.org/wiki/Jirishanca"
+        }
+      },
+      "image": {
+        "file": "Jirishanca_West_Face.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Jirishanca_West_Face.jpg",
+        "author": "Jeremyfrimer",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-sabancaya",
+      "name": "Sabancaya",
+      "area": "Arequipa Department",
+      "city": "Arequipa Department",
+      "wikidata": "Q337974",
+      "lat": -15.786667,
+      "lon": -71.8575,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sabancaya is an active stratovolcano in the Andes of southern Peru, about 70 kilometres northwest of Arequipa.",
+        "es": "El Sabancaya, es un volcán activo del tipo estratovolcán, de 5975 m s."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sabancaya",
+          "url": "https://en.wikipedia.org/wiki/Sabancaya"
+        },
+        "es": {
+          "title": "Sabancaya",
+          "url": "https://es.wikipedia.org/wiki/Sabancaya"
+        }
+      },
+      "image": {
+        "file": "Erupción_en_el_volcán_Sabancaya,_Perú.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Erupci%C3%B3n_en_el_volc%C3%A1n_Sabancaya%2C_Per%C3%BA.jpg",
+        "author": "Galeria del Ministerio de Defensa del Perú",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "pe-tambomachay",
+      "name": "Tambomachay",
+      "area": "Cusco",
+      "city": "Cusco",
+      "wikidata": "Q1360456",
+      "lat": -13.480833,
+      "lon": -71.964722,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Tambomachay is an archaeological site associated with the Inca Empire, located near Cusco, Peru.",
+        "es": "Tambomachay en español, o Tampumachay, consiste en un sitio arqueológico que fuera destinado para el culto al agua y para que el potentado del Imperio incaico pudiese descansar."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tambomachay",
+          "url": "https://en.wikipedia.org/wiki/Tambomachay"
+        },
+        "es": {
+          "title": "Tambomachay",
+          "url": "https://es.wikipedia.org/wiki/Tambomachay"
+        }
+      },
+      "image": {
+        "file": "Tambomachay,_2023_(08).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tambomachay%2C_2023_(08).jpg",
+        "author": "Draceane",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-tutupaca",
+      "name": "Tutupaca",
+      "area": "Tacna Department",
+      "city": "Tacna Department",
+      "wikidata": "Q1427739",
+      "lat": -17.026389,
+      "lon": -70.371667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tutupaca is a volcano in the region of Tacna in Peru.",
+        "es": "Tutupaca es una cumbre volcánica del Perú de 5.815 m s."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tutupaca",
+          "url": "https://en.wikipedia.org/wiki/Tutupaca"
+        },
+        "es": {
+          "title": "Tutupaca",
+          "url": "https://es.wikipedia.org/wiki/Tutupaca"
+        }
+      },
+      "image": {
+        "file": "Tutupaca2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tutupaca2.jpg",
+        "author": "Frank R 1981",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "pe-chacraraju",
+      "name": "Chacraraju",
+      "area": "Áncash Department",
+      "city": "Áncash Department",
+      "wikidata": "Q2325080",
+      "lat": -8.993261,
+      "lon": -77.614975,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Chacraraju or Chakraraju is a mountain in the Cordillera Blanca range in the Andes of Peru.",
+        "es": "El Chacraraju o Chacaraju es una montaña de la Cordillera Blanca, que forma parte de los Andes Peruanos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chacraraju",
+          "url": "https://en.wikipedia.org/wiki/Chacraraju"
+        },
+        "es": {
+          "title": "Chacraraju",
+          "url": "https://es.wikipedia.org/wiki/Chacraraju"
+        }
+      },
+      "image": {
+        "file": "Chacraraju.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Chacraraju.jpg",
+        "author": "sergejf",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "pe-cathedral-of-lima",
+      "name": "Cathedral of Lima",
+      "area": "Lima",
+      "city": "Lima",
+      "wikidata": "Q2446793",
+      "website": "https://catedraldelima.org.pe/",
+      "lat": -12.046472,
+      "lon": -77.030036,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral Basilica of Lima, commonly known as the Metropolitan Cathedral of Lima, is a Roman Catholic cathedral in Lima, Peru.",
+        "es": "La Basílica Catedral de Lima, conocida comúnmente como la Catedral Metropolitana de Lima o simplemente como la Catedral de Lima, es la iglesia mayor del Perú, y parte de la arquidiócesis de Lima."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Metropolitan Cathedral of Lima",
+          "url": "https://en.wikipedia.org/wiki/Metropolitan_Cathedral_of_Lima"
+        },
+        "es": {
+          "title": "Catedral de Lima",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Lima"
+        }
+      },
+      "image": {
+        "file": "Fachada_principal_de_la_Catedral_de_Lima.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fachada_principal_de_la_Catedral_de_Lima.jpg",
+        "author": "Wasiwatana",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-salcantay",
+      "name": "Salcantay",
+      "area": "Cusco Department",
+      "city": "Cusco Department",
+      "wikidata": "Q730030",
+      "lat": -13.333611,
+      "lon": -72.544444,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Salcantay, Salkantay or Sallqantay is the highest peak in the Vilcabamba mountain range, part of the Peruvian Andes.",
+        "es": "El Salcantay o Salkantay es un nevado del Perú, ubicado en la Cordillera Vilcabamba, entre los distritos de Santa Teresa, Mollepata, Limatambo, Ollantaytambo y Machupicchu, en la provincia de La Convención, provincia…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Salcantay",
+          "url": "https://en.wikipedia.org/wiki/Salcantay"
+        },
+        "es": {
+          "title": "Salcantay",
+          "url": "https://es.wikipedia.org/wiki/Salcantay"
+        }
+      },
+      "image": {
+        "file": "Humantay,_2023_(03).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Humantay%2C_2023_(03).jpg",
+        "author": "Draceane",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-moray",
+      "name": "Moray",
+      "area": "Cusco",
+      "city": "Cusco",
+      "wikidata": "Q1814201",
+      "lat": -13.329253,
+      "lon": -72.196442,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Moray is an archaeological site in Peru approximately 50 kilometres northwest of Cuzco on a high plateau at about 3,500 metres and just west of the village of Maras.",
+        "es": "Moray es un sitio arqueológico que se encuentra cerca del Cusco, en el Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Moray (Inca ruin)",
+          "url": "https://en.wikipedia.org/wiki/Moray_(Inca_ruin)"
+        },
+        "es": {
+          "title": "Moray (sitio arqueológico)",
+          "url": "https://es.wikipedia.org/wiki/Moray_(sitio_arqueol%C3%B3gico)"
+        }
+      },
+      "image": {
+        "file": "Moray,_2023_(13).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Moray%2C_2023_(13).jpg",
+        "author": "Draceane",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-puka-pukara",
+      "name": "Puka Pukara",
+      "area": "Cusco",
+      "city": "Cusco",
+      "wikidata": "Q2390374",
+      "lat": -13.483361,
+      "lon": -71.961807,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Puka Pukara is a site of military ruins in Peru situated in the Cusco Region, Cusco Province, Cusco District, near Cusco.",
+        "es": "Puca Pucara es una construcción militar ubicada cerca del Cusco, en el Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Puka Pukara",
+          "url": "https://en.wikipedia.org/wiki/Puka_Pukara"
+        },
+        "es": {
+          "title": "Puca Pucara",
+          "url": "https://es.wikipedia.org/wiki/Puca_Pucara"
+        }
+      },
+      "image": {
+        "file": "Puca_Pucara,_2023_(03).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Puca_Pucara%2C_2023_(03).jpg",
+        "author": "Draceane",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-lauricocha-lake",
+      "name": "Lauricocha Lake",
+      "area": "Lauricocha Province",
+      "city": "Lauricocha Province",
+      "wikidata": "Q81118",
+      "lat": -10.316667,
+      "lon": -76.7,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Lauricocha is a lake in the Andes mountains of central Peru, within Huánuco Region.",
+        "es": "Laguna Lauricocha, laguna de origen glacial altoandina al pie de la cordillera de Raura ubicada en el distrito de San Miguel de Cauri, en la provincia a la cual da nombre, la provincia de Lauricocha."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Lauricocha",
+          "url": "https://en.wikipedia.org/wiki/Lake_Lauricocha"
+        },
+        "es": {
+          "title": "Laguna Lauricocha",
+          "url": "https://es.wikipedia.org/wiki/Laguna_Lauricocha"
+        }
+      },
+      "image": {
+        "file": "Laguna_Lauricocha_07613.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Laguna_Lauricocha_07613.jpg",
+        "author": "Waterloo1883",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-toquepala-caves",
+      "name": "Toquepala Caves",
+      "area": "Tacna Department",
+      "city": "Tacna Department",
+      "wikidata": "Q568661",
+      "lat": -17.304336,
+      "lon": -70.717986,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Toquepala Caves are located near Toquepala mine, about 154 km from the city of Tacna, in the extreme southeast of Peru.",
+        "es": "Las cuevas de Toquepala están ubicadas en el distrito de Ilabaya, provincia de Jorge Basadre, departamento de Tacna, en el sur del Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Toquepala Caves",
+          "url": "https://en.wikipedia.org/wiki/Toquepala_Caves"
+        },
+        "es": {
+          "title": "Cuevas de Toquepala",
+          "url": "https://es.wikipedia.org/wiki/Cuevas_de_Toquepala"
+        }
+      },
+      "image": {
+        "file": "Una_pintura_rupestre_de_la_cueva_de_Toquepala.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Una_pintura_rupestre_de_la_cueva_de_Toquepala.JPG",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-government-palace",
+      "name": "Government Palace",
+      "area": "Lima",
+      "city": "Lima",
+      "wikidata": "Q385938",
+      "lat": -12.04514,
+      "lon": -77.02989,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Government Palace, also known as the House of Pizarro, is the seat of the executive branch of the Peruvian government, and the official residence of the president of Peru.",
+        "es": "El Palacio de Gobierno del Perú, llamado también Casa de Gobierno o Casa de Pizarro, es la sede principal del Poder Ejecutivo peruano y la residencia oficial del presidente del Perú ubicada en la ciudad capital."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Government Palace, Peru",
+          "url": "https://en.wikipedia.org/wiki/Government_Palace%2C_Peru"
+        },
+        "es": {
+          "title": "Palacio de Gobierno del Perú",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Gobierno_del_Per%C3%BA"
+        }
+      },
+      "image": {
+        "file": "Palacio_de_Gobierno_del_Perú_2017.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palacio_de_Gobierno_del_Per%C3%BA_2017.jpg",
+        "author": "User:Pedro Felipe",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-sara-sara",
+      "name": "Sara Sara",
+      "area": "Ayacucho Department",
+      "city": "Ayacucho Department",
+      "wikidata": "Q2652409",
+      "lat": -15.323528,
+      "lon": -73.449361,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sara Sara is a 5,505-metre-high volcano lying between Lake Parinacochas and the Ocoña River in Peru.",
+        "es": "Sara Sara es un volcán del Perú situado en el extremo sur del departamento de Ayacucho, cerca de la frontera con la región de Arequipa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sara Sara",
+          "url": "https://en.wikipedia.org/wiki/Sara_Sara"
+        },
+        "es": {
+          "title": "Sara Sara",
+          "url": "https://es.wikipedia.org/wiki/Sara_Sara"
+        }
+      },
+      "image": {
+        "file": "Sara_Sara_Volcano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sara_Sara_Volcano.jpg",
+        "author": "Edubucher",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-huaca-de-la-luna",
+      "name": "Huaca de la Luna",
+      "area": "Trujillo",
+      "city": "Trujillo",
+      "wikidata": "Q1544441",
+      "lat": -8.135,
+      "lon": -78.991389,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Huaca de la Luna is a large adobe brick structure built mainly by the Moche people of northern Peru.",
+        "es": "Huaca de la Luna es una construcción de adobe que está ubicada al norte del Perú, en el departamento de La Libertad, a unos 5 km al sur de Trujillo; fue construida por la cultura Moche o Mochica."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Huaca de la Luna",
+          "url": "https://en.wikipedia.org/wiki/Huaca_de_la_Luna"
+        },
+        "es": {
+          "title": "Huaca de la Luna",
+          "url": "https://es.wikipedia.org/wiki/Huaca_de_la_Luna"
+        }
+      },
+      "image": {
+        "file": "Ausgrabungsstätte_Huaca_de_la_Luna_44.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ausgrabungsst%C3%A4tte_Huaca_de_la_Luna_44.jpg",
+        "author": "Burkhard Mücke",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-q-inqu",
+      "name": "Q'inqu",
+      "area": "Cusco",
+      "city": "Cusco",
+      "wikidata": "Q2351926",
+      "lat": -13.510556,
+      "lon": -71.971667,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Q'enqo, Qenko, Kenko, or Quenco is an archaeological site in the Sacred Valley of Peru located in the Cusco Region, Cusco Province, Cusco District, located about 6 km north east of Cusco and to the east of Sacsayhuamán.",
+        "es": "Q'enqo, Qenko, Kenko, or Quenco is an archaeological site in the Sacred Valley of Peru located in the Cusco Region, Cusco Province, Cusco District, located about 6 km north east of Cusco and to the east of Sacsayhuamán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Qenko",
+          "url": "https://en.wikipedia.org/wiki/Qenko"
+        },
+        "es": {
+          "title": "Qenko",
+          "url": "https://en.wikipedia.org/wiki/Qenko"
+        }
+      },
+      "image": {
+        "file": "Q'enqo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Q'enqo.jpg",
+        "author": "Haakon S. Krohn",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-pisco",
+      "name": "Pisco",
+      "area": "Áncash Department",
+      "city": "Áncash Department",
+      "wikidata": "Q2466617",
+      "lat": -9.011833,
+      "lon": -77.631139,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pisco is a mountain in Peru, located in the Cordillera Blanca about 60 km north of Huaraz.",
+        "es": "El Nevado Pisco es una montaña de la Cordillera Blanca dentro del parque nacional Huascarán, que forma parte de los Andes Peruanos, ubicado en la provincia de Yungay en la región Áncash."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pisco (mountain)",
+          "url": "https://en.wikipedia.org/wiki/Pisco_(mountain)"
+        },
+        "es": {
+          "title": "Nevado Pisco",
+          "url": "https://es.wikipedia.org/wiki/Nevado_Pisco"
+        }
+      },
+      "image": {
+        "file": "Pisco_and_Chacraraju_reflection_at_Yanapaccha_base_camp_(6020836415).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pisco_and_Chacraraju_reflection_at_Yanapaccha_base_camp_(6020836415).jpg",
+        "author": "sergejf",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "pe-patallaqta",
+      "name": "Patallaqta",
+      "area": "Cusco Department",
+      "city": "Cusco Department",
+      "wikidata": "Q523609",
+      "lat": -13.231162,
+      "lon": -72.424788,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Patallacta, Llactapata or Q'ente Marka is an archaeological site in Peru located in the Cusco Region, Urubamba Province, Machupicchu District.",
+        "es": "Patallacta es un sitio arqueológico ubicado en el Cusco."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Patallacta",
+          "url": "https://en.wikipedia.org/wiki/Patallacta"
+        },
+        "es": {
+          "title": "Patallacta",
+          "url": "https://es.wikipedia.org/wiki/Patallacta"
+        }
+      },
+      "image": {
+        "file": "Camino-inca-dia1-llactapata-c01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Camino-inca-dia1-llactapata-c01.jpg",
+        "author": "Colegota",
+        "license": "CC BY-SA 2.5 es"
+      }
+    },
+    {
+      "id": "pe-plaza-mayor-lima",
+      "name": "Plaza Mayor, Lima",
+      "area": "Lima",
+      "city": "Lima",
+      "wikidata": "Q2536763",
+      "lat": -12.04596,
+      "lon": -77.03054,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Plaza Mayor, also known as the Plaza de Armas, is the main public square of the historic centre of the city of Lima, Peru.",
+        "es": "La plaza Mayor de Lima o plaza de Armas de Lima es el sitio fundacional de la ciudad de Lima, capital del Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plaza Mayor, Lima",
+          "url": "https://en.wikipedia.org/wiki/Plaza_Mayor%2C_Lima"
+        },
+        "es": {
+          "title": "Plaza Mayor de Lima",
+          "url": "https://es.wikipedia.org/wiki/Plaza_Mayor_de_Lima"
+        }
+      },
+      "image": {
+        "file": "Plaza_de_Armas,_Lima,_Peru.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plaza_de_Armas%2C_Lima%2C_Peru.jpg",
+        "author": "Allan Grey",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "pe-puruchuco",
+      "name": "Puruchuco",
+      "area": "Lima",
+      "city": "Lima",
+      "wikidata": "Q2615433",
+      "lat": -12.048056,
+      "lon": -76.934444,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Puruchuco is an archaeological site in Peru that was an administrative center of the Inca period, located in the Ate District, in Lima.",
+        "es": "Puruchuco es una zona arqueológica del Perú, que fue un centro administrativo-religioso del período Ychma-Inca, ubicada en el distrito de Ate, en la ciudad de Lima, capital del Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Puruchuco",
+          "url": "https://en.wikipedia.org/wiki/Puruchuco"
+        },
+        "es": {
+          "title": "Puruchuco",
+          "url": "https://es.wikipedia.org/wiki/Puruchuco"
+        }
+      },
+      "image": {
+        "file": "Puruchuco_Archaeological_site_-_overview.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Puruchuco_Archaeological_site_-_overview.jpg",
+        "author": "AgainErick",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-plaza-de-toros-de-acho",
+      "name": "Plaza de toros de Acho",
+      "area": "Lima",
+      "city": "Lima",
+      "wikidata": "Q2744878",
+      "lat": -12.0414,
+      "lon": -77.0233,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Plaza de Toros de Acho is the premier bullring in Lima, Peru.",
+        "es": "La plaza de toros de Acho es un coso taurino ubicado en el distrito del Rímac, en la ciudad de Lima, capital del Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plaza de toros de Acho",
+          "url": "https://en.wikipedia.org/wiki/Plaza_de_toros_de_Acho"
+        },
+        "es": {
+          "title": "Plaza de toros de Acho",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_toros_de_Acho"
+        }
+      },
+      "image": {
+        "file": "Plaza_Acho.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plaza_Acho.jpg",
+        "author": "Jorge Gobbi from Buenos Aires, Argentina",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "pe-monastery-of-san-francisco",
+      "name": "Monastery of San Francisco",
+      "area": "Lima",
+      "city": "Lima",
+      "wikidata": "Q2404214",
+      "website": "https://museoconventosanfranciscoycatacumbas.com.pe/",
+      "lat": -12.045497,
+      "lon": -77.027394,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica and Convent of San Francisco is a Catholic church building located in the Historic Centre of Lima, Peru.",
+        "es": "El conjunto monumental de la Basílica y Convento Máximo del Santísimo Nombre de Jesús, también conocido como San Francisco el Grande o San Francisco de Jesús, se encuentra en el centro histórico de Lima."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica and Convent of San Francisco, Lima",
+          "url": "https://en.wikipedia.org/wiki/Basilica_and_Convent_of_San_Francisco%2C_Lima"
+        },
+        "es": {
+          "title": "Basílica y convento de San Francisco (Lima)",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_y_convento_de_San_Francisco_(Lima)"
+        }
+      },
+      "image": {
+        "file": "Iglesia_de_San_Francisco,_Lima,_Perú,_2015-07-28,_DD_70.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Francisco%2C_Lima%2C_Per%C3%BA%2C_2015-07-28%2C_DD_70.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-archbishop-s-palace-of-lima",
+      "name": "Archbishop's Palace of Lima",
+      "area": "Lima",
+      "city": "Lima",
+      "wikidata": "Q4785597",
+      "lat": -12.046033,
+      "lon": -77.029652,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Archbishop’s Palace of Lima, the capital of Peru, is the residence of the Archbishop of Lima, and the administrative headquarters of the Archdiocese of Lima.",
+        "es": "El Palacio Arzobispal de Lima es la residencia del arzobispo de Lima y la sede administrativa de la arquidiócesis de Lima, en él se encontraban las oficinas administrativas del Arzobispado de Lima."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Archbishop's Palace, Lima",
+          "url": "https://en.wikipedia.org/wiki/Archbishop's_Palace%2C_Lima"
+        },
+        "es": {
+          "title": "Palacio Arzobispal de Lima",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Arzobispal_de_Lima"
+        }
+      },
+      "image": {
+        "file": "Palacio_Arzobispal,_Lima,_Perú,_2015-07-28,_DD_62.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palacio_Arzobispal%2C_Lima%2C_Per%C3%BA%2C_2015-07-28%2C_DD_62.JPG",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-basilica-cathedral-of-arequipa",
+      "name": "Basilica Cathedral of Arequipa",
+      "area": "Arequipa",
+      "city": "Arequipa",
+      "wikidata": "Q2942282",
+      "lat": -16.3981,
+      "lon": -71.5364,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica Cathedral of Arequipa is located in the Main Square \"Plaza de Armas\" of the city of Arequipa, province of Arequipa, Peru.",
+        "es": "La Catedral de Arequipa es considerada uno de los primeros monumentos religiosos del siglo XVII en Arequipa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica Cathedral of Arequipa",
+          "url": "https://en.wikipedia.org/wiki/Basilica_Cathedral_of_Arequipa"
+        },
+        "es": {
+          "title": "Catedral de Arequipa",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Arequipa"
+        }
+      },
+      "image": {
+        "file": "Façana_de_la_catedral_d'Arequipa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ana_de_la_catedral_d'Arequipa.jpg",
+        "author": "Pitxiquin",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-historic-centre-of-arequipa",
+      "name": "Historic Centre of Arequipa",
+      "area": "Arequipa",
+      "city": "Arequipa",
+      "wikidata": "Q8343756",
+      "lat": -16.4,
+      "lon": -71.533333,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "In December 2000, UNESCO declared the historical center of Arequipa a World Heritage Site, stating the following:\"The historical center of Arequipa is an example of ornamented architecture, represents a masterpiece…",
+        "es": "El Centro Histórico de Arequipa es el núcleo fundacional y la aglomeración de barrios con características propias que la circundan, se extiende sobre una superficie de 332 hectáreas y dentro de ella existen 5817…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Historic Centre of Arequipa",
+          "url": "https://en.wikipedia.org/wiki/Historic_Centre_of_Arequipa"
+        },
+        "es": {
+          "title": "Centro histórico de Arequipa",
+          "url": "https://es.wikipedia.org/wiki/Centro_hist%C3%B3rico_de_Arequipa"
+        }
+      },
+      "image": {
+        "file": "Arequipa-sta-catalina-c07.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arequipa-sta-catalina-c07.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 2.5 es"
+      }
+    },
+    {
+      "id": "pe-santa-catalina-monastery",
+      "name": "Santa Catalina Monastery",
+      "area": "Arequipa",
+      "city": "Arequipa",
+      "wikidata": "Q1538957",
+      "website": "https://santacatalina.org.pe/",
+      "lat": -16.395,
+      "lon": -71.536667,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Monastery of Santa Catalina de Siena is a large monastery of the Dominican Second Order, located in Arequipa, Peru.",
+        "es": "El Monasterio de Santa Catalina de Siena, o Convento de Santa Catalina, es un complejo turístico religioso ubicado en el centro histórico de Arequipa, departamento de Arequipa, Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Monastery of Santa Catalina de Siena, Arequipa",
+          "url": "https://en.wikipedia.org/wiki/Monastery_of_Santa_Catalina_de_Siena%2C_Arequipa"
+        },
+        "es": {
+          "title": "Monasterio de Santa Catalina de Siena (Arequipa)",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_de_Santa_Catalina_de_Siena_(Arequipa)"
+        }
+      },
+      "image": {
+        "file": "Cloister_Monastery_Santa_Catalina_Arequipa_Peru.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cloister_Monastery_Santa_Catalina_Arequipa_Peru.jpg",
+        "author": "Jialiang Gao www.peace-on-earth.org",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-chilina-bridge",
+      "name": "Chilina Bridge",
+      "area": "Arequipa",
+      "city": "Arequipa",
+      "wikidata": "Q19432002",
+      "lat": -16.382011,
+      "lon": -71.534689,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Chilina Bridge, also known as the Mariano Melgar Valdivieso Bridge is one of the longest bridges in Peru with a length of 562 meters, located in the city of Arequipa.",
+        "es": "El Puente Chilina o Puente Mariano Melgar Valdivieso es uno de los puentes más largos del Perú con una longitud de 562 metros, ubicado en la ciudad de Arequipa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chilina Bridge",
+          "url": "https://en.wikipedia.org/wiki/Chilina_Bridge"
+        },
+        "es": {
+          "title": "Puente Chilina",
+          "url": "https://es.wikipedia.org/wiki/Puente_Chilina"
+        }
+      },
+      "image": {
+        "file": "Puente-chilina2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Puente-chilina2.jpg",
+        "author": "Kmiovich",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-goyeneche-palace-arequipa",
+      "name": "Goyeneche Palace, Arequipa",
+      "area": "Arequipa",
+      "city": "Arequipa",
+      "wikidata": "Q5590201",
+      "lat": -16.400278,
+      "lon": -71.538256,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Goyeneche Palace or Casa Goyeneche is a 17th-century manorial house in the city of Arequipa, Peru.",
+        "es": "El Palacio de Goyeneche o Casa Goyeneche es una de las construcciones civiles más conocidas y turísticas de Arequipa, Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Goyeneche Palace, Arequipa",
+          "url": "https://en.wikipedia.org/wiki/Goyeneche_Palace%2C_Arequipa"
+        },
+        "es": {
+          "title": "Palacio de Goyeneche (Arequipa)",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_Goyeneche_(Arequipa)"
+        }
+      },
+      "image": {
+        "file": "Famosa_casa_de_Goyeneche.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Famosa_casa_de_Goyeneche.jpg",
+        "author": "Liv0017",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-arequipa-peru-temple",
+      "name": "Arequipa Peru Temple",
+      "area": "Arequipa",
+      "city": "Arequipa",
+      "wikidata": "Q24928031",
+      "website": "https://www.churchofjesuschrist.org/temples/details/arequipa-peru-temple?lang=eng",
+      "lat": -16.3754,
+      "lon": -71.5387,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Arequipa Peru Temple is a temple of the Church of Jesus Christ of Latter-day Saints, located in the Cayma District of Arequipa, Peru.",
+        "es": "El Templo de Arequipa Perú, es uno de los templos construidos y operados por la Iglesia de Jesucristo de los Santos de los Últimos Días, por La Iglesia de Jesucristo de los Santos de los Últimos Días, el número 167…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Arequipa Peru Temple",
+          "url": "https://en.wikipedia.org/wiki/Arequipa_Peru_Temple"
+        },
+        "es": {
+          "title": "Templo de Arequipa",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_Arequipa"
+        }
+      }
+    },
+    {
+      "id": "pe-museo-santuarios-andinos",
+      "name": "Museo Santuarios Andinos",
+      "area": "Arequipa",
+      "city": "Arequipa",
+      "wikidata": "Q16609845",
+      "lat": -16.39987,
+      "lon": -71.537594,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Andean Sanctuaries Museum is an archaeological museum in Arequipa, Peru.",
+        "es": "El Museo Santuarios Andinos o MUSA es un museo arqueológico situado en la ciudad de Arequipa, Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Andean Sanctuaries Museum",
+          "url": "https://en.wikipedia.org/wiki/Andean_Sanctuaries_Museum"
+        },
+        "es": {
+          "title": "Museo Santuarios Andinos",
+          "url": "https://es.wikipedia.org/wiki/Museo_Santuarios_Andinos"
+        }
+      },
+      "image": {
+        "file": "Casa_de_la_Cultura_de_la_Universidad_Católica_de_Santa_María.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Casa_de_la_Cultura_de_la_Universidad_Cat%C3%B3lica_de_Santa_Mar%C3%ADa.jpg",
+        "author": "Pitxiquin",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-basilica-and-convent-of-san-francisco-de-arequip",
+      "name": "Basilica and Convent of San Francisco de Arequipa",
+      "area": "Arequipa",
+      "city": "Arequipa",
+      "wikidata": "Q26823266",
+      "lat": -16.395151,
+      "lon": -71.534623,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica and Convent of San Francisco is a church and heritage site in the historic center of Arequipa, Peru.",
+        "es": "La Basílica y Convento de San Francisco de Arequipa se encuentra en el centro histórico de Arequipa."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica and Convent of San Francisco, Arequipa",
+          "url": "https://en.wikipedia.org/wiki/Basilica_and_Convent_of_San_Francisco%2C_Arequipa"
+        },
+        "es": {
+          "title": "Basílica y convento de San Francisco de Arequipa",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_y_convento_de_San_Francisco_de_Arequipa"
+        }
+      },
+      "image": {
+        "file": "Arequipa,_Iglesia_de_San_Francisco,_2023_(07).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Arequipa%2C_Iglesia_de_San_Francisco%2C_2023_(07).jpg",
+        "author": "Draceane",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-huaca-del-sol",
+      "name": "Huaca del Sol",
+      "area": "Trujillo",
+      "city": "Trujillo",
+      "wikidata": "Q1632711",
+      "lat": -8.132222,
+      "lon": -78.994722,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Huaca del Sol is an adobe brick pyramid built by the Moche civilization on the northern coast of what is now Peru.",
+        "es": "The Huaca del Sol is an adobe brick pyramid built by the Moche civilization on the northern coast of what is now Peru."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Huaca del Sol",
+          "url": "https://en.wikipedia.org/wiki/Huaca_del_Sol"
+        },
+        "es": {
+          "title": "Huaca del Sol",
+          "url": "https://en.wikipedia.org/wiki/Huaca_del_Sol"
+        }
+      },
+      "image": {
+        "file": "Huaca_Sol_lou.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Huaca_Sol_lou.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-trujillo-cathedral",
+      "name": "Trujillo Cathedral",
+      "area": "Trujillo",
+      "city": "Trujillo",
+      "wikidata": "Q2942844",
+      "lat": -8.110722,
+      "lon": -79.028167,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Trujillo Cathedral is the cathedral and main church of Trujillo, Peru, located in the Plaza de Armas.",
+        "es": "La Catedral de Trujillo es la catedral y principal iglesia de Trujillo, Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of Trujillo, Peru",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_Trujillo%2C_Peru"
+        },
+        "es": {
+          "title": "Catedral basílica de Santa María (Trujillo, Perú)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_bas%C3%ADlica_de_Santa_Mar%C3%ADa_(Trujillo%2C_Per%C3%BA)"
+        }
+      },
+      "image": {
+        "file": "Cathedral_of_Trujillo,_Peru_02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Trujillo%2C_Peru_02.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-statua-antropofica",
+      "name": "Statua antropofica",
+      "area": "Trujillo",
+      "city": "Trujillo",
+      "wikidata": "Q1454323",
+      "lat": -8.111825,
+      "lon": -79.02866,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Plaza de Armas of Trujillo is the main square where the Spanish foundation of Trujillo was made, in northern Peru.",
+        "es": "El Monumento a la Libertad es una escultura pública diseñada por Edmund Möller entre 1921 y 1929 en el centro de la Plaza de Armas de Trujillo en Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plaza de Armas of Trujillo (Peru)",
+          "url": "https://en.wikipedia.org/wiki/Plaza_de_Armas_of_Trujillo_(Peru)"
+        },
+        "es": {
+          "title": "Monumento a la Libertad (Trujillo)",
+          "url": "https://es.wikipedia.org/wiki/Monumento_a_la_Libertad_(Trujillo)"
+        }
+      },
+      "image": {
+        "file": "Freedom_Monument,_Trujillo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Freedom_Monument%2C_Trujillo.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-huaca-del-dragon",
+      "name": "Huaca del Dragón",
+      "area": "Trujillo",
+      "city": "Trujillo",
+      "wikidata": "Q289725",
+      "lat": -8.076438,
+      "lon": -79.049145,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Huaca del Dragon, also called Huaca del Arco Iris is an archeological site located in the Peruvian city of Trujillo, near Chan Chan.",
+        "es": "La Huaca del Dragón o del Arco Iris, es una zona arqueológica de la cultura chimú ubicado en las afueras de la ciudad de Trujillo, en el distrito de La Esperanza, Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Huaca del Dragón",
+          "url": "https://en.wikipedia.org/wiki/Huaca_del_Drag%C3%B3n"
+        },
+        "es": {
+          "title": "Huaca del Dragón",
+          "url": "https://es.wikipedia.org/wiki/Huaca_del_Drag%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "HuacaDelDragon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:HuacaDelDragon.jpg",
+        "author": "Veronique Debord",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "pe-lake-conache",
+      "name": "Lake Conache",
+      "area": "Trujillo",
+      "city": "Trujillo",
+      "wikidata": "Q6475441",
+      "lat": -8.127778,
+      "lon": -78.953889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Conache is located in the village of Conache, in Laredo District, near Trujillo in the Peruvian region La Libertad.",
+        "es": "Lake Conache is located in the village of Conache, in Laredo District, near Trujillo in the Peruvian region La Libertad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Conache",
+          "url": "https://en.wikipedia.org/wiki/Lake_Conache"
+        },
+        "es": {
+          "title": "Lake Conache",
+          "url": "https://en.wikipedia.org/wiki/Lake_Conache"
+        }
+      },
+      "image": {
+        "file": "ConacheReflejosMagicos.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:ConacheReflejosMagicos.jpg",
+        "author": "tehzeta",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "pe-huaca-esmeralda",
+      "name": "Huaca Esmeralda",
+      "area": "Trujillo",
+      "city": "Trujillo",
+      "wikidata": "Q289583",
+      "lat": -8.104623,
+      "lon": -79.047361,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Huaca La Esmeralda is an archaeological building belonging to the Chimu culture, is located in the Peruvian city of Trujillo.",
+        "es": "La Huaca La Esmeralda es una construcción arqueológica pertenece a la Cultura Chimú, se encuentra ubicada en la ciudad de Trujillo, Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Huaca Esmeralda",
+          "url": "https://en.wikipedia.org/wiki/Huaca_Esmeralda"
+        },
+        "es": {
+          "title": "Huaca Esmeralda",
+          "url": "https://es.wikipedia.org/wiki/Huaca_Esmeralda"
+        }
+      },
+      "image": {
+        "file": "HuacaEsmeralda.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:HuacaEsmeralda.jpg",
+        "author": "Bruno Girin",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "pe-monumental-zone-of-trujillo",
+      "name": "Monumental Zone of Trujillo",
+      "area": "Trujillo",
+      "city": "Trujillo",
+      "wikidata": "Q5773459",
+      "lat": -8.112,
+      "lon": -79.0288,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Historic Centre of Trujillo is the historic city centre of the city of Trujillo, located in northern Peru.",
+        "es": "El centro histórico de Trujillo o centro monumental es la zona urbana principal y el centro más importante del desarrollo y desenvolvimiento de la ciudad peruana de Trujillo en el departamento de La Libertad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Historic Centre of Trujillo",
+          "url": "https://en.wikipedia.org/wiki/Historic_Centre_of_Trujillo"
+        },
+        "es": {
+          "title": "Centro histórico de Trujillo (Perú)",
+          "url": "https://es.wikipedia.org/wiki/Centro_hist%C3%B3rico_de_Trujillo_(Per%C3%BA)"
+        }
+      },
+      "image": {
+        "file": "Catedral_de_Trujilllo.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_Trujilllo.JPG",
+        "author": "Kevin Diego RC",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-plazuela-el-recreo",
+      "name": "Plazuela El Recreo",
+      "area": "Trujillo",
+      "city": "Trujillo",
+      "wikidata": "Q7203731",
+      "lat": -8.107196,
+      "lon": -79.023851,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Plazuela El Recreo is a traditional square located in the Peruvian city of Trujillo in La Libertad Region in northern Peru.",
+        "es": "La plazuela El Recreo es una plaza tradicional situada en la ciudad de Trujillo, en el departamento de La Libertad, en el norte de Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plazuela El Recreo",
+          "url": "https://en.wikipedia.org/wiki/Plazuela_El_Recreo"
+        },
+        "es": {
+          "title": "Plazuela El Recreo",
+          "url": "https://es.wikipedia.org/wiki/Plazuela_El_Recreo"
+        }
+      },
+      "image": {
+        "file": "Plazuela_El_Recreo_-_Panorámica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plazuela_El_Recreo_-_Panor%C3%A1mica.jpg",
+        "author": "Enrique Jara",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-trujillo-peru-temple",
+      "name": "Trujillo Peru Temple",
+      "area": "Trujillo",
+      "city": "Trujillo",
+      "wikidata": "Q7847642",
+      "website": "https://www.churchofjesuschrist.org/temples/details/trujillo-peru-temple?lang=eng",
+      "lat": -8.09833,
+      "lon": -79.0338,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Trujillo Peru Temple is a temple of the Church of Jesus Christ of Latter-day Saints in Trujillo, La Libertad, Peru.",
+        "es": "El Templo de Trujillo, Perú, es uno de los templos construidos y operados por la Iglesia de Jesucristo de los Santos de los Últimos Días ubicado en la ciudad de Trujillo, Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Trujillo Peru Temple",
+          "url": "https://en.wikipedia.org/wiki/Trujillo_Peru_Temple"
+        },
+        "es": {
+          "title": "Templo de Trujillo (Perú)",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_Trujillo_(Per%C3%BA)"
+        }
+      }
+    },
+    {
+      "id": "pe-huaycan-de-pariachi",
+      "name": "Huaycán de Pariachi",
+      "area": "Vitarte",
+      "city": "Vitarte",
+      "wikidata": "Q27865990",
+      "lat": -12.012173,
+      "lon": -76.832758,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Huaycán de Pariachi is an archaeological site in Peru located in Huaycán, Ate District, Lima.",
+        "es": "La Zona Arqueológica Monumental Huaycán de Pariachi se encuentra 20 km al este de la ciudad de Lima, capital de Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Huaycán de Pariachi",
+          "url": "https://en.wikipedia.org/wiki/Huayc%C3%A1n_de_Pariachi"
+        },
+        "es": {
+          "title": "Huaycán de Pariachi",
+          "url": "https://es.wikipedia.org/wiki/Huayc%C3%A1n_de_Pariachi"
+        }
+      },
+      "image": {
+        "file": "Huaycán_de_Pariachi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Huayc%C3%A1n_de_Pariachi.jpg",
+        "author": "EduQuispeSalcedo",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-st-mary-s-cathedral",
+      "name": "St. Mary's Cathedral",
+      "area": "Chiclayo",
+      "city": "Chiclayo",
+      "wikidata": "Q5657325",
+      "website": "https://diocesischiclayo.org/catedral.html",
+      "lat": -6.771683,
+      "lon": -79.837641,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of Saint Mary, commonly called Chiclayo Cathedral, is the seat of the Roman Catholic Diocese of Chiclayo in Chiclayo, Peru.",
+        "es": "La Catedral de Chiclayo es aquella edificación religiosa católica del siglo xx, ubicada en el parque o plaza principal de la ciudad de Chiclayo, su diseño es de estilo neoclásico y es la sede principal de la Diócesis…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Mary's Cathedral, Chiclayo",
+          "url": "https://en.wikipedia.org/wiki/St._Mary's_Cathedral%2C_Chiclayo"
+        },
+        "es": {
+          "title": "Catedral de Chiclayo",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Chiclayo"
+        }
+      },
+      "image": {
+        "file": "Cathedral_of_Chiclayo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Chiclayo.jpg",
+        "author": "Cifras Confiables",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-ventarron",
+      "name": "Ventarron",
+      "area": "Chiclayo",
+      "city": "Chiclayo",
+      "wikidata": "Q523757",
+      "lat": -6.8,
+      "lon": -79.7553,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ventarrón is the site of a 4,500-year-old temple with painted murals, which was excavated in Peru in 2007 near Chiclayo, in the Lambayeque region on the northern coast.",
+        "es": "El sitio arqueológico de Ventarrón o Huaca Ventarrón es un templo de 4500 años de antigüedad que cuenta las pinturas murales más antiguas de América que datan del precerámico del período arcaico americano, situado en…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ventarron",
+          "url": "https://en.wikipedia.org/wiki/Ventarron"
+        },
+        "es": {
+          "title": "Ventarrón",
+          "url": "https://es.wikipedia.org/wiki/Ventarr%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Huaca_Ventarrón_-_Vista_frontal.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Huaca_Ventarr%C3%B3n_-_Vista_frontal.jpg",
+        "author": "Enrique Jara",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-the-royal-tombs-of-sipan-museum",
+      "name": "The Royal Tombs of Sipan Museum",
+      "area": "Chiclayo",
+      "city": "Chiclayo",
+      "wikidata": "Q3330149",
+      "website": "https://museos.cultura.pe/museos/museo-tumbas-reales-de-sip%C3%A1n",
+      "lat": -6.71,
+      "lon": -79.9,
+      "phone": "+51-74-687630",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Royal Tombs of Sipán Museum is a museum in Lambayeque, Peru.",
+        "es": "El Museo Tumbas Reales de Sipán es un museo arqueológico peruano inaugurado en el año 2002."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Royal Tombs of Sipán Museum",
+          "url": "https://en.wikipedia.org/wiki/Royal_Tombs_of_Sip%C3%A1n_Museum"
+        },
+        "es": {
+          "title": "Museo Tumbas Reales de Sipán",
+          "url": "https://es.wikipedia.org/wiki/Museo_Tumbas_Reales_de_Sip%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Senorsipan.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Senorsipan.JPG",
+        "author": "MaSii",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pe-bruning-museum",
+      "name": "Brüning Museum",
+      "area": "Chiclayo",
+      "city": "Chiclayo",
+      "wikidata": "Q4981940",
+      "lat": -6.704294,
+      "lon": -79.903822,
+      "phone": "+51-74-282110",
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Brüning Museum, also known as Museo Regional Arqueológico Enrique Bruning de Lambayeque, was inaugurated in 1966 and it is located in two blocks of the principal park in Lambayeque, Peru.",
+        "es": "El Museo Arqueológico Nacional Brüning es un museo peruano creado el 10 de julio de 1921, y ubicado en la ciudad de Lambayeque, Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Brüning Museum",
+          "url": "https://en.wikipedia.org/wiki/Br%C3%BCning_Museum"
+        },
+        "es": {
+          "title": "Museo Arqueológico Nacional Brüning",
+          "url": "https://es.wikipedia.org/wiki/Museo_Arqueol%C3%B3gico_Nacional_Br%C3%BCning"
+        }
+      },
+      "image": {
+        "file": "Museo_Arqueológico_Bruning.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museo_Arqueol%C3%B3gico_Bruning.jpg",
+        "author": "yonel alberto campos gamonal",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "pe-sican-national-museum",
+      "name": "Sicán National Museum",
+      "area": "Chiclayo",
+      "city": "Chiclayo",
+      "wikidata": "Q7507716",
+      "website": "https://museos.cultura.pe/museos/museo-nacional-sic%C3%A1n",
+      "lat": -6.623983,
+      "lon": -79.786079,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Sicán National Museum is a museum in Ferreñafe, Peru, which opened in 2004.",
+        "es": "El Museo Nacional Sicán está situado en la salida norte de la ciudad de Ferreñafe, a 20 km aproximadamente al noreste de Chiclayo, provincia de Ferreñafe, departamento de Lambayeque, en la costa norte del Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sicán National Museum",
+          "url": "https://en.wikipedia.org/wiki/Sic%C3%A1n_National_Museum"
+        },
+        "es": {
+          "title": "Museo Nacional Sicán",
+          "url": "https://es.wikipedia.org/wiki/Museo_Nacional_Sic%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "Ferrenafe_museo_nacional_de_sican.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ferrenafe_museo_nacional_de_sican.jpg",
+        "author": "Velvet",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-chotuna-chornancap",
+      "name": "Chotuna-Chornancap",
+      "area": "Chiclayo",
+      "city": "Chiclayo",
+      "wikidata": "Q20014052",
+      "lat": -6.720223,
+      "lon": -79.952885,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Chotuna Chornancap Archaeological Complex is an archaeological site in Lambayeque district, Lambayeque province, Lambayeque Region, 14.5 kilometres north-west of Chiclayo, Peru of a set of truncated pyramids and…",
+        "es": "El complejo arqueológico de Chotuna-Chornancap se sitúa en el distrito de Lambayeque, en la provincia y el departamento homónimos, en el Norte del Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chotuna-Chornancap",
+          "url": "https://en.wikipedia.org/wiki/Chotuna-Chornancap"
+        },
+        "es": {
+          "title": "Complejo arqueológico Chotuna Chornancap",
+          "url": "https://es.wikipedia.org/wiki/Complejo_arqueol%C3%B3gico_Chotuna_Chornancap"
+        }
+      },
+      "image": {
+        "file": "Huaca_en_Chotuna-Chornancap.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Huaca_en_Chotuna-Chornancap.jpg",
+        "author": "EdsonFuentesMera",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-piura-cathedral",
+      "name": "Piura Cathedral",
+      "area": "Piura",
+      "city": "Piura",
+      "wikidata": "Q26250307",
+      "website": "https://www.arzobispadodepiura.org/arquidiocesis/resena-historica/la-basilica-catedral-de-piura/",
+      "lat": -5.196556,
+      "lon": -80.626779,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The St. Michael the Archangel Cathedral, also called Piura Cathedral, is a religious building affiliated to the Catholic Church that is located in the city of Piura, Peru.",
+        "es": "La Basílica Catedral San Miguel Arcángel de Piura, o simplemente conocida como Catedral de Piura, es el principal edificio religioso afiliado a la Iglesia Católica que se encuentra ubicado en el centro histórico de…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Piura Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Piura_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Piura",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Piura"
+        }
+      },
+      "image": {
+        "file": "Basílica_Catedral_San_Miguel_Arcángel_-_Piura.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_Catedral_San_Miguel_Arc%C3%A1ngel_-_Piura.jpg",
+        "author": "Edward Josué Quevedo Macalupú",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-narihuala",
+      "name": "Narihualá",
+      "area": "Piura",
+      "city": "Piura",
+      "wikidata": "Q26823151",
+      "lat": -5.294477,
+      "lon": -80.687059,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Narihualá is an archaeological site in Peru.",
+        "es": "La Huaca de Narihualá es un complejo arqueológico situado en la provincia y departamento de Piura."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Narihualá",
+          "url": "https://en.wikipedia.org/wiki/Narihual%C3%A1"
+        },
+        "es": {
+          "title": "Narihualá",
+          "url": "https://es.wikipedia.org/wiki/Narihual%C3%A1"
+        }
+      },
+      "image": {
+        "file": "Narihuala4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Narihuala4.jpg",
+        "author": "Rio.Negro",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-tipon",
+      "name": "Tipón",
+      "area": "Cusco",
+      "city": "Cusco",
+      "wikidata": "Q2003624",
+      "lat": -13.570833,
+      "lon": -71.783056,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Tipón is a sprawling early fifteenth-century Inca archaeological site that is situated between 3,250 metres and 3,960 metres above sea level, located 22 kilometres southeast of Cusco near the village of Tipón.",
+        "es": "El conjunto Tipón se encuentra cerca de Oropesa, a 4 km en la Comunidad de Choquepata, a 27 km al sudeste del Cusco, en el Perú y junto a la carretera Cusco-Puno."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tipón",
+          "url": "https://en.wikipedia.org/wiki/Tip%C3%B3n"
+        },
+        "es": {
+          "title": "Tipón",
+          "url": "https://es.wikipedia.org/wiki/Tip%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Tiponperu.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Tiponperu.jpg",
+        "author": "Tencho",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-cusco-cathedral",
+      "name": "Cusco Cathedral",
+      "area": "Cusco",
+      "city": "Cusco",
+      "wikidata": "Q2942242",
+      "lat": -13.5163,
+      "lon": -71.9781,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of Cusco or Cathedral Basilica of the Virgin of the Assumption is the main temple of the city of Cusco, in Peru and houses the headquarters of the Archdiocese of Cusco.",
+        "es": "The Cathedral of Cusco or Cathedral Basilica of the Virgin of the Assumption is the main temple of the city of Cusco, in Peru and houses the headquarters of the Archdiocese of Cusco."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cusco Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Cusco_Cathedral"
+        },
+        "es": {
+          "title": "Cusco Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Cusco_Cathedral"
+        }
+      },
+      "image": {
+        "file": "Cathédrale_de_Cusco_Décembre_2007e.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_de_Cusco_D%C3%A9cembre_2007e.jpg",
+        "author": "Martin St-Amant (S23678)",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "pe-plaza-de-armas",
+      "name": "Plaza de Armas",
+      "area": "Cusco",
+      "city": "Cusco",
+      "wikidata": "Q9060929",
+      "lat": -13.516711,
+      "lon": -71.978823,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Plaza de Armas of Cusco is located in the city of Cusco, Peru.",
+        "es": "La plaza de Armas de Cusco se encuentra en la ciudad de Cusco, Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plaza de Armas (Cusco)",
+          "url": "https://en.wikipedia.org/wiki/Plaza_de_Armas_(Cusco)"
+        },
+        "es": {
+          "title": "Plaza de Armas de Cusco",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_Armas_de_Cusco"
+        }
+      },
+      "image": {
+        "file": "Plaza_de_Armas,_Cusco,_Perú,_2015-07-31,_DD_53-56_PAN.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plaza_de_Armas%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_53-56_PAN.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-muyuq-marka",
+      "name": "Muyuq Marka",
+      "area": "Cusco",
+      "city": "Cusco",
+      "wikidata": "Q600475",
+      "lat": -13.509028,
+      "lon": -71.982861,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Muyuq Marka, also Muyuqmarka, is an archaeological site in Peru.",
+        "es": "Muyucmarca era uno de los tres torreones que había en la parte alta del templo inca de Sacsayhuamán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Muyuq Marka",
+          "url": "https://en.wikipedia.org/wiki/Muyuq_Marka"
+        },
+        "es": {
+          "title": "Muyucmarca",
+          "url": "https://es.wikipedia.org/wiki/Muyucmarca"
+        }
+      },
+      "image": {
+        "file": "Saqsayhuaman1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Saqsayhuaman1.jpg",
+        "author": "Papiermond",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-huchuy-qosqo",
+      "name": "Huchuy Qosqo",
+      "area": "Cusco",
+      "city": "Cusco",
+      "wikidata": "Q372515",
+      "lat": -13.36625,
+      "lon": -71.945128,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Huchuy Qosqo,, is an Incan archaeological site north of Cuzco, Peru.",
+        "es": "Huch'uy Qusqo también llamado Júchuy Cusco, es un sitio arqueológico a 50 km al norte de la ciudad del Cusco, en el Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Huchuy Qosqo",
+          "url": "https://en.wikipedia.org/wiki/Huchuy_Qosqo"
+        },
+        "es": {
+          "title": "Huch'uy Qusqu",
+          "url": "https://es.wikipedia.org/wiki/Huch'uy_Qusqu"
+        }
+      },
+      "image": {
+        "file": "Huchuy_Qosqo_Stevage.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Huchuy_Qosqo_Stevage.jpg",
+        "author": "Stevage",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-el-paraiso",
+      "name": "El Paraíso",
+      "area": "Callao",
+      "city": "Callao",
+      "wikidata": "Q4717894",
+      "lat": -11.95393,
+      "lon": -77.11838,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "El Paraíso or Chuquitanta are the moderns names of a Late Preceramic archaeological site located in the Chillón Valley on the central coast of Peru.",
+        "es": "El Paraíso es un sitio arqueológico del Periodo Arcaico Tardío, oficialmente Zona Arqueológica Monumental El Paraíso, ubicado en el distrito de San Martín de Porres, ciudad de Lima, capital del Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "El Paraíso, Peru",
+          "url": "https://en.wikipedia.org/wiki/El_Para%C3%ADso%2C_Peru"
+        },
+        "es": {
+          "title": "Huaca El Paraíso",
+          "url": "https://es.wikipedia.org/wiki/Huaca_El_Para%C3%ADso"
+        }
+      },
+      "image": {
+        "file": "El_paraiso_peru.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:El_paraiso_peru.jpg",
+        "author": "Dibojutri",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-san-lorenzo-island",
+      "name": "San Lorenzo Island",
+      "area": "Callao",
+      "city": "Callao",
+      "wikidata": "Q926649",
+      "lat": -12.089722,
+      "lon": -77.223889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "San Lorenzo is an island located in the Pacific Ocean off the coast of Callao, Peru.",
+        "es": "La isla San Lorenzo está situada frente a las costas del Callao, en el Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "San Lorenzo Island (Peru)",
+          "url": "https://en.wikipedia.org/wiki/San_Lorenzo_Island_(Peru)"
+        },
+        "es": {
+          "title": "Isla San Lorenzo (Perú)",
+          "url": "https://es.wikipedia.org/wiki/Isla_San_Lorenzo_(Per%C3%BA)"
+        }
+      },
+      "image": {
+        "file": "Lima_MKL_Bd._10_1890_(128443787).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lima_MKL_Bd._10_1890_(128443787).jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pe-st-peter-s-church",
+      "name": "St. Peter's Church",
+      "area": "Callao",
+      "city": "Callao",
+      "wikidata": "Q3319986",
+      "lat": -12.049155,
+      "lon": -77.029008,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica and Convent of Saint Peter, formerly known as Basilica of Saint Paul after the school of the same name, is a Catholic church located in the historic centre of Lima, Peru.",
+        "es": "La Basílica Menor y Convento de San Pedro, edificada por la Compañía de Jesús a partir del siglo XVI, es uno de los más importantes complejos religiosos del centro histórico de Lima."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica and Convent of San Pedro, Lima",
+          "url": "https://en.wikipedia.org/wiki/Basilica_and_Convent_of_San_Pedro%2C_Lima"
+        },
+        "es": {
+          "title": "Basílica y convento de San Pedro",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_y_convento_de_San_Pedro"
+        }
+      },
+      "image": {
+        "file": "Basílica_de_San_Pedro.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_San_Pedro.JPG",
+        "author": "No machine-readable author provided. Manuel González Olaechea assumed (based on ",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-isla-blanca",
+      "name": "Isla Blanca",
+      "area": "Chimbote",
+      "city": "Chimbote",
+      "wikidata": "Q5763476",
+      "lat": -9.105,
+      "lon": -78.621667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Isla Blanca or Blanca Island is a volcanic island located at the mouth of Chimbote Bay, near Chimbote, Peru.",
+        "es": "La Isla Blanca es una pequeña isla del Perú ubicada en el océano Pacífico, en la bahía de Chimbote."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Isla Blanca (Santa)",
+          "url": "https://en.wikipedia.org/wiki/Isla_Blanca_(Santa)"
+        },
+        "es": {
+          "title": "Isla Blanca (Áncash)",
+          "url": "https://es.wikipedia.org/wiki/Isla_Blanca_(%C3%81ncash)"
+        }
+      },
+      "image": {
+        "file": "Isla_Blanca_(Chimbote).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Isla_Blanca_(Chimbote).jpg",
+        "author": "Tomato356",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "pe-cathedral-of-huancayo",
+      "name": "Cathedral of Huancayo",
+      "area": "Huancayo",
+      "city": "Huancayo",
+      "wikidata": "Q5758478",
+      "lat": -12.0675,
+      "lon": -75.209722,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of the Most Holy Trinity also called Huancayo Cathedral is the largest church in the city of Huancayo in Peru.",
+        "es": "La Basílica Catedral de Huancayo o catedral de la Santísima Trinidad es la iglesia mayor de la ciudad peruana de Huancayo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cathedral of the Most Holy Trinity, Huancayo",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_the_Most_Holy_Trinity%2C_Huancayo"
+        },
+        "es": {
+          "title": "Catedral de Huancayo",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Huancayo"
+        }
+      },
+      "image": {
+        "file": "Catedral_Huancayo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedral_Huancayo.jpg",
+        "author": "No machine-readable author provided. Wikiperuvian assumed (based on copyright cl",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pe-lake-nahuimpuquio",
+      "name": "Lake Ñahuimpuquio",
+      "area": "Huancayo",
+      "city": "Huancayo",
+      "wikidata": "Q5763413",
+      "lat": -12.0706,
+      "lon": -75.3386,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Ñahuimpuquio is a lake in Peru located in the Junín Region, Chupaca Province, Ahuac District.",
+        "es": "La Laguna Ñahuimpuquio es un cuerpo de agua dulce ubicado en el valle del Mantaro."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Ñahuimpuquio (Junín)",
+          "url": "https://en.wikipedia.org/wiki/Lake_%C3%91ahuimpuquio_(Jun%C3%ADn)"
+        },
+        "es": {
+          "title": "Laguna Ñahuinpuquio",
+          "url": "https://es.wikipedia.org/wiki/Laguna_%C3%91ahuinpuquio"
+        }
+      },
+      "image": {
+        "file": "P1010048.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:P1010048.JPG",
+        "author": "No machine-readable author provided. Jcavanir assumed (based on copyright claims",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "pe-kawituyuq",
+      "name": "Kawituyuq",
+      "area": "Huancayo",
+      "city": "Huancayo",
+      "wikidata": "Q20085400",
+      "lat": -11.9761,
+      "lon": -75.0567,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Kawituyuq is a 4,803-metre-high mountain in the Andes of Peru.",
+        "es": "Kawituyuq is a 4,803-metre-high mountain in the Andes of Peru."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Kawituyuq",
+          "url": "https://en.wikipedia.org/wiki/Kawituyuq"
+        },
+        "es": {
+          "title": "Kawituyuq",
+          "url": "https://en.wikipedia.org/wiki/Kawituyuq"
+        }
+      }
+    },
+    {
+      "id": "pe-wari-willka",
+      "name": "Wari Willka",
+      "area": "Huancayo",
+      "city": "Huancayo",
+      "wikidata": "Q9005122",
+      "lat": -12.117459,
+      "lon": -75.206069,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Wari Willka, also Wariwillka, is an archaeological site in Peru.",
+        "es": "Huarihuilca o Wari-Willka es un yacimiento arqueológico del Perú, de la era prehispánica, cuya construcción principal es un santuario o adoratorio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Wari Willka",
+          "url": "https://en.wikipedia.org/wiki/Wari_Willka"
+        },
+        "es": {
+          "title": "Huarihuilca",
+          "url": "https://es.wikipedia.org/wiki/Huarihuilca"
+        }
+      },
+      "image": {
+        "file": "Templo_de_Huarivilca.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Templo_de_Huarivilca.jpg",
+        "author": "Jose Carlos de la Puente",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-cathedral-of-iquitos",
+      "name": "Cathedral of Iquitos",
+      "area": "Iquitos",
+      "city": "Iquitos",
+      "wikidata": "Q5909043",
+      "lat": -3.749266,
+      "lon": -73.244968,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The St. John the Baptist Cathedral also called Iquitos Cathedral is the main Catholic church in neo-Gothic style in the city of Iquitos in Peru, with an important value in the historic center of the town.",
+        "es": "La Catedral de San Juan Bautista, conocida informalmente como Catedral de Iquitos o Iglesia Matriz de Iquitos es el principal templo católico de la ciudad peruana de Iquitos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Iquitos Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Iquitos_Cathedral"
+        },
+        "es": {
+          "title": "Catedral de Iquitos",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Iquitos"
+        }
+      },
+      "image": {
+        "file": "Catedral_de_Iquitos_(1).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_Iquitos_(1).jpg",
+        "author": "Mayimbú",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-zungarococha",
+      "name": "Zungarococha",
+      "area": "Iquitos",
+      "city": "Iquitos",
+      "wikidata": "Q17089109",
+      "lat": -3.822778,
+      "lon": -73.360278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Zungarococha is a lake in Peru. It lies near the Nanay River, southwest of Iquitos, in the Loreto Region, Maynas Province, San Juan Bautista District.",
+        "es": "La laguna Zungarococha es un cuerpo de agua en el Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Zungarococha",
+          "url": "https://en.wikipedia.org/wiki/Lake_Zungarococha"
+        },
+        "es": {
+          "title": "Lago Zungarococha",
+          "url": "https://es.wikipedia.org/wiki/Lago_Zungarococha"
+        }
+      }
+    },
+    {
+      "id": "pe-puente-nanay",
+      "name": "Puente Nanay",
+      "area": "Iquitos",
+      "city": "Iquitos",
+      "wikidata": "Q19038530",
+      "lat": -3.695301,
+      "lon": -73.255145,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Nanay Bridge is a bridge located in the center of the Department of Loreto, Peru, which connects Bellavista-Nanay, in the north of the city of Iquitos, with the south of the Santo Tomás del Nanay area.",
+        "es": "El Puente Nanay es un puente ubicado en el centro del Departamento de Loreto, Perú, que une Bellavista-Nanay, en el norte de la ciudad de Iquitos, con el sur del área de Santo Tomás del Nanay."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Nanay Bridge",
+          "url": "https://en.wikipedia.org/wiki/Nanay_Bridge"
+        },
+        "es": {
+          "title": "Puente Nanay",
+          "url": "https://es.wikipedia.org/wiki/Puente_Nanay"
+        }
+      },
+      "image": {
+        "file": "Puente_Nanay_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Puente_Nanay_01.jpg",
+        "author": "Guillermo Carlos Gómez",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-immaculate-conception-cathedral-pucallpa",
+      "name": "Immaculate Conception Cathedral, Pucallpa",
+      "area": "Pucallpa",
+      "city": "Pucallpa",
+      "wikidata": "Q5758547",
+      "lat": -8.383754,
+      "lon": -74.533099,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Immaculate Conception Cathedral is the most important Catholic church in the Department of Ucayali in Peru.",
+        "es": "La Catedral de Pucallpa o Catedral de la Inmaculada Concepción, reconocida por algunos como la Catedral de Ucayali, es la catedral más importante del departamento de Ucayali inaugurado el 8 de diciembre del 2005."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Immaculate Conception Cathedral, Pucallpa",
+          "url": "https://en.wikipedia.org/wiki/Immaculate_Conception_Cathedral%2C_Pucallpa"
+        },
+        "es": {
+          "title": "Catedral de Pucallpa",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_Pucallpa"
+        }
+      },
+      "image": {
+        "file": "Catedral_de_Pucallpa.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_Pucallpa.jpg",
+        "author": "DSan",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "pe-lake-yarinaqucha",
+      "name": "Lake Yarinaqucha",
+      "area": "Pucallpa",
+      "city": "Pucallpa",
+      "wikidata": "Q11688197",
+      "lat": -8.308056,
+      "lon": -74.601389,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Lake Yarinacocha is a lake in Peru located in the Ucayali Region, Coronel Portillo Province, Yarinacocha District.",
+        "es": "Yarinacocha es una laguna ubicada en el distrito de Yarinacocha, en la provincia de Coronel Portillo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Lake Yarinacocha",
+          "url": "https://en.wikipedia.org/wiki/Lake_Yarinacocha"
+        },
+        "es": {
+          "title": "Laguna Yarinacocha",
+          "url": "https://es.wikipedia.org/wiki/Laguna_Yarinacocha"
+        }
+      },
+      "image": {
+        "file": "Screenshot_Enlace_Nacional_29_de_abril_del_2008,_0-24.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Screenshot_Enlace_Nacional_29_de_abril_del_2008%2C_0-24.png",
+        "author": "Enlace Nacional, UTV (Red TV)",
+        "license": "CC BY 3.0"
+      }
     }
   ]
 }

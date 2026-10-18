@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -355,6 +361,853 @@
       "website": "https://www.museivaticani.va/content/museivaticani/it/collezioni/musei/collezione-d_arte-contemporanea.html",
       "lat": 41.90333,
       "lon": 12.455
+    },
+    {
+      "id": "va-saint-peter-s-square",
+      "name": "Saint Peter's Square",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q83425",
+      "lat": 41.902183,
+      "lon": 12.457239,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. Peter's Square is a large plaza located directly in front of St.",
+        "es": "La plaza de San Pedro es la plaza situada delante de la basílica de San Pedro en la Ciudad del Vaticano, enclavada dentro de Roma."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Peter's Square",
+          "url": "https://en.wikipedia.org/wiki/St._Peter's_Square"
+        },
+        "es": {
+          "title": "Plaza de San Pedro",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_San_Pedro"
+        }
+      },
+      "image": {
+        "file": "St_Peter's_Square,_Vatican_City_-_April_2007.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:St_Peter's_Square%2C_Vatican_City_-_April_2007.jpg",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "va-apostolic-palace",
+      "name": "Apostolic Palace",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q145093",
+      "lat": 41.903611,
+      "lon": 12.456389,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Apostolic Palace is the official residence of the Pope, the head of the Catholic Church, located in Vatican City.",
+        "es": "El Palacio Apostólico es la residencia oficial del papa en la Ciudad del Vaticano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Apostolic Palace",
+          "url": "https://en.wikipedia.org/wiki/Apostolic_Palace"
+        },
+        "es": {
+          "title": "Palacio Apostólico",
+          "url": "https://es.wikipedia.org/wiki/Palacio_Apost%C3%B3lico"
+        }
+      },
+      "image": {
+        "file": "2018-03-18_Apostolischer_Palast.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:2018-03-18_Apostolischer_Palast.jpg",
+        "author": "Burkhard Mücke",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "va-gardens-of-vatican-city",
+      "name": "Gardens of Vatican City",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q42003",
+      "lat": 41.903056,
+      "lon": 12.450556,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Gardens of Vatican City, also informally known as the Vatican Gardens in Vatican City, are private urban gardens and parks which cover more than half of the country, located in the west of the territory and owned…",
+        "es": "Los Jardines Vaticanos de la Ciudad del Vaticano son jardines urbanos y parques que abarcan más de la mitad del territorio vaticano en el sur y en el noreste."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gardens of Vatican City",
+          "url": "https://en.wikipedia.org/wiki/Gardens_of_Vatican_City"
+        },
+        "es": {
+          "title": "Jardines de la Ciudad del Vaticano",
+          "url": "https://es.wikipedia.org/wiki/Jardines_de_la_Ciudad_del_Vaticano"
+        }
+      },
+      "image": {
+        "file": "Vatikanische_Gaerten_Museen_Rom.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vatikanische_Gaerten_Museen_Rom.jpg",
+        "author": "Stefan Bauer, http://www.ferras.at",
+        "license": "CC BY-SA 2.5"
+      }
+    },
+    {
+      "id": "va-mater-ecclesiae-monastery",
+      "name": "Mater Ecclesiae Monastery",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q4540172",
+      "lat": 41.90375,
+      "lon": 12.451083,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Mater Ecclesiae Monastery is a monastery in Vatican City.",
+        "es": "El monasterio Mater Ecclesiae es un monasterio de clausura monástica en la Ciudad del Vaticano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mater Ecclesiae Monastery",
+          "url": "https://en.wikipedia.org/wiki/Mater_Ecclesiae_Monastery"
+        },
+        "es": {
+          "title": "Monasterio Mater Ecclesiae",
+          "url": "https://es.wikipedia.org/wiki/Monasterio_Mater_Ecclesiae"
+        }
+      },
+      "image": {
+        "file": "Giardini_vaticani,_monastero_di_mater_ecclesiae_2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Giardini_vaticani%2C_monastero_di_mater_ecclesiae_2.jpg",
+        "author": "Sailko",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "va-cappella-paolina",
+      "name": "Cappella Paolina",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q1034868",
+      "lat": 41.902611,
+      "lon": 12.454728,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cappella Paolina is a chapel in the Apostolic Palace, Vatican City.",
+        "es": "La Capilla Paulina es una famosa capilla en el Palacio Apostólico, que sirve como capilla del Santísimo Sacramento al interior del palacio."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cappella Paolina",
+          "url": "https://en.wikipedia.org/wiki/Cappella_Paolina"
+        },
+        "es": {
+          "title": "Capilla Paulina",
+          "url": "https://es.wikipedia.org/wiki/Capilla_Paulina"
+        }
+      },
+      "image": {
+        "file": "Cappella_paolina,_02,0.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cappella_paolina%2C_02%2C0.jpg",
+        "author": "Sailko",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "va-vatican-obelisk",
+      "name": "Vatican obelisk",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q1444766",
+      "lat": 41.9022,
+      "lon": 12.4563,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Vatican Obelisk is an Egyptian obelisk, one of the thirteen ancient obelisks of Rome.",
+        "es": "El Obelisco Vaticano u Obelisco de San Pedro es uno de los trece obeliscos antiguos de Roma y está situado en la plaza de San Pedro."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vatican obelisk",
+          "url": "https://en.wikipedia.org/wiki/Vatican_obelisk"
+        },
+        "es": {
+          "title": "Obelisco Vaticano",
+          "url": "https://es.wikipedia.org/wiki/Obelisco_Vaticano"
+        }
+      },
+      "image": {
+        "file": "Obelisque_Saint_Peter's_square_Vatican_City.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Obelisque_Saint_Peter's_square_Vatican_City.jpg",
+        "author": "Jebulon",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "va-governorate-s-palace",
+      "name": "Governorate's Palace",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q917387",
+      "lat": 41.902381,
+      "lon": 12.451225,
+      "category": "sight",
+      "interests": [
+        "history",
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Governor's Palace is the seat of the Pontifical Commission for Vatican City State.",
+        "es": "El Palacio de la Gobernación es la sede de la Comisión Pontificia para el Estado de la Ciudad del Vaticano, el gobernador y la Oficina de Correos del Vaticano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Governor's Palace, Vatican",
+          "url": "https://en.wikipedia.org/wiki/Governor's_Palace%2C_Vatican"
+        },
+        "es": {
+          "title": "Palacio de la Gobernación (Ciudad del Vaticano)",
+          "url": "https://es.wikipedia.org/wiki/Palacio_de_la_Gobernaci%C3%B3n_(Ciudad_del_Vaticano)"
+        }
+      },
+      "image": {
+        "file": "Giardini_vaticani,_palazzo_del_governatorato_00.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Giardini_vaticani%2C_palazzo_del_governatorato_00.jpg",
+        "author": "Sailko",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "va-st-stephen-of-the-abyssinians",
+      "name": "St Stephen of the Abyssinians",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q1166213",
+      "lat": 41.901878,
+      "lon": 12.452161,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "St. Stephen of the Abyssinians is an Ethiopian Catholic chapel located in Vatican City.",
+        "es": "La Iglesia de San Esteban de los abisinios es una iglesia católica ubicada en la Ciudad del Vaticano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "St. Stephen of the Abyssinians",
+          "url": "https://en.wikipedia.org/wiki/St._Stephen_of_the_Abyssinians"
+        },
+        "es": {
+          "title": "Iglesia de San Esteban de los abisinios",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Esteban_de_los_abisinios"
+        }
+      },
+      "image": {
+        "file": "Giardini_vaticani,_chiesa_di_santo_stefano_degli_abissini,_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Giardini_vaticani%2C_chiesa_di_santo_stefano_degli_abissini%2C_01.jpg",
+        "author": "Sailko",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "va-sant-anna-dei-palafrenieri",
+      "name": "Sant'Anna dei Palafrenieri",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q3585393",
+      "lat": 41.904151,
+      "lon": 12.457484,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of Saint Anne in the Vatican, known as Sant'Anna de' Palafrenieri, is a Catholic parish church dedicated to Saint Anne in Vatican City.",
+        "es": "La Iglesia de Sant'Anna dei Palafrenieri es una iglesia parroquial católica en la Ciudad del Vaticano, dedicada a Santa Ana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sant'Anna dei Palafrenieri",
+          "url": "https://en.wikipedia.org/wiki/Sant'Anna_dei_Palafrenieri"
+        },
+        "es": {
+          "title": "Iglesia de Sant'Anna dei Palafrenieri",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_Sant'Anna_dei_Palafrenieri"
+        }
+      },
+      "image": {
+        "file": "Sant'Anna_dei_Palafrenieri_-_esterno.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sant'Anna_dei_Palafrenieri_-_esterno.jpg",
+        "author": "Ninfamania",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "va-saints-martin-and-sebastian-of-the-swiss",
+      "name": "Saints Martin and Sebastian of the Swiss",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q1644167",
+      "lat": 41.903353,
+      "lon": 12.456705,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of Saints Martin and Sebastian of the Swiss is a Roman Catholic oratory in Vatican City.",
+        "es": "La Iglesia de San Martín y Sebastián de los suizos Es un oratorio católico en la Ciudad del Vaticano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Santi Martino e Sebastiano degli Svizzeri",
+          "url": "https://en.wikipedia.org/wiki/Santi_Martino_e_Sebastiano_degli_Svizzeri"
+        },
+        "es": {
+          "title": "Iglesia de San Martín y Sebastián de los suizos",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Mart%C3%ADn_y_Sebasti%C3%A1n_de_los_suizos"
+        }
+      },
+      "image": {
+        "file": "Città_del_Vaticano,_chiesa_dei_Santi_Martino_e_Sebastiano_degli_Svizzeri_-_Esterno.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Citt%C3%A0_del_Vaticano%2C_chiesa_dei_Santi_Martino_e_Sebastiano_degli_Svizzeri_-_Esterno.jpg",
+        "author": "Pufui Pc Pifpef I",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "va-gregorian-tower",
+      "name": "Gregorian Tower",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q2460920",
+      "lat": 41.905119,
+      "lon": 12.45415,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Gregorian Tower or Tower of the Winds is a square tower and early modern observatory located above the Gallery of Maps, which connects the Villa Belvedere with the Apostolic Palace in Vatican City.",
+        "es": "La torre Gregoriana o torre de los Vientos es una torre rectangular situada por encima de la galería de los Mapas, que conecta la Villa Belvedere con el Palacio Apostólico de la Ciudad del Vaticano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Gregorian Tower",
+          "url": "https://en.wikipedia.org/wiki/Gregorian_Tower"
+        },
+        "es": {
+          "title": "Torre Gregoriana",
+          "url": "https://es.wikipedia.org/wiki/Torre_Gregoriana"
+        }
+      },
+      "image": {
+        "file": "Musei_Vaticani.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Musei_Vaticani.jpg",
+        "author": "Martin Hooijschuur",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "va-santo-stefano-degli-ungheresi",
+      "name": "Santo Stefano degli Ungheresi",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q7420547",
+      "lat": 41.901064,
+      "lon": 12.453453,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Santo Stefano degli Ungheresi was the church of the Hungarians in Rome.",
+        "es": "La Iglesia de San Esteban de Hungría fue la iglesia de los húngaros en Roma."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Santo Stefano degli Ungheresi",
+          "url": "https://en.wikipedia.org/wiki/Santo_Stefano_degli_Ungheresi"
+        },
+        "es": {
+          "title": "Iglesia de San Esteban de Hungría (Roma)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Esteban_de_Hungr%C3%ADa_(Roma)"
+        }
+      },
+      "image": {
+        "file": "Hülsen_1927_Santo_Stefano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:H%C3%BClsen_1927_Santo_Stefano.jpg",
+        "author": "Christian Hülsen",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "va-san-pellegrino-in-vaticano",
+      "name": "San Pellegrino in Vaticano",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q3671583",
+      "lat": 41.90495,
+      "lon": 12.456928,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church of San Pellegrino in Vaticano is an ancient Roman Catholic oratory in the Vatican City, located on the Via dei Pellegrini.",
+        "es": "La Iglesia de San Peregrino es un antiguo oratorio católico en la Ciudad del Vaticano, situado en la Via dei Pellegrini."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "San Pellegrino in Vaticano",
+          "url": "https://en.wikipedia.org/wiki/San_Pellegrino_in_Vaticano"
+        },
+        "es": {
+          "title": "Iglesia de San Peregrino",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Peregrino"
+        }
+      },
+      "image": {
+        "file": "Città_del_Vaticano,_chiesa_di_San_Pellegrino_-_Facciata.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Citt%C3%A0_del_Vaticano%2C_chiesa_di_San_Pellegrino_-_Facciata.jpg",
+        "author": "Pufui PcPifpef",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "va-vatican-film-library",
+      "name": "Vatican Film Library",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q3745476",
+      "website": "https://www.comunicazione.va/en/filmoteca-vaticana.html",
+      "lat": 41.900796,
+      "lon": 12.452717,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Vatican Film Library is a film archive established in 1959 by Pope John XXIII.",
+        "es": "The Vatican Film Library is a film archive established in 1959 by Pope John XXIII."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Vatican Film Library",
+          "url": "https://en.wikipedia.org/wiki/Vatican_Film_Library"
+        },
+        "es": {
+          "title": "Vatican Film Library",
+          "url": "https://en.wikipedia.org/wiki/Vatican_Film_Library"
+        }
+      },
+      "image": {
+        "file": "Palace_of_Saint_Charles_in_the_Vatican_City.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palace_of_Saint_Charles_in_the_Vatican_City.jpg",
+        "author": "Krzysztof Golik",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "va-grotta-di-lourdes",
+      "name": "Grotta di Lourdes",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q13099380",
+      "lat": 41.902778,
+      "lon": 12.448333,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Grotta di Lourdes is an artificial cave in the Vatican gardens.",
+        "es": "La Gruta de Lourdes es una cueva artificial en los jardines vaticanos en la Ciudad del Vaticano."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Grotta di Lourdes",
+          "url": "https://en.wikipedia.org/wiki/Grotta_di_Lourdes"
+        },
+        "es": {
+          "title": "Gruta de Lourdes (Ciudad del Vaticano)",
+          "url": "https://es.wikipedia.org/wiki/Gruta_de_Lourdes_(Ciudad_del_Vaticano)"
+        }
+      },
+      "image": {
+        "file": "Vatican_Gardens_2020_P26_Lourdes_cave_replica.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vatican_Gardens_2020_P26_Lourdes_cave_replica.jpg",
+        "author": "Fallaner",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "va-colosseum",
+      "name": "Colosseum",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q10285",
+      "website": "https://colosseo.it/area/colosseo/",
+      "lat": 41.890278,
+      "lon": 12.492222,
+      "phone": "+39-06-774-0091",
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Colosseum is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum.",
+        "es": "El Coliseo o Anfiteatro Flavio es un anfiteatro de la época del Imperio romano, construido en el siglo I."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Colosseum",
+          "url": "https://en.wikipedia.org/wiki/Colosseum"
+        },
+        "es": {
+          "title": "Coliseo",
+          "url": "https://es.wikipedia.org/wiki/Coliseo"
+        }
+      },
+      "image": {
+        "file": "Colosseo_2020.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
+        "author": "FeaturedPics",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "va-pantheon",
+      "name": "Pantheon",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q99309",
+      "lat": 41.898611,
+      "lon": 12.476944,
+      "phone": "+39-06-6830-0230",
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Pantheon is an ancient temple in Rome, Italy, originally built under emperor Augustus and reconstructed under Hadrian; since AD 609, it is a Catholic church called the Basilica of St.",
+        "es": "The Pantheon is an ancient temple in Rome, Italy, originally built under emperor Augustus and reconstructed under Hadrian; since AD 609, it is a Catholic church called the Basilica of St."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pantheon, Rome",
+          "url": "https://en.wikipedia.org/wiki/Pantheon%2C_Rome"
+        },
+        "es": {
+          "title": "Pantheon, Rome",
+          "url": "https://en.wikipedia.org/wiki/Pantheon%2C_Rome"
+        }
+      },
+      "image": {
+        "file": "Pantheon_(Rome)_-_Right_side_and_front.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pantheon_(Rome)_-_Right_side_and_front.jpg",
+        "author": "NikonZ7II",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "va-trevi-fountain",
+      "name": "Trevi Fountain",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q185382",
+      "lat": 41.900932,
+      "lon": 12.483313,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Trevi Fountain is an 18th-century fountain in the Trevi district in Rome, Italy, designed by Italian architect Nicola Salvi and completed by Giuseppe Pannini in 1762.",
+        "es": "La Fontana de Trevi, con casi 50 metros de frente, es una de las mayores fuentes monumentales del Barroco en Roma."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Trevi Fountain",
+          "url": "https://en.wikipedia.org/wiki/Trevi_Fountain"
+        },
+        "es": {
+          "title": "Fontana di Trevi",
+          "url": "https://es.wikipedia.org/wiki/Fontana_di_Trevi"
+        }
+      },
+      "image": {
+        "file": "Trevi_Fountain_-_Roma.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Trevi_Fountain_-_Roma.jpg",
+        "author": "NikonZ7II",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "va-archbasilica-of-st-john-lateran",
+      "name": "Archbasilica of St. John Lateran",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q84090",
+      "website": "https://www.basilicasangiovanni.va/",
+      "lat": 41.885906,
+      "lon": 12.506156,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Archbasilica of Saint John Lateran, commonly known as the Lateran Basilica or Saint John Lateran, is the Catholic cathedral of the Diocese of Rome in the city of Rome, Italy.",
+        "es": "La Catedral Archibasílica Papal del Santísimo Salvador del Mundo y de los Santos Juan Bautista y Juan Evangelista en Letrán, Madre y Cabeza de todas las Iglesias de la Ciudad y el Mundo, más conocida como…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Archbasilica of Saint John Lateran",
+          "url": "https://en.wikipedia.org/wiki/Archbasilica_of_Saint_John_Lateran"
+        },
+        "es": {
+          "title": "Archibasílica de San Juan de Letrán",
+          "url": "https://es.wikipedia.org/wiki/Archibas%C3%ADlica_de_San_Juan_de_Letr%C3%A1n"
+        }
+      },
+      "image": {
+        "file": "San_Giovanni_in_Laterano_2021.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:San_Giovanni_in_Laterano_2021.jpg",
+        "author": "NikonZ7II",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "va-palatine-hill",
+      "name": "Palatine Hill",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q200642",
+      "lat": 41.888333,
+      "lon": 12.486944,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Palatine Hill, which is the centremost of the seven hills of Rome, is one of the most ancient parts of the city; it has been called \"the first nucleus of the Roman Empire\".",
+        "es": "El monte Palatino es la más céntrica de las siete colinas de Roma, y la de menor elevación: se alza a 50 m sobre el Foro Romano, quedando entre este y el Circo Máximo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Palatine Hill",
+          "url": "https://en.wikipedia.org/wiki/Palatine_Hill"
+        },
+        "es": {
+          "title": "Monte Palatino",
+          "url": "https://es.wikipedia.org/wiki/Monte_Palatino"
+        }
+      },
+      "image": {
+        "file": "Palatine_Hill_from_across_the_Circus_Maximus_April_2019.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Palatine_Hill_from_across_the_Circus_Maximus_April_2019.jpg",
+        "author": "Lil Herodotus",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "va-basilica-of-saint-paul-outside-the-walls",
+      "name": "Basilica of Saint Paul outside the Walls",
+      "area": "Vatican City",
+      "city": "Vatican City",
+      "wikidata": "Q231699",
+      "lat": 41.858611,
+      "lon": 12.477222,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Papal Basilica of Saint Paul Outside the Walls is one of Rome's four major papal basilicas, along with the basilicas of Saint John in the Lateran, Saint Peter's, and Saint Mary Major, as well as one of the city's…",
+        "es": "La basílica de San Pablo Extramuros es una de las cuatro basílicas mayores católicas —junto con San Pedro, San Juan de Letrán y Santa María la Mayor—y una de las cinco iglesias consideradas como las más antiguas de Roma."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica of Saint Paul Outside the Walls",
+          "url": "https://en.wikipedia.org/wiki/Basilica_of_Saint_Paul_Outside_the_Walls"
+        },
+        "es": {
+          "title": "Basílica de San Pablo Extramuros",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_San_Pablo_Extramuros"
+        }
+      },
+      "image": {
+        "file": "StPaul.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:StPaul.jpg",
+        "author": "StPaul.jpg",
+        "license": "CC BY 4.0"
+      }
     }
   ]
 }

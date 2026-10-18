@@ -29,6 +29,12 @@
       "url": "https://www.openstreetmap.org/copyright",
       "license": "ODbL 1.0",
       "retrieved": "2026-10-18"
+    },
+    "commons": {
+      "title": "Wikimedia Commons photos (each file has its own free license; author and license shown on the photo)",
+      "url": "https://commons.wikimedia.org/",
+      "license": "CC BY, CC BY-SA, CC0 or public domain, per file",
+      "retrieved": "2026-10-18"
     }
   },
   "places": [
@@ -213,6 +219,2241 @@
         "text": "Mo-Tu off; We,Su 09:30-16:30; Th-Fr 09:30-18:00; Sa 11:00-18:00",
         "source": "osm",
         "retrieved": "2026-10-18"
+      }
+    },
+    {
+      "id": "ec-chimborazo",
+      "name": "Chimborazo",
+      "area": "Chimborazo Province",
+      "city": "Chimborazo Province",
+      "wikidata": "Q14081",
+      "lat": -1.469167,
+      "lon": -78.8175,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Chimborazo is a stratovolcano in Ecuador and the Cordillera Occidental range of the Andes.",
+        "es": "El Chimborazo es un estratovolcán potencialmente activo, situado en el centro de Ecuador, en la provincia de Chimborazo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chimborazo",
+          "url": "https://en.wikipedia.org/wiki/Chimborazo"
+        },
+        "es": {
+          "title": "Volcán Chimborazo",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Chimborazo"
+        }
+      },
+      "image": {
+        "file": "Volcán_Chimborazo_desde_Riobamba.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volc%C3%A1n_Chimborazo_desde_Riobamba.jpg",
+        "author": "Eduardo Navas",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "ec-cotopaxi-volcano",
+      "name": "Cotopaxi volcano",
+      "area": "Cotopaxi Province",
+      "city": "Cotopaxi Province",
+      "wikidata": "Q181476",
+      "lat": -0.680556,
+      "lon": -78.437778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cotopaxi is an active stratovolcano in the Andes Mountains, located in Cotopaxi National Park in Cotopaxi Province, about 50 km south of Quito, and 31 km northeast of the city of Latacunga, Ecuador.",
+        "es": "El volcán Cotopaxi es un estratovolcán activo, situado en el centro-norte de Ecuador, en la provincia de Cotopaxi."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cotopaxi",
+          "url": "https://en.wikipedia.org/wiki/Cotopaxi"
+        },
+        "es": {
+          "title": "Volcán Cotopaxi",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Cotopaxi"
+        }
+      },
+      "image": {
+        "file": "Vólcan_Cotopaxi.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:V%C3%B3lcan_Cotopaxi.jpg",
+        "author": "camilogaleano.com",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-tungurahua-volcano",
+      "name": "Tungurahua volcano",
+      "area": "Baños",
+      "city": "Baños",
+      "wikidata": "Q207421",
+      "lat": -1.466944,
+      "lon": -78.441667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Tungurahua is an active stratovolcano located in the Cordillera Oriental of Ecuador.",
+        "es": "El Tungurahua es un estratovolcán activo situado en la zona andina de Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tungurahua",
+          "url": "https://en.wikipedia.org/wiki/Tungurahua"
+        },
+        "es": {
+          "title": "Volcán Tungurahua",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Tungurahua"
+        }
+      },
+      "image": {
+        "file": "Volcán_Tungurahua_Riobamba_-_Ecuador.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volc%C3%A1n_Tungurahua_Riobamba_-_Ecuador.jpg",
+        "author": "Dabit100 / David Torres Costales",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-sangay-national-park",
+      "name": "Sangay National Park",
+      "area": "Chimborazo Province",
+      "city": "Chimborazo Province",
+      "wikidata": "Q839603",
+      "lat": -1.833333,
+      "lon": -78.333333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sangay National Park is a national park located in the Morona-Santiago, Chimborazo, Tungurahua, Cañar, and Azuay provinces of Ecuador.",
+        "es": "El parque nacional Sangay es un área natural protegida localizada en la región centro oriental del Ecuador, entre las provincias de Morona Santiago, Tungurahua, Chimborazo, Cañar y Azuay."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sangay National Park",
+          "url": "https://en.wikipedia.org/wiki/Sangay_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Sangay",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Sangay"
+        }
+      },
+      "image": {
+        "file": "Ecuador_SanguayNationalPark.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ecuador_SanguayNationalPark.JPG",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-sangay-volcano",
+      "name": "Sangay volcano",
+      "area": "Morona-Santiago Province",
+      "city": "Morona-Santiago Province",
+      "wikidata": "Q14052",
+      "lat": -2.0025,
+      "lon": -78.340833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sangay is an active stratovolcano in central Ecuador.",
+        "es": "El Sangay es un estratovolcán ubicado dentro del parque nacional del mismo nombre en el centro del Ecuador, en las estribaciones orientales de la Cordillera de los Andes hacia la selva del Amazonas."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sangay",
+          "url": "https://en.wikipedia.org/wiki/Sangay"
+        },
+        "es": {
+          "title": "Volcán Sangay",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Sangay"
+        }
+      },
+      "image": {
+        "file": "Volcan-Sangay-Ecuador.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volcan-Sangay-Ecuador.jpg",
+        "author": "Dabit100",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-cayambe",
+      "name": "Cayambe",
+      "area": "Pichincha Province",
+      "city": "Pichincha Province",
+      "wikidata": "Q754734",
+      "lat": 0.0239,
+      "lon": -77.9888,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cayambe or Volcán Cayambe is a volcano in Ecuador, in the Cordillera Central, a range of the Ecuadorian Andes.",
+        "es": "El Cayambe es un estratovolcán activo, situado en el norte de Ecuador, en la Provincia de Pichincha."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cayambe (volcano)",
+          "url": "https://en.wikipedia.org/wiki/Cayambe_(volcano)"
+        },
+        "es": {
+          "title": "Volcán Cayambe",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Cayambe"
+        }
+      },
+      "image": {
+        "file": "Volcan_Cayambe.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volcan_Cayambe.JPG",
+        "author": "Fabricio Guzmán T.",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ec-pichincha-volcano",
+      "name": "Pichincha Volcano",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q742216",
+      "lat": -0.177222,
+      "lon": -78.598889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pichincha is a stratovolcano in Ecuador. The capital Quito wraps around its eastern slopes.",
+        "es": "El Macizo de los Pichinchas son un conjunto de cerros y volcanes de Ecuador, situado en la capital del país, Quito."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pichincha (volcano)",
+          "url": "https://en.wikipedia.org/wiki/Pichincha_(volcano)"
+        },
+        "es": {
+          "title": "Volcán Pichincha",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Pichincha"
+        }
+      },
+      "image": {
+        "file": "Rucu_Pichincha_and_Trail.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rucu_Pichincha_and_Trail.jpg",
+        "author": "Timwryan",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-yasuni-national-park",
+      "name": "Yasuni National Park",
+      "area": "Orellana Province",
+      "city": "Orellana Province",
+      "wikidata": "Q1641326",
+      "lat": -0.77,
+      "lon": -76.1,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Yasuní National Park is a protected area comprising roughly 10,000 km2 between the Napo and Curaray Rivers in Pastaza and Orellana Provinces within Amazonian Ecuador.",
+        "es": "El parque nacional de Yasuní es un área natural protegida localizada al nororiente de Ecuador, en las provincias de Pastaza y Orellana, entre el río Napo y el río Curaray en plena cuenca amazónica a unos 250 km al…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Yasuní National Park",
+          "url": "https://en.wikipedia.org/wiki/Yasun%C3%AD_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Yasuní",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Yasun%C3%AD"
+        }
+      },
+      "image": {
+        "file": "Napo_Wildlife_Center_Ecolodge.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Napo_Wildlife_Center_Ecolodge.JPG",
+        "author": "Napowildlifecenter",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-antisana-volcano",
+      "name": "Antisana volcano",
+      "area": "Napo Province",
+      "city": "Napo Province",
+      "wikidata": "Q14082",
+      "lat": -0.481389,
+      "lon": -78.140833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Antisana is a stratovolcano of the northern Andes, in Ecuador.",
+        "es": "El Antisana es un estratovolcán activo, situado en el norte de Ecuador, en la provincia de Napo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Antisana",
+          "url": "https://en.wikipedia.org/wiki/Antisana"
+        },
+        "es": {
+          "title": "Volcán Antisana",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Antisana"
+        }
+      },
+      "image": {
+        "file": "Antisana.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Antisana.jpg",
+        "author": "camilogaleano.com",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-illinizas",
+      "name": "Illinizas",
+      "area": "Machachi",
+      "city": "Machachi",
+      "wikidata": "Q734280",
+      "lat": -0.659444,
+      "lon": -78.713611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Illinizas are a pair of volcanic mountains that are located in the north of Latacunga, Cotopaxi, Ecuador.",
+        "es": "Iliniza o Illiniza es un estratovolcán en Ecuador, situado unos 100 km al suroeste de Quito y 33 km al norte de Latacunga."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Illiniza",
+          "url": "https://en.wikipedia.org/wiki/Illiniza"
+        },
+        "es": {
+          "title": "Volcán Illiniza",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Illiniza"
+        }
+      },
+      "image": {
+        "file": "Illiniza_Route-a_2012.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Illiniza_Route-a_2012.jpg",
+        "author": "Bbb-Commons",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-quilotoa",
+      "name": "Quilotoa",
+      "area": "Pujilí Canton",
+      "city": "Pujilí Canton",
+      "wikidata": "Q1641276",
+      "lat": -0.861194,
+      "lon": -78.897286,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Quilotoa is a water-filled crater lake and the most western volcano in the Ecuadorian Andes.",
+        "es": "El Quilotoa es un volcán lleno de agua en su cráter de 3 kilómetros de diámetro en su borde que se formó por el colapso de este volcán de dacita seguido por una erupción de VEI-6 hace aproximadamente 800 años, lo que…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Quilotoa",
+          "url": "https://en.wikipedia.org/wiki/Quilotoa"
+        },
+        "es": {
+          "title": "Quilotoa",
+          "url": "https://es.wikipedia.org/wiki/Quilotoa"
+        }
+      },
+      "image": {
+        "file": "QuilotoaPanorama1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:QuilotoaPanorama1.jpg",
+        "author": "Stitched by Seattle Skier, photos by Martini",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-reventador",
+      "name": "Reventador",
+      "area": "El Chaco",
+      "city": "El Chaco",
+      "wikidata": "Q248770",
+      "lat": -0.076944,
+      "lon": -77.656111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Reventador is an active stratovolcano which lies in the eastern Andes of Ecuador.",
+        "es": "El Reventador es un volcán de Ecuador, ubicado en el cantón El Chaco de la provincia de Napo, aproximadamente a 90 km de Quito."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Reventador",
+          "url": "https://en.wikipedia.org/wiki/Reventador"
+        },
+        "es": {
+          "title": "Reventador",
+          "url": "https://es.wikipedia.org/wiki/Reventador"
+        }
+      },
+      "image": {
+        "file": "Reventador_volcano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Reventador_volcano.jpg",
+        "author": "Lmanzanillas",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-el-altar-volcano",
+      "name": "El Altar volcano",
+      "area": "Cuenca",
+      "city": "Cuenca",
+      "wikidata": "Q988603",
+      "lat": -1.664167,
+      "lon": -78.411111,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "El Altar or Capac Urcu is an extinct volcano on the western side of Sangay National Park in Ecuador, 170 km south of Quito, with a highest point of 5,319 m.",
+        "es": "El Altar es un volcán catalogado como extinto o dormido localizado en Ecuador, en la Cordillera Real de los Andes."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "El Altar",
+          "url": "https://en.wikipedia.org/wiki/El_Altar"
+        },
+        "es": {
+          "title": "Volcán El Altar",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_El_Altar"
+        }
+      },
+      "image": {
+        "file": "Volcán_El_Altar_-_Riobamba_Ecuador.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volc%C3%A1n_El_Altar_-_Riobamba_Ecuador.jpg",
+        "author": "Dabit100 / David Torres Costales",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-el-cajas-national-park",
+      "name": "El Cajas National Park",
+      "area": "Cuenca",
+      "city": "Cuenca",
+      "wikidata": "Q1295864",
+      "lat": -2.846111,
+      "lon": -79.220278,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "El Cajas National Park or Cajas National Park is a national park in the highlands of Ecuador.",
+        "es": "El parque nacional Cajas es un área protegida, situada en los Andes sur del Ecuador, 33 km al noroccidente de la ciudad de Cuenca, dentro de la provincia de Azuay."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "El Cajas National Park",
+          "url": "https://en.wikipedia.org/wiki/El_Cajas_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Cajas",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Cajas"
+        }
+      },
+      "image": {
+        "file": "Ecuador_cajas_national_park.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ecuador_cajas_national_park.jpg",
+        "author": "Delphine Ménard (notafish }&lt;';&gt;)",
+        "license": "CC BY-SA 2.0 fr"
+      }
+    },
+    {
+      "id": "ec-cotopaxi-national-park",
+      "name": "Cotopaxi National Park",
+      "area": "Ecuador",
+      "city": "Ecuador",
+      "wikidata": "Q1851352",
+      "lat": -0.684167,
+      "lon": -78.437222,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cotopaxi National Park is a protected area in Ecuador situated in the Cotopaxi, Napo and Pichincha provinces, roughly 50 km south of Quito.",
+        "es": "El parque nacional Cotopaxi es un área protegida de Ecuador situada en las provincias de Cotopaxi, Pichincha y Napo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cotopaxi National Park",
+          "url": "https://en.wikipedia.org/wiki/Cotopaxi_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Cotopaxi",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Cotopaxi"
+        }
+      },
+      "image": {
+        "file": "Cotopaxi_volcano_2008-06-27T1322.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cotopaxi_volcano_2008-06-27T1322.jpg",
+        "author": "Gerard Prins",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-corazon-volcano",
+      "name": "Corazón volcano",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q869065",
+      "lat": -0.533333,
+      "lon": -78.666667,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Corazón is an inactive, eroded stratovolcano of Ecuador, situated about 30 km southwest of Quito in the western slopes of the Andes.",
+        "es": "El Corazón es un volcán inactivo erosionado de Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Corazón (volcano)",
+          "url": "https://en.wikipedia.org/wiki/Coraz%C3%B3n_(volcano)"
+        },
+        "es": {
+          "title": "Volcán Corazón",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Coraz%C3%B3n"
+        }
+      },
+      "image": {
+        "file": "Volcán_Corazón,_Pichincha.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Volc%C3%A1n_Coraz%C3%B3n%2C_Pichincha.jpg",
+        "author": "David C. S.",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-carihuairazo-volcano",
+      "name": "Carihuairazo volcano",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q1036179",
+      "lat": -1.406944,
+      "lon": -78.75,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mount Carihuairazo is an eroded stratovolcano neighboured by Ecuador's highest mountain Chimborazo.",
+        "es": "El Carihuairazo es un volcán inactivo de Ecuador, en la cordillera occidental de los Andes."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Carihuairazo",
+          "url": "https://en.wikipedia.org/wiki/Carihuairazo"
+        },
+        "es": {
+          "title": "Volcán Carihuairazo",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Carihuairazo"
+        }
+      },
+      "image": {
+        "file": "Carihuairazo1996.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Carihuairazo1996.jpg",
+        "author": "Albert Backer",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-volcano-atacazo",
+      "name": "volcano Atacazo",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q753140",
+      "lat": -0.357222,
+      "lon": -78.619167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Atacazo is a volcano of the Western Cordillera located 25 kilometers southwest of Quito, Ecuador.",
+        "es": "El Atacazo es un volcán de la Cordillera Occidental del norte de Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Atacazo",
+          "url": "https://en.wikipedia.org/wiki/Atacazo"
+        },
+        "es": {
+          "title": "Atacazo",
+          "url": "https://es.wikipedia.org/wiki/Atacazo"
+        }
+      },
+      "image": {
+        "file": "Atacazo_volcano.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Atacazo_volcano.jpg",
+        "author": "John Ewert, USGS",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ec-imbabura-volcano",
+      "name": "Imbabura Volcano",
+      "area": "Imbabura Province",
+      "city": "Imbabura Province",
+      "wikidata": "Q1659771",
+      "lat": 0.258056,
+      "lon": -78.179722,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Imbabura is an inactive stratovolcano in northern Ecuador.",
+        "es": "El Imbabura es un volcán que se encuentra ubicado en la provincia del mismo nombre en Ecuador, con una altura de 4.640 m s."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Imbabura Volcano",
+          "url": "https://en.wikipedia.org/wiki/Imbabura_Volcano"
+        },
+        "es": {
+          "title": "Volcán Imbabura",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Imbabura"
+        }
+      },
+      "image": {
+        "file": "Muelle_del_lago_San_Pablo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Muelle_del_lago_San_Pablo.jpg",
+        "author": "David C. S.",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-machalilla-national-park",
+      "name": "Machalilla National Park",
+      "area": "Manabí Province",
+      "city": "Manabí Province",
+      "wikidata": "Q1076030",
+      "lat": -1.5625,
+      "lon": -80.83,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Machalilla National Park is a preserve in the Ecuadorian Manabí Province near Puerto López and the rural parish of Machalilla, a small fishing village in the vicinity of the park.",
+        "es": "El parque nacional Machalilla forma parte del Sistema Nacional de Áreas Protegidas del Ecuador, ubicado en la costa sur de la provincia de Manabí en Puerto Machalilla y en los cantones de Jipijapa, Puerto López y…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Machalilla National Park",
+          "url": "https://en.wikipedia.org/wiki/Machalilla_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Machalilla",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Machalilla"
+        }
+      },
+      "image": {
+        "file": "Comuna-salango1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Comuna-salango1.jpg",
+        "author": "Ecuador planeta magico",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-ciudad-mitad-del-mundo",
+      "name": "Ciudad Mitad del Mundo",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q1806478",
+      "lat": -0.002222,
+      "lon": -78.455833,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Ciudad Mitad del Mundo is a tract of land owned by the prefecture of the province of Pichincha, Ecuador.",
+        "es": "La Ciudad Mitad del Mundo es un complejo turístico y cultural, propiedad de la prefectura de la provincia de Pichincha."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ciudad Mitad del Mundo",
+          "url": "https://en.wikipedia.org/wiki/Ciudad_Mitad_del_Mundo"
+        },
+        "es": {
+          "title": "Ciudad Mitad del Mundo",
+          "url": "https://es.wikipedia.org/wiki/Ciudad_Mitad_del_Mundo"
+        }
+      },
+      "image": {
+        "file": "Mitad_del_Mundo_01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mitad_del_Mundo_01.jpg",
+        "author": "Kaldari",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "ec-puna-island",
+      "name": "Puná Island",
+      "area": "Guayaquil",
+      "city": "Guayaquil",
+      "wikidata": "Q2117213",
+      "lat": -2.833333,
+      "lon": -80.133333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Puná Island, is an island just off the coast of southern Ecuador at approximately 80 degrees west longitude and 3 degrees south latitude.",
+        "es": "La isla Puná es una isla del cantón Guayaquil en Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Puná Island",
+          "url": "https://en.wikipedia.org/wiki/Pun%C3%A1_Island"
+        },
+        "es": {
+          "title": "Isla Puná",
+          "url": "https://es.wikipedia.org/wiki/Isla_Pun%C3%A1"
+        }
+      },
+      "image": {
+        "file": "Puná.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pun%C3%A1.jpg",
+        "author": "Pesca Deportiva Ecuador",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-pululagua",
+      "name": "Pululagua",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q2649143",
+      "lat": 0.038,
+      "lon": -78.463,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Pululahua is a dormant volcano in the north of Quito Canton, Pichincha Province, Ecuador.",
+        "es": "Pululahua es un volcán inactivo de los Andes ecuatorianos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pululahua",
+          "url": "https://en.wikipedia.org/wiki/Pululahua"
+        },
+        "es": {
+          "title": "Pululahua",
+          "url": "https://es.wikipedia.org/wiki/Pululahua"
+        }
+      },
+      "image": {
+        "file": "EC_Pululahua_Pano_2012.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:EC_Pululahua_Pano_2012.jpg",
+        "author": "Bbb-Commons",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-cotacachi",
+      "name": "Cotacachi",
+      "area": "Imantag",
+      "city": "Imantag",
+      "wikidata": "Q1136571",
+      "lat": 0.360833,
+      "lon": -78.349167,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cotacachi is a dormant volcano in the Western Cordillera of the northern Ecuadorian Andes, in the west of Imbabura Province, above the city of Cotacachi.",
+        "es": "El Cotacachi es un volcán que se encuentra ubicado en la provincia de Imbabura, cantón Cotacachi, en Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cotacachi Volcano",
+          "url": "https://en.wikipedia.org/wiki/Cotacachi_Volcano"
+        },
+        "es": {
+          "title": "Volcán Cotacachi",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Cotacachi"
+        }
+      },
+      "image": {
+        "file": "Cotacachi_Ecuador736.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cotacachi_Ecuador736.jpg",
+        "author": "Arabsalam",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-ingapirca",
+      "name": "Ingapirca",
+      "area": "Ecuador",
+      "city": "Ecuador",
+      "wikidata": "Q1478056",
+      "lat": -2.539722,
+      "lon": -78.875,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Ingapirca is a town in Cañar Province, Ecuador, and the name of the older Inca ruins and archeological site nearby.",
+        "es": "Ingapirca son las ruinas incas mejor preservadas en Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ingapirca",
+          "url": "https://en.wikipedia.org/wiki/Ingapirca"
+        },
+        "es": {
+          "title": "Ingapirca",
+          "url": "https://es.wikipedia.org/wiki/Ingapirca"
+        }
+      },
+      "image": {
+        "file": "Ingapirca_03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ingapirca_03.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-sumaco-napo-galeras-national-park",
+      "name": "Sumaco Napo-Galeras National Park",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q512783",
+      "lat": -0.383333,
+      "lon": -77.55,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Sumaco Napo-Galeras National Park is a protected area in Ecuador situated in the Napo Province, Orellana Province and Sucumbíos Province.",
+        "es": "El parque nacional Sumaco Napo-Galeras es un área protegida situada al nororiente de Ecuador en las provincias de Napo, Sucumbíos y Orellana."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Sumaco Napo-Galeras National Park",
+          "url": "https://en.wikipedia.org/wiki/Sumaco_Napo-Galeras_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Sumaco Napo-Galeras",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Sumaco_Napo-Galeras"
+        }
+      },
+      "image": {
+        "file": "Rain_in_Tena.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rain_in_Tena.jpg",
+        "author": "Lion Hirth (Prissantenbär)",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ec-llanganates-national-park",
+      "name": "Llanganates National Park",
+      "area": "Napo Province",
+      "city": "Napo Province",
+      "wikidata": "Q1120709",
+      "lat": -1.133333,
+      "lon": -78.233333,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Llanganates National Park is a protected area in Ecuador situated in the Cotopaxi Province, Napo Province, Pastaza Province and Tungurahua Province.",
+        "es": "El parque nacional Llanganates es un área protegida en Ecuador situada entre las provincias de Cotopaxi, Tungurahua, Pastaza y Napo."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Llanganates National Park",
+          "url": "https://en.wikipedia.org/wiki/Llanganates_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Llanganates",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Llanganates"
+        }
+      },
+      "image": {
+        "file": "Parque_Nacional_Llanganates-_Laguna_de_Anteojos_(5)_(22274188624).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Llanganates-_Laguna_de_Anteojos_(5)_(22274188624).jpg",
+        "author": "amalavida.tv from Ecuador",
+        "license": "CC BY-SA 2.0"
+      }
+    },
+    {
+      "id": "ec-cuicocha",
+      "name": "Cuicocha",
+      "area": "Imbabura Province",
+      "city": "Imbabura Province",
+      "wikidata": "Q1143300",
+      "lat": 0.300556,
+      "lon": -78.362778,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Cuicocha is a 3 km wide caldera and crater lake at the foot of Cotacachi Volcano in the Cordillera Occidental of the Ecuadorian Andes.",
+        "es": "Cuicocha es una laguna localizada a 190 km, al norte de Quito, a una altitud de 3.068 m s."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cuicocha",
+          "url": "https://en.wikipedia.org/wiki/Cuicocha"
+        },
+        "es": {
+          "title": "Cuicocha",
+          "url": "https://es.wikipedia.org/wiki/Cuicocha"
+        }
+      },
+      "image": {
+        "file": "Cuicocha,_Ecuador.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cuicocha%2C_Ecuador.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-podocarpus-national-park",
+      "name": "Podocarpus National Park",
+      "area": "Loja Province",
+      "city": "Loja Province",
+      "wikidata": "Q2648069",
+      "lat": -4.283333,
+      "lon": -79,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Podocarpus National Park is a national park located in the provinces of Zamora Chinchipe and Loja, in the south-east of Ecuador.",
+        "es": "El parque nacional Podocarpus abreviado como PNP es un parque nacional ubicado en las provincias de Loja y Zamora Chinchipe, en el sur oriente del Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Podocarpus National Park",
+          "url": "https://en.wikipedia.org/wiki/Podocarpus_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Podocarpus",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Podocarpus"
+        }
+      },
+      "image": {
+        "file": "Bosquebombus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Bosquebombus.jpg",
+        "author": "No machine-readable author provided. Zamorayt assumed (based on copyright claims",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "ec-chiles-volcano",
+      "name": "Chiles volcano",
+      "area": "Nariño Department",
+      "city": "Nariño Department",
+      "wikidata": "Q2648864",
+      "lat": 0.821111,
+      "lon": -77.935,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Chiles is a volcano on the border of Colombia and Ecuador.",
+        "es": "El Chiles es un volcán nevado ubicado en el nudo de los Pastos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Chiles (volcano)",
+          "url": "https://en.wikipedia.org/wiki/Chiles_(volcano)"
+        },
+        "es": {
+          "title": "Volcán Chiles",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Chiles"
+        }
+      },
+      "image": {
+        "file": "Nevado_Chiles_465.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nevado_Chiles_465.JPG",
+        "author": "Bernardo Andrade Tapia",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-ruminahui",
+      "name": "Rumiñahui",
+      "area": "Rumiñahui Canton",
+      "city": "Rumiñahui Canton",
+      "wikidata": "Q1759338",
+      "lat": -0.589722,
+      "lon": -78.508889,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Rumiñahui is a dormant, heavily eroded stratovolcano 4,721 metres above sea level.",
+        "es": "Rumiñahui es un volcán inactivo fuertemente erosionado de 4.712 m altura."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Rumiñahui (volcano)",
+          "url": "https://en.wikipedia.org/wiki/Rumi%C3%B1ahui_(volcano)"
+        },
+        "es": {
+          "title": "Volcán Rumiñahui",
+          "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Rumi%C3%B1ahui"
+        }
+      },
+      "image": {
+        "file": "Rumiñahui_volcano_Limpiopungo_Lagoon_ec.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Rumi%C3%B1ahui_volcano_Limpiopungo_Lagoon_ec.jpg",
+        "author": "Gerard Prins",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-yacuri-national-park",
+      "name": "Yacurí National Park",
+      "area": "Loja Province",
+      "city": "Loja Province",
+      "wikidata": "Q2648427",
+      "lat": -4.706,
+      "lon": -79.365,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Yacurí National Park is a 431-square-kilometre National Park in Ecuador located on the border between the provinces Loja and Zamora Chinchipe.",
+        "es": "El Parque Nacional Yacurí es un parque nacional ecuatoriano que se extiende sobre un área de 431 km² y está ubicado en el límite entre las provincias de Loja y Zamora Chinchipe, Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Yacurí National Park",
+          "url": "https://en.wikipedia.org/wiki/Yacur%C3%AD_National_Park"
+        },
+        "es": {
+          "title": "Parque nacional Yacurí",
+          "url": "https://es.wikipedia.org/wiki/Parque_nacional_Yacur%C3%AD"
+        }
+      },
+      "image": {
+        "file": "Lagunas_negra.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Lagunas_negra.jpg",
+        "author": "Parque Nacional Yacurí",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-mojanda",
+      "name": "Mojanda",
+      "area": "Pichincha Province",
+      "city": "Pichincha Province",
+      "wikidata": "Q3046481",
+      "lat": 0.13,
+      "lon": -78.27,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Mojanda is an inactive stratovolcano of the Eastern Cordillera of the Andes in northern Ecuador.",
+        "es": "Mojanda es un estratovolcán inactivo de la Cordillera Oriental de los Andes en el norte de Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Mojanda",
+          "url": "https://en.wikipedia.org/wiki/Mojanda"
+        },
+        "es": {
+          "title": "Mojanda",
+          "url": "https://es.wikipedia.org/wiki/Mojanda"
+        }
+      },
+      "image": {
+        "file": "Mojanda2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Mojanda2.jpg",
+        "author": "User:Kerem Ozcan",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-cordillera-del-condor",
+      "name": "Cordillera del Cóndor",
+      "area": "Cuenca",
+      "city": "Cuenca",
+      "wikidata": "Q3498313",
+      "lat": -4,
+      "lon": -78.5,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Cordillera del Cóndor is a mountain range in the eastern Andes that is shared by and part of the international border between Ecuador and Peru.",
+        "es": "La cordillera del Cóndor es una cadena montañosa oriental de la cordillera de los Andes que es compartida y forma parte de la frontera internacional entre Ecuador y el Perú."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Cordillera del Cóndor",
+          "url": "https://en.wikipedia.org/wiki/Cordillera_del_C%C3%B3ndor"
+        },
+        "es": {
+          "title": "Cordillera del Cóndor",
+          "url": "https://es.wikipedia.org/wiki/Cordillera_del_C%C3%B3ndor"
+        }
+      },
+      "image": {
+        "file": "Vegetation-at-the-summit-of-the-Machinaza-plateau-Cordillera-del-Cndor-Ecuador-2450-m-photograph-D.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vegetation-at-the-summit-of-the-Machinaza-plateau-Cordillera-del-Cndor-Ecuador-2450-m-photograph-D.jpg",
+        "author": "Carmen Ulloa Ulloa, David A. Neill, Olivia A. Dudek",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ec-guayaquil-metropolitan-cathedral",
+      "name": "Guayaquil Metropolitan Cathedral",
+      "area": "Guayaquil",
+      "city": "Guayaquil",
+      "wikidata": "Q3278408",
+      "lat": -2.194546,
+      "lon": -79.884124,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Metropolitan Cathedral of Guayaquil is a cathedral in the center of Guayaquil, Ecuador.",
+        "es": "La Catedral Metropolitana de Guayaquil es una catedral ecuatoriana que se encuentra en pleno centro de Guayaquil, en el Parque Seminario, fue construida originalmente en madera alrededor de 1547, en la que en esa…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Guayaquil Metropolitan Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Guayaquil_Metropolitan_Cathedral"
+        },
+        "es": {
+          "title": "Catedral metropolitana de Guayaquil",
+          "url": "https://es.wikipedia.org/wiki/Catedral_metropolitana_de_Guayaquil"
+        }
+      },
+      "image": {
+        "file": "Interior_de_la_catedral_de_guayaquil.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Interior_de_la_catedral_de_guayaquil.jpg",
+        "author": "Alfredo Molina",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-santay-island",
+      "name": "Santay Island",
+      "area": "Guayaquil",
+      "city": "Guayaquil",
+      "wikidata": "Q7420096",
+      "lat": -2.2181,
+      "lon": -79.8536,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Santay Island is a 2200 ha. island located in Guayas, Ecuador.",
+        "es": "La isla Santay es una isla ecuatoriana. Se encuentra en el río Guayas y pertenece al cantón Durán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Santay Island",
+          "url": "https://en.wikipedia.org/wiki/Santay_Island"
+        },
+        "es": {
+          "title": "Isla Santay",
+          "url": "https://es.wikipedia.org/wiki/Isla_Santay"
+        }
+      }
+    },
+    {
+      "id": "ec-guayaquil-ecuador-temple",
+      "name": "Guayaquil Ecuador Temple",
+      "area": "Guayaquil",
+      "city": "Guayaquil",
+      "wikidata": "Q3313045",
+      "website": "https://www.churchofjesuschrist.org/temples/details/guayaquil-ecuador-temple?lang=eng",
+      "lat": -2.156246,
+      "lon": -79.904877,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Guayaquil Ecuador Temple is a temple of the Church of Jesus Christ of Latter-day Saints in Guayaquil, Ecuador.",
+        "es": "El Templo de Guayaquil, Ecuador es uno de los templos construidos por la Iglesia de Jesucristo de los Santos de los Últimos Días, el número 58 construido y el primero de Ecuador, ubicado en la ciudad de Guayaquil."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Guayaquil Ecuador Temple",
+          "url": "https://en.wikipedia.org/wiki/Guayaquil_Ecuador_Temple"
+        },
+        "es": {
+          "title": "Templo de Guayaquil",
+          "url": "https://es.wikipedia.org/wiki/Templo_de_Guayaquil"
+        }
+      },
+      "image": {
+        "file": "LDS_Temple_Ecuador.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:LDS_Temple_Ecuador.jpg",
+        "author": "PhoenixTeam1",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ec-torre-morisca-guayaquil",
+      "name": "Torre Morisca, Guayaquil",
+      "area": "Guayaquil",
+      "city": "Guayaquil",
+      "wikidata": "Q6150673",
+      "lat": -2.194061,
+      "lon": -79.879872,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Clock Tower of Guayaquil, also known as the Moorish Tower, is a structure located in Guayaquil, Ecuador.",
+        "es": "La Torre del Reloj o Torre Morisca es una estructura ubicada en Guayaquil, República del Ecuador, que constituye uno de sus símbolos emblemáticos."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Clock Tower of Guayaquil",
+          "url": "https://en.wikipedia.org/wiki/Clock_Tower_of_Guayaquil"
+        },
+        "es": {
+          "title": "Torre del Reloj (Guayaquil)",
+          "url": "https://es.wikipedia.org/wiki/Torre_del_Reloj_(Guayaquil)"
+        }
+      },
+      "image": {
+        "file": "Torre_del_Reloj_en_Guayaquil.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Torre_del_Reloj_en_Guayaquil.jpg",
+        "author": "Elemaki",
+        "license": "CC BY 2.5"
+      }
+    },
+    {
+      "id": "ec-national-unity-bridge",
+      "name": "National Unity Bridge",
+      "area": "Guayaquil",
+      "city": "Guayaquil",
+      "wikidata": "Q6091521",
+      "lat": -2.15861,
+      "lon": -79.855,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The National Unity Bridge is a bridge complex in northeastern Guayaquil, Ecuador with a length of 2,186 metres.",
+        "es": "El Puente de la Unidad Nacional es un complejo vial que enlaza la ciudad de Guayaquil, Ecuador, con los cantones de Samborondón y Durán."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "National Unity Bridge",
+          "url": "https://en.wikipedia.org/wiki/National_Unity_Bridge"
+        },
+        "es": {
+          "title": "Puente de la Unidad Nacional",
+          "url": "https://es.wikipedia.org/wiki/Puente_de_la_Unidad_Nacional"
+        }
+      },
+      "image": {
+        "file": "NUEVO_PUENTE_PARALELO,_UNIDAD_NACIONAL_-_panoramio.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:NUEVO_PUENTE_PARALELO%2C_UNIDAD_NACIONAL_-_panoramio.jpg",
+        "author": "Marco Jácome",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-museo-antropologico-y-de-arte-contemporaneo",
+      "name": "Museo Antropologico y de Arte Contemporaneo",
+      "area": "Guayaquil",
+      "city": "Guayaquil",
+      "wikidata": "Q6940456",
+      "lat": -2.185586,
+      "lon": -79.876053,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Museo Antropologico y de Arte Contemporaneo, or MAAC is a state-of-the-art museum in Guayaquil, Ecuador celebrating Ecuadorian, Latin American and Pre-Columbian art and culture.",
+        "es": "El Museo Antropológico y de Arte Contemporáneo es un museo de la ciudad de Guayaquil, Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Museo Antropologico y de Arte Contemporaneo",
+          "url": "https://en.wikipedia.org/wiki/Museo_Antropologico_y_de_Arte_Contemporaneo"
+        },
+        "es": {
+          "title": "Museo Antropológico y de Arte Contemporáneo",
+          "url": "https://es.wikipedia.org/wiki/Museo_Antropol%C3%B3gico_y_de_Arte_Contempor%C3%A1neo"
+        }
+      },
+      "image": {
+        "file": "Museo_Antropologico_y_de_Arte_Contemporaneo.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Museo_Antropologico_y_de_Arte_Contemporaneo.jpg",
+        "author": "Freddy eduardo",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-velero-bridge",
+      "name": "Velero Bridge",
+      "area": "Guayaquil",
+      "city": "Guayaquil",
+      "wikidata": "Q6091619",
+      "lat": -2.18889,
+      "lon": -79.9011,
+      "category": "sight",
+      "interests": [
+        "architecture"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Velero Bridge, also known as \"El Velero\", is a bridge in Guayaquil, Ecuador.",
+        "es": "El Puente del Velero es un puente para vehículos y peatones, ubicado en la ciudad de Guayaquil que cruza el Estero Salado y comunica la Av."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Velero Bridge",
+          "url": "https://en.wikipedia.org/wiki/Velero_Bridge"
+        },
+        "es": {
+          "title": "Puente del Velero",
+          "url": "https://es.wikipedia.org/wiki/Puente_del_Velero"
+        }
+      },
+      "image": {
+        "file": "Xlatlrah-1247152506-bg.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Xlatlrah-1247152506-bg.jpg",
+        "author": "Priscilla1",
+        "license": "CC0"
+      }
+    },
+    {
+      "id": "ec-presley-norton-museum",
+      "name": "Presley Norton Museum",
+      "area": "Guayaquil",
+      "city": "Guayaquil",
+      "wikidata": "Q15961584",
+      "lat": -2.18762,
+      "lon": -79.895393,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Presley Norton Museum is a museum in Guayaquil, Ecuador which houses a collection of archaeological artifacts, including pottery and figurines made by the original settlers of Ecuador.",
+        "es": "El Museo Presley Norton es un museo arqueológico en ubicado en la ciudad de Guayaquil, Ecuador, que alberga una colección de más de 8.000 artefactos arqueológicos de grupos indígenas del Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Presley Norton Museum",
+          "url": "https://en.wikipedia.org/wiki/Presley_Norton_Museum"
+        },
+        "es": {
+          "title": "Museo Presley Norton",
+          "url": "https://es.wikipedia.org/wiki/Museo_Presley_Norton"
+        }
+      },
+      "image": {
+        "file": "Presley_Norton_Museum.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Presley_Norton_Museum.jpg",
+        "author": "Freddy eduardo",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-luis-adolfo-noboa-naranjo-museum",
+      "name": "Luis Adolfo Noboa Naranjo Museum",
+      "area": "Guayaquil",
+      "city": "Guayaquil",
+      "wikidata": "Q6033487",
+      "lat": -2.190833,
+      "lon": -79.881111,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Luis Adolfo Noboa Naranjo Museum is a museum in Guayaquil, Ecuador.",
+        "es": "El Museo Luis A. Noboa Naranjo, también conocido por su acrónimo Museo LANN, es un museo de la ciudad de Guayaquil, Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Luis Adolfo Noboa Naranjo Museum",
+          "url": "https://en.wikipedia.org/wiki/Luis_Adolfo_Noboa_Naranjo_Museum"
+        },
+        "es": {
+          "title": "Museo Luis Adolfo Noboa Naranjo",
+          "url": "https://es.wikipedia.org/wiki/Museo_Luis_Adolfo_Noboa_Naranjo"
+        }
+      },
+      "image": {
+        "file": "MLANN2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:MLANN2.jpg",
+        "author": "FundacionCNH",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-cathedral-of-quito",
+      "name": "Cathedral of Quito",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q5758380",
+      "lat": -0.220278,
+      "lon": -78.514167,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Quito Metropolitan Cathedral, is a Catholic cathedral in Quito, Ecuador.",
+        "es": "La Catedral Metropolitana de Quito es un templo de culto católico ubicado en el Centro Histórico de San Francisco de Quito."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Quito Metropolitan Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Quito_Metropolitan_Cathedral"
+        },
+        "es": {
+          "title": "Catedral metropolitana de Quito",
+          "url": "https://es.wikipedia.org/wiki/Catedral_metropolitana_de_Quito"
+        }
+      },
+      "image": {
+        "file": "Metropolitan_Cathedral_of_Quito.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Metropolitan_Cathedral_of_Quito.jpg",
+        "author": "Ángel M. Felicísimo",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-basilica-of-the-national-vow",
+      "name": "Basilica of the National Vow",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q4868435",
+      "lat": -0.215,
+      "lon": -78.507389,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica of the National Vow is a Roman Catholic church located in the historic center of Quito, Ecuador.",
+        "es": "La Basílica del Voto Nacional, también conocida como la Basílica de la Consagración de Jesús o Basílica de San Juan o simplemente La Basílica, es un edificio religioso de estilo neogótico del centro histórico de Quito."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basílica del Voto Nacional",
+          "url": "https://en.wikipedia.org/wiki/Bas%C3%ADlica_del_Voto_Nacional"
+        },
+        "es": {
+          "title": "Basílica del Voto Nacional",
+          "url": "https://es.wikipedia.org/wiki/Bas%C3%ADlica_del_Voto_Nacional"
+        }
+      },
+      "image": {
+        "file": "Basilica_del_voto_nacional.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Basilica_del_voto_nacional.jpg",
+        "author": "Quito magnífico (shifted by Rabanus Flavus)",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-el-panecillo",
+      "name": "El Panecillo",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q1871347",
+      "lat": -0.228611,
+      "lon": -78.518611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "El Panecillo is a 200-metre-high hill of volcanic-origin, with loess soil, located between southern and central Quito.",
+        "es": "El Panecillo es una elevación natural de 3.000 metros sobre el nivel del mar, enclavada en el corazón mismo de la ciudad de Quito."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "El Panecillo",
+          "url": "https://en.wikipedia.org/wiki/El_Panecillo"
+        },
+        "es": {
+          "title": "El Panecillo",
+          "url": "https://es.wikipedia.org/wiki/El_Panecillo"
+        }
+      },
+      "image": {
+        "file": "Quito_calle_García_Moreno.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Quito_calle_Garc%C3%ADa_Moreno.jpg",
+        "author": "Cayambe",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-church-of-saint-frinci",
+      "name": "Church of Saint Frinci",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q5116751",
+      "lat": -0.220278,
+      "lon": -78.515556,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica and Convent of San Francisco, commonly known as el San Francisco, is a Catholic basilica that stands in the middle of the historic center of Quito, in front of the square of the same name.",
+        "es": "La Iglesia de San Francisco es una basílica católica que se levanta en medio del centro histórico de Quito frente a la plaza del mismo nombre."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica and Convent of San Francisco, Quito",
+          "url": "https://en.wikipedia.org/wiki/Basilica_and_Convent_of_San_Francisco%2C_Quito"
+        },
+        "es": {
+          "title": "Iglesia de San Francisco (Quito)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_San_Francisco_(Quito)"
+        }
+      },
+      "image": {
+        "file": "Iglesia_de_San_Francisco,_Quito,_Ecuador,_2015-07-22,_DD_154.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Francisco%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_154.JPG",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-plaza-de-la-independencia",
+      "name": "Plaza de la Independencia",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q7203699",
+      "lat": -0.219722,
+      "lon": -78.5125,
+      "category": "sight",
+      "interests": [
+        "sights"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Independence Square is the principal and central public square of Quito, Ecuador.",
+        "es": "La plaza de la Independencia, también conocida como plaza Grande, es la principal plaza de la ciudad de Quito, ubicada en el casco antiguo de la ciudad."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Plaza de la Independencia",
+          "url": "https://en.wikipedia.org/wiki/Plaza_de_la_Independencia"
+        },
+        "es": {
+          "title": "Plaza de la Independencia (Quito)",
+          "url": "https://es.wikipedia.org/wiki/Plaza_de_la_Independencia_(Quito)"
+        }
+      },
+      "image": {
+        "file": "Plaza_Grande,_Quito,_Ecuador,_2015-07-22,_DD_81-85_PAN.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Plaza_Grande%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_81-85_PAN.JPG",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-church-of-the-society-of-jesus",
+      "name": "Church of the Society of Jesus",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q3075573",
+      "lat": -0.220833,
+      "lon": -78.513889,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Church and Convent of San Ignacio de Loyola de la Compañía de Jesús de Quito, also known in the Ecuadorian people simply as La Compañía, is a Catholic clerical complex located on the corner formed by calles…",
+        "es": "La iglesia y el convento San Ignacio de Loyola de La Compañía de Jesús de Quito, también conocidos en el acervo popular ecuatoriano simplemente como La Compañía, es un complejo clerical católico ubicado en la esquina…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Church of La Compañía, Quito",
+          "url": "https://en.wikipedia.org/wiki/Church_of_La_Compa%C3%B1%C3%ADa%2C_Quito"
+        },
+        "es": {
+          "title": "Iglesia de la Compañía (Quito)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_la_Compa%C3%B1%C3%ADa_(Quito)"
+        }
+      },
+      "image": {
+        "file": "Compañía_de_Jesús,_Quito_14.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Compa%C3%B1%C3%ADa_de_Jes%C3%BAs%2C_Quito_14.jpg",
+        "author": "Ranoutofusername",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-basilica-of-la-merced",
+      "name": "Basilica of La Merced",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q18326422",
+      "lat": -0.2182,
+      "lon": -78.5137,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Basilica of Nuestra Señora de la Merced, is a Catholic temple located in the Historic Center of the city of Quito, capital of Ecuador.",
+        "es": "La Basílica de Nuestra Señora de la Merced, es un templo católico localizado en el Centro Histórico de la ciudad de Quito, capital de Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Basilica of La Merced, Quito",
+          "url": "https://en.wikipedia.org/wiki/Basilica_of_La_Merced%2C_Quito"
+        },
+        "es": {
+          "title": "Iglesia de La Merced (Quito)",
+          "url": "https://es.wikipedia.org/wiki/Iglesia_de_La_Merced_(Quito)"
+        }
+      },
+      "image": {
+        "file": "Iglesia_de_Convento_La_Merced,_Quito,_Ecuador.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Convento_La_Merced%2C_Quito%2C_Ecuador.JPG",
+        "author": "User: (WT-shared) Shoestring at wts wikivoyage",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-ilalo",
+      "name": "Ilaló",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q5996962",
+      "lat": -0.266667,
+      "lon": -78.4,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Ilaló is an eroded stratovolcano located to the southeast of Quito, Ecuador.",
+        "es": "El Ilaló es un volcán inactivo y altamente erosionado, significa: 'caña y aguacate', del cayapa ela: la caña, y alu: aguacate, situado en la cuenca del río San Pedro, frente al río Guayllabamba, en el Distrito…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Ilaló",
+          "url": "https://en.wikipedia.org/wiki/Ilal%C3%B3"
+        },
+        "es": {
+          "title": "Ilaló",
+          "url": "https://es.wikipedia.org/wiki/Ilal%C3%B3"
+        }
+      },
+      "image": {
+        "file": "Ecuador-lose_006_House_and_garden,_Tumbaco_January_1985.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ecuador-lose_006_House_and_garden%2C_Tumbaco_January_1985.jpg",
+        "author": "Photography, Scan and postprocessing by Hubertl",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "ec-parque-el-ejido",
+      "name": "Parque El Ejido",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q16915453",
+      "lat": -0.209156,
+      "lon": -78.498611,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Parque El Ejido is a public park located along Avenue Patria in the Itchimbía neighborhood, in the Old Centre part of Quito, Ecuador.",
+        "es": "l parque El Ejido es un espacio verde de carácter público en la ciudad de Quito, capital de Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Parque El Ejido",
+          "url": "https://en.wikipedia.org/wiki/Parque_El_Ejido"
+        },
+        "es": {
+          "title": "Parque El Ejido",
+          "url": "https://es.wikipedia.org/wiki/Parque_El_Ejido"
+        }
+      },
+      "image": {
+        "file": "Parque_El_Ejido_Quito_Ecuador.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Parque_El_Ejido_Quito_Ecuador.JPG",
+        "author": "Quitolabicicleta",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-quito-botanical-gardens",
+      "name": "Quito Botanical Gardens",
+      "area": "Quito",
+      "city": "Quito",
+      "wikidata": "Q5926850",
+      "lat": -0.186175,
+      "lon": -78.485112,
+      "category": "nature",
+      "interests": [
+        "nature"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "Quito Botanical Garden is a park, botanical garden, arboretum and greenhouse of 18,600 square meters in the city of Quito, Ecuador.",
+        "es": "El Jardín Botánico de Quito es un parque, jardín botánico, arboreto e invernaderos de 18.600 metros cuadrados que está previsto aumentar, alberga especies de plantas del país, que se encuentra en la ciudad de Quito,…"
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Quito Botanical Garden",
+          "url": "https://en.wikipedia.org/wiki/Quito_Botanical_Garden"
+        },
+        "es": {
+          "title": "Jardín botánico de Quito",
+          "url": "https://es.wikipedia.org/wiki/Jard%C3%ADn_bot%C3%A1nico_de_Quito"
+        }
+      },
+      "image": {
+        "file": "Quitos_botaniska_trädgård-IMG_9226.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Quitos_botaniska_tr%C3%A4dg%C3%A5rd-IMG_9226.JPG",
+        "author": "C T Johansson",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-tumebamba",
+      "name": "Tumebamba",
+      "area": "Cuenca",
+      "city": "Cuenca",
+      "wikidata": "Q1014957",
+      "lat": -2.906389,
+      "lon": -78.997528,
+      "category": "sight",
+      "interests": [
+        "history"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "Tumebamba, Tomebamba, or Tumipampa was a main regional city in the Inca Empire.",
+        "es": "Tomebamba o Tumipampa fue una de las ciudades más importantes del imperio incaico."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Tumebamba",
+          "url": "https://en.wikipedia.org/wiki/Tumebamba"
+        },
+        "es": {
+          "title": "Tomebamba",
+          "url": "https://es.wikipedia.org/wiki/Tomebamba"
+        }
+      },
+      "image": {
+        "file": "Panorámica_Pumapungo.png",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Panor%C3%A1mica_Pumapungo.png",
+        "author": "PAULOGARCIA2005",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "ec-new-cathedral-of-cuenca",
+      "name": "New Cathedral of Cuenca",
+      "area": "Cuenca",
+      "city": "Cuenca",
+      "wikidata": "Q15072543",
+      "lat": -2.8975,
+      "lon": -79.005,
+      "category": "sight",
+      "interests": [
+        "temples"
+      ],
+      "durationMinutes": 45,
+      "desc": {
+        "en": "The Cathedral of the Immaculate Conception, commonly referred to as the New Cathedral of Cuenca, is the cathedral church in Cuenca, Ecuador.",
+        "es": "La Catedral Metropolitana de la Inmaculada Concepción de Cuenca, también llamada Catedral de Cuenca, o Catedral Nueva, es una iglesia católica ubicado en la ciudad de Cuenca, Ecuador."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "New Cathedral of Cuenca",
+          "url": "https://en.wikipedia.org/wiki/New_Cathedral_of_Cuenca"
+        },
+        "es": {
+          "title": "Catedral de la Inmaculada Concepción (Cuenca)",
+          "url": "https://es.wikipedia.org/wiki/Catedral_de_la_Inmaculada_Concepci%C3%B3n_(Cuenca)"
+        }
+      },
+      "image": {
+        "file": "Catedral_de_Cuenca_(La_Inmculada_Concepcion)_-_Ecuador.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_Cuenca_(La_Inmculada_Concepcion)_-_Ecuador.JPG",
+        "author": "Berposen",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "ec-museo-pumapungo",
+      "name": "Museo Pumapungo",
+      "area": "Cuenca",
+      "city": "Cuenca",
+      "wikidata": "Q41101321",
+      "lat": -2.906078,
+      "lon": -78.99682,
+      "category": "museum",
+      "interests": [
+        "museums"
+      ],
+      "durationMinutes": 90,
+      "desc": {
+        "en": "The Pumapungo Museum is an ethnographic and art museum in Cuenca, Ecuador.",
+        "es": "El Museo y Parque Arqueológico Pumapungo es una Entidad Operativa Desconcentrada del Ministerio de Cultura y Patrimonio, ubicada en Cuenca y también con museos regionales en las ciudades de Riobamba y Loja."
+      },
+      "sourceId": "wikipedia",
+      "descBy": {
+        "en": "wikipedia",
+        "es": "wikipedia"
+      },
+      "ground": {
+        "retrieved": "2026-10-18",
+        "en": {
+          "title": "Pumapungo Museum",
+          "url": "https://en.wikipedia.org/wiki/Pumapungo_Museum"
+        },
+        "es": {
+          "title": "Museo Pumapungo",
+          "url": "https://es.wikipedia.org/wiki/Museo_Pumapungo"
+        }
+      },
+      "image": {
+        "file": "TEATRO_PUMAPUNGO_(32097417774).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:TEATRO_PUMAPUNGO_(32097417774).jpg",
+        "author": "Agencia de Noticias ANDES",
+        "license": "CC BY-SA 2.0"
       }
     }
   ]
