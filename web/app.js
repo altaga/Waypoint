@@ -282,6 +282,15 @@ function appendLog(dir, msg) {
   log.scrollTop = log.scrollHeight;
 }
 
+// The newest message stays in view: while the reader is at the bottom, the transcript follows it, including
+// when the thinking line or the chips under it change its height (that used to cut the last bubble).
+let stickToBottom = true;
+function watchTranscript() {
+  const box = $("transcript");
+  box.addEventListener("scroll", () => { stickToBottom = box.scrollHeight - box.scrollTop - box.clientHeight < 80; }, { passive: true });
+  if ("ResizeObserver" in window) new ResizeObserver(() => { if (stickToBottom) box.scrollTop = box.scrollHeight; }).observe(box);
+}
+
 function bubble(role, text) {
   const box = $("transcript");
   box.querySelector(".empty-chat")?.remove();
@@ -289,6 +298,7 @@ function bubble(role, text) {
   div.className = `bubble ${role}`;
   div.textContent = text;
   box.appendChild(div);
+  stickToBottom = true;
   box.scrollTop = box.scrollHeight;
 }
 
@@ -305,6 +315,8 @@ function pickVoice(lang) {
 function stopSpeech() {
   if (speechAudio) { speechAudio.pause(); speechAudio = null; }
   if ("speechSynthesis" in window) speechSynthesis.cancel();
+  // Pausing or cancelling fires no "ended": the light must not stay on "speaking" (it stays on while the host is thinking).
+  if ($("thinking").hidden) setLight("idle");
 }
 
 // The reply in a neural voice (Amazon Polly, through the server). Throws when the server cannot speak.
@@ -341,6 +353,7 @@ async function speak(text) {
   if (voice) u.voice = voice;
   u.onstart = () => setLight("speaking");
   u.onend = () => setLight("idle");
+  u.onerror = () => setLight("idle");
   speechSynthesis.speak(u);
 }
 
@@ -845,6 +858,8 @@ function initLogos() {
 
 function bindUi() {
   initLogos();
+  watchTranscript();
+  $("voiceOut").addEventListener("change", () => { if (!$("voiceOut").checked) stopSpeech(); });
   // The trip hero's globe: mounted whenever the hero is drawn; it flies in only on a trip's first view.
   let globeTrip = null;
   new MutationObserver(() => {

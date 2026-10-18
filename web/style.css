@@ -597,3 +597,7 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
   .frame[data-device="mobile"] { width: 100%; align-items: stretch; }
   .stage { overflow-y: visible; }
 }
+
+/* A long amount ("JPY 172,946") scales to the card instead of running out of it. */
+.card.k-budget { container-type: inline-size; }
+.money .m-to { font-size: clamp(24px, 11cqw, 48px); white-space: nowrap; }
