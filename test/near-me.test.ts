@@ -81,3 +81,14 @@ test("by town name the hand-researched places come first, so Tháp Tam Thắng i
   assert.match(r.voice, /Tam Thang Tower/);
   assert.match(r.voice, /Waypoint's picks first/);
 });
+
+test("the tower has the project's own photo, served from /photos, with its credit and no Commons page", async () => {
+  const r = await call("get_highlights", { destination: "VN", near: { lat: 10.3452, lon: 107.097 }, radiusKm: 2 });
+  const tower = r.data.places.find((p: any) => p.id === "vn-tam-thang-tower-back-beach");
+  assert.equal(tower.image.url, "/photos/vn-tam-thang-tower.jpg");
+  assert.equal(tower.image.author, "Waypoint project owner");
+  assert.ok(!("pageUrl" in tower.image));
+  const html = renderTool("get_highlights", { card: { title: "x", rows: [] }, data: { places: [tower] } }, "en");
+  assert.match(html, /<img src="\/photos\/vn-tam-thang-tower\.jpg"/);
+  assert.match(html, /<span class="ph-credit">Photo: Waypoint project owner/);
+});

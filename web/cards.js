@@ -337,8 +337,10 @@ function highlightsCard(sc, lang) {
   const card = sc.card || {};
   const tiles = places
     .map((p) => {
-      const img = p.image && safeUrl(p.image.url) ? p.image : null;
-      const credit = img ? `<a class="ph-credit" href="${esc(safeUrl(img.pageUrl) || "#")}" target="_blank" rel="noopener noreferrer">${esc(w.photo)}: ${esc(img.author)} · ${esc(img.license)}</a>` : "";
+      // A Commons photo (https) or one of the project's own (a path under /photos/): nothing else is drawn.
+      const img = p.image && (safeUrl(p.image.url) || /^\/photos\/[a-z0-9-]+\.jpg$/.test(p.image.url || "")) ? p.image : null;
+      const creditText = img ? `${esc(w.photo)}: ${esc(img.author)} · ${esc(img.license)}` : "";
+      const credit = img ? (safeUrl(img.pageUrl) ? `<a class="ph-credit" href="${esc(img.pageUrl)}" target="_blank" rel="noopener noreferrer">${creditText}</a>` : `<span class="ph-credit">${creditText}</span>`) : "";
       const photo = img ? `<div class="ph"><img src="${esc(img.url)}" alt="${esc(p.name)}" loading="lazy" referrerpolicy="no-referrer">${credit}</div>` : "";
       const away = p.distanceKm != null ? `<span class="ph-km">${esc(p.distanceKm)} km</span>` : "";
       const local = p.nameLocal && p.nameLocal !== p.name ? `<div class="s-local">${esc(p.nameLocal)}</div>` : "";

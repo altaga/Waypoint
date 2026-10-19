@@ -34,7 +34,11 @@ export const Place = z.object({
   // The name in the local language, when it differs (Tháp Tam Thắng), so a traveler can read it on a sign or a map.
   nameLocal: z.string().optional(),
   // One photo from Wikimedia Commons (CC BY, CC BY-SA, CC0 or public domain): the file name, its page, who took it, its license.
-  image: z.object({ file: z.string(), pageUrl: z.url(), author: z.string(), license: z.string() }).optional(),
+  // Or, for a photo taken by the project itself, `src`: a path served with the web host (web/photos/...), with no Commons page.
+  image: z
+    .object({ file: z.string().optional(), src: z.string().regex(/^\/photos\/[a-z0-9-]+\.jpg$/).optional(), pageUrl: z.url().optional(), author: z.string(), license: z.string() })
+    .refine((i) => Boolean(i.file) !== Boolean(i.src), "an image has a Commons file or a local src, not both")
+    .optional(),
   category: z.enum(CATEGORIES),
   interests: z.array(z.enum(INTERESTS)).min(1),
   durationMinutes: z.number().int().positive(),
