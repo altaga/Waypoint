@@ -162,6 +162,8 @@ function verify() {
         stats.facts++;
         const q = squash(String(f.quote ?? ""));
         if (!f.en || !f.es || q.length < 20) { stats.noQuote++; stats.rejected++; continue; }
+        // Entry facts that only hold for UK passport holders do not belong in a guide for every traveler: visas are answered per passport by another tool.
+        if (t === "entry" && /\b(UK|British|United Kingdom)\b/i.test(f.en) && /\b(visa|ETA|e-visa|permit|waiver|exempt)/i.test(f.en)) { stats.rejected++; stats.ukSpecific = (stats.ukSpecific ?? 0) + 1; continue; }
         if (!haystack[f.source]?.includes(q)) { stats.rejected++; rejects.push(`${c.iso} ${t}: ${String(f.quote).slice(0, 80)}`); continue; }
         kept.push({ en: String(f.en).trim(), es: String(f.es).trim(), quote: String(f.quote).trim().slice(0, 400), source: f.source, ...(f.local ? { local: String(f.local) } : {}), ...(f.say ? { say: String(f.say) } : {}) });
       }

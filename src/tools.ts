@@ -1209,7 +1209,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             voice: facts.length
               ? pick(locale, `${label} in ${name}: ${facts.slice(0, 3).map(text).join(" ")}`, `${label} en ${name}: ${facts.slice(0, 3).map(text).join(" ")}`)
               : pick(locale, `I have no verified ${label.toLowerCase()} facts for ${name}.`, `No tengo datos verificados de ${label.toLowerCase()} para ${name}.`),
-            card: { pattern: "list", title: `${label} · ${name}`, subtitle: pick(locale, "From public sources, each with its quote; not reviewed by a person", "De fuentes públicas, cada dato con su cita; sin revisión humana"), rows },
+            card: { pattern: "list", title: `${label} · ${name}`, subtitle: args.topic === "entry" ? pick(locale, "From UK government advice (general requirements); for visas by passport use the entry check", "De avisos del gobierno del Reino Unido (requisitos generales); para visas por pasaporte usa la consulta de entrada") : pick(locale, "From public sources, each with its quote; not reviewed by a person", "De fuentes públicas, cada dato con su cita; sin revisión humana"), rows },
             data: { country: dest, topic: args.topic, alert: guide.alert, facts: facts.map((f) => ({ text: text(f), quote: f.quote, source: f.source, ...(f.local ? { local: f.local } : {}), ...(f.say ? { say: f.say } : {}) })) },
             followUps: facts.length ? [pick(locale, "What else should I know before I go?", "¿Qué más debo saber antes de ir?")] : [],
           });
