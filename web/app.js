@@ -994,10 +994,25 @@ function bindUi() {
     if (device === "voice" && panelFrame) closePanel();
     $("hero").innerHTML = currentBrief && device !== "voice" ? heroHtml(currentBrief, lang, Boolean(lastUi)) : "";
   });
+  // The message box grows with what is typed (up to four lines); Enter sends, Shift+Enter starts a new line.
+  const box = $("text");
+  const grow = () => {
+    box.style.height = "auto";
+    box.style.height = `${Math.min(box.scrollHeight, parseFloat(getComputedStyle(box).maxHeight) || box.scrollHeight)}px`;
+    if (stickToBottom) $("transcript").scrollTop = $("transcript").scrollHeight;
+  };
+  box.addEventListener("input", grow);
+  box.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && !e.shiftKey && !e.isComposing) {
+      e.preventDefault();
+      $("inputForm").requestSubmit();
+    }
+  });
   $("inputForm").addEventListener("submit", (e) => {
     e.preventDefault();
-    const v = $("text").value;
-    $("text").value = "";
+    const v = box.value;
+    box.value = "";
+    grow();
     handleUtterance(v);
   });
   $("demoGroup").addEventListener("click", () => loadDemoGroup().catch(() => bubble("assistant", t("nothingSaved"))));
