@@ -137,8 +137,8 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 /* The composer: one pill holding the microphone, the field and the send arrow, as in Messages. */
 .input { display: flex; gap: var(--s-6); align-items: flex-end; padding: 5px; border-radius: 27px; background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .4); transition: border-color .2s, box-shadow .2s; }
 .input:focus-within { border-color: rgba(41, 151, 255, .7); box-shadow: 0 0 0 4px rgba(41, 151, 255, .18); }
-/* The box grows with what is typed, up to four lines, then scrolls (like a messaging app). */
-.input textarea { flex: 1; min-width: 0; box-sizing: border-box; height: 42px; min-height: 42px; max-height: calc(4 * 1.35em + 18px); padding: 9px var(--s-8); border: 0; background: transparent; color: var(--ink); font: inherit; font-size: var(--t-body); line-height: 1.35; resize: none; overflow-y: auto; overscroll-behavior: contain; }
+/* The box grows with what is typed, up to three lines, then scrolls (like a messaging app). */
+.input textarea { flex: 1; min-width: 0; box-sizing: border-box; height: 42px; min-height: 42px; max-height: calc(3 * 1.35em + 18px); padding: 9px var(--s-8); border: 0; background: transparent; color: var(--ink); font: inherit; font-size: var(--t-body); line-height: 1.35; resize: none; overflow-y: auto; overscroll-behavior: contain; }
 .input textarea::placeholder { color: var(--ink-3); opacity: 1; }
 .input textarea:focus { outline: none; }
 .input button { display: grid; place-items: center; width: 42px; height: 42px; padding: 0; flex: none; border-radius: 50%; border: 0; color: var(--ink); transition: transform .15s, background .2s, opacity .2s; }
