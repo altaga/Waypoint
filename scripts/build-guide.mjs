@@ -45,7 +45,7 @@ const text = (html) =>
 
 const fold = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/&/g, "and").replace(/[^a-z0-9]+/g, " ").trim();
 // Names that differ between Wikidata and the FCDO list.
-const FCDO_ALIAS = { US: "usa", CZ: "czech-republic", MM: "myanmar-burma", CD: "democratic-republic-of-the-congo", CG: "republic-of-the-congo", CI: "ivory-coast", TL: "timor-leste", SZ: "eswatini", MK: "north-macedonia", KP: "north-korea", KR: "south-korea", RU: "russia", SY: "syria", LA: "laos", VN: "vietnam", IR: "iran", BN: "brunei", CV: "cape-verde", FM: "micronesia", VA: "the-holy-see", PS: "the-occupied-palestinian-territories", GB: "united-kingdom", MD: "moldova", TZ: "tanzania", BO: "bolivia", VE: "venezuela", GM: "the-gambia", BS: "the-bahamas", AE: "united-arab-emirates", KN: "st-kitts-and-nevis", LC: "st-lucia", VC: "st-vincent-and-the-grenadines", ST: "sao-tome-and-principe" };
+const FCDO_ALIAS = { US: "usa", CZ: "czechia", MM: "myanmar-burma", CD: "democratic-republic-of-the-congo", CG: "congo", CI: "cote-d-ivoire", TL: "timor-leste", SZ: "eswatini", CN: "china", NL: "netherlands", MK: "north-macedonia", KP: "north-korea", KR: "south-korea", RU: "russia", SY: "syria", LA: "laos", VN: "vietnam", IR: "iran", BN: "brunei", CV: "cape-verde", FM: "micronesia", VA: "the-holy-see", PS: "the-occupied-palestinian-territories", GB: "united-kingdom", MD: "moldova", TZ: "tanzania", BO: "bolivia", VE: "venezuela", GM: "the-gambia", BS: "bahamas", AE: "united-arab-emirates", KN: "st-kitts-and-nevis", LC: "st-lucia", VC: "st-vincent-and-the-grenadines", ST: "sao-tome-and-principe" };
 
 async function fcdo() {
   const index = await getJson("https://www.gov.uk/api/content/foreign-travel-advice");
@@ -67,6 +67,8 @@ async function fcdo() {
   console.log(`fcdo: ${ok} countries; no advice page for: ${missing.join(", ") || "none"}`);
 }
 
+// Countries whose Wikidata item has no Wikivoyage sitelink of that name.
+const WV_ALIAS = { NL: "Netherlands" };
 const WV_SECTIONS = ["Understand", "Talk", "Get in", "Get around", "Buy", "Eat", "Drink", "Stay safe", "Stay healthy", "Respect", "Connect", "Cope"];
 async function wikivoyage() {
   // The article title of each country comes from its Wikidata sitelink.
@@ -81,7 +83,7 @@ async function wikivoyage() {
   for (const c of countries) {
     const file = RAW + `wikivoyage/${c.iso}.json`;
     if (existsSync(file)) { ok++; continue; }
-    const title = titles.get(c.iso);
+    const title = titles.get(c.iso) ?? WV_ALIAS[c.iso];
     if (!title) { missing.push(c.iso + " " + c.name.en); continue; }
     const j = await getJson(`https://en.wikivoyage.org/w/api.php?action=query&format=json&prop=extracts|revisions&explaintext=1&rvprop=ids|timestamp&titles=${encodeURIComponent(title)}&redirects=1`);
     const page = Object.values(j?.query?.pages ?? {})[0];
