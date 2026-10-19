@@ -79,4 +79,5 @@ test("by town name the hand-researched places come first, so Tháp Tam Thắng i
   const r = await call("get_highlights", { destination: "VN", nearPlace: "Vung Tau", limit: 6 });
   assert.ok(r.data.places.some((p: any) => p.id === "vn-tam-thang-tower-back-beach"), "the tower is in the first six");
   assert.match(r.voice, /Tam Thang Tower/);
+  assert.match(r.voice, /Waypoint's picks first/);
 });

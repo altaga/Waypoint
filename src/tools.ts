@@ -1111,7 +1111,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             : here && nearest && !nearest.within && ranked.length
               ? pick(locale, `My list has nothing within ${radius} km. The closest are ${names}, about ${away(ranked[0])} away. Check the travel time first.`, `Mi lista no tiene nada a menos de ${radius} km. Lo más cerca: ${names}, a unos ${away(ranked[0])}. Revisa el tiempo de traslado primero.`)
               : here && ranked.length
-                ? pick(locale, `${ranked.length} places near ${here.label || "you"}, closest first: ${ranked.slice(0, 5).map((p) => `${p.name} (${away(p)})`).join(", ")}.`, `${ranked.length} lugares cerca de ${here.label || "ti"}, del más cercano al más lejano: ${ranked.slice(0, 5).map((p) => `${p.name} (${away(p)})`).join(", ")}.`)
+                ? pick(locale, `${ranked.length} places near ${here.label || "you"}, ${args.near ? "closest first" : "Waypoint's picks first"}: ${ranked.slice(0, 5).map((p) => `${p.name} (${away(p)})`).join(", ")}.`, `${ranked.length} lugares cerca de ${here.label || "ti"}, ${args.near ? "del más cercano al más lejano" : "primero las selecciones de Waypoint"}: ${ranked.slice(0, 5).map((p) => `${p.name} (${away(p)})`).join(", ")}.`)
         : ranked.length
             ? pick(
                 locale,
