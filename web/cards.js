@@ -31,7 +31,7 @@ export const icon = (name) => `<span class="ico">${ICON[name] || ""}</span>`;
 
 const L = {
   en: {
-    source: "Source", photo: "Photo", rateOf: "rate of", rateLive: "live, the provider updates it daily", rateCopy: "saved copy, not live", verified: "verified", checked: "sources checked", notReviewed: "compiled by us, not yet reviewed by a person", reviewed: "reviewed by a person", confidence: "confidence", level: { low: "low", medium: "medium", high: "high" }, visaFree: "No visa needed", upTo: (d) => `stays up to ${d} days`,
+    source: "Source", photo: "Photo", srcFcdo: "UK government travel advice", srcWikivoyage: "Wikivoyage", rateOf: "rate of", rateLive: "live, the provider updates it daily", rateCopy: "saved copy, not live", verified: "verified", checked: "sources checked", notReviewed: "compiled by us, not yet reviewed by a person", reviewed: "reviewed by a person", confidence: "confidence", level: { low: "low", medium: "medium", high: "high" }, visaFree: "No visa needed", upTo: (d) => `stays up to ${d} days`,
     entry: "Entry", rules: "Local rules", budget: "Budget", ppp: "Goes as far as", essentials: "Essentials",
     currency: "Currency", plugs: "Plugs", emergency: "Emergency", languages: "Language", packing: "Packing list",
     packed: (a, b) => `${a} of ${b} packed`, doNotPack: "Do not pack", plan: "Day plan", free: "Free day",
@@ -42,7 +42,7 @@ const L = {
     nothing: "Nothing pending", calendar: "Add to calendar", share: "Share brief", copied: "Copied", panel: "View panel", autopilot: "Get me ready",
   },
   es: {
-    source: "Fuente", photo: "Foto", rateOf: "tasa del", rateLive: "en vivo, el proveedor la actualiza a diario", rateCopy: "copia guardada, no en vivo", verified: "verificado", checked: "fuentes consultadas", notReviewed: "compilado por nosotros, sin revisión humana", reviewed: "revisado por una persona", confidence: "confianza", level: { low: "baja", medium: "media", high: "alta" }, visaFree: "Sin visa", upTo: (d) => `estancias de hasta ${d} días`,
+    source: "Fuente", photo: "Foto", srcFcdo: "Aviso de viaje del gobierno del Reino Unido", srcWikivoyage: "Wikivoyage", rateOf: "tasa del", rateLive: "en vivo, el proveedor la actualiza a diario", rateCopy: "copia guardada, no en vivo", verified: "verificado", checked: "fuentes consultadas", notReviewed: "compilado por nosotros, sin revisión humana", reviewed: "revisado por una persona", confidence: "confianza", level: { low: "baja", medium: "media", high: "alta" }, visaFree: "Sin visa", upTo: (d) => `estancias de hasta ${d} días`,
     entry: "Entrada", rules: "Reglas locales", budget: "Presupuesto", ppp: "Rinde como", essentials: "Básicos",
     currency: "Moneda", plugs: "Enchufes", emergency: "Emergencias", languages: "Idioma", packing: "Lista de equipaje",
     packed: (a, b) => `${a} de ${b} empacados`, doNotPack: "No llevar", plan: "Plan de días", free: "Día libre",
@@ -328,6 +328,24 @@ function appsCard(sc, lang) {
   return `<article class="card wide"><header class="ch"><h2>${esc(card.title || "")}</h2>${card.subtitle ? `<div class="sub">${esc(card.subtitle)}</div>` : ""}</header>${rows}${sourceLine(sc, lang)}</article>`;
 }
 
+// The country guide: each fact with where it comes from; the quote it was taken from opens under it.
+function guideCard(sc, lang) {
+  const facts = sc.data?.facts || [];
+  const card = sc.card || {};
+  if (!facts.length && !(card.rows || []).length) return genericCard(card, sc, lang, "get_travel_guide");
+  const w = words(lang);
+  const tag = { fcdo: w.srcFcdo, wikivoyage: w.srcWikivoyage, phrasebook: w.srcWikivoyage };
+  const alert = (card.rows || []).filter((r) => r.status === "blocked").map((r) => `<div class="g-alert">${esc(r.value)}</div>`).join("");
+  const items = facts
+    .map((f) => {
+      const phrase = f.local ? `<div class="g-phrase"><b>${esc(f.local)}</b>${f.say ? ` <span>${esc(f.say)}</span>` : ""}</div>` : "";
+      return `<li class="g-fact">${phrase}<div class="g-text">${esc(f.text)}</div><details class="g-q"><summary>${esc(tag[f.source] || f.source)}</summary><q>${esc(f.quote)}</q></details></li>`;
+    })
+    .join("");
+  const overview = !facts.length ? `<ul class="g-over">${(card.rows || []).filter((r) => r.status !== "blocked").map((r) => `<li><span>${esc(r.label)}</span><b>${esc(r.value)}</b></li>`).join("")}</ul>` : "";
+  return `<article class="card wide k-guide"><header class="ch"><h2>${esc(card.title || "")}</h2>${card.subtitle ? `<div class="sub">${esc(card.subtitle)}</div>` : ""}</header>${alert}${items ? `<ul class="g-facts">${items}</ul>` : overview}${sourceLine(sc, lang)}</article>`;
+}
+
 // Places near the traveler (or in a country): a tile each, with the photo when the list has one (Wikimedia Commons, credited),
 // the distance, the suggested hours' source and the links. Without place data the generic list card is used.
 function highlightsCard(sc, lang) {
@@ -353,6 +371,7 @@ function highlightsCard(sc, lang) {
 const RENDER = {
   get_local_apps: appsCard,
   get_highlights: highlightsCard,
+  get_travel_guide: guideCard,
   check_entry_requirements: entryCard,
   get_local_rules: rulesCard,
   get_trip_climate: climateCard,

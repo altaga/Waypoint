@@ -655,3 +655,16 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 .hl .s-local { font-size: var(--t-caption); color: var(--d-ink-2); }
 .hl .ph-km { display: inline-block; margin-right: var(--s-8); padding: 1px var(--s-8); border-radius: 999px; background: rgba(41, 151, 255, .18); color: #9fd0ff; letter-spacing: .02em; text-transform: none; }
 .cards > .k-places { grid-column: 1 / -1; }
+
+/* ---------- The country guide: facts, each with its source; the quote opens under it ---------- */
+.g-alert { margin: 0 0 var(--s-12); padding: var(--s-12) var(--s-16); border-radius: var(--r-16); background: rgba(255, 105, 97, .14); color: #ffb3ad; font-size: var(--t-footnote); font-weight: 600; }
+.g-facts, .g-over { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-8); }
+.g-facts { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.g-fact { padding: var(--s-12) var(--s-16); border-radius: var(--r-16); background: var(--d-inner); display: grid; gap: var(--s-4); align-content: start; }
+.g-phrase b { font-size: var(--t-body); }
+.g-phrase span { color: var(--d-ink-2); font-size: var(--t-footnote); }
+.g-text { font-size: var(--t-footnote); line-height: 1.5; }
+.g-q summary { cursor: pointer; font-size: var(--t-caption); color: var(--d-ink-2); letter-spacing: .04em; }
+.g-q q { display: block; margin-top: var(--s-4); font-size: var(--t-caption); color: var(--d-ink-2); line-height: 1.45; quotes: none; font-style: italic; }
+.g-over li { display: flex; justify-content: space-between; gap: var(--s-12); padding: var(--s-8) var(--s-16); border-radius: var(--r-16); background: var(--d-inner); font-size: var(--t-footnote); }
+.cards > .k-guide { grid-column: 1 / -1; }

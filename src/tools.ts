@@ -19,6 +19,8 @@ import { INTERESTS, type Interest } from "./services/highlights.ts";
 import { mapsUrl, suggestTimes, verifyPlan, type Violation } from "./itinerary.ts";
 import { STYLES, cityStays, distanceKm, stayCity } from "./pace.ts";
 import { currencyCode } from "./currency.ts";
+import { GUIDE_TOPICS, type GuideFact } from "./services/guide.ts";
+import { weatherWord } from "./services/weather.ts";
 import { tripClimate, type TripClimate } from "./services/climate.ts";
 
 type Locale = "en" | "es";
@@ -1138,6 +1140,172 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         });
         env.sources = Object.entries(pack.sources).map(([key, s]) => ({ id: `src:${key}`, title: s.title, url: s.url, license: s.license, retrieved: s.retrieved }));
         env.confidence = curated ? "medium" : "low";
+        return envelopeResult(env);
+      }),
+  );
+
+  // 9b. get_travel_guide: what a traveler needs beyond the entry rules, each fact with its quote and source.
+  const TOPIC_LABEL: Record<(typeof GUIDE_TOPICS)[number], { en: string; es: string }> = {
+    entry: { en: "Getting in: paperwork", es: "Entrada: trámites" },
+    safety: { en: "Safety", es: "Seguridad" },
+    health: { en: "Health", es: "Salud" },
+    help: { en: "Getting help", es: "Ayuda" },
+    getting_in: { en: "Arriving: airports and borders", es: "Llegada: aeropuertos y fronteras" },
+    getting_around: { en: "Getting around", es: "Moverse" },
+    money: { en: "Money, tipping and costs", es: "Dinero, propinas y costos" },
+    etiquette: { en: "Etiquette", es: "Etiqueta" },
+    connectivity: { en: "Phone and internet", es: "Teléfono e internet" },
+    phrases: { en: "Useful phrases", es: "Frases útiles" },
+  };
+  const ALERT_TEXT: Record<string, { en: string; es: string }> = {
+    avoid_all_travel_to_whole_country: { en: "The UK government advises against all travel to this country.", es: "El gobierno del Reino Unido aconseja no viajar a este país." },
+    avoid_all_but_essential_travel_to_whole_country: { en: "The UK government advises against all but essential travel to this country.", es: "El gobierno del Reino Unido aconseja viajar solo por necesidad a este país." },
+    avoid_all_travel_to_parts: { en: "The UK government advises against all travel to parts of this country.", es: "El gobierno del Reino Unido aconseja no viajar a partes de este país." },
+    avoid_all_but_essential_travel_to_parts: { en: "The UK government advises against all but essential travel to parts of this country.", es: "El gobierno del Reino Unido aconseja viajar solo por necesidad a partes de este país." },
+  };
+  server.registerTool(
+    "get_travel_guide",
+    {
+      title: "Country travel guide",
+      description:
+        "Use for practical questions about a country beyond entry rules and local laws: paperwork to arrive, safety, health and vaccines, getting help, airports and borders, getting around, money and tipping, etiquette, phone and internet, and useful phrases. Pass topic (entry, safety, health, help, getting_in, getting_around, money, etiquette, connectivity, phrases) or leave it out for an overview. Every fact comes with the source it was quoted from (UK government travel advice or Wikivoyage); say where it comes from, and never add facts that the tool did not return.",
+      inputSchema: {
+        destination: z.string().min(2).describe("Country name in English or Spanish, or ISO code"),
+        topic: z.enum(GUIDE_TOPICS).optional(),
+      },
+      outputSchema: EnvelopeShape,
+      annotations: ann({ readOnly: true, idempotent: true }),
+    },
+    (args) =>
+      run(async () => {
+        const state = await load();
+        const locale = localeOf(state);
+        const dest = resolveDestinationOrThrow(args.destination);
+        const name = countryName(dest, locale);
+        const guide = ctx.guide.forCountry(dest);
+        const sourcesOf = () =>
+          Object.entries(guide?.sources ?? {}).map(([key, s]) => ({ id: `src:${key}`, title: s.title, url: s.url, license: s.license, retrieved: s.updated?.slice(0, 10) ?? s.revision?.slice(0, 10) ?? guide!.retrieved }));
+        if (!guide || Object.keys(guide.topics).length === 0) {
+          const env = baseEnvelope(ctx, dest, locale, {
+            voice: pick(locale, `I don't have a verified travel guide for ${name} yet. Check the official travel advice of your government.`, `Aún no tengo una guía de viaje verificada de ${name}. Revisa el aviso oficial de viaje de tu gobierno.`),
+            card: { pattern: "card", title: pick(locale, `Travel guide: ${name}`, `Guía de viaje: ${name}`), rows: [{ label: pick(locale, "Status", "Estado"), value: pick(locale, "No verified data", "Sin datos verificados"), status: "info" }] },
+            data: { country: dest, topics: {} },
+            followUps: [],
+          });
+          env.confidence = "low";
+          return envelopeResult(env);
+        }
+        const text = (f: GuideFact) => f[locale];
+        const alertRows = guide.alert.filter((a) => ALERT_TEXT[a]).map((a) => ({ label: pick(locale, "UK travel advice", "Aviso del Reino Unido"), value: ALERT_TEXT[a][locale], status: "blocked" as const }));
+        let env: Envelope;
+        if (args.topic) {
+          const facts = guide.topics[args.topic] ?? [];
+          const label = TOPIC_LABEL[args.topic][locale];
+          const rows = [
+            ...(args.topic === "safety" ? alertRows : []),
+            ...facts.map((f) => ({ label: f.local ? `${f.local}${f.say ? ` (${f.say})` : ""}` : "", value: text(f), status: "info" as const })),
+          ];
+          env = baseEnvelope(ctx, dest, locale, {
+            voice: facts.length
+              ? pick(locale, `${label} in ${name}: ${facts.slice(0, 3).map(text).join(" ")}`, `${label} en ${name}: ${facts.slice(0, 3).map(text).join(" ")}`)
+              : pick(locale, `I have no verified ${label.toLowerCase()} facts for ${name}.`, `No tengo datos verificados de ${label.toLowerCase()} para ${name}.`),
+            card: { pattern: "list", title: `${label} · ${name}`, subtitle: pick(locale, "From public sources, each with its quote; not reviewed by a person", "De fuentes públicas, cada dato con su cita; sin revisión humana"), rows },
+            data: { country: dest, topic: args.topic, alert: guide.alert, facts: facts.map((f) => ({ text: text(f), quote: f.quote, source: f.source, ...(f.local ? { local: f.local } : {}), ...(f.say ? { say: f.say } : {}) })) },
+            followUps: facts.length ? [pick(locale, "What else should I know before I go?", "¿Qué más debo saber antes de ir?")] : [],
+          });
+        } else {
+          const have = GUIDE_TOPICS.filter((t) => (guide.topics[t] ?? []).length);
+          env = baseEnvelope(ctx, dest, locale, {
+            voice: pick(locale, `I have a travel guide for ${name}: ${have.map((t) => TOPIC_LABEL[t].en.toLowerCase()).join("; ")}. Ask about any of them.`, `Tengo una guía de viaje de ${name}: ${have.map((t) => TOPIC_LABEL[t].es.toLowerCase()).join("; ")}. Pregunta por cualquiera.`),
+            card: { pattern: "list", title: pick(locale, `Travel guide: ${name}`, `Guía de viaje: ${name}`), subtitle: pick(locale, "From public sources, each with its quote; not reviewed by a person", "De fuentes públicas, cada dato con su cita; sin revisión humana"), rows: [...alertRows, ...have.map((t) => ({ label: TOPIC_LABEL[t][locale], value: pick(locale, `${guide.topics[t].length} facts`, `${guide.topics[t].length} datos`), status: "info" as const }))] },
+            data: { country: dest, alert: guide.alert, topics: Object.fromEntries(have.map((t) => [t, guide.topics[t].length])) },
+            followUps: have.slice(0, 3).map((t) => TOPIC_LABEL[t][locale]),
+          });
+        }
+        env.sources = sourcesOf();
+        env.lastVerified = guide.retrieved;
+        env.confidence = "medium";
+        env.review = "curated";
+        return envelopeResult(env);
+      }),
+  );
+
+  // 9c. get_trip_calendar: public holidays, sun times and the live forecast for the trip's dates, and the best months to go.
+  const MONTH = { en: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], es: ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"] };
+  server.registerTool(
+    "get_trip_calendar",
+    {
+      title: "Trip calendar",
+      description:
+        "Use for questions about the dates of a trip: public holidays that may close places, sunrise and sunset, the live weather forecast (only when the dates are within 16 days; otherwise the usual weather), and the best months to visit. Pass destination and the dates, or leave the dates out to use the current trip. Holidays are from Nager.Date, the forecast and sun times from Open-Meteo, the best months are Waypoint's estimate from NASA climate normals; say which is which.",
+      inputSchema: {
+        destination: z.string().min(2).optional().describe("Country name in English or Spanish, or ISO code; the current trip's when omitted"),
+        startDate: ISO_DATE.optional(),
+        endDate: ISO_DATE.optional(),
+      },
+      outputSchema: EnvelopeShape,
+      annotations: ann({ readOnly: true, idempotent: true, openWorld: true }),
+    },
+    (args) =>
+      run(async () => {
+        const state = await load();
+        const locale = localeOf(state);
+        const trip = latestTrip(state);
+        const dest = args.destination ? resolveDestinationOrThrow(args.destination) : trip?.destination;
+        if (!dest) return nothingYetEnvelope(locale, "trip");
+        const start = args.startDate ?? trip?.startDate;
+        const end = args.endDate ?? trip?.endDate ?? start;
+        const name = countryName(dest, locale);
+        const rows: { label: string; value: string; status?: "ok" | "warn" | "blocked" | "info" }[] = [];
+        const voice: string[] = [];
+        const sources: Envelope["sources"] = [];
+        const data: Record<string, unknown> = { country: dest, startDate: start ?? null, endDate: end ?? null };
+
+        if (start && end) {
+          const hol = ctx.holidays.between(dest, start, end);
+          data.holidays = hol;
+          if (hol === null) rows.push({ label: pick(locale, "Public holidays", "Feriados"), value: pick(locale, "No verified data for these dates", "Sin datos verificados para estas fechas"), status: "info" });
+          else if (hol.length === 0) rows.push({ label: pick(locale, "Public holidays", "Feriados"), value: pick(locale, "None on these dates", "Ninguno en estas fechas"), status: "ok" });
+          else {
+            for (const h of hol) rows.push({ label: `${shortRange(h.date, h.date, locale)}`, value: `${h.name}${h.localName && h.localName !== h.name ? ` (${h.localName})` : ""}${h.global ? "" : pick(locale, " · some regions only", " · solo algunas regiones")}`, status: "warn" });
+            voice.push(pick(locale, `Public holidays on your dates: ${hol.map((h) => `${h.name} on ${shortRange(h.date, h.date, locale)}`).join(", ")}. Some places may be closed.`, `Feriados en tus fechas: ${hol.map((h) => `${h.name} el ${shortRange(h.date, h.date, locale)}`).join(", ")}. Algunos lugares pueden estar cerrados.`));
+          }
+          sources.push({ id: "src:nager-date", title: "Nager.Date public holidays", url: "https://date.nager.at", license: "MIT (data: public holidays)", retrieved: ctx.holidays.retrieved });
+
+          const c = ctx.climate.get(dest);
+          if (c) {
+            const w = await ctx.weather.days(c.lat, c.lon, start, end);
+            if (w && w.days.length) {
+              data.weather = w;
+              const first = w.days[0];
+              if (first.sunrise && first.sunset) rows.push({ label: pick(locale, "Sunrise and sunset", "Salida y puesta del sol"), value: `${first.sunrise} / ${first.sunset} · ${shortRange(first.date, first.date, locale)}${w.forecast ? "" : pick(locale, " (typical, from last year)", " (típico, del año pasado)")}`, status: "info" });
+              if (w.forecast) {
+                for (const d of w.days) rows.push({ label: shortRange(d.date, d.date, locale), value: `${d.hi !== null ? Math.round(d.hi) : "?"}° / ${d.lo !== null ? Math.round(d.lo) : "?"}° · ${weatherWord(d.code, locale)}${d.rainChance !== null ? ` · ${d.rainChance}%` : ""}`, status: "info" });
+                voice.push(pick(locale, `Live forecast for ${c.city.en}: ${w.days.slice(0, 3).map((d) => `${shortRange(d.date, d.date, locale)} ${d.hi !== null ? Math.round(d.hi) : "?"} degrees, ${weatherWord(d.code, locale).toLowerCase()}`).join("; ")}.`, `Pronóstico en vivo para ${c.city.es}: ${w.days.slice(0, 3).map((d) => `${shortRange(d.date, d.date, locale)} ${d.hi !== null ? Math.round(d.hi) : "?"} grados, ${weatherWord(d.code, locale).toLowerCase()}`).join("; ")}.`));
+              } else voice.push(pick(locale, "The forecast does not reach those dates yet, so the weather is the usual one. Sunrise and sunset are typical for those dates.", "El pronóstico aún no llega a esas fechas, así que el clima es el habitual. La salida y la puesta del sol son típicas de esas fechas."));
+              sources.push({ id: "src:open-meteo", title: "Open-Meteo weather API", url: "https://open-meteo.com", license: "CC BY 4.0", retrieved: w.asOf.slice(0, 10) });
+            } else rows.push({ label: pick(locale, "Live forecast", "Pronóstico en vivo"), value: pick(locale, "No live data right now", "Sin datos en vivo por ahora"), status: "info" });
+          }
+        }
+
+        // The best months: the months whose usual highs are comfortable and whose rain is low (Waypoint's estimate from the NASA normals).
+        const cl = ctx.climate.get(dest);
+        if (cl) {
+          const score = (m: { hi: number; lo: number; rain: number }) => Math.abs((m.hi + m.lo) / 2 - 21) + m.rain * 1.5;
+          const best = cl.months.map((m, i) => ({ i, s: score(m) })).sort((a, b) => a.s - b.s).slice(0, 3).map((x) => x.i).sort((a, b) => a - b);
+          data.bestMonths = best.map((i) => i + 1);
+          rows.push({ label: pick(locale, "Best months (estimate)", "Mejores meses (estimación)"), value: best.map((i) => MONTH[locale][i]).join(", ") + pick(locale, ` · by the usual weather of ${cl.city.en}`, ` · por el clima habitual de ${cl.city.es}`), status: "info" });
+          voice.push(pick(locale, `By the usual weather, the most comfortable months in ${name} are ${best.map((i) => MONTH.en[i]).join(", ")}. That is our estimate, not an official figure.`, `Por el clima habitual, los meses más cómodos en ${name} son ${best.map((i) => MONTH.es[i]).join(", ")}. Es una estimación nuestra, no una cifra oficial.`));
+          sources.push({ id: "src:nasa-power", title: ctx.climate.source.title, url: ctx.climate.source.url, license: ctx.climate.source.license, retrieved: ctx.climate.source.retrieved });
+        }
+        const env = baseEnvelope(ctx, dest, locale, {
+          voice: voice.join(" ") || pick(locale, `I have no calendar data for ${name}.`, `No tengo datos de calendario de ${name}.`),
+          card: { pattern: "list", title: pick(locale, `Calendar: ${name}`, `Calendario: ${name}`), subtitle: start && end ? shortRange(start, end, locale) : undefined, rows },
+          data,
+          followUps: [pick(locale, "What is open on those days?", "¿Qué está abierto esos días?")],
+        });
+        env.sources = sources;
+        env.confidence = "medium";
         return envelopeResult(env);
       }),
   );

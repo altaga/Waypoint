@@ -8,6 +8,9 @@ import { loadClimate, type ClimateRegistry } from "./services/climate.ts";
 import { loadPayments, type PaymentsRegistry } from "./services/payments.ts";
 import { loadApps, type AppsRegistry } from "./services/apps.ts";
 import { loadAppLinks, type AppLinksRegistry } from "./services/app-links.ts";
+import { loadGuide, type GuideRegistry } from "./services/guide.ts";
+import { loadHolidays, type HolidayRegistry } from "./services/holidays.ts";
+import { createWeatherService, type WeatherService } from "./services/weather.ts";
 import { loadTransit, type TransitRegistry } from "./services/transit.ts";
 import { loadWhatWorks, type WhatWorksRegistry } from "./services/what-works.ts";
 import { createFxService, type FxService } from "./services/fx.ts";
@@ -26,6 +29,9 @@ export interface AppContext {
   payments: PaymentsRegistry;
   apps: AppsRegistry;
   appLinks: AppLinksRegistry;
+  guide: GuideRegistry;
+  holidays: HolidayRegistry;
+  weather: WeatherService;
   transit: TransitRegistry;
   whatWorks: WhatWorksRegistry;
   fx: FxService;
@@ -63,6 +69,9 @@ export function createContext(opts: ContextOptions = {}): AppContext {
     payments: loadPayments(root),
     apps: loadApps(root),
     appLinks: loadAppLinks(root),
+    guide: loadGuide(root),
+    holidays: loadHolidays(root),
+    weather: createWeatherService({ offline, now: () => (opts.clock ?? (() => new Date()))().getTime() }),
     transit: loadTransit(root),
     whatWorks: loadWhatWorks(root),
     fx: createFxService({ offline, snapshot: fxSnapshot }),

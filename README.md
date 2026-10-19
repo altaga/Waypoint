@@ -47,7 +47,7 @@ Offline mode (`WAYPOINT_OFFLINE=1`) needs no network: FX uses a labelled snapsho
 | `export_trip` | Put it in my calendar | A calendar file with the trip and one event per planned day, or the plan as text |
 | `forget_me` | Delete my data | **Elicits** confirmation, then deletes profile, trips and expenses |
 
-Every tool declares an `inputSchema`, an `outputSchema`, `annotations` (`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`) and returns the same envelope. The server exposes 24 tools over MCP 2025-11-25 Streamable HTTP:
+Every tool declares an `inputSchema`, an `outputSchema`, `annotations` (`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`) and returns the same envelope. The server exposes 26 tools over MCP 2025-11-25 Streamable HTTP:
 
 ```
 { voice, card, data, sources[], lastVerified, confidence, disclaimer, followUps[], missingFields? }
@@ -81,7 +81,7 @@ A visitor is a random id kept in the browser (`localStorage`), with no account. 
                 │ MCP 2025-11-25 · Streamable HTTP · POST/GET/DELETE /mcp
 ┌───────────────▼─────────────────────────────────────────┐
 │ Waypoint MCP server (src/, Node 22, Express 5)          │
-│  tools (24) · ui:// MCP App resource · elicitation      │
+│  tools (26) · ui:// MCP App resource · elicitation      │
 │  origin guard (403) · friendly errors · envelopes       │
 │  services: visa matrix · packs · FX (+snapshot) · PPP   │
 │  state: StateStore → file (local) | DynamoDB (designed) │
