@@ -74,3 +74,9 @@ test("a traveler in Vung Tau gets Tháp Tam Thắng first, then the other places
   const here = await call("get_highlights", { destination: "VN", near: { lat: 10.3452, lon: 107.0970 }, radiusKm: 10 });
   assert.equal(here.data.places[0].id, "vn-tam-thang-tower-back-beach");
 });
+
+test("by town name the hand-researched places come first, so Tháp Tam Thắng is always in the list for Vung Tau", async () => {
+  const r = await call("get_highlights", { destination: "VN", nearPlace: "Vung Tau", limit: 6 });
+  assert.ok(r.data.places.some((p: any) => p.id === "vn-tam-thang-tower-back-beach"), "the tower is in the first six");
+  assert.match(r.voice, /Tam Thang Tower/);
+});

@@ -1090,7 +1090,9 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
         let nearest: { within: boolean } | null = null;
         let pool = pack.places.map((p, i) => ({ p, i, hit: want.filter((w) => p.interests.includes(w)).length, d: km(p) })).filter((x) => want.length === 0 || x.hit > 0);
         if (here) {
-          pool = pool.filter((x) => x.d !== Infinity).sort((a, b) => a.d - b.d);
+          pool = pool.filter((x) => x.d !== Infinity);
+          // By position: closest first. By town name (the centre of the town is a guess): the places researched by hand first, in the order they were researched, then the others closest first.
+          pool.sort((a, b) => (args.near ? a.d - b.d : Number(Boolean(b.p.featured)) - Number(Boolean(a.p.featured)) || (a.p.featured ? a.i - b.i : a.d - b.d)));
           const within = pool.filter((x) => x.d <= radius);
           nearest = { within: within.length > 0 };
           pool = within.length ? within : pool.slice(0, 3);
@@ -1109,7 +1111,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             : here && nearest && !nearest.within && ranked.length
               ? pick(locale, `My list has nothing within ${radius} km. The closest are ${names}, about ${away(ranked[0])} away. Check the travel time first.`, `Mi lista no tiene nada a menos de ${radius} km. Lo más cerca: ${names}, a unos ${away(ranked[0])}. Revisa el tiempo de traslado primero.`)
               : here && ranked.length
-                ? pick(locale, `${ranked.length} places near ${here.label || "you"}, closest first: ${ranked.slice(0, 3).map((p) => `${p.name} (${away(p)})`).join(", ")}.`, `${ranked.length} lugares cerca de ${here.label || "ti"}, del más cercano al más lejano: ${ranked.slice(0, 3).map((p) => `${p.name} (${away(p)})`).join(", ")}.`)
+                ? pick(locale, `${ranked.length} places near ${here.label || "you"}, closest first: ${ranked.slice(0, 5).map((p) => `${p.name} (${away(p)})`).join(", ")}.`, `${ranked.length} lugares cerca de ${here.label || "ti"}, del más cercano al más lejano: ${ranked.slice(0, 5).map((p) => `${p.name} (${away(p)})`).join(", ")}.`)
         : ranked.length
             ? pick(
                 locale,
