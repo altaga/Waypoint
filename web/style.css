@@ -668,3 +668,6 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 .g-q q { display: block; margin-top: var(--s-4); font-size: var(--t-caption); color: var(--d-ink-2); line-height: 1.45; quotes: none; font-style: italic; }
 .g-over li { display: flex; justify-content: space-between; gap: var(--s-12); padding: var(--s-8) var(--s-16); border-radius: var(--r-16); background: var(--d-inner); font-size: var(--t-footnote); }
 .cards > .k-guide { grid-column: 1 / -1; }
+
+.s-travel { margin-top: var(--s-2); font-size: var(--t-caption); color: var(--d-ink-2); }
+.s-travel::before { content: "↳ "; }

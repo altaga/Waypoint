@@ -1490,7 +1490,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
             })),
           },
           data: {
-            days: selected.map((d) => { const times = suggestTimes(d.places, d.date); return { day: d.day, date: d.date, title: d.title, stops: d.places.map((p, i) => ({ id: p.id, name: p.name, area: p.area, category: p.category, desc: p.desc[locale], admission: p.admission ?? null, durationMinutes: p.durationMinutes, start: times[i].start, end: times[i].end, hoursState: times[i].hours, hours: p.hours?.text ?? null, hoursSource: p.hours ? p.hours.source : null, website: p.website ?? null, phone: p.phone ?? null, mapsUrl: mapsUrl(p.name, p.city, countryName(dest, "en")) })) }; }),
+            days: selected.map((d) => { const times = suggestTimes(d.places, d.date); return { day: d.day, date: d.date, title: d.title, stops: d.places.map((p, i) => ({ id: p.id, name: p.name, area: p.area, category: p.category, desc: p.desc[locale], admission: p.admission ?? null, durationMinutes: p.durationMinutes, start: times[i].start, end: times[i].end, hoursState: times[i].hours, ...(times[i].travelMinutes !== undefined ? { travelMinutes: times[i].travelMinutes, travelMode: times[i].travelMode } : {}), hours: p.hours?.text ?? null, hoursSource: p.hours ? p.hours.source : null, website: p.website ?? null, phone: p.phone ?? null, mapsUrl: mapsUrl(p.name, p.city, countryName(dest, "en")) })) }; }),
             pace: profile.pace,
             planned,
             stay,

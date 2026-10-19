@@ -129,3 +129,23 @@ test("the map link is a search for the place that names its city and country", (
   assert.equal(u.searchParams.get("query"), "Senso-ji, Tokyo, Japan");
   assert.equal(new URL(mapsUrl("Café & Bar #1", "Zürich", "Switzerland")).searchParams.get("query"), "Café & Bar #1, Zürich, Switzerland");
 });
+
+test("suggested times leave room for the estimated way between stops, and say how long it is and how to go", async () => {
+  const { suggestTimes, travelBetween } = await import("../src/itinerary.ts");
+  const P = (id: string, lat: number, lon: number): any => ({ id, name: id, area: "a", city: "c", category: "sight", interests: ["sights"], durationMinutes: 60, desc: { en: "d", es: "d" }, sourceId: "x", lat, lon });
+  const near = P("near", 35.6595, 139.7005), next = P("next", 35.6620, 139.7030), far = P("far", 35.7100, 139.8107), unknown = { ...P("u", 0, 0), lat: undefined, lon: undefined };
+  const walk = travelBetween(near, next)!;
+  assert.equal(walk.mode, "walk");
+  assert.ok(walk.minutes >= 3 && walk.minutes <= 12, String(walk.minutes));
+  const ride = travelBetween(near, far)!;
+  assert.equal(ride.mode, "ride");
+  assert.ok(ride.minutes > 20 && ride.minutes < 70, String(ride.minutes));
+  assert.equal(travelBetween(near, unknown), null);
+  const t = suggestTimes([near, next, far]);
+  assert.equal(t[0].start, "09:00");
+  assert.equal(t[0].travelMinutes, undefined);
+  assert.equal(t[1].travelMode, "walk");
+  // 09:00 + 60 min visit + the walk + 10 minutes: earlier than the old fixed half hour.
+  assert.ok(t[1].start < "10:30" && t[1].start > "10:05", t[1].start);
+  assert.equal(t[2].travelMode, "ride");
+});

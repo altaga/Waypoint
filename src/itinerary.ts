@@ -149,12 +149,33 @@ const hhmm = (m: number) => `${String(Math.floor(m / 60)).padStart(2, "0")}:${St
  * checks the hours of each place (see mapsUrl).
  */
 export type HoursState = "open" | "closed" | "outside" | "unknown";
-export function suggestTimes(places: Place[], date?: string): { start: string; end: string; hours: HoursState }[] {
-  const out: { start: string; end: string; hours: HoursState }[] = new Array(places.length);
+/**
+ * How long it takes to get from one place to the next, as an estimate from the straight-line distance (never a route):
+ * on foot up to about a kilometre, otherwise a ride at a city speed. `mode` says which one the number is for.
+ */
+export function travelBetween(a: Place, b: Place): { minutes: number; mode: "walk" | "ride"; km: number } | null {
+  if (a.lat == null || a.lon == null || b.lat == null || b.lon == null) return null;
+  const R = Math.PI / 180;
+  const x = Math.sin(((b.lat - a.lat) * R) / 2) ** 2 + Math.cos(a.lat * R) * Math.cos(b.lat * R) * Math.sin(((b.lon - a.lon) * R) / 2) ** 2;
+  const km = 12742 * Math.asin(Math.sqrt(x));
+  // Roads wind: the way is about a third longer than the straight line.
+  const way = km * 1.3;
+  if (way <= 1.2) return { minutes: Math.max(3, Math.round((way / 5) * 60)), mode: "walk", km: Math.round(km * 10) / 10 };
+  const speed = way < 8 ? 18 : way < 40 ? 28 : 45; // km/h: city traffic, then roads, then highways
+  return { minutes: Math.round((way / speed) * 60 + 8), mode: "ride", km: Math.round(km * 10) / 10 };
+}
+
+export function suggestTimes(places: Place[], date?: string): { start: string; end: string; hours: HoursState; travelMinutes?: number; travelMode?: "walk" | "ride" }[] {
+  const out: { start: string; end: string; hours: HoursState; travelMinutes?: number; travelMode?: "walk" | "ride" }[] = new Array(places.length);
   const run = (idx: number[], startAt: number, lunch: boolean) => {
     let t = startAt;
     let ate = !lunch;
+    let prev = -1;
     for (const i of idx) {
+      // The way from the stop before: its estimated minutes, or the usual half hour when a place has no coordinates.
+      const way = prev >= 0 ? travelBetween(places[prev], places[i]) : null;
+      // The usual 30 minutes between stops becomes the estimated way plus ten minutes to arrive and settle.
+      if (way) t += way.minutes + 10 - 30;
       if (!ate && t >= 12 * 60) {
         t += 60;
         ate = true;
@@ -171,8 +192,9 @@ export function suggestTimes(places: Place[], date?: string): { start: string; e
           hours = w && t + dur <= w[1] ? "open" : "outside";
         }
       }
-      out[i] = { start: hhmm(t), end: hhmm(t + dur), hours };
+      out[i] = { start: hhmm(t), end: hhmm(t + dur), hours, ...(way ? { travelMinutes: way.minutes, travelMode: way.mode } : {}) };
       t += dur + 30;
+      prev = i;
     }
   };
   const all = places.map((_, i) => i);

@@ -31,7 +31,7 @@ export const icon = (name) => `<span class="ico">${ICON[name] || ""}</span>`;
 
 const L = {
   en: {
-    source: "Source", photo: "Photo", srcFcdo: "UK government travel advice", srcWikivoyage: "Wikivoyage", rateOf: "rate of", rateLive: "live, the provider updates it daily", rateCopy: "saved copy, not live", verified: "verified", checked: "sources checked", notReviewed: "compiled by us, not yet reviewed by a person", reviewed: "reviewed by a person", confidence: "confidence", level: { low: "low", medium: "medium", high: "high" }, visaFree: "No visa needed", upTo: (d) => `stays up to ${d} days`,
+    source: "Source", byWalk: "on foot from the stop before (estimate)", byRide: "by taxi or transit from the stop before (estimate)", photo: "Photo", srcFcdo: "UK government travel advice", srcWikivoyage: "Wikivoyage", rateOf: "rate of", rateLive: "live, the provider updates it daily", rateCopy: "saved copy, not live", verified: "verified", checked: "sources checked", notReviewed: "compiled by us, not yet reviewed by a person", reviewed: "reviewed by a person", confidence: "confidence", level: { low: "low", medium: "medium", high: "high" }, visaFree: "No visa needed", upTo: (d) => `stays up to ${d} days`,
     entry: "Entry", rules: "Local rules", budget: "Budget", ppp: "Goes as far as", essentials: "Essentials",
     currency: "Currency", plugs: "Plugs", emergency: "Emergency", languages: "Language", packing: "Packing list",
     packed: (a, b) => `${a} of ${b} packed`, doNotPack: "Do not pack", plan: "Day plan", free: "Free day",
@@ -42,7 +42,7 @@ const L = {
     nothing: "Nothing pending", calendar: "Add to calendar", share: "Share brief", copied: "Copied", panel: "View panel", autopilot: "Get me ready",
   },
   es: {
-    source: "Fuente", photo: "Foto", srcFcdo: "Aviso de viaje del gobierno del Reino Unido", srcWikivoyage: "Wikivoyage", rateOf: "tasa del", rateLive: "en vivo, el proveedor la actualiza a diario", rateCopy: "copia guardada, no en vivo", verified: "verificado", checked: "fuentes consultadas", notReviewed: "compilado por nosotros, sin revisión humana", reviewed: "revisado por una persona", confidence: "confianza", level: { low: "baja", medium: "media", high: "alta" }, visaFree: "Sin visa", upTo: (d) => `estancias de hasta ${d} días`,
+    source: "Fuente", byWalk: "a pie desde la parada anterior (estimado)", byRide: "en taxi o transporte desde la parada anterior (estimado)", photo: "Foto", srcFcdo: "Aviso de viaje del gobierno del Reino Unido", srcWikivoyage: "Wikivoyage", rateOf: "tasa del", rateLive: "en vivo, el proveedor la actualiza a diario", rateCopy: "copia guardada, no en vivo", verified: "verificado", checked: "fuentes consultadas", notReviewed: "compilado por nosotros, sin revisión humana", reviewed: "revisado por una persona", confidence: "confianza", level: { low: "baja", medium: "media", high: "alta" }, visaFree: "Sin visa", upTo: (d) => `estancias de hasta ${d} días`,
     entry: "Entrada", rules: "Reglas locales", budget: "Presupuesto", ppp: "Rinde como", essentials: "Básicos",
     currency: "Moneda", plugs: "Enchufes", emergency: "Emergencias", languages: "Idioma", packing: "Lista de equipaje",
     packed: (a, b) => `${a} de ${b} empacados`, doNotPack: "No llevar", plan: "Plan de días", free: "Día libre",
@@ -61,6 +61,12 @@ const toneIcon = (tone) => icon(tone === "ok" ? "check" : tone === "blocked" ? "
 // Only https links are drawn: a link comes from the server, but it is not trusted to be a web address.
 function safeUrl(u) {
   return typeof u === "string" && /^https:\/\//.test(u) ? u : "";
+}
+
+// The estimated way from the stop before (straight-line distance with a margin, never a route).
+function travelBlock(s, w) {
+  if (typeof s.travelMinutes !== "number") return "";
+  return `<div class="s-travel">~${esc(s.travelMinutes)} min ${esc(s.travelMode === "walk" ? w.byWalk : w.byRide)}</div>`;
 }
 
 // What public data says about a stop's hours, and whether the suggested time fits them (only said when the hours are known).
@@ -240,7 +246,7 @@ function itineraryCards(sc, lang) {
       const stops = d.stops || [];
       const body = stops.length
         ? `<ol class="slots">${stops
-            .map((s) => `<li>${icon(s.category === "food" ? "talk" : s.category === "nature" ? "sun" : "sun")}<div><div class="s-k">${s.start ? `${esc(s.start)}–${esc(s.end)} · ${esc(s.area)}` : `${esc(s.area)} · ${esc(s.durationMinutes)} min`}</div><div class="s-v">${esc(s.name)}</div>${s.admission ? `<div class="s-note">${esc(s.admission)}</div>` : ""}${hoursBlock(s, w, lang)}${linksBlock(s, w)}</div></li>`)
+            .map((s) => `<li>${icon(s.category === "food" ? "talk" : s.category === "nature" ? "sun" : "sun")}<div><div class="s-k">${s.start ? `${esc(s.start)}–${esc(s.end)} · ${esc(s.area)}` : `${esc(s.area)} · ${esc(s.durationMinutes)} min`}</div><div class="s-v">${esc(s.name)}</div>${s.admission ? `<div class="s-note">${esc(s.admission)}</div>` : ""}${travelBlock(s, w)}${hoursBlock(s, w, lang)}${linksBlock(s, w)}</div></li>`)
             .join("")}</ol>`
         : `<p class="muted-s">${esc(w.free)}</p>`;
       return `<article class="card k-day"><header class="ch"><div class="d-n">${esc(w.day)} ${d.day}${d.date ? ` · ${esc(shortDate(d.date, lang))}` : ""}</div>${d.title ? `<h2>${esc(d.title)}</h2>` : ""}</header>${body}</article>`;
