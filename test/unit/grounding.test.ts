@@ -27,6 +27,8 @@ test("every place described from Wikipedia links to its article, and every place
       assert.ok(p.desc.en.length > 5 && p.desc.es.length > 5, `${f}: ${p.id} needs both descriptions`);
       if (p.descBy?.en === "wikipedia") assert.ok(p.ground?.en?.url, `${f}: ${p.id} says Wikipedia but has no article link`);
       if (p.descBy?.es === "wikipedia") assert.ok(p.ground?.es?.url, `${f}: ${p.id} says Wikipedia (es) but has no article link`);
+      // A translated Spanish sentence links to the English article it was translated from.
+      if (p.descBy?.es === "translated") assert.ok(p.ground?.en?.url && p.desc.es !== p.desc.en, `${f}: ${p.id} says translated but has no source article or is not translated`);
     }
   }
 });

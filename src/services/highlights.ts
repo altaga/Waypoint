@@ -39,8 +39,8 @@ export const Place = z.object({
   desc: z.object({ en: z.string(), es: z.string() }),
   sourceId: z.string(),
   admission: z.string().optional(),
-  // Where each description came from: a Wikipedia article's first sentence, or Waypoint's own text.
-  descBy: z.object({ en: z.enum(["wikipedia", "curated"]), es: z.enum(["wikipedia", "curated"]) }).optional(),
+  // Where each description came from: a Wikipedia article's first sentence, Waypoint's own text, or (Spanish only) a machine translation of the English Wikipedia sentence.
+  descBy: z.object({ en: z.enum(["wikipedia", "curated"]), es: z.enum(["wikipedia", "curated", "translated"]) }).optional(),
   // The article behind a Wikipedia description (CC BY-SA 4.0): keep the link wherever it is shown.
   ground: z
     .object({

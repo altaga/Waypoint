@@ -131,6 +131,36 @@ async function country() {
   save("places.json", done);
 }
 
+// ---- World Heritage sites and US national parks: cheap direct queries that also cover the countries whose countrywide query timed out ----
+async function heritage() {
+  const countries = JSON.parse(readFileSync(ROOT + "data/world/countries.json", "utf8")).countries;
+  const isoOf = new Map(countries.map((c) => [c.wikidata, c.iso]));
+  const done = load("places.json", {});
+  const queries = [
+    ["Q9259", `SELECT ?item ?itemLabel ?sl ?c WHERE { ?item wdt:P1435 wd:Q9259 ; wikibase:sitelinks ?sl ; wdt:P625 ?coord . OPTIONAL { ?item wdt:P17 ?c } SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } LIMIT 3000`],
+    ["Q46169", `SELECT ?item ?itemLabel ?sl ?c WHERE { ?item wdt:P31 wd:Q46169 ; wdt:P17 ?c ; wikibase:sitelinks ?sl ; wdt:P625 ?coord . FILTER(?c IN (wd:Q30, wd:Q142)) SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } } LIMIT 200`],
+  ];
+  for (const [root, q] of queries) {
+    const r = await sparql(q);
+    if (!r) { console.log("failed", root); continue; }
+    const byIso = new Map();
+    for (const b of r.results.bindings) {
+      const id = b.item.value.split("/").pop();
+      const iso = isoOf.get(b.c?.value.split("/").pop());
+      if (!iso || /^Q\d+$/.test(b.itemLabel.value)) continue;
+      if (!byIso.has(iso)) byIso.set(iso, new Map());
+      byIso.get(iso).set(id, { id, name: b.itemLabel.value, sl: Number(b.sl.value), root });
+    }
+    for (const [iso, items] of byIso) {
+      const key = `heritage:${root}:${iso}`;
+      done[key] = { iso, city: "", countrywide: true, items: [...items.values()].sort((a, b) => b.sl - a.sl) };
+    }
+    console.log(root, [...byIso.values()].reduce((n, m) => n + m.size, 0), "places in", byIso.size, "countries");
+    await sleep(1500);
+  }
+  save("places.json", done);
+}
+
 // ---- facts and Wikipedia text ----
 const clean = (s) => s.replace(/\s*\([^)]*\)/g, "").replace(/\s+/g, " ").trim();
 function firstSentence(s) {
@@ -298,6 +328,7 @@ const stage = process.argv[2];
 if (stage === "classes") await classes();
 else if (stage === "places") await places();
 else if (stage === "country") await country();
+else if (stage === "heritage") await heritage();
 else if (stage === "text") await text();
 else if (stage === "commons") await commons();
 else if (stage === "write") write();

@@ -81,7 +81,7 @@ async function osm() {
   let n = 0;
   for (const { p, country } of todo) {
     const q = qidOf(p);
-    const here = q && wd[q]?.lat != null ? wd[q] : null;
+    const here = q && wd[q]?.lat != null ? wd[q] : p.lat != null ? { lat: p.lat, lon: p.lon } : null;
     const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&limit=5&q=${encodeURIComponent(`${p.name}, ${p.city}, ${country}`)}`;
     let rows = null;
     for (let attempt = 0; attempt < 3 && !rows; attempt++) {
@@ -119,14 +119,14 @@ function write() {
       const o = osmData[p.id];
       const h = hand[p.id];
       if (q) p.wikidata = q;
-      const website = h?.website ?? w?.website ?? o?.website ?? null;
+      const website = h?.website ?? w?.website ?? o?.website ?? p.website ?? null;
       if (website) { p.website = website; stats.website++; } else delete p.website;
-      const lat = h?.lat ?? w?.lat ?? o?.lat ?? null, lon = h?.lon ?? w?.lon ?? o?.lon ?? null;
+      const lat = h?.lat ?? w?.lat ?? o?.lat ?? p.lat ?? null, lon = h?.lon ?? w?.lon ?? o?.lon ?? p.lon ?? null;
       if (lat != null && lon != null) { p.lat = lat; p.lon = lon; stats.coords++; } else { delete p.lat; delete p.lon; }
-      const phone = h?.phone ?? w?.phone ?? o?.phone ?? null;
+      const phone = h?.phone ?? w?.phone ?? o?.phone ?? p.phone ?? null;
       if (phone) p.phone = phone; else delete p.phone;
       const hours = h?.hours ?? o?.hours ?? null;
-      if (hours) { p.hours = { text: hours, source: h?.hours ? (h.hoursSource ?? "official") : "osm", retrieved: h?.hours ? (h.retrieved ?? TODAY) : TODAY }; stats.hours++; } else delete p.hours;
+      if (!hours && p.hours) { stats.hours++; } else if (hours) { p.hours = { text: hours, source: h?.hours ? (h.hoursSource ?? "official") : "osm", retrieved: h?.hours ? (h.retrieved ?? TODAY) : TODAY }; stats.hours++; } else delete p.hours;
     }
     pack.sources.wikidata = { title: "Wikidata (CC0 1.0): official website, coordinates, phone", url: "https://www.wikidata.org/", license: "CC0 1.0", retrieved: TODAY };
     pack.sources.osm = { title: "OpenStreetMap contributors (ODbL): opening hours", url: "https://www.openstreetmap.org/copyright", license: "ODbL 1.0", retrieved: TODAY };
