@@ -1,0 +1,335 @@
+{
+ "country": "ET",
+ "retrieved": "2026-10-19",
+ "alert": [
+  "avoid_all_travel_to_parts",
+  "avoid_all_but_essential_travel_to_parts"
+ ],
+ "sources": {
+  "fcdo": {
+   "title": "UK Government foreign travel advice (Open Government Licence v3.0)",
+   "url": "https://www.gov.uk/foreign-travel-advice/ethiopia",
+   "updated": "2026-10-16T17:03:39+01:00",
+   "license": "OGL v3.0"
+  },
+  "wikivoyage": {
+   "title": "Wikivoyage contributors (CC BY-SA 4.0)",
+   "url": "https://en.wikivoyage.org/wiki/Ethiopia",
+   "revision": "2026-10-18T10:13:16Z",
+   "license": "CC BY-SA 4.0"
+  },
+  "phrasebook": {
+   "title": "Wikivoyage phrasebook (CC BY-SA 4.0)",
+   "url": "https://en.wikivoyage.org/wiki/Amharic_phrasebook",
+   "license": "CC BY-SA 4.0"
+  }
+ },
+ "topics": {
+  "entry": [
+   {
+    "en": "Your passport must be valid for at least 6 months after the date you arrive in Ethiopia.",
+    "es": "Tu pasaporte debe ser válido al menos 6 meses después de la fecha de llegada a Etiopía.",
+    "quote": "valid for at least 6 months after the date you arrive in Ethiopia",
+    "source": "fcdo"
+   },
+   {
+    "en": "You can carry up to 3,000 Ethiopian birr when entering or leaving Ethiopia, and customs can seize more and you could get a prison sentence.",
+    "es": "Puedes llevar hasta 3.000 birr etíopes al entrar o salir de Etiopía; si llevas más, la aduana puede incautarlo y podrías recibir una pena de prisión.",
+    "quote": "You can carry up to 3,000 Ethiopian birr when entering or leaving Ethiopia.",
+    "source": "fcdo"
+   },
+   {
+    "en": "When you enter or leave Ethiopia, you must declare any cash over 10,000 US dollars or the equivalent in other currencies.",
+    "es": "Al entrar o salir de Etiopía debes declarar cualquier efectivo superior a 10.000 dólares estadounidenses o su equivalente en otras monedas.",
+    "quote": "you must declare any cash over 10,000 US dollars (or equivalent in other currencies)",
+    "source": "fcdo"
+   },
+   {
+    "en": "You must have a certificate of yellow fever vaccination if you are coming from a country listed as a transmission risk.",
+    "es": "Debes tener un certificado de vacunación contra la fiebre amarilla si llegas de un país catalogado como de riesgo de transmisión.",
+    "quote": "you must have a certificate to prove you’ve had a yellow fever vaccination if you’re coming from a country listed as a transmission risk",
+    "source": "fcdo"
+   },
+   {
+    "en": "It is illegal to import or export satellite phones, binoculars or drones to or from Ethiopia without prior approval.",
+    "es": "Es ilegal importar o exportar teléfonos satelitales, binoculares o drones hacia o desde Etiopía sin aprobación previa.",
+    "quote": "It’s illegal to import or export satellite phones, binoculars or drones to or from Ethiopia without prior approval",
+    "source": "fcdo"
+   },
+   {
+    "en": "Khat is legal in Ethiopia but it is illegal to take it out of the country.",
+    "es": "El khat es legal en Etiopía, pero es ilegal sacarlo del país.",
+    "quote": "Khat is legal in Ethiopia but it is illegal to take it out of the country.",
+    "source": "fcdo"
+   }
+  ],
+  "safety": [
+   {
+    "en": "Mugging is on the rise in Ethiopia, and there have been a number of incidents of sexual harassment of women.",
+    "es": "Los atracos van en aumento en Etiopía y ha habido varios casos de acoso sexual a mujeres.",
+    "quote": "Mugging (violent theft or theft with the threat of violence) is on the rise. There have been a number of incidents of sexual harassment of women.",
+    "source": "fcdo"
+   },
+   {
+    "en": "Unrest can start with no notice, and there are ongoing armed clashes between ethnic groups and with security forces in much of the country.",
+    "es": "Los disturbios pueden empezar sin aviso y hay enfrentamientos armados continuos entre grupos étnicos y con las fuerzas de seguridad en gran parte del país.",
+    "quote": "Unrest can start with no notice. There are ongoing armed clashes between ethnic groups and with security forces in much of the country.",
+    "source": "fcdo"
+   },
+   {
+    "en": "Same-sex acts are illegal in Ethiopia and carry penalties of between 1 and 15 years in prison.",
+    "es": "Los actos entre personas del mismo sexo son ilegales en Etiopía y conllevan penas de entre 1 y 15 años de cárcel.",
+    "quote": "Same-sex acts (applying to both sexes) are illegal and carry penalties of between 1 and 15 years in prison.",
+    "source": "fcdo"
+   },
+   {
+    "en": "Kidnapping is widespread in parts of Ethiopia, with incidents in the Oromia, Amhara and Somali regions and on the southern border with Kenya.",
+    "es": "El secuestro está extendido en partes de Etiopía, con casos en las regiones de Oromia, Amhara y Somali y en la frontera sur con Kenia.",
+    "quote": "Kidnapping is widespread in parts of Ethiopia, with incidents in the Oromia, Amhara and Somali regions and on the southern border with Kenya.",
+    "source": "fcdo"
+   },
+   {
+    "en": "There is a continued risk of landmines and other unexploded ordinances following the end of the 2020-2022 northern Ethiopia conflict.",
+    "es": "Sigue existiendo riesgo de minas terrestres y otros artefactos sin explotar tras el fin del conflicto del norte de Etiopía de 2020-2022.",
+    "quote": "There is a continued risk of landmines and other unexploded ordinances following the end of the 2020-2022 northern Ethiopia conflict.",
+    "source": "fcdo"
+   },
+   {
+    "en": "Avoid driving after dark anywhere outside Addis Ababa, because vehicles often have no lights and livestock may stray onto the roads.",
+    "es": "Evita conducir de noche fuera de Adís Abeba, porque los vehículos a menudo no llevan luces y el ganado puede invadir la carretera.",
+    "quote": "Avoid driving after dark anywhere outside Addis Ababa. Vehicles often have no lights and livestock may stray onto the roads.",
+    "source": "fcdo"
+   }
+  ],
+  "health": [
+   {
+    "en": "Water-borne diseases are common, so drink or use only boiled or bottled water and avoid ice in drinks.",
+    "es": "Las enfermedades transmitidas por el agua son comunes, así que bebe o usa solo agua hervida o embotellada y evita el hielo en las bebidas.",
+    "quote": "Water-borne diseases are common. Drink or use only boiled or bottled water and avoid ice in drinks.",
+    "source": "fcdo"
+   },
+   {
+    "en": "Malaria is common in areas of the country up to 2,000 metres above sea level.",
+    "es": "La malaria es común en zonas del país de hasta 2.000 metros sobre el nivel del mar.",
+    "quote": "Malaria is common in areas of the country up to 2,000 metres above sea level.",
+    "source": "fcdo"
+   },
+   {
+    "en": "Bilharzia is present in the vast majority of lakes in Ethiopia, so check before swimming.",
+    "es": "La bilharziasis está presente en la gran mayoría de los lagos de Etiopía, así que infórmate antes de nadar.",
+    "quote": "Bilharzia is present in the vast majority of lakes in Ethiopia – check before swimming.",
+    "source": "fcdo"
+   },
+   {
+    "en": "Only private hospitals in Addis Ababa offer a reasonable standard of basic care, and outside the capital medical facilities are extremely poor.",
+    "es": "Solo los hospitales privados de Adís Abeba ofrecen un nivel razonable de atención básica, y fuera de la capital las instalaciones médicas son extremadamente deficientes.",
+    "quote": "Only private hospitals in Addis Ababa offer a reasonable standard of basic care for minor health problems.",
+    "source": "fcdo"
+   },
+   {
+    "en": "Altitude sickness is a risk in parts of Ethiopia, including Addis Ababa.",
+    "es": "El mal de altura es un riesgo en partes de Etiopía, incluida Adís Abeba.",
+    "quote": "Altitude sickness is a risk in parts of Ethiopia, including Addis Ababa.",
+    "source": "fcdo"
+   },
+   {
+    "en": "Wikivoyage advises not to drink the tap water, saying it is full of parasites.",
+    "es": "Wikivoyage aconseja no beber agua del grifo, y dice que está llena de parásitos.",
+    "quote": "Don't drink the tap water. It's full of parasites",
+    "source": "wikivoyage"
+   }
+  ],
+  "help": [
+   {
+    "en": "The police and emergency number is 911, and the ambulance number in Addis Ababa is 907.",
+    "es": "El número de policía y emergencias es el 911 y el de ambulancias en Adís Abeba es el 907.",
+    "quote": "Police and emergency: 911",
+    "source": "fcdo"
+   },
+   {
+    "en": "FCDO says to dial 907 and ask for an ambulance.",
+    "es": "El FCDO indica marcar el 907 y pedir una ambulancia.",
+    "quote": "Dial 907 and ask for an ambulance.",
+    "source": "fcdo"
+   },
+   {
+    "en": "The British Embassy in Addis Ababa may only be able to provide limited support in person because of the current political and security situation.",
+    "es": "La Embajada Británica en Adís Abeba podría ofrecer solo apoyo presencial limitado debido a la situación política y de seguridad actual.",
+    "quote": "The current political and security situation means the British Embassy in Addis Ababa may only be able to provide limited support in person.",
+    "source": "fcdo"
+   }
+  ],
+  "getting_in": [
+   {
+    "en": "Bole International Airport in Addis Ababa is the main hub for Ethiopian Airlines.",
+    "es": "El Aeropuerto Internacional Bole de Adís Abeba es el principal centro de operaciones de Ethiopian Airlines.",
+    "quote": "Bole International Airport in Addis Ababa is the main hub for Ethiopian Airlines",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "Other international airports are in Dire Dawa, Mekele and Bahir Dar.",
+    "es": "Otros aeropuertos internacionales están en Dire Dawa, Mekele y Bahir Dar.",
+    "quote": "Other international airports are in Dire Dawa, Mekele and Bahir Dar.",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "From Kenya the border town is Moyale, and from Sudan the border village is Metema.",
+    "es": "Desde Kenia la ciudad fronteriza es Moyale, y desde Sudán la localidad fronteriza es Metema.",
+    "quote": "Border crossings from neighbouring countries include the border village of Metema to get in from Sudan.",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "A train service between Addis Ababa and Djibouti City serves passenger trains taking roughly 12 hours for the whole trip.",
+    "es": "Un servicio de tren entre Adís Abeba y Yibuti ofrece trenes de pasajeros que tardan unas 12 horas en todo el trayecto.",
+    "quote": "A train service between Addis Ababa and Djibouti City serves passenger trains taking roughly 12 hours for the whole trip.",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "Terminal 2 at Bole is the international terminal, while Terminal 1 serves domestic and some regional destinations.",
+    "es": "La Terminal 2 de Bole es la internacional, mientras que la Terminal 1 atiende destinos nacionales y algunos regionales.",
+    "quote": "Terminal 1 serves domestic and some regional (Djibouti, Nairobi, Khartoum, etc.) destinations.",
+    "source": "wikivoyage"
+   }
+  ],
+  "getting_around": [
+   {
+    "en": "Ethiopian Airlines flights are often overbooked, so it is essential to reconfirm your tickets at least a day in advance.",
+    "es": "Los vuelos de Ethiopian Airlines suelen tener sobreventa, por lo que es esencial reconfirmar los billetes al menos un día antes.",
+    "quote": "Flights are often overbooked, so it is essential to reconfirm your tickets at least a day in advance",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "Nearly all long-distance buses leave at dawn, and buses do not travel at night.",
+    "es": "Casi todos los autobuses de larga distancia salen al amanecer y los autobuses no viajan de noche.",
+    "quote": "nearly all long-distance buses leave at dawn (06:00 or twelve on the Ethiopian clock). Buses do not travel at night",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "Ride hailing apps that work in Ethiopia include Little, Feres, Ride and ADIKA.",
+    "es": "Las aplicaciones de transporte que funcionan en Etiopía incluyen Little, Feres, Ride y ADIKA.",
+    "quote": "Here are some ride hailing apps that work in Ethiopia:",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "Foreign driving licences are accepted, as Ethiopia is not a signatory to either International Driving Permit convention.",
+    "es": "Se aceptan los permisos de conducir extranjeros, ya que Etiopía no es signataria de ninguno de los convenios del permiso internacional de conducir.",
+    "quote": "nor is an international driver's permit (IDP) required, as Ethiopia is one of the few countries that is not a signatory to either IDP convention",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "FCDO advises using only taxis organised by your hotel or travel company from the airport, and choosing yellow or app-based taxis rather than blue and white ones.",
+    "es": "El FCDO aconseja usar desde el aeropuerto solo taxis organizados por tu hotel o agencia, y elegir taxis amarillos o de aplicación en vez de los azules y blancos.",
+    "quote": "If you are booking your own taxi, choose yellow or app-based taxis rather than the blue and white ones.",
+    "source": "fcdo"
+   },
+   {
+    "en": "Wikivoyage warns that minibuses and Higer buses are risky and contribute to Ethiopia's ranking among the most dangerous places to drive.",
+    "es": "Wikivoyage advierte que los minibuses y autobuses Higer son arriesgados y contribuyen a que Etiopía figure entre los lugares más peligrosos para conducir.",
+    "quote": "It can be risky riding the minibuses and Higer, as they are a leading contributor to Ethiopia's position among the most dangerous places in the world to drive.",
+    "source": "wikivoyage"
+   }
+  ],
+  "money": [
+   {
+    "en": "The local currency is the Ethiopian birr (ETB).",
+    "es": "La moneda local es el birr etíope (ETB).",
+    "quote": "Local currency is the Ethiopian birr, denoted by the symbol \"Br\" or \"ብር \" (ISO currency code: ETB).",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "Ethiopia is a cash-based society, and card payments and ATMs are limited and unreliable, especially outside cities.",
+    "es": "Etiopía es una sociedad basada en el efectivo, y los pagos con tarjeta y los cajeros son limitados y poco fiables, sobre todo fuera de las ciudades.",
+    "quote": "Ethiopia is a cash-based society. Banking facilities, including card payments and ATMs are limited, and unreliable, especially outside of cities.",
+    "source": "fcdo"
+   },
+   {
+    "en": "Dashen Bank, Commercial Bank of Ethiopia and Awash Bank are the best bet for ATMs that take Visa, MasterCard and Chinese cards.",
+    "es": "Dashen Bank, Commercial Bank of Ethiopia y Awash Bank son la mejor opción para cajeros que aceptan Visa, MasterCard y tarjetas chinas.",
+    "quote": "Dashen Bank, Commercial Bank of Ethiopia and Awash Bank are your best bet for finding an ATM that takes Visa, MasterCard and Chinese credit/debit cards.",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "Keep your receipt if you change currency into birr, since without one you are unlikely to be able to change leftover money back.",
+    "es": "Guarda el recibo si cambias moneda a birr, ya que sin él es poco probable que puedas cambiar el dinero sobrante al final.",
+    "quote": "Keep your receipt if you change currency into birr. Without a receipt you are unlikely to be able to change leftover money back at the end of your trip.",
+    "source": "fcdo"
+   },
+   {
+    "en": "Tipping is common in hotels, restaurants and bars, and car park attendants are also expected to be tipped.",
+    "es": "La propina es común en hoteles, restaurantes y bares, y también se espera dar propina a los cuidadores de aparcamiento.",
+    "quote": "In Ethiopia tipping is common in hotels, restaurants and bars. One is also expected to tip car park attendants",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "It is illegal to change money on the black market, although the rates are better than those offered by the banks.",
+    "es": "Es ilegal cambiar dinero en el mercado negro, aunque las tasas son mejores que las de los bancos.",
+    "quote": "It is illegal to change money on the black market but the rates are better than offered by the banks",
+    "source": "wikivoyage"
+   }
+  ],
+  "etiquette": [
+   {
+    "en": "Avoid criticizing Ethiopian culture, especially the Ethiopian Orthodox brand of Christianity, and avoid contentious religious discussion.",
+    "es": "Evita criticar la cultura etíope, especialmente su tipo de cristianismo ortodoxo, y evita las discusiones religiosas polémicas.",
+    "quote": "Avoid criticizing their cultural lifestyle, especially their brand of Christianity (Ethiopian Orthodox).  Avoid all contentious religious discussion",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "It is very important to remove your shoes when entering a home.",
+    "es": "Es muy importante quitarse los zapatos al entrar en una casa.",
+    "quote": "It is very important to remove your shoes when entering a home.",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "It is a sign of respect for men to avoid eye contact with women.",
+    "es": "Es una señal de respeto que los hombres eviten el contacto visual con las mujeres.",
+    "quote": "It is a sign of respect for men to avoid eye contact with women.",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "Women are expected to dress conservatively, especially when visiting religious sites.",
+    "es": "Se espera que las mujeres vistan de forma conservadora, sobre todo al visitar lugares religiosos.",
+    "quote": "Women are expected to dress conservatively, especially when visiting religious sites.",
+    "source": "fcdo"
+   },
+   {
+    "en": "It is illegal to take photos near military zones or of military personnel, near the Presidential Palace in Addis Ababa, or where signs prohibit photography.",
+    "es": "Es ilegal fotografiar cerca de zonas militares o a personal militar, cerca del Palacio Presidencial en Adís Abeba o donde haya carteles que lo prohíban.",
+    "quote": "It is illegal to take photos:\n\n- near military zones or of military personnel\n\n- near the Presidential Palace in Addis Ababa\n\n- anywhere that there are signs prohibiting photography",
+    "source": "fcdo"
+   }
+  ],
+  "connectivity": [
+   {
+    "en": "Roaming with your home carrier is very expensive in Ethiopia, and getting a local SIM card is highly recommended.",
+    "es": "El roaming con tu operadora de origen es muy caro en Etiopía y se recomienda mucho obtener una SIM local.",
+    "quote": "roaming in Ethiopia with your home country's carrier is very expensive and is often not covered by discounted roaming packages",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "Ethiopia has two mobile networks, Ethio Telecom (Ethiotel) and Safaricom.",
+    "es": "Etiopía tiene dos redes móviles, Ethio Telecom (Ethiotel) y Safaricom.",
+    "quote": "Ethiopia has two mobile phone networks - Ethio Telecom (Ethiotel) and Safaricom.",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "Both carriers have shops in the arrivals area of Addis Ababa airport, and the seller must photograph you and take your passport information to activate the SIM.",
+    "es": "Ambas operadoras tienen tiendas en la zona de llegadas del aeropuerto de Adís Abeba, y el vendedor debe fotografiarte y tomar los datos de tu pasaporte para activar la SIM.",
+    "quote": "The system requires the seller to take a photo of you and your passport information to activate your SIM.",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "Most Ethiopian internet providers block certain websites, throttle traffic and typically block regular VPN connections.",
+    "es": "La mayoría de los proveedores de internet etíopes bloquean ciertos sitios, limitan el tráfico y suelen bloquear las conexiones VPN normales.",
+    "quote": "Most Ethiopian Internet Service Providers, such as Ethiotel, block certain websites as well as throttle web traffic.",
+    "source": "wikivoyage"
+   },
+   {
+    "en": "Internet service is extremely limited outside major cities, though Addis Ababa and Dire Dawa are well served by high-speed internet.",
+    "es": "El servicio de internet es extremadamente limitado fuera de las grandes ciudades, aunque Adís Abeba y Dire Dawa cuentan con internet de alta velocidad.",
+    "quote": "That said, Addis Ababa and Dire Dawa are well-served by high-speed internet.",
+    "source": "wikivoyage"
+   }
+  ]
+ }
+}
