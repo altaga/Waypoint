@@ -1004,6 +1004,17 @@ function bindUi() {
   $("reset").addEventListener("click", () => restartSession());
   // Erase this visitor's data and become a new visitor (a fresh id). Two clicks, so it is never an accident.
   $("locate").addEventListener("click", () => locateMe());
+  // On a phone the keyboard covers the bottom of the page: keep the message bar above it.
+  if (window.visualViewport) {
+    const vv = window.visualViewport;
+    const lift = () => {
+      const kb = Math.max(0, Math.round(window.innerHeight - vv.height - vv.offsetTop));
+      document.documentElement.style.setProperty("--kb", `${kb > 80 ? kb : 0}px`);
+      if (kb > 80 && document.activeElement === $("text")) $("transcript").scrollTop = $("transcript").scrollHeight;
+    };
+    vv.addEventListener("resize", lift);
+    vv.addEventListener("scroll", lift);
+  }
   $("wipe").addEventListener("click", async () => {
     if (!wipeArmed) {
       wipeArmed = true;
