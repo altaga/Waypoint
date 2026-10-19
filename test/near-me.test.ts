@@ -92,3 +92,12 @@ test("the tower has the project's own photo, served from /photos, with its credi
   assert.match(html, /<img src="\/photos\/vn-tam-thang-tower\.jpg"/);
   assert.match(html, /<span class="ph-credit">Photo: Waypoint project owner/);
 });
+
+test("the Martyrs' Memorial of Vung Tau is listed with its photo, after the tower", async () => {
+  const r = await call("get_highlights", { destination: "VN", nearPlace: "Vung Tau", limit: 12 });
+  const ids = r.data.places.map((p: any) => p.id);
+  assert.ok(ids.includes("vn-martyrs-memorial-vung-tau"));
+  const m = r.data.places.find((p: any) => p.id === "vn-martyrs-memorial-vung-tau");
+  assert.equal(m.image.url, "/photos/vn-martyrs-memorial.jpg");
+  assert.equal(m.nameLocal, "Tượng đài Liệt sĩ");
+});
