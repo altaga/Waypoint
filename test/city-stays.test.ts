@@ -1,10 +1,11 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 import { loadWorld } from "../src/services/world.ts";
 import { STYLES } from "../src/pace.ts";
 
-const root = new URL("..", import.meta.url).pathname;
+const root = fileURLToPath(new URL("..", import.meta.url));
 const world = loadWorld(root);
 
 test("every city of the world list has a minimum stay at each pace, never under the pace's floor", () => {

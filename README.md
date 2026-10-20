@@ -1,6 +1,18 @@
 # Waypoint — Travel-readiness concierge for Alexa+
 
+<p align="center">
+  <a href="https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/"><img alt="Live demo" src="https://img.shields.io/badge/Live_demo-open_on_your_phone-2563eb?style=for-the-badge"></a>
+  <img alt="MCP 2025-11-25" src="https://img.shields.io/badge/MCP-2025--11--25-7c3aed?style=for-the-badge">
+  <img alt="26 tools" src="https://img.shields.io/badge/tools-26-0ea5e9?style=for-the-badge">
+  <img alt="AWS" src="https://img.shields.io/badge/AWS-Bedrock_·_Lambda_·_DynamoDB_·_Polly-f59e0b?style=for-the-badge">
+  <img alt="MIT" src="https://img.shields.io/badge/licence-MIT-22c55e?style=for-the-badge">
+</p>
+
 > **Tell Waypoint who is travelling and where.** It answers with cited official sources, dated and confidence-flagged: can each traveler enter, what to arrange in advance, what not to bring or do, what it costs, what to pack, and what the day plan looks like. It remembers the trip between sessions.
+
+<p align="center">
+  <img src="docs/screens/03-trip-japan.png" alt="Waypoint planning a Japan trip for three travelers with different passports" width="900">
+</p>
 
 **Hackathon:** [Amazon Developer — Build, Ship, Shape 2026](https://amazonappdev2026.devpost.com/) · **Primary track:** Alexa+ · **Mini challenges:** AWS Builder · Open Source
 
@@ -10,279 +22,229 @@
 
 ## For judges — open it on your phone
 
-**Live demo (no install):**  
-**[https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/](https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/)**
+<table>
+<tr>
+<td width="56%" valign="top">
 
-Works on a phone browser. Narrow screens open in the **phone** layout automatically.
+**Live demo (no install):**
+**[Open Waypoint →](https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/)**
 
 | Step | Do this |
-|------|---------|
-| 1 | Open the link above (Safari / Chrome on your phone is fine) |
-| 2 | Switch language to **EN** (top controls; use ☰ on a small screen if collapsed) |
-| 3 | Tap **Example group** |
-| 4 | Ask: *"Can I bring vapes to Singapore?"* |
-| 5 | Ask: *"Going to Japan 3–10 December"* — cards + sources |
-| 6 | Optional: *"Get me ready for the trip"* — Autopilot (multi-tool run) |
+|:---:|---------|
+| 1 | Open the link (Safari / Chrome on a phone is fine) |
+| 2 | Switch language to **EN** (under **Settings** on a phone) |
+| 3 | Tap **Example group** — three travelers: Mexico, US, India |
+| 4 | Ask *"Can I bring vapes to Singapore?"* |
+| 5 | Ask *"I'm going to Japan from December 3 to 10"* |
+| 6 | Tap **Get me ready** — Autopilot runs 9 live tool calls |
 
-That is the whole product demo. No clone, no AWS console, no API keys in the browser.
+That is the whole product demo. No clone, no AWS console, no keys in the browser. Every suggestion chip is tappable, so you never have to type.
+
+</td>
+<td width="44%" valign="top" align="center">
+<img src="docs/screens/06-phone-trip.png" alt="Waypoint on a phone" width="300">
+</td>
+</tr>
+</table>
 
 ### Fast links
 
 | What | Link |
 |------|------|
-| **🚀 Live demo** | [Open Waypoint](https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/) |
+| **Live demo** | [Open Waypoint](https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/) |
 | **Health** | [GET /healthz](https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/healthz) → `protocolVersion: "2025-11-25"` |
-| **LLM brief** (after next deploy of this tree) | [/llms.txt](https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/llms.txt) · repo: [llms.txt](llms.txt) · [llm.txt](llm.txt) |
+| **LLM brief** | [/llms.txt](https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/llms.txt) (after next deploy) · repo: [llms.txt](llms.txt) · [llm.txt](llm.txt) |
 | **Agent playbook** | [AGENTS.md](AGENTS.md) |
 | **Docs index** | [docs/README.md](docs/README.md) |
 | **Video / feedback / friction / checklist** | [DEMO_SCRIPT](docs/DEMO_SCRIPT.md) · [FEEDBACK](docs/FEEDBACK.md) · [FRICTION_LOG](docs/FRICTION_LOG.md) · [SUBMISSION](docs/SUBMISSION.md) |
-
-### What the main buttons do
-
-| Control | What it does |
-|---------|----------------|
-| **Example group** | Loads three demo travelers (MX / US / IN) so entry tools have passports |
-| **ES / EN** | UI + spoken language |
-| **Echo Show / Mobile / Voice** | Frame only — same backend; phones default to Mobile |
-| **Logos** | Brand marks — leave **off** for the contest video |
-| **New session** | Reconnects MCP; keeps this visitor’s trip |
-| **Reset / Borrar mis datos** | Wipes this visitor (two taps) |
-| **Protocol log** | Proof of real MCP calls (easier on a wide screen; optional on phone) |
-
-### Public demo security (no client secrets)
-
-The page only talks to **same-origin** paths: `/mcp`, `/api/brain`, `/api/speech`, `/healthz`.  
-Bedrock, Polly, DynamoDB and Alexa credentials live on the **server** (Lambda env / GitHub Actions OIDC).  
-**Never** ship `NEXT_PUBLIC_*`, `EXPO_PUBLIC_*`, `VITE_*`, or any bundled env with keys or private URLs.
-
-### Optional: run locally
-
-```bash
-npm install && npm start   # Node ≥ 22 → http://127.0.0.1:3000
-WAYPOINT_OFFLINE=1 npm start
-```
-
----
-
-## Knowledge scale — what we actually built
-
-This is not a thin wrapper around one API. Every answer is backed by **committed, cited catalogs** under `data/` and `packs/`. Snapshot of the inventory (counts from this repo):
-
-| Dataset | Scale | What it powers |
-|--------|------:|----------------|
-| Passport → destination matrix | **~39,600** passport×destination rows | `check_entry_requirements`, `plan_trip` |
-| Country entry-rule packs | **13** destinations, quotes checked against source text | `get_local_rules`, `plan_trip` |
-| Official source text cache | **13** countries | Pack validation (`validate-packs`) |
-| Curated places | **194** countries · **~14,100** places | `get_highlights`, `build_itinerary` |
-| Ranked place lists (fallback) | **182** countries | `get_highlights` when no curated pack |
-| Travel guide topics | **72** countries | `get_travel_guide` |
-| Payment methods | **197** countries | `get_payment_methods` |
-| “What works without my card” | **195** countries | `get_what_works` |
-| Country-level transit notes | **174** countries | `get_transit_payment` |
-| Named metro / city systems | **13** (London, NYC, Tokyo, Singapore, …) | Tap-to-pay + local cards (Oyster, Suica, …) |
-| Travel apps by country | Company lists + press (Uber, Grab, DiDi, …) | `get_local_apps` |
-| Countries / cities gazetteer | **197** countries · **1,698** cities | Name resolution EN/ES, near-me |
-| Climate normals | Capitals via NASA POWER | `get_trip_climate`, packing |
-| Plugs & emergency numbers | Wikidata worldwide | `get_destination_essentials` |
-| FX + PPP | Live FX or offline snapshot + World Bank PPP | `convert_budget` |
-
-Every tool result carries `sources[]`, `lastVerified`, `confidence`, and a disclaimer. Packs **refuse to invent**: a rule ships only if its quote appears verbatim in `data/sources-text/`.
-
-→ Full tool-by-tool table: [MCP tools (26) — full catalog](#mcp-tools-26--full-catalog)
 
 ---
 
 ## Contents
 
-1. [For judges — open it on your phone](#for-judges--open-it-on-your-phone)
-2. [Knowledge scale](#knowledge-scale--what-we-actually-built)
-3. [MCP tools (26) — full catalog](#mcp-tools-26--full-catalog)
-4. [30 seconds](#30-seconds)
-5. [At a glance](#at-a-glance)
-6. [Demo — what judges see](#demo--what-judges-see)
+1. [Demo walkthrough](#demo-walkthrough)
+2. [How one question becomes a cited answer](#how-one-question-becomes-a-cited-answer)
+3. [Knowledge scale](#knowledge-scale--what-we-actually-built)
+4. [MCP tools (26) — full catalog](#mcp-tools-26--full-catalog)
+5. [Autopilot](#autopilot--one-sentence-full-prep)
+6. [Architecture](#architecture)
 7. [Why this fits Alexa+](#why-this-fits-alexa)
-8. [Architecture](#architecture)
-9. [Autopilot](#autopilot-one-sentence-full-prep)
-10. [How to reproduce](#how-to-reproduce)
-11. [AWS Builder](#aws-builder)
-12. [Open Source](#open-source)
-13. [Security model](#security-model)
-14. [Data honesty](#data-honesty--limits)
-15. [Repository map](#repository-map)
+8. [AWS Builder](#aws-builder)
+9. [Security model](#security-model)
+10. [Open Source](#open-source) · [Data honesty](#data-honesty--limits) · [Run locally](#run-locally) · [Repository map](#repository-map)
 
 ---
 
-## 30 seconds
+## Demo walkthrough
 
-Travel advice online is scattered, undated, and easy to invent. Waypoint refuses to invent: every entry rule, local prohibition, plug type, transit card, and payment fact carries a **source, a date, and a confidence flag**. Identity is a browser visitor id (no account). The host speaks, shows cards, elicits missing passport countries, and opens an **MCP App** dashboard for the trip.
+All screenshots are from the **live public deployment**, in English, with the Example group loaded.
 
-```
-Traveler asks (voice or text)
-        │
-        ▼
-Simulated Alexa+ host (web/)  ← real MCP client, Streamable HTTP
-        │
-        ▼
-Waypoint MCP server (src/)    ← 26 tools · envelopes · elicitation · MCP App
-        │
-        ├── Offline packs + vendor snapshots (committed)
-        ├── Optional Bedrock brain via Strands (AWS Builder)
-        └── State: file locally · DynamoDB on Lambda
-```
+### 1 · Home — a simulated Echo Show with a real MCP connection
 
-After this README you should be able to say: *"Waypoint is a self-hosted MCP 2025-11-25 travel concierge with a simulated Alexa+ host that actually calls tools — not a chatbot wrapping one API."*
+The green **connected** dot means the browser finished the MCP `initialize` handshake with the server. Suggestion chips cover the main flows.
 
----
+![Home screen](docs/screens/01-home-desktop.png)
 
-## At a glance
+### 2 · Local rules — a direct answer, the source, and the date
 
-| | Fact | Proof in this repo |
-|---|---|---|
-| **Alexa+ required tech** | MCP **2025-11-25** over **Streamable HTTP** | `src/mcp-server.ts`, `src/server.ts`, `/healthz` |
-| **Real MCP client** | Browser host: `initialize` · `tools/list` · `tools/call` | `web/mcp-client.js` + protocol log in UI |
-| **Agentic, not Q&A** | Autopilot runs a visible graph of real tool calls | `web/mission.js`, `test/web-mission.test.ts` |
-| **MCP Apps** | `plan_trip` opens a sandboxed dashboard iframe | `src/resources.ts`, `_meta.ui.resourceUri` |
-| **Cited answers** | Packs only keep rules whose quote appears in source text | `npm run validate-packs`, `packs/*.json` |
-| **Knowledge depth** | ~39.6k visa rows · 14k+ places · 197 payment countries · 26 tools | [Knowledge scale](#knowledge-scale--what-we-actually-built) |
-| **AWS Builder** | Bedrock + Strands brain; Lambda + DynamoDB hosting | `src/brain.ts`, `docs/AWS.md`, `.github/workflows/` |
-| **Open Source** | MIT schema + validator + sample packs | `oss/travel-entry-packs/` |
-| **Offline CI** | Typecheck, unit + e2e, pack validation, golden eval | `npm run ci` |
+*"Can I bring vapes to Singapore?"* is answered from a quote-checked country pack. The card shows the severity (`fine`), the source (FCDO travel advice), when it was checked, and the confidence level.
 
----
+![Singapore vape rule with source](docs/screens/02-rules-singapore.png)
 
-## Demo — what judges see
+### 3 · Trip planned — entry checked for each passport
 
-| Simulator connected | Trip planned with sources | Concierge + protocol log |
-|---|---|---|
-| ![Simulator home](docs/screens/sim-1.png) | ![Trip cards](docs/screens/concierge-trip.png) | ![Concierge return](docs/screens/concierge-home.png) |
+*"I'm going to Japan from December 3 to 10"* creates the trip and checks entry for every traveler: Ana and Sam can enter visa-free, Priya needs an e-Visa. Below that, Japan's serious rules (medicines, knives, meat) appear with severity labels.
 
-The right-hand **protocol log** is the proof surface: every `tools/call` is visible. Screenshots may show an older tool count; the server currently exposes **26** tools (see below).
+![Japan trip with entry per traveler](docs/screens/03-trip-japan.png)
 
-Same flow as [For judges — 5 minutes](#for-judges--5-minutes). Full narration: [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md). Optional Bedrock brain: `WAYPOINT_BRAIN=bedrock`.
+### 4 · Autopilot — one tap, nine live tool calls
+
+**Get me ready** runs a visible graph of real `tools/call`s. Each row shows the tool name, its sources, and how long it took. Readiness rises from 27% to 52%, and the remaining gap (Priya's paperwork) is named.
+
+<table>
+<tr>
+<td width="66%"><img src="docs/screens/04-autopilot.png" alt="Autopilot on desktop"></td>
+<td width="34%"><img src="docs/screens/07-phone-autopilot.png" alt="Autopilot on a phone"></td>
+</tr>
+</table>
+
+### 5 · MCP App — the trip dashboard
+
+**View panel** opens the `plan_trip` MCP App resource (`ui://waypoint/plan-dashboard-*.html`) in a sandboxed iframe: entry per traveler, essentials (currency, plugs, emergency numbers, language), and rules.
+
+![Trip dashboard MCP App](docs/screens/08-dashboard.png)
+
+### 6 · Proof — the MCP protocol log
+
+At the bottom of the page, **For developers: MCP protocol log** shows every JSON-RPC message the browser sent and received: `initialize`, `tools/list`, and each `tools/call` with its structured envelope.
+
+![MCP protocol log](docs/screens/05-protocol-log.png)
 
 ---
 
-## Why this fits Alexa+
-
-Judges look for more than a single-turn FAQ bot. Waypoint ships:
-
-| Alexa+ creative signal (rules) | How Waypoint does it |
-|---|---|
-| Agentic workflows across services | Autopilot + optional Bedrock/Strands multi-tool turns |
-| State across sessions | Profile, trips, expenses keyed by visitor / Alexa user |
-| Cards / multi-modal | Envelope cards, carousels, Echo Show frame, Polly voice |
-| MCP Apps | Plan dashboard as `ui://waypoint/...` resource |
-| Honest simulation path | Full `web/` source; FAQ-allowed MCP client in-browser |
-
-`agent-skills/waypoint/SKILL.md` is a **Claude/agent skill file** for operators — **not** an Alexa Agent Skill. Do not present it as one.
-
----
-
-## Architecture
+## How one question becomes a cited answer
 
 ```mermaid
-flowchart TB
-  subgraph host["Simulated Alexa+ host — web/"]
-    UI["Echo Show / phone frame"]
-    Client["MCP client — fetch Streamable HTTP"]
-    Mission["Autopilot mission graph"]
-    BrainOpt["Router local · or Bedrock via Strands"]
-  end
-
-  subgraph server["Waypoint MCP server — src/"]
-    MCP["/mcp  · MCP 2025-11-25"]
-    Tools["26 tools + envelopes"]
-    App["MCP App resource"]
-    State["StateStore — file | DynamoDB"]
-  end
-
-  subgraph data["Committed knowledge"]
-    Packs["packs/ + data/sources-text/"]
-    World["data/ · highlights/ · world/"]
-    Vendor["data/vendor/ snapshots"]
-  end
-
-  UI --> Client --> MCP
-  Mission --> Client
-  BrainOpt --> Client
-  MCP --> Tools --> State
-  Tools --> Packs
-  Tools --> World
-  Tools --> Vendor
-  Tools --> App
+sequenceDiagram
+  autonumber
+  actor T as Traveler
+  participant H as Simulated Alexa+ host (web/)
+  participant S as Waypoint MCP server (/mcp)
+  participant K as Committed knowledge (packs/, data/)
+  T->>H: "Can I bring vapes to Singapore?"
+  H->>S: tools/call get_local_rules {destination: "SG"}
+  S->>K: Load SG pack (quotes verified against sources-text)
+  K-->>S: Rule + quote + source URL + checked date
+  S-->>H: Envelope {voice, card, sources[], lastVerified, confidence}
+  H-->>T: Spoken answer + "Item check" card + source line
 ```
 
-**Invariant:** answers come from tools and committed data. The optional LLM brain **calls tools**; it does not invent visa rules.
+The host can route a question with its local router or hand it to the optional **Bedrock + Strands** brain on the server. Either way, the facts come from tool calls. The model never writes visa rules itself.
 
 ---
 
-## Autopilot: one sentence, full prep
+## Knowledge scale — what we actually built
 
-Say *"Get me ready for Japan from December 3 to 10"* (or tap **Get me ready** on a saved trip). The host:
+This is not a thin wrapper around one API. Every answer is backed by **committed, cited catalogs** under `data/` and `packs/`.
 
-1. Creates / loads the trip  
-2. Runs a visible graph of real `tools/call`s (profile → entry, rules, climate, essentials, places → day plan + packing → readiness)  
-3. Re-submits the day plan if the **verifier** rejects it (pace, avoided interests, bad place ids)  
-4. Lists every source at the end  
+| Dataset | Scale | What it powers |
+|--------|------:|----------------|
+| Passport → destination matrix | **~39,600** passport × destination rows | `check_entry_requirements`, `plan_trip` |
+| Country entry-rule packs | **13** destinations, quotes checked against source text | `get_local_rules`, `plan_trip` |
+| Official source text cache | **13** countries | Pack validation (`validate-packs`) |
+| Curated places | **194** countries · **~14,100** places | `get_highlights`, `build_itinerary` |
+| Ranked place lists (fallback) | **182** countries | `get_highlights` when no curated list |
+| Travel guide topics | **72** countries | `get_travel_guide` |
+| Payment methods | **197** countries | `get_payment_methods` |
+| "What works without my card" | **195** countries | `get_what_works` |
+| Country-level transit notes | **174** countries | `get_transit_payment` |
+| Named metro / city systems | **13** (London, NYC, Tokyo, Singapore, …) | Tap-to-pay + local cards (Oyster, Suica, …) |
+| Travel apps by country | Company lists + press (Uber, Grab, DiDi, …) | `get_local_apps` |
+| Countries / cities gazetteer | **197** countries · **1,698** cities | Name resolution EN/ES, near-me |
+| Climate normals | Capitals via NASA POWER | `get_trip_climate`, packing |
+| Plugs & emergency numbers | Wikidata, worldwide | `get_destination_essentials` |
+| FX + PPP | Live FX or offline snapshot + World Bank PPP | `convert_budget` |
 
-Code: `web/mission.js`. Tests: `test/web-mission.test.ts`.
+### How a rule earns its place in a pack
 
----
-
-## How to reproduce
-
-**Requirements:** Node.js **≥ 22**.
-
-```bash
-git clone https://github.com/altaga/Waypoint.git
-cd Waypoint
-npm install
-npm test          # offline unit + Streamable HTTP e2e
-npm start         # http://127.0.0.1:3000  and  /mcp
+```mermaid
+flowchart LR
+  A["Official sources<br/>FCDO · US State Dept · tourism boards"] --> B["scripts/fetch-sources.ts<br/>cache official text"]
+  B --> C["data/sources-text/<br/>13 countries"]
+  C --> D["Build packs<br/>rule + exact quote + URL"]
+  D --> E{"validate-packs<br/>quote appears verbatim?"}
+  E -- yes --> F["packs/*.json<br/>ships to tools"]
+  E -- no --> G["Rule dropped<br/>never invented"]
 ```
 
-| Goal | Command |
-|---|---|
-| Full CI gate | `npm run ci` |
-| Offline only | `WAYPOINT_OFFLINE=1 npm start` |
-| Bedrock brain | set `WAYPOINT_BRAIN=bedrock` + `WAYPOINT_BEDROCK_MODEL` (see `.env.example`) |
-| Validate packs | `npm run validate-packs` |
-| Accuracy eval | `npm run eval` |
-
-Copy `.env.example` → `.env` for local secrets. **Never commit `.env`.** Env names only live in `.env.example`.
-
-Deploy / Alexa skill / live smoke: [docs/AWS.md](docs/AWS.md), [docs/TESTING.md](docs/TESTING.md).
+Every tool result carries `sources[]`, `lastVerified`, `confidence`, and a disclaimer.
 
 ---
 
 ## MCP tools (26) — full catalog
 
-Every tool declares `inputSchema`, `outputSchema`, annotations (`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`) and returns the same envelope:
+```mermaid
+mindmap
+  root((26 MCP tools))
+    Identity & memory
+      get_traveler_profile
+      update_traveler_profile
+      forget_me
+    Trip readiness
+      plan_trip
+      check_entry_requirements
+      get_local_rules
+      get_destination_essentials
+      get_travel_guide
+      get_trip_calendar
+    Money & transit
+      convert_budget
+      get_payment_methods
+      get_what_works
+      get_local_apps
+      get_transit_payment
+      log_expense
+      settle_up
+    Plan, pack & places
+      get_trip_climate
+      packing_checklist
+      get_highlights
+      set_trip_constraints
+      build_itinerary
+      trip_brief
+      plan_fairness
+    Bookings & export
+      add_booking
+      confirm_booking
+      export_trip
+```
+
+Every tool declares `inputSchema`, `outputSchema`, and annotations (`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`), and returns the same envelope:
 
 ```text
 { voice, card, data, sources[], lastVerified, confidence, disclaimer, followUps[], missingFields? }
 ```
 
-Errors are traveler-friendly (no stacks, raw URLs, HTTP codes, or tool names in `voice`). Schemas live in [`src/tools.ts`](src/tools.ts).
+Errors are traveler-friendly: no stack traces, raw URLs, HTTP codes, or tool names in `voice`. Schemas live in [`src/tools.ts`](src/tools.ts).
 
 ### Identity & memory
 
 | Tool | What the traveler asks | What the agent uses / returns |
 |------|------------------------|-------------------------------|
 | `get_traveler_profile` | What do you know about us? | Saved travelers, home currency, preferences; sensitive fields only with consent |
-| `update_traveler_profile` | Save me / my companions | Passports (country, not number), age band, likes / avoids; elicits missing passport |
-| `forget_me` | Delete my data | Confirmed wipe of profile, trips, expenses for this visitor |
+| `update_traveler_profile` | Save me / my companions | Passports (country, not number), age band, likes / avoids; elicits a missing passport |
+| `forget_me` | Delete my data | Confirmed wipe of profile, trips, and expenses for this visitor |
 
 ### Trip readiness (hero)
 
 | Tool | What the traveler asks | Knowledge behind it |
 |------|------------------------|---------------------|
-| `plan_trip` | Going to Japan Dec 3–10 | Creates trip; per-passport entry; top rules; essentials; days left; opens **MCP App** dashboard |
-| `check_entry_requirements` | Do we need a visa? | Passport matrix (~39.6k rows); one row per traveler / best passport |
-| `get_local_rules` | What can’t I bring or do? | Quote-checked packs (`packs/` + `data/sources-text/`); severity + source |
+| `plan_trip` | Going to Japan Dec 3–10 | Creates the trip; entry per passport; top rules; essentials; days left; opens the **MCP App** dashboard |
+| `check_entry_requirements` | Do we need a visa? | Passport matrix (~39.6k rows); one row per traveler |
+| `get_local_rules` | What can't I bring or do? | Quote-checked packs (`packs/` + `data/sources-text/`); severity + source |
 | `get_destination_essentials` | Plugs, emergency numbers, currency | Wikidata plugs/emergency + country currency |
 | `get_travel_guide` | Practical country how-to | Guide topics for **72** countries (entry, safety, money, etiquette, …) with sources |
-| `get_trip_calendar` | Holidays / sun / best months | Holidays + sun/forecast APIs + climate normals; labelled by source |
+| `get_trip_calendar` | Holidays / sun / best months | Holidays + sun/forecast APIs + climate normals, labelled by source |
 
 ### Money, payments & getting around
 
@@ -300,34 +262,168 @@ Errors are traveler-friendly (no stacks, raw URLs, HTTP codes, or tool names in 
 
 | Tool | What the traveler asks | Knowledge behind it |
 |------|------------------------|---------------------|
-| `get_trip_climate` | What’s the weather like? | NASA POWER normals for trip dates (usual weather, not a forecast) |
-| `packing_checklist` | What do I pack? | Length + climate + plugs + kids/meds + “do not pack” rules; ticks persist |
-| `get_highlights` | What’s worth seeing / near me? | **~14.1k** curated places across **194** countries (+ ranked fallback **182**); optional near / photo |
+| `get_trip_climate` | What's the weather like? | NASA POWER normals for the trip dates (usual weather, not a forecast) |
+| `packing_checklist` | What do I pack? | Length + climate + plugs + kids/meds + "do not pack" rules; ticks persist |
+| `get_highlights` | What's worth seeing / near me? | **~14.1k** curated places across **194** countries (+ ranked fallback for **182**) |
 | `set_trip_constraints` | Avoid nightlife; under $1000 | Constraints every plan and expense respects |
-| `build_itinerary` | Day plan | Stops must be catalog place ids; **verifier** rejects bad pace / country / avoids |
-| `trip_brief` | What’s left for my trip? | Readiness, pending items, free-cancellation deadlines |
+| `build_itinerary` | Day plan | Stops must be catalog place ids; the **verifier** rejects bad pace / country / avoided interests |
+| `trip_brief` | What's left for my trip? | Readiness, pending items, free-cancellation deadlines |
 | `plan_fairness` | Is the plan fair to everyone? | Share of liked / avoided stops per traveler |
 
 ### Bookings & export
 
 | Tool | What the traveler asks | Knowledge behind it |
 |------|------------------------|---------------------|
-| `add_booking` | I booked a flight / hotel | Stores confirmation; pending until confirmed |
-| `confirm_booking` | Confirm that booking | Marks booking confirmed |
+| `add_booking` | I booked a flight / hotel | Stores the confirmation; pending until confirmed |
+| `confirm_booking` | Confirm that booking | Marks the booking confirmed |
 | `export_trip` | Put it in my calendar | ICS calendar or Markdown export |
+
+---
+
+## Autopilot — one sentence, full prep
+
+Say *"Get me ready for the trip"* or tap **Get me ready** on a saved trip. The host runs this graph of real MCP calls (`web/mission.js`):
+
+```mermaid
+flowchart LR
+  P["get_traveler_profile"] --> E & R & C & D & H
+  subgraph par1["Phase 2 · in parallel"]
+    E["check_entry_requirements"]
+    R["get_local_rules"]
+    C["get_trip_climate"]
+    D["get_destination_essentials"]
+    H["get_highlights"]
+  end
+  E & R & C & D & H --> I & K
+  subgraph par2["Phase 3 · in parallel"]
+    I["build_itinerary"]
+    K["packing_checklist"]
+  end
+  I -- "verifier rejects a stop" --> X["repair plan<br/>up to 3 passes"] --> I
+  I & K --> B["trip_brief<br/>readiness %"]
+```
+
+On the live demo this is **9 MCP calls, 5 in parallel, about 4 seconds**. The server verifies every day plan before saving it. When the verifier rejects a stop (wrong country, too many stops for the pace, an interest the group avoids), the host drops that stop and sends the plan again. At the end, every source used is listed. Tests: `test/web-mission.test.ts`.
+
+---
+
+## Architecture
+
+```mermaid
+flowchart TB
+  subgraph host["Simulated Alexa+ host — web/ (no bundler, no client secrets)"]
+    UI["Echo Show / phone / voice-only frame"]
+    Client["MCP client — Streamable HTTP"]
+    Mission["Autopilot mission graph"]
+    Router["Local router"]
+  end
+
+  subgraph server["Waypoint server — src/"]
+    MCP["/mcp · MCP 2025-11-25"]
+    Brain["/api/brain · Bedrock + Strands (optional)"]
+    Speech["/api/speech · Polly"]
+    Tools["26 tools + envelopes"]
+    Verifier["Itinerary verifier"]
+    App["MCP App resource"]
+    State["StateStore — file | DynamoDB"]
+    Alexa["/alexa · signature-verified custom skill"]
+  end
+
+  subgraph data["Committed knowledge"]
+    Packs["packs/ + data/sources-text/"]
+    World["data/highlights/ · data/world/"]
+    Vendor["data/vendor/ snapshots"]
+  end
+
+  UI --> Client --> MCP
+  Mission --> Client
+  Router --> Client
+  UI --> Brain --> Tools
+  UI --> Speech
+  Alexa --> Tools
+  MCP --> Tools
+  Tools --> Verifier
+  Tools --> State
+  Tools --> App
+  Tools --> Packs & World & Vendor
+```
+
+| Layer | Owns | Never does |
+|-------|------|------------|
+| `web/` | UX, MCP client, Autopilot orchestration UI | Invent visa or rules facts |
+| `src/tools.ts` | Facts via services + packs; envelopes | Trust raw LLM prose as law |
+| `src/itinerary.ts` | Accept / reject day plans by rules | Soften limits because a model asked |
+| `src/brain.ts` | Multi-tool turns when enabled | Bypass tools for entry or rules |
+
+---
+
+## Why this fits Alexa+
+
+| Alexa+ creative signal | How Waypoint does it | See it in the demo |
+|---|---|---|
+| Agentic workflows across services | Autopilot + optional Bedrock/Strands multi-tool turns | Walkthrough step 4 |
+| State across sessions | Profile, trips, expenses keyed by visitor / Alexa user | Reload the page: the trip is still there |
+| Cards / multi-modal | Envelope cards, carousels, Echo Show frame, Polly voice | Walkthrough steps 2–3 |
+| MCP Apps | Plan dashboard as a `ui://waypoint/...` resource | Walkthrough step 5 |
+| Elicitation | Asks for a missing passport country; confirms `forget_me` | **Reset my data** |
+| Honest simulation path | Full `web/` source; FAQ-allowed MCP client in the browser | Walkthrough step 6 |
+
+`agent-skills/waypoint/SKILL.md` is a **Claude/operator skill file**, not an Alexa Agent Skill.
 
 ---
 
 ## AWS Builder
 
+```mermaid
+flowchart LR
+  GH["GitHub Actions<br/>deploy-aws"] -- "OIDC role<br/>(no static keys)" --> CDK["AWS CDK<br/>infra/"]
+  CDK --> L["Lambda<br/>Function URL"]
+  L --> DDB[("DynamoDB<br/>profiles · trips · expenses")]
+  L --> BR["Amazon Bedrock<br/>via Strands agent"]
+  L --> PO["Amazon Polly<br/>neural voices"]
+  Phone["Judge's phone"] -- "HTTPS, same-origin" --> L
+  Skill["Alexa custom skill"] -- "signed requests" --> L
+```
+
 | Piece | AWS service | Status |
 |---|---|---|
-| Optional concierge brain | **Bedrock** via **Strands** (`src/brain.ts`) | Wired; live smoke via `aws-smoke` workflow |
+| Concierge brain | **Bedrock** via **Strands** (`src/brain.ts`) | Live (`/healthz` reports `brain: true`); smoke via `aws-smoke` workflow |
 | Hosting | **Lambda** Function URL + **DynamoDB** state | CDK + `deploy-aws` workflow |
-| Voice (simulator) | **Polly** neural voices | Used by `web/` when enabled |
-| Skill CI | OIDC → AWS (no static deploy keys in git) | `deploy-skill.yml` |
+| Voice (simulator) | **Polly** neural voices | Used by `web/` when **Read aloud** is on |
+| CI | OIDC → AWS (no static deploy keys in git) | `deploy-aws.yml`, `deploy-skill.yml` |
 
-Detail and cost notes: [docs/AWS.md](docs/AWS.md). Product feedback for the form: [docs/FEEDBACK.md](docs/FEEDBACK.md).
+Detail and cost notes: [docs/AWS.md](docs/AWS.md). Product feedback: [docs/FEEDBACK.md](docs/FEEDBACK.md).
+
+---
+
+## Security model
+
+```mermaid
+flowchart LR
+  subgraph public["Public — the browser"]
+    B["web/ bundle<br/>relative URLs only"]
+  end
+  subgraph private["Private — server only"]
+    S["Lambda env + IAM role"]
+    K["Bedrock · Polly · DynamoDB"]
+  end
+  B -- "/mcp · /api/brain · /api/speech" --> G{"Origin guard"}
+  G -- "known origin" --> S --> K
+  G -- "unknown origin" --> X["403"]
+```
+
+| Control | Behavior |
+|---|---|
+| **No client secrets** | The UI only calls same-origin `/mcp` and `/api/*`. No `NEXT_PUBLIC_*`, `EXPO_PUBLIC_*`, `VITE_*`, or bundled AWS/Alexa secrets |
+| **Origin guard** | Unknown browser origins get `403` on `/mcp` |
+| **No passport numbers** | Only the country (+ optional expiry). Medications need consent and are never sent to third-party APIs |
+| **Elicitation** | Missing passport / `forget_me` confirmation via MCP elicitation (or `missingFields`) |
+| **MCP App sandbox** | Dashboard iframe: no `localStorage`, no parent access |
+| **Alexa `/alexa`** | Amazon request signature verified; unsigned requests rejected |
+| **Secrets** | GitHub Actions secrets + OIDC roles. No static AWS keys or Alexa refresh tokens in git |
+| **Demo identity** | `x-waypoint-user` header — a convenience for the simulator, **not** OAuth 2.1/PKCE |
+
+**Abuse notes (honest):** anyone who can reach the public `/mcp` and set a user id can read that id's demo state, so the public URL is demo-grade and holds synthetic profiles only. See [AGENTS.md](AGENTS.md) § Security review.
 
 ---
 
@@ -337,32 +433,13 @@ Detail and cost notes: [docs/AWS.md](docs/AWS.md). Product feedback for the form
 |---|---|---|
 | **travel-entry-packs** — schema, validator, sample JP/SG packs | [`oss/travel-entry-packs/`](oss/travel-entry-packs/) | MIT |
 
-Publish steps and Devpost fields: [docs/OPEN_SOURCE.md](docs/OPEN_SOURCE.md). This repo itself is **MIT** (`LICENSE`).
-
----
-
-## Security model
-
-| Control | Behavior |
-|---|---|
-| **Origin guard** | Unknown browser origins → `403` on `/mcp` |
-| **No client secrets** | UI only hits same-origin `/mcp` + `/api/*`. No `NEXT_PUBLIC_*` / `EXPO_PUBLIC_*` / bundled AWS or Alexa secrets |
-| **No passport numbers** | Only country (+ optional expiry). Medications need consent; never sent to third-party APIs |
-| **Elicitation** | Missing passport / `forget_me` confirmation via MCP elicitation (or `missingFields`) |
-| **MCP App sandbox** | Dashboard iframe: no `localStorage`, no parent access |
-| **Alexa `/alexa`** | Amazon request signature verified; unsigned rejected |
-| **Secrets** | GitHub Actions secrets + OIDC roles. No static AWS keys or Alexa refresh tokens in git |
-| **Demo identity** | `x-waypoint-user` header — convenience for the simulator, **not** OAuth 2.1/PKCE |
-
-**Abuse notes (honest):** anyone who can reach a deployed `/mcp` and guess/set a user id can read that id's demo state. Treat public Function URLs as demo-grade; rotate or restrict origins for anything beyond judging. See [AGENTS.md](AGENTS.md) § Secrets.
-
-Owner-only helpers (not for judges to run): `ops/get-alexa-credentials.mjs` (prints tokens locally), `ops/secret-box/` (encrypt-to-owner; **public** key only is committed).
+Publish steps and Devpost fields: [docs/OPEN_SOURCE.md](docs/OPEN_SOURCE.md). This repo is **MIT** too ([`LICENSE`](LICENSE)).
 
 ---
 
 ## Data honesty / limits
 
-> Rules change. Verify with the official source before you travel. Packs are **tier B (machine-extracted)** until a human signs off ([docs/DATA_REVIEW.md](docs/DATA_REVIEW.md)).
+> Rules change. Verify with the official source before you travel. Packs are **tier B (machine-extracted)** until a human signs off ([docs/DATA_REVIEW.md](docs/DATA_REVIEW.md)). The cards say so: *"compiled by us, not yet reviewed by a person"*.
 
 | Limit | What we do instead of inventing |
 |---|---|
@@ -372,7 +449,30 @@ Owner-only helpers (not for judges to run): `ops/get-alexa-credentials.mjs` (pri
 | Highlights ranking | Wikipedia popularity can be noisy; curated lists win first |
 | Crypto payments | Never listed as accepted |
 
-Primary citations ride on every tool envelope (`sources[]`). Vendored licences sit next to the data under `data/vendor/`. Major upstreams: passport-index (MIT), GOV.UK FCDO (OGL v3), US State Dept (public domain), Wikidata (CC0), World Bank PPP (CC BY 4.0), open.er-api (attribution), Wikipedia sentences (CC BY-SA 4.0).
+Major upstreams: passport-index (MIT), GOV.UK FCDO (OGL v3), US State Dept (public domain), Wikidata (CC0), World Bank PPP (CC BY 4.0), NASA POWER, open.er-api (attribution), Wikipedia sentences (CC BY-SA 4.0). Vendored licences sit next to the data under `data/vendor/`.
+
+---
+
+## Run locally
+
+Optional — the live demo covers everything. Requires Node.js **≥ 22**.
+
+```bash
+git clone https://github.com/altaga/Waypoint.git
+cd Waypoint
+npm install
+npm start                    # http://127.0.0.1:3000 and /mcp
+WAYPOINT_OFFLINE=1 npm start # no network calls
+```
+
+| Goal | Command |
+|---|---|
+| Full CI gate (typecheck + tests + packs + eval) | `npm run ci` |
+| Validate packs | `npm run validate-packs` |
+| Accuracy eval | `npm run eval` |
+| Bedrock brain | `WAYPOINT_BRAIN=bedrock` + `WAYPOINT_BEDROCK_MODEL` (see `.env.example`) |
+
+Copy `.env.example` to `.env` for local settings; **never commit `.env`**. Deploy, Alexa skill, and live smoke: [docs/AWS.md](docs/AWS.md), [docs/TESTING.md](docs/TESTING.md).
 
 ---
 
@@ -380,25 +480,25 @@ Primary citations ride on every tool envelope (`sources[]`). Vendored licences s
 
 ```
 Waypoint/
-├── src/              MCP server, 26 tools, brain, Alexa bridge
-├── web/              Simulated Alexa+ host (same-origin /mcp)
-├── packs/            Country entry-rule packs (quote-checked)
-├── data/             All catalogs — see data/README.md
-│   ├── highlights/   Curated places (preferred)
-│   └── world/        Payments, transit, ranked highlights, …
-├── skill/            Alexa custom skill (manifest + EN/ES models)
-├── agent-skills/     Claude/operator skill file (not Alexa Agent Skill)
-├── oss/              Open-source travel-entry-packs package
-├── infra/            AWS CDK stack
-├── ops/              Owner-only helpers (credentials, secret-box, demo recorder)
-├── scripts/          Data build + live smoke
-├── test/             Offline unit + e2e + eval
-├── docs/             Judge/Devpost docs — docs/README.md
-├── llms.txt          LLM brief (also /llms.txt when served)
-└── AGENTS.md         Full agent playbook
+├── src/            MCP server, 26 tools, verifier, brain, Alexa bridge
+├── web/            Simulated Alexa+ host (same-origin /mcp)
+├── packs/          Country entry-rule packs (quote-checked)
+├── data/           All catalogs — see data/README.md
+│   ├── highlights/ Curated places (preferred)
+│   ├── world/      Payments, transit, apps, cities, ranked highlights
+│   ├── sources-text/ Cached official text for pack validation
+│   └── vendor/     Vendored public snapshots + licences
+├── skill/          Alexa custom skill (manifest + EN/ES models)
+├── agent-skills/   Claude/operator skill file (not an Alexa Agent Skill)
+├── oss/            Open-source travel-entry-packs package
+├── infra/          AWS CDK stack
+├── ops/            Owner-only helpers (credentials, secret-box, demo recorder)
+├── scripts/        Data build + live smoke
+├── test/           Offline unit + e2e + eval
+├── docs/           Judge/Devpost docs — docs/README.md
+├── llms.txt        LLM brief (also served at /llms.txt)
+└── AGENTS.md       Full agent playbook
 ```
-
-**Judge docs to paste into Devpost:** [FEEDBACK.md](docs/FEEDBACK.md) · [FRICTION_LOG.md](docs/FRICTION_LOG.md) · [SUBMISSION.md](docs/SUBMISSION.md) · [DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md)
 
 ---
 

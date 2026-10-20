@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readdirSync, readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 import { InMemoryTransport } from "@modelcontextprotocol/sdk/inMemory.js";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { createContext } from "../src/context.ts";
@@ -9,7 +10,7 @@ import { createWaypointMcpServer } from "../src/mcp-server.ts";
 import { Guide } from "../src/services/guide.ts";
 import { renderTool } from "../web/cards.js";
 
-const root = new URL("..", import.meta.url).pathname;
+const root = fileURLToPath(new URL("..", import.meta.url));
 const ctx = createContext({ offline: true, store: createMemoryStore(), clock: () => new Date("2026-10-19T12:00:00Z") });
 async function call(args: Record<string, unknown>, locale = "en-US") {
   const [c, s] = InMemoryTransport.createLinkedPair();

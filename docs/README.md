@@ -40,9 +40,15 @@ Local fallback: `npm install && npm start` → http://127.0.0.1:3000
 
 ## Screenshots in this folder
 
+Captured from the live public deployment (English UI, Example group loaded).
+
 | File | Shows |
 |------|--------|
-| `screens/sim-1.png` | Simulator connected + protocol log |
-| `screens/sim-2.png` | Elicitation / trip flow |
-| `screens/concierge-trip.png` | Trip cards with sources |
-| `screens/concierge-home.png` / `concierge-return.png` | Concierge UI |
+| `screens/01-home-desktop.png` | Home screen, MCP connected, suggestion chips |
+| `screens/02-rules-singapore.png` | "Can I bring vapes to Singapore?" — rule card with source and date |
+| `screens/03-trip-japan.png` | Japan trip: entry per passport, readiness ring, globe |
+| `screens/04-autopilot.png` | Autopilot graph of live `tools/call`s (desktop) |
+| `screens/05-protocol-log.png` | MCP protocol log (JSON-RPC proof) |
+| `screens/06-phone-trip.png` | Phone layout of the Japan trip |
+| `screens/07-phone-autopilot.png` | Autopilot on a phone |
+| `screens/08-dashboard.png` | `plan_trip` MCP App dashboard |
