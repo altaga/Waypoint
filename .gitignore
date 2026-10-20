@@ -153,11 +153,15 @@ data/state.json
 data/raw/
 !.env.example
 .ask-cli-local/
-tools/secret-box/*.pem
-!tools/secret-box/recipient-public.pem
+ops/secret-box/*.pem
+!ops/secret-box/recipient-public.pem
 lambda-bundle/
 cdk.out/
 live-transcript.txt
 
 # demo recorder output (video, audio, models)
-tools/demo-recorder/out/
+ops/demo-recorder/out/
+
+# Internal scratch — not part of the hackathon delivery tree
+research_notes/
+reports/

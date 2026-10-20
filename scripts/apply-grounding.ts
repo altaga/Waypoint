@@ -1,4 +1,4 @@
-// Applies data/grounding/places.json to the curated highlights. A description is replaced by
+﻿// Applies data/grounding/places.json to the curated highlights. A description is replaced by
 // the first sentence of the Wikipedia article in the same language, and the place keeps the
 // article link (ground) so the source can be shown. Places without an article keep the curated
 // text and are marked descBy: "curated". Run after scripts/build-grounding.mjs.
@@ -51,9 +51,9 @@ export function withGroundingNote(note: string | undefined): string {
 const grounded = { en: 0, es: 0 };
 let total = 0;
 export function applyAll(): void {
-for (const f of readdirSync(join(ROOT, "highlights"))) {
+for (const f of readdirSync(join(ROOT, "data/highlights"))) {
   if (!/^[A-Z]{2}\.json$/.test(f)) continue;
-  const path = join(ROOT, "highlights", f);
+  const path = join(ROOT, "data/highlights", f);
   const pack = JSON.parse(readFileSync(path, "utf8"));
   let touched = false;
   for (const p of pack.places) {

@@ -1,6 +1,6 @@
 # Demo script (under 3 minutes, English)
 
-Target: 2 min 46 s (166 s planned). No music, no third-party logos. The presenter narrates the lines. Waypoint's own replies are not spoken in this take (Read aloud is off), which keeps the timing. `tools/demo-recorder/` has a scripted take of an earlier, shorter cut (nine scenes, about 100 s); this table is the current plan.
+Target: 2 min 46 s (166 s planned). No music, no third-party logos. The presenter narrates the lines. Waypoint's own replies are not spoken in this take (Read aloud is off), which keeps the timing. `ops/demo-recorder/` has a scripted take of an earlier, shorter cut (nine scenes, about 100 s); this table is the current plan.
 
 ## What the rules ask for the video
 

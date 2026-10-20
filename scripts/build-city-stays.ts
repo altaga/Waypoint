@@ -1,4 +1,4 @@
-// Writes data/world/city-stays.json: for every city of the world list, the minutes of sights a visit holds and the
+﻿// Writes data/world/city-stays.json: for every city of the world list, the minutes of sights a visit holds and the
 // least days it needs at each pace. Waypoint's estimate, from two raw inputs, never an official figure:
 //   places     the minutes of the list's places nearest to the city (within 50 km), when the list has any there
 //   population  a floor by city size, because a list of at most 30 places per country cannot hold a big city
@@ -24,8 +24,8 @@ export const SIZE_MINUTES: { from: number; minutes: number }[] = [
 const sizeMinutes = (pop: number) => SIZE_MINUTES.find((t) => pop >= t.from)!.minutes;
 
 const placesBy = new Map<string, { lat: number; lon: number; durationMinutes: number }[]>();
-for (const f of readdirSync(join(ROOT, "highlights")).filter((x) => x.endsWith(".json"))) {
-  const pack = JSON.parse(readFileSync(join(ROOT, "highlights", f), "utf8"));
+for (const f of readdirSync(join(ROOT, "data/highlights")).filter((x) => x.endsWith(".json"))) {
+  const pack = JSON.parse(readFileSync(join(ROOT, "data/highlights", f), "utf8"));
   placesBy.set(f.replace(".json", ""), (pack.places ?? []).filter((p: any) => p.lat != null && p.lon != null));
 }
 

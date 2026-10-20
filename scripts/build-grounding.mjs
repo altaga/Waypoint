@@ -1,4 +1,4 @@
-// Grounds curated places in Wikipedia. For each place whose id is a Wikidata item (xx-qNNN),
+﻿// Grounds curated places in Wikipedia. For each place whose id is a Wikidata item (xx-qNNN),
 // it reads the English and Spanish Wikipedia titles from Wikidata, then the REST summary of
 // each article. Output: data/grounding/places.json, keyed by the Wikidata id.
 // Wikipedia text is CC BY-SA 4.0: keep the article URL and the attribution wherever it is shown.
@@ -29,9 +29,9 @@ async function getJson(url) {
 
 // 1. The curated places that are Wikidata items.
 const ids = new Map(); // qid -> place id
-for (const f of readdirSync(join(ROOT, "highlights"))) {
+for (const f of readdirSync(join(ROOT, "data/highlights"))) {
   if (!/^[A-Z]{2}\.json$/.test(f)) continue;
-  for (const p of JSON.parse(readFileSync(join(ROOT, "highlights", f), "utf8")).places) {
+  for (const p of JSON.parse(readFileSync(join(ROOT, "data/highlights", f), "utf8")).places) {
     const m = /^[a-z]{2}-(q\d+)$/.exec(p.id);
     if (m) ids.set(m[1].toUpperCase(), p.id);
   }

@@ -1,4 +1,4 @@
-import { test } from "node:test";
+﻿import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
@@ -18,7 +18,7 @@ test("first sentence: stops at the first full stop and keeps abbreviations of on
 });
 
 test("every place described from Wikipedia links to its article, and every place has text in both languages", () => {
-  const curated = join(root, "highlights");
+  const curated = join(root, "data/highlights");
   if (!existsSync(curated)) return;
   for (const f of readdirSync(curated)) {
     if (!/^[A-Z]{2}\.json$/.test(f)) continue;
@@ -34,9 +34,9 @@ test("every place described from Wikipedia links to its article, and every place
 });
 
 test("the Wikipedia attribution is listed as a source wherever a place uses it", () => {
-  for (const f of readdirSync(join(root, "highlights"))) {
+  for (const f of readdirSync(join(root, "data/highlights"))) {
     if (!/^[A-Z]{2}\.json$/.test(f)) continue;
-    const pack = HighlightPack.parse(JSON.parse(readFileSync(join(root, "highlights", f), "utf8")));
+    const pack = HighlightPack.parse(JSON.parse(readFileSync(join(root, "data/highlights", f), "utf8")));
     if (pack.places.some((p) => p.ground)) assert.ok(pack.sources.wikipedia, `${f} uses Wikipedia without the attribution`);
   }
 });

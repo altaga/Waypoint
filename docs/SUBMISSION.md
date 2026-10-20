@@ -58,7 +58,7 @@ Checked against the official Rules, FAQ and Dates tab on 2026-10-18. The Rules s
 
 - Stage one: pass/fail on fitting the theme and applying the required APIs/SDKs.
 - Stage two: four equally weighted criteria: Tech Implementation, Design, Potential Impact, Quality of the Idea.
-- For Alexa+, the rules call "single-turn Q&A bot" and "basic MCP wrapper around an existing API" obvious; they call out as creative: agentic workflows across services, state across sessions, purchasing, media support (cards, carousels), MCP Apps, Agent Skills. Waypoint covers agentic workflows across services (the Autopilot), state across sessions, cards and carousels (`src/envelope.ts`) and an MCP App. It does not have a purchasing flow. `skills/waypoint/SKILL.md` is a Claude skill file, not an Alexa Agent Skill: do not present it as one.
+- For Alexa+, the rules call "single-turn Q&A bot" and "basic MCP wrapper around an existing API" obvious; they call out as creative: agentic workflows across services, state across sessions, purchasing, media support (cards, carousels), MCP Apps, Agent Skills. Waypoint covers agentic workflows across services (the Autopilot), state across sessions, cards and carousels (`src/envelope.ts`) and an MCP App. It does not have a purchasing flow. `agent-skills/waypoint/SKILL.md` is a Claude skill file, not an Alexa Agent Skill: do not present it as one.
 - For AWS Builder, "single Bedrock call" is called obvious; "multi-service pipeline (Bedrock + AgentCore + Strands)" is called creative. Today Waypoint has Strands + Bedrock wired but not run, so this mini challenge is the weakest part of the entry.
 
 ## Eligibility

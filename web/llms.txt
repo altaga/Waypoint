@@ -1,0 +1,103 @@
+# Waypoint — instructions for LLMs and coding agents
+
+> Prefer this file + AGENTS.md over scraping the whole repo.
+> Live (same-origin): /llms.txt and /llm.txt on the public demo host.
+
+## What this is
+
+Waypoint is a **travel-readiness concierge** for the Amazon Developer Hackathon 2026 (Alexa+ track).
+Self-hosted MCP server (2025-11-25, Streamable HTTP) + simulated Alexa+ host (real MCP client in the browser).
+Not affiliated with Amazon; does not connect to production Alexa+.
+
+## Primary path — public web (judges on a phone)
+
+Live demo:
+https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/
+
+1. Open that URL on a phone or laptop (no install).
+2. Switch UI language to EN, then tap **Example group** (☰ menu on small screens).
+3. Ask: "Can I bring vapes to Singapore?"
+4. Ask: "Going to Japan 3–10 December"
+5. Optional: "Get me ready for the trip" (Autopilot)
+
+Judge-facing documentation is English-only (README, AGENTS.md, docs/).
+
+Health: GET .../healthz  → protocolVersion "2025-11-25", brain may be true on deploy.
+
+## Client security — HARD RULE
+
+The browser MUST only call **same-origin** public paths:
+- /mcp
+- /api/brain   (server runs Bedrock; browser never gets AWS keys)
+- /api/speech  (server runs Polly)
+- /healthz
+- /llms.txt , /llm.txt
+- static /web assets
+
+FORBIDDEN in the public demo / any client bundle:
+- NEXT_PUBLIC_* , EXPO_PUBLIC_* , VITE_* , or any env that embeds secrets
+- AWS keys, Bedrock model ids as client config, Alexa refresh tokens
+- Private VPC URLs, admin URLs, or second backends exposed to the page
+
+Secrets and cloud SDKs stay on Lambda / GitHub Actions (OIDC). Treat the Function URL as a demo surface, not a vault.
+
+## Fast links (repo)
+
+- README (phone-first judges): /README.md
+- Agent playbook: /AGENTS.md
+- Docs index: /docs/README.md
+- Demo script: /docs/DEMO_SCRIPT.md
+- Feedback / friction / submission: /docs/FEEDBACK.md · /docs/FRICTION_LOG.md · /docs/SUBMISSION.md
+- Tools (26): /src/tools.ts
+- Simulator: /web/index.html · MCP client: /web/mcp-client.js (url: "/mcp" only)
+- Data: /data/README.md · curated places /data/highlights/ · catalogs /data/world/
+- Owner ops (not the demo): /ops/ · Alexa skill: /skill/ · agent skill file: /agent-skills/
+
+## Optional local run
+
+```bash
+npm install          # Node >= 22
+npm start            # http://127.0.0.1:3000
+WAYPOINT_OFFLINE=1 npm start
+```
+
+## Knowledge scale (why this is not a thin wrapper)
+
+| Dataset | Scale |
+|--------|------:|
+| Passport×destination matrix | ~39,600 rows |
+| Quote-checked country packs | 13 |
+| Curated places | 194 countries · ~14,100 places |
+| Ranked place fallbacks | 182 countries |
+| Travel guides | 72 countries |
+| Payment methods | 197 countries |
+| What-works-without-card | 195 countries |
+| Transit country notes | 174 · + 13 named metro systems |
+| Gazetteer | 197 countries · 1,698 cities |
+
+Full tool×knowledge tables: README.md § "Knowledge scale" and § "MCP tools (26) — full catalog".
+
+## MCP tools (26 names — schemas in src/tools.ts)
+
+get_traveler_profile, update_traveler_profile, forget_me,
+plan_trip, check_entry_requirements, get_local_rules, get_destination_essentials,
+get_travel_guide, get_trip_calendar,
+convert_budget, get_payment_methods, get_what_works, get_local_apps, get_transit_payment,
+log_expense, settle_up,
+get_trip_climate, packing_checklist, get_highlights, set_trip_constraints,
+build_itinerary, trip_brief, plan_fairness,
+add_booking, confirm_booking, export_trip
+
+Envelope: voice, card, data, sources[], lastVerified, confidence, disclaimer, followUps[].
+
+## Invariants
+
+- Do not invent visa/rules; call tools / packs.
+- Do not claim Amazon affiliation or live Alexa+.
+- agent-skills/waypoint/SKILL.md is NOT an Alexa Agent Skill.
+- Never commit .env, private keys, ASK_REFRESH_TOKEN values, AWS secret values.
+- Do not add client-side env that leaks private services.
+
+## Licence
+
+MIT. Per-source licences under data/vendor/ and on each tool envelope.

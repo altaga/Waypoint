@@ -1,4 +1,4 @@
-# Demo recorder
+﻿# Demo recorder
 
 Records the Waypoint demo video from the simulated Alexa+ host: a scripted visit with a human-like mouse (minimum-jerk paths, Fitts timing, visible cursor and click ripple), narrated with a local text-to-speech voice, mixed into one mp4. It only drives the real app. Every answer on screen comes from the running server.
 
@@ -24,7 +24,7 @@ curl -LO $B/en_US-lessac-medium.onnx && curl -LO $B/en_US-lessac-medium.onnx.jso
 WAYPOINT_OFFLINE=1 npm start
 
 # 2. the voice: one wav per scene, durations in out/voice/durations.json
-cd tools/demo-recorder
+cd ops/demo-recorder
 PIPER_PY=/tmp/piper/bin/python PIPER_MODEL=/tmp/voices/en_US-lessac-medium.onnx node voice.cjs
 
 # 3. the take: out/waypoint-demo.mp4 (1600x900, 25 fps, voice mixed in)

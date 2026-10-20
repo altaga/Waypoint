@@ -10,7 +10,7 @@ npm run ci        # typecheck, every test, pack validation, accuracy eval
 Expected on `claude/elegant-wozniak-qch21g` (checked 2026-10-17):
 
 - typecheck clean
-- 435 tests passing, 0 failing
+- Offline suite: run `npm test` (or `npm run ci`) on a clean `npm install`; do not trust stale counts in older docs
 - 13/13 country packs valid
 - eval 33/33 (100%, threshold 95%)
 

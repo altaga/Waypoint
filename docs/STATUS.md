@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-10-13. Repository: branch `claude/elegant-wozniak-qch21g`.
+Last updated: 2026-10-13 (snapshot; branch names and exact test counts drift — trust `npm run ci` on current `main`).
 
 ## Done and checked
 

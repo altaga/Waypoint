@@ -1104,6 +1104,14 @@ function setupVoice() {
   });
 }
 
+// On a real phone, skip the Echo Show frame: use the phone layout so a judge can
+// open the public URL and type with one hand (no desktop device picker required).
+if (matchMedia("(max-width: 560px), (pointer: coarse) and (max-width: 900px)").matches) {
+  device = "mobile";
+  $("frame").dataset.device = "mobile";
+  if ($("device")) $("device").value = "mobile";
+}
+
 applyLang();
 tickClock();
 setInterval(tickClock, 30000);

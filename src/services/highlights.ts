@@ -83,14 +83,14 @@ export interface HighlightRegistry {
 }
 
 /**
- * Loads highlights at startup: curated packs in highlights/ first, then the worldwide
+ * Loads highlights at startup: curated packs in data/highlights/ first, then the worldwide
  * Wikidata catalog in data/world/highlights/ for countries that have no curated pack.
  * A file that fails validation is skipped and logged.
  */
 export function loadHighlights(root: string): HighlightRegistry {
   const byCountry = new Map<string, HighlightPack>();
   const byId = new Map<string, { place: Place; country: string }>();
-  loadDir(join(root, "highlights"), byCountry, byId, true);
+  loadDir(join(root, "data/highlights"), byCountry, byId, true);
   loadDir(join(root, "data/world/highlights"), byCountry, byId, false);
   return {
     forCountry: (iso) => byCountry.get(iso),

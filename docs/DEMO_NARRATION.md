@@ -6,7 +6,7 @@ Text only. Read it as written, at an easy pace (about 2.5 words a second). Total
 
 Waypoint is a travel-readiness assistant for Amazon Alexa+, built as a self-hosted MCP server. A traveler (or a group, each person with their own passport) says where and when they are going, and Waypoint answers what a trip needs before departure: whether each passport needs a visa, what is illegal to bring, how to pay, which ride and shopping apps work, which card opens the metro, the usual weather, a packing list, a day plan from real places, and who owes whom in the group. Every answer says who published it, when it was checked, and how sure it is. Where nothing official exists it says "no verified data" and does not guess.
 
-- **MCP server:** TypeScript on Node 22, MCP spec 2025-11-25, Streamable HTTP at `/mcp`, stateless, 26 tools with output schemas and annotations, one MCP App (the trip panel). MIT license, 443 offline tests, CI on every push.
+- **MCP server:** TypeScript on Node 22, MCP spec 2025-11-25, Streamable HTTP at `/mcp`, stateless, 26 tools with output schemas and annotations, one MCP App (the trip panel). MIT license, offline CI on every push (`npm run ci`).
 - **Simulated Alexa+ host:** a web page that acts as a real MCP client (`initialize`, `tools/list`, `tools/call`), with an Echo Show screen, a phone layout, English and Spanish, and a protocol log. It is labelled as simulated and is not affiliated with Amazon.
 - **Autopilot:** one sentence creates the trip and runs nine real tool calls (profile, entry, local rules, climate, essentials, places, day plan, packing, readiness), each with its time and source. The day plan goes through a rule-based verifier before it is saved.
 - **Data, with its honesty labels:** passport matrix for entry rules; 13 curated country packs whose rules are checked word for word against the quoted official source (compiled by us, not yet reviewed by a person); payment methods for 197 countries, 18 of them from official sources and the rest labelled as reported by guides and travelers; ride, delivery and shopping apps that work in the country, from each company's own list or reported by the press and marked as not confirmed (an app with no data is never called unavailable); 13 metro systems and whether a bank card opens the gates; the usual weather from NASA POWER; real places from Wikidata and Wikipedia.
@@ -44,7 +44,7 @@ A day plan from real places. A verifier checks it by rule, so invented stops, th
 How far is twenty thousand pesos? About [read the yen figure on screen], adjusted for local prices. And the group dinner: nine hundred pesos, paid by Ana. Sam and Priya each square up with Ana, to the cent.
 
 **10 · Protocol, 2:16–2:26**
-Under the hood, real MCP over Streamable HTTP, protocol 2025-11-25. Twenty-four tools, and these are the actual requests.
+Under the hood, real MCP over Streamable HTTP, protocol 2025-11-25. Twenty-six tools, and these are the actual requests.
 
 **11 · Memory and close, 2:26–2:46**
 New session. Same trip, same travelers, same open tasks, nothing re-entered. One MCP server on AWS, behind this host and behind a classic Alexa skill, open source under the MIT license. That's Waypoint.

@@ -1,4 +1,4 @@
-// Places near every city of the world list, from public data only (no model writes any fact):
+﻿// Places near every city of the world list, from public data only (no model writes any fact):
 //   Wikidata (CC0)      the places around each city: tourist-worthy types, ranked by how many Wikipedias have them
 //   Wikipedia (CC BY-SA) the first sentence of the article, in English and Spanish, with the article link
 //   Wikimedia Commons   one photo, only when its license is free (CC BY, CC BY-SA, CC0, public domain), with author and license
@@ -8,7 +8,7 @@
 //   node scripts/build-nearby.mjs country  the best-known places of each country (towns the world list does not have)
 //   node scripts/build-nearby.mjs text      names, links, descriptions, coordinates, websites, phones, photo files
 //   node scripts/build-nearby.mjs commons   photo author and license
-//   node scripts/build-nearby.mjs write     merge into highlights/<ISO>.json (new places go after the curated ones)
+//   node scripts/build-nearby.mjs write     merge into data/highlights/<ISO>.json (new places go after the curated ones)
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 
 const ROOT = new URL("..", import.meta.url).pathname;
@@ -264,7 +264,7 @@ function write() {
   let added = 0, photos = 0;
   for (const [iso, cityList] of byIso) {
     if (ONLY && !ONLY.includes(iso)) continue;
-    const file = `${ROOT}highlights/${iso}.json`;
+    const file = `${ROOT}data/highlights/${iso}.json`;
     if (!existsSync(file)) continue;
     const pack = JSON.parse(readFileSync(file, "utf8"));
     const wikidataIds = new Set(pack.places.map((p) => p.wikidata).filter(Boolean));

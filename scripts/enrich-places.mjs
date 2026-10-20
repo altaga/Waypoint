@@ -1,10 +1,10 @@
-// Adds to every place in highlights/*.json what public data has about it: official website, coordinates and phone
+﻿// Adds to every place in data/highlights/*.json what public data has about it: official website, coordinates and phone
 // (Wikidata, CC0) and, where OpenStreetMap has them, opening hours (ODbL). Nothing is guessed: a field is written
 // only when a source gave it, and each source and its date are recorded in the pack.
 //
 //   node scripts/enrich-places.mjs wikidata   # stage 1: website, coordinates, phone by Wikidata id (fast)
 //   node scripts/enrich-places.mjs osm        # stage 2: opening hours by place (Nominatim, 1 request a second; resumable)
-//   node scripts/enrich-places.mjs write      # stage 3: write the results into highlights/*.json
+//   node scripts/enrich-places.mjs write      # stage 3: write the results into data/highlights/*.json
 //
 // Results are cached in data/raw/enrich/ so a stage can be stopped and run again.
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from "node:fs";
@@ -19,7 +19,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const readJson = (f, fallback) => (existsSync(f) ? JSON.parse(readFileSync(f, "utf8")) : fallback);
 
 function packs() {
-  return readdirSync(join(ROOT, "highlights")).filter((f) => /^[A-Z]{2}\.json$/.test(f)).map((f) => ({ file: f, path: join(ROOT, "highlights", f), pack: JSON.parse(readFileSync(join(ROOT, "highlights", f), "utf8")) }));
+  return readdirSync(join(ROOT, "data/highlights")).filter((f) => /^[A-Z]{2}\.json$/.test(f)).map((f) => ({ file: f, path: join(ROOT, "data/highlights", f), pack: JSON.parse(readFileSync(join(ROOT, "data/highlights", f), "utf8")) }));
 }
 const qidOf = (p) => (p.wikidata || (/^[a-z]{2}-q(\d+)$/.exec(p.id) ? `Q${/^[a-z]{2}-q(\d+)$/.exec(p.id)[1]}` : null));
 
