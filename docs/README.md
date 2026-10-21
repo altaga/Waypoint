@@ -52,3 +52,5 @@ Captured from the live public deployment (English UI, Example group loaded).
 | `screens/06-phone-trip.png` | Phone layout of the Japan trip |
 | `screens/07-phone-autopilot.png` | Autopilot on a phone |
 | `screens/08-dashboard.png` | `plan_trip` MCP App dashboard |
+| `screens/09-passports-input.png` | Three nationalities typed in one sentence, saved as a profile |
+| `screens/10-passports-answer.png` | One visa question, one answer per passport (MX, US, IN → Japan) |

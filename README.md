@@ -33,12 +33,12 @@
 |:---:|---------|
 | 1 | Open the link (Safari / Chrome on a phone is fine) |
 | 2 | Switch language to **EN** (under **Settings** on a phone) |
-| 3 | Tap **Example group** — three travelers: Mexico, US, India |
+| 3 | Say who is travelling: type *"We are three travelers: Ana has a Mexican passport, Sam has a US passport and Priya has an Indian passport."* — or tap **Example group** for the same three |
 | 4 | Ask *"Can I bring vapes to Singapore?"* |
 | 5 | Ask *"I'm going to Japan from December 3 to 10"* |
 | 6 | Tap **Get me ready** — Autopilot runs 9 live tool calls |
 
-That is the whole product demo. No clone, no AWS console, no keys in the browser. Every suggestion chip is tappable, so you never have to type.
+That is the whole product demo. No clone, no AWS console, no keys in the browser. Apart from step 3 (where **Example group** is the no-typing shortcut), every step is a tappable suggestion chip.
 
 </td>
 <td width="44%" valign="top" align="center">
@@ -53,7 +53,7 @@ That is the whole product demo. No clone, no AWS console, no keys in the browser
 |------|------|
 | **Live demo** | [Open Waypoint](https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/) |
 | **Health** | [GET /healthz](https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/healthz) → `protocolVersion: "2025-11-25"` |
-| **LLM brief** | [/llms.txt](https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/llms.txt) (after next deploy) · repo: [llms.txt](llms.txt) · [llm.txt](llm.txt) |
+| **LLM brief** | [/llms.txt](https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/llms.txt) · repo: [llms.txt](llms.txt) · [llm.txt](llm.txt) |
 | **Agent playbook** | [AGENTS.md](AGENTS.md) |
 | **Docs index** | [docs/README.md](docs/README.md) |
 | **Friction log** | [24 entries](docs/FRICTION_LOG.md) — Alexa Skills Kit, ASK CLI, Lambda, IAM OIDC, Bedrock + Strands — each with steps, severity, workaround, suggestion, and the fixing commit |
@@ -61,8 +61,73 @@ That is the whole product demo. No clone, no AWS console, no keys in the browser
 
 ---
 
+## Why this beats a chatbot: one trip, three passports
+
+Ana, Sam and Priya are going to Japan together. Whether you need a visa depends on **your passport, not the trip**: Ana holds a Mexican passport, Sam a US one, Priya an Indian one. That makes the same question have three different correct answers. A chatbot without tools answers "you" in one paragraph, from memory, and forgets the group in the next session. Waypoint answers per traveler, from data, with a source, and remembers the group.
+
+### Step 1 · Say who is travelling, in plain words
+
+> *"We are three travelers: Ana has a Mexican passport, Sam has a US passport and Priya has an Indian passport."*
+
+![Three passports saved from one sentence](docs/screens/09-passports-input.png)
+
+There is no form. The Bedrock agent turns the sentence into one structured tool call, copied from the live protocol log:
+
+```json
+tools/call update_traveler_profile
+{ "travelers": [
+    { "displayName": "Ana",   "passports": ["MX"] },
+    { "displayName": "Sam",   "passports": ["US"] },
+    { "displayName": "Priya", "passports": ["IN"] } ] }
+```
+
+Only the **country** of each passport is stored, never a passport number. If a nationality is missing, Waypoint asks for it (MCP elicitation) instead of guessing.
+
+### Step 2 · Ask once, get three answers
+
+> *"We're going to Japan from December 3 to 10. Do we need visas?"*
+
+![One question, one answer per passport](docs/screens/10-passports-answer.png)
+
+> **Waypoint:** *"Ana and Sam don't need a visa for up to 90 days. Priya needs an e-visa before you travel. Rules change, so the official source has the final word."*
+
+Behind that one sentence, the agent made these calls on the server (from the same log):
+
+```text
+⇄ tools/call get_traveler_profile
+⇄ tools/call plan_trip                 { destination: "JP", startDate: "2026-12-03", endDate: "2026-12-10", travelerIds: [Ana, Sam, Priya] }
+⇄ tools/call check_entry_requirements  { destination: "JP", purpose: "tourism", travelerIds: [Ana, Sam, Priya] }
+⇄ tools/call get_local_rules           { destination: "JP" }
+```
+
+```mermaid
+flowchart LR
+  Q["One question<br/>Japan, Dec 3–10"] --> C["check_entry_requirements"]
+  C --> A["Ana · MX → JP<br/>visa-free, up to 90 days"]
+  C --> S["Sam · US → JP<br/>visa-free, up to 90 days"]
+  C --> P["Priya · IN → JP<br/>e-Visa required"]
+  M[("Passport × destination matrix<br/>~39,600 rows")] -.-> C
+  P --> T["trip_brief keeps<br/>Priya's e-Visa as pending"]
+```
+
+### The difference, row by row
+
+| | Chatbot without tools | Waypoint |
+|---|---|---|
+| **Who the answer is for** | "You", one answer for the group unless you ask three times | One row per traveler: Ana and Sam visa-free (up to 90 days), Priya e-Visa required |
+| **Where the fact comes from** | Training data, which may be out of date, with no date | A passport × destination matrix (~39,600 rows); the card shows the source, the date it was checked, and the confidence |
+| **Next session** | The group is gone; you type it again | Saved: every later question (rules, packing, Autopilot) already knows all three passports |
+| **What happens next** | A paragraph of text | A saved trip; `trip_brief` lists *"check the entry requirement for Priya (e-Visa required)"* as pending, and readiness stays below 100% until it's done |
+| **When the data is missing** | May guess | Says there is no verified data and points to the official source |
+| **Proof** | None | Every call appears in the MCP protocol log |
+
+Try it yourself: steps 3 and 5 of [For judges](#for-judges--open-it-on-your-phone) are exactly this flow.
+
+---
+
 ## Contents
 
+1. [Why this beats a chatbot](#why-this-beats-a-chatbot-one-trip-three-passports)
 1. [Demo walkthrough](#demo-walkthrough)
 2. [How one question becomes a cited answer](#how-one-question-becomes-a-cited-answer)
 3. [Knowledge scale](#knowledge-scale--what-we-actually-built)
@@ -94,7 +159,7 @@ The green **connected** dot means the browser finished the MCP `initialize` hand
 
 ### 3 · Trip planned — entry checked for each passport
 
-*"I'm going to Japan from December 3 to 10"* creates the trip and checks entry for every traveler: Ana and Sam can enter visa-free, Priya needs an e-Visa. Below that, Japan's serious rules (medicines, knives, meat) appear with severity labels.
+*"I'm going to Japan from December 3 to 10"* creates the trip and checks entry for every traveler: Ana and Sam can enter visa-free, Priya needs an e-Visa (the full story is in [one trip, three passports](#why-this-beats-a-chatbot-one-trip-three-passports)). Below that, Japan's serious rules (medicines, knives, meat) appear with severity labels.
 
 ![Japan trip with entry per traveler](docs/screens/03-trip-japan.png)
 
