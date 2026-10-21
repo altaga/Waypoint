@@ -1,6 +1,6 @@
 # Demo narration and project context
 
-Text only. Read it as written, at an easy pace (about 2.5 words a second). Total about 410 words, 2:46 with the typing and the pauses on screen. The beats and the exact sentences to type are in `docs/DEMO_SCRIPT.md`.
+Text only. Read it as written, at an easy pace (about 2.5 words a second). Total about 410 words, 2:46 with the typing and the pauses on screen. The beats and the exact sentences to type are in `docs/DEMO_SCRIPT.md`. This is the live demo path, not a transcript of a separately edited video.
 
 ## What Waypoint is today
 
@@ -26,13 +26,13 @@ This is a simulated Alexa+ host. Waypoint is a self-hosted MCP server, and this 
 Now one sentence: get me ready for Japan, December third to tenth. Waypoint creates the trip, then runs nine real tool calls: the group, entry rules, local laws, climate, essentials, real places, a day plan and a packing list. Every step shows its tool, its time, and the publisher behind the answer. It even checks its own plan before saving it. Then it opens its own panel, an MCP app, with the group's routes on the globe.
 
 **4 · Entry per passport, 0:57–1:08**
-Do we need a visa? Ana and Sam, no visa for up to ninety days. Priya needs an e-visa before she travels. Three passports, three answers, one question.
+Do we need a visa? Ana and Sam, no visa for up to ninety days. Priya needs a visa before she travels: the passport matrix marks an e-visa, and the application route depends on where she lives. Three passports, three answers, one question.
 
 **5 · Rules, 1:08–1:19**
 What can't I bring? Each rule is checked against its quoted official source before it is served. And the card says it plainly: compiled by us, not yet reviewed by a person.
 
 **6 · Payments, 1:19–1:37**
-How do I pay in Japan? Cash still matters, cards work in cities, and PayPay and LINE Pay are the QR apps, from official sources, with the date. And crypto? No official source says, so Waypoint says exactly that. Where it only has guides and traveler reports, it labels them as not official.
+How do I pay in Japan? Cash still matters, cards work in cities, and PayPay, Rakuten Pay and MerPay are the QR apps, from official sources, with the date. LINE Pay in Japan ended on 30 April 2025, so it is not listed. And crypto? No official source says, so Waypoint says exactly that. Where it only has guides and traveler reports, it labels them as not official.
 
 **7 · Apps and metro, 1:37–1:51**
 Which apps will work? Only the ones that do: apps on the company's own list, and apps the press reports, marked as not confirmed. Where there is no data, it never says an app is unavailable. And the metro: bank cards work only partly in Tokyo, and the cards to look for are Suica and PASMO.

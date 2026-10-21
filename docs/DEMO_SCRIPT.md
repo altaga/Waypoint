@@ -1,6 +1,6 @@
 # Demo script (under 3 minutes, English)
 
-Target: 2 min 46 s (166 s planned). No music, no third-party logos. The presenter narrates the lines. Waypoint's own replies are not spoken in this take (Read aloud is off), which keeps the timing. `ops/demo-recorder/` has a scripted take of an earlier, shorter cut (nine scenes, about 100 s); this table is the current plan.
+Target: 2 min 46 s (166 s planned). No music, no third-party logos. The presenter narrates the lines. Waypoint's own replies are not spoken in this take (Read aloud is off), which keeps the timing. This table is the live path the page expects: the typed sentences are ones the local router accepts. It is not a shot list of a separately edited video. `ops/demo-recorder/` has a scripted take of an earlier, shorter cut (nine scenes, about 100 s).
 
 ## What the rules ask for the video
 
@@ -20,7 +20,7 @@ Eleven beats, 166 s (2:46), which leaves 14 s of margin under the limit. Typed t
 | 0:00–0:09 | Title | Title card: "Three friends, three passports, one trip." |
 | 0:09–0:27 | Passports | Click **EN**. Type "Add Ana, Mexican passport", then "Add Sam, American passport", then "Add Priya, Indian passport". The profile card grows to three travelers with their countries |
 | 0:27–0:57 | Autopilot and panel | Type "Get me ready for Japan, December 3 to 10". The trip is created, then nine real tool calls run in phases, each with its time and its source. Press **View panel**: the MCP app with the globe and the three routes |
-| 0:57–1:08 | Entry per passport | Press **Close panel**. Type "Do we need a visa for Japan?" Ana and Sam: no visa up to 90 days. Priya: e-visa |
+| 0:57–1:08 | Entry per passport | Press **Close panel**. Type "Do we need a visa for Japan?" Ana and Sam: no visa up to 90 days. Priya: the passport matrix says e-visa. Say that the application route depends on where she lives |
 | 1:08–1:19 | Rules | Type "What can't I bring?" Two rules with severity. The footer says compiled by us, not yet reviewed by a person |
 | 1:19–1:37 | Payments | Type "How do I pay in Japan?" (cash, cards, QR apps, ATMs; official sources with date). Then "Can I pay with crypto in Japan?" |
 | 1:37–1:51 | Apps and metro | Type "Can I use Uber in Japan?" (only the apps that work: on the company's list, or reported by the press and marked not confirmed). Then "How does the metro work in Tokyo?" (bank cards only partly; Suica and PASMO) |

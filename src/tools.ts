@@ -1046,7 +1046,7 @@ export function registerWaypointTools(server: McpServer, ctx: AppContext, userId
     {
       title: "Destination highlights",
       description:
-        "Use to find real places to see, eat or visit in a destination. Call it before planning any day: the day plan may only use the place ids this tool returns. Filter by the traveler's interests. Opening hours and prices are not in this catalog; say so and point to the official source.",
+        "Use to find real places to see, eat or visit in a destination. Call it before planning any day: the day plan may only use the place ids this tool returns. Filter by the traveler's interests. Some places include opening hours when a source supplied them (often OpenStreetMap); say which source, and that a person has not checked them. Prices are not in this catalog. If a place has no hours, say so and point to the official source.",
       inputSchema: {
         destination: z.string().min(2),
         interests: z.array(z.enum(INTERESTS)).optional(),

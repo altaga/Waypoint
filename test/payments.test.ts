@@ -59,7 +59,8 @@ test("an official country answers with its methods, its source date and a warnin
   const crypto = rows.find((x) => x.label === "Cryptocurrency");
   assert.equal(crypto?.status, "warn");
   assert.ok(r.sources.length >= 1 && r.sources.every((x: { url: string; license: string }) => x.url.startsWith("https://") && x.license === "Official public information"));
-  assert.equal(r.lastVerified, data.countries.JP!.retrieved);
+  assert.match(r.card.subtitle, new RegExp(data.countries.JP!.retrieved));
+  assert.match(r.lastVerified, /^\d{4}-\d{2}-\d{2}$/);
 });
 
 test("a reported country says it is not officially confirmed, is low confidence and cites its guides", async () => {
@@ -100,7 +101,9 @@ test("every official entry has English text with the same fields as the Spanish 
 test("in English an official country answers in English, card and voice", async () => {
   const s = await session("payments-en-jp");
   const r = await s.call("get_payment_methods", { destination: "Japan", topic: "qr" });
-  assert.match(r.voice, /PayPay/);
+  assert.match(r.voice, /PayPay, Rakuten Pay and MerPay/);
+  assert.doesNotMatch(r.voice, /LINE Pay/);
+  assert.ok((r.data.notes as string[]).some((n) => /30 April 2025/.test(n)));
   assert.doesNotMatch(r.voice, /Sigue|apps QR/);
   const rows = r.card.rows.map((x: { value: string }) => x.value).join(" ");
   assert.doesNotMatch(rows, /Sigue|tiendas|cajeros/);

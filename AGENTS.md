@@ -5,7 +5,7 @@
 > **Not legal advice.** Rules and entry facts are cited leads — travelers must verify with official sources.
 
 **Judges (phone, no install):** https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/  
-**Read first (short):** [`llms.txt`](llms.txt) / [`llm.txt`](llm.txt) — live `/llms.txt` after deploy.  
+**Read first (short):** [`llms.txt`](llms.txt) / [`llm.txt`](llm.txt) — also live at `/llms.txt` on the public demo host.  
 **Humans:** [`README.md`](README.md) § *For judges — open it on your phone* · [`docs/README.md`](docs/README.md).  
 **Devpost checklist:** [`docs/SUBMISSION.md`](docs/SUBMISSION.md).
 
@@ -92,7 +92,7 @@ Browser (web/) ──Streamable HTTP──► Express /mcp ──► McpServer +
 ## 4. MCP contract (agents must respect)
 
 - Protocol: **2025-11-25**, Streamable HTTP at `/mcp` (`POST` / `GET` / `DELETE`).
-- Sessions: `Mcp-Session-Id`; send `MCP-Protocol-Version`.
+- Sessions: stateless Streamable HTTP (`sessionIdGenerator: undefined` in `src/server.ts`). Send `MCP-Protocol-Version`. Do not require `Mcp-Session-Id`. Memory is the state store, keyed by `x-waypoint-user`.
 - Identity (demo): header `x-waypoint-user` (browser visitor id or hashed Alexa user).
 - Origin guard: unknown browser origins → **403**.
 - Envelope shape (every successful tool):  

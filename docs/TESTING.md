@@ -62,6 +62,6 @@ It connects, loads the demo group, asks a rule question (checks the vape rule ca
 
 - The Bedrock brain is not part of `npm test` (it needs AWS). It is checked live after each deploy by `scripts/concierge-live.mjs`.
 - Descriptions of places: the first sentence of each Wikipedia article is shown with its link, and Waypoint's own text is marked `curated`. No person has checked either against the official site.
-- Opening hours, prices and closures: not in any source the app reads. Each stop of a day plan has a map link where the current hours are, and the suggested times say they are not opening hours. Nobody has checked that a suggested time falls inside a place's hours.
+- Opening hours: 289 curated places include them (mostly OpenStreetMap `opening_hours`). `src/hours.ts` reads only common forms, and a day plan's suggested time is not a promise the place is open. Prices are not in the catalog. Nobody has checked that a suggested time falls inside a place's hours.
 - Hosting, load, and latency under 500 ms on a real network.
 - Voice input and output. Web Speech is browser-only and was not exercised in the headless run.

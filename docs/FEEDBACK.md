@@ -22,8 +22,8 @@ Status is honest as of 2026-10-11: anything not yet run is marked so.
 
 ## Strands Agents TypeScript SDK (`@strands-agents/sdk` 1.20.0)
 
-- **Used for:** the optional "Alexa brain" (`src/brain.ts`): a Strands `Agent` with `BedrockModel` and an `McpClient` pointed at our own server.
-- **Worked well:** `McpClient` accepts `url` and `headers` directly, which is the simplest way to pass the user header through.
+- **Used for:** the optional "Alexa brain" (`src/brain.ts`): a Strands `Agent` with `BedrockModel` and an `McpClient` on an in-memory transport to the Waypoint server in the same process.
+- **Worked well:** `InMemoryTransport.createLinkedPair()` needs no local port, so the same code runs on Lambda. The user id is an argument to that server, not an HTTP header on a second hop.
 - **Needs work:** a documented way to pass per-request user identity through the MCP client would help multi-user agents.
 - **Onboarding:** typed and compiling in about 30 minutes; live against Bedrock the same day.
 - **Build again:** Yes.

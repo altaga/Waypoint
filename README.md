@@ -218,7 +218,7 @@ This is not a thin wrapper around one API. Every answer is backed by **committed
 | Passport → destination matrix | **~39,600** passport × destination rows | `check_entry_requirements`, `plan_trip` |
 | Country entry-rule packs | **13** destinations, quotes checked against source text | `get_local_rules`, `plan_trip` |
 | Official source text cache | **13** countries | Pack validation (`validate-packs`) |
-| Curated places | **194** countries · **~14,100** places | `get_highlights`, `build_itinerary` |
+| Curated places | **194** countries · **14,115** places | `get_highlights`, `build_itinerary` |
 | Ranked place lists (fallback) | **182** countries | `get_highlights` when no curated list |
 | Travel guide topics | **72** countries | `get_travel_guide` |
 | Payment methods | **197** countries | `get_payment_methods` |
@@ -330,7 +330,7 @@ Errors are traveler-friendly: no stack traces, raw URLs, HTTP codes, or tool nam
 |------|------------------------|---------------------|
 | `get_trip_climate` | What's the weather like? | NASA POWER normals for the trip dates (usual weather, not a forecast) |
 | `packing_checklist` | What do I pack? | Length + climate + plugs + kids/meds + "do not pack" rules; ticks persist |
-| `get_highlights` | What's worth seeing / near me? | **~14.1k** curated places across **194** countries (+ ranked fallback for **182**) |
+| `get_highlights` | What's worth seeing / near me? | **14,115** curated places across **194** countries (+ ranked fallback for **182**) |
 | `set_trip_constraints` | Avoid nightlife; under $1000 | Constraints every plan and expense respects |
 | `build_itinerary` | Day plan | Stops must be catalog place ids; the **verifier** rejects bad pace / country / avoided interests |
 | `trip_brief` | What's left for my trip? | Readiness, pending items, free-cancellation deadlines |

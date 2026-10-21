@@ -5,15 +5,13 @@
 - **Name:** `travel-entry-packs`
 - **Content:** the country-pack JSON schema, a validator, and sample packs. The source for this package is in this repository at `oss/travel-entry-packs/`.
 - **Licence:** MIT (`oss/travel-entry-packs/LICENSE`).
-- **Status:** the package is scaffolded and tested here (`npm test` inside that folder). **The public repository has not been created yet.** It needs an owner decision (the team's GitHub account) before it is published.
-
-To publish: copy `oss/travel-entry-packs/` to a new repository root, push it, and record the URL below.
+- **Status:** published. The package in `oss/travel-entry-packs/` is the source; the public repository is a separate project.
 
 | Field | Value |
 |---|---|
-| Contribution URL | _to be recorded after the repo is created_ |
-| Repository URL | _to be recorded_ |
-| GitHub user | _to be recorded_ |
+| Contribution URL | https://github.com/altaga/travel-entry-packs |
+| Repository URL | https://github.com/altaga/travel-entry-packs |
+| GitHub user | `altaga` |
 | Description | A schema and validator for country entry-rule packs with verbatim, source-checked quotes, plus sample packs for Japan and Singapore. Tests included. |
 
 ## Optional upstream PR

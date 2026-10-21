@@ -27,7 +27,7 @@ Checked against the official Rules, FAQ and Dates tab on 2026-10-18. The Rules s
 |---|---|---|
 | GitHub (not GitLab) | Done | `altaga/Waypoint` |
 | All source, assets and instructions to run | Done | `npm ci && npm test && npm start` from a clean clone |
-| Public with an open-source licence visible in the About section, **or** private shared with the reviewers | **Owner action** | MIT `LICENSE` is at the root. Make the repo public, or add the reviewers near submission time (invites expire after 7 days) |
+| Public with an open-source licence visible in the About section, **or** private shared with the reviewers | Done | Public MIT repository: https://github.com/altaga/Waypoint |
 | Clear setup and run instructions | Done | README |
 
 ## Submission form
@@ -37,11 +37,11 @@ Checked against the official Rules, FAQ and Dates tab on 2026-10-18. The Rules s
 | Text description of features | To write | Owner (can be drafted from README) |
 | Repo URL | Ready | |
 | Video under 3 minutes, **YouTube or Vimeo**, public, English, showing the project working, no third-party trademarks or copyrighted music | **To record** | Owner, using `docs/DEMO_SCRIPT.md` |
-| Product feedback for every tool, API or SDK: what for, what worked, what needs work, onboarding, would you build again | Drafted | `docs/FEEDBACK.md` (Bedrock section pending a live run) |
+| Product feedback for every tool, API or SDK: what for, what worked, what needs work, onboarding, would you build again | Drafted | `docs/FEEDBACK.md` (Bedrock live run recorded for 2026-10-11; each successful deploy re-checks the concierge) |
 | Primary track: Alexa+ | To select | Owner |
 | Mini challenges: AWS Builder, Open Source | To select | Owner |
 | AWS Builder: which AWS services and how, in the feedback answer | Drafted | `docs/FEEDBACK.md`, `docs/AWS.md` |
-| Open Source: contribution URL, repo URL, GitHub username, description | **Blocked** until the public repo exists | `docs/OPEN_SOURCE.md` |
+| Open Source: contribution URL, repo URL, GitHub username, description | Ready | https://github.com/altaga/travel-entry-packs — `docs/OPEN_SOURCE.md` |
 | Optional friction log (up to 10% bonus) | Ready: 24 entries, 15 on Amazon products, each with evidence | `docs/FRICTION_LOG.md` |
 | Optional feature requests (description, why it matters, priority) | Not started | |
 | English for all materials | Done for docs | |
@@ -59,7 +59,7 @@ Checked against the official Rules, FAQ and Dates tab on 2026-10-18. The Rules s
 - Stage one: pass/fail on fitting the theme and applying the required APIs/SDKs.
 - Stage two: four equally weighted criteria: Tech Implementation, Design, Potential Impact, Quality of the Idea.
 - For Alexa+, the rules call "single-turn Q&A bot" and "basic MCP wrapper around an existing API" obvious; they call out as creative: agentic workflows across services, state across sessions, purchasing, media support (cards, carousels), MCP Apps, Agent Skills. Waypoint covers agentic workflows across services (the Autopilot), state across sessions, cards and carousels (`src/envelope.ts`) and an MCP App. It does not have a purchasing flow. `agent-skills/waypoint/SKILL.md` is a Claude skill file, not an Alexa Agent Skill: do not present it as one.
-- For AWS Builder, "single Bedrock call" is called obvious; "multi-service pipeline (Bedrock + AgentCore + Strands)" is called creative. Today Waypoint has Strands + Bedrock wired but not run, so this mini challenge is the weakest part of the entry.
+- For AWS Builder, "single Bedrock call" is called obvious; "multi-service pipeline (Bedrock + AgentCore + Strands)" is called creative. Waypoint runs Strands on Bedrock, on Lambda, with DynamoDB. The concierge check on each successful deploy calls Bedrock. The last green `deploy-aws` run on `main` is 2026-10-20. There is no AgentCore service in the pipeline. A dispatch on 2026-10-21 did not succeed.
 
 ## Eligibility
 

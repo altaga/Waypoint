@@ -6,7 +6,7 @@
 |---|---|---|
 | Agent brain at runtime | Amazon Bedrock via Strands Agents TypeScript (`src/brain.ts`) | **Verified live on 2026-10-11** by the `aws-smoke` workflow: GitHub OIDC role → Bedrock → Strands agent calling the Waypoint MCP server. Enable with `WAYPOINT_BRAIN=bedrock` and `WAYPOINT_BEDROCK_MODEL`. |
 | Country-pack extraction | Bedrock `Converse` with tool use (design in the context doc §4.7) | **Not built.** The current build uses a deterministic extractor. Tier B packs say so. |
-| Hosting | Lambda with Function URL, DynamoDB for `StateStore` | **Deployed** by the `deploy-aws` workflow (manual trigger). Each run completes the CDK deploy and then the live concierge and tools checks. Runs of 2026-10-17 succeeded. |
+| Hosting | Lambda with Function URL, DynamoDB for `StateStore` | **Deployed** by the `deploy-aws` workflow (manual trigger). Each run completes the CDK deploy and then the live concierge and tools checks. The last successful run on `main` is 2026-10-20. A later dispatch on 2026-10-21 did not succeed. |
 
 ## Deploying and keeping it up
 
@@ -18,8 +18,9 @@ Bedrock is called on every deploy by the live concierge check, and the `aws-smok
 
 ## How the brain is wired
 
-- Strands `Agent` with `BedrockModel` and an `McpClient` pointed at the server's `/mcp` endpoint.
-- The user id travels as the `x-waypoint-user` header, so the agent sees the same memory as the simulator.
+- The browser talks to Waypoint over MCP Streamable HTTP at `/mcp`.
+- The server-side concierge does not call that URL. `src/brain.ts` links a Strands `McpClient` to the same process with `InMemoryTransport`, so the agent runs on Lambda without a local port and calls the same registered tools.
+- The user id is the one passed into that in-memory server, the same id the simulator sends as `x-waypoint-user`.
 - The system prompt forbids tool names and JSON in replies, and requires the disclaimer.
 
 ## Costs to watch

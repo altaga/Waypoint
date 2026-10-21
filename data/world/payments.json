@@ -2709,17 +2709,18 @@
     },
     "JP": {
       "tier": "oficial",
-      "retrieved": "2026-10-17",
+      "retrieved": "2026-10-21",
       "name": "Japón",
       "confidence": "media",
       "cash": "Sigue haciendo falta en tiendas pequeñas, casas de huéspedes y zonas rurales, y en algunos hoteles.",
       "cards": "Visa, Mastercard y JCB en hoteles grandes, grandes almacenes y restaurantes urbanos; la aceptación varía por comercio.",
-      "qr": "PayPay, LINE Pay, Rakuten Pay y MerPay son las apps QR más comunes. Apple Pay, Google Pay y Alipay a veces no funcionan para visitantes.",
+      "qr": "PayPay, Rakuten Pay y MerPay son las apps QR más comunes. Apple Pay, Google Pay y Alipay a veces no funcionan para visitantes.",
       "atm": "Los cajeros de las tiendas de conveniencia aceptan tarjetas extranjeras para retirar yenes.",
       "banknotes": null,
       "crypto": null,
       "notes": [
-        "Confirmar apps y tarjetas aceptadas antes de viajar; las guías de japan.travel cambian con frecuencia."
+        "Confirmar apps y tarjetas aceptadas antes de viajar; las guías de japan.travel cambian con frecuencia.",
+        "LINE Pay dejó de operar para consumidores en Japón el 30 de abril de 2025. No es una opción actual. LINE Pay de Taiwán es otro servicio."
       ],
       "sources": [
         {
@@ -2729,6 +2730,10 @@
         {
           "title": "Japan Travel: Cashless payments in Japan",
           "url": "https://www.japan.travel/en/plan/cashless-payments-in-japan/"
+        },
+        {
+          "title": "LY Corporation: Termination of LINE Pay service in Japan",
+          "url": "https://www.lycorp.co.jp/en/news/release/008632/"
         }
       ]
     },

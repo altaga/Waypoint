@@ -32,8 +32,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - name: Gate - typecheck and every test, Alexa robustness sweep included
-        run: npm run typecheck && npm test
+      - name: Gate - typecheck, tests, pack validation and accuracy eval
+        run: npm run ci
       - name: Assume the deploy role through OIDC
         uses: aws-actions/configure-aws-credentials@v4
         with:
