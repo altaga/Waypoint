@@ -11,7 +11,7 @@ import { mountGlobe } from "./globe.js";
 import { fromHereRequest, nearestCity, whereLine } from "./geo.js";
 import { PACE_NAMES, askDatesLine, askedPace, isAutopilot, makeTrip, missionHtml, noTripLine, runMission, tripFromRequest } from "./mission.js";
 import { freshCalls } from "./turn.js";
-import { colorFor, describeEntry, inkOn, toolColor } from "./tool-color.js";
+import { colorFor, describeEntry, inkOn } from "./tool-color.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -484,12 +484,6 @@ function appendLog(dir, msg) {
   log.scrollTop = log.scrollHeight;
 }
 
-function toolChip(tool, isError) {
-  const color = toolColor(tool);
-  const label = t("tools")[tool] || tool;
-  return `<span class="step${isError ? " err" : ""}" style="--tool:${color};--on-tool:${inkOn(color)}"><b>${esc(label)}</b><code>${esc(tool)}</code></span>`;
-}
-
 // The newest message stays in view: while the reader is at the bottom, the transcript follows it, including
 // when the thinking line or the chips under it change its height (that used to cut the last bubble).
 let stickToBottom = true;
@@ -704,7 +698,7 @@ async function renderResult(result, tool) {
   }
   lastStructured = sc;
   $("headline").textContent = sc.voice;
-  $("trace").innerHTML = tool ? toolChip(tool, false) : "";
+  $("trace").innerHTML = "";
   bubble("assistant", sc.voice);
   speak(sc.voice);
   if (device !== "voice") {
@@ -906,7 +900,7 @@ async function renderBrainReply(reply) {
   }
   $("trace").innerHTML = reply.calls
     .filter((c) => !TRACE_SKIP.has(c.tool))
-    .map((c) => toolChip(c.tool, c.isError))
+    .map((c) => `<span class="step${c.isError ? " err" : ""}">${esc(t("tools")[c.tool] || c.tool)}</span>`)
     .join("");
   if (device === "voice") {
     // Voice-only still reads the trip from the server, so the hero is right when the device changes back.

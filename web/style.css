@@ -125,9 +125,8 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 @keyframes dot { 0%, 100% { transform: translateY(0); opacity: .35; } 50% { transform: translateY(-3px); opacity: 1; } }
 .trace { display: flex; flex-wrap: wrap; gap: var(--s-6); font-size: var(--t-caption); color: var(--ink-2); padding: 0 var(--s-4); }
 .trace:empty { display: none; }
-.trace .step { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; background: var(--tool, rgba(255, 255, 255, .06)); color: var(--on-tool, var(--ink-2)); border: 0; font-weight: 700; }
-.trace .step code { font: 700 11px/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; opacity: .8; }
-.trace .step.err { outline: 2px solid var(--danger); }
+.trace .step { padding: 2px var(--s-8); border-radius: 999px; background: rgba(255, 255, 255, .06); border: 1px solid var(--hairline); font-variant-numeric: tabular-nums; }
+.trace .step.err { color: var(--danger); }
 .chips { display: flex; flex-wrap: wrap; gap: var(--s-6); }
 .chip {
   min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--hairline-2); background: rgba(255, 255, 255, .045);
@@ -509,16 +508,16 @@ select { -webkit-appearance: none; appearance: none; padding-right: 38px; backgr
 .m-ico { position: relative; display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; border: 1.5px solid rgba(255, 255, 255, .18); color: transparent; transition: background .25s, border-color .25s, color .25s; }
 .m-ico .ico { width: 14px; height: 14px; }
 .m-text { display: grid; min-width: 0; }
-.m-name { font-size: var(--t-callout); font-weight: 650; color: var(--tool, var(--d-ink-2)); transition: color .25s; }
+.m-name { font-size: var(--t-callout); font-weight: 500; color: var(--d-ink-2); transition: color .25s; }
 /* The result wraps: on a narrow card it is the part worth reading, so it is never cut. */
 .m-res { font-size: 13px; color: var(--d-ink-2); overflow-wrap: anywhere; }
 .m-res:empty { display: none; }
 .m-by { font-size: var(--t-caption); color: var(--d-ink-2); opacity: .8; overflow-wrap: anywhere; }
 .m-by:empty { display: none; }
-.m-tool { font: 700 12px/1 ui-monospace, "SF Mono", Menlo, Consolas, monospace; color: var(--on-tool, #14120a); padding: 5px 8px; border-radius: 8px; background: var(--tool, #2997ff); border: 0; white-space: nowrap; }
+.m-tool { font: 500 12px/1 ui-monospace, "SF Mono", Menlo, Consolas, monospace; color: #9fd3ff; padding: 5px 8px; border-radius: 8px; background: rgba(41, 151, 255, .1); border: 1px solid rgba(41, 151, 255, .18); white-space: nowrap; }
 .m-ms { min-width: 52px; text-align: right; font-size: var(--t-caption); color: var(--d-ink-2); font-variant-numeric: tabular-nums; }
-.m-step[data-state="run"] { background: color-mix(in srgb, var(--tool, #2997ff) 28%, transparent); }
-.m-step[data-state="run"] .m-name, .m-step[data-state="done"] .m-name { color: var(--tool, var(--d-ink)); }
+.m-step[data-state="run"] { background: rgba(41, 151, 255, .1); }
+.m-step[data-state="run"] .m-name, .m-step[data-state="done"] .m-name { color: var(--d-ink); }
 .m-step[data-state="run"] .m-ico { border-color: rgba(41, 151, 255, .35); border-top-color: #64d2ff; animation: orb-spin .8s linear infinite; box-shadow: 0 0 12px rgba(100, 210, 255, .45); }
 .m-step[data-state="done"] .m-ico { background: var(--d-ok); border-color: var(--d-ok); color: #00210b; animation: tick-pop .35s var(--ease); }
 .m-step[data-state="done"] .m-res { color: var(--d-ink); }
