@@ -2,7 +2,7 @@
 // text fallback, ES/EN (the language follows what the traveler writes), elicitation forms,
 // an MCP Apps iframe host, and a protocol log for developers. It talks to the Waypoint MCP
 // server through a real MCP client (mcp-client.js).
-import { McpClient, PROTOCOL_VERSION } from "./mcp-client.js";
+import { McpClient } from "./mcp-client.js";
 import { routeUtterance } from "./router.js";
 import { esc, heroHtml, renderTool, tripIcs, words } from "./cards.js";
 import { detectLang } from "./lang.js";
@@ -95,7 +95,7 @@ const UI = {
     notUnderstood: "I didn't catch that. Try: “Can I bring vapes to Singapore?” or “Trip to Japan from December 3 to 10”.",
     send: "Send",
     speak: "Speak",
-    aboutText: `A simulated Alexa+ host built for a hackathon entry. It is not affiliated with Amazon and does not integrate with Alexa+. The server is a self-hosted MCP server; this page is a real MCP client (${PROTOCOL_VERSION}).`,
+    aboutText: "Simulated Alexa+ host. Not affiliated with Amazon.",
     demo: "Example group",
     reset: "New session",
     locate: "My location",
@@ -192,7 +192,7 @@ const UI = {
     notUnderstood: "No entendí. Prueba: “¿Puedo llevar vapes a Singapur?” o “Viajo a Japón del 3 al 10 de diciembre”.",
     send: "Enviar",
     speak: "Hablar",
-    aboutText: `Un host simulado de Alexa+ creado para una entrada de hackathon. No está afiliado a Amazon ni se integra con Alexa+. El servidor es un servidor MCP propio; esta página es un cliente MCP real (${PROTOCOL_VERSION}).`,
+    aboutText: "Host simulado de Alexa+. No está afiliado a Amazon.",
     demo: "Grupo de ejemplo",
     reset: "Nueva sesión",
     locate: "Mi ubicación",
@@ -421,6 +421,21 @@ function logKindLabel(kind) {
   return t("logCall");
 }
 
+function logText(msg) {
+  const copy = structuredClone(msg);
+  const hideVersion = (value) => {
+    if (!value || typeof value !== "object") return;
+    if (Array.isArray(value)) {
+      for (const item of value) hideVersion(item);
+      return;
+    }
+    delete value.protocolVersion;
+    for (const item of Object.values(value)) hideVersion(item);
+  };
+  hideVersion(copy);
+  return JSON.stringify(copy).slice(0, 700);
+}
+
 function paintLogRow(row) {
   const tool = row.dataset.tool || "";
   row.querySelector(".log-kind").textContent = logKindLabel(row.dataset.kind);
@@ -459,7 +474,7 @@ function appendLog(dir, msg) {
   what.className = "log-what";
   const body = document.createElement("pre");
   body.className = "log-body";
-  body.textContent = JSON.stringify(msg).slice(0, 700);
+  body.textContent = logText(msg);
   row.append(head, what, body);
   paintLogRow(row);
   const log = $("log");

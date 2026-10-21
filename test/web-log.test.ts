@@ -32,6 +32,21 @@ test("every tool has its own color, light enough to read on the device card", ()
   for (const [name, color] of Object.entries(TOOL_COLOR)) {
     assert.ok(contrast(color, "#101114") >= 4.5, `${name} ${color} is too dim on the card`);
     assert.ok(contrast(inkOn(color), color) >= 4.5, `${name} ink fails on its own color`);
+    const n = parseInt(color.slice(1), 16);
+    const r = ((n >> 16) & 255) / 255;
+    const g = ((n >> 8) & 255) / 255;
+    const b = (n & 255) / 255;
+    const max = Math.max(r, g, b);
+    const min = Math.min(r, g, b);
+    const d = max - min;
+    let h = 0;
+    if (d !== 0) {
+      if (max === r) h = ((g - b) / d) % 6;
+      else if (max === g) h = (b - r) / d + 2;
+      else h = (r - g) / d + 4;
+      h = (h * 60 + 360) % 360;
+    }
+    assert.ok(h >= 28 && h <= 300, `${name} ${color} reads as an error red`);
   }
 });
 
