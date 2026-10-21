@@ -1,4 +1,5 @@
 import { join } from "node:path";
+import { pathToFileURL } from "node:url";
 import express, { type Request, type Response } from "express";
 import { createMcpExpressApp } from "@modelcontextprotocol/sdk/server/express.js";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
@@ -152,7 +153,8 @@ export function createApp(ctx: AppContext = createContext()) {
   return root;
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+const entry = process.argv[1];
+if (entry && import.meta.url === pathToFileURL(entry).href) {
   const port = Number(process.env.PORT ?? 3000);
   const app = createApp();
   app.listen(port, "127.0.0.1", () => {

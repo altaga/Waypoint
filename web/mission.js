@@ -2,6 +2,7 @@
 // tools/call on the Waypoint server, chained by the host (the result of one feeds the next); the
 // screen shows each step running, its result, its time and its source, then says a short summary.
 import { esc, icon } from "./cards.js";
+import { inkOn, toolColor } from "./tool-color.js";
 import { findDates, findDestination } from "./router.js";
 
 const WORDS = {
@@ -160,8 +161,9 @@ export function missionHtml(lang, destName) {
   const steps = PHASES.flatMap((keys, phase) =>
     keys.map((k) => {
       const i = STEP_KEYS.indexOf(k);
+      const color = toolColor(TOOL_OF[k]);
       const par = keys.length > 1 ? ` data-par="${keys.indexOf(k) === 0 ? "first" : keys.indexOf(k) === keys.length - 1 ? "last" : "mid"}"` : "";
-      return `<li class="m-step" data-key="${k}" data-phase="${phase + 1}" data-state="pending"${par} style="--i:${i}">
+      return `<li class="m-step" data-key="${k}" data-phase="${phase + 1}" data-state="pending"${par} style="--i:${i};--tool:${color};--on-tool:${inkOn(color)}">
       <span class="m-ico" aria-hidden="true">${icon("check")}</span>
       <span class="m-text"><span class="m-name">${esc(w.steps[k])}</span><span class="m-res"></span><span class="m-by"></span></span>
       <code class="m-tool">${esc(TOOL_OF[k])}</code>

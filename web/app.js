@@ -11,6 +11,7 @@ import { mountGlobe } from "./globe.js";
 import { fromHereRequest, nearestCity, whereLine } from "./geo.js";
 import { PACE_NAMES, askDatesLine, askedPace, isAutopilot, makeTrip, missionHtml, noTripLine, runMission, tripFromRequest } from "./mission.js";
 import { freshCalls } from "./turn.js";
+import { colorFor, describeEntry, inkOn, toolColor } from "./tool-color.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -33,6 +34,29 @@ const UI = {
     welcomeIntro: "I can help with",
     welcomeTags: ["Entry rules", "Local rules", "Budget", "Packing", "Day plan", "Group money"],
     protocol: "For developers: MCP protocol log",
+    logKey: "Each color is one tool. A solid label means that call is happening.",
+    logCall: "Calling",
+    logAnswer: "Answer",
+    logError: "Error",
+    logNote: "Notice",
+    logWhat: {
+      brain: "This page is asking the server agent. The agent then calls MCP tools.",
+      tool: "MCP tool call. The server is running this tool.",
+      "agent-tool": "The agent called this MCP tool on the server.",
+      "tool-answer": "The server answered this tool call.",
+      initialize: "Opening the MCP session.",
+      "initialize-answer": "The server accepted the session.",
+      "tools/list": "Asking the server which tools it has.",
+      "tools/list-answer": "The server listed its tools.",
+      "notifications/initialized": "The client told the server it is ready.",
+      "resources/read": "Reading a screen the server sent.",
+      "resources/read-answer": "The server sent that screen.",
+      "elicitation/create": "The server is asking a question.",
+      "elicitation/create-answer": "The answer went back to the server.",
+      error: "This call failed.",
+      result: "Response from the server.",
+      other: "Protocol message.",
+    },
     thinking: "Waypoint is checking…",
     menu: "Settings",
     ariaLang: "Language", ariaDevice: "Device", optMobile: "Mobile", optVoice: "Voice only",
@@ -59,6 +83,7 @@ const UI = {
       get_traveler_profile: "Profile", update_traveler_profile: "Saved profile", plan_trip: "Trip plan",
       check_entry_requirements: "Entry rules", get_local_rules: "Local rules", get_destination_essentials: "Essentials",
       convert_budget: "Budget", packing_checklist: "Packing", build_itinerary: "Itinerary", trip_brief: "Trip brief",
+      get_travel_guide: "Guide", get_trip_calendar: "Calendar", get_what_works: "What works",
       log_expense: "Expense", forget_me: "Forget me", get_highlights: "Places", set_trip_constraints: "Trip rules",
       add_booking: "Booking", confirm_booking: "Confirmed", settle_up: "Group money", plan_fairness: "Fairness", export_trip: "Export",
       get_trip_climate: "Climate",
@@ -106,6 +131,29 @@ const UI = {
     welcomeIntro: "Puedo ayudarte con",
     welcomeTags: ["Requisitos de entrada", "Reglas locales", "Presupuesto", "Equipaje", "Plan de días", "Cuentas del grupo"],
     protocol: "Para desarrolladores: registro MCP",
+    logKey: "Cada color es una herramienta. La etiqueta rellena significa que esa llamada se está haciendo.",
+    logCall: "Llamando",
+    logAnswer: "Respuesta",
+    logError: "Error",
+    logNote: "Aviso",
+    logWhat: {
+      brain: "Esta página le pregunta al agente del servidor. El agente llama las herramientas MCP.",
+      tool: "Llamada MCP. El servidor está ejecutando esta herramienta.",
+      "agent-tool": "El agente llamó esta herramienta MCP en el servidor.",
+      "tool-answer": "El servidor respondió esta llamada.",
+      initialize: "Abriendo la sesión MCP.",
+      "initialize-answer": "El servidor aceptó la sesión.",
+      "tools/list": "Pidiendo la lista de herramientas.",
+      "tools/list-answer": "El servidor envió sus herramientas.",
+      "notifications/initialized": "El cliente avisó que ya está listo.",
+      "resources/read": "Leyendo una pantalla que envió el servidor.",
+      "resources/read-answer": "El servidor envió esa pantalla.",
+      "elicitation/create": "El servidor está haciendo una pregunta.",
+      "elicitation/create-answer": "La respuesta volvió al servidor.",
+      error: "Esta llamada falló.",
+      result: "Respuesta del servidor.",
+      other: "Mensaje del protocolo.",
+    },
     thinking: "Waypoint está revisando…",
     menu: "Ajustes",
     ariaLang: "Idioma", ariaDevice: "Dispositivo", optMobile: "Móvil", optVoice: "Solo voz",
@@ -132,6 +180,7 @@ const UI = {
       get_traveler_profile: "Perfil", update_traveler_profile: "Perfil guardado", plan_trip: "Plan del viaje",
       check_entry_requirements: "Requisitos de entrada", get_local_rules: "Reglas locales", get_destination_essentials: "Básicos",
       convert_budget: "Presupuesto", packing_checklist: "Maleta", build_itinerary: "Itinerario", trip_brief: "Resumen del viaje",
+      get_travel_guide: "Guía", get_trip_calendar: "Calendario", get_what_works: "Qué funciona",
       log_expense: "Gasto", forget_me: "Olvidar datos", get_highlights: "Lugares", set_trip_constraints: "Reglas del viaje",
       add_booking: "Reserva", confirm_booking: "Confirmada", settle_up: "Cuentas", plan_fairness: "Equidad", export_trip: "Exportar",
       get_trip_climate: "Clima",
@@ -222,6 +271,8 @@ function applyLang() {
   $("locate").textContent = t("locate");
   if (!wipeArmed) $("wipe").textContent = t("wipe");
   $("lblProtocol").textContent = t("protocol");
+  $("logKey").textContent = t("logKey");
+  refreshLogLabels();
   $("moreCue").textContent = t("moreCue");
   $("menuBtn").textContent = t("menu");
   document.querySelector(".seg").setAttribute("aria-label", t("ariaLang"));
@@ -360,16 +411,68 @@ function setThinking(on) {
   $("send").disabled = on;
 }
 
+// Which tool an outstanding request id belongs to, so the answer keeps that tool's color.
+const logPending = new Map();
+
+function logKindLabel(kind) {
+  if (kind === "error") return t("logError");
+  if (kind === "answer") return t("logAnswer");
+  if (kind === "note") return t("logNote");
+  return t("logCall");
+}
+
+function paintLogRow(row) {
+  const tool = row.dataset.tool || "";
+  row.querySelector(".log-kind").textContent = logKindLabel(row.dataset.kind);
+  row.querySelector(".log-name").textContent = tool ? t("tools")[tool] || "" : "";
+  row.querySelector(".log-what").textContent = t("logWhat")[row.dataset.key] || t("logWhat").other;
+}
+
+function refreshLogLabels() {
+  for (const row of $("log").children) paintLogRow(row);
+}
+
 function appendLog(dir, msg) {
-  const time = new Date().toISOString().slice(11, 23);
-  const summary = msg.method ? msg.method : msg.error ? `error ${msg.error.code}` : "result";
-  const body = JSON.stringify(msg).slice(0, 600);
-  const line = `${time} ${dir} ${summary}${msg.id !== undefined ? ` #${msg.id}` : ""}\n    ${body}\n`;
+  const entry = describeEntry(dir, msg, logPending);
+  const color = colorFor(entry);
+  const row = document.createElement("article");
+  row.className = "log-row";
+  row.dataset.kind = entry.kind;
+  row.dataset.key = entry.key;
+  if (entry.tool) row.dataset.tool = entry.tool;
+  row.style.setProperty("--tool", color);
+  row.style.setProperty("--on-tool", inkOn(color));
+  const head = document.createElement("div");
+  head.className = "log-head";
+  const time = document.createElement("time");
+  time.dateTime = new Date().toISOString();
+  time.textContent = time.dateTime.slice(11, 23);
+  const kind = document.createElement("span");
+  kind.className = "log-kind";
+  const tool = document.createElement("code");
+  tool.className = "log-tool";
+  tool.textContent = entry.name;
+  const name = document.createElement("span");
+  name.className = "log-name";
+  head.append(time, kind, tool, name);
+  const what = document.createElement("p");
+  what.className = "log-what";
+  const body = document.createElement("pre");
+  body.className = "log-body";
+  body.textContent = JSON.stringify(msg).slice(0, 700);
+  row.append(head, what, body);
+  paintLogRow(row);
   const log = $("log");
-  // Keep the protocol log short: a long session must not grow it without limit.
-  if (log.textContent.length > 60_000) log.textContent = log.textContent.slice(-40_000);
-  log.textContent += line;
+  log.appendChild(row);
+  // A long session must not grow the log without limit.
+  while (log.children.length > 48) log.firstElementChild.remove();
   log.scrollTop = log.scrollHeight;
+}
+
+function toolChip(tool, isError) {
+  const color = toolColor(tool);
+  const label = t("tools")[tool] || tool;
+  return `<span class="step${isError ? " err" : ""}" style="--tool:${color};--on-tool:${inkOn(color)}"><b>${esc(label)}</b><code>${esc(tool)}</code></span>`;
 }
 
 // The newest message stays in view: while the reader is at the bottom, the transcript follows it, including
@@ -586,7 +689,7 @@ async function renderResult(result, tool) {
   }
   lastStructured = sc;
   $("headline").textContent = sc.voice;
-  $("trace").innerHTML = "";
+  $("trace").innerHTML = tool ? toolChip(tool, false) : "";
   bubble("assistant", sc.voice);
   speak(sc.voice);
   if (device !== "voice") {
@@ -786,10 +889,9 @@ async function renderBrainReply(reply) {
   for (const c of reply.calls) {
     appendLog("⇄", { method: `tools/call ${c.tool} (server-side agent)`, params: c.args, result: { isError: c.isError } });
   }
-  const trace = $("trace");
-  trace.innerHTML = reply.calls
+  $("trace").innerHTML = reply.calls
     .filter((c) => !TRACE_SKIP.has(c.tool))
-    .map((c) => `<span class="step ${c.isError ? "err" : ""}">${esc(t("tools")[c.tool] || c.tool)}</span>`)
+    .map((c) => toolChip(c.tool, c.isError))
     .join("");
   if (device === "voice") {
     // Voice-only still reads the trip from the server, so the hero is right when the device changes back.
