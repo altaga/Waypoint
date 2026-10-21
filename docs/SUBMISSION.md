@@ -42,7 +42,7 @@ Checked against the official Rules, FAQ and Dates tab on 2026-10-18. The Rules s
 | Mini challenges: AWS Builder, Open Source | To select | Owner |
 | AWS Builder: which AWS services and how, in the feedback answer | Drafted | `docs/FEEDBACK.md`, `docs/AWS.md` |
 | Open Source: contribution URL, repo URL, GitHub username, description | **Blocked** until the public repo exists | `docs/OPEN_SOURCE.md` |
-| Optional friction log (up to 10% bonus) | Drafted | `docs/FRICTION_LOG.md` |
+| Optional friction log (up to 10% bonus) | Ready: 24 entries, 15 on Amazon products, each with evidence | `docs/FRICTION_LOG.md` |
 | Optional feature requests (description, why it matters, priority) | Not started | |
 | English for all materials | Done for docs | |
 

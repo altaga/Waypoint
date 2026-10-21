@@ -56,7 +56,8 @@ That is the whole product demo. No clone, no AWS console, no keys in the browser
 | **LLM brief** | [/llms.txt](https://hwbs7pqoqtsbcgb72stpikb5gy0scxmv.lambda-url.us-east-1.on.aws/llms.txt) (after next deploy) · repo: [llms.txt](llms.txt) · [llm.txt](llm.txt) |
 | **Agent playbook** | [AGENTS.md](AGENTS.md) |
 | **Docs index** | [docs/README.md](docs/README.md) |
-| **Video / feedback / friction / checklist** | [DEMO_SCRIPT](docs/DEMO_SCRIPT.md) · [FEEDBACK](docs/FEEDBACK.md) · [FRICTION_LOG](docs/FRICTION_LOG.md) · [SUBMISSION](docs/SUBMISSION.md) |
+| **Friction log** | [24 entries](docs/FRICTION_LOG.md) — Alexa Skills Kit, ASK CLI, Lambda, IAM OIDC, Bedrock + Strands — each with steps, severity, workaround, suggestion, and the fixing commit |
+| **Video / feedback / checklist** | [DEMO_SCRIPT](docs/DEMO_SCRIPT.md) · [FEEDBACK](docs/FEEDBACK.md) · [SUBMISSION](docs/SUBMISSION.md) |
 
 ---
 
